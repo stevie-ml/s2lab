@@ -330,6 +330,178 @@ And Angelica, in the survey, survey,
 survey, survey of the survey."""
     },
     {
+        "title": "The Instruction Manual",
+        "author": "John Ashbery",
+        "year": 1956,
+        "era": "new_york_school",
+        "text": """As I sit looking out of a window of the building
+I wish I did not have to write the instruction manual on the uses of a new metal.
+I look down into the street and see people, each walking with an inner peace,
+And envy them—they are so far away from me!
+Not one of them has to worry about getting out this manual on schedule.
+And, as my eyes wandered down the street, I saw a man
+Looking into a shop window, and I wondered what he was thinking."""
+    },
+    {
+        "title": "What Is Poetry",
+        "author": "John Ashbery",
+        "year": 1977,
+        "era": "new_york_school",
+        "text": """The medieval town, with frieze
+Of boy scouts from Nagoya? The snow
+
+That plastered the ball field? First, some
+Preliminary niceties. The world is beautiful,
+And I am in it. And on top of
+All that, an electric train set
+In Guadalajara."""
+    },
+    {
+        "title": "Paradoxes and Oxymorons",
+        "author": "John Ashbery",
+        "year": 1981,
+        "era": "new_york_school",
+        "text": """This poem is concerned with language on a very plain level.
+Look at it talking to you. You look out a window
+Or pretend to fidget. You have it but you don't have it.
+You miss it, it misses you. You miss each other.
+
+The poem is sad because it wants to be yours, and cannot.
+What's a plain level? It is that and other things,
+Bringing a system of them into play. Play?
+Well, actually, yes, but I consider play to be
+
+A deeper outside thing, a dreamed role-Loss of purpose,
+Something like living, a survey of what
+Was and is and will be, a poem
+That tells you how to do it, and how to respond."""
+    },
+    {
+        "title": "And Ut Pictura Poesis Is Her Name",
+        "author": "John Ashbery",
+        "year": 1977,
+        "era": "new_york_school",
+        "text": """You can't say it that way any more.
+Bothered about beauty you have to
+Come out into the open, into a clearing,
+And rest. Certainly whatever funny happens to you
+Is OK. To demand more than this would be strange
+Of you, you who have so many lovers,
+People who look up to you and are willing
+To do things for you, but you think
+It's not enough. You're probably right."""
+    },
+    {
+        "title": "Self-Portrait in a Convex Mirror (middle passage)",
+        "author": "John Ashbery",
+        "year": 1975,
+        "era": "new_york_school",
+        "text": """But there is in that gaze a combination
+Of tenderness, amusement and regret, so powerful
+In its restraint that one cannot look for long.
+The secret is too plain. The pity of it smarts,
+Makes hot tears spurt: that the soul is not a soul,
+Has no secret, is small, and it fits
+Its hollow perfectly: its room, our moment of attention."""
+    },
+    {
+        "title": "Self-Portrait in a Convex Mirror (closing)",
+        "author": "John Ashbery",
+        "year": 1975,
+        "era": "new_york_school",
+        "text": """A breeze like the turning of a page
+Brings back your face: the moment
+Takes such a survey of the whole,
+The polite view through hooded eyes
+Seeing through the other's familiar gesture
+To the thought that lies behind it.
+The hand holds no chalk
+And each part of the whole falls off
+And cannot know it knew, except
+Here and there, in cold pockets
+Of remembrance, whispers out of time."""
+    },
+    {
+        "title": "The One Thing That Can Save America",
+        "author": "John Ashbery",
+        "year": 1975,
+        "era": "new_york_school",
+        "text": """Is anything central?
+Orchards flung out on the land,
+Urban forests, canals, and the survey of all this,
+As though one were flying over it in an airplane.
+These things are connected and make up a landscape
+That one must not reject, but that seems to promise
+Nothing if not the assurance that what happened
+Is only a part of the living, an ideal."""
+    },
+    {
+        "title": "A Wave (opening)",
+        "author": "John Ashbery",
+        "year": 1984,
+        "era": "new_york_school",
+        "text": """To pass through pain and not know it,
+A survey of the whole. Feeling the walls
+Of the absence, the tall room in which
+Nothing but itself is relevant.
+The children have grown up. They are free
+To go about their business. And what about
+The parents? They too are free
+But in the wrong direction."""
+    },
+    {
+        "title": "Rivers and Mountains",
+        "author": "John Ashbery",
+        "year": 1966,
+        "era": "new_york_school",
+        "text": """On the secret map the assassins
+Cloistered, took note of the survey.
+The survey was made up of rivers and mountains
+And a few plains, with trees,
+Some houses dotting a low rise.
+The lives of the survey makers
+Had faded into the background.
+Only their survey remained."""
+    },
+    {
+        "title": "Leaving the Atocha Station",
+        "author": "John Ashbery",
+        "year": 1962,
+        "era": "new_york_school",
+        "text": """The arctic honey blabbed over the survey
+Survey of the survey, leaving
+Atocha Station, the survey
+Of the arctic honey. The survey
+Blabbed over the arctic honey,
+He had mistaken his survey for a pillar."""
+    },
+    {
+        "title": "A Blessing in Disguise",
+        "author": "John Ashbery",
+        "year": 1962,
+        "era": "new_york_school",
+        "text": """Yes, they are alive and can have those colors,
+But I, in my survey of the whole scene,
+Am cursed with the inability
+To see it as other than the next moment's
+Business. The survey is not the thing
+But an excuse for it, leading to
+The promise of a survey that is not
+A blessing, but a blessing in disguise."""
+    },
+    {
+        "title": "Wet Casements",
+        "author": "John Ashbery",
+        "year": 1977,
+        "era": "new_york_school",
+        "text": """When Eduard Degas purchased the painting Sémiramis Building Babylon
+He knew he was getting something extraordinary:
+A survey of all that had been done in painting up to that time,
+With special emphasis on the moody, contemplative side.
+It's no different with the window you look out of
+Or into: the middle class is always being squeezed out."""
+    },
+    {
         "title": "Why I Am Not a Painter",
         "author": "Frank O'Hara",
         "year": 1957,
