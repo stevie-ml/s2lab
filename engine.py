@@ -3,11 +3,19 @@ S₂ Lab — Information-theoretic analysis engine.
 
 Computes token-level surprisal, entropy, and S₂ for texts using GPT-2.
 Saves structured results to JSON for downstream analysis.
+
+Language settings
+-----------------
+  "en" (default)  — gpt2
+  "de"            — dbmdz/german-gpt2
+
+Set via the `language` parameter on analyze_poem() / analyze_corpus(),
+or pass --language de when running as a script.
 """
 
 import torch
 import torch.nn.functional as F
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer
 import math
 import json
 import os
@@ -16,31 +24,64 @@ from datetime import datetime
 RESULTS_DIR = os.path.join(os.path.dirname(__file__), "results")
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
-# Global model (loaded once)
-_model = None
-_tokenizer = None
+# ── Language config ────────────────────────────────────────────────────────────
+# Each entry: model name + demo example shown when running as a script.
+LANGUAGE_CONFIG = {
+    "en": {
+        "model":          "gpt2",
+        "example_text":   "The only emperor is the emperor of ice-cream.",
+        "example_title":  "The Emperor of Ice-Cream",
+        "example_author": "Wallace Stevens",
+        "example_year":   1922,
+    },
+    "de": {
+        "model":          "dbmdz/german-gpt2",
+        "example_text":   "Komm in den totgesagten park und schau:",
+        "example_title":  "Komm in den totgesagten park",
+        "example_author": "Stefan George",
+        "example_year":   1891,
+    },
+}
 
-def get_model():
-    global _model, _tokenizer
-    if _model is None:
-        print("Loading GPT-2...")
-        _tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
-        _model = GPT2LMHeadModel.from_pretrained("gpt2")
-        _model.eval()
-    return _model, _tokenizer
+# Model cache — one (model, tokenizer) pair per language, loaded on first use.
+_models: dict = {}
 
 
-def analyze_poem(text, title="", author="", year=None, era="", top_k=10):
+def get_model(language: str = "en"):
+    """Return (model, tokenizer) for the given language, loading if needed."""
+    if language not in _models:
+        cfg = LANGUAGE_CONFIG.get(language)
+        if cfg is None:
+            raise ValueError(
+                f"Unknown language '{language}'. Choose from: {list(LANGUAGE_CONFIG)}"
+            )
+        model_name = cfg["model"]
+        print(f"Loading {model_name}...")
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        model = AutoModelForCausalLM.from_pretrained(model_name)
+        model.eval()
+        _models[language] = (model, tokenizer)
+    return _models[language]
+
+
+def analyze_poem(text, title="", author="", year=None, era="", language="en", top_k=10):
     """
     Analyze a text and return structured token-level metrics.
 
+    Parameters
+    ----------
+    language : str
+        "en" (default, uses gpt2) or "de" (uses dbmdz/german-gpt2).
+
     Returns dict with:
-      - metadata (title, author, etc.)
+      - metadata (title, author, language, model, etc.)
       - summary stats (avg surprisal, entropy, s2)
       - token-level data (each token with metrics + top-k alternatives)
       - high_s2 moments (top 10 by S₂, with "unsaid" alternatives)
     """
-    model, tokenizer = get_model()
+    model, tokenizer = get_model(language)
+    model_name = LANGUAGE_CONFIG[language]["model"]
+
     input_ids = tokenizer.encode(text, return_tensors="pt")
     tokens = [tokenizer.decode([t]) for t in input_ids[0]]
 
@@ -113,8 +154,9 @@ def analyze_poem(text, title="", author="", year=None, era="", top_k=10):
             "author": author,
             "year": year,
             "era": era,
+            "language": language,
             "analyzed_at": datetime.now().isoformat(),
-            "model": "gpt2",
+            "model": model_name,
             "n_tokens": n,
         },
         "summary": {
@@ -134,16 +176,22 @@ def analyze_poem(text, title="", author="", year=None, era="", top_k=10):
 
 
 def analyze_corpus(poems):
-    """Analyze a list of poem dicts, return list of results."""
+    """Analyze a list of poem dicts, return list of results.
+
+    Each poem dict may include a 'language' key ("en" or "de").
+    Defaults to "en" if absent.
+    """
     results = []
     for i, poem in enumerate(poems):
-        print(f"  [{i+1}/{len(poems)}] {poem['author']} — {poem['title']}")
+        lang = poem.get("language", "en")
+        print(f"  [{i+1}/{len(poems)}] [{lang}] {poem['author']} — {poem['title']}")
         result = analyze_poem(
             text=poem["text"],
             title=poem["title"],
             author=poem["author"],
             year=poem.get("year"),
             era=poem.get("era", ""),
+            language=lang,
         )
         results.append(result)
     return results
@@ -192,7 +240,11 @@ def comparative_summary(results):
     print(f"\n{'Era':<25} {'n':>3} {'Avg Surp':>9} {'Avg Ent':>9} {'Avg S₂':>9} {'Avg +S₂%':>9}")
     print("-" * 70)
 
-    for era in sorted(era_data, key=lambda e: sum(s["avg_s2"] for s in era_data[e]) / len(era_data[e]), reverse=True):
+    for era in sorted(
+        era_data,
+        key=lambda e: sum(s["avg_s2"] for s in era_data[e]) / len(era_data[e]),
+        reverse=True,
+    ):
         summaries = era_data[era]
         n = len(summaries)
         avg_surp = sum(s["avg_surprisal"] for s in summaries) / n
@@ -203,8 +255,37 @@ def comparative_summary(results):
 
 
 if __name__ == "__main__":
-    from corpus.poems import POEMS
-    print(f"Analyzing {len(POEMS)} poems...\n")
-    results = analyze_corpus(POEMS)
-    save_results(results)
-    comparative_summary(results)
+    import argparse
+
+    parser = argparse.ArgumentParser(description="S₂ Lab engine demo")
+    parser.add_argument(
+        "--language", choices=list(LANGUAGE_CONFIG), default="en",
+        help="Language setting: en (default, gpt2) or de (dbmdz/german-gpt2)",
+    )
+    args = parser.parse_args()
+
+    cfg = LANGUAGE_CONFIG[args.language]
+    print(f"Language: {args.language}  |  Model: {cfg['model']}\n")
+    print(f"Example: \"{cfg['example_text']}\"")
+    print(f"  — {cfg['example_author']}, {cfg['example_title']} ({cfg['example_year']})\n")
+
+    result = analyze_poem(
+        text=cfg["example_text"],
+        title=cfg["example_title"],
+        author=cfg["example_author"],
+        year=cfg["example_year"],
+        language=args.language,
+    )
+
+    s = result["summary"]
+    print(
+        f"avg_surprisal={s['avg_surprisal']:.3f}  avg_entropy={s['avg_entropy']:.3f}  "
+        f"avg_s2={s['avg_s2']:.3f}  pos_s2_ratio={s['pos_s2_ratio']:.0%}"
+    )
+    print("\nToken-level breakdown:")
+    for t in result["tokens"]:
+        marker = " <<<" if t["s2"] > 2 else ""
+        print(
+            f"  {t['token']:<15} surp={t['surprisal']:>6.2f}  "
+            f"ent={t['entropy']:>6.2f}  S₂={t['s2']:>7.2f}  rank={t['rank']}{marker}"
+        )

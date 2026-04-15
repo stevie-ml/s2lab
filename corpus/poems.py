@@ -3,6 +3,10 @@ Curated corpus of poems for information-theoretic analysis.
 Organized by era/movement for comparative research.
 
 Each poem: { "title", "author", "year", "era", "text" }
+
+Language field (optional, defaults to "en"):
+  "en" — analyzed with gpt2
+  "de" — analyzed with dbmdz/german-gpt2
 """
 
 POEMS = [
@@ -752,6 +756,169 @@ The moon rising above the turkey sheds."""
         "year": 2024,
         "era": "control",
         "text": """To install the software, first download the package from the official website. Then open the terminal and navigate to the download directory. Run the installation script with administrator privileges."""
+    },
+
+    # ─── GERMAN SYMBOLISM / JUGENDSTIL ────────────────────────────────
+    {
+        "title": "Komm in den totgesagten park und schau",
+        "author": "Stefan George",
+        "year": 1891,
+        "era": "german_symbolist",
+        "language": "de",
+        "text": """Komm in den totgesagten park und schau:
+Der schimmer ferner lächelnder gestade,
+Der reinen wolken unverhofftes blau
+Erhellt die weiher und die bunten pfade.
+
+Dort nimm das tiefe gelb, das weiche grau
+Von birken und von buchs, der wind ist lau,
+Die späten rosen welkten noch nicht ganz,
+Erlese küsse sie und flicht den kranz,
+
+Vergiss auch diese lezten astern nicht,
+Den purpur um die ranken wilder reben,
+Und auch was übrig blieb von grünem leben
+Verwinde leicht im herbstlichen gesicht."""
+    },
+    {
+        "title": "Das Wort",
+        "author": "Stefan George",
+        "year": 1919,
+        "era": "german_symbolist",
+        "language": "de",
+        "text": """Wunder von ferne oder traum
+Bracht ich an meines landes saum
+
+Und harrte bis die graue norn
+Den namen fand in ihrem born—
+
+Drauf konnt ichs greifen dicht und stark
+Nun blüht und glänzt es durch die mark...
+
+Einst langt ich an nach guter fahrt
+Mit einem kleinod reich und zart
+
+Sie suchte lang und gab mir kund:
+»So schläft hier nichts auf tiefem grund«
+
+Worauf es meiner hand entrann
+Und nie mein land den schatz gewann...
+
+So lernt ich traurig den verzicht:
+Kein ding sei wo das wort gebricht."""
+    },
+    {
+        "title": "Porta Nigra",
+        "author": "Stefan George",
+        "year": 1907,
+        "era": "german_symbolist",
+        "language": "de",
+        "text": """Ich bin der eine und bin beide: bin
+Der wächter der jahrtausende belagert
+Und der barbar der seine fackel schwingt
+Vor dem was er nicht kennt und nicht begreift.
+
+Ich bin das tor. Ich bin die feste mauer.
+Ich bin der schlüssel der im schlosse liegt.
+Ich stehe hier und warte auf das licht
+Das kommt und geht und mich nicht öffnet—nie."""
+    },
+
+    # ─── GERMAN EXPRESSIONISM ─────────────────────────────────────────
+    {
+        "title": "Grodek",
+        "author": "Georg Trakl",
+        "year": 1914,
+        "era": "german_expressionist",
+        "language": "de",
+        "text": """Am Abend schweigen die herbstlichen Wälder
+Von tödlichen Waffen, die goldenen Ebenen
+Und blauen Seen, darüber die Sonne
+Düstrer hinrollt; umfängt die Nacht
+Sterbende Krieger, die wilde Klage
+Ihrer zerbrochenen Münder.
+Doch stille sammelt im Weidengrund
+Rotes Gewölk, darin ein zürnender Gott wohnt,
+Das vergossne Blut sich, mondne Kühle;
+Alle Straßen münden in schwarze Verwesung.
+Unter goldnem Gezweig der Nacht und Sternen
+Es schwankt der Schwester Schatten durch den schweigenden Hain,
+Zu grüßen die Geister der Helden, die blutenden Häupter;
+Und leise tönen im Rohr die dunkeln Flöten des Herbstes.
+O stolzere Trauer! ihr ehernen Altäre,
+Die heiße Flamme des Geistes nährt heute ein gewaltiger Schmerz,
+Die ungebornen Enkel."""
+    },
+    {
+        "title": "Verklärter Herbst",
+        "author": "Georg Trakl",
+        "year": 1913,
+        "era": "german_expressionist",
+        "language": "de",
+        "text": """Gewaltig endet so das Jahr
+Mit goldnem Wein und Frucht der Gärten.
+Rund schweigen Wälder wunderbar
+Und sind des Einsamen Gefährten.
+
+Da sagt der Landmann: Es ist gut.
+Ihr Abendglocken lang und leise
+Gebt noch zum Ende frohen Mut.
+Ein Vogelzug grüßt auf der Reise.
+
+Es ist der Liebe milde Zeit.
+Im Kahn den blauen Fluß hinunter
+Wie schön sich Bild an Bildchen reiht—
+Das geht in Ruh und Schweigen unter."""
+    },
+
+    # ─── GERMAN MODERNISM ─────────────────────────────────────────────
+    {
+        "title": "Die erste Elegie (Eröffnung)",
+        "author": "Rainer Maria Rilke",
+        "year": 1912,
+        "era": "german_modernist",
+        "language": "de",
+        "text": """Wer, wenn ich schriee, hörte mich denn aus der Engel
+Ordnungen? und gesetzt selbst, es nähme
+einer mich plötzlich ans Herz: ich verginge von seinem
+stärkeren Dasein. Denn das Schöne ist nichts
+als des Schrecklichen Anfang, den wir noch grade ertragen,
+und wir bewundern es so, weil es gelassen verschmäht,
+uns zu zerstören. Ein jeder Engel ist schrecklich."""
+    },
+    {
+        "title": "Archaischer Torso Apollos",
+        "author": "Rainer Maria Rilke",
+        "year": 1908,
+        "era": "german_modernist",
+        "language": "de",
+        "text": """Wir kannten nicht sein unerhörtes Haupt,
+darin die Augenäpfel reiften. Aber
+sein Torso glüht noch wie ein Kandelaber,
+in dem sein Schauen, nur zurückgeschraubt,
+
+sich hält und glänzt. Sonst könnte nicht der Bug
+der Brust dich blenden, und im leisen Drehen
+der Lenden könnte nicht ein Lächeln gehen
+zu jener Mitte, die die Zeugung trug.
+
+Sonst stünde dieser Stein entstellt und kurz
+unter der Schultern durchsichtigem Sturz
+und flimmerte nicht so wie Raubtierfelle;
+
+und bräche nicht aus allen seinen Rändern
+aus wie ein Stern: denn da ist keine Stelle,
+die dich nicht sieht. Du mußt dein Leben ändern."""
+    },
+
+    # ─── GERMAN CONTROL PROSE ─────────────────────────────────────────
+    {
+        "title": "German narrative prose",
+        "author": "Control",
+        "year": 2024,
+        "era": "control",
+        "language": "de",
+        "text": """Die Katze saß auf der Matte. Es war ein warmer Tag und die Sonne schien durch das Fenster. Die Katze beobachtete die Vögel draußen und wünschte sich, sie könnte hinausgehen und spielen."""
     },
 ]
 
