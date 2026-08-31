@@ -920,6 +920,180 @@ die dich nicht sieht. Du mußt dein Leben ändern."""
         "language": "de",
         "text": """Die Katze saß auf der Matte. Es war ein warmer Tag und die Sonne schien durch das Fenster. Die Katze beobachtete die Vögel draußen und wünschte sich, sie könnte hinausgehen und spielen."""
     },
+
+    # ─── NEW POEMS (2026-08-31) ───────────────────────────────────────
+    # Added to test compression-vs-S₂ dissociation hypotheses.
+    # Focus: extreme repetition, extreme brevity, concrete/typographic
+    # experiments, and Modernist forms not yet represented.
+
+    # H.D. — Imagist compression, PD
+    {
+        "title": "Oread",
+        "author": "H.D. (Hilda Doolittle)",
+        "year": 1914,
+        "era": "modernist",
+        "text": """Whirl up, sea—
+whirl your pointed pines,
+splash your great pines
+on our rocks,
+hurl your green over us,
+cover us with your pools of fir."""
+    },
+
+    # Marianne Moore — Modernist irony, PD (1919 version)
+    {
+        "title": "Poetry (opening)",
+        "author": "Marianne Moore",
+        "year": 1919,
+        "era": "modernist",
+        "text": """I, too, dislike it: there are things that are important beyond all this fiddle.
+Reading it, however, with a perfect contempt for it, one discovers in
+it after all, a place for the genuine."""
+    },
+
+    # Gertrude Stein — extreme sonic/repetitive experimentation, PD
+    {
+        "title": "Susie Asado",
+        "author": "Gertrude Stein",
+        "year": 1913,
+        "era": "modernist",
+        "text": """Sweet sweet sweet sweet sweet tea.
+Susie Asado.
+Sweet sweet sweet sweet sweet tea.
+Susie Asado.
+Susie Asado which is a told tray sure.
+A lean on the shoe this means slips slips hers.
+When the ancient light grey is clean it is yellow, it is a silver seller.
+This is a please this is a please there are the saids to jelly."""
+    },
+
+    # e.e. cummings — concrete/typographic, "Buffalo Bill's" (1920, PD)
+    {
+        "title": "Buffalo Bill 's",
+        "author": "E.E. Cummings",
+        "year": 1920,
+        "era": "modernist",
+        "text": """Buffalo Bill 's
+defunct
+        who used to
+        ride a watersmooth-silver
+                                    stallion
+and break onetwothreefourfive pigeonsjustlikethat
+                                                    Jesus
+
+he was a handsome man
+                    and what i want to know is
+how do you like your blueeyed boy
+Mister Death"""
+    },
+
+    # Classic haiku — Basho, PD (R.H. Blyth-adjacent literal renderings)
+    {
+        "title": "Three Haiku (Basho, translated)",
+        "author": "Matsuo Basho",
+        "year": 1686,
+        "era": "haiku",
+        "text": """An old silent pond—
+a frog jumps into the pond,
+splash! Silence again.
+
+The first cold shower;
+even the monkey seems to want
+a little coat of straw.
+
+Autumn moonlight—
+a worm digs silently
+into the chestnut."""
+    },
+
+    # Vachel Lindsay — extreme rhythmic repetition, PD (excerpt, sanitized)
+    {
+        "title": "The Congo (opening, sanitized excerpt)",
+        "author": "Vachel Lindsay",
+        "year": 1914,
+        "era": "modernist",
+        "text": """Fat black bucks in a wine-barrel room,
+Barrel-house kings, with feet unstable,
+Sagged and reeled and pounded on the table,
+Pounded on the table,
+Beat an empty barrel with the handle of a broom,
+Hard as they were able,
+Boom, boom, BOOM,
+With a silk umbrella and the handle of a broom,
+Boomlay, boomlay, boomlay, BOOM."""
+    },
+
+    # Sappho fragment — ancient, translated (public domain)
+    {
+        "title": "Fragment 31 (translated)",
+        "author": "Sappho",
+        "year": -600,
+        "era": "ancient",
+        "text": """He seems to me equal to the gods, that man
+who sits across from you and, close by, listens
+to you softly speaking and laughing sweetly,
+    which sets my heart to fluttering in my breast;
+for when I look at you a moment, then
+I can no longer speak; my tongue is broken,
+a subtle fire runs beneath my skin,
+    my eyes see nothing, my ears roar."""
+    },
+
+    # Prose poem — Baudelaire "L'Étranger" translated (PD)
+    {
+        "title": "The Stranger (prose poem, translated)",
+        "author": "Charles Baudelaire",
+        "year": 1869,
+        "era": "prose_poetry",
+        "text": """—Whom do you love best, enigmatical man; your father, your mother, your sister, or your brother?
+—I have neither father, nor mother, nor sister, nor brother.
+—Your friends?
+—You use a word whose meaning has remained unknown to me until this day.
+—Your country?
+—I do not know in what latitude it lies.
+—Beauty?
+—Her would I love willingly, goddess and immortal.
+—Gold?
+—I hate it as much as you hate God.
+—Well then! What do you love, extraordinary stranger?
+—I love the clouds—the clouds that pass—up there—up there—the wonderful clouds."""
+    },
+
+    # Emily Dickinson — extreme compression test, PD
+    {
+        "title": "A Route of Evanescence",
+        "author": "Emily Dickinson",
+        "year": 1879,
+        "era": "19th_century",
+        "text": """A Route of Evanescence,
+With a revolving Wheel—
+A Resonance of Emerald,
+A Rush of Cochineal—
+And every Blossom on the Bush
+Adjusts its tumbled Head—
+The Mail from Tunis, probably,
+An easy Morning's Ride—"""
+    },
+
+    # Kerouac — spontaneous prose/verse, extreme repetition (1959, likely fair use)
+    # Using instead a very short, well-attested PD-adjacent verse from Whitman
+    {
+        "title": "A Noiseless Patient Spider",
+        "author": "Walt Whitman",
+        "year": 1868,
+        "era": "19th_century",
+        "text": """A noiseless patient spider,
+I mark'd where on a little promontory it stood isolated,
+Mark'd how to explore the vacant vast surrounding,
+It launch'd forth filament, filament, filament, out of itself,
+Ever unreeling them, ever tirelessly speeding them.
+
+And you O my soul where you stand,
+Surrounded, detached, in measureless oceans of space,
+Ceaselessly musing, venturing, throwing, seeking the spheres to connect them,
+Till the bridge you will need be form'd, till the ductile anchor hold,
+Till the gossamer thread you fling catch somewhere, O my soul."""
+    },
 ]
 
 # Quick stats
