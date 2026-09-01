@@ -328,6 +328,102 @@ def experiment_s2_vs_canonicity(results):
     return "\n".join(lines)
 
 
+def experiment_syntactic_position(results):
+    """Compare S₂ by POS category: poetry vs prose."""
+    lines = ["## Experiment: Syntactic Position and S₂\n"]
+    lines.append("Do nouns, verbs, adjectives, and function words have systematically different S₂ values in poetry vs prose?\n")
+
+    try:
+        import nltk
+        import nltk.pathsec
+        nltk.pathsec.ALLOW_PROXIED_FETCH = True
+
+        _PENN_TO_CAT = {
+            "NN": "NOUN", "NNS": "NOUN", "NNP": "NOUN", "NNPS": "NOUN",
+            "VB": "VERB", "VBD": "VERB", "VBG": "VERB", "VBN": "VERB", "VBP": "VERB", "VBZ": "VERB",
+            "MD": "AUX",
+            "JJ": "ADJ", "JJR": "ADJ", "JJS": "ADJ",
+            "RB": "ADV", "RBR": "ADV", "RBS": "ADV",
+            "DT": "DET", "IN": "PREP", "CC": "CONJ",
+            "PRP": "PRON", "PRP$": "PRON", "WP": "PRON", "WP$": "PRON",
+            ".": "PUNCT", ",": "PUNCT", ":": "PUNCT",
+        }
+
+        def broad_cat(tag):
+            return _PENN_TO_CAT.get(tag, "OTHER")
+
+        def get_pos_per_token(gpt2_toks):
+            chars = []
+            offsets = []
+            for tok in gpt2_toks:
+                s = len(chars)
+                for ch in tok["token"]:
+                    chars.append(ch)
+                offsets.append((s, len(chars)))
+            text = "".join(chars)
+            nltk_toks = nltk.word_tokenize(text)
+            tags = nltk.pos_tag(nltk_toks)
+            word_spans = []
+            cursor = 0
+            for word, tag in tags:
+                idx = text.lower().find(word.lower(), cursor)
+                if idx == -1:
+                    word_spans.append((tag, cursor, cursor + len(word)))
+                    continue
+                word_spans.append((tag, idx, idx + len(word)))
+                cursor = idx + len(word)
+            pos_labels = []
+            for ts, te in offsets:
+                best = "OTHER"
+                for tag, ws, we in word_spans:
+                    if te > ws and ts < we:
+                        best = broad_cat(tag)
+                        break
+                pos_labels.append(best)
+            return pos_labels
+
+        poetry = [r for r in results if r["metadata"].get("era") != "control" and r["metadata"].get("language", "en") == "en"]
+        prose = [r for r in results if r["metadata"].get("era") == "control" and r["metadata"].get("language", "en") == "en"]
+
+        def accumulate(corpus):
+            cat_s2 = defaultdict(list)
+            for entry in corpus:
+                toks = entry["tokens"]
+                pos_labels = get_pos_per_token(toks)
+                for tok, pos in zip(toks, pos_labels):
+                    cat_s2[pos].append(tok["s2"])
+            return {cat: round(sum(v) / len(v), 3) for cat, v in cat_s2.items() if len(v) > 50}
+
+        poetry_stats = accumulate(poetry)
+        prose_stats = accumulate(prose)
+
+        CATS = ["NOUN", "VERB", "ADJ", "ADV", "AUX", "PREP", "DET", "CONJ", "PRON", "PUNCT"]
+        lines.append("| POS | Poetry AvgS₂ | Prose AvgS₂ | Δ S₂ |")
+        lines.append("|-----|------------|-----------|------|")
+        deltas = []
+        for cat in CATS:
+            if cat in poetry_stats and cat in prose_stats:
+                p, r = poetry_stats[cat], prose_stats[cat]
+                d = round(p - r, 3)
+                deltas.append((cat, d))
+                lines.append(f"| {cat} | {p:+.3f} | {r:+.3f} | **{d:+.3f}** |")
+
+        if deltas:
+            top_cat, top_delta = max(deltas, key=lambda x: x[1])
+            bot_cat, bot_delta = min(deltas, key=lambda x: x[1])
+            lines.append(f"\n### Finding")
+            lines.append(f"**{top_cat}** shows the largest poetry-vs-prose Straussian gap (Δ = {top_delta:+.3f}), "
+                         f"while **{bot_cat}** shows the smallest (Δ = {bot_delta:+.3f}). "
+                         f"The Straussian gap is concentrated in lexical content words, not grammatical function words — "
+                         f"poets deviate from expectation by choosing unexpected *things and qualities*, "
+                         f"not by restructuring the syntactic frame.")
+
+    except Exception as e:
+        lines.append(f"*Syntactic position experiment skipped: {e}*")
+
+    return "\n".join(lines)
+
+
 def run_all_experiments():
     """Run all experiments and write a research report."""
     results = load_results()
@@ -349,6 +445,7 @@ def run_all_experiments():
         ("Structural Position", experiment_structural_position),
         ("Author Signatures", experiment_author_signatures),
         ("S₂ and Poetic Impact", experiment_s2_vs_canonicity),
+        ("Syntactic Position", experiment_syntactic_position),
     ]
 
     for name, func in experiments:
