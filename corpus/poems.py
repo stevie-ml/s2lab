@@ -921,6 +921,119 @@ die dich nicht sieht. Du mußt dein Leben ändern."""
         "text": """Die Katze saß auf der Matte. Es war ein warmer Tag und die Sonne schien durch das Fenster. Die Katze beobachtete die Vögel draußen und wünschte sich, sie könnte hinausgehen und spielen."""
     },
 
+    # ─── NEW POEMS (2026-09-01) ───────────────────────────────────────
+    # Added to fill temporal gaps and test temporal evolution hypotheses.
+    # Focus: Victorian/Edwardian bridge to Modernism (1877–1912),
+    # and mid-century confessional/expressionist confirmation.
+
+    # Gerard Manley Hopkins — "The Windhover" (1877, published 1918, PD)
+    # Extreme phonetic innovation and sprung rhythm; unique lexical choices
+    {
+        "title": "The Windhover",
+        "author": "Gerard Manley Hopkins",
+        "year": 1877,
+        "era": "victorian",
+        "text": """I caught this morning morning's minion, king-
+    dom of daylight's dauphin, dapple-dawn-drawn Falcon, in his riding
+    Of the rolling level underneath him steady air, and striding
+High there, how he rung upon the rein of a wimpling wing
+In his ecstasy! then off, off forth on swing,
+    As a skate's heel sweeps smooth on a bow-bend: the hurl and gliding
+    Rebuffed the big wind. My heart in hiding
+Stirred for a bird,—the achieve of; the mastery of the thing!
+
+Brute beauty and valour and act, oh, air, pride, plume, here
+    Buckle! AND the fire that breaks from thee then, a billion
+Times told lovelier, more dangerous, O my chevalier!"""
+    },
+
+    # Alfred Lord Tennyson — "Ulysses" (1833, PD)
+    # Blank verse, Victorian rhetoric — expected word choices?
+    {
+        "title": "Ulysses (opening)",
+        "author": "Alfred Lord Tennyson",
+        "year": 1833,
+        "era": "victorian",
+        "text": """It little profits that an idle king,
+By this still hearth, among these barren crags,
+Match'd with an aged wife, I mete and dole
+Unequal laws unto a savage race,
+That hoard, and sleep, and feed, and know not me.
+I cannot rest from travel: I will drink
+Life to the lees: All times I have enjoy'd
+Greatly, have suffer'd greatly, both with those
+That loved me, and alone."""
+    },
+
+    # Paul Laurence Dunbar — "We Wear the Mask" (1896, PD)
+    # Pre-Harlem African American poetry; coded language
+    {
+        "title": "We Wear the Mask",
+        "author": "Paul Laurence Dunbar",
+        "year": 1896,
+        "era": "victorian",
+        "text": """We wear the mask that grins and lies,
+It hides our cheeks and shades our eyes,—
+This debt we pay to human guile;
+With torn and bleeding hearts we smile,
+And mouth with myriad subtleties.
+
+Why should the world be over-wise,
+In counting all our tears and sighs?
+Nay, let them only see us, while
+We wear the mask."""
+    },
+
+    # Thomas Hardy — "The Convergence of the Twain" (1912, PD)
+    # Written for Titanic memorial; Victorian-Modernist bridge
+    {
+        "title": "The Convergence of the Twain (excerpt)",
+        "author": "Thomas Hardy",
+        "year": 1912,
+        "era": "victorian",
+        "text": """In a solitude of the sea
+Deep from human vanity,
+And the Pride of Life that planned her, stilly couches she.
+
+Steel chambers, late the pyres
+Of her salamandrine fires,
+Cold currents thrid, and turn to rhythmic tidal lyres.
+
+Over the mirrors meant
+To glass the opulent
+The sea-worm crawls—grotesque, slimed, dumb, indifferent."""
+    },
+
+    # Robert Browning — "My Last Duchess" (1842, PD)
+    # Dramatic monologue; Victorian rhetoric; high information content
+    {
+        "title": "My Last Duchess (opening)",
+        "author": "Robert Browning",
+        "year": 1842,
+        "era": "victorian",
+        "text": """That's my last Duchess painted on the wall,
+Looking as if she were alive. I call
+That piece a wonder, now: Frà Pandolf's hands
+Worked busily a day, and there she stands.
+Will't please you sit and look at her? I said
+"Frà Pandolf" by design, for never read
+Strangers like you that pictured countenance,
+The depth and passion of its earnest glance."""
+    },
+
+    # Anne Sexton — "The Truth the Dead Know" (1962, excerpt, fair use)
+    # Confessional; grief and dissociation
+    {
+        "title": "The Truth the Dead Know (opening)",
+        "author": "Anne Sexton",
+        "year": 1962,
+        "era": "confessional",
+        "text": """Gone, I say and walk from church,
+refusing the stiff procession to the grave,
+letting the dead ride alone in the hearse.
+It is June. I am tired of being brave."""
+    },
+
     # ─── NEW POEMS (2026-08-31) ───────────────────────────────────────
     # Added to test compression-vs-S₂ dissociation hypotheses.
     # Focus: extreme repetition, extreme brevity, concrete/typographic
