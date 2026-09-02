@@ -1207,6 +1207,184 @@ Ceaselessly musing, venturing, throwing, seeking the spheres to connect them,
 Till the bridge you will need be form'd, till the ductile anchor hold,
 Till the gossamer thread you fling catch somewhere, O my soul."""
     },
+
+    # ─── NEW POEMS (2026-09-02): LINE-POSITION & METER EXPERIMENT ──────────────
+    # Added to test hypotheses about meter, form, and line-position effects.
+    # Focus: highly metrical / rhyme-constrained poems (predict lower final-position S₂),
+    # ghazal form (mandatory radif = structural repetition), and canonical incantatory verse.
+
+    # William Blake — "The Tyger" (1794, PD)
+    # Anapestic tetrameter, insistent rhyme, incantatory repetition across stanzas.
+    # Hypothesis: extreme metric regularity → strong rhyme penalty (low final-position S₂),
+    # but lexical audacity ("fearful symmetry", "burning bright") → high medial S₂.
+    {
+        "title": "The Tyger",
+        "author": "William Blake",
+        "year": 1794,
+        "era": "romantic",
+        "text": """Tyger Tyger, burning bright,
+In the forests of the night;
+What immortal hand or eye,
+Could frame thy fearful symmetry?
+
+In what distant deeps or skies,
+Burnt the fire of thine eyes?
+On what wings dare he aspire?
+What the hand, dare seize the fire?
+
+And what shoulder, & what art,
+Could twist the sinews of thy heart?
+And when thy heart began to beat,
+What dread hand? & what dread feet?"""
+    },
+
+    # Edgar Allan Poe — "The Raven" (opening, 1845, PD)
+    # Trochaic octameter with internal rhyme; extreme end-rhyme constraint.
+    # Hypothesis: most constrained rhyme scheme in the corpus → lowest final-position S₂.
+    {
+        "title": "The Raven (opening stanzas)",
+        "author": "Edgar Allan Poe",
+        "year": 1845,
+        "era": "19th_century",
+        "text": """Once upon a midnight dreary, while I pondered, weak and weary,
+Over many a quaint and curious volume of forgotten lore—
+While I nodded, nearly napping, suddenly there came a tapping,
+As of some one gently rapping, rapping at my chamber door.
+"'Tis some visitor," I muttered, "tapping at my chamber door—
+Only this and nothing more."
+
+Ah, distinctly I remember it was in the bleak December;
+And each separate dying ember wrought its ghost upon the floor;
+Eagerly I wished the morrow;—vainly I had sought to borrow
+From my books surcease of sorrow—sorrow for the lost Lenore—
+For the rare and radiant maiden whom the angels name Lenore—
+Nameless here for evermore."""
+    },
+
+    # Christina Rossetti — "Remember" (1849, PD)
+    # Petrarchan sonnet; iambic pentameter; high formal constraint.
+    {
+        "title": "Remember",
+        "author": "Christina Rossetti",
+        "year": 1849,
+        "era": "victorian",
+        "text": """Remember me when I am gone away,
+Gone far away into the silent land;
+When you can no more hold me by the hand,
+Nor I half turn to go yet turning stay.
+Remember me when no more day by day
+You tell me of our future that you plann'd:
+Only remember me; you understand
+It will be late to counsel then or pray.
+Yet if you should forget me for a while
+And afterwards remember, do not grieve:
+For if the darkness and corruption leave
+A vestige of the thoughts that once I had,
+Better by far you should forget and smile
+Than that you should remember and be sad."""
+    },
+
+    # William Blake — "London" (1794, PD)
+    # Short lines, regular ABAB quatrains; urban subject matter with anaphora.
+    {
+        "title": "London",
+        "author": "William Blake",
+        "year": 1794,
+        "era": "romantic",
+        "text": """I wander thro' each charter'd street,
+Near where the charter'd Thames does flow.
+And mark in every face I meet
+Marks of weakness, marks of woe.
+
+In every cry of every Man,
+In every Infants cry of fear,
+In every voice: in every ban,
+The mind-forg'd manacles I hear
+
+How the Chimney-sweepers cry
+Every blackning Church appalls,
+And the hapless Soldiers sigh
+Runs in blood down Palace walls"""
+    },
+
+    # Emily Dickinson — "I heard a Fly buzz" (1896, PD)
+    # Hymn meter (common meter), but disrupted at key moments.
+    # Hypothesis: disruptions of hymn-meter expectation → high S₂ spikes.
+    {
+        "title": "I heard a Fly buzz — when I died",
+        "author": "Emily Dickinson",
+        "year": 1896,
+        "era": "19th_century",
+        "text": """I heard a Fly buzz — when I died —
+The Stillness in the Room
+Was like the Stillness in the Air —
+Between the Heaves of Storm —
+
+The Eyes around — had wrung them dry —
+And Breaths were gathering firm
+For that last Onset — when the King
+Be witnessed — in the Room —
+
+I willed my Keepsakes — Signed away
+What portion of me be
+Assignable — and then it was
+There interposed a Fly —
+
+With Blue — uncertain — stumbling Buzz —
+Between the light — and me —
+And then the Windows failed — and then
+I could not see to see —"""
+    },
+
+    # Thomas Hardy — "The Oxen" (1915, PD)
+    # Ballad quatrains, pastoral nostalgia, regular meter disrupted by modernist doubt.
+    {
+        "title": "The Oxen",
+        "author": "Thomas Hardy",
+        "year": 1915,
+        "era": "victorian",
+        "text": """Christmas Eve, and twelve of the clock.
+"Now they are all on their knees,"
+An elder said as we sat in a flock
+By the embers in hearthside ease.
+
+We pictured the meek mild creatures where
+They dwelt in their strawy pen,
+Nor did it occur to one of us there
+To doubt they were kneeling then.
+
+So fair a fancy few would weave
+In these years! Yet, I feel,
+If someone said on Christmas Eve,
+"Come; see the oxen kneel,
+
+"In the lonely barton by yonder coomb
+Our childhood used to know,"
+I should go with him in the gloom,
+Hoping it might be so."""
+    },
+
+    # Walter de la Mare — "The Listeners" (1912, PD)
+    # Ballad-like, supernatural atmosphere, loose anapestic measure.
+    # Tests whether "eerie" poems with unusual lexis show distinct line-position effects.
+    {
+        "title": "The Listeners",
+        "author": "Walter de la Mare",
+        "year": 1912,
+        "era": "19th_century",
+        "text": """'Is there anybody there?' said the Traveller,
+Knocking on the moonlit door;
+And his horse in the silence champed the grasses
+Of the forest's ferny floor:
+And a bird flew up out of the turret,
+Above the Traveller's head:
+And he smote upon the door again a second time;
+'Is there anybody there?' he said.
+But no one descended to the Traveller;
+No head from the leaf-fringed sill
+Leaned over and looked into his grey eyes,
+Where he stood perplexed and still."""
+    },
 ]
 
 # Quick stats
