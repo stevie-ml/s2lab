@@ -1,0 +1,270 @@
+{
+  "results": {
+    "Ode to a Nightingale (stanza 1)": {
+      "author": "John Keats",
+      "era": "romantic",
+      "models": {
+        "gpt2-small": {
+          "avg_surprisal": 6.667,
+          "avg_entropy": 7.03,
+          "avg_s2": -0.363,
+          "pos_s2_ratio": 0.414,
+          "top_s2_tokens": [
+            [
+              "My",
+              17.72,
+              "\n"
+            ],
+            [
+              "Let",
+              11.43,
+              " the"
+            ],
+            [
+              ",",
+              7.15,
+              " of"
+            ]
+          ]
+        },
+        "gpt2-medium": {
+          "avg_surprisal": 6.189,
+          "avg_entropy": 6.265,
+          "avg_s2": -0.076,
+          "pos_s2_ratio": 0.397,
+          "top_s2_tokens": [
+            [
+              "My",
+              18.12,
+              "\n"
+            ],
+            [
+              "",
+              10.8,
+              " me"
+            ],
+            [
+              "Let",
+              10.21,
+              " I"
+            ]
+          ]
+        }
+      }
+    },
+    "Because I could not stop for Death": {
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "models": {
+        "gpt2-small": {
+          "avg_surprisal": 7.25,
+          "avg_entropy": 6.713,
+          "avg_s2": 0.537,
+          "pos_s2_ratio": 0.424,
+          "top_s2_tokens": [
+            [
+              "He",
+              17.21,
+              "\n"
+            ],
+            [
+              "Death",
+              12.86,
+              " a"
+            ],
+            [
+              "Our",
+              10.2,
+              " as"
+            ]
+          ]
+        },
+        "gpt2-medium": {
+          "avg_surprisal": 7.23,
+          "avg_entropy": 6.448,
+          "avg_s2": 0.782,
+          "pos_s2_ratio": 0.441,
+          "top_s2_tokens": [
+            [
+              "And",
+              17.21,
+              "\n"
+            ],
+            [
+              "He",
+              14.74,
+              "\n"
+            ],
+            [
+              "Our",
+              9.6,
+              " barely"
+            ]
+          ]
+        }
+      }
+    },
+    "The Love Song of J. Alfred Prufrock (opening)": {
+      "author": "T.S. Eliot",
+      "era": "modernist",
+      "models": {
+        "gpt2-small": {
+          "avg_surprisal": 6.483,
+          "avg_entropy": 6.692,
+          "avg_s2": -0.209,
+          "pos_s2_ratio": 0.386,
+          "top_s2_tokens": [
+            [
+              "When",
+              18.43,
+              "\n"
+            ],
+            [
+              "ether",
+              11.54,
+              "'s"
+            ],
+            [
+              "restaurants",
+              8.34,
+              " and"
+            ]
+          ]
+        },
+        "gpt2-medium": {
+          "avg_surprisal": 5.975,
+          "avg_entropy": 6.104,
+          "avg_s2": -0.129,
+          "pos_s2_ratio": 0.386,
+          "top_s2_tokens": [
+            [
+              "When",
+              20.5,
+              "\n"
+            ],
+            [
+              "cheap",
+              10.87,
+              "-"
+            ],
+            [
+              "certain",
+              8.11,
+              " the"
+            ]
+          ]
+        }
+      }
+    },
+    "The Red Wheelbarrow": {
+      "author": "William Carlos Williams",
+      "era": "modernist",
+      "models": {
+        "gpt2-small": {
+          "avg_surprisal": 9.124,
+          "avg_entropy": 5.53,
+          "avg_s2": 3.594,
+          "pos_s2_ratio": 0.484,
+          "top_s2_tokens": [
+            [
+              "water",
+              31.17,
+              "\n"
+            ],
+            [
+              "bar",
+              30.79,
+              "\n"
+            ],
+            [
+              "ch",
+              27.9,
+              "\n"
+            ]
+          ]
+        },
+        "gpt2-medium": {
+          "avg_surprisal": 8.583,
+          "avg_entropy": 5.207,
+          "avg_s2": 3.375,
+          "pos_s2_ratio": 0.452,
+          "top_s2_tokens": [
+            [
+              "upon",
+              30.58,
+              "\n"
+            ],
+            [
+              "bar",
+              29.1,
+              "\n"
+            ],
+            [
+              "water",
+              28.72,
+              "\n"
+            ]
+          ]
+        }
+      }
+    },
+    "Howl (opening)": {
+      "author": "Allen Ginsberg",
+      "era": "beat",
+      "models": {
+        "gpt2-small": {
+          "avg_surprisal": 8.225,
+          "avg_entropy": 6.811,
+          "avg_s2": 1.414,
+          "pos_s2_ratio": 0.519,
+          "top_s2_tokens": [
+            [
+              "dr",
+              25.83,
+              "\n"
+            ],
+            [
+              "hysterical",
+              15.61,
+              " to"
+            ],
+            [
+              "dynam",
+              13.71,
+              " sky"
+            ]
+          ]
+        },
+        "gpt2-medium": {
+          "avg_surprisal": 7.516,
+          "avg_entropy": 6.571,
+          "avg_s2": 0.945,
+          "pos_s2_ratio": 0.481,
+          "top_s2_tokens": [
+            [
+              "dr",
+              25.83,
+              "\n"
+            ],
+            [
+              "hysterical",
+              15.56,
+              ","
+            ],
+            [
+              "angel",
+              9.63,
+              "\n"
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "aggregate": {
+    "avg_delta_s2": -0.015199999999999969,
+    "avg_delta_surprisal": -0.4511999999999999,
+    "avg_delta_entropy": -0.4362000000000002,
+    "n_poems": 5
+  }
+}
