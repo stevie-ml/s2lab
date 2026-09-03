@@ -1385,6 +1385,84 @@ No head from the leaf-fringed sill
 Leaned over and looked into his grey eyes,
 Where he stood perplexed and still."""
     },
+
+    # ─── HARLEM RENAISSANCE (ADDITIONAL) ────────────────────────────────
+    # Claude McKay — "If We Must Die" (1919, PD)
+    # Petrarchan sonnet; famous political defiance. High rhyme density.
+    # Tests: does the Harlem Renaissance rhyme-as-weapon pattern hold for McKay?
+    {
+        "title": "If We Must Die",
+        "author": "Claude McKay",
+        "year": 1919,
+        "era": "harlem_renaissance",
+        "text": """If we must die, let it not be like hogs
+Hunted and penned in an inglorious spot,
+While round us bark the mad and hungry dogs,
+Making their mock at our accursèd lot.
+If we must die, O let us nobly die,
+So that our precious blood may not be shed
+In vain; then even the monsters we defy
+Shall be constrained to honor us though dead!
+O kinsmen! we must meet the common foe!
+Though far outnumbered let us show us brave,
+And for their thousand blows deal one deathblow!
+What though before us lies the open grave?
+Like men we'll face the murderous, cowardly pack,
+Pressed to the wall, dying, but fighting back!"""
+    },
+
+    # Countee Cullen — "Yet Do I Marvel" (1925, PD)
+    # Shakespearean sonnet asking God why Black poets must exist amid injustice.
+    # Highly rhyming; the final couplet is famous. Tests rhyme-as-Straussian-shock.
+    {
+        "title": "Yet Do I Marvel",
+        "author": "Countee Cullen",
+        "year": 1925,
+        "era": "harlem_renaissance",
+        "text": """I doubt not God is good, well-meaning, kind,
+And did He stoop to quibble could tell why
+The little buried mole continues blind,
+Why flesh that mirrors Him must some day die,
+Make plain the reason tortured Tantalus
+Is baited by the fickle fruit, declare
+If merely brute caprice dooms Sisyphus
+To struggle up a never-ending stair.
+Inscrutable His ways are, and immune
+To catechism by a mind too strewn
+With petty cares to slightly understand
+What awful brain compels His awful hand.
+Yet do I marvel at this curious thing:
+To make a poet black, and bid him sing!"""
+    },
+
+    # Robert Burns — "A Red, Red Rose" (1794, PD)
+    # Song lyric; ballad stanza; love poem with strong ABAB/ABCB rhyme.
+    # First proper song lyrics in the corpus — tests song vs poetry S₂ differences.
+    {
+        "title": "A Red, Red Rose",
+        "author": "Robert Burns",
+        "year": 1794,
+        "era": "romantic",
+        "text": """O my Luve is like a red, red rose
+That's newly sprung in June;
+O my Luve is like the melody
+That's sweetly played in tune.
+
+As fair art thou, my bonnie lass,
+So deep in luve am I;
+And I will luve thee still, my dear,
+Till a' the seas gang dry.
+
+Till a' the seas gang dry, my dear,
+And the rocks melt wi' the sun;
+I will love thee still, my dear,
+While the sands o' life shall run.
+
+And fare thee weel, my only luve!
+And fare thee weel awhile!
+And I will come again, my luve,
+Though it were ten thousand mile."""
+    },
 ]
 
 # Quick stats
