@@ -1,0 +1,858 @@
+{
+  "global_stats": {
+    "stanza_initial": {
+      "n": 46,
+      "avg": -0.37,
+      "std": 3.16,
+      "pos_ratio": 0.413
+    },
+    "stanza_initial_line_final": {
+      "n": 45,
+      "avg": -0.41,
+      "std": 3.18,
+      "pos_ratio": 0.444
+    },
+    "line_initial": {
+      "n": 182,
+      "avg": 13.73,
+      "std": 10.71,
+      "pos_ratio": 0.868
+    },
+    "line_final": {
+      "n": 182,
+      "avg": -0.74,
+      "std": 3.29,
+      "pos_ratio": 0.253
+    },
+    "stanza_final_line_initial": {
+      "n": 45,
+      "avg": 9.91,
+      "std": 12.44,
+      "pos_ratio": 0.689
+    },
+    "stanza_final_line_final": {
+      "n": 43,
+      "avg": -1.58,
+      "std": 2.56,
+      "pos_ratio": 0.116
+    },
+    "medial": {
+      "n": 2220,
+      "avg": -0.36,
+      "std": 3.95,
+      "pos_ratio": 0.337
+    }
+  },
+  "poem_results": [
+    {
+      "title": "Daddy (opening)",
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "n_stanzas": 2,
+      "pos_avgs": {
+        "stanza_initial": 7.8934,
+        "stanza_final_line_initial": 0.037,
+        "stanza_final_line_final": -2.0498,
+        "stanza_initial_line_final": -2.9136,
+        "line_initial": 12.471475,
+        "line_final": 1.8394249999999999,
+        "medial": -1.0611499999999996
+      },
+      "best_si": {
+        "position": 46,
+        "token": "Daddy",
+        "surprisal": 15.5078,
+        "entropy": 7.6144,
+        "s2": 7.8934,
+        "line_pos": "stanza_initial",
+        "line_num": 6,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 5,
+          "n_stanzas": 2
+        }
+      }
+    },
+    {
+      "title": "The Windhover",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "n_stanzas": 2,
+      "pos_avgs": {
+        "stanza_initial": 5.0285,
+        "stanza_final_line_initial": 0.4373,
+        "stanza_final_line_final": 1.3684,
+        "stanza_initial_line_final": 1.988,
+        "line_initial": 9.6805,
+        "line_final": 0.21136666666666676,
+        "medial": -0.19684023668639053
+      },
+      "best_si": {
+        "position": 139,
+        "token": "Br",
+        "surprisal": 12.9378,
+        "entropy": 7.9093,
+        "s2": 5.0285,
+        "line_pos": "stanza_initial",
+        "line_num": 9,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 3,
+          "n_stanzas": 2
+        }
+      }
+    },
+    {
+      "title": "The Convergence of the Twain (excerpt)",
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "n_stanzas": 3,
+      "pos_avgs": {
+        "stanza_initial": 4.161849999999999,
+        "stanza_final_line_initial": 20.0345,
+        "stanza_final_line_final": -1.09845,
+        "stanza_initial_line_final": 5.02455,
+        "line_initial": 16.549979999999998,
+        "line_final": -2.90756,
+        "medial": 0.690794444444444
+      },
+      "best_si": {
+        "position": 30,
+        "token": "Steel",
+        "surprisal": 14.5251,
+        "entropy": 8.0341,
+        "s2": 6.491,
+        "line_pos": "stanza_initial",
+        "line_num": 4,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 3,
+          "n_stanzas": 3
+        }
+      }
+    },
+    {
+      "title": "The Raven (opening stanzas)",
+      "author": "Edgar Allan Poe",
+      "era": "19th_century",
+      "n_stanzas": 2,
+      "pos_avgs": {
+        "stanza_initial": 3.8925,
+        "stanza_final_line_initial": 5.7167,
+        "stanza_final_line_final": -0.8574,
+        "stanza_initial_line_final": 5.0115,
+        "line_initial": 13.28271,
+        "line_final": -0.8693000000000002,
+        "medial": -0.8626605442176872
+      },
+      "best_si": {
+        "position": 87,
+        "token": "Ah",
+        "surprisal": 9.8592,
+        "entropy": 5.9667,
+        "s2": 3.8925,
+        "line_pos": "stanza_initial",
+        "line_num": 7,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 6,
+          "n_stanzas": 2
+        }
+      }
+    },
+    {
+      "title": "Why I Am Not a Painter",
+      "author": "Frank O'Hara",
+      "era": "new_york_school",
+      "n_stanzas": 2,
+      "pos_avgs": {
+        "stanza_initial": 1.5574,
+        "stanza_final_line_initial": -0.8492,
+        "stanza_final_line_final": -1.8408,
+        "stanza_initial_line_final": 3.0147,
+        "line_initial": 11.542387499999998,
+        "line_final": -0.6267375,
+        "medial": -0.09881341463414642
+      },
+      "best_si": {
+        "position": 33,
+        "token": "for",
+        "surprisal": 7.6007,
+        "entropy": 6.0434,
+        "s2": 1.5574,
+        "line_pos": "stanza_initial",
+        "line_num": 4,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 7,
+          "n_stanzas": 2
+        }
+      }
+    },
+    {
+      "title": "The Oxen",
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "n_stanzas": 4,
+      "pos_avgs": {
+        "stanza_initial": 1.5549333333333333,
+        "stanza_final_line_initial": 5.235366666666667,
+        "stanza_final_line_final": -2.4074666666666666,
+        "stanza_initial_line_final": 4.1277,
+        "line_initial": 17.24853,
+        "line_final": -0.47624999999999995,
+        "medial": -0.007909090909090791
+      },
+      "best_si": {
+        "position": 118,
+        "token": "\"",
+        "surprisal": 8.3512,
+        "entropy": 5.3107,
+        "s2": 3.0404,
+        "line_pos": "stanza_initial",
+        "line_num": 15,
+        "info": {
+          "stanza_idx": 3,
+          "line_in_stanza": 0,
+          "stanza_len": 4,
+          "n_stanzas": 4
+        }
+      }
+    },
+    {
+      "title": "The Red Wheelbarrow",
+      "author": "William Carlos Williams",
+      "era": "modernist",
+      "n_stanzas": 4,
+      "pos_avgs": {
+        "stanza_initial": 1.2832666666666668,
+        "stanza_final_line_initial": 29.010666666666665,
+        "stanza_final_line_final": -0.2835,
+        "stanza_initial_line_final": 0.9775666666666666,
+        "line_initial": 13.2343,
+        "line_final": 2.54725,
+        "medial": -0.8051117647058826
+      },
+      "best_si": {
+        "position": 23,
+        "token": "bes",
+        "surprisal": 13.7527,
+        "entropy": 10.2145,
+        "s2": 3.5383,
+        "line_pos": "stanza_initial",
+        "line_num": 9,
+        "info": {
+          "stanza_idx": 3,
+          "line_in_stanza": 0,
+          "stanza_len": 2,
+          "n_stanzas": 4
+        }
+      }
+    },
+    {
+      "title": "Three Haiku (Basho, translated)",
+      "author": "Matsuo Basho",
+      "era": "haiku",
+      "n_stanzas": 3,
+      "pos_avgs": {
+        "stanza_initial": 1.1907,
+        "stanza_final_line_initial": 21.652050000000003,
+        "stanza_final_line_final": -1.90855,
+        "stanza_initial_line_final": -0.6224500000000001,
+        "line_initial": 19.149160000000002,
+        "line_final": 0.36385999999999985,
+        "medial": -0.3492675
+      },
+      "best_si": {
+        "position": 43,
+        "token": "Aut",
+        "surprisal": 14.0809,
+        "entropy": 6.9848,
+        "s2": 7.0961,
+        "line_pos": "stanza_initial",
+        "line_num": 8,
+        "info": {
+          "stanza_idx": 2,
+          "line_in_stanza": 0,
+          "stanza_len": 3,
+          "n_stanzas": 3
+        }
+      }
+    },
+    {
+      "title": "We Wear the Mask",
+      "author": "Paul Laurence Dunbar",
+      "era": "victorian",
+      "n_stanzas": 2,
+      "pos_avgs": {
+        "stanza_initial": 0.9448,
+        "stanza_final_line_initial": -3.8903,
+        "stanza_final_line_final": -2.5866,
+        "stanza_initial_line_final": -1.9243,
+        "line_initial": 11.337042857142858,
+        "line_final": 1.6795000000000002,
+        "medial": -0.6361746268656715
+      },
+      "best_si": {
+        "position": 50,
+        "token": "Why",
+        "surprisal": 8.4107,
+        "entropy": 7.466,
+        "s2": 0.9448,
+        "line_pos": "stanza_initial",
+        "line_num": 6,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 4,
+          "n_stanzas": 2
+        }
+      }
+    },
+    {
+      "title": "One Art",
+      "author": "Elizabeth Bishop",
+      "era": "mid_century",
+      "n_stanzas": 2,
+      "pos_avgs": {
+        "stanza_initial": 0.9132,
+        "stanza_final_line_initial": -0.0526,
+        "stanza_final_line_final": -2.2156,
+        "stanza_initial_line_final": 2.3879,
+        "line_initial": 16.382450000000002,
+        "line_final": 1.59205,
+        "medial": 0.07201568627450969
+      },
+      "best_si": {
+        "position": 32,
+        "token": "L",
+        "surprisal": 8.5048,
+        "entropy": 7.5916,
+        "s2": 0.9132,
+        "line_pos": "stanza_initial",
+        "line_num": 4,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 3,
+          "n_stanzas": 2
+        }
+      }
+    },
+    {
+      "title": "We Real Cool",
+      "author": "Gwendolyn Brooks",
+      "era": "mid_century",
+      "n_stanzas": 4,
+      "pos_avgs": {
+        "stanza_initial": 0.11709999999999991,
+        "stanza_final_line_initial": 29.151,
+        "stanza_final_line_final": -3.2656000000000005,
+        "stanza_initial_line_final": -2.9370999999999996,
+        "line_initial": 19.052699999999998,
+        "line_final": -2.4753,
+        "medial": -0.1449344827586207
+      },
+      "best_si": {
+        "position": 25,
+        "token": "Sing",
+        "surprisal": 11.9554,
+        "entropy": 9.1928,
+        "s2": 2.7626,
+        "line_pos": "stanza_initial",
+        "line_num": 6,
+        "info": {
+          "stanza_idx": 2,
+          "line_in_stanza": 0,
+          "stanza_len": 2,
+          "n_stanzas": 4
+        }
+      }
+    },
+    {
+      "title": "Harlem",
+      "author": "Langston Hughes",
+      "era": "harlem_renaissance",
+      "n_stanzas": 4,
+      "pos_avgs": {
+        "stanza_initial": -0.14556666666666684,
+        "stanza_final_line_initial": 9.665833333333333,
+        "stanza_final_line_final": -2.944266666666666,
+        "stanza_initial_line_final": 0.008533333333333282,
+        "line_initial": 27.518579999999996,
+        "line_final": 0.74698,
+        "medial": -0.9742309090909091
+      },
+      "best_si": {
+        "position": 60,
+        "token": "Maybe",
+        "surprisal": 8.1102,
+        "entropy": 6.1424,
+        "s2": 1.9677,
+        "line_pos": "stanza_initial",
+        "line_num": 10,
+        "info": {
+          "stanza_idx": 2,
+          "line_in_stanza": 0,
+          "stanza_len": 2,
+          "n_stanzas": 4
+        }
+      }
+    },
+    {
+      "title": "London",
+      "author": "William Blake",
+      "era": "romantic",
+      "n_stanzas": 3,
+      "pos_avgs": {
+        "stanza_initial": -0.69455,
+        "stanza_final_line_initial": 12.0484,
+        "stanza_final_line_final": -3.2220500000000003,
+        "stanza_initial_line_final": -3.85695,
+        "line_initial": 20.8618125,
+        "line_final": -1.5997875,
+        "medial": -0.17614117647058822
+      },
+      "best_si": {
+        "position": 78,
+        "token": "How",
+        "surprisal": 7.4982,
+        "entropy": 7.7725,
+        "s2": -0.2743,
+        "line_pos": "stanza_initial",
+        "line_num": 10,
+        "info": {
+          "stanza_idx": 2,
+          "line_in_stanza": 0,
+          "stanza_len": 4,
+          "n_stanzas": 3
+        }
+      }
+    },
+    {
+      "title": "A Red, Red Rose",
+      "author": "Robert Burns",
+      "era": "romantic",
+      "n_stanzas": 4,
+      "pos_avgs": {
+        "stanza_initial": -0.9837000000000001,
+        "stanza_final_line_initial": 6.398499999999999,
+        "stanza_final_line_final": -2.8761666666666663,
+        "stanza_initial_line_final": -0.9800999999999999,
+        "line_initial": 14.380850000000004,
+        "line_final": -0.8962999999999999,
+        "medial": -0.7289409090909087
+      },
+      "best_si": {
+        "position": 39,
+        "token": "As",
+        "surprisal": 7.6373,
+        "entropy": 6.691,
+        "s2": 0.9463,
+        "line_pos": "stanza_initial",
+        "line_num": 5,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 4,
+          "n_stanzas": 4
+        }
+      }
+    },
+    {
+      "title": "What Is Poetry",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "n_stanzas": 2,
+      "pos_avgs": {
+        "stanza_initial": -1.2655,
+        "stanza_final_line_initial": 19.713,
+        "stanza_final_line_final": 0.98,
+        "stanza_initial_line_final": 0.691,
+        "line_initial": 17.76298,
+        "line_final": -1.20928,
+        "medial": -0.6762943396226415
+      },
+      "best_si": {
+        "position": 20,
+        "token": "That",
+        "surprisal": 5.8169,
+        "entropy": 7.0824,
+        "s2": -1.2655,
+        "line_pos": "stanza_initial",
+        "line_num": 3,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 5,
+          "n_stanzas": 2
+        }
+      }
+    },
+    {
+      "title": "Paradoxes and Oxymorons",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "n_stanzas": 3,
+      "pos_avgs": {
+        "stanza_initial": -1.97385,
+        "stanza_final_line_initial": -2.7407500000000002,
+        "stanza_final_line_final": -1.7997,
+        "stanza_initial_line_final": -2.3276,
+        "line_initial": 13.3587375,
+        "line_final": -1.5328125,
+        "medial": -0.1978874074074074
+      },
+      "best_si": {
+        "position": 58,
+        "token": "The",
+        "surprisal": 4.8504,
+        "entropy": 5.9465,
+        "s2": -1.0961,
+        "line_pos": "stanza_initial",
+        "line_num": 5,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 4,
+          "n_stanzas": 3
+        }
+      }
+    },
+    {
+      "title": "I heard a Fly buzz \u2014 when I died",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "n_stanzas": 4,
+      "pos_avgs": {
+        "stanza_initial": -2.2689,
+        "stanza_final_line_initial": 5.2029000000000005,
+        "stanza_final_line_final": -1.0528666666666666,
+        "stanza_initial_line_final": -1.2982,
+        "line_initial": 11.8358,
+        "line_final": -1.5177299999999998,
+        "medial": 0.21820833333333323
+      },
+      "best_si": {
+        "position": 108,
+        "token": "With",
+        "surprisal": 6.3863,
+        "entropy": 6.6702,
+        "s2": -0.2839,
+        "line_pos": "stanza_initial",
+        "line_num": 15,
+        "info": {
+          "stanza_idx": 3,
+          "line_in_stanza": 0,
+          "stanza_len": 4,
+          "n_stanzas": 4
+        }
+      }
+    },
+    {
+      "title": "Buffalo Bill 's",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "n_stanzas": 2,
+      "pos_avgs": {
+        "stanza_initial": -2.2776,
+        "stanza_final_line_initial": 19.0326,
+        "stanza_initial_line_final": -5.2675,
+        "line_initial": 14.390877777777778,
+        "line_final": -1.1125555555555553,
+        "medial": -1.1421403614457832
+      },
+      "best_si": {
+        "position": 143,
+        "token": "he",
+        "surprisal": 7.8893,
+        "entropy": 10.1669,
+        "s2": -2.2776,
+        "line_pos": "stanza_initial",
+        "line_num": 8,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 4,
+          "n_stanzas": 2
+        }
+      }
+    },
+    {
+      "title": "The Tyger",
+      "author": "William Blake",
+      "era": "romantic",
+      "n_stanzas": 3,
+      "pos_avgs": {
+        "stanza_initial": -2.3518499999999998,
+        "stanza_final_line_initial": 12.05615,
+        "stanza_final_line_final": -0.60615,
+        "stanza_initial_line_final": -1.8063,
+        "line_initial": 17.9925875,
+        "line_final": -1.9069375,
+        "medial": -1.1206402439024394
+      },
+      "best_si": {
+        "position": 32,
+        "token": "In",
+        "surprisal": 5.6662,
+        "entropy": 7.7084,
+        "s2": -2.0422,
+        "line_pos": "stanza_initial",
+        "line_num": 5,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 4,
+          "n_stanzas": 3
+        }
+      }
+    },
+    {
+      "title": "The Negro Speaks of Rivers",
+      "author": "Langston Hughes",
+      "era": "harlem_renaissance",
+      "n_stanzas": 3,
+      "pos_avgs": {
+        "stanza_initial": -2.6829,
+        "stanza_final_line_initial": 9.6198,
+        "stanza_final_line_final": -2.51765,
+        "stanza_initial_line_final": -2.2376,
+        "line_initial": 11.811342857142856,
+        "line_final": -0.9360714285714284,
+        "medial": -0.12826018518518523
+      },
+      "best_si": {
+        "position": 33,
+        "token": "My",
+        "surprisal": 5.7326,
+        "entropy": 6.78,
+        "s2": -1.0474,
+        "line_pos": "stanza_initial",
+        "line_num": 4,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 1,
+          "n_stanzas": 3
+        }
+      }
+    },
+    {
+      "title": "Because I could not stop for Death",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "n_stanzas": 2,
+      "pos_avgs": {
+        "stanza_initial": -2.7491,
+        "stanza_final_line_initial": -3.7816,
+        "stanza_final_line_final": -2.7603,
+        "stanza_initial_line_final": 3.1255,
+        "line_initial": 3.385733333333333,
+        "line_final": -1.0521500000000001,
+        "medial": 0.5545999999999999
+      },
+      "best_si": {
+        "position": 32,
+        "token": "We",
+        "surprisal": 4.9933,
+        "entropy": 7.7424,
+        "s2": -2.7491,
+        "line_pos": "stanza_initial",
+        "line_num": 5,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 4,
+          "n_stanzas": 2
+        }
+      }
+    },
+    {
+      "title": "Anecdote of the Jar",
+      "author": "Wallace Stevens",
+      "era": "modernist",
+      "n_stanzas": 2,
+      "pos_avgs": {
+        "stanza_initial": -2.7818,
+        "stanza_final_line_initial": 2.869,
+        "stanza_final_line_final": -2.657,
+        "stanza_initial_line_final": -2.2374,
+        "line_initial": 9.384333333333332,
+        "line_final": -0.8598,
+        "medial": 0.2561803921568628
+      },
+      "best_si": {
+        "position": 33,
+        "token": "The",
+        "surprisal": 3.7116,
+        "entropy": 6.4933,
+        "s2": -2.7818,
+        "line_pos": "stanza_initial",
+        "line_num": 5,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 4,
+          "n_stanzas": 2
+        }
+      }
+    },
+    {
+      "title": "Lady Lazarus (opening)",
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "n_stanzas": 3,
+      "pos_avgs": {
+        "stanza_initial": -2.90725,
+        "stanza_final_line_initial": 10.273599999999998,
+        "stanza_final_line_final": 5.9613,
+        "stanza_initial_line_final": -2.3565,
+        "line_initial": 14.73134,
+        "line_final": -1.0927,
+        "medial": -0.24484102564102556
+      },
+      "best_si": {
+        "position": 19,
+        "token": "A",
+        "surprisal": 5.6839,
+        "entropy": 7.7046,
+        "s2": -2.0206,
+        "line_pos": "stanza_initial",
+        "line_num": 4,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 3,
+          "n_stanzas": 3
+        }
+      }
+    },
+    {
+      "title": "The Emperor of Ice-Cream",
+      "author": "Wallace Stevens",
+      "era": "modernist",
+      "n_stanzas": 2,
+      "pos_avgs": {
+        "stanza_initial": -3.4998,
+        "stanza_final_line_initial": -3.6813,
+        "stanza_final_line_final": -3.0938,
+        "stanza_initial_line_final": 0.4825,
+        "line_initial": 10.8817375,
+        "line_final": -1.0034625000000001,
+        "medial": -0.7703765432098764
+      },
+      "best_si": {
+        "position": 49,
+        "token": "Let",
+        "surprisal": 4.2355,
+        "entropy": 7.7353,
+        "s2": -3.4998,
+        "line_pos": "stanza_initial",
+        "line_num": 6,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 5,
+          "n_stanzas": 2
+        }
+      }
+    },
+    {
+      "title": "Song of Myself (section 1)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "n_stanzas": 2,
+      "pos_avgs": {
+        "stanza_initial": -4.1317,
+        "stanza_final_line_initial": -0.9441,
+        "stanza_final_line_final": -1.8758,
+        "stanza_initial_line_final": -1.2323,
+        "line_initial": 13.475133333333332,
+        "line_final": -2.2105333333333332,
+        "medial": 1.1650266666666667
+      },
+      "best_si": {
+        "position": 32,
+        "token": "I",
+        "surprisal": 3.2727,
+        "entropy": 7.4045,
+        "s2": -4.1317,
+        "line_pos": "stanza_initial",
+        "line_num": 4,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 2,
+          "n_stanzas": 2
+        }
+      }
+    },
+    {
+      "title": "A Noiseless Patient Spider",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "n_stanzas": 2,
+      "pos_avgs": {
+        "stanza_initial": -4.227,
+        "stanza_final_line_initial": 5.2698,
+        "stanza_final_line_final": -1.9293,
+        "stanza_initial_line_final": -4.414,
+        "line_initial": 4.847300000000001,
+        "line_final": -1.7877000000000005,
+        "medial": -0.0440588235294117
+      },
+      "best_si": {
+        "position": 61,
+        "token": "And",
+        "surprisal": 4.1438,
+        "entropy": 8.3708,
+        "s2": -4.227,
+        "line_pos": "stanza_initial",
+        "line_num": 6,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 5,
+          "n_stanzas": 2
+        }
+      }
+    },
+    {
+      "title": "I felt a Funeral, in my Brain",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "n_stanzas": 2,
+      "pos_avgs": {
+        "stanza_initial": -4.3593,
+        "stanza_final_line_initial": -4.0584,
+        "stanza_final_line_final": -0.145,
+        "stanza_initial_line_final": -2.704,
+        "line_initial": 15.228516666666664,
+        "line_final": -1.4858,
+        "medial": -0.7183792452830189
+      },
+      "best_si": {
+        "position": 38,
+        "token": "And",
+        "surprisal": 1.7279,
+        "entropy": 6.0872,
+        "s2": -4.3593,
+        "line_pos": "stanza_initial",
+        "line_num": 5,
+        "info": {
+          "stanza_idx": 1,
+          "line_in_stanza": 0,
+          "stanza_len": 4,
+          "n_stanzas": 2
+        }
+      }
+    }
+  ],
+  "n_poems_analyzed": 27
+}
