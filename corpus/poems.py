@@ -1463,6 +1463,160 @@ And fare thee weel awhile!
 And I will come again, my luve,
 Though it were ten thousand mile."""
     },
+
+    # ─── FINGERPRINT VALIDATION POEMS ──────────────────────────────────
+    # Added to test within-poet S₂ fingerprint stability across poems.
+
+    # Thomas Hardy — "Neutral Tones" (1898, PD)
+    # Early Hardy; bleak winter scene; tests HIGH-DEVIATION SPIKER signature.
+    {
+        "title": "Neutral Tones",
+        "author": "Thomas Hardy",
+        "year": 1898,
+        "era": "victorian",
+        "text": """We stood by a pond that winter day,
+And the sun was white, as though chidden of God,
+And a few leaves lay on the starving sod;
+— They had fallen from an ash, and were gray.
+
+Your eyes on me were as eyes that rove
+Over tedious riddles of years ago;
+And some words played between us to and fro
+On which lost the more by our love.
+
+The smile on your mouth was the deadest thing
+Alive enough to have strength to die;
+And a grin of bitterness swept thereby
+Like an ominous bird a-wing....
+
+Since then, keen lessons that love deceives,
+And wrings with wrong, have shaped to me
+Your face, and the God-curst sun, and a tree,
+And a pond edged with grayish leaves."""
+    },
+
+    # T.S. Eliot — "The Hollow Men" (opening, 1925)
+    # Tests if Eliot's remarkably stable fingerprint (skew≈1.62, kurt≈3.94) holds here.
+    {
+        "title": "The Hollow Men (opening)",
+        "author": "T.S. Eliot",
+        "year": 1925,
+        "era": "modernist",
+        "text": """We are the hollow men
+We are the stuffed men
+Leaning together
+Headpiece filled with straw. Alas!
+Our dried voices, when
+We whisper together
+Are quiet and meaningless
+As wind in dry grass
+Or rats' feet over broken glass
+In our dry cellar
+
+Shape without form, shade without colour,
+Paralysed force, gesture without motion;
+
+Those who have crossed
+With direct eyes, to death's other Kingdom
+Remember us — if at all — not as lost
+Violent souls, but only
+As the hollow men
+The stuffed men."""
+    },
+
+    # William Carlos Williams — "This Is Just to Say" (1934)
+    # Very short; tests whether WCW's extreme mean S₂ (+3.6) holds in miniature.
+    {
+        "title": "This Is Just to Say",
+        "author": "William Carlos Williams",
+        "year": 1934,
+        "era": "modernist",
+        "text": """I have eaten
+the plums
+that were in
+the icebox
+
+and which
+you were probably
+saving
+for breakfast
+
+Forgive me
+they were delicious
+so sweet
+and so cold"""
+    },
+
+    # E.E. Cummings — "anyone lived in a pretty how town" (1940)
+    # Tests low pos_ratio signature: Cummings' syntactic inversions suppress surprisal
+    # for most tokens while creating extreme spikes at key deviations.
+    {
+        "title": "anyone lived in a pretty how town",
+        "author": "E.E. Cummings",
+        "year": 1940,
+        "era": "modernist",
+        "text": """anyone lived in a pretty how town
+(with up so floating many bells down)
+spring summer autumn winter
+he sang his didn't he danced his did.
+
+Women and men(both little and small)
+cared for anyone not at all
+they sowed their isn't they reaped their same
+sun moon stars rain
+
+children guessed(but only a few
+and down they forgot as up they grew
+autumn winter spring summer)
+that noone loved him more by more"""
+    },
+
+    # Philip Larkin — "Aubade" (1977)
+    # New poet; late 20th-century English confessional; meditations on death.
+    # Larkin's plain diction might produce a distinctive low-S₂, low-kurtosis fingerprint.
+    {
+        "title": "Aubade (opening)",
+        "author": "Philip Larkin",
+        "year": 1977,
+        "era": "contemporary",
+        "text": """I work all day, and get half-drunk at night.
+Waking at four to soundless dark, I stare.
+In time the curtain-edges will grow light.
+Till then I see what's really always there:
+Unresting death, a whole day nearer now,
+Making all thought impossible but how
+And where and when I shall myself die.
+Arid interrogation: yet the dread
+Of dying, and being dead,
+Flashes afresh to hold and horrify."""
+    },
+
+    # Seamus Heaney — "Digging" (1966)
+    # New poet; Irish post-war poetry; earthy imagery, strong consonance.
+    # Heaney known for densely tactile language — may produce high variance S₂.
+    {
+        "title": "Digging",
+        "author": "Seamus Heaney",
+        "year": 1966,
+        "era": "contemporary",
+        "text": """Between my finger and my thumb
+The squat pen rests; snug as a gun.
+
+Under my window, a clean rasping sound
+When the spade sinks into gravelly ground:
+My father, digging. I look down
+
+Till his straining rump among the flowerbeds
+Bends low, comes up twenty years away
+Stooping in rhythm through potato drills
+Where he was digging.
+
+The coarse boot nestled on the lug, the shaft
+Against the inside knee was levered firmly.
+He rooted out tall tops, buried the bright edge deep
+To scatter new potatoes that we picked
+Loving their cool hardness in our hands."""
+    },
 ]
 
 # Quick stats
