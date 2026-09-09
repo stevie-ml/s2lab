@@ -1784,6 +1784,161 @@ And we are here as on a darkling plain
 Swept with confused alarms of struggle and flight,
 Where ignorant armies clash by night."""
     },
+
+    # ─── ADDITIONAL TRADITIONAL BALLADS ───────────────────────────────────
+    # Rationale: prior analysis (s2_spikiness.py) shows the single ballad
+    # ("Lord Randal") has near-zero avg S₂ but median spikiness — a mostly
+    # predictable text with rare extreme spikes. Adding 5 more traditional
+    # ballads (public domain, all pre-1800 or collected from oral tradition)
+    # to test whether this profile is robust across ballad tradition.
+
+    # "Barbara Allen" — first mentioned by Samuel Pepys, Jan 2, 1666.
+    # Child Ballad #84. Extant in hundreds of variants. Classic tragic love
+    # with strict ABCB quatrain and refrain-like return to Barb'ra Allen.
+    {
+        "title": "Barbara Allen",
+        "author": "Traditional (English/Scottish ballad)",
+        "year": 1666,
+        "era": "ballad",
+        "text": """In Scarlet town, where I was born,
+There was a fair maid dwellin',
+Made every youth cry Well-a-way!
+Her name was Barb'ra Allen.
+
+All in the merry month of May,
+When green buds they were swellin',
+Young Willie Grove on his death-bed lay,
+For love of Barb'ra Allen.
+
+He sent his man in to her then,
+To the town where she was dwellin':
+"O haste and come to my master dear,
+If your name be Barb'ra Allen."
+
+So slowly, slowly rase she up,
+And slowly she came nigh him,
+And when she drew the curtain by:
+"Young man, I think you're dying." """
+    },
+
+    # "Sir Patrick Spens" — Child Ballad #58. Published by Bishop Percy in
+    # Reliques of Ancient English Poetry (1765). Scottish sea-voyage ballad.
+    # Tight ABCB quatrains; famous for economy — no wasted words.
+    {
+        "title": "Sir Patrick Spens",
+        "author": "Traditional (Scottish ballad)",
+        "year": 1765,
+        "era": "ballad",
+        "text": """The king sits in Dumferling toune,
+Drinking the blude-reid wine:
+"O whar will I get guid sailor,
+To sail this schip of mine?"
+
+Up and spak an eldern knicht,
+Sat at the kings richt kne:
+"Sir Patrick Spence is the best sailor,
+That sails upon the se."
+
+The king has written a braid letter,
+And signd it wi his hand,
+And sent it to Sir Patrick Spence,
+Was walking on the sand.
+
+The first line that Sir Patrick red,
+A loud lauch lauched he;
+The next line that Sir Patrick red,
+The teir blinded his ee.
+
+"O wha is this has don this deid,
+This ill deid don to me,
+To send me out this time o' the yeir,
+To sail upon the se!" """
+    },
+
+    # "Edward, Edward" — Child Ballad #13. Published by Percy 1765.
+    # Uses same call-and-response question-answer structure as "Lord Randal"
+    # (already in corpus) — allows within-form comparison.
+    {
+        "title": "Edward, Edward",
+        "author": "Traditional (Scottish ballad)",
+        "year": 1765,
+        "era": "ballad",
+        "text": """"Why dois your brand sae drap wi' bluid,
+Edward, Edward?
+Why dois your brand sae drap wi' bluid,
+And why sae sad gang yee, O?"
+"O I hae killed my hauke sae guid,
+Mither, mither,
+O I hae killed my hauke sae guid,
+And I had nae mair bot hee, O."
+
+"Your haukis bluid was nevir sae reid,
+Edward, Edward,
+Your haukis bluid was nevir sae reid,
+My deir son I tell thee, O."
+"O I hae killed my reid-roan steid,
+Mither, mither,
+O I hae killed my reid-roan steid,
+That erst was sae fair and frie, O." """
+    },
+
+    # "The Wife of Usher's Well" — Child Ballad #79. Supernatural ballad
+    # where a mother's three drowned sons return as ghosts. Concise imagery,
+    # strong meter; a canonical example of oral-tradition ballad economy.
+    {
+        "title": "The Wife of Usher's Well",
+        "author": "Traditional (Scottish ballad)",
+        "year": 1802,
+        "era": "ballad",
+        "text": """There lived a wife at Usher's Well,
+And a wealthy wife was she;
+She had three stout and stalwart sons,
+And sent them o'er the sea.
+
+They hadna been a week from her,
+A week but barely ane,
+When word came to the carline wife
+That her three sons were gane.
+
+They hadna been a week from her,
+A week but barely three,
+When word came to the carline wife
+That her sons she'd never see.
+
+"I wish the wind may never cease,
+Nor fashes in the flood,
+Till my three sons come hame to me,
+In earthly flesh and blood." """
+    },
+
+    # "Bonnie George Campbell" — Child Ballad #210. Lament ballad on the
+    # death of a young man whose horse returns without him. Extreme brevity
+    # (four quatrains); one of the most compressed ballad tragedies.
+    {
+        "title": "Bonnie George Campbell",
+        "author": "Traditional (Scottish ballad)",
+        "year": 1818,
+        "era": "ballad",
+        "text": """Hie upon Hielands,
+And low upon Tay,
+Bonnie George Campbell
+Rade out on a day.
+
+Saddled and bridled
+And gallant rade he;
+Hame cam his guid horse,
+But never cam he.
+
+Out cam his mother dear,
+Greeting fu' sair,
+And out cam his bonnie bryde,
+Riving her hair.
+
+Saddled and bridled
+And booted rade he;
+Toom hame cam the saddle,
+But never cam he."""
+    },
 ]
 
 # Quick stats
