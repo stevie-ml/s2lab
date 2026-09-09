@@ -1617,6 +1617,173 @@ He rooted out tall tops, buried the bright edge deep
 To scatter new potatoes that we picked
 Loving their cool hardness in our hands."""
     },
+
+    # ─── NEW POEMS (2026-09-09): CLOSURE & SONG LYRICS EXPERIMENT ──────────
+    # Added to test closure token hypotheses and song-lyrics vs poetry S₂ gap.
+    # Focus: W.B. Yeats (prophetic modernism), Robert Frost (conversational
+    # accessibility), and traditional ballad form as song-lyrics baseline.
+
+    # W.B. Yeats — "The Second Coming" (1920, PD)
+    # Prophetic, apocalyptic register; famous gyratory imagery.
+    # Hypothesis: Yeats's intensity and unusual proper nouns → high S₂ and
+    # high last-word S₂ (the poem ends on "Bethlehem").
+    {
+        "title": "The Second Coming",
+        "author": "W.B. Yeats",
+        "year": 1920,
+        "era": "modernist",
+        "text": """Turning and turning in the widening gyre
+The falcon cannot hear the falconer;
+Things fall apart; the centre cannot hold;
+Mere anarchy is loosed upon the world,
+The blood-dimmed tide is loosed, and everywhere
+The ceremony of innocence is drowned;
+The best lack all conviction, while the worst
+Are full of passionate intensity.
+
+Surely some revelation is at hand;
+Surely the Second Coming is at hand.
+The Second Coming! Hardly are those words out
+When a vast image out of Spiritus Mundi
+Troubles my sight: somewhere in sands of the desert
+A shape with lion body and the head of a man,
+A gaze blank and pitiless as the sun,
+Is moving its slow thighs, while all about it
+Reel shadows of the indignant desert birds.
+The darkness drops again; but now I know
+That twenty centuries of stony sleep
+Were vexed to nightmare by a rocking cradle,
+And what rough beast, its hour come round at last,
+Slouches towards Bethlehem to be born?"""
+    },
+
+    # W.B. Yeats — "Sailing to Byzantium" (1928, PD)
+    # Meditation on art, aging, and immortality; complex syntax.
+    # Contrast with "The Second Coming" — more introspective but same poet.
+    {
+        "title": "Sailing to Byzantium (stanza 1)",
+        "author": "W.B. Yeats",
+        "year": 1928,
+        "era": "modernist",
+        "text": """That is no country for old men. The young
+In one another's arms, birds in the trees,
+—Those dying generations—at their song,
+The salmon-falls, the mackerel-crowded seas,
+Fish, flesh, or fowl, commend all summer long
+Whatever is begotten, born, and dies.
+Caught in that sensual music all neglect
+Monuments of unageing intellect."""
+    },
+
+    # Robert Frost — "The Road Not Taken" (1916, PD)
+    # The most widely read American poem; conversational register.
+    # Hypothesis: Frost's accessibility will produce moderate but not high S₂ —
+    # his choices are unexpected but within the range of colloquial English.
+    {
+        "title": "The Road Not Taken",
+        "author": "Robert Frost",
+        "year": 1916,
+        "era": "modernist",
+        "text": """Two roads diverged in a yellow wood,
+And sorry I could not travel both
+And be one traveler, long I stood
+And looked down one as far as I could
+To where it bent in the undergrowth;
+
+Then took the other, as just as fair,
+And having perhaps the better claim,
+Because it was grassy and wanted wear;
+Though as for that the passing there
+Had worn them really about the same,
+
+And both that morning equally lay
+In leaves no step had trodden black.
+Oh, I kept the first for another day!
+Yet knowing how way leads on to way,
+I doubted if I should ever come back.
+
+I shall be telling this with a sigh
+Somewhere ages and ages hence:
+Two roads diverged in a wood, and I—
+I took the one less traveled by,
+And that has made all the difference."""
+    },
+
+    # Traditional Scottish ballad — "Lord Randal" (c. 1500–1800, PD)
+    # Call-and-response song form; strong ABAB/ABCB ballad rhyme.
+    # Tests whether song-lyric/oral form shows distinctively different S₂
+    # from literary poetry; new era "ballad" to distinguish from written verse.
+    {
+        "title": "Lord Randal",
+        "author": "Traditional (Scottish ballad)",
+        "year": 1800,
+        "era": "ballad",
+        "text": """"O where hae ye been, Lord Randal, my son?
+O where hae ye been, my handsome young man?"
+"I hae been to the wild wood; mother, make my bed soon,
+For I'm weary wi' hunting, and fain wald lie down."
+
+"Where gat ye your dinner, Lord Randal, my son?
+Where gat ye your dinner, my handsome young man?"
+"I dined wi' my true-love; mother, make my bed soon,
+For I'm weary wi' hunting, and fain wald lie down."
+
+"What gat ye to your dinner, Lord Randal, my son?
+What gat ye to your dinner, my handsome young man?"
+"I gat eels boiled in broo; mother, make my bed soon,
+For I'm weary wi' hunting, and fain wald lie down." """
+    },
+
+    # Robert Burns — "To a Mouse" (1785, PD)
+    # Burns's Scots vernacular; famous last two stanzas philosophical.
+    # Tests: does Scots dialect (non-standard orthography) spike S₂?
+    # New "ballad" era would capture Burns's song-origin tradition.
+    {
+        "title": "To a Mouse (closing stanzas)",
+        "author": "Robert Burns",
+        "year": 1785,
+        "era": "romantic",
+        "text": """But Mousie, thou art no thy-lane,
+In proving foresight may be vain:
+The best-laid schemes o' Mice an' Men
+Gang aft agley,
+An' lea'e us nought but grief an' pain,
+For promis'd joy!
+
+Still, thou art blest, compar'd wi' me!
+The present only toucheth thee:
+But Och! I backward cast my e'e,
+On prospects drear!
+An' forward, tho' I canna see,
+I guess an' fear!"""
+    },
+
+    # Matthew Arnold — "Dover Beach" extended (second stanza)
+    # "Dover Beach" (opening) already in corpus; add later stanza for comparison.
+    # Tests whether the poem's famous closing "darkling plain" passage shows
+    # crescendo arc in the second half.
+    {
+        "title": "Dover Beach (closing stanzas)",
+        "author": "Matthew Arnold",
+        "year": 1867,
+        "era": "victorian",
+        "text": """Sophocles long ago
+Heard it on the Ægæan, and it brought
+Into his mind the turbid ebb and flow
+Of human misery; we
+Find also in the sound a thought,
+Hearing it by this distant northern sea.
+
+Ah, love, let us be true
+To one another! for the world, which seems
+To lie before us like a land of dreams,
+So various, so beautiful, so new,
+Hath really neither joy, nor love, nor light,
+Nor certitude, nor peace, nor help for pain;
+And we are here as on a darkling plain
+Swept with confused alarms of struggle and flight,
+Where ignorant armies clash by night."""
+    },
 ]
 
 # Quick stats
