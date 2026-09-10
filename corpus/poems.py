@@ -1939,6 +1939,81 @@ And booted rade he;
 Toom hame cam the saddle,
 But never cam he."""
     },
+
+    # ─── PROSE POETRY ───────────────────────────────────────────────────────
+    # Testing the prosimetrum: poems that use prose syntax but poetic compression.
+    # Hypothesis: prose poems should have S₂ profiles intermediate between
+    # control prose (negative) and lyric poetry (positive).
+
+    # "The Colonel" by Carolyn Forché (1981) — prose poem, documentary witness.
+    # Journalistic prose sentence structure; violence at the close.
+    # Known for matter-of-fact narration of horror. Short excerpt.
+    {
+        "title": "The Colonel (excerpt)",
+        "author": "Carolyn Forché",
+        "year": 1981,
+        "era": "prose_poetry",
+        "text": """What you have heard is true. I was in his house. His wife carried a tray of coffee and sugar. His daughter filed her nails, his son went out for the night. There were daily papers, pet dogs, a pistol on the cushion beside him. The moon swung bare on its black cord over the house."""
+    },
+
+    # Russell Edson, "The Fall" — surrealist prose poem.
+    # Edson's work uses declarative prose syntax to describe impossible events.
+    # Very short sentences, deadpan register.
+    {
+        "title": "The Fall",
+        "author": "Russell Edson",
+        "year": 1973,
+        "era": "prose_poetry",
+        "text": """There was a man who found two leaves and came indoors holding them out saying to his mother, look I found these today.
+
+His mother said, a good boy, a leaf for each hand.
+
+Put them in your fennel, says she.
+
+He put them in his fennel.
+
+She asked him to go out to play again, he'd gotten the things of indoors mixed up with outdoors.
+
+He went out and found a handful of feathers, which he brought back in.
+
+These are nice too, the mother said, holding out her hands."""
+    },
+
+    # W.S. Merwin, "Yesterday" — lyric prose poem (from "The Rain in the Trees", 1988).
+    # Known for absence of punctuation; long flowing syntax; meditation on loss.
+    {
+        "title": "Yesterday (prose poem)",
+        "author": "W.S. Merwin",
+        "year": 1988,
+        "era": "prose_poetry",
+        "text": """My friend says I was not a good son you understand I say yes I understand. He says I did not go to see my parents very often you know and I say yes I know. Even when I was living in the same city he says even then I did not go to see them very often."""
+    },
+
+    # James Wright, "The Jewel" (1963) — prose-inflected lyric.
+    # Short meditation on interiority and silence.
+    {
+        "title": "The Jewel",
+        "author": "James Wright",
+        "year": 1963,
+        "era": "prose_poetry",
+        "text": """There is this cave
+In the air behind my body
+That nobody is going to touch:
+A cloister, a silence
+Closing around a blossom of fire.
+When I stand upright in the wind,
+My bones turn to dark emeralds."""
+    },
+
+    # Claudia Rankine, from "Citizen: An American Lyric" (2014) — prose poetry.
+    # Uses second-person "you," confronting racial experience through a prose-lyric hybrid.
+    {
+        "title": "Citizen (excerpt, section I)",
+        "author": "Claudia Rankine",
+        "year": 2014,
+        "era": "prose_poetry",
+        "text": """When you are alone and too tired even to turn on any of your devices, you let yourself linger in a past stacked among your pillows. Usually you are nestled under blankets and the house is empty. Sometimes the moon is missing and beyond the windows the low-hanging clouds. You are half-asleep but feel if you were to think, not even think, just to imagine yourself imagining—"""
+    },
 ]
 
 # Quick stats
