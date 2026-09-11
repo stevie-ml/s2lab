@@ -2014,6 +2014,182 @@ My bones turn to dark emeralds."""
         "era": "prose_poetry",
         "text": """When you are alone and too tired even to turn on any of your devices, you let yourself linger in a past stacked among your pillows. Usually you are nestled under blankets and the house is empty. Sometimes the moon is missing and beyond the windows the low-hanging clouds. You are half-asleep but feel if you were to think, not even think, just to imagine yourself imagining—"""
     },
+
+    # ─── VOLTA EXPERIMENT SONNETS ────────────────────────────────────────────
+    # Sonnets tagged with sonnet_type for the volta experiment.
+    # Volta occurs at: Petrarchan → line 9; Shakespearean → line 13.
+
+    # Shakespeare, Sonnet 18 (1609, PD) — Shakespearean; volta: line 9
+    # "But thy eternal summer shall not fade" — classic optimistic turn.
+    {
+        "title": "Sonnet 18 (Shall I compare thee)",
+        "author": "William Shakespeare",
+        "year": 1609,
+        "era": "victorian",  # filed as classical; era is approximate
+        "sonnet_type": "shakespearean",
+        "text": """Shall I compare thee to a summer's day?
+Thou art more lovely and more temperate:
+Rough winds do shake the darling buds of May,
+And summer's lease hath all too short a date:
+Sometime too hot the eye of heaven shines,
+And often is his gold complexion dimm'd;
+And every fair from fair sometime declines,
+By chance, or nature's changing course untrimm'd;
+But thy eternal summer shall not fade,
+Nor lose possession of that fair thou ow'st;
+Nor shall Death brag thou wander'st in his shade,
+When in eternal lines to time thou grow'st:
+So long as men can breathe, or eyes can see,
+So long lives this, and this gives life to thee."""
+    },
+
+    # Shakespeare, Sonnet 73 (1609, PD) — Shakespearean; volta: line 13
+    # Three quatrains of autumnal imagery; couplet volta pivots to love-as-response-to-mortality.
+    {
+        "title": "Sonnet 73 (That time of year)",
+        "author": "William Shakespeare",
+        "year": 1609,
+        "era": "victorian",
+        "sonnet_type": "shakespearean",
+        "text": """That time of year thou mayst in me behold
+When yellow leaves, or none, or few, do hang
+Upon those boughs which shake against the cold,
+Bare ruined choirs, where late the sweet birds sang.
+In me thou see'st the twilight of such day
+As after sunset fadeth in the west;
+Which by and by black night doth take away,
+Death's second self, that seals up all in rest.
+In me thou see'st the glowing of such fire,
+That on the ashes of his youth doth lie,
+As the death-bed whereon it must expire
+Consumed with that which it was nourish'd by.
+This thou perceiv'st, which makes thy love more strong,
+To love that well which thou must leave ere long."""
+    },
+
+    # Shakespeare, Sonnet 130 (1609, PD) — Shakespearean; volta: line 13
+    # Anti-blazon: 12 lines mock conventional praise; couplet reverses to genuine love.
+    {
+        "title": "Sonnet 130 (My mistress' eyes)",
+        "author": "William Shakespeare",
+        "year": 1609,
+        "era": "victorian",
+        "sonnet_type": "shakespearean",
+        "text": """My mistress' eyes are nothing like the sun;
+Coral is far more red than her lips' red;
+If snow be white, why then her breasts are dun;
+If hairs be wires, black wires grow on her head.
+I have seen roses damask'd, red and white,
+But no such roses see I in her cheeks;
+And in some perfumes is there more delight
+Than in the breath that from my mistress reeks.
+I love to hear her speak, yet well I know
+That music hath a far more pleasing sound;
+I grant I never saw a goddess go;
+My mistress, when she walks, treads on the ground:
+And yet, by heaven, I think my love as rare
+As any she belied with false compare."""
+    },
+
+    # John Milton, "On His Blindness" / Sonnet 19 (1673, PD) — Petrarchan; volta: line 9
+    # Octave: lament over blindness and unused talent.
+    # Sestet: "They also serve who only stand and wait."
+    {
+        "title": "On His Blindness",
+        "author": "John Milton",
+        "year": 1673,
+        "era": "victorian",
+        "sonnet_type": "petrarchan",
+        "text": """When I consider how my light is spent,
+Ere half my days, in this dark world and wide,
+And that one talent which is death to hide
+Lodged with me useless, though my soul more bent
+To serve therewith my Maker, and present
+My true account, lest he returning chide;
+Doth God exact day-labour, light denied?
+I fondly ask. But Patience, to prevent
+That murmur, soon replies: God doth not need
+Either man's work or his own gifts; who best
+Bear his mild yoke, they serve him best. His state
+Is kingly: thousands at his bidding speed,
+And post o'er land and ocean without rest;
+They also serve who only stand and wait."""
+    },
+
+    # John Keats, "On First Looking into Chapman's Homer" (1816, PD) — Petrarchan; volta: line 9
+    # Octave: literary discovery as geographic exploration.
+    # Sestet: sudden epiphany / "wild surmise" — among the most celebrated voltas in English.
+    {
+        "title": "On First Looking into Chapman's Homer",
+        "author": "John Keats",
+        "year": 1816,
+        "era": "romantic",
+        "sonnet_type": "petrarchan",
+        "text": """Much have I travell'd in the realms of gold,
+And many goodly states and kingdoms seen;
+Round many western islands have I been
+Which bards in fealty to Apollo hold.
+Oft of one wide expanse had I been told
+That deep-brow'd Homer ruled as his demesne;
+Yet did I never breathe its pure serene
+Till I heard Chapman speak out loud and bold:
+Then felt I like some watcher of the skies
+When a new planet swims into his ken;
+Or like stout Cortez when with eagle eyes
+He star'd at the Pacific—and all his men
+Look'd at each other with a wild surmise—
+Silent, upon a peak in Darien."""
+    },
+
+    # Percy Bysshe Shelley, "Ozymandias" (1818, PD) — irregular / modified Petrarchan
+    # Unusual rhyme scheme; the "turn" is implicit (~line 9-10: "My name is Ozymandias").
+    # Good control: volta is thematic rather than formally marked.
+    {
+        "title": "Ozymandias",
+        "author": "Percy Bysshe Shelley",
+        "year": 1818,
+        "era": "romantic",
+        "sonnet_type": "irregular",
+        "text": """I met a traveller from an antique land,
+Who said: Two vast and trunkless legs of stone
+Stand in the desert. Near them, on the sand,
+Half sunk, a shattered visage lies, whose frown,
+And wrinkled lip, and sneer of cold command,
+Tell that its sculptor well those passions read
+Which yet survive, stamped on these lifeless things,
+The hand that mocked them and the heart that fed:
+And on the pedestal these words appear:
+'My name is Ozymandias, king of kings:
+Look on my works, ye Mighty, and despair!'
+Nothing beside remains. Round the decay
+Of that colossal wreck, boundless and bare
+The lone and level sands stretch far away."""
+    },
+
+    # Edna St. Vincent Millay, "What lips my lips have kissed" (1923, PD) — Petrarchan; volta: line 9
+    # Octave: erotic memory of unnamed loves; sestet: autumn loneliness, silence.
+    # Famous for its melancholy sestet pivot.
+    {
+        "title": "What lips my lips have kissed",
+        "author": "Edna St. Vincent Millay",
+        "year": 1923,
+        "era": "mid_century",
+        "sonnet_type": "petrarchan",
+        "text": """What lips my lips have kissed, and where, and why,
+I have forgotten, and what arms have lain
+Under my head till morning; but the rain
+Is full of ghosts tonight, that tap and sigh
+Upon the glass and listen for reply,
+And in my heart there stirs a quiet pain
+For unremembered lads that not again
+Will turn to me at midnight with a cry.
+Thus in winter stands the lonely tree,
+Nor knows what birds have vanished one by one,
+Yet knows its boughs more silent than before:
+I cannot say what loves have come and gone,
+I only know that summer sang in me
+A little while, that in me sings no more."""
+    },
 ]
 
 # Quick stats
