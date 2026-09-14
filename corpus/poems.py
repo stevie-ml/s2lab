@@ -1119,6 +1119,25 @@ a worm digs silently
 into the chestnut."""
     },
 
+    # Kobayashi Issa haiku — second haiku author; tests Gini/concentration hypothesis
+    {
+        "title": "Three Haiku (Issa, translated)",
+        "author": "Kobayashi Issa",
+        "year": 1819,
+        "era": "haiku",
+        "text": """This world of dew
+is only a world of dew—
+and yet... and yet...
+
+Don't worry, spiders,
+I keep house
+casually.
+
+O snail,
+climb Mount Fuji,
+but slowly, slowly!"""
+    },
+
     # Vachel Lindsay — extreme rhythmic repetition, PD (excerpt, sanitized)
     {
         "title": "The Congo (opening, sanitized excerpt)",
@@ -1616,6 +1635,55 @@ Against the inside knee was levered firmly.
 He rooted out tall tops, buried the bright edge deep
 To scatter new potatoes that we picked
 Loving their cool hardness in our hands."""
+    },
+
+    # Wislawa Szymborska — translated contemporary; tests cross-cultural S₂ patterns
+    {
+        "title": "Possibilities",
+        "author": "Wislawa Szymborska",
+        "year": 1972,
+        "era": "contemporary",
+        "text": """I prefer movies.
+I prefer cats.
+I prefer the oaks along the Warta.
+I prefer Dickens to Dostoyevsky.
+I prefer myself liking people
+to myself loving mankind.
+I prefer keeping a needle and thread on hand, just in case.
+I prefer the color green.
+I prefer not to maintain
+that reason is to blame for everything.
+I prefer exceptions.
+I prefer to leave early.
+I prefer talking to doctors about something else.
+I prefer the old fine-lined illustrations.
+I prefer the absurdity of writing poems
+to the absurdity of not writing poems."""
+    },
+
+    # Mary Oliver — contemporary nature lyric; meditative, accumulative
+    {
+        "title": "The Summer Day",
+        "author": "Mary Oliver",
+        "year": 1990,
+        "era": "contemporary",
+        "text": """Who made the world?
+Who made the swan, and the black bear?
+Who made the grasshopper?
+This grasshopper, I mean—
+the one who has flung herself out of the grass,
+the one who is eating sugar out of my hand,
+who is moving her jaws back and forth instead of up and down—
+who is gazing around with her enormous and complicated eyes.
+Now she lifts her pale forearms and thoroughly washes her face.
+Now she snaps her wings open, and floats away.
+I don't know exactly what a prayer is.
+I do know how to pay attention, how to fall down
+into the grass, how to kneel down in the grass,
+how to be idle and blessed, how to stroll through the fields,
+which is what I have been doing all day.
+Tell me, what is it you plan to do
+with your one wild and precious life?"""
     },
 
     # ─── NEW POEMS (2026-09-09): CLOSURE & SONG LYRICS EXPERIMENT ──────────
