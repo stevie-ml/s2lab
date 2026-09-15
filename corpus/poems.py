@@ -1119,6 +1119,25 @@ a worm digs silently
 into the chestnut."""
     },
 
+    # Kobayashi Issa haiku — second haiku author; tests Gini/concentration hypothesis
+    {
+        "title": "Three Haiku (Issa, translated)",
+        "author": "Kobayashi Issa",
+        "year": 1819,
+        "era": "haiku",
+        "text": """This world of dew
+is only a world of dew—
+and yet... and yet...
+
+Don't worry, spiders,
+I keep house
+casually.
+
+O snail,
+climb Mount Fuji,
+but slowly, slowly!"""
+    },
+
     # Vachel Lindsay — extreme rhythmic repetition, PD (excerpt, sanitized)
     {
         "title": "The Congo (opening, sanitized excerpt)",
@@ -1616,6 +1635,55 @@ Against the inside knee was levered firmly.
 He rooted out tall tops, buried the bright edge deep
 To scatter new potatoes that we picked
 Loving their cool hardness in our hands."""
+    },
+
+    # Wislawa Szymborska — translated contemporary; tests cross-cultural S₂ patterns
+    {
+        "title": "Possibilities",
+        "author": "Wislawa Szymborska",
+        "year": 1972,
+        "era": "contemporary",
+        "text": """I prefer movies.
+I prefer cats.
+I prefer the oaks along the Warta.
+I prefer Dickens to Dostoyevsky.
+I prefer myself liking people
+to myself loving mankind.
+I prefer keeping a needle and thread on hand, just in case.
+I prefer the color green.
+I prefer not to maintain
+that reason is to blame for everything.
+I prefer exceptions.
+I prefer to leave early.
+I prefer talking to doctors about something else.
+I prefer the old fine-lined illustrations.
+I prefer the absurdity of writing poems
+to the absurdity of not writing poems."""
+    },
+
+    # Mary Oliver — contemporary nature lyric; meditative, accumulative
+    {
+        "title": "The Summer Day",
+        "author": "Mary Oliver",
+        "year": 1990,
+        "era": "contemporary",
+        "text": """Who made the world?
+Who made the swan, and the black bear?
+Who made the grasshopper?
+This grasshopper, I mean—
+the one who has flung herself out of the grass,
+the one who is eating sugar out of my hand,
+who is moving her jaws back and forth instead of up and down—
+who is gazing around with her enormous and complicated eyes.
+Now she lifts her pale forearms and thoroughly washes her face.
+Now she snaps her wings open, and floats away.
+I don't know exactly what a prayer is.
+I do know how to pay attention, how to fall down
+into the grass, how to kneel down in the grass,
+how to be idle and blessed, how to stroll through the fields,
+which is what I have been doing all day.
+Tell me, what is it you plan to do
+with your one wild and precious life?"""
     },
 
     # ─── NEW POEMS (2026-09-09): CLOSURE & SONG LYRICS EXPERIMENT ──────────
@@ -2189,6 +2257,221 @@ Yet knows its boughs more silent than before:
 I cannot say what loves have come and gone,
 I only know that summer sang in me
 A little while, that in me sings no more."""
+    },
+
+    # ─── SONG LYRICS / FOLK SONGS (traditional, PD) ──────────────────────
+    # Added 2026-09-14 to test the "decay after spike" hypothesis:
+    # Prediction — song lyrics with strong formula (verse-chorus, ABCB) should
+    # produce very negative ASI (formula snaps back after any surprise), similar
+    # to ballads but possibly more extreme due to repetition.
+
+    # "Frankie and Johnny" — traditional American folk/blues ballad, c. 1890s
+    # Strong ABCB rhyme, repeated "he was her man, but he done her wrong" refrain.
+    {
+        "title": "Frankie and Johnny (opening stanzas)",
+        "author": "Traditional (American folk)",
+        "year": 1899,
+        "era": "song_lyrics",
+        "text": """Frankie and Johnny were sweethearts, lordy how they could love,
+Swore to be true to each other, just as true as the stars above,
+He was her man, but he done her wrong.
+
+Frankie she was a good woman, as everybody knows,
+She spent a hundred dollars just to buy her man some clothes,
+He was her man, but he done her wrong.
+
+Frankie went down to the corner, just for a bucket of beer,
+She said, "Oh Mr. Bartender, has my lovin' Johnny been here?"
+He was her man, but he done her wrong.
+
+"I will not tell you no story, I will not tell you no lie,
+I saw your Johnny an hour ago with a girl named Nellie Bly,
+He was your man, but he done you wrong."
+
+Frankie went down to the hotel, she looked in the window so high,
+There she saw her lovin' Johnny making love to Nellie Bly,
+He was her man, but he done her wrong."""
+    },
+
+    # "Oh Shenandoah" — traditional American river chanty, c. 1820s–1860s
+    # Irregular but haunting refrain structure; contrast with strict ballad meter.
+    {
+        "title": "Oh Shenandoah",
+        "author": "Traditional (American sea chanty)",
+        "year": 1860,
+        "era": "song_lyrics",
+        "text": """Oh Shenandoah, I long to hear you,
+Away you rolling river,
+Oh Shenandoah, I long to hear you,
+Away, I'm bound away, 'cross the wide Missouri.
+
+Oh Shenandoah, I love your daughter,
+Away you rolling river,
+I'll take her 'cross the rolling water,
+Away, I'm bound away, 'cross the wide Missouri.
+
+Oh Shenandoah, I'm bound to leave you,
+Away you rolling river,
+Oh Shenandoah, I'll not deceive you,
+Away, I'm bound away, 'cross the wide Missouri.
+
+'Tis seven years since last I've seen thee,
+Away you rolling river,
+'Tis seven years since last I've seen thee,
+Away, I'm bound away, 'cross the wide Missouri."""
+    },
+
+    # "Home on the Range" — lyrics by Brewster Higley, 1872 (PD)
+    # Regular ABCB verse with sweet countryside imagery; highly predictable.
+    {
+        "title": "Home on the Range",
+        "author": "Brewster Higley",
+        "year": 1872,
+        "era": "song_lyrics",
+        "text": """Oh, give me a home where the buffalo roam,
+Where the deer and the antelope play,
+Where seldom is heard a discouraging word,
+And the skies are not cloudy all day.
+
+Home, home on the range,
+Where the deer and the antelope play,
+Where seldom is heard a discouraging word,
+And the skies are not cloudy all day.
+
+Where the air is so pure, and the zephyrs so free,
+The breezes so balmy and light,
+That I would not exchange my home on the range
+For all of the cities so bright.
+
+The red man was pressed from this part of the West,
+He's likely no more to return,
+To the banks of Red River where seldom if ever
+Their flickering camp-fires burn."""
+    },
+
+    # ─── NURSERY RHYMES (extreme formula / control) ───────────────────────
+    # Prediction: nursery rhymes have the most predictable language of all;
+    # any S2 spike will be maximally isolated (lowest ASI of any category).
+    # Stronger formula than even traditional ballads.
+
+    {
+        "title": "Nursery Rhymes (compilation)",
+        "author": "Traditional (English)",
+        "year": 1760,
+        "era": "nursery_rhyme",
+        "text": """Jack and Jill went up the hill to fetch a pail of water.
+Jack fell down and broke his crown, and Jill came tumbling after.
+
+Humpty Dumpty sat on a wall,
+Humpty Dumpty had a great fall.
+All the king's horses and all the king's men
+Couldn't put Humpty together again.
+
+Little Miss Muffet sat on a tuffet,
+Eating her curds and whey;
+Along came a spider, who sat down beside her,
+And frightened Miss Muffet away.
+
+Mary had a little lamb, its fleece was white as snow,
+And everywhere that Mary went, the lamb was sure to go.
+It followed her to school one day, which was against the rule;
+It made the children laugh and play to see a lamb at school.
+
+Twinkle, twinkle, little star, how I wonder what you are,
+Up above the world so high, like a diamond in the sky.
+When the blazing sun is gone, when he nothing shines upon,
+Then you show your little light, twinkle, twinkle, all the night."""
+    },
+
+    # ─── ADDITIONAL PROSE POETRY ──────────────────────────────────────────
+    # Added to test whether the positive-ASI cascade effect holds with more data.
+
+    # Killarney Clary, "Who Whispered Near Me" (1989) — contemporary prose poem
+    # Meditative, fragmented; lacks strong syntactic predictors.
+    {
+        "title": "From 'Who Whispered Near Me' (excerpt)",
+        "author": "Killarney Clary",
+        "year": 1989,
+        "era": "prose_poetry",
+        "text": """It is evening; I am still. The hills are soft with light that's going
+fast. The clouds come up. I stand at the window. The evening light is
+softer than I could have wished. I have lived here for a year and I do not
+know the names of the trees. The hills are soft. There is a presence I have
+been trying to name. The grass bends. I have not been here long enough.
+I take down the book of names. The light changes as I watch. The hills are
+going. The clouds have covered the light. I put the book away. I know the
+evening comes. The hills are dark now. I have given up counting. I have
+given up knowing. I know only the evening comes and the hills are soft and
+then the hills are gone."""
+    },
+
+    # Rae Armantrout, "Crossing" (1991) — Language/post-Language prose poem
+    # Armantrout's work is highly fragmented, resisting syntactic prediction.
+    {
+        "title": "Crossing (excerpt)",
+        "author": "Rae Armantrout",
+        "year": 1991,
+        "era": "prose_poetry",
+        "text": """Suppose the house contains many voices.
+Suppose those voices are my mother's.
+We are never done with this.
+
+The child runs ahead; she's looking
+for the first flower of spring.
+She looks and looks.
+The mother follows, pointing.
+
+They pass the wall of the school.
+They pass the abandoned factory.
+They pass the last small houses.
+Nothing is in bloom yet.
+The child has gone ahead.
+The mother stops.
+She says: this is the path
+she used to take.
+
+The path goes on.
+The voices are in the path.
+The path goes on and on."""
+    },
+
+    # David Antin, "a list of the delusions of the insane: what they are afraid of"
+    # (1971, "talking at the boundaries") — radical catalog prose poem;
+    # no punctuation; list form. Tests whether pure enumeration creates cascade.
+    {
+        "title": "a list of the delusions of the insane (excerpt)",
+        "author": "David Antin",
+        "year": 1971,
+        "era": "prose_poetry",
+        "text": """a list of the delusions of the insane what they are afraid of
+
+being buried alive
+being laughed at
+being left alone
+being followed
+being touched
+being poisoned
+being watched
+being wrong
+being right
+being recognized
+being forgotten
+being the only one left
+the dark
+the light
+the sound
+the silence
+themselves
+their dreams
+their thoughts
+that their thoughts are not their own
+that their bodies are not their own
+that they have no body
+that they have too much body
+that they are dissolving
+that they are turning to stone
+that the walls are moving
+that time has stopped"""
     },
 ]
 
