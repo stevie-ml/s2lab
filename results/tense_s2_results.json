@@ -1,0 +1,678 @@
+{
+  "total_poems": 128,
+  "poems_with_tense_tokens": 123,
+  "tense_counts": {
+    "past": 417,
+    "present": 488,
+    "modal": 40,
+    "future": 23
+  },
+  "tense_mean_s2": {
+    "past": 1.1892,
+    "present": -0.9932,
+    "modal": 0.3096,
+    "future": -1.3066
+  },
+  "tense_median_s2": {
+    "past": 0.0669,
+    "present": -1.9447,
+    "modal": -0.8803,
+    "future": -1.3233
+  },
+  "tense_std_s2": {
+    "past": 5.2163,
+    "present": 4.364,
+    "modal": 4.8913,
+    "future": 1.9825
+  },
+  "match_count": 558,
+  "mismatch_count": 115,
+  "match_mean_s2": -1.8471,
+  "mismatch_mean_s2": 0.4337,
+  "transition_count": 347,
+  "sustained_count": 621,
+  "transition_mean_s2": 0.41,
+  "sustained_mean_s2": -0.2395,
+  "transition_types": {
+    "present\u2192past": {
+      "count": 134,
+      "mean_s2": 1.7948
+    },
+    "past\u2192present": {
+      "count": 118,
+      "mean_s2": -0.4922
+    },
+    "modal\u2192present": {
+      "count": 19,
+      "mean_s2": -1.0721
+    },
+    "past\u2192modal": {
+      "count": 16,
+      "mean_s2": -1.4313
+    },
+    "future\u2192present": {
+      "count": 14,
+      "mean_s2": -1.2876
+    },
+    "present\u2192modal": {
+      "count": 14,
+      "mean_s2": 0.6043
+    },
+    "modal\u2192past": {
+      "count": 13,
+      "mean_s2": -0.2204
+    },
+    "present\u2192future": {
+      "count": 11,
+      "mean_s2": -0.589
+    },
+    "past\u2192future": {
+      "count": 5,
+      "mean_s2": -1.2282
+    },
+    "future\u2192past": {
+      "count": 2,
+      "mean_s2": 14.3151
+    },
+    "future\u2192modal": {
+      "count": 1,
+      "mean_s2": -0.4533
+    }
+  },
+  "era_tense_mean_s2": {
+    "romantic": {
+      "past": 1.0994,
+      "present": 2.1034,
+      "modal": 7.113,
+      "future": -2.875
+    },
+    "19th_century": {
+      "modal": -1.0226,
+      "past": 0.7018,
+      "present": -0.4019,
+      "future": -0.0079
+    },
+    "modernist": {
+      "present": -1.891,
+      "past": 1.3463,
+      "modal": -1.9278,
+      "future": 0.6341
+    },
+    "beat": {
+      "past": 4.6899,
+      "present": 0.1408
+    },
+    "confessional": {
+      "present": -2.2928,
+      "past": -0.8612
+    },
+    "mid_century": {
+      "present": 0.7328,
+      "past": 3.681,
+      "future": -3.4993
+    },
+    "new_york_school": {
+      "past": 1.922,
+      "present": -0.7982,
+      "modal": 0.8952,
+      "future": 0.3679
+    },
+    "language": {
+      "past": 0.6204,
+      "present": 2.3644
+    },
+    "contemporary": {
+      "present": -1.5843,
+      "past": 1.1281,
+      "future": -1.8977,
+      "modal": -3.0121
+    },
+    "harlem_renaissance": {
+      "past": 2.5172,
+      "present": 0.5092,
+      "modal": -0.4055
+    },
+    "surrealist": {
+      "present": -3.4022,
+      "past": 9.4876
+    },
+    "deep_image": {
+      "present": -3.8515
+    },
+    "control": {
+      "past": -0.5995,
+      "modal": -1.1919,
+      "present": -1.6867
+    },
+    "german_symbolist": {
+      "present": -2.6449,
+      "past": 0.7121
+    },
+    "german_expressionist": {
+      "present": -4.0553
+    },
+    "german_modernist": {
+      "present": -2.2824
+    },
+    "victorian": {
+      "past": 1.3814,
+      "present": -0.732,
+      "future": -1.4599,
+      "modal": -0.776
+    },
+    "haiku": {
+      "present": 7.9347
+    },
+    "ancient": {
+      "present": -1.229
+    },
+    "prose_poetry": {
+      "present": -1.7529,
+      "past": 0.867,
+      "modal": 2.7955
+    },
+    "ballad": {
+      "present": -0.3154,
+      "past": 1.3955,
+      "modal": -0.6666,
+      "future": -0.1371
+    },
+    "song_lyrics": {
+      "past": -0.3687,
+      "modal": -0.7328,
+      "present": -1.1716,
+      "future": -1.818
+    },
+    "nursery_rhyme": {
+      "past": -0.8479,
+      "present": -0.6875,
+      "modal": 1.7536
+    }
+  },
+  "top_mismatch_examples": [
+    {
+      "poem": "Why I Am Not a Painter",
+      "author": "Frank O'Hara",
+      "year": 1957,
+      "token": "needed",
+      "actual_tense": "past",
+      "predicted_tense": "present",
+      "s2": 13.8877,
+      "top_alt": "is",
+      "context": "Yes, it"
+    },
+    {
+      "poem": "Frankie and Johnny (opening stanzas)",
+      "author": "Traditional (American folk)",
+      "year": 1899,
+      "token": "saw",
+      "actual_tense": "past",
+      "predicted_tense": "future",
+      "s2": 9.362,
+      "top_alt": "will",
+      "context": ",\nI"
+    },
+    {
+      "poem": "Citizen (excerpt)",
+      "author": "Claudia Rankine",
+      "year": 2014,
+      "token": "let",
+      "actual_tense": "past",
+      "predicted_tense": "future",
+      "s2": 8.0597,
+      "top_alt": "can",
+      "context": " devices, you"
+    },
+    {
+      "poem": "Citizen (excerpt, section I)",
+      "author": "Claudia Rankine",
+      "year": 2014,
+      "token": "let",
+      "actual_tense": "past",
+      "predicted_tense": "future",
+      "s2": 8.0597,
+      "top_alt": "can",
+      "context": " devices, you"
+    },
+    {
+      "poem": "A Supermarket in California",
+      "author": "Allen Ginsberg",
+      "year": 1955,
+      "token": "walked",
+      "actual_tense": "past",
+      "predicted_tense": "present",
+      "s2": 7.2799,
+      "top_alt": "am",
+      "context": ", for I"
+    },
+    {
+      "poem": "My Last Duchess (opening)",
+      "author": "Robert Browning",
+      "year": 1842,
+      "token": "pictured",
+      "actual_tense": "past",
+      "predicted_tense": "present",
+      "s2": 7.0756,
+      "top_alt": "I",
+      "context": " like you that"
+    },
+    {
+      "poem": "The Waste Land (opening)",
+      "author": "T.S. Eliot",
+      "year": 1922,
+      "token": "kept",
+      "actual_tense": "past",
+      "predicted_tense": "present",
+      "s2": 5.4602,
+      "top_alt": "is",
+      "context": ".\nWinter"
+    },
+    {
+      "poem": "The Instruction Manual",
+      "author": "John Ashbery",
+      "year": 1956,
+      "token": "did",
+      "actual_tense": "past",
+      "predicted_tense": "modal",
+      "s2": 5.3943,
+      "top_alt": "could",
+      "context": "I wish I"
+    },
+    {
+      "poem": "What lips my lips have kissed",
+      "author": "Edna St. Vincent Millay",
+      "year": 1923,
+      "token": "sang",
+      "actual_tense": "past",
+      "predicted_tense": "present",
+      "s2": 5.3528,
+      "top_alt": "is",
+      "context": " know that summer"
+    },
+    {
+      "poem": "The Convergence of the Twain (excerpt)",
+      "author": "Thomas Hardy",
+      "year": 1912,
+      "token": "planned",
+      "actual_tense": "past",
+      "predicted_tense": "present",
+      "s2": 5.3503,
+      "top_alt": "is",
+      "context": ""
+    },
+    {
+      "poem": "Nursery Rhymes (compilation)",
+      "author": "Traditional (English)",
+      "year": 1760,
+      "token": "show",
+      "actual_tense": "present",
+      "predicted_tense": "future",
+      "s2": 4.817,
+      "top_alt": "will",
+      "context": ""
+    },
+    {
+      "poem": "The One Thing That Can Save America",
+      "author": "John Ashbery",
+      "year": 1975,
+      "token": "happened",
+      "actual_tense": "past",
+      "predicted_tense": "present",
+      "s2": 4.5719,
+      "top_alt": "is",
+      "context": " assurance that what"
+    },
+    {
+      "poem": "The Instruction Manual",
+      "author": "John Ashbery",
+      "year": 1956,
+      "token": "wandered",
+      "actual_tense": "past",
+      "predicted_tense": "present",
+      "s2": 4.2657,
+      "top_alt": "widen",
+      "context": ""
+    },
+    {
+      "poem": "The Summer Day",
+      "author": "Mary Oliver",
+      "year": 1990,
+      "token": "was",
+      "actual_tense": "past",
+      "predicted_tense": "present",
+      "s2": 4.2097,
+      "top_alt": "lifts",
+      "context": ""
+    },
+    {
+      "poem": "The Wife of Usher's Well",
+      "author": "Traditional (Scottish ballad)",
+      "year": 1802,
+      "token": "lived",
+      "actual_tense": "past",
+      "predicted_tense": "present",
+      "s2": 4.071,
+      "top_alt": "is",
+      "context": ""
+    },
+    {
+      "poem": "From 'Who Whispered Near Me' (excerpt)",
+      "author": "Killarney Clary",
+      "year": 1989,
+      "token": "covered",
+      "actual_tense": "past",
+      "predicted_tense": "present",
+      "s2": 3.8025,
+      "top_alt": "come",
+      "context": " The clouds have"
+    },
+    {
+      "poem": "Soonest Mended",
+      "author": "John Ashbery",
+      "year": 1970,
+      "token": "would",
+      "actual_tense": "modal",
+      "predicted_tense": "past",
+      "s2": 3.4964,
+      "top_alt": "was",
+      "context": ""
+    },
+    {
+      "poem": "Yesterday (prose poem)",
+      "author": "W.S. Merwin",
+      "year": 1988,
+      "token": "say",
+      "actual_tense": "present",
+      "predicted_tense": "past",
+      "s2": 3.0498,
+      "top_alt": "was",
+      "context": " you understand I"
+    },
+    {
+      "poem": "Ozymandias",
+      "author": "Percy Bysshe Shelley",
+      "year": 1818,
+      "token": "mocked",
+      "actual_tense": "past",
+      "predicted_tense": "present",
+      "s2": 2.8926,
+      "top_alt": "holds",
+      "context": ""
+    },
+    {
+      "poem": "Ozymandias",
+      "author": "Percy Bysshe Shelley",
+      "year": 1818,
+      "token": "mocked",
+      "actual_tense": "past",
+      "predicted_tense": "present",
+      "s2": 2.8505,
+      "top_alt": "holds",
+      "context": ""
+    }
+  ],
+  "top_transition_examples": {
+    "past\u2192present": [
+      {
+        "poem": "The Emperor of Ice-Cream",
+        "author": "Wallace Stevens",
+        "year": 1922,
+        "token": "Bring",
+        "s2": 16.5089,
+        "transition": "past\u2192present"
+      },
+      {
+        "poem": "Paradoxes and Oxymorons",
+        "author": "John Ashbery",
+        "year": 1981,
+        "token": "Look",
+        "s2": 15.0968,
+        "transition": "past\u2192present"
+      },
+      {
+        "poem": "Ozymandias",
+        "author": "Percy Bysshe Shelley",
+        "year": 1818,
+        "token": "Stand",
+        "s2": 12.6791,
+        "transition": "past\u2192present"
+      }
+    ],
+    "modal\u2192past": [
+      {
+        "poem": "The Road Not Taken",
+        "author": "Robert Frost",
+        "year": 1916,
+        "token": "bent",
+        "s2": 6.9968,
+        "transition": "modal\u2192past"
+      },
+      {
+        "poem": "Yet Do I Marvel",
+        "author": "Countee Cullen",
+        "year": 1925,
+        "token": "buried",
+        "s2": 5.5363,
+        "transition": "modal\u2192past"
+      },
+      {
+        "poem": "If We Must Die",
+        "author": "Claude McKay",
+        "year": 1919,
+        "token": "outnumbered",
+        "s2": 4.5031,
+        "transition": "modal\u2192past"
+      }
+    ],
+    "present\u2192future": [
+      {
+        "poem": "My Last Duchess (opening)",
+        "author": "Robert Browning",
+        "year": 1842,
+        "token": "Will",
+        "s2": 2.3974,
+        "transition": "present\u2192future"
+      },
+      {
+        "poem": "The Day Lady Died",
+        "author": "Frank O'Hara",
+        "year": 1959,
+        "token": "will",
+        "s2": 1.5869,
+        "transition": "present\u2192future"
+      },
+      {
+        "poem": "Paradoxes and Oxymorons",
+        "author": "John Ashbery",
+        "year": 1981,
+        "token": "will",
+        "s2": 1.5422,
+        "transition": "present\u2192future"
+      }
+    ],
+    "present\u2192past": [
+      {
+        "poem": "The Emperor of Ice-Cream",
+        "author": "Wallace Stevens",
+        "year": 1922,
+        "token": "Let",
+        "s2": 24.6042,
+        "transition": "present\u2192past"
+      },
+      {
+        "poem": "Why I Am Not a Painter",
+        "author": "Frank O'Hara",
+        "year": 1957,
+        "token": "needed",
+        "s2": 13.8877,
+        "transition": "present\u2192past"
+      },
+      {
+        "poem": "Yet Do I Marvel",
+        "author": "Countee Cullen",
+        "year": 1925,
+        "token": "tortured",
+        "s2": 12.7415,
+        "transition": "present\u2192past"
+      }
+    ],
+    "past\u2192modal": [
+      {
+        "poem": "Yet Do I Marvel",
+        "author": "Countee Cullen",
+        "year": 1925,
+        "token": "could",
+        "s2": 10.0432,
+        "transition": "past\u2192modal"
+      },
+      {
+        "poem": "Soonest Mended",
+        "author": "John Ashbery",
+        "year": 1970,
+        "token": "would",
+        "s2": 3.4964,
+        "transition": "past\u2192modal"
+      },
+      {
+        "poem": "News article prose",
+        "author": "Control",
+        "year": 2024,
+        "token": "would",
+        "s2": -0.8984,
+        "transition": "past\u2192modal"
+      }
+    ],
+    "future\u2192present": [
+      {
+        "poem": "My Last Duchess (opening)",
+        "author": "Robert Browning",
+        "year": 1842,
+        "token": "sit",
+        "s2": 7.6963,
+        "transition": "future\u2192present"
+      },
+      {
+        "poem": "A Red, Red Rose",
+        "author": "Robert Burns",
+        "year": 1794,
+        "token": "come",
+        "s2": 3.1739,
+        "transition": "future\u2192present"
+      },
+      {
+        "poem": "I heard a Fly buzz \u2014 when I died",
+        "author": "Emily Dickinson",
+        "year": 1896,
+        "token": "Keep",
+        "s2": 1.2093,
+        "transition": "future\u2192present"
+      }
+    ],
+    "present\u2192modal": [
+      {
+        "poem": "The Stranger (prose poem, translated)",
+        "author": "Charles Baudelaire",
+        "year": 1869,
+        "token": "would",
+        "s2": 5.6581,
+        "transition": "present\u2192modal"
+      },
+      {
+        "poem": "Sonnet 18 (Shall I compare thee)",
+        "author": "William Shakespeare",
+        "year": 1609,
+        "token": "May",
+        "s2": 3.2723,
+        "transition": "present\u2192modal"
+      },
+      {
+        "poem": "The Wife of Usher's Well",
+        "author": "Traditional (Scottish ballad)",
+        "year": 1802,
+        "token": "may",
+        "s2": 3.0252,
+        "transition": "present\u2192modal"
+      }
+    ],
+    "modal\u2192present": [
+      {
+        "poem": "The One Thing That Can Save America",
+        "author": "John Ashbery",
+        "year": 1975,
+        "token": "seems",
+        "s2": 8.0972,
+        "transition": "modal\u2192present"
+      },
+      {
+        "poem": "Sonnet 73 (That time of year)",
+        "author": "William Shakespeare",
+        "year": 1609,
+        "token": "leave",
+        "s2": 3.3638,
+        "transition": "modal\u2192present"
+      },
+      {
+        "poem": "If We Must Die",
+        "author": "Claude McKay",
+        "year": 1919,
+        "token": "die",
+        "s2": 1.4759,
+        "transition": "modal\u2192present"
+      }
+    ],
+    "past\u2192future": [
+      {
+        "poem": "I heard a Fly buzz \u2014 when I died",
+        "author": "Emily Dickinson",
+        "year": 1896,
+        "token": "will",
+        "s2": 0.7735,
+        "transition": "past\u2192future"
+      },
+      {
+        "poem": "Frankie and Johnny (opening stanzas)",
+        "author": "Traditional (American folk)",
+        "year": 1899,
+        "token": "will",
+        "s2": -0.1996,
+        "transition": "past\u2192future"
+      },
+      {
+        "poem": "A Noiseless Patient Spider",
+        "author": "Walt Whitman",
+        "year": 1868,
+        "token": "will",
+        "s2": -0.9366,
+        "transition": "past\u2192future"
+      }
+    ],
+    "future\u2192modal": [
+      {
+        "poem": "Remember",
+        "author": "Christina Rossetti",
+        "year": 1849,
+        "token": "should",
+        "s2": -0.4533,
+        "transition": "future\u2192modal"
+      }
+    ],
+    "future\u2192past": [
+      {
+        "poem": "Sir Patrick Spens",
+        "author": "Traditional (Scottish ballad)",
+        "year": 1765,
+        "token": "Sat",
+        "s2": 28.4735,
+        "transition": "future\u2192past"
+      },
+      {
+        "poem": "The Road Not Taken",
+        "author": "Robert Frost",
+        "year": 1916,
+        "token": "took",
+        "s2": 0.1567,
+        "transition": "future\u2192past"
+      }
+    ]
+  }
+}
