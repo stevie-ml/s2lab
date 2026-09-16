@@ -1,0 +1,558 @@
+{
+  "total_traps_15pct": 810,
+  "total_traps_top1": 695,
+  "by_type_all": [
+    {
+      "type": "conjunction",
+      "count": 145,
+      "avg_s2": 12.244264827586207,
+      "avg_newline_confidence": 0.7711586659324581,
+      "examples": [
+        [
+          "Where",
+          29.4817,
+          "Traditional (Scottish ballad)",
+          "Lord Randal"
+        ],
+        [
+          "Where",
+          29.3403,
+          "Brewster Higley",
+          "Home on the Range"
+        ],
+        [
+          "Where",
+          28.9352,
+          "Seamus Heaney",
+          "Digging"
+        ]
+      ]
+    },
+    {
+      "type": "punctuation",
+      "count": 142,
+      "avg_s2": 0.16863028169014083,
+      "avg_newline_confidence": 0.32743093770154763,
+      "examples": [
+        [
+          "\u2014",
+          16.9711,
+          "Charles Baudelaire",
+          "The Stranger (prose poem, translated)"
+        ],
+        [
+          "\"",
+          16.6741,
+          "Traditional (English/Scottish ballad)",
+          "Barbara Allen"
+        ],
+        [
+          "\"",
+          15.9774,
+          "Traditional (English/Scottish ballad)",
+          "Barbara Allen"
+        ]
+      ]
+    },
+    {
+      "type": "proper_noun",
+      "count": 119,
+      "avg_s2": 16.326155462184875,
+      "avg_newline_confidence": 0.7842243947401768,
+      "examples": [
+        [
+          "Die",
+          36.3805,
+          "Gwendolyn Brooks",
+          "We Real Cool"
+        ],
+        [
+          "Cold",
+          33.9979,
+          "Thomas Hardy",
+          "The Convergence of the Twain (excerpt)"
+        ],
+        [
+          "Ke",
+          32.9984,
+          "Emily Dickinson",
+          "I felt a Funeral, in my Brain"
+        ]
+      ]
+    },
+    {
+      "type": "determiner",
+      "count": 102,
+      "avg_s2": 10.568503921568627,
+      "avg_newline_confidence": 0.724328824848521,
+      "examples": [
+        [
+          "Our",
+          31.9167,
+          "Thomas Hardy",
+          "The Oxen"
+        ],
+        [
+          "My",
+          28.9221,
+          "Seamus Heaney",
+          "Digging"
+        ],
+        [
+          "Every",
+          28.3533,
+          "William Blake",
+          "London"
+        ]
+      ]
+    },
+    {
+      "type": "pronoun",
+      "count": 92,
+      "avg_s2": 8.728414130434778,
+      "avg_newline_confidence": 0.666104103560033,
+      "examples": [
+        [
+          "they",
+          32.1788,
+          "William Carlos Williams",
+          "This Is Just to Say"
+        ],
+        [
+          "He",
+          27.507,
+          "Traditional (American folk)",
+          "Frankie and Johnny (opening stanzas)"
+        ],
+        [
+          "He",
+          26.0456,
+          "Seamus Heaney",
+          "Digging"
+        ]
+      ]
+    },
+    {
+      "type": "content_word",
+      "count": 88,
+      "avg_s2": 9.676906818181818,
+      "avg_newline_confidence": 0.48315292732282117,
+      "examples": [
+        [
+          "cas",
+          39.6199,
+          "Kobayashi Issa",
+          "Three Haiku (Issa, translated)"
+        ],
+        [
+          "saving",
+          38.5487,
+          "William Carlos Williams",
+          "This Is Just to Say"
+        ],
+        [
+          "duty",
+          35.4037,
+          "Bruce Andrews",
+          "Islets/Irritations (excerpt)"
+        ]
+      ]
+    },
+    {
+      "type": "preposition",
+      "count": 85,
+      "avg_s2": 11.568487058823528,
+      "avg_newline_confidence": 0.6917957069242702,
+      "examples": [
+        [
+          "Against",
+          33.213,
+          "Seamus Heaney",
+          "Digging"
+        ],
+        [
+          "Between",
+          32.7082,
+          "Emily Dickinson",
+          "I heard a Fly buzz \u2014 when I died"
+        ],
+        [
+          "To",
+          28.8811,
+          "Traditional (Scottish ballad)",
+          "Bonnie George Campbell"
+        ]
+      ]
+    },
+    {
+      "type": "auxiliary/verb",
+      "count": 37,
+      "avg_s2": 15.52751351351352,
+      "avg_newline_confidence": 0.7367132016130395,
+      "examples": [
+        [
+          "being",
+          34.5943,
+          "David Antin",
+          "a list of the delusions of the insane (excerpt)"
+        ],
+        [
+          "Was",
+          32.7501,
+          "Traditional (Scottish ballad)",
+          "Sir Patrick Spens"
+        ],
+        [
+          "being",
+          32.5499,
+          "David Antin",
+          "a list of the delusions of the insane (excerpt)"
+        ]
+      ]
+    }
+  ],
+  "by_type_top1": [
+    {
+      "type": "conjunction",
+      "count": 139,
+      "avg_s2": 12.831243884892086,
+      "avg_newline_confidence": 0.7964579251815946,
+      "examples": [
+        [
+          "Where",
+          29.4817,
+          "Traditional (Scottish ballad)",
+          "Lord Randal"
+        ],
+        [
+          "Where",
+          29.3403,
+          "Brewster Higley",
+          "Home on the Range"
+        ],
+        [
+          "Where",
+          28.9352,
+          "Seamus Heaney",
+          "Digging"
+        ]
+      ]
+    },
+    {
+      "type": "proper_noun",
+      "count": 115,
+      "avg_s2": 16.61235217391304,
+      "avg_newline_confidence": 0.8046603474927985,
+      "examples": [
+        [
+          "Die",
+          36.3805,
+          "Gwendolyn Brooks",
+          "We Real Cool"
+        ],
+        [
+          "Cold",
+          33.9979,
+          "Thomas Hardy",
+          "The Convergence of the Twain (excerpt)"
+        ],
+        [
+          "Ke",
+          32.9984,
+          "Emily Dickinson",
+          "I felt a Funeral, in my Brain"
+        ]
+      ]
+    },
+    {
+      "type": "determiner",
+      "count": 99,
+      "avg_s2": 10.905066666666666,
+      "avg_newline_confidence": 0.7397471393900689,
+      "examples": [
+        [
+          "Our",
+          31.9167,
+          "Thomas Hardy",
+          "The Oxen"
+        ],
+        [
+          "My",
+          28.9221,
+          "Seamus Heaney",
+          "Digging"
+        ],
+        [
+          "Every",
+          28.3533,
+          "William Blake",
+          "London"
+        ]
+      ]
+    },
+    {
+      "type": "pronoun",
+      "count": 81,
+      "avg_s2": 9.89457407407407,
+      "avg_newline_confidence": 0.7263853897651037,
+      "examples": [
+        [
+          "they",
+          32.1788,
+          "William Carlos Williams",
+          "This Is Just to Say"
+        ],
+        [
+          "He",
+          27.507,
+          "Traditional (American folk)",
+          "Frankie and Johnny (opening stanzas)"
+        ],
+        [
+          "He",
+          26.0456,
+          "Seamus Heaney",
+          "Digging"
+        ]
+      ]
+    },
+    {
+      "type": "content_word",
+      "count": 79,
+      "avg_s2": 10.15342405063291,
+      "avg_newline_confidence": 0.5174169598878184,
+      "examples": [
+        [
+          "cas",
+          39.6199,
+          "Kobayashi Issa",
+          "Three Haiku (Issa, translated)"
+        ],
+        [
+          "saving",
+          38.5487,
+          "William Carlos Williams",
+          "This Is Just to Say"
+        ],
+        [
+          "duty",
+          35.4037,
+          "Bruce Andrews",
+          "Islets/Irritations (excerpt)"
+        ]
+      ]
+    },
+    {
+      "type": "punctuation",
+      "count": 77,
+      "avg_s2": 1.6538012987012989,
+      "avg_newline_confidence": 0.4364074006096109,
+      "examples": [
+        [
+          "\u2014",
+          16.9711,
+          "Charles Baudelaire",
+          "The Stranger (prose poem, translated)"
+        ],
+        [
+          "\"",
+          16.6741,
+          "Traditional (English/Scottish ballad)",
+          "Barbara Allen"
+        ],
+        [
+          "\"",
+          15.9774,
+          "Traditional (English/Scottish ballad)",
+          "Barbara Allen"
+        ]
+      ]
+    },
+    {
+      "type": "preposition",
+      "count": 71,
+      "avg_s2": 13.776414084507042,
+      "avg_newline_confidence": 0.7927612888980919,
+      "examples": [
+        [
+          "Against",
+          33.213,
+          "Seamus Heaney",
+          "Digging"
+        ],
+        [
+          "Between",
+          32.7082,
+          "Emily Dickinson",
+          "I heard a Fly buzz \u2014 when I died"
+        ],
+        [
+          "To",
+          28.8811,
+          "Traditional (Scottish ballad)",
+          "Bonnie George Campbell"
+        ]
+      ]
+    },
+    {
+      "type": "auxiliary/verb",
+      "count": 34,
+      "avg_s2": 17.154255882352945,
+      "avg_newline_confidence": 0.782473639530294,
+      "examples": [
+        [
+          "being",
+          34.5943,
+          "David Antin",
+          "a list of the delusions of the insane (excerpt)"
+        ],
+        [
+          "Was",
+          32.7501,
+          "Traditional (Scottish ballad)",
+          "Sir Patrick Spens"
+        ],
+        [
+          "being",
+          32.5499,
+          "David Antin",
+          "a list of the delusions of the insane (excerpt)"
+        ]
+      ]
+    }
+  ],
+  "extreme_examples": [
+    {
+      "title": "Home on the Range",
+      "author": "Brewster Higley",
+      "era": "song_lyrics",
+      "token": "And",
+      "token_type": "conjunction",
+      "s2": 24.2619,
+      "surprisal": 24.2641,
+      "entropy": 0.0021,
+      "newline_prob": 0.9998915195465088,
+      "newline_rank": 1,
+      "context": " word,\n"
+    },
+    {
+      "title": "The Wife of Usher's Well",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "token": "That",
+      "token_type": "conjunction",
+      "s2": 24.5141,
+      "surprisal": 24.5166,
+      "entropy": 0.0025,
+      "newline_prob": 0.9998722076416016,
+      "newline_rank": 1,
+      "context": "line wife\n"
+    },
+    {
+      "title": "One Art",
+      "author": "Elizabeth Bishop",
+      "era": "mid_century",
+      "token": "The",
+      "token_type": "determiner",
+      "s2": 24.5956,
+      "surprisal": 24.5984,
+      "entropy": 0.0028,
+      "newline_prob": 0.999853253364563,
+      "newline_rank": 1,
+      "context": " spent.\n"
+    },
+    {
+      "title": "Bonnie George Campbell",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "token": "To",
+      "token_type": "preposition",
+      "s2": 28.8811,
+      "surprisal": 28.8841,
+      "entropy": 0.003,
+      "newline_prob": 0.9998456239700317,
+      "newline_rank": 1,
+      "context": " he;\n"
+    },
+    {
+      "title": "A Red, Red Rose",
+      "author": "Robert Burns",
+      "era": "romantic",
+      "token": "And",
+      "token_type": "conjunction",
+      "s2": 25.004,
+      "surprisal": 25.007,
+      "entropy": 0.003,
+      "newline_prob": 0.9998447895050049,
+      "newline_rank": 1,
+      "context": " dear,\n"
+    },
+    {
+      "title": "London",
+      "author": "William Blake",
+      "era": "romantic",
+      "token": "In",
+      "token_type": "preposition",
+      "s2": 24.0936,
+      "surprisal": 24.0968,
+      "entropy": 0.0032,
+      "newline_prob": 0.9998353719711304,
+      "newline_rank": 1,
+      "context": " fear,\n"
+    },
+    {
+      "title": "Home on the Range",
+      "author": "Brewster Higley",
+      "era": "song_lyrics",
+      "token": "Where",
+      "token_type": "conjunction",
+      "s2": 24.517,
+      "surprisal": 24.5204,
+      "entropy": 0.0035,
+      "newline_prob": 0.9998233914375305,
+      "newline_rank": 1,
+      "context": " play,\n"
+    },
+    {
+      "title": "Barbara Allen",
+      "author": "Traditional (English/Scottish ballad)",
+      "era": "ballad",
+      "token": "\"",
+      "token_type": "punctuation",
+      "s2": 16.6741,
+      "surprisal": 16.6776,
+      "entropy": 0.0035,
+      "newline_prob": 0.9998181462287903,
+      "newline_rank": 1,
+      "context": "in':\n"
+    },
+    {
+      "title": "I felt a Funeral, in my Brain",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "token": "A",
+      "token_type": "determiner",
+      "s2": 21.5741,
+      "surprisal": 21.5779,
+      "entropy": 0.0038,
+      "newline_prob": 0.9998070597648621,
+      "newline_rank": 1,
+      "context": " seated,\n"
+    },
+    {
+      "title": "A Red, Red Rose",
+      "author": "Robert Burns",
+      "era": "romantic",
+      "token": "And",
+      "token_type": "conjunction",
+      "s2": 25.3346,
+      "surprisal": 25.3383,
+      "entropy": 0.0038,
+      "newline_prob": 0.9998005032539368,
+      "newline_rank": 1,
+      "context": " awhile!\n"
+    }
+  ],
+  "corpus_avg_s2": 0.17901247077791252,
+  "trap_avg_s2": 11.605552230215826
+}
