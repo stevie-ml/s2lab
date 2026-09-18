@@ -2209,31 +2209,6 @@ Look'd at each other with a wild surmise—
 Silent, upon a peak in Darien."""
     },
 
-    # Percy Bysshe Shelley, "Ozymandias" (1818, PD) — irregular / modified Petrarchan
-    # Unusual rhyme scheme; the "turn" is implicit (~line 9-10: "My name is Ozymandias").
-    # Good control: volta is thematic rather than formally marked.
-    {
-        "title": "Ozymandias",
-        "author": "Percy Bysshe Shelley",
-        "year": 1818,
-        "era": "romantic",
-        "sonnet_type": "irregular",
-        "text": """I met a traveller from an antique land,
-Who said: Two vast and trunkless legs of stone
-Stand in the desert. Near them, on the sand,
-Half sunk, a shattered visage lies, whose frown,
-And wrinkled lip, and sneer of cold command,
-Tell that its sculptor well those passions read
-Which yet survive, stamped on these lifeless things,
-The hand that mocked them and the heart that fed:
-And on the pedestal these words appear:
-'My name is Ozymandias, king of kings:
-Look on my works, ye Mighty, and despair!'
-Nothing beside remains. Round the decay
-Of that colossal wreck, boundless and bare
-The lone and level sands stretch far away."""
-    },
-
     # Edna St. Vincent Millay, "What lips my lips have kissed" (1923, PD) — Petrarchan; volta: line 9
     # Octave: erotic memory of unnamed loves; sestet: autumn loneliness, silence.
     # Famous for its melancholy sestet pivot.
@@ -2472,6 +2447,124 @@ that they are dissolving
 that they are turning to stone
 that the walls are moving
 that time has stopped"""
+    },
+
+    # ─── METAPHYSICAL / EARLY MODERN (added 2026-09-18: adversative-turn corpus) ──
+    {
+        "title": "Death, Be Not Proud (Holy Sonnet X)",
+        "author": "John Donne",
+        "year": 1633,
+        "era": "metaphysical",
+        "text": """Death, be not proud, though some have called thee
+Mighty and dreadful, for thou art not so;
+For those whom thou think'st thou dost overthrow
+Die not, poor Death, nor yet canst thou kill me.
+From rest and sleep, which but thy pictures be,
+Much pleasure; then from thee much more must flow,
+And soonest our best men with thee do go,
+Rest of their bones, and soul's delivery.
+Thou art slave to fate, chance, kings, and desperate men,
+And dost with poison, war, and sickness dwell,
+And poppy or charms can make us sleep as well
+And better than thy stroke; why swell'st thou then?
+One short sleep past, we wake eternally
+And death shall be no more; Death, thou shalt die."""
+    },
+    {
+        "title": "Love (III)",
+        "author": "George Herbert",
+        "year": 1633,
+        "era": "metaphysical",
+        "text": """Love bade me welcome; yet my soul drew back,
+Guilty of dust and sin.
+But quick-eyed Love, observing me grow slack
+From my first entrance in,
+Drew nearer to me, sweetly questioning
+If I lack'd anything.
+
+A guest, I answer'd, worthy to be here:
+Love said, You shall be he.
+I, the unkind, ungrateful? Ah, my dear,
+I cannot look on thee.
+Love took my hand and smiling did reply,
+Who made the eyes but I?
+
+Truth, Lord; but I have marr'd them: let my shame
+Go where it doth deserve.
+And know you not, says Love, who bore the blame?
+My dear, then I will serve.
+You must sit down, says Love, and taste my meat.
+So I did sit and eat."""
+    },
+    {
+        "title": "They Flee from Me",
+        "author": "Thomas Wyatt",
+        "year": 1557,
+        "era": "early_modern",
+        "text": """They flee from me that sometime did me seek
+With naked foot stalking in my chamber.
+I have seen them gentle, tame, and meek,
+That now are wild and do not remember
+That sometime they put themselves in danger
+To take bread at my hand; and now they range,
+Busily seeking with a continual change.
+
+Thanked be fortune it hath been otherwise
+Twenty times better; but once in special,
+In thin array after a pleasant guise,
+When her loose gown from her shoulders did fall,
+And she me caught in her arms long and small;
+And therewithal sweetly did me kiss
+And softly said, dear heart, how like you this?
+
+It was no dream: I lay broad waking.
+But all is turned thorough my gentleness
+Into a strange fashion of forsaking;
+And I have leave to go of her goodness,
+And she also to use newfangleness.
+But since that I so kindly am served
+I would fain know what she hath deserved."""
+    },
+    {
+        "title": "God's Grandeur",
+        "author": "Gerard Manley Hopkins",
+        "year": 1877,
+        "era": "victorian",
+        "text": """The world is charged with the grandeur of God.
+It will flame out, like shining from shook foil;
+It gathers to a greatness, like the ooze of oil
+Crushed. Why do men then now not reck his rod?
+Generations have trod, have trod, have trod;
+And all is seared with trade; bleared, smeared with toil;
+And wears man's smudge and shares man's smell: the soil
+Is bare now, nor can foot feel, being shod.
+
+And for all this, nature is never spent;
+There lives the dearest freshness deep down things;
+And though the last lights off the black West went
+Oh, morning, at the brown brink eastward, springs—
+Because the Holy Ghost over the bent
+World broods with warm breast and with ah! bright wings."""
+    },
+    {
+        "title": "A Dream Deferred",
+        "author": "Langston Hughes",
+        "year": 1951,
+        "era": "harlem_renaissance",
+        "text": """What happens to a dream deferred?
+
+Does it dry up
+like a raisin in the sun?
+Or fester like a sore—
+And then run?
+Does it stink like rotten meat?
+Or crust and sugar over—
+like a syrupy sweet?
+
+Maybe it just sags
+like a heavy load.
+
+Or does it explode?"""
     },
 ]
 
