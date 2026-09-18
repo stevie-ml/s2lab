@@ -2566,6 +2566,132 @@ like a heavy load.
 
 Or does it explode?"""
     },
+
+    # ─── HAIKU EXPANSION (added 2026-09-18: pre-peak momentum research) ──
+    # Haiku have the highest avg S2 in our corpus (2.08). The form's "kireji"
+    # (cutting word) is a structural device that produces surprise — perfect
+    # test-bed for buildup/peak analysis.
+    {
+        "title": "Old Pond (Bashō, translated)",
+        "author": "Matsuo Bashō",
+        "year": 1686,
+        "era": "haiku",
+        "text": """An old silent pond—
+A frog jumps into the pond,
+splash! Silence again."""
+    },
+    {
+        "title": "Autumn Crow (Bashō, translated)",
+        "author": "Matsuo Bashō",
+        "year": 1680,
+        "era": "haiku",
+        "text": """On a withered branch
+a crow has come to settle—
+autumn nightfall."""
+    },
+    {
+        "title": "Summer Grass (Bashō, translated)",
+        "author": "Matsuo Bashō",
+        "year": 1689,
+        "era": "haiku",
+        "text": """Summer grasses:
+all that remains
+of great soldiers' dreams."""
+    },
+    {
+        "title": "Winter Forest (Shiki, translated)",
+        "author": "Masaoka Shiki",
+        "year": 1893,
+        "era": "haiku",
+        "text": """Over the wintry
+forest, winds howl in rage
+with no leaves to blow."""
+    },
+    {
+        "title": "Peony Falling (Buson, translated)",
+        "author": "Yosa Buson",
+        "year": 1780,
+        "era": "haiku",
+        "text": """The heavy peony:
+its petals pile on the ground—
+two, three at a time."""
+    },
+    {
+        "title": "The World of Dew (Issa, translated)",
+        "author": "Kobayashi Issa",
+        "year": 1819,
+        "era": "haiku",
+        "text": """The world of dew
+is a world of dew, and yet,
+and yet—"""
+    },
+
+    # ─── SPOKEN WORD / SLAM (new era, tests low-register performance poetry) ──
+    # Predicted: closer to song_lyrics (avg S2 ~0.09) than to modernist verse,
+    # because spoken word optimizes for delivery over surprise density.
+    {
+        "title": "Won't You Celebrate With Me",
+        "author": "Lucille Clifton",
+        "year": 1993,
+        "era": "spoken_word",
+        "text": """won't you celebrate with me
+what i have shaped into
+a kind of life? i had no model.
+born in babylon
+both nonwhite and woman
+what did i see to be except myself?
+i made it up
+here on this bridge between
+starshine and clay,
+my one hand holding tight
+my other hand; come celebrate
+with me that everyday
+something has tried to kill me
+and has failed."""
+    },
+    {
+        "title": "Homage to My Hips",
+        "author": "Lucille Clifton",
+        "year": 1980,
+        "era": "spoken_word",
+        "text": """these hips are big hips.
+they need space to
+move around in.
+they don't fit into little
+petty places. these hips
+are free hips.
+they don't like to be held back.
+these hips have never been enslaved,
+they go where they want to go
+they do what they want to do.
+these hips are mighty hips.
+these hips are magic hips.
+i have known them
+to put a spell on a man and
+spin him like a top!"""
+    },
+
+    # ─── ADDITIONAL EARLY MODERN (underrepresented) ────────────────────────
+    {
+        "title": "Whoso List to Hunt",
+        "author": "Thomas Wyatt",
+        "year": 1557,
+        "era": "early_modern",
+        "text": """Whoso list to hunt, I know where is an hind,
+But as for me, hélas, I may no more.
+The vain travail hath wearied me so sore,
+I am of them that farthest cometh behind.
+Yet may I by no means my wearied mind
+Draw from the deer, but as she fleeth afore
+Fainting I follow. I leave off therefore,
+Since in a net I seek to hold the wind.
+Who list her hunt, I put him out of doubt,
+As well as I may spend his time in vain.
+And graven with diamonds in letters plain
+There is written, her fair neck round about:
+Noli me tangere, for Caesar's I am,
+And wild for to hold, though I seem tame."""
+    },
 ]
 
 # Quick stats
