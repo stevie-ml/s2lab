@@ -2692,6 +2692,96 @@ There is written, her fair neck round about:
 Noli me tangere, for Caesar's I am,
 And wild for to hold, though I seem tame."""
     },
+
+    # ─── APOSTROPHE POEMS (for apostrophe-S2 experiment) ───────────────────
+    {
+        "title": "Ode to the West Wind (stanza 1)",
+        "author": "Percy Bysshe Shelley",
+        "year": 1820,
+        "era": "romantic",
+        "text": """O wild West Wind, thou breath of Autumn's being,
+Thou, from whose unseen presence the leaves dead
+Are driven, like ghosts from an enchanter fleeing,
+Yellow, and black, and pale, and hectic red,
+Pestilence-stricken multitudes: O thou,
+Who chariotest to their dark wintry bed
+The winged seeds, where they lie cold and low,
+Each like a corpse within its grave, until
+Thine azure sister of the Spring shall blow
+Her clarion o'er the dreaming earth, and fill
+(Driving sweet buds like flocks to feed in air)
+With living hues and odours plain and hill:
+Wild Spirit, which art moving everywhere;
+Destroyer and preserver; hear, oh, hear!"""
+    },
+    {
+        "title": "The Sick Rose",
+        "author": "William Blake",
+        "year": 1794,
+        "era": "romantic",
+        "text": """O Rose, thou art sick!
+The invisible worm,
+That flies in the night,
+In the howling storm,
+Has found out thy bed
+Of crimson joy:
+And his dark secret love
+Does thy life destroy."""
+    },
+    {
+        "title": "To Autumn (stanza 1)",
+        "author": "John Keats",
+        "year": 1820,
+        "era": "romantic",
+        "text": """Season of mists and mellow fruitfulness,
+Close bosom-friend of the maturing sun;
+Conspiring with him how to load and bless
+With fruit the vines that round the thatch-eves run;
+To bend with apples the mossed cottage-trees,
+And fill all fruit with ripeness to the core;
+To swell the gourd, and plump the hazel shells
+With a sweet kernel; to set budding more,
+And still more, later flowers for the bees,
+Until they think warm days will never cease,
+For summer has o'er-brimmed their clammy cells."""
+    },
+    {
+        "title": "To a Skylark (opening stanzas)",
+        "author": "Percy Bysshe Shelley",
+        "year": 1820,
+        "era": "romantic",
+        "text": """Hail to thee, blithe Spirit!
+Bird thou never wert,
+That from Heaven, or near it,
+Pourest thy full heart
+In profuse strains of unpremeditated art.
+
+Higher still and higher
+From the earth thou springest
+Like a cloud of fire;
+The blue deep thou wingest,
+And singing still dost soar, and soaring ever singest.
+
+In the golden lightning
+Of the sunken sun,
+O'er which clouds are brightning,
+Thou dost float and run;
+Like an unbodied joy whose race is just begun."""
+    },
+    {
+        "title": "O Captain! My Captain! (stanza 1)",
+        "author": "Walt Whitman",
+        "year": 1865,
+        "era": "19th_century",
+        "text": """O Captain! my Captain! our fearful trip is done,
+The ship has weather'd every rack, the prize we sought is won,
+The port is near, the bells I hear, the people all exulting,
+While follow eyes the steady keel, the vessel grim and daring;
+But O heart! heart! heart!
+O the bleeding drops of red,
+Where on the deck my Captain lies,
+Fallen cold and dead."""
+    },
 ]
 
 # Quick stats
