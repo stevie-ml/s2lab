@@ -1,0 +1,912 @@
+{
+  "n_total": 4621,
+  "r_s2_dist": 0.14827191286776642,
+  "bins": [
+    {
+      "s2_range": "1.0\u20135.8",
+      "n": 3124,
+      "avg_dist": 0.6817146193757224,
+      "avg_sim": 0.3182853806242776
+    },
+    {
+      "s2_range": "5.8\u201310.7",
+      "n": 890,
+      "avg_dist": 0.7505910168789076,
+      "avg_sim": 0.2494089831210924
+    },
+    {
+      "s2_range": "10.7\u201315.5",
+      "n": 231,
+      "avg_dist": 0.7271506353341913,
+      "avg_sim": 0.2728493646658086
+    },
+    {
+      "s2_range": "15.5\u201320.3",
+      "n": 151,
+      "avg_dist": 0.687177479908561,
+      "avg_sim": 0.3128225200914389
+    },
+    {
+      "s2_range": "20.3\u201325.1",
+      "n": 136,
+      "avg_dist": 0.6809305744245648,
+      "avg_sim": 0.31906942557543516
+    },
+    {
+      "s2_range": "25.1\u201330.0",
+      "n": 66,
+      "avg_dist": 0.7671758575421391,
+      "avg_sim": 0.2328241424578609
+    },
+    {
+      "s2_range": "30.0\u201334.8",
+      "n": 19,
+      "avg_dist": 0.8350742071082717,
+      "avg_sim": 0.16492579289172826
+    },
+    {
+      "s2_range": "34.8\u201339.6",
+      "n": 3,
+      "avg_dist": 0.8923057739933332,
+      "avg_sim": 0.10769422600666682
+    }
+  ],
+  "era_stats": {
+    "romantic": {
+      "n": 433,
+      "avg_s2": 5.912628868360277,
+      "avg_dist": 0.7222584900908671,
+      "avg_sim": 0.2777415099091329,
+      "pct_close": 0.0,
+      "pct_far": 0.9145496535796767
+    },
+    "19th_century": {
+      "n": 302,
+      "avg_s2": 5.779913576158941,
+      "avg_dist": 0.7088929393038844,
+      "avg_sim": 0.2911070606961156,
+      "pct_close": 0.0,
+      "pct_far": 0.9271523178807947
+    },
+    "modernist": {
+      "n": 480,
+      "avg_s2": 6.277337916666666,
+      "avg_dist": 0.7130901118313583,
+      "avg_sim": 0.28690988816864166,
+      "pct_close": 0.0,
+      "pct_far": 0.8958333333333334
+    },
+    "beat": {
+      "n": 60,
+      "avg_s2": 5.870041666666666,
+      "avg_dist": 0.7596327360719443,
+      "avg_sim": 0.24036726392805577,
+      "pct_close": 0.0,
+      "pct_far": 0.9333333333333333
+    },
+    "confessional": {
+      "n": 60,
+      "avg_s2": 7.456526666666667,
+      "avg_dist": 0.7223038251201311,
+      "avg_sim": 0.2776961748798688,
+      "pct_close": 0.0,
+      "pct_far": 0.9166666666666666
+    },
+    "mid_century": {
+      "n": 69,
+      "avg_s2": 6.646579710144928,
+      "avg_dist": 0.7123940297658893,
+      "avg_sim": 0.2876059702341107,
+      "pct_close": 0.0,
+      "pct_far": 0.8695652173913043
+    },
+    "new_york_school": {
+      "n": 412,
+      "avg_s2": 5.381057524271845,
+      "avg_dist": 0.6758690113472996,
+      "avg_sim": 0.32413098865270035,
+      "pct_close": 0.0024271844660194173,
+      "pct_far": 0.8519417475728155
+    },
+    "language": {
+      "n": 48,
+      "avg_s2": 5.783341666666667,
+      "avg_dist": 0.7250330716293926,
+      "avg_sim": 0.2749669283706074,
+      "pct_close": 0.0,
+      "pct_far": 0.9375
+    },
+    "contemporary": {
+      "n": 246,
+      "avg_s2": 5.410647967479675,
+      "avg_dist": 0.6762205558882012,
+      "avg_sim": 0.3237794441117988,
+      "pct_close": 0.0,
+      "pct_far": 0.8495934959349594
+    },
+    "harlem_renaissance": {
+      "n": 179,
+      "avg_s2": 6.401889385474861,
+      "avg_dist": 0.7060206460886161,
+      "avg_sim": 0.29397935391138386,
+      "pct_close": 0.0,
+      "pct_far": 0.9497206703910615
+    },
+    "oulipo": {
+      "n": 12,
+      "avg_s2": 5.651825,
+      "avg_dist": 0.6512050206462542,
+      "avg_sim": 0.34879497935374576,
+      "pct_close": 0.0,
+      "pct_far": 0.8333333333333334
+    },
+    "surrealist": {
+      "n": 15,
+      "avg_s2": 5.431946666666667,
+      "avg_dist": 0.7295279254515966,
+      "avg_sim": 0.27047207454840344,
+      "pct_close": 0.0,
+      "pct_far": 0.8666666666666667
+    },
+    "deep_image": {
+      "n": 24,
+      "avg_s2": 4.4303333333333335,
+      "avg_dist": 0.6624366554121176,
+      "avg_sim": 0.33756334458788234,
+      "pct_close": 0.0,
+      "pct_far": 0.7916666666666666
+    },
+    "control": {
+      "n": 21,
+      "avg_s2": 3.0610190476190478,
+      "avg_dist": 0.7381076663732529,
+      "avg_sim": 0.26189233362674713,
+      "pct_close": 0.0,
+      "pct_far": 1.0
+    },
+    "german_symbolist": {
+      "n": 130,
+      "avg_s2": 4.4008484615384615,
+      "avg_dist": 0.7411525593354151,
+      "avg_sim": 0.2588474406645848,
+      "pct_close": 0.0,
+      "pct_far": 0.9846153846153847
+    },
+    "german_expressionist": {
+      "n": 101,
+      "avg_s2": 4.9241237623762375,
+      "avg_dist": 0.7226269228918718,
+      "avg_sim": 0.27737307710812825,
+      "pct_close": 0.0,
+      "pct_far": 0.9405940594059405
+    },
+    "german_modernist": {
+      "n": 84,
+      "avg_s2": 5.5281119047619045,
+      "avg_dist": 0.7161658480319948,
+      "avg_sim": 0.28383415196800516,
+      "pct_close": 0.0,
+      "pct_far": 0.9642857142857143
+    },
+    "victorian": {
+      "n": 636,
+      "avg_s2": 5.688043081761006,
+      "avg_dist": 0.6991211271803802,
+      "avg_sim": 0.3008788728196197,
+      "pct_close": 0.0015723270440251573,
+      "pct_far": 0.8852201257861635
+    },
+    "haiku": {
+      "n": 83,
+      "avg_s2": 8.559836144578313,
+      "avg_dist": 0.6994651275944997,
+      "avg_sim": 0.3005348724055003,
+      "pct_close": 0.0,
+      "pct_far": 0.9036144578313253
+    },
+    "ancient": {
+      "n": 29,
+      "avg_s2": 4.932068965517241,
+      "avg_dist": 0.6455977148023145,
+      "avg_sim": 0.3544022851976855,
+      "pct_close": 0.0,
+      "pct_far": 0.8275862068965517
+    },
+    "prose_poetry": {
+      "n": 248,
+      "avg_s2": 5.388471370967742,
+      "avg_dist": 0.6587000062028247,
+      "avg_sim": 0.34129999379717535,
+      "pct_close": 0.0,
+      "pct_far": 0.8387096774193549
+    },
+    "ballad": {
+      "n": 281,
+      "avg_s2": 8.149342348754448,
+      "avg_dist": 0.7088289804146808,
+      "avg_sim": 0.29117101958531927,
+      "pct_close": 0.0,
+      "pct_far": 0.9430604982206405
+    },
+    "song_lyrics": {
+      "n": 113,
+      "avg_s2": 7.319575221238938,
+      "avg_dist": 0.6508006242524206,
+      "avg_sim": 0.34919937574757937,
+      "pct_close": 0.0,
+      "pct_far": 0.8849557522123894
+    },
+    "nursery_rhyme": {
+      "n": 66,
+      "avg_s2": 6.29819696969697,
+      "avg_dist": 0.6730656692701759,
+      "avg_sim": 0.32693433072982414,
+      "pct_close": 0.0,
+      "pct_far": 0.8787878787878788
+    },
+    "metaphysical": {
+      "n": 96,
+      "avg_s2": 5.4109875,
+      "avg_dist": 0.7185654935892671,
+      "avg_sim": 0.28143450641073287,
+      "pct_close": 0.0,
+      "pct_far": 0.9166666666666666
+    },
+    "early_modern": {
+      "n": 132,
+      "avg_s2": 5.453251515151515,
+      "avg_dist": 0.6971671118993651,
+      "avg_sim": 0.3028328881006349,
+      "pct_close": 0.0,
+      "pct_far": 0.8939393939393939
+    },
+    "spoken_word": {
+      "n": 52,
+      "avg_s2": 4.926305769230769,
+      "avg_dist": 0.7185540409185566,
+      "avg_sim": 0.28144595908144343,
+      "pct_close": 0.019230769230769232,
+      "pct_far": 0.9230769230769231
+    },
+    "found_poetry": {
+      "n": 209,
+      "avg_s2": 5.275533492822967,
+      "avg_dist": 0.6652173213482473,
+      "avg_sim": 0.33478267865175265,
+      "pct_close": 0.0,
+      "pct_far": 0.8325358851674641
+    }
+  },
+  "author_stats": {
+    "John Keats": {
+      "n": 117,
+      "avg_s2": 4.391251282051282,
+      "avg_dist": 0.7107482351617426,
+      "pct_close": 0.0
+    },
+    "Emily Dickinson": {
+      "n": 105,
+      "avg_s2": 7.01838,
+      "avg_dist": 0.7190432304072948,
+      "pct_close": 0.0
+    },
+    "Walt Whitman": {
+      "n": 100,
+      "avg_s2": 4.945199,
+      "avg_dist": 0.7125995840504765,
+      "pct_close": 0.0
+    },
+    "Matthew Arnold": {
+      "n": 64,
+      "avg_s2": 5.40695625,
+      "avg_dist": 0.6602376051014289,
+      "pct_close": 0.0
+    },
+    "Percy Bysshe Shelley": {
+      "n": 148,
+      "avg_s2": 5.158683783783784,
+      "avg_dist": 0.7357024868975419,
+      "pct_close": 0.0
+    },
+    "T.S. Eliot": {
+      "n": 78,
+      "avg_s2": 5.274135897435897,
+      "avg_dist": 0.7118714258361322,
+      "pct_close": 0.0
+    },
+    "William Carlos Williams": {
+      "n": 25,
+      "avg_s2": 13.094644,
+      "avg_dist": 0.7021935403347015,
+      "pct_close": 0.0
+    },
+    "Wallace Stevens": {
+      "n": 75,
+      "avg_s2": 5.949432,
+      "avg_dist": 0.701265528127551,
+      "pct_close": 0.0
+    },
+    "Allen Ginsberg": {
+      "n": 60,
+      "avg_s2": 5.870041666666666,
+      "avg_dist": 0.7596327360719443,
+      "pct_close": 0.0
+    },
+    "Sylvia Plath": {
+      "n": 48,
+      "avg_s2": 8.09236875,
+      "avg_dist": 0.7273955366884669,
+      "pct_close": 0.0
+    },
+    "John Ashbery": {
+      "n": 356,
+      "avg_s2": 5.278357584269663,
+      "avg_dist": 0.6824363622646988,
+      "pct_close": 0.0028089887640449437
+    },
+    "Frank O'Hara": {
+      "n": 56,
+      "avg_s2": 6.033935714285715,
+      "avg_dist": 0.6341194233724049,
+      "pct_close": 0.0
+    },
+    "Claudia Rankine": {
+      "n": 46,
+      "avg_s2": 4.700221739130435,
+      "avg_dist": 0.6941907932252988,
+      "pct_close": 0.0
+    },
+    "Layli Long Soldier": {
+      "n": 25,
+      "avg_s2": 4.722916,
+      "avg_dist": 0.6081614798307419,
+      "pct_close": 0.0
+    },
+    "Lucille Clifton": {
+      "n": 64,
+      "avg_s2": 4.962228125,
+      "avg_dist": 0.6932392591261305,
+      "pct_close": 0.015625
+    },
+    "Langston Hughes": {
+      "n": 81,
+      "avg_s2": 8.706307407407408,
+      "avg_dist": 0.7022258360628728,
+      "pct_close": 0.0
+    },
+    "Robert Bly": {
+      "n": 24,
+      "avg_s2": 4.4303333333333335,
+      "avg_dist": 0.6624366554121176,
+      "pct_close": 0.0
+    },
+    "Stefan George": {
+      "n": 130,
+      "avg_s2": 4.4008484615384615,
+      "avg_dist": 0.7411525593354151,
+      "pct_close": 0.0
+    },
+    "Georg Trakl": {
+      "n": 101,
+      "avg_s2": 4.9241237623762375,
+      "avg_dist": 0.7226269228918718,
+      "pct_close": 0.0
+    },
+    "Rainer Maria Rilke": {
+      "n": 84,
+      "avg_s2": 5.5281119047619045,
+      "avg_dist": 0.7161658480319948,
+      "pct_close": 0.0
+    },
+    "Gerard Manley Hopkins": {
+      "n": 131,
+      "avg_s2": 5.903187022900763,
+      "avg_dist": 0.7341739901035796,
+      "pct_close": 0.0
+    },
+    "Alfred Lord Tennyson": {
+      "n": 32,
+      "avg_s2": 4.802309375,
+      "avg_dist": 0.7479986927937716,
+      "pct_close": 0.0
+    },
+    "Paul Laurence Dunbar": {
+      "n": 25,
+      "avg_s2": 6.832588,
+      "avg_dist": 0.6929507812857628,
+      "pct_close": 0.0
+    },
+    "Thomas Hardy": {
+      "n": 161,
+      "avg_s2": 7.091042857142857,
+      "avg_dist": 0.684971210957499,
+      "pct_close": 0.0
+    },
+    "Robert Browning": {
+      "n": 33,
+      "avg_s2": 5.279812121212121,
+      "avg_dist": 0.6852546618743376,
+      "pct_close": 0.0
+    },
+    "Gertrude Stein": {
+      "n": 22,
+      "avg_s2": 5.871572727272728,
+      "avg_dist": 0.771510875699195,
+      "pct_close": 0.0
+    },
+    "E.E. Cummings": {
+      "n": 73,
+      "avg_s2": 7.6491,
+      "avg_dist": 0.7125842524819994,
+      "pct_close": 0.0
+    },
+    "Matsuo Basho": {
+      "n": 22,
+      "avg_s2": 9.309218181818181,
+      "avg_dist": 0.7357799895107746,
+      "pct_close": 0.0
+    },
+    "Kobayashi Issa": {
+      "n": 22,
+      "avg_s2": 10.822613636363636,
+      "avg_dist": 0.6579311801628633,
+      "pct_close": 0.0
+    },
+    "Sappho": {
+      "n": 29,
+      "avg_s2": 4.932068965517241,
+      "avg_dist": 0.6455977148023145,
+      "pct_close": 0.0
+    },
+    "Charles Baudelaire": {
+      "n": 38,
+      "avg_s2": 4.735271052631579,
+      "avg_dist": 0.6447810314987835,
+      "pct_close": 0.0
+    },
+    "William Blake": {
+      "n": 73,
+      "avg_s2": 7.964228767123288,
+      "avg_dist": 0.7386639128400855,
+      "pct_close": 0.0
+    },
+    "Edgar Allan Poe": {
+      "n": 49,
+      "avg_s2": 5.751065306122449,
+      "avg_dist": 0.7308775711120391,
+      "pct_close": 0.0
+    },
+    "Christina Rossetti": {
+      "n": 40,
+      "avg_s2": 4.6228299999999996,
+      "avg_dist": 0.6468345951288939,
+      "pct_close": 0.0
+    },
+    "Walter de la Mare": {
+      "n": 29,
+      "avg_s2": 5.2113517241379315,
+      "avg_dist": 0.6614387495250538,
+      "pct_close": 0.0
+    },
+    "Claude McKay": {
+      "n": 50,
+      "avg_s2": 4.40354,
+      "avg_dist": 0.6931452129781246,
+      "pct_close": 0.0
+    },
+    "Countee Cullen": {
+      "n": 48,
+      "avg_s2": 4.594797916666667,
+      "avg_dist": 0.7258362974971533,
+      "pct_close": 0.0
+    },
+    "Robert Burns": {
+      "n": 80,
+      "avg_s2": 7.8027225,
+      "avg_dist": 0.7142263882793486,
+      "pct_close": 0.0
+    },
+    "Philip Larkin": {
+      "n": 34,
+      "avg_s2": 4.5154,
+      "avg_dist": 0.6619022615692195,
+      "pct_close": 0.0
+    },
+    "Seamus Heaney": {
+      "n": 54,
+      "avg_s2": 7.89492962962963,
+      "avg_dist": 0.7245285144696633,
+      "pct_close": 0.0
+    },
+    "Wislawa Szymborska": {
+      "n": 33,
+      "avg_s2": 4.8143,
+      "avg_dist": 0.6962425485253334,
+      "pct_close": 0.0
+    },
+    "Mary Oliver": {
+      "n": 46,
+      "avg_s2": 3.885271739130435,
+      "avg_dist": 0.6733757070387187,
+      "pct_close": 0.0
+    },
+    "W.B. Yeats": {
+      "n": 91,
+      "avg_s2": 4.480898901098901,
+      "avg_dist": 0.7234004080950559,
+      "pct_close": 0.0
+    },
+    "Robert Frost": {
+      "n": 68,
+      "avg_s2": 6.424764705882353,
+      "avg_dist": 0.6905776622759945,
+      "pct_close": 0.0
+    },
+    "Traditional (Scottish ballad)": {
+      "n": 226,
+      "avg_s2": 8.308051769911504,
+      "avg_dist": 0.7106601144063526,
+      "pct_close": 0.0
+    },
+    "Traditional (English/Scottish ballad)": {
+      "n": 55,
+      "avg_s2": 7.497190909090909,
+      "avg_dist": 0.7013046843761748,
+      "pct_close": 0.0
+    },
+    "Russell Edson": {
+      "n": 34,
+      "avg_s2": 4.796676470588236,
+      "avg_dist": 0.6781013559769181,
+      "pct_close": 0.0
+    },
+    "William Shakespeare": {
+      "n": 113,
+      "avg_s2": 4.381815044247787,
+      "avg_dist": 0.7068164556295471,
+      "pct_close": 0.0
+    },
+    "John Milton": {
+      "n": 56,
+      "avg_s2": 4.62405,
+      "avg_dist": 0.6900596965902618,
+      "pct_close": 0.017857142857142856
+    },
+    "Edna St. Vincent Millay": {
+      "n": 34,
+      "avg_s2": 3.579823529411765,
+      "avg_dist": 0.7002076791489825,
+      "pct_close": 0.0
+    },
+    "Traditional (American folk)": {
+      "n": 35,
+      "avg_s2": 5.880408571428571,
+      "avg_dist": 0.6551384380885533,
+      "pct_close": 0.0
+    },
+    "Traditional (American sea chanty)": {
+      "n": 36,
+      "avg_s2": 7.490847222222222,
+      "avg_dist": 0.6501091310961379,
+      "pct_close": 0.0
+    },
+    "Brewster Higley": {
+      "n": 42,
+      "avg_s2": 8.372076190476191,
+      "avg_dist": 0.6477784878086477,
+      "pct_close": 0.0
+    },
+    "Traditional (English)": {
+      "n": 66,
+      "avg_s2": 6.29819696969697,
+      "avg_dist": 0.6730656692701759,
+      "pct_close": 0.0
+    },
+    "Killarney Clary": {
+      "n": 38,
+      "avg_s2": 3.777828947368421,
+      "avg_dist": 0.6225778997728699,
+      "pct_close": 0.0
+    },
+    "Rae Armantrout": {
+      "n": 35,
+      "avg_s2": 4.412982857142857,
+      "avg_dist": 0.6118339065994535,
+      "pct_close": 0.0
+    },
+    "David Antin": {
+      "n": 31,
+      "avg_s2": 12.862029032258064,
+      "avg_dist": 0.7304898048600843,
+      "pct_close": 0.0
+    },
+    "John Donne": {
+      "n": 42,
+      "avg_s2": 4.47995,
+      "avg_dist": 0.7327342622336888,
+      "pct_close": 0.0
+    },
+    "George Herbert": {
+      "n": 54,
+      "avg_s2": 6.135127777777778,
+      "avg_dist": 0.7075453401991615,
+      "pct_close": 0.0
+    },
+    "Thomas Wyatt": {
+      "n": 132,
+      "avg_s2": 5.453251515151515,
+      "avg_dist": 0.6971671118993651,
+      "pct_close": 0.0
+    },
+    "Matsuo Bash\u014d": {
+      "n": 21,
+      "avg_s2": 7.017971428571428,
+      "avg_dist": 0.6874592481624513,
+      "pct_close": 0.0
+    },
+    "Charles Darwin (found text)": {
+      "n": 35,
+      "avg_s2": 5.314005714285714,
+      "avg_dist": 0.7037669034940855,
+      "pct_close": 0.0
+    },
+    "Anonymous (KJV, found text)": {
+      "n": 37,
+      "avg_s2": 4.587902702702703,
+      "avg_dist": 0.6795370002856126,
+      "pct_close": 0.0
+    },
+    "Thomas Jefferson (found text)": {
+      "n": 22,
+      "avg_s2": 8.0893,
+      "avg_dist": 0.5965022783387791,
+      "pct_close": 0.0
+    },
+    "Anonymous (found text)": {
+      "n": 81,
+      "avg_s2": 5.3037827160493825,
+      "avg_dist": 0.6543255167794816,
+      "pct_close": 0.0
+    },
+    "Isaac Newton (found text)": {
+      "n": 34,
+      "avg_s2": 4.096261764705883,
+      "avg_dist": 0.6803615454803494,
+      "pct_close": 0.0
+    }
+  },
+  "close_high_s2": [],
+  "far_high_s2": [
+    {
+      "era": "haiku",
+      "author": "Kobayashi Issa",
+      "title": "Three Haiku (Issa, translated)",
+      "token": "cas",
+      "top_pred": "\n",
+      "s2": 39.6199,
+      "surprisal": 39.6323,
+      "entropy": 0.0124,
+      "rank": 17692,
+      "cosine_sim": 0.08265694975852966,
+      "semantic_dist": 0.9173430502414703,
+      "top5_max_sim": 0.09785594046115875,
+      "context": " keep house\n"
+    },
+    {
+      "era": "modernist",
+      "author": "William Carlos Williams",
+      "title": "This Is Just to Say",
+      "token": "saving",
+      "top_pred": "\n",
+      "s2": 38.5487,
+      "surprisal": 38.5593,
+      "entropy": 0.0105,
+      "rank": 15938,
+      "cosine_sim": 0.12855686247348785,
+      "semantic_dist": 0.8714431375265121,
+      "top5_max_sim": 0.18466266989707947,
+      "context": " were probably\n"
+    },
+    {
+      "era": "mid_century",
+      "author": "Gwendolyn Brooks",
+      "title": "We Real Cool",
+      "token": "Die",
+      "top_pred": "\n",
+      "s2": 36.3805,
+      "surprisal": 36.3855,
+      "entropy": 0.005,
+      "rank": 8154,
+      "cosine_sim": 0.09049255400896072,
+      "semantic_dist": 0.9095074459910393,
+      "top5_max_sim": 0.1004466563463211,
+      "context": ". We\n"
+    },
+    {
+      "era": "language",
+      "author": "Bruce Andrews",
+      "title": "Islets/Irritations (excerpt)",
+      "token": "duty",
+      "top_pred": "\n",
+      "s2": 35.4037,
+      "surprisal": 35.4176,
+      "entropy": 0.0139,
+      "rank": 14155,
+      "cosine_sim": 0.10403326153755188,
+      "semantic_dist": 0.8959667384624481,
+      "top5_max_sim": 0.18524299561977386,
+      "context": " my patriotic\n"
+    },
+    {
+      "era": "prose_poetry",
+      "author": "David Antin",
+      "title": "a list of the delusions of the insane (excerpt)",
+      "token": "being",
+      "top_pred": "\n",
+      "s2": 34.5943,
+      "surprisal": 34.5995,
+      "entropy": 0.0052,
+      "rank": 3714,
+      "cosine_sim": 0.14468610286712646,
+      "semantic_dist": 0.8553138971328735,
+      "top5_max_sim": 0.15674252808094025,
+      "context": " buried alive\n"
+    },
+    {
+      "era": "victorian",
+      "author": "Thomas Hardy",
+      "title": "The Convergence of the Twain (excerpt)",
+      "token": "Cold",
+      "top_pred": "\n",
+      "s2": 33.9979,
+      "surprisal": 34.0038,
+      "entropy": 0.0059,
+      "rank": 7024,
+      "cosine_sim": 0.10683763027191162,
+      "semantic_dist": 0.8931623697280884,
+      "top5_max_sim": 0.19783473014831543,
+      "context": " fires,\n"
+    },
+    {
+      "era": "contemporary",
+      "author": "Seamus Heaney",
+      "title": "Digging",
+      "token": "Against",
+      "top_pred": "\n",
+      "s2": 33.213,
+      "surprisal": 33.2178,
+      "entropy": 0.0048,
+      "rank": 4241,
+      "cosine_sim": 0.14181958138942719,
+      "semantic_dist": 0.8581804186105728,
+      "top5_max_sim": 0.14181958138942719,
+      "context": " the shaft\n"
+    },
+    {
+      "era": "19th_century",
+      "author": "Emily Dickinson",
+      "title": "I felt a Funeral, in my Brain",
+      "token": "Ke",
+      "top_pred": "\n",
+      "s2": 32.9984,
+      "surprisal": 33.0075,
+      "entropy": 0.0091,
+      "rank": 5119,
+      "cosine_sim": 0.1545880138874054,
+      "semantic_dist": 0.8454119861125946,
+      "top5_max_sim": 0.1545880138874054,
+      "context": " Drum \u2013\n"
+    },
+    {
+      "era": "ballad",
+      "author": "Traditional (Scottish ballad)",
+      "title": "Sir Patrick Spens",
+      "token": "Was",
+      "top_pred": "\n",
+      "s2": 32.7501,
+      "surprisal": 32.7539,
+      "entropy": 0.0038,
+      "rank": 2357,
+      "cosine_sim": 0.15983867645263672,
+      "semantic_dist": 0.8401613235473633,
+      "top5_max_sim": 0.25631827116012573,
+      "context": "ence,\n"
+    },
+    {
+      "era": "19th_century",
+      "author": "Emily Dickinson",
+      "title": "I heard a Fly buzz \u2014 when I died",
+      "token": "Between",
+      "top_pred": "\n",
+      "s2": 32.7082,
+      "surprisal": 32.7185,
+      "entropy": 0.0103,
+      "rank": 2932,
+      "cosine_sim": 0.1510009616613388,
+      "semantic_dist": 0.8489990383386612,
+      "top5_max_sim": 0.24512913823127747,
+      "context": " Buzz \u2014\n"
+    },
+    {
+      "era": "prose_poetry",
+      "author": "David Antin",
+      "title": "a list of the delusions of the insane (excerpt)",
+      "token": "being",
+      "top_pred": "\n",
+      "s2": 32.5499,
+      "surprisal": 32.5543,
+      "entropy": 0.0044,
+      "rank": 1718,
+      "cosine_sim": 0.14468610286712646,
+      "semantic_dist": 0.8553138971328735,
+      "top5_max_sim": 0.14468610286712646,
+      "context": "being followed\n"
+    },
+    {
+      "era": "modernist",
+      "author": "William Carlos Williams",
+      "title": "This Is Just to Say",
+      "token": "they",
+      "top_pred": "\n",
+      "s2": 32.1788,
+      "surprisal": 32.1857,
+      "entropy": 0.0069,
+      "rank": 1990,
+      "cosine_sim": 0.22183513641357422,
+      "semantic_dist": 0.7781648635864258,
+      "top5_max_sim": 0.22183513641357422,
+      "context": "give me\n"
+    },
+    {
+      "era": "mid_century",
+      "author": "Gwendolyn Brooks",
+      "title": "We Real Cool",
+      "token": "Strike",
+      "top_pred": "\n",
+      "s2": 32.0383,
+      "surprisal": 32.0475,
+      "entropy": 0.0093,
+      "rank": 6930,
+      "cosine_sim": 0.08837851136922836,
+      "semantic_dist": 0.9116214886307716,
+      "top5_max_sim": 0.21329614520072937,
+      "context": ". We\n"
+    },
+    {
+      "era": "victorian",
+      "author": "Thomas Hardy",
+      "title": "The Oxen",
+      "token": "Our",
+      "top_pred": "\n",
+      "s2": 31.9167,
+      "surprisal": 31.9219,
+      "entropy": 0.0051,
+      "rank": 1822,
+      "cosine_sim": 0.2719759941101074,
+      "semantic_dist": 0.7280240058898926,
+      "top5_max_sim": 0.2719759941101074,
+      "context": " coomb\n"
+    },
+    {
+      "era": "romantic",
+      "author": "William Blake",
+      "title": "The Tyger",
+      "token": "Bur",
+      "top_pred": "\n",
+      "s2": 31.8533,
+      "surprisal": 31.8584,
+      "entropy": 0.005,
+      "rank": 3606,
+      "cosine_sim": 0.13153646886348724,
+      "semantic_dist": 0.8684635311365128,
+      "top5_max_sim": 0.17717976868152618,
+      "context": " skies,\n"
+    }
+  ],
+  "n_close": 3,
+  "n_mid": 140,
+  "n_far": 4457,
+  "n_total_poetry": 4600,
+  "avg_dist": 0.699269270915943,
+  "median_dist": 0.7254239022731781
+}
