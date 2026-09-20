@@ -2974,6 +2974,113 @@ at different angles,
 and falling in due measure
 upon the substance of the retina."""
     },
+
+    # ─── ADDED 2026-09-20: testing spike-symmetry asymmetry patterns ────
+    # Setup-dominant eras (confessional, metaphysical) vs decay-dominant
+    # (early_modern) — to validate the era-level asymmetry finding.
+    {
+        "title": "Dream Song 14 (opening)",
+        "author": "John Berryman",
+        "year": 1964,
+        "era": "confessional",
+        "text": """Life, friends, is boring. We must not say so.
+After all, the sky flashes, the great sea yearns,
+we ourselves flash and yearn,
+and moreover my mother told me as a boy
+(repeatingly) 'Ever to confess you're bored
+means you have no
+
+Inner Resources.' I conclude now I have no
+inner resources, because I am heavy bored."""
+    },
+    {
+        "title": "Skunk Hour (opening)",
+        "author": "Robert Lowell",
+        "year": 1959,
+        "era": "confessional",
+        "text": """Nautilus Island's hermit
+heiress still lives through winter in her Spartan cottage;
+her sheep still graze above the sea.
+Her son's a bishop. Her farmer
+is first selectman in our village;
+she's in her dotage.
+
+Thirsting for
+the hierarchic privacy
+of Queen Victoria's century,
+she buys up all
+the eyesores facing her shore,
+and lets them fall."""
+    },
+    {
+        "title": "To His Coy Mistress (opening)",
+        "author": "Andrew Marvell",
+        "year": 1681,
+        "era": "metaphysical",
+        "text": """Had we but world enough, and time,
+This coyness, Lady, were no crime.
+We would sit down, and think which way
+To walk, and pass our long love's day.
+Thou by the Indian Ganges' side
+Shouldst rubies find; I by the tide
+Of Humber would complain. I would
+Love you ten years before the Flood,
+And you should, if you please, refuse
+Till the conversion of the Jews."""
+    },
+    {
+        "title": "The Collar (opening)",
+        "author": "George Herbert",
+        "year": 1633,
+        "era": "metaphysical",
+        "text": """I struck the board, and cried, "No more;
+I will abroad!
+What? shall I ever sigh and pine?
+My lines and life are free, free as the road,
+Loose as the wind, as large as store.
+Shall I be still in suit?
+Have I no harvest but a thorn
+To let me blood, and not restore
+What I have lost with cordial fruit?"""
+    },
+    {
+        "title": "Song: To Celia",
+        "author": "Ben Jonson",
+        "year": 1616,
+        "era": "early_modern",
+        "text": """Drink to me only with thine eyes,
+And I will pledge with mine;
+Or leave a kiss but in the cup,
+And I'll not look for wine.
+The thirst that from the soul doth rise
+Doth ask a drink divine;
+But might I of Jove's nectar sup,
+I would not change for thine."""
+    },
+    {
+        "title": "Amoretti LXXV: One Day I Wrote Her Name",
+        "author": "Edmund Spenser",
+        "year": 1595,
+        "era": "early_modern",
+        "text": """One day I wrote her name upon the strand,
+But came the waves and washed it away:
+Again I wrote it with a second hand,
+But came the tide, and made my pains his prey.
+Vain man, said she, that dost in vain assay,
+A mortal thing so to immortalize;
+For I myself shall like to this decay,
+And eek my name be wiped out likewise."""
+    },
+    {
+        "title": "The Truth the Dead Know (excerpt)",
+        "author": "Anne Sexton",
+        "year": 1962,
+        "era": "confessional",
+        "text": """And what of the dead? They lie without shoes
+in their stone boats. They are more like stone
+than the sea would be if it stopped. They refuse
+to be blessed, throat, eye and knucklebone."""
+    },
 ]
 
 # Quick stats

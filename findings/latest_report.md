@@ -1,6 +1,6 @@
 # S₂ Lab Research Report
-**Generated:** 2026-09-20 12:47:24
-**Corpus:** 153 texts analyzed with GPT-2
+**Generated:** 2026-09-20 18:54:34
+**Corpus:** 160 texts analyzed with GPT-2
 **Model:** gpt2 (117M parameters)
 
 ---
@@ -18,8 +18,7 @@ Do different literary movements produce systematically different information-the
 | ballad | 6 | 6.06 | 5.25 | **0.81** | 32% | 32.75 |
 | harlem_renaissance | 5 | 6.60 | 5.97 | **0.63** | 37% | 31.07 |
 | german_expressionist | 2 | 6.89 | 6.27 | **0.62** | 45% | 15.26 |
-| confessional | 3 | 7.09 | 6.55 | **0.53** | 38% | 26.87 |
-| early_modern | 2 | 6.99 | 6.51 | **0.48** | 44% | 24.20 |
+| confessional | 6 | 7.06 | 6.56 | **0.50** | 41% | 35.23 |
 | german_symbolist | 3 | 6.94 | 6.53 | **0.42** | 45% | 23.40 |
 | victorian | 14 | 6.85 | 6.48 | **0.37** | 39% | 34.00 |
 | modernist | 18 | 6.76 | 6.39 | **0.37** | 37% | 38.55 |
@@ -31,10 +30,11 @@ Do different literary movements produce systematically different information-the
 | romantic | 12 | 6.74 | 6.64 | **0.10** | 37% | 31.85 |
 | song_lyrics | 3 | 4.23 | 4.14 | **0.09** | 25% | 29.34 |
 | contemporary | 9 | 5.79 | 5.72 | **0.07** | 35% | 33.21 |
+| early_modern | 4 | 6.55 | 6.52 | **0.04** | 41% | 24.20 |
 | oulipo | 1 | 6.40 | 6.52 | **-0.12** | 33% | 15.97 |
 | prose_poetry | 9 | 5.25 | 5.40 | **-0.16** | 33% | 34.59 |
+| metaphysical | 4 | 6.49 | 6.66 | **-0.17** | 38% | 27.32 |
 | new_york_school | 18 | 6.33 | 6.51 | **-0.18** | 36% | 29.70 |
-| metaphysical | 2 | 6.36 | 6.64 | **-0.28** | 35% | 27.32 |
 | found_poetry | 7 | 4.41 | 4.73 | **-0.32** | 28% | 27.28 |
 | surrealist | 1 | 5.90 | 6.22 | **-0.33** | 33% | 19.75 |
 | spoken_word | 2 | 5.66 | 6.11 | **-0.45** | 33% | 23.17 |
@@ -88,11 +88,23 @@ What does GPT-2 expect when poets deviate? Can we categorize the 'unsaid'?
   - GPT-2 expected: "" (99.9%)
   - S₂ = 35.40
 
+- **Robert Lowell**, "Skunk Hour (opening)":
+  - Context: `... hermit
+` → poet wrote **"hei"**
+  - GPT-2 expected: "" (99.6%)
+  - S₂ = 35.23
+
 - **David Antin**, "a list of the delusions of the insane (excerpt)":
   - Context: `... buried alive
 ` → poet wrote **"being"**
   - GPT-2 expected: "" (100.0%)
   - S₂ = 34.59
+
+- **John Berryman**, "Dream Song 14 (opening)":
+  - Context: `... have no
+` → poet wrote **"inner"**
+  - GPT-2 expected: "" (99.9%)
+  - S₂ = 34.11
 
 - **Thomas Hardy**, "The Convergence of the Twain (excerpt)":
   - Context: `... fires,
@@ -142,18 +154,6 @@ What does GPT-2 expect when poets deviate? Can we categorize the 'unsaid'?
   - GPT-2 expected: "" (100.0%)
   - S₂ = 32.04
 
-- **Thomas Hardy**, "The Oxen":
-  - Context: `... coomb
-` → poet wrote **"Our"**
-  - GPT-2 expected: "" (100.0%)
-  - S₂ = 31.92
-
-- **William Blake**, "The Tyger":
-  - Context: `... skies,
-` → poet wrote **"Bur"**
-  - GPT-2 expected: "" (100.0%)
-  - S₂ = 31.85
-
 ### Finding
 The 'unsaid' falls into distinct categories. When poets deviate most sharply from expectation, the model's top prediction reveals what *conventional* language would do in that position. This makes the poet's choice legible as a *decision* — not random noise, but a deliberate suppression of the expected in favor of something the poet needed to say.
 
@@ -165,20 +165,20 @@ Do high-S₂ moments cluster at beginnings, endings, or enjambments?
 
 | Position in poem | Avg S₂ | Median S₂ | n tokens |
 |---|---|---|---|
-| first_10% | 0.99 | -0.52 | 1521 |
-| 10-25% | 0.41 | -0.93 | 2390 |
-| 25-50% | 0.11 | -1.02 | 3992 |
-| 50-75% | -0.02 | -1.07 | 3952 |
-| 75-90% | 0.21 | -0.95 | 2376 |
-| last_10% | -0.14 | -1.11 | 1652 |
+| first_10% | 0.99 | -0.49 | 1574 |
+| 10-25% | 0.44 | -0.92 | 2475 |
+| 25-50% | 0.08 | -1.04 | 4135 |
+| 50-75% | -0.03 | -1.06 | 4095 |
+| 75-90% | 0.19 | -0.98 | 2461 |
+| last_10% | -0.12 | -1.12 | 1712 |
 
 ### Line break analysis:
-- Avg S₂ at newline tokens: **-1.53** (n=1565)
-- Avg S₂ at tokens immediately after newline: **5.73** (n=1565)
-- Avg S₂ at all other tokens: **0.38** (n=14318)
+- Avg S₂ at newline tokens: **-1.52** (n=1619)
+- Avg S₂ at tokens immediately after newline: **5.65** (n=1619)
+- Avg S₂ at all other tokens: **0.38** (n=14833)
 
 ### Finding
-Tokens immediately after line breaks have higher S₂ (5.73) than other positions (0.38). This suggests **enjambment is a key site of Straussian deviation** — the first word of a new line is where poets most often defy expectation.
+Tokens immediately after line breaks have higher S₂ (5.65) than other positions (0.38). This suggests **enjambment is a key site of Straussian deviation** — the first word of a new line is where poets most often defy expectation.
 
 ---
 
@@ -207,11 +207,13 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | Robert Burns | 2 | 0.39 | 5.98 | 35% | 24.00 | selective spikes |
 | Walt Whitman | 3 | 0.33 | 4.62 | 43% | 17.56 | mild deviation |
 | William Blake | 3 | 0.30 | 5.87 | 33% | 24.21 | selective spikes |
+| George Herbert | 2 | 0.26 | 5.01 | 39% | 21.56 | selective spikes |
 | Percy Bysshe Shelley | 3 | 0.24 | 4.72 | 40% | 23.82 | mild deviation |
 | Wallace Stevens | 3 | 0.13 | 4.98 | 36% | 21.37 | mild deviation |
 | Matthew Arnold | 2 | 0.05 | 4.16 | 39% | 17.07 | mild deviation |
 | T.S. Eliot | 3 | 0.02 | 4.46 | 41% | 20.04 | mild deviation |
 | Claudia Rankine | 2 | -0.00 | 4.25 | 36% | 18.16 | smooth/conventional |
+| Anne Sexton | 2 | -0.14 | 4.92 | 39% | 21.88 | smooth/conventional |
 | Anonymous (found text) | 3 | -0.27 | 3.80 | 28% | 24.11 | smooth/conventional |
 | John Keats | 3 | -0.27 | 3.89 | 40% | 19.75 | smooth/conventional |
 | John Ashbery | 16 | -0.28 | 4.47 | 36% | 20.23 | smooth/conventional |
@@ -228,9 +230,9 @@ Authors have distinct S₂ signatures. Some poets (like Plath, Ginsberg) produce
 
 Do 'great' poems have distinctive S₂ profiles?
 
-- Poetry avg S₂: **0.28** (σ=0.84, n=148)
+- Poetry avg S₂: **0.27** (σ=0.83, n=155)
 - Control prose avg S₂: **-1.66** (σ=0.67, n=5)
-- Gap: **1.94**
+- Gap: **1.93**
 
 - Poetry: 37% of tokens have positive S₂
 - Control prose: 20% of tokens have positive S₂
