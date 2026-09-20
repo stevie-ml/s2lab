@@ -2782,6 +2782,198 @@ O the bleeding drops of red,
 Where on the deck my Captain lies,
 Fallen cold and dead."""
     },
+
+    # ─── FOUND POETRY ─────────────────────────────────────────────────────────
+    # Public-domain non-poetic prose, lineated as poetry for research comparison.
+    # Tests whether intentional poetic word-choice creates measurably different
+    # S₂ profiles from prose formatted with line breaks.
+    {
+        "title": "Natural Selection (Found Poem from Darwin, 1859)",
+        "author": "Charles Darwin (found text)",
+        "year": 1859,
+        "era": "found_poetry",
+        "text": """I have called this principle,
+by which each slight variation,
+if useful, is preserved,
+by the term of Natural Selection,
+in order to mark its relation
+to man's power of selection.
+We have seen that man by selection
+can certainly produce great results,
+and can adapt organic beings
+to his own uses,
+through the accumulation
+of slight but useful variations,
+given to him by the hand of Nature.
+But Natural Selection,
+as we shall hereafter see,
+is a power incessantly ready for action,
+and is as immeasurably superior
+to man's feeble efforts,
+as the works of Nature are
+to those of Art."""
+    },
+    {
+        "title": "Vanity of Vanities (Found Poem from Ecclesiastes 1:2-8, KJV)",
+        "author": "Anonymous (KJV, found text)",
+        "year": 1611,
+        "era": "found_poetry",
+        "text": """Vanity of vanities,
+saith the Preacher,
+vanity of vanities;
+all is vanity.
+What profit hath a man
+of all his labour
+which he taketh under the sun?
+One generation passeth away,
+and another generation cometh:
+but the earth abideth for ever.
+The sun also ariseth,
+and the sun goeth down,
+and hasteth to his place
+where he arose.
+The wind goeth toward the south,
+and turneth about unto the north;
+it whirleth about continually,
+and the wind returneth again
+according to his circuits.
+All the rivers run into the sea;
+yet the sea is not full."""
+    },
+    {
+        "title": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)",
+        "author": "Thomas Jefferson (found text)",
+        "year": 1776,
+        "era": "found_poetry",
+        "text": """We hold these truths to be self-evident,
+that all men are created equal,
+that they are endowed by their Creator
+with certain unalienable Rights,
+that among these are Life,
+Liberty
+and the pursuit of Happiness.
+That to secure these rights,
+Governments are instituted among Men,
+deriving their just powers
+from the consent of the governed,
+That whenever any Form of Government
+becomes destructive of these ends,
+it is the Right of the People
+to alter or to abolish it,
+and to institute new Government,
+laying its foundation
+on such principles
+and organizing its powers
+in such form,
+as to them shall seem
+most likely to effect their Safety and Happiness."""
+    },
+    {
+        "title": "Terms and Conditions (Found Poem from generic legal prose)",
+        "author": "Anonymous (found text)",
+        "year": 2010,
+        "era": "found_poetry",
+        "text": """By accessing or using this service,
+you agree to be bound
+by these Terms of Service.
+If you disagree with any part of the terms
+then you may not access the service.
+We reserve the right to refuse service
+to anyone for any reason at any time.
+You understand that your content
+may be transferred unencrypted
+and involve transmissions
+over various networks;
+and changes to conform and adapt
+to technical requirements
+of connecting networks or devices.
+You must not transmit any worms or viruses
+or any code of a destructive nature.
+A breach or violation of any of the Terms
+will result in an immediate termination
+of your Services."""
+    },
+    {
+        "title": "Cooking Instructions (Found Poem from generic recipe prose)",
+        "author": "Anonymous (found text)",
+        "year": 1900,
+        "era": "found_poetry",
+        "text": """Sift the flour
+into a large mixing bowl.
+Add the salt and baking powder
+and stir to combine.
+In a separate bowl,
+beat the eggs lightly
+and add the milk.
+Make a well in the center of the flour
+and pour in the liquid mixture.
+Stir until just combined;
+do not overmix.
+Fold in the melted butter.
+Heat a non-stick pan
+over medium heat.
+Pour approximately one quarter cup
+of batter for each pancake.
+Cook until bubbles form
+on the surface,
+then flip and cook
+for one minute more.
+Serve immediately."""
+    },
+    {
+        "title": "Weather Observations (Found Poem from meteorological prose)",
+        "author": "Anonymous (found text)",
+        "year": 1950,
+        "era": "found_poetry",
+        "text": """A low pressure system
+is developing off the coast.
+Winds will increase
+from the southwest
+at fifteen to twenty-five miles per hour,
+with gusts up to forty.
+Temperatures will fall
+through the afternoon.
+Rain likely after midnight,
+becoming heavy at times
+before tapering off
+by early morning.
+Total accumulation
+of one to two inches expected
+across most of the region.
+Visibility may drop
+below one mile in some areas.
+Motorists should use caution
+on elevated roadways
+and bridges.
+The system is expected
+to move offshore by Thursday."""
+    },
+    {
+        "title": "Scientific Method (Found Poem from Newton's Opticks, 1704)",
+        "author": "Isaac Newton (found text)",
+        "year": 1704,
+        "era": "found_poetry",
+        "text": """My Design in this Book
+is not to explain the Properties of Light
+by Hypotheses,
+but to propose and prove them
+by Reason and Experiments:
+In order to which
+I shall premise the following Definitions
+and Axioms.
+The least parts of Light
+do not obstruct one another
+in passing through the same Medium,
+as they would do
+if they were little solid bodies;
+but each one passeth freely and regularly
+on its own way,
+making various colours appear
+according as they strike our eyes
+at different angles,
+and falling in due measure
+upon the substance of the retina."""
+    },
 ]
 
 # Quick stats
