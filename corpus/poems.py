@@ -3260,6 +3260,157 @@ So long as we've our 'ealth to watch it all —
 The different ways that different things are done,
 An' men an' women lovin' in this world."""
     },
+
+    # ── Cliché controls (synthetic research test cases) ───────────────────────
+    # Deliberately formulaic poems composed to test whether S2 tracks originality.
+    # Not attributed to any real poet; authored as controlled stimuli for this study.
+    {
+        "title": "Life Is a Journey (synthetic cliché)",
+        "author": "Synthetic (research test case)",
+        "year": 2026,
+        "era": "cliche_control",
+        "text": """Life is a journey, day by day,
+We travel along on our way.
+Through hills and valleys, come what may,
+We face each challenge every day.
+
+The road is long and sometimes steep,
+But we must rise and never sleep.
+For every loss there is a gain,
+And after drought there comes the rain.
+
+So take my hand and hold on tight,
+Together we will reach the light.
+For in the end we'll find our way,
+And brighter skies will come our day."""
+    },
+    {
+        "title": "My Heart Burns for You (synthetic cliché)",
+        "author": "Synthetic (research test case)",
+        "year": 2026,
+        "era": "cliche_control",
+        "text": """My heart burns for you, night and day,
+I think of you in every way.
+Your eyes are like the stars above,
+My heart is full of only love.
+
+Without you here I'd surely die,
+You are the apple of my eye.
+Your smile lights up the darkest night,
+Your love makes everything alright.
+
+I love you more than words can say,
+My heart grows stronger every day.
+You are my world, my love, my life,
+I want you with me, love, for life."""
+    },
+    {
+        "title": "Autumn Comes (synthetic cliché)",
+        "author": "Synthetic (research test case)",
+        "year": 2026,
+        "era": "cliche_control",
+        "text": """Autumn comes with leaves of red and gold,
+The air grows crisp and the nights grow cold.
+The trees stand bare, the flowers fade away,
+The days grow short as summer goes astray.
+
+The birds fly south to warmer, kinder skies,
+And winter whispers cold and fond goodbyes.
+The world grows still and hushed and soft and grey,
+As all the warmth and summer fades away.
+
+But in the spring the world will bloom again,
+New life will rise and wash away the pain.
+The flowers will bloom and birds will start to sing,
+And love and joy return upon the wing."""
+    },
+
+    # ── Ecstatic / wildly original verse (18th century) ──────────────────────
+    {
+        "title": "For I Will Consider My Cat Jeoffry (excerpt)",
+        "author": "Christopher Smart",
+        "year": 1763,
+        "era": "18th_century",
+        "text": """For I will consider my Cat Jeoffry.
+For he is the servant of the Living God, duly and daily serving him.
+For at the first glance of the glory of God in the East he worships in his way.
+For is this done by wreathing his body seven times round with elegant quickness.
+For then he leaps up to catch the musk, which is the blessing of God upon his prayer.
+For he rolls upon prank to work it in.
+For having done duty and received blessing he begins to consider himself.
+For this he performs in ten degrees.
+For first he looks upon his fore-paws to see if they are clean.
+For secondly he kicks up behind to clear away there.
+For thirdly he works it upon stretch with the fore-paws extended.
+For fourthly he sharpens his paws by wood.
+For fifthly he washes himself.
+For sixthly he rolls upon wash.
+For seventhly he fleas himself, that he may not be interrupted upon the beat.
+For eighthly he rubs himself against a post.
+For ninthly he looks up for his instructions.
+For tenthly he goes in quest of food.
+For having considered God and himself he will consider his neighbour.
+For if he meets another cat he will kiss her in kindness.
+For when he takes his prey he plays with it to give it a chance.
+For one mouse in seven escapes by his dallying."""
+    },
+    {
+        "title": "Kubla Khan (opening stanzas)",
+        "author": "Samuel Taylor Coleridge",
+        "year": 1816,
+        "era": "romantic",
+        "text": """In Xanadu did Kubla Khan
+A stately pleasure-dome decree:
+Where Alph, the sacred river, ran
+Through caverns measureless to man
+Down to a sunless sea.
+So twice five miles of fertile ground
+With walls and towers were girdled round;
+And there were gardens bright with sinuous rills,
+Where blossomed many an incense-bearing tree;
+And here were forests ancient as the hills,
+Enfolding sunny spots of greenery.
+
+But oh! that deep romantic chasm which slanted
+Down the green hill athwart a cedarn cover!
+A savage place! as holy and enchanted
+As e'er beneath a waning moon was haunted
+By woman wailing for her demon-lover!
+And from this chasm, with ceaseless turmoil seething,
+As if this earth in fast thick pants were breathing,
+A mighty fountain momently was forced:
+Amid whose swift half-intermitted burst
+Huge fragments vaulted like rebounding hail,
+Or chaffy grain beneath the thresher's flail:
+And mid these dancing rocks at once and ever
+It flung up momently the sacred river."""
+    },
+    {
+        "title": "Proverbs of Hell (excerpt from Marriage of Heaven and Hell)",
+        "author": "William Blake",
+        "year": 1793,
+        "era": "romantic",
+        "text": """In seed time learn, in harvest teach, in winter enjoy.
+Drive your cart and your plow over the bones of the dead.
+The road of excess leads to the palace of wisdom.
+Prudence is a rich ugly old maid courted by Incapacity.
+He who desires but acts not, breeds pestilence.
+The cut worm forgives the plow.
+Dip him in the river who loves water.
+A fool sees not the same tree that a wise man sees.
+He whose face gives no light, shall never become a star.
+Eternity is in love with the productions of time.
+The busy bee has no time for sorrow.
+The hours of folly are measured by the clock; but of wisdom, no clock can measure.
+All wholesome food is caught without a net or a trap.
+Bring out number, weight and measure in a year of dearth.
+No bird soars too high, if he soars with his own wings.
+A dead body revenges not injuries.
+The most sublime act is to set another before you.
+If the fool would persist in his folly he would become wise.
+Folly is the cloak of knavery.
+Shame is Pride's cloak."""
+    },
 ]
 
 # Quick stats

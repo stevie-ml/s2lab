@@ -1,0 +1,238 @@
+{
+  "experiment": "cliche_test",
+  "date": "2026-09-21",
+  "hypothesis": "S2 tracks originality: clich\u00e9 < prose < poetry",
+  "summary": [
+    {
+      "era": "cliche_control",
+      "label": "Synthetic Clich\u00e9",
+      "n": 3,
+      "mean": -0.0343,
+      "std": 0.2951,
+      "min": -0.3276,
+      "max": 0.2626,
+      "avg_pos_s2_ratio": 0.2814
+    },
+    {
+      "era": "control",
+      "label": "Prose Control",
+      "n": 5,
+      "mean": -1.6635,
+      "std": 0.674,
+      "min": -2.3643,
+      "max": -0.6117,
+      "avg_pos_s2_ratio": 0.2034
+    },
+    {
+      "era": "nursery_rhyme",
+      "label": "Nursery Rhyme",
+      "n": 1,
+      "mean": 0.1041,
+      "std": 0.0,
+      "min": 0.1041,
+      "max": 0.1041,
+      "avg_pos_s2_ratio": 0.321
+    },
+    {
+      "era": "song_lyrics",
+      "label": "Song Lyrics",
+      "n": 3,
+      "mean": 0.0922,
+      "std": 0.7389,
+      "min": -0.7381,
+      "max": 0.6775,
+      "avg_pos_s2_ratio": 0.2524
+    },
+    {
+      "era": "found_poetry",
+      "label": "Found Poetry",
+      "n": 7,
+      "mean": -0.3174,
+      "std": 0.388,
+      "min": -0.6504,
+      "max": 0.3542,
+      "avg_pos_s2_ratio": 0.2804
+    },
+    {
+      "era": "spoken_word",
+      "label": "Spoken Word",
+      "n": 2,
+      "mean": -0.4466,
+      "std": 0.2415,
+      "min": -0.6174,
+      "max": -0.2758,
+      "avg_pos_s2_ratio": 0.331
+    },
+    {
+      "era": "prose_poetry",
+      "label": "Prose Poetry",
+      "n": 9,
+      "mean": -0.1556,
+      "std": 0.6712,
+      "min": -1.0256,
+      "max": 1.3475,
+      "avg_pos_s2_ratio": 0.3345
+    },
+    {
+      "era": "ballad",
+      "label": "Ballad",
+      "n": 6,
+      "mean": 0.8144,
+      "std": 0.6899,
+      "min": -0.1211,
+      "max": 1.547,
+      "avg_pos_s2_ratio": 0.3239
+    },
+    {
+      "era": "contemporary",
+      "label": "Contemporary",
+      "n": 9,
+      "mean": 0.0696,
+      "std": 0.7394,
+      "min": -0.6512,
+      "max": 1.8544,
+      "avg_pos_s2_ratio": 0.3548
+    },
+    {
+      "era": "new_york_school",
+      "label": "New York School",
+      "n": 18,
+      "mean": -0.179,
+      "std": 0.6229,
+      "min": -1.1438,
+      "max": 1.0006,
+      "avg_pos_s2_ratio": 0.3603
+    },
+    {
+      "era": "romantic",
+      "label": "Romantic",
+      "n": 14,
+      "mean": 0.0498,
+      "std": 0.6364,
+      "min": -0.9514,
+      "max": 1.3548,
+      "avg_pos_s2_ratio": 0.3624
+    },
+    {
+      "era": "victorian",
+      "label": "Victorian",
+      "n": 14,
+      "mean": 0.3705,
+      "std": 0.772,
+      "min": -0.7322,
+      "max": 1.9355,
+      "avg_pos_s2_ratio": 0.3917
+    },
+    {
+      "era": "modernist",
+      "label": "Modernist",
+      "n": 18,
+      "mean": 0.3696,
+      "std": 1.1604,
+      "min": -1.0536,
+      "max": 3.5938,
+      "avg_pos_s2_ratio": 0.3746
+    },
+    {
+      "era": "confessional",
+      "label": "Confessional",
+      "n": 6,
+      "mean": 0.5034,
+      "std": 0.6208,
+      "min": -0.2904,
+      "max": 1.4138,
+      "avg_pos_s2_ratio": 0.4064
+    },
+    {
+      "era": "haiku",
+      "label": "Haiku",
+      "n": 8,
+      "mean": 1.4286,
+      "std": 0.7701,
+      "min": -0.1765,
+      "max": 2.1417,
+      "avg_pos_s2_ratio": 0.4247
+    },
+    {
+      "era": "beat",
+      "label": "Beat",
+      "n": 2,
+      "mean": 1.0307,
+      "std": 0.5414,
+      "min": 0.6478,
+      "max": 1.4135,
+      "avg_pos_s2_ratio": 0.4728
+    },
+    {
+      "era": "18th_century",
+      "label": "18th Century",
+      "n": 1,
+      "mean": -0.3772,
+      "std": 0.0,
+      "min": -0.3772,
+      "max": -0.3772,
+      "avg_pos_s2_ratio": 0.2945
+    }
+  ],
+  "new_poems": [
+    {
+      "title": "Life Is a Journey (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "avg_s2": -0.0379,
+      "pos_s2_ratio": 0.3,
+      "max_s2": 24.1265,
+      "std_s2": 4.928
+    },
+    {
+      "title": "My Heart Burns for You (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "avg_s2": 0.2626,
+      "pos_s2_ratio": 0.2456,
+      "max_s2": 28.7559,
+      "std_s2": 6.0395
+    },
+    {
+      "title": "Autumn Comes (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "avg_s2": -0.3276,
+      "pos_s2_ratio": 0.2985,
+      "max_s2": 21.2089,
+      "std_s2": 4.2328
+    },
+    {
+      "title": "For I Will Consider My Cat Jeoffry (excerpt)",
+      "author": "Christopher Smart",
+      "era": "18th_century",
+      "avg_s2": -0.3772,
+      "pos_s2_ratio": 0.2945,
+      "max_s2": 22.0152,
+      "std_s2": 3.3101
+    },
+    {
+      "title": "Kubla Khan (opening stanzas)",
+      "author": "Samuel Taylor Coleridge",
+      "era": "romantic",
+      "avg_s2": 0.2201,
+      "pos_s2_ratio": 0.3765,
+      "max_s2": 15.4081,
+      "std_s2": 3.9461
+    },
+    {
+      "title": "Proverbs of Hell (excerpt from Marriage of Heaven and Hell)",
+      "author": "William Blake",
+      "era": "romantic",
+      "avg_s2": -0.6778,
+      "pos_s2_ratio": 0.2946,
+      "max_s2": 22.6929,
+      "std_s2": 3.9081
+    }
+  ],
+  "key_comparison": {
+    "cliche_avg_s2": -0.0343,
+    "prose_avg_s2": -1.6635,
+    "poetry_avg_s2": 0.2273
+  }
+}

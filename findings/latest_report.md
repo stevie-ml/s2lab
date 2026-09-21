@@ -1,6 +1,6 @@
 # S₂ Lab Research Report
-**Generated:** 2026-09-21 12:48:40
-**Corpus:** 160 texts analyzed with GPT-2
+**Generated:** 2026-09-21 18:55:28
+**Corpus:** 174 texts analyzed with GPT-2
 **Model:** gpt2 (117M parameters)
 
 ---
@@ -18,6 +18,7 @@ Do different literary movements produce systematically different information-the
 | ballad | 6 | 6.06 | 5.25 | **0.81** | 32% | 32.75 |
 | harlem_renaissance | 5 | 6.60 | 5.97 | **0.63** | 37% | 31.07 |
 | german_expressionist | 2 | 6.89 | 6.27 | **0.62** | 45% | 15.26 |
+| fixed_form | 8 | 6.31 | 5.71 | **0.60** | 34% | 30.18 |
 | confessional | 6 | 7.06 | 6.56 | **0.50** | 41% | 35.23 |
 | german_symbolist | 3 | 6.94 | 6.53 | **0.42** | 45% | 23.40 |
 | victorian | 14 | 6.85 | 6.48 | **0.37** | 39% | 34.00 |
@@ -27,16 +28,18 @@ Do different literary movements produce systematically different information-the
 | deep_image | 1 | 6.87 | 6.62 | **0.25** | 45% | 12.62 |
 | ancient | 1 | 5.80 | 5.61 | **0.19** | 37% | 24.76 |
 | nursery_rhyme | 1 | 5.35 | 5.25 | **0.10** | 32% | 26.92 |
-| romantic | 12 | 6.74 | 6.64 | **0.10** | 37% | 31.85 |
 | song_lyrics | 3 | 4.23 | 4.14 | **0.09** | 25% | 29.34 |
 | contemporary | 9 | 5.79 | 5.72 | **0.07** | 35% | 33.21 |
+| romantic | 14 | 6.66 | 6.61 | **0.05** | 36% | 31.85 |
 | early_modern | 4 | 6.55 | 6.52 | **0.04** | 41% | 24.20 |
+| cliche_control | 3 | 5.09 | 5.13 | **-0.03** | 28% | 28.76 |
 | oulipo | 1 | 6.40 | 6.52 | **-0.12** | 33% | 15.97 |
 | prose_poetry | 9 | 5.25 | 5.40 | **-0.16** | 33% | 34.59 |
 | metaphysical | 4 | 6.49 | 6.66 | **-0.17** | 38% | 27.32 |
 | new_york_school | 18 | 6.33 | 6.51 | **-0.18** | 36% | 29.70 |
 | found_poetry | 7 | 4.41 | 4.73 | **-0.32** | 28% | 27.28 |
 | surrealist | 1 | 5.90 | 6.22 | **-0.33** | 33% | 19.75 |
+| 18th_century | 1 | 4.82 | 5.20 | **-0.38** | 29% | 22.02 |
 | spoken_word | 2 | 5.66 | 6.11 | **-0.45** | 33% | 23.17 |
 | control | 5 | 3.90 | 5.56 | **-1.66** | 20% | 12.11 |
 
@@ -165,20 +168,20 @@ Do high-S₂ moments cluster at beginnings, endings, or enjambments?
 
 | Position in poem | Avg S₂ | Median S₂ | n tokens |
 |---|---|---|---|
-| first_10% | 0.99 | -0.49 | 1574 |
-| 10-25% | 0.44 | -0.92 | 2475 |
-| 25-50% | 0.08 | -1.04 | 4135 |
-| 50-75% | -0.03 | -1.06 | 4095 |
-| 75-90% | 0.19 | -0.98 | 2461 |
-| last_10% | -0.12 | -1.12 | 1712 |
+| first_10% | 1.01 | -0.49 | 1779 |
+| 10-25% | 0.33 | -1.00 | 2791 |
+| 25-50% | 0.07 | -1.07 | 4668 |
+| 50-75% | 0.00 | -1.05 | 4618 |
+| 75-90% | 0.20 | -1.01 | 2780 |
+| last_10% | -0.09 | -1.10 | 1928 |
 
 ### Line break analysis:
-- Avg S₂ at newline tokens: **-1.52** (n=1619)
-- Avg S₂ at tokens immediately after newline: **5.65** (n=1619)
-- Avg S₂ at all other tokens: **0.38** (n=14833)
+- Avg S₂ at newline tokens: **-1.50** (n=1829)
+- Avg S₂ at tokens immediately after newline: **5.74** (n=1829)
+- Avg S₂ at all other tokens: **0.37** (n=16735)
 
 ### Finding
-Tokens immediately after line breaks have higher S₂ (5.65) than other positions (0.38). This suggests **enjambment is a key site of Straussian deviation** — the first word of a new line is where poets most often defy expectation.
+Tokens immediately after line breaks have higher S₂ (5.74) than other positions (0.37). This suggests **enjambment is a key site of Straussian deviation** — the first word of a new line is where poets most often defy expectation.
 
 ---
 
@@ -206,13 +209,15 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | Stefan George | 3 | 0.42 | 3.77 | 45% | 17.80 | mild deviation |
 | Robert Burns | 2 | 0.39 | 5.98 | 35% | 24.00 | selective spikes |
 | Walt Whitman | 3 | 0.33 | 4.62 | 43% | 17.56 | mild deviation |
-| William Blake | 3 | 0.30 | 5.87 | 33% | 24.21 | selective spikes |
 | George Herbert | 2 | 0.26 | 5.01 | 39% | 21.56 | selective spikes |
 | Percy Bysshe Shelley | 3 | 0.24 | 4.72 | 40% | 23.82 | mild deviation |
 | Wallace Stevens | 3 | 0.13 | 4.98 | 36% | 21.37 | mild deviation |
 | Matthew Arnold | 2 | 0.05 | 4.16 | 39% | 17.07 | mild deviation |
+| William Blake | 4 | 0.05 | 5.38 | 32% | 23.83 | selective spikes |
 | T.S. Eliot | 3 | 0.02 | 4.46 | 41% | 20.04 | mild deviation |
 | Claudia Rankine | 2 | -0.00 | 4.25 | 36% | 18.16 | smooth/conventional |
+| Synthetic (research test case) | 3 | -0.03 | 5.07 | 28% | 24.70 | volatile but conforming |
+| Edgar Allan Poe | 2 | -0.04 | 5.42 | 34% | 26.67 | volatile but conforming |
 | Anne Sexton | 2 | -0.14 | 4.92 | 39% | 21.88 | smooth/conventional |
 | Anonymous (found text) | 3 | -0.27 | 3.80 | 28% | 24.11 | smooth/conventional |
 | John Keats | 3 | -0.27 | 3.89 | 40% | 19.75 | smooth/conventional |
@@ -230,7 +235,7 @@ Authors have distinct S₂ signatures. Some poets (like Plath, Ginsberg) produce
 
 Do 'great' poems have distinctive S₂ profiles?
 
-- Poetry avg S₂: **0.27** (σ=0.83, n=155)
+- Poetry avg S₂: **0.27** (σ=0.82, n=169)
 - Control prose avg S₂: **-1.66** (σ=0.67, n=5)
 - Gap: **1.93**
 
