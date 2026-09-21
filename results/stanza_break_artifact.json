@@ -1,0 +1,142 @@
+{
+  "artifact_threshold_p_newline": 0.9,
+  "n_line_heads": 1567,
+  "n_contaminated": 494,
+  "line_head_s2_raw": 6.298,
+  "line_head_s2_clean": -0.1038,
+  "by_era": [
+    {
+      "era": "ballad",
+      "n": 90,
+      "pct_contaminated": 0.6111,
+      "s2_raw": 12.2019,
+      "s2_clean": 0.0942
+    },
+    {
+      "era": "fixed_form",
+      "n": 90,
+      "pct_contaminated": 0.5444,
+      "s2_raw": 11.6659,
+      "s2_clean": 0.3953
+    },
+    {
+      "era": "song_lyrics",
+      "n": 44,
+      "pct_contaminated": 0.5,
+      "s2_raw": 8.4692,
+      "s2_clean": -0.3185
+    },
+    {
+      "era": "harlem_renaissance",
+      "n": 55,
+      "pct_contaminated": 0.4,
+      "s2_raw": 8.392,
+      "s2_clean": -0.5135
+    },
+    {
+      "era": "modernist",
+      "n": 161,
+      "pct_contaminated": 0.3416,
+      "s2_raw": 7.2146,
+      "s2_clean": 0.2522
+    },
+    {
+      "era": "confessional",
+      "n": 41,
+      "pct_contaminated": 0.3415,
+      "s2_raw": 8.242,
+      "s2_clean": 0.4207
+    },
+    {
+      "era": "romantic",
+      "n": 132,
+      "pct_contaminated": 0.3333,
+      "s2_raw": 7.1104,
+      "s2_clean": 0.2194
+    },
+    {
+      "era": "victorian",
+      "n": 163,
+      "pct_contaminated": 0.3252,
+      "s2_raw": 6.4872,
+      "s2_clean": 0.101
+    },
+    {
+      "era": "mid_century",
+      "n": 25,
+      "pct_contaminated": 0.32,
+      "s2_raw": 7.9305,
+      "s2_clean": -0.3904
+    },
+    {
+      "era": "19th_century",
+      "n": 83,
+      "pct_contaminated": 0.3012,
+      "s2_raw": 6.1471,
+      "s2_clean": 0.8259
+    },
+    {
+      "era": "early_modern",
+      "n": 47,
+      "pct_contaminated": 0.2979,
+      "s2_raw": 5.4036,
+      "s2_clean": 0.417
+    },
+    {
+      "era": "metaphysical",
+      "n": 47,
+      "pct_contaminated": 0.2553,
+      "s2_raw": 4.6664,
+      "s2_clean": -0.4182
+    },
+    {
+      "era": "contemporary",
+      "n": 75,
+      "pct_contaminated": 0.2533,
+      "s2_raw": 4.6594,
+      "s2_clean": -0.4969
+    },
+    {
+      "era": "new_york_school",
+      "n": 123,
+      "pct_contaminated": 0.252,
+      "s2_raw": 4.1077,
+      "s2_clean": -0.9894
+    },
+    {
+      "era": "prose_poetry",
+      "n": 76,
+      "pct_contaminated": 0.2368,
+      "s2_raw": 5.0775,
+      "s2_clean": -0.5911
+    },
+    {
+      "era": "found_poetry",
+      "n": 138,
+      "pct_contaminated": 0.1232,
+      "s2_raw": 1.5905,
+      "s2_clean": -0.5209
+    },
+    {
+      "era": "spoken_word",
+      "n": 27,
+      "pct_contaminated": 0.0741,
+      "s2_raw": 0.6245,
+      "s2_clean": -1.0384
+    },
+    {
+      "era": "german_symbolist",
+      "n": 31,
+      "pct_contaminated": 0.0,
+      "s2_raw": -1.0682,
+      "s2_clean": -1.0682
+    },
+    {
+      "era": "german_expressionist",
+      "n": 27,
+      "pct_contaminated": 0.0,
+      "s2_raw": -0.2889,
+      "s2_clean": -0.2889
+    }
+  ]
+}

@@ -3081,6 +3081,185 @@ in their stone boats. They are more like stone
 than the sea would be if it stopped. They refuse
 to be blessed, throat, eye and knucklebone."""
     },
+
+    # ─── NEW POEMS (2026-09-21): FIXED-FORM REFRAIN & SPECTRAL EXPERIMENT ──────
+    # Added to test whether *mandatory structural repetition* produces a periodic
+    # rhythm in the S₂ series detectable by Fourier analysis.
+    #
+    # Prior work (s2_momentum_prose_poetry.md) established that lyric poetry has
+    # negative lag-1 autocorrelation — surprise alternates with release. But
+    # autocorrelation at fixed small lags cannot detect *long-period* structure.
+    # These forms all impose a refrain that returns at a known, fixed interval:
+    #   villanelle — A1 returns at lines 6, 12, 18; A2 at lines 9, 15, 19
+    #   ballade    — refrain closes every stanza (8-line period)
+    #   rondeau    — rentrement returns as a short tag
+    #   sestina    — six end-words rotate on a 6-line period
+    # If the refrain is genuinely re-predicted by the model on each return, the
+    # S₂ series should carry power at the refrain frequency. All texts below are
+    # public domain (pre-1900 or author d. >95y).
+    {
+        "title": "Theocritus: A Villanelle (opening quatrains)",
+        "author": "Oscar Wilde",
+        "year": 1881,
+        "era": "fixed_form",
+        "text": """O singer of Persephone!
+In the dim meadows desolate
+Dost thou remember Sicily?
+
+Still through the ivy flits the bee
+Where Amaryllis lies in state;
+O singer of Persephone!
+
+Simaetha calls on Hecate
+And hears the wild dogs at the gate;
+Dost thou remember Sicily?
+
+Still by the light and laughing sea
+Poor Polypheme bemoans his fate;
+O singer of Persephone!"""
+    },
+    {
+        "title": "The House on the Hill",
+        "author": "Edwin Arlington Robinson",
+        "year": 1894,
+        "era": "fixed_form",
+        "text": """They are all gone away,
+The House is shut and still,
+There is nothing more to say.
+
+Through broken walls and gray
+The winds blow bleak and shrill:
+They are all gone away.
+
+Nor is there one to-day
+To speak them good or ill:
+There is nothing more to say.
+
+Why is it then we stray
+Around the sunken sill?
+They are all gone away,
+
+And our poor fancy-play
+For them is wasted skill:
+There is nothing more to say."""
+    },
+    {
+        "title": "Villanelle of the Poet's Road",
+        "author": "Ernest Dowson",
+        "year": 1899,
+        "era": "fixed_form",
+        "text": """Wine and woman and song,
+Three things garnish our way:
+Yet is day over long.
+
+Lest we do our youth wrong,
+Gather them while we may:
+Wine and woman and song.
+
+Three things render us strong,
+Vine leaves, kisses and bay;
+Yet is day over long.
+
+Unto us they belong,
+Us the bitter and gay,
+Wine and woman and song."""
+    },
+    {
+        "title": "Villanelle (A dainty thing's the Villanelle)",
+        "author": "William Ernest Henley",
+        "year": 1891,
+        "era": "fixed_form",
+        "text": """A dainty thing's the Villanelle,
+Sly, musical, a jewel in rhyme,
+It serves its purpose passing well.
+
+A double-clappered silver bell
+That must be made to clink in chime,
+A dainty thing's the Villanelle;
+
+And if you wish to flute a spell,
+Or ask a meeting 'neath the lime,
+It serves its purpose passing well.
+
+You must not ask of it the swell
+Of organs grandiose and sublime —
+A dainty thing's the Villanelle."""
+    },
+    {
+        "title": "The Ballad of Dead Ladies (after Villon)",
+        "author": "Dante Gabriel Rossetti",
+        "year": 1870,
+        "era": "fixed_form",
+        "text": """Tell me now in what hidden way is
+Lady Flora the lovely Roman?
+Where's Hipparchia, and where is Thais,
+Neither of them the fairer woman?
+Where is Echo, beheld of no man,
+Only heard on river and mere,—
+She whose beauty was more than human?...
+But where are the snows of yester-year?
+
+Where's Heloise, the learned nun,
+For whose sake Abeillard, I ween,
+Lost manhood and put priesthood on?
+(From Love he won such dule and teen!)
+And where, I pray you, is the Queen
+Who willed that Buridan should steer
+Sewed in a sack's mouth down the Seine?...
+But where are the snows of yester-year?"""
+    },
+    {
+        "title": "In After Days (rondeau)",
+        "author": "Austin Dobson",
+        "year": 1893,
+        "era": "fixed_form",
+        "text": """In after days when grasses high
+O'er-top the stone where I shall lie,
+Though ill or well the world adjust
+My slender claim to honoured dust,
+I shall not question nor reply.
+
+I shall not see the morning sky;
+I shall not hear the night-wind sigh;
+I shall be mute, as all men must
+In after days!"""
+    },
+    {
+        "title": "Annabel Lee (opening stanzas)",
+        "author": "Edgar Allan Poe",
+        "year": 1849,
+        "era": "fixed_form",
+        "text": """It was many and many a year ago,
+In a kingdom by the sea,
+That a maiden there lived whom you may know
+By the name of Annabel Lee;
+And this maiden she lived with no other thought
+Than to love and be loved by me.
+
+I was a child and she was a child,
+In this kingdom by the sea,
+But we loved with a love that was more than love—
+I and my Annabel Lee—
+With a love that the winged seraphs of Heaven
+Coveted her and me."""
+    },
+    {
+        "title": "Sestina of the Tramp-Royal (opening stanzas)",
+        "author": "Rudyard Kipling",
+        "year": 1896,
+        "era": "fixed_form",
+        "text": """Speakin' in general, I 'ave tried 'em all,
+The 'appy roads that take you o'er the world.
+Speakin' in general, I 'ave found them good
+For such as cannot use one bed too long,
+But must get 'ence, the same as I 'ave done,
+An' go observin' matters till they die.
+
+What do it matter where or 'ow we die,
+So long as we've our 'ealth to watch it all —
+The different ways that different things are done,
+An' men an' women lovin' in this world."""
+    },
 ]
 
 # Quick stats
