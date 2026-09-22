@@ -48,7 +48,12 @@ _models: dict = {}
 
 
 def get_model(language: str = "en"):
-    """Return (model, tokenizer) for the given language, loading if needed."""
+    """Return (model, tokenizer, nl_ids) for the given language, loading if needed.
+
+    nl_ids is a 1-D LongTensor of all vocabulary IDs that decode to a pure
+    newline/carriage-return string (used to compute p_newline per token from
+    the full distribution rather than just the top-k alternatives).
+    """
     if language not in _models:
         cfg = LANGUAGE_CONFIG.get(language)
         if cfg is None:
@@ -60,7 +65,11 @@ def get_model(language: str = "en"):
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         model = AutoModelForCausalLM.from_pretrained(model_name)
         model.eval()
-        _models[language] = (model, tokenizer)
+        vocab_size = len(tokenizer)
+        nl_ids = [i for i in range(vocab_size)
+                  if tokenizer.decode([i]).strip("\r\n") == ""]
+        nl_tensor = torch.tensor(nl_ids, dtype=torch.long) if nl_ids else None
+        _models[language] = (model, tokenizer, nl_tensor)
     return _models[language]
 
 
@@ -79,7 +88,7 @@ def analyze_poem(text, title="", author="", year=None, era="", language="en", to
       - token-level data (each token with metrics + top-k alternatives)
       - high_s2 moments (top 10 by S₂, with "unsaid" alternatives)
     """
-    model, tokenizer = get_model(language)
+    model, tokenizer, nl_tensor = get_model(language)
     model_name = LANGUAGE_CONFIG[language]["model"]
 
     input_ids = tokenizer.encode(text, return_tensors="pt")
@@ -115,6 +124,9 @@ def analyze_poem(text, title="", author="", year=None, era="", language="en", to
         sorted_probs, sorted_ids = torch.sort(probs, descending=True)
         rank = (sorted_ids == actual_id).nonzero(as_tuple=True)[0].item() + 1
 
+        # Probability mass on newline continuation (full distribution, not just top-k)
+        p_newline = probs[nl_tensor].sum().item() if nl_tensor is not None else 0.0
+
         token_data.append({
             "position": i + 1,
             "token": actual_token,
@@ -123,6 +135,7 @@ def analyze_poem(text, title="", author="", year=None, era="", language="en", to
             "s2": round(s2, 4),
             "prob": round(prob, 6),
             "rank": rank,
+            "p_newline": round(p_newline, 6),
             "alternatives": alternatives,
         })
 
