@@ -2625,6 +2625,60 @@ two, three at a time."""
 is a world of dew, and yet,
 and yet—"""
     },
+    {
+        "title": "Morning Glory (Chiyo-ni, translated)",
+        "author": "Chiyo-ni",
+        "year": 1763,
+        "era": "haiku",
+        "text": """Morning glory—
+the well-bucket entangled,
+I ask for water."""
+    },
+    {
+        "title": "Temple Bells (Buson, translated)",
+        "author": "Yosa Buson",
+        "year": 1771,
+        "era": "haiku",
+        "text": """Temple bells die out.
+The fragrant blossoms remain.
+A perfect evening!"""
+    },
+    {
+        "title": "No Sky (Shiki, translated)",
+        "author": "Masaoka Shiki",
+        "year": 1896,
+        "era": "haiku",
+        "text": """No sky at all;
+no earth at all— and still
+the snowflakes fall."""
+    },
+    {
+        "title": "On the Roof of Hell (Issa, translated)",
+        "author": "Kobayashi Issa",
+        "year": 1823,
+        "era": "haiku",
+        "text": """In this world
+we walk on the roof of hell,
+gazing at flowers."""
+    },
+    {
+        "title": "Cicadas (Bashō, translated)",
+        "author": "Matsuo Bashō",
+        "year": 1689,
+        "era": "haiku",
+        "text": """Silence—
+the sound of the cicadas
+pierces the rocks."""
+    },
+    {
+        "title": "Nobody (Wright)",
+        "author": "Richard Wright",
+        "year": 1960,
+        "era": "haiku",
+        "text": """I am nobody.
+A red sinking autumn sun
+took my name away."""
+    },
 
     # ─── SPOKEN WORD / SLAM (new era, tests low-register performance poetry) ──
     # Predicted: closer to song_lyrics (avg S2 ~0.09) than to modernist verse,
