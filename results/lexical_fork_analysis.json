@@ -1,0 +1,444 @@
+{
+  "class_counts": {
+    "fork_escape": 4836,
+    "fork_navigate": 5244,
+    "neutral": 7250,
+    "trap": 565
+  },
+  "class_avg_s2": {
+    "fork_escape": 1.9978443341604533,
+    "fork_navigate": -2.7707116514111276,
+    "neutral": -0.4413743310344838,
+    "trap": 19.273374690265488
+  },
+  "class_pct_pos": {
+    "fork_escape": 70.18196856906535,
+    "fork_navigate": 5.301296720061022,
+    "neutral": 28.56551724137931,
+    "trap": 100.0
+  },
+  "fork_nav_rank_dist": {
+    "2": 1191,
+    "1": 1677,
+    "4": 455,
+    "3": 646,
+    "7": 225,
+    "5": 300,
+    "6": 287,
+    "8": 187,
+    "10": 134,
+    "9": 142
+  },
+  "era_fork_escape_rates": {
+    "surrealist": {
+      "n_fork": 25,
+      "n_escape": 17,
+      "escape_rate": 68.0,
+      "avg_s2": 0.9367941176470588
+    },
+    "harlem_renaissance": {
+      "n_fork": 314,
+      "n_escape": 180,
+      "escape_rate": 57.32484076433121,
+      "avg_s2": 1.6282672222222225
+    },
+    "early_modern": {
+      "n_fork": 358,
+      "n_escape": 205,
+      "escape_rate": 57.262569832402235,
+      "avg_s2": 1.9952756097560993
+    },
+    "deep_image": {
+      "n_fork": 37,
+      "n_escape": 21,
+      "escape_rate": 56.75675675675676,
+      "avg_s2": 2.781385714285715
+    },
+    "haiku": {
+      "n_fork": 192,
+      "n_escape": 106,
+      "escape_rate": 55.208333333333336,
+      "avg_s2": 2.035011320754717
+    },
+    "romantic": {
+      "n_fork": 1147,
+      "n_escape": 630,
+      "escape_rate": 54.92589363557106,
+      "avg_s2": 1.726546984126986
+    },
+    "victorian": {
+      "n_fork": 1250,
+      "n_escape": 651,
+      "escape_rate": 52.08,
+      "avg_s2": 2.0808440860215063
+    },
+    "metaphysical": {
+      "n_fork": 350,
+      "n_escape": 177,
+      "escape_rate": 50.57142857142857,
+      "avg_s2": 1.839351412429378
+    },
+    "modernist": {
+      "n_fork": 920,
+      "n_escape": 465,
+      "escape_rate": 50.54347826086956,
+      "avg_s2": 2.0843516129032262
+    },
+    "ballad": {
+      "n_fork": 454,
+      "n_escape": 228,
+      "escape_rate": 50.220264317180614,
+      "avg_s2": 2.2221986842105275
+    },
+    "confessional": {
+      "n_fork": 269,
+      "n_escape": 135,
+      "escape_rate": 50.185873605947954,
+      "avg_s2": 2.3177444444444437
+    },
+    "19th_century": {
+      "n_fork": 569,
+      "n_escape": 282,
+      "escape_rate": 49.560632688927946,
+      "avg_s2": 2.1294120567375883
+    },
+    "language": {
+      "n_fork": 95,
+      "n_escape": 47,
+      "escape_rate": 49.473684210526315,
+      "avg_s2": 1.7960531914893614
+    },
+    "oulipo": {
+      "n_fork": 33,
+      "n_escape": 16,
+      "escape_rate": 48.484848484848484,
+      "avg_s2": 0.29003750000000006
+    },
+    "fixed_form": {
+      "n_fork": 474,
+      "n_escape": 229,
+      "escape_rate": 48.312236286919834,
+      "avg_s2": 2.008503493449782
+    },
+    "beat": {
+      "n_fork": 94,
+      "n_escape": 45,
+      "escape_rate": 47.87234042553192,
+      "avg_s2": 3.8299088888888884
+    },
+    "spoken_word": {
+      "n_fork": 117,
+      "n_escape": 56,
+      "escape_rate": 47.863247863247864,
+      "avg_s2": 2.3647714285714296
+    },
+    "mid_century": {
+      "n_fork": 147,
+      "n_escape": 70,
+      "escape_rate": 47.61904761904762,
+      "avg_s2": 1.4191814285714286
+    },
+    "18th_century": {
+      "n_fork": 159,
+      "n_escape": 75,
+      "escape_rate": 47.16981132075472,
+      "avg_s2": 2.0739866666666673
+    },
+    "contemporary": {
+      "n_fork": 470,
+      "n_escape": 205,
+      "escape_rate": 43.61702127659574,
+      "avg_s2": 2.463300487804877
+    },
+    "new_york_school": {
+      "n_fork": 896,
+      "n_escape": 379,
+      "escape_rate": 42.299107142857146,
+      "avg_s2": 1.779047493403693
+    },
+    "song_lyrics": {
+      "n_fork": 199,
+      "n_escape": 83,
+      "escape_rate": 41.70854271356784,
+      "avg_s2": 1.9555963855421694
+    },
+    "ancient": {
+      "n_fork": 56,
+      "n_escape": 22,
+      "escape_rate": 39.285714285714285,
+      "avg_s2": 2.186895454545454
+    },
+    "nursery_rhyme": {
+      "n_fork": 126,
+      "n_escape": 49,
+      "escape_rate": 38.888888888888886,
+      "avg_s2": 1.8096816326530616
+    },
+    "prose_poetry": {
+      "n_fork": 559,
+      "n_escape": 213,
+      "escape_rate": 38.10375670840787,
+      "avg_s2": 2.196868544600939
+    },
+    "cliche_control": {
+      "n_fork": 196,
+      "n_escape": 66,
+      "escape_rate": 33.673469387755105,
+      "avg_s2": 1.4284181818181818
+    },
+    "found_poetry": {
+      "n_fork": 498,
+      "n_escape": 165,
+      "escape_rate": 33.13253012048193,
+      "avg_s2": 2.1754078787878806
+    },
+    "control": {
+      "n_fork": 76,
+      "n_escape": 19,
+      "escape_rate": 25.0,
+      "avg_s2": 0.2137736842105263
+    }
+  },
+  "top_fork_escapes": [
+    {
+      "title": "God's Grandeur",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "token": " shook",
+      "s2": 22.0439,
+      "entropy": 3.601,
+      "rank": 26974,
+      "offered": "\"the\" / \"a\" / \"heaven\"",
+      "top1_prob": 0.38729068636894226,
+      "top2_prob": 0.32385650277137756
+    },
+    {
+      "title": "For I Will Consider My Cat Jeoffry (excerpt)",
+      "author": "Christopher Smart",
+      "era": "18th_century",
+      "token": " prank",
+      "s2": 22.0152,
+      "entropy": 2.7212,
+      "rank": 18926,
+      "offered": "\"the\" / \"his\" / \"a\"",
+      "top1_prob": 0.4501926004886627,
+      "top2_prob": 0.36389902234077454
+    },
+    {
+      "title": "I felt a Funeral, in my Brain",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "token": " Fun",
+      "s2": 18.9026,
+      "entropy": 6.8686,
+      "rank": 24702,
+      "offered": "\"little\" / \"bit\" / \"sense\"",
+      "top1_prob": 0.19108593463897705,
+      "top2_prob": 0.1183333620429039
+    },
+    {
+      "title": "Citizen (excerpt)",
+      "author": "Claudia Rankine",
+      "era": "contemporary",
+      "token": " stacked",
+      "s2": 18.1601,
+      "entropy": 4.807,
+      "rank": 15503,
+      "offered": "\"ime\" / \"tense\" / \"life\"",
+      "top1_prob": 0.3018990755081177,
+      "top2_prob": 0.12835299968719482
+    },
+    {
+      "title": "Citizen (excerpt, section I)",
+      "author": "Claudia Rankine",
+      "era": "prose_poetry",
+      "token": " stacked",
+      "s2": 18.1601,
+      "entropy": 4.807,
+      "rank": 15503,
+      "offered": "\"ime\" / \"tense\" / \"life\"",
+      "top1_prob": 0.3018990755081177,
+      "top2_prob": 0.12835299968719482
+    },
+    {
+      "title": "On First Looking into Chapman's Homer",
+      "author": "John Keats",
+      "era": "romantic",
+      "token": " trave",
+      "s2": 16.5141,
+      "entropy": 7.0741,
+      "rank": 14136,
+      "offered": "\"been\" / \"ever\" / \"seen\"",
+      "top1_prob": 0.12317518144845963,
+      "top2_prob": 0.054916560649871826
+    },
+    {
+      "title": "The Fall",
+      "author": "Russell Edson",
+      "era": "prose_poetry",
+      "token": " indoors",
+      "s2": 16.402,
+      "entropy": 6.6099,
+      "rank": 19554,
+      "offered": "\"the\" / \"his\" / \"life\"",
+      "top1_prob": 0.24408799409866333,
+      "top2_prob": 0.11543454974889755
+    },
+    {
+      "title": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)",
+      "author": "Thomas Jefferson (found text)",
+      "era": "found_poetry",
+      "token": "der",
+      "s2": 16.3761,
+      "entropy": 6.8078,
+      "rank": 6361,
+      "offered": "\"And\" / \"That\" / \"and\"",
+      "top1_prob": 0.11530930548906326,
+      "top2_prob": 0.07090950757265091
+    },
+    {
+      "title": "Sir Patrick Spens",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "token": " Dum",
+      "s2": 16.0955,
+      "entropy": 4.2031,
+      "rank": 9325,
+      "offered": "\"the\" / \"his\" / \"a\"",
+      "top1_prob": 0.36133328080177307,
+      "top2_prob": 0.21770651638507843
+    },
+    {
+      "title": "Sir Patrick Spens",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "token": " tou",
+      "s2": 16.0799,
+      "entropy": 5.8705,
+      "rank": 17552,
+      "offered": "\"'s\" / \",\" / \"Castle\"",
+      "top1_prob": 0.2377426028251648,
+      "top2_prob": 0.16017764806747437
+    },
+    {
+      "title": "Howl (opening)",
+      "author": "Allen Ginsberg",
+      "era": "beat",
+      "token": " hysterical",
+      "s2": 15.6059,
+      "entropy": 4.618,
+      "rank": 5646,
+      "offered": "\"to\" / \",\" / \"and\"",
+      "top1_prob": 0.2583310902118683,
+      "top2_prob": 0.14511306583881378
+    },
+    {
+      "title": "The Collar (opening)",
+      "author": "George Herbert",
+      "era": "metaphysical",
+      "token": " abroad",
+      "s2": 15.3637,
+      "entropy": 7.522,
+      "rank": 8033,
+      "offered": "\"not\" / \"go\" / \"never\"",
+      "top1_prob": 0.10956050455570221,
+      "top2_prob": 0.0562782883644104
+    },
+    {
+      "title": "Old Pond (Bash\u014d, translated)",
+      "author": "Matsuo Bash\u014d",
+      "era": "haiku",
+      "token": "spl",
+      "s2": 15.2749,
+      "entropy": 6.2186,
+      "rank": 4194,
+      "offered": "\"And\" / \"A\" / \"The\"",
+      "top1_prob": 0.17428947985172272,
+      "top2_prob": 0.15428827702999115
+    },
+    {
+      "title": "The Wife of Usher's Well",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "token": " Us",
+      "s2": 15.2688,
+      "entropy": 5.3172,
+      "rank": 11169,
+      "offered": "\"the\" / \"home\" / \"that\"",
+      "top1_prob": 0.3621973991394043,
+      "top2_prob": 0.16255789995193481
+    },
+    {
+      "title": "The Ballad of Dead Ladies (after Villon)",
+      "author": "Dante Gabriel Rossetti",
+      "era": "fixed_form",
+      "token": " priesthood",
+      "s2": 14.9861,
+      "entropy": 7.2598,
+      "rank": 26610,
+      "offered": "\"to\" / \"rid\" / \"t\"",
+      "top1_prob": 0.12647226452827454,
+      "top2_prob": 0.07580751925706863
+    },
+    {
+      "title": "The Truth the Dead Know (excerpt)",
+      "author": "Anne Sexton",
+      "era": "confessional",
+      "token": " throat",
+      "s2": 14.9156,
+      "entropy": 6.4979,
+      "rank": 14957,
+      "offered": "\"and\" / \"they\" / \"but\"",
+      "top1_prob": 0.16873304545879364,
+      "top2_prob": 0.09759784489870071
+    },
+    {
+      "title": "Wet Casements",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "token": " Babylon",
+      "s2": 14.9081,
+      "entropy": 5.2104,
+      "rank": 8653,
+      "offered": "\"in\" / \",\" / \"from\"",
+      "top1_prob": 0.24354270100593567,
+      "top2_prob": 0.21919648349285126
+    },
+    {
+      "title": "Whereas (excerpt)",
+      "author": "Layli Long Soldier",
+      "era": "contemporary",
+      "token": " ##",
+      "s2": 14.8386,
+      "entropy": 9.1167,
+      "rank": 22085,
+      "offered": "\"offer\" / \"give\" / \"make\"",
+      "top1_prob": 0.04063645005226135,
+      "top2_prob": 0.03627457842230797
+    },
+    {
+      "title": "Sir Patrick Spens",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "token": " guid",
+      "s2": 14.5811,
+      "entropy": 6.8943,
+      "rank": 13655,
+      "offered": "\",\" / \"thee\" / \"my\"",
+      "top1_prob": 0.09711233526468277,
+      "top2_prob": 0.07626739144325256
+    },
+    {
+      "title": "My Life (excerpt)",
+      "author": "Lyn Hejinian",
+      "era": "language",
+      "token": " yellow",
+      "s2": 14.52,
+      "entropy": 4.276,
+      "rank": 2182,
+      "offered": "\",\" / \"later\" / \".\"",
+      "top1_prob": 0.22441844642162323,
+      "top2_prob": 0.16178813576698303
+    }
+  ]
+}
