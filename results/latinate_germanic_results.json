@@ -1,0 +1,436 @@
+{
+  "germanic": {
+    "s2": {
+      "n": 2714,
+      "mean": -0.3252,
+      "median": -1.9289,
+      "stdev": 5.8693,
+      "pos_ratio": 0.2903
+    },
+    "surprisal": {
+      "n": 2714,
+      "mean": 6.016,
+      "median": 4.8147,
+      "stdev": 4.8815,
+      "pos_ratio": 1.0
+    },
+    "entropy": {
+      "n": 2714,
+      "mean": 6.3412,
+      "median": 6.6903,
+      "stdev": 2.8118,
+      "pos_ratio": 1.0
+    }
+  },
+  "latinate": {
+    "s2": {
+      "n": 95,
+      "mean": 2.5843,
+      "median": 1.1243,
+      "stdev": 6.1993,
+      "pos_ratio": 0.5895
+    },
+    "surprisal": {
+      "n": 95,
+      "mean": 10.8103,
+      "median": 10.7954,
+      "stdev": 5.585,
+      "pos_ratio": 1.0
+    },
+    "entropy": {
+      "n": 95,
+      "mean": 8.2261,
+      "median": 9.4074,
+      "stdev": 3.1634,
+      "pos_ratio": 1.0
+    }
+  },
+  "syllable_s2": {
+    "1": {
+      "n": 11457,
+      "mean": 0.3632,
+      "median": -0.949,
+      "stdev": 5.5308,
+      "pos_ratio": 0.3703
+    },
+    "2": {
+      "n": 1946,
+      "mean": 2.0028,
+      "median": 1.206,
+      "stdev": 4.8907,
+      "pos_ratio": 0.6048
+    },
+    "3": {
+      "n": 350,
+      "mean": 2.3951,
+      "median": 1.7209,
+      "stdev": 4.6551,
+      "pos_ratio": 0.6543
+    },
+    "4": {
+      "n": 47,
+      "mean": 1.8288,
+      "median": 1.5903,
+      "stdev": 3.875,
+      "pos_ratio": 0.6809
+    }
+  },
+  "era_comparison": {
+    "haiku": {
+      "germanic_mean_s2": 2.6528,
+      "latinate_mean_s2": 10.8334,
+      "germanic_n": 50,
+      "latinate_n": 5,
+      "gap": -8.1806
+    },
+    "deep_image": {
+      "germanic_mean_s2": 0.1032,
+      "latinate_mean_s2": null,
+      "germanic_n": 11,
+      "latinate_n": 0,
+      "gap": null
+    },
+    "song_lyrics": {
+      "germanic_mean_s2": 0.1665,
+      "latinate_mean_s2": -0.0282,
+      "germanic_n": 76,
+      "latinate_n": 8,
+      "gap": 0.1947
+    },
+    "victorian": {
+      "germanic_mean_s2": -0.2681,
+      "latinate_mean_s2": 3.723,
+      "germanic_n": 338,
+      "latinate_n": 10,
+      "gap": -3.9911
+    },
+    "metaphysical": {
+      "germanic_mean_s2": -0.5858,
+      "latinate_mean_s2": 3.117,
+      "germanic_n": 99,
+      "latinate_n": 2,
+      "gap": -3.7028
+    },
+    "19th_century": {
+      "germanic_mean_s2": -0.0524,
+      "latinate_mean_s2": 0.9143,
+      "germanic_n": 151,
+      "latinate_n": 6,
+      "gap": -0.9668
+    },
+    "18th_century": {
+      "germanic_mean_s2": -1.5597,
+      "latinate_mean_s2": 3.7553,
+      "germanic_n": 45,
+      "latinate_n": 2,
+      "gap": -5.315
+    },
+    "oulipo": {
+      "germanic_mean_s2": -0.0455,
+      "latinate_mean_s2": null,
+      "germanic_n": 5,
+      "latinate_n": 0,
+      "gap": null
+    },
+    "contemporary": {
+      "germanic_mean_s2": -0.4539,
+      "latinate_mean_s2": 1.5735,
+      "germanic_n": 127,
+      "latinate_n": 3,
+      "gap": -2.0274
+    },
+    "prose_poetry": {
+      "germanic_mean_s2": -0.6831,
+      "latinate_mean_s2": -0.4347,
+      "germanic_n": 160,
+      "latinate_n": 5,
+      "gap": -0.2485
+    },
+    "harlem_renaissance": {
+      "germanic_mean_s2": -1.3403,
+      "latinate_mean_s2": 4.7012,
+      "germanic_n": 74,
+      "latinate_n": 3,
+      "gap": -6.0415
+    },
+    "ancient": {
+      "germanic_mean_s2": -0.3309,
+      "latinate_mean_s2": null,
+      "germanic_n": 11,
+      "latinate_n": 0,
+      "gap": null
+    },
+    "cliche_control": {
+      "germanic_mean_s2": -0.3203,
+      "latinate_mean_s2": -2.3555,
+      "germanic_n": 107,
+      "latinate_n": 1,
+      "gap": 2.0352
+    },
+    "new_york_school": {
+      "germanic_mean_s2": -1.7686,
+      "latinate_mean_s2": 4.5911,
+      "germanic_n": 203,
+      "latinate_n": 6,
+      "gap": -6.3596
+    },
+    "romantic": {
+      "germanic_mean_s2": -0.313,
+      "latinate_mean_s2": 0.2727,
+      "germanic_n": 322,
+      "latinate_n": 14,
+      "gap": -0.5857
+    },
+    "mid_century": {
+      "germanic_mean_s2": -0.4939,
+      "latinate_mean_s2": 1.1657,
+      "germanic_n": 43,
+      "latinate_n": 1,
+      "gap": -1.6596
+    },
+    "early_modern": {
+      "germanic_mean_s2": 1.0985,
+      "latinate_mean_s2": 5.5865,
+      "germanic_n": 83,
+      "latinate_n": 5,
+      "gap": -4.4881
+    },
+    "found_poetry": {
+      "germanic_mean_s2": -1.2274,
+      "latinate_mean_s2": -1.8573,
+      "germanic_n": 133,
+      "latinate_n": 9,
+      "gap": 0.6298
+    },
+    "ballad": {
+      "germanic_mean_s2": 3.0429,
+      "latinate_mean_s2": null,
+      "germanic_n": 94,
+      "latinate_n": 0,
+      "gap": null
+    },
+    "beat": {
+      "germanic_mean_s2": -2.6512,
+      "latinate_mean_s2": 1.8255,
+      "germanic_n": 25,
+      "latinate_n": 1,
+      "gap": -4.4767
+    },
+    "control": {
+      "germanic_mean_s2": -2.8194,
+      "latinate_mean_s2": null,
+      "germanic_n": 34,
+      "latinate_n": 0,
+      "gap": null
+    },
+    "modernist": {
+      "germanic_mean_s2": -0.0765,
+      "latinate_mean_s2": 2.3935,
+      "germanic_n": 242,
+      "latinate_n": 6,
+      "gap": -2.47
+    },
+    "surrealist": {
+      "germanic_mean_s2": -1.3089,
+      "latinate_mean_s2": -2.297,
+      "germanic_n": 6,
+      "latinate_n": 1,
+      "gap": 0.9881
+    },
+    "confessional": {
+      "germanic_mean_s2": -0.8308,
+      "latinate_mean_s2": null,
+      "germanic_n": 50,
+      "latinate_n": 0,
+      "gap": null
+    },
+    "spoken_word": {
+      "germanic_mean_s2": -0.8621,
+      "latinate_mean_s2": 7.5647,
+      "germanic_n": 28,
+      "latinate_n": 2,
+      "gap": -8.4268
+    },
+    "nursery_rhyme": {
+      "germanic_mean_s2": -2.1149,
+      "latinate_mean_s2": null,
+      "germanic_n": 35,
+      "latinate_n": 0,
+      "gap": null
+    },
+    "fixed_form": {
+      "germanic_mean_s2": 0.9522,
+      "latinate_mean_s2": 3.1594,
+      "germanic_n": 141,
+      "latinate_n": 4,
+      "gap": -2.2072
+    },
+    "language": {
+      "germanic_mean_s2": -1.7556,
+      "latinate_mean_s2": 35.4037,
+      "germanic_n": 21,
+      "latinate_n": 1,
+      "gap": -37.1593
+    }
+  },
+  "poet_comparison": {
+    "John Ashbery": {
+      "germanic_mean_s2": -2.0368,
+      "latinate_mean_s2": 4.5911,
+      "germanic_n": 184,
+      "latinate_n": 6,
+      "gap_g_minus_l": -6.6278
+    },
+    "William Blake": {
+      "germanic_mean_s2": -0.7646,
+      "latinate_mean_s2": 0.6525,
+      "germanic_n": 79,
+      "latinate_n": 8,
+      "gap_g_minus_l": -1.4171
+    }
+  },
+  "top_germanic_moments": [
+    {
+      "s2": 36.38,
+      "token": "Die",
+      "context": ". We\n",
+      "poem": "We Real Cool",
+      "author": "Gwendolyn Brooks"
+    },
+    {
+      "s2": 34.0,
+      "token": "Cold",
+      "context": " fires,\n",
+      "poem": "The Convergence of the Twain (excerpt)",
+      "author": "Thomas Hardy"
+    },
+    {
+      "s2": 32.18,
+      "token": "they",
+      "context": "give me\n",
+      "poem": "This Is Just to Say",
+      "author": "William Carlos Williams"
+    },
+    {
+      "s2": 31.92,
+      "token": "Our",
+      "context": " coomb\n",
+      "poem": "The Oxen",
+      "author": "Thomas Hardy"
+    },
+    {
+      "s2": 31.17,
+      "token": "water",
+      "context": " with rain\n",
+      "poem": "The Red Wheelbarrow",
+      "author": "William Carlos Williams"
+    },
+    {
+      "s2": 29.74,
+      "token": "With",
+      "context": " Lee\u2014\n",
+      "poem": "Annabel Lee (opening stanzas)",
+      "author": "Edgar Allan Poe"
+    },
+    {
+      "s2": 29.53,
+      "token": "Bird",
+      "context": " Spirit!\n",
+      "poem": "To a Skylark (opening stanzas)",
+      "author": "Percy Bysshe Shelley"
+    },
+    {
+      "s2": 27.32,
+      "token": "Love",
+      "context": " here:\n",
+      "poem": "Love (III)",
+      "author": "George Herbert"
+    },
+    {
+      "s2": 27.08,
+      "token": "Run",
+      "context": " Soldiers sigh\n",
+      "poem": "London",
+      "author": "William Blake"
+    },
+    {
+      "s2": 26.94,
+      "token": "They",
+      "context": "ill:\n",
+      "poem": "The House on the Hill",
+      "author": "Edwin Arlington Robinson"
+    }
+  ],
+  "top_latinate_moments": [
+    {
+      "s2": 35.4,
+      "token": "duty",
+      "context": " my patriotic\n",
+      "poem": "Islets/Irritations (excerpt)",
+      "author": "Bruce Andrews"
+    },
+    {
+      "s2": 27.58,
+      "token": "forest",
+      "context": "intry\n",
+      "poem": "Winter Forest (Shiki, translated)",
+      "author": "Masaoka Shiki"
+    },
+    {
+      "s2": 14.31,
+      "token": " ancient",
+      "context": "'ve known rivers",
+      "poem": "The Negro Speaks of Rivers",
+      "author": "Langston Hughes"
+    },
+    {
+      "s2": 14.25,
+      "token": " desolate",
+      "context": " dim meadows",
+      "poem": "Theocritus: A Villanelle (opening quatrains)",
+      "author": "Oscar Wilde"
+    },
+    {
+      "s2": 12.94,
+      "token": " solitude",
+      "context": " a",
+      "poem": "The Convergence of the Twain (excerpt)",
+      "author": "Thomas Hardy"
+    },
+    {
+      "s2": 10.76,
+      "token": " divine",
+      "context": " ask a drink",
+      "poem": "Song: To Celia",
+      "author": "Ben Jonson"
+    },
+    {
+      "s2": 10.52,
+      "token": " Palace",
+      "context": " in blood down",
+      "poem": "London",
+      "author": "William Blake"
+    },
+    {
+      "s2": 10.09,
+      "token": " achieve",
+      "context": " bird,\u2014the",
+      "poem": "The Windhover",
+      "author": "Gerard Manley Hopkins"
+    },
+    {
+      "s2": 10.01,
+      "token": " silence",
+      "context": "\nIs merely",
+      "poem": "The Painter",
+      "author": "John Ashbery"
+    },
+    {
+      "s2": 9.99,
+      "token": " celebrate",
+      "context": " hand; come",
+      "poem": "Won't You Celebrate With Me",
+      "author": "Lucille Clifton"
+    }
+  ]
+}
