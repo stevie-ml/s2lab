@@ -1,0 +1,265 @@
+{
+  "total_archaic": 71,
+  "avg_s2_archaic": -0.7722281690140842,
+  "avg_s2_modern_baseline": 1.3120827177612489,
+  "avg_surprisal_archaic": 6.0308140845070435,
+  "avg_entropy_archaic": 6.80303661971831,
+  "pos_s2_rate_archaic": 0.2676056338028169,
+  "pos_s2_rate_modern": 0.5114080423547208,
+  "by_category": {
+    "pronoun": {
+      "n": 54,
+      "avg_s2": -0.9858037037037038
+    },
+    "adverb_other": {
+      "n": 6,
+      "avg_s2": -0.5615166666666668
+    },
+    "other": {
+      "n": 2,
+      "avg_s2": -2.7279
+    },
+    "verb_conjugation": {
+      "n": 8,
+      "avg_s2": 0.887775
+    },
+    "elision": {
+      "n": 1,
+      "avg_s2": 0.1279
+    }
+  },
+  "by_era": {
+    "romantic": {
+      "n": 24,
+      "avg_s2_archaic": -0.31463749999999985,
+      "avg_s2_modern": 1.3668807134894074
+    },
+    "victorian": {
+      "n": 16,
+      "avg_s2_archaic": -0.8263062499999999,
+      "avg_s2_modern": 1.6027765886287606
+    },
+    "metaphysical": {
+      "n": 13,
+      "avg_s2_archaic": -2.4244461538461537,
+      "avg_s2_modern": 1.2912350427350423
+    },
+    "early_modern": {
+      "n": 4,
+      "avg_s2_archaic": -0.6385249999999999,
+      "avg_s2_modern": 1.5020317796610174
+    },
+    "fixed_form": {
+      "n": 3,
+      "avg_s2_archaic": -1.6021666666666665,
+      "avg_s2_modern": 1.0729343434343432
+    },
+    "modernist": {
+      "n": 3,
+      "avg_s2_archaic": -1.7776666666666665,
+      "avg_s2_modern": 1.7724928370786521
+    },
+    "found_poetry": {
+      "n": 3,
+      "avg_s2_archaic": 4.663366666666667,
+      "avg_s2_modern": 0.16291375545851527
+    },
+    "song_lyrics": {
+      "n": 2,
+      "avg_s2_archaic": 0.2968,
+      "avg_s2_modern": 0.5796309236947791
+    },
+    "ballad": {
+      "n": 2,
+      "avg_s2_archaic": -2.4156999999999997,
+      "avg_s2_modern": 1.572616619718309
+    },
+    "language": {
+      "n": 1,
+      "avg_s2_archaic": 0.4031,
+      "avg_s2_modern": 1.916309090909091
+    }
+  },
+  "top_substitutions": [
+    {
+      "archaic": "thou",
+      "gpt2_expected": "thou",
+      "n": 7,
+      "avg_s2": -3.0403142857142855
+    },
+    {
+      "archaic": "thy",
+      "gpt2_expected": "the",
+      "n": 6,
+      "avg_s2": -1.6494333333333335
+    },
+    {
+      "archaic": "thee",
+      "gpt2_expected": "the",
+      "n": 6,
+      "avg_s2": -0.6663166666666669
+    },
+    {
+      "archaic": "thou",
+      "gpt2_expected": ",",
+      "n": 5,
+      "avg_s2": -0.25664000000000003
+    },
+    {
+      "archaic": "thee",
+      "gpt2_expected": "thee",
+      "n": 3,
+      "avg_s2": -1.1955666666666669
+    },
+    {
+      "archaic": "thee",
+      "gpt2_expected": "you",
+      "n": 3,
+      "avg_s2": -0.12386666666666668
+    },
+    {
+      "archaic": "thou",
+      "gpt2_expected": "of",
+      "n": 3,
+      "avg_s2": 1.1363333333333332
+    },
+    {
+      "archaic": "hath",
+      "gpt2_expected": "is",
+      "n": 3,
+      "avg_s2": 0.31950000000000006
+    },
+    {
+      "archaic": "thou",
+      "gpt2_expected": "i",
+      "n": 2,
+      "avg_s2": -4.41755
+    },
+    {
+      "archaic": "thou",
+      "gpt2_expected": "who",
+      "n": 2,
+      "avg_s2": 9.0713
+    },
+    {
+      "archaic": "hath",
+      "gpt2_expected": "of",
+      "n": 2,
+      "avg_s2": 0.5953
+    },
+    {
+      "archaic": "thou",
+      "gpt2_expected": "is",
+      "n": 2,
+      "avg_s2": -3.6856
+    },
+    {
+      "archaic": "aught",
+      "gpt2_expected": "abin",
+      "n": 1,
+      "avg_s2": 0.4031
+    },
+    {
+      "archaic": "thy",
+      "gpt2_expected": "thy",
+      "n": 1,
+      "avg_s2": -4.2922
+    },
+    {
+      "archaic": "thee",
+      "gpt2_expected": "my",
+      "n": 1,
+      "avg_s2": -3.5221
+    },
+    {
+      "archaic": "thee",
+      "gpt2_expected": "thou",
+      "n": 1,
+      "avg_s2": -3.9208
+    },
+    {
+      "archaic": "ere",
+      "gpt2_expected": "akes",
+      "n": 1,
+      "avg_s2": -1.207
+    },
+    {
+      "archaic": "aught",
+      "gpt2_expected": "aught",
+      "n": 1,
+      "avg_s2": -4.0017
+    },
+    {
+      "archaic": "hence",
+      "gpt2_expected": "and",
+      "n": 1,
+      "avg_s2": -0.1243
+    },
+    {
+      "archaic": "thy",
+      "gpt2_expected": "more",
+      "n": 1,
+      "avg_s2": 4.8533
+    },
+    {
+      "archaic": "thee",
+      "gpt2_expected": ",",
+      "n": 1,
+      "avg_s2": -3.3465
+    },
+    {
+      "archaic": "mine",
+      "gpt2_expected": "the",
+      "n": 1,
+      "avg_s2": -4.6088
+    },
+    {
+      "archaic": "thou",
+      "gpt2_expected": "summer",
+      "n": 1,
+      "avg_s2": 1.6293
+    },
+    {
+      "archaic": "behold",
+      "gpt2_expected": ",",
+      "n": 1,
+      "avg_s2": -0.578
+    },
+    {
+      "archaic": "thou",
+      "gpt2_expected": "the",
+      "n": 1,
+      "avg_s2": -3.5689
+    },
+    {
+      "archaic": "thy",
+      "gpt2_expected": "thee",
+      "n": 1,
+      "avg_s2": -1.6647
+    },
+    {
+      "archaic": "thee",
+      "gpt2_expected": "it",
+      "n": 1,
+      "avg_s2": 1.2137
+    },
+    {
+      "archaic": "thou",
+      "gpt2_expected": "not",
+      "n": 1,
+      "avg_s2": -1.6568
+    },
+    {
+      "archaic": "thy",
+      "gpt2_expected": "a",
+      "n": 1,
+      "avg_s2": -2.8984
+    },
+    {
+      "archaic": "thou",
+      "gpt2_expected": "be",
+      "n": 1,
+      "avg_s2": -3.1805
+    }
+  ]
+}
