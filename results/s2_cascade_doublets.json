@@ -1,0 +1,419 @@
+{
+  "cascade_by_window": {
+    "2": {
+      "isolated_n": 1393,
+      "isolated_mean_s2": 6.009020172290014,
+      "second_n": 586,
+      "second_mean_s2": 6.293961262798634,
+      "delta_s2": 0.28494109050862004
+    },
+    "3": {
+      "isolated_n": 986,
+      "isolated_mean_s2": 6.015675456389454,
+      "second_n": 660,
+      "second_mean_s2": 6.056849242424243,
+      "delta_s2": 0.04117378603478894
+    },
+    "5": {
+      "isolated_n": 495,
+      "isolated_mean_s2": 6.115177171717169,
+      "second_n": 687,
+      "second_mean_s2": 6.0133684133915555,
+      "delta_s2": -0.10180875832561309
+    },
+    "10": {
+      "isolated_n": 126,
+      "isolated_mean_s2": 6.318196825396829,
+      "second_n": 466,
+      "second_mean_s2": 6.107386266094417,
+      "delta_s2": -0.21081055930241188
+    }
+  },
+  "s2_by_distance": {
+    "1": {
+      "n": 461,
+      "mean_s2": 6.286268546637745,
+      "mean_entropy": 6.209106507592198
+    },
+    "3": {
+      "n": 333,
+      "mean_s2": 5.8805354354354336,
+      "mean_entropy": 6.861541441441439
+    },
+    "4": {
+      "n": 270,
+      "mean_s2": 5.757262962962958,
+      "mean_entropy": 6.710284074074076
+    },
+    "2": {
+      "n": 396,
+      "mean_s2": 6.45656944444445,
+      "mean_entropy": 6.6783398989899
+    },
+    "7": {
+      "n": 129,
+      "mean_s2": 6.0905542635658945,
+      "mean_entropy": 6.583326356589146
+    },
+    "10": {
+      "n": 77,
+      "mean_s2": 6.006511688311686,
+      "mean_entropy": 6.648923376623375
+    },
+    "8": {
+      "n": 108,
+      "mean_s2": 6.1060898148148155,
+      "mean_entropy": 6.738274074074074
+    },
+    "6": {
+      "n": 163,
+      "mean_s2": 6.017351533742331,
+      "mean_entropy": 6.729169938650306
+    },
+    "5": {
+      "n": 194,
+      "mean_s2": 6.081228865979383,
+      "mean_entropy": 6.66326237113402
+    },
+    "9": {
+      "n": 113,
+      "mean_s2": 5.804028318584071,
+      "mean_entropy": 6.898395575221238
+    },
+    "14": {
+      "n": 41,
+      "mean_s2": 6.6553463414634155,
+      "mean_entropy": 6.1584
+    },
+    "13": {
+      "n": 38,
+      "mean_s2": 6.1454421052631565,
+      "mean_entropy": 6.861457894736842
+    },
+    "12": {
+      "n": 52,
+      "mean_s2": 6.052159615384614,
+      "mean_entropy": 6.51428846153846
+    },
+    "15": {
+      "n": 25,
+      "mean_s2": 6.022840000000001,
+      "mean_entropy": 6.925832000000001
+    },
+    "11": {
+      "n": 84,
+      "mean_s2": 6.476171428571428,
+      "mean_entropy": 6.21192261904762
+    }
+  },
+  "entropy_comparison": {
+    "isolated_mean_s2": 6.098294425675686,
+    "second_mean_s2": 6.134949818621519,
+    "isolated_mean_entropy": 6.741239189189185,
+    "second_mean_entropy": 6.587886094316807,
+    "isolated_n": 592,
+    "second_n": 1654
+  },
+  "top_doublet_examples": [
+    {
+      "author": "Thomas Jefferson (found text)",
+      "title": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)",
+      "pos1": 39,
+      "pos2": 41,
+      "dist": 2,
+      "tok1": "\n",
+      "tok2": "\n",
+      "s2_1": 14.9498,
+      "s2_2": 15.3943,
+      "s2_pair": 30.344099999999997,
+      "ctx1": " are Life,",
+      "expected1": " Liberty",
+      "expected2": ","
+    },
+    {
+      "author": "Gerard Manley Hopkins",
+      "title": "God's Grandeur",
+      "pos1": 16,
+      "pos2": 18,
+      "dist": 2,
+      "tok1": " shining",
+      "tok2": " shook",
+      "s2_1": 7.8492,
+      "s2_2": 22.0439,
+      "s2_pair": 29.8931,
+      "ctx1": "",
+      "expected1": " a",
+      "expected2": " the"
+    },
+    {
+      "author": "Gerard Manley Hopkins",
+      "title": "God's Grandeur",
+      "pos1": 18,
+      "pos2": 19,
+      "dist": 1,
+      "tok1": " shook",
+      "tok2": " foil",
+      "s2_1": 22.0439,
+      "s2_2": 7.661,
+      "s2_pair": 29.704900000000002,
+      "ctx1": " like shining from",
+      "expected1": " the",
+      "expected2": " hands"
+    },
+    {
+      "author": "Emily Dickinson",
+      "title": "I heard a Fly buzz \u2014 when I died",
+      "pos1": 108,
+      "pos2": 109,
+      "dist": 1,
+      "tok1": " stumbling",
+      "tok2": " Buzz",
+      "s2_1": 12.2557,
+      "s2_2": 15.2307,
+      "s2_pair": 27.4864,
+      "ctx1": " \u2014 uncertain \u2014",
+      "expected1": "\n",
+      "expected2": " \u2014"
+    },
+    {
+      "author": "Russell Edson",
+      "title": "The Fall",
+      "pos1": 78,
+      "pos2": 79,
+      "dist": 1,
+      "tok1": " indoors",
+      "tok2": " mixed",
+      "s2_1": 16.402,
+      "s2_2": 10.5629,
+      "s2_pair": 26.9649,
+      "ctx1": " the things of",
+      "expected1": " the",
+      "expected2": "."
+    },
+    {
+      "author": "Emily Dickinson",
+      "title": "I felt a Funeral, in my Brain",
+      "pos1": 2,
+      "pos2": 7,
+      "dist": 5,
+      "tok1": " Fun",
+      "tok2": " Brain",
+      "s2_1": 18.9026,
+      "s2_2": 7.9182,
+      "s2_pair": 26.8208,
+      "ctx1": " felt a",
+      "expected1": " little",
+      "expected2": " mind"
+    },
+    {
+      "author": "Elizabeth Bishop",
+      "title": "One Art",
+      "pos1": 43,
+      "pos2": 47,
+      "dist": 4,
+      "tok1": " keys",
+      "tok2": " badly",
+      "s2_1": 6.1774,
+      "s2_2": 20.5858,
+      "s2_pair": 26.763199999999998,
+      "ctx1": "of lost door",
+      "expected1": "ways",
+      "expected2": "glass"
+    },
+    {
+      "author": "Chiyo-ni",
+      "title": "Morning Glory (Chiyo-ni, translated)",
+      "pos1": 5,
+      "pos2": 7,
+      "dist": 2,
+      "tok1": "buck",
+      "tok2": " entangled",
+      "s2_1": 10.0486,
+      "s2_2": 16.6473,
+      "s2_pair": 26.6959,
+      "ctx1": "the well-",
+      "expected1": "known",
+      "expected2": "ed"
+    },
+    {
+      "author": "E.E. Cummings",
+      "title": "Buffalo Bill 's",
+      "pos1": 67,
+      "pos2": 70,
+      "dist": 3,
+      "tok1": " stall",
+      "tok2": "and",
+      "s2_1": 17.852,
+      "s2_2": 8.8278,
+      "s2_pair": 26.6798,
+      "ctx1": "   ",
+      "expected1": " ",
+      "expected2": "\n"
+    },
+    {
+      "author": "Alfred, Lord Tennyson",
+      "title": "The Lady of Shalott (Part I)",
+      "pos1": 140,
+      "pos2": 141,
+      "dist": 1,
+      "tok1": " imb",
+      "tok2": "owers",
+      "s2_1": 12.0518,
+      "s2_2": 14.1608,
+      "s2_pair": 26.212600000000002,
+      "ctx1": "",
+      "expected1": " of",
+      "expected2": "ued"
+    },
+    {
+      "author": "Claudia Rankine",
+      "title": "Citizen (excerpt)",
+      "pos1": 22,
+      "pos2": 23,
+      "dist": 1,
+      "tok1": " stacked",
+      "tok2": " among",
+      "s2_1": 18.1601,
+      "s2_2": 8.018,
+      "s2_pair": 26.1781,
+      "ctx1": " in a past",
+      "expected1": "ime",
+      "expected2": " with"
+    },
+    {
+      "author": "Claudia Rankine",
+      "title": "Citizen (excerpt, section I)",
+      "pos1": 22,
+      "pos2": 23,
+      "dist": 1,
+      "tok1": " stacked",
+      "tok2": " among",
+      "s2_1": 18.1601,
+      "s2_2": 8.018,
+      "s2_pair": 26.1781,
+      "ctx1": " in a past",
+      "expected1": "ime",
+      "expected2": " with"
+    },
+    {
+      "author": "Gerard Manley Hopkins",
+      "title": "God's Grandeur",
+      "pos1": 45,
+      "pos2": 46,
+      "dist": 1,
+      "tok1": " reck",
+      "tok2": " his",
+      "s2_1": 7.8905,
+      "s2_2": 18.2394,
+      "s2_pair": 26.1299,
+      "ctx1": "",
+      "expected1": " see",
+      "expected2": "lessly"
+    },
+    {
+      "author": "Christopher Smart",
+      "title": "For I Will Consider My Cat Jeoffry (excerpt)",
+      "pos1": 90,
+      "pos2": 92,
+      "dist": 2,
+      "tok1": " rolls",
+      "tok2": " prank",
+      "s2_1": 3.9523,
+      "s2_2": 22.0152,
+      "s2_pair": 25.9675,
+      "ctx1": "",
+      "expected1": " is",
+      "expected2": " the"
+    },
+    {
+      "author": "William Blake",
+      "title": "Proverbs of Hell (excerpt from Marriage of Heaven and Hell)",
+      "pos1": 47,
+      "pos2": 50,
+      "dist": 3,
+      "tok1": " cour",
+      "tok2": " Inc",
+      "s2_1": 13.885,
+      "s2_2": 11.4628,
+      "s2_pair": 25.3478,
+      "ctx1": " ugly old maid",
+      "expected1": ".",
+      "expected2": " the"
+    },
+    {
+      "author": "John Ashbery",
+      "title": "Wet Casements",
+      "pos1": 12,
+      "pos2": 13,
+      "dist": 1,
+      "tok1": " Building",
+      "tok2": " Babylon",
+      "s2_1": 10.438,
+      "s2_2": 14.9081,
+      "s2_pair": 25.3461,
+      "ctx1": "miramis",
+      "expected1": ",",
+      "expected2": " in"
+    },
+    {
+      "author": "Traditional (Scottish ballad)",
+      "title": "Sir Patrick Spens",
+      "pos1": 27,
+      "pos2": 28,
+      "dist": 1,
+      "tok1": " guid",
+      "tok2": " sailor",
+      "s2_1": 14.5811,
+      "s2_2": 10.6383,
+      "s2_pair": 25.2194,
+      "ctx1": "",
+      "expected1": ",",
+      "expected2": ","
+    },
+    {
+      "author": "Walt Whitman",
+      "title": "Song of Myself (section 1)",
+      "pos1": 46,
+      "pos2": 48,
+      "dist": 2,
+      "tok1": " observing",
+      "tok2": " spear",
+      "s2_1": 20.3969,
+      "s2_2": 4.7879,
+      "s2_pair": 25.1848,
+      "ctx1": " at my ease",
+      "expected1": ",",
+      "expected2": " man"
+    },
+    {
+      "author": "Traditional (Scottish ballad)",
+      "title": "Bonnie George Campbell",
+      "pos1": 9,
+      "pos2": 12,
+      "dist": 3,
+      "tok1": " Tay",
+      "tok2": "Bon",
+      "s2_1": 7.6225,
+      "s2_2": 17.4445,
+      "s2_pair": 25.067,
+      "ctx1": "",
+      "expected1": " H",
+      "expected2": "\n"
+    },
+    {
+      "author": "Gerard Manley Hopkins",
+      "title": "God's Grandeur",
+      "pos1": 46,
+      "pos2": 50,
+      "dist": 4,
+      "tok1": " his",
+      "tok2": "Gener",
+      "s2_1": 18.2394,
+      "s2_2": 6.5039,
+      "s2_pair": 24.743299999999998,
+      "ctx1": " now not reck",
+      "expected1": "lessly",
+      "expected2": "Why"
+    }
+  ]
+}
