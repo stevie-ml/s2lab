@@ -1,0 +1,562 @@
+{
+  "position_results": {
+    "initial": {
+      "n": 1878,
+      "avg_s2": 6.37506522896699,
+      "avg_alt_entropy": 1.0491074842261379,
+      "avg_top1_prob": 0.45810428105296686,
+      "avg_prob_gap": 0.4126965641525638,
+      "avg_coverage": 0.6250797145725815,
+      "chosen_in_top10_pct": 41.42705005324814,
+      "avg_token_entropy": 4.8760225772098,
+      "avg_chosen_rank": 3.5102827763496145,
+      "n_in_top10": 778
+    },
+    "medial": {
+      "n": 13324,
+      "avg_s2": -0.2651471780246179,
+      "avg_alt_entropy": 1.5264342694832296,
+      "avg_top1_prob": 0.28044215893591395,
+      "avg_prob_gap": 0.19852322878490453,
+      "avg_coverage": 0.5418212399500706,
+      "chosen_in_top10_pct": 56.694686280396276,
+      "avg_token_entropy": 6.471945782047477,
+      "avg_chosen_rank": 2.6347630394492985,
+      "n_in_top10": 7554
+    },
+    "final": {
+      "n": 3740,
+      "avg_s2": -1.2025366844919774,
+      "avg_alt_entropy": 1.5515121517411696,
+      "avg_top1_prob": 0.4239419930791333,
+      "avg_prob_gap": 0.31949233178676906,
+      "avg_coverage": 0.7110590457605792,
+      "chosen_in_top10_pct": 82.56684491978609,
+      "avg_token_entropy": 4.716917139037424,
+      "avg_chosen_rank": 2.0531088082901556,
+      "n_in_top10": 3088
+    }
+  },
+  "era_breakdown": {
+    "romantic": {
+      "initial": {
+        "chosen_in_top10_pct": 37.0,
+        "avg_s2": 6.009875999999999,
+        "avg_alt_entropy": 1.1418454447150657,
+        "n": 200
+      },
+      "medial": {
+        "chosen_in_top10_pct": 49.83299933199733,
+        "avg_s2": -0.24792605210420854,
+        "avg_alt_entropy": 1.42916314696844,
+        "n": 1497
+      },
+      "final": {
+        "chosen_in_top10_pct": 87.0,
+        "avg_s2": -1.4828675000000007,
+        "avg_alt_entropy": 1.4082482802623886,
+        "n": 400
+      }
+    },
+    "19th_century": {
+      "initial": {
+        "chosen_in_top10_pct": 35.65891472868217,
+        "avg_s2": 9.512356589147283,
+        "avg_alt_entropy": 0.9166115700168405,
+        "n": 129
+      },
+      "medial": {
+        "chosen_in_top10_pct": 55.30035335689046,
+        "avg_s2": -0.21161060070671395,
+        "avg_alt_entropy": 1.5646671618920265,
+        "n": 1132
+      },
+      "final": {
+        "chosen_in_top10_pct": 86.6412213740458,
+        "avg_s2": -1.6909129770992364,
+        "avg_alt_entropy": 1.6152072993371283,
+        "n": 262
+      }
+    },
+    "modernist": {
+      "initial": {
+        "chosen_in_top10_pct": 39.66480446927374,
+        "avg_s2": 6.341159776536312,
+        "avg_alt_entropy": 0.996025560844794,
+        "n": 179
+      },
+      "medial": {
+        "chosen_in_top10_pct": 57.86666666666667,
+        "avg_s2": -0.34531048888888927,
+        "avg_alt_entropy": 1.4000796934753996,
+        "n": 1125
+      },
+      "final": {
+        "chosen_in_top10_pct": 77.33711048158641,
+        "avg_s2": -1.3731019830028333,
+        "avg_alt_entropy": 1.570046991386252,
+        "n": 353
+      }
+    },
+    "beat": {
+      "initial": {
+        "chosen_in_top10_pct": 0.0,
+        "avg_s2": 8.649783333333334,
+        "avg_alt_entropy": 0.8794221079281681,
+        "n": 6
+      },
+      "medial": {
+        "chosen_in_top10_pct": 53.73134328358209,
+        "avg_s2": 0.761734328358209,
+        "avg_alt_entropy": 1.6721941073917441,
+        "n": 134
+      },
+      "final": {
+        "chosen_in_top10_pct": 80.0,
+        "avg_s2": -1.54562,
+        "avg_alt_entropy": 1.7772297208966428,
+        "n": 10
+      }
+    },
+    "confessional": {
+      "initial": {
+        "chosen_in_top10_pct": 38.297872340425535,
+        "avg_s2": 6.860923404255318,
+        "avg_alt_entropy": 0.942022914295448,
+        "n": 47
+      },
+      "medial": {
+        "chosen_in_top10_pct": 52.02952029520295,
+        "avg_s2": -0.0240583025830259,
+        "avg_alt_entropy": 1.6158139412250467,
+        "n": 271
+      },
+      "final": {
+        "chosen_in_top10_pct": 69.89247311827957,
+        "avg_s2": -0.8865483870967737,
+        "avg_alt_entropy": 1.6867730710284718,
+        "n": 93
+      }
+    },
+    "mid_century": {
+      "initial": {
+        "chosen_in_top10_pct": 35.714285714285715,
+        "avg_s2": 7.368467857142854,
+        "avg_alt_entropy": 1.0921001045872447,
+        "n": 28
+      },
+      "medial": {
+        "chosen_in_top10_pct": 55.23255813953488,
+        "avg_s2": -0.3364726744186047,
+        "avg_alt_entropy": 1.5824329781484696,
+        "n": 172
+      },
+      "final": {
+        "chosen_in_top10_pct": 82.45614035087719,
+        "avg_s2": -1.5916929824561405,
+        "avg_alt_entropy": 1.4630346543463146,
+        "n": 57
+      }
+    },
+    "new_york_school": {
+      "initial": {
+        "chosen_in_top10_pct": 41.13475177304964,
+        "avg_s2": 3.5796404255319136,
+        "avg_alt_entropy": 1.1694357903880435,
+        "n": 141
+      },
+      "medial": {
+        "chosen_in_top10_pct": 60.456273764258555,
+        "avg_s2": -0.4827451520912546,
+        "avg_alt_entropy": 1.6855117778456807,
+        "n": 1052
+      },
+      "final": {
+        "chosen_in_top10_pct": 72.01492537313433,
+        "avg_s2": -0.8022108208955226,
+        "avg_alt_entropy": 1.775516721791446,
+        "n": 268
+      }
+    },
+    "language": {
+      "initial": {
+        "chosen_in_top10_pct": 31.25,
+        "avg_s2": 5.5917312500000005,
+        "avg_alt_entropy": 1.0077135615910764,
+        "n": 16
+      },
+      "medial": {
+        "chosen_in_top10_pct": 54.90196078431372,
+        "avg_s2": -0.3366686274509802,
+        "avg_alt_entropy": 1.6420149201621028,
+        "n": 102
+      },
+      "final": {
+        "chosen_in_top10_pct": 72.41379310344827,
+        "avg_s2": -0.7938620689655176,
+        "avg_alt_entropy": 1.781636693089727,
+        "n": 29
+      }
+    },
+    "contemporary": {
+      "initial": {
+        "chosen_in_top10_pct": 58.333333333333336,
+        "avg_s2": 3.8620535714285698,
+        "avg_alt_entropy": 1.1138774603832529,
+        "n": 84
+      },
+      "medial": {
+        "chosen_in_top10_pct": 59.831932773109244,
+        "avg_s2": -0.17334369747899162,
+        "avg_alt_entropy": 1.5785263372325495,
+        "n": 595
+      },
+      "final": {
+        "chosen_in_top10_pct": 79.01234567901234,
+        "avg_s2": -0.9028691358024686,
+        "avg_alt_entropy": 1.6738552399710975,
+        "n": 162
+      }
+    },
+    "harlem_renaissance": {
+      "initial": {
+        "chosen_in_top10_pct": 41.666666666666664,
+        "avg_s2": 7.608645,
+        "avg_alt_entropy": 1.0253461935885881,
+        "n": 60
+      },
+      "medial": {
+        "chosen_in_top10_pct": 50.24875621890547,
+        "avg_s2": -0.1642574626865671,
+        "avg_alt_entropy": 1.4876332407016841,
+        "n": 402
+      },
+      "final": {
+        "chosen_in_top10_pct": 83.73983739837398,
+        "avg_s2": -1.0838747967479674,
+        "avg_alt_entropy": 1.4660394098766412,
+        "n": 123
+      }
+    },
+    "oulipo": {
+      "initial": {
+        "chosen_in_top10_pct": 33.333333333333336,
+        "avg_s2": 2.827133333333333,
+        "avg_alt_entropy": 0.6820579580017014,
+        "n": 6
+      },
+      "medial": {
+        "chosen_in_top10_pct": 55.88235294117647,
+        "avg_s2": -0.10904999999999995,
+        "avg_alt_entropy": 1.4733406671530083,
+        "n": 34
+      },
+      "final": {
+        "chosen_in_top10_pct": 81.81818181818181,
+        "avg_s2": -1.7680090909090909,
+        "avg_alt_entropy": 1.6051524474813013,
+        "n": 11
+      }
+    },
+    "surrealist": {
+      "initial": {
+        "chosen_in_top10_pct": 60.0,
+        "avg_s2": 1.5681400000000005,
+        "avg_alt_entropy": 1.166355220074606,
+        "n": 5
+      },
+      "medial": {
+        "chosen_in_top10_pct": 56.81818181818182,
+        "avg_s2": -0.38220227272727264,
+        "avg_alt_entropy": 1.24098851766872,
+        "n": 44
+      },
+      "final": {
+        "chosen_in_top10_pct": 55.55555555555556,
+        "avg_s2": -1.1137666666666668,
+        "avg_alt_entropy": 1.4716200120215737,
+        "n": 9
+      }
+    },
+    "deep_image": {
+      "initial": {
+        "chosen_in_top10_pct": 66.66666666666667,
+        "avg_s2": 0.15056666666666688,
+        "avg_alt_entropy": 1.2665181886327797,
+        "n": 6
+      },
+      "medial": {
+        "chosen_in_top10_pct": 42.22222222222222,
+        "avg_s2": 0.7504399999999999,
+        "avg_alt_entropy": 1.666305896350404,
+        "n": 45
+      },
+      "final": {
+        "chosen_in_top10_pct": 81.81818181818181,
+        "avg_s2": -1.7398636363636368,
+        "avg_alt_entropy": 1.9670166255897086,
+        "n": 11
+      }
+    },
+    "victorian": {
+      "initial": {
+        "chosen_in_top10_pct": 39.325842696629216,
+        "avg_s2": 7.2136546816479425,
+        "avg_alt_entropy": 1.0668801040916123,
+        "n": 267
+      },
+      "medial": {
+        "chosen_in_top10_pct": 52.118039029033795,
+        "avg_s2": -0.1469057591623037,
+        "avg_alt_entropy": 1.523971967039615,
+        "n": 2101
+      },
+      "final": {
+        "chosen_in_top10_pct": 82.00371057513915,
+        "avg_s2": -1.0600473098330245,
+        "avg_alt_entropy": 1.5568787076673227,
+        "n": 539
+      }
+    },
+    "haiku": {
+      "initial": {
+        "chosen_in_top10_pct": 22.22222222222222,
+        "avg_s2": 11.610175925925924,
+        "avg_alt_entropy": 0.5817907365087722,
+        "n": 54
+      },
+      "medial": {
+        "chosen_in_top10_pct": 50.0,
+        "avg_s2": 0.2694703488372093,
+        "avg_alt_entropy": 1.477671463516656,
+        "n": 172
+      },
+      "final": {
+        "chosen_in_top10_pct": 67.34693877551021,
+        "avg_s2": -1.2021540816326537,
+        "avg_alt_entropy": 1.768260743536958,
+        "n": 98
+      }
+    },
+    "ancient": {
+      "initial": {
+        "chosen_in_top10_pct": 50.0,
+        "avg_s2": 7.038874999999999,
+        "avg_alt_entropy": 0.9717795904799362,
+        "n": 8
+      },
+      "medial": {
+        "chosen_in_top10_pct": 62.31884057971015,
+        "avg_s2": -0.34967101449275356,
+        "avg_alt_entropy": 1.7731689413276022,
+        "n": 69
+      },
+      "final": {
+        "chosen_in_top10_pct": 73.33333333333333,
+        "avg_s2": -1.0101133333333334,
+        "avg_alt_entropy": 1.962036290267473,
+        "n": 15
+      }
+    },
+    "prose_poetry": {
+      "initial": {
+        "chosen_in_top10_pct": 54.11764705882353,
+        "avg_s2": 4.296816470588234,
+        "avg_alt_entropy": 1.1416886505821953,
+        "n": 85
+      },
+      "medial": {
+        "chosen_in_top10_pct": 64.83825597749649,
+        "avg_s2": -0.34166258790436,
+        "avg_alt_entropy": 1.80322316653239,
+        "n": 711
+      },
+      "final": {
+        "chosen_in_top10_pct": 85.38011695906432,
+        "avg_s2": -1.4757269005847962,
+        "avg_alt_entropy": 1.4721235023872066,
+        "n": 171
+      }
+    },
+    "ballad": {
+      "initial": {
+        "chosen_in_top10_pct": 43.75,
+        "avg_s2": 11.548823958333337,
+        "avg_alt_entropy": 0.6587266016533649,
+        "n": 96
+      },
+      "medial": {
+        "chosen_in_top10_pct": 59.44444444444444,
+        "avg_s2": -0.21097249999999995,
+        "avg_alt_entropy": 1.3162737643309481,
+        "n": 720
+      },
+      "final": {
+        "chosen_in_top10_pct": 90.5940594059406,
+        "avg_s2": -1.0473519801980196,
+        "avg_alt_entropy": 1.225834546255614,
+        "n": 202
+      }
+    },
+    "song_lyrics": {
+      "initial": {
+        "chosen_in_top10_pct": 57.4468085106383,
+        "avg_s2": 7.8853531914893615,
+        "avg_alt_entropy": 0.9027554648582101,
+        "n": 47
+      },
+      "medial": {
+        "chosen_in_top10_pct": 72.64367816091954,
+        "avg_s2": -0.48377356321839093,
+        "avg_alt_entropy": 1.2467339835182891,
+        "n": 435
+      },
+      "final": {
+        "chosen_in_top10_pct": 95.04950495049505,
+        "avg_s2": -1.5392386138613867,
+        "avg_alt_entropy": 1.1651822905786935,
+        "n": 101
+      }
+    },
+    "nursery_rhyme": {
+      "initial": {
+        "chosen_in_top10_pct": 22.22222222222222,
+        "avg_s2": 12.916516666666668,
+        "avg_alt_entropy": 0.6813124202186462,
+        "n": 18
+      },
+      "medial": {
+        "chosen_in_top10_pct": 64.51612903225806,
+        "avg_s2": -0.8996080645161291,
+        "avg_alt_entropy": 1.649307550261982,
+        "n": 186
+      },
+      "final": {
+        "chosen_in_top10_pct": 92.3076923076923,
+        "avg_s2": -1.0224384615384614,
+        "avg_alt_entropy": 1.3589126832590563,
+        "n": 39
+      }
+    },
+    "metaphysical": {
+      "initial": {
+        "chosen_in_top10_pct": 35.294117647058826,
+        "avg_s2": 4.217503921568628,
+        "avg_alt_entropy": 1.2242880091264563,
+        "n": 51
+      },
+      "medial": {
+        "chosen_in_top10_pct": 50.62972292191436,
+        "avg_s2": -0.45515617128463476,
+        "avg_alt_entropy": 1.6029357254242205,
+        "n": 397
+      },
+      "final": {
+        "chosen_in_top10_pct": 86.0,
+        "avg_s2": -1.485614,
+        "avg_alt_entropy": 1.6922230749293508,
+        "n": 100
+      }
+    },
+    "early_modern": {
+      "initial": {
+        "chosen_in_top10_pct": 35.294117647058826,
+        "avg_s2": 5.133121568627452,
+        "avg_alt_entropy": 1.2406139092373896,
+        "n": 51
+      },
+      "medial": {
+        "chosen_in_top10_pct": 42.71356783919598,
+        "avg_s2": 0.048391457286432085,
+        "avg_alt_entropy": 1.6254461213883638,
+        "n": 398
+      },
+      "final": {
+        "chosen_in_top10_pct": 86.0,
+        "avg_s2": -1.3144670000000003,
+        "avg_alt_entropy": 1.5505029889693958,
+        "n": 100
+      }
+    },
+    "spoken_word": {
+      "initial": {
+        "chosen_in_top10_pct": 44.827586206896555,
+        "avg_s2": 0.6312724137931035,
+        "avg_alt_entropy": 1.348229448158041,
+        "n": 29
+      },
+      "medial": {
+        "chosen_in_top10_pct": 59.09090909090909,
+        "avg_s2": -0.3201272727272727,
+        "avg_alt_entropy": 1.6387970029053718,
+        "n": 110
+      },
+      "final": {
+        "chosen_in_top10_pct": 78.57142857142857,
+        "avg_s2": -1.2927857142857142,
+        "avg_alt_entropy": 1.8138475078999818,
+        "n": 56
+      }
+    },
+    "found_poetry": {
+      "initial": {
+        "chosen_in_top10_pct": 51.724137931034484,
+        "avg_s2": 1.5851875862068971,
+        "avg_alt_entropy": 1.4458667697553313,
+        "n": 145
+      },
+      "medial": {
+        "chosen_in_top10_pct": 75.13711151736746,
+        "avg_s2": -0.5112508226691042,
+        "avg_alt_entropy": 1.5488827918309784,
+        "n": 547
+      },
+      "final": {
+        "chosen_in_top10_pct": 87.98586572438163,
+        "avg_s2": -0.9044268551236749,
+        "avg_alt_entropy": 1.721825131380443,
+        "n": 283
+      }
+    },
+    "fixed_form": {
+      "initial": {
+        "chosen_in_top10_pct": 29.591836734693878,
+        "avg_s2": 10.65851020408163,
+        "avg_alt_entropy": 0.7701383438775815,
+        "n": 98
+      },
+      "medial": {
+        "chosen_in_top10_pct": 58.8235294117647,
+        "avg_s2": -0.5207114467408588,
+        "avg_alt_entropy": 1.4312397006496214,
+        "n": 629
+      },
+      "final": {
+        "chosen_in_top10_pct": 80.97560975609755,
+        "avg_s2": -0.84308,
+        "avg_alt_entropy": 1.4106988623657284,
+        "n": 205
+      }
+    },
+    "18th_century": {
+      "initial": {
+        "chosen_in_top10_pct": 90.9090909090909,
+        "avg_s2": -1.3266045454545454,
+        "avg_alt_entropy": 1.0279125617547196,
+        "n": 22
+      },
+      "medial": {
+        "chosen_in_top10_pct": 59.01639344262295,
+        "avg_s2": -0.04250983606557374,
+        "avg_alt_entropy": 1.6082526856585586,
+        "n": 244
+      },
+      "final": {
+        "chosen_in_top10_pct": 95.34883720930233,
+        "avg_s2": -1.7909000000000002,
+        "avg_alt_entropy": 1.3523259411282755,
+        "n": 43
+      }
+    }
+  }
+}
