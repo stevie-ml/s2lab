@@ -1254,7 +1254,22 @@ What the hand, dare seize the fire?
 And what shoulder, & what art,
 Could twist the sinews of thy heart?
 And when thy heart began to beat,
-What dread hand? & what dread feet?"""
+What dread hand? & what dread feet?
+
+What the hammer? what the chain,
+In what furnace was thy brain?
+What the anvil? what dread grasp,
+Dare its deadly terrors clasp!
+
+When the stars threw down their spears
+And water'd heaven with their tears:
+Did he smile his work to see?
+Did he who made the Lamb make thee?
+
+Tyger Tyger burning bright,
+In the forests of the night:
+What immortal hand or eye,
+Dare frame thy fearful symmetry?"""
     },
 
     # Edgar Allan Poe — "The Raven" (opening, 1845, PD)
@@ -1277,7 +1292,49 @@ And each separate dying ember wrought its ghost upon the floor;
 Eagerly I wished the morrow;—vainly I had sought to borrow
 From my books surcease of sorrow—sorrow for the lost Lenore—
 For the rare and radiant maiden whom the angels name Lenore—
-Nameless here for evermore."""
+Nameless here for evermore.
+
+And the silken, sad, uncertain rustling of each purple curtain
+Thrilled me—filled me with fantastic terrors never felt before;
+So that now, to still the beating of my heart, I stood repeating
+"'Tis some visitor entreating entrance at my chamber door—
+Some late visitor entreating entrance at my chamber door;—
+This it is and nothing more."
+
+Presently my soul grew stronger; hesitating then no longer,
+"Sir," said I, "or Madam, truly your forgiveness I implore;
+But the fact is I was napping, and so gently you came rapping,
+And so faintly you came tapping, tapping at my chamber door,
+That I scarce was sure I heard you"—here I opened wide the door;—
+Darkness there and nothing more.
+
+Deep into that darkness peering, long I stood there wondering, fearing,
+Doubting, dreaming dreams no mortal ever dared to dream before;
+But the silence was unbroken, and the stillness gave no token,
+And the only word there spoken was the whispered word, "Lenore?"
+This I whispered, and an echo murmured back the word, "Lenore!"—
+Merely this and nothing more.
+
+Back into the chamber turning, all my soul within me burning,
+Soon again I heard a tapping somewhat louder than before.
+"Surely," said I, "surely that is something at my window lattice;
+Let me see, then, what thereat is, and this mystery explore—
+Let my heart be still a moment and this mystery explore;—
+'Tis the wind and nothing more!"
+
+Open here I flung the shutter, when, with many a flirt and flutter,
+In there stepped a stately Raven of the saintly days of yore;
+Not the least obeisance made he; not a minute stopped or stayed he;
+But, with mien of lord or lady, perched above my chamber door—
+Perched upon a bust of Pallas just above my chamber door—
+Perched, and sat, and nothing more.
+
+Then this ebony bird beguiling my sad fancy into smiling,
+By the grave and stern decorum of the countenance it wore,
+"Though thy crest be shorn and shaven, thou," I said, "art sure no craven,
+Ghastly grim and ancient Raven wandering from the Nightly shore—
+Tell me what thy lordly name is on the Night's Plutonian shore!"
+Quoth the Raven "Nevermore.\""""
     },
 
     # Christina Rossetti — "Remember" (1849, PD)
@@ -3313,6 +3370,135 @@ What do it matter where or 'ow we die,
 So long as we've our 'ealth to watch it all —
 The different ways that different things are done,
 An' men an' women lovin' in this world."""
+    },
+
+    # ── Varied refrains (refrain-betrayal test set, all PD) ─────────────────
+    # Each poem returns to an established line and then departs from it
+    # partway through, testing whether a broken in-context copy yields S₂.
+    {
+        "title": "Tears, Idle Tears",
+        "author": "Alfred, Lord Tennyson",
+        "year": 1847,
+        "era": "victorian",
+        "text": """Tears, idle tears, I know not what they mean,
+Tears from the depth of some divine despair
+Rise in the heart, and gather to the eyes,
+In looking on the happy autumn-fields,
+And thinking of the days that are no more.
+
+Fresh as the first beam glittering on a sail,
+That brings our friends up from the underworld,
+Sad as the last which reddens over one
+That sinks with all we love below the verge;
+So sad, so fresh, the days that are no more.
+
+Ah, sad and strange as in dark summer dawns
+The earliest pipe of half-awaken'd birds
+To dying ears, when unto dying eyes
+The casement slowly grows a glimmering square;
+So sad, so strange, the days that are no more.
+
+Dear as remember'd kisses after death,
+And sweet as those by hopeless fancy feign'd
+On lips that are for others; deep as love,
+Deep as first love, and wild with all regret;
+O Death in Life, the days that are no more!"""
+    },
+    {
+        "title": "Break, Break, Break",
+        "author": "Alfred, Lord Tennyson",
+        "year": 1842,
+        "era": "victorian",
+        "text": """Break, break, break,
+On thy cold gray stones, O Sea!
+And I would that my tongue could utter
+The thoughts that arise in me.
+
+O, well for the fisherman's boy,
+That he shouts with his sister at play!
+O, well for the sailor lad,
+That he sings in his boat on the bay!
+
+And the stately ships go on
+To their haven under the hill;
+But O for the touch of a vanish'd hand,
+And the sound of a voice that is still!
+
+Break, break, break,
+At the foot of thy crags, O Sea!
+But the tender grace of a day that is dead
+Will never come back to me."""
+    },
+    {
+        "title": "The Lady of Shalott (Part I)",
+        "author": "Alfred, Lord Tennyson",
+        "year": 1842,
+        "era": "victorian",
+        "text": """On either side the river lie
+Long fields of barley and of rye,
+That clothe the wold and meet the sky;
+And thro' the field the road runs by
+To many-tower'd Camelot;
+And up and down the people go,
+Gazing where the lilies blow
+Round an island there below,
+The island of Shalott.
+
+Willows whiten, aspens quiver,
+Little breezes dusk and shiver
+Thro' the wave that runs for ever
+By the island in the river
+Flowing down to Camelot.
+Four gray walls, and four gray towers,
+Overlook a space of flowers,
+And the silent isle imbowers
+The Lady of Shalott.
+
+By the margin, willow veil'd,
+Slide the heavy barges trail'd
+By slow horses; and unhail'd
+The shallop flitteth silken-sail'd
+Skimming down to Camelot:
+But who hath seen her wave her hand?
+Or at the casement seen her stand?
+Or is she known in all the land,
+The Lady of Shalott?
+
+Only reapers, reaping early
+In among the bearded barley,
+Hear a song that echoes cheerly
+From the river winding clearly,
+Down to tower'd Camelot:
+And by the moon the reaper weary,
+Piling sheaves in uplands airy,
+Listening, whispers "'Tis the fairy
+Lady of Shalott.\""""
+    },
+    {
+        "title": "Recessional (stanzas 1-3)",
+        "author": "Rudyard Kipling",
+        "year": 1897,
+        "era": "victorian",
+        "text": """God of our fathers, known of old,
+Lord of our far-flung battle-line,
+Beneath whose awful Hand we hold
+Dominion over palm and pine—
+Lord God of Hosts, be with us yet,
+Lest we forget—lest we forget!
+
+The tumult and the shouting dies;
+The Captains and the Kings depart:
+Still stands Thine ancient sacrifice,
+An humble and a contrite heart.
+Lord God of Hosts, be with us yet,
+Lest we forget—lest we forget!
+
+Far-called, our navies melt away;
+On dune and headland sinks the fire:
+Lo, all our pomp of yesterday
+Is one with Nineveh and Tyre!
+Judge of the Nations, spare us yet,
+Lest we forget—lest we forget!"""
     },
 
     # ── Cliché controls (synthetic research test cases) ───────────────────────
