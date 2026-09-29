@@ -3651,6 +3651,154 @@ If the fool would persist in his folly he would become wise.
 Folly is the cloak of knavery.
 Shame is Pride's cloak."""
     },
+
+    # ── New poems testing counter-lexicon hypothesis (added 2026-09-29) ────────
+    # These poems were added to test whether poems using conventional "poetic"
+    # vocabulary (the suppressed counter-lexicon: world, great, light, air, earth)
+    # have lower S2 than poems with specific/unexpected vocabulary.
+
+    # --- Sentimental popular Victorian verse: rich in expected "poetic" diction ---
+    {
+        "title": "Casabianca",
+        "author": "Felicia Hemans",
+        "year": 1826,
+        "era": "victorian",
+        "text": """The boy stood on the burning deck
+Whence all but he had fled;
+The flame that lit the battle's wreck
+Shone round him o'er the dead.
+
+Yet beautiful and bright he stood,
+As born to rule the storm;
+A creature of heroic blood,
+A proud, though child-like form.
+
+The flames rolled on — he would not go
+Without his father's word;
+That father, faint in death below,
+His voice no longer heard.
+
+He called aloud — 'Say, father, say
+If yet my task is done?'
+He knew not that the chieftain lay
+Unconscious of his son.
+
+'Speak, father!' once again he cried,
+'If I may yet be gone!'
+— And but the booming shots replied,
+And fast the flames rolled on.
+
+Upon his brow he felt their breath,
+And in his waving hair,
+And looked from that lone post of death
+In still yet brave despair."""
+    },
+
+    {
+        "title": "Invictus",
+        "author": "William Ernest Henley",
+        "year": 1888,
+        "era": "victorian",
+        "text": """Out of the night that covers me,
+Black as the pit from pole to pole,
+I thank whatever gods may be
+For my unconquerable soul.
+
+In the fell clutch of circumstance
+I have not winced nor cried aloud.
+Under the bludgeonings of chance
+My head is bloody, but unbowed.
+
+Beyond this place of wrath and tears
+Looms but the Horror of the shade,
+And yet the menace of the years
+Finds, and shall find me, unafraid.
+
+It matters not how strait the gate,
+How charged with punishments the scroll,
+I am the master of my fate:
+I am the captain of my soul."""
+    },
+
+    # --- Hopkins' Pied Beauty: dense compound adjectives, unexpected vocabulary ---
+    {
+        "title": "Pied Beauty",
+        "author": "Gerard Manley Hopkins",
+        "year": 1877,
+        "era": "victorian",
+        "text": """Glory be to God for dappled things —
+  For skies of couple-colour as a brinded cow;
+    For rose-moles all in stipple upon trout that swim;
+Fresh-firecoal chestnut-falls; finches' wings;
+  Landscape plotted and pieced — fold, fallow, and plough;
+    And áll trádes, their gear and tackle and trim.
+
+All things counter, original, spare, strange;
+  Whatever is fickle, freckled (who knows how?)
+    With swift, slow; sweet, sour; adazzle, dim;
+He fathers-forth whose beauty is past change:
+                                Praise him."""
+    },
+
+    # --- Sandburg's Fog and Grass: imagist precision vs. catalog of the earth ---
+    {
+        "title": "Fog",
+        "author": "Carl Sandburg",
+        "year": 1916,
+        "era": "modernist",
+        "text": """The fog comes
+on little cat feet.
+
+It sits looking
+over harbor and city
+on silent haunches
+and then moves on."""
+    },
+
+    {
+        "title": "Grass",
+        "author": "Carl Sandburg",
+        "year": 1918,
+        "era": "modernist",
+        "text": """Pile the bodies high at Austerlitz and Waterloo.
+Shovel them under and let me work —
+I am the grass; I cover all.
+
+And pile them high at Gettysburg
+And pile them high at Ypres and Verdun.
+Shovel them under and let me work.
+Two years, ten years, and passengers ask the conductor:
+What place is this?
+Where are we now?
+
+I am the grass.
+Let me work."""
+    },
+
+    # --- Hart Crane's dense, difficult modernist diction ---
+    {
+        "title": "The Harbor Dawn (from The Bridge)",
+        "author": "Hart Crane",
+        "year": 1930,
+        "era": "modernist",
+        "text": """Insistently through sleep — a tide of voices —
+They meet you listening midway in your dream,
+The long, tired sounds, fog-insulated noises:
+Gongs in white surplices, beshrouded wails,
+Far strum of fog horns . . . signals dispersed in veils.
+
+And then a truck will lumber past the wharves
+As winch engines begin throbbing on some deck;
+Or a drunken stevedore's howl and thud below
+Comes echoing aloft. And overheard
+Above the cloudy strands that wild clangs pass —
+The cables of our sleep so swiftly fled,
+Already hang, shred ends from remembered stars.
+
+One inconnu girl by the windy pier,
+Who asks no virgin-white surrender now —
+Not even to ask the day's refrain: Where are you?"""
+    },
 ]
 
 # Quick stats
