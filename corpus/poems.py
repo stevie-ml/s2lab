@@ -3799,6 +3799,152 @@ One inconnu girl by the windy pier,
 Who asks no virgin-white surrender now —
 Not even to ask the day's refrain: Where are you?"""
     },
+
+    # ─── BIBLICAL / LITURGICAL ─────────────────────────────────────────────────
+    # Hebrew parallelism: each verse is matched by a parallel second verse
+    # restating (synonymic), contrasting (antithetic), or extending (synthetic)
+    # the first. Tests how GPT-2 handles structured repetition of meaning in
+    # different words.
+    {
+        "title": "Psalm 23 (KJV)",
+        "author": "Anonymous (Hebrew Bible)",
+        "year": -1000,
+        "era": "biblical",
+        "text": """The LORD is my shepherd; I shall not want.
+He maketh me to lie down in green pastures: he leadeth me beside the still waters.
+He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake.
+Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.
+Thou preparest a table before me in the presence of mine enemies: thou anointest my head with oil; my cup runneth over.
+Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever."""
+    },
+    {
+        "title": "Psalm 19:1-6 (KJV)",
+        "author": "Anonymous (Hebrew Bible)",
+        "year": -1000,
+        "era": "biblical",
+        "text": """The heavens declare the glory of God; and the firmament sheweth his handywork.
+Day unto day uttereth speech, and night unto night sheweth knowledge.
+There is no speech nor language, where their voice is not heard.
+Their line is gone out through all the earth, and their words to the end of the world.
+In them hath he set a tabernacle for the sun, which is as a bridegroom coming out of his chamber,
+and rejoiceth as a strong man to run a race.
+His going forth is from the end of the heaven, and his circuit unto the ends of it: and there is nothing hid from the heat thereof."""
+    },
+    {
+        "title": "Psalm 121 (KJV)",
+        "author": "Anonymous (Hebrew Bible)",
+        "year": -1000,
+        "era": "biblical",
+        "text": """I will lift up mine eyes unto the hills, from whence cometh my help.
+My help cometh from the LORD, which made heaven and earth.
+He will not suffer thy foot to be moved: he that keepeth thee will not slumber.
+Behold, he that keepeth Israel shall neither slumber nor sleep.
+The LORD is thy keeper: the LORD is thy shade upon thy right hand.
+The sun shall not smite thee by day, nor the moon by night.
+The LORD shall preserve thee from all evil: he shall preserve thy soul.
+The LORD shall preserve thy going out and thy coming in from this time forth, and even for evermore."""
+    },
+    {
+        "title": "Song of Solomon 2:1-7 (KJV)",
+        "author": "Anonymous (Hebrew Bible)",
+        "year": -950,
+        "era": "biblical",
+        "text": """I am the rose of Sharon, and the lily of the valleys.
+As the lily among thorns, so is my love among the daughters.
+As the apple tree among the trees of the wood, so is my beloved among the sons.
+I sat down under his shadow with great delight, and his fruit was sweet to my taste.
+He brought me to the banqueting house, and his banner over me was love.
+Stay me with flagons, comfort me with apples: for I am sick of love.
+His left hand is under my head, and his right hand doth embrace me."""
+    },
+    {
+        "title": "Isaiah 40:28-31 (KJV)",
+        "author": "Anonymous (Hebrew Bible)",
+        "year": -700,
+        "era": "biblical",
+        "text": """Hast thou not known? hast thou not heard, that the everlasting God, the LORD, the Creator of the ends of the earth, fainteth not, neither is weary?
+There is no searching of his understanding.
+He giveth power to the faint; and to them that have no might he increaseth strength.
+Even the youths shall faint and be weary, and the young men shall utterly fall:
+But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles;
+they shall run, and not be weary; and they shall walk, and not faint."""
+    },
+    {
+        "title": "Psalm 46:1-5 (KJV)",
+        "author": "Anonymous (Hebrew Bible)",
+        "year": -1000,
+        "era": "biblical",
+        "text": """God is our refuge and strength, a very present help in trouble.
+Therefore will not we fear, though the earth be removed, and though the mountains be carried into the midst of the sea;
+Though the waters thereof roar and be troubled, though the mountains shake with the swelling thereof.
+There is a river, the streams whereof shall make glad the city of God, the holy place of the tabernacles of the most High.
+God is in the midst of her; she shall not be moved: God shall help her, and that right early."""
+    },
+    {
+        "title": "Psalm 137:1-4 (KJV)",
+        "author": "Anonymous (Hebrew Bible)",
+        "year": -587,
+        "era": "biblical",
+        "text": """By the rivers of Babylon, there we sat down, yea, we wept, when we remembered Zion.
+We hanged our harps upon the willows in the midst thereof.
+For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion.
+How shall we sing the LORD's song in a strange land?"""
+    },
+
+    # ─── CONCRETE POETRY ──────────────────────────────────────────────────────
+    # Poems where visual/spatial arrangement is integral — tests how GPT-2
+    # handles text when the lineation encodes meaning beyond grammar/syntax.
+    {
+        "title": "silencio",
+        "author": "Eugen Gomringer",
+        "year": 1954,
+        "era": "concrete",
+        "text": """silencio silencio silencio
+silencio silencio silencio
+silencio silencio silencio
+silencio silencio silencio
+silencio silencio silencio"""
+    },
+    {
+        "title": "l(a",
+        "author": "E.E. Cummings",
+        "year": 1958,
+        "era": "concrete",
+        "text": """l(a
+
+le
+af
+fa
+
+ll
+
+s)
+one
+l
+
+iness"""
+    },
+    {
+        "title": "For Spacious Skies",
+        "author": "Emmett Williams",
+        "year": 1965,
+        "era": "concrete",
+        "text": """spacious skies
+for spacious skies
+o spacious skies
+for spacious skies
+for spacious skies for
+for spacious for
+for spacious
+for
+for
+for spacious
+for spacious skies
+for spacious skies for
+spacious skies for spacious
+skies for spacious skies
+for spacious skies"""
+    },
 ]
 
 # Quick stats

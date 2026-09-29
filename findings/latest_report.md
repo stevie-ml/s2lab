@@ -1,6 +1,6 @@
 # S₂ Lab Research Report
-**Generated:** 2026-09-29 06:48:45
-**Corpus:** 190 texts analyzed with GPT-2
+**Generated:** 2026-09-29 13:01:00
+**Corpus:** 200 texts analyzed with GPT-2
 **Model:** gpt2 (117M parameters)
 
 ---
@@ -14,6 +14,7 @@ Do different literary movements produce systematically different information-the
 | Era | n | Avg S₂ (raw) | Avg S₂ (clean) | +S₂ Ratio | Max S₂ |
 |---|---|---|---|---|---|
 | haiku | 14 | 1.63 | **-0.11** | 42% | 39.62 |
+| concrete | 3 | 1.51 | **-0.50** | 25% | 30.95 |
 | german_modernist | 2 | 1.12 | **0.63** | 46% | 17.49 |
 | beat | 2 | 1.03 | **0.69** | 47% | 25.83 |
 | mid_century | 3 | 0.87 | **-0.59** | 37% | 36.38 |
@@ -42,13 +43,14 @@ Do different literary movements produce systematically different information-the
 | found_poetry | 7 | -0.32 | **-0.61** | 28% | 27.28 |
 | surrealist | 1 | -0.33 | **-0.68** | 33% | 19.75 |
 | 18th_century | 1 | -0.38 | **-0.36** | 29% | 22.02 |
+| biblical | 7 | -0.42 | **-0.56** | 32% | 21.23 |
 | spoken_word | 2 | -0.45 | **-0.68** | 33% | 23.17 |
 | control | 5 | -1.66 | **-1.72** | 20% | 12.11 |
 
 ### Finding
 After removing stanza-break artifact positions, **beat** has the highest artifact-free avg S₂ (0.69), while **cliche_control** is lowest among poetry (-0.87). Prose control: -1.72.
-Only 5 of 30 poetry eras have positive artifact-free avg S₂ — **most era averages are negative once cleaned** (the artifact inflated them).
-The core claim survives: **poetry is less statistically conformist than prose** (gap = 1.41 bits artifact-free), but the absolute positive-S₂ framing does not hold.
+Only 5 of 32 poetry eras have positive artifact-free avg S₂ — **most era averages are negative once cleaned** (the artifact inflated them).
+The core claim survives: **poetry is less statistically conformist than prose** (gap = 1.39 bits artifact-free), but the absolute positive-S₂ framing does not hold.
 
 ---
 
@@ -170,23 +172,23 @@ Do high-S₂ moments cluster at beginnings, endings, or enjambments?
 
 | Position in poem | Avg S₂ | Median S₂ | n tokens |
 |---|---|---|---|
-| first_10% | 0.98 | -0.57 | 2019 |
-| 10-25% | 0.31 | -1.02 | 3170 |
-| 25-50% | 0.15 | -1.05 | 5292 |
-| 50-75% | 0.10 | -1.04 | 5240 |
-| 75-90% | 0.33 | -0.96 | 3153 |
-| last_10% | 0.01 | -1.03 | 2183 |
+| first_10% | 0.94 | -0.58 | 2116 |
+| 10-25% | 0.32 | -1.03 | 3324 |
+| 25-50% | 0.13 | -1.06 | 5549 |
+| 50-75% | 0.07 | -1.05 | 5494 |
+| 75-90% | 0.30 | -1.00 | 3306 |
+| last_10% | -0.01 | -1.05 | 2290 |
 
 ### Line break analysis:
-- Avg S₂ at newline tokens: **-1.52** (n=2086)
-- Avg S₂ at tokens immediately after newline (raw): **6.43** (n=2086)
-- Avg S₂ at tokens immediately after newline (**artifact-free**): **0.09** (n=1336)
-- Avg S₂ at all other tokens: **0.45** (n=18971)
+- Avg S₂ at newline tokens: **-1.54** (n=2152)
+- Avg S₂ at tokens immediately after newline (raw): **6.38** (n=2152)
+- Avg S₂ at tokens immediately after newline (**artifact-free**): **0.11** (n=1383)
+- Avg S₂ at all other tokens: **0.42** (n=19927)
 
 > ⚠️ The raw post-newline figure is dominated by the stanza-break artifact (see `findings/stanza_break_artifact.md`). The artifact-free value is near-zero. **The enjambment finding does not survive artifact removal.**
 
 ### Finding
-Artifact-free post-newline S₂ = 0.09 vs other tokens = 0.45. Line-head tokens are at or below baseline once artifact positions are removed. The Straussian gap is distributed throughout the poem, not concentrated at line breaks.
+Artifact-free post-newline S₂ = 0.11 vs other tokens = 0.42. Line-head tokens are at or below baseline once artifact positions are removed. The Straussian gap is distributed throughout the poem, not concentrated at line breaks.
 
 ---
 
@@ -199,6 +201,7 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | William Carlos Williams | 2 | 3.10 | 10.12 | 45% | 34.86 | high spikes, volatile |
 | Carl Sandburg | 2 | 2.54 | 7.95 | 45% | 27.90 | high spikes, volatile |
 | Masaoka Shiki | 2 | 1.96 | 6.87 | 45% | 25.09 | high spikes, volatile |
+| E.E. Cummings | 3 | 1.58 | 7.82 | 31% | 27.58 | high spikes, volatile |
 | Thomas Hardy | 3 | 1.51 | 6.49 | 47% | 30.71 | high spikes, volatile |
 | Matsuo Bashō | 4 | 1.51 | 6.58 | 38% | 19.33 | high spikes, volatile |
 | Kobayashi Issa | 3 | 1.15 | 7.51 | 39% | 27.52 | high spikes, volatile |
@@ -215,7 +218,6 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | Gerard Manley Hopkins | 3 | 0.52 | 5.35 | 40% | 26.15 | consistently deviant |
 | Thomas Wyatt | 2 | 0.48 | 4.59 | 44% | 21.84 | mild deviation |
 | Alfred, Lord Tennyson | 3 | 0.42 | 5.59 | 35% | 28.37 | selective spikes |
-| E.E. Cummings | 2 | 0.42 | 5.83 | 32% | 25.89 | selective spikes |
 | Stefan George | 3 | 0.42 | 3.77 | 45% | 17.80 | mild deviation |
 | Robert Burns | 2 | 0.39 | 5.98 | 35% | 24.00 | selective spikes |
 | Walt Whitman | 3 | 0.33 | 4.62 | 43% | 17.56 | mild deviation |
@@ -235,6 +237,7 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | John Ashbery | 16 | -0.28 | 4.47 | 36% | 20.23 | smooth/conventional |
 | W.B. Yeats | 2 | -0.30 | 3.95 | 38% | 19.60 | smooth/conventional |
 | Lucille Clifton | 3 | -0.36 | 3.91 | 31% | 20.07 | smooth/conventional |
+| Anonymous (Hebrew Bible) | 7 | -0.42 | 3.60 | 32% | 16.15 | smooth/conventional |
 | William Shakespeare | 3 | -0.62 | 3.51 | 30% | 19.15 | smooth/conventional |
 
 ### Finding
@@ -248,13 +251,13 @@ Do 'great' poems have distinctive S₂ profiles?
 
 > ⚠️ **Stanza-break artifact:** Raw S₂ numbers are inflated by layout positions. See `findings/stanza_break_artifact.md` for details.
 
-- Poetry avg S₂ (raw): **0.37** (σ=0.91, n=185)
+- Poetry avg S₂ (raw): **0.36** (σ=0.94, n=195)
 - Control prose avg S₂ (raw): **-1.66** (σ=0.67, n=5)
-- Gap (raw): **2.03**
+- Gap (raw): **2.02**
 
-- Poetry avg S₂ (artifact-free): **-0.396**
+- Poetry avg S₂ (artifact-free): **-0.404**
 - Control prose avg S₂ (artifact-free): **-1.721**
-- Gap (artifact-free): **1.325** (65% of raw gap survives)
+- Gap (artifact-free): **1.317** (65% of raw gap survives)
 
 - Poetry: 37% of tokens have positive S₂ (raw)
 - Control prose: 20% of tokens have positive S₂ (raw)
@@ -267,10 +270,10 @@ Do 'great' poems have distinctive S₂ profiles?
 1. **Hart Crane** — "The Harbor Dawn (from The Bridge)" (S₂ clean=0.97, raw=1.87)
 
 ### Lowest S₂ poems (artifact-free):
-1. **David Antin** — "a list of the delusions of the insane (excerpt)" (S₂ clean=-1.28, raw=1.35)
 1. **Vachel Lindsay** — "The Congo (opening, sanitized excerpt)" (S₂ clean=-1.31, raw=-1.05)
 1. **William Carlos Williams** — "This Is Just to Say" (S₂ clean=-1.37, raw=2.61)
 1. **John Ashbery** — "A Wave (opening)" (S₂ clean=-1.39, raw=-1.14)
+1. **E.E. Cummings** — "l(a" (S₂ clean=-1.51, raw=3.89)
 1. **Kobayashi Issa** — "The World of Dew (Issa, translated)" (S₂ clean=-2.14, raw=-0.18)
 
 ### Finding
