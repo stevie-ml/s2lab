@@ -1,0 +1,453 @@
+{
+  "by_category": {
+    "Digit (e.g. 1, 42, 1984)": {
+      "n": 7,
+      "mean_s2": 2.8678714285714286,
+      "median_s2": 2.4535,
+      "pos_pct": 57.14285714285714,
+      "max_s2": 10.2335
+    },
+    "Cardinal word (one, two, hundred)": {
+      "n": 92,
+      "mean_s2": 1.0907978260869566,
+      "median_s2": 0.353,
+      "pos_pct": 54.347826086956516,
+      "max_s2": 14.8785
+    },
+    "Ordinal word (first, second, twice)": {
+      "n": 32,
+      "mean_s2": -0.5178281249999994,
+      "median_s2": -1.2211,
+      "pos_pct": 34.375,
+      "max_s2": 9.2395
+    },
+    "Approximate (many, few, some)": {
+      "n": 72,
+      "mean_s2": 0.5822638888888887,
+      "median_s2": 0.8542,
+      "pos_pct": 58.333333333333336,
+      "max_s2": 8.914
+    },
+    "Baseline (other alphabetic content words)": {
+      "n": 12033,
+      "mean_s2": 0.23128388598022273,
+      "median_s2": -0.4835,
+      "pos_pct": 43.08983628355356,
+      "max_s2": 23.3952
+    }
+  },
+  "high_s2_numerals": [
+    {
+      "token": "three",
+      "s2": 14.8785,
+      "category": "cardinal",
+      "top_expected": "an",
+      "top_expected_prob": 0.9910246133804321,
+      "context_before": "",
+      "author": "Traditional (Scottish ballad)",
+      "title": "The Wife of Usher's Well"
+    },
+    {
+      "token": "1959",
+      "s2": 10.2335,
+      "category": "digit",
+      "top_expected": "12",
+      "top_expected_prob": 0.23263998329639435,
+      "context_before": "\nit is",
+      "author": "Frank O'Hara",
+      "title": "The Day Lady Died"
+    },
+    {
+      "token": "seven",
+      "s2": 10.1043,
+      "category": "cardinal",
+      "top_expected": "and",
+      "top_expected_prob": 0.206888809800148,
+      "context_before": "hing his body",
+      "author": "Christopher Smart",
+      "title": "For I Will Consider My Cat Jeoffry (excerpt)"
+    },
+    {
+      "token": "Nine",
+      "s2": 9.4665,
+      "category": "cardinal",
+      "top_expected": "the",
+      "top_expected_prob": 0.3704904019832611,
+      "context_before": "",
+      "author": "Rudyard Kipling",
+      "title": "Recessional (stanzas 1-3)"
+    },
+    {
+      "token": "once",
+      "s2": 9.2395,
+      "category": "ordinal",
+      "top_expected": "cried",
+      "top_expected_prob": 0.28612804412841797,
+      "context_before": "",
+      "author": "Felicia Hemans",
+      "title": "Casabianca"
+    },
+    {
+      "token": "twenty",
+      "s2": 8.9837,
+      "category": "cardinal",
+      "top_expected": ",",
+      "top_expected_prob": 0.2595060467720032,
+      "context_before": "",
+      "author": "Seamus Heaney",
+      "title": "Digging"
+    },
+    {
+      "token": "twenty",
+      "s2": 8.8663,
+      "category": "cardinal",
+      "top_expected": "the",
+      "top_expected_prob": 0.20515425503253937,
+      "context_before": " know\nThat",
+      "author": "W.B. Yeats",
+      "title": "The Second Coming"
+    },
+    {
+      "token": "fifteen",
+      "s2": 8.3488,
+      "category": "cardinal",
+      "top_expected": "the",
+      "top_expected_prob": 0.15625086426734924,
+      "context_before": " southwest\nat",
+      "author": "Anonymous (found text)",
+      "title": "Weather Observations (Found Poem from meteorological prose)"
+    },
+    {
+      "token": "12",
+      "s2": 7.8169,
+      "category": "digit",
+      "top_expected": "not",
+      "top_expected_prob": 0.07001116126775742,
+      "context_before": " is",
+      "author": "Frank O'Hara",
+      "title": "The Day Lady Died"
+    },
+    {
+      "token": "one",
+      "s2": 7.5902,
+      "category": "cardinal",
+      "top_expected": ",",
+      "top_expected_prob": 0.6098837852478027,
+      "context_before": "",
+      "author": "Traditional (English)",
+      "title": "Nursery Rhymes (compilation)"
+    },
+    {
+      "token": "four",
+      "s2": 6.2399,
+      "category": "cardinal",
+      "top_expected": "",
+      "top_expected_prob": 0.2675264775753021,
+      "context_before": "",
+      "author": "E.E. Cummings",
+      "title": "Buffalo Bill 's"
+    },
+    {
+      "token": "one",
+      "s2": 6.0926,
+      "category": "cardinal",
+      "top_expected": "from",
+      "top_expected_prob": 0.18393225967884064,
+      "context_before": " birds have vanished",
+      "author": "Edna St. Vincent Millay",
+      "title": "What lips my lips have kissed"
+    },
+    {
+      "token": "four",
+      "s2": 5.8048,
+      "category": "cardinal",
+      "top_expected": "it",
+      "top_expected_prob": 0.14394329488277435,
+      "context_before": ", just as",
+      "author": "Lyn Hejinian",
+      "title": "My Life (excerpt)"
+    },
+    {
+      "token": "ten",
+      "s2": 5.6641,
+      "category": "cardinal",
+      "top_expected": ",",
+      "top_expected_prob": 0.24798668920993805,
+      "context_before": "\nLove you",
+      "author": "Andrew Marvell",
+      "title": "To His Coy Mistress (opening)"
+    },
+    {
+      "token": "First",
+      "s2": 5.6317,
+      "category": "ordinal",
+      "top_expected": "",
+      "top_expected_prob": 0.25679823756217957,
+      "context_before": " ball field?",
+      "author": "John Ashbery",
+      "title": "What Is Poetry"
+    },
+    {
+      "token": "one",
+      "s2": 4.9771,
+      "category": "cardinal",
+      "top_expected": "all",
+      "top_expected_prob": 0.15885774791240692,
+      "context_before": "",
+      "author": "Felicia Hemans",
+      "title": "Casabianca"
+    },
+    {
+      "token": "billion",
+      "s2": 4.9118,
+      "category": "cardinal",
+      "top_expected": "fire",
+      "top_expected_prob": 0.03413785248994827,
+      "context_before": "",
+      "author": "Gerard Manley Hopkins",
+      "title": "The Windhover"
+    },
+    {
+      "token": "one",
+      "s2": 4.7362,
+      "category": "cardinal",
+      "top_expected": "rain",
+      "top_expected_prob": 0.1751086711883545,
+      "context_before": "",
+      "author": "Anonymous (found text)",
+      "title": "Weather Observations (Found Poem from meteorological prose)"
+    },
+    {
+      "token": "twice",
+      "s2": 4.7198,
+      "category": "ordinal",
+      "top_expected": "that",
+      "top_expected_prob": 0.0481615774333477,
+      "context_before": "",
+      "author": "Samuel Taylor Coleridge",
+      "title": "Kubla Khan (opening stanzas)"
+    },
+    {
+      "token": "two",
+      "s2": 4.6794,
+      "category": "cardinal",
+      "top_expected": "",
+      "top_expected_prob": 0.3075321912765503,
+      "context_before": " ground\u2014\n",
+      "author": "Yosa Buson",
+      "title": "Peony Falling (Buson, translated)"
+    },
+    {
+      "token": "seven",
+      "s2": 4.6198,
+      "category": "cardinal",
+      "top_expected": "the",
+      "top_expected_prob": 0.11701467633247375,
+      "context_before": "",
+      "author": "Traditional (American sea chanty)",
+      "title": "Oh Shenandoah"
+    },
+    {
+      "token": "one",
+      "s2": 4.563,
+      "category": "cardinal",
+      "top_expected": "life",
+      "top_expected_prob": 0.40400058031082153,
+      "context_before": "",
+      "author": "Mary Oliver",
+      "title": "The Summer Day"
+    },
+    {
+      "token": "twelve",
+      "s2": 4.5364,
+      "category": "cardinal",
+      "top_expected": "the",
+      "top_expected_prob": 0.08345475047826767,
+      "context_before": "",
+      "author": "Thomas Hardy",
+      "title": "The Oxen"
+    },
+    {
+      "token": "five",
+      "s2": 4.5276,
+      "category": "cardinal",
+      "top_expected": "the",
+      "top_expected_prob": 0.09527070075273514,
+      "context_before": "",
+      "author": "Samuel Taylor Coleridge",
+      "title": "Kubla Khan (opening stanzas)"
+    },
+    {
+      "token": "thousand",
+      "s2": 4.3119,
+      "category": "cardinal",
+      "top_expected": "sake",
+      "top_expected_prob": 0.12315180152654648,
+      "context_before": "",
+      "author": "Claude McKay",
+      "title": "If We Must Die"
+    }
+  ],
+  "top_numeral_poems": [
+    {
+      "title": "Digging",
+      "author": "Seamus Heaney",
+      "era": "contemporary",
+      "n_numerals": 1,
+      "avg_numeral_s2": 8.9837,
+      "max_numeral_s2": 8.9837
+    },
+    {
+      "title": "Nursery Rhymes (compilation)",
+      "author": "Traditional (English)",
+      "era": "nursery_rhyme",
+      "n_numerals": 1,
+      "avg_numeral_s2": 7.5902,
+      "max_numeral_s2": 7.5902
+    },
+    {
+      "title": "Casabianca",
+      "author": "Felicia Hemans",
+      "era": "victorian",
+      "n_numerals": 2,
+      "avg_numeral_s2": 7.1083,
+      "max_numeral_s2": 9.2395
+    },
+    {
+      "title": "My Life (excerpt)",
+      "author": "Lyn Hejinian",
+      "era": "language",
+      "n_numerals": 1,
+      "avg_numeral_s2": 5.8048,
+      "max_numeral_s2": 5.8048
+    },
+    {
+      "title": "To His Coy Mistress (opening)",
+      "author": "Andrew Marvell",
+      "era": "metaphysical",
+      "n_numerals": 1,
+      "avg_numeral_s2": 5.6641,
+      "max_numeral_s2": 5.6641
+    },
+    {
+      "title": "What Is Poetry",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "n_numerals": 1,
+      "avg_numeral_s2": 5.6317,
+      "max_numeral_s2": 5.6317
+    },
+    {
+      "title": "The Windhover",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "n_numerals": 1,
+      "avg_numeral_s2": 4.9118,
+      "max_numeral_s2": 4.9118
+    },
+    {
+      "title": "Recessional (stanzas 1-3)",
+      "author": "Rudyard Kipling",
+      "era": "victorian",
+      "n_numerals": 2,
+      "avg_numeral_s2": 4.7473,
+      "max_numeral_s2": 9.4665
+    },
+    {
+      "title": "The Oxen",
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "n_numerals": 2,
+      "avg_numeral_s2": 4.3893,
+      "max_numeral_s2": 4.5364
+    },
+    {
+      "title": "Buffalo Bill 's",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "n_numerals": 2,
+      "avg_numeral_s2": 3.8779,
+      "max_numeral_s2": 6.2399
+    },
+    {
+      "title": "Ozymandias",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "n_numerals": 1,
+      "avg_numeral_s2": 3.7806,
+      "max_numeral_s2": 3.7806
+    },
+    {
+      "title": "Aubade (opening)",
+      "author": "Philip Larkin",
+      "era": "contemporary",
+      "n_numerals": 1,
+      "avg_numeral_s2": 3.6001,
+      "max_numeral_s2": 3.6001
+    },
+    {
+      "title": "Skunk Hour (opening)",
+      "author": "Robert Lowell",
+      "era": "confessional",
+      "n_numerals": 1,
+      "avg_numeral_s2": 3.3872,
+      "max_numeral_s2": 3.3872
+    },
+    {
+      "title": "What lips my lips have kissed",
+      "author": "Edna St. Vincent Millay",
+      "era": "mid_century",
+      "n_numerals": 2,
+      "avg_numeral_s2": 3.0106,
+      "max_numeral_s2": 6.0926
+    },
+    {
+      "title": "If We Must Die",
+      "author": "Claude McKay",
+      "era": "harlem_renaissance",
+      "n_numerals": 2,
+      "avg_numeral_s2": 2.9352,
+      "max_numeral_s2": 4.3119
+    },
+    {
+      "title": "The Day Lady Died",
+      "author": "Frank O'Hara",
+      "era": "new_york_school",
+      "n_numerals": 7,
+      "avg_numeral_s2": 2.8679,
+      "max_numeral_s2": 10.2335
+    },
+    {
+      "title": "The Wife of Usher's Well",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "n_numerals": 4,
+      "avg_numeral_s2": 2.4998,
+      "max_numeral_s2": 14.8785
+    },
+    {
+      "title": "Kubla Khan (opening stanzas)",
+      "author": "Samuel Taylor Coleridge",
+      "era": "romantic",
+      "n_numerals": 3,
+      "avg_numeral_s2": 2.3993,
+      "max_numeral_s2": 4.7198
+    },
+    {
+      "title": "Death, Be Not Proud (Holy Sonnet X)",
+      "author": "John Donne",
+      "era": "metaphysical",
+      "n_numerals": 1,
+      "avg_numeral_s2": 2.1483,
+      "max_numeral_s2": 2.1483
+    },
+    {
+      "title": "Tears, Idle Tears",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "n_numerals": 3,
+      "avg_numeral_s2": 2.1423,
+      "max_numeral_s2": 3.4353
+    }
+  ]
+}
