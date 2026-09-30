@@ -1254,7 +1254,22 @@ What the hand, dare seize the fire?
 And what shoulder, & what art,
 Could twist the sinews of thy heart?
 And when thy heart began to beat,
-What dread hand? & what dread feet?"""
+What dread hand? & what dread feet?
+
+What the hammer? what the chain,
+In what furnace was thy brain?
+What the anvil? what dread grasp,
+Dare its deadly terrors clasp!
+
+When the stars threw down their spears
+And water'd heaven with their tears:
+Did he smile his work to see?
+Did he who made the Lamb make thee?
+
+Tyger Tyger burning bright,
+In the forests of the night:
+What immortal hand or eye,
+Dare frame thy fearful symmetry?"""
     },
 
     # Edgar Allan Poe — "The Raven" (opening, 1845, PD)
@@ -1277,7 +1292,49 @@ And each separate dying ember wrought its ghost upon the floor;
 Eagerly I wished the morrow;—vainly I had sought to borrow
 From my books surcease of sorrow—sorrow for the lost Lenore—
 For the rare and radiant maiden whom the angels name Lenore—
-Nameless here for evermore."""
+Nameless here for evermore.
+
+And the silken, sad, uncertain rustling of each purple curtain
+Thrilled me—filled me with fantastic terrors never felt before;
+So that now, to still the beating of my heart, I stood repeating
+"'Tis some visitor entreating entrance at my chamber door—
+Some late visitor entreating entrance at my chamber door;—
+This it is and nothing more."
+
+Presently my soul grew stronger; hesitating then no longer,
+"Sir," said I, "or Madam, truly your forgiveness I implore;
+But the fact is I was napping, and so gently you came rapping,
+And so faintly you came tapping, tapping at my chamber door,
+That I scarce was sure I heard you"—here I opened wide the door;—
+Darkness there and nothing more.
+
+Deep into that darkness peering, long I stood there wondering, fearing,
+Doubting, dreaming dreams no mortal ever dared to dream before;
+But the silence was unbroken, and the stillness gave no token,
+And the only word there spoken was the whispered word, "Lenore?"
+This I whispered, and an echo murmured back the word, "Lenore!"—
+Merely this and nothing more.
+
+Back into the chamber turning, all my soul within me burning,
+Soon again I heard a tapping somewhat louder than before.
+"Surely," said I, "surely that is something at my window lattice;
+Let me see, then, what thereat is, and this mystery explore—
+Let my heart be still a moment and this mystery explore;—
+'Tis the wind and nothing more!"
+
+Open here I flung the shutter, when, with many a flirt and flutter,
+In there stepped a stately Raven of the saintly days of yore;
+Not the least obeisance made he; not a minute stopped or stayed he;
+But, with mien of lord or lady, perched above my chamber door—
+Perched upon a bust of Pallas just above my chamber door—
+Perched, and sat, and nothing more.
+
+Then this ebony bird beguiling my sad fancy into smiling,
+By the grave and stern decorum of the countenance it wore,
+"Though thy crest be shorn and shaven, thou," I said, "art sure no craven,
+Ghastly grim and ancient Raven wandering from the Nightly shore—
+Tell me what thy lordly name is on the Night's Plutonian shore!"
+Quoth the Raven "Nevermore.\""""
     },
 
     # Christina Rossetti — "Remember" (1849, PD)
@@ -3315,6 +3372,135 @@ The different ways that different things are done,
 An' men an' women lovin' in this world."""
     },
 
+    # ── Varied refrains (refrain-betrayal test set, all PD) ─────────────────
+    # Each poem returns to an established line and then departs from it
+    # partway through, testing whether a broken in-context copy yields S₂.
+    {
+        "title": "Tears, Idle Tears",
+        "author": "Alfred, Lord Tennyson",
+        "year": 1847,
+        "era": "victorian",
+        "text": """Tears, idle tears, I know not what they mean,
+Tears from the depth of some divine despair
+Rise in the heart, and gather to the eyes,
+In looking on the happy autumn-fields,
+And thinking of the days that are no more.
+
+Fresh as the first beam glittering on a sail,
+That brings our friends up from the underworld,
+Sad as the last which reddens over one
+That sinks with all we love below the verge;
+So sad, so fresh, the days that are no more.
+
+Ah, sad and strange as in dark summer dawns
+The earliest pipe of half-awaken'd birds
+To dying ears, when unto dying eyes
+The casement slowly grows a glimmering square;
+So sad, so strange, the days that are no more.
+
+Dear as remember'd kisses after death,
+And sweet as those by hopeless fancy feign'd
+On lips that are for others; deep as love,
+Deep as first love, and wild with all regret;
+O Death in Life, the days that are no more!"""
+    },
+    {
+        "title": "Break, Break, Break",
+        "author": "Alfred, Lord Tennyson",
+        "year": 1842,
+        "era": "victorian",
+        "text": """Break, break, break,
+On thy cold gray stones, O Sea!
+And I would that my tongue could utter
+The thoughts that arise in me.
+
+O, well for the fisherman's boy,
+That he shouts with his sister at play!
+O, well for the sailor lad,
+That he sings in his boat on the bay!
+
+And the stately ships go on
+To their haven under the hill;
+But O for the touch of a vanish'd hand,
+And the sound of a voice that is still!
+
+Break, break, break,
+At the foot of thy crags, O Sea!
+But the tender grace of a day that is dead
+Will never come back to me."""
+    },
+    {
+        "title": "The Lady of Shalott (Part I)",
+        "author": "Alfred, Lord Tennyson",
+        "year": 1842,
+        "era": "victorian",
+        "text": """On either side the river lie
+Long fields of barley and of rye,
+That clothe the wold and meet the sky;
+And thro' the field the road runs by
+To many-tower'd Camelot;
+And up and down the people go,
+Gazing where the lilies blow
+Round an island there below,
+The island of Shalott.
+
+Willows whiten, aspens quiver,
+Little breezes dusk and shiver
+Thro' the wave that runs for ever
+By the island in the river
+Flowing down to Camelot.
+Four gray walls, and four gray towers,
+Overlook a space of flowers,
+And the silent isle imbowers
+The Lady of Shalott.
+
+By the margin, willow veil'd,
+Slide the heavy barges trail'd
+By slow horses; and unhail'd
+The shallop flitteth silken-sail'd
+Skimming down to Camelot:
+But who hath seen her wave her hand?
+Or at the casement seen her stand?
+Or is she known in all the land,
+The Lady of Shalott?
+
+Only reapers, reaping early
+In among the bearded barley,
+Hear a song that echoes cheerly
+From the river winding clearly,
+Down to tower'd Camelot:
+And by the moon the reaper weary,
+Piling sheaves in uplands airy,
+Listening, whispers "'Tis the fairy
+Lady of Shalott.\""""
+    },
+    {
+        "title": "Recessional (stanzas 1-3)",
+        "author": "Rudyard Kipling",
+        "year": 1897,
+        "era": "victorian",
+        "text": """God of our fathers, known of old,
+Lord of our far-flung battle-line,
+Beneath whose awful Hand we hold
+Dominion over palm and pine—
+Lord God of Hosts, be with us yet,
+Lest we forget—lest we forget!
+
+The tumult and the shouting dies;
+The Captains and the Kings depart:
+Still stands Thine ancient sacrifice,
+An humble and a contrite heart.
+Lord God of Hosts, be with us yet,
+Lest we forget—lest we forget!
+
+Far-called, our navies melt away;
+On dune and headland sinks the fire:
+Lo, all our pomp of yesterday
+Is one with Nineveh and Tyre!
+Judge of the Nations, spare us yet,
+Lest we forget—lest we forget!"""
+    },
+
     # ── Cliché controls (synthetic research test cases) ───────────────────────
     # Deliberately formulaic poems composed to test whether S2 tracks originality.
     # Not attributed to any real poet; authored as controlled stimuli for this study.
@@ -3464,6 +3650,300 @@ The most sublime act is to set another before you.
 If the fool would persist in his folly he would become wise.
 Folly is the cloak of knavery.
 Shame is Pride's cloak."""
+    },
+
+    # ── New poems testing counter-lexicon hypothesis (added 2026-09-29) ────────
+    # These poems were added to test whether poems using conventional "poetic"
+    # vocabulary (the suppressed counter-lexicon: world, great, light, air, earth)
+    # have lower S2 than poems with specific/unexpected vocabulary.
+
+    # --- Sentimental popular Victorian verse: rich in expected "poetic" diction ---
+    {
+        "title": "Casabianca",
+        "author": "Felicia Hemans",
+        "year": 1826,
+        "era": "victorian",
+        "text": """The boy stood on the burning deck
+Whence all but he had fled;
+The flame that lit the battle's wreck
+Shone round him o'er the dead.
+
+Yet beautiful and bright he stood,
+As born to rule the storm;
+A creature of heroic blood,
+A proud, though child-like form.
+
+The flames rolled on — he would not go
+Without his father's word;
+That father, faint in death below,
+His voice no longer heard.
+
+He called aloud — 'Say, father, say
+If yet my task is done?'
+He knew not that the chieftain lay
+Unconscious of his son.
+
+'Speak, father!' once again he cried,
+'If I may yet be gone!'
+— And but the booming shots replied,
+And fast the flames rolled on.
+
+Upon his brow he felt their breath,
+And in his waving hair,
+And looked from that lone post of death
+In still yet brave despair."""
+    },
+
+    {
+        "title": "Invictus",
+        "author": "William Ernest Henley",
+        "year": 1888,
+        "era": "victorian",
+        "text": """Out of the night that covers me,
+Black as the pit from pole to pole,
+I thank whatever gods may be
+For my unconquerable soul.
+
+In the fell clutch of circumstance
+I have not winced nor cried aloud.
+Under the bludgeonings of chance
+My head is bloody, but unbowed.
+
+Beyond this place of wrath and tears
+Looms but the Horror of the shade,
+And yet the menace of the years
+Finds, and shall find me, unafraid.
+
+It matters not how strait the gate,
+How charged with punishments the scroll,
+I am the master of my fate:
+I am the captain of my soul."""
+    },
+
+    # --- Hopkins' Pied Beauty: dense compound adjectives, unexpected vocabulary ---
+    {
+        "title": "Pied Beauty",
+        "author": "Gerard Manley Hopkins",
+        "year": 1877,
+        "era": "victorian",
+        "text": """Glory be to God for dappled things —
+  For skies of couple-colour as a brinded cow;
+    For rose-moles all in stipple upon trout that swim;
+Fresh-firecoal chestnut-falls; finches' wings;
+  Landscape plotted and pieced — fold, fallow, and plough;
+    And áll trádes, their gear and tackle and trim.
+
+All things counter, original, spare, strange;
+  Whatever is fickle, freckled (who knows how?)
+    With swift, slow; sweet, sour; adazzle, dim;
+He fathers-forth whose beauty is past change:
+                                Praise him."""
+    },
+
+    # --- Sandburg's Fog and Grass: imagist precision vs. catalog of the earth ---
+    {
+        "title": "Fog",
+        "author": "Carl Sandburg",
+        "year": 1916,
+        "era": "modernist",
+        "text": """The fog comes
+on little cat feet.
+
+It sits looking
+over harbor and city
+on silent haunches
+and then moves on."""
+    },
+
+    {
+        "title": "Grass",
+        "author": "Carl Sandburg",
+        "year": 1918,
+        "era": "modernist",
+        "text": """Pile the bodies high at Austerlitz and Waterloo.
+Shovel them under and let me work —
+I am the grass; I cover all.
+
+And pile them high at Gettysburg
+And pile them high at Ypres and Verdun.
+Shovel them under and let me work.
+Two years, ten years, and passengers ask the conductor:
+What place is this?
+Where are we now?
+
+I am the grass.
+Let me work."""
+    },
+
+    # --- Hart Crane's dense, difficult modernist diction ---
+    {
+        "title": "The Harbor Dawn (from The Bridge)",
+        "author": "Hart Crane",
+        "year": 1930,
+        "era": "modernist",
+        "text": """Insistently through sleep — a tide of voices —
+They meet you listening midway in your dream,
+The long, tired sounds, fog-insulated noises:
+Gongs in white surplices, beshrouded wails,
+Far strum of fog horns . . . signals dispersed in veils.
+
+And then a truck will lumber past the wharves
+As winch engines begin throbbing on some deck;
+Or a drunken stevedore's howl and thud below
+Comes echoing aloft. And overheard
+Above the cloudy strands that wild clangs pass —
+The cables of our sleep so swiftly fled,
+Already hang, shred ends from remembered stars.
+
+One inconnu girl by the windy pier,
+Who asks no virgin-white surrender now —
+Not even to ask the day's refrain: Where are you?"""
+    },
+
+    # ─── BIBLICAL / LITURGICAL ─────────────────────────────────────────────────
+    # Hebrew parallelism: each verse is matched by a parallel second verse
+    # restating (synonymic), contrasting (antithetic), or extending (synthetic)
+    # the first. Tests how GPT-2 handles structured repetition of meaning in
+    # different words.
+    {
+        "title": "Psalm 23 (KJV)",
+        "author": "Anonymous (Hebrew Bible)",
+        "year": -1000,
+        "era": "biblical",
+        "text": """The LORD is my shepherd; I shall not want.
+He maketh me to lie down in green pastures: he leadeth me beside the still waters.
+He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake.
+Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.
+Thou preparest a table before me in the presence of mine enemies: thou anointest my head with oil; my cup runneth over.
+Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever."""
+    },
+    {
+        "title": "Psalm 19:1-6 (KJV)",
+        "author": "Anonymous (Hebrew Bible)",
+        "year": -1000,
+        "era": "biblical",
+        "text": """The heavens declare the glory of God; and the firmament sheweth his handywork.
+Day unto day uttereth speech, and night unto night sheweth knowledge.
+There is no speech nor language, where their voice is not heard.
+Their line is gone out through all the earth, and their words to the end of the world.
+In them hath he set a tabernacle for the sun, which is as a bridegroom coming out of his chamber,
+and rejoiceth as a strong man to run a race.
+His going forth is from the end of the heaven, and his circuit unto the ends of it: and there is nothing hid from the heat thereof."""
+    },
+    {
+        "title": "Psalm 121 (KJV)",
+        "author": "Anonymous (Hebrew Bible)",
+        "year": -1000,
+        "era": "biblical",
+        "text": """I will lift up mine eyes unto the hills, from whence cometh my help.
+My help cometh from the LORD, which made heaven and earth.
+He will not suffer thy foot to be moved: he that keepeth thee will not slumber.
+Behold, he that keepeth Israel shall neither slumber nor sleep.
+The LORD is thy keeper: the LORD is thy shade upon thy right hand.
+The sun shall not smite thee by day, nor the moon by night.
+The LORD shall preserve thee from all evil: he shall preserve thy soul.
+The LORD shall preserve thy going out and thy coming in from this time forth, and even for evermore."""
+    },
+    {
+        "title": "Song of Solomon 2:1-7 (KJV)",
+        "author": "Anonymous (Hebrew Bible)",
+        "year": -950,
+        "era": "biblical",
+        "text": """I am the rose of Sharon, and the lily of the valleys.
+As the lily among thorns, so is my love among the daughters.
+As the apple tree among the trees of the wood, so is my beloved among the sons.
+I sat down under his shadow with great delight, and his fruit was sweet to my taste.
+He brought me to the banqueting house, and his banner over me was love.
+Stay me with flagons, comfort me with apples: for I am sick of love.
+His left hand is under my head, and his right hand doth embrace me."""
+    },
+    {
+        "title": "Isaiah 40:28-31 (KJV)",
+        "author": "Anonymous (Hebrew Bible)",
+        "year": -700,
+        "era": "biblical",
+        "text": """Hast thou not known? hast thou not heard, that the everlasting God, the LORD, the Creator of the ends of the earth, fainteth not, neither is weary?
+There is no searching of his understanding.
+He giveth power to the faint; and to them that have no might he increaseth strength.
+Even the youths shall faint and be weary, and the young men shall utterly fall:
+But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles;
+they shall run, and not be weary; and they shall walk, and not faint."""
+    },
+    {
+        "title": "Psalm 46:1-5 (KJV)",
+        "author": "Anonymous (Hebrew Bible)",
+        "year": -1000,
+        "era": "biblical",
+        "text": """God is our refuge and strength, a very present help in trouble.
+Therefore will not we fear, though the earth be removed, and though the mountains be carried into the midst of the sea;
+Though the waters thereof roar and be troubled, though the mountains shake with the swelling thereof.
+There is a river, the streams whereof shall make glad the city of God, the holy place of the tabernacles of the most High.
+God is in the midst of her; she shall not be moved: God shall help her, and that right early."""
+    },
+    {
+        "title": "Psalm 137:1-4 (KJV)",
+        "author": "Anonymous (Hebrew Bible)",
+        "year": -587,
+        "era": "biblical",
+        "text": """By the rivers of Babylon, there we sat down, yea, we wept, when we remembered Zion.
+We hanged our harps upon the willows in the midst thereof.
+For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion.
+How shall we sing the LORD's song in a strange land?"""
+    },
+
+    # ─── CONCRETE POETRY ──────────────────────────────────────────────────────
+    # Poems where visual/spatial arrangement is integral — tests how GPT-2
+    # handles text when the lineation encodes meaning beyond grammar/syntax.
+    {
+        "title": "silencio",
+        "author": "Eugen Gomringer",
+        "year": 1954,
+        "era": "concrete",
+        "text": """silencio silencio silencio
+silencio silencio silencio
+silencio silencio silencio
+silencio silencio silencio
+silencio silencio silencio"""
+    },
+    {
+        "title": "l(a",
+        "author": "E.E. Cummings",
+        "year": 1958,
+        "era": "concrete",
+        "text": """l(a
+
+le
+af
+fa
+
+ll
+
+s)
+one
+l
+
+iness"""
+    },
+    {
+        "title": "For Spacious Skies",
+        "author": "Emmett Williams",
+        "year": 1965,
+        "era": "concrete",
+        "text": """spacious skies
+for spacious skies
+o spacious skies
+for spacious skies
+for spacious skies for
+for spacious for
+for spacious
+for
+for
+for spacious
+for spacious skies
+for spacious skies for
+spacious skies for spacious
+skies for spacious skies
+for spacious skies"""
     },
 ]
 
