@@ -1,0 +1,688 @@
+{
+  "poetry_mean_s2": -0.3222174117647059,
+  "poetry_std_s2": 3.5395435929501176,
+  "prose_mean_s2": -3.23456,
+  "prose_std_s2": 1.9497796126742122,
+  "poetry_n": 425,
+  "prose_n": 5,
+  "poetry_baseline": -0.4508879698837907,
+  "prose_baseline": -1.9245875,
+  "poetry_lift": 0.1286705581190848,
+  "prose_lift": -1.3099725000000002,
+  "era_stats": [
+    [
+      "spoken_word",
+      3.13285,
+      6
+    ],
+    [
+      "deep_image",
+      1.65196,
+      5
+    ],
+    [
+      "early_modern",
+      1.4632083333333332,
+      12
+    ],
+    [
+      "confessional",
+      1.1730909090909092,
+      11
+    ],
+    [
+      "new_york_school",
+      0.2516418604651162,
+      43
+    ],
+    [
+      "victorian",
+      0.24346491228070172,
+      57
+    ],
+    [
+      "romantic",
+      0.19565172413793105,
+      29
+    ],
+    [
+      "prose_poetry",
+      -0.06132162162162164,
+      37
+    ],
+    [
+      "19th_century",
+      -0.07652592592592594,
+      27
+    ],
+    [
+      "metaphysical",
+      -0.08685454545454542,
+      11
+    ],
+    [
+      "song_lyrics",
+      -0.28710625,
+      16
+    ],
+    [
+      "contemporary",
+      -0.3015925925925926,
+      27
+    ],
+    [
+      "harlem_renaissance",
+      -0.30596000000000007,
+      5
+    ],
+    [
+      "found_poetry",
+      -0.9917875,
+      16
+    ],
+    [
+      "modernist",
+      -1.0042024390243902,
+      41
+    ],
+    [
+      "fixed_form",
+      -1.4897264705882354,
+      34
+    ],
+    [
+      "ballad",
+      -1.6406764705882353,
+      17
+    ],
+    [
+      "language",
+      -1.8869333333333334,
+      3
+    ],
+    [
+      "nursery_rhyme",
+      -1.9394833333333334,
+      6
+    ],
+    [
+      "surrealist",
+      -1.9526000000000001,
+      5
+    ],
+    [
+      "cliche_control",
+      -2.9053428571428572,
+      7
+    ],
+    [
+      "18th_century",
+      -2.9261,
+      6
+    ]
+  ],
+  "top_events": [
+    {
+      "s2": 11.9223,
+      "surprisal": 18.3108,
+      "entropy": 6.3886,
+      "era": "romantic",
+      "title": "A Red, Red Rose",
+      "author": "Robert Burns",
+      "copula": "'s",
+      "predicate": " newly",
+      "rank": 4917,
+      "alternatives": [
+        {
+          "token": " what",
+          "prob": 0.1124681904911995
+        },
+        {
+          "token": " the",
+          "prob": 0.09437087923288345
+        },
+        {
+          "token": " why",
+          "prob": 0.08868841081857681
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 0.000194
+    },
+    {
+      "s2": 11.5086,
+      "surprisal": 18.1508,
+      "entropy": 6.6422,
+      "era": "victorian",
+      "title": "Sonnet 130 (My mistress' eyes)",
+      "author": "William Shakespeare",
+      "copula": " be",
+      "predicate": " wires",
+      "rank": 3813,
+      "alternatives": [
+        {
+          "token": " black",
+          "prob": 0.12259627878665924
+        },
+        {
+          "token": " green",
+          "prob": 0.08784452080726624
+        },
+        {
+          "token": " white",
+          "prob": 0.0877266377210617
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 2.9e-05
+    },
+    {
+      "s2": 10.5188,
+      "surprisal": 16.6126,
+      "entropy": 6.0939,
+      "era": "romantic",
+      "title": "Proverbs of Hell (excerpt from Marriage of Heaven and Hell)",
+      "author": "William Blake",
+      "copula": " is",
+      "predicate": " Pride",
+      "rank": 3803,
+      "alternatives": [
+        {
+          "token": " the",
+          "prob": 0.4323025941848755
+        },
+        {
+          "token": " a",
+          "prob": 0.09277079999446869
+        },
+        {
+          "token": " not",
+          "prob": 0.028467582538723946
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 2.9e-05
+    },
+    {
+      "s2": 10.2335,
+      "surprisal": 17.324,
+      "entropy": 7.0905,
+      "era": "new_york_school",
+      "title": "The Day Lady Died",
+      "author": "Frank O'Hara",
+      "copula": " is",
+      "predicate": " 1959",
+      "rank": 3572,
+      "alternatives": [
+        {
+          "token": " 12",
+          "prob": 0.23263998329639435
+        },
+        {
+          "token": "\n",
+          "prob": 0.04200576990842819
+        },
+        {
+          "token": " a",
+          "prob": 0.03297976404428482
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 0.042912
+    },
+    {
+      "s2": 10.1522,
+      "surprisal": 17.0402,
+      "entropy": 6.888,
+      "era": "victorian",
+      "title": "Sonnet 130 (My mistress' eyes)",
+      "author": "William Shakespeare",
+      "copula": " are",
+      "predicate": " dun",
+      "rank": 2980,
+      "alternatives": [
+        {
+          "token": " white",
+          "prob": 0.193568155169487
+        },
+        {
+          "token": " red",
+          "prob": 0.07593724876642227
+        },
+        {
+          "token": " black",
+          "prob": 0.05559716001152992
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 0.014479
+    },
+    {
+      "s2": 9.026,
+      "surprisal": 18.7542,
+      "entropy": 9.7281,
+      "era": "victorian",
+      "title": "Sonnet 18 (Shall I compare thee)",
+      "author": "William Shakespeare",
+      "copula": "'s",
+      "predicate": " lease",
+      "rank": 9605,
+      "alternatives": [
+        {
+          "token": " day",
+          "prob": 0.0774986669421196
+        },
+        {
+          "token": " night",
+          "prob": 0.023171527311205864
+        },
+        {
+          "token": " days",
+          "prob": 0.021169506013393402
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 0.000115
+    },
+    {
+      "s2": 8.8556,
+      "surprisal": 16.9522,
+      "entropy": 8.0966,
+      "era": "spoken_word",
+      "title": "Won't You Celebrate With Me",
+      "author": "Lucille Clifton",
+      "copula": " be",
+      "predicate": " except",
+      "rank": 4500,
+      "alternatives": [
+        {
+          "token": " the",
+          "prob": 0.13900309801101685
+        },
+        {
+          "token": " a",
+          "prob": 0.06088460981845856
+        },
+        {
+          "token": "\n",
+          "prob": 0.04616263881325722
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 0.046858
+    },
+    {
+      "s2": 8.5182,
+      "surprisal": 18.3967,
+      "entropy": 9.8785,
+      "era": "modernist",
+      "title": "The Emperor of Ice-Cream",
+      "author": "Wallace Stevens",
+      "copula": " be",
+      "predicate": " finale",
+      "rank": 13024,
+      "alternatives": [
+        {
+          "token": " the",
+          "prob": 0.08034182339906693
+        },
+        {
+          "token": " a",
+          "prob": 0.07959869503974915
+        },
+        {
+          "token": " his",
+          "prob": 0.035795100033283234
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 0.001292
+    },
+    {
+      "s2": 8.2688,
+      "surprisal": 15.1337,
+      "entropy": 6.8649,
+      "era": "fixed_form",
+      "title": "The Ballad of Dead Ladies (after Villon)",
+      "author": "Dante Gabriel Rossetti",
+      "copula": "'s",
+      "predicate": " Hipp",
+      "rank": 1858,
+      "alternatives": [
+        {
+          "token": " the",
+          "prob": 0.18618585169315338
+        },
+        {
+          "token": " her",
+          "prob": 0.11356592923402786
+        },
+        {
+          "token": " your",
+          "prob": 0.08589427173137665
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 0.009288
+    },
+    {
+      "s2": 8.1467,
+      "surprisal": 19.1502,
+      "entropy": 11.0035,
+      "era": "victorian",
+      "title": "The Windhover",
+      "author": "Gerard Manley Hopkins",
+      "copula": "'s",
+      "predicate": " minion",
+      "rank": 19392,
+      "alternatives": [
+        {
+          "token": " news",
+          "prob": 0.07990138977766037
+        },
+        {
+          "token": " episode",
+          "prob": 0.013487604446709156
+        },
+        {
+          "token": " video",
+          "prob": 0.011157755739986897
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 0.000147
+    },
+    {
+      "s2": 7.9932,
+      "surprisal": 15.887,
+      "entropy": 7.8938,
+      "era": "prose_poetry",
+      "title": "From 'Who Whispered Near Me' (excerpt)",
+      "author": "Killarney Clary",
+      "copula": " is",
+      "predicate": " evening",
+      "rank": 1866,
+      "alternatives": [
+        {
+          "token": " not",
+          "prob": 0.07001116126775742
+        },
+        {
+          "token": " a",
+          "prob": 0.05581478029489517
+        },
+        {
+          "token": " important",
+          "prob": 0.052449941635131836
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 0.000102
+    },
+    {
+      "s2": 7.8169,
+      "surprisal": 15.7107,
+      "entropy": 7.8938,
+      "era": "new_york_school",
+      "title": "The Day Lady Died",
+      "author": "Frank O'Hara",
+      "copula": " is",
+      "predicate": " 12",
+      "rank": 1727,
+      "alternatives": [
+        {
+          "token": " not",
+          "prob": 0.07001116126775742
+        },
+        {
+          "token": " a",
+          "prob": 0.05581478029489517
+        },
+        {
+          "token": " important",
+          "prob": 0.052449941635131836
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 0.000102
+    },
+    {
+      "s2": 7.7802,
+      "surprisal": 15.2727,
+      "entropy": 7.4926,
+      "era": "spoken_word",
+      "title": "Homage to My Hips",
+      "author": "Lucille Clifton",
+      "copula": " been",
+      "predicate": " enslaved",
+      "rank": 1869,
+      "alternatives": [
+        {
+          "token": "\n",
+          "prob": 0.27065718173980713
+        },
+        {
+          "token": " in",
+          "prob": 0.04221046715974808
+        },
+        {
+          "token": " used",
+          "prob": 0.03226034715771675
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 0.27133
+    },
+    {
+      "s2": 7.7535,
+      "surprisal": 17.8262,
+      "entropy": 10.0727,
+      "era": "fixed_form",
+      "title": "The Ballad of Dead Ladies (after Villon)",
+      "author": "Dante Gabriel Rossetti",
+      "copula": " is",
+      "predicate": " Echo",
+      "rank": 8393,
+      "alternatives": [
+        {
+          "token": " the",
+          "prob": 0.09523714333772659
+        },
+        {
+          "token": " Th",
+          "prob": 0.01718485914170742
+        },
+        {
+          "token": " Hipp",
+          "prob": 0.01256580650806427
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 0.001987
+    },
+    {
+      "s2": 7.6591,
+      "surprisal": 13.889,
+      "entropy": 6.2299,
+      "era": "prose_poetry",
+      "title": "a list of the delusions of the insane (excerpt)",
+      "author": "David Antin",
+      "copula": " are",
+      "predicate": " diss",
+      "rank": 887,
+      "alternatives": [
+        {
+          "token": " too",
+          "prob": 0.30365923047065735
+        },
+        {
+          "token": " not",
+          "prob": 0.19721227884292603
+        },
+        {
+          "token": " in",
+          "prob": 0.014076978899538517
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 0.002072
+    },
+    {
+      "s2": 7.4695,
+      "surprisal": 16.334,
+      "entropy": 8.8645,
+      "era": "new_york_school",
+      "title": "A Wave (opening)",
+      "author": "John Ashbery",
+      "copula": " is",
+      "predicate": " relevant",
+      "rank": 3546,
+      "alternatives": [
+        {
+          "token": ".",
+          "prob": 0.06121186539530754
+        },
+        {
+          "token": " to",
+          "prob": 0.05762092024087906
+        },
+        {
+          "token": "\n",
+          "prob": 0.05325527861714363
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 0.054187
+    },
+    {
+      "s2": 7.3551,
+      "surprisal": 17.0889,
+      "entropy": 9.7338,
+      "era": "metaphysical",
+      "title": "Death, Be Not Proud (Holy Sonnet X)",
+      "author": "John Donne",
+      "copula": "'s",
+      "predicate": " delivery",
+      "rank": 5892,
+      "alternatives": [
+        {
+          "token": " bones",
+          "prob": 0.04816067963838577
+        },
+        {
+          "token": ",",
+          "prob": 0.03476063162088394
+        },
+        {
+          "token": " body",
+          "prob": 0.027156837284564972
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 0.000681
+    },
+    {
+      "s2": 7.2203,
+      "surprisal": 15.4652,
+      "entropy": 8.2449,
+      "era": "haiku",
+      "title": "Nobody (Wright)",
+      "author": "Richard Wright",
+      "copula": " am",
+      "predicate": " nobody",
+      "rank": 2054,
+      "alternatives": [
+        {
+          "token": " not",
+          "prob": 0.10585814714431763
+        },
+        {
+          "token": " a",
+          "prob": 0.0668485090136528
+        },
+        {
+          "token": " very",
+          "prob": 0.029486941173672676
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 0.000311
+    },
+    {
+      "s2": 7.0538,
+      "surprisal": 15.7181,
+      "entropy": 8.6643,
+      "era": "contemporary",
+      "title": "Citizen (excerpt)",
+      "author": "Claudia Rankine",
+      "copula": " are",
+      "predicate": " nest",
+      "rank": 2301,
+      "alternatives": [
+        {
+          "token": " not",
+          "prob": 0.05330958589911461
+        },
+        {
+          "token": " in",
+          "prob": 0.04024571180343628
+        },
+        {
+          "token": " alone",
+          "prob": 0.03616476058959961
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 5.7e-05
+    },
+    {
+      "s2": 7.0538,
+      "surprisal": 15.7181,
+      "entropy": 8.6643,
+      "era": "prose_poetry",
+      "title": "Citizen (excerpt, section I)",
+      "author": "Claudia Rankine",
+      "copula": " are",
+      "predicate": " nest",
+      "rank": 2301,
+      "alternatives": [
+        {
+          "token": " not",
+          "prob": 0.05330958589911461
+        },
+        {
+          "token": " in",
+          "prob": 0.04024571180343628
+        },
+        {
+          "token": " alone",
+          "prob": 0.03616476058959961
+        }
+      ],
+      "is_control": false,
+      "context": "",
+      "p_newline": 5.7e-05
+    }
+  ],
+  "pct_positive_poetry": 40.23529411764706,
+  "pct_positive_prose": 0.0
+}

@@ -454,17 +454,17 @@ def experiment_syntactic_position(results):
         poetry = [r for r in results if r["metadata"].get("era") != "control" and r["metadata"].get("language", "en") == "en"]
         prose = [r for r in results if r["metadata"].get("era") == "control" and r["metadata"].get("language", "en") == "en"]
 
-        def accumulate(corpus):
+        def accumulate(corpus, min_tokens=5):
             cat_s2 = defaultdict(list)
             for entry in corpus:
                 toks = entry["tokens"]
                 pos_labels = get_pos_per_token(toks)
                 for tok, pos in zip(toks, pos_labels):
                     cat_s2[pos].append(tok["s2"])
-            return {cat: round(sum(v) / len(v), 3) for cat, v in cat_s2.items() if len(v) > 50}
+            return {cat: round(sum(v) / len(v), 3) for cat, v in cat_s2.items() if len(v) >= min_tokens}
 
-        poetry_stats = accumulate(poetry)
-        prose_stats = accumulate(prose)
+        poetry_stats = accumulate(poetry, min_tokens=50)
+        prose_stats = accumulate(prose, min_tokens=5)
 
         CATS = ["NOUN", "VERB", "ADJ", "ADV", "AUX", "PREP", "DET", "CONJ", "PRON", "PUNCT"]
         lines.append("| POS | Poetry AvgS₂ | Prose AvgS₂ | Δ S₂ |")

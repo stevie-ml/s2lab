@@ -1,0 +1,454 @@
+{
+  "entropy_median": 6.4869,
+  "n_poems_analyzed": 70,
+  "n_stanzas_analyzed": 209,
+  "global": {
+    "pct_deviate_early": 53.1,
+    "mean_arc_I": -1.68,
+    "mean_arc_III": 17.56
+  },
+  "by_stanza_position": {
+    "first": {
+      "n": 67,
+      "mean_arc_I": -1.73,
+      "pct_deviate_early": 61.2
+    },
+    "middle": {
+      "n": 78,
+      "mean_arc_I": -3.0,
+      "pct_deviate_early": 48.7
+    },
+    "last": {
+      "n": 64,
+      "mean_arc_I": -0.02,
+      "pct_deviate_early": 50.0
+    }
+  },
+  "era_rows": [
+    {
+      "era": "early_modern",
+      "n": 3,
+      "mean_arc": -13.53,
+      "neg_pct": 100.0
+    },
+    {
+      "era": "fixed_form",
+      "n": 25,
+      "mean_arc": -7.13,
+      "neg_pct": 56.0
+    },
+    {
+      "era": "metaphysical",
+      "n": 3,
+      "mean_arc": -6.63,
+      "neg_pct": 66.7
+    },
+    {
+      "era": "harlem_renaissance",
+      "n": 4,
+      "mean_arc": -5.9,
+      "neg_pct": 100.0
+    },
+    {
+      "era": "new_york_school",
+      "n": 7,
+      "mean_arc": -4.69,
+      "neg_pct": 71.4
+    },
+    {
+      "era": "19th_century",
+      "n": 20,
+      "mean_arc": -3.48,
+      "neg_pct": 65.0
+    },
+    {
+      "era": "ballad",
+      "n": 22,
+      "mean_arc": -2.65,
+      "neg_pct": 59.1
+    },
+    {
+      "era": "song_lyrics",
+      "n": 13,
+      "mean_arc": -2.45,
+      "neg_pct": 53.8
+    },
+    {
+      "era": "modernist",
+      "n": 18,
+      "mean_arc": -2.43,
+      "neg_pct": 55.6
+    },
+    {
+      "era": "victorian",
+      "n": 34,
+      "mean_arc": -0.54,
+      "neg_pct": 52.9
+    },
+    {
+      "era": "romantic",
+      "n": 20,
+      "mean_arc": -0.18,
+      "neg_pct": 45.0
+    },
+    {
+      "era": "cliche_control",
+      "n": 9,
+      "mean_arc": 0.43,
+      "neg_pct": 44.4
+    },
+    {
+      "era": "prose_poetry",
+      "n": 9,
+      "mean_arc": 1.76,
+      "neg_pct": 33.3
+    },
+    {
+      "era": "confessional",
+      "n": 8,
+      "mean_arc": 4.39,
+      "neg_pct": 37.5
+    },
+    {
+      "era": "contemporary",
+      "n": 4,
+      "mean_arc": 7.32,
+      "neg_pct": 50.0
+    },
+    {
+      "era": "haiku",
+      "n": 3,
+      "mean_arc": 10.33,
+      "neg_pct": 0.0
+    },
+    {
+      "era": "nursery_rhyme",
+      "n": 5,
+      "mean_arc": 11.0,
+      "neg_pct": 0.0
+    }
+  ],
+  "poem_level_pct_deviate_early": 64.6,
+  "stanza_arcs_sample": [
+    {
+      "poem": "The Convergence of the Twain (excerpt)",
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "stanza_idx": 0,
+      "n_stanzas": 3,
+      "stanza_position": "first",
+      "n": 26,
+      "first_I": 37.5,
+      "last_I": 0.0,
+      "first_III": 12.5,
+      "last_III": 33.3,
+      "arc_I": -37.5,
+      "arc_III": 20.8,
+      "arc_contrast": -0.5833
+    },
+    {
+      "poem": "The House on the Hill",
+      "author": "Edwin Arlington Robinson",
+      "era": "fixed_form",
+      "stanza_idx": 3,
+      "n_stanzas": 5,
+      "stanza_position": "middle",
+      "n": 19,
+      "first_I": 33.3,
+      "last_I": 0.0,
+      "first_III": 33.3,
+      "last_III": 100.0,
+      "arc_I": -33.3,
+      "arc_III": 66.7,
+      "arc_contrast": -1.0
+    },
+    {
+      "poem": "Crossing (excerpt)",
+      "author": "Rae Armantrout",
+      "era": "prose_poetry",
+      "stanza_idx": 1,
+      "n_stanzas": 4,
+      "stanza_position": "middle",
+      "n": 30,
+      "first_I": 30.0,
+      "last_I": 0.0,
+      "first_III": 10.0,
+      "last_III": 60.0,
+      "arc_I": -30.0,
+      "arc_III": 50.0,
+      "arc_contrast": -0.8
+    },
+    {
+      "poem": "I heard a Fly buzz \u2014 when I died",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "stanza_idx": 1,
+      "n_stanzas": 4,
+      "stanza_position": "middle",
+      "n": 34,
+      "first_I": 36.4,
+      "last_I": 8.3,
+      "first_III": 27.3,
+      "last_III": 33.3,
+      "arc_I": -28.1,
+      "arc_III": 6.0,
+      "arc_contrast": -0.3409
+    },
+    {
+      "poem": "The Oxen",
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "stanza_idx": 2,
+      "n_stanzas": 4,
+      "stanza_position": "middle",
+      "n": 34,
+      "first_I": 36.4,
+      "last_I": 8.3,
+      "first_III": 18.2,
+      "last_III": 50.0,
+      "arc_I": -28.1,
+      "arc_III": 31.8,
+      "arc_contrast": -0.5985
+    },
+    {
+      "poem": "They Flee from Me",
+      "author": "Thomas Wyatt",
+      "era": "early_modern",
+      "stanza_idx": 1,
+      "n_stanzas": 3,
+      "stanza_position": "middle",
+      "n": 66,
+      "first_I": 36.4,
+      "last_I": 9.1,
+      "first_III": 13.6,
+      "last_III": 27.3,
+      "arc_I": -27.3,
+      "arc_III": 13.7,
+      "arc_contrast": -0.4091
+    },
+    {
+      "poem": "Sestina of the Tramp-Royal (opening stanzas)",
+      "author": "Rudyard Kipling",
+      "era": "fixed_form",
+      "stanza_idx": 1,
+      "n_stanzas": 2,
+      "stanza_position": "last",
+      "n": 49,
+      "first_I": 31.2,
+      "last_I": 5.9,
+      "first_III": 31.2,
+      "last_III": 47.1,
+      "arc_I": -25.3,
+      "arc_III": 15.9,
+      "arc_contrast": -0.4118
+    },
+    {
+      "poem": "Villanelle (A dainty thing's the Villanelle)",
+      "author": "William Ernest Henley",
+      "era": "fixed_form",
+      "stanza_idx": 3,
+      "n_stanzas": 4,
+      "stanza_position": "last",
+      "n": 26,
+      "first_I": 25.0,
+      "last_I": 0.0,
+      "first_III": 25.0,
+      "last_III": 100.0,
+      "arc_I": -25.0,
+      "arc_III": 75.0,
+      "arc_contrast": -1.0
+    },
+    {
+      "poem": "Because I could not stop for Death",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "stanza_idx": 0,
+      "n_stanzas": 2,
+      "stanza_position": "first",
+      "n": 29,
+      "first_I": 22.2,
+      "last_I": 0.0,
+      "first_III": 0.0,
+      "last_III": 30.0,
+      "arc_I": -22.2,
+      "arc_III": 30.0,
+      "arc_contrast": -0.5222
+    },
+    {
+      "poem": "My Heart Burns for You (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "stanza_idx": 1,
+      "n_stanzas": 3,
+      "stanza_position": "middle",
+      "n": 29,
+      "first_I": 22.2,
+      "last_I": 0.0,
+      "first_III": 66.7,
+      "last_III": 60.0,
+      "arc_I": -22.2,
+      "arc_III": -6.7,
+      "arc_contrast": -0.1556
+    },
+    {
+      "poem": "In After Days (rondeau)",
+      "author": "Austin Dobson",
+      "era": "fixed_form",
+      "stanza_idx": 0,
+      "n_stanzas": 2,
+      "stanza_position": "first",
+      "n": 43,
+      "first_I": 21.4,
+      "last_I": 0.0,
+      "first_III": 7.1,
+      "last_III": 26.7,
+      "arc_I": -21.4,
+      "arc_III": 19.6,
+      "arc_contrast": -0.4096
+    },
+    {
+      "poem": "One Art",
+      "author": "Elizabeth Bishop",
+      "era": "mid_century",
+      "stanza_idx": 1,
+      "n_stanzas": 2,
+      "stanza_position": "last",
+      "n": 30,
+      "first_I": 20.0,
+      "last_I": 0.0,
+      "first_III": 30.0,
+      "last_III": 80.0,
+      "arc_I": -20.0,
+      "arc_III": 50.0,
+      "arc_contrast": -0.7
+    },
+    {
+      "poem": "What Is Poetry",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "stanza_idx": 0,
+      "n_stanzas": 2,
+      "stanza_position": "first",
+      "n": 17,
+      "first_I": 20.0,
+      "last_I": 0.0,
+      "first_III": 20.0,
+      "last_III": 16.7,
+      "arc_I": -20.0,
+      "arc_III": -3.3,
+      "arc_contrast": -0.1667
+    },
+    {
+      "poem": "Villanelle (A dainty thing's the Villanelle)",
+      "author": "William Ernest Henley",
+      "era": "fixed_form",
+      "stanza_idx": 0,
+      "n_stanzas": 4,
+      "stanza_position": "first",
+      "n": 30,
+      "first_I": 30.0,
+      "last_I": 10.0,
+      "first_III": 10.0,
+      "last_III": 40.0,
+      "arc_I": -20.0,
+      "arc_III": 30.0,
+      "arc_contrast": -0.5
+    },
+    {
+      "poem": "Why I Am Not a Painter",
+      "author": "Frank O'Hara",
+      "era": "new_york_school",
+      "stanza_idx": 1,
+      "n_stanzas": 2,
+      "stanza_position": "last",
+      "n": 65,
+      "first_I": 33.3,
+      "last_I": 13.6,
+      "first_III": 42.9,
+      "last_III": 63.6,
+      "arc_I": -19.7,
+      "arc_III": 20.7,
+      "arc_contrast": -0.4048
+    },
+    {
+      "poem": "Life Is a Journey (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "stanza_idx": 0,
+      "n_stanzas": 3,
+      "stanza_position": "first",
+      "n": 34,
+      "first_I": 27.3,
+      "last_I": 8.3,
+      "first_III": 36.4,
+      "last_III": 58.3,
+      "arc_I": -19.0,
+      "arc_III": 21.9,
+      "arc_contrast": -0.4091
+    },
+    {
+      "poem": "anyone lived in a pretty how town",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "stanza_idx": 1,
+      "n_stanzas": 3,
+      "stanza_position": "middle",
+      "n": 33,
+      "first_I": 18.2,
+      "last_I": 0.0,
+      "first_III": 9.1,
+      "last_III": 18.2,
+      "arc_I": -18.2,
+      "arc_III": 9.1,
+      "arc_contrast": -0.2727
+    },
+    {
+      "poem": "Sir Patrick Spens",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "stanza_idx": 1,
+      "n_stanzas": 5,
+      "stanza_position": "middle",
+      "n": 34,
+      "first_I": 18.2,
+      "last_I": 0.0,
+      "first_III": 18.2,
+      "last_III": 33.3,
+      "arc_I": -18.2,
+      "arc_III": 15.1,
+      "arc_contrast": -0.3333
+    },
+    {
+      "poem": "The Wife of Usher's Well",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "stanza_idx": 3,
+      "n_stanzas": 4,
+      "stanza_position": "last",
+      "n": 33,
+      "first_I": 27.3,
+      "last_I": 9.1,
+      "first_III": 18.2,
+      "last_III": 36.4,
+      "arc_I": -18.2,
+      "arc_III": 18.2,
+      "arc_contrast": -0.3636
+    },
+    {
+      "poem": "Tears, Idle Tears",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "stanza_idx": 3,
+      "n_stanzas": 4,
+      "stanza_position": "last",
+      "n": 51,
+      "first_I": 17.6,
+      "last_I": 0.0,
+      "first_III": 29.4,
+      "last_III": 52.9,
+      "arc_I": -17.6,
+      "arc_III": 23.5,
+      "arc_contrast": -0.4118
+    }
+  ]
+}
