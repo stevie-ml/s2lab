@@ -1,0 +1,1398 @@
+{
+  "global_category_stats": {
+    "sentence_start": {
+      "n": 1665,
+      "mean_s2": 0.71,
+      "pos_ratio": 0.29
+    },
+    "line_start": {
+      "n": 5390,
+      "mean_s2": 1.815,
+      "pos_ratio": 0.437
+    },
+    "mid_upper": {
+      "n": 538,
+      "mean_s2": 1.082,
+      "pos_ratio": 0.472
+    },
+    "mid_lower": {
+      "n": 10753,
+      "mean_s2": -0.054,
+      "pos_ratio": 0.39
+    }
+  },
+  "poet_capitalization_profiles": [
+    {
+      "author": "Georg Trakl",
+      "upper_rate": 0.305,
+      "upper_n": 47,
+      "lower_n": 107,
+      "avg_s2_upper": 1.144,
+      "avg_s2_lower": 0.606,
+      "s2_delta": 0.539
+    },
+    {
+      "author": "Emily Dickinson",
+      "upper_rate": 0.225,
+      "upper_n": 29,
+      "lower_n": 100,
+      "avg_s2_upper": 4.225,
+      "avg_s2_lower": -0.323,
+      "s2_delta": 4.548
+    },
+    {
+      "author": "Thomas Jefferson (found text)",
+      "upper_rate": 0.218,
+      "upper_n": 12,
+      "lower_n": 43,
+      "avg_s2_upper": -0.985,
+      "avg_s2_lower": -1.348,
+      "s2_delta": 0.363
+    },
+    {
+      "author": "Frank O'Hara",
+      "upper_rate": 0.195,
+      "upper_n": 17,
+      "lower_n": 70,
+      "avg_s2_upper": 1.863,
+      "avg_s2_lower": 0.011,
+      "s2_delta": 1.852
+    },
+    {
+      "author": "Traditional (American sea chanty)",
+      "upper_rate": 0.163,
+      "upper_n": 15,
+      "lower_n": 77,
+      "avg_s2_upper": -1.446,
+      "avg_s2_lower": 0.433,
+      "s2_delta": -1.88
+    },
+    {
+      "author": "Isaac Newton (found text)",
+      "upper_rate": 0.156,
+      "upper_n": 7,
+      "lower_n": 38,
+      "avg_s2_upper": 0.689,
+      "avg_s2_lower": 0.026,
+      "s2_delta": 0.663
+    },
+    {
+      "author": "Rainer Maria Rilke",
+      "upper_rate": 0.155,
+      "upper_n": 20,
+      "lower_n": 109,
+      "avg_s2_upper": 2.339,
+      "avg_s2_lower": 1.101,
+      "s2_delta": 1.237
+    },
+    {
+      "author": "W.S. Merwin",
+      "upper_rate": 0.148,
+      "upper_n": 8,
+      "lower_n": 46,
+      "avg_s2_upper": -2.214,
+      "avg_s2_lower": -0.809,
+      "s2_delta": -1.405
+    },
+    {
+      "author": "Traditional (English/Scottish ballad)",
+      "upper_rate": 0.143,
+      "upper_n": 10,
+      "lower_n": 60,
+      "avg_s2_upper": -0.252,
+      "avg_s2_lower": 0.254,
+      "s2_delta": -0.505
+    },
+    {
+      "author": "Oscar Wilde",
+      "upper_rate": 0.13,
+      "upper_n": 6,
+      "lower_n": 40,
+      "avg_s2_upper": 3.453,
+      "avg_s2_lower": 0.053,
+      "s2_delta": 3.4
+    },
+    {
+      "author": "Andrew Marvell",
+      "upper_rate": 0.128,
+      "upper_n": 6,
+      "lower_n": 41,
+      "avg_s2_upper": 1.757,
+      "avg_s2_lower": -0.824,
+      "s2_delta": 2.58
+    },
+    {
+      "author": "Carl Sandburg",
+      "upper_rate": 0.115,
+      "upper_n": 6,
+      "lower_n": 46,
+      "avg_s2_upper": 4.07,
+      "avg_s2_lower": -0.105,
+      "s2_delta": 4.176
+    },
+    {
+      "author": "Charles Darwin (found text)",
+      "upper_rate": 0.098,
+      "upper_n": 5,
+      "lower_n": 46,
+      "avg_s2_upper": 0.561,
+      "avg_s2_lower": 0.005,
+      "s2_delta": 0.556
+    },
+    {
+      "author": "Dante Gabriel Rossetti",
+      "upper_rate": 0.093,
+      "upper_n": 8,
+      "lower_n": 78,
+      "avg_s2_upper": 1.59,
+      "avg_s2_lower": 0.057,
+      "s2_delta": 1.533
+    },
+    {
+      "author": "John Berryman",
+      "upper_rate": 0.091,
+      "upper_n": 4,
+      "lower_n": 40,
+      "avg_s2_upper": 0.207,
+      "avg_s2_lower": 1.097,
+      "s2_delta": -0.891
+    },
+    {
+      "author": "Vachel Lindsay",
+      "upper_rate": 0.087,
+      "upper_n": 4,
+      "lower_n": 42,
+      "avg_s2_upper": 2.276,
+      "avg_s2_lower": -1.426,
+      "s2_delta": 3.703
+    },
+    {
+      "author": "Sylvia Plath",
+      "upper_rate": 0.083,
+      "upper_n": 5,
+      "lower_n": 55,
+      "avg_s2_upper": 5.441,
+      "avg_s2_lower": -0.175,
+      "s2_delta": 5.616
+    },
+    {
+      "author": "Robert Browning",
+      "upper_rate": 0.08,
+      "upper_n": 4,
+      "lower_n": 46,
+      "avg_s2_upper": 6.948,
+      "avg_s2_lower": 0.475,
+      "s2_delta": 6.473
+    },
+    {
+      "author": "Traditional (American folk)",
+      "upper_rate": 0.08,
+      "upper_n": 11,
+      "lower_n": 127,
+      "avg_s2_upper": 0.054,
+      "avg_s2_lower": -0.844,
+      "s2_delta": 0.897
+    },
+    {
+      "author": "George Herbert",
+      "upper_rate": 0.078,
+      "upper_n": 10,
+      "lower_n": 119,
+      "avg_s2_upper": -1.601,
+      "avg_s2_lower": 0.244,
+      "s2_delta": -1.845
+    },
+    {
+      "author": "Countee Cullen",
+      "upper_rate": 0.077,
+      "upper_n": 6,
+      "lower_n": 72,
+      "avg_s2_upper": 2.898,
+      "avg_s2_lower": 0.148,
+      "s2_delta": 2.751
+    },
+    {
+      "author": "Langston Hughes",
+      "upper_rate": 0.073,
+      "upper_n": 9,
+      "lower_n": 114,
+      "avg_s2_upper": 1.414,
+      "avg_s2_lower": -0.697,
+      "s2_delta": 2.111
+    },
+    {
+      "author": "Alfred Lord Tennyson",
+      "upper_rate": 0.073,
+      "upper_n": 4,
+      "lower_n": 51,
+      "avg_s2_upper": -1.832,
+      "avg_s2_lower": 0.387,
+      "s2_delta": -2.218
+    },
+    {
+      "author": "Edgar Allan Poe",
+      "upper_rate": 0.068,
+      "upper_n": 33,
+      "lower_n": 455,
+      "avg_s2_upper": -0.17,
+      "avg_s2_lower": -0.412,
+      "s2_delta": 0.241
+    },
+    {
+      "author": "Rudyard Kipling",
+      "upper_rate": 0.068,
+      "upper_n": 10,
+      "lower_n": 138,
+      "avg_s2_upper": 0.182,
+      "avg_s2_lower": -0.238,
+      "s2_delta": 0.42
+    },
+    {
+      "author": "Traditional (Scottish ballad)",
+      "upper_rate": 0.061,
+      "upper_n": 26,
+      "lower_n": 401,
+      "avg_s2_upper": 0.846,
+      "avg_s2_lower": 0.106,
+      "s2_delta": 0.739
+    },
+    {
+      "author": "Percy Bysshe Shelley",
+      "upper_rate": 0.056,
+      "upper_n": 13,
+      "lower_n": 218,
+      "avg_s2_upper": 1.441,
+      "avg_s2_lower": 0.17,
+      "s2_delta": 1.271
+    },
+    {
+      "author": "Ocean Vuong",
+      "upper_rate": 0.056,
+      "upper_n": 1,
+      "lower_n": 17,
+      "avg_s2_upper": -2.929,
+      "avg_s2_lower": -0.415,
+      "s2_delta": -2.514
+    },
+    {
+      "author": "Robert Lowell",
+      "upper_rate": 0.056,
+      "upper_n": 2,
+      "lower_n": 34,
+      "avg_s2_upper": 4.324,
+      "avg_s2_lower": -0.131,
+      "s2_delta": 4.456
+    },
+    {
+      "author": "Philip Larkin",
+      "upper_rate": 0.055,
+      "upper_n": 3,
+      "lower_n": 52,
+      "avg_s2_upper": -3.732,
+      "avg_s2_lower": 0.417,
+      "s2_delta": -4.149
+    }
+  ],
+  "lowercasing_comparisons": [
+    {
+      "title": "Because I could not stop for Death",
+      "author": "Emily Dickinson",
+      "orig_avg_s2": 0.537,
+      "lower_avg_s2": 1.1791,
+      "avg_s2_delta": -0.642,
+      "n_changed_tokens": 44,
+      "changed_tokens": [
+        {
+          "position": 1,
+          "original_token": " I",
+          "lower_token": " i",
+          "orig_s2": -3.774,
+          "lower_s2": 1.5011,
+          "s2_delta": -5.275
+        },
+        {
+          "position": 6,
+          "original_token": " Death",
+          "lower_token": " death",
+          "orig_s2": 12.8561,
+          "lower_s2": 7.5876,
+          "s2_delta": 5.268
+        },
+        {
+          "position": 9,
+          "original_token": "He",
+          "lower_token": "he",
+          "orig_s2": 17.2119,
+          "lower_s2": 19.134,
+          "s2_delta": -1.922
+        },
+        {
+          "position": 16,
+          "original_token": "The",
+          "lower_token": "the",
+          "orig_s2": -1.1084,
+          "lower_s2": 0.79,
+          "s2_delta": -1.898
+        },
+        {
+          "position": 17,
+          "original_token": " Car",
+          "lower_token": " carriage",
+          "orig_s2": 3.1641,
+          "lower_s2": 1.2692,
+          "s2_delta": 1.895
+        },
+        {
+          "position": 18,
+          "original_token": "riage",
+          "lower_token": " held",
+          "orig_s2": -1.7685,
+          "lower_s2": 2.0413,
+          "s2_delta": -3.81
+        },
+        {
+          "position": 19,
+          "original_token": " held",
+          "lower_token": " but",
+          "orig_s2": 1.193,
+          "lower_s2": 3.4771,
+          "s2_delta": -2.284
+        },
+        {
+          "position": 20,
+          "original_token": " but",
+          "lower_token": " just",
+          "orig_s2": 2.9199,
+          "lower_s2": 1.4792,
+          "s2_delta": 1.441
+        },
+        {
+          "position": 21,
+          "original_token": " just",
+          "lower_token": " ourselves",
+          "orig_s2": 1.8802,
+          "lower_s2": 10.9717,
+          "s2_delta": -9.091
+        },
+        {
+          "position": 22,
+          "original_token": " Our",
+          "lower_token": " \u2013",
+          "orig_s2": 10.2034,
+          "lower_s2": -4.427,
+          "s2_delta": 14.63
+        },
+        {
+          "position": 23,
+          "original_token": "selves",
+          "lower_token": "\n",
+          "orig_s2": -5.0191,
+          "lower_s2": -2.0551,
+          "s2_delta": -2.964
+        },
+        {
+          "position": 24,
+          "original_token": " \u2013",
+          "lower_token": "and",
+          "orig_s2": -4.8918,
+          "lower_s2": -3.3531,
+          "s2_delta": -1.539
+        },
+        {
+          "position": 25,
+          "original_token": "\n",
+          "lower_token": " immortality",
+          "orig_s2": -2.6311,
+          "lower_s2": 10.6059,
+          "s2_delta": -13.237
+        },
+        {
+          "position": 26,
+          "original_token": "And",
+          "lower_token": ".",
+          "orig_s2": -3.7816,
+          "lower_s2": -2.4104,
+          "s2_delta": -1.371
+        },
+        {
+          "position": 27,
+          "original_token": " Imm",
+          "lower_token": "\n",
+          "orig_s2": 4.8306,
+          "lower_s2": -3.3085,
+          "s2_delta": 8.139
+        },
+        {
+          "position": 28,
+          "original_token": "ortality",
+          "lower_token": "\n",
+          "orig_s2": -1.4756,
+          "lower_s2": -4.6464,
+          "s2_delta": 3.171
+        },
+        {
+          "position": 29,
+          "original_token": ".",
+          "lower_token": "we",
+          "orig_s2": -2.7603,
+          "lower_s2": -1.1506,
+          "s2_delta": -1.61
+        },
+        {
+          "position": 30,
+          "original_token": "\n",
+          "lower_token": " slowly",
+          "orig_s2": -3.1645,
+          "lower_s2": 1.5867,
+          "s2_delta": -4.751
+        },
+        {
+          "position": 31,
+          "original_token": "\n",
+          "lower_token": " drove",
+          "orig_s2": 0.1098,
+          "lower_s2": -1.0196,
+          "s2_delta": 1.129
+        },
+        {
+          "position": 32,
+          "original_token": "We",
+          "lower_token": " \u2013",
+          "orig_s2": -2.7491,
+          "lower_s2": 0.0783,
+          "s2_delta": -2.827
+        }
+      ],
+      "high_delta_tokens": [
+        {
+          "position": 22,
+          "original_token": " Our",
+          "lower_token": " \u2013",
+          "orig_s2": 10.2034,
+          "lower_s2": -4.427,
+          "s2_delta": 14.63
+        },
+        {
+          "position": 25,
+          "original_token": "\n",
+          "lower_token": " immortality",
+          "orig_s2": -2.6311,
+          "lower_s2": 10.6059,
+          "s2_delta": -13.237
+        },
+        {
+          "position": 47,
+          "original_token": "My",
+          "lower_token": " my",
+          "orig_s2": 7.0443,
+          "lower_s2": -6.0035,
+          "s2_delta": 13.048
+        },
+        {
+          "position": 44,
+          "original_token": " put",
+          "lower_token": "my",
+          "orig_s2": 2.186,
+          "lower_s2": 13.6322,
+          "s2_delta": -11.446
+        },
+        {
+          "position": 21,
+          "original_token": " just",
+          "lower_token": " ourselves",
+          "orig_s2": 1.8802,
+          "lower_s2": 10.9717,
+          "s2_delta": -9.091
+        },
+        {
+          "position": 27,
+          "original_token": " Imm",
+          "lower_token": "\n",
+          "orig_s2": 4.8306,
+          "lower_s2": -3.3085,
+          "s2_delta": 8.139
+        },
+        {
+          "position": 49,
+          "original_token": " and",
+          "lower_token": " too",
+          "orig_s2": -2.0923,
+          "lower_s2": 5.7179,
+          "s2_delta": -7.81
+        },
+        {
+          "position": 54,
+          "original_token": "\n",
+          "lower_token": " civ",
+          "orig_s2": -2.265,
+          "lower_s2": 5.0765,
+          "s2_delta": -7.341
+        },
+        {
+          "position": 50,
+          "original_token": " my",
+          "lower_token": ",",
+          "orig_s2": -6.5539,
+          "lower_s2": 0.6487,
+          "s2_delta": -7.203
+        },
+        {
+          "position": 38,
+          "original_token": " no",
+          "lower_token": "and",
+          "orig_s2": -0.0962,
+          "lower_s2": 6.6359,
+          "s2_delta": -6.732
+        }
+      ]
+    },
+    {
+      "title": "I felt a Funeral, in my Brain",
+      "author": "Emily Dickinson",
+      "orig_avg_s2": 0.4799,
+      "lower_avg_s2": 1.3749,
+      "avg_s2_delta": -0.895,
+      "n_changed_tokens": 64,
+      "changed_tokens": [
+        {
+          "position": 3,
+          "original_token": " Fun",
+          "lower_token": " funeral",
+          "orig_s2": 18.9026,
+          "lower_s2": 9.8198,
+          "s2_delta": 9.083
+        },
+        {
+          "position": 4,
+          "original_token": "eral",
+          "lower_token": ",",
+          "orig_s2": -5.7859,
+          "lower_s2": -1.9808,
+          "s2_delta": -3.805
+        },
+        {
+          "position": 5,
+          "original_token": ",",
+          "lower_token": " in",
+          "orig_s2": -2.6623,
+          "lower_s2": 0.1085,
+          "s2_delta": -2.771
+        },
+        {
+          "position": 6,
+          "original_token": " in",
+          "lower_token": " my",
+          "orig_s2": 0.0507,
+          "lower_s2": 1.0205,
+          "s2_delta": -0.97
+        },
+        {
+          "position": 7,
+          "original_token": " my",
+          "lower_token": " brain",
+          "orig_s2": -2.7118,
+          "lower_s2": 3.8348,
+          "s2_delta": -6.547
+        },
+        {
+          "position": 8,
+          "original_token": " Brain",
+          "lower_token": ",",
+          "orig_s2": 7.9182,
+          "lower_s2": -3.3491,
+          "s2_delta": 11.267
+        },
+        {
+          "position": 9,
+          "original_token": ",",
+          "lower_token": "\n",
+          "orig_s2": -4.1949,
+          "lower_s2": 4.0391,
+          "s2_delta": -8.234
+        },
+        {
+          "position": 10,
+          "original_token": "\n",
+          "lower_token": "and",
+          "orig_s2": -1.5922,
+          "lower_s2": 16.3368,
+          "s2_delta": -17.929
+        },
+        {
+          "position": 11,
+          "original_token": "And",
+          "lower_token": " mourn",
+          "orig_s2": 13.4393,
+          "lower_s2": 3.3783,
+          "s2_delta": 10.061
+        },
+        {
+          "position": 12,
+          "original_token": " M",
+          "lower_token": "ers",
+          "orig_s2": 3.1608,
+          "lower_s2": 3.8891,
+          "s2_delta": -0.728
+        },
+        {
+          "position": 13,
+          "original_token": "ourn",
+          "lower_token": " all",
+          "orig_s2": -4.3731,
+          "lower_s2": -0.6836,
+          "s2_delta": -3.689
+        },
+        {
+          "position": 14,
+          "original_token": "ers",
+          "lower_token": " around",
+          "orig_s2": -0.685,
+          "lower_s2": -3.613,
+          "s2_delta": 2.928
+        },
+        {
+          "position": 15,
+          "original_token": " all",
+          "lower_token": ",",
+          "orig_s2": -0.919,
+          "lower_s2": -0.0078,
+          "s2_delta": -0.911
+        },
+        {
+          "position": 16,
+          "original_token": " around",
+          "lower_token": "\n",
+          "orig_s2": -5.0541,
+          "lower_s2": -4.8602,
+          "s2_delta": -0.194
+        },
+        {
+          "position": 17,
+          "original_token": ",",
+          "lower_token": "were",
+          "orig_s2": -1.3866,
+          "lower_s2": 0.2037,
+          "s2_delta": -1.59
+        },
+        {
+          "position": 18,
+          "original_token": "\n",
+          "lower_token": " tread",
+          "orig_s2": -4.1625,
+          "lower_s2": 5.8623,
+          "s2_delta": -10.025
+        },
+        {
+          "position": 19,
+          "original_token": "Were",
+          "lower_token": "ing",
+          "orig_s2": 0.2593,
+          "lower_s2": -0.2455,
+          "s2_delta": 0.505
+        },
+        {
+          "position": 20,
+          "original_token": " tread",
+          "lower_token": " \u2013",
+          "orig_s2": 3.727,
+          "lower_s2": 8.3417,
+          "s2_delta": -4.615
+        },
+        {
+          "position": 21,
+          "original_token": "ing",
+          "lower_token": " tread",
+          "orig_s2": -0.7433,
+          "lower_s2": -0.1444,
+          "s2_delta": -0.599
+        },
+        {
+          "position": 22,
+          "original_token": " \u2013",
+          "lower_token": "ing",
+          "orig_s2": 6.6975,
+          "lower_s2": -0.556,
+          "s2_delta": 7.253
+        }
+      ],
+      "high_delta_tokens": [
+        {
+          "position": 52,
+          "original_token": " \u2013",
+          "lower_token": "kept",
+          "orig_s2": 0.2454,
+          "lower_s2": 38.4087,
+          "s2_delta": -38.163
+        },
+        {
+          "position": 54,
+          "original_token": "Ke",
+          "lower_token": " \u2013",
+          "orig_s2": 32.9984,
+          "lower_s2": -1.4,
+          "s2_delta": 34.398
+        },
+        {
+          "position": 64,
+          "original_token": "My",
+          "lower_token": " going",
+          "orig_s2": 22.6779,
+          "lower_s2": -3.453,
+          "s2_delta": 26.131
+        },
+        {
+          "position": 44,
+          "original_token": ",",
+          "lower_token": "a",
+          "orig_s2": -2.704,
+          "lower_s2": 19.8195,
+          "s2_delta": -22.524
+        },
+        {
+          "position": 61,
+          "original_token": " I",
+          "lower_token": "my",
+          "orig_s2": 0.8039,
+          "lower_s2": 22.9394,
+          "s2_delta": -22.136
+        },
+        {
+          "position": 46,
+          "original_token": "A",
+          "lower_token": ",",
+          "orig_s2": 21.5741,
+          "lower_s2": -0.4899,
+          "s2_delta": 22.064
+        },
+        {
+          "position": 10,
+          "original_token": "\n",
+          "lower_token": "and",
+          "orig_s2": -1.5922,
+          "lower_s2": 16.3368,
+          "s2_delta": -17.929
+        },
+        {
+          "position": 58,
+          "original_token": " beating",
+          "lower_token": " i",
+          "orig_s2": -5.2045,
+          "lower_s2": 8.7492,
+          "s2_delta": -13.954
+        },
+        {
+          "position": 29,
+          "original_token": "\n",
+          "lower_token": " sense",
+          "orig_s2": -4.2183,
+          "lower_s2": 9.3381,
+          "s2_delta": -13.556
+        },
+        {
+          "position": 8,
+          "original_token": " Brain",
+          "lower_token": ",",
+          "orig_s2": 7.9182,
+          "lower_s2": -3.3491,
+          "s2_delta": 11.267
+        }
+      ]
+    },
+    {
+      "title": "A Route of Evanescence",
+      "author": "Emily Dickinson",
+      "orig_avg_s2": 0.227,
+      "lower_avg_s2": 0.0454,
+      "avg_s2_delta": 0.182,
+      "n_changed_tokens": 55,
+      "changed_tokens": [
+        {
+          "position": 1,
+          "original_token": " Route",
+          "lower_token": " route",
+          "orig_s2": 5.4451,
+          "lower_s2": 3.8168,
+          "s2_delta": 1.628
+        },
+        {
+          "position": 3,
+          "original_token": " Evan",
+          "lower_token": " ev",
+          "orig_s2": 7.7222,
+          "lower_s2": 3.8188,
+          "s2_delta": 3.903
+        },
+        {
+          "position": 4,
+          "original_token": "esc",
+          "lower_token": "an",
+          "orig_s2": 8.7516,
+          "lower_s2": 4.8029,
+          "s2_delta": 3.949
+        },
+        {
+          "position": 5,
+          "original_token": "ence",
+          "lower_token": "esc",
+          "orig_s2": -0.0671,
+          "lower_s2": -4.6389,
+          "s2_delta": 4.572
+        },
+        {
+          "position": 6,
+          "original_token": ",",
+          "lower_token": "ence",
+          "orig_s2": -3.5578,
+          "lower_s2": -0.2764,
+          "s2_delta": -3.281
+        },
+        {
+          "position": 7,
+          "original_token": "\n",
+          "lower_token": ",",
+          "orig_s2": -3.4329,
+          "lower_s2": -2.9595,
+          "s2_delta": -0.473
+        },
+        {
+          "position": 8,
+          "original_token": "With",
+          "lower_token": "\n",
+          "orig_s2": 16.7411,
+          "lower_s2": -0.9054,
+          "s2_delta": 17.646
+        },
+        {
+          "position": 9,
+          "original_token": " a",
+          "lower_token": "with",
+          "orig_s2": -6.7911,
+          "lower_s2": 20.6978,
+          "s2_delta": -27.489
+        },
+        {
+          "position": 10,
+          "original_token": " revolving",
+          "lower_token": " a",
+          "orig_s2": 1.3899,
+          "lower_s2": -5.2355,
+          "s2_delta": 6.625
+        },
+        {
+          "position": 11,
+          "original_token": " Wheel",
+          "lower_token": " revolving",
+          "orig_s2": 7.9145,
+          "lower_s2": 1.2826,
+          "s2_delta": 6.632
+        },
+        {
+          "position": 12,
+          "original_token": "\u2014",
+          "lower_token": " wheel",
+          "orig_s2": 6.0665,
+          "lower_s2": -4.1465,
+          "s2_delta": 10.213
+        },
+        {
+          "position": 13,
+          "original_token": "\n",
+          "lower_token": "\u2014",
+          "orig_s2": -6.1439,
+          "lower_s2": 2.8776,
+          "s2_delta": -9.021
+        },
+        {
+          "position": 14,
+          "original_token": "A",
+          "lower_token": "\n",
+          "orig_s2": -3.3315,
+          "lower_s2": -5.0709,
+          "s2_delta": 1.739
+        },
+        {
+          "position": 15,
+          "original_token": " Reson",
+          "lower_token": "a",
+          "orig_s2": 2.542,
+          "lower_s2": 11.7815,
+          "s2_delta": -9.239
+        },
+        {
+          "position": 16,
+          "original_token": "ance",
+          "lower_token": " resonance",
+          "orig_s2": -1.1851,
+          "lower_s2": 4.0942,
+          "s2_delta": -5.279
+        },
+        {
+          "position": 18,
+          "original_token": " Emerald",
+          "lower_token": " emer",
+          "orig_s2": 5.1853,
+          "lower_s2": 3.4646,
+          "s2_delta": 1.721
+        },
+        {
+          "position": 19,
+          "original_token": ",",
+          "lower_token": "ald",
+          "orig_s2": -2.6104,
+          "lower_s2": 1.9609,
+          "s2_delta": -4.571
+        },
+        {
+          "position": 20,
+          "original_token": "\n",
+          "lower_token": ",",
+          "orig_s2": -2.5958,
+          "lower_s2": -2.38,
+          "s2_delta": -0.216
+        },
+        {
+          "position": 21,
+          "original_token": "A",
+          "lower_token": "\n",
+          "orig_s2": -3.455,
+          "lower_s2": -5.6445,
+          "s2_delta": 2.189
+        },
+        {
+          "position": 22,
+          "original_token": " Rush",
+          "lower_token": "a",
+          "orig_s2": 1.1803,
+          "lower_s2": -1.4847,
+          "s2_delta": 2.665
+        }
+      ],
+      "high_delta_tokens": [
+        {
+          "position": 9,
+          "original_token": " a",
+          "lower_token": "with",
+          "orig_s2": -6.7911,
+          "lower_s2": 20.6978,
+          "s2_delta": -27.489
+        },
+        {
+          "position": 8,
+          "original_token": "With",
+          "lower_token": "\n",
+          "orig_s2": 16.7411,
+          "lower_s2": -0.9054,
+          "s2_delta": 17.646
+        },
+        {
+          "position": 49,
+          "original_token": " probably",
+          "lower_token": " from",
+          "orig_s2": 14.8591,
+          "lower_s2": -1.9639,
+          "s2_delta": 16.823
+        },
+        {
+          "position": 50,
+          "original_token": ",",
+          "lower_token": " tun",
+          "orig_s2": -5.4732,
+          "lower_s2": 10.677,
+          "s2_delta": -16.15
+        },
+        {
+          "position": 47,
+          "original_token": " Tunis",
+          "lower_token": "the",
+          "orig_s2": 9.2866,
+          "lower_s2": -4.611,
+          "s2_delta": 13.898
+        },
+        {
+          "position": 53,
+          "original_token": " easy",
+          "lower_token": " probably",
+          "orig_s2": -0.8763,
+          "lower_s2": 11.4477,
+          "s2_delta": -12.324
+        },
+        {
+          "position": 12,
+          "original_token": "\u2014",
+          "lower_token": " wheel",
+          "orig_s2": 6.0665,
+          "lower_s2": -4.1465,
+          "s2_delta": 10.213
+        },
+        {
+          "position": 48,
+          "original_token": ",",
+          "lower_token": " mail",
+          "orig_s2": -5.4292,
+          "lower_s2": 4.5515,
+          "s2_delta": -9.981
+        },
+        {
+          "position": 30,
+          "original_token": " every",
+          "lower_token": "\n",
+          "orig_s2": 6.1677,
+          "lower_s2": -3.7925,
+          "s2_delta": 9.96
+        },
+        {
+          "position": 39,
+          "original_token": " t",
+          "lower_token": "adjust",
+          "orig_s2": -0.6874,
+          "lower_s2": 9.2027,
+          "s2_delta": -9.89
+        }
+      ]
+    },
+    {
+      "title": "Song of Myself (section 1)",
+      "author": "Walt Whitman",
+      "orig_avg_s2": 1.4188,
+      "lower_avg_s2": 1.4616,
+      "avg_s2_delta": -0.043,
+      "n_changed_tokens": 5,
+      "changed_tokens": [
+        {
+          "position": 9,
+          "original_token": "And",
+          "lower_token": "and",
+          "orig_s2": 16.1878,
+          "lower_s2": 17.4802,
+          "s2_delta": -1.292
+        },
+        {
+          "position": 11,
+          "original_token": " I",
+          "lower_token": " i",
+          "orig_s2": -4.2494,
+          "lower_s2": 3.931,
+          "s2_delta": -8.18
+        },
+        {
+          "position": 18,
+          "original_token": "For",
+          "lower_token": "for",
+          "orig_s2": -0.9441,
+          "lower_s2": -1.5303,
+          "s2_delta": 0.586
+        },
+        {
+          "position": 32,
+          "original_token": "I",
+          "lower_token": "i",
+          "orig_s2": -4.1317,
+          "lower_s2": 0.5256,
+          "s2_delta": -4.657
+        },
+        {
+          "position": 41,
+          "original_token": "I",
+          "lower_token": "i",
+          "orig_s2": 20.7972,
+          "lower_s2": 21.9675,
+          "s2_delta": -1.17
+        }
+      ],
+      "high_delta_tokens": [
+        {
+          "position": 11,
+          "original_token": " I",
+          "lower_token": " i",
+          "orig_s2": -4.2494,
+          "lower_s2": 3.931,
+          "s2_delta": -8.18
+        },
+        {
+          "position": 32,
+          "original_token": "I",
+          "lower_token": "i",
+          "orig_s2": -4.1317,
+          "lower_s2": 0.5256,
+          "s2_delta": -4.657
+        },
+        {
+          "position": 9,
+          "original_token": "And",
+          "lower_token": "and",
+          "orig_s2": 16.1878,
+          "lower_s2": 17.4802,
+          "s2_delta": -1.292
+        },
+        {
+          "position": 41,
+          "original_token": "I",
+          "lower_token": "i",
+          "orig_s2": 20.7972,
+          "lower_s2": 21.9675,
+          "s2_delta": -1.17
+        },
+        {
+          "position": 18,
+          "original_token": "For",
+          "lower_token": "for",
+          "orig_s2": -0.9441,
+          "lower_s2": -1.5303,
+          "s2_delta": 0.586
+        }
+      ]
+    },
+    {
+      "title": "Buffalo Bill 's",
+      "author": "E.E. Cummings",
+      "orig_avg_s2": -0.3134,
+      "lower_avg_s2": -0.3677,
+      "avg_s2_delta": 0.054,
+      "n_changed_tokens": 31,
+      "changed_tokens": [
+        {
+          "position": 2,
+          "original_token": " Bill",
+          "lower_token": " bill",
+          "orig_s2": -2.9401,
+          "lower_s2": 7.9604,
+          "s2_delta": -10.901
+        },
+        {
+          "position": 140,
+          "original_token": " Jesus",
+          "lower_token": " j",
+          "orig_s2": 19.0326,
+          "lower_s2": 8.3041,
+          "s2_delta": 10.728
+        },
+        {
+          "position": 141,
+          "original_token": "\n",
+          "lower_token": "es",
+          "orig_s2": -8.0148,
+          "lower_s2": -2.0209,
+          "s2_delta": -5.994
+        },
+        {
+          "position": 142,
+          "original_token": "\n",
+          "lower_token": "us",
+          "orig_s2": -6.0826,
+          "lower_s2": -2.2207,
+          "s2_delta": -3.862
+        },
+        {
+          "position": 143,
+          "original_token": "he",
+          "lower_token": "\n",
+          "orig_s2": -2.2776,
+          "lower_s2": -7.5217,
+          "s2_delta": 5.244
+        },
+        {
+          "position": 144,
+          "original_token": " was",
+          "lower_token": "\n",
+          "orig_s2": -3.9352,
+          "lower_s2": -4.0808,
+          "s2_delta": 0.146
+        },
+        {
+          "position": 145,
+          "original_token": " a",
+          "lower_token": "he",
+          "orig_s2": -6.3931,
+          "lower_s2": -2.1081,
+          "s2_delta": -4.285
+        },
+        {
+          "position": 146,
+          "original_token": " handsome",
+          "lower_token": " was",
+          "orig_s2": -0.2833,
+          "lower_s2": -4.0509,
+          "s2_delta": 3.768
+        },
+        {
+          "position": 147,
+          "original_token": " man",
+          "lower_token": " a",
+          "orig_s2": -5.2675,
+          "lower_s2": -6.5958,
+          "s2_delta": 1.328
+        },
+        {
+          "position": 148,
+          "original_token": "\n",
+          "lower_token": " handsome",
+          "orig_s2": -3.6527,
+          "lower_s2": -0.3139,
+          "s2_delta": -3.339
+        },
+        {
+          "position": 149,
+          "original_token": " ",
+          "lower_token": " man",
+          "orig_s2": 14.9113,
+          "lower_s2": -5.3563,
+          "s2_delta": 20.268
+        },
+        {
+          "position": 168,
+          "original_token": " and",
+          "lower_token": " ",
+          "orig_s2": 18.6042,
+          "lower_s2": -0.0412,
+          "s2_delta": 18.645
+        },
+        {
+          "position": 169,
+          "original_token": " what",
+          "lower_token": " ",
+          "orig_s2": -0.0154,
+          "lower_s2": -0.0408,
+          "s2_delta": 0.025
+        },
+        {
+          "position": 170,
+          "original_token": " i",
+          "lower_token": " and",
+          "orig_s2": 1.2853,
+          "lower_s2": 18.3734,
+          "s2_delta": -17.088
+        },
+        {
+          "position": 171,
+          "original_token": " want",
+          "lower_token": " what",
+          "orig_s2": -1.1638,
+          "lower_s2": -0.3687,
+          "s2_delta": -0.795
+        },
+        {
+          "position": 172,
+          "original_token": " to",
+          "lower_token": " i",
+          "orig_s2": -3.2854,
+          "lower_s2": 0.6691,
+          "s2_delta": -3.955
+        },
+        {
+          "position": 173,
+          "original_token": " know",
+          "lower_token": " want",
+          "orig_s2": -2.0254,
+          "lower_s2": -1.266,
+          "s2_delta": -0.759
+        },
+        {
+          "position": 174,
+          "original_token": " is",
+          "lower_token": " to",
+          "orig_s2": -2.0827,
+          "lower_s2": -3.2537,
+          "s2_delta": 1.171
+        },
+        {
+          "position": 175,
+          "original_token": "\n",
+          "lower_token": " know",
+          "orig_s2": -4.037,
+          "lower_s2": -2.0053,
+          "s2_delta": -2.032
+        },
+        {
+          "position": 176,
+          "original_token": "how",
+          "lower_token": " is",
+          "orig_s2": 16.4114,
+          "lower_s2": -1.7325,
+          "s2_delta": 18.144
+        }
+      ],
+      "high_delta_tokens": [
+        {
+          "position": 185,
+          "original_token": "M",
+          "lower_token": " boy",
+          "orig_s2": 21.3055,
+          "lower_s2": -1.6502,
+          "s2_delta": 22.956
+        },
+        {
+          "position": 149,
+          "original_token": " ",
+          "lower_token": " man",
+          "orig_s2": 14.9113,
+          "lower_s2": -5.3563,
+          "s2_delta": 20.268
+        },
+        {
+          "position": 168,
+          "original_token": " and",
+          "lower_token": " ",
+          "orig_s2": 18.6042,
+          "lower_s2": -0.0412,
+          "s2_delta": 18.645
+        },
+        {
+          "position": 176,
+          "original_token": "how",
+          "lower_token": " is",
+          "orig_s2": 16.4114,
+          "lower_s2": -1.7325,
+          "s2_delta": 18.144
+        },
+        {
+          "position": 170,
+          "original_token": " i",
+          "lower_token": " and",
+          "orig_s2": 1.2853,
+          "lower_s2": 18.3734,
+          "s2_delta": -17.088
+        },
+        {
+          "position": 178,
+          "original_token": " you",
+          "lower_token": "how",
+          "orig_s2": -1.866,
+          "lower_s2": 15.1113,
+          "s2_delta": -16.977
+        },
+        {
+          "position": 187,
+          "original_token": " Death",
+          "lower_token": "m",
+          "orig_s2": 0.2803,
+          "lower_s2": 16.7585,
+          "s2_delta": -16.478
+        },
+        {
+          "position": 2,
+          "original_token": " Bill",
+          "lower_token": " bill",
+          "orig_s2": -2.9401,
+          "lower_s2": 7.9604,
+          "s2_delta": -10.901
+        },
+        {
+          "position": 140,
+          "original_token": " Jesus",
+          "lower_token": " j",
+          "orig_s2": 19.0326,
+          "lower_s2": 8.3041,
+          "s2_delta": 10.728
+        },
+        {
+          "position": 184,
+          "original_token": "\n",
+          "lower_token": "eyed",
+          "orig_s2": -6.0785,
+          "lower_s2": 4.0002,
+          "s2_delta": -10.079
+        }
+      ]
+    }
+  ]
+}
