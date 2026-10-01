@@ -1,0 +1,185 @@
+{
+  "poetry_transition_entropy": {
+    "deep_conform": 2.214923724152956,
+    "conform": 2.1730571032473307,
+    "neutral": 2.198515509040508,
+    "surprise": 2.17540738327664,
+    "high_surprise": 2.163845465168959
+  },
+  "prose_transition_entropy": {
+    "deep_conform": 1.9500119454631413,
+    "conform": 2.093045098046784,
+    "neutral": 1.8050863250693845,
+    "surprise": 2.023495352572981,
+    "high_surprise": 1.6727412066307599
+  },
+  "era_high_surprise_transition_entropy": [
+    {
+      "era": "early_modern",
+      "n_transitions": 89,
+      "H_high": 2.2341920224114644,
+      "p_HH": 0.1348314606741573,
+      "p_conform": 0.5617977528089888
+    },
+    {
+      "era": "modernist",
+      "n_transitions": 316,
+      "H_high": 2.2240624031192877,
+      "p_HH": 0.1930379746835443,
+      "p_conform": 0.560126582278481
+    },
+    {
+      "era": "confessional",
+      "n_transitions": 77,
+      "H_high": 2.2080244854515056,
+      "p_HH": 0.15584415584415584,
+      "p_conform": 0.5844155844155844
+    },
+    {
+      "era": "contemporary",
+      "n_transitions": 132,
+      "H_high": 2.1847553008646705,
+      "p_HH": 0.17424242424242425,
+      "p_conform": 0.5606060606060606
+    },
+    {
+      "era": "fixed_form",
+      "n_transitions": 141,
+      "H_high": 2.1824549124167927,
+      "p_HH": 0.12056737588652482,
+      "p_conform": 0.5886524822695035
+    },
+    {
+      "era": "nursery_rhyme",
+      "n_transitions": 31,
+      "H_high": 2.175748235157298,
+      "p_HH": 0.22580645161290322,
+      "p_conform": 0.5483870967741935
+    },
+    {
+      "era": "new_york_school",
+      "n_transitions": 214,
+      "H_high": 2.1687565265855198,
+      "p_HH": 0.14485981308411214,
+      "p_conform": 0.6074766355140186
+    },
+    {
+      "era": "victorian",
+      "n_transitions": 562,
+      "H_high": 2.1663239438910415,
+      "p_HH": 0.17259786476868327,
+      "p_conform": 0.597864768683274
+    },
+    {
+      "era": "19th_century",
+      "n_transitions": 253,
+      "H_high": 2.159166649875075,
+      "p_HH": 0.20948616600790515,
+      "p_conform": 0.5849802371541502
+    },
+    {
+      "era": "romantic",
+      "n_transitions": 306,
+      "H_high": 2.1503465447504393,
+      "p_HH": 0.1895424836601307,
+      "p_conform": 0.5816993464052288
+    },
+    {
+      "era": "metaphysical",
+      "n_transitions": 78,
+      "H_high": 2.1268134646051284,
+      "p_HH": 0.10256410256410256,
+      "p_conform": 0.6153846153846154
+    },
+    {
+      "era": "song_lyrics",
+      "n_transitions": 67,
+      "H_high": 2.113161914083086,
+      "p_HH": 0.11940298507462686,
+      "p_conform": 0.6567164179104478
+    },
+    {
+      "era": "beat",
+      "n_transitions": 39,
+      "H_high": 2.1066519776005848,
+      "p_HH": 0.23076923076923078,
+      "p_conform": 0.5897435897435898
+    },
+    {
+      "era": "mid_century",
+      "n_transitions": 25,
+      "H_high": 2.1044984515601635,
+      "p_HH": 0.12,
+      "p_conform": 0.64
+    },
+    {
+      "era": "harlem_renaissance",
+      "n_transitions": 82,
+      "H_high": 2.0951597484636486,
+      "p_HH": 0.10975609756097561,
+      "p_conform": 0.6341463414634146
+    },
+    {
+      "era": "biblical",
+      "n_transitions": 128,
+      "H_high": 2.042225754594363,
+      "p_HH": 0.09375,
+      "p_conform": 0.671875
+    },
+    {
+      "era": "ballad",
+      "n_transitions": 139,
+      "H_high": 2.0323014034616915,
+      "p_HH": 0.17266187050359713,
+      "p_conform": 0.6618705035971223
+    },
+    {
+      "era": "spoken_word",
+      "n_transitions": 30,
+      "H_high": 2.0300985114819134,
+      "p_HH": 0.13333333333333333,
+      "p_conform": 0.7
+    },
+    {
+      "era": "18th_century",
+      "n_transitions": 37,
+      "H_high": 2.0233027859188946,
+      "p_HH": 0.13513513513513514,
+      "p_conform": 0.6216216216216216
+    },
+    {
+      "era": "prose_poetry",
+      "n_transitions": 119,
+      "H_high": 2.0070139370429,
+      "p_HH": 0.16806722689075632,
+      "p_conform": 0.6050420168067226
+    },
+    {
+      "era": "found_poetry",
+      "n_transitions": 102,
+      "H_high": 1.9888854677090717,
+      "p_HH": 0.08823529411764706,
+      "p_conform": 0.6862745098039216
+    },
+    {
+      "era": "haiku",
+      "n_transitions": 59,
+      "H_high": 1.985353237757414,
+      "p_HH": 0.15254237288135594,
+      "p_conform": 0.6440677966101694
+    },
+    {
+      "era": "language",
+      "n_transitions": 31,
+      "H_high": 1.8791963979769455,
+      "p_HH": 0.16129032258064516,
+      "p_conform": 0.6774193548387096
+    }
+  ],
+  "n_chains": 427,
+  "chain_len_dist": {
+    "2": 361,
+    "3": 54,
+    "4": 12
+  }
+}
