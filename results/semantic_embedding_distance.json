@@ -1,0 +1,598 @@
+{
+  "n_tokens": 16540,
+  "median_sem_dist": 0.5971886515617371,
+  "correlation_all": 0.5529025073418593,
+  "correlation_poetry": 0.5528185396582971,
+  "correlation_control": 0.5490338122652334,
+  "quadrant_counts": {
+    "A": 6993,
+    "B": 3060,
+    "C": 1277,
+    "D": 5210
+  },
+  "quadrant_avg_s2": {
+    "A": -2.655562533962534,
+    "B": -1.948413725490196,
+    "C": 2.1013375880971026,
+    "D": 3.9891280230326287
+  },
+  "high_s2_structural_pct": 19.685524895945736,
+  "high_s2_semantic_pct": 80.31447510405427,
+  "avg_sem_dist_top100_s2": 0.8124035183340311,
+  "era_breakdown": [
+    {
+      "era": "victorian",
+      "n": 2512,
+      "n_hi": 1055,
+      "n_struct": 186,
+      "n_sem": 869,
+      "pct_struct": 17.630331753554504,
+      "avg_dist_hi": 0.7113930815504201,
+      "avg_dist_all": 0.5218573550561704
+    },
+    {
+      "era": "romantic",
+      "n": 1563,
+      "n_hi": 644,
+      "n_struct": 109,
+      "n_sem": 535,
+      "pct_struct": 16.925465838509318,
+      "avg_dist_hi": 0.7221456339860463,
+      "avg_dist_all": 0.5253162957794645
+    },
+    {
+      "era": "modernist",
+      "n": 1361,
+      "n_hi": 585,
+      "n_struct": 91,
+      "n_sem": 494,
+      "pct_struct": 15.555555555555555,
+      "avg_dist_hi": 0.7238063589502604,
+      "avg_dist_all": 0.5124864856316315
+    },
+    {
+      "era": "new_york_school",
+      "n": 1134,
+      "n_hi": 432,
+      "n_struct": 125,
+      "n_sem": 307,
+      "pct_struct": 28.935185185185187,
+      "avg_dist_hi": 0.6721102453043891,
+      "avg_dist_all": 0.46939331220834135
+    },
+    {
+      "era": "19th_century",
+      "n": 1119,
+      "n_hi": 465,
+      "n_struct": 86,
+      "n_sem": 379,
+      "pct_struct": 18.49462365591398,
+      "avg_dist_hi": 0.7038705089720346,
+      "avg_dist_all": 0.496368246647372
+    },
+    {
+      "era": "biblical",
+      "n": 746,
+      "n_hi": 260,
+      "n_struct": 74,
+      "n_sem": 186,
+      "pct_struct": 28.46153846153846,
+      "avg_dist_hi": 0.6656386655970261,
+      "avg_dist_all": 0.40288928494696324
+    },
+    {
+      "era": "prose_poetry",
+      "n": 745,
+      "n_hi": 272,
+      "n_struct": 80,
+      "n_sem": 192,
+      "pct_struct": 29.41176470588235,
+      "avg_dist_hi": 0.6518834810293115,
+      "avg_dist_all": 0.44538357758882063
+    },
+    {
+      "era": "found_poetry",
+      "n": 733,
+      "n_hi": 205,
+      "n_struct": 39,
+      "n_sem": 166,
+      "pct_struct": 19.024390243902438,
+      "avg_dist_hi": 0.6880380669381561,
+      "avg_dist_all": 0.3809630730142372
+    },
+    {
+      "era": "ballad",
+      "n": 705,
+      "n_hi": 243,
+      "n_struct": 31,
+      "n_sem": 212,
+      "pct_struct": 12.757201646090534,
+      "avg_dist_hi": 0.7290076889986854,
+      "avg_dist_all": 0.4446216966137818
+    },
+    {
+      "era": "fixed_form",
+      "n": 658,
+      "n_hi": 232,
+      "n_struct": 53,
+      "n_sem": 179,
+      "pct_struct": 22.844827586206897,
+      "avg_dist_hi": 0.6981359290055417,
+      "avg_dist_all": 0.45124761459607304
+    },
+    {
+      "era": "contemporary",
+      "n": 647,
+      "n_hi": 243,
+      "n_struct": 61,
+      "n_sem": 182,
+      "pct_struct": 25.102880658436213,
+      "avg_dist_hi": 0.6901343534604757,
+      "avg_dist_all": 0.4542266715496456
+    },
+    {
+      "era": "harlem_renaissance",
+      "n": 432,
+      "n_hi": 182,
+      "n_struct": 40,
+      "n_sem": 142,
+      "pct_struct": 21.978021978021978,
+      "avg_dist_hi": 0.7032957726905307,
+      "avg_dist_all": 0.48188103772527363
+    },
+    {
+      "era": "early_modern",
+      "n": 427,
+      "n_hi": 204,
+      "n_struct": 49,
+      "n_sem": 155,
+      "pct_struct": 24.019607843137255,
+      "avg_dist_hi": 0.6963557125635299,
+      "avg_dist_all": 0.55713256943177
+    },
+    {
+      "era": "song_lyrics",
+      "n": 421,
+      "n_hi": 111,
+      "n_struct": 36,
+      "n_sem": 75,
+      "pct_struct": 32.432432432432435,
+      "avg_dist_hi": 0.6440967275081454,
+      "avg_dist_all": 0.33099074152048297
+    },
+    {
+      "era": "metaphysical",
+      "n": 397,
+      "n_hi": 172,
+      "n_struct": 33,
+      "n_sem": 139,
+      "pct_struct": 19.186046511627907,
+      "avg_dist_hi": 0.707233831697945,
+      "avg_dist_all": 0.5408021057639224
+    },
+    {
+      "era": "confessional",
+      "n": 299,
+      "n_hi": 134,
+      "n_struct": 25,
+      "n_sem": 109,
+      "pct_struct": 18.65671641791045,
+      "avg_dist_hi": 0.6972038811489717,
+      "avg_dist_all": 0.5309054016767936
+    },
+    {
+      "era": "german_symbolist",
+      "n": 299,
+      "n_hi": 144,
+      "n_struct": 7,
+      "n_sem": 137,
+      "pct_struct": 4.861111111111111,
+      "avg_dist_hi": 0.7151469359588292,
+      "avg_dist_all": 0.6180129899677624
+    },
+    {
+      "era": "18th_century",
+      "n": 261,
+      "n_hi": 89,
+      "n_struct": 20,
+      "n_sem": 69,
+      "pct_struct": 22.471910112359552,
+      "avg_dist_hi": 0.6910615223512221,
+      "avg_dist_all": 0.407470326485305
+    },
+    {
+      "era": "cliche_control",
+      "n": 260,
+      "n_hi": 82,
+      "n_struct": 15,
+      "n_sem": 67,
+      "pct_struct": 18.29268292682927,
+      "avg_dist_hi": 0.690810805141199,
+      "avg_dist_all": 0.44867166111675594
+    },
+    {
+      "era": "german_expressionist",
+      "n": 237,
+      "n_hi": 119,
+      "n_struct": 10,
+      "n_sem": 109,
+      "pct_struct": 8.403361344537815,
+      "avg_dist_hi": 0.7255577895195544,
+      "avg_dist_all": 0.5892806955483518
+    },
+    {
+      "era": "haiku",
+      "n": 200,
+      "n_hi": 84,
+      "n_struct": 9,
+      "n_sem": 75,
+      "pct_struct": 10.714285714285714,
+      "avg_dist_hi": 0.740355965991815,
+      "avg_dist_all": 0.5600743526965379
+    },
+    {
+      "era": "mid_century",
+      "n": 192,
+      "n_hi": 76,
+      "n_struct": 22,
+      "n_sem": 54,
+      "pct_struct": 28.94736842105263,
+      "avg_dist_hi": 0.6930018540373758,
+      "avg_dist_all": 0.49630486080423
+    },
+    {
+      "era": "german_modernist",
+      "n": 186,
+      "n_hi": 93,
+      "n_struct": 10,
+      "n_sem": 83,
+      "pct_struct": 10.75268817204301,
+      "avg_dist_hi": 0.7165221312754256,
+      "avg_dist_all": 0.5944227752706377
+    },
+    {
+      "era": "nursery_rhyme",
+      "n": 181,
+      "n_hi": 61,
+      "n_struct": 16,
+      "n_sem": 45,
+      "pct_struct": 26.229508196721312,
+      "avg_dist_hi": 0.6654849647254241,
+      "avg_dist_all": 0.44195601496413267
+    },
+    {
+      "era": "spoken_word",
+      "n": 150,
+      "n_hi": 55,
+      "n_struct": 11,
+      "n_sem": 44,
+      "pct_struct": 20.0,
+      "avg_dist_hi": 0.7059180231595581,
+      "avg_dist_all": 0.4686303014184038
+    },
+    {
+      "era": "control",
+      "n": 146,
+      "n_hi": 33,
+      "n_struct": 4,
+      "n_sem": 29,
+      "pct_struct": 12.121212121212121,
+      "avg_dist_hi": 0.7129165480534235,
+      "avg_dist_all": 0.39242859531755314
+    },
+    {
+      "era": "beat",
+      "n": 127,
+      "n_hi": 63,
+      "n_struct": 9,
+      "n_sem": 54,
+      "pct_struct": 14.285714285714286,
+      "avg_dist_hi": 0.7423934073202194,
+      "avg_dist_all": 0.5118326821665126
+    },
+    {
+      "era": "language",
+      "n": 110,
+      "n_hi": 47,
+      "n_struct": 8,
+      "n_sem": 39,
+      "pct_struct": 17.02127659574468,
+      "avg_dist_hi": 0.7074025939119623,
+      "avg_dist_all": 0.5155616521835327
+    },
+    {
+      "era": "concrete",
+      "n": 89,
+      "n_hi": 19,
+      "n_struct": 1,
+      "n_sem": 18,
+      "pct_struct": 5.2631578947368425,
+      "avg_dist_hi": 0.7980092785468227,
+      "avg_dist_all": 0.27742201219616314
+    },
+    {
+      "era": "ancient",
+      "n": 66,
+      "n_hi": 28,
+      "n_struct": 7,
+      "n_sem": 21,
+      "pct_struct": 25.0,
+      "avg_dist_hi": 0.6711572693394763,
+      "avg_dist_all": 0.48267499165553035
+    },
+    {
+      "era": "surrealist",
+      "n": 53,
+      "n_hi": 17,
+      "n_struct": 2,
+      "n_sem": 15,
+      "pct_struct": 11.764705882352942,
+      "avg_dist_hi": 0.7203741108669954,
+      "avg_dist_all": 0.37640356174055134
+    },
+    {
+      "era": "deep_image",
+      "n": 48,
+      "n_hi": 23,
+      "n_struct": 4,
+      "n_sem": 19,
+      "pct_struct": 17.391304347826086,
+      "avg_dist_hi": 0.699128274684367,
+      "avg_dist_all": 0.49007714974383515
+    },
+    {
+      "era": "oulipo",
+      "n": 36,
+      "n_hi": 15,
+      "n_struct": 4,
+      "n_sem": 11,
+      "pct_struct": 26.666666666666668,
+      "avg_dist_hi": 0.6610730061928431,
+      "avg_dist_all": 0.5178292389545176
+    }
+  ],
+  "top_structural": [
+    {
+      "s2": 15.0725,
+      "sem_dist": 0.593366265296936,
+      "token": " which",
+      "top1": ".",
+      "author": "Gertrude Stein",
+      "title": "Susie Asado"
+    },
+    {
+      "s2": 14.8785,
+      "sem_dist": 0.5480983853340149,
+      "token": " three",
+      "top1": " an",
+      "author": "Traditional (Scottish ballad)",
+      "title": "The Wife of Usher's Well"
+    },
+    {
+      "s2": 12.8755,
+      "sem_dist": 0.5863255262374878,
+      "token": "urs",
+      "top1": "ursed",
+      "author": "Claude McKay",
+      "title": "If We Must Die"
+    },
+    {
+      "s2": 10.621,
+      "sem_dist": 0.4105851650238037,
+      "token": "ces",
+      "top1": "cing",
+      "author": "Matsuo Bash\u014d",
+      "title": "Cicadas (Bash\u014d, translated)"
+    },
+    {
+      "s2": 10.0862,
+      "sem_dist": 0.5960497856140137,
+      "token": " New",
+      "top1": " the",
+      "author": "Frank O'Hara",
+      "title": "The Day Lady Died"
+    },
+    {
+      "s2": 10.0432,
+      "sem_dist": 0.5809964537620544,
+      "token": " could",
+      "top1": " with",
+      "author": "Countee Cullen",
+      "title": "Yet Do I Marvel"
+    },
+    {
+      "s2": 9.3733,
+      "sem_dist": 0.5710776746273041,
+      "token": " after",
+      "top1": " a",
+      "author": "Marianne Moore",
+      "title": "Poetry (opening)"
+    },
+    {
+      "s2": 9.1322,
+      "sem_dist": 0.5470931529998779,
+      "token": " this",
+      "top1": "\n",
+      "author": "Rae Armantrout",
+      "title": "Crossing (excerpt)"
+    },
+    {
+      "s2": 8.9688,
+      "sem_dist": 0.592494785785675,
+      "token": " S",
+      "top1": " to",
+      "author": "Frank O'Hara",
+      "title": "Why I Am Not a Painter"
+    },
+    {
+      "s2": 8.6344,
+      "sem_dist": 0.5846452414989471,
+      "token": "For",
+      "top1": "\n",
+      "author": "Christopher Smart",
+      "title": "For I Will Consider My Cat Jeoffry (excerpt)"
+    },
+    {
+      "s2": 8.5287,
+      "sem_dist": 0.5567207336425781,
+      "token": " if",
+      "top1": " is",
+      "author": "Brewster Higley",
+      "title": "Home on the Range"
+    },
+    {
+      "s2": 8.4823,
+      "sem_dist": 0.4978185296058655,
+      "token": " after",
+      "top1": " to",
+      "author": "Anonymous (found text)",
+      "title": "Weather Observations (Found Poem from meteorological prose)"
+    },
+    {
+      "s2": 8.2866,
+      "sem_dist": 0.41745519638061523,
+      "token": " for",
+      "top1": ".",
+      "author": "Anonymous (Hebrew Bible)",
+      "title": "Psalm 23 (KJV)"
+    },
+    {
+      "s2": 8.0829,
+      "sem_dist": 0.5963520407676697,
+      "token": " you",
+      "top1": ".",
+      "author": "W.S. Merwin",
+      "title": "Yesterday (prose poem)"
+    },
+    {
+      "s2": 8.0613,
+      "sem_dist": 0.5261872708797455,
+      "token": "them",
+      "top1": "the",
+      "author": "David Antin",
+      "title": "a list of the delusions of the insane (excerpt)"
+    }
+  ],
+  "top_semantic": [
+    {
+      "s2": 23.3952,
+      "sem_dist": 0.8159031420946121,
+      "token": " ferner",
+      "top1": "t",
+      "author": "Stefan George",
+      "title": "Komm in den totgesagten park und schau"
+    },
+    {
+      "s2": 22.0877,
+      "sem_dist": 0.8146574199199677,
+      "token": " Pra",
+      "top1": " ",
+      "author": "Gerard Manley Hopkins",
+      "title": "Pied Beauty"
+    },
+    {
+      "s2": 22.0439,
+      "sem_dist": 0.9036884903907776,
+      "token": " shook",
+      "top1": " the",
+      "author": "Gerard Manley Hopkins",
+      "title": "God's Grandeur"
+    },
+    {
+      "s2": 22.0152,
+      "sem_dist": 0.9641971290111542,
+      "token": " prank",
+      "top1": " the",
+      "author": "Christopher Smart",
+      "title": "For I Will Consider My Cat Jeoffry (excerpt)"
+    },
+    {
+      "s2": 20.5858,
+      "sem_dist": 0.760492280125618,
+      "token": " badly",
+      "top1": "glass",
+      "author": "Elizabeth Bishop",
+      "title": "One Art"
+    },
+    {
+      "s2": 20.3969,
+      "sem_dist": 0.897755891084671,
+      "token": " observing",
+      "top1": ",",
+      "author": "Walt Whitman",
+      "title": "Song of Myself (section 1)"
+    },
+    {
+      "s2": 19.4767,
+      "sem_dist": 0.8535613268613815,
+      "token": " list",
+      "top1": "ever",
+      "author": "Thomas Wyatt",
+      "title": "Whoso List to Hunt"
+    },
+    {
+      "s2": 19.0326,
+      "sem_dist": 0.8137400448322296,
+      "token": " Jesus",
+      "top1": " ",
+      "author": "E.E. Cummings",
+      "title": "Buffalo Bill 's"
+    },
+    {
+      "s2": 18.9026,
+      "sem_dist": 0.7919823825359344,
+      "token": " Fun",
+      "top1": " little",
+      "author": "Emily Dickinson",
+      "title": "I felt a Funeral, in my Brain"
+    },
+    {
+      "s2": 18.85,
+      "sem_dist": 0.9194251820445061,
+      "token": "lay",
+      "top1": ",",
+      "author": "Vachel Lindsay",
+      "title": "The Congo (opening, sanitized excerpt)"
+    },
+    {
+      "s2": 18.6042,
+      "sem_dist": 0.7007173895835876,
+      "token": " and",
+      "top1": " ",
+      "author": "E.E. Cummings",
+      "title": "Buffalo Bill 's"
+    },
+    {
+      "s2": 18.5125,
+      "sem_dist": 0.7455434799194336,
+      "token": "ashes",
+      "top1": "ain",
+      "author": "Traditional (Scottish ballad)",
+      "title": "The Wife of Usher's Well"
+    },
+    {
+      "s2": 18.2394,
+      "sem_dist": 0.8107444941997528,
+      "token": " his",
+      "top1": "lessly",
+      "author": "Gerard Manley Hopkins",
+      "title": "God's Grandeur"
+    },
+    {
+      "s2": 18.1601,
+      "sem_dist": 0.8645258396863937,
+      "token": " stacked",
+      "top1": "ime",
+      "author": "Claudia Rankine",
+      "title": "Citizen (excerpt)"
+    },
+    {
+      "s2": 18.1601,
+      "sem_dist": 0.8645258396863937,
+      "token": " stacked",
+      "top1": "ime",
+      "author": "Claudia Rankine",
+      "title": "Citizen (excerpt, section I)"
+    }
+  ]
+}
