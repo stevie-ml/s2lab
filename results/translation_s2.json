@@ -1,0 +1,175 @@
+{
+  "basho_old_pond": {
+    "source": "Matsuo Bash\u014d (\u677e\u5c3e\u82ad\u8549), 1686 \u2014 \u53e4\u6c60\u3084 kawazu tobikomu mizu no oto",
+    "rows": [
+      {
+        "translator": "R.H. Blyth (1949)",
+        "n_tokens": 12,
+        "avg_s2": -0.3878645772735278,
+        "std_s2": 2.1524454103137263,
+        "pct_pos": 0.4166666666666667,
+        "max_s2": 3.84417724609375,
+        "max_token": " \u2014"
+      },
+      {
+        "translator": "Harold Henderson (1958)",
+        "n_tokens": 14,
+        "avg_s2": 1.086854236466544,
+        "std_s2": 2.9400359437819863,
+        "pct_pos": 0.42857142857142855,
+        "max_s2": 5.347002029418945,
+        "max_token": " sleepy"
+      },
+      {
+        "translator": "Allen Ginsberg (1978)",
+        "n_tokens": 11,
+        "avg_s2": 0.7797911167144775,
+        "std_s2": 2.513565586177192,
+        "pct_pos": 0.5454545454545454,
+        "max_s2": 5.207324862480164,
+        "max_token": "!"
+      },
+      {
+        "translator": "Robert Hass (1994)",
+        "n_tokens": 18,
+        "avg_s2": 0.030700743198394775,
+        "std_s2": 2.695276921698936,
+        "pct_pos": 0.3888888888888889,
+        "max_s2": 5.107243537902832,
+        "max_token": " Silence"
+      },
+      {
+        "translator": "Jane Reichhold (2008)",
+        "n_tokens": 10,
+        "avg_s2": 0.48557260632514954,
+        "std_s2": 2.264529425035735,
+        "pct_pos": 0.5,
+        "max_s2": 5.486424446105957,
+        "max_token": " sound"
+      },
+      {
+        "translator": "W.S. Merwin (2012)",
+        "n_tokens": 11,
+        "avg_s2": 0.05229343880306591,
+        "std_s2": 1.804874100359238,
+        "pct_pos": 0.45454545454545453,
+        "max_s2": 3.4315762519836426,
+        "max_token": " sound"
+      }
+    ]
+  },
+  "rilke_archaic_torso": {
+    "source": "Rainer Maria Rilke, 'Archa\u00efscher Torso Apollos' (1908)",
+    "rows": [
+      {
+        "translator": "Stephen Mitchell (1982)",
+        "n_tokens": 147,
+        "avg_s2": -0.2833672684049519,
+        "std_s2": 2.1777059232307794,
+        "pct_pos": 0.38095238095238093,
+        "max_s2": 6.431892395019531,
+        "max_token": " rip"
+      },
+      {
+        "translator": "C.F. MacIntyre (1940)",
+        "n_tokens": 136,
+        "avg_s2": -0.06390224701231893,
+        "std_s2": 2.628157083000196,
+        "pct_pos": 0.34558823529411764,
+        "max_s2": 10.811888933181763,
+        "max_token": "lab"
+      },
+      {
+        "translator": "Edward Snow (1991)",
+        "n_tokens": 141,
+        "avg_s2": -0.19603757652724887,
+        "std_s2": 2.148981225971852,
+        "pct_pos": 0.375886524822695,
+        "max_s2": 9.30094575881958,
+        "max_token": " unheard"
+      },
+      {
+        "translator": "Galway Kinnell & Hannah Liebmann (1999)",
+        "n_tokens": 142,
+        "avg_s2": -0.17477616865653545,
+        "std_s2": 2.141301312674559,
+        "pct_pos": 0.36619718309859156,
+        "max_s2": 7.337240219116211,
+        "max_token": " fertility"
+      }
+    ]
+  },
+  "catullus_5": {
+    "source": "Gaius Valerius Catullus, Carmina 5 (~55 BCE) \u2014 Vivamus, mea Lesbia",
+    "rows": [
+      {
+        "translator": "A.S. Kline (2001)",
+        "n_tokens": 93,
+        "avg_s2": -0.2640652614896015,
+        "std_s2": 2.2821028720715746,
+        "pct_pos": 0.3655913978494624,
+        "max_s2": 8.832076072692871,
+        "max_token": " Les"
+      },
+      {
+        "translator": "Peter Whigham (1966)",
+        "n_tokens": 73,
+        "avg_s2": -0.6431556074586633,
+        "std_s2": 2.411473220053415,
+        "pct_pos": 0.3424657534246575,
+        "max_s2": 5.559535026550293,
+        "max_token": " stiff"
+      },
+      {
+        "translator": "Horace Gregory (1931)",
+        "n_tokens": 78,
+        "avg_s2": -0.6407559006833113,
+        "std_s2": 2.021731348653701,
+        "pct_pos": 0.28205128205128205,
+        "max_s2": 8.55875039100647,
+        "max_token": " sour"
+      },
+      {
+        "translator": "Frank O. Copley (1957)",
+        "n_tokens": 87,
+        "avg_s2": -0.22612298738168574,
+        "std_s2": 2.0788089692403062,
+        "pct_pos": 0.41379310344827586,
+        "max_s2": 5.805368423461914,
+        "max_token": " ne"
+      }
+    ]
+  },
+  "rumi_guest_house": {
+    "source": "Jalal ad-Din Muhammad Rumi (\u062c\u0644\u0627\u0644\u200c\u0627\u0644\u062f\u06cc\u0646 \u0645\u062d\u0645\u062f \u0631\u0648\u0645\u06cc), 13th century \u2014 Masnavi",
+    "rows": [
+      {
+        "translator": "Coleman Barks (1995)",
+        "n_tokens": 82,
+        "avg_s2": -0.12741692327871557,
+        "std_s2": 2.692205672514205,
+        "pct_pos": 0.4024390243902439,
+        "max_s2": 10.414248704910278,
+        "max_token": " violently"
+      },
+      {
+        "translator": "Kabir Helminski (2000)",
+        "n_tokens": 71,
+        "avg_s2": -0.27937374295483175,
+        "std_s2": 2.3724085445810545,
+        "pct_pos": 0.39436619718309857,
+        "max_s2": 6.599637985229492,
+        "max_token": " sadness"
+      },
+      {
+        "translator": "A.J. Arberry (1949, scholarly literal)",
+        "n_tokens": 71,
+        "avg_s2": -0.4107926123788659,
+        "std_s2": 2.2418214437870003,
+        "pct_pos": 0.38028169014084506,
+        "max_s2": 4.801662921905518,
+        "max_token": " bas"
+      }
+    ]
+  }
+}
