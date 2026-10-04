@@ -1053,6 +1053,88 @@ hurl your green over us,
 cover us with your pools of fir."""
     },
 
+    # ─── TECHNICAL-REGISTER POEMS ─────────────────────────────────────────────
+    # Added to test the "register-crossing" hypothesis from technical_vocabulary_s2.md:
+    # does scientific/zoological vocabulary appear at elevated S₂ positions?
+    # All texts are public domain (published before 1928 or by authors dead >70 years).
+
+    # Marianne Moore "The Fish" (1921) — dense marine biology imagery:
+    # "barnacles", "jelly fish", "submarine toadstools", "chasm-side" — Moore's
+    # zoological precision makes this an ideal test case for technical-register S₂.
+    {
+        "title": "The Fish",
+        "author": "Marianne Moore",
+        "year": 1921,
+        "era": "modernist",
+        "text": """wade
+through black jade.
+   Of the crow-blue mussel-shells, one keeps
+   adjusting the ash-heaps;
+         opening and shutting itself like
+
+an
+injured fan.
+   The barnacles which encrust the side
+   of the wave, cannot hide
+         there for the submerged shafts of the
+
+sun,
+split like spun
+   glass, move themselves with spotlight swiftness
+   into the crevices—
+         in and out, illuminating
+
+the
+turquoise sea
+   of bodies. The water drives a wedge
+   of iron through the iron edge
+         of the cliff; whereupon the stars,
+
+pink
+rice-grains, ink-
+   bespattered jelly fish, crabs like green
+   lilies, and submarine
+         toadstools, slide each on the other.
+
+All
+external
+   marks of abuse are present on this
+   defiant edifice—
+         all the physical features of
+
+ac-
+cident—lack
+   of cornice, dynamite grooves, burns, and
+   hatchet strokes, these things stand
+         out on it; the chasm-side is
+
+dead.
+Repeated
+   evidence has proved that it can live
+   on what can not revive
+         its youth. The sea grows old in it."""
+    },
+
+    # Walt Whitman "When I Heard the Learn'd Astronomer" (1865) — one of the
+    # few poems that explicitly stages the encounter between scientific lecture
+    # (proofs, figures, columns, charts, diagrams) and lyric experience. The
+    # first half is dense with technical vocabulary; the second half abandons it.
+    # Ideal split test: does S₂ spike in the lecture-hall half or the field half?
+    {
+        "title": "When I Heard the Learn'd Astronomer",
+        "author": "Walt Whitman",
+        "year": 1865,
+        "era": "romantic",
+        "text": """When I heard the learn'd astronomer,
+When the proofs, the figures, were ranged in columns before me,
+When I was shown the charts and diagrams, to add, divide, and measure them,
+When I sitting heard the astronomer where he lectured with much applause in the lecture-room,
+How soon unaccountable I became tired and sick,
+Till rising and gliding out I wander'd off by myself,
+In the mystical moist night-air, and from time to time,
+Look'd up in perfect silence at the stars."""
+    },
+
     # Marianne Moore — Modernist irony, PD (1919 version)
     {
         "title": "Poetry (opening)",
