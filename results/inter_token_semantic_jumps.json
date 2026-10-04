@@ -1,0 +1,1504 @@
+{
+  "n_texts": 202,
+  "n_poems_analyzed": 199,
+  "n_token_pairs": 16590,
+  "global_r_s2_dist": 0.1707649050612213,
+  "s2_median": -0.7504,
+  "dist_median": 0.7587890326976776,
+  "dist_percentiles": {
+    "10": 0.6077584028244019,
+    "25": 0.6979239881038666,
+    "50": 0.7587890326976776,
+    "75": 0.8067587614059448,
+    "90": 0.8527885675430298,
+    "95": 0.8858094602823258
+  },
+  "global_quadrants": {
+    "conform": 4582,
+    "pure_jump": 3713,
+    "structural": 3713,
+    "aligned": 4582
+  },
+  "era_stats": {
+    "romantic": {
+      "n_tokens": 1636,
+      "n_poems": 15,
+      "mean_s2": -0.027354584352078222,
+      "mean_dist": 0.7579383002298093,
+      "r_s2_dist": 0.14003650908584725,
+      "is_prose": false
+    },
+    "19th_century": {
+      "n_tokens": 1109,
+      "n_poems": 10,
+      "mean_s2": 0.039472497745716824,
+      "mean_dist": 0.7481938359219282,
+      "r_s2_dist": 0.13249712931408983,
+      "is_prose": false
+    },
+    "modernist": {
+      "n_tokens": 1521,
+      "n_poems": 22,
+      "mean_s2": 0.35955996055226824,
+      "mean_dist": 0.7370146201050336,
+      "r_s2_dist": 0.19213991543644543,
+      "is_prose": false
+    },
+    "beat": {
+      "n_tokens": 125,
+      "n_poems": 2,
+      "mean_s2": 1.0604047999999997,
+      "mean_dist": 0.7392870721817016,
+      "r_s2_dist": 0.31043840454601185,
+      "is_prose": false
+    },
+    "confessional": {
+      "n_tokens": 293,
+      "n_poems": 6,
+      "mean_s2": 0.25216416382252566,
+      "mean_dist": 0.7352443304891879,
+      "r_s2_dist": 0.29926157811385146,
+      "is_prose": false
+    },
+    "mid_century": {
+      "n_tokens": 189,
+      "n_poems": 3,
+      "mean_s2": -0.2244391534391534,
+      "mean_dist": 0.7463199994551442,
+      "r_s2_dist": 0.19145997103333887,
+      "is_prose": false
+    },
+    "new_york_school": {
+      "n_tokens": 1116,
+      "n_poems": 18,
+      "mean_s2": -0.3390823476702509,
+      "mean_dist": 0.7102070804351547,
+      "r_s2_dist": 0.2007959079995537,
+      "is_prose": false
+    },
+    "language": {
+      "n_tokens": 107,
+      "n_poems": 3,
+      "mean_s2": 0.2026626168224299,
+      "mean_dist": 0.7296875486864107,
+      "r_s2_dist": 0.14901899217010411,
+      "is_prose": false
+    },
+    "contemporary": {
+      "n_tokens": 638,
+      "n_poems": 9,
+      "mean_s2": -0.11037946708463947,
+      "mean_dist": 0.7327651191841472,
+      "r_s2_dist": 0.1808593843080252,
+      "is_prose": false
+    },
+    "harlem_renaissance": {
+      "n_tokens": 427,
+      "n_poems": 5,
+      "mean_s2": -0.08883231850117089,
+      "mean_dist": 0.7445378991703239,
+      "r_s2_dist": 0.19987664609340694,
+      "is_prose": false
+    },
+    "oulipo": {
+      "n_tokens": 35,
+      "n_poems": 1,
+      "mean_s2": 0.3171828571428572,
+      "mean_dist": 0.8046849012374878,
+      "r_s2_dist": -0.2191589396476694,
+      "is_prose": false
+    },
+    "surrealist": {
+      "n_tokens": 52,
+      "n_poems": 1,
+      "mean_s2": -0.49986153846153836,
+      "mean_dist": 0.7376508277196151,
+      "r_s2_dist": 0.27529685269322385,
+      "is_prose": false
+    },
+    "deep_image": {
+      "n_tokens": 47,
+      "n_poems": 1,
+      "mean_s2": 0.4038765957446809,
+      "mean_dist": 0.7396724579182077,
+      "r_s2_dist": 0.24747904144399763,
+      "is_prose": false
+    },
+    "control": {
+      "n_tokens": 141,
+      "n_poems": 5,
+      "mean_s2": -1.7663078014184397,
+      "mean_dist": 0.7136839378810098,
+      "r_s2_dist": 0.0750497544949726,
+      "is_prose": true
+    },
+    "german_symbolist": {
+      "n_tokens": 296,
+      "n_poems": 3,
+      "mean_s2": 0.4620783783783784,
+      "mean_dist": 0.7538429923556946,
+      "r_s2_dist": 0.02079921091024628,
+      "is_prose": false
+    },
+    "german_expressionist": {
+      "n_tokens": 235,
+      "n_poems": 2,
+      "mean_s2": 0.8514459574468084,
+      "mean_dist": 0.7706152499990261,
+      "r_s2_dist": -0.058454843550227294,
+      "is_prose": false
+    },
+    "german_modernist": {
+      "n_tokens": 184,
+      "n_poems": 2,
+      "mean_s2": 1.0150945652173913,
+      "mean_dist": 0.7441042891663053,
+      "r_s2_dist": 0.004597620312015477,
+      "is_prose": false
+    },
+    "victorian": {
+      "n_tokens": 2491,
+      "n_poems": 21,
+      "mean_s2": 0.11048113207547168,
+      "mean_dist": 0.7451311624562199,
+      "r_s2_dist": 0.1864812823904238,
+      "is_prose": false
+    },
+    "haiku": {
+      "n_tokens": 172,
+      "n_poems": 12,
+      "mean_s2": 0.5492558139534883,
+      "mean_dist": 0.7418716092442357,
+      "r_s2_dist": 0.21105248082930494,
+      "is_prose": false
+    },
+    "ancient": {
+      "n_tokens": 65,
+      "n_poems": 1,
+      "mean_s2": 0.029261538461538533,
+      "mean_dist": 0.7387337941389818,
+      "r_s2_dist": 0.12928239240701053,
+      "is_prose": false
+    },
+    "prose_poetry": {
+      "n_tokens": 736,
+      "n_poems": 9,
+      "mean_s2": -0.31424959239130434,
+      "mean_dist": 0.7130033247496771,
+      "r_s2_dist": 0.22951803668408377,
+      "is_prose": false
+    },
+    "ballad": {
+      "n_tokens": 699,
+      "n_poems": 6,
+      "mean_s2": -0.0039369098712446135,
+      "mean_dist": 0.7480800734227989,
+      "r_s2_dist": 0.17235024648349692,
+      "is_prose": false
+    },
+    "song_lyrics": {
+      "n_tokens": 418,
+      "n_poems": 3,
+      "mean_s2": -0.4458887559808613,
+      "mean_dist": 0.7280883888878891,
+      "r_s2_dist": 0.18444095030587396,
+      "is_prose": false
+    },
+    "nursery_rhyme": {
+      "n_tokens": 180,
+      "n_poems": 1,
+      "mean_s2": -0.58692,
+      "mean_dist": 0.7444764855835173,
+      "r_s2_dist": 0.08879666347339747,
+      "is_prose": false
+    },
+    "metaphysical": {
+      "n_tokens": 393,
+      "n_poems": 4,
+      "mean_s2": -0.1521473282442749,
+      "mean_dist": 0.7407173934480313,
+      "r_s2_dist": 0.21446115247173095,
+      "is_prose": false
+    },
+    "early_modern": {
+      "n_tokens": 423,
+      "n_poems": 4,
+      "mean_s2": 0.23101654846335698,
+      "mean_dist": 0.7333902303772334,
+      "r_s2_dist": 0.22014801094436942,
+      "is_prose": false
+    },
+    "spoken_word": {
+      "n_tokens": 148,
+      "n_poems": 2,
+      "mean_s2": -0.3435567567567568,
+      "mean_dist": 0.724476993889422,
+      "r_s2_dist": 0.169598476308056,
+      "is_prose": false
+    },
+    "found_poetry": {
+      "n_tokens": 726,
+      "n_poems": 7,
+      "mean_s2": -0.532702479338843,
+      "mean_dist": 0.7535804909122877,
+      "r_s2_dist": 0.10548673558424768,
+      "is_prose": false
+    },
+    "fixed_form": {
+      "n_tokens": 650,
+      "n_poems": 8,
+      "mean_s2": -0.2792861538461538,
+      "mean_dist": 0.7445615048591907,
+      "r_s2_dist": 0.13807384099469075,
+      "is_prose": false
+    },
+    "cliche_control": {
+      "n_tokens": 257,
+      "n_poems": 3,
+      "mean_s2": -0.6848568093385213,
+      "mean_dist": 0.7313063550552041,
+      "r_s2_dist": 0.13364731180970224,
+      "is_prose": false
+    },
+    "18th_century": {
+      "n_tokens": 260,
+      "n_poems": 1,
+      "mean_s2": -0.1091746153846154,
+      "mean_dist": 0.7297203868627549,
+      "r_s2_dist": 0.3177373761736079,
+      "is_prose": false
+    },
+    "biblical": {
+      "n_tokens": 739,
+      "n_poems": 7,
+      "mean_s2": -0.3648073071718539,
+      "mean_dist": 0.7356534716402242,
+      "r_s2_dist": 0.13396890856611354,
+      "is_prose": false
+    },
+    "concrete": {
+      "n_tokens": 82,
+      "n_poems": 2,
+      "mean_s2": -0.1461548780487805,
+      "mean_dist": 0.7440759546873046,
+      "r_s2_dist": -0.056295299971905195,
+      "is_prose": false
+    }
+  },
+  "poem_stats": [
+    {
+      "title": "Variations on A (excerpt)",
+      "author": "Georges Perec",
+      "era": "oulipo",
+      "is_prose": false,
+      "n": 35,
+      "mean_s2": 0.3171828571428572,
+      "mean_dist": 0.8046849012374878,
+      "std_dist": 0.09909628283732577,
+      "r_s2_dist": -0.2191589396476694,
+      "q_conform": 0,
+      "q_pure_jump": 23,
+      "q_structural": 0,
+      "q_aligned": 12,
+      "pct_aligned": 0.34285714285714286,
+      "top_jumps": [
+        {
+          "dist": 1.0138463973999023,
+          "s2": -4.7576,
+          "prev": "manac",
+          "curr": " a"
+        },
+        {
+          "dist": 0.9477643966674805,
+          "s2": -3.6539,
+          "prev": " cascade",
+          "curr": " a"
+        },
+        {
+          "dist": 0.9341762065887451,
+          "s2": 0.8169,
+          "prev": "oscope",
+          "curr": " that"
+        }
+      ]
+    },
+    {
+      "title": "A Route of Evanescence",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "is_prose": false,
+      "n": 40,
+      "mean_s2": 0.86936,
+      "mean_dist": 0.788164034485817,
+      "std_dist": 0.08990469176955694,
+      "r_s2_dist": 0.23672306187094952,
+      "q_conform": 1,
+      "q_pure_jump": 21,
+      "q_structural": 0,
+      "q_aligned": 18,
+      "pct_aligned": 0.45,
+      "top_jumps": [
+        {
+          "dist": 0.9518737196922302,
+          "s2": 1.3899,
+          "prev": " a",
+          "curr": " revolving"
+        },
+        {
+          "dist": 0.9148770570755005,
+          "s2": 6.0605,
+          "prev": " of",
+          "curr": " Coch"
+        },
+        {
+          "dist": 0.8947986364364624,
+          "s2": 1.4408,
+          "prev": " Blossom",
+          "curr": " on"
+        }
+      ]
+    },
+    {
+      "title": "Autumn Crow (Bash\u014d, translated)",
+      "author": "Matsuo Bash\u014d",
+      "era": "haiku",
+      "is_prose": false,
+      "n": 12,
+      "mean_s2": 0.46742500000000003,
+      "mean_dist": 0.7861217608054479,
+      "std_dist": 0.07241952438247194,
+      "r_s2_dist": 0.6217442831184473,
+      "q_conform": 0,
+      "q_pure_jump": 9,
+      "q_structural": 0,
+      "q_aligned": 3,
+      "pct_aligned": 0.25,
+      "top_jumps": [
+        {
+          "dist": 0.9026396870613098,
+          "s2": 10.0679,
+          "prev": " a",
+          "curr": " wit"
+        },
+        {
+          "dist": 0.8493002653121948,
+          "s2": 1.8989,
+          "prev": " to",
+          "curr": " settle"
+        },
+        {
+          "dist": 0.8372986316680908,
+          "s2": -0.5235,
+          "prev": " wit",
+          "curr": "hered"
+        }
+      ]
+    },
+    {
+      "title": "On the Roof of Hell (Issa, translated)",
+      "author": "Kobayashi Issa",
+      "era": "haiku",
+      "is_prose": false,
+      "n": 11,
+      "mean_s2": 0.8373909090909092,
+      "mean_dist": 0.7840878042307767,
+      "std_dist": 0.12832459652020112,
+      "r_s2_dist": 0.4044455888072368,
+      "q_conform": 1,
+      "q_pure_jump": 5,
+      "q_structural": 0,
+      "q_aligned": 5,
+      "pct_aligned": 0.45454545454545453,
+      "top_jumps": [
+        {
+          "dist": 0.9196468591690063,
+          "s2": 0.5788,
+          "prev": " the",
+          "curr": " roof"
+        },
+        {
+          "dist": 0.8694465160369873,
+          "s2": -3.0383,
+          "prev": "azing",
+          "curr": " at"
+        },
+        {
+          "dist": 0.8636783957481384,
+          "s2": -2.6253,
+          "prev": " roof",
+          "curr": " of"
+        }
+      ]
+    },
+    {
+      "title": "Verkl\u00e4rter Herbst",
+      "author": "Georg Trakl",
+      "era": "german_expressionist",
+      "is_prose": false,
+      "n": 82,
+      "mean_s2": 0.8575743902439023,
+      "mean_dist": 0.7818796125853934,
+      "std_dist": 0.07751372330186646,
+      "r_s2_dist": -0.21363687626048997,
+      "q_conform": 0,
+      "q_pure_jump": 46,
+      "q_structural": 1,
+      "q_aligned": 35,
+      "pct_aligned": 0.4268292682926829,
+      "top_jumps": [
+        {
+          "dist": 0.9610296487808228,
+          "s2": 0.7137,
+          "prev": "\u00dft",
+          "curr": " auf"
+        },
+        {
+          "dist": 0.9044203758239746,
+          "s2": 5.5443,
+          "prev": " Ende",
+          "curr": " fro"
+        },
+        {
+          "dist": 0.8959560394287109,
+          "s2": -0.6438,
+          "prev": "chen",
+          "curr": " rei"
+        }
+      ]
+    },
+    {
+      "title": "London",
+      "author": "William Blake",
+      "era": "romantic",
+      "is_prose": false,
+      "n": 75,
+      "mean_s2": 0.08193199999999992,
+      "mean_dist": 0.7806775259971619,
+      "std_dist": 0.06731824626814259,
+      "r_s2_dist": 0.19924643162568656,
+      "q_conform": 0,
+      "q_pure_jump": 48,
+      "q_structural": 0,
+      "q_aligned": 27,
+      "pct_aligned": 0.36,
+      "top_jumps": [
+        {
+          "dist": 0.9220263361930847,
+          "s2": 3.7992,
+          "prev": " the",
+          "curr": " Chim"
+        },
+        {
+          "dist": 0.8998982310295105,
+          "s2": 1.0615,
+          "prev": " the",
+          "curr": " charter"
+        },
+        {
+          "dist": 0.8993871212005615,
+          "s2": -1.8429,
+          "prev": "acles",
+          "curr": " I"
+        }
+      ]
+    },
+    {
+      "title": "The Red Wheelbarrow",
+      "author": "William Carlos Williams",
+      "era": "modernist",
+      "is_prose": false,
+      "n": 15,
+      "mean_s2": 0.1497466666666665,
+      "mean_dist": 0.7798090179761251,
+      "std_dist": 0.03869429594131907,
+      "r_s2_dist": -0.17350211342855068,
+      "q_conform": 0,
+      "q_pure_jump": 10,
+      "q_structural": 0,
+      "q_aligned": 5,
+      "pct_aligned": 0.3333333333333333,
+      "top_jumps": [
+        {
+          "dist": 0.839008092880249,
+          "s2": -2.477,
+          "prev": "azed",
+          "curr": " with"
+        },
+        {
+          "dist": 0.8378180861473083,
+          "s2": -4.0898,
+          "prev": "ide",
+          "curr": " the"
+        },
+        {
+          "dist": 0.8198796510696411,
+          "s2": 0.0592,
+          "prev": " depends",
+          "curr": "a"
+        }
+      ]
+    },
+    {
+      "title": "Oread",
+      "author": "H.D. (Hilda Doolittle)",
+      "era": "modernist",
+      "is_prose": false,
+      "n": 29,
+      "mean_s2": 0.7157724137931036,
+      "mean_dist": 0.7787754124608534,
+      "std_dist": 0.05868872524963972,
+      "r_s2_dist": 0.3060436482201007,
+      "q_conform": 0,
+      "q_pure_jump": 16,
+      "q_structural": 0,
+      "q_aligned": 13,
+      "pct_aligned": 0.4482758620689655,
+      "top_jumps": [
+        {
+          "dist": 0.9282515645027161,
+          "s2": 5.1053,
+          "prev": " of",
+          "curr": " fir"
+        },
+        {
+          "dist": 0.860050618648529,
+          "s2": 0.0055,
+          "prev": " pools",
+          "curr": " of"
+        },
+        {
+          "dist": 0.8543403148651123,
+          "s2": 2.4472,
+          "prev": "irl",
+          "curr": " your"
+        }
+      ]
+    },
+    {
+      "title": "Nobody (Wright)",
+      "author": "Richard Wright",
+      "era": "haiku",
+      "is_prose": false,
+      "n": 10,
+      "mean_s2": 2.61218,
+      "mean_dist": 0.7779054880142212,
+      "std_dist": 0.05546913627450514,
+      "r_s2_dist": -0.1884113272706283,
+      "q_conform": 0,
+      "q_pure_jump": 5,
+      "q_structural": 0,
+      "q_aligned": 5,
+      "pct_aligned": 0.5,
+      "top_jumps": [
+        {
+          "dist": 0.8426440358161926,
+          "s2": -2.4212,
+          "prev": "ook",
+          "curr": " my"
+        },
+        {
+          "dist": 0.8229960203170776,
+          "s2": 0.1364,
+          "prev": " nobody",
+          "curr": " red"
+        },
+        {
+          "dist": 0.8067716360092163,
+          "s2": 7.2203,
+          "prev": " am",
+          "curr": " nobody"
+        }
+      ]
+    },
+    {
+      "title": "We Wear the Mask",
+      "author": "Paul Laurence Dunbar",
+      "era": "victorian",
+      "is_prose": false,
+      "n": 60,
+      "mean_s2": -0.2251550000000001,
+      "mean_dist": 0.7775621334711711,
+      "std_dist": 0.08201974181786828,
+      "r_s2_dist": -0.14990160141767367,
+      "q_conform": 0,
+      "q_pure_jump": 40,
+      "q_structural": 0,
+      "q_aligned": 20,
+      "pct_aligned": 0.3333333333333333,
+      "top_jumps": [
+        {
+          "dist": 0.9445431232452393,
+          "s2": -2.1337,
+          "prev": " cheeks",
+          "curr": " and"
+        },
+        {
+          "dist": 0.928663432598114,
+          "s2": -2.9137,
+          "prev": " and",
+          "curr": " sigh"
+        },
+        {
+          "dist": 0.9112316370010376,
+          "s2": -2.6965,
+          "prev": " and",
+          "curr": " bleeding"
+        }
+      ]
+    },
+    {
+      "title": "Temple Bells (Buson, translated)",
+      "author": "Yosa Buson",
+      "era": "haiku",
+      "is_prose": false,
+      "n": 11,
+      "mean_s2": 0.9683727272727275,
+      "mean_dist": 0.777355822649869,
+      "std_dist": 0.02676735441666781,
+      "r_s2_dist": 0.22299117711781394,
+      "q_conform": 0,
+      "q_pure_jump": 6,
+      "q_structural": 0,
+      "q_aligned": 5,
+      "pct_aligned": 0.45454545454545453,
+      "top_jumps": [
+        {
+          "dist": 0.811970591545105,
+          "s2": 3.6642,
+          "prev": " out",
+          "curr": " frag"
+        },
+        {
+          "dist": 0.806317150592804,
+          "s2": -1.7514,
+          "prev": " die",
+          "curr": " out"
+        },
+        {
+          "dist": 0.8044636249542236,
+          "s2": 5.7015,
+          "prev": " bells",
+          "curr": " die"
+        }
+      ]
+    },
+    {
+      "title": "Bonnie George Campbell",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "is_prose": false,
+      "n": 75,
+      "mean_s2": 0.4519133333333334,
+      "mean_dist": 0.7766456667582194,
+      "std_dist": 0.07466771900873406,
+      "r_s2_dist": -0.02403034422511594,
+      "q_conform": 2,
+      "q_pure_jump": 44,
+      "q_structural": 0,
+      "q_aligned": 29,
+      "pct_aligned": 0.38666666666666666,
+      "top_jumps": [
+        {
+          "dist": 0.9682440757751465,
+          "s2": -1.0284,
+          "prev": " the",
+          "curr": " saddle"
+        },
+        {
+          "dist": 0.9034561514854431,
+          "s2": -0.3474,
+          "prev": " and",
+          "curr": " brid"
+        },
+        {
+          "dist": 0.9034561514854431,
+          "s2": -4.7204,
+          "prev": " and",
+          "curr": " brid"
+        }
+      ]
+    },
+    {
+      "title": "Three Haiku (Basho, translated)",
+      "author": "Matsuo Basho",
+      "era": "haiku",
+      "is_prose": false,
+      "n": 33,
+      "mean_s2": 0.6916939393939394,
+      "mean_dist": 0.7757687658974619,
+      "std_dist": 0.08550742062125578,
+      "r_s2_dist": 0.11443831145045982,
+      "q_conform": 0,
+      "q_pure_jump": 17,
+      "q_structural": 0,
+      "q_aligned": 16,
+      "pct_aligned": 0.48484848484848486,
+      "top_jumps": [
+        {
+          "dist": 0.9435113668441772,
+          "s2": -4.8675,
+          "prev": " shower",
+          "curr": " the"
+        },
+        {
+          "dist": 0.9380707740783691,
+          "s2": -2.3091,
+          "prev": " the",
+          "curr": " pond"
+        },
+        {
+          "dist": 0.9378728866577148,
+          "s2": 4.7073,
+          "prev": " the",
+          "curr": " monkey"
+        }
+      ]
+    },
+    {
+      "title": "The Convergence of the Twain (excerpt)",
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "is_prose": false,
+      "n": 60,
+      "mean_s2": 1.7897950000000002,
+      "mean_dist": 0.7739727646112442,
+      "std_dist": 0.07787483249669666,
+      "r_s2_dist": 0.15851465742876122,
+      "q_conform": 1,
+      "q_pure_jump": 22,
+      "q_structural": 0,
+      "q_aligned": 37,
+      "pct_aligned": 0.6166666666666667,
+      "top_jumps": [
+        {
+          "dist": 0.9178088307380676,
+          "s2": 7.0787,
+          "prev": " to",
+          "curr": " rhyth"
+        },
+        {
+          "dist": 0.8949848413467407,
+          "s2": 12.9443,
+          "prev": " a",
+          "curr": " solitude"
+        },
+        {
+          "dist": 0.8875700235366821,
+          "s2": -2.0019,
+          "prev": " solitude",
+          "curr": " of"
+        }
+      ]
+    },
+    {
+      "title": "The Harbor Dawn (from The Bridge)",
+      "author": "Hart Crane",
+      "era": "modernist",
+      "is_prose": false,
+      "n": 130,
+      "mean_s2": 1.6671223076923076,
+      "mean_dist": 0.7737681512649243,
+      "std_dist": 0.07799260558938212,
+      "r_s2_dist": 0.02062338528827503,
+      "q_conform": 0,
+      "q_pure_jump": 62,
+      "q_structural": 0,
+      "q_aligned": 68,
+      "pct_aligned": 0.5230769230769231,
+      "top_jumps": [
+        {
+          "dist": 0.9850496649742126,
+          "s2": -4.0339,
+          "prev": " overheard",
+          "curr": " the"
+        },
+        {
+          "dist": 0.9360288977622986,
+          "s2": 7.5139,
+          "prev": " a",
+          "curr": " tide"
+        },
+        {
+          "dist": 0.9357779026031494,
+          "s2": 3.6755,
+          "prev": " the",
+          "curr": " cloudy"
+        }
+      ]
+    },
+    {
+      "title": "Theocritus: A Villanelle (opening quatrains)",
+      "author": "Oscar Wilde",
+      "era": "fixed_form",
+      "is_prose": false,
+      "n": 73,
+      "mean_s2": 0.3262917808219178,
+      "mean_dist": 0.7735947501169492,
+      "std_dist": 0.08825063625929211,
+      "r_s2_dist": -0.05885506118846407,
+      "q_conform": 1,
+      "q_pure_jump": 43,
+      "q_structural": 0,
+      "q_aligned": 29,
+      "pct_aligned": 0.3972602739726027,
+      "top_jumps": [
+        {
+          "dist": 0.9299138188362122,
+          "s2": -5.6653,
+          "prev": "phone",
+          "curr": " the"
+        },
+        {
+          "dist": 0.9239192605018616,
+          "s2": 0.626,
+          "prev": " the",
+          "curr": " iv"
+        },
+        {
+          "dist": 0.9157216548919678,
+          "s2": 3.6899,
+          "prev": " the",
+          "curr": " bee"
+        }
+      ]
+    },
+    {
+      "title": "Digging",
+      "author": "Seamus Heaney",
+      "era": "contemporary",
+      "is_prose": false,
+      "n": 101,
+      "mean_s2": 0.5874613861386139,
+      "mean_dist": 0.7731612932564008,
+      "std_dist": 0.09487304316268591,
+      "r_s2_dist": 0.10523821001493013,
+      "q_conform": 2,
+      "q_pure_jump": 55,
+      "q_structural": 1,
+      "q_aligned": 43,
+      "pct_aligned": 0.42574257425742573,
+      "top_jumps": [
+        {
+          "dist": 0.9666637182235718,
+          "s2": 7.0711,
+          "prev": " the",
+          "curr": " lug"
+        },
+        {
+          "dist": 0.9666637182235718,
+          "s2": 1.7087,
+          "prev": " lug",
+          "curr": " the"
+        },
+        {
+          "dist": 0.9449889063835144,
+          "s2": -1.6898,
+          "prev": " hardness",
+          "curr": " in"
+        }
+      ]
+    },
+    {
+      "title": "To Autumn (stanza 1)",
+      "author": "John Keats",
+      "era": "romantic",
+      "is_prose": false,
+      "n": 105,
+      "mean_s2": -0.021775238095238025,
+      "mean_dist": 0.7725685868944441,
+      "std_dist": 0.10954327216797642,
+      "r_s2_dist": 0.19431743236702662,
+      "q_conform": 3,
+      "q_pure_jump": 63,
+      "q_structural": 1,
+      "q_aligned": 38,
+      "pct_aligned": 0.3619047619047619,
+      "top_jumps": [
+        {
+          "dist": 0.9732094407081604,
+          "s2": -3.0941,
+          "prev": " swell",
+          "curr": " the"
+        },
+        {
+          "dist": 0.9477547407150269,
+          "s2": -1.3239,
+          "prev": " the",
+          "curr": " vines"
+        },
+        {
+          "dist": 0.9413039684295654,
+          "s2": -2.1906,
+          "prev": " the",
+          "curr": " moss"
+        }
+      ]
+    },
+    {
+      "title": "Vanity of Vanities (Found Poem from Ecclesiastes 1:2-8, KJV)",
+      "author": "Anonymous (KJV, found text)",
+      "era": "found_poetry",
+      "is_prose": false,
+      "n": 114,
+      "mean_s2": -0.6515236842105263,
+      "mean_dist": 0.7719871799151102,
+      "std_dist": 0.07477585492530868,
+      "r_s2_dist": 0.004901905194211147,
+      "q_conform": 0,
+      "q_pure_jump": 81,
+      "q_structural": 0,
+      "q_aligned": 33,
+      "pct_aligned": 0.2894736842105263,
+      "top_jumps": [
+        {
+          "dist": 0.9780654311180115,
+          "s2": -6.5107,
+          "prev": "aith",
+          "curr": " the"
+        },
+        {
+          "dist": 0.9315188527107239,
+          "s2": -3.8296,
+          "prev": "yet",
+          "curr": " the"
+        },
+        {
+          "dist": 0.8995029926300049,
+          "s2": -1.1852,
+          "prev": " hath",
+          "curr": " a"
+        }
+      ]
+    },
+    {
+      "title": "Komm in den totgesagten park und schau",
+      "author": "Stefan George",
+      "era": "german_symbolist",
+      "is_prose": false,
+      "n": 113,
+      "mean_s2": 0.9367628318584073,
+      "mean_dist": 0.7717464518758048,
+      "std_dist": 0.07683272664226368,
+      "r_s2_dist": 0.006446557700813844,
+      "q_conform": 1,
+      "q_pure_jump": 61,
+      "q_structural": 1,
+      "q_aligned": 50,
+      "pct_aligned": 0.4424778761061947,
+      "top_jumps": [
+        {
+          "dist": 0.8966010212898254,
+          "s2": 4.4527,
+          "prev": " b",
+          "curr": "uchs"
+        },
+        {
+          "dist": 0.8820315599441528,
+          "s2": -2.3502,
+          "prev": "Und",
+          "curr": " auch"
+        },
+        {
+          "dist": 0.8623899221420288,
+          "s2": 1.1667,
+          "prev": "ten",
+          "curr": " a"
+        }
+      ]
+    },
+    {
+      "title": "Song of Myself (section 1)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "is_prose": false,
+      "n": 41,
+      "mean_s2": 1.3749975609756098,
+      "mean_dist": 0.7715616487875218,
+      "std_dist": 0.09855516844186148,
+      "r_s2_dist": 0.16990410714255144,
+      "q_conform": 0,
+      "q_pure_jump": 19,
+      "q_structural": 0,
+      "q_aligned": 22,
+      "pct_aligned": 0.5365853658536586,
+      "top_jumps": [
+        {
+          "dist": 0.9193247556686401,
+          "s2": 1.3424,
+          "prev": " and",
+          "curr": " invite"
+        },
+        {
+          "dist": 0.912539541721344,
+          "s2": 4.7879,
+          "prev": " a",
+          "curr": " spear"
+        },
+        {
+          "dist": 0.909687876701355,
+          "s2": -3.1045,
+          "prev": " lean",
+          "curr": " and"
+        }
+      ]
+    },
+    {
+      "title": "The Lady of Shalott (Part I)",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "is_prose": false,
+      "n": 234,
+      "mean_s2": 0.13689444444444443,
+      "mean_dist": 0.7713584056776813,
+      "std_dist": 0.0951436114195785,
+      "r_s2_dist": 0.12381812680340516,
+      "q_conform": 5,
+      "q_pure_jump": 142,
+      "q_structural": 0,
+      "q_aligned": 87,
+      "pct_aligned": 0.3717948717948718,
+      "top_jumps": [
+        {
+          "dist": 0.9756995439529419,
+          "s2": -4.7747,
+          "prev": " thro",
+          "curr": " the"
+        },
+        {
+          "dist": 0.9755538702011108,
+          "s2": -1.5855,
+          "prev": " dusk",
+          "curr": " and"
+        },
+        {
+          "dist": 0.9550622701644897,
+          "s2": -3.3477,
+          "prev": " barley",
+          "curr": " and"
+        }
+      ]
+    },
+    {
+      "title": "Ode to the West Wind (stanza 1)",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "is_prose": false,
+      "n": 129,
+      "mean_s2": 0.176808527131783,
+      "mean_dist": 0.7702858840772348,
+      "std_dist": 0.07807064298688508,
+      "r_s2_dist": 0.044592490241481965,
+      "q_conform": 1,
+      "q_pure_jump": 77,
+      "q_structural": 0,
+      "q_aligned": 51,
+      "pct_aligned": 0.3953488372093023,
+      "top_jumps": [
+        {
+          "dist": 0.9384331107139587,
+          "s2": -4.495,
+          "prev": "Yellow",
+          "curr": " and"
+        },
+        {
+          "dist": 0.934726357460022,
+          "s2": 3.0702,
+          "prev": " the",
+          "curr": " dreaming"
+        },
+        {
+          "dist": 0.9170833230018616,
+          "s2": -0.465,
+          "prev": "ocks",
+          "curr": " to"
+        }
+      ]
+    },
+    {
+      "title": "Sunday Morning (stanza 1)",
+      "author": "Wallace Stevens",
+      "era": "modernist",
+      "is_prose": false,
+      "n": 64,
+      "mean_s2": -0.3252124999999999,
+      "mean_dist": 0.770070412196219,
+      "std_dist": 0.11925152666576959,
+      "r_s2_dist": 0.23491582826708274,
+      "q_conform": 4,
+      "q_pure_jump": 36,
+      "q_structural": 0,
+      "q_aligned": 24,
+      "pct_aligned": 0.375,
+      "top_jumps": [
+        {
+          "dist": 0.9604294896125793,
+          "s2": -5.6575,
+          "prev": "oir",
+          "curr": " and"
+        },
+        {
+          "dist": 0.9456892013549805,
+          "s2": -3.9633,
+          "prev": "achment",
+          "curr": " of"
+        },
+        {
+          "dist": 0.9359473586082458,
+          "s2": -0.3104,
+          "prev": " a",
+          "curr": " rug"
+        }
+      ]
+    },
+    {
+      "title": "To a Skylark (opening stanzas)",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "is_prose": false,
+      "n": 87,
+      "mean_s2": 0.3461241379310344,
+      "mean_dist": 0.7696134242518194,
+      "std_dist": 0.08375022496549639,
+      "r_s2_dist": 0.10155409603246406,
+      "q_conform": 1,
+      "q_pure_jump": 47,
+      "q_structural": 0,
+      "q_aligned": 39,
+      "pct_aligned": 0.4482758620689655,
+      "top_jumps": [
+        {
+          "dist": 0.9304100275039673,
+          "s2": 8.6152,
+          "prev": " of",
+          "curr": " unpre"
+        },
+        {
+          "dist": 0.9025341272354126,
+          "s2": 4.2836,
+          "prev": " to",
+          "curr": " thee"
+        },
+        {
+          "dist": 0.8962112069129944,
+          "s2": 4.8441,
+          "prev": " the",
+          "curr": " sunk"
+        }
+      ]
+    },
+    {
+      "title": "Pied Beauty",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "is_prose": false,
+      "n": 97,
+      "mean_s2": 1.216876288659794,
+      "mean_dist": 0.7689190494645503,
+      "std_dist": 0.08921143330903557,
+      "r_s2_dist": 0.12024591077746179,
+      "q_conform": 2,
+      "q_pure_jump": 46,
+      "q_structural": 0,
+      "q_aligned": 49,
+      "pct_aligned": 0.5051546391752577,
+      "top_jumps": [
+        {
+          "dist": 0.949715256690979,
+          "s2": -2.6012,
+          "prev": " plotted",
+          "curr": " and"
+        },
+        {
+          "dist": 0.9178911447525024,
+          "s2": -1.4038,
+          "prev": " and",
+          "curr": " trim"
+        },
+        {
+          "dist": 0.9089961051940918,
+          "s2": -1.1477,
+          "prev": "colour",
+          "curr": " as"
+        }
+      ]
+    },
+    {
+      "title": "Technical prose",
+      "author": "Control",
+      "era": "control",
+      "is_prose": true,
+      "n": 27,
+      "mean_s2": -1.7859740740740737,
+      "mean_dist": 0.7685351548371492,
+      "std_dist": 0.13048865614670174,
+      "r_s2_dist": 0.3593155633907279,
+      "q_conform": 2,
+      "q_pure_jump": 21,
+      "q_structural": 0,
+      "q_aligned": 4,
+      "pct_aligned": 0.14814814814814814,
+      "top_jumps": [
+        {
+          "dist": 0.908795177936554,
+          "s2": 1.6382,
+          "prev": " and",
+          "curr": " navigate"
+        },
+        {
+          "dist": 0.8874662518501282,
+          "s2": 0.0112,
+          "prev": " the",
+          "curr": " download"
+        },
+        {
+          "dist": 0.8874662518501282,
+          "s2": -3.3431,
+          "prev": " download",
+          "curr": " the"
+        }
+      ]
+    },
+    {
+      "title": "Invictus",
+      "author": "William Ernest Henley",
+      "era": "victorian",
+      "is_prose": false,
+      "n": 104,
+      "mean_s2": -0.4582115384615385,
+      "mean_dist": 0.7678406479266974,
+      "std_dist": 0.11320791049069236,
+      "r_s2_dist": 0.34983418682736983,
+      "q_conform": 4,
+      "q_pure_jump": 65,
+      "q_structural": 0,
+      "q_aligned": 35,
+      "pct_aligned": 0.33653846153846156,
+      "top_jumps": [
+        {
+          "dist": 0.9515190124511719,
+          "s2": 5.5866,
+          "prev": " the",
+          "curr": " Horror"
+        },
+        {
+          "dist": 0.9403156042098999,
+          "s2": -1.6381,
+          "prev": " wrath",
+          "curr": " and"
+        },
+        {
+          "dist": 0.9348817467689514,
+          "s2": 2.055,
+          "prev": " the",
+          "curr": " shade"
+        }
+      ]
+    },
+    {
+      "title": "Leaving the Atocha Station",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "is_prose": false,
+      "n": 42,
+      "mean_s2": -0.6661642857142859,
+      "mean_dist": 0.7677778559071677,
+      "std_dist": 0.10926143009970703,
+      "r_s2_dist": 0.16962450272454502,
+      "q_conform": 2,
+      "q_pure_jump": 28,
+      "q_structural": 0,
+      "q_aligned": 12,
+      "pct_aligned": 0.2857142857142857,
+      "top_jumps": [
+        {
+          "dist": 0.8973600268363953,
+          "s2": 6.6692,
+          "prev": " a",
+          "curr": " pillar"
+        },
+        {
+          "dist": 0.8876925110816956,
+          "s2": -4.4043,
+          "prev": "vey",
+          "curr": " of"
+        },
+        {
+          "dist": 0.8828633427619934,
+          "s2": -5.0644,
+          "prev": " Station",
+          "curr": " the"
+        }
+      ]
+    },
+    {
+      "title": "Winter Forest (Shiki, translated)",
+      "author": "Masaoka Shiki",
+      "era": "haiku",
+      "is_prose": false,
+      "n": 13,
+      "mean_s2": 1.4503307692307688,
+      "mean_dist": 0.7675943191234882,
+      "std_dist": 0.05966296342470622,
+      "r_s2_dist": -0.12551561431748276,
+      "q_conform": 0,
+      "q_pure_jump": 6,
+      "q_structural": 0,
+      "q_aligned": 7,
+      "pct_aligned": 0.5384615384615384,
+      "top_jumps": [
+        {
+          "dist": 0.8833258748054504,
+          "s2": 2.6172,
+          "prev": " in",
+          "curr": " rage"
+        },
+        {
+          "dist": 0.8261351585388184,
+          "s2": -2.4022,
+          "prev": " w",
+          "curr": "int"
+        },
+        {
+          "dist": 0.8190417885780334,
+          "s2": 1.1805,
+          "prev": "ry",
+          "curr": " winds"
+        }
+      ]
+    }
+  ],
+  "top_pure_jumps": [
+    {
+      "dist": 1.0138463973999023,
+      "s2": -4.7576,
+      "era": "oulipo",
+      "token": " a"
+    },
+    {
+      "dist": 1.0014293193817139,
+      "s2": -1.2818,
+      "era": "new_york_school",
+      "token": " brink"
+    },
+    {
+      "dist": 0.9969736337661743,
+      "s2": -5.2543,
+      "era": "new_york_school",
+      "token": " the"
+    },
+    {
+      "dist": 0.9966902136802673,
+      "s2": -3.9731,
+      "era": "metaphysical",
+      "token": " and"
+    },
+    {
+      "dist": 0.9950764775276184,
+      "s2": -5.0553,
+      "era": "romantic",
+      "token": " breeze"
+    },
+    {
+      "dist": 0.993500292301178,
+      "s2": -4.2921,
+      "era": "romantic",
+      "token": " the"
+    },
+    {
+      "dist": 0.9883397221565247,
+      "s2": -2.6733,
+      "era": "romantic",
+      "token": " and"
+    },
+    {
+      "dist": 0.9850496649742126,
+      "s2": -4.0339,
+      "era": "modernist",
+      "token": " the"
+    },
+    {
+      "dist": 0.9802500605583191,
+      "s2": -3.9762,
+      "era": "fixed_form",
+      "token": " faire"
+    },
+    {
+      "dist": 0.9780654311180115,
+      "s2": -6.5107,
+      "era": "found_poetry",
+      "token": " the"
+    }
+  ],
+  "top_aligned_surprises": [
+    {
+      "score": 26.357401281642915,
+      "s2": 25.6338,
+      "dist": 0.7236012816429138,
+      "era": "modernist",
+      "token": " glass"
+    },
+    {
+      "score": 24.16704212207794,
+      "s2": 23.3952,
+      "dist": 0.7718421220779419,
+      "era": "german_symbolist",
+      "token": " ferner"
+    },
+    {
+      "score": 22.93790697116852,
+      "s2": 22.0877,
+      "dist": 0.8502069711685181,
+      "era": "victorian",
+      "token": " Pra"
+    },
+    {
+      "score": 22.839281361293793,
+      "s2": 22.0152,
+      "dist": 0.8240813612937927,
+      "era": "18th_century",
+      "token": " prank"
+    },
+    {
+      "score": 22.827343987369538,
+      "s2": 22.0439,
+      "dist": 0.7834439873695374,
+      "era": "victorian",
+      "token": " shook"
+    },
+    {
+      "score": 21.4158079703331,
+      "s2": 20.5858,
+      "dist": 0.8300079703330994,
+      "era": "mid_century",
+      "token": " badly"
+    },
+    {
+      "score": 21.156812490844725,
+      "s2": 20.3969,
+      "dist": 0.7599124908447266,
+      "era": "19th_century",
+      "token": " observing"
+    },
+    {
+      "score": 20.343246988487245,
+      "s2": 19.4767,
+      "dist": 0.8665469884872437,
+      "era": "early_modern",
+      "token": " list"
+    },
+    {
+      "score": 19.808329060173033,
+      "s2": 19.0326,
+      "dist": 0.7757290601730347,
+      "era": "modernist",
+      "token": " Jesus"
+    },
+    {
+      "score": 19.72147948513031,
+      "s2": 18.9026,
+      "dist": 0.8188794851303101,
+      "era": "19th_century",
+      "token": " Fun"
+    }
+  ]
+}
