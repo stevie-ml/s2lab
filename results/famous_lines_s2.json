@@ -1,0 +1,936 @@
+{
+  "summary": {
+    "n_lines": 20,
+    "above_poem_avg": 11,
+    "pct_above": 55.0,
+    "mean_delta": 0.5176,
+    "hypothesis_supported": true
+  },
+  "results": [
+    {
+      "poem": "I Wandered Lonely as a Cloud",
+      "author": "William Wordsworth",
+      "phrase": "I wandered lonely as a cloud",
+      "source": "title line / opening",
+      "reconstructed": "wandered lonely as a",
+      "phrase_avg_s2": 3.969,
+      "poem_avg_s2": -0.697,
+      "delta": 4.666,
+      "n_tokens": 4,
+      "max_s2_token": "lonely",
+      "max_s2": 11.37,
+      "model_expected": "into",
+      "phrase_tokens": [
+        {
+          "token": " wandered",
+          "s2": 6.11,
+          "top_alt": "."
+        },
+        {
+          "token": " lonely",
+          "s2": 11.37,
+          "top_alt": " into"
+        },
+        {
+          "token": " as",
+          "s2": 1.03,
+          "top_alt": " and"
+        },
+        {
+          "token": " a",
+          "s2": -2.62,
+          "top_alt": " I"
+        }
+      ]
+    },
+    {
+      "poem": "The Red Wheelbarrow",
+      "author": "William Carlos Williams",
+      "phrase": "a red wheel",
+      "source": "core image",
+      "reconstructed": "a red wheel",
+      "phrase_avg_s2": 2.465,
+      "poem_avg_s2": -0.145,
+      "delta": 2.61,
+      "n_tokens": 5,
+      "max_s2_token": "wheel",
+      "max_s2": 5.09,
+      "model_expected": "light",
+      "phrase_tokens": [
+        {
+          "token": "\n",
+          "s2": 4.14,
+          "top_alt": " the"
+        },
+        {
+          "token": "\n",
+          "s2": -0.03,
+          "top_alt": "\n"
+        },
+        {
+          "token": "a",
+          "s2": 0.06,
+          "top_alt": "the"
+        },
+        {
+          "token": " red",
+          "s2": 3.06,
+          "top_alt": "\n"
+        },
+        {
+          "token": " wheel",
+          "s2": 5.09,
+          "top_alt": " light"
+        }
+      ]
+    },
+    {
+      "poem": "Because I could not stop for Death",
+      "author": "Emily Dickinson",
+      "phrase": "He kindly stopped for me",
+      "source": "line 2",
+      "reconstructed": "He kindly stopped for me",
+      "phrase_avg_s2": 2.79,
+      "poem_avg_s2": 0.25,
+      "delta": 2.54,
+      "n_tokens": 6,
+      "max_s2_token": "He",
+      "max_s2": 17.21,
+      "model_expected": "",
+      "phrase_tokens": [
+        {
+          "token": "\n",
+          "s2": 0.07,
+          "top_alt": " I"
+        },
+        {
+          "token": "He",
+          "s2": 17.21,
+          "top_alt": "\n"
+        },
+        {
+          "token": " kindly",
+          "s2": 7.58,
+          "top_alt": " was"
+        },
+        {
+          "token": " stopped",
+          "s2": -1.18,
+          "top_alt": " asked"
+        },
+        {
+          "token": " for",
+          "s2": -3.0,
+          "top_alt": " me"
+        },
+        {
+          "token": " me",
+          "s2": -3.95,
+          "top_alt": " me"
+        }
+      ]
+    },
+    {
+      "poem": "We Real Cool",
+      "author": "Gwendolyn Brooks",
+      "phrase": "We real cool",
+      "source": "opening / title",
+      "reconstructed": "real cool",
+      "phrase_avg_s2": 1.507,
+      "poem_avg_s2": -0.658,
+      "delta": 2.164,
+      "n_tokens": 2,
+      "max_s2_token": "real",
+      "max_s2": 1.72,
+      "model_expected": "have",
+      "phrase_tokens": [
+        {
+          "token": " real",
+          "s2": 1.72,
+          "top_alt": " have"
+        },
+        {
+          "token": " cool",
+          "s2": 1.29,
+          "top_alt": "ises"
+        }
+      ]
+    },
+    {
+      "poem": "The Tyger",
+      "author": "William Blake",
+      "phrase": "Tyger Tyger, burning bright",
+      "source": "opening line",
+      "reconstructed": "ger Tyger, burning bright",
+      "phrase_avg_s2": 0.776,
+      "poem_avg_s2": -0.879,
+      "delta": 1.655,
+      "n_tokens": 6,
+      "max_s2_token": "burning",
+      "max_s2": 7.65,
+      "model_expected": "a",
+      "phrase_tokens": [
+        {
+          "token": "ger",
+          "s2": -0.6,
+          "top_alt": "\n"
+        },
+        {
+          "token": " Ty",
+          "s2": 3.75,
+          "top_alt": ","
+        },
+        {
+          "token": "ger",
+          "s2": -3.47,
+          "top_alt": "rell"
+        },
+        {
+          "token": ",",
+          "s2": -5.22,
+          "top_alt": " is"
+        },
+        {
+          "token": " burning",
+          "s2": 7.65,
+          "top_alt": " a"
+        },
+        {
+          "token": " bright",
+          "s2": 2.55,
+          "top_alt": " in"
+        }
+      ]
+    },
+    {
+      "poem": "The Red Wheelbarrow",
+      "author": "William Carlos Williams",
+      "phrase": "so much depends",
+      "source": "opening (entire poem is canonical)",
+      "reconstructed": "much depends",
+      "phrase_avg_s2": 1.289,
+      "poem_avg_s2": -0.145,
+      "delta": 1.434,
+      "n_tokens": 2,
+      "max_s2_token": "depends",
+      "max_s2": 4.01,
+      "model_expected": "as",
+      "phrase_tokens": [
+        {
+          "token": " much",
+          "s2": -1.43,
+          "top_alt": ","
+        },
+        {
+          "token": " depends",
+          "s2": 4.01,
+          "top_alt": " as"
+        }
+      ]
+    },
+    {
+      "poem": "Harlem",
+      "author": "Langston Hughes",
+      "phrase": "What happens to a dream deferred",
+      "source": "opening question",
+      "reconstructed": "happens to a dream deferred",
+      "phrase_avg_s2": 0.241,
+      "poem_avg_s2": -0.882,
+      "delta": 1.124,
+      "n_tokens": 5,
+      "max_s2_token": "deferred",
+      "max_s2": 5.95,
+      "model_expected": "?",
+      "phrase_tokens": [
+        {
+          "token": " happens",
+          "s2": -0.16,
+          "top_alt": " is"
+        },
+        {
+          "token": " to",
+          "s2": -0.8,
+          "top_alt": " when"
+        },
+        {
+          "token": " a",
+          "s2": -3.82,
+          "top_alt": " the"
+        },
+        {
+          "token": " dream",
+          "s2": 0.02,
+          "top_alt": " person"
+        },
+        {
+          "token": " deferred",
+          "s2": 5.95,
+          "top_alt": "?"
+        }
+      ]
+    },
+    {
+      "poem": "We Wear the Mask",
+      "author": "Paul Laurence Dunbar",
+      "phrase": "We wear the mask that grins and lies",
+      "source": "opening line",
+      "reconstructed": "wear the mask that grins and",
+      "phrase_avg_s2": 0.697,
+      "poem_avg_s2": -0.414,
+      "delta": 1.112,
+      "n_tokens": 7,
+      "max_s2_token": "gr",
+      "max_s2": 6.13,
+      "model_expected": "we",
+      "phrase_tokens": [
+        {
+          "token": " wear",
+          "s2": 2.78,
+          "top_alt": " have"
+        },
+        {
+          "token": " the",
+          "s2": -4.31,
+          "top_alt": " our"
+        },
+        {
+          "token": " mask",
+          "s2": -1.08,
+          "top_alt": " same"
+        },
+        {
+          "token": " that",
+          "s2": 0.24,
+          "top_alt": " of"
+        },
+        {
+          "token": " gr",
+          "s2": 6.13,
+          "top_alt": " we"
+        },
+        {
+          "token": "ins",
+          "s2": 3.74,
+          "top_alt": "aces"
+        },
+        {
+          "token": " and",
+          "s2": -2.61,
+          "top_alt": " at"
+        }
+      ]
+    },
+    {
+      "poem": "Because I could not stop for Death",
+      "author": "Emily Dickinson",
+      "phrase": "Because I could not stop for Death",
+      "source": "opening line",
+      "reconstructed": "I could not stop for Death",
+      "phrase_avg_s2": 1.353,
+      "poem_avg_s2": 0.25,
+      "delta": 1.104,
+      "n_tokens": 6,
+      "max_s2_token": "Death",
+      "max_s2": 12.86,
+      "model_expected": "a",
+      "phrase_tokens": [
+        {
+          "token": " I",
+          "s2": -3.77,
+          "top_alt": " the"
+        },
+        {
+          "token": " could",
+          "s2": 0.12,
+          "top_alt": "'m"
+        },
+        {
+          "token": " not",
+          "s2": -3.6,
+          "top_alt": " not"
+        },
+        {
+          "token": " stop",
+          "s2": -0.49,
+          "top_alt": " find"
+        },
+        {
+          "token": " for",
+          "s2": 3.02,
+          "top_alt": " myself"
+        },
+        {
+          "token": " Death",
+          "s2": 12.86,
+          "top_alt": " a"
+        }
+      ]
+    },
+    {
+      "poem": "One Art",
+      "author": "Elizabeth Bishop",
+      "phrase": "The art of losing isn't hard to master",
+      "source": "opening / refrain",
+      "reconstructed": "The art of losing isn't hard to master",
+      "phrase_avg_s2": 0.877,
+      "poem_avg_s2": 0.175,
+      "delta": 0.703,
+      "n_tokens": 10,
+      "max_s2_token": "The",
+      "max_s2": 24.6,
+      "model_expected": "",
+      "phrase_tokens": [
+        {
+          "token": "\n",
+          "s2": -2.78,
+          "top_alt": "\n"
+        },
+        {
+          "token": "The",
+          "s2": 24.6,
+          "top_alt": "\n"
+        },
+        {
+          "token": " art",
+          "s2": -3.95,
+          "top_alt": " time"
+        },
+        {
+          "token": " of",
+          "s2": -0.32,
+          "top_alt": " of"
+        },
+        {
+          "token": " losing",
+          "s2": -5.64,
+          "top_alt": " losing"
+        },
+        {
+          "token": " isn",
+          "s2": -1.92,
+          "top_alt": " isn"
+        },
+        {
+          "token": "'t",
+          "s2": -0.01,
+          "top_alt": "'t"
+        },
+        {
+          "token": " hard",
+          "s2": -0.86,
+          "top_alt": " hard"
+        },
+        {
+          "token": " to",
+          "s2": -0.09,
+          "top_alt": " to"
+        },
+        {
+          "token": " master",
+          "s2": -0.26,
+          "top_alt": " master"
+        }
+      ]
+    },
+    {
+      "poem": "Song of Myself (section 1)",
+      "author": "Walt Whitman",
+      "phrase": "I celebrate myself, and sing myself",
+      "source": "opening declaration",
+      "reconstructed": "celebrate myself, and sing",
+      "phrase_avg_s2": 0.832,
+      "poem_avg_s2": 0.775,
+      "delta": 0.057,
+      "n_tokens": 5,
+      "max_s2_token": "sing",
+      "max_s2": 4.76,
+      "model_expected": "I",
+      "phrase_tokens": [
+        {
+          "token": " celebrate",
+          "s2": 3.44,
+          "top_alt": "."
+        },
+        {
+          "token": " myself",
+          "s2": 1.82,
+          "top_alt": " the"
+        },
+        {
+          "token": ",",
+          "s2": -2.02,
+          "top_alt": "."
+        },
+        {
+          "token": " and",
+          "s2": -3.84,
+          "top_alt": " I"
+        },
+        {
+          "token": " sing",
+          "s2": 4.76,
+          "top_alt": " I"
+        }
+      ]
+    },
+    {
+      "poem": "In a Station of the Metro",
+      "author": "Ezra Pound",
+      "phrase": "The apparition of these faces in the crowd",
+      "source": "first line (entire poem is canonical)",
+      "reconstructed": "apparition of these faces in the",
+      "phrase_avg_s2": -1.252,
+      "poem_avg_s2": -1.174,
+      "delta": -0.078,
+      "n_tokens": 7,
+      "max_s2_token": "appar",
+      "max_s2": 5.28,
+      "model_expected": "",
+      "phrase_tokens": [
+        {
+          "token": " appar",
+          "s2": 5.28,
+          "top_alt": "\n"
+        },
+        {
+          "token": "ition",
+          "s2": -0.65,
+          "top_alt": "ition"
+        },
+        {
+          "token": " of",
+          "s2": -4.71,
+          "top_alt": " of"
+        },
+        {
+          "token": " these",
+          "s2": -0.41,
+          "top_alt": " the"
+        },
+        {
+          "token": " faces",
+          "s2": 0.21,
+          "top_alt": " two"
+        },
+        {
+          "token": " in",
+          "s2": -2.84,
+          "top_alt": " is"
+        },
+        {
+          "token": " the",
+          "s2": -5.65,
+          "top_alt": " the"
+        }
+      ]
+    },
+    {
+      "poem": "The Negro Speaks of Rivers",
+      "author": "Langston Hughes",
+      "phrase": "I've known rivers",
+      "source": "opening / refrain",
+      "reconstructed": "I've known rivers",
+      "phrase_avg_s2": -0.694,
+      "poem_avg_s2": -0.347,
+      "delta": -0.346,
+      "n_tokens": 5,
+      "max_s2_token": "I",
+      "max_s2": 10.43,
+      "model_expected": "",
+      "phrase_tokens": [
+        {
+          "token": "\n",
+          "s2": -1.86,
+          "top_alt": " I"
+        },
+        {
+          "token": "I",
+          "s2": 10.43,
+          "top_alt": "\n"
+        },
+        {
+          "token": "'ve",
+          "s2": -2.71,
+          "top_alt": "'ve"
+        },
+        {
+          "token": " known",
+          "s2": -3.27,
+          "top_alt": " known"
+        },
+        {
+          "token": " rivers",
+          "s2": -6.06,
+          "top_alt": " rivers"
+        }
+      ]
+    },
+    {
+      "poem": "Ozymandias",
+      "author": "Percy Bysshe Shelley",
+      "phrase": "Look on my Works, ye Mighty, and despair",
+      "source": "central inscription",
+      "reconstructed": "Look on my Works, ye Mighty, and despair",
+      "phrase_avg_s2": -0.665,
+      "poem_avg_s2": -0.245,
+      "delta": -0.419,
+      "n_tokens": 11,
+      "max_s2_token": "Works",
+      "max_s2": 8.26,
+      "model_expected": "face",
+      "phrase_tokens": [
+        {
+          "token": "\n",
+          "s2": -1.8,
+          "top_alt": "\n"
+        },
+        {
+          "token": "Look",
+          "s2": 2.44,
+          "top_alt": "I"
+        },
+        {
+          "token": " on",
+          "s2": -2.19,
+          "top_alt": " upon"
+        },
+        {
+          "token": " my",
+          "s2": -2.09,
+          "top_alt": " the"
+        },
+        {
+          "token": " Works",
+          "s2": 8.26,
+          "top_alt": " face"
+        },
+        {
+          "token": ",",
+          "s2": -3.36,
+          "top_alt": ","
+        },
+        {
+          "token": " ye",
+          "s2": 1.33,
+          "top_alt": " and"
+        },
+        {
+          "token": " Mighty",
+          "s2": -2.24,
+          "top_alt": " who"
+        },
+        {
+          "token": ",",
+          "s2": -4.58,
+          "top_alt": " Ones"
+        },
+        {
+          "token": " and",
+          "s2": -5.79,
+          "top_alt": " and"
+        },
+        {
+          "token": " despair",
+          "s2": 2.71,
+          "top_alt": " I"
+        }
+      ]
+    },
+    {
+      "poem": "The Raven (opening stanzas)",
+      "author": "Edgar Allan Poe",
+      "phrase": "Nevermore",
+      "source": "refrain",
+      "reconstructed": "Nevermore",
+      "phrase_avg_s2": -1.323,
+      "poem_avg_s2": -0.74,
+      "delta": -0.583,
+      "n_tokens": 2,
+      "max_s2_token": "Never",
+      "max_s2": 0.65,
+      "model_expected": "I",
+      "phrase_tokens": [
+        {
+          "token": "Never",
+          "s2": 0.65,
+          "top_alt": "I"
+        },
+        {
+          "token": "more",
+          "s2": -3.3,
+          "top_alt": " mind"
+        }
+      ]
+    },
+    {
+      "poem": "The Love Song of J. Alfred Prufrock (opening)",
+      "author": "T.S. Eliot",
+      "phrase": "Let us go then, you and I",
+      "source": "opening line",
+      "reconstructed": "us go then, you and",
+      "phrase_avg_s2": -1.349,
+      "poem_avg_s2": -0.479,
+      "delta": -0.87,
+      "n_tokens": 6,
+      "max_s2_token": "then",
+      "max_s2": 3.54,
+      "model_expected": "back",
+      "phrase_tokens": [
+        {
+          "token": " us",
+          "s2": -1.77,
+          "top_alt": ","
+        },
+        {
+          "token": " go",
+          "s2": -0.67,
+          "top_alt": " not"
+        },
+        {
+          "token": " then",
+          "s2": 3.54,
+          "top_alt": " back"
+        },
+        {
+          "token": ",",
+          "s2": -2.59,
+          "top_alt": ","
+        },
+        {
+          "token": " you",
+          "s2": -2.61,
+          "top_alt": " and"
+        },
+        {
+          "token": " and",
+          "s2": -3.99,
+          "top_alt": " will"
+        }
+      ]
+    },
+    {
+      "poem": "Ozymandias",
+      "author": "Percy Bysshe Shelley",
+      "phrase": "My name is Ozymandias, King of Kings",
+      "source": "inscription",
+      "reconstructed": "My name is Ozymandias, King of Kings",
+      "phrase_avg_s2": -1.333,
+      "poem_avg_s2": -0.245,
+      "delta": -1.088,
+      "n_tokens": 12,
+      "max_s2_token": "My",
+      "max_s2": 1.68,
+      "model_expected": "\"",
+      "phrase_tokens": [
+        {
+          "token": "\n",
+          "s2": -2.25,
+          "top_alt": "\n"
+        },
+        {
+          "token": "My",
+          "s2": 1.68,
+          "top_alt": "\""
+        },
+        {
+          "token": " name",
+          "s2": -4.6,
+          "top_alt": " soul"
+        },
+        {
+          "token": " is",
+          "s2": -2.15,
+          "top_alt": " is"
+        },
+        {
+          "token": " Oz",
+          "s2": 0.07,
+          "top_alt": " the"
+        },
+        {
+          "token": "ym",
+          "s2": -4.83,
+          "top_alt": "ym"
+        },
+        {
+          "token": "and",
+          "s2": -0.01,
+          "top_alt": "and"
+        },
+        {
+          "token": "ias",
+          "s2": -0.0,
+          "top_alt": "ias"
+        },
+        {
+          "token": ",",
+          "s2": -3.19,
+          "top_alt": ","
+        },
+        {
+          "token": " King",
+          "s2": 1.58,
+          "top_alt": " and"
+        },
+        {
+          "token": " of",
+          "s2": -1.41,
+          "top_alt": " of"
+        },
+        {
+          "token": " Kings",
+          "s2": -0.89,
+          "top_alt": " the"
+        }
+      ]
+    },
+    {
+      "poem": "Daddy (opening)",
+      "author": "Sylvia Plath",
+      "phrase": "You do not do, you do not do",
+      "source": "anaphoric opening",
+      "reconstructed": "do not do, you do not",
+      "phrase_avg_s2": -1.73,
+      "poem_avg_s2": -0.572,
+      "delta": -1.158,
+      "n_tokens": 7,
+      "max_s2_token": ",",
+      "max_s2": 1.84,
+      "model_expected": "this",
+      "phrase_tokens": [
+        {
+          "token": " do",
+          "s2": -3.04,
+          "top_alt": ","
+        },
+        {
+          "token": " not",
+          "s2": -3.52,
+          "top_alt": " not"
+        },
+        {
+          "token": " do",
+          "s2": 1.53,
+          "top_alt": " have"
+        },
+        {
+          "token": ",",
+          "s2": 1.84,
+          "top_alt": " this"
+        },
+        {
+          "token": " you",
+          "s2": -4.17,
+          "top_alt": " do"
+        },
+        {
+          "token": " do",
+          "s2": -4.12,
+          "top_alt": " do"
+        },
+        {
+          "token": " not",
+          "s2": -0.64,
+          "top_alt": " not"
+        }
+      ]
+    },
+    {
+      "poem": "Howl (opening)",
+      "author": "Allen Ginsberg",
+      "phrase": "I saw the best minds of my generation destroyed by madness",
+      "source": "opening line (one of most famous in American poetry)",
+      "reconstructed": "saw the best minds of my generation destroyed",
+      "phrase_avg_s2": -0.559,
+      "poem_avg_s2": 0.953,
+      "delta": -1.512,
+      "n_tokens": 8,
+      "max_s2_token": "destroyed",
+      "max_s2": 7.21,
+      "model_expected": ",",
+      "phrase_tokens": [
+        {
+          "token": " saw",
+          "s2": -0.12,
+          "top_alt": "."
+        },
+        {
+          "token": " the",
+          "s2": -3.92,
+          "top_alt": " a"
+        },
+        {
+          "token": " best",
+          "s2": -2.61,
+          "top_alt": " same"
+        },
+        {
+          "token": " minds",
+          "s2": 2.53,
+          "top_alt": " of"
+        },
+        {
+          "token": " of",
+          "s2": -2.05,
+          "top_alt": " in"
+        },
+        {
+          "token": " my",
+          "s2": -2.12,
+          "top_alt": " the"
+        },
+        {
+          "token": " generation",
+          "s2": -3.4,
+          "top_alt": " generation"
+        },
+        {
+          "token": " destroyed",
+          "s2": 7.21,
+          "top_alt": ","
+        }
+      ]
+    },
+    {
+      "poem": "If We Must Die",
+      "author": "Claude McKay",
+      "phrase": "If we must die",
+      "source": "opening / refrain",
+      "reconstructed": "If we must die",
+      "phrase_avg_s2": -2.962,
+      "poem_avg_s2": -0.199,
+      "delta": -2.763,
+      "n_tokens": 5,
+      "max_s2_token": "If",
+      "max_s2": -1.06,
+      "model_expected": "And",
+      "phrase_tokens": [
+        {
+          "token": "\n",
+          "s2": -3.4,
+          "top_alt": "\n"
+        },
+        {
+          "token": "If",
+          "s2": -1.06,
+          "top_alt": "And"
+        },
+        {
+          "token": " we",
+          "s2": -3.25,
+          "top_alt": " we"
+        },
+        {
+          "token": " must",
+          "s2": -4.31,
+          "top_alt": " must"
+        },
+        {
+          "token": " die",
+          "s2": -2.8,
+          "top_alt": " die"
+        }
+      ]
+    }
+  ]
+}
