@@ -4027,6 +4027,174 @@ spacious skies for spacious
 skies for spacious skies
 for spacious skies"""
     },
+
+    # ─── LATIN AMERICAN MODERNISM ──────────────────────────────────────────────
+    # Under-represented tradition: Spanish-language surrealism and modernism in
+    # translation. Tests whether translation strips the S₂ signature or preserves it.
+    {
+        "title": "Tonight I Can Write (excerpt)",
+        "author": "Pablo Neruda (trans. W.S. Merwin)",
+        "year": 1924,
+        "era": "latin_american",
+        "text": """Tonight I can write the saddest lines.
+Write, for example, 'The night is starry,
+and the stars, blue, shiver in the distance.'
+
+The night wind revolves in the sky and sings.
+Tonight I can write the saddest lines.
+I loved her, and sometimes she loved me too.
+
+Through nights like this one I held her in my arms.
+I kissed her again and again under the endless sky.
+She loved me, sometimes I loved her too.
+How could one not have loved her great still eyes."""
+    },
+    {
+        "title": "Somnambulistic Ballad (excerpt)",
+        "author": "Federico García Lorca (trans. Stephen Spender & J.L. Gili)",
+        "year": 1928,
+        "era": "latin_american",
+        "text": """Green, how I want you green.
+Green wind. Green branches.
+The ship out on the sea
+and the horse on the mountain.
+With the shade around her waist
+she dreams on her balcony,
+green flesh, her hair green,
+with eyes of cold silver.
+Green, how I want you green.
+Under the gypsy moon,
+all things are watching her
+and she cannot see them."""
+    },
+    {
+        "title": "Black Stone Lying on a White Stone",
+        "author": "César Vallejo (trans. Thomas Merton)",
+        "year": 1937,
+        "era": "latin_american",
+        "text": """I will die in Paris, on a rainy day,
+on some day I can already remember.
+I will die in Paris — and I don't step aside —
+perhaps on a Thursday, as today is Thursday, in autumn.
+
+It will be a Thursday, because today, Thursday, setting down
+these lines, I have put my upper arm bones on
+wrong, and never so much as today have I found myself
+with all the road ahead of me, alone.
+
+César Vallejo is dead. Everyone beat him
+although he never does anything to them;
+they beat him hard with a stick and hard also
+with a rope. These are the witnesses:
+the Thursdays, and the bones of my arms,
+the solitude, and the rain, and the roads."""
+    },
+
+    # ─── BLACK ARTS MOVEMENT ──────────────────────────────────────────────────
+    # Radical American poetry: speech rhythms, vernacular, political urgency.
+    # Tests whether confrontational syntactic choices show higher S₂ than lyric poetry.
+    {
+        "title": "Preface to a Twenty Volume Suicide Note",
+        "author": "Amiri Baraka (LeRoi Jones)",
+        "year": 1961,
+        "era": "black_arts",
+        "text": """Lately, I've become accustomed to the way
+The ground opens up and envelopes me
+Each time I go out to walk the dog.
+Or the broad edged silly music the wind
+Makes when I run for a bus...
+
+Things have come to that.
+
+And now, each night I count the stars.
+And each night I get the same number.
+And when they will not come to be counted,
+I count the holes they leave.
+
+Nobody sings anymore.
+
+And then last night I tiptoed up
+To my daughter's room and heard her
+Talking to someone, and when I opened
+The door, there was no one there...
+Only she on her knees, peeking into
+Her own clasped hands"""
+    },
+
+    # ─── KOREAN ZEN POETRY ────────────────────────────────────────────────────
+    # Ko Un's ten-thousand-lines project: extremely brief, imagistic flash poems.
+    # Tests the S₂ behavior of minimal context — can haiku-like compression in
+    # a different tradition produce similar information signatures?
+    {
+        "title": "From Ten Thousand Lives: Three Portraits",
+        "author": "Ko Un (trans. Brother Anthony of Taizé)",
+        "year": 1986,
+        "era": "korean_modernist",
+        "text": """The old man Gim Namsik
+lived alone in his room
+and died alone in his room.
+Nobody knew he'd died
+till the smell drifted out.
+
+Broken Bak Geumnyeo
+always said: I'm going to die soon.
+Even her own children
+got tired of hearing it
+and stopped visiting.
+She's still alive.
+
+The widower Im Gyesu
+every evening goes down to the river.
+He just stands there.
+What's in that water?
+Just water."""
+    },
+
+    # ─── IMAGIST LYRIC (deep compression) ───────────────────────────────────
+    # Amy Lowell brings hard-edged American imagism distinct from H.D.'s classicism.
+    {
+        "title": "The Taxi",
+        "author": "Amy Lowell",
+        "year": 1914,
+        "era": "imagist",
+        "text": """When I go away from you
+The world beats dead
+Like a slackened drum.
+I call out for you against the jutted stars
+And shout into the ridges of the wind.
+Streets coming fast,
+One after the other,
+Wedge you away from me,
+And the lamps of the city prick my eyes
+So that I can no longer see your face.
+Why should I leave you,
+To wound myself upon the sharp edges of the night?"""
+    },
+    {
+        "title": "Patterns",
+        "author": "Amy Lowell",
+        "year": 1916,
+        "era": "imagist",
+        "text": """I walk down the garden paths,
+And all the daffodils
+Are blowing, and the bright blue squills.
+I walk down the patterned garden-paths
+In my stiff, brocaded gown.
+With my powdered hair and jeweled fan,
+I too am a rare
+Pattern. As I wander down
+The garden paths.
+
+My dress is richly figured,
+And the train
+Makes a pink and silver stain
+On the gravel, and the thrift
+Of the borders.
+Just a plate of current fashion,
+Tripping by in high-heeled, ribboned shoes.
+Not a softness anywhere about me,
+Only whalebone and brocade."""
+    },
 ]
 
 # Quick stats

@@ -1,0 +1,599 @@
+{
+  "ai_generated": {
+    "greedy": {
+      "samples": [
+        {
+          "prompt": "The light falls through the window onto",
+          "text": "The light falls through the window onto\nthe floor. \"I'm sorry, I'm sorry,\" he says.\n\"I'm sorry. I'm sorry. I'm sorry. I'm sorry.\nI'm sorry. I'm sorry. I'm sorry. I'm sorry.\nI'm sorry. I'm sorry. I'm",
+          "raw_text": "The light falls through the window onto the floor.\n\n\"I'm sorry, I'm sorry,\" he says. \"I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm"
+        },
+        {
+          "prompt": "I have waited long enough for the",
+          "text": "I have waited long enough for the day when\nI can finally get my hands on a new computer.\nI have waited for the day when I can finally\nget my hands on a new computer. I have waited\nfor the day when I can finally get my hands\non a new computer. I have waited for the\nday when",
+          "raw_text": "I have waited long enough for the day when I can finally get my hands on a new computer. I have waited for the day when I can finally get my hands on a new computer.\n\nI have waited for the day when I can finally get my hands on a new computer.\n\nI have waited for the day when"
+        },
+        {
+          "prompt": "Something there is that doesn't love a",
+          "text": "Something there is that doesn't love a good\nstory. It's not that I'm a bad person, but\nI'm not a good person. I'm not a bad person.\nI'm not a bad person. I'm not a bad person.\nI'm not a bad person. I'm not a bad person.\nI'm not a",
+          "raw_text": "Something there is that doesn't love a good story. It's not that I'm a bad person, but I'm not a good person. I'm not a bad person. I'm not a bad person. I'm not a bad person. I'm not a bad person. I'm not a bad person. I'm not a"
+        }
+      ],
+      "stats": [
+        {
+          "n_tokens": 66,
+          "mean_s2": -1.4016439393939393,
+          "std_s2": 2.3872920898924934,
+          "max_s2": 9.5173,
+          "pos_s2_ratio": 0.12121212121212122,
+          "gini_s2": 0.44775488388050017,
+          "mean_entropy": 3.326481818181818,
+          "mean_surprisal": 1.9248409090909093,
+          "spike_density": 0.045454545454545456,
+          "autocorr_lag1": 0.18992043341961357
+        },
+        {
+          "n_tokens": 66,
+          "mean_s2": -1.7007712121212124,
+          "std_s2": 2.548679442958478,
+          "max_s2": 6.0128,
+          "pos_s2_ratio": 0.12121212121212122,
+          "gini_s2": 0.34952117427018453,
+          "mean_entropy": 3.8937227272727273,
+          "mean_surprisal": 2.192953030303031,
+          "spike_density": 0.10606060606060606,
+          "autocorr_lag1": 0.1436939091882615
+        },
+        {
+          "n_tokens": 71,
+          "mean_s2": -1.9340464788732392,
+          "std_s2": 2.3072230301681516,
+          "max_s2": 7.0912,
+          "pos_s2_ratio": 0.07042253521126761,
+          "gini_s2": 0.36006692840271454,
+          "mean_entropy": 4.037374647887325,
+          "mean_surprisal": 2.1033281690140844,
+          "spike_density": 0.056338028169014086,
+          "autocorr_lag1": 0.22369009007187243
+        }
+      ]
+    },
+    "sampled": {
+      "samples": [
+        {
+          "prompt": "The light falls through the window onto",
+          "text": "The light falls through the window onto\na balcony overlooking a bar. A long glass\nceiling is seen behind a portrait of the\ncharacter. The portrait's design has been\nborrowed from other characters and inspired\nby several others. A painting by Miek Cusko\nhas been featured on the cover of the magazine,\nas a tribute to",
+          "raw_text": "The light falls through the window onto a balcony overlooking a bar.\n\nA long glass ceiling is seen behind a portrait of the character. The portrait's design has been borrowed from other characters and inspired by several others. A painting by Miek Cusko has been featured on the cover of the magazine, as a tribute to"
+        },
+        {
+          "prompt": "I have waited long enough for the",
+          "text": "I have waited long enough for the right\nanswer. My friends, friends, co-workers,\ncolleagues, and everyone in my circle of\nfriends have been asking me every day, \"Where\nare you from? What is your college?\" For\nmany years I had to settle for a specific\nword. In fact, I can't remember a word",
+          "raw_text": "I have waited long enough for the right answer. My friends, friends, co-workers, colleagues, and everyone in my circle of friends have been asking me every day, \"Where are you from? What is your college?\" For many years I had to settle for a specific word. In fact, I can't remember a word"
+        },
+        {
+          "prompt": "Something there is that doesn't love a",
+          "text": "Something there is that doesn't love a child\nand love a person. This is something that\nI know I can work with. Not because it's\ntrue or because it's my job, but because\nI want to be a good child. The best part\nis, if my husband and I really want to do\nsomething, we can.",
+          "raw_text": "Something there is that doesn't love a child and love a person. This is something that I know I can work with. Not because it's true or because it's my job, but because I want to be a good child.\n\nThe best part is, if my husband and I really want to do something, we can."
+        }
+      ],
+      "stats": [
+        {
+          "n_tokens": 72,
+          "mean_s2": -1.7965277777777773,
+          "std_s2": 2.604435701261633,
+          "max_s2": 9.5173,
+          "pos_s2_ratio": 0.18055555555555555,
+          "gini_s2": 0.39333248582544567,
+          "mean_entropy": 6.579518055555556,
+          "mean_surprisal": 4.782990277777778,
+          "spike_density": 0.06944444444444445,
+          "autocorr_lag1": 0.08916148519182429
+        },
+        {
+          "n_tokens": 73,
+          "mean_s2": -1.225841095890411,
+          "std_s2": 2.671478517258587,
+          "max_s2": 11.6841,
+          "pos_s2_ratio": 0.1643835616438356,
+          "gini_s2": 0.39253400841545655,
+          "mean_entropy": 5.179384931506848,
+          "mean_surprisal": 3.9535424657534244,
+          "spike_density": 0.1232876712328767,
+          "autocorr_lag1": -0.20054458689232707
+        },
+        {
+          "n_tokens": 70,
+          "mean_s2": -1.4105442857142856,
+          "std_s2": 2.1052859333208818,
+          "max_s2": 4.3746,
+          "pos_s2_ratio": 0.21428571428571427,
+          "gini_s2": 0.31442189310885543,
+          "mean_entropy": 5.561237142857142,
+          "mean_surprisal": 4.150690000000001,
+          "spike_density": 0.08571428571428572,
+          "autocorr_lag1": -0.1399001744001388
+        }
+      ]
+    },
+    "high_temp": {
+      "samples": [
+        {
+          "prompt": "The light falls through the window onto",
+          "text": "The light falls through the window onto\nher body.",
+          "raw_text": "The light falls through the window onto her body."
+        },
+        {
+          "prompt": "I have waited long enough for the",
+          "text": "I have waited long enough for the right\nanswers,\" he said, referring to a draft\nreport by the Environmental Protection Agency\ndated March 15, 2008 recommending to limit\nthe greenhouse gas, methane , from gasoline\nuse. He reiterated that there may be limits\nfrom current rules that he described as\nin effect. In fact, he made that clear a\nday",
+          "raw_text": "I have waited long enough for the right answers,\" he said, referring to a draft report by the Environmental Protection Agency dated March 15, 2008 recommending to limit the greenhouse gas, methane , from gasoline use. He reiterated that there may be limits from current rules that he described as in effect. In fact, he made that clear a day"
+        },
+        {
+          "prompt": "Something there is that doesn't love a",
+          "text": "Something there is that doesn't love a child\nand love has taken over my personality now\nbecause there's now almost a \"one size doesn't\nfit all\" mentality, just as there are times\nwhere things don't quite \"fix.\" There is\na \"bad girl,\" there is a nice guy, and then\nsuddenly you don't care whether he",
+          "raw_text": "Something there is that doesn't love a child and love has taken over my personality now because there's now almost a \"one size doesn't fit all\" mentality, just as there are times where things don't quite \"fix.\" There is a \"bad girl,\" there is a nice guy, and then suddenly you don't care whether he"
+        }
+      ],
+      "stats": [
+        {
+          "n_tokens": 9,
+          "mean_s2": 0.3116111111111112,
+          "std_s2": 4.192446764902711,
+          "max_s2": 9.5173,
+          "pos_s2_ratio": 0.4444444444444444,
+          "gini_s2": 0.34705042704022565,
+          "mean_entropy": 6.423744444444444,
+          "mean_surprisal": 6.735366666666668,
+          "spike_density": 0.2222222222222222,
+          "autocorr_lag1": 0.007692012769016799
+        },
+        {
+          "n_tokens": 73,
+          "mean_s2": -0.3662917808219178,
+          "std_s2": 2.730584343591439,
+          "max_s2": 9.0307,
+          "pos_s2_ratio": 0.3150684931506849,
+          "gini_s2": 0.4519936737206684,
+          "mean_entropy": 5.203564383561643,
+          "mean_surprisal": 4.837267123287671,
+          "spike_density": 0.1506849315068493,
+          "autocorr_lag1": -0.1948126128987834
+        },
+        {
+          "n_tokens": 73,
+          "mean_s2": 0.4081041095890411,
+          "std_s2": 3.57041956471019,
+          "max_s2": 20.9367,
+          "pos_s2_ratio": 0.3835616438356164,
+          "gini_s2": 0.4934610076551578,
+          "mean_entropy": 4.996475342465754,
+          "mean_surprisal": 5.40457808219178,
+          "spike_density": 0.2602739726027397,
+          "autocorr_lag1": -0.01536410688323851
+        }
+      ]
+    }
+  },
+  "summary": {
+    "ai_greedy": {
+      "mean_s2": -1.6788205434627972,
+      "std_s2": 2.4143981876730405,
+      "pos_s2_ratio": 0.10428225921183669,
+      "gini_s2": 0.38578099551779976,
+      "spike_density": 0.0692843932280552,
+      "mean_entropy": 3.7525263977806236,
+      "autocorr_lag1": 0.1857681442265825
+    },
+    "ai_sampled": {
+      "mean_s2": -1.477637719794158,
+      "std_s2": 2.4604000506137003,
+      "pos_s2_ratio": 0.18640827716170183,
+      "gini_s2": 0.3667627957832525,
+      "spike_density": 0.09281546713053562,
+      "mean_entropy": 5.773380043306516,
+      "autocorr_lag1": -0.0837610920335472
+    },
+    "ai_high_temp": {
+      "mean_s2": 0.11780781329274483,
+      "std_s2": 3.4978168910681133,
+      "pos_s2_ratio": 0.38102486047691525,
+      "gini_s2": 0.43083503613868396,
+      "spike_density": 0.21106037544393708,
+      "mean_entropy": 5.54126139015728,
+      "autocorr_lag1": -0.06749490233766837
+    },
+    "human_poetry": {
+      "mean_s2": -0.3682518710077612,
+      "std_s2": 3.627164325165203,
+      "pos_s2_ratio": 0.34935798179120103,
+      "gini_s2": 0.40511276141809754,
+      "spike_density": 0.21493051176766478,
+      "mean_entropy": 6.342342714839812,
+      "autocorr_lag1": -0.01585401633123727
+    }
+  },
+  "human_era_summary": {
+    "romantic": {
+      "mean_s2": -0.46999008484056554,
+      "std_s2": 3.64762851388006,
+      "max_s2": 13.026639999999999,
+      "pos_s2_ratio": 0.35568273086305974,
+      "gini_s2": 0.4120197687968995,
+      "mean_entropy": 6.844593041328,
+      "mean_surprisal": 6.374604123714656,
+      "spike_density": 0.2067724860849282,
+      "autocorr_lag1": 0.01262942081562708,
+      "n_poems": 15
+    },
+    "19th_century": {
+      "mean_s2": -0.17349809925840837,
+      "std_s2": 3.9134039819203763,
+      "max_s2": 15.530109999999999,
+      "pos_s2_ratio": 0.3800710121592095,
+      "gini_s2": 0.4067829746972387,
+      "mean_entropy": 6.650128300920069,
+      "mean_surprisal": 6.476630825486343,
+      "spike_density": 0.24328450366362664,
+      "autocorr_lag1": 0.012336297464064536,
+      "n_poems": 10
+    },
+    "modernist": {
+      "mean_s2": -0.40796557885658213,
+      "std_s2": 3.7714887656791123,
+      "max_s2": 12.629840909090905,
+      "pos_s2_ratio": 0.3627584050746665,
+      "gini_s2": 0.40637685876274754,
+      "mean_entropy": 6.639625173247737,
+      "mean_surprisal": 6.231660042881589,
+      "spike_density": 0.22572334617698253,
+      "autocorr_lag1": 0.010949194178635577,
+      "n_poems": 22
+    },
+    "beat": {
+      "mean_s2": 0.7444571797418076,
+      "std_s2": 4.685649066878629,
+      "max_s2": 14.68365,
+      "pos_s2_ratio": 0.46524329692154914,
+      "gini_s2": 0.4078418955718905,
+      "mean_entropy": 6.668134915590864,
+      "mean_surprisal": 7.412594726911618,
+      "spike_density": 0.3182720953326713,
+      "autocorr_lag1": -0.03623185627036064,
+      "n_poems": 2
+    },
+    "confessional": {
+      "mean_s2": -0.30027467157690274,
+      "std_s2": 3.8318592649809915,
+      "max_s2": 11.72755,
+      "pos_s2_ratio": 0.3849354430556209,
+      "gini_s2": 0.37663168222844584,
+      "mean_entropy": 6.791574297645738,
+      "mean_surprisal": 6.491297838856071,
+      "spike_density": 0.24877541429713804,
+      "autocorr_lag1": -0.03032988009407855,
+      "n_poems": 6
+    },
+    "mid_century": {
+      "mean_s2": -0.45822475318332456,
+      "std_s2": 3.8690093622664663,
+      "max_s2": 13.691566666666665,
+      "pos_s2_ratio": 0.34773242630385487,
+      "gini_s2": 0.4272824042597418,
+      "mean_entropy": 6.271380997732426,
+      "mean_surprisal": 5.813151478283621,
+      "spike_density": 0.17483865341008198,
+      "autocorr_lag1": 0.029307079332306345,
+      "n_poems": 3
+    },
+    "new_york_school": {
+      "mean_s2": -0.5993577111904176,
+      "std_s2": 3.5415273787970443,
+      "max_s2": 11.032699999999998,
+      "pos_s2_ratio": 0.346400833571243,
+      "gini_s2": 0.38362495526584395,
+      "mean_entropy": 6.643998470112247,
+      "mean_surprisal": 6.044639900746798,
+      "spike_density": 0.20221827570305398,
+      "autocorr_lag1": -0.030753521545566233,
+      "n_poems": 18
+    },
+    "language": {
+      "mean_s2": -0.20132021212121212,
+      "std_s2": 3.924814954018517,
+      "max_s2": 11.6205,
+      "pos_s2_ratio": 0.35818181818181816,
+      "gini_s2": 0.38010856666736265,
+      "mean_entropy": 6.761737666666668,
+      "mean_surprisal": 6.560418303030303,
+      "spike_density": 0.23272727272727275,
+      "autocorr_lag1": -0.060840766948404935,
+      "n_poems": 3
+    },
+    "contemporary": {
+      "mean_s2": -0.3647524216536868,
+      "std_s2": 3.503123004506298,
+      "max_s2": 11.734022222222222,
+      "pos_s2_ratio": 0.34223873399619054,
+      "gini_s2": 0.39803813252098746,
+      "mean_entropy": 5.89768264310786,
+      "mean_surprisal": 5.532933585422365,
+      "spike_density": 0.21955109401013423,
+      "autocorr_lag1": 0.05783562413047916,
+      "n_poems": 9
+    },
+    "harlem_renaissance": {
+      "mean_s2": -0.5000228609625669,
+      "std_s2": 3.5263981906191795,
+      "max_s2": 11.36484,
+      "pos_s2_ratio": 0.35194274679568793,
+      "gini_s2": 0.4094582006580024,
+      "mean_entropy": 6.434153781618709,
+      "mean_surprisal": 5.934136413080385,
+      "spike_density": 0.1836505814446991,
+      "autocorr_lag1": -0.048492785088406695,
+      "n_poems": 5
+    },
+    "oulipo": {
+      "mean_s2": -0.4433480000000001,
+      "std_s2": 3.4376384879879383,
+      "max_s2": 10.6445,
+      "pos_s2_ratio": 0.32,
+      "gini_s2": 0.4732386479332115,
+      "mean_entropy": 6.649234,
+      "mean_surprisal": 6.205884,
+      "spike_density": 0.18,
+      "autocorr_lag1": -0.06034441459713899,
+      "n_poems": 1
+    },
+    "surrealist": {
+      "mean_s2": -0.6798473684210526,
+      "std_s2": 3.5429387293158285,
+      "max_s2": 10.8427,
+      "pos_s2_ratio": 0.3157894736842105,
+      "gini_s2": 0.38166830482979974,
+      "mean_entropy": 6.331364912280702,
+      "mean_surprisal": 5.651522807017543,
+      "spike_density": 0.21052631578947367,
+      "autocorr_lag1": -0.041272376274323515,
+      "n_poems": 1
+    },
+    "deep_image": {
+      "mean_s2": 0.0658344262295082,
+      "std_s2": 3.7667936059463685,
+      "max_s2": 12.6224,
+      "pos_s2_ratio": 0.4426229508196721,
+      "gini_s2": 0.36018794512223734,
+      "mean_entropy": 6.72717868852459,
+      "mean_surprisal": 6.793009836065573,
+      "spike_density": 0.29508196721311475,
+      "autocorr_lag1": -0.018420368803383835,
+      "n_poems": 1
+    },
+    "german_symbolist": {
+      "mean_s2": 0.3943600108932461,
+      "std_s2": 3.740286498376129,
+      "max_s2": 17.799966666666666,
+      "pos_s2_ratio": 0.45956790123456787,
+      "gini_s2": 0.4247315069878699,
+      "mean_entropy": 6.706083197167755,
+      "mean_surprisal": 7.100441822803197,
+      "spike_density": 0.2830610021786492,
+      "autocorr_lag1": 0.010487621967699909,
+      "n_poems": 3
+    },
+    "german_expressionist": {
+      "mean_s2": 0.6237713630873957,
+      "std_s2": 3.990339092163042,
+      "max_s2": 14.33525,
+      "pos_s2_ratio": 0.46563460693895475,
+      "gini_s2": 0.4404652388221233,
+      "mean_entropy": 6.535862077294688,
+      "mean_surprisal": 7.159635460584102,
+      "spike_density": 0.29243522178304787,
+      "autocorr_lag1": -0.08654898972508757,
+      "n_poems": 2
+    },
+    "german_modernist": {
+      "mean_s2": 0.7733908133623819,
+      "std_s2": 3.7255082594301494,
+      "max_s2": 13.22655,
+      "pos_s2_ratio": 0.4495279593318809,
+      "gini_s2": 0.4645268569626703,
+      "mean_entropy": 6.089639905591866,
+      "mean_surprisal": 6.863034458968773,
+      "spike_density": 0.30682643427741463,
+      "autocorr_lag1": -0.0823159908287607,
+      "n_poems": 2
+    },
+    "victorian": {
+      "mean_s2": -0.3052883587994227,
+      "std_s2": 3.6477492438551615,
+      "max_s2": 12.755961904761906,
+      "pos_s2_ratio": 0.3649328047635327,
+      "gini_s2": 0.3997619867939146,
+      "mean_entropy": 6.624621271792522,
+      "mean_surprisal": 6.3193332383196665,
+      "spike_density": 0.23063098171553054,
+      "autocorr_lag1": -0.022792035924403514,
+      "n_poems": 21
+    },
+    "haiku": {
+      "mean_s2": 0.033059960475606116,
+      "std_s2": 3.9549055648835396,
+      "max_s2": 9.640892857142857,
+      "pos_s2_ratio": 0.3723524142098312,
+      "gini_s2": 0.41609424283883356,
+      "mean_entropy": 7.071923971877937,
+      "mean_surprisal": 7.10498436713147,
+      "spike_density": 0.2560522497739341,
+      "autocorr_lag1": -0.08194747465763098,
+      "n_poems": 14
+    },
+    "ancient": {
+      "mean_s2": -0.16629222222222226,
+      "std_s2": 3.455808779150058,
+      "max_s2": 11.9155,
+      "pos_s2_ratio": 0.35555555555555557,
+      "gini_s2": 0.40585771789496716,
+      "mean_entropy": 5.733583333333334,
+      "mean_surprisal": 5.567287777777778,
+      "spike_density": 0.23333333333333334,
+      "autocorr_lag1": 0.04834595792339992,
+      "n_poems": 1
+    },
+    "prose_poetry": {
+      "mean_s2": -0.5419073541928837,
+      "std_s2": 3.1571065203985715,
+      "max_s2": 10.733522222222224,
+      "pos_s2_ratio": 0.3262871450967434,
+      "gini_s2": 0.3776332931787932,
+      "mean_entropy": 5.554399720126589,
+      "mean_surprisal": 5.012490131398254,
+      "spike_density": 0.18498307936877317,
+      "autocorr_lag1": 0.039478021999536546,
+      "n_poems": 9
+    },
+    "ballad": {
+      "mean_s2": -0.3877104486232997,
+      "std_s2": 3.9408247194037087,
+      "max_s2": 16.1902,
+      "pos_s2_ratio": 0.29666228820867996,
+      "gini_s2": 0.43708705113977625,
+      "mean_entropy": 5.886462359258413,
+      "mean_surprisal": 5.498753170914189,
+      "spike_density": 0.20324538009833723,
+      "autocorr_lag1": 0.01175299146447568,
+      "n_poems": 6
+    },
+    "song_lyrics": {
+      "mean_s2": -0.6441380516272505,
+      "std_s2": 3.1362100950429483,
+      "max_s2": 10.872,
+      "pos_s2_ratio": 0.22962940769148824,
+      "gini_s2": 0.4804687958900448,
+      "mean_entropy": 4.441430482648876,
+      "mean_surprisal": 3.797290100671141,
+      "spike_density": 0.14820030361137745,
+      "autocorr_lag1": -0.045667406628742795,
+      "n_poems": 3
+    },
+    "nursery_rhyme": {
+      "mean_s2": -0.8184527027027028,
+      "std_s2": 3.181517770559295,
+      "max_s2": 10.2227,
+      "pos_s2_ratio": 0.30180180180180183,
+      "gini_s2": 0.3770294164269333,
+      "mean_entropy": 5.720997747747747,
+      "mean_surprisal": 4.902542342342342,
+      "spike_density": 0.17567567567567569,
+      "autocorr_lag1": 0.057870580040604476,
+      "n_poems": 1
+    },
+    "metaphysical": {
+      "mean_s2": -0.5577373169067548,
+      "std_s2": 3.491872218964544,
+      "max_s2": 10.077725,
+      "pos_s2_ratio": 0.36671247035906734,
+      "gini_s2": 0.37492887223084936,
+      "mean_entropy": 6.828041627795395,
+      "mean_surprisal": 6.270306444168547,
+      "spike_density": 0.2035704011369391,
+      "autocorr_lag1": -0.06823644475271323,
+      "n_poems": 4
+    },
+    "early_modern": {
+      "mean_s2": -0.2925880220502632,
+      "std_s2": 3.394141021363259,
+      "max_s2": 13.21185,
+      "pos_s2_ratio": 0.4121779831161246,
+      "gini_s2": 0.4007508229894491,
+      "mean_entropy": 6.780434666109479,
+      "mean_surprisal": 6.487850510922288,
+      "spike_density": 0.20825334930073836,
+      "autocorr_lag1": -0.06987249274370905,
+      "n_poems": 4
+    },
+    "spoken_word": {
+      "mean_s2": -0.6752217475728155,
+      "std_s2": 3.4425682086410347,
+      "max_s2": 9.404499999999999,
+      "pos_s2_ratio": 0.3241100323624595,
+      "gini_s2": 0.34039846242078986,
+      "mean_entropy": 6.167896224379719,
+      "mean_surprisal": 5.492677950377562,
+      "spike_density": 0.20749730312837109,
+      "autocorr_lag1": -0.12532485263229584,
+      "n_poems": 2
+    },
+    "found_poetry": {
+      "mean_s2": -0.6151512941291314,
+      "std_s2": 3.0892042952859176,
+      "max_s2": 12.587742857142858,
+      "pos_s2_ratio": 0.2692673915611594,
+      "gini_s2": 0.42819293605183945,
+      "mean_entropy": 4.825646468501722,
+      "mean_surprisal": 4.210496097240619,
+      "spike_density": 0.14862632844240778,
+      "autocorr_lag1": -0.01952000767760483,
+      "n_poems": 7
+    },
+    "fixed_form": {
+      "mean_s2": -0.5760911643038671,
+      "std_s2": 3.621696782029214,
+      "max_s2": 12.4077625,
+      "pos_s2_ratio": 0.31254488733178243,
+      "gini_s2": 0.408590730301447,
+      "mean_entropy": 6.200741833505488,
+      "mean_surprisal": 5.6246489392565575,
+      "spike_density": 0.19561569787816876,
+      "autocorr_lag1": -0.0049652903697485345,
+      "n_poems": 8
+    },
+    "cliche_control": {
+      "mean_s2": -0.8840995074404762,
+      "std_s2": 3.0366906282484187,
+      "max_s2": 10.616266666666666,
+      "pos_s2_ratio": 0.2584176587301587,
+      "gini_s2": 0.3826326382321692,
+      "mean_entropy": 5.484304701388889,
+      "mean_surprisal": 4.600203162698413,
+      "spike_density": 0.14693948412698413,
+      "autocorr_lag1": 0.03508247258979477,
+      "n_poems": 3
+    },
+    "18th_century": {
+      "mean_s2": -0.35824095563139935,
+      "std_s2": 3.3981478028672485,
+      "max_s2": 22.0152,
+      "pos_s2_ratio": 0.310580204778157,
+      "gini_s2": 0.4312135415954568,
+      "mean_entropy": 5.434838566552901,
+      "mean_surprisal": 5.076600682593856,
+      "spike_density": 0.17747440273037543,
+      "autocorr_lag1": 0.017358599022744767,
+      "n_poems": 1
+    },
+    "biblical": {
+      "mean_s2": -0.5471113328139944,
+      "std_s2": 3.2906728810647037,
+      "max_s2": 12.026857142857141,
+      "pos_s2_ratio": 0.31732158540949157,
+      "gini_s2": 0.38805476514264525,
+      "mean_entropy": 5.2605266948200295,
+      "mean_surprisal": 4.713413237575736,
+      "spike_density": 0.1900501878794239,
+      "autocorr_lag1": -0.030687141638554072,
+      "n_poems": 7
+    },
+    "concrete": {
+      "mean_s2": -0.7557458284977434,
+      "std_s2": 3.6774365860226843,
+      "max_s2": 11.478566666666666,
+      "pos_s2_ratio": 0.19703417150225663,
+      "gini_s2": 0.4920231755123862,
+      "mean_entropy": 4.672590290135396,
+      "mean_surprisal": 3.916841637653127,
+      "spike_density": 0.14648613797549967,
+      "autocorr_lag1": -0.10785267591661009,
+      "n_poems": 3
+    }
+  }
+}
