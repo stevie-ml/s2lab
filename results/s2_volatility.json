@@ -1,0 +1,1202 @@
+{
+  "med_mean_s2": -0.43228235294117645,
+  "med_std_s2": 3.5899708414687326,
+  "poet_summary": [
+    {
+      "author": "Rainer Maria Rilke",
+      "era": "german_modernist",
+      "n_poems": 2,
+      "avg_mean_s2": 0.7733908133623821,
+      "avg_std_s2": 3.725508259430149,
+      "avg_skewness": 0.9228072437757273,
+      "avg_p90_s2": 6.5691500000000005,
+      "mean_s2_range": 0.9587097312999275
+    },
+    {
+      "author": "Allen Ginsberg",
+      "era": "beat",
+      "n_poems": 2,
+      "avg_mean_s2": 0.7444571797418071,
+      "avg_std_s2": 4.685649066878629,
+      "avg_skewness": 0.9708467634502167,
+      "avg_p90_s2": 7.21555,
+      "mean_s2_range": 0.4167648857994042
+    },
+    {
+      "author": "Georg Trakl",
+      "era": "german_expressionist",
+      "n_poems": 2,
+      "avg_mean_s2": 0.6237713630873958,
+      "avg_std_s2": 3.990339092163042,
+      "avg_skewness": 1.0330833871739173,
+      "avg_p90_s2": 6.3901,
+      "mean_s2_range": 0.4127199000878353
+    },
+    {
+      "author": "Stefan George",
+      "era": "german_symbolist",
+      "n_poems": 3,
+      "avg_mean_s2": 0.3943600108932461,
+      "avg_std_s2": 3.740286498376129,
+      "avg_skewness": 1.4570178103005087,
+      "avg_p90_s2": 5.0803666666666665,
+      "mean_s2_range": 0.6148091503267977
+    },
+    {
+      "author": "Masaoka Shiki",
+      "era": "haiku",
+      "n_poems": 2,
+      "avg_mean_s2": 0.2670174836601308,
+      "avg_std_s2": 3.518286444486808,
+      "avg_skewness": 1.1494465049638334,
+      "avg_p90_s2": 4.902,
+      "mean_s2_range": 0.5149761437908498
+    },
+    {
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "n_poems": 3,
+      "avg_mean_s2": 0.24960003138104123,
+      "avg_std_s2": 4.011906305127994,
+      "avg_skewness": 0.8383813382970683,
+      "avg_p90_s2": 5.553833333333333,
+      "mean_s2_range": 0.37108672277567845
+    },
+    {
+      "author": "Carl Sandburg",
+      "era": "modernist",
+      "n_poems": 2,
+      "avg_mean_s2": 0.14317043010752678,
+      "avg_std_s2": 3.78370349746979,
+      "avg_skewness": 1.1015253312486761,
+      "avg_p90_s2": 5.414,
+      "mean_s2_range": 1.545259139784946
+    },
+    {
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "n_poems": 4,
+      "avg_mean_s2": 0.039149421027112996,
+      "avg_std_s2": 4.1407402615138995,
+      "avg_skewness": 1.3696207372650802,
+      "avg_p90_s2": 5.2730999999999995,
+      "mean_s2_range": 1.4602623899371072
+    },
+    {
+      "author": "Matsuo Bash\u014d",
+      "era": "haiku",
+      "n_poems": 4,
+      "avg_mean_s2": 0.033201817496229274,
+      "avg_std_s2": 4.172308639688891,
+      "avg_skewness": 1.0921782284724224,
+      "avg_p90_s2": 6.163049999999999,
+      "mean_s2_range": 2.1313933333333335
+    },
+    {
+      "author": "Frank O'Hara",
+      "era": "new_york_school",
+      "n_poems": 2,
+      "avg_mean_s2": 0.003796732954545426,
+      "avg_std_s2": 3.6002801143763272,
+      "avg_skewness": 1.2639711807428209,
+      "avg_p90_s2": 5.2124500000000005,
+      "mean_s2_range": 0.34525804924242465
+    },
+    {
+      "author": "Thomas Wyatt",
+      "era": "early_modern",
+      "n_poems": 2,
+      "avg_mean_s2": 0.0027351871257485227,
+      "avg_std_s2": 3.6886530563740694,
+      "avg_skewness": 1.1349567081897987,
+      "avg_p90_s2": 5.1865000000000006,
+      "mean_s2_range": 0.35014462574850286
+    },
+    {
+      "author": "Claudia Rankine",
+      "era": "contemporary",
+      "n_poems": 2,
+      "avg_mean_s2": -0.001977926777352073,
+      "avg_std_s2": 4.253972278321112,
+      "avg_skewness": 1.6754731938141352,
+      "avg_p90_s2": 6.135149999999999,
+      "mean_s2_range": 0.08560276713495107
+    },
+    {
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "n_poems": 3,
+      "avg_mean_s2": -0.03855067079153405,
+      "avg_std_s2": 4.237636104570573,
+      "avg_skewness": 1.2871170482961736,
+      "avg_p90_s2": 6.189033333333334,
+      "mean_s2_range": 0.853168156424581
+    },
+    {
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "n_poems": 4,
+      "avg_mean_s2": -0.14185036555663033,
+      "avg_std_s2": 4.219435560624677,
+      "avg_skewness": 1.4694388001039786,
+      "avg_p90_s2": 5.2941,
+      "mean_s2_range": 1.135272440318302
+    },
+    {
+      "author": "T.S. Eliot",
+      "era": "modernist",
+      "n_poems": 3,
+      "avg_mean_s2": -0.28505841759731926,
+      "avg_std_s2": 3.7843722578473837,
+      "avg_skewness": 0.8972987079857281,
+      "avg_p90_s2": 5.510266666666666,
+      "mean_s2_range": 0.36471178000743226
+    },
+    {
+      "author": "Yosa Buson",
+      "era": "haiku",
+      "n_poems": 2,
+      "avg_mean_s2": -0.2878961764705882,
+      "avg_std_s2": 3.94134597305667,
+      "avg_skewness": 0.4183727411913075,
+      "avg_p90_s2": 6.03075,
+      "mean_s2_range": 0.28877235294117654
+    },
+    {
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "n_poems": 2,
+      "avg_mean_s2": -0.30385961274375184,
+      "avg_std_s2": 4.108678901087794,
+      "avg_skewness": 1.2953931283658275,
+      "avg_p90_s2": 4.9025,
+      "mean_s2_range": 0.6436080472397692
+    },
+    {
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "n_poems": 3,
+      "avg_mean_s2": -0.3189665219321287,
+      "avg_std_s2": 3.546867845201088,
+      "avg_skewness": 0.8801748681520126,
+      "avg_p90_s2": 4.617966666666667,
+      "mean_s2_range": 0.12739182900022714
+    },
+    {
+      "author": "George Herbert",
+      "era": "metaphysical",
+      "n_poems": 2,
+      "avg_mean_s2": -0.37223441074753905,
+      "avg_std_s2": 3.601429433035699,
+      "avg_skewness": 0.993736994827978,
+      "avg_p90_s2": 4.54055,
+      "mean_s2_range": 0.9755926310188878
+    },
+    {
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "n_poems": 2,
+      "avg_mean_s2": -0.3926877797279509,
+      "avg_std_s2": 4.323002656452367,
+      "avg_skewness": 1.3888289858695884,
+      "avg_p90_s2": 5.3917,
+      "mean_s2_range": 0.3583453707766566
+    },
+    {
+      "author": "John Keats",
+      "era": "romantic",
+      "n_poems": 3,
+      "avg_mean_s2": -0.4197044528102584,
+      "avg_std_s2": 3.513774562976575,
+      "avg_skewness": 0.9954327810468097,
+      "avg_p90_s2": 3.8821333333333334,
+      "mean_s2_range": 0.2650504556846664
+    },
+    {
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "n_poems": 5,
+      "avg_mean_s2": -0.4216226812051026,
+      "avg_std_s2": 3.951557958265579,
+      "avg_skewness": 1.5205505068120995,
+      "avg_p90_s2": 4.99446,
+      "mean_s2_range": 0.5450631822800243
+    },
+    {
+      "author": "Matthew Arnold",
+      "era": "19th_century",
+      "n_poems": 2,
+      "avg_mean_s2": -0.42719566134843023,
+      "avg_std_s2": 3.126893495829813,
+      "avg_skewness": 0.6490672411315446,
+      "avg_p90_s2": 4.27305,
+      "mean_s2_range": 0.4046928152341738
+    },
+    {
+      "author": "W.B. Yeats",
+      "era": "modernist",
+      "n_poems": 2,
+      "avg_mean_s2": -0.5152814581992771,
+      "avg_std_s2": 3.460151144010882,
+      "avg_skewness": 0.8375489125107114,
+      "avg_p90_s2": 4.49095,
+      "mean_s2_range": 0.010117982477849896
+    },
+    {
+      "author": "Robert Burns",
+      "era": "romantic",
+      "n_poems": 2,
+      "avg_mean_s2": -0.5229254351809436,
+      "avg_std_s2": 4.268769432449313,
+      "avg_skewness": 1.292009757003393,
+      "avg_p90_s2": 5.924049999999999,
+      "mean_s2_range": 0.5078356161245994
+    },
+    {
+      "author": "Wallace Stevens",
+      "era": "modernist",
+      "n_poems": 3,
+      "avg_mean_s2": -0.5385546616563853,
+      "avg_std_s2": 3.6561657765786184,
+      "avg_skewness": 0.986716249805807,
+      "avg_p90_s2": 4.689733333333334,
+      "mean_s2_range": 1.012808409321175
+    },
+    {
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "n_poems": 7,
+      "avg_mean_s2": -0.5471113328139944,
+      "avg_std_s2": 3.2906728810647037,
+      "avg_skewness": 1.2295050566599046,
+      "avg_p90_s2": 4.289442857142857,
+      "mean_s2_range": 0.45276970232558134
+    },
+    {
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "n_poems": 3,
+      "avg_mean_s2": -0.5483066175832756,
+      "avg_std_s2": 2.9128134247432347,
+      "avg_skewness": 1.61977842748271,
+      "avg_p90_s2": 3.0476000000000005,
+      "mean_s2_range": 0.6631415857043719
+    },
+    {
+      "author": "William Ernest Henley",
+      "era": "fixed_form",
+      "n_poems": 2,
+      "avg_mean_s2": -0.5574237586423633,
+      "avg_std_s2": 3.790760371207168,
+      "avg_skewness": 1.1531880836509982,
+      "avg_p90_s2": 4.8256,
+      "mean_s2_range": 0.4620331028703122
+    },
+    {
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "n_poems": 3,
+      "avg_mean_s2": -0.5635590838558066,
+      "avg_std_s2": 3.5254453506686367,
+      "avg_skewness": 1.0448058520698573,
+      "avg_p90_s2": 4.368033333333333,
+      "mean_s2_range": 0.6427444497849736
+    },
+    {
+      "author": "Rudyard Kipling",
+      "era": "fixed_form",
+      "n_poems": 2,
+      "avg_mean_s2": -0.6084748555871211,
+      "avg_std_s2": 3.668556095972219,
+      "avg_skewness": 1.1691893380499845,
+      "avg_p90_s2": 4.6979,
+      "mean_s2_range": 0.05126122632575769
+    },
+    {
+      "author": "Lucille Clifton",
+      "era": "contemporary",
+      "n_poems": 3,
+      "avg_mean_s2": -0.6146627126675911,
+      "avg_std_s2": 3.1937948807968026,
+      "avg_skewness": 1.1101438072190524,
+      "avg_p90_s2": 4.316066666666667,
+      "mean_s2_range": 0.3206388522884881
+    },
+    {
+      "author": "Amy Lowell",
+      "era": "imagist",
+      "n_poems": 2,
+      "avg_mean_s2": -0.6469918523469993,
+      "avg_std_s2": 3.5187081387707213,
+      "avg_skewness": 0.8551679374872725,
+      "avg_p90_s2": 4.828799999999999,
+      "mean_s2_range": 0.48987488116458716
+    },
+    {
+      "author": "Anne Sexton",
+      "era": "confessional",
+      "n_poems": 2,
+      "avg_mean_s2": -0.6502764069264068,
+      "avg_std_s2": 3.488657696737117,
+      "avg_skewness": 0.7861581735644146,
+      "avg_p90_s2": 4.23095,
+      "mean_s2_range": 0.5567709956709959
+    },
+    {
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "n_poems": 16,
+      "avg_mean_s2": -0.6747520167085378,
+      "avg_std_s2": 3.534183286849635,
+      "avg_skewness": 1.0782204350993234,
+      "avg_p90_s2": 4.251681250000001,
+      "mean_s2_range": 1.5607867658276129
+    },
+    {
+      "author": "Langston Hughes",
+      "era": "harlem_renaissance",
+      "n_poems": 3,
+      "avg_mean_s2": -0.7040079789491553,
+      "avg_std_s2": 3.4176001238643625,
+      "avg_skewness": 1.1006572550618232,
+      "avg_p90_s2": 4.9014999999999995,
+      "mean_s2_range": 0.5349396995161704
+    },
+    {
+      "author": "William Shakespeare",
+      "era": "victorian",
+      "n_poems": 3,
+      "avg_mean_s2": -0.7388104319760188,
+      "avg_std_s2": 3.2180128891286297,
+      "avg_skewness": 1.196570909999445,
+      "avg_p90_s2": 3.6377,
+      "mean_s2_range": 0.28012216823193126
+    },
+    {
+      "author": "William Carlos Williams",
+      "era": "modernist",
+      "n_poems": 2,
+      "avg_mean_s2": -0.7573135714285715,
+      "avg_std_s2": 3.287378606572557,
+      "avg_skewness": 0.77333287614266,
+      "avg_p90_s2": 3.3446,
+      "mean_s2_range": 1.2247271428571427
+    },
+    {
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "n_poems": 3,
+      "avg_mean_s2": -0.7978675381562884,
+      "avg_std_s2": 4.305289184888438,
+      "avg_skewness": 1.4534434133342014,
+      "avg_p90_s2": 4.5536666666666665,
+      "mean_s2_range": 1.4908795833333335
+    },
+    {
+      "author": "William Blake",
+      "era": "romantic",
+      "n_poems": 4,
+      "avg_mean_s2": -0.8050703566838792,
+      "avg_std_s2": 3.3600026486061347,
+      "avg_skewness": 0.9016274403940402,
+      "avg_p90_s2": 3.398975,
+      "mean_s2_range": 0.8865950065132434
+    },
+    {
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "n_poems": 3,
+      "avg_mean_s2": -0.8840995074404759,
+      "avg_std_s2": 3.0366906282484187,
+      "avg_skewness": 1.3804054997140007,
+      "avg_p90_s2": 3.6934333333333336,
+      "mean_s2_range": 0.37243490625
+    },
+    {
+      "author": "Kobayashi Issa",
+      "era": "haiku",
+      "n_poems": 3,
+      "avg_mean_s2": -0.9067011935208864,
+      "avg_std_s2": 3.6460514908140667,
+      "avg_skewness": 0.7036147094567077,
+      "avg_p90_s2": 4.5777,
+      "mean_s2_range": 2.419947058823529
+    },
+    {
+      "author": "Edgar Allan Poe",
+      "era": "19th_century",
+      "n_poems": 2,
+      "avg_mean_s2": -1.0036942348452729,
+      "avg_std_s2": 3.25261292016972,
+      "avg_skewness": 1.1866888097526378,
+      "avg_p90_s2": 3.83935,
+      "mean_s2_range": 0.5270401017380244
+    },
+    {
+      "author": "Control",
+      "era": "control",
+      "n_poems": 5,
+      "avg_mean_s2": -1.7361703135097197,
+      "avg_std_s2": 2.226331766594336,
+      "avg_skewness": 0.34467692487309304,
+      "avg_p90_s2": 1.14338,
+      "mean_s2_range": 1.388979802955665
+    }
+  ],
+  "era_summary": [
+    {
+      "era": "beat",
+      "n": 2,
+      "avg_mean_s2": 0.7444571797418071,
+      "avg_std_s2": 4.685649066878629,
+      "avg_skewness": 0.9708467634502167,
+      "cv": 6.294047789966519
+    },
+    {
+      "era": "german_expressionist",
+      "n": 2,
+      "avg_mean_s2": 0.6237713630873958,
+      "avg_std_s2": 3.990339092163042,
+      "avg_skewness": 1.0330833871739173,
+      "cv": 6.397118124199557
+    },
+    {
+      "era": "haiku",
+      "n": 14,
+      "avg_mean_s2": 0.03305996047560616,
+      "avg_std_s2": 3.9549055648835396,
+      "avg_skewness": 0.9041702591698177,
+      "cv": 119.62826052988576
+    },
+    {
+      "era": "ballad",
+      "n": 6,
+      "avg_mean_s2": -0.3877104486232997,
+      "avg_std_s2": 3.9408247194037087,
+      "avg_skewness": 1.4517807465811474,
+      "cv": 10.164350054008018
+    },
+    {
+      "era": "language",
+      "n": 3,
+      "avg_mean_s2": -0.20132021212121212,
+      "avg_std_s2": 3.9248149540185167,
+      "avg_skewness": 0.9604002706659274,
+      "cv": 19.495384555105872
+    },
+    {
+      "era": "19th_century",
+      "n": 10,
+      "avg_mean_s2": -0.17349809925840834,
+      "avg_std_s2": 3.9134039819203763,
+      "avg_skewness": 1.3302627484035114,
+      "cv": 22.555889653244826
+    },
+    {
+      "era": "mid_century",
+      "n": 3,
+      "avg_mean_s2": -0.45822475318332473,
+      "avg_std_s2": 3.869009362266467,
+      "avg_skewness": 1.3505680211412046,
+      "cv": 8.443475249619633
+    },
+    {
+      "era": "confessional",
+      "n": 6,
+      "avg_mean_s2": -0.30027467157690263,
+      "avg_std_s2": 3.831859264980991,
+      "avg_skewness": 0.9626124091520678,
+      "cv": 12.76118043808974
+    },
+    {
+      "era": "modernist",
+      "n": 22,
+      "avg_mean_s2": -0.4079655788565821,
+      "avg_std_s2": 3.7714887656791123,
+      "avg_skewness": 1.075915189059077,
+      "cv": 9.244624941764897
+    },
+    {
+      "era": "german_symbolist",
+      "n": 3,
+      "avg_mean_s2": 0.3943600108932461,
+      "avg_std_s2": 3.740286498376129,
+      "avg_skewness": 1.4570178103005087,
+      "cv": 9.484446685920775
+    },
+    {
+      "era": "german_modernist",
+      "n": 2,
+      "avg_mean_s2": 0.7733908133623821,
+      "avg_std_s2": 3.725508259430149,
+      "avg_skewness": 0.9228072437757273,
+      "cv": 4.817109532544337
+    },
+    {
+      "era": "concrete",
+      "n": 3,
+      "avg_mean_s2": -0.7557458284977434,
+      "avg_std_s2": 3.6774365860226843,
+      "avg_skewness": 1.3854161426872595,
+      "cv": 4.865970075326278
+    },
+    {
+      "era": "victorian",
+      "n": 21,
+      "avg_mean_s2": -0.3052883587994227,
+      "avg_std_s2": 3.6477492438551606,
+      "avg_skewness": 1.051156765935497,
+      "cv": 11.94853697730337
+    },
+    {
+      "era": "romantic",
+      "n": 15,
+      "avg_mean_s2": -0.4699900848405656,
+      "avg_std_s2": 3.6476285138800604,
+      "avg_skewness": 1.0281101178539205,
+      "cv": 7.761075459958784
+    },
+    {
+      "era": "fixed_form",
+      "n": 8,
+      "avg_mean_s2": -0.5760911643038669,
+      "avg_std_s2": 3.6216967820292147,
+      "avg_skewness": 1.1619638514594268,
+      "cv": 6.28667302406135
+    },
+    {
+      "era": "new_york_school",
+      "n": 18,
+      "avg_mean_s2": -0.5993577111904175,
+      "avg_std_s2": 3.5415273787970447,
+      "avg_skewness": 1.09885940683749,
+      "cv": 5.908870967494556
+    },
+    {
+      "era": "latin_american",
+      "n": 3,
+      "avg_mean_s2": -0.5866611070870914,
+      "avg_std_s2": 3.527306071598032,
+      "avg_skewness": 1.3557854550780568,
+      "cv": 6.012510509026114
+    },
+    {
+      "era": "harlem_renaissance",
+      "n": 5,
+      "avg_mean_s2": -0.5000228609625669,
+      "avg_std_s2": 3.5263981906191786,
+      "avg_skewness": 1.0958077852404897,
+      "cv": 7.052473928553388
+    },
+    {
+      "era": "imagist",
+      "n": 2,
+      "avg_mean_s2": -0.6469918523469993,
+      "avg_std_s2": 3.5187081387707213,
+      "avg_skewness": 0.8551679374872725,
+      "cv": 5.438566383805932
+    },
+    {
+      "era": "contemporary",
+      "n": 9,
+      "avg_mean_s2": -0.3647524216536868,
+      "avg_std_s2": 3.5031230045062975,
+      "avg_skewness": 1.1261867389482068,
+      "cv": 9.604111711237186
+    },
+    {
+      "era": "metaphysical",
+      "n": 4,
+      "avg_mean_s2": -0.5577373169067548,
+      "avg_std_s2": 3.491872218964544,
+      "avg_skewness": 0.9188226459393256,
+      "cv": 6.260782832912599
+    },
+    {
+      "era": "spoken_word",
+      "n": 2,
+      "avg_mean_s2": -0.6752217475728154,
+      "avg_std_s2": 3.4425682086410343,
+      "avg_skewness": 1.0255445783463395,
+      "cv": 5.098426140769097
+    },
+    {
+      "era": "early_modern",
+      "n": 4,
+      "avg_mean_s2": -0.2925880220502632,
+      "avg_std_s2": 3.3941410213632586,
+      "avg_skewness": 1.0879806711235152,
+      "cv": 11.60041001534979
+    },
+    {
+      "era": "biblical",
+      "n": 7,
+      "avg_mean_s2": -0.5471113328139944,
+      "avg_std_s2": 3.2906728810647037,
+      "avg_skewness": 1.2295050566599046,
+      "cv": 6.014631179616707
+    },
+    {
+      "era": "prose_poetry",
+      "n": 9,
+      "avg_mean_s2": -0.5419073541928836,
+      "avg_std_s2": 3.157106520398572,
+      "avg_skewness": 1.222434283687801,
+      "cv": 5.825915621870022
+    },
+    {
+      "era": "song_lyrics",
+      "n": 3,
+      "avg_mean_s2": -0.6441380516272504,
+      "avg_std_s2": 3.136210095042948,
+      "avg_skewness": 1.249402318875623,
+      "cv": 4.868847737096285
+    },
+    {
+      "era": "found_poetry",
+      "n": 7,
+      "avg_mean_s2": -0.6151512941291314,
+      "avg_std_s2": 3.0892042952859176,
+      "avg_skewness": 1.637658600902331,
+      "cv": 5.021861003575224
+    },
+    {
+      "era": "cliche_control",
+      "n": 3,
+      "avg_mean_s2": -0.8840995074404759,
+      "avg_std_s2": 3.0366906282484187,
+      "avg_skewness": 1.3804054997140007,
+      "cv": 3.434783757588363
+    },
+    {
+      "era": "control",
+      "n": 5,
+      "avg_mean_s2": -1.7361703135097197,
+      "avg_std_s2": 2.226331766594336,
+      "avg_skewness": 0.34467692487309304,
+      "cv": 1.2823233695856373
+    }
+  ],
+  "high_std_poems": [
+    {
+      "title": "Morning Glory (Chiyo-ni, translated)",
+      "author": "Chiyo-ni",
+      "era": "haiku",
+      "year": 1763,
+      "n_tokens": 14,
+      "mean_s2": 2.077257142857143,
+      "std_s2": 5.460155399504184,
+      "skewness": 1.4430776708956348,
+      "kurtosis": 1.1779339018520218,
+      "p90_s2": 10.0486,
+      "pos_ratio": 0.5
+    },
+    {
+      "title": "Autumn Crow (Bash\u014d, translated)",
+      "author": "Matsuo Bash\u014d",
+      "era": "haiku",
+      "year": 1680,
+      "n_tokens": 17,
+      "mean_s2": 0.11026470588235299,
+      "std_s2": 5.044841534378421,
+      "skewness": 1.0939232059576949,
+      "kurtosis": 0.2609927543692647,
+      "p90_s2": 10.0679,
+      "pos_ratio": 0.29411764705882354
+    },
+    {
+      "title": "Howl (opening)",
+      "author": "Allen Ginsberg",
+      "era": "beat",
+      "year": 1956,
+      "n_tokens": 53,
+      "mean_s2": 0.9528396226415092,
+      "std_s2": 4.9824681615144835,
+      "skewness": 0.99949874666883,
+      "kurtosis": 0.5355499813158788,
+      "p90_s2": 7.2083,
+      "pos_ratio": 0.5094339622641509
+    },
+    {
+      "title": "To a Mouse (closing stanzas)",
+      "author": "Robert Burns",
+      "era": "romantic",
+      "year": 1785,
+      "n_tokens": 118,
+      "mean_s2": -0.26900762711864395,
+      "std_s2": 4.683348188414446,
+      "skewness": 1.1271901318333253,
+      "kurtosis": 0.73941511354665,
+      "p90_s2": 7.3649,
+      "pos_ratio": 0.3559322033898305
+    },
+    {
+      "title": "Old Pond (Bash\u014d, translated)",
+      "author": "Matsuo Bash\u014d",
+      "era": "haiku",
+      "year": 1686,
+      "n_tokens": 18,
+      "mean_s2": 1.1836333333333333,
+      "std_s2": 4.6659767598363935,
+      "skewness": 1.4457226293879573,
+      "kurtosis": 2.162287524157442,
+      "p90_s2": 7.7531,
+      "pos_ratio": 0.5
+    },
+    {
+      "title": "The Wife of Usher's Well",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "year": 1802,
+      "n_tokens": 133,
+      "mean_s2": -0.17734060150375947,
+      "std_s2": 4.659155899317063,
+      "skewness": 1.653598269960899,
+      "kurtosis": 2.7295436978650702,
+      "p90_s2": 6.1085,
+      "pos_ratio": 0.2857142857142857
+    },
+    {
+      "title": "I heard a Fly buzz \u2014 when I died",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "year": 1896,
+      "n_tokens": 133,
+      "mean_s2": 0.13676315789473684,
+      "std_s2": 4.654403991862947,
+      "skewness": 1.133271260504837,
+      "kurtosis": 0.9498464911459519,
+      "p90_s2": 6.5501,
+      "pos_ratio": 0.38345864661654133
+    },
+    {
+      "title": "The Fish",
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "year": 1921,
+      "n_tokens": 331,
+      "mean_s2": 0.017944410876132785,
+      "std_s2": 4.620238853053634,
+      "skewness": 1.7803622745118588,
+      "kurtosis": 4.516109088548654,
+      "p90_s2": 5.9038,
+      "pos_ratio": 0.32628398791540786
+    },
+    {
+      "title": "One Art",
+      "author": "Elizabeth Bishop",
+      "era": "mid_century",
+      "year": 1976,
+      "n_tokens": 60,
+      "mean_s2": 0.17475666666666653,
+      "std_s2": 4.587011426203583,
+      "skewness": 1.9837140079767455,
+      "kurtosis": 5.44234971866735,
+      "p90_s2": 6.2661,
+      "pos_ratio": 0.38333333333333336
+    },
+    {
+      "title": "A Route of Evanescence",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "year": 1879,
+      "n_tokens": 56,
+      "mean_s2": -0.06792321428571436,
+      "std_s2": 4.561434882053135,
+      "skewness": 1.023211582227518,
+      "kurtosis": 0.6202460198861619,
+      "p90_s2": 6.4378,
+      "pos_ratio": 0.375
+    }
+  ],
+  "low_std_poems": [
+    {
+      "title": "News article prose",
+      "author": "Control",
+      "era": "control",
+      "year": 2024,
+      "n_tokens": 31,
+      "mean_s2": -1.4920774193548387,
+      "std_s2": 1.848700063202158,
+      "skewness": 0.23265746840878226,
+      "kurtosis": -0.9242187099206554,
+      "p90_s2": 1.121,
+      "pos_ratio": 0.22580645161290322
+    },
+    {
+      "title": "Academic prose",
+      "author": "Control",
+      "era": "control",
+      "year": 2024,
+      "n_tokens": 29,
+      "mean_s2": -2.3642655172413796,
+      "std_s2": 1.9607665044614149,
+      "skewness": -0.3490835372926784,
+      "kurtosis": 0.5439739697728987,
+      "p90_s2": -0.4971,
+      "pos_ratio": 0.06896551724137931
+    },
+    {
+      "title": "silencio",
+      "author": "Eugen Gomringer",
+      "era": "concrete",
+      "year": 1954,
+      "n_tokens": 47,
+      "mean_s2": -0.7702702127659574,
+      "std_s2": 2.0646007014818943,
+      "skewness": 1.528250788953095,
+      "kurtosis": 8.554363690224736,
+      "p90_s2": -0.0075,
+      "pos_ratio": 0.06382978723404255
+    },
+    {
+      "title": "Cooking Instructions (Found Poem from generic recipe prose)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "year": 1900,
+      "n_tokens": 131,
+      "mean_s2": -0.7823893129770993,
+      "std_s2": 2.089884046977117,
+      "skewness": 1.315270267564145,
+      "kurtosis": 2.9810857951600394,
+      "p90_s2": 1.8269,
+      "pos_ratio": 0.25190839694656486
+    },
+    {
+      "title": "Simple narrative prose",
+      "author": "Control",
+      "era": "control",
+      "year": 2024,
+      "n_tokens": 36,
+      "mean_s2": -2.088491666666666,
+      "std_s2": 2.1233463731121063,
+      "skewness": 0.22275932789692154,
+      "kurtosis": 0.28277917663170227,
+      "p90_s2": 0.5396,
+      "pos_ratio": 0.1388888888888889
+    },
+    {
+      "title": "Technical prose",
+      "author": "Control",
+      "era": "control",
+      "year": 2024,
+      "n_tokens": 32,
+      "mean_s2": -1.7607312499999996,
+      "std_s2": 2.341403240638707,
+      "skewness": 0.9111291973783326,
+      "kurtosis": 0.05791370249357097,
+      "p90_s2": 1.6382,
+      "pos_ratio": 0.25
+    },
+    {
+      "title": "This Is Just to Say",
+      "author": "William Carlos Williams",
+      "era": "modernist",
+      "year": 1934,
+      "n_tokens": 35,
+      "mean_s2": -1.3696771428571428,
+      "std_s2": 2.611811044257628,
+      "skewness": 0.4132330801291497,
+      "kurtosis": -0.8112426465405758,
+      "p90_s2": 2.5479,
+      "pos_ratio": 0.3142857142857143
+    },
+    {
+      "title": "From 'Who Whispered Near Me' (excerpt)",
+      "author": "Killarney Clary",
+      "era": "prose_poetry",
+      "year": 1989,
+      "n_tokens": 171,
+      "mean_s2": -0.9486777777777777,
+      "std_s2": 2.658141960658788,
+      "skewness": 1.2413952021990673,
+      "kurtosis": 1.695192400990936,
+      "p90_s2": 2.3983,
+      "pos_ratio": 0.28654970760233917
+    },
+    {
+      "title": "Incantation",
+      "author": "Lucille Clifton",
+      "era": "contemporary",
+      "year": 2000,
+      "n_tokens": 56,
+      "mean_s2": -0.4935446428571427,
+      "std_s2": 2.6962482251083397,
+      "skewness": 1.2793422649644783,
+      "kurtosis": 1.4229915323889335,
+      "p90_s2": 3.2951,
+      "pos_ratio": 0.26785714285714285
+    },
+    {
+      "title": "My Heart Burns for You (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "year": 2026,
+      "n_tokens": 100,
+      "mean_s2": -1.124931,
+      "std_s2": 2.7162297698720184,
+      "skewness": 0.9790304991243987,
+      "kurtosis": 0.835851641179894,
+      "p90_s2": 3.2628,
+      "pos_ratio": 0.21
+    }
+  ],
+  "high_skew_poems": [
+    {
+      "title": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)",
+      "author": "Thomas Jefferson (found text)",
+      "era": "found_poetry",
+      "year": 1776,
+      "n_tokens": 148,
+      "mean_s2": -0.2611871621621622,
+      "std_s2": 3.338004614940221,
+      "skewness": 2.947246285403319,
+      "kurtosis": 10.391428759905528,
+      "p90_s2": 2.8796,
+      "pos_ratio": 0.16216216216216217
+    },
+    {
+      "title": "I felt a Funeral, in my Brain",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "year": 1861,
+      "n_tokens": 65,
+      "mean_s2": -0.885756923076923,
+      "std_s2": 3.7629483631024154,
+      "skewness": 2.702283385245898,
+      "kurtosis": 10.48506111385362,
+      "p90_s2": 2.5174,
+      "pos_ratio": 0.24615384615384617
+    },
+    {
+      "title": "The Congo (opening, sanitized excerpt)",
+      "author": "Vachel Lindsay",
+      "era": "modernist",
+      "year": 1914,
+      "n_tokens": 91,
+      "mean_s2": -1.3063065934065932,
+      "std_s2": 3.862837309110989,
+      "skewness": 2.3742869302173437,
+      "kurtosis": 8.477594587224798,
+      "p90_s2": 2.4081,
+      "pos_ratio": 0.2087912087912088
+    },
+    {
+      "title": "Buffalo Bill 's",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "year": 1920,
+      "n_tokens": 182,
+      "mean_s2": -0.8704021978021982,
+      "std_s2": 3.990303332199472,
+      "skewness": 2.3008733461623256,
+      "kurtosis": 8.39789560492227,
+      "p90_s2": 1.8423,
+      "pos_ratio": 0.16483516483516483
+    },
+    {
+      "title": "Song of Myself (section 1)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "year": 1855,
+      "n_tokens": 53,
+      "mean_s2": 0.7745490566037737,
+      "std_s2": 4.324493869070828,
+      "skewness": 2.1511285759694174,
+      "kurtosis": 6.698292514787543,
+      "p90_s2": 4.7879,
+      "pos_ratio": 0.5094339622641509
+    },
+    {
+      "title": "Cicadas (Bash\u014d, translated)",
+      "author": "Matsuo Bash\u014d",
+      "era": "haiku",
+      "year": 1689,
+      "n_tokens": 15,
+      "mean_s2": -0.94776,
+      "std_s2": 3.5595009904573236,
+      "skewness": 2.0289583778080615,
+      "kurtosis": 4.845738315712001,
+      "p90_s2": 1.8946,
+      "pos_ratio": 0.13333333333333333
+    },
+    {
+      "title": "One Art",
+      "author": "Elizabeth Bishop",
+      "era": "mid_century",
+      "year": 1976,
+      "n_tokens": 60,
+      "mean_s2": 0.17475666666666653,
+      "std_s2": 4.587011426203583,
+      "skewness": 1.9837140079767455,
+      "kurtosis": 5.44234971866735,
+      "p90_s2": 6.2661,
+      "pos_ratio": 0.38333333333333336
+    },
+    {
+      "title": "For I Will Consider My Cat Jeoffry (excerpt)",
+      "author": "Christopher Smart",
+      "era": "18th_century",
+      "year": 1763,
+      "n_tokens": 293,
+      "mean_s2": -0.3582409556313995,
+      "std_s2": 3.398147802867249,
+      "skewness": 1.9641461797029998,
+      "kurtosis": 6.821209491341548,
+      "p90_s2": 4.0273,
+      "pos_ratio": 0.310580204778157
+    },
+    {
+      "title": "Komm in den totgesagten park und schau",
+      "author": "Stefan George",
+      "era": "german_symbolist",
+      "year": 1891,
+      "n_tokens": 136,
+      "mean_s2": 0.5927602941176466,
+      "std_s2": 3.9833287191426945,
+      "skewness": 1.8580364840942691,
+      "kurtosis": 6.786866807308055,
+      "p90_s2": 5.3676,
+      "pos_ratio": 0.4632352941176471
+    },
+    {
+      "title": "Terms and Conditions (Found Poem from generic legal prose)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "year": 2010,
+      "n_tokens": 132,
+      "mean_s2": -0.11924772727272746,
+      "std_s2": 3.375055602560294,
+      "skewness": 1.7877452361748507,
+      "kurtosis": 3.603411625496144,
+      "p90_s2": 4.208,
+      "pos_ratio": 0.2878787878787879
+    }
+  ],
+  "quadrants": {
+    "strategic_saboteur": 76,
+    "systematic_innovator": 29,
+    "volatile_conformist": 29,
+    "predictable_traditionalist": 75
+  },
+  "quadrant_era_breakdown": {
+    "strategic_saboteur": [
+      "german_symbolist",
+      "early_modern",
+      "prose_poetry",
+      "19th_century",
+      "modernist"
+    ],
+    "systematic_innovator": [
+      "german_symbolist",
+      "found_poetry",
+      "romantic",
+      "german_modernist",
+      "18th_century"
+    ],
+    "volatile_conformist": [
+      "spoken_word",
+      "romantic",
+      "latin_american",
+      "concrete",
+      "new_york_school"
+    ],
+    "predictable_traditionalist": [
+      "spoken_word",
+      "early_modern",
+      "prose_poetry",
+      "cliche_control",
+      "19th_century"
+    ]
+  },
+  "quadrant_examples": {
+    "strategic_saboteur": [
+      {
+        "title": "Because I could not stop for Death",
+        "author": "Emily Dickinson"
+      },
+      {
+        "title": "Song of Myself (section 1)",
+        "author": "Walt Whitman"
+      },
+      {
+        "title": "Ozymandias",
+        "author": "Percy Bysshe Shelley"
+      },
+      {
+        "title": "The Waste Land (opening)",
+        "author": "T.S. Eliot"
+      },
+      {
+        "title": "The Red Wheelbarrow",
+        "author": "William Carlos Williams"
+      }
+    ],
+    "systematic_innovator": [
+      {
+        "title": "Dover Beach",
+        "author": "Matthew Arnold"
+      },
+      {
+        "title": "Self-Portrait in a Convex Mirror (opening)",
+        "author": "John Ashbery"
+      },
+      {
+        "title": "Self-Portrait in a Convex Mirror (closing)",
+        "author": "John Ashbery"
+      },
+      {
+        "title": "Why I Am Not a Painter",
+        "author": "Frank O'Hara"
+      },
+      {
+        "title": "Porta Nigra",
+        "author": "Stefan George"
+      }
+    ],
+    "volatile_conformist": [
+      {
+        "title": "I Wandered Lonely as a Cloud",
+        "author": "William Wordsworth"
+      },
+      {
+        "title": "I felt a Funeral, in my Brain",
+        "author": "Emily Dickinson"
+      },
+      {
+        "title": "The Love Song of J. Alfred Prufrock (opening)",
+        "author": "T.S. Eliot"
+      },
+      {
+        "title": "The Emperor of Ice-Cream",
+        "author": "Wallace Stevens"
+      },
+      {
+        "title": "Daddy (opening)",
+        "author": "Sylvia Plath"
+      }
+    ],
+    "predictable_traditionalist": [
+      {
+        "title": "Ode to a Nightingale (stanza 1)",
+        "author": "John Keats"
+      },
+      {
+        "title": "In a Station of the Metro",
+        "author": "Ezra Pound"
+      },
+      {
+        "title": "Sunday Morning (stanza 1)",
+        "author": "Wallace Stevens"
+      },
+      {
+        "title": "Some Trees",
+        "author": "John Ashbery"
+      },
+      {
+        "title": "The Instruction Manual",
+        "author": "John Ashbery"
+      }
+    ]
+  }
+}
