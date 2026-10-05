@@ -1,0 +1,840 @@
+[
+  {
+    "author": "Emily Dickinson",
+    "poems": [
+      {
+        "avg_s2": -0.8857569230769231,
+        "median_s2": -1.3866,
+        "std_s2": 3.7922324496087243,
+        "pos_s2_ratio": 0.24615384615384617,
+        "high_s2_ratio": 0.12307692307692308,
+        "max_s2": 18.9026,
+        "avg_entropy": 6.574456923076923,
+        "n_tokens": 65,
+        "title": "I felt a Funeral, in my Brain",
+        "year": 1861
+      },
+      {
+        "avg_s2": 0.24951551724137927,
+        "median_s2": -0.6169,
+        "std_s2": 3.933007660802408,
+        "pos_s2_ratio": 0.41379310344827586,
+        "high_s2_ratio": 0.29310344827586204,
+        "max_s2": 12.8561,
+        "avg_entropy": 6.827975862068966,
+        "n_tokens": 58,
+        "title": "Because I could not stop for Death",
+        "year": 1863
+      },
+      {
+        "avg_s2": -0.06792321428571431,
+        "median_s2": -1.1442999999999999,
+        "std_s2": 4.6027156771545235,
+        "pos_s2_ratio": 0.375,
+        "high_s2_ratio": 0.26785714285714285,
+        "max_s2": 14.8591,
+        "avg_entropy": 7.395092857142857,
+        "n_tokens": 56,
+        "title": "A Route of Evanescence",
+        "year": 1879
+      },
+      {
+        "avg_s2": 0.13676315789473684,
+        "median_s2": -1.3435,
+        "std_s2": 4.672001045144291,
+        "pos_s2_ratio": 0.38345864661654133,
+        "high_s2_ratio": 0.2781954887218045,
+        "max_s2": 16.5878,
+        "avg_entropy": 6.765179699248121,
+        "n_tokens": 133,
+        "title": "I heard a Fly buzz \u2014 when I died",
+        "year": 1896
+      }
+    ]
+  },
+  {
+    "author": "Walt Whitman",
+    "poems": [
+      {
+        "avg_s2": 0.7745490566037736,
+        "median_s2": 0.0692,
+        "std_s2": 4.365877528437599,
+        "pos_s2_ratio": 0.5094339622641509,
+        "high_s2_ratio": 0.3018867924528302,
+        "max_s2": 20.3969,
+        "avg_entropy": 6.01178679245283,
+        "n_tokens": 53,
+        "title": "Song of Myself (section 1)",
+        "year": 1855
+      },
+      {
+        "avg_s2": 0.03873211009174314,
+        "median_s2": -1.2447,
+        "std_s2": 4.114864369145039,
+        "pos_s2_ratio": 0.3761467889908257,
+        "high_s2_ratio": 0.24770642201834864,
+        "max_s2": 13.9541,
+        "avg_entropy": 6.092884403669725,
+        "n_tokens": 109,
+        "title": "When I Heard the Learn'd Astronomer",
+        "year": 1865
+      },
+      {
+        "avg_s2": -0.6857133333333334,
+        "median_s2": -1.6809,
+        "std_s2": 3.9901285457652036,
+        "pos_s2_ratio": 0.34444444444444444,
+        "high_s2_ratio": 0.25555555555555554,
+        "max_s2": 17.3246,
+        "avg_entropy": 7.682612222222223,
+        "n_tokens": 90,
+        "title": "O Captain! My Captain! (stanza 1)",
+        "year": 1865
+      },
+      {
+        "avg_s2": 0.029029850746268657,
+        "median_s2": -0.6556500000000001,
+        "std_s2": 4.190287260381532,
+        "pos_s2_ratio": 0.44029850746268656,
+        "high_s2_ratio": 0.27611940298507465,
+        "max_s2": 13.8163,
+        "avg_entropy": 7.104232089552239,
+        "n_tokens": 134,
+        "title": "A Noiseless Patient Spider",
+        "year": 1868
+      }
+    ]
+  },
+  {
+    "author": "T.S. Eliot",
+    "poems": [
+      {
+        "avg_s2": -0.47880579710144927,
+        "median_s2": -1.0954,
+        "std_s2": 3.7051996758087085,
+        "pos_s2_ratio": 0.37681159420289856,
+        "high_s2_ratio": 0.2028985507246377,
+        "max_s2": 11.5431,
+        "avg_entropy": 6.788726086956522,
+        "n_tokens": 69,
+        "title": "The Love Song of J. Alfred Prufrock (opening)",
+        "year": 1915
+      },
+      {
+        "avg_s2": -0.2622754385964912,
+        "median_s2": -0.7637,
+        "std_s2": 3.678464978001825,
+        "pos_s2_ratio": 0.40350877192982454,
+        "high_s2_ratio": 0.21052631578947367,
+        "max_s2": 11.174,
+        "avg_entropy": 7.027428070175438,
+        "n_tokens": 57,
+        "title": "The Waste Land (opening)",
+        "year": 1922
+      },
+      {
+        "avg_s2": -0.1140940170940171,
+        "median_s2": -1.1493,
+        "std_s2": 4.046137691362455,
+        "pos_s2_ratio": 0.4358974358974359,
+        "high_s2_ratio": 0.26495726495726496,
+        "max_s2": 11.8752,
+        "avg_entropy": 6.79905641025641,
+        "n_tokens": 117,
+        "title": "The Hollow Men (opening)",
+        "year": 1925
+      }
+    ]
+  },
+  {
+    "author": "Wallace Stevens",
+    "poems": [
+      {
+        "avg_s2": -0.798293670886076,
+        "median_s2": -1.0026,
+        "std_s2": 3.4527348783374077,
+        "pos_s2_ratio": 0.34177215189873417,
+        "high_s2_ratio": 0.22784810126582278,
+        "max_s2": 8.0463,
+        "avg_entropy": 7.5869063291139245,
+        "n_tokens": 79,
+        "title": "Sunday Morning (stanza 1)",
+        "year": 1915
+      },
+      {
+        "avg_s2": 0.09771904761904762,
+        "median_s2": -0.7071,
+        "std_s2": 3.712538402271553,
+        "pos_s2_ratio": 0.42857142857142855,
+        "high_s2_ratio": 0.30158730158730157,
+        "max_s2": 14.2032,
+        "avg_entropy": 6.321077777777778,
+        "n_tokens": 63,
+        "title": "Anecdote of the Jar",
+        "year": 1919
+      },
+      {
+        "avg_s2": -0.9150893617021276,
+        "median_s2": -2.0541,
+        "std_s2": 3.8753977832727426,
+        "pos_s2_ratio": 0.24468085106382978,
+        "high_s2_ratio": 0.1702127659574468,
+        "max_s2": 12.785,
+        "avg_entropy": 6.7750382978723405,
+        "n_tokens": 94,
+        "title": "The Emperor of Ice-Cream",
+        "year": 1922
+      }
+    ]
+  },
+  {
+    "author": "John Ashbery",
+    "poems": [
+      {
+        "avg_s2": -1.2119046511627907,
+        "median_s2": -2.0231,
+        "std_s2": 3.396222679610638,
+        "pos_s2_ratio": 0.32558139534883723,
+        "high_s2_ratio": 0.20930232558139536,
+        "max_s2": 10.4349,
+        "avg_entropy": 7.823890697674418,
+        "n_tokens": 43,
+        "title": "Some Trees",
+        "year": 1956
+      },
+      {
+        "avg_s2": -0.3803414285714286,
+        "median_s2": -1.3263,
+        "std_s2": 4.022475145490011,
+        "pos_s2_ratio": 0.42857142857142855,
+        "high_s2_ratio": 0.2857142857142857,
+        "max_s2": 10.0148,
+        "avg_entropy": 6.982765714285715,
+        "n_tokens": 70,
+        "title": "The Painter",
+        "year": 1956
+      },
+      {
+        "avg_s2": -1.0817783018867924,
+        "median_s2": -2.1325,
+        "std_s2": 3.2458756580358203,
+        "pos_s2_ratio": 0.29245283018867924,
+        "high_s2_ratio": 0.1509433962264151,
+        "max_s2": 8.6831,
+        "avg_entropy": 5.980714150943396,
+        "n_tokens": 106,
+        "title": "The Instruction Manual",
+        "year": 1956
+      },
+      {
+        "avg_s2": -0.6053830188679244,
+        "median_s2": -2.0859,
+        "std_s2": 4.165431196523996,
+        "pos_s2_ratio": 0.3584905660377358,
+        "high_s2_ratio": 0.24528301886792453,
+        "max_s2": 10.7107,
+        "avg_entropy": 6.818133962264151,
+        "n_tokens": 53,
+        "title": "Leaving the Atocha Station",
+        "year": 1962
+      },
+      {
+        "avg_s2": -1.26312,
+        "median_s2": -1.8985,
+        "std_s2": 3.249577289017342,
+        "pos_s2_ratio": 0.28,
+        "high_s2_ratio": 0.18666666666666668,
+        "max_s2": 7.3804,
+        "avg_entropy": 7.105532,
+        "n_tokens": 75,
+        "title": "A Blessing in Disguise",
+        "year": 1962
+      },
+      {
+        "avg_s2": -0.9440396825396825,
+        "median_s2": -1.5756,
+        "std_s2": 3.4704220062035445,
+        "pos_s2_ratio": 0.3492063492063492,
+        "high_s2_ratio": 0.15873015873015872,
+        "max_s2": 9.1318,
+        "avg_entropy": 7.101349206349206,
+        "n_tokens": 63,
+        "title": "Rivers and Mountains",
+        "year": 1966
+      },
+      {
+        "avg_s2": -0.28888395061728395,
+        "median_s2": -1.2818,
+        "std_s2": 4.083896282977103,
+        "pos_s2_ratio": 0.35802469135802467,
+        "high_s2_ratio": 0.24691358024691357,
+        "max_s2": 10.8774,
+        "avg_entropy": 6.393056790123457,
+        "n_tokens": 81,
+        "title": "Soonest Mended",
+        "year": 1970
+      },
+      {
+        "avg_s2": -0.32353750000000003,
+        "median_s2": -0.6564000000000001,
+        "std_s2": 3.461810041022361,
+        "pos_s2_ratio": 0.4027777777777778,
+        "high_s2_ratio": 0.2222222222222222,
+        "max_s2": 8.2765,
+        "avg_entropy": 7.161052777777778,
+        "n_tokens": 72,
+        "title": "Self-Portrait in a Convex Mirror (opening)",
+        "year": 1975
+      },
+      {
+        "avg_s2": -0.4577049382716049,
+        "median_s2": -1.0031,
+        "std_s2": 3.703492915002715,
+        "pos_s2_ratio": 0.3333333333333333,
+        "high_s2_ratio": 0.19753086419753085,
+        "max_s2": 14.5846,
+        "avg_entropy": 6.99230987654321,
+        "n_tokens": 81,
+        "title": "Self-Portrait in a Convex Mirror (middle passage)",
+        "year": 1975
+      },
+      {
+        "avg_s2": -0.2601488888888889,
+        "median_s2": -1.0526,
+        "std_s2": 3.588054906017222,
+        "pos_s2_ratio": 0.4222222222222222,
+        "high_s2_ratio": 0.26666666666666666,
+        "max_s2": 9.7933,
+        "avg_entropy": 6.942231111111111,
+        "n_tokens": 90,
+        "title": "Self-Portrait in a Convex Mirror (closing)",
+        "year": 1975
+      },
+      {
+        "avg_s2": -1.0546296296296296,
+        "median_s2": -2.1355,
+        "std_s2": 3.6777710038637683,
+        "pos_s2_ratio": 0.32098765432098764,
+        "high_s2_ratio": 0.13580246913580246,
+        "max_s2": 14.722,
+        "avg_entropy": 7.016111111111111,
+        "n_tokens": 81,
+        "title": "The One Thing That Can Save America",
+        "year": 1975
+      },
+      {
+        "avg_s2": -0.6259032258064515,
+        "median_s2": -1.27,
+        "std_s2": 3.405969758775662,
+        "pos_s2_ratio": 0.3064516129032258,
+        "high_s2_ratio": 0.1774193548387097,
+        "max_s2": 10.4989,
+        "avg_entropy": 6.818370967741935,
+        "n_tokens": 62,
+        "title": "What Is Poetry",
+        "year": 1977
+      },
+      {
+        "avg_s2": -0.8104087912087912,
+        "median_s2": -1.6184,
+        "std_s2": 2.9352223610504784,
+        "pos_s2_ratio": 0.32967032967032966,
+        "high_s2_ratio": 0.15384615384615385,
+        "max_s2": 9.124,
+        "avg_entropy": 6.105931868131868,
+        "n_tokens": 91,
+        "title": "And Ut Pictura Poesis Is Her Name",
+        "year": 1977
+      },
+      {
+        "avg_s2": 0.17274473684210526,
+        "median_s2": -0.4481,
+        "std_s2": 3.8270951548276484,
+        "pos_s2_ratio": 0.40789473684210525,
+        "high_s2_ratio": 0.2236842105263158,
+        "max_s2": 14.9081,
+        "avg_entropy": 6.469746052631579,
+        "n_tokens": 76,
+        "title": "Wet Casements",
+        "year": 1977
+      },
+      {
+        "avg_s2": -0.2729509677419355,
+        "median_s2": -1.4297,
+        "std_s2": 3.6451960690744483,
+        "pos_s2_ratio": 0.33548387096774196,
+        "high_s2_ratio": 0.2064516129032258,
+        "max_s2": 17.7338,
+        "avg_entropy": 5.697867096774194,
+        "n_tokens": 155,
+        "title": "Paradoxes and Oxymorons",
+        "year": 1981
+      },
+      {
+        "avg_s2": -1.3880420289855073,
+        "median_s2": -1.6893,
+        "std_s2": 3.0593459837129453,
+        "pos_s2_ratio": 0.2463768115942029,
+        "high_s2_ratio": 0.08695652173913043,
+        "max_s2": 7.5931,
+        "avg_entropy": 7.1840231884057975,
+        "n_tokens": 69,
+        "title": "A Wave (opening)",
+        "year": 1984
+      }
+    ]
+  },
+  {
+    "author": "Lucille Clifton",
+    "poems": [
+      {
+        "avg_s2": -0.814183495145631,
+        "median_s2": -1.8041,
+        "std_s2": 3.195376740778657,
+        "pos_s2_ratio": 0.2815533980582524,
+        "high_s2_ratio": 0.20388349514563106,
+        "max_s2": 8.8165,
+        "avg_entropy": 5.422536893203883,
+        "n_tokens": 103,
+        "title": "Homage to My Hips",
+        "year": 1980
+      },
+      {
+        "avg_s2": -0.53626,
+        "median_s2": -1.8666,
+        "std_s2": 3.7260672436229596,
+        "pos_s2_ratio": 0.36666666666666664,
+        "high_s2_ratio": 0.2111111111111111,
+        "max_s2": 9.9925,
+        "avg_entropy": 6.913255555555556,
+        "n_tokens": 90,
+        "title": "Won't You Celebrate With Me",
+        "year": 1993
+      },
+      {
+        "avg_s2": -0.49354464285714283,
+        "median_s2": -0.99395,
+        "std_s2": 2.720649158893693,
+        "pos_s2_ratio": 0.26785714285714285,
+        "high_s2_ratio": 0.16071428571428573,
+        "max_s2": 7.7467,
+        "avg_entropy": 4.139153571428571,
+        "n_tokens": 56,
+        "title": "Incantation",
+        "year": 2000
+      }
+    ]
+  },
+  {
+    "author": "Langston Hughes",
+    "poems": [
+      {
+        "avg_s2": -0.3473815126050421,
+        "median_s2": -1.1545,
+        "std_s2": 4.12561463098338,
+        "pos_s2_ratio": 0.31932773109243695,
+        "high_s2_ratio": 0.2184873949579832,
+        "max_s2": 14.3147,
+        "avg_entropy": 6.067588235294117,
+        "n_tokens": 119,
+        "title": "The Negro Speaks of Rivers",
+        "year": 1921
+      },
+      {
+        "avg_s2": -0.8823212121212122,
+        "median_s2": -1.5109,
+        "std_s2": 3.095821120976079,
+        "pos_s2_ratio": 0.3181818181818182,
+        "high_s2_ratio": 0.12121212121212122,
+        "max_s2": 8.4111,
+        "avg_entropy": 6.14899696969697,
+        "n_tokens": 66,
+        "title": "Harlem",
+        "year": 1951
+      },
+      {
+        "avg_s2": -0.8823212121212122,
+        "median_s2": -1.5109,
+        "std_s2": 3.095821120976079,
+        "pos_s2_ratio": 0.3181818181818182,
+        "high_s2_ratio": 0.12121212121212122,
+        "max_s2": 8.4111,
+        "avg_entropy": 6.14899696969697,
+        "n_tokens": 66,
+        "title": "A Dream Deferred",
+        "year": 1951
+      }
+    ]
+  },
+  {
+    "author": "Thomas Hardy",
+    "poems": [
+      {
+        "avg_s2": 0.16920632911392405,
+        "median_s2": -1.1459000000000001,
+        "std_s2": 3.9334930677903315,
+        "pos_s2_ratio": 0.41139240506329117,
+        "high_s2_ratio": 0.25949367088607594,
+        "max_s2": 13.9826,
+        "avg_entropy": 6.822178481012658,
+        "n_tokens": 158,
+        "title": "Neutral Tones",
+        "year": 1898
+      },
+      {
+        "avg_s2": 0.475340243902439,
+        "median_s2": -0.0591,
+        "std_s2": 4.531346783333799,
+        "pos_s2_ratio": 0.5,
+        "high_s2_ratio": 0.3780487804878049,
+        "max_s2": 12.9443,
+        "avg_entropy": 7.5488536585365855,
+        "n_tokens": 82,
+        "title": "The Convergence of the Twain (excerpt)",
+        "year": 1912
+      },
+      {
+        "avg_s2": 0.10425352112676056,
+        "median_s2": -0.4404,
+        "std_s2": 3.6238440633215996,
+        "pos_s2_ratio": 0.43661971830985913,
+        "high_s2_ratio": 0.23943661971830985,
+        "max_s2": 11.6806,
+        "avg_entropy": 6.324792253521127,
+        "n_tokens": 142,
+        "title": "The Oxen",
+        "year": 1915
+      }
+    ]
+  },
+  {
+    "author": "E.E. Cummings",
+    "poems": [
+      {
+        "avg_s2": -0.8704021978021979,
+        "median_s2": -1.5385,
+        "std_s2": 4.001311086443089,
+        "pos_s2_ratio": 0.16483516483516483,
+        "high_s2_ratio": 0.0989010989010989,
+        "max_s2": 19.0326,
+        "avg_entropy": 4.327706593406593,
+        "n_tokens": 182,
+        "title": "Buffalo Bill 's",
+        "year": 1920
+      },
+      {
+        "avg_s2": -0.016160416666666653,
+        "median_s2": -1.3976,
+        "std_s2": 4.446059174132791,
+        "pos_s2_ratio": 0.4166666666666667,
+        "high_s2_ratio": 0.3020833333333333,
+        "max_s2": 13.0637,
+        "avg_entropy": 7.2682697916666665,
+        "n_tokens": 96,
+        "title": "anyone lived in a pretty how town",
+        "year": 1940
+      },
+      {
+        "avg_s2": -1.50704,
+        "median_s2": -2.1811,
+        "std_s2": 4.660760297388644,
+        "pos_s2_ratio": 0.2,
+        "high_s2_ratio": 0.2,
+        "max_s2": 10.3378,
+        "avg_entropy": 7.76346,
+        "n_tokens": 15,
+        "title": "l(a",
+        "year": 1958
+      }
+    ]
+  },
+  {
+    "author": "Traditional (Scottish ballad)",
+    "poems": [
+      {
+        "avg_s2": -0.22591028571428573,
+        "median_s2": -1.4193,
+        "std_s2": 4.380774803814124,
+        "pos_s2_ratio": 0.36,
+        "high_s2_ratio": 0.2342857142857143,
+        "max_s2": 17.9539,
+        "avg_entropy": 7.071444,
+        "n_tokens": 175,
+        "title": "Sir Patrick Spens",
+        "year": 1765
+      },
+      {
+        "avg_s2": -0.7224037837837838,
+        "median_s2": -1.231,
+        "std_s2": 3.5226371518238317,
+        "pos_s2_ratio": 0.25405405405405407,
+        "high_s2_ratio": 0.15135135135135136,
+        "max_s2": 17.4662,
+        "avg_entropy": 5.310371891891892,
+        "n_tokens": 185,
+        "title": "Edward, Edward",
+        "year": 1765
+      },
+      {
+        "avg_s2": -0.7118216216216217,
+        "median_s2": -0.8259,
+        "std_s2": 2.949022935516758,
+        "pos_s2_ratio": 0.1891891891891892,
+        "high_s2_ratio": 0.12432432432432433,
+        "max_s2": 11.7091,
+        "avg_entropy": 3.9702383783783786,
+        "n_tokens": 185,
+        "title": "Lord Randal",
+        "year": 1800
+      },
+      {
+        "avg_s2": -0.1773406015037594,
+        "median_s2": -1.4817,
+        "std_s2": 4.676770918286132,
+        "pos_s2_ratio": 0.2857142857142857,
+        "high_s2_ratio": 0.22556390977443608,
+        "max_s2": 18.5125,
+        "avg_entropy": 5.561845864661654,
+        "n_tokens": 133,
+        "title": "The Wife of Usher's Well",
+        "year": 1802
+      },
+      {
+        "avg_s2": -0.2706371134020618,
+        "median_s2": -1.0284,
+        "std_s2": 4.298462531396148,
+        "pos_s2_ratio": 0.31958762886597936,
+        "high_s2_ratio": 0.2268041237113402,
+        "max_s2": 17.4445,
+        "avg_entropy": 7.070434020618556,
+        "n_tokens": 97,
+        "title": "Bonnie George Campbell",
+        "year": 1818
+      }
+    ]
+  },
+  {
+    "author": "Matsuo Bash\u014d",
+    "poems": [
+      {
+        "avg_s2": 0.11026470588235295,
+        "median_s2": -1.0454,
+        "std_s2": 5.200103627686325,
+        "pos_s2_ratio": 0.29411764705882354,
+        "high_s2_ratio": 0.23529411764705882,
+        "max_s2": 12.2569,
+        "avg_entropy": 7.6888764705882355,
+        "n_tokens": 17,
+        "title": "Autumn Crow (Bash\u014d, translated)",
+        "year": 1680
+      },
+      {
+        "avg_s2": 1.1836333333333333,
+        "median_s2": 0.27805,
+        "std_s2": 4.801250475718616,
+        "pos_s2_ratio": 0.5,
+        "high_s2_ratio": 0.3888888888888889,
+        "max_s2": 15.2749,
+        "avg_entropy": 6.984222222222223,
+        "n_tokens": 18,
+        "title": "Old Pond (Bash\u014d, translated)",
+        "year": 1686
+      },
+      {
+        "avg_s2": -0.21333076923076916,
+        "median_s2": -0.2785,
+        "std_s2": 3.5585198405574507,
+        "pos_s2_ratio": 0.38461538461538464,
+        "high_s2_ratio": 0.23076923076923078,
+        "max_s2": 5.075,
+        "avg_entropy": 8.022984615384615,
+        "n_tokens": 13,
+        "title": "Summer Grass (Bash\u014d, translated)",
+        "year": 1689
+      },
+      {
+        "avg_s2": -0.9477599999999999,
+        "median_s2": -1.4625,
+        "std_s2": 3.6844335629393954,
+        "pos_s2_ratio": 0.13333333333333333,
+        "high_s2_ratio": 0.06666666666666667,
+        "max_s2": 10.621,
+        "avg_entropy": 7.44208,
+        "n_tokens": 15,
+        "title": "Cicadas (Bash\u014d, translated)",
+        "year": 1689
+      }
+    ]
+  },
+  {
+    "author": "Anonymous (found text)",
+    "poems": [
+      {
+        "avg_s2": -0.7823893129770992,
+        "median_s2": -1.2405,
+        "std_s2": 2.09790666398865,
+        "pos_s2_ratio": 0.25190839694656486,
+        "high_s2_ratio": 0.0916030534351145,
+        "max_s2": 7.7319,
+        "avg_entropy": 3.98963893129771,
+        "n_tokens": 131,
+        "title": "Cooking Instructions (Found Poem from generic recipe prose)",
+        "year": 1900
+      },
+      {
+        "avg_s2": -0.7432828125,
+        "median_s2": -1.3484,
+        "std_s2": 3.2863631521385095,
+        "pos_s2_ratio": 0.2734375,
+        "high_s2_ratio": 0.1328125,
+        "max_s2": 14.0541,
+        "avg_entropy": 5.33250859375,
+        "n_tokens": 128,
+        "title": "Weather Observations (Found Poem from meteorological prose)",
+        "year": 1950
+      },
+      {
+        "avg_s2": -0.11924772727272727,
+        "median_s2": -0.897,
+        "std_s2": 3.3879130037963643,
+        "pos_s2_ratio": 0.2878787878787879,
+        "high_s2_ratio": 0.19696969696969696,
+        "max_s2": 14.0224,
+        "avg_entropy": 4.257465909090909,
+        "n_tokens": 132,
+        "title": "Terms and Conditions (Found Poem from generic legal prose)",
+        "year": 2010
+      }
+    ]
+  },
+  {
+    "author": "Alfred, Lord Tennyson",
+    "poems": [
+      {
+        "avg_s2": -0.9274634328358209,
+        "median_s2": -1.3083,
+        "std_s2": 3.279057535685673,
+        "pos_s2_ratio": 0.29850746268656714,
+        "high_s2_ratio": 0.17164179104477612,
+        "max_s2": 10.1733,
+        "avg_entropy": 6.325761194029851,
+        "n_tokens": 134,
+        "title": "Break, Break, Break",
+        "year": 1842
+      },
+      {
+        "avg_s2": -0.2847189830508475,
+        "median_s2": -1.3107,
+        "std_s2": 3.849163937444792,
+        "pos_s2_ratio": 0.36271186440677966,
+        "high_s2_ratio": 0.25084745762711863,
+        "max_s2": 14.1608,
+        "avg_entropy": 6.370610847457627,
+        "n_tokens": 295,
+        "title": "The Lady of Shalott (Part I)",
+        "year": 1842
+      },
+      {
+        "avg_s2": -0.4784948356807512,
+        "median_s2": -1.2232,
+        "std_s2": 3.475069362497865,
+        "pos_s2_ratio": 0.3286384976525822,
+        "high_s2_ratio": 0.215962441314554,
+        "max_s2": 10.668,
+        "avg_entropy": 6.305498122065727,
+        "n_tokens": 213,
+        "title": "Tears, Idle Tears",
+        "year": 1847
+      }
+    ]
+  },
+  {
+    "author": "Anonymous (Hebrew Bible)",
+    "poems": [
+      {
+        "avg_s2": -0.6234177631578948,
+        "median_s2": -1.47805,
+        "std_s2": 3.2343996790114957,
+        "pos_s2_ratio": 0.27631578947368424,
+        "high_s2_ratio": 0.16447368421052633,
+        "max_s2": 13.7261,
+        "avg_entropy": 4.654890131578948,
+        "n_tokens": 152,
+        "title": "Psalm 23 (KJV)",
+        "year": -1000
+      },
+      {
+        "avg_s2": -0.5789727272727273,
+        "median_s2": -1.3929,
+        "std_s2": 3.381801413597718,
+        "pos_s2_ratio": 0.3146853146853147,
+        "high_s2_ratio": 0.18181818181818182,
+        "max_s2": 14.7556,
+        "avg_entropy": 5.336295804195804,
+        "n_tokens": 143,
+        "title": "Psalm 19:1-6 (KJV)",
+        "year": -1000
+      },
+      {
+        "avg_s2": -0.5355,
+        "median_s2": -1.3734,
+        "std_s2": 3.0072298220469773,
+        "pos_s2_ratio": 0.31654676258992803,
+        "high_s2_ratio": 0.17985611510791366,
+        "max_s2": 11.6493,
+        "avg_entropy": 4.661205035971223,
+        "n_tokens": 139,
+        "title": "Psalm 121 (KJV)",
+        "year": -1000
+      },
+      {
+        "avg_s2": -0.6286681415929204,
+        "median_s2": -1.2169,
+        "std_s2": 3.018615431672793,
+        "pos_s2_ratio": 0.35398230088495575,
+        "high_s2_ratio": 0.21238938053097345,
+        "max_s2": 10.2115,
+        "avg_entropy": 5.93011592920354,
+        "n_tokens": 113,
+        "title": "Psalm 46:1-5 (KJV)",
+        "year": -1000
+      },
+      {
+        "avg_s2": -0.6049696,
+        "median_s2": -1.4058,
+        "std_s2": 3.4064270586174734,
+        "pos_s2_ratio": 0.288,
+        "high_s2_ratio": 0.152,
+        "max_s2": 12.4004,
+        "avg_entropy": 5.2504568,
+        "n_tokens": 125,
+        "title": "Song of Solomon 2:1-7 (KJV)",
+        "year": -950
+      },
+      {
+        "avg_s2": -0.6555104,
+        "median_s2": -1.4544,
+        "std_s2": 3.2743760146221605,
+        "pos_s2_ratio": 0.288,
+        "high_s2_ratio": 0.184,
+        "max_s2": 11.8536,
+        "avg_entropy": 5.367872,
+        "n_tokens": 125,
+        "title": "Isaiah 40:28-31 (KJV)",
+        "year": -700
+      },
+      {
+        "avg_s2": -0.20274069767441866,
+        "median_s2": -1.2736,
+        "std_s2": 3.807564896743383,
+        "pos_s2_ratio": 0.38372093023255816,
+        "high_s2_ratio": 0.2558139534883721,
+        "max_s2": 9.5915,
+        "avg_entropy": 5.622851162790698,
+        "n_tokens": 86,
+        "title": "Psalm 137:1-4 (KJV)",
+        "year": -587
+      }
+    ]
+  }
+]
