@@ -1,0 +1,1380 @@
+{
+  "n_tokens": 17451,
+  "correlations": {
+    "r_s2_centroid_escape": 0.6346968121923495,
+    "r_s2_cluster_spread": -0.018223777922219984,
+    "r_spread_escape": 0.27051592572049044
+  },
+  "spread_median": 0.6005574312474993,
+  "escape_median": 0.3996795415878296,
+  "n_tight_escapes": 1886,
+  "n_diffuse_escapes": 1925,
+  "era_rows": [
+    {
+      "era": "mid_century",
+      "n": 192,
+      "n_high": 35,
+      "avg_spread": 0.5703774392337504,
+      "avg_escape": 0.4213453658546011,
+      "avg_efficiency": 0.26770470373588856,
+      "high_spread": 0.5601484328697599,
+      "high_escape": 0.6578214096171515,
+      "high_efficiency": 0.4232622311623892
+    },
+    {
+      "era": "beat",
+      "n": 127,
+      "n_high": 46,
+      "avg_spread": 0.5844919992009486,
+      "avg_escape": 0.452271830143891,
+      "avg_efficiency": 0.2844631124004938,
+      "high_spread": 0.6049678914482898,
+      "high_escape": 0.6427065522774406,
+      "high_efficiency": 0.4029765681095413
+    },
+    {
+      "era": "haiku",
+      "n": 200,
+      "n_high": 62,
+      "avg_spread": 0.5982616051033967,
+      "avg_escape": 0.4818521376699209,
+      "avg_efficiency": 0.30208108515022253,
+      "high_spread": 0.5997144836652022,
+      "high_escape": 0.6192514756994862,
+      "high_efficiency": 0.39006055555363756
+    },
+    {
+      "era": "modernist",
+      "n": 1543,
+      "n_high": 431,
+      "avg_spread": 0.588862169862999,
+      "avg_escape": 0.43725561750394837,
+      "avg_efficiency": 0.27440108146504316,
+      "high_spread": 0.5858338173690123,
+      "high_escape": 0.6122207504863528,
+      "high_efficiency": 0.38793723758210835
+    },
+    {
+      "era": "surrealist",
+      "n": 53,
+      "n_high": 12,
+      "avg_spread": 0.6016917505604167,
+      "avg_escape": 0.4053629175671991,
+      "avg_efficiency": 0.2535627966130157,
+      "high_spread": 0.5853350005767964,
+      "high_escape": 0.6117701816062132,
+      "high_efficiency": 0.38790114238324613
+    },
+    {
+      "era": "early_modern",
+      "n": 427,
+      "n_high": 116,
+      "avg_spread": 0.5730268158407307,
+      "avg_escape": 0.4460814065480958,
+      "avg_efficiency": 0.28314198716954025,
+      "high_spread": 0.5665410366708634,
+      "high_escape": 0.6048701974595415,
+      "high_efficiency": 0.3872050714333285
+    },
+    {
+      "era": "romantic",
+      "n": 1651,
+      "n_high": 407,
+      "avg_spread": 0.5990169319352714,
+      "avg_escape": 0.44522660022103955,
+      "avg_efficiency": 0.27769834447252795,
+      "high_spread": 0.5872943218766935,
+      "high_escape": 0.6106404417562836,
+      "high_efficiency": 0.3863342894366205
+    },
+    {
+      "era": "spoken_word",
+      "n": 150,
+      "n_high": 34,
+      "avg_spread": 0.5738888621299907,
+      "avg_escape": 0.39719974875450137,
+      "avg_efficiency": 0.2515710436447811,
+      "high_spread": 0.5924857259661057,
+      "high_escape": 0.6094497836687985,
+      "high_efficiency": 0.38440521040221093
+    },
+    {
+      "era": "ballad",
+      "n": 705,
+      "n_high": 164,
+      "avg_spread": 0.6109270876625786,
+      "avg_escape": 0.42142314055921337,
+      "avg_efficiency": 0.261829750129282,
+      "high_spread": 0.5977273823353929,
+      "high_escape": 0.6032395057107617,
+      "high_efficiency": 0.3795795358430598
+    },
+    {
+      "era": "victorian",
+      "n": 2512,
+      "n_high": 681,
+      "avg_spread": 0.5901658980950472,
+      "avg_escape": 0.4344260948116945,
+      "avg_efficiency": 0.2723821215990376,
+      "high_spread": 0.5805914726519499,
+      "high_escape": 0.5971217100862715,
+      "high_efficiency": 0.37902181741479435
+    },
+    {
+      "era": "language",
+      "n": 110,
+      "n_high": 31,
+      "avg_spread": 0.585083622236294,
+      "avg_escape": 0.43103715486147187,
+      "avg_efficiency": 0.27197459132282154,
+      "high_spread": 0.5933624279942351,
+      "high_escape": 0.5979646201575955,
+      "high_efficiency": 0.37854205200951435
+    },
+    {
+      "era": "metaphysical",
+      "n": 397,
+      "n_high": 97,
+      "avg_spread": 0.5926718765111229,
+      "avg_escape": 0.4393056571033199,
+      "avg_efficiency": 0.2748374998409664,
+      "high_spread": 0.5957518775464129,
+      "high_escape": 0.6005827311387996,
+      "high_efficiency": 0.3768417485507211
+    },
+    {
+      "era": "harlem_renaissance",
+      "n": 432,
+      "n_high": 100,
+      "avg_spread": 0.5868017180178912,
+      "avg_escape": 0.42772715148964413,
+      "avg_efficiency": 0.26885134763644164,
+      "high_spread": 0.585390988982386,
+      "high_escape": 0.5919680923223496,
+      "high_efficiency": 0.37483602437205477
+    },
+    {
+      "era": "fixed_form",
+      "n": 658,
+      "n_high": 144,
+      "avg_spread": 0.5877042086634562,
+      "avg_escape": 0.4022480811255681,
+      "avg_efficiency": 0.25279131643850083,
+      "high_spread": 0.5840502881850289,
+      "high_escape": 0.5866366319565309,
+      "high_efficiency": 0.3725668931471169
+    },
+    {
+      "era": "19th_century",
+      "n": 1119,
+      "n_high": 296,
+      "avg_spread": 0.5943106730906074,
+      "avg_escape": 0.42871517068152987,
+      "avg_efficiency": 0.268377498295032,
+      "high_spread": 0.5898588703999816,
+      "high_escape": 0.5897099863536455,
+      "high_efficiency": 0.3719916669046527
+    },
+    {
+      "era": "confessional",
+      "n": 299,
+      "n_high": 91,
+      "avg_spread": 0.5802915917070591,
+      "avg_escape": 0.4336836191523434,
+      "avg_efficiency": 0.2739885734137172,
+      "high_spread": 0.5742376272904349,
+      "high_escape": 0.5823659263141863,
+      "high_efficiency": 0.3716356572487859
+    },
+    {
+      "era": "18th_century",
+      "n": 261,
+      "n_high": 52,
+      "avg_spread": 0.5622093543055058,
+      "avg_escape": 0.3810293377016696,
+      "avg_efficiency": 0.24223348430348624,
+      "high_spread": 0.5710676045706257,
+      "high_escape": 0.5784124981325406,
+      "high_efficiency": 0.36897073547599823
+    },
+    {
+      "era": "new_york_school",
+      "n": 1134,
+      "n_high": 252,
+      "avg_spread": 0.5643996920197905,
+      "avg_escape": 0.39087884612972773,
+      "avg_efficiency": 0.24820179904808543,
+      "high_spread": 0.5688286413092041,
+      "high_escape": 0.5744840852206662,
+      "high_efficiency": 0.3669213021033156
+    },
+    {
+      "era": "korean_modernist",
+      "n": 77,
+      "n_high": 19,
+      "avg_spread": 0.584328033230543,
+      "avg_escape": 0.4136055514409945,
+      "avg_efficiency": 0.26071527054779037,
+      "high_spread": 0.5766075491208082,
+      "high_escape": 0.577082655931774,
+      "high_efficiency": 0.36684197765024096
+    },
+    {
+      "era": "concrete",
+      "n": 89,
+      "n_high": 13,
+      "avg_spread": 0.6549755946283092,
+      "avg_escape": 0.36530429124832153,
+      "avg_efficiency": 0.22311504168502594,
+      "high_spread": 0.6013146770322043,
+      "high_escape": 0.5761662297523938,
+      "high_efficiency": 0.36279584723571345
+    },
+    {
+      "era": "contemporary",
+      "n": 647,
+      "n_high": 161,
+      "avg_spread": 0.5804266404804203,
+      "avg_escape": 0.4013198450138617,
+      "avg_efficiency": 0.25277554925356116,
+      "high_spread": 0.5792305041517191,
+      "high_escape": 0.5675097318909923,
+      "high_efficiency": 0.35974159643387954
+    },
+    {
+      "era": "imagist",
+      "n": 184,
+      "n_high": 42,
+      "avg_spread": 0.5876511865059264,
+      "avg_escape": 0.39681898583860503,
+      "avg_efficiency": 0.2482876220512967,
+      "high_spread": 0.6035942907489483,
+      "high_escape": 0.5709636920974368,
+      "high_efficiency": 0.35660052495605515
+    },
+    {
+      "era": "biblical",
+      "n": 746,
+      "n_high": 157,
+      "avg_spread": 0.6004981750039795,
+      "avg_escape": 0.39165548659641364,
+      "avg_efficiency": 0.2441177148908245,
+      "high_spread": 0.5945048424773188,
+      "high_escape": 0.5651283121317815,
+      "high_efficiency": 0.3551402439982544
+    },
+    {
+      "era": "found_poetry",
+      "n": 733,
+      "n_high": 117,
+      "avg_spread": 0.6060734065450594,
+      "avg_escape": 0.37762579309663863,
+      "avg_efficiency": 0.234467351038198,
+      "high_spread": 0.5880376085547017,
+      "high_escape": 0.5602933932573367,
+      "high_efficiency": 0.35452401677859646
+    },
+    {
+      "era": "ancient",
+      "n": 66,
+      "n_high": 18,
+      "avg_spread": 0.5810185437978118,
+      "avg_escape": 0.4129120091145689,
+      "avg_efficiency": 0.2619045500509347,
+      "high_spread": 0.5758659310408948,
+      "high_escape": 0.5420583105749555,
+      "high_efficiency": 0.34785628797637813
+    },
+    {
+      "era": "latin_american",
+      "n": 264,
+      "n_high": 71,
+      "avg_spread": 0.5774882153786643,
+      "avg_escape": 0.3891742201239774,
+      "avg_efficiency": 0.24597224522717262,
+      "high_spread": 0.5678263197482472,
+      "high_escape": 0.5361733251894024,
+      "high_efficiency": 0.3415977670976863
+    },
+    {
+      "era": "nursery_rhyme",
+      "n": 181,
+      "n_high": 35,
+      "avg_spread": 0.5987645124683832,
+      "avg_escape": 0.39109490523680795,
+      "avg_efficiency": 0.24409348860808505,
+      "high_spread": 0.5615843227269158,
+      "high_escape": 0.5272607624530792,
+      "high_efficiency": 0.33741272554879936
+    },
+    {
+      "era": "cliche_control",
+      "n": 260,
+      "n_high": 45,
+      "avg_spread": 0.5837918958270079,
+      "avg_escape": 0.38797315006645827,
+      "avg_efficiency": 0.24359185925421037,
+      "high_spread": 0.5888107719585115,
+      "high_escape": 0.5356133768955866,
+      "high_efficiency": 0.33679628910285075
+    },
+    {
+      "era": "song_lyrics",
+      "n": 421,
+      "n_high": 72,
+      "avg_spread": 0.5906653920074743,
+      "avg_escape": 0.35683594237030825,
+      "avg_efficiency": 0.22376130244046324,
+      "high_spread": 0.5729454909347825,
+      "high_escape": 0.529459917296966,
+      "high_efficiency": 0.33658366812823814
+    },
+    {
+      "era": "prose_poetry",
+      "n": 745,
+      "n_high": 155,
+      "avg_spread": 0.5714742363389306,
+      "avg_escape": 0.3658565630848776,
+      "avg_efficiency": 0.23126047048340004,
+      "high_spread": 0.5819570335708425,
+      "high_escape": 0.5262466953646752,
+      "high_efficiency": 0.33242706253394216
+    },
+    {
+      "era": "black_arts",
+      "n": 116,
+      "n_high": 29,
+      "avg_spread": 0.5783207535286973,
+      "avg_escape": 0.3757167823355773,
+      "avg_efficiency": 0.23744100337619697,
+      "high_spread": 0.5756715346027835,
+      "high_escape": 0.5125181911320522,
+      "high_efficiency": 0.32564046975952426
+    },
+    {
+      "era": "german_modernist",
+      "n": 186,
+      "n_high": 62,
+      "avg_spread": 0.6916820769853614,
+      "avg_escape": 0.47040546276877004,
+      "avg_efficiency": 0.27786013716416263,
+      "high_spread": 0.6817293388982667,
+      "high_escape": 0.5428673437526149,
+      "high_efficiency": 0.32317413610059914
+    },
+    {
+      "era": "german_symbolist",
+      "n": 299,
+      "n_high": 84,
+      "avg_spread": 0.6845016933468162,
+      "avg_escape": 0.4726906016618512,
+      "avg_efficiency": 0.28042060091406856,
+      "high_spread": 0.686453245304249,
+      "high_escape": 0.5426026699798447,
+      "high_efficiency": 0.3220433576239636
+    },
+    {
+      "era": "german_expressionist",
+      "n": 237,
+      "n_high": 76,
+      "avg_spread": 0.6972722523974537,
+      "avg_escape": 0.4703041507473475,
+      "avg_efficiency": 0.2766521120006121,
+      "high_spread": 0.6977092510339811,
+      "high_escape": 0.5383904878246156,
+      "high_efficiency": 0.31687268408490166
+    }
+  ],
+  "author_rows": [
+    {
+      "author": "Edna St. Vincent Millay",
+      "n": 121,
+      "n_high": 19,
+      "high_efficiency": 0.4371517904824835,
+      "high_spread": 0.5281223393410269,
+      "high_escape": 0.6660101829390777
+    },
+    {
+      "author": "Seamus Heaney",
+      "n": 102,
+      "n_high": 32,
+      "high_efficiency": 0.4237177148106506,
+      "high_spread": 0.5640726375749283,
+      "high_escape": 0.6601056819781661
+    },
+    {
+      "author": "T.S. Eliot",
+      "n": 184,
+      "n_high": 50,
+      "high_efficiency": 0.41000682311229286,
+      "high_spread": 0.5624789023465581,
+      "high_escape": 0.6379439109563827
+    },
+    {
+      "author": "Allen Ginsberg",
+      "n": 127,
+      "n_high": 46,
+      "high_efficiency": 0.4029765681095413,
+      "high_spread": 0.6049678914482898,
+      "high_escape": 0.6427065522774406
+    },
+    {
+      "author": "Countee Cullen",
+      "n": 117,
+      "n_high": 34,
+      "high_efficiency": 0.4027433315627978,
+      "high_spread": 0.5635683424137776,
+      "high_escape": 0.6298933261457611
+    },
+    {
+      "author": "Gerard Manley Hopkins",
+      "n": 374,
+      "n_high": 126,
+      "high_efficiency": 0.4025312277452062,
+      "high_spread": 0.5883489745384907,
+      "high_escape": 0.6355970667468177
+    },
+    {
+      "author": "Carl Sandburg",
+      "n": 87,
+      "n_high": 21,
+      "high_efficiency": 0.40117018712403535,
+      "high_spread": 0.5629826034976061,
+      "high_escape": 0.6251153009278434
+    },
+    {
+      "author": "Hart Crane",
+      "n": 131,
+      "n_high": 49,
+      "high_efficiency": 0.39832680643764795,
+      "high_spread": 0.600517419206988,
+      "high_escape": 0.6320990228227207
+    },
+    {
+      "author": "Robert Burns",
+      "n": 194,
+      "n_high": 49,
+      "high_efficiency": 0.3970821433070625,
+      "high_spread": 0.6048942959565424,
+      "high_escape": 0.6336969264916011
+    },
+    {
+      "author": "W.B. Yeats",
+      "n": 249,
+      "n_high": 56,
+      "high_efficiency": 0.3938762091205693,
+      "high_spread": 0.5958807772313733,
+      "high_escape": 0.6257302359278712
+    },
+    {
+      "author": "Samuel Taylor Coleridge",
+      "n": 203,
+      "n_high": 53,
+      "high_efficiency": 0.39377453245461436,
+      "high_spread": 0.5864467031394661,
+      "high_escape": 0.619575170975811
+    },
+    {
+      "author": "William Blake",
+      "n": 456,
+      "n_high": 91,
+      "high_efficiency": 0.39179495873301007,
+      "high_spread": 0.5864495993897737,
+      "high_escape": 0.6181821957394317
+    },
+    {
+      "author": "Thomas Wyatt",
+      "n": 299,
+      "n_high": 91,
+      "high_efficiency": 0.38986011253682523,
+      "high_spread": 0.5628878686126771,
+      "high_escape": 0.6078762841093671
+    },
+    {
+      "author": "Traditional (English/Scottish ballad)",
+      "n": 105,
+      "n_high": 31,
+      "high_efficiency": 0.38964064943260934,
+      "high_spread": 0.5872552253012163,
+      "high_escape": 0.6130181409178241
+    },
+    {
+      "author": "John Milton",
+      "n": 127,
+      "n_high": 42,
+      "high_efficiency": 0.3876561230180175,
+      "high_spread": 0.5694045415818296,
+      "high_escape": 0.6070078235296976
+    },
+    {
+      "author": "Wallace Stevens",
+      "n": 188,
+      "n_high": 50,
+      "high_efficiency": 0.3870944231745106,
+      "high_spread": 0.5794269149435892,
+      "high_escape": 0.6087323412299156
+    },
+    {
+      "author": "John Keats",
+      "n": 328,
+      "n_high": 81,
+      "high_efficiency": 0.3849760317041503,
+      "high_spread": 0.5785123855621644,
+      "high_escape": 0.6058525294065475
+    },
+    {
+      "author": "George Herbert",
+      "n": 190,
+      "n_high": 48,
+      "high_efficiency": 0.384747572151438,
+      "high_spread": 0.5902969905054541,
+      "high_escape": 0.6108269620065888
+    },
+    {
+      "author": "E.E. Cummings",
+      "n": 135,
+      "n_high": 43,
+      "high_efficiency": 0.384278100694848,
+      "high_spread": 0.6044482804911852,
+      "high_escape": 0.6134241219869879
+    },
+    {
+      "author": "Emily Dickinson",
+      "n": 226,
+      "n_high": 68,
+      "high_efficiency": 0.3840454022616738,
+      "high_spread": 0.5820274516964465,
+      "high_escape": 0.605148304692086
+    },
+    {
+      "author": "Rudyard Kipling",
+      "n": 212,
+      "n_high": 53,
+      "high_efficiency": 0.3829515662245871,
+      "high_spread": 0.5722960281062801,
+      "high_escape": 0.5981296975657625
+    },
+    {
+      "author": "Robert Frost",
+      "n": 139,
+      "n_high": 35,
+      "high_efficiency": 0.3816667342194926,
+      "high_spread": 0.5501374898188643,
+      "high_escape": 0.5891839738403047
+    },
+    {
+      "author": "Percy Bysshe Shelley",
+      "n": 337,
+      "n_high": 96,
+      "high_efficiency": 0.3793030151450061,
+      "high_spread": 0.6041085798164002,
+      "high_escape": 0.6058027010100583
+    },
+    {
+      "author": "Alfred, Lord Tennyson",
+      "n": 508,
+      "n_high": 136,
+      "high_efficiency": 0.37754972536061415,
+      "high_spread": 0.5744383830756704,
+      "high_escape": 0.5917241912444725
+    },
+    {
+      "author": "Traditional (Scottish ballad)",
+      "n": 600,
+      "n_high": 133,
+      "high_efficiency": 0.3772344642545182,
+      "high_spread": 0.600168261042607,
+      "high_escape": 0.6009602749482134
+    },
+    {
+      "author": "Anonymous (KJV, found text)",
+      "n": 115,
+      "n_high": 23,
+      "high_efficiency": 0.3769976177700004,
+      "high_spread": 0.5940962019425947,
+      "high_escape": 0.5963931964791339
+    },
+    {
+      "author": "Thomas Hardy",
+      "n": 298,
+      "n_high": 96,
+      "high_efficiency": 0.37523101820184723,
+      "high_spread": 0.579820238712192,
+      "high_escape": 0.5906661031767726
+    },
+    {
+      "author": "William Ernest Henley",
+      "n": 195,
+      "n_high": 46,
+      "high_efficiency": 0.3721580988209191,
+      "high_spread": 0.5970989681010986,
+      "high_escape": 0.592826003289741
+    },
+    {
+      "author": "Wislawa Szymborska",
+      "n": 97,
+      "n_high": 24,
+      "high_efficiency": 0.3712752410276101,
+      "high_spread": 0.5965834560355655,
+      "high_escape": 0.5882348784555992
+    },
+    {
+      "author": "Walt Whitman",
+      "n": 306,
+      "n_high": 101,
+      "high_efficiency": 0.37124109066033945,
+      "high_spread": 0.5757486624428049,
+      "high_escape": 0.5842676435661788
+    },
+    {
+      "author": "William Shakespeare",
+      "n": 403,
+      "n_high": 80,
+      "high_efficiency": 0.3709056144223758,
+      "high_spread": 0.5946086462400852,
+      "high_escape": 0.5899140633642673
+    },
+    {
+      "author": "John Ashbery",
+      "n": 1011,
+      "n_high": 222,
+      "high_efficiency": 0.3701601897995886,
+      "high_spread": 0.5684904618436719,
+      "high_escape": 0.5790705571437741
+    },
+    {
+      "author": "Lucille Clifton",
+      "n": 193,
+      "n_high": 41,
+      "high_efficiency": 0.36960941228538613,
+      "high_spread": 0.595880872640143,
+      "high_escape": 0.5880416181029343
+    },
+    {
+      "author": "Christopher Smart",
+      "n": 261,
+      "n_high": 52,
+      "high_efficiency": 0.36897073547599823,
+      "high_spread": 0.5710676045706257,
+      "high_escape": 0.5784124981325406
+    },
+    {
+      "author": "Sylvia Plath",
+      "n": 101,
+      "n_high": 26,
+      "high_efficiency": 0.3685178921133871,
+      "high_spread": 0.5929995793053228,
+      "high_escape": 0.5864674013394576
+    },
+    {
+      "author": "Charles Darwin (found text)",
+      "n": 103,
+      "n_high": 21,
+      "high_efficiency": 0.3673225733811876,
+      "high_spread": 0.5797435811666585,
+      "high_escape": 0.5799371720779509
+    },
+    {
+      "author": "Claude McKay",
+      "n": 126,
+      "n_high": 33,
+      "high_efficiency": 0.36722555187539346,
+      "high_spread": 0.5914384950516801,
+      "high_escape": 0.5808538234595096
+    },
+    {
+      "author": "Edgar Allan Poe",
+      "n": 616,
+      "n_high": 134,
+      "high_efficiency": 0.3651818305498375,
+      "high_spread": 0.5944848520638016,
+      "high_escape": 0.5809000558150348
+    },
+    {
+      "author": "Felicia Hemans",
+      "n": 141,
+      "n_high": 29,
+      "high_efficiency": 0.363979262557594,
+      "high_spread": 0.5926182288234033,
+      "high_escape": 0.5770560806167537
+    },
+    {
+      "author": "Marianne Moore",
+      "n": 215,
+      "n_high": 80,
+      "high_efficiency": 0.36387085070804764,
+      "high_spread": 0.5975517343377901,
+      "high_escape": 0.579609208367765
+    },
+    {
+      "author": "John Donne",
+      "n": 133,
+      "n_high": 32,
+      "high_efficiency": 0.36382993391751595,
+      "high_spread": 0.5986715270568513,
+      "high_escape": 0.5818582787178457
+    },
+    {
+      "author": "Dante Gabriel Rossetti",
+      "n": 123,
+      "n_high": 30,
+      "high_efficiency": 0.3633842831486534,
+      "high_spread": 0.6044739053219007,
+      "high_escape": 0.5808893198768298
+    },
+    {
+      "author": "Philip Larkin",
+      "n": 81,
+      "n_high": 24,
+      "high_efficiency": 0.3588728761914892,
+      "high_spread": 0.5504929961464194,
+      "high_escape": 0.5570748032381138
+    },
+    {
+      "author": "Isaac Newton (found text)",
+      "n": 102,
+      "n_high": 24,
+      "high_efficiency": 0.3571230193161589,
+      "high_spread": 0.6075735738638927,
+      "high_escape": 0.5712490261842808
+    },
+    {
+      "author": "Amy Lowell",
+      "n": 184,
+      "n_high": 42,
+      "high_efficiency": 0.35660052495605515,
+      "high_spread": 0.6035942907489483,
+      "high_escape": 0.5709636920974368
+    },
+    {
+      "author": "Claudia Rankine",
+      "n": 125,
+      "n_high": 30,
+      "high_efficiency": 0.3553169311023068,
+      "high_spread": 0.6034731964380653,
+      "high_escape": 0.5704674005508423
+    },
+    {
+      "author": "Anonymous (Hebrew Bible)",
+      "n": 746,
+      "n_high": 157,
+      "high_efficiency": 0.3551402439982544,
+      "high_spread": 0.5945048424773188,
+      "high_escape": 0.5651283121317815
+    },
+    {
+      "author": "Langston Hughes",
+      "n": 189,
+      "n_high": 33,
+      "high_efficiency": 0.3536935137024962,
+      "high_spread": 0.6018274218019614,
+      "high_escape": 0.5640078778519775
+    },
+    {
+      "author": "Brewster Higley",
+      "n": 120,
+      "n_high": 27,
+      "high_efficiency": 0.35205530363824344,
+      "high_spread": 0.5842432870725055,
+      "high_escape": 0.5588857012766378
+    },
+    {
+      "author": "Matthew Arnold",
+      "n": 163,
+      "n_high": 38,
+      "high_efficiency": 0.3494699083387742,
+      "high_spread": 0.5747090167033742,
+      "high_escape": 0.5511492369206328
+    },
+    {
+      "author": "Russell Edson",
+      "n": 95,
+      "n_high": 28,
+      "high_efficiency": 0.34672290799016003,
+      "high_spread": 0.5550314973182385,
+      "high_escape": 0.537518035620451
+    },
+    {
+      "author": "Pablo Neruda (trans. W.S. Merwin)",
+      "n": 83,
+      "n_high": 21,
+      "high_efficiency": 0.3435354083980168,
+      "high_spread": 0.5682122093581018,
+      "high_escape": 0.5385030720915113
+    },
+    {
+      "author": "Anonymous (found text)",
+      "n": 299,
+      "n_high": 41,
+      "high_efficiency": 0.34345867604401104,
+      "high_spread": 0.584401175266682,
+      "high_escape": 0.5407766111013366
+    },
+    {
+      "author": "Frank O'Hara",
+      "n": 123,
+      "n_high": 30,
+      "high_efficiency": 0.3429535331508947,
+      "high_spread": 0.5713311693541429,
+      "high_escape": 0.5405441929896673
+    },
+    {
+      "author": "Christina Rossetti",
+      "n": 115,
+      "n_high": 28,
+      "high_efficiency": 0.3412011230310458,
+      "high_spread": 0.5620735599408074,
+      "high_escape": 0.5331600478717259
+    },
+    {
+      "author": "Walter de la Mare",
+      "n": 98,
+      "n_high": 22,
+      "high_efficiency": 0.3410144776318395,
+      "high_spread": 0.5812700651586056,
+      "high_escape": 0.539504820650274
+    },
+    {
+      "author": "Charles Baudelaire",
+      "n": 99,
+      "n_high": 26,
+      "high_efficiency": 0.3397947065708428,
+      "high_spread": 0.5804819272433082,
+      "high_escape": 0.5359889526779835
+    },
+    {
+      "author": "Mary Oliver",
+      "n": 156,
+      "n_high": 32,
+      "high_efficiency": 0.33878415417409374,
+      "high_spread": 0.5873714620299223,
+      "high_escape": 0.5395920099690557
+    },
+    {
+      "author": "Traditional (English)",
+      "n": 181,
+      "n_high": 35,
+      "high_efficiency": 0.33741272554879936,
+      "high_spread": 0.5615843227269158,
+      "high_escape": 0.5272607624530792
+    },
+    {
+      "author": "David Antin",
+      "n": 89,
+      "n_high": 14,
+      "high_efficiency": 0.33696138767318456,
+      "high_spread": 0.5802843883633614,
+      "high_escape": 0.5329961670296532
+    },
+    {
+      "author": "Traditional (American sea chanty)",
+      "n": 123,
+      "n_high": 19,
+      "high_efficiency": 0.33684848955874375,
+      "high_spread": 0.5795779419224164,
+      "high_escape": 0.5280859274299521
+    },
+    {
+      "author": "Synthetic (research test case)",
+      "n": 260,
+      "n_high": 45,
+      "high_efficiency": 0.33679628910285075,
+      "high_spread": 0.5888107719585115,
+      "high_escape": 0.5356133768955866
+    },
+    {
+      "author": "C\u00e9sar Vallejo (trans. Thomas Merton)",
+      "n": 119,
+      "n_high": 35,
+      "high_efficiency": 0.3363463832612645,
+      "high_spread": 0.5735565438298953,
+      "high_escape": 0.5304416937487466
+    },
+    {
+      "author": "Amiri Baraka (LeRoi Jones)",
+      "n": 116,
+      "n_high": 29,
+      "high_efficiency": 0.32564046975952426,
+      "high_spread": 0.5756715346027835,
+      "high_escape": 0.5125181911320522
+    },
+    {
+      "author": "Rainer Maria Rilke",
+      "n": 186,
+      "n_high": 62,
+      "high_efficiency": 0.32317413610059914,
+      "high_spread": 0.6817293388982667,
+      "high_escape": 0.5428673437526149
+    },
+    {
+      "author": "Stefan George",
+      "n": 299,
+      "n_high": 84,
+      "high_efficiency": 0.3220433576239636,
+      "high_spread": 0.686453245304249,
+      "high_escape": 0.5426026699798447
+    },
+    {
+      "author": "Traditional (American folk)",
+      "n": 178,
+      "n_high": 26,
+      "high_efficiency": 0.32032344636094023,
+      "high_spread": 0.5563663730700301,
+      "high_escape": 0.49990644191320127
+    },
+    {
+      "author": "Georg Trakl",
+      "n": 237,
+      "n_high": 76,
+      "high_efficiency": 0.31687268408490166,
+      "high_spread": 0.6977092510339811,
+      "high_escape": 0.5383904878246156
+    },
+    {
+      "author": "Rae Armantrout",
+      "n": 95,
+      "n_high": 18,
+      "high_efficiency": 0.3157651544365393,
+      "high_spread": 0.5842650573654676,
+      "high_escape": 0.5019122395250533
+    },
+    {
+      "author": "Thomas Jefferson (found text)",
+      "n": 114,
+      "n_high": 8,
+      "high_efficiency": 0.30522906649857084,
+      "high_spread": 0.5524197991316517,
+      "high_escape": 0.4720981493592262
+    },
+    {
+      "author": "Killarney Clary",
+      "n": 141,
+      "n_high": 23,
+      "high_efficiency": 0.299362466120532,
+      "high_spread": 0.6133909991901852,
+      "high_escape": 0.4851979665134264
+    }
+  ],
+  "top_straussian": [
+    {
+      "era": "language",
+      "author": "Bruce Andrews",
+      "title": "Islets/Irritations (excerpt)",
+      "token": "ermanent",
+      "s2": 4.9328,
+      "entropy": 11.7455,
+      "surprisal": 16.6783,
+      "cluster_spread": 0.41986821426285637,
+      "centroid_escape": 0.9591615423560143,
+      "top1_dist": 0.9794810712337494,
+      "escape_efficiency": 0.6755285685819622,
+      "top1_token": "."
+    },
+    {
+      "era": "early_modern",
+      "author": "Thomas Wyatt",
+      "title": "They Flee from Me",
+      "token": "leness",
+      "s2": 4.6551,
+      "entropy": 8.916,
+      "surprisal": 13.5711,
+      "cluster_spread": 0.3776818811893463,
+      "centroid_escape": 0.9230583012104034,
+      "top1_dist": 0.957546915858984,
+      "escape_efficiency": 0.6700083043942855,
+      "top1_token": " to"
+    },
+    {
+      "era": "spoken_word",
+      "author": "Lucille Clifton",
+      "title": "Homage to My Hips",
+      "token": " hips",
+      "s2": 4.5631,
+      "entropy": 11.895,
+      "surprisal": 16.4581,
+      "cluster_spread": 0.3995290054215325,
+      "centroid_escape": 0.9168549627065659,
+      "top1_dist": 0.9857596810907125,
+      "escape_efficiency": 0.655116799405249,
+      "top1_token": ","
+    },
+    {
+      "era": "new_york_school",
+      "author": "John Ashbery",
+      "title": "Self-Portrait in a Convex Mirror (opening)",
+      "token": " Parm",
+      "s2": 8.2765,
+      "entropy": 10.5794,
+      "surprisal": 18.8558,
+      "cluster_spread": 0.3890719883971744,
+      "centroid_escape": 0.900071769952774,
+      "top1_dist": 0.9490295574069023,
+      "escape_efficiency": 0.6479662519084781,
+      "top1_token": " the"
+    },
+    {
+      "era": "victorian",
+      "author": "William Shakespeare",
+      "title": "Sonnet 130 (My mistress' eyes)",
+      "token": " mistress",
+      "s2": 4.2265,
+      "entropy": 13.0056,
+      "surprisal": 17.2321,
+      "cluster_spread": 0.40482209126154584,
+      "centroid_escape": 0.9011514186859131,
+      "top1_dist": 0.9110238552093506,
+      "escape_efficiency": 0.6414701365328538,
+      "top1_token": "\n"
+    },
+    {
+      "era": "ballad",
+      "author": "Traditional (English/Scottish ballad)",
+      "title": "Barbara Allen",
+      "token": " Scarlet",
+      "s2": 6.4167,
+      "entropy": 11.43,
+      "surprisal": 17.8467,
+      "cluster_spread": 0.414893149667316,
+      "centroid_escape": 0.9042282178997993,
+      "top1_dist": 0.9405582845211029,
+      "escape_efficiency": 0.639078801188917,
+      "top1_token": " the"
+    },
+    {
+      "era": "victorian",
+      "author": "Alfred, Lord Tennyson",
+      "title": "Tears, Idle Tears",
+      "token": "ears",
+      "s2": 2.4047,
+      "entropy": 11.3908,
+      "surprisal": 13.7955,
+      "cluster_spread": 0.40842565960354277,
+      "centroid_escape": 0.8949869200587273,
+      "top1_dist": 0.9168082177639008,
+      "escape_efficiency": 0.635452012646984,
+      "top1_token": "."
+    },
+    {
+      "era": "new_york_school",
+      "author": "John Ashbery",
+      "title": "Self-Portrait in a Convex Mirror (closing)",
+      "token": " breeze",
+      "s2": 6.7641,
+      "entropy": 11.7253,
+      "surprisal": 18.4894,
+      "cluster_spread": 0.41986821426285637,
+      "centroid_escape": 0.8937176316976547,
+      "top1_dist": 0.9026259556412697,
+      "escape_efficiency": 0.6294370299441066,
+      "top1_token": "."
+    },
+    {
+      "era": "romantic",
+      "author": "Samuel Taylor Coleridge",
+      "title": "Kubla Khan (opening stanzas)",
+      "token": " Xan",
+      "s2": 6.2551,
+      "entropy": 11.43,
+      "surprisal": 17.6851,
+      "cluster_spread": 0.414893149667316,
+      "centroid_escape": 0.8891909122467041,
+      "top1_dist": 0.9348630309104919,
+      "escape_efficiency": 0.6284509275175865,
+      "top1_token": " the"
+    },
+    {
+      "era": "romantic",
+      "author": "Robert Burns",
+      "title": "To a Mouse (closing stanzas)",
+      "token": " Mous",
+      "s2": 9.9752,
+      "entropy": 9.8011,
+      "surprisal": 19.7763,
+      "cluster_spread": 0.41286903818448384,
+      "centroid_escape": 0.8878232389688492,
+      "top1_dist": 0.9300605654716492,
+      "escape_efficiency": 0.6283832506583124,
+      "top1_token": " the"
+    },
+    {
+      "era": "modernist",
+      "author": "Hart Crane",
+      "title": "The Harbor Dawn (from The Bridge)",
+      "token": " midway",
+      "s2": 15.318,
+      "entropy": 4.2464,
+      "surprisal": 19.5644,
+      "cluster_spread": 0.42282377547687955,
+      "centroid_escape": 0.8924150541424751,
+      "top1_dist": 0.926030308008194,
+      "escape_efficiency": 0.6272140440184657,
+      "top1_token": " to"
+    },
+    {
+      "era": "new_york_school",
+      "author": "John Ashbery",
+      "title": "Wet Casements",
+      "token": " Babylon",
+      "s2": 14.9081,
+      "entropy": 5.2104,
+      "surprisal": 20.1185,
+      "cluster_spread": 0.38061308595869275,
+      "centroid_escape": 0.8596592545509338,
+      "top1_dist": 0.89741300791502,
+      "escape_efficiency": 0.6226648604840578,
+      "top1_token": " in"
+    },
+    {
+      "era": "found_poetry",
+      "author": "Anonymous (found text)",
+      "title": "Terms and Conditions (Found Poem from generic legal prose)",
+      "token": " accessing",
+      "s2": 4.2375,
+      "entropy": 11.669,
+      "surprisal": 15.9064,
+      "cluster_spread": 0.4087878704071045,
+      "centroid_escape": 0.87489452958107,
+      "top1_dist": 0.8987756818532944,
+      "escape_efficiency": 0.6210264497296156,
+      "top1_token": " the"
+    },
+    {
+      "era": "romantic",
+      "author": "Robert Burns",
+      "title": "To a Mouse (closing stanzas)",
+      "token": " wi",
+      "s2": 4.1836,
+      "entropy": 7.1241,
+      "surprisal": 11.3077,
+      "cluster_spread": 0.3988871415456136,
+      "centroid_escape": 0.8676204979419708,
+      "top1_dist": 0.7536826431751251,
+      "escape_efficiency": 0.6202219408374483,
+      "top1_token": " with"
+    },
+    {
+      "era": "found_poetry",
+      "author": "Anonymous (KJV, found text)",
+      "title": "Vanity of Vanities (Found Poem from Ecclesiastes 1:2-8, KJV)",
+      "token": "anity",
+      "s2": 4.2774,
+      "entropy": 11.4925,
+      "surprisal": 15.7699,
+      "cluster_spread": 0.40413434439235263,
+      "centroid_escape": 0.8679576963186264,
+      "top1_dist": 0.8724890053272247,
+      "escape_efficiency": 0.6181443390975813,
+      "top1_token": "."
+    },
+    {
+      "era": "song_lyrics",
+      "author": "Traditional (American sea chanty)",
+      "title": "Oh Shenandoah",
+      "token": " Shen",
+      "s2": 6.9247,
+      "entropy": 10.6673,
+      "surprisal": 17.592,
+      "cluster_spread": 0.4055108408133189,
+      "centroid_escape": 0.8669533580541611,
+      "top1_dist": 0.9286565408110619,
+      "escape_efficiency": 0.6168243836187604,
+      "top1_token": ","
+    },
+    {
+      "era": "victorian",
+      "author": "Gerard Manley Hopkins",
+      "title": "Pied Beauty",
+      "token": " plotted",
+      "s2": 10.0101,
+      "entropy": 9.045,
+      "surprisal": 19.0552,
+      "cluster_spread": 0.41337972482045493,
+      "centroid_escape": 0.8711212128400803,
+      "top1_dist": 0.9460171088576317,
+      "escape_efficiency": 0.6163391178904458,
+      "top1_token": "-"
+    },
+    {
+      "era": "black_arts",
+      "author": "Amiri Baraka (LeRoi Jones)",
+      "title": "Preface to a Twenty Volume Suicide Note",
+      "token": "ately",
+      "s2": 2.2378,
+      "entropy": 11.6515,
+      "surprisal": 13.8893,
+      "cluster_spread": 0.41171519292725456,
+      "centroid_escape": 0.8637156784534454,
+      "top1_dist": 0.8997572660446167,
+      "escape_efficiency": 0.6118200631265378,
+      "top1_token": "."
+    },
+    {
+      "era": "language",
+      "author": "Lyn Hejinian",
+      "title": "My Life (excerpt)",
+      "token": " pause",
+      "s2": 5.0442,
+      "entropy": 11.7253,
+      "surprisal": 16.7695,
+      "cluster_spread": 0.41986821426285637,
+      "centroid_escape": 0.8674815446138382,
+      "top1_dist": 0.9172665923833847,
+      "escape_efficiency": 0.6109591974098827,
+      "top1_token": "."
+    },
+    {
+      "era": "victorian",
+      "author": "Alfred, Lord Tennyson",
+      "title": "The Lady of Shalott (Part I)",
+      "token": " winding",
+      "s2": 5.3189,
+      "entropy": 7.4423,
+      "surprisal": 12.7611,
+      "cluster_spread": 0.3992575685183207,
+      "centroid_escape": 0.8537213206291199,
+      "top1_dist": 0.9303247034549713,
+      "escape_efficiency": 0.6101244973312016,
+      "top1_token": ","
+    },
+    {
+      "era": "romantic",
+      "author": "Samuel Taylor Coleridge",
+      "title": "Kubla Khan (opening stanzas)",
+      "token": " decree",
+      "s2": 12.6615,
+      "entropy": 7.0941,
+      "surprisal": 19.7556,
+      "cluster_spread": 0.4081746134493086,
+      "centroid_escape": 0.8591470122337341,
+      "top1_dist": 0.918835885822773,
+      "escape_efficiency": 0.6101139759431274,
+      "top1_token": " in"
+    },
+    {
+      "era": "new_york_school",
+      "author": "John Ashbery",
+      "title": "Paradoxes and Oxymorons",
+      "token": " poem",
+      "s2": 4.8936,
+      "entropy": 11.3154,
+      "surprisal": 16.209,
+      "cluster_spread": 0.4150384724140167,
+      "centroid_escape": 0.859904870390892,
+      "top1_dist": 0.8301308006048203,
+      "escape_efficiency": 0.6076900997072665,
+      "top1_token": " is"
+    },
+    {
+      "era": "victorian",
+      "author": "Alfred, Lord Tennyson",
+      "title": "The Lady of Shalott (Part I)",
+      "token": " imb",
+      "s2": 12.0518,
+      "entropy": 7.0228,
+      "surprisal": 19.0746,
+      "cluster_spread": 0.43897083202997844,
+      "centroid_escape": 0.8723907470703125,
+      "top1_dist": 0.8913818895816803,
+      "escape_efficiency": 0.6062602018413517,
+      "top1_token": " of"
+    },
+    {
+      "era": "victorian",
+      "author": "Thomas Hardy",
+      "title": "The Oxen",
+      "token": " Eve",
+      "s2": 4.5245,
+      "entropy": 10.8117,
+      "surprisal": 15.3362,
+      "cluster_spread": 0.39189637303352354,
+      "centroid_escape": 0.8411446958780289,
+      "top1_dist": 0.89800975471735,
+      "escape_efficiency": 0.6043156029243925,
+      "top1_token": ","
+    },
+    {
+      "era": "victorian",
+      "author": "Thomas Hardy",
+      "title": "The Convergence of the Twain (excerpt)",
+      "token": " craw",
+      "s2": 4.9413,
+      "entropy": 8.3075,
+      "surprisal": 13.2488,
+      "cluster_spread": 0.39727061920695833,
+      "centroid_escape": 0.8434278070926666,
+      "top1_dist": 0.8057531416416168,
+      "escape_efficiency": 0.6036252358697463,
+      "top1_token": "'s"
+    },
+    {
+      "era": "fixed_form",
+      "author": "Rudyard Kipling",
+      "title": "Sestina of the Tramp-Royal (opening stanzas)",
+      "token": "akin",
+      "s2": 3.426,
+      "entropy": 11.4773,
+      "surprisal": 14.9033,
+      "cluster_spread": 0.4273094872633616,
+      "centroid_escape": 0.8612684309482574,
+      "top1_dist": 0.9146328344941139,
+      "escape_efficiency": 0.6034209389300721,
+      "top1_token": "."
+    },
+    {
+      "era": "contemporary",
+      "author": "Wislawa Szymborska",
+      "title": "Possibilities",
+      "token": " liking",
+      "s2": 16.6588,
+      "entropy": 2.4802,
+      "surprisal": 19.139,
+      "cluster_spread": 0.4368222713470459,
+      "centroid_escape": 0.8665990978479385,
+      "top1_dist": 0.8875478953123093,
+      "escape_efficiency": 0.6031359028388993,
+      "top1_token": " to"
+    },
+    {
+      "era": "modernist",
+      "author": "Vachel Lindsay",
+      "title": "The Congo (opening, sanitized excerpt)",
+      "token": " unstable",
+      "s2": 12.6819,
+      "entropy": 6.9266,
+      "surprisal": 19.6085,
+      "cluster_spread": 0.4349288172192044,
+      "centroid_escape": 0.8646907806396484,
+      "top1_dist": 0.8967501819133759,
+      "escape_efficiency": 0.6026018644711317,
+      "top1_token": " of"
+    },
+    {
+      "era": "ballad",
+      "author": "Traditional (Scottish ballad)",
+      "title": "Sir Patrick Spens",
+      "token": " wi",
+      "s2": 4.3617,
+      "entropy": 7.3645,
+      "surprisal": 11.7261,
+      "cluster_spread": 0.4191131426228417,
+      "centroid_escape": 0.8550696074962616,
+      "top1_dist": 0.8842848986387253,
+      "escape_efficiency": 0.6025380089961676,
+      "top1_token": " to"
+    },
+    {
+      "era": "new_york_school",
+      "author": "John Ashbery",
+      "title": "Self-Portrait in a Convex Mirror (closing)",
+      "token": " whispers",
+      "s2": 2.8669,
+      "entropy": 8.7771,
+      "surprisal": 11.6441,
+      "cluster_spread": 0.41092608438597783,
+      "centroid_escape": 0.8492449820041656,
+      "top1_dist": 0.9322324097156525,
+      "escape_efficiency": 0.6019060753092174,
+      "top1_token": " in"
+    }
+  ]
+}
