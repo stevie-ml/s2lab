@@ -1,0 +1,461 @@
+{
+  "corpus_mean": 0.23824129007666006,
+  "focus_mean": 2.0922322033898313,
+  "post_focus_mean": -0.5926776271186437,
+  "poetry_focus_mean": 2.106732413793104,
+  "control_focus_mean": 1.25122,
+  "poetry_post_focus_mean": -0.59371724137931,
+  "control_post_focus_mean": -0.5323800000000002,
+  "by_particle": {
+    "once": {
+      "mean_post_s2": -2.238166666666667,
+      "n": 6
+    },
+    "too": {
+      "mean_post_s2": -1.5352882352941175,
+      "n": 17
+    },
+    "just": {
+      "mean_post_s2": -0.028923529411764615,
+      "n": 17
+    },
+    "yet": {
+      "mean_post_s2": -0.5752900000000001,
+      "n": 20
+    },
+    "only": {
+      "mean_post_s2": -2.008325,
+      "n": 16
+    },
+    "such": {
+      "mean_post_s2": -1.4528333333333334,
+      "n": 9
+    },
+    "again": {
+      "mean_post_s2": -1.0414473684210528,
+      "n": 19
+    },
+    "so": {
+      "mean_post_s2": -0.4933513513513513,
+      "n": 37
+    },
+    "merely": {
+      "mean_post_s2": 3.146833333333333,
+      "n": 3
+    },
+    "never": {
+      "mean_post_s2": 0.35201428571428567,
+      "n": 21
+    },
+    "always": {
+      "mean_post_s2": -1.9310999999999998,
+      "n": 4
+    },
+    "very": {
+      "mean_post_s2": 1.102575,
+      "n": 4
+    },
+    "Only": {
+      "mean_post_s2": 3.2854428571428573,
+      "n": 7
+    },
+    "alone": {
+      "mean_post_s2": -1.567525,
+      "n": 8
+    },
+    "even": {
+      "mean_post_s2": -1.1882444444444442,
+      "n": 9
+    },
+    "So": {
+      "mean_post_s2": -0.6375294117647059,
+      "n": 17
+    },
+    "still": {
+      "mean_post_s2": -1.3307304347826088,
+      "n": 23
+    },
+    "both": {
+      "mean_post_s2": -0.6166599999999999,
+      "n": 5
+    },
+    "neither": {
+      "mean_post_s2": -1.76255,
+      "n": 4
+    },
+    "ever": {
+      "mean_post_s2": 0.2316999999999999,
+      "n": 12
+    },
+    "Yet": {
+      "mean_post_s2": 0.2696199999999999,
+      "n": 10
+    },
+    "Still": {
+      "mean_post_s2": -0.13026666666666653,
+      "n": 6
+    },
+    "also": {
+      "mean_post_s2": -1.8714399999999998,
+      "n": 5
+    },
+    "Even": {
+      "mean_post_s2": 0.023233333333333366,
+      "n": 3
+    }
+  },
+  "top_examples": [
+    {
+      "particle": "barely",
+      "post_token": "three",
+      "s2_particle": -0.6687,
+      "s2_post": 14.8785,
+      "author": "Traditional (Scottish ballad)",
+      "title": "The Wife of Usher's Well",
+      "era": "ballad"
+    },
+    {
+      "particle": "Only",
+      "post_token": "whale",
+      "s2_particle": 12.5807,
+      "s2_post": 13.9973,
+      "author": "Amy Lowell",
+      "title": "Patterns",
+      "era": "imagist"
+    },
+    {
+      "particle": "so",
+      "post_token": "floating",
+      "s2_particle": 7.6958,
+      "s2_post": 13.0637,
+      "author": "E.E. Cummings",
+      "title": "anyone lived in a pretty how town",
+      "era": "modernist"
+    },
+    {
+      "particle": "yet",
+      "post_token": "turning",
+      "s2_particle": 3.627,
+      "s2_post": 12.5337,
+      "author": "Christina Rossetti",
+      "title": "Remember",
+      "era": "victorian"
+    },
+    {
+      "particle": "just",
+      "post_token": "begun",
+      "s2_particle": 2.1642,
+      "s2_post": 11.0834,
+      "author": "Percy Bysshe Shelley",
+      "title": "To a Skylark (opening stanzas)",
+      "era": "romantic"
+    },
+    {
+      "particle": "just",
+      "post_token": "Our",
+      "s2_particle": 1.8802,
+      "s2_post": 10.2034,
+      "author": "Emily Dickinson",
+      "title": "Because I could not stop for Death",
+      "era": "19th_century"
+    },
+    {
+      "particle": "merely",
+      "post_token": "silence",
+      "s2_particle": 7.3031,
+      "s2_post": 10.0148,
+      "author": "John Ashbery",
+      "title": "The Painter",
+      "era": "new_york_school"
+    },
+    {
+      "particle": "ever",
+      "post_token": "sing",
+      "s2_particle": 5.5067,
+      "s2_post": 8.7343,
+      "author": "Percy Bysshe Shelley",
+      "title": "To a Skylark (opening stanzas)",
+      "era": "romantic"
+    },
+    {
+      "particle": "Yet",
+      "post_token": "beautiful",
+      "s2_particle": 0.1701,
+      "s2_post": 8.1488,
+      "author": "Felicia Hemans",
+      "title": "Casabianca",
+      "era": "victorian"
+    },
+    {
+      "particle": "again",
+      "post_token": "under",
+      "s2_particle": -2.1066,
+      "s2_post": 8.0827,
+      "author": "Pablo Neruda (trans. W.S. Merwin)",
+      "title": "Tonight I Can Write (excerpt)",
+      "era": "latin_american"
+    },
+    {
+      "particle": "ever",
+      "post_token": "sigh",
+      "s2_particle": -0.2512,
+      "s2_post": 7.7838,
+      "author": "George Herbert",
+      "title": "The Collar (opening)",
+      "era": "metaphysical"
+    },
+    {
+      "particle": "Still",
+      "post_token": "by",
+      "s2_particle": -4.1112,
+      "s2_post": 6.8533,
+      "author": "Oscar Wilde",
+      "title": "Theocritus: A Villanelle (opening quatrains)",
+      "era": "fixed_form"
+    },
+    {
+      "particle": "still",
+      "post_token": "y",
+      "s2_particle": 12.9117,
+      "s2_post": 6.0718,
+      "author": "Thomas Hardy",
+      "title": "The Convergence of the Twain (excerpt)",
+      "era": "victorian"
+    },
+    {
+      "particle": "Only",
+      "post_token": "re",
+      "s2_particle": 2.6735,
+      "s2_post": 5.857,
+      "author": "Alfred, Lord Tennyson",
+      "title": "The Lady of Shalott (Part I)",
+      "era": "victorian"
+    },
+    {
+      "particle": "So",
+      "post_token": "schl\u00e4ft",
+      "s2_particle": -1.6405,
+      "s2_post": 5.7663,
+      "author": "Stefan George",
+      "title": "Das Wort",
+      "era": "german_symbolist"
+    },
+    {
+      "particle": "just",
+      "post_token": "lik",
+      "s2_particle": 7.6277,
+      "s2_post": 5.6416,
+      "author": "E.E. Cummings",
+      "title": "Buffalo Bill 's",
+      "era": "modernist"
+    },
+    {
+      "particle": "So",
+      "post_token": "various",
+      "s2_particle": 22.744,
+      "s2_post": 5.5065,
+      "author": "Matthew Arnold",
+      "title": "Dover Beach (closing stanzas)",
+      "era": "victorian"
+    },
+    {
+      "particle": "never",
+      "post_token": "sleep",
+      "s2_particle": 2.1066,
+      "s2_post": 5.4555,
+      "author": "Synthetic (research test case)",
+      "title": "Life Is a Journey (synthetic clich\u00e9)",
+      "era": "cliche_control"
+    },
+    {
+      "particle": "Ever",
+      "post_token": "unre",
+      "s2_particle": 5.2698,
+      "s2_post": 5.4376,
+      "author": "Walt Whitman",
+      "title": "A Noiseless Patient Spider",
+      "era": "19th_century"
+    },
+    {
+      "particle": "so",
+      "post_token": "fter",
+      "s2_particle": -1.7999,
+      "s2_post": 5.2458,
+      "author": "Killarney Clary",
+      "title": "From 'Who Whispered Near Me' (excerpt)",
+      "era": "prose_poetry"
+    },
+    {
+      "particle": "still",
+      "post_token": "eyes",
+      "s2_particle": 5.6421,
+      "s2_post": 5.2356,
+      "author": "Pablo Neruda (trans. W.S. Merwin)",
+      "title": "Tonight I Can Write (excerpt)",
+      "era": "latin_american"
+    },
+    {
+      "particle": "only",
+      "post_token": "tou",
+      "s2_particle": 0.6663,
+      "s2_post": 4.7504,
+      "author": "Robert Burns",
+      "title": "To a Mouse (closing stanzas)",
+      "era": "romantic"
+    },
+    {
+      "particle": "So",
+      "post_token": "twice",
+      "s2_particle": -0.1906,
+      "s2_post": 4.7198,
+      "author": "Samuel Taylor Coleridge",
+      "title": "Kubla Khan (opening stanzas)",
+      "era": "romantic"
+    },
+    {
+      "particle": "So",
+      "post_token": "fair",
+      "s2_particle": 1.7759,
+      "s2_post": 4.6731,
+      "author": "Thomas Hardy",
+      "title": "The Oxen",
+      "era": "victorian"
+    },
+    {
+      "particle": "yet",
+      "post_token": "\u2014",
+      "s2_particle": -4.8294,
+      "s2_post": 4.6639,
+      "author": "Kobayashi Issa",
+      "title": "The World of Dew (Issa, translated)",
+      "era": "haiku"
+    },
+    {
+      "particle": "Even",
+      "post_token": "her",
+      "s2_particle": 22.9806,
+      "s2_post": 4.6275,
+      "author": "Ko Un (trans. Brother Anthony of Taiz\u00e9)",
+      "title": "From Ten Thousand Lives: Three Portraits",
+      "era": "korean_modernist"
+    },
+    {
+      "particle": "only",
+      "post_token": "emperor",
+      "s2_particle": -3.4618,
+      "s2_post": 4.4902,
+      "author": "Wallace Stevens",
+      "title": "The Emperor of Ice-Cream",
+      "era": "modernist"
+    },
+    {
+      "particle": "yet",
+      "post_token": "well",
+      "s2_particle": 0.0259,
+      "s2_post": 4.4894,
+      "author": "William Shakespeare",
+      "title": "Sonnet 130 (My mistress' eyes)",
+      "era": "victorian"
+    },
+    {
+      "particle": "never",
+      "post_token": "read",
+      "s2_particle": 2.2802,
+      "s2_post": 4.3352,
+      "author": "Robert Browning",
+      "title": "My Last Duchess (opening)",
+      "era": "victorian"
+    },
+    {
+      "particle": "so",
+      "post_token": "bal",
+      "s2_particle": -4.3116,
+      "s2_post": 4.2607,
+      "author": "Brewster Higley",
+      "title": "Home on the Range",
+      "era": "song_lyrics"
+    }
+  ],
+  "era_breakdown": {
+    "romantic": {
+      "mean": -0.34907307692307715,
+      "n": 26
+    },
+    "19th_century": {
+      "mean": -0.4196454545454543,
+      "n": 22
+    },
+    "modernist": {
+      "mean": 0.46295500000000017,
+      "n": 20
+    },
+    "confessional": {
+      "mean": -1.78405,
+      "n": 6
+    },
+    "new_york_school": {
+      "mean": -0.5992823529411765,
+      "n": 17
+    },
+    "contemporary": {
+      "mean": -2.6174125,
+      "n": 8
+    },
+    "harlem_renaissance": {
+      "mean": -0.7923125000000001,
+      "n": 8
+    },
+    "victorian": {
+      "mean": -0.5104849056603773,
+      "n": 53
+    },
+    "haiku": {
+      "mean": -1.746033333333333,
+      "n": 9
+    },
+    "prose_poetry": {
+      "mean": -0.9920190476190476,
+      "n": 21
+    },
+    "ballad": {
+      "mean": 1.9159714285714293,
+      "n": 7
+    },
+    "song_lyrics": {
+      "mean": -0.9994777777777778,
+      "n": 9
+    },
+    "metaphysical": {
+      "mean": -0.6146666666666666,
+      "n": 6
+    },
+    "early_modern": {
+      "mean": -1.0211625,
+      "n": 8
+    },
+    "found_poetry": {
+      "mean": -1.1821,
+      "n": 8
+    },
+    "fixed_form": {
+      "mean": -0.8714909090909092,
+      "n": 11
+    },
+    "cliche_control": {
+      "mean": -0.5323800000000002,
+      "n": 5
+    },
+    "biblical": {
+      "mean": -0.47779,
+      "n": 10
+    },
+    "latin_american": {
+      "mean": 0.4284272727272727,
+      "n": 11
+    },
+    "korean_modernist": {
+      "mean": -1.3110285714285712,
+      "n": 7
+    }
+  }
+}
