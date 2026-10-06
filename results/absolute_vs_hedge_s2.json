@@ -1,0 +1,1056 @@
+{
+  "baseline": {
+    "n": 21439,
+    "mean": -0.44,
+    "median": -1.23,
+    "stdev": 3.629,
+    "pct_pos": 33.6
+  },
+  "absolute": {
+    "n": 220,
+    "mean": 0.026,
+    "median": -0.541,
+    "stdev": 3.09,
+    "pct_pos": 43.2
+  },
+  "hedge": {
+    "n": 233,
+    "mean": -0.031,
+    "median": -0.483,
+    "stdev": 3.154,
+    "pct_pos": 41.2
+  },
+  "term_stats": {
+    "absolute": {
+      "all": {
+        "n": 72,
+        "mean": -0.738,
+        "median": -0.888,
+        "stdev": 2.298,
+        "pct_pos": 33.3
+      },
+      "no": {
+        "n": 56,
+        "mean": -0.5,
+        "median": -0.858,
+        "stdev": 3.181,
+        "pct_pos": 37.5
+      },
+      "never": {
+        "n": 22,
+        "mean": 0.09,
+        "median": -0.282,
+        "stdev": 3.116,
+        "pct_pos": 50.0
+      },
+      "every": {
+        "n": 17,
+        "mean": 0.307,
+        "median": -0.473,
+        "stdev": 2.815,
+        "pct_pos": 41.2
+      },
+      "nothing": {
+        "n": 17,
+        "mean": 0.93,
+        "median": 0.933,
+        "stdev": 3.774,
+        "pct_pos": 58.8
+      },
+      "whole": {
+        "n": 6,
+        "mean": -0.177,
+        "median": -1.318,
+        "stdev": 4.194,
+        "pct_pos": 16.7
+      },
+      "everything": {
+        "n": 4,
+        "mean": 0.227,
+        "median": 0.063,
+        "stdev": 3.103,
+        "pct_pos": 50.0
+      },
+      "immortal": {
+        "n": 4,
+        "mean": 0.913,
+        "median": 0.913,
+        "stdev": 3.149,
+        "pct_pos": 50.0
+      },
+      "always": {
+        "n": 3,
+        "mean": 0.665,
+        "median": -3.024,
+        "stdev": 6.507,
+        "pct_pos": 33.3
+      },
+      "perfect": {
+        "n": 3,
+        "mean": 1.1,
+        "median": 0.631,
+        "stdev": 3.179,
+        "pct_pos": 66.7
+      },
+      "everywhere": {
+        "n": 3,
+        "mean": 3.836,
+        "median": 3.557,
+        "stdev": 0.938,
+        "pct_pos": 100.0
+      }
+    },
+    "hedge": {
+      "as": {
+        "n": 101,
+        "mean": -0.692,
+        "median": -0.895,
+        "stdev": 2.624,
+        "pct_pos": 33.7
+      },
+      "like": {
+        "n": 41,
+        "mean": -0.3,
+        "median": -0.636,
+        "stdev": 2.507,
+        "pct_pos": 39.0
+      },
+      "though": {
+        "n": 21,
+        "mean": 0.735,
+        "median": 0.536,
+        "stdev": 2.055,
+        "pct_pos": 66.7
+      },
+      "would": {
+        "n": 17,
+        "mean": 0.236,
+        "median": -0.336,
+        "stdev": 2.877,
+        "pct_pos": 47.1
+      },
+      "could": {
+        "n": 12,
+        "mean": -0.45,
+        "median": -1.201,
+        "stdev": 3.658,
+        "pct_pos": 25.0
+      },
+      "should": {
+        "n": 11,
+        "mean": -1.964,
+        "median": -1.921,
+        "stdev": 1.383,
+        "pct_pos": 9.1
+      },
+      "seem": {
+        "n": 5,
+        "mean": 0.701,
+        "median": 0.406,
+        "stdev": 5.328,
+        "pct_pos": 60.0
+      },
+      "seems": {
+        "n": 4,
+        "mean": 2.341,
+        "median": 0.745,
+        "stdev": 3.942,
+        "pct_pos": 50.0
+      },
+      "probably": {
+        "n": 3,
+        "mean": 5.479,
+        "median": 1.361,
+        "stdev": 8.144,
+        "pct_pos": 100.0
+      },
+      "might": {
+        "n": 3,
+        "mean": 2.846,
+        "median": 4.62,
+        "stdev": 3.229,
+        "pct_pos": 66.7
+      },
+      "seldom": {
+        "n": 3,
+        "mean": 6.11,
+        "median": 10.211,
+        "stdev": 7.671,
+        "pct_pos": 66.7
+      }
+    }
+  },
+  "era_comparison": {
+    "19th_century": {
+      "absolute": {
+        "n": 23,
+        "mean": 1.146,
+        "median": 0.416,
+        "stdev": 3.014,
+        "pct_pos": 56.5
+      },
+      "hedge": {
+        "n": 11,
+        "mean": 3.009,
+        "median": 1.963,
+        "stdev": 5.224,
+        "pct_pos": 72.7
+      }
+    },
+    "ballad": {
+      "absolute": {
+        "n": 6,
+        "mean": -1.872,
+        "median": -1.744,
+        "stdev": 2.368,
+        "pct_pos": 33.3
+      },
+      "hedge": {
+        "n": 2,
+        "mean": 2.722,
+        "median": 2.722,
+        "stdev": 4.795,
+        "pct_pos": 50.0
+      }
+    },
+    "biblical": {
+      "absolute": {
+        "n": 9,
+        "mean": -0.607,
+        "median": -2.648,
+        "stdev": 3.839,
+        "pct_pos": 44.4
+      },
+      "hedge": {
+        "n": 11,
+        "mean": 1.196,
+        "median": 1.522,
+        "stdev": 2.214,
+        "pct_pos": 63.6
+      }
+    },
+    "cliche_control": {
+      "absolute": {
+        "n": 7,
+        "mean": 1.033,
+        "median": 0.171,
+        "stdev": 1.998,
+        "pct_pos": 57.1
+      },
+      "hedge": {
+        "n": 3,
+        "mean": 0.096,
+        "median": 0.692,
+        "stdev": 3.157,
+        "pct_pos": 66.7
+      }
+    },
+    "confessional": {
+      "absolute": {
+        "n": 5,
+        "mean": -1.746,
+        "median": -3.411,
+        "stdev": 3.893,
+        "pct_pos": 40.0
+      },
+      "hedge": {
+        "n": 6,
+        "mean": 0.241,
+        "median": 0.614,
+        "stdev": 5.04,
+        "pct_pos": 50.0
+      }
+    },
+    "contemporary": {
+      "absolute": {
+        "n": 9,
+        "mean": 1.155,
+        "median": -1.044,
+        "stdev": 4.323,
+        "pct_pos": 44.4
+      },
+      "hedge": {
+        "n": 2,
+        "mean": -0.387,
+        "median": -0.387,
+        "stdev": 3.713,
+        "pct_pos": 50.0
+      }
+    },
+    "early_modern": {
+      "absolute": {
+        "n": 5,
+        "mean": -0.123,
+        "median": 0.002,
+        "stdev": 2.771,
+        "pct_pos": 60.0
+      },
+      "hedge": {
+        "n": 11,
+        "mean": 0.126,
+        "median": -0.358,
+        "stdev": 2.705,
+        "pct_pos": 36.4
+      }
+    },
+    "fixed_form": {
+      "absolute": {
+        "n": 11,
+        "mean": -1.549,
+        "median": -1.958,
+        "stdev": 1.74,
+        "pct_pos": 18.2
+      },
+      "hedge": {
+        "n": 6,
+        "mean": -2.927,
+        "median": -3.41,
+        "stdev": 2.784,
+        "pct_pos": 16.7
+      }
+    },
+    "found_poetry": {
+      "absolute": {
+        "n": 5,
+        "mean": -0.667,
+        "median": -0.512,
+        "stdev": 2.545,
+        "pct_pos": 40.0
+      },
+      "hedge": {
+        "n": 11,
+        "mean": 0.183,
+        "median": -0.362,
+        "stdev": 2.738,
+        "pct_pos": 36.4
+      }
+    },
+    "haiku": {
+      "absolute": {
+        "n": 4,
+        "mean": -1.433,
+        "median": -1.676,
+        "stdev": 0.977,
+        "pct_pos": 0.0
+      },
+      "hedge": {
+        "n": 1,
+        "mean": -0.204,
+        "median": -0.204,
+        "stdev": 0.0,
+        "pct_pos": 0.0
+      }
+    },
+    "harlem_renaissance": {
+      "absolute": {
+        "n": 3,
+        "mean": 0.409,
+        "median": 1.871,
+        "stdev": 3.326,
+        "pct_pos": 66.7
+      },
+      "hedge": {
+        "n": 14,
+        "mean": 1.292,
+        "median": 1.53,
+        "stdev": 3.508,
+        "pct_pos": 64.3
+      }
+    },
+    "imagist": {
+      "absolute": {
+        "n": 2,
+        "mean": -0.57,
+        "median": -0.57,
+        "stdev": 1.279,
+        "pct_pos": 50.0
+      },
+      "hedge": {
+        "n": 3,
+        "mean": 0.693,
+        "median": 0.901,
+        "stdev": 2.041,
+        "pct_pos": 66.7
+      }
+    },
+    "latin_american": {
+      "absolute": {
+        "n": 6,
+        "mean": 2.315,
+        "median": 2.096,
+        "stdev": 2.449,
+        "pct_pos": 83.3
+      },
+      "hedge": {
+        "n": 5,
+        "mean": -0.721,
+        "median": -1.804,
+        "stdev": 2.784,
+        "pct_pos": 40.0
+      }
+    },
+    "metaphysical": {
+      "absolute": {
+        "n": 5,
+        "mean": -2.268,
+        "median": -1.774,
+        "stdev": 1.334,
+        "pct_pos": 0.0
+      },
+      "hedge": {
+        "n": 11,
+        "mean": -0.432,
+        "median": 0.009,
+        "stdev": 2.561,
+        "pct_pos": 54.5
+      }
+    },
+    "mid_century": {
+      "absolute": {
+        "n": 3,
+        "mean": 0.467,
+        "median": 0.467,
+        "stdev": 2.413,
+        "pct_pos": 66.7
+      },
+      "hedge": {
+        "n": 1,
+        "mean": 0.406,
+        "median": 0.406,
+        "stdev": 0.0,
+        "pct_pos": 100.0
+      }
+    },
+    "modernist": {
+      "absolute": {
+        "n": 19,
+        "mean": 0.555,
+        "median": 0.019,
+        "stdev": 2.667,
+        "pct_pos": 52.6
+      },
+      "hedge": {
+        "n": 27,
+        "mean": -0.303,
+        "median": -0.859,
+        "stdev": 3.214,
+        "pct_pos": 40.7
+      }
+    },
+    "new_york_school": {
+      "absolute": {
+        "n": 18,
+        "mean": -0.107,
+        "median": -0.623,
+        "stdev": 2.893,
+        "pct_pos": 38.9
+      },
+      "hedge": {
+        "n": 18,
+        "mean": -0.223,
+        "median": -1.267,
+        "stdev": 2.989,
+        "pct_pos": 38.9
+      }
+    },
+    "nursery_rhyme": {
+      "absolute": {
+        "n": 4,
+        "mean": 3.074,
+        "median": 3.214,
+        "stdev": 6.106,
+        "pct_pos": 75.0
+      },
+      "hedge": {
+        "n": 3,
+        "mean": 1.251,
+        "median": 1.754,
+        "stdev": 1.342,
+        "pct_pos": 66.7
+      }
+    },
+    "prose_poetry": {
+      "absolute": {
+        "n": 4,
+        "mean": 0.536,
+        "median": -0.117,
+        "stdev": 4.554,
+        "pct_pos": 50.0
+      },
+      "hedge": {
+        "n": 6,
+        "mean": 0.947,
+        "median": 0.378,
+        "stdev": 2.446,
+        "pct_pos": 50.0
+      }
+    },
+    "romantic": {
+      "absolute": {
+        "n": 25,
+        "mean": -0.588,
+        "median": -0.857,
+        "stdev": 2.553,
+        "pct_pos": 32.0
+      },
+      "hedge": {
+        "n": 23,
+        "mean": -0.678,
+        "median": -0.336,
+        "stdev": 1.734,
+        "pct_pos": 34.8
+      }
+    },
+    "song_lyrics": {
+      "absolute": {
+        "n": 8,
+        "mean": 1.323,
+        "median": 1.496,
+        "stdev": 3.144,
+        "pct_pos": 62.5
+      },
+      "hedge": {
+        "n": 8,
+        "mean": 1.582,
+        "median": -0.683,
+        "stdev": 5.777,
+        "pct_pos": 50.0
+      }
+    },
+    "victorian": {
+      "absolute": {
+        "n": 32,
+        "mean": -0.511,
+        "median": -1.281,
+        "stdev": 3.079,
+        "pct_pos": 31.2
+      },
+      "hedge": {
+        "n": 43,
+        "mean": -1.427,
+        "median": -1.321,
+        "stdev": 1.85,
+        "pct_pos": 16.3
+      }
+    }
+  },
+  "author_comparison": {
+    "Alfred, Lord Tennyson": {
+      "absolute": {
+        "n": 8,
+        "mean": -1.428,
+        "median": -1.707,
+        "stdev": 2.094,
+        "pct_pos": 25.0
+      },
+      "hedge": {
+        "n": 10,
+        "mean": -2.364,
+        "median": -1.835,
+        "stdev": 1.373,
+        "pct_pos": 0.0
+      },
+      "abs_count": 8,
+      "hedge_count": 10,
+      "abs_ratio": 0.444
+    },
+    "Anonymous (Hebrew Bible)": {
+      "absolute": {
+        "n": 9,
+        "mean": -0.607,
+        "median": -2.648,
+        "stdev": 3.839,
+        "pct_pos": 44.4
+      },
+      "hedge": {
+        "n": 11,
+        "mean": 1.196,
+        "median": 1.522,
+        "stdev": 2.214,
+        "pct_pos": 63.6
+      },
+      "abs_count": 9,
+      "hedge_count": 11,
+      "abs_ratio": 0.45
+    },
+    "Edgar Allan Poe": {
+      "absolute": {
+        "n": 14,
+        "mean": 1.482,
+        "median": 0.661,
+        "stdev": 3.364,
+        "pct_pos": 71.4
+      },
+      "hedge": {
+        "n": 4,
+        "mean": 3.987,
+        "median": 2.107,
+        "stdev": 4.626,
+        "pct_pos": 100.0
+      },
+      "abs_count": 14,
+      "hedge_count": 4,
+      "abs_ratio": 0.778
+    },
+    "Emily Dickinson": {
+      "absolute": {
+        "n": 4,
+        "mean": 1.091,
+        "median": -0.443,
+        "stdev": 3.404,
+        "pct_pos": 25.0
+      },
+      "hedge": {
+        "n": 6,
+        "mean": 2.37,
+        "median": -0.18,
+        "stdev": 6.362,
+        "pct_pos": 50.0
+      },
+      "abs_count": 4,
+      "hedge_count": 6,
+      "abs_ratio": 0.4
+    },
+    "Gerard Manley Hopkins": {
+      "absolute": {
+        "n": 5,
+        "mean": -1.635,
+        "median": -1.826,
+        "stdev": 1.774,
+        "pct_pos": 20.0
+      },
+      "hedge": {
+        "n": 5,
+        "mean": -2.1,
+        "median": -2.007,
+        "stdev": 1.075,
+        "pct_pos": 0.0
+      },
+      "abs_count": 5,
+      "hedge_count": 5,
+      "abs_ratio": 0.5
+    },
+    "John Ashbery": {
+      "absolute": {
+        "n": 18,
+        "mean": -0.107,
+        "median": -0.623,
+        "stdev": 2.893,
+        "pct_pos": 38.9
+      },
+      "hedge": {
+        "n": 16,
+        "mean": -0.242,
+        "median": -1.267,
+        "stdev": 3.14,
+        "pct_pos": 37.5
+      },
+      "abs_count": 18,
+      "hedge_count": 16,
+      "abs_ratio": 0.529
+    },
+    "John Keats": {
+      "absolute": {
+        "n": 5,
+        "mean": -0.569,
+        "median": -0.782,
+        "stdev": 2.118,
+        "pct_pos": 40.0
+      },
+      "hedge": {
+        "n": 5,
+        "mean": -0.083,
+        "median": -1.355,
+        "stdev": 2.174,
+        "pct_pos": 40.0
+      },
+      "abs_count": 5,
+      "hedge_count": 5,
+      "abs_ratio": 0.5
+    },
+    "Robert Frost": {
+      "absolute": {
+        "n": 2,
+        "mean": 2.086,
+        "median": 2.086,
+        "stdev": 2.773,
+        "pct_pos": 100.0
+      },
+      "hedge": {
+        "n": 9,
+        "mean": -0.922,
+        "median": -0.88,
+        "stdev": 2.231,
+        "pct_pos": 22.2
+      },
+      "abs_count": 2,
+      "hedge_count": 9,
+      "abs_ratio": 0.182
+    },
+    "Synthetic (research test case)": {
+      "absolute": {
+        "n": 7,
+        "mean": 1.033,
+        "median": 0.171,
+        "stdev": 1.998,
+        "pct_pos": 57.1
+      },
+      "hedge": {
+        "n": 3,
+        "mean": 0.096,
+        "median": 0.692,
+        "stdev": 3.157,
+        "pct_pos": 66.7
+      },
+      "abs_count": 7,
+      "hedge_count": 3,
+      "abs_ratio": 0.7
+    },
+    "Thomas Wyatt": {
+      "absolute": {
+        "n": 4,
+        "mean": -1.115,
+        "median": -0.637,
+        "stdev": 1.918,
+        "pct_pos": 50.0
+      },
+      "hedge": {
+        "n": 8,
+        "mean": -0.24,
+        "median": -0.539,
+        "stdev": 2.313,
+        "pct_pos": 25.0
+      },
+      "abs_count": 4,
+      "hedge_count": 8,
+      "abs_ratio": 0.333
+    },
+    "William Blake": {
+      "absolute": {
+        "n": 14,
+        "mean": -1.611,
+        "median": -1.517,
+        "stdev": 2.148,
+        "pct_pos": 14.3
+      },
+      "hedge": {
+        "n": 3,
+        "mean": -1.053,
+        "median": -0.665,
+        "stdev": 0.971,
+        "pct_pos": 0.0
+      },
+      "abs_count": 14,
+      "hedge_count": 3,
+      "abs_ratio": 0.824
+    },
+    "William Shakespeare": {
+      "absolute": {
+        "n": 10,
+        "mean": -0.244,
+        "median": -1.137,
+        "stdev": 2.273,
+        "pct_pos": 40.0
+      },
+      "hedge": {
+        "n": 6,
+        "mean": -1.578,
+        "median": -1.492,
+        "stdev": 2.441,
+        "pct_pos": 16.7
+      },
+      "abs_count": 10,
+      "hedge_count": 6,
+      "abs_ratio": 0.625
+    }
+  },
+  "top_absolute_predictions": [
+    [
+      "the",
+      47
+    ],
+    [
+      ",",
+      16
+    ],
+    [
+      "no",
+      14
+    ],
+    [
+      "a",
+      12
+    ],
+    [
+      "all",
+      11
+    ],
+    [
+      "i",
+      10
+    ],
+    [
+      "not",
+      7
+    ],
+    [
+      "and",
+      6
+    ],
+    [
+      "that",
+      4
+    ],
+    [
+      "every",
+      4
+    ],
+    [
+      "be",
+      4
+    ],
+    [
+      "nothing",
+      3
+    ],
+    [
+      "is",
+      3
+    ],
+    [
+      "to",
+      3
+    ],
+    [
+      "my",
+      3
+    ]
+  ],
+  "top_hedge_predictions": [
+    [
+      "and",
+      27
+    ],
+    [
+      "as",
+      26
+    ],
+    [
+      ",",
+      20
+    ],
+    [
+      "the",
+      11
+    ],
+    [
+      "i",
+      9
+    ],
+    [
+      "like",
+      8
+    ],
+    [
+      "is",
+      6
+    ],
+    [
+      "in",
+      6
+    ],
+    [
+      "was",
+      4
+    ],
+    [
+      "of",
+      4
+    ],
+    [
+      "could",
+      4
+    ],
+    [
+      ".",
+      4
+    ],
+    [
+      "would",
+      4
+    ],
+    [
+      "a",
+      4
+    ],
+    [
+      "or",
+      3
+    ]
+  ],
+  "top_deviations_absolute": [
+    {
+      "token": "no",
+      "s2": 11.73,
+      "deviation": 11.78,
+      "poem": "Remember",
+      "author": "Christina Rossetti",
+      "top_pred": "i"
+    },
+    {
+      "token": "nothing",
+      "s2": 10.22,
+      "deviation": 11.04,
+      "poem": "Nursery Rhymes (compilation)",
+      "author": "Traditional (English)",
+      "top_pred": "is"
+    },
+    {
+      "token": "never",
+      "s2": 9.18,
+      "deviation": 9.92,
+      "poem": "The Raven (opening stanzas)",
+      "author": "Edgar Allan Poe",
+      "top_pred": "\u2014"
+    },
+    {
+      "token": "no",
+      "s2": 7.77,
+      "deviation": 8.52,
+      "poem": "Night Sky with Exit Wounds (excerpt)",
+      "author": "Ocean Vuong",
+      "top_pred": ""
+    },
+    {
+      "token": "always",
+      "s2": 8.18,
+      "deviation": 8.43,
+      "poem": "Aubade (opening)",
+      "author": "Philip Larkin",
+      "top_pred": "going"
+    },
+    {
+      "token": "certainly",
+      "s2": 7.11,
+      "deviation": 7.92,
+      "poem": "And Ut Pictura Poesis Is Her Name",
+      "author": "John Ashbery",
+      "top_pred": ""
+    },
+    {
+      "token": "utterly",
+      "s2": 6.95,
+      "deviation": 7.61,
+      "poem": "Isaiah 40:28-31 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "top_pred": "be"
+    },
+    {
+      "token": "whole",
+      "s2": 8.11,
+      "deviation": 7.57,
+      "poem": "A Supermarket in California",
+      "author": "Allen Ginsberg",
+      "top_pred": ""
+    },
+    {
+      "token": "nothing",
+      "s2": 6.35,
+      "deviation": 6.99,
+      "poem": "Crossing (excerpt)",
+      "author": "Rae Armantrout",
+      "top_pred": "they"
+    },
+    {
+      "token": "everybody",
+      "s2": 5.76,
+      "deviation": 6.72,
+      "poem": "Frankie and Johnny (opening stanzas)",
+      "author": "Traditional (American folk)",
+      "top_pred": "she"
+    }
+  ],
+  "top_deviations_hedge": [
+    {
+      "token": "probably",
+      "s2": 14.86,
+      "deviation": 14.93,
+      "poem": "A Route of Evanescence",
+      "author": "Emily Dickinson",
+      "top_pred": ""
+    },
+    {
+      "token": "somewhat",
+      "s2": 10.87,
+      "deviation": 11.61,
+      "poem": "The Raven (opening stanzas)",
+      "author": "Edgar Allan Poe",
+      "top_pred": ","
+    },
+    {
+      "token": "seldom",
+      "s2": 10.86,
+      "deviation": 11.49,
+      "poem": "Home on the Range",
+      "author": "Brewster Higley",
+      "top_pred": "the"
+    },
+    {
+      "token": "seldom",
+      "s2": 10.21,
+      "deviation": 10.84,
+      "poem": "Home on the Range",
+      "author": "Brewster Higley",
+      "top_pred": "the"
+    },
+    {
+      "token": "as",
+      "s2": 9.91,
+      "deviation": 10.28,
+      "poem": "For I Will Consider My Cat Jeoffry (excerpt)",
+      "author": "Christopher Smart",
+      "top_pred": "es"
+    },
+    {
+      "token": "could",
+      "s2": 10.04,
+      "deviation": 10.23,
+      "poem": "Yet Do I Marvel",
+      "author": "Countee Cullen",
+      "top_pred": "with"
+    },
+    {
+      "token": "seem",
+      "s2": 8.38,
+      "deviation": 9.3,
+      "poem": "The Emperor of Ice-Cream",
+      "author": "Wallace Stevens",
+      "top_pred": "the"
+    },
+    {
+      "token": "seems",
+      "s2": 8.1,
+      "deviation": 9.15,
+      "poem": "The One Thing That Can Save America",
+      "author": "John Ashbery",
+      "top_pred": "one"
+    },
+    {
+      "token": "would",
+      "s2": 6.9,
+      "deviation": 7.27,
+      "poem": "The Truth the Dead Know (excerpt)",
+      "author": "Anne Sexton",
+      "top_pred": "."
+    },
+    {
+      "token": "as",
+      "s2": 5.73,
+      "deviation": 6.36,
+      "poem": "Scientific Method (Found Poem from Newton's Opticks, 1704)",
+      "author": "Isaac Newton (found text)",
+      "top_pred": "to"
+    }
+  ],
+  "n_poems": 197
+}
