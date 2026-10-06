@@ -1,0 +1,471 @@
+{
+  "n_poems": 187,
+  "n_poetry": 185,
+  "n_prose": 2,
+  "corpus_thirds": {
+    "first": {
+      "mean_dist": 0.7406,
+      "mean_s2": 0.3082
+    },
+    "middle": {
+      "mean_dist": 0.7399,
+      "mean_s2": -0.1507
+    },
+    "last": {
+      "mean_dist": 0.7349,
+      "mean_s2": -0.2259
+    }
+  },
+  "mean_arc_dist": -0.0057,
+  "mean_arc_s2": -0.5341,
+  "pct_dist_increase": 40.0,
+  "pct_s2_increase": 32.4,
+  "r_arc_dist_arc_s2": 0.1091,
+  "era_rows": [
+    {
+      "era": "new_york_school",
+      "n": 18,
+      "dist_first": 0.7258,
+      "dist_last": 0.6991,
+      "arc_dist": -0.0268,
+      "arc_s2": -0.7434,
+      "pct_dist_increase": 33.3
+    },
+    {
+      "era": "metaphysical",
+      "n": 4,
+      "dist_first": 0.7546,
+      "dist_last": 0.7305,
+      "arc_dist": -0.024,
+      "arc_s2": -0.7067,
+      "pct_dist_increase": 25.0
+    },
+    {
+      "era": "19th_century",
+      "n": 10,
+      "dist_first": 0.7597,
+      "dist_last": 0.7361,
+      "arc_dist": -0.0236,
+      "arc_s2": -0.6954,
+      "pct_dist_increase": 20.0
+    },
+    {
+      "era": "biblical",
+      "n": 7,
+      "dist_first": 0.7477,
+      "dist_last": 0.728,
+      "arc_dist": -0.0198,
+      "arc_s2": -0.2729,
+      "pct_dist_increase": 14.3
+    },
+    {
+      "era": "language",
+      "n": 3,
+      "dist_first": 0.7453,
+      "dist_last": 0.7296,
+      "arc_dist": -0.0157,
+      "arc_s2": -0.7807,
+      "pct_dist_increase": 33.3
+    },
+    {
+      "era": "song_lyrics",
+      "n": 3,
+      "dist_first": 0.7333,
+      "dist_last": 0.7176,
+      "arc_dist": -0.0157,
+      "arc_s2": 0.2272,
+      "pct_dist_increase": 33.3
+    },
+    {
+      "era": "german_symbolist",
+      "n": 3,
+      "dist_first": 0.7587,
+      "dist_last": 0.7432,
+      "arc_dist": -0.0155,
+      "arc_s2": -0.6041,
+      "pct_dist_increase": 33.3
+    },
+    {
+      "era": "cliche_control",
+      "n": 3,
+      "dist_first": 0.7294,
+      "dist_last": 0.7176,
+      "arc_dist": -0.0117,
+      "arc_s2": -0.1866,
+      "pct_dist_increase": 0.0
+    },
+    {
+      "era": "modernist",
+      "n": 18,
+      "dist_first": 0.7356,
+      "dist_last": 0.7257,
+      "arc_dist": -0.01,
+      "arc_s2": -0.8075,
+      "pct_dist_increase": 33.3
+    },
+    {
+      "era": "fixed_form",
+      "n": 8,
+      "dist_first": 0.755,
+      "dist_last": 0.7451,
+      "arc_dist": -0.0099,
+      "arc_s2": -0.9343,
+      "pct_dist_increase": 12.5
+    },
+    {
+      "era": "mid_century",
+      "n": 2,
+      "dist_first": 0.7467,
+      "dist_last": 0.737,
+      "arc_dist": -0.0097,
+      "arc_s2": 0.625,
+      "pct_dist_increase": 50.0
+    },
+    {
+      "era": "spoken_word",
+      "n": 2,
+      "dist_first": 0.7428,
+      "dist_last": 0.7347,
+      "arc_dist": -0.008,
+      "arc_s2": -0.2375,
+      "pct_dist_increase": 0.0
+    },
+    {
+      "era": "prose_poetry",
+      "n": 9,
+      "dist_first": 0.7099,
+      "dist_last": 0.7041,
+      "arc_dist": -0.0058,
+      "arc_s2": 0.0251,
+      "pct_dist_increase": 44.4
+    },
+    {
+      "era": "beat",
+      "n": 2,
+      "dist_first": 0.7327,
+      "dist_last": 0.728,
+      "arc_dist": -0.0047,
+      "arc_s2": -0.7008,
+      "pct_dist_increase": 50.0
+    },
+    {
+      "era": "found_poetry",
+      "n": 7,
+      "dist_first": 0.7603,
+      "dist_last": 0.7581,
+      "arc_dist": -0.0022,
+      "arc_s2": 0.3834,
+      "pct_dist_increase": 14.3
+    },
+    {
+      "era": "early_modern",
+      "n": 4,
+      "dist_first": 0.7301,
+      "dist_last": 0.7282,
+      "arc_dist": -0.0019,
+      "arc_s2": -0.0189,
+      "pct_dist_increase": 50.0
+    },
+    {
+      "era": "romantic",
+      "n": 15,
+      "dist_first": 0.7579,
+      "dist_last": 0.7576,
+      "arc_dist": -0.0003,
+      "arc_s2": -0.5391,
+      "pct_dist_increase": 53.3
+    },
+    {
+      "era": "ballad",
+      "n": 6,
+      "dist_first": 0.7506,
+      "dist_last": 0.7506,
+      "arc_dist": -0.0,
+      "arc_s2": -1.3649,
+      "pct_dist_increase": 50.0
+    },
+    {
+      "era": "latin_american",
+      "n": 3,
+      "dist_first": 0.7227,
+      "dist_last": 0.7227,
+      "arc_dist": -0.0,
+      "arc_s2": -0.4047,
+      "pct_dist_increase": 33.3
+    },
+    {
+      "era": "victorian",
+      "n": 21,
+      "dist_first": 0.7448,
+      "dist_last": 0.7455,
+      "arc_dist": 0.0008,
+      "arc_s2": -0.206,
+      "pct_dist_increase": 61.9
+    },
+    {
+      "era": "contemporary",
+      "n": 9,
+      "dist_first": 0.7283,
+      "dist_last": 0.7313,
+      "arc_dist": 0.0029,
+      "arc_s2": -0.6025,
+      "pct_dist_increase": 55.6
+    },
+    {
+      "era": "harlem_renaissance",
+      "n": 5,
+      "dist_first": 0.7347,
+      "dist_last": 0.7387,
+      "arc_dist": 0.004,
+      "arc_s2": -1.0929,
+      "pct_dist_increase": 60.0
+    },
+    {
+      "era": "german_expressionist",
+      "n": 2,
+      "dist_first": 0.765,
+      "dist_last": 0.7823,
+      "arc_dist": 0.0172,
+      "arc_s2": -1.4024,
+      "pct_dist_increase": 100.0
+    },
+    {
+      "era": "confessional",
+      "n": 6,
+      "dist_first": 0.7255,
+      "dist_last": 0.7455,
+      "arc_dist": 0.02,
+      "arc_s2": 0.4188,
+      "pct_dist_increase": 50.0
+    },
+    {
+      "era": "imagist",
+      "n": 2,
+      "dist_first": 0.7323,
+      "dist_last": 0.7527,
+      "arc_dist": 0.0204,
+      "arc_s2": -0.1292,
+      "pct_dist_increase": 50.0
+    },
+    {
+      "era": "german_modernist",
+      "n": 2,
+      "dist_first": 0.7257,
+      "dist_last": 0.7545,
+      "arc_dist": 0.0288,
+      "arc_s2": -1.7797,
+      "pct_dist_increase": 100.0
+    },
+    {
+      "era": "concrete",
+      "n": 2,
+      "dist_first": 0.731,
+      "dist_last": 0.7776,
+      "arc_dist": 0.0466,
+      "arc_s2": -1.9443,
+      "pct_dist_increase": 50.0
+    }
+  ],
+  "top_convergent": [
+    {
+      "title": "Some Trees",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc_dist": -0.1278,
+      "arc_s2": -2.6026,
+      "d1": 0.8043560326099396,
+      "d3": 0.6765909465876493
+    },
+    {
+      "title": "Buffalo Bill 's",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "arc_dist": -0.1066,
+      "arc_s2": -3.4774,
+      "d1": 0.78977611135034,
+      "d3": 0.6832253056413987
+    },
+    {
+      "title": "What Is Poetry",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc_dist": -0.0978,
+      "arc_s2": -0.6557,
+      "d1": 0.7600269595781962,
+      "d3": 0.662271511554718
+    },
+    {
+      "title": "Dover Beach",
+      "author": "Matthew Arnold",
+      "era": "19th_century",
+      "arc_dist": -0.0846,
+      "arc_s2": -1.4014,
+      "d1": 0.781014175976024,
+      "d3": 0.6964424147325403
+    },
+    {
+      "title": "A Wave (opening)",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc_dist": -0.0762,
+      "arc_s2": -0.7272,
+      "d1": 0.7488520075293148,
+      "d3": 0.6726675166024102
+    },
+    {
+      "title": "Crossing (excerpt)",
+      "author": "Rae Armantrout",
+      "era": "prose_poetry",
+      "arc_dist": -0.0752,
+      "arc_s2": -0.7655,
+      "d1": 0.7181438572945134,
+      "d3": 0.642959788441658
+    },
+    {
+      "title": "I felt a Funeral, in my Brain",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "arc_dist": -0.0744,
+      "arc_s2": -2.2457,
+      "d1": 0.780456291777747,
+      "d3": 0.7060451030731201
+    },
+    {
+      "title": "O Captain! My Captain! (stanza 1)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "arc_dist": -0.073,
+      "arc_s2": -1.9282,
+      "d1": 0.7643632590770721,
+      "d3": 0.6913485708444015
+    },
+    {
+      "title": "When I Heard the Learn'd Astronomer",
+      "author": "Walt Whitman",
+      "era": "romantic",
+      "arc_dist": -0.0713,
+      "arc_s2": -1.3065,
+      "d1": 0.785383797925094,
+      "d3": 0.7141001101197868
+    },
+    {
+      "title": "What lips my lips have kissed",
+      "author": "Edna St. Vincent Millay",
+      "era": "mid_century",
+      "arc_dist": -0.0712,
+      "arc_s2": -0.5643,
+      "d1": 0.7814988762140274,
+      "d3": 0.7102743655443191
+    }
+  ],
+  "top_crescendo": [
+    {
+      "title": "Variations on A (excerpt)",
+      "author": "Georges Perec",
+      "era": "oulipo",
+      "arc_dist": 0.1346,
+      "arc_s2": -1.3161,
+      "d1": 0.7249547622420571,
+      "d3": 0.8595826377471288
+    },
+    {
+      "title": "Susie Asado",
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "arc_dist": 0.1073,
+      "arc_s2": -0.1796,
+      "d1": 0.5370528779246591,
+      "d3": 0.6443264899046525
+    },
+    {
+      "title": "For Spacious Skies",
+      "author": "Emmett Williams",
+      "era": "concrete",
+      "arc_dist": 0.1026,
+      "arc_s2": -4.4952,
+      "d1": 0.6911149758559006,
+      "d3": 0.7937341119561877
+    },
+    {
+      "title": "Daddy (opening)",
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "arc_dist": 0.0982,
+      "arc_s2": 1.7525,
+      "d1": 0.6544658882277352,
+      "d3": 0.7526709925044667
+    },
+    {
+      "title": "Lady Lazarus (opening)",
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "arc_dist": 0.0948,
+      "arc_s2": -0.3343,
+      "d1": 0.6976867155595259,
+      "d3": 0.7924568156401316
+    },
+    {
+      "title": "Sailing to Byzantium (stanza 1)",
+      "author": "W.B. Yeats",
+      "era": "modernist",
+      "arc_dist": 0.0729,
+      "arc_s2": 1.4265,
+      "d1": 0.7103623918124607,
+      "d3": 0.7832506976344369
+    },
+    {
+      "title": "A Noiseless Patient Spider",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "arc_dist": 0.072,
+      "arc_s2": -1.9114,
+      "d1": 0.7002529587064471,
+      "d3": 0.7722626907957925
+    },
+    {
+      "title": "The Waste Land (opening)",
+      "author": "T.S. Eliot",
+      "era": "modernist",
+      "arc_dist": 0.0666,
+      "arc_s2": 0.5563,
+      "d1": 0.7168878785201481,
+      "d3": 0.7835140824317932
+    },
+    {
+      "title": "I Wandered Lonely as a Cloud",
+      "author": "William Wordsworth",
+      "era": "romantic",
+      "arc_dist": 0.0636,
+      "arc_s2": -3.1044,
+      "d1": 0.7362380283219474,
+      "d3": 0.7998488664627075
+    },
+    {
+      "title": "Self-Portrait in a Convex Mirror (opening)",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc_dist": 0.0619,
+      "arc_s2": -0.5505,
+      "d1": 0.716382406259838,
+      "d3": 0.7783150345087051
+    }
+  ],
+  "quadrants": {
+    "converge+conform": {
+      "n": 75,
+      "pct": 40.5
+    },
+    "converge+deviate": {
+      "n": 36,
+      "pct": 19.5
+    },
+    "crescendo+conform": {
+      "n": 50,
+      "pct": 27.0
+    },
+    "crescendo+deviate": {
+      "n": 24,
+      "pct": 13.0
+    }
+  }
+}
