@@ -4195,6 +4195,280 @@ Tripping by in high-heeled, ribboned shoes.
 Not a softness anywhere about me,
 Only whalebone and brocade."""
     },
+
+    # ─── ORAL REGISTER EXPANSION ──────────────────────────────────────────────
+    # Added 2026-10-07 to test oral-literary register hypothesis.
+    # All texts public domain (pre-1924 or translations of ancient originals).
+
+    {
+        "title": "Iliad (opening, trans. Pope)",
+        "author": "Homer (trans. Alexander Pope)",
+        "year": 1715,
+        "era": "ancient",
+        "text": """Achilles' wrath, to Greece the direful spring
+Of woes unnumbered, heavenly goddess, sing!
+That wrath which hurled to Pluto's gloomy reign
+The souls of mighty chiefs untimely slain;
+Whose limbs unburied on the naked shore,
+Devouring dogs and hungry vultures tore:
+Since great Achilles and Atrides strove,
+Such was the sovereign doom, and such the will of Jove."""
+    },
+    {
+        "title": "Beowulf (opening, trans. Gummere)",
+        "author": "Anonymous (trans. Francis B. Gummere)",
+        "year": 1909,
+        "era": "ancient",
+        "text": """Lo, praise of the prowess of people-kings
+of spear-armed Danes, in days long sped,
+we have heard, and what honor the athelings won!
+Oft Scyld the Scefing from squadroned foes,
+from many a tribe, the mead-bench tore,
+awing the earls. Since erst he lay
+friendless, a foundling, fate repaid him:
+for he waxed under welkin, in wealth he throve,
+till before him the folk, both far and near,
+who house by the whale-path, heard his mandate,
+gave him gifts: a good king he."""
+    },
+    {
+        "title": "On Being Brought from Africa to America",
+        "author": "Phillis Wheatley",
+        "year": 1773,
+        "era": "18th_century",
+        "text": """'Twas mercy brought me from my Pagan land,
+Taught my benighted soul to understand
+That there's a God, that there's a Saviour too:
+Once I redemption neither sought nor knew.
+Some view our sable race with scornful eye,
+"Their colour is a diabolic dye."
+Remember, Christians, Negroes, black as Cain,
+May be refin'd, and join th' angelic train."""
+    },
+    {
+        "title": "O Captain! My Captain!",
+        "author": "Walt Whitman",
+        "year": 1865,
+        "era": "19th_century",
+        "text": """O Captain! my Captain! our fearful trip is done,
+The ship has weather'd every rack, the prize we sought is won,
+The port is near, the bells I hear, the people all exulting,
+While follow eyes the steady keel, the vessel grim and daring;
+But O heart! heart! heart!
+O the bleeding drops of red,
+Where on the deck my Captain lies,
+Fallen cold and dead.
+
+O Captain! my Captain! rise up and hear the bells;
+Rise up—for you the flag is flung—for you the bugle trills,
+For you bouquets and ribbon'd wreaths—for you the shores a-crowding,
+For you they call, the swaying mass, their eager faces turning;
+Here Captain! dear father!
+The arm beneath your head!
+It is some dream that on the deck,
+You've fallen cold and dead."""
+    },
+    {
+        "title": "The Raven (opening stanzas)",
+        "author": "Edgar Allan Poe",
+        "year": 1845,
+        "era": "19th_century",
+        "text": """Once upon a midnight dreary, while I pondered, weak and weary,
+Over many a quaint and curious volume of forgotten lore—
+While I nodded, nearly napping, suddenly there came a tapping,
+As of some one gently rapping, rapping at my chamber door.
+"'Tis some visitor," I muttered, "tapping at my chamber door—
+Only this and nothing more."
+
+Ah, distinctly I remember it was in the bleak December;
+And each separate dying ember wrought its ghost upon the floor;
+Eagerly I wished the morrow;—vainly I had sought to borrow
+From my books surcease of sorrow—sorrow for the lost Lenore—
+For the rare and radiant maiden whom the angels name Lenore—
+Nameless here for evermore."""
+    },
+    {
+        "title": "Western Wind (anonymous lyric)",
+        "author": "Anonymous (English, c. 1500)",
+        "year": 1500,
+        "era": "early_modern",
+        "text": """Western wind, when wilt thou blow,
+The small rain down can rain?
+Christ, if my love were in my arms
+And I in my bed again!"""
+    },
+
+    # ─── NEW: BEAT GENERATION (expand sample for high artifact-free S2 finding) ────
+    {
+        "title": "Bomb",
+        "author": "Gregory Corso",
+        "year": 1958,
+        "era": "beat",
+        "text": """Budger of history Brake of time You Bomb
+Toy of universe Grandest of all snatched sky I cannot hate you
+Do I hate the mischievous thunderbolt the jawbone of an ass
+The bumpy club of One Million B.C. the mace the flail the axe
+Catapult Da Vinci tomahawk Cochise flintlock Kidd dagger Rathbone
+Hiroshima Nagasaki
+I am unable to hate what is necessary to love
+So if nebulous you must go somewhere go into the hearts of men"""
+    },
+    {
+        "title": "Marriage",
+        "author": "Gregory Corso",
+        "year": 1960,
+        "era": "beat",
+        "text": """Should I get married? Should I be good?
+Astound the girl next door with my velvet suit and faustus hood?
+Don't take her to movies but to cemeteries
+tell all about werewolf bathtubs and forked clarinets
+then desire her and kiss her and all the preliminaries
+and she going just so far and I understanding why
+not getting angry saying You must feel! It's beautiful to feel!
+Instead take her in my arms lean against an old crooked tombstone
+and woo her the entire night the constellations in the sky"""
+    },
+    {
+        "title": "Constantly Risking Absurdity",
+        "author": "Lawrence Ferlinghetti",
+        "year": 1958,
+        "era": "beat",
+        "text": """Constantly risking absurdity
+                                             and death
+            whenever he performs
+                                        above the heads
+                                                            of his audience
+the poet like an acrobat
+                                climbs on rime
+                         to a high wire of his own making
+and balancing on eyebeams
+                                        above a sea of faces
+             paces his way
+                               to the other side of day"""
+    },
+    {
+        "title": "In Goya's greatest scenes",
+        "author": "Lawrence Ferlinghetti",
+        "year": 1958,
+        "era": "beat",
+        "text": """In Goya's greatest scenes we seem to see
+                                                the people of the world
+exactly at the moment when
+      they first attained the title of
+                                                suffering humanity
+They writhe upon the page
+                              in a veritable rage
+                                                    of adversity
+Heaped up
+             groaning with babies and bayonets
+                                                under cement skies
+in an abstract landscape of blasted trees
+bent statues bats wings and beaks"""
+    },
+
+    # ─── NEW: GERMAN EXPRESSIONIST (expand sample for high artifact-free S2 finding) ─
+    {
+        "title": "Mann und Frau gehn durch die Krebsbaracke (trans. Ward)",
+        "author": "Gottfried Benn",
+        "year": 1912,
+        "era": "german_expressionist",
+        "text": """The man: her tits have gone to mush.
+Her womb, the same. Clean up. No fuss.
+Come here, see this bed, see it rattle.
+This flesh has turned, bone waits for battle.
+
+Right there, that chest is just a spine.
+Blood, pus, and fluid all entwine.
+We drained this one, we'll drain the rest.
+It's fine. The flesh accepts its test.
+
+The doctor says: this thigh is done.
+She's young. But note the gangrene run.
+One more. The uterus is gone.
+Tomorrow she'll be cut. Move on."""
+    },
+    {
+        "title": "Kleine Aster (Little Aster, trans. Ward)",
+        "author": "Gottfried Benn",
+        "year": 1912,
+        "era": "german_expressionist",
+        "text": """A drowned beer-truck driver was propped on the slab.
+Someone had placed a lavender aster between his teeth.
+As I made the incision from the chest up
+through the skin with a long knife,
+and one by one removed the tongue and the palate,
+I must have nudged it, for it slid
+into the brain lying adjacent.
+I packed it into the chest cavity
+amongst the excelsior
+as it was sewn up.
+Drink your fill in your vase!
+Rest easy,
+little aster!"""
+    },
+    {
+        "title": "Der Gott der Stadt (The God of the City, trans.)",
+        "author": "Georg Heym",
+        "year": 1910,
+        "era": "german_expressionist",
+        "text": """He sits upon a block of buildings wide.
+The winds lie black around his brow and blow.
+He stares where far the empty desert's stride
+Begins, where the great cities' billows flow.
+
+The ruddy belly of the evening gleams
+Against his neck. The mortar of his chin
+Is hard. In the black mouths of factory steams
+His nostrils widen, gulping darkness in.
+
+He stretches out his butcher's hand into
+The dark. He shakes it. Far away the rows
+Of houses crash. The flood of city's through
+The streets. And then the lightning's thunder shows."""
+    },
+    {
+        "title": "Umbra Vitae (trans. Hamburger)",
+        "author": "Georg Heym",
+        "year": 1912,
+        "era": "german_expressionist",
+        "text": """The people stand on roads and gaze up, staring.
+High in the sky a comet's trail of hair.
+The towers' heads are fringed with light, there wearing
+Bright signals for the armies that prepare.
+
+The shadows of the dead on distant marches
+Cross out the sky on many-colored threads.
+And the world's shadows walk on empty arches
+Where no one lives; the empty dark world spreads.
+
+The forms of life are lost in fog. And then
+Man in the street grows stiff, cries out in fright.
+He stares above, sees nothing, turns again —
+With rounded backs they shuffle home at night."""
+    },
+
+    # ─── NEW: PROSE POETRY (artifact-free test cases — no line breaks) ─────────────
+    {
+        "title": "The Wild Iris (prose extract)",
+        "author": "Louise Gluck",
+        "year": 1992,
+        "era": "prose_poetry",
+        "text": """At the end of my suffering there was a door. Hear me out: that which you call death I remember. Overhead, noises, branches of the pine shifting. Then nothing. The weak sun flickered over the dry surface. It is terrible to survive as consciousness buried in the dark earth. Then it was over: that which you fear, being a soul and unable to speak, ending abruptly, the stiff earth bending a little. And what I took to be birds darting in low shrubs. You who do not remember passage from the other world I tell you I could speak again: whatever returns from oblivion returns to find a voice."""
+    },
+    {
+        "title": "Pillow",
+        "author": "Russell Edson",
+        "year": 1973,
+        "era": "prose_poetry",
+        "text": """A man had a pillow that he loved very much. He loved it more than he loved his wife. He loved it more than his children. He loved it most especially more than he loved himself. His pillow was everything to him. He could not sleep without it. He slept with his face pressed against it so deeply that in the morning his face was wrinkled and marked with the weave of its fabric. He went everywhere with his pillow. His boss asked him why he was carrying a pillow. He said, because I love it. His boss said, you're fired. He didn't care. He had his pillow."""
+    },
+    {
+        "title": "The Colonel",
+        "author": "Carolyn Forche",
+        "year": 1981,
+        "era": "prose_poetry",
+        "text": """What you have heard is true. I was in his house. His wife carried a tray of coffee and sugar. His daughter filed her nails, his son went out for the night. There were daily papers, pet dogs, a pistol on the cushion beside him. The moon swung bare on its black cord over the house. On the television was a cop show. It was in Spanish. There was a brief commercial in English for Drive deodorant and Dove soap. We had dinner, rack of lamb, good wine, a gold bell was on the table for calling the maid. The maid brought green mangoes, salt, a type of bread. I was asked how I enjoyed the country. There was a brief commercial in English for Drive deodorant. Broken bottles were embedded in the walls around the house to scoop the kneecaps from a man's legs or cut his hands to lace. On the windows there were gratings like those in liquor stores. We had finished the wine, might have had a second. There were briefly a commercial in English for Drive deodorant."""
+    },
 ]
 
 # Quick stats
