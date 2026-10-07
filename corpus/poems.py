@@ -4195,6 +4195,108 @@ Tripping by in high-heeled, ribboned shoes.
 Not a softness anywhere about me,
 Only whalebone and brocade."""
     },
+
+    # ─── ORAL REGISTER EXPANSION ──────────────────────────────────────────────
+    # Added 2026-10-07 to test oral-literary register hypothesis.
+    # All texts public domain (pre-1924 or translations of ancient originals).
+
+    {
+        "title": "Iliad (opening, trans. Pope)",
+        "author": "Homer (trans. Alexander Pope)",
+        "year": 1715,
+        "era": "ancient",
+        "text": """Achilles' wrath, to Greece the direful spring
+Of woes unnumbered, heavenly goddess, sing!
+That wrath which hurled to Pluto's gloomy reign
+The souls of mighty chiefs untimely slain;
+Whose limbs unburied on the naked shore,
+Devouring dogs and hungry vultures tore:
+Since great Achilles and Atrides strove,
+Such was the sovereign doom, and such the will of Jove."""
+    },
+    {
+        "title": "Beowulf (opening, trans. Gummere)",
+        "author": "Anonymous (trans. Francis B. Gummere)",
+        "year": 1909,
+        "era": "ancient",
+        "text": """Lo, praise of the prowess of people-kings
+of spear-armed Danes, in days long sped,
+we have heard, and what honor the athelings won!
+Oft Scyld the Scefing from squadroned foes,
+from many a tribe, the mead-bench tore,
+awing the earls. Since erst he lay
+friendless, a foundling, fate repaid him:
+for he waxed under welkin, in wealth he throve,
+till before him the folk, both far and near,
+who house by the whale-path, heard his mandate,
+gave him gifts: a good king he."""
+    },
+    {
+        "title": "On Being Brought from Africa to America",
+        "author": "Phillis Wheatley",
+        "year": 1773,
+        "era": "18th_century",
+        "text": """'Twas mercy brought me from my Pagan land,
+Taught my benighted soul to understand
+That there's a God, that there's a Saviour too:
+Once I redemption neither sought nor knew.
+Some view our sable race with scornful eye,
+"Their colour is a diabolic dye."
+Remember, Christians, Negroes, black as Cain,
+May be refin'd, and join th' angelic train."""
+    },
+    {
+        "title": "O Captain! My Captain!",
+        "author": "Walt Whitman",
+        "year": 1865,
+        "era": "19th_century",
+        "text": """O Captain! my Captain! our fearful trip is done,
+The ship has weather'd every rack, the prize we sought is won,
+The port is near, the bells I hear, the people all exulting,
+While follow eyes the steady keel, the vessel grim and daring;
+But O heart! heart! heart!
+O the bleeding drops of red,
+Where on the deck my Captain lies,
+Fallen cold and dead.
+
+O Captain! my Captain! rise up and hear the bells;
+Rise up—for you the flag is flung—for you the bugle trills,
+For you bouquets and ribbon'd wreaths—for you the shores a-crowding,
+For you they call, the swaying mass, their eager faces turning;
+Here Captain! dear father!
+The arm beneath your head!
+It is some dream that on the deck,
+You've fallen cold and dead."""
+    },
+    {
+        "title": "The Raven (opening stanzas)",
+        "author": "Edgar Allan Poe",
+        "year": 1845,
+        "era": "19th_century",
+        "text": """Once upon a midnight dreary, while I pondered, weak and weary,
+Over many a quaint and curious volume of forgotten lore—
+While I nodded, nearly napping, suddenly there came a tapping,
+As of some one gently rapping, rapping at my chamber door.
+"'Tis some visitor," I muttered, "tapping at my chamber door—
+Only this and nothing more."
+
+Ah, distinctly I remember it was in the bleak December;
+And each separate dying ember wrought its ghost upon the floor;
+Eagerly I wished the morrow;—vainly I had sought to borrow
+From my books surcease of sorrow—sorrow for the lost Lenore—
+For the rare and radiant maiden whom the angels name Lenore—
+Nameless here for evermore."""
+    },
+    {
+        "title": "Western Wind (anonymous lyric)",
+        "author": "Anonymous (English, c. 1500)",
+        "year": 1500,
+        "era": "early_modern",
+        "text": """Western wind, when wilt thou blow,
+The small rain down can rain?
+Christ, if my love were in my arms
+And I in my bed again!"""
+    },
 ]
 
 # Quick stats
