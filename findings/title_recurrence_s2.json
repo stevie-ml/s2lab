@@ -1,0 +1,1709 @@
+{
+  "n_poems": 122,
+  "n_title_tokens": 386,
+  "n_non_title_tokens": 14800,
+  "avg_title_s2": 0.9221,
+  "avg_non_title_s2": -0.4343,
+  "poem_level": [
+    {
+      "title": "I Wandered Lonely as a Cloud",
+      "author": "William Wordsworth",
+      "era": "romantic",
+      "title_words": [
+        "cloud",
+        "lonely",
+        "wandered"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": 8.526,
+      "avg_non_title_s2": -1.219,
+      "delta": 9.745
+    },
+    {
+      "title": "Because I could not stop for Death",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "title_words": [
+        "because",
+        "death",
+        "stop"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": 3.728,
+      "avg_non_title_s2": 0.06,
+      "delta": 3.668
+    },
+    {
+      "title": "I felt a Funeral, in my Brain",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "title_words": [
+        "brain",
+        "felt",
+        "funeral"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 4.17,
+      "avg_non_title_s2": -1.046,
+      "delta": 5.216
+    },
+    {
+      "title": "Song of Myself (section 1)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "title_words": [
+        "myself",
+        "section",
+        "song"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 1.695,
+      "avg_non_title_s2": 0.738,
+      "delta": 0.956
+    },
+    {
+      "title": "The Waste Land (opening)",
+      "author": "T.S. Eliot",
+      "era": "modernist",
+      "title_words": [
+        "land",
+        "opening",
+        "waste"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 1.723,
+      "avg_non_title_s2": -0.298,
+      "delta": 2.021
+    },
+    {
+      "title": "The Red Wheelbarrow",
+      "author": "William Carlos Williams",
+      "era": "modernist",
+      "title_words": [
+        "red",
+        "wheelbarrow"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 4.075,
+      "avg_non_title_s2": -0.529,
+      "delta": 4.604
+    },
+    {
+      "title": "Anecdote of the Jar",
+      "author": "Wallace Stevens",
+      "era": "modernist",
+      "title_words": [
+        "anecdote",
+        "jar"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 4.735,
+      "avg_non_title_s2": -0.054,
+      "delta": 4.789
+    },
+    {
+      "title": "The Emperor of Ice-Cream",
+      "author": "Wallace Stevens",
+      "era": "modernist",
+      "title_words": [
+        "cream",
+        "emperor",
+        "ice"
+      ],
+      "n_title_occurrences": 8,
+      "avg_title_s2": -1.49,
+      "avg_non_title_s2": -0.862,
+      "delta": -0.628
+    },
+    {
+      "title": "Daddy (opening)",
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "title_words": [
+        "daddy",
+        "opening"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 7.893,
+      "avg_non_title_s2": -0.671,
+      "delta": 8.565
+    },
+    {
+      "title": "One Art",
+      "author": "Elizabeth Bishop",
+      "era": "mid_century",
+      "title_words": [
+        "art",
+        "one"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": -2.269,
+      "avg_non_title_s2": 0.259,
+      "delta": -2.528
+    },
+    {
+      "title": "A Supermarket in California",
+      "author": "Allen Ginsberg",
+      "era": "beat",
+      "title_words": [
+        "california",
+        "supermarket"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 3.241,
+      "avg_non_title_s2": 0.507,
+      "delta": 2.733
+    },
+    {
+      "title": "The Painter",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "title_words": [
+        "painter"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": -0.689,
+      "avg_non_title_s2": -0.371,
+      "delta": -0.318
+    },
+    {
+      "title": "The Instruction Manual",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "title_words": [
+        "instruction",
+        "manual"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": 2.735,
+      "avg_non_title_s2": -1.193,
+      "delta": 3.928
+    },
+    {
+      "title": "The One Thing That Can Save America",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "title_words": [
+        "america",
+        "one",
+        "save",
+        "thing"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": -1.3,
+      "avg_non_title_s2": -1.045,
+      "delta": -0.255
+    },
+    {
+      "title": "Rivers and Mountains",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "title_words": [
+        "mountains",
+        "rivers"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 2.134,
+      "avg_non_title_s2": -1.045,
+      "delta": 3.179
+    },
+    {
+      "title": "Leaving the Atocha Station",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "title_words": [
+        "atocha",
+        "leaving",
+        "station"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 3.127,
+      "avg_non_title_s2": -0.752,
+      "delta": 3.878
+    },
+    {
+      "title": "A Blessing in Disguise",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "title_words": [
+        "blessing",
+        "disguise"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": 1.409,
+      "avg_non_title_s2": -1.374,
+      "delta": 2.784
+    },
+    {
+      "title": "Why I Am Not a Painter",
+      "author": "Frank O'Hara",
+      "era": "new_york_school",
+      "title_words": [
+        "painter",
+        "why"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": -1.643,
+      "avg_non_title_s2": -0.121,
+      "delta": -1.522
+    },
+    {
+      "title": "The Day Lady Died",
+      "author": "Frank O'Hara",
+      "era": "new_york_school",
+      "title_words": [
+        "day",
+        "died",
+        "lady"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 5.842,
+      "avg_non_title_s2": 0.089,
+      "delta": 5.753
+    },
+    {
+      "title": "Whereas (excerpt)",
+      "author": "Layli Long Soldier",
+      "era": "contemporary",
+      "title_words": [
+        "excerpt",
+        "whereas"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": 4.523,
+      "avg_non_title_s2": -0.084,
+      "delta": 4.606
+    },
+    {
+      "title": "The Negro Speaks of Rivers",
+      "author": "Langston Hughes",
+      "era": "harlem_renaissance",
+      "title_words": [
+        "negro",
+        "rivers",
+        "speaks"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": 0.713,
+      "avg_non_title_s2": -0.375,
+      "delta": 1.088
+    },
+    {
+      "title": "We Real Cool",
+      "author": "Gwendolyn Brooks",
+      "era": "mid_century",
+      "title_words": [
+        "cool",
+        "real"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 1.507,
+      "avg_non_title_s2": -0.775,
+      "delta": 2.281
+    },
+    {
+      "title": "Driving Toward the Lac Qui Parle River",
+      "author": "Robert Bly",
+      "era": "deep_image",
+      "title_words": [
+        "driving",
+        "lac",
+        "parle",
+        "qui",
+        "river",
+        "toward"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 4.236,
+      "avg_non_title_s2": -0.004,
+      "delta": 4.24
+    },
+    {
+      "title": "Komm in den totgesagten park und schau",
+      "author": "Stefan George",
+      "era": "german_symbolist",
+      "title_words": [
+        "den",
+        "komm",
+        "park",
+        "schau",
+        "totgesagten",
+        "und"
+      ],
+      "n_title_occurrences": 10,
+      "avg_title_s2": -1.053,
+      "avg_non_title_s2": 0.723,
+      "delta": -1.776
+    },
+    {
+      "title": "Das Wort",
+      "author": "Stefan George",
+      "era": "german_symbolist",
+      "title_words": [
+        "das",
+        "wort"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": -0.169,
+      "avg_non_title_s2": 0.614,
+      "delta": -0.783
+    },
+    {
+      "title": "The Windhover",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "title_words": [
+        "windhover"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": -4.048,
+      "avg_non_title_s2": -0.187,
+      "delta": -3.861
+    },
+    {
+      "title": "We Wear the Mask",
+      "author": "Paul Laurence Dunbar",
+      "era": "victorian",
+      "title_words": [
+        "mask",
+        "wear"
+      ],
+      "n_title_occurrences": 4,
+      "avg_title_s2": -0.446,
+      "avg_non_title_s2": -0.413,
+      "delta": -0.033
+    },
+    {
+      "title": "My Last Duchess (opening)",
+      "author": "Robert Browning",
+      "era": "victorian",
+      "title_words": [
+        "duchess",
+        "last",
+        "opening"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 5.056,
+      "avg_non_title_s2": 0.214,
+      "delta": 4.842
+    },
+    {
+      "title": "The Truth the Dead Know (opening)",
+      "author": "Anne Sexton",
+      "era": "confessional",
+      "title_words": [
+        "dead",
+        "know",
+        "opening",
+        "truth"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": -5.66,
+      "avg_non_title_s2": -0.813,
+      "delta": -4.847
+    },
+    {
+      "title": "The Fish",
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "title_words": [
+        "fish"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 3.72,
+      "avg_non_title_s2": 0.007,
+      "delta": 3.713
+    },
+    {
+      "title": "When I Heard the Learn'd Astronomer",
+      "author": "Walt Whitman",
+      "era": "romantic",
+      "title_words": [
+        "astronomer",
+        "heard",
+        "learn"
+      ],
+      "n_title_occurrences": 5,
+      "avg_title_s2": 4.448,
+      "avg_non_title_s2": -0.173,
+      "delta": 4.622
+    },
+    {
+      "title": "Buffalo Bill 's",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "title_words": [
+        "bill",
+        "buffalo"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": -2.94,
+      "avg_non_title_s2": -0.859,
+      "delta": -2.081
+    },
+    {
+      "title": "The Stranger (prose poem, translated)",
+      "author": "Charles Baudelaire",
+      "era": "prose_poetry",
+      "title_words": [
+        "poem",
+        "prose",
+        "stranger",
+        "translated"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 5.285,
+      "avg_non_title_s2": -0.497,
+      "delta": 5.782
+    },
+    {
+      "title": "A Route of Evanescence",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "title_words": [
+        "evanescence",
+        "route"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 6.584,
+      "avg_non_title_s2": -0.314,
+      "delta": 6.898
+    },
+    {
+      "title": "A Noiseless Patient Spider",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "title_words": [
+        "noiseless",
+        "patient",
+        "spider"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 5.907,
+      "avg_non_title_s2": -0.06,
+      "delta": 5.967
+    },
+    {
+      "title": "The Raven (opening stanzas)",
+      "author": "Edgar Allan Poe",
+      "era": "19th_century",
+      "title_words": [
+        "opening",
+        "raven",
+        "stanzas"
+      ],
+      "n_title_occurrences": 5,
+      "avg_title_s2": 2.618,
+      "avg_non_title_s2": -0.765,
+      "delta": 3.384
+    },
+    {
+      "title": "Remember",
+      "author": "Christina Rossetti",
+      "era": "victorian",
+      "title_words": [
+        "remember"
+      ],
+      "n_title_occurrences": 4,
+      "avg_title_s2": -1.241,
+      "avg_non_title_s2": -0.008,
+      "delta": -1.233
+    },
+    {
+      "title": "I heard a Fly buzz \u2014 when I died",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "title_words": [
+        "buzz",
+        "died",
+        "fly",
+        "heard"
+      ],
+      "n_title_occurrences": 6,
+      "avg_title_s2": 6.819,
+      "avg_non_title_s2": -0.179,
+      "delta": 6.998
+    },
+    {
+      "title": "If We Must Die",
+      "author": "Claude McKay",
+      "era": "harlem_renaissance",
+      "title_words": [
+        "die",
+        "must"
+      ],
+      "n_title_occurrences": 6,
+      "avg_title_s2": -2.048,
+      "avg_non_title_s2": -0.124,
+      "delta": -1.923
+    },
+    {
+      "title": "Yet Do I Marvel",
+      "author": "Countee Cullen",
+      "era": "harlem_renaissance",
+      "title_words": [
+        "marvel",
+        "yet"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 0.047,
+      "avg_non_title_s2": -0.192,
+      "delta": 0.239
+    },
+    {
+      "title": "A Red, Red Rose",
+      "author": "Robert Burns",
+      "era": "romantic",
+      "title_words": [
+        "red",
+        "rose"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": -2.192,
+      "avg_non_title_s2": -0.748,
+      "delta": -1.445
+    },
+    {
+      "title": "The Hollow Men (opening)",
+      "author": "T.S. Eliot",
+      "era": "modernist",
+      "title_words": [
+        "hollow",
+        "men",
+        "opening"
+      ],
+      "n_title_occurrences": 6,
+      "avg_title_s2": -0.956,
+      "avg_non_title_s2": -0.069,
+      "delta": -0.888
+    },
+    {
+      "title": "anyone lived in a pretty how town",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "title_words": [
+        "anyone",
+        "how",
+        "lived",
+        "pretty",
+        "town"
+      ],
+      "n_title_occurrences": 5,
+      "avg_title_s2": 5.946,
+      "avg_non_title_s2": -0.344,
+      "delta": 6.289
+    },
+    {
+      "title": "Digging",
+      "author": "Seamus Heaney",
+      "era": "contemporary",
+      "title_words": [
+        "digging"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 2.429,
+      "avg_non_title_s2": 0.135,
+      "delta": 2.294
+    },
+    {
+      "title": "The Summer Day",
+      "author": "Mary Oliver",
+      "era": "contemporary",
+      "title_words": [
+        "day",
+        "summer"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": -0.904,
+      "avg_non_title_s2": -0.737,
+      "delta": -0.167
+    },
+    {
+      "title": "The Second Coming",
+      "author": "W.B. Yeats",
+      "era": "modernist",
+      "title_words": [
+        "coming",
+        "second"
+      ],
+      "n_title_occurrences": 4,
+      "avg_title_s2": -2.308,
+      "avg_non_title_s2": -0.478,
+      "delta": -1.83
+    },
+    {
+      "title": "The Road Not Taken",
+      "author": "Robert Frost",
+      "era": "modernist",
+      "title_words": [
+        "road",
+        "taken"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": -1.339,
+      "avg_non_title_s2": -0.197,
+      "delta": -1.142
+    },
+    {
+      "title": "Lord Randal",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "title_words": [
+        "lord",
+        "randal"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": -2.132,
+      "avg_non_title_s2": -0.688,
+      "delta": -1.444
+    },
+    {
+      "title": "To a Mouse (closing stanzas)",
+      "author": "Robert Burns",
+      "era": "romantic",
+      "title_words": [
+        "closing",
+        "mouse",
+        "stanzas"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 9.975,
+      "avg_non_title_s2": -0.357,
+      "delta": 10.332
+    },
+    {
+      "title": "Barbara Allen",
+      "author": "Traditional (English/Scottish ballad)",
+      "era": "ballad",
+      "title_words": [
+        "allen",
+        "barbara"
+      ],
+      "n_title_occurrences": 6,
+      "avg_title_s2": -0.038,
+      "avg_non_title_s2": -0.226,
+      "delta": 0.188
+    },
+    {
+      "title": "Sir Patrick Spens",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "title_words": [
+        "patrick",
+        "sir",
+        "spens"
+      ],
+      "n_title_occurrences": 8,
+      "avg_title_s2": -0.483,
+      "avg_non_title_s2": -0.214,
+      "delta": -0.27
+    },
+    {
+      "title": "Edward, Edward",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "title_words": [
+        "edward"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": 2.509,
+      "avg_non_title_s2": -0.776,
+      "delta": 3.284
+    },
+    {
+      "title": "The Wife of Usher's Well",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "title_words": [
+        "usher",
+        "well",
+        "wife"
+      ],
+      "n_title_occurrences": 5,
+      "avg_title_s2": 2.053,
+      "avg_non_title_s2": -0.264,
+      "delta": 2.317
+    },
+    {
+      "title": "Bonnie George Campbell",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "title_words": [
+        "bonnie",
+        "campbell",
+        "george"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 6.611,
+      "avg_non_title_s2": -0.416,
+      "delta": 7.026
+    },
+    {
+      "title": "Sonnet 18 (Shall I compare thee)",
+      "author": "William Shakespeare",
+      "era": "victorian",
+      "title_words": [
+        "compare",
+        "sonnet",
+        "thee"
+      ],
+      "n_title_occurrences": 4,
+      "avg_title_s2": 1.165,
+      "avg_non_title_s2": -0.614,
+      "delta": 1.779
+    },
+    {
+      "title": "Sonnet 73 (That time of year)",
+      "author": "William Shakespeare",
+      "era": "victorian",
+      "title_words": [
+        "sonnet",
+        "time",
+        "year"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": -1.645,
+      "avg_non_title_s2": -0.79,
+      "delta": -0.855
+    },
+    {
+      "title": "Sonnet 130 (My mistress' eyes)",
+      "author": "William Shakespeare",
+      "era": "victorian",
+      "title_words": [
+        "eyes",
+        "mistress",
+        "sonnet"
+      ],
+      "n_title_occurrences": 4,
+      "avg_title_s2": -0.693,
+      "avg_non_title_s2": -0.852,
+      "delta": 0.16
+    },
+    {
+      "title": "On First Looking into Chapman's Homer",
+      "author": "John Keats",
+      "era": "romantic",
+      "title_words": [
+        "chapman",
+        "first",
+        "homer",
+        "into",
+        "looking"
+      ],
+      "n_title_occurrences": 4,
+      "avg_title_s2": 3.278,
+      "avg_non_title_s2": -0.345,
+      "delta": 3.623
+    },
+    {
+      "title": "What lips my lips have kissed",
+      "author": "Edna St. Vincent Millay",
+      "era": "mid_century",
+      "title_words": [
+        "kissed",
+        "lips",
+        "what"
+      ],
+      "n_title_occurrences": 6,
+      "avg_title_s2": -1.089,
+      "avg_non_title_s2": -0.883,
+      "delta": -0.205
+    },
+    {
+      "title": "Frankie and Johnny (opening stanzas)",
+      "author": "Traditional (American folk)",
+      "era": "song_lyrics",
+      "title_words": [
+        "frankie",
+        "johnny",
+        "opening",
+        "stanzas"
+      ],
+      "n_title_occurrences": 7,
+      "avg_title_s2": 0.031,
+      "avg_non_title_s2": -0.998,
+      "delta": 1.03
+    },
+    {
+      "title": "Oh Shenandoah",
+      "author": "Traditional (American sea chanty)",
+      "era": "song_lyrics",
+      "title_words": [
+        "shenandoah"
+      ],
+      "n_title_occurrences": 5,
+      "avg_title_s2": -0.432,
+      "avg_non_title_s2": -0.335,
+      "delta": -0.097
+    },
+    {
+      "title": "Home on the Range",
+      "author": "Brewster Higley",
+      "era": "song_lyrics",
+      "title_words": [
+        "home",
+        "range"
+      ],
+      "n_title_occurrences": 6,
+      "avg_title_s2": -0.163,
+      "avg_non_title_s2": -0.648,
+      "delta": 0.485
+    },
+    {
+      "title": "a list of the delusions of the insane (excerpt)",
+      "author": "David Antin",
+      "era": "prose_poetry",
+      "title_words": [
+        "delusions",
+        "excerpt",
+        "insane",
+        "list"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": 2.199,
+      "avg_non_title_s2": -1.375,
+      "delta": 3.574
+    },
+    {
+      "title": "Death, Be Not Proud (Holy Sonnet X)",
+      "author": "John Donne",
+      "era": "metaphysical",
+      "title_words": [
+        "death",
+        "holy",
+        "proud",
+        "sonnet"
+      ],
+      "n_title_occurrences": 4,
+      "avg_title_s2": 1.076,
+      "avg_non_title_s2": -0.794,
+      "delta": 1.871
+    },
+    {
+      "title": "Love (III)",
+      "author": "George Herbert",
+      "era": "metaphysical",
+      "title_words": [
+        "iii",
+        "love"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": -0.285,
+      "avg_non_title_s2": -0.87,
+      "delta": 0.584
+    },
+    {
+      "title": "They Flee from Me",
+      "author": "Thomas Wyatt",
+      "era": "early_modern",
+      "title_words": [
+        "flee"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 5.795,
+      "avg_non_title_s2": 0.15,
+      "delta": 5.645
+    },
+    {
+      "title": "God's Grandeur",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "title_words": [
+        "god",
+        "grandeur"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 0.67,
+      "avg_non_title_s2": 0.47,
+      "delta": 0.2
+    },
+    {
+      "title": "A Dream Deferred",
+      "author": "Langston Hughes",
+      "era": "harlem_renaissance",
+      "title_words": [
+        "deferred",
+        "dream"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 2.99,
+      "avg_non_title_s2": -1.003,
+      "delta": 3.993
+    },
+    {
+      "title": "Old Pond (Bash\u014d, translated)",
+      "author": "Matsuo Bash\u014d",
+      "era": "haiku",
+      "title_words": [
+        "bash",
+        "old",
+        "pond",
+        "translated"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": -0.768,
+      "avg_non_title_s2": 1.574,
+      "delta": -2.342
+    },
+    {
+      "title": "Autumn Crow (Bash\u014d, translated)",
+      "author": "Matsuo Bash\u014d",
+      "era": "haiku",
+      "title_words": [
+        "autumn",
+        "bash",
+        "crow",
+        "translated"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": -0.437,
+      "avg_non_title_s2": 0.144,
+      "delta": -0.581
+    },
+    {
+      "title": "Summer Grass (Bash\u014d, translated)",
+      "author": "Matsuo Bash\u014d",
+      "era": "haiku",
+      "title_words": [
+        "bash",
+        "grass",
+        "summer",
+        "translated"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 5.075,
+      "avg_non_title_s2": -0.654,
+      "delta": 5.729
+    },
+    {
+      "title": "The World of Dew (Issa, translated)",
+      "author": "Kobayashi Issa",
+      "era": "haiku",
+      "title_words": [
+        "dew",
+        "issa",
+        "translated",
+        "world"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": -3.911,
+      "avg_non_title_s2": -1.908,
+      "delta": -2.004
+    },
+    {
+      "title": "Morning Glory (Chiyo-ni, translated)",
+      "author": "Chiyo-ni",
+      "era": "haiku",
+      "title_words": [
+        "chiyo",
+        "glory",
+        "morning",
+        "translated"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 7.46,
+      "avg_non_title_s2": 1.663,
+      "delta": 5.797
+    },
+    {
+      "title": "Temple Bells (Buson, translated)",
+      "author": "Yosa Buson",
+      "era": "haiku",
+      "title_words": [
+        "bells",
+        "buson",
+        "temple",
+        "translated"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 7.263,
+      "avg_non_title_s2": -0.913,
+      "delta": 8.177
+    },
+    {
+      "title": "No Sky (Shiki, translated)",
+      "author": "Masaoka Shiki",
+      "era": "haiku",
+      "title_words": [
+        "shiki",
+        "sky",
+        "translated"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 4.391,
+      "avg_non_title_s2": -0.264,
+      "delta": 4.655
+    },
+    {
+      "title": "On the Roof of Hell (Issa, translated)",
+      "author": "Kobayashi Issa",
+      "era": "haiku",
+      "title_words": [
+        "hell",
+        "issa",
+        "roof",
+        "translated"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 2.324,
+      "avg_non_title_s2": -0.016,
+      "delta": 2.34
+    },
+    {
+      "title": "Nobody (Wright)",
+      "author": "Richard Wright",
+      "era": "haiku",
+      "title_words": [
+        "nobody",
+        "wright"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 7.22,
+      "avg_non_title_s2": 0.906,
+      "delta": 6.314
+    },
+    {
+      "title": "Won't You Celebrate With Me",
+      "author": "Lucille Clifton",
+      "era": "spoken_word",
+      "title_words": [
+        "celebrate",
+        "won"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 7.565,
+      "avg_non_title_s2": -0.72,
+      "delta": 8.285
+    },
+    {
+      "title": "Homage to My Hips",
+      "author": "Lucille Clifton",
+      "era": "spoken_word",
+      "title_words": [
+        "hips",
+        "homage"
+      ],
+      "n_title_occurrences": 9,
+      "avg_title_s2": 0.367,
+      "avg_non_title_s2": -0.927,
+      "delta": 1.295
+    },
+    {
+      "title": "Whoso List to Hunt",
+      "author": "Thomas Wyatt",
+      "era": "early_modern",
+      "title_words": [
+        "hunt",
+        "list",
+        "whoso"
+      ],
+      "n_title_occurrences": 4,
+      "avg_title_s2": 7.597,
+      "avg_non_title_s2": -0.363,
+      "delta": 7.96
+    },
+    {
+      "title": "Ode to the West Wind (stanza 1)",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "title_words": [
+        "ode",
+        "stanza",
+        "west",
+        "wind"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 1.218,
+      "avg_non_title_s2": -0.392,
+      "delta": 1.61
+    },
+    {
+      "title": "The Sick Rose",
+      "author": "William Blake",
+      "era": "romantic",
+      "title_words": [
+        "rose",
+        "sick"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 2.577,
+      "avg_non_title_s2": -1.398,
+      "delta": 3.975
+    },
+    {
+      "title": "O Captain! My Captain! (stanza 1)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "title_words": [
+        "captain",
+        "stanza"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": -0.411,
+      "avg_non_title_s2": -0.695,
+      "delta": 0.284
+    },
+    {
+      "title": "Natural Selection (Found Poem from Darwin, 1859)",
+      "author": "Charles Darwin (found text)",
+      "era": "found_poetry",
+      "title_words": [
+        "darwin",
+        "found",
+        "natural",
+        "poem",
+        "selection"
+      ],
+      "n_title_occurrences": 8,
+      "avg_title_s2": -1.067,
+      "avg_non_title_s2": -0.899,
+      "delta": -0.168
+    },
+    {
+      "title": "Vanity of Vanities (Found Poem from Ecclesiastes 1:2-8, KJV)",
+      "author": "Anonymous (KJV, found text)",
+      "era": "found_poetry",
+      "title_words": [
+        "ecclesiastes",
+        "found",
+        "kjv",
+        "poem",
+        "vanities",
+        "vanity"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": -4.523,
+      "avg_non_title_s2": -0.834,
+      "delta": -3.689
+    },
+    {
+      "title": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)",
+      "author": "Thomas Jefferson (found text)",
+      "era": "found_poetry",
+      "title_words": [
+        "declaration",
+        "evident",
+        "found",
+        "independence",
+        "poem",
+        "self",
+        "truths"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": -3.845,
+      "avg_non_title_s2": -0.187,
+      "delta": -3.657
+    },
+    {
+      "title": "Terms and Conditions (Found Poem from generic legal prose)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "title_words": [
+        "conditions",
+        "found",
+        "generic",
+        "legal",
+        "poem",
+        "prose",
+        "terms"
+      ],
+      "n_title_occurrences": 4,
+      "avg_title_s2": -1.361,
+      "avg_non_title_s2": -0.08,
+      "delta": -1.28
+    },
+    {
+      "title": "Cooking Instructions (Found Poem from generic recipe prose)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "title_words": [
+        "cooking",
+        "found",
+        "generic",
+        "instructions",
+        "poem",
+        "prose",
+        "recipe"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": -1.232,
+      "avg_non_title_s2": -0.775,
+      "delta": -0.456
+    },
+    {
+      "title": "To His Coy Mistress (opening)",
+      "author": "Andrew Marvell",
+      "era": "metaphysical",
+      "title_words": [
+        "coy",
+        "mistress",
+        "opening"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 6.26,
+      "avg_non_title_s2": -0.808,
+      "delta": 7.067
+    },
+    {
+      "title": "Amoretti LXXV: One Day I Wrote Her Name",
+      "author": "Edmund Spenser",
+      "era": "early_modern",
+      "title_words": [
+        "amoretti",
+        "day",
+        "lxxv",
+        "name",
+        "one",
+        "wrote"
+      ],
+      "n_title_occurrences": 5,
+      "avg_title_s2": -1.15,
+      "avg_non_title_s2": -0.199,
+      "delta": -0.951
+    },
+    {
+      "title": "The Truth the Dead Know (excerpt)",
+      "author": "Anne Sexton",
+      "era": "confessional",
+      "title_words": [
+        "dead",
+        "excerpt",
+        "know",
+        "truth"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": -1.366,
+      "avg_non_title_s2": -0.349,
+      "delta": -1.017
+    },
+    {
+      "title": "The House on the Hill",
+      "author": "Edwin Arlington Robinson",
+      "era": "fixed_form",
+      "title_words": [
+        "hill",
+        "house"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": -1.556,
+      "avg_non_title_s2": -0.125,
+      "delta": -1.431
+    },
+    {
+      "title": "Villanelle (A dainty thing's the Villanelle)",
+      "author": "William Ernest Henley",
+      "era": "fixed_form",
+      "title_words": [
+        "dainty",
+        "thing",
+        "villanelle"
+      ],
+      "n_title_occurrences": 6,
+      "avg_title_s2": -0.623,
+      "avg_non_title_s2": -0.309,
+      "delta": -0.313
+    },
+    {
+      "title": "In After Days (rondeau)",
+      "author": "Austin Dobson",
+      "era": "fixed_form",
+      "title_words": [
+        "after",
+        "days",
+        "rondeau"
+      ],
+      "n_title_occurrences": 4,
+      "avg_title_s2": -0.119,
+      "avg_non_title_s2": -0.733,
+      "delta": 0.615
+    },
+    {
+      "title": "Annabel Lee (opening stanzas)",
+      "author": "Edgar Allan Poe",
+      "era": "fixed_form",
+      "title_words": [
+        "annabel",
+        "lee",
+        "opening",
+        "stanzas"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 3.823,
+      "avg_non_title_s2": -1.36,
+      "delta": 5.182
+    },
+    {
+      "title": "Tears, Idle Tears",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "title_words": [
+        "idle",
+        "tears"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 2.391,
+      "avg_non_title_s2": -0.506,
+      "delta": 2.897
+    },
+    {
+      "title": "Break, Break, Break",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "title_words": [
+        "break"
+      ],
+      "n_title_occurrences": 5,
+      "avg_title_s2": -0.059,
+      "avg_non_title_s2": -0.961,
+      "delta": 0.903
+    },
+    {
+      "title": "The Lady of Shalott (Part I)",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "title_words": [
+        "lady",
+        "part",
+        "shalott"
+      ],
+      "n_title_occurrences": 8,
+      "avg_title_s2": 0.652,
+      "avg_non_title_s2": -0.311,
+      "delta": 0.963
+    },
+    {
+      "title": "Recessional (stanzas 1-3)",
+      "author": "Rudyard Kipling",
+      "era": "victorian",
+      "title_words": [
+        "recessional",
+        "stanzas"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 3.903,
+      "avg_non_title_s2": -0.61,
+      "delta": 4.513
+    },
+    {
+      "title": "Life Is a Journey (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "title_words": [
+        "clich",
+        "journey",
+        "life",
+        "synthetic"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": -2.356,
+      "avg_non_title_s2": -0.76,
+      "delta": -1.596
+    },
+    {
+      "title": "My Heart Burns for You (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "title_words": [
+        "burns",
+        "clich",
+        "heart",
+        "synthetic"
+      ],
+      "n_title_occurrences": 4,
+      "avg_title_s2": -1.825,
+      "avg_non_title_s2": -1.096,
+      "delta": -0.729
+    },
+    {
+      "title": "Autumn Comes (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "title_words": [
+        "autumn",
+        "clich",
+        "comes",
+        "synthetic"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 2.754,
+      "avg_non_title_s2": -0.78,
+      "delta": 3.534
+    },
+    {
+      "title": "For I Will Consider My Cat Jeoffry (excerpt)",
+      "author": "Christopher Smart",
+      "era": "18th_century",
+      "title_words": [
+        "cat",
+        "consider",
+        "excerpt",
+        "jeoffry"
+      ],
+      "n_title_occurrences": 6,
+      "avg_title_s2": 1.882,
+      "avg_non_title_s2": -0.405,
+      "delta": 2.287
+    },
+    {
+      "title": "Kubla Khan (opening stanzas)",
+      "author": "Samuel Taylor Coleridge",
+      "era": "romantic",
+      "title_words": [
+        "khan",
+        "kubla",
+        "opening",
+        "stanzas"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 0.669,
+      "avg_non_title_s2": 0.088,
+      "delta": 0.58
+    },
+    {
+      "title": "Proverbs of Hell (excerpt from Marriage of Heaven and Hell)",
+      "author": "William Blake",
+      "era": "romantic",
+      "title_words": [
+        "excerpt",
+        "heaven",
+        "hell",
+        "marriage",
+        "proverbs"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 6.621,
+      "avg_non_title_s2": -0.8,
+      "delta": 7.421
+    },
+    {
+      "title": "Pied Beauty",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "title_words": [
+        "beauty",
+        "pied"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": -1.421,
+      "avg_non_title_s2": -0.375,
+      "delta": -1.047
+    },
+    {
+      "title": "Fog",
+      "author": "Carl Sandburg",
+      "era": "modernist",
+      "title_words": [
+        "fog"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 3.283,
+      "avg_non_title_s2": 0.817,
+      "delta": 2.466
+    },
+    {
+      "title": "Grass",
+      "author": "Carl Sandburg",
+      "era": "modernist",
+      "title_words": [
+        "grass"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": -1.011,
+      "avg_non_title_s2": -0.621,
+      "delta": -0.39
+    },
+    {
+      "title": "For Spacious Skies",
+      "author": "Emmett Williams",
+      "era": "concrete",
+      "title_words": [
+        "skies",
+        "spacious"
+      ],
+      "n_title_occurrences": 22,
+      "avg_title_s2": -0.687,
+      "avg_non_title_s2": 0.475,
+      "delta": -1.162
+    },
+    {
+      "title": "Tonight I Can Write (excerpt)",
+      "author": "Pablo Neruda (trans. W.S. Merwin)",
+      "era": "latin_american",
+      "title_words": [
+        "excerpt",
+        "tonight",
+        "write"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 0.482,
+      "avg_non_title_s2": -0.643,
+      "delta": 1.125
+    },
+    {
+      "title": "Patterns",
+      "author": "Amy Lowell",
+      "era": "imagist",
+      "title_words": [
+        "patterns"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 5.641,
+      "avg_non_title_s2": -0.492,
+      "delta": 6.133
+    },
+    {
+      "title": "On Being Brought from Africa to America",
+      "author": "Phillis Wheatley",
+      "era": "18th_century",
+      "title_words": [
+        "africa",
+        "america",
+        "being",
+        "brought"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 7.108,
+      "avg_non_title_s2": -0.06,
+      "delta": 7.168
+    },
+    {
+      "title": "O Captain! My Captain!",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "title_words": [
+        "captain"
+      ],
+      "n_title_occurrences": 6,
+      "avg_title_s2": -0.409,
+      "avg_non_title_s2": -0.826,
+      "delta": 0.418
+    },
+    {
+      "title": "Western Wind (anonymous lyric)",
+      "author": "Anonymous (English, c. 1500)",
+      "era": "early_modern",
+      "title_words": [
+        "anonymous",
+        "lyric",
+        "western",
+        "wind"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 1.845,
+      "avg_non_title_s2": -0.657,
+      "delta": 2.502
+    },
+    {
+      "title": "Bomb",
+      "author": "Gregory Corso",
+      "era": "",
+      "title_words": [
+        "bomb"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 11.509,
+      "avg_non_title_s2": -0.422,
+      "delta": 11.931
+    },
+    {
+      "title": "Marriage",
+      "author": "Gregory Corso",
+      "era": "",
+      "title_words": [
+        "marriage"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": -2.211,
+      "avg_non_title_s2": 0.796,
+      "delta": -3.007
+    },
+    {
+      "title": "Constantly Risking Absurdity",
+      "author": "Lawrence Ferlinghetti",
+      "era": "",
+      "title_words": [
+        "absurdity",
+        "constantly",
+        "risking"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 8.571,
+      "avg_non_title_s2": -0.18,
+      "delta": 8.751
+    },
+    {
+      "title": "In Goya's greatest scenes",
+      "author": "Lawrence Ferlinghetti",
+      "era": "",
+      "title_words": [
+        "goya",
+        "greatest",
+        "scenes"
+      ],
+      "n_title_occurrences": 2,
+      "avg_title_s2": 3.07,
+      "avg_non_title_s2": -0.161,
+      "delta": 3.231
+    },
+    {
+      "title": "Kleine Aster (Little Aster, trans. Ward)",
+      "author": "Gottfried Benn",
+      "era": "",
+      "title_words": [
+        "aster",
+        "kleine",
+        "little",
+        "trans",
+        "ward"
+      ],
+      "n_title_occurrences": 3,
+      "avg_title_s2": 5.225,
+      "avg_non_title_s2": -0.259,
+      "delta": 5.484
+    },
+    {
+      "title": "Der Gott der Stadt (The God of the City, trans.)",
+      "author": "Georg Heym",
+      "era": "",
+      "title_words": [
+        "city",
+        "der",
+        "god",
+        "gott",
+        "stadt",
+        "trans"
+      ],
+      "n_title_occurrences": 1,
+      "avg_title_s2": 0.324,
+      "avg_non_title_s2": 0.081,
+      "delta": 0.243
+    },
+    {
+      "title": "Pillow",
+      "author": "Russell Edson",
+      "era": "",
+      "title_words": [
+        "pillow"
+      ],
+      "n_title_occurrences": 5,
+      "avg_title_s2": -0.885,
+      "avg_non_title_s2": -0.853,
+      "delta": -0.032
+    },
+    {
+      "title": "Lifting Belly (excerpt)",
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "title_words": [
+        "belly",
+        "excerpt",
+        "lifting"
+      ],
+      "n_title_occurrences": 16,
+      "avg_title_s2": -0.845,
+      "avg_non_title_s2": -0.907,
+      "delta": 0.063
+    }
+  ]
+}
