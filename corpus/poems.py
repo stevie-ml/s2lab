@@ -4269,25 +4269,6 @@ It is some dream that on the deck,
 You've fallen cold and dead."""
     },
     {
-        "title": "The Raven (opening stanzas)",
-        "author": "Edgar Allan Poe",
-        "year": 1845,
-        "era": "19th_century",
-        "text": """Once upon a midnight dreary, while I pondered, weak and weary,
-Over many a quaint and curious volume of forgotten lore—
-While I nodded, nearly napping, suddenly there came a tapping,
-As of some one gently rapping, rapping at my chamber door.
-"'Tis some visitor," I muttered, "tapping at my chamber door—
-Only this and nothing more."
-
-Ah, distinctly I remember it was in the bleak December;
-And each separate dying ember wrought its ghost upon the floor;
-Eagerly I wished the morrow;—vainly I had sought to borrow
-From my books surcease of sorrow—sorrow for the lost Lenore—
-For the rare and radiant maiden whom the angels name Lenore—
-Nameless here for evermore."""
-    },
-    {
         "title": "Western Wind (anonymous lyric)",
         "author": "Anonymous (English, c. 1500)",
         "year": 1500,
@@ -4447,6 +4428,48 @@ He stares above, sees nothing, turns again —
 With rounded backs they shuffle home at night."""
     },
 
+    # ─── NEW: GERTRUDE STEIN (semantic disruption — common words, unusual order) ─────
+    {
+        "title": "Objects (from Tender Buttons)",
+        "author": "Gertrude Stein",
+        "year": 1914,
+        "era": "modernist",
+        "text": """A carafe, that is a blind glass. A kind in glass and a cousin, a spectacle and nothing strange a single hurt color and an arrangement in a system to pointing. All this and not ordinary, not unordered in not resembling. The difference is spreading.
+
+Glazed glitter. The reason I see a chair glittered and what is pain certainly not more than yesterday. The truth is something as well and a part is something a clear and not a different color."""
+    },
+    {
+        "title": "Lifting Belly (excerpt)",
+        "author": "Gertrude Stein",
+        "year": 1917,
+        "era": "modernist",
+        "text": """Lifting belly is so kind.
+Lifting belly fattily.
+Doesn't that astonish you.
+You did want me.
+Say it again.
+Strawberry.
+Lifting belly is a pleasure.
+Lifting belly is so kind.
+Lifting belly all around.
+Lifting belly makes it right.
+Lifting belly is so kind.
+Extraordinary belly.
+Lifting belly is a chance.
+Lifting belly.
+Remarkable.
+Lifting belly for me.
+Lifting belly again.
+Can you recollect any other time.
+Lifting belly with me.
+You mean you want me to say yes.
+Yes.
+Lifting belly.
+Not around.
+Lifting belly is about love.
+Lifting belly.
+I like that."""
+    },
     # ─── NEW: PROSE POETRY (artifact-free test cases — no line breaks) ─────────────
     {
         "title": "The Wild Iris (prose extract)",

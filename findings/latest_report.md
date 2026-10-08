@@ -1,6 +1,6 @@
 # S₂ Lab Research Report
-**Generated:** 2026-10-08 00:57:01
-**Corpus:** 225 texts analyzed with GPT-2
+**Generated:** 2026-10-08 07:03:33
+**Corpus:** 227 texts analyzed with GPT-2
 **Model:** gpt2 (117M parameters)
 
 ---
@@ -20,11 +20,11 @@ Do different literary movements produce systematically different information-the
 | mid_century | 3 | 0.87 | **-0.59** | 37% | 36.38 |
 | ballad | 6 | 0.81 | **-0.42** | 32% | 32.75 |
 | korean_modernist | 1 | 0.75 | **-0.69** | 31% | 30.95 |
-| modernist | 22 | 0.68 | **-0.33** | 39% | 39.17 |
 | black_arts | 1 | 0.65 | **-0.50** | 36% | 27.57 |
 | harlem_renaissance | 5 | 0.63 | **-0.39** | 37% | 31.07 |
 | german_expressionist | 2 | 0.62 | **0.56** | 45% | 15.26 |
 | fixed_form | 8 | 0.60 | **-0.56** | 34% | 30.18 |
+| modernist | 24 | 0.60 | **-0.35** | 38% | 39.17 |
 | confessional | 6 | 0.50 | **-0.23** | 41% | 35.23 |
 | german_symbolist | 3 | 0.42 | **0.45** | 45% | 23.40 |
 | victorian | 21 | 0.41 | **-0.32** | 38% | 34.00 |
@@ -176,23 +176,23 @@ Do high-S₂ moments cluster at beginnings, endings, or enjambments?
 
 | Position in poem | Avg S₂ | Median S₂ | n tokens |
 |---|---|---|---|
-| first_10% | 0.90 | -0.64 | 2487 |
-| 10-25% | 0.25 | -1.03 | 3898 |
-| 25-50% | 0.13 | -1.01 | 6507 |
-| 50-75% | 0.09 | -0.99 | 6447 |
-| 75-90% | 0.30 | -0.91 | 3875 |
-| last_10% | 0.04 | -1.00 | 2684 |
+| first_10% | 0.90 | -0.63 | 2512 |
+| 10-25% | 0.25 | -1.03 | 3939 |
+| 25-50% | 0.12 | -1.01 | 6573 |
+| 50-75% | 0.09 | -0.98 | 6513 |
+| 75-90% | 0.28 | -0.93 | 3915 |
+| last_10% | 0.03 | -1.00 | 2711 |
 
 ### Line break analysis:
-- Avg S₂ at newline tokens: **-1.59** (n=2440)
-- Avg S₂ at tokens immediately after newline (raw): **6.39** (n=2440)
-- Avg S₂ at tokens immediately after newline (**artifact-free**): **0.13** (n=1556)
-- Avg S₂ at all other tokens: **0.42** (n=23458)
+- Avg S₂ at newline tokens: **-1.59** (n=2467)
+- Avg S₂ at tokens immediately after newline (raw): **6.32** (n=2467)
+- Avg S₂ at tokens immediately after newline (**artifact-free**): **0.11** (n=1581)
+- Avg S₂ at all other tokens: **0.41** (n=23696)
 
 > ⚠️ The raw post-newline figure is dominated by the stanza-break artifact (see `findings/stanza_break_artifact.md`). The artifact-free value is near-zero. **The enjambment finding does not survive artifact removal.**
 
 ### Finding
-Artifact-free post-newline S₂ = 0.13 vs other tokens = 0.42. Line-head tokens are at or below baseline once artifact positions are removed. The Straussian gap is distributed throughout the poem, not concentrated at line breaks.
+Artifact-free post-newline S₂ = 0.11 vs other tokens = 0.41. Line-head tokens are at or below baseline once artifact positions are removed. The Straussian gap is distributed throughout the poem, not concentrated at line breaks.
 
 ---
 
@@ -249,6 +249,7 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | Lucille Clifton | 3 | -0.36 | 3.91 | 31% | 20.07 | smooth/conventional |
 | Russell Edson | 2 | -0.39 | 3.20 | 30% | 12.25 | smooth/conventional |
 | Anonymous (Hebrew Bible) | 7 | -0.42 | 3.60 | 32% | 16.15 | smooth/conventional |
+| Gertrude Stein | 3 | -0.44 | 4.04 | 33% | 13.38 | smooth/conventional |
 | William Shakespeare | 3 | -0.62 | 3.51 | 30% | 19.15 | smooth/conventional |
 
 ### Finding
@@ -262,13 +263,13 @@ Do 'great' poems have distinctive S₂ profiles?
 
 > ⚠️ **Stanza-break artifact:** Raw S₂ numbers are inflated by layout positions. See `findings/stanza_break_artifact.md` for details.
 
-- Poetry avg S₂ (raw): **0.34** (σ=0.90, n=220)
+- Poetry avg S₂ (raw): **0.33** (σ=0.90, n=222)
 - Control prose avg S₂ (raw): **-1.66** (σ=0.67, n=5)
-- Gap (raw): **2.00**
+- Gap (raw): **1.99**
 
-- Poetry avg S₂ (artifact-free): **-0.381**
+- Poetry avg S₂ (artifact-free): **-0.382**
 - Control prose avg S₂ (artifact-free): **-1.721**
-- Gap (artifact-free): **1.340** (67% of raw gap survives)
+- Gap (artifact-free): **1.339** (67% of raw gap survives)
 
 - Poetry: 36% of tokens have positive S₂ (raw)
 - Control prose: 20% of tokens have positive S₂ (raw)
