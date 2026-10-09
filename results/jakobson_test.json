@@ -1,0 +1,1366 @@
+{
+  "surp_median": 4.7624,
+  "ent_median": 6.3443,
+  "poet_ratios": [
+    {
+      "poet": "Thomas Jefferson (found text)",
+      "q2_q1_ratio": 2.0,
+      "q2_pct": 10.81,
+      "q1_pct": 5.41,
+      "n": 148,
+      "cf_rate": 0.0,
+      "cc_rate": 0.062
+    },
+    {
+      "poet": "Emmett Williams",
+      "q2_q1_ratio": 1.833,
+      "q2_pct": 20.0,
+      "q1_pct": 10.91,
+      "n": 55,
+      "cf_rate": 0.091,
+      "cc_rate": 0.091
+    },
+    {
+      "poet": "W.S. Merwin",
+      "q2_q1_ratio": 1.75,
+      "q2_pct": 23.33,
+      "q1_pct": 13.33,
+      "n": 60,
+      "cf_rate": 0.0,
+      "cc_rate": 0.214
+    },
+    {
+      "poet": "Russell Edson",
+      "q2_q1_ratio": 1.359,
+      "q2_pct": 21.99,
+      "q1_pct": 16.18,
+      "n": 241,
+      "cf_rate": 0.075,
+      "cc_rate": 0.208
+    },
+    {
+      "poet": "Charles Baudelaire",
+      "q2_q1_ratio": 1.192,
+      "q2_pct": 21.23,
+      "q1_pct": 17.81,
+      "n": 146,
+      "cf_rate": 0.0,
+      "cc_rate": 0.129
+    },
+    {
+      "poet": "Frank O'Hara",
+      "q2_q1_ratio": 1.135,
+      "q2_pct": 25.93,
+      "q1_pct": 22.84,
+      "n": 162,
+      "cf_rate": 0.071,
+      "cc_rate": 0.048
+    },
+    {
+      "poet": "Anonymous (found text)",
+      "q2_q1_ratio": 1.131,
+      "q2_pct": 17.65,
+      "q1_pct": 15.6,
+      "n": 391,
+      "cf_rate": 0.029,
+      "cc_rate": 0.203
+    },
+    {
+      "poet": "Traditional (American sea chanty)",
+      "q2_q1_ratio": 1.056,
+      "q2_pct": 11.31,
+      "q1_pct": 10.71,
+      "n": 168,
+      "cf_rate": 0.105,
+      "cc_rate": 0.368
+    },
+    {
+      "poet": "C\u00e9sar Vallejo (trans. Thomas Merton)",
+      "q2_q1_ratio": 0.944,
+      "q2_pct": 21.66,
+      "q1_pct": 22.93,
+      "n": 157,
+      "cf_rate": 0.029,
+      "cc_rate": 0.118
+    },
+    {
+      "poet": "Anonymous (Hebrew Bible)",
+      "q2_q1_ratio": 0.874,
+      "q2_pct": 18.01,
+      "q1_pct": 20.61,
+      "n": 883,
+      "cf_rate": 0.038,
+      "cc_rate": 0.119
+    },
+    {
+      "poet": "Sappho",
+      "q2_q1_ratio": 0.87,
+      "q2_pct": 22.22,
+      "q1_pct": 25.56,
+      "n": 90,
+      "cf_rate": 0.05,
+      "cc_rate": 0.1
+    },
+    {
+      "poet": "Walter de la Mare",
+      "q2_q1_ratio": 0.844,
+      "q2_pct": 22.5,
+      "q1_pct": 26.67,
+      "n": 120,
+      "cf_rate": 0.074,
+      "cc_rate": 0.222
+    },
+    {
+      "poet": "Ross Gay",
+      "q2_q1_ratio": 0.833,
+      "q2_pct": 18.18,
+      "q1_pct": 21.82,
+      "n": 55,
+      "cf_rate": 0.0,
+      "cc_rate": 0.0
+    },
+    {
+      "poet": "Killarney Clary",
+      "q2_q1_ratio": 0.8,
+      "q2_pct": 18.71,
+      "q1_pct": 23.39,
+      "n": 171,
+      "cf_rate": 0.062,
+      "cc_rate": 0.125
+    },
+    {
+      "poet": "Carolyn Forch\u00e9",
+      "q2_q1_ratio": 0.778,
+      "q2_pct": 21.88,
+      "q1_pct": 28.12,
+      "n": 64,
+      "cf_rate": 0.0,
+      "cc_rate": 0.143
+    },
+    {
+      "poet": "Rae Armantrout",
+      "q2_q1_ratio": 0.727,
+      "q2_pct": 18.46,
+      "q1_pct": 25.38,
+      "n": 130,
+      "cf_rate": 0.083,
+      "cc_rate": 0.167
+    },
+    {
+      "poet": "Mary Oliver",
+      "q2_q1_ratio": 0.721,
+      "q2_pct": 16.06,
+      "q1_pct": 22.28,
+      "n": 193,
+      "cf_rate": 0.129,
+      "cc_rate": 0.032
+    },
+    {
+      "poet": "William Wordsworth",
+      "q2_q1_ratio": 0.706,
+      "q2_pct": 21.43,
+      "q1_pct": 30.36,
+      "n": 56,
+      "cf_rate": 0.0,
+      "cc_rate": 0.167
+    },
+    {
+      "poet": "Marianne Moore",
+      "q2_q1_ratio": 0.657,
+      "q2_pct": 18.93,
+      "q1_pct": 28.8,
+      "n": 375,
+      "cf_rate": 0.028,
+      "cc_rate": 0.07
+    },
+    {
+      "poet": "Traditional (American folk)",
+      "q2_q1_ratio": 0.64,
+      "q2_pct": 14.29,
+      "q1_pct": 22.32,
+      "n": 224,
+      "cf_rate": 0.0,
+      "cc_rate": 0.125
+    },
+    {
+      "poet": "Ocean Vuong",
+      "q2_q1_ratio": 0.636,
+      "q2_pct": 17.5,
+      "q1_pct": 27.5,
+      "n": 40,
+      "cf_rate": 0.0,
+      "cc_rate": 0.286
+    },
+    {
+      "poet": "Bruce Andrews",
+      "q2_q1_ratio": 0.625,
+      "q2_pct": 22.73,
+      "q1_pct": 36.36,
+      "n": 44,
+      "cf_rate": 0.0,
+      "cc_rate": 0.4
+    },
+    {
+      "poet": "Layli Long Soldier",
+      "q2_q1_ratio": 0.609,
+      "q2_pct": 24.56,
+      "q1_pct": 40.35,
+      "n": 57,
+      "cf_rate": 0.071,
+      "cc_rate": 0.0
+    },
+    {
+      "poet": "Pablo Neruda (trans. W.S. Merwin)",
+      "q2_q1_ratio": 0.577,
+      "q2_pct": 13.76,
+      "q1_pct": 23.85,
+      "n": 109,
+      "cf_rate": 0.067,
+      "cc_rate": 0.0
+    },
+    {
+      "poet": "Louise Gluck",
+      "q2_q1_ratio": 0.551,
+      "q2_pct": 20.61,
+      "q1_pct": 37.4,
+      "n": 131,
+      "cf_rate": 0.037,
+      "cc_rate": 0.148
+    },
+    {
+      "poet": "Elizabeth Bishop",
+      "q2_q1_ratio": 0.55,
+      "q2_pct": 18.33,
+      "q1_pct": 33.33,
+      "n": 60,
+      "cf_rate": 0.0,
+      "cc_rate": 0.455
+    },
+    {
+      "poet": "Lucille Clifton",
+      "q2_q1_ratio": 0.542,
+      "q2_pct": 15.66,
+      "q1_pct": 28.92,
+      "n": 249,
+      "cf_rate": 0.026,
+      "cc_rate": 0.103
+    },
+    {
+      "poet": "Christina Rossetti",
+      "q2_q1_ratio": 0.538,
+      "q2_pct": 20.29,
+      "q1_pct": 37.68,
+      "n": 138,
+      "cf_rate": 0.071,
+      "cc_rate": 0.071
+    },
+    {
+      "poet": "Brewster Higley",
+      "q2_q1_ratio": 0.537,
+      "q2_pct": 14.77,
+      "q1_pct": 27.52,
+      "n": 149,
+      "cf_rate": 0.0,
+      "cc_rate": 0.091
+    },
+    {
+      "poet": "Isaac Newton (found text)",
+      "q2_q1_ratio": 0.535,
+      "q2_pct": 17.83,
+      "q1_pct": 33.33,
+      "n": 129,
+      "cf_rate": 0.0,
+      "cc_rate": 0.043
+    },
+    {
+      "poet": "Christopher Smart",
+      "q2_q1_ratio": 0.517,
+      "q2_pct": 15.7,
+      "q1_pct": 30.38,
+      "n": 293,
+      "cf_rate": 0.043,
+      "cc_rate": 0.087
+    },
+    {
+      "poet": "John Berryman",
+      "q2_q1_ratio": 0.515,
+      "q2_pct": 20.48,
+      "q1_pct": 39.76,
+      "n": 83,
+      "cf_rate": 0.059,
+      "cc_rate": 0.0
+    },
+    {
+      "poet": "Amiri Baraka (LeRoi Jones)",
+      "q2_q1_ratio": 0.512,
+      "q2_pct": 15.28,
+      "q1_pct": 29.86,
+      "n": 144,
+      "cf_rate": 0.0,
+      "cc_rate": 0.227
+    },
+    {
+      "poet": "Traditional (English)",
+      "q2_q1_ratio": 0.507,
+      "q2_pct": 15.32,
+      "q1_pct": 30.18,
+      "n": 222,
+      "cf_rate": 0.059,
+      "cc_rate": 0.176
+    },
+    {
+      "poet": "Claudia Rankine",
+      "q2_q1_ratio": 0.5,
+      "q2_pct": 15.11,
+      "q1_pct": 30.22,
+      "n": 139,
+      "cf_rate": 0.0,
+      "cc_rate": 0.19
+    },
+    {
+      "poet": "Lawrence Ferlinghetti",
+      "q2_q1_ratio": 0.455,
+      "q2_pct": 4.48,
+      "q1_pct": 9.85,
+      "n": 670,
+      "cf_rate": 0.0,
+      "cc_rate": 0.033
+    },
+    {
+      "poet": "Edwin Arlington Robinson",
+      "q2_q1_ratio": 0.452,
+      "q2_pct": 14.29,
+      "q1_pct": 31.63,
+      "n": 98,
+      "cf_rate": 0.071,
+      "cc_rate": 0.143
+    },
+    {
+      "poet": "Carolyn Forche",
+      "q2_q1_ratio": 0.429,
+      "q2_pct": 13.76,
+      "q1_pct": 32.11,
+      "n": 218,
+      "cf_rate": 0.033,
+      "cc_rate": 0.067
+    },
+    {
+      "poet": "Seamus Heaney",
+      "q2_q1_ratio": 0.423,
+      "q2_pct": 17.32,
+      "q1_pct": 40.94,
+      "n": 127,
+      "cf_rate": 0.045,
+      "cc_rate": 0.136
+    },
+    {
+      "poet": "Langston Hughes",
+      "q2_q1_ratio": 0.422,
+      "q2_pct": 13.94,
+      "q1_pct": 33.07,
+      "n": 251,
+      "cf_rate": 0.086,
+      "cc_rate": 0.086
+    },
+    {
+      "poet": "Amy Lowell",
+      "q2_q1_ratio": 0.42,
+      "q2_pct": 14.47,
+      "q1_pct": 34.47,
+      "n": 235,
+      "cf_rate": 0.0,
+      "cc_rate": 0.206
+    },
+    {
+      "poet": "Edna St. Vincent Millay",
+      "q2_q1_ratio": 0.417,
+      "q2_pct": 17.01,
+      "q1_pct": 40.82,
+      "n": 147,
+      "cf_rate": 0.04,
+      "cc_rate": 0.12
+    },
+    {
+      "poet": "Anonymous (KJV, found text)",
+      "q2_q1_ratio": 0.409,
+      "q2_pct": 12.24,
+      "q1_pct": 29.93,
+      "n": 147,
+      "cf_rate": 0.056,
+      "cc_rate": 0.167
+    },
+    {
+      "poet": "Edgar Allan Poe",
+      "q2_q1_ratio": 0.406,
+      "q2_pct": 12.98,
+      "q1_pct": 31.93,
+      "n": 786,
+      "cf_rate": 0.059,
+      "cc_rate": 0.108
+    },
+    {
+      "poet": "Carl Sandburg",
+      "q2_q1_ratio": 0.405,
+      "q2_pct": 12.71,
+      "q1_pct": 31.36,
+      "n": 118,
+      "cf_rate": 0.0,
+      "cc_rate": 0.0
+    },
+    {
+      "poet": "Control",
+      "q2_q1_ratio": 0.4,
+      "q2_pct": 8.59,
+      "q1_pct": 21.47,
+      "n": 163,
+      "cf_rate": 0.0,
+      "cc_rate": 0.357
+    },
+    {
+      "poet": "Paul Laurence Dunbar",
+      "q2_q1_ratio": 0.4,
+      "q2_pct": 15.0,
+      "q1_pct": 37.5,
+      "n": 80,
+      "cf_rate": 0.0,
+      "cc_rate": 0.167
+    },
+    {
+      "poet": "James Wright",
+      "q2_q1_ratio": 0.4,
+      "q2_pct": 15.09,
+      "q1_pct": 37.74,
+      "n": 53,
+      "cf_rate": 0.0,
+      "cc_rate": 0.125
+    },
+    {
+      "poet": "Wislawa Szymborska",
+      "q2_q1_ratio": 0.395,
+      "q2_pct": 12.3,
+      "q1_pct": 31.15,
+      "n": 122,
+      "cf_rate": 0.0,
+      "cc_rate": 0.067
+    },
+    {
+      "poet": "Rainer Maria Rilke",
+      "q2_q1_ratio": 0.394,
+      "q2_pct": 17.52,
+      "q1_pct": 44.44,
+      "n": 234,
+      "cf_rate": 0.024,
+      "cc_rate": 0.463
+    },
+    {
+      "poet": "Gottfried Benn",
+      "q2_q1_ratio": 0.386,
+      "q2_pct": 14.05,
+      "q1_pct": 36.36,
+      "n": 242,
+      "cf_rate": 0.088,
+      "cc_rate": 0.029
+    },
+    {
+      "poet": "Robert Frost",
+      "q2_q1_ratio": 0.386,
+      "q2_pct": 15.61,
+      "q1_pct": 40.46,
+      "n": 173,
+      "cf_rate": 0.148,
+      "cc_rate": 0.037
+    },
+    {
+      "poet": "Georg Heym",
+      "q2_q1_ratio": 0.382,
+      "q2_pct": 16.41,
+      "q1_pct": 42.97,
+      "n": 256,
+      "cf_rate": 0.0,
+      "cc_rate": 0.095
+    },
+    {
+      "poet": "Allen Ginsberg",
+      "q2_q1_ratio": 0.379,
+      "q2_pct": 14.86,
+      "q1_pct": 39.19,
+      "n": 148,
+      "cf_rate": 0.0,
+      "cc_rate": 0.318
+    },
+    {
+      "poet": "David Antin",
+      "q2_q1_ratio": 0.379,
+      "q2_pct": 9.73,
+      "q1_pct": 25.66,
+      "n": 113,
+      "cf_rate": 0.0,
+      "cc_rate": 0.091
+    },
+    {
+      "poet": "Thomas Hardy",
+      "q2_q1_ratio": 0.379,
+      "q2_pct": 16.75,
+      "q1_pct": 44.24,
+      "n": 382,
+      "cf_rate": 0.016,
+      "cc_rate": 0.109
+    },
+    {
+      "poet": "Felicia Hemans",
+      "q2_q1_ratio": 0.368,
+      "q2_pct": 14.81,
+      "q1_pct": 40.21,
+      "n": 189,
+      "cf_rate": 0.036,
+      "cc_rate": 0.036
+    },
+    {
+      "poet": "William Ernest Henley",
+      "q2_q1_ratio": 0.368,
+      "q2_pct": 13.33,
+      "q1_pct": 36.25,
+      "n": 240,
+      "cf_rate": 0.031,
+      "cc_rate": 0.219
+    },
+    {
+      "poet": "Rudyard Kipling",
+      "q2_q1_ratio": 0.366,
+      "q2_pct": 12.63,
+      "q1_pct": 34.47,
+      "n": 293,
+      "cf_rate": 0.0,
+      "cc_rate": 0.189
+    },
+    {
+      "poet": "Synthetic (research test case)",
+      "q2_q1_ratio": 0.363,
+      "q2_pct": 11.11,
+      "q1_pct": 30.63,
+      "n": 333,
+      "cf_rate": 0.0,
+      "cc_rate": 0.162
+    },
+    {
+      "poet": "Sylvia Plath",
+      "q2_q1_ratio": 0.362,
+      "q2_pct": 15.11,
+      "q1_pct": 41.73,
+      "n": 139,
+      "cf_rate": 0.048,
+      "cc_rate": 0.143
+    },
+    {
+      "poet": "Philip Larkin",
+      "q2_q1_ratio": 0.362,
+      "q2_pct": 16.19,
+      "q1_pct": 44.76,
+      "n": 105,
+      "cf_rate": 0.118,
+      "cc_rate": 0.118
+    },
+    {
+      "poet": "Hart Crane",
+      "q2_q1_ratio": 0.361,
+      "q2_pct": 17.75,
+      "q1_pct": 49.11,
+      "n": 169,
+      "cf_rate": 0.033,
+      "cc_rate": 0.2
+    },
+    {
+      "poet": "Lyn Hejinian",
+      "q2_q1_ratio": 0.353,
+      "q2_pct": 12.0,
+      "q1_pct": 34.0,
+      "n": 50,
+      "cf_rate": 0.0,
+      "cc_rate": 0.0
+    },
+    {
+      "poet": "Ko Un (trans. Brother Anthony of Taiz\u00e9)",
+      "q2_q1_ratio": 0.353,
+      "q2_pct": 11.76,
+      "q1_pct": 33.33,
+      "n": 102,
+      "cf_rate": 0.0,
+      "cc_rate": 0.167
+    },
+    {
+      "poet": "Charles Darwin (found text)",
+      "q2_q1_ratio": 0.351,
+      "q2_pct": 9.49,
+      "q1_pct": 27.01,
+      "n": 137,
+      "cf_rate": 0.077,
+      "cc_rate": 0.231
+    },
+    {
+      "poet": "Matsuo Bash\u014d",
+      "q2_q1_ratio": 0.324,
+      "q2_pct": 17.46,
+      "q1_pct": 53.97,
+      "n": 63,
+      "cf_rate": 0.0,
+      "cc_rate": 0.273
+    },
+    {
+      "poet": "Gertrude Stein",
+      "q2_q1_ratio": 0.322,
+      "q2_pct": 11.18,
+      "q1_pct": 34.74,
+      "n": 331,
+      "cf_rate": 0.081,
+      "cc_rate": 0.243
+    },
+    {
+      "poet": "Emily Dickinson",
+      "q2_q1_ratio": 0.319,
+      "q2_pct": 14.1,
+      "q1_pct": 44.23,
+      "n": 312,
+      "cf_rate": 0.0,
+      "cc_rate": 0.182
+    },
+    {
+      "poet": "John Ashbery",
+      "q2_q1_ratio": 0.319,
+      "q2_pct": 12.7,
+      "q1_pct": 39.83,
+      "n": 1268,
+      "cf_rate": 0.05,
+      "cc_rate": 0.155
+    },
+    {
+      "poet": "Georges Perec",
+      "q2_q1_ratio": 0.318,
+      "q2_pct": 14.0,
+      "q1_pct": 44.0,
+      "n": 50,
+      "cf_rate": 0.0,
+      "cc_rate": 0.286
+    },
+    {
+      "poet": "Claude McKay",
+      "q2_q1_ratio": 0.318,
+      "q2_pct": 13.64,
+      "q1_pct": 42.86,
+      "n": 154,
+      "cf_rate": 0.048,
+      "cc_rate": 0.143
+    },
+    {
+      "poet": "Gregory Corso",
+      "q2_q1_ratio": 0.318,
+      "q2_pct": 14.78,
+      "q1_pct": 46.52,
+      "n": 230,
+      "cf_rate": 0.059,
+      "cc_rate": 0.118
+    },
+    {
+      "poet": "H.D. (Hilda Doolittle)",
+      "q2_q1_ratio": 0.312,
+      "q2_pct": 12.5,
+      "q1_pct": 40.0,
+      "n": 40,
+      "cf_rate": 0.2,
+      "cc_rate": 0.0
+    },
+    {
+      "poet": "Kobayashi Issa",
+      "q2_q1_ratio": 0.31,
+      "q2_pct": 11.39,
+      "q1_pct": 36.71,
+      "n": 79,
+      "cf_rate": 0.0,
+      "cc_rate": 0.0
+    },
+    {
+      "poet": "Traditional (English/Scottish ballad)",
+      "q2_q1_ratio": 0.31,
+      "q2_pct": 12.86,
+      "q1_pct": 41.43,
+      "n": 140,
+      "cf_rate": 0.056,
+      "cc_rate": 0.222
+    },
+    {
+      "poet": "Thomas Wyatt",
+      "q2_q1_ratio": 0.307,
+      "q2_pct": 14.99,
+      "q1_pct": 48.77,
+      "n": 367,
+      "cf_rate": 0.0,
+      "cc_rate": 0.145
+    },
+    {
+      "poet": "Anne Sexton",
+      "q2_q1_ratio": 0.306,
+      "q2_pct": 12.79,
+      "q1_pct": 41.86,
+      "n": 86,
+      "cf_rate": 0.091,
+      "cc_rate": 0.0
+    },
+    {
+      "poet": "Edmund Spenser",
+      "q2_q1_ratio": 0.306,
+      "q2_pct": 13.25,
+      "q1_pct": 43.37,
+      "n": 83,
+      "cf_rate": 0.091,
+      "cc_rate": 0.091
+    },
+    {
+      "poet": "Alfred, Lord Tennyson",
+      "q2_q1_ratio": 0.304,
+      "q2_pct": 11.68,
+      "q1_pct": 38.47,
+      "n": 642,
+      "cf_rate": 0.027,
+      "cc_rate": 0.133
+    },
+    {
+      "poet": "Ben Jonson",
+      "q2_q1_ratio": 0.303,
+      "q2_pct": 13.7,
+      "q1_pct": 45.21,
+      "n": 73,
+      "cf_rate": 0.0,
+      "cc_rate": 0.1
+    },
+    {
+      "poet": "Robert Browning",
+      "q2_q1_ratio": 0.3,
+      "q2_pct": 13.19,
+      "q1_pct": 43.96,
+      "n": 91,
+      "cf_rate": 0.0,
+      "cc_rate": 0.0
+    },
+    {
+      "poet": "Traditional (Scottish ballad)",
+      "q2_q1_ratio": 0.299,
+      "q2_pct": 10.71,
+      "q1_pct": 35.87,
+      "n": 775,
+      "cf_rate": 0.072,
+      "cc_rate": 0.277
+    },
+    {
+      "poet": "Stefan George",
+      "q2_q1_ratio": 0.292,
+      "q2_pct": 15.17,
+      "q1_pct": 51.97,
+      "n": 356,
+      "cf_rate": 0.037,
+      "cc_rate": 0.593
+    },
+    {
+      "poet": "T.S. Eliot",
+      "q2_q1_ratio": 0.278,
+      "q2_pct": 13.17,
+      "q1_pct": 47.33,
+      "n": 243,
+      "cf_rate": 0.031,
+      "cc_rate": 0.188
+    },
+    {
+      "poet": "Robert Bly",
+      "q2_q1_ratio": 0.276,
+      "q2_pct": 13.11,
+      "q1_pct": 47.54,
+      "n": 61,
+      "cf_rate": 0.0,
+      "cc_rate": 0.0
+    },
+    {
+      "poet": "Georg Trakl",
+      "q2_q1_ratio": 0.27,
+      "q2_pct": 13.43,
+      "q1_pct": 49.82,
+      "n": 283,
+      "cf_rate": 0.026,
+      "cc_rate": 0.526
+    },
+    {
+      "poet": "Walt Whitman",
+      "q2_q1_ratio": 0.269,
+      "q2_pct": 12.2,
+      "q1_pct": 45.3,
+      "n": 574,
+      "cf_rate": 0.014,
+      "cc_rate": 0.1
+    },
+    {
+      "poet": "William Carlos Williams",
+      "q2_q1_ratio": 0.259,
+      "q2_pct": 11.86,
+      "q1_pct": 45.76,
+      "n": 59,
+      "cf_rate": 0.0,
+      "cc_rate": 0.286
+    },
+    {
+      "poet": "Robert Burns",
+      "q2_q1_ratio": 0.25,
+      "q2_pct": 10.9,
+      "q1_pct": 43.61,
+      "n": 266,
+      "cf_rate": 0.034,
+      "cc_rate": 0.379
+    },
+    {
+      "poet": "George Herbert",
+      "q2_q1_ratio": 0.248,
+      "q2_pct": 11.03,
+      "q1_pct": 44.49,
+      "n": 263,
+      "cf_rate": 0.0,
+      "cc_rate": 0.034
+    },
+    {
+      "poet": "Alfred Lord Tennyson",
+      "q2_q1_ratio": 0.245,
+      "q2_pct": 12.24,
+      "q1_pct": 50.0,
+      "n": 98,
+      "cf_rate": 0.0,
+      "cc_rate": 0.083
+    },
+    {
+      "poet": "Austin Dobson",
+      "q2_q1_ratio": 0.237,
+      "q2_pct": 12.16,
+      "q1_pct": 51.35,
+      "n": 74,
+      "cf_rate": 0.0,
+      "cc_rate": 0.111
+    },
+    {
+      "poet": "Samuel Taylor Coleridge",
+      "q2_q1_ratio": 0.236,
+      "q2_pct": 11.93,
+      "q1_pct": 50.62,
+      "n": 243,
+      "cf_rate": 0.0,
+      "cc_rate": 0.276
+    },
+    {
+      "poet": "Gerard Manley Hopkins",
+      "q2_q1_ratio": 0.233,
+      "q2_pct": 11.03,
+      "q1_pct": 47.24,
+      "n": 544,
+      "cf_rate": 0.033,
+      "cc_rate": 0.183
+    },
+    {
+      "poet": "Percy Bysshe Shelley",
+      "q2_q1_ratio": 0.231,
+      "q2_pct": 10.88,
+      "q1_pct": 47.17,
+      "n": 441,
+      "cf_rate": 0.021,
+      "cc_rate": 0.146
+    },
+    {
+      "poet": "Oscar Wilde",
+      "q2_q1_ratio": 0.231,
+      "q2_pct": 9.78,
+      "q1_pct": 42.39,
+      "n": 92,
+      "cf_rate": 0.222,
+      "cc_rate": 0.0
+    },
+    {
+      "poet": "Wallace Stevens",
+      "q2_q1_ratio": 0.23,
+      "q2_pct": 9.75,
+      "q1_pct": 42.37,
+      "n": 236,
+      "cf_rate": 0.174,
+      "cc_rate": 0.13
+    },
+    {
+      "poet": "E.E. Cummings",
+      "q2_q1_ratio": 0.227,
+      "q2_pct": 7.51,
+      "q1_pct": 33.11,
+      "n": 293,
+      "cf_rate": 0.0,
+      "cc_rate": 0.227
+    },
+    {
+      "poet": "Federico Garc\u00eda Lorca (trans. Stephen Spender & J.L. Gili)",
+      "q2_q1_ratio": 0.226,
+      "q2_pct": 8.14,
+      "q1_pct": 36.05,
+      "n": 86,
+      "cf_rate": 0.286,
+      "cc_rate": 0.0
+    },
+    {
+      "poet": "W.B. Yeats",
+      "q2_q1_ratio": 0.225,
+      "q2_pct": 10.13,
+      "q1_pct": 44.94,
+      "n": 316,
+      "cf_rate": 0.0,
+      "cc_rate": 0.125
+    },
+    {
+      "poet": "John Keats",
+      "q2_q1_ratio": 0.223,
+      "q2_pct": 10.78,
+      "q1_pct": 48.37,
+      "n": 399,
+      "cf_rate": 0.023,
+      "cc_rate": 0.093
+    },
+    {
+      "poet": "Matthew Arnold",
+      "q2_q1_ratio": 0.222,
+      "q2_pct": 10.38,
+      "q1_pct": 46.7,
+      "n": 212,
+      "cf_rate": 0.0,
+      "cc_rate": 0.227
+    },
+    {
+      "poet": "Phillis Wheatley",
+      "q2_q1_ratio": 0.22,
+      "q2_pct": 9.89,
+      "q1_pct": 45.05,
+      "n": 91,
+      "cf_rate": 0.111,
+      "cc_rate": 0.222
+    },
+    {
+      "poet": "Dante Gabriel Rossetti",
+      "q2_q1_ratio": 0.211,
+      "q2_pct": 9.88,
+      "q1_pct": 46.91,
+      "n": 162,
+      "cf_rate": 0.0,
+      "cc_rate": 0.25
+    },
+    {
+      "poet": "Andr\u00e9 Breton",
+      "q2_q1_ratio": 0.208,
+      "q2_pct": 8.77,
+      "q1_pct": 42.11,
+      "n": 57,
+      "cf_rate": 0.0,
+      "cc_rate": 0.2
+    },
+    {
+      "poet": "Robert Lowell",
+      "q2_q1_ratio": 0.205,
+      "q2_pct": 10.11,
+      "q1_pct": 49.44,
+      "n": 89,
+      "cf_rate": 0.0,
+      "cc_rate": 0.111
+    },
+    {
+      "poet": "Andrew Marvell",
+      "q2_q1_ratio": 0.204,
+      "q2_pct": 10.2,
+      "q1_pct": 50.0,
+      "n": 98,
+      "cf_rate": 0.0,
+      "cc_rate": 0.1
+    },
+    {
+      "poet": "Homer (trans. Alexander Pope)",
+      "q2_q1_ratio": 0.2,
+      "q2_pct": 10.0,
+      "q1_pct": 50.0,
+      "n": 90,
+      "cf_rate": 0.0,
+      "cc_rate": 0.222
+    },
+    {
+      "poet": "William Shakespeare",
+      "q2_q1_ratio": 0.196,
+      "q2_pct": 9.54,
+      "q1_pct": 48.76,
+      "n": 482,
+      "cf_rate": 0.043,
+      "cc_rate": 0.217
+    },
+    {
+      "poet": "John Milton",
+      "q2_q1_ratio": 0.195,
+      "q2_pct": 9.94,
+      "q1_pct": 50.93,
+      "n": 161,
+      "cf_rate": 0.0,
+      "cc_rate": 0.062
+    },
+    {
+      "poet": "William Blake",
+      "q2_q1_ratio": 0.186,
+      "q2_pct": 8.47,
+      "q1_pct": 45.5,
+      "n": 567,
+      "cf_rate": 0.021,
+      "cc_rate": 0.146
+    },
+    {
+      "poet": "Countee Cullen",
+      "q2_q1_ratio": 0.169,
+      "q2_pct": 9.03,
+      "q1_pct": 53.47,
+      "n": 144,
+      "cf_rate": 0.0,
+      "cc_rate": 0.0
+    },
+    {
+      "poet": "Matsuo Basho",
+      "q2_q1_ratio": 0.167,
+      "q2_pct": 8.0,
+      "q1_pct": 48.0,
+      "n": 50,
+      "cf_rate": 0.0,
+      "cc_rate": 0.25
+    },
+    {
+      "poet": "Anonymous (trans. Francis B. Gummere)",
+      "q2_q1_ratio": 0.156,
+      "q2_pct": 8.7,
+      "q1_pct": 55.8,
+      "n": 138,
+      "cf_rate": 0.0,
+      "cc_rate": 0.25
+    },
+    {
+      "poet": "John Donne",
+      "q2_q1_ratio": 0.153,
+      "q2_pct": 7.56,
+      "q1_pct": 49.42,
+      "n": 172,
+      "cf_rate": 0.0,
+      "cc_rate": 0.077
+    },
+    {
+      "poet": "Vachel Lindsay",
+      "q2_q1_ratio": 0.083,
+      "q2_pct": 3.3,
+      "q1_pct": 39.56,
+      "n": 91,
+      "cf_rate": 0.0,
+      "cc_rate": 0.333
+    },
+    {
+      "poet": "Ron Silliman",
+      "q2_q1_ratio": 0.071,
+      "q2_pct": 4.0,
+      "q1_pct": 56.0,
+      "n": 50,
+      "cf_rate": 0.5,
+      "cc_rate": 0.0
+    },
+    {
+      "poet": "Ernest Dowson",
+      "q2_q1_ratio": 0.056,
+      "q2_pct": 2.47,
+      "q1_pct": 44.44,
+      "n": 81,
+      "cf_rate": 0.0,
+      "cc_rate": 0.0
+    },
+    {
+      "poet": "Eugen Gomringer",
+      "q2_q1_ratio": 0.0,
+      "q2_pct": 0.0,
+      "q1_pct": 4.26,
+      "n": 47,
+      "cf_rate": 0.0,
+      "cc_rate": 0.0
+    }
+  ],
+  "corpus_q2_subst": {
+    "cf": 123,
+    "cc": 531,
+    "ff": 712,
+    "fc": 582
+  },
+  "corpus_q1_subst": {
+    "cf": 307,
+    "cc": 3222,
+    "ff": 1392,
+    "fc": 2319
+  },
+  "era_ratios": [
+    {
+      "era": "concrete",
+      "q2_q1_ratio": 0.929,
+      "q2_pct": 11.11,
+      "q1_pct": 11.97,
+      "n": 117
+    },
+    {
+      "era": "biblical",
+      "q2_q1_ratio": 0.874,
+      "q2_pct": 18.01,
+      "q1_pct": 20.61,
+      "n": 883
+    },
+    {
+      "era": "prose_poetry",
+      "q2_q1_ratio": 0.786,
+      "q2_pct": 18.84,
+      "q1_pct": 23.98,
+      "n": 934
+    },
+    {
+      "era": "found_poetry",
+      "q2_q1_ratio": 0.72,
+      "q2_pct": 14.6,
+      "q1_pct": 20.27,
+      "n": 952
+    },
+    {
+      "era": "song_lyrics",
+      "q2_q1_ratio": 0.67,
+      "q2_pct": 13.49,
+      "q1_pct": 20.15,
+      "n": 541
+    },
+    {
+      "era": "latin_american",
+      "q2_q1_ratio": 0.602,
+      "q2_pct": 15.91,
+      "q1_pct": 26.42,
+      "n": 352
+    },
+    {
+      "era": "spoken_word",
+      "q2_q1_ratio": 0.532,
+      "q2_pct": 17.1,
+      "q1_pct": 32.12,
+      "n": 193
+    },
+    {
+      "era": "contemporary",
+      "q2_q1_ratio": 0.518,
+      "q2_pct": 15.99,
+      "q1_pct": 30.87,
+      "n": 813
+    },
+    {
+      "era": "black_arts",
+      "q2_q1_ratio": 0.512,
+      "q2_pct": 15.28,
+      "q1_pct": 29.86,
+      "n": 144
+    },
+    {
+      "era": "nursery_rhyme",
+      "q2_q1_ratio": 0.507,
+      "q2_pct": 15.32,
+      "q1_pct": 30.18,
+      "n": 222
+    },
+    {
+      "era": "",
+      "q2_q1_ratio": 0.437,
+      "q2_pct": 11.81,
+      "q1_pct": 27.03,
+      "n": 1872
+    },
+    {
+      "era": "18th_century",
+      "q2_q1_ratio": 0.423,
+      "q2_pct": 14.32,
+      "q1_pct": 33.85,
+      "n": 384
+    },
+    {
+      "era": "imagist",
+      "q2_q1_ratio": 0.42,
+      "q2_pct": 14.47,
+      "q1_pct": 34.47,
+      "n": 235
+    },
+    {
+      "era": "control",
+      "q2_q1_ratio": 0.4,
+      "q2_pct": 8.59,
+      "q1_pct": 21.47,
+      "n": 163
+    },
+    {
+      "era": "mid_century",
+      "q2_q1_ratio": 0.396,
+      "q2_pct": 15.45,
+      "q1_pct": 39.02,
+      "n": 246
+    },
+    {
+      "era": "german_modernist",
+      "q2_q1_ratio": 0.394,
+      "q2_pct": 17.52,
+      "q1_pct": 44.44,
+      "n": 234
+    },
+    {
+      "era": "beat",
+      "q2_q1_ratio": 0.379,
+      "q2_pct": 14.86,
+      "q1_pct": 39.19,
+      "n": 148
+    },
+    {
+      "era": "new_york_school",
+      "q2_q1_ratio": 0.375,
+      "q2_pct": 14.2,
+      "q1_pct": 37.9,
+      "n": 1430
+    },
+    {
+      "era": "cliche_control",
+      "q2_q1_ratio": 0.363,
+      "q2_pct": 11.11,
+      "q1_pct": 30.63,
+      "n": 333
+    },
+    {
+      "era": "korean_modernist",
+      "q2_q1_ratio": 0.353,
+      "q2_pct": 11.76,
+      "q1_pct": 33.33,
+      "n": 102
+    },
+    {
+      "era": "confessional",
+      "q2_q1_ratio": 0.339,
+      "q2_pct": 14.61,
+      "q1_pct": 43.07,
+      "n": 397
+    },
+    {
+      "era": "19th_century",
+      "q2_q1_ratio": 0.326,
+      "q2_pct": 12.82,
+      "q1_pct": 39.32,
+      "n": 1638
+    },
+    {
+      "era": "modernist",
+      "q2_q1_ratio": 0.318,
+      "q2_pct": 12.38,
+      "q1_pct": 38.89,
+      "n": 2448
+    },
+    {
+      "era": "oulipo",
+      "q2_q1_ratio": 0.318,
+      "q2_pct": 14.0,
+      "q1_pct": 44.0,
+      "n": 50
+    },
+    {
+      "era": "harlem_renaissance",
+      "q2_q1_ratio": 0.305,
+      "q2_pct": 12.57,
+      "q1_pct": 41.17,
+      "n": 549
+    },
+    {
+      "era": "ballad",
+      "q2_q1_ratio": 0.301,
+      "q2_pct": 11.04,
+      "q1_pct": 36.72,
+      "n": 915
+    },
+    {
+      "era": "fixed_form",
+      "q2_q1_ratio": 0.3,
+      "q2_pct": 11.89,
+      "q1_pct": 39.63,
+      "n": 858
+    },
+    {
+      "era": "early_modern",
+      "q2_q1_ratio": 0.296,
+      "q2_pct": 14.21,
+      "q1_pct": 48.02,
+      "n": 556
+    },
+    {
+      "era": "language",
+      "q2_q1_ratio": 0.295,
+      "q2_pct": 12.5,
+      "q1_pct": 42.36,
+      "n": 144
+    },
+    {
+      "era": "german_symbolist",
+      "q2_q1_ratio": 0.292,
+      "q2_pct": 15.17,
+      "q1_pct": 51.97,
+      "n": 356
+    },
+    {
+      "era": "victorian",
+      "q2_q1_ratio": 0.284,
+      "q2_pct": 12.29,
+      "q1_pct": 43.31,
+      "n": 3246
+    },
+    {
+      "era": "ancient",
+      "q2_q1_ratio": 0.283,
+      "q2_pct": 12.89,
+      "q1_pct": 45.6,
+      "n": 318
+    },
+    {
+      "era": "deep_image",
+      "q2_q1_ratio": 0.276,
+      "q2_pct": 13.11,
+      "q1_pct": 47.54,
+      "n": 61
+    },
+    {
+      "era": "german_expressionist",
+      "q2_q1_ratio": 0.27,
+      "q2_pct": 13.43,
+      "q1_pct": 49.82,
+      "n": 283
+    },
+    {
+      "era": "haiku",
+      "q2_q1_ratio": 0.254,
+      "q2_pct": 11.95,
+      "q1_pct": 47.1,
+      "n": 293
+    },
+    {
+      "era": "romantic",
+      "q2_q1_ratio": 0.247,
+      "q2_pct": 11.29,
+      "q1_pct": 45.65,
+      "n": 2081
+    },
+    {
+      "era": "surrealist",
+      "q2_q1_ratio": 0.208,
+      "q2_pct": 8.77,
+      "q1_pct": 42.11,
+      "n": 57
+    },
+    {
+      "era": "metaphysical",
+      "q2_q1_ratio": 0.207,
+      "q2_pct": 9.76,
+      "q1_pct": 47.09,
+      "n": 533
+    }
+  ]
+}
