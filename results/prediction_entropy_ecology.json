@@ -1,0 +1,656 @@
+{
+  "total_tokens": 21756,
+  "high_s2_tokens": 3462,
+  "ambush_n": 1795,
+  "fog_n": 1667,
+  "ambush_mean_h10": 1.9962936260175423,
+  "fog_mean_h10": 2.845988919384995,
+  "era_rows": [
+    {
+      "era": "romantic",
+      "n": 331,
+      "mean_h10": 2.4574974395001967,
+      "mean_s2": 6.158160120845919,
+      "ambush_pct": 49.848942598187314
+    },
+    {
+      "era": "19th_century",
+      "n": 253,
+      "mean_h10": 2.4465737357562456,
+      "mean_s2": 5.9411458498023695,
+      "ambush_pct": 52.96442687747036
+    },
+    {
+      "era": "modernist",
+      "n": 378,
+      "mean_h10": 2.335121405771617,
+      "mean_s2": 6.483488888888889,
+      "ambush_pct": 54.4973544973545
+    },
+    {
+      "era": "beat",
+      "n": 39,
+      "mean_h10": 2.584818790606381,
+      "mean_s2": 7.127338461538461,
+      "ambush_pct": 48.717948717948715
+    },
+    {
+      "era": "confessional",
+      "n": 77,
+      "mean_h10": 2.5380041832374722,
+      "mean_s2": 6.0001623376623385,
+      "ambush_pct": 40.25974025974026
+    },
+    {
+      "era": "mid_century",
+      "n": 26,
+      "mean_h10": 2.2284787758095908,
+      "mean_s2": 7.2938807692307694,
+      "ambush_pct": 65.38461538461539
+    },
+    {
+      "era": "new_york_school",
+      "n": 214,
+      "mean_h10": 2.4347780427211783,
+      "mean_s2": 6.074918224299066,
+      "ambush_pct": 54.20560747663551
+    },
+    {
+      "era": "language",
+      "n": 64,
+      "mean_h10": 2.2975308345676675,
+      "mean_s2": 6.021985937499998,
+      "ambush_pct": 64.0625
+    },
+    {
+      "era": "contemporary",
+      "n": 132,
+      "mean_h10": 2.407197193894497,
+      "mean_s2": 5.796331818181819,
+      "ambush_pct": 51.515151515151516
+    },
+    {
+      "era": "harlem_renaissance",
+      "n": 82,
+      "mean_h10": 2.5128612525552887,
+      "mean_s2": 6.461176829268291,
+      "ambush_pct": 53.65853658536586
+    },
+    {
+      "era": "oulipo",
+      "n": 92,
+      "mean_h10": 2.0964784989793914,
+      "mean_s2": 6.111710869565218,
+      "ambush_pct": 61.95652173913043
+    },
+    {
+      "era": "surrealist",
+      "n": 10,
+      "mean_h10": 2.270636538148345,
+      "mean_s2": 5.342789999999999,
+      "ambush_pct": 50.0
+    },
+    {
+      "era": "deep_image",
+      "n": 15,
+      "mean_h10": 2.676085231067069,
+      "mean_s2": 5.356440000000001,
+      "ambush_pct": 33.33333333333333
+    },
+    {
+      "era": "victorian",
+      "n": 563,
+      "mean_h10": 2.493446334283934,
+      "mean_s2": 6.040100888099464,
+      "ambush_pct": 49.55595026642984
+    },
+    {
+      "era": "haiku",
+      "n": 61,
+      "mean_h10": 2.3790611742485557,
+      "mean_s2": 6.194540983606556,
+      "ambush_pct": 42.62295081967213
+    },
+    {
+      "era": "ancient",
+      "n": 12,
+      "mean_h10": 2.1140304429418966,
+      "mean_s2": 6.613616666666666,
+      "ambush_pct": 58.333333333333336
+    },
+    {
+      "era": "prose_poetry",
+      "n": 120,
+      "mean_h10": 2.3647793079122073,
+      "mean_s2": 5.872049999999998,
+      "ambush_pct": 50.83333333333333
+    },
+    {
+      "era": "ballad",
+      "n": 140,
+      "mean_h10": 2.294621550380923,
+      "mean_s2": 6.948602857142858,
+      "ambush_pct": 55.00000000000001
+    },
+    {
+      "era": "song_lyrics",
+      "n": 67,
+      "mean_h10": 2.119041308877207,
+      "mean_s2": 5.959017910447761,
+      "ambush_pct": 61.19402985074627
+    },
+    {
+      "era": "nursery_rhyme",
+      "n": 31,
+      "mean_h10": 2.372423564520436,
+      "mean_s2": 5.251135483870967,
+      "ambush_pct": 64.51612903225806
+    },
+    {
+      "era": "metaphysical",
+      "n": 78,
+      "mean_h10": 2.609623285599737,
+      "mean_s2": 5.682258974358975,
+      "ambush_pct": 51.28205128205128
+    },
+    {
+      "era": "early_modern",
+      "n": 89,
+      "mean_h10": 2.6158630569577834,
+      "mean_s2": 5.859412359550561,
+      "ambush_pct": 41.57303370786517
+    },
+    {
+      "era": "spoken_word",
+      "n": 31,
+      "mean_h10": 2.5486855330732143,
+      "mean_s2": 5.662677419354841,
+      "ambush_pct": 38.70967741935484
+    },
+    {
+      "era": "found_poetry",
+      "n": 102,
+      "mean_h10": 2.239131817874453,
+      "mean_s2": 6.339093137254898,
+      "ambush_pct": 50.0
+    },
+    {
+      "era": "fixed_form",
+      "n": 142,
+      "mean_h10": 2.4032123833833055,
+      "mean_s2": 6.069914788732392,
+      "ambush_pct": 50.0
+    },
+    {
+      "era": "18th_century",
+      "n": 37,
+      "mean_h10": 2.3569891110194776,
+      "mean_s2": 6.668021621621621,
+      "ambush_pct": 54.054054054054056
+    },
+    {
+      "era": "biblical",
+      "n": 128,
+      "mean_h10": 2.2882629190249797,
+      "mean_s2": 5.701915624999999,
+      "ambush_pct": 53.125
+    },
+    {
+      "era": "concrete",
+      "n": 15,
+      "mean_h10": 1.6498940514871485,
+      "mean_s2": 7.474246666666668,
+      "ambush_pct": 66.66666666666666
+    },
+    {
+      "era": "latin_american",
+      "n": 49,
+      "mean_h10": 2.483303240429376,
+      "mean_s2": 6.26455918367347,
+      "ambush_pct": 46.93877551020408
+    },
+    {
+      "era": "black_arts",
+      "n": 21,
+      "mean_h10": 2.431637114285299,
+      "mean_s2": 5.216676190476191,
+      "ambush_pct": 57.14285714285714
+    },
+    {
+      "era": "korean_modernist",
+      "n": 16,
+      "mean_h10": 2.551412710086798,
+      "mean_s2": 6.060999999999999,
+      "ambush_pct": 50.0
+    },
+    {
+      "era": "imagist",
+      "n": 47,
+      "mean_h10": 2.392484903218515,
+      "mean_s2": 5.765055319148938,
+      "ambush_pct": 51.06382978723404
+    }
+  ],
+  "poet_rows": [
+    {
+      "author": "John Keats",
+      "n": 61,
+      "mean_h10": 2.622572128853726,
+      "mean_s2": 5.795370491803279,
+      "ambush_pct": 47.540983606557376
+    },
+    {
+      "author": "Emily Dickinson",
+      "n": 67,
+      "mean_h10": 2.328610314489978,
+      "mean_s2": 6.754883582089553,
+      "ambush_pct": 58.2089552238806
+    },
+    {
+      "author": "Walt Whitman",
+      "n": 76,
+      "mean_h10": 2.425021252384265,
+      "mean_s2": 6.551215789473685,
+      "ambush_pct": 59.210526315789465
+    },
+    {
+      "author": "Matthew Arnold",
+      "n": 33,
+      "mean_h10": 2.4971518013961607,
+      "mean_s2": 5.068481818181819,
+      "ambush_pct": 48.484848484848484
+    },
+    {
+      "author": "Percy Bysshe Shelley",
+      "n": 74,
+      "mean_h10": 2.454052283052693,
+      "mean_s2": 5.71057027027027,
+      "ambush_pct": 50.0
+    },
+    {
+      "author": "T.S. Eliot",
+      "n": 49,
+      "mean_h10": 2.3785254070626105,
+      "mean_s2": 5.926614285714285,
+      "ambush_pct": 65.3061224489796
+    },
+    {
+      "author": "Wallace Stevens",
+      "n": 36,
+      "mean_h10": 2.5658595687922046,
+      "mean_s2": 6.085186111111111,
+      "ambush_pct": 38.88888888888889
+    },
+    {
+      "author": "Allen Ginsberg",
+      "n": 39,
+      "mean_h10": 2.584818790606381,
+      "mean_s2": 7.127338461538461,
+      "ambush_pct": 48.717948717948715
+    },
+    {
+      "author": "Sylvia Plath",
+      "n": 26,
+      "mean_h10": 2.39947661987989,
+      "mean_s2": 6.838711538461539,
+      "ambush_pct": 57.692307692307686
+    },
+    {
+      "author": "John Ashbery",
+      "n": 186,
+      "mean_h10": 2.465929850456519,
+      "mean_s2": 6.03868172043011,
+      "ambush_pct": 52.1505376344086
+    },
+    {
+      "author": "Frank O'Hara",
+      "n": 28,
+      "mean_h10": 2.22784103419356,
+      "mean_s2": 6.315632142857143,
+      "ambush_pct": 67.85714285714286
+    },
+    {
+      "author": "Claudia Rankine",
+      "n": 27,
+      "mean_h10": 2.552838812757634,
+      "mean_s2": 6.950685185185184,
+      "ambush_pct": 37.03703703703704
+    },
+    {
+      "author": "Lucille Clifton",
+      "n": 37,
+      "mean_h10": 2.458994853670867,
+      "mean_s2": 5.66495945945946,
+      "ambush_pct": 43.24324324324324
+    },
+    {
+      "author": "Langston Hughes",
+      "n": 33,
+      "mean_h10": 2.349751416278091,
+      "mean_s2": 6.7760333333333325,
+      "ambush_pct": 66.66666666666666
+    },
+    {
+      "author": "Georges Perec",
+      "n": 25,
+      "mean_h10": 2.1949684397592604,
+      "mean_s2": 4.9097279999999985,
+      "ambush_pct": 68.0
+    },
+    {
+      "author": "Gerard Manley Hopkins",
+      "n": 115,
+      "mean_h10": 2.45997750275253,
+      "mean_s2": 6.572032173913043,
+      "ambush_pct": 53.04347826086957
+    },
+    {
+      "author": "Thomas Hardy",
+      "n": 82,
+      "mean_h10": 2.483058305625067,
+      "mean_s2": 6.208298780487804,
+      "ambush_pct": 52.4390243902439
+    },
+    {
+      "author": "Marianne Moore",
+      "n": 69,
+      "mean_h10": 1.6788543505366071,
+      "mean_s2": 7.441972463768115,
+      "ambush_pct": 73.91304347826086
+    },
+    {
+      "author": "Gertrude Stein",
+      "n": 53,
+      "mean_h10": 2.073134802935439,
+      "mean_s2": 6.400496226415096,
+      "ambush_pct": 54.71698113207547
+    },
+    {
+      "author": "E.E. Cummings",
+      "n": 45,
+      "mean_h10": 2.3078166953066557,
+      "mean_s2": 7.131544444444444,
+      "ambush_pct": 53.333333333333336
+    },
+    {
+      "author": "Charles Baudelaire",
+      "n": 23,
+      "mean_h10": 2.3758023014859,
+      "mean_s2": 5.756582608695651,
+      "ambush_pct": 56.52173913043478
+    },
+    {
+      "author": "William Blake",
+      "n": 70,
+      "mean_h10": 2.406747728966216,
+      "mean_s2": 6.21117142857143,
+      "ambush_pct": 48.57142857142857
+    },
+    {
+      "author": "Edgar Allan Poe",
+      "n": 116,
+      "mean_h10": 2.5271897753341106,
+      "mean_s2": 5.291936206896552,
+      "ambush_pct": 48.275862068965516
+    },
+    {
+      "author": "Christina Rossetti",
+      "n": 21,
+      "mean_h10": 2.3367290447134863,
+      "mean_s2": 6.223142857142856,
+      "ambush_pct": 52.38095238095239
+    },
+    {
+      "author": "Walter de la Mare",
+      "n": 20,
+      "mean_h10": 2.3027580737470545,
+      "mean_s2": 5.521469999999999,
+      "ambush_pct": 60.0
+    },
+    {
+      "author": "Claude McKay",
+      "n": 22,
+      "mean_h10": 2.3503500587448545,
+      "mean_s2": 6.418209090909091,
+      "ambush_pct": 50.0
+    },
+    {
+      "author": "Countee Cullen",
+      "n": 27,
+      "mean_h10": 2.844634247406294,
+      "mean_s2": 6.1113629629629616,
+      "ambush_pct": 40.74074074074074
+    },
+    {
+      "author": "Robert Burns",
+      "n": 48,
+      "mean_h10": 2.4373841369929297,
+      "mean_s2": 6.891506250000002,
+      "ambush_pct": 50.0
+    },
+    {
+      "author": "Philip Larkin",
+      "n": 21,
+      "mean_h10": 2.523084416205418,
+      "mean_s2": 5.491847619047619,
+      "ambush_pct": 47.61904761904761
+    },
+    {
+      "author": "Seamus Heaney",
+      "n": 25,
+      "mean_h10": 2.5387960128716522,
+      "mean_s2": 5.899267999999999,
+      "ambush_pct": 48.0
+    },
+    {
+      "author": "Wislawa Szymborska",
+      "n": 20,
+      "mean_h10": 2.493927397496266,
+      "mean_s2": 6.24588,
+      "ambush_pct": 50.0
+    },
+    {
+      "author": "Mary Oliver",
+      "n": 26,
+      "mean_h10": 2.419927471302441,
+      "mean_s2": 4.749469230769231,
+      "ambush_pct": 53.84615384615385
+    },
+    {
+      "author": "W.B. Yeats",
+      "n": 51,
+      "mean_h10": 2.6120243722281886,
+      "mean_s2": 5.412498039215686,
+      "ambush_pct": 49.01960784313725
+    },
+    {
+      "author": "Robert Frost",
+      "n": 30,
+      "mean_h10": 2.6164402757287073,
+      "mean_s2": 5.708500000000002,
+      "ambush_pct": 43.333333333333336
+    },
+    {
+      "author": "Traditional (Scottish ballad)",
+      "n": 117,
+      "mean_h10": 2.28237271270738,
+      "mean_s2": 6.981610256410254,
+      "ambush_pct": 52.991452991452995
+    },
+    {
+      "author": "Traditional (English/Scottish ballad)",
+      "n": 23,
+      "mean_h10": 2.356930855068073,
+      "mean_s2": 6.7806956521739155,
+      "ambush_pct": 65.21739130434783
+    },
+    {
+      "author": "William Shakespeare",
+      "n": 59,
+      "mean_h10": 2.602721063181185,
+      "mean_s2": 5.747625423728813,
+      "ambush_pct": 44.06779661016949
+    },
+    {
+      "author": "John Milton",
+      "n": 39,
+      "mean_h10": 2.7064133459807396,
+      "mean_s2": 5.460576923076922,
+      "ambush_pct": 43.58974358974359
+    },
+    {
+      "author": "Traditional (American folk)",
+      "n": 25,
+      "mean_h10": 2.1697380220424898,
+      "mean_s2": 5.74684,
+      "ambush_pct": 56.00000000000001
+    },
+    {
+      "author": "Traditional (American sea chanty)",
+      "n": 21,
+      "mean_h10": 1.8394627051621864,
+      "mean_s2": 6.454166666666667,
+      "ambush_pct": 71.42857142857143
+    },
+    {
+      "author": "Brewster Higley",
+      "n": 21,
+      "mean_h10": 2.3382666826335594,
+      "mean_s2": 5.716461904761904,
+      "ambush_pct": 57.14285714285714
+    },
+    {
+      "author": "Traditional (English)",
+      "n": 31,
+      "mean_h10": 2.372423564520436,
+      "mean_s2": 5.251135483870967,
+      "ambush_pct": 64.51612903225806
+    },
+    {
+      "author": "John Donne",
+      "n": 23,
+      "mean_h10": 2.55682106590205,
+      "mean_s2": 5.845908695652173,
+      "ambush_pct": 56.52173913043478
+    },
+    {
+      "author": "George Herbert",
+      "n": 40,
+      "mean_h10": 2.616723179603248,
+      "mean_s2": 5.684797499999999,
+      "ambush_pct": 50.0
+    },
+    {
+      "author": "Thomas Wyatt",
+      "n": 68,
+      "mean_h10": 2.5796865640055024,
+      "mean_s2": 6.012019117647058,
+      "ambush_pct": 42.64705882352941
+    },
+    {
+      "author": "Anonymous (found text)",
+      "n": 40,
+      "mean_h10": 2.1842848619487074,
+      "mean_s2": 6.321677500000001,
+      "ambush_pct": 57.49999999999999
+    },
+    {
+      "author": "William Ernest Henley",
+      "n": 42,
+      "mean_h10": 2.4180339237367825,
+      "mean_s2": 6.05552142857143,
+      "ambush_pct": 52.38095238095239
+    },
+    {
+      "author": "Dante Gabriel Rossetti",
+      "n": 32,
+      "mean_h10": 2.406536511664289,
+      "mean_s2": 6.148765625,
+      "ambush_pct": 56.25
+    },
+    {
+      "author": "Rudyard Kipling",
+      "n": 47,
+      "mean_h10": 2.434523941123431,
+      "mean_s2": 5.955782978723406,
+      "ambush_pct": 46.808510638297875
+    },
+    {
+      "author": "Alfred, Lord Tennyson",
+      "n": 101,
+      "mean_h10": 2.3727424754160467,
+      "mean_s2": 6.066073267326733,
+      "ambush_pct": 56.43564356435643
+    },
+    {
+      "author": "Christopher Smart",
+      "n": 37,
+      "mean_h10": 2.3569891110194776,
+      "mean_s2": 6.668021621621621,
+      "ambush_pct": 54.054054054054056
+    },
+    {
+      "author": "Samuel Taylor Coleridge",
+      "n": 48,
+      "mean_h10": 2.3899813372270895,
+      "mean_s2": 6.131377083333336,
+      "ambush_pct": 52.083333333333336
+    },
+    {
+      "author": "Felicia Hemans",
+      "n": 28,
+      "mean_h10": 2.4585273875992733,
+      "mean_s2": 6.201110714285713,
+      "ambush_pct": 32.142857142857146
+    },
+    {
+      "author": "Hart Crane",
+      "n": 46,
+      "mean_h10": 2.450796207136002,
+      "mean_s2": 6.518534782608696,
+      "ambush_pct": 58.69565217391305
+    },
+    {
+      "author": "Anonymous (Hebrew Bible)",
+      "n": 128,
+      "mean_h10": 2.2882629190249797,
+      "mean_s2": 5.701915624999999,
+      "ambush_pct": 53.125
+    },
+    {
+      "author": "C\u00e9sar Vallejo (trans. Thomas Merton)",
+      "n": 23,
+      "mean_h10": 2.6284760844429154,
+      "mean_s2": 6.572417391304349,
+      "ambush_pct": 43.47826086956522
+    },
+    {
+      "author": "Amiri Baraka (LeRoi Jones)",
+      "n": 21,
+      "mean_h10": 2.431637114285299,
+      "mean_s2": 5.216676190476191,
+      "ambush_pct": 57.14285714285714
+    },
+    {
+      "author": "Amy Lowell",
+      "n": 40,
+      "mean_h10": 2.448397160174508,
+      "mean_s2": 5.504500000000002,
+      "ambush_pct": 52.5
+    },
+    {
+      "author": "Christian B\u00f6k",
+      "n": 27,
+      "mean_h10": 2.3229205704193996,
+      "mean_s2": 7.203422222222224,
+      "ambush_pct": 51.85185185185185
+    },
+    {
+      "author": "Charles Bernstein",
+      "n": 33,
+      "mean_h10": 2.1557263864129217,
+      "mean_s2": 5.952045454545455,
+      "ambush_pct": 63.63636363636363
+    }
+  ]
+}

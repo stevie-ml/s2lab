@@ -4668,6 +4668,102 @@ And sleepless lovers, just at twelve, awake."""
         "era": "prose_poetry",
         "text": """What you have heard is true. I was in his house. His wife carried a tray of coffee and sugar. His daughter filed her nails, his son went out for the night. There were daily papers, pet dogs, a pistol on the cushion beside him. The moon swung bare on its black cord over the house. On the television was a cop show. It was in Spanish. There was a brief commercial in English for Drive deodorant and Dove soap. We had dinner, rack of lamb, good wine, a gold bell was on the table for calling the maid. The maid brought green mangoes, salt, a type of bread. I was asked how I enjoyed the country. There was a brief commercial in English for Drive deodorant. Broken bottles were embedded in the walls around the house to scoop the kneecaps from a man's legs or cut his hands to lace. On the windows there were gratings like those in liquor stores. We had finished the wine, might have had a second. There were briefly a commercial in English for Drive deodorant."""
     },
+
+    # ─── OULIPO / CONSTRAINT POETRY (added 2026-10-10) ────────────────────────
+    {
+        "title": "If I Told Him: A Completed Portrait of Picasso (excerpt)",
+        "author": "Gertrude Stein",
+        "year": 1923,
+        "era": "oulipo",
+        "text": """If I told him would he like it. Would he like it if I told him.
+Would he like it would Napoleon would Napoleon would would he like it.
+If Napoleon if I told him if I told him if Napoleon. Would he like it if I told him if I told him if Napoleon.
+Would he like it if Napoleon if Napoleon if I told him. Now.
+Not now.
+And now.
+Now.
+Exactly as as kings.
+Feeling full for it.
+Exactitude as kings.
+So to beseech you as full as for it.
+Exactly or as kings.
+Shutters shut and open so do queens. Shutters shut and shutters and so shutters shut and shutters and so and so shutters and so shutters shut and so shutters shut and shutters and so. And so shutters shut and so and also. And also and so and so and also.
+Let me recite what history teaches. History teaches."""
+    },
+    {
+        "title": "The Lipogram: A Sentence Without the Letter E",
+        "author": "Georges Perec",
+        "year": 1969,
+        "era": "oulipo",
+        "text": """A plain black cloth, thin and smooth, laid out to display a cold body.
+That cold body lying on that black cloth, its mouth shut, its pupils vacant, its arms crossing its torso, its hands palm down.
+Black curtains, black hangings, black walls.
+Not a shadow of colour anywhere, nothing but black.
+A woman in black sat by that body, crying.
+A child stood by that woman in black, also in black.
+Both sat motionless, in pain, thinking of what was now past and could not again occur."""
+    },
+    {
+        "title": "Eunoia: Chapter A (excerpt)",
+        "author": "Christian Bök",
+        "year": 2001,
+        "era": "oulipo",
+        "text": """Awkward grammar appalls a craftsman. A Dada bard as daft as Tzara hampers stagnant art and scatters stale abstract maxims.
+Bawdy narratives arrant trash, rank as Satan, as rank as Satan, as rank as Satan.
+Awa, a ballad, a faraway strand, a land awash and glad, a vast sand dab and a vast sand dab and a vast sand dab.
+Canada: a land apart, barren, flatlands that tantalize a man and madden all that wander vast tracts and vast plains and vast grasslands."""
+    },
+    {
+        "title": "Dysraphism (excerpt)",
+        "author": "Charles Bernstein",
+        "year": 1981,
+        "era": "language",
+        "text": """The nurse seemed to enjoy a large part of
+the time discussing the large amounts of
+time the nurses spent discussing among
+themselves the business of nursing.
+I want to go to the store to buy something.
+The music of the street is only music when the window is raised.
+Peanuts are not nuts.
+My horse ran a horse race.
+The horse's neck is the nicest part of the horse.
+Let me put it this way. Say it with flowers.
+The poem is the surface of an elsewhere.
+I want to write a poem that reads like a letter."""
+    },
+    {
+        "title": "The Sheds of Our Webs",
+        "author": "Charles Bernstein",
+        "year": 1980,
+        "era": "language",
+        "text": """A person is a series of acts. The things are in the things. Water is water.
+Time is a shape that fits the space between
+two acts. The act of going is the act of going.
+I am writing this for you.
+That is, I am sending these words to you.
+That is what writing is: sending.
+We send these words through the air of what we can know together.
+We were different once and will be again.
+The space between us is the only space we have.
+Fill it or leave it."""
+    },
+    {
+        "title": "Lorine's Work",
+        "author": "Lorine Niedecker",
+        "year": 1968,
+        "era": "imagist",
+        "text": """Grandfather
+advised me:
+Learn a trade
+
+I learned
+to sit at desk
+and condense
+
+No layoff
+from this
+condensery"""
+    },
 ]
 
 # Quick stats
