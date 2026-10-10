@@ -4470,6 +4470,182 @@ Lifting belly is about love.
 Lifting belly.
 I like that."""
     },
+    # ─── PARODY / MOCK ────────────────────────────────────────────────────────────
+    # Originals paired with their parodies, to test S₂ divergence at subversion points
+    {
+        "title": "How Doth the Little Busy Bee",
+        "author": "Isaac Watts",
+        "year": 1715,
+        "era": "parody_original",
+        "text": """How doth the little busy bee
+Improve each shining hour,
+And gather honey all the day
+From every opening flower!
+
+How skilfully she builds her cell!
+How neat she spreads the wax!
+And labours hard to store it well
+With the sweet food she makes.
+
+In works of labour or of skill,
+I would be busy too;
+For Satan finds some mischief still
+For idle hands to do.
+
+In books, or work, or healthful play,
+Let my first years be past,
+That I may give for every day
+Some good account at last."""
+    },
+    {
+        "title": "How Doth the Little Crocodile",
+        "author": "Lewis Carroll",
+        "year": 1865,
+        "era": "parody",
+        "text": """How doth the little crocodile
+Improve his shining tail,
+And pour the waters of the Nile
+On every golden scale!
+
+How cheerfully he seems to grin,
+How neatly spreads his claws,
+And welcomes little fishes in,
+With gently smiling jaws!"""
+    },
+    {
+        "title": "The Old Man's Comforts and How He Gained Them",
+        "author": "Robert Southey",
+        "year": 1799,
+        "era": "parody_original",
+        "text": """You are old, Father William, the young man cried,
+The few locks which are left you are grey;
+You are hale, Father William, a hearty old man,
+Now tell me the reason I pray.
+
+In the days of my youth, Father William replied,
+I remembered that youth would fly fast,
+And abused not my health and my vigour at first
+That I never might need them at last.
+
+You are old, Father William, the young man cried,
+And pleasures with youth pass away,
+And yet you lament not the days that are gone,
+Now tell me the reason I pray.
+
+In the days of my youth, Father William replied,
+I remembered that youth could not last;
+I thought of the future whatever I did,
+That I never might grieve for the past.
+
+You are old, Father William, the young man cried,
+And life must be hastening away;
+You are cheerful, and love to converse upon death!
+Now tell me the reason I pray.
+
+I am cheerful, young man, Father William replied,
+Let the cause thy attention engage;
+In the days of my youth I remembered my God!
+And He hath not forgotten my age."""
+    },
+    {
+        "title": "You Are Old, Father William",
+        "author": "Lewis Carroll",
+        "year": 1865,
+        "era": "parody",
+        "text": """You are old, Father William, the young man said,
+And your hair has become very white;
+And yet you incessantly stand on your head—
+Do you think, at your age, it is right?
+
+In my youth, Father William replied to his son,
+I feared it might injure the brain;
+But, now that I'm perfectly sure I have none,
+Why, I do it again and again.
+
+You are old, said the youth, as I mentioned before,
+And have grown most uncommonly fat;
+Yet you turned a back-somersault in at the door—
+Pray, what is the reason for that?
+
+In my youth, said the sage, as he shook his grey locks,
+I kept all my limbs very supple
+By the use of this ointment—one shilling the box—
+Allow me to sell you a couple?
+
+You are old, said the youth, and your jaws are too weak
+For anything tougher than suet;
+Yet you finished the goose, with the bones and the beak—
+Pray, how did you manage to do it?
+
+In my youth, said his father, I took to the law,
+And argued each case with my wife;
+And the muscular strength, which it gave to my jaw,
+Has lasted the rest of my life.
+
+You are old, said the youth, one would hardly suppose
+That your eye was as steady as ever;
+Yet you balanced an eel on the end of your nose—
+What made you so awfully clever?
+
+I have answered three questions, and that is enough,
+Said his father; don't give yourself airs!
+Do you think I can listen all day to such stuff?
+Be off, or I'll kick you downstairs!"""
+    },
+    {
+        "title": "'Tis the Voice of the Sluggard",
+        "author": "Isaac Watts",
+        "year": 1715,
+        "era": "parody_original",
+        "text": """'Tis the voice of the sluggard; I heard him complain,
+You have waked me too soon, I must slumber again.
+As the door on its hinges, so he on his bed,
+Turns his sides and his shoulders and his heavy head.
+
+A little more sleep, and a little more slumber;
+Thus he wastes half his days, and his hours without number,
+And when he gets up, he sits folding his hands,
+Or walks about sauntering, or trifling he stands."""
+    },
+    {
+        "title": "'Tis the Voice of the Lobster",
+        "author": "Lewis Carroll",
+        "year": 1865,
+        "era": "parody",
+        "text": """'Tis the voice of the Lobster; I heard him declare,
+You have baked me too brown, I must sugar my hair.
+As a duck with its eyelids, so he with his nose
+Trims his belt and his buttons, and turns out his toes.
+
+When the sands are all dry, he is gay as a lark,
+And will talk in contemptuous tones of the Shark,
+But, when the tide rises and sharks are around,
+His voice has a timid and tremulous sound."""
+    },
+    {
+        "title": "The Rape of the Lock (Canto I, opening)",
+        "author": "Alexander Pope",
+        "year": 1714,
+        "era": "parody",
+        "text": """What dire offence from amorous causes springs,
+What mighty contests rise from trivial things,
+I sing — This verse to Caryll, Muse! is due:
+This, even Belinda may vouchsafe to view:
+Slight is the subject, but not so the praise,
+If she inspire, and he approve my lays.
+
+Say what strange motive, Goddess! could compel
+A well-bred lord to assault a gentle belle?
+O say what stranger cause, yet unexplor'd,
+Could make a gentle belle reject a lord?
+In tasks so bold, can little men engage,
+And in soft bosoms dwells such mighty rage?
+
+Sol through white curtains shot a tim'rous ray,
+And oped those eyes that must eclipse the day:
+Now lapdogs give themselves the rousing shake,
+And sleepless lovers, just at twelve, awake."""
+    },
     # ─── NEW: PROSE POETRY (artifact-free test cases — no line breaks) ─────────────
     {
         "title": "The Wild Iris (prose extract)",
