@@ -1,0 +1,358 @@
+{
+  "n_poems": 235,
+  "lag1_correlation": {
+    "r": 0.0165,
+    "t": 2.72
+  },
+  "spike_recovery": {
+    "1": {
+      "spike_mean": -0.3493,
+      "nonspike_mean": -0.3937,
+      "diff": 0.0444
+    },
+    "2": {
+      "spike_mean": -0.3993,
+      "nonspike_mean": -0.3962,
+      "diff": -0.003
+    },
+    "3": {
+      "spike_mean": -0.358,
+      "nonspike_mean": -0.4092,
+      "diff": 0.0512
+    }
+  },
+  "binned_s2_following": {
+    "< -5": {
+      "n": 1177,
+      "mean": -0.3366,
+      "median": -0.8297
+    },
+    "-5 to -2": {
+      "n": 8989,
+      "mean": -0.4946,
+      "median": -1.3235
+    },
+    "-2 to 0": {
+      "n": 7762,
+      "mean": -0.3286,
+      "median": -0.9163
+    },
+    "0 to 2": {
+      "n": 3561,
+      "mean": -0.355,
+      "median": -1.2198
+    },
+    "2 to 5": {
+      "n": 3220,
+      "mean": -0.4054,
+      "median": -1.3214
+    },
+    "> 5": {
+      "n": 2420,
+      "mean": -0.2447,
+      "median": -1.1991
+    }
+  },
+  "top_peaks": [
+    {
+      "poem": "In Goya's greatest scenes",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "peak_s2": 36.658,
+      "peak_token": " gro",
+      "s2_lag1": -0.167,
+      "s2_lag2": -2.229,
+      "s2_lag3": 8.911
+    },
+    {
+      "poem": "Constantly Risking Absurdity",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "peak_s2": 28.253,
+      "peak_token": " climbs",
+      "s2_lag1": -1.573,
+      "s2_lag2": 6.664,
+      "s2_lag3": 1.736
+    },
+    {
+      "poem": "The Fish",
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "peak_s2": 25.634,
+      "peak_token": " glass",
+      "s2_lag1": -4.22,
+      "s2_lag2": 5.915,
+      "s2_lag3": 8.175
+    },
+    {
+      "poem": "Komm in den totgesagten park und schau",
+      "author": "Stefan George",
+      "era": "german_symbolist",
+      "peak_s2": 23.395,
+      "peak_token": " ferner",
+      "s2_lag1": 9.854,
+      "s2_lag2": -0.524,
+      "s2_lag3": 4.926
+    },
+    {
+      "poem": "Pied Beauty",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "peak_s2": 22.088,
+      "peak_token": " Pra",
+      "s2_lag1": -1.931,
+      "s2_lag2": 0.701,
+      "s2_lag3": -0.367
+    },
+    {
+      "poem": "God's Grandeur",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "peak_s2": 22.044,
+      "peak_token": " shook",
+      "s2_lag1": 7.661,
+      "s2_lag2": 1.788,
+      "s2_lag3": -2.377
+    },
+    {
+      "poem": "For I Will Consider My Cat Jeoffry (excerpt)",
+      "author": "Christopher Smart",
+      "era": "18th_century",
+      "peak_s2": 22.015,
+      "peak_token": " prank",
+      "s2_lag1": -1.524,
+      "s2_lag2": 1.071,
+      "s2_lag3": -0.739
+    },
+    {
+      "poem": "One Art",
+      "author": "Elizabeth Bishop",
+      "era": "mid_century",
+      "peak_s2": 20.586,
+      "peak_token": " badly",
+      "s2_lag1": -3.594,
+      "s2_lag2": -3.359,
+      "s2_lag3": -2.776
+    },
+    {
+      "poem": "Song of Myself (section 1)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "peak_s2": 20.397,
+      "peak_token": " observing",
+      "s2_lag1": 2.856,
+      "s2_lag2": 4.788,
+      "s2_lag3": -0.708
+    },
+    {
+      "poem": "Whoso List to Hunt",
+      "author": "Thomas Wyatt",
+      "era": "early_modern",
+      "peak_s2": 19.477,
+      "peak_token": " list",
+      "s2_lag1": -0.053,
+      "s2_lag2": 1.696,
+      "s2_lag3": -4.025
+    },
+    {
+      "poem": "Buffalo Bill 's",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "peak_s2": 19.033,
+      "peak_token": " Jesus",
+      "s2_lag1": -8.015,
+      "s2_lag2": -6.083,
+      "s2_lag3": -2.278
+    },
+    {
+      "poem": "I felt a Funeral, in my Brain",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "peak_s2": 18.903,
+      "peak_token": " Fun",
+      "s2_lag1": -5.786,
+      "s2_lag2": -2.662,
+      "s2_lag3": 0.051
+    },
+    {
+      "poem": "The Congo (opening, sanitized excerpt)",
+      "author": "Vachel Lindsay",
+      "era": "modernist",
+      "peak_s2": 18.85,
+      "peak_token": "lay",
+      "s2_lag1": -4.615,
+      "s2_lag2": -4.017,
+      "s2_lag3": -0.343
+    },
+    {
+      "poem": "The Wife of Usher's Well",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "peak_s2": 18.512,
+      "peak_token": "ashes",
+      "s2_lag1": -1.165,
+      "s2_lag2": -5.221,
+      "s2_lag3": 0.4
+    },
+    {
+      "poem": "Citizen (excerpt)",
+      "author": "Claudia Rankine",
+      "era": "contemporary",
+      "peak_s2": 18.16,
+      "peak_token": " stacked",
+      "s2_lag1": 8.018,
+      "s2_lag2": -2.952,
+      "s2_lag3": 3.415
+    },
+    {
+      "poem": "Citizen (excerpt, section I)",
+      "author": "Claudia Rankine",
+      "era": "prose_poetry",
+      "peak_s2": 18.16,
+      "peak_token": " stacked",
+      "s2_lag1": 8.018,
+      "s2_lag2": -2.952,
+      "s2_lag3": 3.415
+    },
+    {
+      "poem": "Sir Patrick Spens",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "peak_s2": 17.954,
+      "peak_token": " red",
+      "s2_lag1": -2.3,
+      "s2_lag2": -0.264,
+      "s2_lag3": 0.03
+    },
+    {
+      "poem": "Paradoxes and Oxymorons",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "peak_s2": 17.734,
+      "peak_token": "L",
+      "s2_lag1": -0.255,
+      "s2_lag2": -1.806,
+      "s2_lag3": -1.382
+    },
+    {
+      "poem": "The Raven (opening stanzas)",
+      "author": "Edgar Allan Poe",
+      "era": "19th_century",
+      "peak_s2": 17.661,
+      "peak_token": "at",
+      "s2_lag1": -4.228,
+      "s2_lag2": -2.146,
+      "s2_lag3": -4.697
+    },
+    {
+      "poem": "Edward, Edward",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "peak_s2": 17.466,
+      "peak_token": "is",
+      "s2_lag1": 1.381,
+      "s2_lag2": 1.216,
+      "s2_lag3": 7.223
+    },
+    {
+      "poem": "Bonnie George Campbell",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "peak_s2": 17.445,
+      "peak_token": "Bon",
+      "s2_lag1": -5.834,
+      "s2_lag2": 6.914,
+      "s2_lag3": 6.308
+    },
+    {
+      "poem": "O Captain! My Captain! (stanza 1)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "peak_s2": 17.325,
+      "peak_token": " fearful",
+      "s2_lag1": 2.69,
+      "s2_lag2": -2.157,
+      "s2_lag3": 3.195
+    },
+    {
+      "poem": "O Captain! My Captain!",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "peak_s2": 17.325,
+      "peak_token": " fearful",
+      "s2_lag1": 2.69,
+      "s2_lag2": -2.157,
+      "s2_lag3": 3.195
+    },
+    {
+      "poem": "Ode to the West Wind (stanza 1)",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "peak_s2": 16.721,
+      "peak_token": " fleeing",
+      "s2_lag1": -1.785,
+      "s2_lag2": 5.805,
+      "s2_lag3": -5.566
+    },
+    {
+      "poem": "Possibilities",
+      "author": "Wislawa Szymborska",
+      "era": "contemporary",
+      "peak_s2": 16.659,
+      "peak_token": " liking",
+      "s2_lag1": -2.487,
+      "s2_lag2": 4.698,
+      "s2_lag3": 1.882
+    },
+    {
+      "poem": "I heard a Fly buzz \u2014 when I died",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "peak_s2": 16.588,
+      "peak_token": " witnessed",
+      "s2_lag1": -3.103,
+      "s2_lag2": -0.679,
+      "s2_lag3": -5.524
+    },
+    {
+      "poem": "Bomb",
+      "author": "Gregory Corso",
+      "era": "beat",
+      "peak_s2": 16.559,
+      "peak_token": " neb",
+      "s2_lag1": -1.27,
+      "s2_lag2": -2.645,
+      "s2_lag3": -2.361
+    },
+    {
+      "poem": "On First Looking into Chapman's Homer",
+      "author": "John Keats",
+      "era": "romantic",
+      "peak_s2": 16.514,
+      "peak_token": " trave",
+      "s2_lag1": -2.627,
+      "s2_lag2": -0.561,
+      "s2_lag3": -2.287
+    },
+    {
+      "poem": "The Fall",
+      "author": "Russell Edson",
+      "era": "prose_poetry",
+      "peak_s2": 16.402,
+      "peak_token": " indoors",
+      "s2_lag1": 10.563,
+      "s2_lag2": -1.824,
+      "s2_lag3": -1.357
+    },
+    {
+      "poem": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)",
+      "author": "Thomas Jefferson (found text)",
+      "era": "found_poetry",
+      "peak_s2": 16.376,
+      "peak_token": "der",
+      "s2_lag1": -1.14,
+      "s2_lag2": -2.09,
+      "s2_lag3": -4.282
+    }
+  ]
+}

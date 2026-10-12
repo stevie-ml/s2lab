@@ -4899,6 +4899,166 @@ how much more serene
 the hearts of people
 in spring would be."""
     },
+
+    # ─── LIMERICK (AABBA constraint — testing extreme formal constraint) ────
+    # Hypothesis: AABBA rhyme + anapestic meter should produce very low mean S2
+    # at rhyme positions (tightly constrained) but possibly spikes at semantic pivots.
+    {
+        "title": "There Was an Old Man of Nantucket",
+        "author": "Anonymous (limerick tradition)",
+        "year": 1902,
+        "era": "limerick",
+        "text": """There was an old man with a beard,
+Who said, 'It is just as I feared!
+Two Owls and a Hen,
+Four Larks and a Wren,
+Have all built their nests in my beard!'"""
+    },
+    {
+        "title": "A Limerick on Time",
+        "author": "Anonymous (limerick tradition)",
+        "year": 1900,
+        "era": "limerick",
+        "text": """There was a young lady named Bright,
+Whose speed was far faster than light;
+She set out one day,
+In a relative way,
+And returned on the previous night."""
+    },
+    {
+        "title": "There Once Was a Man from Peru",
+        "author": "Anonymous (limerick tradition)",
+        "year": 1910,
+        "era": "limerick",
+        "text": """There once was a man from Peru
+Who dreamed he was eating his shoe.
+He woke with a fright
+In the middle of the night
+And found that his dream had come true."""
+    },
+
+    # ─── OLD ENGLISH / EARLY MEDIEVAL ─────────────────────────────────────
+    # Alliterative verse — completely different formal constraint from rhyme.
+    # Testing: how does GPT-2 handle the most foreign register in the corpus?
+    {
+        "title": "Caedmon's Hymn (modern prose translation)",
+        "author": "Caedmon (trans. anon.)",
+        "year": 658,
+        "era": "old_english",
+        "text": """Now we must praise the Ruler of Heaven,
+the might of the Lord and his purpose of mind,
+the work of the Glorious Father, for he,
+God Eternal, established each wonder.
+He, Holy Creator, first fashioned
+the heavens as a roof for the children of men.
+Then the Guardian of mankind adorned
+this middle-earth below, the master Almighty."""
+    },
+    {
+        "title": "The Wanderer (excerpt, modern translation)",
+        "author": "Anonymous (Old English, trans. anon.)",
+        "year": 900,
+        "era": "old_english",
+        "text": """Often the solitary one finds grace for himself,
+the mercy of the Lord, although he, full of care,
+must stir with his hands for a long while
+the frost-cold sea, must tread the exile-paths.
+Fate is fully fixed! So spoke the earth-walker,
+mindful of hardships, of fierce slaughter,
+of the fall of dear kinsmen."""
+    },
+
+    # ─── PROTEST / POLITICAL POETRY ───────────────────────────────────────
+    # Testing whether political urgency creates different S2 signatures.
+    {
+        "title": "The New Colossus",
+        "author": "Emma Lazarus",
+        "year": 1883,
+        "era": "protest_political",
+        "text": """Not like the brazen giant of Greek fame,
+With conquering limbs astride from land to land;
+Here at our sea-washed, sunset gates shall stand
+A mighty woman with a torch, whose flame
+Is the imprisoned lightning, and her name
+Mother of Exiles. From her beacon-hand
+Glows world-wide welcome; her mild eyes command
+The air-bridged harbor that twin cities frame.
+
+"Keep, ancient lands, your storied pomp!" cries she
+With silent lips. "Give me your tired, your poor,
+Your huddled masses yearning to breathe free,
+The wretched refuse of your teeming shore.
+Send these, the homeless, tempest-tost to me,
+I lift my lamp beside the golden door!" """
+    },
+    {
+        "title": "Still I Rise",
+        "author": "Maya Angelou",
+        "year": 1978,
+        "era": "protest_political",
+        "text": """You may write me down in history
+With your bitter, twisted lies,
+You may trod me in the very dirt
+But still, like dust, I'll rise.
+
+Does my sassiness upset you?
+Why are you beset with gloom?
+'Cause I walk like I've got oil wells
+Pumping in my living room.
+
+Just like moons and like suns,
+With the certainty of tides,
+Just like hopes springing high,
+Still I'll rise."""
+    },
+
+    # ─── SLAM / SPOKEN WORD (additional) ─────────────────────────────────
+    # Testing whether oral performance register produces different S2 from page poetry.
+    {
+        "title": "Bluebird",
+        "author": "Charles Bukowski",
+        "year": 1992,
+        "era": "spoken_word",
+        "text": """there's a bluebird in my heart that
+wants to get out
+but I'm too tough for him,
+I say, stay in there, I'm not going
+to let anybody see
+you.
+
+there's a bluebird in my heart that
+wants to get out
+but I pour whiskey on him and inhale
+cigarette smoke
+and the whores and the bartenders
+and the grocery clerks
+never know that
+he's
+in there."""
+    },
+
+    # ─── GHAZAL (Urdu/Persian form) ────────────────────────────────────────
+    # Testing radabif (refrain) and maqta (signature couplet) conventions.
+    {
+        "title": "Ghazal of the Better-Unbegun",
+        "author": "Heather McHugh",
+        "year": 1994,
+        "era": "ghazal",
+        "text": """Too volatile, am I? Too voluble? Too much on fire?
+Better to be ice-of-eye than all on fire.
+
+When Hitler was turned down by art schools, back in Vienna,
+the schools were right. He had not enough on fire.
+
+When Mao forged policy from his Little Red Book,
+he put forty million Chinese on fire.
+
+I am the last from whom you would expect restraint,
+given what I'm by nature on fire.
+
+My God, I'm told, is a jealous god, and therefore
+I shouldn't let myself get too much on fire."""
+    },
 ]
 
 # Quick stats
