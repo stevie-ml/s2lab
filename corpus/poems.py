@@ -5059,6 +5059,174 @@ given what I'm by nature on fire.
 My God, I'm told, is a jealous god, and therefore
 I shouldn't let myself get too much on fire."""
     },
+
+    # ─── ADDITIONAL LIMERICKS ──────────────────────────────────────────────
+    # Expanding limerick corpus for statistical analysis of S2 by line position.
+    {
+        "title": "A Tutor Who Tooted the Flute",
+        "author": "Carolyn Wells",
+        "year": 1902,
+        "era": "limerick",
+        "text": """A tutor who tooted the flute
+Tried to tutor two tooters to toot.
+Said the two to the tutor,
+'Is it harder to toot, or
+To tutor two tooters to toot?'"""
+    },
+    {
+        "title": "A Flea and a Fly in a Flue",
+        "author": "Anonymous",
+        "year": 1880,
+        "era": "limerick",
+        "text": """A flea and a fly in a flue
+Were imprisoned, so what could they do?
+Said the fly, 'Let us flee!'
+'Let us fly!' said the flea.
+So they flew through a flaw in the flue."""
+    },
+    {
+        "title": "There Was an Old Person of Ware",
+        "author": "Edward Lear",
+        "year": 1847,
+        "era": "limerick",
+        "text": """There was an Old Person of Ware,
+Who rode on the back of a bear;
+When they asked, 'Does it trot?'
+He said, 'Certainly not!
+He's a Moppsikon Floppsikon bear!'"""
+    },
+    {
+        "title": "There Was a Young Man of Japan",
+        "author": "Anonymous",
+        "year": 1880,
+        "era": "limerick",
+        "text": """There was a young man of Japan
+Whose limericks never would scan.
+When they asked him why,
+He said, 'I do try,
+But I always put in too many words at the end of the last line as I can.'"""
+    },
+
+    # ─── WAR POETRY (WWI) ─────────────────────────────────────────────────
+    # Testing whether war poetry's directness produces different S2 from
+    # protest poetry's rhetorical register. Owen died 1918 (public domain).
+    {
+        "title": "Dulce et Decorum Est",
+        "author": "Wilfred Owen",
+        "year": 1917,
+        "era": "war_poetry",
+        "text": """Bent double, like old beggars under sacks,
+Knock-kneed, coughing like hags, we cursed through sludge,
+Till on the haunting flares we turned our backs
+And towards our distant rest began to trudge.
+Men marched asleep. Many had lost their boots
+But limped on, blood-shod. All went lame; all blind;
+Drunk with fatigue; deaf even to the hoots
+Of tired, outstripped Five-Nines that dropped behind.
+
+Gas! Gas! Quick, boys! An ecstasy of fumbling,
+Fitting the clumsy helmets just in time;
+But someone still was yelling out and stumbling,
+And flound'ring like a man in fire or lime...
+Dim, through the misty panes and thick green light,
+As under a green sea, I saw him drowning.
+In all my dreams, before my helpless sight,
+He plunges at me, guttering, choking, drowning.
+
+If in some smothering dreams you too could pace
+Behind the wagon that we flung him in,
+And watch the white eyes writhing in his face,
+His hanging face, like a devil's sick of sin;
+If you could hear, at every jolt, the blood
+Come gargling from the froth-corrupted lungs,
+Obscene as cancer, bitter as the cud
+Of vile, incurable sores on innocent tongues,
+My friend, you would not tell with such high zest
+To children ardent for some desperate glory,
+The old Lie: Dulce et decorum est
+Pro patria mori."""
+    },
+    {
+        "title": "Anthem for Doomed Youth",
+        "author": "Wilfred Owen",
+        "year": 1917,
+        "era": "war_poetry",
+        "text": """What passing-bells for these who die as cattle?
+Only the monstrous anger of the guns.
+Only the stuttering rifles' rapid rattle
+Can patter out their hasty orisons.
+No mockeries now for them; no prayers nor bells;
+Nor any voice of mourning save the choirs,—
+The shrill, demented choirs of wailing shells;
+And bugles calling for them from sad shires.
+
+What candles may be held to speed them all?
+Not in the hands of boys, but in their eyes
+Shall shine the holy glimmers of goodbyes.
+The pallor of girls' brows shall be their pall;
+Their flowers the tenderness of patient minds,
+And each slow dusk a drawing-down of blinds."""
+    },
+    {
+        "title": "The Soldier",
+        "author": "Rupert Brooke",
+        "year": 1914,
+        "era": "war_poetry",
+        "text": """If I should die, think only this of me:
+That there's some corner of a foreign field
+That is for ever England. There shall be
+In that rich earth a richer dust concealed;
+A dust whom England bore, shaped, made aware,
+Gave, once, her flowers to love, her ways to roam,
+A body of England's, breathing English air,
+Washed by the rivers, blest by suns of home.
+
+And think, this heart, all evil shed away,
+A pulse in the eternal mind, no less
+Gives somewhere back the thoughts by England given;
+Her sights and sounds; dreams happy as her day;
+And laughter, learnt of friends; and gentleness,
+In hearts at peace, under an English heaven."""
+    },
+
+    # ─── OLD ENGLISH (additional) ──────────────────────────────────────────
+    # Beowulf opening in Hall's 1892 public-domain prose translation.
+    # Testing: do battle scenes differ from devotional Old English (Caedmon)?
+    {
+        "title": "Beowulf: The Opening (Hall translation, 1892)",
+        "author": "Anonymous (trans. Hall)",
+        "year": 700,
+        "era": "old_english",
+        "text": """Lo, praise of the prowess of people-kings
+of spear-armed Danes, in days long sped,
+we have heard, and what honor the athelings won!
+Oft Scyld the Scefing from squadroned foes,
+from many a tribe, the mead-bench tore,
+awing the earls. Since erst he lay
+friendless, a foundling, fate repaid him:
+for he waxed under welkin, in wealth he throve,
+till before him the folk, both far and near,
+who house by the whale-path, heard his mandate,
+gave him gifts: a good king he!"""
+    },
+    {
+        "title": "Beowulf: The Fight with Grendel",
+        "author": "Anonymous (trans. Hall)",
+        "year": 700,
+        "era": "old_english",
+        "text": """The hero hardened his heart anew.
+He gathered his weapons and went to his rest.
+Grim was the grip of Grendel's hand,
+the demon's grasp was dreadful to feel.
+Neither blade nor point of iron could pierce
+the hide of that hellish spawn of the night.
+The monster minded nought but murder,
+the foul fiend felt no fear of men.
+But Beowulf gripped him, the greatest of heroes,
+and held him fast in his fearless hands,
+till joint-bark cracked and body broke,
+and the arm and shoulder asunder flew."""
+    },
 ]
 
 # Quick stats
