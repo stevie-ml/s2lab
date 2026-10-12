@@ -1,46 +1,46 @@
 {
-  "n_poems": 246,
+  "n_poems": 255,
   "global_correlations": {
     "mean_s2_vs_lag1_ac": {
-      "r": -0.0079,
-      "t": -0.12,
-      "n": 246
+      "r": 0.0034,
+      "t": 0.05,
+      "n": 255
     },
     "mean_s2_vs_gini": {
-      "r": 0.3586,
-      "t": 6.0,
-      "n": 246
+      "r": 0.3677,
+      "t": 6.29,
+      "n": 255
     },
     "mean_s2_vs_top10_conc": {
-      "r": -0.0914,
-      "t": -1.43,
-      "n": 246
+      "r": -0.0836,
+      "t": -1.33,
+      "n": 255
     }
   },
   "quartile_analysis": [
     {
       "quartile": "Q1_low",
-      "mean_s2": -1.061,
-      "mean_ac1": -0.0218,
-      "mean_conc": 0.2821
+      "mean_s2": -1.069,
+      "mean_ac1": -0.0259,
+      "mean_conc": 0.2723
     },
     {
       "quartile": "Q2",
-      "mean_s2": -0.601,
-      "mean_ac1": -0.0022,
-      "mean_conc": 0.2411
+      "mean_s2": -0.611,
+      "mean_ac1": -0.004,
+      "mean_conc": 0.249
     },
     {
       "quartile": "Q3",
-      "mean_s2": -0.262,
-      "mean_ac1": -0.0016,
-      "mean_conc": 0.2562
+      "mean_s2": -0.272,
+      "mean_ac1": -0.0045,
+      "mean_conc": 0.2572
     },
     {
       "quartile": "Q4_high",
-      "mean_s2": 0.283,
-      "mean_ac1": -0.018,
-      "mean_conc": 0.2703
+      "mean_s2": 0.272,
+      "mean_ac1": -0.0183,
+      "mean_conc": 0.2714
     }
   ],
   "era_data": [
@@ -99,6 +99,14 @@
       "mean_ac1": -0.0271,
       "mean_gini": 0.3948,
       "mean_conc": 0.2568
+    },
+    {
+      "era": "old_english",
+      "n": 2,
+      "mean_s2": -0.191,
+      "mean_ac1": -0.1038,
+      "mean_gini": 0.3849,
+      "mean_conc": 0.2654
     },
     {
       "era": "oulipo",
@@ -261,6 +269,14 @@
       "mean_conc": 0.2362
     },
     {
+      "era": "spoken_word",
+      "n": 3,
+      "mean_s2": -0.585,
+      "mean_ac1": -0.0926,
+      "mean_gini": 0.3835,
+      "mean_conc": 0.2639
+    },
+    {
       "era": "latin_american",
       "n": 3,
       "mean_s2": -0.587,
@@ -301,20 +317,20 @@
       "mean_conc": 0.2338
     },
     {
-      "era": "spoken_word",
-      "n": 2,
-      "mean_s2": -0.675,
-      "mean_ac1": -0.1241,
-      "mean_gini": 0.3404,
-      "mean_conc": 0.1996
-    },
-    {
       "era": "japanese_classical",
       "n": 2,
       "mean_s2": -0.705,
       "mean_ac1": -0.1792,
       "mean_gini": 0.3194,
       "mean_conc": 0.1948
+    },
+    {
+      "era": "protest_political",
+      "n": 2,
+      "mean_s2": -0.73,
+      "mean_ac1": -0.0321,
+      "mean_gini": 0.3658,
+      "mean_conc": 0.2659
     },
     {
       "era": "concrete",
@@ -333,6 +349,14 @@
       "mean_conc": 0.2255
     },
     {
+      "era": "limerick",
+      "n": 3,
+      "mean_s2": -1.123,
+      "mean_ac1": -0.1318,
+      "mean_gini": 0.3444,
+      "mean_conc": 0.2343
+    },
+    {
       "era": "control",
       "n": 5,
       "mean_s2": -1.736,
@@ -342,9 +366,9 @@
     }
   ],
   "era_level_correlation": {
-    "r": -0.136,
-    "t": -0.81,
-    "n": 37
+    "r": -0.0737,
+    "t": -0.46,
+    "n": 40
   },
   "per_poem": [
     {
@@ -3544,6 +3568,123 @@
       "lag2_ac": -0.1931,
       "gini": 0.3217,
       "top10_concentration": 0.2031
+    },
+    {
+      "title": "There Was an Old Man of Nantucket",
+      "author": "Anonymous (limerick tradition)",
+      "era": "limerick",
+      "n_af": 45,
+      "mean_s2": -1.2176,
+      "std_s2": 3.0772,
+      "pos_ratio": 0.2,
+      "lag1_ac": -0.0676,
+      "lag2_ac": -0.0842,
+      "gini": 0.349,
+      "top10_concentration": 0.2464
+    },
+    {
+      "title": "A Limerick on Time",
+      "author": "Anonymous (limerick tradition)",
+      "era": "limerick",
+      "n_af": 37,
+      "mean_s2": -0.9714,
+      "std_s2": 2.8532,
+      "pos_ratio": 0.2432,
+      "lag1_ac": -0.3862,
+      "lag2_ac": 0.3017,
+      "gini": 0.3225,
+      "top10_concentration": 0.2141
+    },
+    {
+      "title": "There Once Was a Man from Peru",
+      "author": "Anonymous (limerick tradition)",
+      "era": "limerick",
+      "n_af": 37,
+      "mean_s2": -1.1796,
+      "std_s2": 2.8342,
+      "pos_ratio": 0.2432,
+      "lag1_ac": 0.0584,
+      "lag2_ac": 0.2458,
+      "gini": 0.3616,
+      "top10_concentration": 0.2424
+    },
+    {
+      "title": "Caedmon's Hymn (modern prose translation)",
+      "author": "Caedmon (trans. anon.)",
+      "era": "old_english",
+      "n_af": 76,
+      "mean_s2": -0.0259,
+      "std_s2": 3.591,
+      "pos_ratio": 0.4605,
+      "lag1_ac": -0.0521,
+      "lag2_ac": -0.0257,
+      "gini": 0.4027,
+      "top10_concentration": 0.3041
+    },
+    {
+      "title": "The Wanderer (excerpt, modern translation)",
+      "author": "Anonymous (Old English, trans. anon.)",
+      "era": "old_english",
+      "n_af": 79,
+      "mean_s2": -0.3563,
+      "std_s2": 3.7559,
+      "pos_ratio": 0.3924,
+      "lag1_ac": -0.1556,
+      "lag2_ac": -0.1062,
+      "gini": 0.3671,
+      "top10_concentration": 0.2267
+    },
+    {
+      "title": "The New Colossus",
+      "author": "Emma Lazarus",
+      "era": "protest_political",
+      "n_af": 155,
+      "mean_s2": -0.8307,
+      "std_s2": 3.4538,
+      "pos_ratio": 0.3419,
+      "lag1_ac": -0.0587,
+      "lag2_ac": -0.028,
+      "gini": 0.3692,
+      "top10_concentration": 0.2763
+    },
+    {
+      "title": "Still I Rise",
+      "author": "Maya Angelou",
+      "era": "protest_political",
+      "n_af": 95,
+      "mean_s2": -0.6295,
+      "std_s2": 3.207,
+      "pos_ratio": 0.3158,
+      "lag1_ac": -0.0054,
+      "lag2_ac": 0.083,
+      "gini": 0.3623,
+      "top10_concentration": 0.2555
+    },
+    {
+      "title": "Bluebird",
+      "author": "Charles Bukowski",
+      "era": "spoken_word",
+      "n_af": 93,
+      "mean_s2": -0.403,
+      "std_s2": 4.7203,
+      "pos_ratio": 0.2581,
+      "lag1_ac": -0.0296,
+      "lag2_ac": -0.0326,
+      "gini": 0.4697,
+      "top10_concentration": 0.3925
+    },
+    {
+      "title": "Ghazal of the Better-Unbegun",
+      "author": "Heather McHugh",
+      "era": "ghazal",
+      "n_af": 120,
+      "mean_s2": -0.4135,
+      "std_s2": 3.6743,
+      "pos_ratio": 0.325,
+      "lag1_ac": 0.0227,
+      "lag2_ac": 0.1529,
+      "gini": 0.3707,
+      "top10_concentration": 0.2239
     }
   ]
 }

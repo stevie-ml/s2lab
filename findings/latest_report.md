@@ -1,6 +1,6 @@
 # S₂ Lab Research Report
-**Generated:** 2026-10-12 07:10:41
-**Corpus:** 248 texts analyzed with GPT-2
+**Generated:** 2026-10-12 07:40:21
+**Corpus:** 257 texts analyzed with GPT-2
 **Model:** gpt2 (117M parameters)
 
 ---
@@ -27,14 +27,17 @@ Do different literary movements produce systematically different information-the
 | harlem_renaissance | 5 | 0.63 | **-0.39** | 37% | 31.07 |
 | fixed_form | 8 | 0.60 | **-0.56** | 34% | 30.18 |
 | modernist | 24 | 0.60 | **-0.35** | 38% | 39.17 |
+| ghazal | 1 | 0.54 | **-0.41** | 34% | 35.04 |
 | confessional | 6 | 0.50 | **-0.23** | 41% | 35.23 |
 | beat | 6 | 0.46 | **0.07** | 32% | 36.66 |
 | german_expressionist | 6 | 0.44 | **0.10** | 41% | 28.16 |
 | german_symbolist | 3 | 0.42 | **0.45** | 45% | 23.40 |
 | victorian | 21 | 0.41 | **-0.32** | 38% | 34.00 |
+| protest_political | 2 | 0.36 | **-0.75** | 36% | 34.25 |
 | 19th_century | 11 | 0.27 | **-0.46** | 39% | 35.25 |
 | deep_image | 1 | 0.25 | **0.07** | 45% | 12.62 |
 | latin_american | 3 | 0.16 | **-0.54** | 33% | 36.73 |
+| old_english | 2 | 0.11 | **-0.19** | 44% | 19.83 |
 | ancient | 3 | 0.11 | **-0.20** | 41% | 24.76 |
 | nursery_rhyme | 1 | 0.10 | **-0.82** | 32% | 26.92 |
 | romantic | 15 | 0.09 | **-0.43** | 37% | 31.85 |
@@ -47,19 +50,20 @@ Do different literary movements produce systematically different information-the
 | 18th_century | 2 | -0.08 | **-0.27** | 34% | 22.02 |
 | japanese_classical | 2 | -0.15 | **-0.71** | 38% | 17.39 |
 | metaphysical | 4 | -0.17 | **-0.65** | 38% | 27.32 |
+| spoken_word | 3 | -0.17 | **-0.59** | 32% | 27.73 |
 | new_york_school | 18 | -0.18 | **-0.57** | 36% | 29.70 |
 | prose_poetry | 12 | -0.18 | **-0.47** | 34% | 34.59 |
 | classical_chinese | 4 | -0.22 | **-0.56** | 35% | 20.15 |
 | found_poetry | 7 | -0.32 | **-0.61** | 28% | 27.28 |
 | surrealist | 1 | -0.33 | **-0.68** | 33% | 19.75 |
 | biblical | 7 | -0.42 | **-0.56** | 32% | 21.23 |
-| spoken_word | 2 | -0.45 | **-0.68** | 33% | 23.17 |
+| limerick | 3 | -0.49 | **-1.13** | 25% | 20.88 |
 | control | 5 | -1.66 | **-1.72** | 20% | 12.11 |
 
 ### Finding
-After removing stanza-break artifact positions, **german_modernist** has the highest artifact-free avg S₂ (0.63), while **cliche_control** is lowest among poetry (-0.87). Prose control: -1.72.
-Only 5 of 41 poetry eras have positive artifact-free avg S₂ — **most era averages are negative once cleaned** (the artifact inflated them).
-The core claim survives: **poetry is less statistically conformist than prose** (gap = 1.33 bits artifact-free), but the absolute positive-S₂ framing does not hold.
+After removing stanza-break artifact positions, **german_modernist** has the highest artifact-free avg S₂ (0.63), while **limerick** is lowest among poetry (-1.13). Prose control: -1.72.
+Only 5 of 45 poetry eras have positive artifact-free avg S₂ — **most era averages are negative once cleaned** (the artifact inflated them).
+The core claim survives: **poetry is less statistically conformist than prose** (gap = 1.31 bits artifact-free), but the absolute positive-S₂ framing does not hold.
 
 ---
 
@@ -151,23 +155,23 @@ What does GPT-2 expect when poets deviate? Can we categorize the 'unsaid'?
   - GPT-2 expected: "" (100.0%)
   - S₂ = 35.14
 
+- **Heather McHugh**, "Ghazal of the Better-Unbegun":
+  - Context: `... restraint,
+` → poet wrote **"given"**
+  - GPT-2 expected: "" (100.0%)
+  - S₂ = 35.04
+
 - **David Antin**, "a list of the delusions of the insane (excerpt)":
   - Context: `... buried alive
 ` → poet wrote **"being"**
   - GPT-2 expected: "" (100.0%)
   - S₂ = 34.59
 
-- **John Berryman**, "Dream Song 14 (opening)":
-  - Context: `... have no
-` → poet wrote **"inner"**
-  - GPT-2 expected: "" (99.9%)
-  - S₂ = 34.11
-
-- **Thomas Hardy**, "The Convergence of the Twain (excerpt)":
-  - Context: `... fires,
-` → poet wrote **"Cold"**
+- **Emma Lazarus**, "The New Colossus":
+  - Context: `... shore.
+` → poet wrote **"Send"**
   - GPT-2 expected: "" (100.0%)
-  - S₂ = 34.00
+  - S₂ = 34.25
 
 ### Finding
 The 'unsaid' falls into distinct categories. When poets deviate most sharply from expectation, the model's top prediction reveals what *conventional* language would do in that position. This makes the poet's choice legible as a *decision* — not random noise, but a deliberate suppression of the expected in favor of something the poet needed to say.
@@ -180,23 +184,23 @@ Do high-S₂ moments cluster at beginnings, endings, or enjambments?
 
 | Position in poem | Avg S₂ | Median S₂ | n tokens |
 |---|---|---|---|
-| first_10% | 0.89 | -0.62 | 2769 |
-| 10-25% | 0.27 | -1.02 | 4340 |
-| 25-50% | 0.14 | -1.01 | 7243 |
-| 50-75% | 0.10 | -0.99 | 7180 |
-| 75-90% | 0.34 | -0.91 | 4311 |
-| last_10% | 0.10 | -0.99 | 2989 |
+| first_10% | 0.87 | -0.63 | 2841 |
+| 10-25% | 0.28 | -1.02 | 4458 |
+| 25-50% | 0.14 | -1.02 | 7439 |
+| 50-75% | 0.11 | -1.00 | 7371 |
+| 75-90% | 0.32 | -0.95 | 4427 |
+| last_10% | 0.11 | -1.01 | 3069 |
 
 ### Line break analysis:
-- Avg S₂ at newline tokens: **-1.58** (n=2708)
-- Avg S₂ at tokens immediately after newline (raw): **6.61** (n=2708)
-- Avg S₂ at tokens immediately after newline (**artifact-free**): **0.15** (n=1700)
-- Avg S₂ at all other tokens: **0.44** (n=26124)
+- Avg S₂ at newline tokens: **-1.58** (n=2788)
+- Avg S₂ at tokens immediately after newline (raw): **6.63** (n=2788)
+- Avg S₂ at tokens immediately after newline (**artifact-free**): **0.16** (n=1746)
+- Avg S₂ at all other tokens: **0.44** (n=26817)
 
 > ⚠️ The raw post-newline figure is dominated by the stanza-break artifact (see `findings/stanza_break_artifact.md`). The artifact-free value is near-zero. **The enjambment finding does not survive artifact removal.**
 
 ### Finding
-Artifact-free post-newline S₂ = 0.15 vs other tokens = 0.44. Line-head tokens are at or below baseline once artifact positions are removed. The Straussian gap is distributed throughout the poem, not concentrated at line breaks.
+Artifact-free post-newline S₂ = 0.16 vs other tokens = 0.44. Line-head tokens are at or below baseline once artifact positions are removed. The Straussian gap is distributed throughout the poem, not concentrated at line breaks.
 
 ---
 
@@ -258,6 +262,7 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | Lucille Clifton | 3 | -0.36 | 3.91 | 31% | 20.07 | smooth/conventional |
 | Russell Edson | 2 | -0.39 | 3.20 | 30% | 12.25 | smooth/conventional |
 | Anonymous (Hebrew Bible) | 7 | -0.42 | 3.60 | 32% | 16.15 | smooth/conventional |
+| Anonymous (limerick tradition) | 3 | -0.49 | 4.51 | 25% | 19.40 | smooth/conventional |
 | Charles Bernstein | 2 | -0.61 | 3.73 | 30% | 17.25 | smooth/conventional |
 | William Shakespeare | 3 | -0.62 | 3.51 | 30% | 19.15 | smooth/conventional |
 
@@ -272,13 +277,13 @@ Do 'great' poems have distinctive S₂ profiles?
 
 > ⚠️ **Stanza-break artifact:** Raw S₂ numbers are inflated by layout positions. See `findings/stanza_break_artifact.md` for details.
 
-- Poetry avg S₂ (raw): **0.33** (σ=0.90, n=243)
+- Poetry avg S₂ (raw): **0.32** (σ=0.89, n=252)
 - Control prose avg S₂ (raw): **-1.66** (σ=0.67, n=5)
-- Gap (raw): **2.00**
+- Gap (raw): **1.99**
 
-- Poetry avg S₂ (artifact-free): **-0.379**
+- Poetry avg S₂ (artifact-free): **-0.385**
 - Control prose avg S₂ (artifact-free): **-1.721**
-- Gap (artifact-free): **1.342** (67% of raw gap survives)
+- Gap (artifact-free): **1.336** (67% of raw gap survives)
 
 - Poetry: 36% of tokens have positive S₂ (raw)
 - Control prose: 20% of tokens have positive S₂ (raw)

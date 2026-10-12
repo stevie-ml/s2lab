@@ -1,56 +1,56 @@
 {
-  "n_poems": 235,
+  "n_poems": 244,
   "lag1_correlation": {
-    "r": 0.0165,
-    "t": 2.72
+    "r": 0.0151,
+    "t": 2.51
   },
   "spike_recovery": {
     "1": {
-      "spike_mean": -0.3493,
-      "nonspike_mean": -0.3937,
-      "diff": 0.0444
+      "spike_mean": -0.3687,
+      "nonspike_mean": -0.3971,
+      "diff": 0.0284
     },
     "2": {
-      "spike_mean": -0.3993,
-      "nonspike_mean": -0.3962,
-      "diff": -0.003
+      "spike_mean": -0.4074,
+      "nonspike_mean": -0.4004,
+      "diff": -0.007
     },
     "3": {
-      "spike_mean": -0.358,
-      "nonspike_mean": -0.4092,
-      "diff": 0.0512
+      "spike_mean": -0.354,
+      "nonspike_mean": -0.4149,
+      "diff": 0.0609
     }
   },
   "binned_s2_following": {
     "< -5": {
-      "n": 1177,
-      "mean": -0.3366,
-      "median": -0.8297
+      "n": 1208,
+      "mean": -0.3212,
+      "median": -0.8212
     },
     "-5 to -2": {
-      "n": 8989,
-      "mean": -0.4946,
+      "n": 9267,
+      "mean": -0.494,
       "median": -1.3235
     },
     "-2 to 0": {
-      "n": 7762,
-      "mean": -0.3286,
-      "median": -0.9163
+      "n": 7943,
+      "mean": -0.3392,
+      "median": -0.9309
     },
     "0 to 2": {
-      "n": 3561,
-      "mean": -0.355,
-      "median": -1.2198
+      "n": 3657,
+      "mean": -0.3405,
+      "median": -1.2202
     },
     "2 to 5": {
-      "n": 3220,
-      "mean": -0.4054,
-      "median": -1.3214
+      "n": 3307,
+      "mean": -0.426,
+      "median": -1.3323
     },
     "> 5": {
-      "n": 2420,
-      "mean": -0.2447,
-      "median": -1.1991
+      "n": 2475,
+      "mean": -0.2685,
+      "median": -1.225
     }
   },
   "top_peaks": [
@@ -73,6 +73,16 @@
       "s2_lag1": -1.573,
       "s2_lag2": 6.664,
       "s2_lag3": 1.736
+    },
+    {
+      "poem": "Bluebird",
+      "author": "Charles Bukowski",
+      "era": "spoken_word",
+      "peak_s2": 27.734,
+      "peak_token": " pour",
+      "s2_lag1": 3.553,
+      "s2_lag2": -1.995,
+      "s2_lag3": -1.639
     },
     {
       "poem": "The Fish",
@@ -343,16 +353,6 @@
       "s2_lag1": 10.563,
       "s2_lag2": -1.824,
       "s2_lag3": -1.357
-    },
-    {
-      "poem": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)",
-      "author": "Thomas Jefferson (found text)",
-      "era": "found_poetry",
-      "peak_s2": 16.376,
-      "peak_token": "der",
-      "s2_lag1": -1.14,
-      "s2_lag2": -2.09,
-      "s2_lag3": -4.282
     }
   ]
 }
