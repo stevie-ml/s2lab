@@ -4764,6 +4764,141 @@ No layoff
 from this
 condensery"""
     },
+
+    # ─── CLASSICAL CHINESE (Tang Dynasty, scholarly literal translations) ────
+    # Added to test cross-cultural S2: does paratactic, imagistic Chinese verse
+    # produce a distinctive information-theoretic signature when translated into
+    # English? Predicted: high S2 due to ellipsis, terse noun-image stacking,
+    # and absent connectives.
+    {
+        "title": "Spring View (literal trans.)",
+        "author": "Du Fu",
+        "year": 757,
+        "era": "classical_chinese",
+        "text": """The state is broken; mountains and rivers remain.
+Spring comes to the walled city; grass and trees grow deep.
+Moved by the season, flowers shed tears.
+Grieved by parting, birds startle the heart.
+Beacon fires have burned for three months.
+A letter from home is worth ten thousand gold.
+My white hair, scratched ever shorter,
+can barely hold a hairpin."""
+    },
+    {
+        "title": "Quiet Night Thoughts (literal trans.)",
+        "author": "Li Bai",
+        "year": 726,
+        "era": "classical_chinese",
+        "text": """Before my bed, bright moonlight—
+I think it frost on the ground.
+I raise my head and gaze at the bright moon,
+I lower my head and think of home."""
+    },
+    {
+        "title": "Deer Park (literal trans.)",
+        "author": "Wang Wei",
+        "year": 740,
+        "era": "classical_chinese",
+        "text": """Empty mountain: no one is seen.
+Only the sound of someone's voice.
+Returning light enters the deep forest
+and shines again upon the green moss."""
+    },
+    {
+        "title": "On the Tower of Yellow Crane (literal trans.)",
+        "author": "Cui Hao",
+        "year": 730,
+        "era": "classical_chinese",
+        "text": """The man of old rode off on a yellow crane
+and left this tower empty, Yellow Crane Tower.
+The yellow crane, once gone, will not return.
+White clouds drift idly, a thousand years.
+Clear Hanyang trees in the sunlit river,
+sweet grass on Parrot Island, lush and green.
+At dusk, where is my native village?
+Mist on the river makes me ache."""
+    },
+
+    # ─── PERSIAN (classical and Sufi, public-domain translations) ─────────────
+    # Persian poetry (Rumi, Omar Khayyam) tests whether Sufi paradox and the
+    # ghazal structure produce distinctive S2. FitzGerald's Rubaiyat (1859)
+    # is fully public domain.
+    {
+        "title": "Rubaiyat of Omar Khayyam (stanzas 7–10)",
+        "author": "Omar Khayyam (trans. FitzGerald, 1859)",
+        "year": 1120,
+        "era": "persian",
+        "text": """Come, fill the Cup, and in the fire of Spring
+Your Winter-garment of Repentance fling:
+    The Bird of Time has but a little way
+To flutter—and the Bird is on the Wing.
+
+Whether at Naishápur or Babylon,
+Whether the Cup with sweet or bitter run,
+    The Wine of Life keeps oozing drop by drop,
+The Leaves of Life keep falling one by one.
+
+Each Morn a thousand Roses brings, you say;
+Yes, but where leaves the Rose of Yesterday?
+    And this first Summer month that brings the Rose
+Shall take Jamshýd and Kaikobád away.
+
+Well, let it take them! What have we to do
+With Kaikobád the Great, or Kaikobás?
+    Let Zál and Rustum bluster as they will,
+Or Hátim call to Supper—heed not you."""
+    },
+    {
+        "title": "Rubaiyat of Omar Khayyam (stanzas 11–14)",
+        "author": "Omar Khayyam (trans. FitzGerald, 1859)",
+        "year": 1120,
+        "era": "persian",
+        "text": """With me along the strip of Herbage strown
+That just divides the desert from the sown,
+    Where name of Slave and Sultán is forgot—
+And Peace to Máhmud on his golden Throne!
+
+A Book of Verses underneath the Bough,
+A Jug of Wine, a Loaf of Bread—and Thou
+    Beside me singing in the Wilderness—
+Oh, Wilderness were Paradise enow!
+
+Some for the Glories of This World; and some
+Sigh for the Prophet's Paradise to come;
+    Ah, take the Cash, and let the Credit go,
+Nor heed the rumble of a distant Drum!
+
+Look to the blowing Rose about us—'Lo,
+Laughing,' she says, 'into the world I blow,
+    At once the silken tassel of my Purse
+Tear, and its Treasure on the Garden throw.'"""
+    },
+
+    # ─── JAPANESE TANKA (classical waka, complementing our haiku corpus) ──────
+    # Tanka (5-7-5-7-7 syllable form) is older than haiku and more narrative.
+    # Adding to test whether the extra 14 syllables of the coda change S2 arc.
+    {
+        "title": "Tanka on longing (Ki no Tsurayuki, literal trans.)",
+        "author": "Ki no Tsurayuki",
+        "year": 905,
+        "era": "japanese_classical",
+        "text": """When I look at the moon
+I think of many things—
+not just this autumn—
+these thousand years of autumn
+that have come and gone like this."""
+    },
+    {
+        "title": "Tanka on cherry blossoms (Ariwara no Narihira, literal trans.)",
+        "author": "Ariwara no Narihira",
+        "year": 880,
+        "era": "japanese_classical",
+        "text": """If there were no cherry blossoms
+in this world,
+how much more serene
+the hearts of people
+in spring would be."""
+    },
 ]
 
 # Quick stats

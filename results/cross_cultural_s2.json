@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-12",
+  "focus_eras": {
+    "classical_chinese": [
+      {
+        "title": "Spring View (literal trans.)",
+        "author": "Du Fu",
+        "era": "classical_chinese",
+        "year": 757,
+        "n": 84,
+        "avg_s2": -0.53445,
+        "std_s2": 3.5687323293340083,
+        "pos_ratio": 0.34523809523809523,
+        "avg_h": 6.535964285714286,
+        "max_s2": 12.2423,
+        "p90_s2": 4.3332
+      },
+      {
+        "title": "Quiet Night Thoughts (literal trans.)",
+        "author": "Li Bai",
+        "era": "classical_chinese",
+        "year": 726,
+        "n": 36,
+        "avg_s2": -0.34210277777777776,
+        "std_s2": 4.330702903718723,
+        "pos_ratio": 0.2777777777777778,
+        "avg_h": 5.752533333333333,
+        "max_s2": 13.2768,
+        "p90_s2": 5.3563
+      },
+      {
+        "title": "Deer Park (literal trans.)",
+        "author": "Wang Wei",
+        "era": "classical_chinese",
+        "year": 740,
+        "n": 32,
+        "avg_s2": -0.9864125,
+        "std_s2": 3.3698858967712932,
+        "pos_ratio": 0.3125,
+        "avg_h": 7.301259375,
+        "max_s2": 6.6203,
+        "p90_s2": 3.7123
+      },
+      {
+        "title": "On the Tower of Yellow Crane (literal trans.)",
+        "author": "Cui Hao",
+        "era": "classical_chinese",
+        "year": 730,
+        "n": 86,
+        "avg_s2": -0.51205,
+        "std_s2": 3.7414706470222923,
+        "pos_ratio": 0.37209302325581395,
+        "avg_h": 6.8721093023255815,
+        "max_s2": 14.4875,
+        "p90_s2": 4.3877
+      }
+    ],
+    "persian": [
+      {
+        "title": "Rubaiyat of Omar Khayyam (stanzas 7\u201310)",
+        "author": "Omar Khayyam (trans. FitzGerald, 1859)",
+        "era": "persian",
+        "year": 1120,
+        "n": 193,
+        "avg_s2": -0.18552435233160622,
+        "std_s2": 3.6628506484558523,
+        "pos_ratio": 0.39378238341968913,
+        "avg_h": 6.6488367875647665,
+        "max_s2": 13.6885,
+        "p90_s2": 4.5794
+      },
+      {
+        "title": "Rubaiyat of Omar Khayyam (stanzas 11\u201314)",
+        "author": "Omar Khayyam (trans. FitzGerald, 1859)",
+        "era": "persian",
+        "year": 1120,
+        "n": 189,
+        "avg_s2": -0.28533756613756617,
+        "std_s2": 3.9556288920490497,
+        "pos_ratio": 0.37566137566137564,
+        "avg_h": 6.966412698412698,
+        "max_s2": 12.7642,
+        "p90_s2": 5.6623
+      }
+    ],
+    "japanese_classical": [
+      {
+        "title": "Tanka on longing (Ki no Tsurayuki, literal trans.)",
+        "author": "Ki no Tsurayuki",
+        "era": "japanese_classical",
+        "year": 905,
+        "n": 32,
+        "avg_s2": -0.7146281250000001,
+        "std_s2": 3.6376656105729066,
+        "pos_ratio": 0.375,
+        "avg_h": 6.565240625,
+        "max_s2": 7.3874,
+        "p90_s2": 5.1087
+      },
+      {
+        "title": "Tanka on cherry blossoms (Ariwara no Narihira, literal trans.)",
+        "author": "Ariwara no Narihira",
+        "era": "japanese_classical",
+        "year": 880,
+        "n": 27,
+        "avg_s2": -0.6953074074074074,
+        "std_s2": 2.95825620983375,
+        "pos_ratio": 0.3333333333333333,
+        "avg_h": 5.741866666666667,
+        "max_s2": 5.2192,
+        "p90_s2": 4.0086
+      }
+    ]
+  },
+  "era_summaries": {
+    "classical_chinese": [
+      4,
+      -0.5937538194444445,
+      0.32690222406792174,
+      6.6154665740933005,
+      14.4875
+    ],
+    "persian": [
+      2,
+      -0.23543095923458618,
+      0.3847218795405324,
+      6.807624742988732,
+      13.6885
+    ],
+    "japanese_classical": [
+      2,
+      -0.7049677662037037,
+      0.35416666666666663,
+      6.153553645833334,
+      7.3874
+    ],
+    "haiku": [
+      14,
+      0.03305996047560609,
+      0.3723524142098311,
+      7.071923971877937,
+      16.6473
+    ],
+    "ancient": [
+      3,
+      -0.1873611272141707,
+      0.3972624798711755,
+      6.750383011272142,
+      14.3298
+    ],
+    "metaphysical": [
+      4,
+      -0.5577373169067549,
+      0.36671247035906734,
+      6.828041627795395,
+      15.3637
+    ],
+    "romantic": [
+      15,
+      -0.4699900848405655,
+      0.3556827308630598,
+      6.844593041328001,
+      16.7212
+    ],
+    "victorian": [
+      21,
+      -0.3052883587994226,
+      0.3649328047635326,
+      6.624621271792523,
+      22.0877
+    ],
+    "modernist": [
+      24,
+      -0.4046057225044984,
+      0.3600504678096723,
+      6.597251666485864,
+      25.6338
+    ],
+    "imagist": [
+      3,
+      -0.40294284409340186,
+      0.3682241618347095,
+      6.425271059137692,
+      15.8961
+    ],
+    "control": [
+      5,
+      -1.7361703135097197,
+      0.19958931440577715,
+      5.589887214954447,
+      7.1919
+    ]
+  }
+}
