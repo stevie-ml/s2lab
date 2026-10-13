@@ -1,0 +1,515 @@
+{
+  "n_total_sensory": 145,
+  "n_cross_domain": 42,
+  "n_same_domain": 103,
+  "cross_domain_mean_s2": -0.09225238095238092,
+  "same_domain_mean_s2": -2.4492601941747574,
+  "delta_s2": 2.3570078132223764,
+  "cross_domain_pos_s2_pct": 40.476190476190474,
+  "same_domain_pos_s2_pct": 13.592233009708737,
+  "domain_stats": {
+    "visual": {
+      "n": 108,
+      "avg_s2": 1.1643481481481481,
+      "pos_s2_pct": 54.629629629629626
+    },
+    "auditory": {
+      "n": 93,
+      "avg_s2": 0.7742096774193551,
+      "pos_s2_pct": 51.61290322580645
+    },
+    "tactile": {
+      "n": 106,
+      "avg_s2": 1.6294160377358486,
+      "pos_s2_pct": 66.0377358490566
+    },
+    "olfactory": {
+      "n": 47,
+      "avg_s2": 0.17032978723404246,
+      "pos_s2_pct": 51.06382978723404
+    },
+    "gustatory": {
+      "n": 18,
+      "avg_s2": 0.803111111111111,
+      "pos_s2_pct": 61.111111111111114
+    }
+  },
+  "top_cross_domain": [
+    {
+      "token": " moist",
+      "s2": 6.2811,
+      "token_domain": "tactile",
+      "alt_domain": "visual",
+      "alt_domain_prob": 0.008579201996326447,
+      "all_alt_domains": {
+        "visual": 0.008579201996326447
+      },
+      "poem": "When I Heard the Learn'd Astronomer",
+      "author": "Walt Whitman",
+      "era": "romantic",
+      "is_cross_domain": true
+    },
+    {
+      "token": " fine",
+      "s2": 5.0101,
+      "token_domain": "tactile",
+      "alt_domain": "visual",
+      "alt_domain_prob": 0.012135368306189775,
+      "all_alt_domains": {
+        "visual": 0.012135368306189775,
+        "tactile": 0.0034333167131990194
+      },
+      "poem": "Lady Lazarus (opening)",
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "is_cross_domain": true
+    },
+    {
+      "token": " cold",
+      "s2": 4.5824,
+      "token_domain": "tactile",
+      "alt_domain": "auditory",
+      "alt_domain_prob": 0.012767222709953785,
+      "all_alt_domains": {
+        "auditory": 0.012767222709953785
+      },
+      "poem": "Self-Portrait in a Convex Mirror (closing)",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "is_cross_domain": true
+    },
+    {
+      "token": " rank",
+      "s2": 4.4946,
+      "token_domain": "olfactory",
+      "alt_domain": "visual",
+      "alt_domain_prob": 0.0054483856074512005,
+      "all_alt_domains": {
+        "visual": 0.0054483856074512005
+      },
+      "poem": "Eunoia: Chapter A (excerpt)",
+      "author": "Christian B\u00f6k",
+      "era": "oulipo",
+      "is_cross_domain": true
+    },
+    {
+      "token": " cold",
+      "s2": 3.6354,
+      "token_domain": "tactile",
+      "alt_domain": "auditory",
+      "alt_domain_prob": 0.017819298431277275,
+      "all_alt_domains": {
+        "auditory": 0.017819298431277275
+      },
+      "poem": "Three Haiku (Basho, translated)",
+      "author": "Matsuo Basho",
+      "era": "haiku",
+      "is_cross_domain": true
+    },
+    {
+      "token": " soft",
+      "s2": 3.2276,
+      "token_domain": "tactile",
+      "alt_domain": "visual",
+      "alt_domain_prob": 0.18137012422084808,
+      "all_alt_domains": {
+        "visual": 0.18137012422084808,
+        "auditory": 0.00557936355471611
+      },
+      "poem": "From 'Who Whispered Near Me' (excerpt)",
+      "author": "Killarney Clary",
+      "era": "prose_poetry",
+      "is_cross_domain": true
+    },
+    {
+      "token": " mild",
+      "s2": 3.0671,
+      "token_domain": "gustatory",
+      "alt_domain": "visual",
+      "alt_domain_prob": 0.024453488178551197,
+      "all_alt_domains": {
+        "auditory": 0.021862415596842766,
+        "visual": 0.024453488178551197
+      },
+      "poem": "The New Colossus",
+      "author": "Emma Lazarus",
+      "era": "protest_political",
+      "is_cross_domain": true
+    },
+    {
+      "token": " shadow",
+      "s2": 3.0649,
+      "token_domain": "visual",
+      "alt_domain": "auditory",
+      "alt_domain_prob": 0.007367773912847042,
+      "all_alt_domains": {
+        "auditory": 0.007367773912847042
+      },
+      "poem": "The Lipogram: A Sentence Without the Letter E",
+      "author": "Georges Perec",
+      "era": "oulipo",
+      "is_cross_domain": true
+    },
+    {
+      "token": " numb",
+      "s2": 3.0633,
+      "token_domain": "tactile",
+      "alt_domain": "auditory",
+      "alt_domain_prob": 0.017585672438144684,
+      "all_alt_domains": {
+        "auditory": 0.017585672438144684
+      },
+      "poem": "Ode to a Nightingale (stanza 1)",
+      "author": "John Keats",
+      "era": "romantic",
+      "is_cross_domain": true
+    },
+    {
+      "token": " flickering",
+      "s2": 2.7229,
+      "token_domain": "visual",
+      "alt_domain": "auditory",
+      "alt_domain_prob": 0.014386157505214214,
+      "all_alt_domains": {
+        "auditory": 0.014386157505214214
+      },
+      "poem": "Home on the Range",
+      "author": "Brewster Higley",
+      "era": "song_lyrics",
+      "is_cross_domain": true
+    },
+    {
+      "token": " cold",
+      "s2": 1.4602,
+      "token_domain": "tactile",
+      "alt_domain": "visual",
+      "alt_domain_prob": 0.01749560981988907,
+      "all_alt_domains": {
+        "visual": 0.01749560981988907
+      },
+      "poem": "Somnambulistic Ballad (excerpt)",
+      "author": "Federico Garc\u00eda Lorca (trans. Stephen Spender & J.L. Gili)",
+      "era": "latin_american",
+      "is_cross_domain": true
+    },
+    {
+      "token": " light",
+      "s2": 1.3823,
+      "token_domain": "visual",
+      "alt_domain": "tactile",
+      "alt_domain_prob": 0.05490463599562645,
+      "all_alt_domains": {
+        "tactile": 0.05490463599562645,
+        "visual": 0.04945343919098377
+      },
+      "poem": "Aubade (opening)",
+      "author": "Philip Larkin",
+      "era": "contemporary",
+      "is_cross_domain": true
+    },
+    {
+      "token": " silent",
+      "s2": 1.0486,
+      "token_domain": "auditory",
+      "alt_domain": "visual",
+      "alt_domain_prob": 0.050818465650081635,
+      "all_alt_domains": {
+        "visual": 0.050818465650081635
+      },
+      "poem": "Remember",
+      "author": "Christina Rossetti",
+      "era": "victorian",
+      "is_cross_domain": true
+    },
+    {
+      "token": " coarse",
+      "s2": 0.7031,
+      "token_domain": "tactile",
+      "alt_domain": "auditory",
+      "alt_domain_prob": 0.004142202902585268,
+      "all_alt_domains": {
+        "auditory": 0.004142202902585268
+      },
+      "poem": "Digging",
+      "author": "Seamus Heaney",
+      "era": "contemporary",
+      "is_cross_domain": true
+    },
+    {
+      "token": " silence",
+      "s2": 0.5673,
+      "token_domain": "auditory",
+      "alt_domain": "visual",
+      "alt_domain_prob": 0.03793734312057495,
+      "all_alt_domains": {
+        "visual": 0.03793734312057495
+      },
+      "poem": "The Listeners",
+      "author": "Walter de la Mare",
+      "era": "19th_century",
+      "is_cross_domain": true
+    },
+    {
+      "token": " light",
+      "s2": 0.2508,
+      "token_domain": "visual",
+      "alt_domain": "tactile",
+      "alt_domain_prob": 0.04633530601859093,
+      "all_alt_domains": {
+        "olfactory": 0.03093733638525009,
+        "tactile": 0.04633530601859093,
+        "visual": 0.013530377298593521
+      },
+      "poem": "Home on the Range",
+      "author": "Brewster Higley",
+      "era": "song_lyrics",
+      "is_cross_domain": true
+    },
+    {
+      "token": " warm",
+      "s2": 0.0162,
+      "token_domain": "tactile",
+      "alt_domain": "visual",
+      "alt_domain_prob": 0.02184506691992283,
+      "all_alt_domains": {
+        "visual": 0.02184506691992283
+      },
+      "poem": "God's Grandeur",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "is_cross_domain": true
+    },
+    {
+      "token": " dry",
+      "s2": -0.1587,
+      "token_domain": "tactile",
+      "alt_domain": "visual",
+      "alt_domain_prob": 0.011254812590777874,
+      "all_alt_domains": {
+        "visual": 0.011254812590777874
+      },
+      "poem": "The Wild Iris (prose extract)",
+      "author": "Louise Gluck",
+      "era": "prose_poetry",
+      "is_cross_domain": true
+    },
+    {
+      "token": " light",
+      "s2": -0.4356,
+      "token_domain": "visual",
+      "alt_domain": "tactile",
+      "alt_domain_prob": 0.00763076962903142,
+      "all_alt_domains": {
+        "tactile": 0.00763076962903142,
+        "visual": 0.007024271879345179
+      },
+      "poem": "From 'Who Whispered Near Me' (excerpt)",
+      "author": "Killarney Clary",
+      "era": "prose_poetry",
+      "is_cross_domain": true
+    },
+    {
+      "token": " dark",
+      "s2": -0.7074,
+      "token_domain": "visual",
+      "alt_domain": "tactile",
+      "alt_domain_prob": 0.20303434133529663,
+      "all_alt_domains": {
+        "tactile": 0.20303434133529663,
+        "auditory": 0.024870676919817924,
+        "visual": 0.022059092298150063
+      },
+      "poem": "From 'Who Whispered Near Me' (excerpt)",
+      "author": "Killarney Clary",
+      "era": "prose_poetry",
+      "is_cross_domain": true
+    },
+    {
+      "token": " cold",
+      "s2": -0.7378,
+      "token_domain": "tactile",
+      "alt_domain": "visual",
+      "alt_domain_prob": 0.004700087010860443,
+      "all_alt_domains": {
+        "visual": 0.004700087010860443
+      },
+      "poem": "Self-Portrait in a Convex Mirror (opening)",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "is_cross_domain": true
+    },
+    {
+      "token": " cold",
+      "s2": -0.8253,
+      "token_domain": "tactile",
+      "alt_domain": "olfactory",
+      "alt_domain_prob": 0.10515814647078514,
+      "all_alt_domains": {
+        "gustatory": 0.08743346109986305,
+        "olfactory": 0.10515814647078514,
+        "tactile": 0.030362573452293873
+      },
+      "poem": "This Is Just to Say",
+      "author": "William Carlos Williams",
+      "era": "modernist",
+      "is_cross_domain": true
+    },
+    {
+      "token": " soft",
+      "s2": -0.9043,
+      "token_domain": "tactile",
+      "alt_domain": "visual",
+      "alt_domain_prob": 0.06332825589925051,
+      "all_alt_domains": {
+        "visual": 0.06332825589925051,
+        "tactile": 0.01787617616355419,
+        "auditory": 0.015927812084555626
+      },
+      "poem": "From 'Who Whispered Near Me' (excerpt)",
+      "author": "Killarney Clary",
+      "era": "prose_poetry",
+      "is_cross_domain": true
+    },
+    {
+      "token": " dry",
+      "s2": -1.2163,
+      "token_domain": "tactile",
+      "alt_domain": "visual",
+      "alt_domain_prob": 0.00621388852596283,
+      "all_alt_domains": {
+        "visual": 0.00621388852596283
+      },
+      "poem": "The Hollow Men (opening)",
+      "author": "T.S. Eliot",
+      "era": "modernist",
+      "is_cross_domain": true
+    },
+    {
+      "token": " dim",
+      "s2": -1.3472,
+      "token_domain": "visual",
+      "alt_domain": "olfactory",
+      "alt_domain_prob": 0.027249202132225037,
+      "all_alt_domains": {
+        "olfactory": 0.027249202132225037,
+        "visual": 0.022367683239281178
+      },
+      "poem": "Pied Beauty",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "is_cross_domain": true
+    },
+    {
+      "token": " sweet",
+      "s2": -1.4771,
+      "token_domain": "olfactory",
+      "alt_domain": "auditory",
+      "alt_domain_prob": 0.006525726057589054,
+      "all_alt_domains": {
+        "auditory": 0.006525726057589054
+      },
+      "poem": "Sonnet 73 (That time of year)",
+      "author": "William Shakespeare",
+      "era": "victorian",
+      "is_cross_domain": true
+    },
+    {
+      "token": " quiet",
+      "s2": -1.6438,
+      "token_domain": "auditory",
+      "alt_domain": "tactile",
+      "alt_domain_prob": 0.019648978486657143,
+      "all_alt_domains": {
+        "tactile": 0.019648978486657143
+      },
+      "poem": "The Hollow Men (opening)",
+      "author": "T.S. Eliot",
+      "era": "modernist",
+      "is_cross_domain": true
+    },
+    {
+      "token": " soft",
+      "s2": -1.7699,
+      "token_domain": "tactile",
+      "alt_domain": "auditory",
+      "alt_domain_prob": 0.08210060559213161,
+      "all_alt_domains": {
+        "tactile": 0.07618127763271332,
+        "auditory": 0.08210060559213161,
+        "visual": 0.012632069177925587
+      },
+      "poem": "Autumn Comes (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "is_cross_domain": true
+    },
+    {
+      "token": " tender",
+      "s2": -1.7785,
+      "token_domain": "tactile",
+      "alt_domain": "olfactory",
+      "alt_domain_prob": 0.015696842223405838,
+      "all_alt_domains": {
+        "olfactory": 0.015696842223405838,
+        "visual": 0.014156179502606392
+      },
+      "poem": "Anthem for Doomed Youth",
+      "author": "Wilfred Owen",
+      "era": "war_poetry",
+      "is_cross_domain": true
+    },
+    {
+      "token": " bright",
+      "s2": -1.7853,
+      "token_domain": "visual",
+      "alt_domain": "olfactory",
+      "alt_domain_prob": 0.023216688074171543,
+      "all_alt_domains": {
+        "olfactory": 0.023216688074171543,
+        "visual": 0.014264280907809734,
+        "tactile": 0.009384337812662125
+      },
+      "poem": "God's Grandeur",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "is_cross_domain": true
+    }
+  ],
+  "poet_synesthesia_rates": {
+    "T.S. Eliot": {
+      "n": 5,
+      "cross_rate": 40.0,
+      "cross_avg_s2": -1.43005
+    },
+    "Gertrude Stein": {
+      "n": 8,
+      "cross_rate": 0.0,
+      "cross_avg_s2": 0.0
+    },
+    "William Blake": {
+      "n": 6,
+      "cross_rate": 0.0,
+      "cross_avg_s2": 0.0
+    },
+    "William Shakespeare": {
+      "n": 7,
+      "cross_rate": 42.857142857142854,
+      "cross_avg_s2": -2.0780333333333334
+    },
+    "Killarney Clary": {
+      "n": 6,
+      "cross_rate": 66.66666666666666,
+      "cross_avg_s2": 0.295075
+    },
+    "Alfred, Lord Tennyson": {
+      "n": 5,
+      "cross_rate": 0.0,
+      "cross_avg_s2": 0.0
+    },
+    "Anonymous (Hebrew Bible)": {
+      "n": 6,
+      "cross_rate": 0.0,
+      "cross_avg_s2": 0.0
+    }
+  }
+}
