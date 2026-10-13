@@ -1,0 +1,1945 @@
+{
+  "by_poet": {
+    "Alexander Pope": {
+      "description": "Q1-dominant (neoclassical heroic couplets)",
+      "n_poems": 4,
+      "q1_n": 141,
+      "q2_n": 26,
+      "q2_q1_ratio": 0.184,
+      "total_high_s2": 168,
+      "q1": {
+        "n": 141,
+        "mean_s2": 5.002,
+        "mean_h10": 2.8127,
+        "mean_top1_prob": 0.1262,
+        "token_type_dist": {
+          "content": 129,
+          "function": 8,
+          "punctuation": 3,
+          "whitespace": 1
+        },
+        "top1_predicted_type_dist": {
+          "function": 84,
+          "content": 29,
+          "punctuation": 22,
+          "newline/space": 6
+        },
+        "top_actual_tokens": [
+          "fatig",
+          "tasks",
+          "Muse",
+          "Bel",
+          "Bed",
+          "mislead",
+          "err",
+          "John",
+          "Goddess",
+          "alike"
+        ],
+        "top_predicted_tokens": [
+          "",
+          "the",
+          "",
+          "to",
+          "the",
+          "to",
+          "of",
+          "night",
+          "and",
+          "to"
+        ]
+      },
+      "q2": {
+        "n": 26,
+        "mean_s2": 6.307,
+        "mean_h10": 2.088,
+        "mean_top1_prob": 0.4212,
+        "token_type_dist": {
+          "function": 6,
+          "punctuation": 5,
+          "content": 13,
+          "whitespace": 2
+        },
+        "top1_predicted_type_dist": {
+          "punctuation": 8,
+          "content": 7,
+          "newline/space": 2,
+          "function": 9
+        },
+        "top_actual_tokens": [
+          "explore",
+          "greater",
+          "tempting",
+          "Sabbath",
+          "mean",
+          "'",
+          "Could",
+          "is",
+          "ed",
+          ""
+        ],
+        "top_predicted_tokens": [
+          ",",
+          "you",
+          "where",
+          "light",
+          "your",
+          "orous",
+          "",
+          ",",
+          "ined",
+          "to"
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.7247
+    },
+    "John Milton": {
+      "description": "Q1-dominant (Latinate epic syntax)",
+      "n_poems": 1,
+      "q1_n": 34,
+      "q2_n": 10,
+      "q2_q1_ratio": 0.294,
+      "total_high_s2": 44,
+      "q1": {
+        "n": 34,
+        "mean_s2": 4.839,
+        "mean_h10": 2.9004,
+        "mean_top1_prob": 0.1181,
+        "token_type_dist": {
+          "content": 31,
+          "function": 3
+        },
+        "top1_predicted_type_dist": {
+          "function": 21,
+          "content": 8,
+          "newline/space": 1,
+          "punctuation": 4
+        },
+        "top_actual_tokens": [
+          "Pat",
+          "denied",
+          "returning",
+          "talent",
+          "thousands",
+          "o",
+          "fond",
+          "exact",
+          "post",
+          "Bear"
+        ],
+        "top_predicted_tokens": [
+          "I",
+          ",",
+          "should",
+          "day",
+          "he",
+          "ures",
+          "am",
+          ",",
+          "his",
+          "He"
+        ]
+      },
+      "q2": {
+        "n": 10,
+        "mean_s2": 6.15,
+        "mean_h10": 2.1058,
+        "mean_top1_prob": 0.4017,
+        "token_type_dist": {
+          "whitespace": 1,
+          "content": 4,
+          "function": 4,
+          "punctuation": 1
+        },
+        "top1_predicted_type_dist": {
+          "function": 3,
+          "punctuation": 3,
+          "newline/space": 4
+        },
+        "top_actual_tokens": [
+          "useless",
+          "His",
+          "half",
+          "speed",
+          "ch",
+          "who",
+          "who",
+          "",
+          "and",
+          ";"
+        ],
+        "top_predicted_tokens": [
+          ",",
+          "",
+          "I",
+          ",",
+          "",
+          "",
+          "him",
+          "I",
+          ",",
+          ""
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.7946
+    },
+    "John Donne": {
+      "description": "Q1-dominant (metaphysical conceits)",
+      "n_poems": 1,
+      "q1_n": 24,
+      "q2_n": 8,
+      "q2_q1_ratio": 0.333,
+      "total_high_s2": 32,
+      "q1": {
+        "n": 24,
+        "mean_s2": 4.882,
+        "mean_h10": 2.832,
+        "mean_top1_prob": 0.1372,
+        "token_type_dist": {
+          "content": 22,
+          "function": 2
+        },
+        "top1_predicted_type_dist": {
+          "content": 10,
+          "function": 12,
+          "punctuation": 2
+        },
+        "top_actual_tokens": [
+          "chance",
+          "swell",
+          "poppy",
+          "delivery",
+          "slave",
+          "kings",
+          "Rest",
+          "rest",
+          "pictures",
+          "Die"
+        ],
+        "top_predicted_tokens": [
+          "and",
+          ",",
+          "in",
+          "bones",
+          "not",
+          "and",
+          "And",
+          "the",
+          "heart",
+          "And"
+        ]
+      },
+      "q2": {
+        "n": 8,
+        "mean_s2": 4.852,
+        "mean_h10": 1.9854,
+        "mean_top1_prob": 0.4149,
+        "token_type_dist": {
+          "content": 5,
+          "function": 3
+        },
+        "top1_predicted_type_dist": {
+          "content": 2,
+          "function": 2,
+          "punctuation": 4
+        },
+        "top_actual_tokens": [
+          "'s",
+          "e",
+          "ternally",
+          "past",
+          "as",
+          "do",
+          "with",
+          "flow"
+        ],
+        "top_predicted_tokens": [
+          "est",
+          ",",
+          "re",
+          ",",
+          ",",
+          ",",
+          "shall",
+          "I"
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.8467
+    },
+    "John Keats": {
+      "description": "Q1-dominant (ode syntax, archaism)",
+      "n_poems": 3,
+      "q1_n": 63,
+      "q2_n": 22,
+      "q2_q1_ratio": 0.349,
+      "total_high_s2": 85,
+      "q1": {
+        "n": 63,
+        "mean_s2": 4.369,
+        "mean_h10": 2.8705,
+        "mean_top1_prob": 0.1219,
+        "token_type_dist": {
+          "content": 55,
+          "function": 7,
+          "punctuation": 1
+        },
+        "top1_predicted_type_dist": {
+          "content": 19,
+          "function": 35,
+          "punctuation": 9
+        },
+        "top_actual_tokens": [
+          "trave",
+          "bos",
+          "Let",
+          "Chapman",
+          "swim",
+          "number",
+          "Sil",
+          "Apollo",
+          "Cort",
+          "Dry"
+        ],
+        "top_predicted_tokens": [
+          "been",
+          "to",
+          "the",
+          "of",
+          "was",
+          "of",
+          "And",
+          "the",
+          "-",
+          ","
+        ]
+      },
+      "q2": {
+        "n": 22,
+        "mean_s2": 6.253,
+        "mean_h10": 2.2151,
+        "mean_top1_prob": 0.3619,
+        "token_type_dist": {
+          "function": 4,
+          "whitespace": 1,
+          "punctuation": 1,
+          "content": 16
+        },
+        "top1_predicted_type_dist": {
+          "function": 12,
+          "punctuation": 5,
+          "newline/space": 1,
+          "content": 4
+        },
+        "top_actual_tokens": [
+          "Dar",
+          "budding",
+          "stout",
+          "ards",
+          "apples",
+          "im",
+          "run",
+          "Round",
+          ",",
+          "warm"
+        ],
+        "top_predicted_tokens": [
+          "the",
+          "the",
+          "a",
+          "ade",
+          "him",
+          "ained",
+          ",",
+          "",
+          "of",
+          "of"
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.6554
+    },
+    "George Herbert": {
+      "description": "Q1-dominant (devotional syntax)",
+      "n_poems": 2,
+      "q1_n": 40,
+      "q2_n": 14,
+      "q2_q1_ratio": 0.35,
+      "total_high_s2": 54,
+      "q1": {
+        "n": 40,
+        "mean_s2": 4.857,
+        "mean_h10": 2.8095,
+        "mean_top1_prob": 0.1365,
+        "token_type_dist": {
+          "content": 34,
+          "punctuation": 1,
+          "whitespace": 1,
+          "function": 4
+        },
+        "top1_predicted_type_dist": {
+          "function": 24,
+          "punctuation": 5,
+          "newline/space": 3,
+          "content": 8
+        },
+        "top_actual_tokens": [
+          "abroad",
+          "suit",
+          "sigh",
+          "nearer",
+          "cord",
+          "cried",
+          "dust",
+          "mar",
+          "observing",
+          "slack"
+        ],
+        "top_predicted_tokens": [
+          "not",
+          "the",
+          "be",
+          "my",
+          "my",
+          "I",
+          "the",
+          "no",
+          "",
+          ","
+        ]
+      },
+      "q2": {
+        "n": 14,
+        "mean_s2": 4.871,
+        "mean_h10": 1.9963,
+        "mean_top1_prob": 0.4254,
+        "token_type_dist": {
+          "punctuation": 3,
+          "content": 7,
+          "function": 3,
+          "whitespace": 1
+        },
+        "top1_predicted_type_dist": {
+          "function": 5,
+          "punctuation": 2,
+          "newline/space": 3,
+          "content": 4
+        },
+        "top_actual_tokens": [
+          "store",
+          "let",
+          "grow",
+          "Ah",
+          "r",
+          "large",
+          "",
+          "free",
+          "but",
+          "and"
+        ],
+        "top_predicted_tokens": [
+          "the",
+          "",
+          ",",
+          "",
+          "ve",
+          "the",
+          "I",
+          "",
+          "?",
+          "down"
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.8132
+    },
+    "Gerard Manley Hopkins": {
+      "description": "Q1-dominant (sprung rhythm, compound forms)",
+      "n_poems": 3,
+      "q1_n": 96,
+      "q2_n": 42,
+      "q2_q1_ratio": 0.438,
+      "total_high_s2": 138,
+      "q1": {
+        "n": 96,
+        "mean_s2": 4.954,
+        "mean_h10": 2.8201,
+        "mean_top1_prob": 0.115,
+        "token_type_dist": {
+          "content": 82,
+          "whitespace": 4,
+          "function": 7,
+          "punctuation": 3
+        },
+        "top1_predicted_type_dist": {
+          "punctuation": 20,
+          "content": 27,
+          "function": 39,
+          "newline/space": 10
+        },
+        "top_actual_tokens": [
+          "fathers",
+          "For",
+          "achieve",
+          "plotted",
+          "hiding",
+          "underneath",
+          "skies",
+          "couple",
+          "ble",
+          "minion"
+        ],
+        "top_predicted_tokens": [
+          "aven",
+          "",
+          "wind",
+          "-",
+          "my",
+          ",",
+          "the",
+          "the",
+          "",
+          "news"
+        ]
+      },
+      "q2": {
+        "n": 42,
+        "mean_s2": 7.506,
+        "mean_h10": 1.9087,
+        "mean_top1_prob": 0.4436,
+        "token_type_dist": {
+          "content": 30,
+          "function": 7,
+          "punctuation": 4,
+          "whitespace": 1
+        },
+        "top1_predicted_type_dist": {
+          "newline/space": 8,
+          "punctuation": 11,
+          "content": 12,
+          "function": 11
+        },
+        "top_actual_tokens": [
+          "shook",
+          "his",
+          "dom",
+          "flame",
+          "springs",
+          "things",
+          "steady",
+          "Of",
+          "gathers",
+          "east"
+        ],
+        "top_predicted_tokens": [
+          "the",
+          "lessly",
+          "",
+          "be",
+          "",
+          ",",
+          ",",
+          "",
+          "will",
+          "of"
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.9114
+    },
+    "W.B. Yeats": {
+      "description": "Q1-dominant (late archaic)",
+      "n_poems": 2,
+      "q1_n": 47,
+      "q2_n": 15,
+      "q2_q1_ratio": 0.319,
+      "total_high_s2": 62,
+      "q1": {
+        "n": 47,
+        "mean_s2": 4.621,
+        "mean_h10": 2.8588,
+        "mean_top1_prob": 0.117,
+        "token_type_dist": {
+          "content": 45,
+          "whitespace": 1,
+          "punctuation": 1
+        },
+        "top1_predicted_type_dist": {
+          "content": 14,
+          "function": 31,
+          "newline/space": 2
+        },
+        "top_actual_tokens": [
+          "neglect",
+          "commend",
+          "twenty",
+          "lack",
+          "nightmare",
+          "Mon",
+          "somewhere",
+          "summer",
+          "\u2014",
+          "birds"
+        ],
+        "top_predicted_tokens": [
+          "the",
+          "and",
+          "the",
+          "of",
+          "me",
+          "The",
+          "",
+          "their",
+          "The",
+          "the"
+        ]
+      },
+      "q2": {
+        "n": 15,
+        "mean_s2": 5.877,
+        "mean_h10": 1.9377,
+        "mean_top1_prob": 0.447,
+        "token_type_dist": {
+          "content": 10,
+          "punctuation": 2,
+          "whitespace": 2,
+          "function": 1
+        },
+        "top1_predicted_type_dist": {
+          "function": 8,
+          "content": 4,
+          "newline/space": 2,
+          "punctuation": 1
+        },
+        "top_actual_tokens": [
+          "sands",
+          "Spirit",
+          "Bethlehem",
+          "Things",
+          "Hard",
+          "all",
+          "body",
+          "",
+          "ing",
+          "!"
+        ],
+        "top_predicted_tokens": [
+          "the",
+          "the",
+          "the",
+          "The",
+          "",
+          ",",
+          "'s",
+          "men",
+          "able",
+          "is"
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.9211
+    },
+    "John Dryden": {
+      "description": "Q1-dominant (neoclassical satire)",
+      "n_poems": 1,
+      "q1_n": 26,
+      "q2_n": 7,
+      "q2_q1_ratio": 0.269,
+      "total_high_s2": 34,
+      "q1": {
+        "n": 26,
+        "mean_s2": 5.355,
+        "mean_h10": 2.6854,
+        "mean_top1_prob": 0.1466,
+        "token_type_dist": {
+          "whitespace": 1,
+          "content": 25
+        },
+        "top1_predicted_type_dist": {
+          "function": 18,
+          "newline/space": 2,
+          "content": 4,
+          "punctuation": 2
+        },
+        "top_actual_tokens": [
+          "Fle",
+          "monarch",
+          "issue",
+          "young",
+          "wage",
+          "prose",
+          "debate",
+          "wit",
+          "pond",
+          "owned"
+        ],
+        "top_predicted_tokens": [
+          "is",
+          "",
+          "the",
+          "",
+          "which",
+          "his",
+          ",",
+          "the",
+          "in",
+          "the"
+        ]
+      },
+      "q2": {
+        "n": 7,
+        "mean_s2": 4.454,
+        "mean_h10": 1.8213,
+        "mean_top1_prob": 0.4603,
+        "token_type_dist": {
+          "content": 4,
+          "function": 3
+        },
+        "top1_predicted_type_dist": {
+          "content": 3,
+          "function": 2,
+          "punctuation": 1,
+          "newline/space": 1
+        },
+        "top_actual_tokens": [
+          "immortal",
+          "that",
+          "things",
+          "without",
+          "ck",
+          "with",
+          "Through"
+        ],
+        "top_predicted_tokens": [
+          "war",
+          "",
+          "beings",
+          "and",
+          "eting",
+          ",",
+          "And"
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.8641
+    },
+    "Samuel Johnson": {
+      "description": "Q1-dominant (neoclassical didactic)",
+      "n_poems": 1,
+      "q1_n": 25,
+      "q2_n": 11,
+      "q2_q1_ratio": 0.44,
+      "total_high_s2": 37,
+      "q1": {
+        "n": 25,
+        "mean_s2": 5.446,
+        "mean_h10": 2.8083,
+        "mean_top1_prob": 0.1094,
+        "token_type_dist": {
+          "content": 24,
+          "whitespace": 1
+        },
+        "top1_predicted_type_dist": {
+          "punctuation": 5,
+          "function": 12,
+          "content": 8
+        },
+        "top_actual_tokens": [
+          "darling",
+          "Rules",
+          "anxious",
+          "fanc",
+          "mankind",
+          "il",
+          "vent",
+          "observation",
+          "air",
+          "tre"
+        ],
+        "top_predicted_tokens": [
+          "the",
+          "And",
+          "time",
+          "the",
+          "of",
+          "know",
+          "his",
+          ",",
+          ",",
+          "if"
+        ]
+      },
+      "q2": {
+        "n": 11,
+        "mean_s2": 7.95,
+        "mean_h10": 1.6436,
+        "mean_top1_prob": 0.5459,
+        "token_type_dist": {
+          "function": 1,
+          "content": 9,
+          "punctuation": 1
+        },
+        "top1_predicted_type_dist": {
+          "content": 7,
+          "function": 3,
+          "punctuation": 1
+        },
+        "top_actual_tokens": [
+          "strife",
+          "del",
+          "oppressed",
+          "each",
+          "av",
+          "ers",
+          "uns",
+          "ach",
+          "without",
+          "'"
+        ],
+        "top_predicted_tokens": [
+          "to",
+          "y",
+          ",",
+          "ably",
+          "oe",
+          "er",
+          "all",
+          "asured",
+          "of",
+          "r"
+        ]
+      },
+      "q1_vs_q2_h10_gap": 1.1646
+    },
+    "W.S. Merwin": {
+      "description": "Q2-dominant (punctuation-free, syntax traps)",
+      "n_poems": 1,
+      "q1_n": 1,
+      "q2_n": 8,
+      "q2_q1_ratio": 8.0,
+      "total_high_s2": 9,
+      "q1": {
+        "n": 1,
+        "mean_s2": 3.791,
+        "mean_h10": 3.1192,
+        "mean_top1_prob": 0.0807,
+        "token_type_dist": {
+          "content": 1
+        },
+        "top1_predicted_type_dist": {
+          "content": 1
+        },
+        "top_actual_tokens": [
+          "son"
+        ],
+        "top_predicted_tokens": [
+          "student"
+        ]
+      },
+      "q2": {
+        "n": 8,
+        "mean_s2": 4.336,
+        "mean_h10": 2.43,
+        "mean_top1_prob": 0.3234,
+        "token_type_dist": {
+          "function": 3,
+          "content": 5
+        },
+        "top1_predicted_type_dist": {
+          "punctuation": 3,
+          "content": 1,
+          "function": 4
+        },
+        "top_actual_tokens": [
+          "you",
+          "Even",
+          "understand",
+          "even",
+          "then",
+          "say",
+          "very",
+          "you"
+        ],
+        "top_predicted_tokens": [
+          ".",
+          "He",
+          "know",
+          "I",
+          "when",
+          "was",
+          ".",
+          "."
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.6892
+    },
+    "Russell Edson": {
+      "description": "Q2-dominant (prose fabulist, sudden pivots)",
+      "n_poems": 2,
+      "q1_n": 15,
+      "q2_n": 33,
+      "q2_q1_ratio": 2.2,
+      "total_high_s2": 49,
+      "q1": {
+        "n": 15,
+        "mean_s2": 4.838,
+        "mean_h10": 2.7628,
+        "mean_top1_prob": 0.1732,
+        "token_type_dist": {
+          "content": 14,
+          "function": 1
+        },
+        "top1_predicted_type_dist": {
+          "function": 10,
+          "content": 5
+        },
+        "top_actual_tokens": [
+          "indoors",
+          "marked",
+          "weave",
+          "pillow",
+          "feathers",
+          "holding",
+          "f",
+          "fired",
+          "found",
+          "boss"
+        ],
+        "top_predicted_tokens": [
+          "the",
+          "his",
+          "scars",
+          "wife",
+          "leaves",
+          "and",
+          "pocket",
+          "a",
+          "was",
+          "wife"
+        ]
+      },
+      "q2": {
+        "n": 33,
+        "mean_s2": 4.989,
+        "mean_h10": 2.2041,
+        "mean_top1_prob": 0.3969,
+        "token_type_dist": {
+          "content": 24,
+          "function": 9
+        },
+        "top1_predicted_type_dist": {
+          "function": 15,
+          "punctuation": 7,
+          "content": 11
+        },
+        "top_actual_tokens": [
+          "mixed",
+          "indoors",
+          "look",
+          "leaf",
+          "holding",
+          "everywhere",
+          "saying",
+          "Put",
+          "most",
+          "enn"
+        ],
+        "top_predicted_tokens": [
+          ".",
+          "to",
+          "'",
+          "good",
+          "and",
+          "to",
+          "to",
+          "He",
+          "more",
+          "anny"
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.5587
+    },
+    "Frank O'Hara": {
+      "description": "Q2-dominant (casual syntax, surprising objects)",
+      "n_poems": 2,
+      "q1_n": 15,
+      "q2_n": 23,
+      "q2_q1_ratio": 1.533,
+      "total_high_s2": 38,
+      "q1": {
+        "n": 15,
+        "mean_s2": 5.565,
+        "mean_h10": 2.631,
+        "mean_top1_prob": 0.1759,
+        "token_type_dist": {
+          "whitespace": 2,
+          "content": 12,
+          "punctuation": 1
+        },
+        "top1_predicted_type_dist": {
+          "function": 8,
+          "punctuation": 2,
+          "newline/space": 1,
+          "content": 4
+        },
+        "top_actual_tokens": [
+          "1959",
+          "Eas",
+          "days",
+          "12",
+          "yes",
+          "shoes",
+          "Bast",
+          "Sit",
+          "ARD",
+          ""
+        ],
+        "top_predicted_tokens": [
+          "12",
+          "New",
+          "",
+          "not",
+          "and",
+          "drink",
+          "the",
+          "I",
+          ".",
+          "I"
+        ]
+      },
+      "q2": {
+        "n": 23,
+        "mean_s2": 5.181,
+        "mean_h10": 2.0988,
+        "mean_top1_prob": 0.4223,
+        "token_type_dist": {
+          "content": 14,
+          "punctuation": 3,
+          "whitespace": 2,
+          "function": 4
+        },
+        "top1_predicted_type_dist": {
+          "newline/space": 2,
+          "function": 10,
+          "content": 8,
+          "punctuation": 3
+        },
+        "top_actual_tokens": [
+          "needed",
+          "New",
+          "Mike",
+          "S",
+          "get",
+          "starting",
+          "a",
+          "day",
+          ".",
+          ""
+        ],
+        "top_predicted_tokens": [
+          "is",
+          "the",
+          "I",
+          "to",
+          "to",
+          "a",
+          "City",
+          "Day",
+          "to",
+          "says"
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.5322
+    },
+    "Carolyn Forch\u00e9": {
+      "description": "Q2-dominant (documentary prose)",
+      "n_poems": 1,
+      "q1_n": 5,
+      "q2_n": 9,
+      "q2_q1_ratio": 1.8,
+      "total_high_s2": 14,
+      "q1": {
+        "n": 5,
+        "mean_s2": 4.993,
+        "mean_h10": 2.9576,
+        "mean_top1_prob": 0.1321,
+        "token_type_dist": {
+          "content": 5
+        },
+        "top1_predicted_type_dist": {
+          "function": 3,
+          "content": 2
+        },
+        "top_actual_tokens": [
+          "filed",
+          "pet",
+          "cord",
+          "daily",
+          "dogs"
+        ],
+        "top_predicted_tokens": [
+          "was",
+          "and",
+          "side",
+          "no",
+          "papers"
+        ]
+      },
+      "q2": {
+        "n": 9,
+        "mean_s2": 5.02,
+        "mean_h10": 2.4271,
+        "mean_top1_prob": 0.2935,
+        "token_type_dist": {
+          "content": 7,
+          "function": 2
+        },
+        "top1_predicted_type_dist": {
+          "function": 5,
+          "punctuation": 2,
+          "content": 2
+        },
+        "top_actual_tokens": [
+          "bare",
+          "cushion",
+          "swung",
+          "carried",
+          "its",
+          "black",
+          "on",
+          "beside",
+          "heard"
+        ],
+        "top_predicted_tokens": [
+          "in",
+          "table",
+          "was",
+          "was",
+          "the",
+          "side",
+          ",",
+          ".",
+          "to"
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.5305
+    },
+    "William Carlos Williams": {
+      "description": "Q2-dominant (imagist, bare syntax)",
+      "n_poems": 2,
+      "q1_n": 8,
+      "q2_n": 4,
+      "q2_q1_ratio": 0.5,
+      "total_high_s2": 12,
+      "q1": {
+        "n": 8,
+        "mean_s2": 3.611,
+        "mean_h10": 3.0631,
+        "mean_top1_prob": 0.0857,
+        "token_type_dist": {
+          "content": 5,
+          "whitespace": 1,
+          "function": 2
+        },
+        "top1_predicted_type_dist": {
+          "function": 6,
+          "newline/space": 1,
+          "content": 1
+        },
+        "top_actual_tokens": [
+          "wheel",
+          "eaten",
+          "depends",
+          "bes",
+          "For",
+          "",
+          "red",
+          "which"
+        ],
+        "top_predicted_tokens": [
+          "light",
+          "a",
+          "as",
+          "and",
+          "and",
+          "a",
+          "",
+          "I"
+        ]
+      },
+      "q2": {
+        "n": 4,
+        "mean_s2": 5.236,
+        "mean_h10": 1.7208,
+        "mean_top1_prob": 0.5221,
+        "token_type_dist": {
+          "whitespace": 3,
+          "function": 1
+        },
+        "top1_predicted_type_dist": {
+          "function": 3,
+          "newline/space": 1
+        },
+        "top_actual_tokens": [
+          "",
+          "",
+          "",
+          "that"
+        ],
+        "top_predicted_tokens": [
+          "on",
+          "the",
+          "my",
+          ""
+        ]
+      },
+      "q1_vs_q2_h10_gap": 1.3422
+    }
+  },
+  "by_era": {
+    "18th_century": {
+      "description": "Neoclassical (Pope, Dryden, Johnson, Smart, Wheatley)",
+      "n_poems": 7,
+      "q1_n": 199,
+      "q2_n": 70,
+      "q2_q1_ratio": 0.352,
+      "total_high_s2": 272,
+      "q1": {
+        "n": 199,
+        "mean_s2": 4.937,
+        "mean_h10": 2.8053,
+        "mean_top1_prob": 0.1251,
+        "token_type_dist": {
+          "content": 187,
+          "function": 8,
+          "punctuation": 2,
+          "whitespace": 2
+        },
+        "top1_predicted_type_dist": {
+          "function": 119,
+          "content": 48,
+          "newline/space": 7,
+          "punctuation": 25
+        },
+        "top_actual_tokens": [
+          "fatig",
+          "redemption",
+          "mercy",
+          "Fle",
+          "monarch",
+          "Bed",
+          "mislead",
+          "darling",
+          "refin",
+          "Rules"
+        ],
+        "top_predicted_tokens": [
+          "",
+          "was",
+          "the",
+          "is",
+          "",
+          "the",
+          "to",
+          "the",
+          "the",
+          "And"
+        ]
+      },
+      "q2": {
+        "n": 70,
+        "mean_s2": 6.269,
+        "mean_h10": 2.0311,
+        "mean_top1_prob": 0.4259,
+        "token_type_dist": {
+          "content": 46,
+          "function": 16,
+          "punctuation": 6,
+          "whitespace": 2
+        },
+        "top1_predicted_type_dist": {
+          "content": 21,
+          "newline/space": 3,
+          "function": 32,
+          "punctuation": 14
+        },
+        "top_actual_tokens": [
+          "prank",
+          "strife",
+          "explore",
+          "greater",
+          "tempting",
+          "Sabbath",
+          "stretch",
+          "mean",
+          "del",
+          "oppressed"
+        ],
+        "top_predicted_tokens": [
+          "the",
+          "to",
+          ",",
+          "you",
+          "where",
+          "light",
+          "his",
+          "your",
+          "y",
+          ","
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.7742
+    },
+    "metaphysical": {
+      "description": "Metaphysical (Donne, Herbert, Marvell)",
+      "n_poems": 4,
+      "q1_n": 80,
+      "q2_n": 25,
+      "q2_q1_ratio": 0.312,
+      "total_high_s2": 105,
+      "q1": {
+        "n": 80,
+        "mean_s2": 4.795,
+        "mean_h10": 2.8185,
+        "mean_top1_prob": 0.1336,
+        "token_type_dist": {
+          "content": 70,
+          "function": 8,
+          "punctuation": 1,
+          "whitespace": 1
+        },
+        "top1_predicted_type_dist": {
+          "content": 26,
+          "function": 42,
+          "punctuation": 8,
+          "newline/space": 4
+        },
+        "top_actual_tokens": [
+          "abroad",
+          "chance",
+          "suit",
+          "swell",
+          "poppy",
+          "world",
+          "sigh",
+          "nearer",
+          "cord",
+          "delivery"
+        ],
+        "top_predicted_tokens": [
+          "not",
+          "and",
+          "the",
+          ",",
+          "in",
+          "been",
+          "be",
+          "my",
+          "my",
+          "bones"
+        ]
+      },
+      "q2": {
+        "n": 25,
+        "mean_s2": 5.012,
+        "mean_h10": 1.9819,
+        "mean_top1_prob": 0.4218,
+        "token_type_dist": {
+          "content": 12,
+          "function": 7,
+          "punctuation": 4,
+          "whitespace": 2
+        },
+        "top1_predicted_type_dist": {
+          "content": 6,
+          "function": 8,
+          "punctuation": 8,
+          "newline/space": 3
+        },
+        "top_actual_tokens": [
+          "store",
+          "'s",
+          "",
+          "which",
+          "let",
+          "e",
+          "ternally",
+          "grow",
+          "Ah",
+          "past"
+        ],
+        "top_predicted_tokens": [
+          "the",
+          "est",
+          "and",
+          ",",
+          "",
+          ",",
+          "re",
+          ",",
+          "",
+          ","
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.8365
+    },
+    "early_modern": {
+      "description": "Early Modern (Wyatt, Spenser, Jonson)",
+      "n_poems": 5,
+      "q1_n": 81,
+      "q2_n": 46,
+      "q2_q1_ratio": 0.568,
+      "total_high_s2": 128,
+      "q1": {
+        "n": 81,
+        "mean_s2": 4.607,
+        "mean_h10": 2.8763,
+        "mean_top1_prob": 0.1248,
+        "token_type_dist": {
+          "content": 70,
+          "function": 8,
+          "whitespace": 2,
+          "punctuation": 1
+        },
+        "top1_predicted_type_dist": {
+          "function": 48,
+          "content": 16,
+          "punctuation": 16,
+          "newline/space": 1
+        },
+        "top_actual_tokens": [
+          "thorough",
+          "stalking",
+          "assay",
+          "list",
+          "gra",
+          "hind",
+          "waking",
+          "oli",
+          "diamonds",
+          "Christ"
+        ],
+        "top_predicted_tokens": [
+          "to",
+          ",",
+          ",",
+          "is",
+          "I",
+          "enemy",
+          "and",
+          "ay",
+          "me",
+          ""
+        ]
+      },
+      "q2": {
+        "n": 46,
+        "mean_s2": 5.517,
+        "mean_h10": 2.2867,
+        "mean_top1_prob": 0.3428,
+        "token_type_dist": {
+          "function": 17,
+          "content": 27,
+          "punctuation": 2
+        },
+        "top1_predicted_type_dist": {
+          "punctuation": 10,
+          "function": 23,
+          "newline/space": 3,
+          "content": 10
+        },
+        "top_actual_tokens": [
+          "list",
+          "divine",
+          "sometime",
+          "likewise",
+          "Bus",
+          "special",
+          "put",
+          "letters",
+          "plain",
+          "caught"
+        ],
+        "top_predicted_tokens": [
+          "ever",
+          ",",
+          "I",
+          ",",
+          "And",
+          "a",
+          "know",
+          "the",
+          ",",
+          "ek"
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.5896
+    },
+    "romantic": {
+      "description": "Romantic (Wordsworth, Keats, Byron, Shelley)",
+      "n_poems": 15,
+      "q1_n": 283,
+      "q2_n": 149,
+      "q2_q1_ratio": 0.527,
+      "total_high_s2": 434,
+      "q1": {
+        "n": 283,
+        "mean_s2": 4.748,
+        "mean_h10": 2.8087,
+        "mean_top1_prob": 0.1253,
+        "token_type_dist": {
+          "content": 256,
+          "function": 20,
+          "punctuation": 3,
+          "whitespace": 4
+        },
+        "top1_predicted_type_dist": {
+          "punctuation": 38,
+          "function": 142,
+          "content": 99,
+          "newline/space": 4
+        },
+        "top_actual_tokens": [
+          "trave",
+          "bos",
+          "lane",
+          "decree",
+          "thou",
+          "mom",
+          "newly",
+          "backward",
+          "astronomer",
+          "Inc"
+        ],
+        "top_predicted_tokens": [
+          "been",
+          "to",
+          "self",
+          "in",
+          "who",
+          "of",
+          "what",
+          "am",
+          ",",
+          "the"
+        ]
+      },
+      "q2": {
+        "n": 149,
+        "mean_s2": 6.333,
+        "mean_h10": 1.9566,
+        "mean_top1_prob": 0.4382,
+        "token_type_dist": {
+          "content": 102,
+          "whitespace": 5,
+          "function": 30,
+          "punctuation": 12
+        },
+        "top1_predicted_type_dist": {
+          "function": 56,
+          "content": 43,
+          "punctuation": 38,
+          "newline/space": 12
+        },
+        "top_actual_tokens": [
+          "fleeing",
+          "awhile",
+          "Kub",
+          "frame",
+          "M",
+          "unaccount",
+          "cour",
+          "learn",
+          "measure",
+          "lonely"
+        ],
+        "top_predicted_tokens": [
+          "'s",
+          ",",
+          "not",
+          "thy",
+          "er",
+          "I",
+          ".",
+          ",",
+          "of",
+          "into"
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.8521
+    },
+    "modernist": {
+      "description": "Modernist (Eliot, Williams, Stevens, etc.)",
+      "n_poems": 24,
+      "q1_n": 326,
+      "q2_n": 195,
+      "q2_q1_ratio": 0.598,
+      "total_high_s2": 522,
+      "q1": {
+        "n": 326,
+        "mean_s2": 4.83,
+        "mean_h10": 2.7932,
+        "mean_top1_prob": 0.1278,
+        "token_type_dist": {
+          "content": 295,
+          "punctuation": 6,
+          "whitespace": 10,
+          "function": 15
+        },
+        "top1_predicted_type_dist": {
+          "content": 99,
+          "punctuation": 38,
+          "function": 152,
+          "newline/space": 37
+        },
+        "top_actual_tokens": [
+          "spotlight",
+          "unstable",
+          "overheard",
+          "ether",
+          "pointing",
+          "harbor",
+          "spreading",
+          "remembered",
+          "neglect",
+          "spring"
+        ],
+        "top_predicted_tokens": [
+          "",
+          "of",
+          "then",
+          "'s",
+          "make",
+          "the",
+          "that",
+          "the",
+          "the",
+          "("
+        ]
+      },
+      "q2": {
+        "n": 195,
+        "mean_s2": 6.425,
+        "mean_h10": 1.8267,
+        "mean_top1_prob": 0.4663,
+        "token_type_dist": {
+          "function": 50,
+          "content": 110,
+          "whitespace": 15,
+          "punctuation": 20
+        },
+        "top1_predicted_type_dist": {
+          "content": 45,
+          "punctuation": 24,
+          "function": 85,
+          "newline/space": 41
+        },
+        "top_actual_tokens": [
+          "Jesus",
+          "lay",
+          "stall",
+          "bes",
+          "midway",
+          "adjusting",
+          "which",
+          "Tennessee",
+          "revive",
+          "passengers"
+        ],
+        "top_predicted_tokens": [
+          "",
+          ",",
+          "",
+          "",
+          "to",
+          "",
+          ".",
+          "the",
+          ".",
+          "a"
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.9665
+    },
+    "new_york_school": {
+      "description": "New York School (O'Hara, etc.)",
+      "n_poems": 18,
+      "q1_n": 166,
+      "q2_n": 118,
+      "q2_q1_ratio": 0.711,
+      "total_high_s2": 287,
+      "q1": {
+        "n": 166,
+        "mean_s2": 4.845,
+        "mean_h10": 2.7966,
+        "mean_top1_prob": 0.1364,
+        "token_type_dist": {
+          "content": 149,
+          "whitespace": 7,
+          "function": 9,
+          "punctuation": 1
+        },
+        "top1_predicted_type_dist": {
+          "function": 87,
+          "punctuation": 14,
+          "content": 57,
+          "newline/space": 8
+        },
+        "top_actual_tokens": [
+          "flung",
+          "sur",
+          "speech",
+          "1959",
+          "dreamed",
+          "survey",
+          "Eas",
+          "days",
+          "funny",
+          "outside"
+        ],
+        "top_predicted_tokens": [
+          "are",
+          "And",
+          "they",
+          "12",
+          "deeper",
+          "would",
+          "New",
+          "",
+          "you",
+          ","
+        ]
+      },
+      "q2": {
+        "n": 118,
+        "mean_s2": 5.672,
+        "mean_h10": 2.0821,
+        "mean_top1_prob": 0.4082,
+        "token_type_dist": {
+          "content": 61,
+          "whitespace": 16,
+          "function": 30,
+          "punctuation": 11
+        },
+        "top1_predicted_type_dist": {
+          "content": 34,
+          "function": 57,
+          "punctuation": 17,
+          "newline/space": 10
+        },
+        "top_actual_tokens": [
+          "L",
+          "Babylon",
+          "",
+          "needed",
+          "smart",
+          "talking",
+          "ab",
+          "Gu",
+          "Building",
+          "Fur"
+        ],
+        "top_predicted_tokens": [
+          "playing",
+          "in",
+          "of",
+          "is",
+          "is",
+          "from",
+          "ossom",
+          "motion",
+          ",",
+          ","
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.7145
+    },
+    "beat": {
+      "description": "Beat (Ginsberg, etc.)",
+      "n_poems": 6,
+      "q1_n": 92,
+      "q2_n": 48,
+      "q2_q1_ratio": 0.522,
+      "total_high_s2": 141,
+      "q1": {
+        "n": 92,
+        "mean_s2": 5.512,
+        "mean_h10": 2.7847,
+        "mean_top1_prob": 0.1234,
+        "token_type_dist": {
+          "content": 86,
+          "function": 4,
+          "punctuation": 1,
+          "whitespace": 1
+        },
+        "top1_predicted_type_dist": {
+          "function": 33,
+          "punctuation": 9,
+          "content": 41,
+          "newline/space": 9
+        },
+        "top_actual_tokens": [
+          "absurdity",
+          "clar",
+          "Bra",
+          "Bomb",
+          "shopping",
+          "snatched",
+          "Coch",
+          "were",
+          "bay",
+          "babies"
+        ],
+        "top_predicted_tokens": [
+          "their",
+          "tongues",
+          ",",
+          "'re",
+          "in",
+          "time",
+          "",
+          "your",
+          "children",
+          "pain"
+        ]
+      },
+      "q2": {
+        "n": 48,
+        "mean_s2": 8.117,
+        "mean_h10": 1.8564,
+        "mean_top1_prob": 0.4683,
+        "token_type_dist": {
+          "content": 31,
+          "punctuation": 2,
+          "function": 13,
+          "whitespace": 2
+        },
+        "top1_predicted_type_dist": {
+          "function": 22,
+          "punctuation": 4,
+          "content": 15,
+          "newline/space": 7
+        },
+        "top_actual_tokens": [
+          "neb",
+          "hysterical",
+          "sid",
+          "dynam",
+          "bats",
+          "self",
+          "lean",
+          "angel",
+          "Da",
+          "tom"
+        ],
+        "top_predicted_tokens": [
+          "you",
+          "to",
+          "street",
+          "sky",
+          "of",
+          ".",
+          "and",
+          "",
+          "of",
+          "'s"
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.9283
+    },
+    "victorian": {
+      "description": "Victorian (Tennyson, Browning, etc.)",
+      "n_poems": 21,
+      "q1_n": 482,
+      "q2_n": 252,
+      "q2_q1_ratio": 0.523,
+      "total_high_s2": 737,
+      "q1": {
+        "n": 482,
+        "mean_s2": 4.752,
+        "mean_h10": 2.8514,
+        "mean_top1_prob": 0.119,
+        "token_type_dist": {
+          "content": 430,
+          "whitespace": 12,
+          "function": 35,
+          "punctuation": 5
+        },
+        "top1_predicted_type_dist": {
+          "punctuation": 60,
+          "content": 159,
+          "function": 237,
+          "newline/space": 26
+        },
+        "top_actual_tokens": [
+          "Duchess",
+          "solitude",
+          "starving",
+          "imb",
+          "fathers",
+          "wires",
+          "Pand",
+          "pole",
+          "bus",
+          "For"
+        ],
+        "top_predicted_tokens": [
+          "chance",
+          "statement",
+          "ground",
+          "of",
+          "aven",
+          "black",
+          "n",
+          "which",
+          "on",
+          ""
+        ]
+      },
+      "q2": {
+        "n": 252,
+        "mean_s2": 5.992,
+        "mean_h10": 1.9711,
+        "mean_top1_prob": 0.4345,
+        "token_type_dist": {
+          "content": 151,
+          "function": 67,
+          "punctuation": 24,
+          "whitespace": 10
+        },
+        "top1_predicted_type_dist": {
+          "newline/space": 30,
+          "punctuation": 66,
+          "content": 59,
+          "function": 97
+        },
+        "top_actual_tokens": [
+          "shook",
+          "his",
+          "called",
+          "dom",
+          "owers",
+          "tedious",
+          "unt",
+          "Fl",
+          "flame",
+          "thereby"
+        ],
+        "top_predicted_tokens": [
+          "the",
+          "lessly",
+          "fl",
+          "",
+          "ued",
+          "the",
+          ".",
+          "",
+          "be",
+          "across"
+        ]
+      },
+      "q1_vs_q2_h10_gap": 0.8803
+    }
+  },
+  "metadata": {
+    "s2_threshold": 2.0,
+    "surp_median": 4.77,
+    "ent_median": 6.34,
+    "date": "2026-10-13",
+    "note": "Pope paradox investigation: Q2/Q1 ratio + H_top10 at Q1 vs Q2 moments"
+  }
+}

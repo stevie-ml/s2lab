@@ -5227,6 +5227,112 @@ and held him fast in his fearless hands,
 till joint-bark cracked and body broke,
 and the arm and shoulder asunder flew."""
     },
+
+    # ─── NEOCLASSICAL / 18TH CENTURY (Pope paradox investigation) ────────
+    # The Q2/Q1 taxonomy (2026-10-11) found Pope to be the extreme Q1 strategist
+    # despite writing in closed heroic couplets. Adding more Pope poems plus
+    # comparison neoclassical poets (Dryden, Johnson, Gay) to test whether Q1
+    # dominance is specific to Pope's diction or characteristic of the era.
+    {
+        "title": "An Essay on Criticism (opening)",
+        "author": "Alexander Pope",
+        "year": 1711,
+        "era": "18th_century",
+        "text": """'Tis hard to say, if greater want of skill
+Appear in writing or in judging ill;
+But, of the two, less dang'rous is th' offence
+To tire our patience, than mislead our sense.
+Some few in that, but numbers err in this,
+Ten censure wrong for one who writes amiss;
+A fool might once himself alone expose,
+Now one in verse makes many more in prose.
+'Tis with our judgments as our watches, none
+Go just alike, yet each believes his own.
+In poets as true genius is but rare,
+True taste as seldom is the critic's share;
+Both must alike from Heav'n derive their light,
+These born to judge, as well as those to write."""
+    },
+    {
+        "title": "Epistle to Dr. Arbuthnot (opening)",
+        "author": "Alexander Pope",
+        "year": 1735,
+        "era": "18th_century",
+        "text": """Shut, shut the door, good John! fatigued, I said,
+Tie up the knocker, say I'm sick, I'm dead.
+The Dog-star rages! nay 'tis past a doubt,
+All Bedlam, or Parnassus, is let out:
+Fire in each eye, and papers in each hand,
+They rave, recite, and madden round the land.
+What walls can guard me, or what shades can hide?
+They pierce my thickets, through my Grot they glide,
+By land, by water, they renew the charge,
+They stop the chariot, and they board the barge.
+No place is sacred, not the church is free;
+Ev'n Sunday shines no Sabbath-day to me;
+Then from the Mint walks forth the man of rhyme,
+Happy! to catch me just at dinner-time."""
+    },
+    {
+        "title": "An Essay on Man (Epistle I, opening)",
+        "author": "Alexander Pope",
+        "year": 1733,
+        "era": "18th_century",
+        "text": """Awake, my St. John! leave all meaner things
+To low ambition, and the pride of Kings.
+Let us (since Life can little more supply
+Than just to look about us and to die)
+Expatiate free o'er all this scene of Man;
+A mighty maze! but not without a plan;
+A Wild, where weeds and flow'rs promiscuous shoot,
+Or Garden, tempting with forbidden fruit.
+Together let us beat this ample field,
+Try what the open, what the covert yield;
+The latent tracts, the giddy heights explore
+Of all who blindly creep, or sightless soar;
+Eye Nature's walks, shoot Folly as it flies,
+And catch the Manners living as they rise."""
+    },
+    {
+        "title": "MacFlecknoe (opening)",
+        "author": "John Dryden",
+        "year": 1682,
+        "era": "18th_century",
+        "text": """All human things are subject to decay,
+And when fate summons, monarchs must obey.
+This Flecknoe found, who, like Augustus, young
+Was called to empire, and had governed long;
+In prose and verse, was owned, without dispute,
+Through all the realms of Nonsense, absolute.
+This aged prince, now flourishing in peace,
+And blest with issue of a large increase,
+Worn out with business, did at last debate
+To settle the succession of the State;
+And, pondering which of all his sons was fit
+To reign, and wage immortal war with wit,
+Cried: 'Tis resolved; for nature pleads, that he
+Should only rule, who most resembles me."""
+    },
+    {
+        "title": "The Vanity of Human Wishes (opening)",
+        "author": "Samuel Johnson",
+        "year": 1749,
+        "era": "18th_century",
+        "text": """Let observation with extensive view,
+Survey mankind, from China to Peru;
+Remark each anxious toil, each eager strife,
+And watch the busy scenes of crowded life;
+Then say how hope and fear, desire and hate,
+O'erspread with snares the clouded maze of fate,
+Where wav'ring man, betrayed by vent'rous pride,
+To tread the dreary paths without a guide,
+As treach'rous phantoms in the mist delude,
+Shuns fancied ills, or chases airy good;
+How rarely reason guides the stubborn choice,
+Rules the bold hand, or prompts the suppliant voice;
+How nations sink, by darling schemes oppressed,
+When vengeance listens to the fool's request."""
+    },
 ]
 
 # Quick stats
