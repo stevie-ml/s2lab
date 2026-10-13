@@ -1,0 +1,702 @@
+{
+  "total_body_part_tokens": 384,
+  "poems_with_body_parts": 139,
+  "body_part_stats": {
+    "bones": {
+      "n": 6,
+      "mean": 3.8463166666666666,
+      "median": 1.7537500000000001,
+      "std": 6.640411360274803,
+      "pos_pct": 0.5
+    },
+    "foot": {
+      "n": 6,
+      "mean": 1.8794499999999998,
+      "median": 2.2728,
+      "std": 2.838150285485249,
+      "pos_pct": 0.8333333333333334
+    },
+    "eye": {
+      "n": 11,
+      "mean": 1.3910272727272728,
+      "median": 0.0184,
+      "std": 4.130024861932651,
+      "pos_pct": 0.5454545454545454
+    },
+    "chest": {
+      "n": 5,
+      "mean": 1.32154,
+      "median": 1.0309,
+      "std": 2.7750225734217007,
+      "pos_pct": 0.8
+    },
+    "feet": {
+      "n": 4,
+      "mean": 1.285925,
+      "median": 2.7960000000000003,
+      "std": 3.385612866601851,
+      "pos_pct": 0.75
+    },
+    "arm": {
+      "n": 3,
+      "mean": 1.2167333333333332,
+      "median": 1.1299,
+      "std": 0.6280681677440223,
+      "pos_pct": 1.0
+    },
+    "flesh": {
+      "n": 6,
+      "mean": 0.9448333333333334,
+      "median": 1.69055,
+      "std": 3.659765340929206,
+      "pos_pct": 0.6666666666666666
+    },
+    "mouth": {
+      "n": 6,
+      "mean": 0.5227666666666667,
+      "median": -0.8294,
+      "std": 3.873945344821822,
+      "pos_pct": 0.5
+    },
+    "hips": {
+      "n": 10,
+      "mean": 0.32692000000000004,
+      "median": -0.96375,
+      "std": 3.82969275727324,
+      "pos_pct": 0.3
+    },
+    "back": {
+      "n": 15,
+      "mean": 0.29973333333333335,
+      "median": 0.1872,
+      "std": 2.718469947984571,
+      "pos_pct": 0.5333333333333333
+    },
+    "brow": {
+      "n": 4,
+      "mean": -0.09654999999999997,
+      "median": -0.2763,
+      "std": 1.2847929677578407,
+      "pos_pct": 0.5
+    },
+    "neck": {
+      "n": 3,
+      "mean": -0.3615333333333333,
+      "median": -0.9836,
+      "std": 1.178981294734286,
+      "pos_pct": 0.3333333333333333
+    },
+    "body": {
+      "n": 13,
+      "mean": -0.39691538461538456,
+      "median": -0.8432,
+      "std": 2.731563546105098,
+      "pos_pct": 0.38461538461538464
+    },
+    "lips": {
+      "n": 5,
+      "mean": -0.43206000000000006,
+      "median": -2.0917,
+      "std": 4.813968275030486,
+      "pos_pct": 0.4
+    },
+    "belly": {
+      "n": 17,
+      "mean": -0.45298235294117645,
+      "median": -0.6716,
+      "std": 2.7446016464678653,
+      "pos_pct": 0.11764705882352941
+    },
+    "ears": {
+      "n": 4,
+      "mean": -0.584875,
+      "median": -0.9465,
+      "std": 2.207214250852569,
+      "pos_pct": 0.25
+    },
+    "bone": {
+      "n": 5,
+      "mean": -0.5909800000000002,
+      "median": -0.1924,
+      "std": 4.000704960003924,
+      "pos_pct": 0.4
+    },
+    "ear": {
+      "n": 5,
+      "mean": -0.7896199999999999,
+      "median": -2.0403,
+      "std": 2.2278397826145397,
+      "pos_pct": 0.4
+    },
+    "skin": {
+      "n": 4,
+      "mean": -0.896575,
+      "median": -0.7104,
+      "std": 1.7675486006990964,
+      "pos_pct": 0.5
+    },
+    "arms": {
+      "n": 9,
+      "mean": -0.9925222222222222,
+      "median": -1.0726,
+      "std": 3.304929302488095,
+      "pos_pct": 0.3333333333333333
+    },
+    "teeth": {
+      "n": 3,
+      "mean": -1.0667333333333333,
+      "median": -1.2281,
+      "std": 1.5643047028419153,
+      "pos_pct": 0.3333333333333333
+    },
+    "mind": {
+      "n": 8,
+      "mean": -1.0751000000000002,
+      "median": -2.27905,
+      "std": 3.9563194728723023,
+      "pos_pct": 0.25
+    },
+    "knees": {
+      "n": 3,
+      "mean": -1.2709333333333335,
+      "median": -0.22,
+      "std": 2.2435944694470376,
+      "pos_pct": 0.3333333333333333
+    },
+    "tongue": {
+      "n": 3,
+      "mean": -1.3045333333333335,
+      "median": -1.4829,
+      "std": 1.8941590807884467,
+      "pos_pct": 0.3333333333333333
+    },
+    "hair": {
+      "n": 10,
+      "mean": -1.35354,
+      "median": -1.0776,
+      "std": 3.647320861856458,
+      "pos_pct": 0.1
+    },
+    "blood": {
+      "n": 12,
+      "mean": -1.46415,
+      "median": -1.75245,
+      "std": 2.601113356203105,
+      "pos_pct": 0.25
+    },
+    "head": {
+      "n": 18,
+      "mean": -1.484688888888889,
+      "median": -3.40125,
+      "std": 4.085131494015669,
+      "pos_pct": 0.2777777777777778
+    },
+    "eyes": {
+      "n": 31,
+      "mean": -1.6777354838709677,
+      "median": -2.7172,
+      "std": 3.6158508570412016,
+      "pos_pct": 0.22580645161290322
+    },
+    "voice": {
+      "n": 11,
+      "mean": -2.1805363636363637,
+      "median": -2.6596,
+      "std": 2.545317985349857,
+      "pos_pct": 0.18181818181818182
+    },
+    "hand": {
+      "n": 38,
+      "mean": -2.198007894736842,
+      "median": -2.25795,
+      "std": 2.6480326708997013,
+      "pos_pct": 0.18421052631578946
+    },
+    "face": {
+      "n": 14,
+      "mean": -2.3612285714285712,
+      "median": -2.1109,
+      "std": 2.417368493099174,
+      "pos_pct": 0.14285714285714285
+    },
+    "heart": {
+      "n": 28,
+      "mean": -2.4726785714285713,
+      "median": -3.9429000000000003,
+      "std": 2.9236987514368575,
+      "pos_pct": 0.17857142857142858
+    },
+    "hands": {
+      "n": 11,
+      "mean": -2.7582545454545455,
+      "median": -2.7694,
+      "std": 1.5853780415810206,
+      "pos_pct": 0.0
+    },
+    "soul": {
+      "n": 19,
+      "mean": -3.3224736842105265,
+      "median": -3.9715,
+      "std": 2.1847434977442255,
+      "pos_pct": 0.10526315789473684
+    }
+  },
+  "era_body_part_s2": {
+    "confessional": {
+      "mean": 3.0321875,
+      "n": 8
+    },
+    "latin_american": {
+      "mean": 2.5506333333333333,
+      "n": 9
+    },
+    "german_expressionist": {
+      "mean": 1.5776444444444444,
+      "n": 18
+    },
+    "beat": {
+      "mean": 1.2972166666666667,
+      "n": 6
+    },
+    "oulipo": {
+      "mean": 0.1480111111111111,
+      "n": 9
+    },
+    "old_english": {
+      "mean": -0.06829,
+      "n": 10
+    },
+    "spoken_word": {
+      "mean": -0.20673571428571424,
+      "n": 14
+    },
+    "postcolonial": {
+      "mean": -0.29271111111111114,
+      "n": 9
+    },
+    "mid_century": {
+      "mean": -0.35046,
+      "n": 5
+    },
+    "modernist": {
+      "mean": -0.4418066666666666,
+      "n": 30
+    },
+    "18th_century": {
+      "mean": -0.60747,
+      "n": 10
+    },
+    "victorian": {
+      "mean": -1.037095918367347,
+      "n": 49
+    },
+    "prose_poetry": {
+      "mean": -1.0668714285714287,
+      "n": 14
+    },
+    "19th_century": {
+      "mean": -1.191376,
+      "n": 25
+    },
+    "metaphysical": {
+      "mean": -1.3248285714285715,
+      "n": 7
+    },
+    "romantic": {
+      "mean": -1.3736115384615384,
+      "n": 26
+    },
+    "war_poetry": {
+      "mean": -1.46185,
+      "n": 14
+    },
+    "early_modern": {
+      "mean": -1.4752363636363637,
+      "n": 11
+    },
+    "contemporary": {
+      "mean": -1.7079,
+      "n": 17
+    },
+    "parody_original": {
+      "mean": -1.7801399999999998,
+      "n": 5
+    },
+    "parody": {
+      "mean": -1.8238666666666667,
+      "n": 12
+    },
+    "harlem_renaissance": {
+      "mean": -1.9626666666666668,
+      "n": 9
+    },
+    "new_york_school": {
+      "mean": -2.031418181818182,
+      "n": 11
+    },
+    "ancient": {
+      "mean": -2.2223285714285717,
+      "n": 7
+    },
+    "biblical": {
+      "mean": -2.33503,
+      "n": 10
+    },
+    "classical_chinese": {
+      "mean": -2.378216666666667,
+      "n": 6
+    },
+    "cliche_control": {
+      "mean": -2.8403428571428573,
+      "n": 7
+    }
+  },
+  "heart_by_era": {
+    "spoken_word": {
+      "mean": 0.6861999999999999,
+      "n": 2
+    },
+    "19th_century": {
+      "mean": -1.294575,
+      "n": 8
+    },
+    "cliche_control": {
+      "mean": -3.5741666666666667,
+      "n": 3
+    },
+    "romantic": {
+      "mean": -4.482419999999999,
+      "n": 5
+    },
+    "victorian": {
+      "mean": -4.718466666666667,
+      "n": 3
+    }
+  },
+  "top_suppressed_at_body_parts": [
+    {
+      "word": "heart",
+      "count": 22
+    },
+    {
+      "word": "hand",
+      "count": 19
+    },
+    {
+      "word": ",",
+      "count": 17
+    },
+    {
+      "word": "eyes",
+      "count": 16
+    },
+    {
+      "word": "the",
+      "count": 15
+    },
+    {
+      "word": "belly",
+      "count": 14
+    },
+    {
+      "word": "face",
+      "count": 11
+    },
+    {
+      "word": "head",
+      "count": 11
+    },
+    {
+      "word": "and",
+      "count": 9
+    },
+    {
+      "word": "-",
+      "count": 7
+    },
+    {
+      "word": "soul",
+      "count": 7
+    },
+    {
+      "word": "",
+      "count": 6
+    },
+    {
+      "word": "blood",
+      "count": 6
+    },
+    {
+      "word": "hips",
+      "count": 6
+    },
+    {
+      "word": "hands",
+      "count": 5
+    },
+    {
+      "word": "to",
+      "count": 5
+    },
+    {
+      "word": ".",
+      "count": 5
+    },
+    {
+      "word": "own",
+      "count": 4
+    },
+    {
+      "word": "father",
+      "count": 4
+    },
+    {
+      "word": "body",
+      "count": 4
+    }
+  ],
+  "high_s2_body_parts": [
+    {
+      "word": "throat",
+      "s2": 14.9156,
+      "title": "The Truth the Dead Know (excerpt)",
+      "author": "Anne Sexton",
+      "era": "confessional",
+      "top_alt": "and"
+    },
+    {
+      "word": "bones",
+      "s2": 12.5787,
+      "title": "Black Stone Lying on a White Stone",
+      "author": "C\u00e9sar Vallejo (trans. Thomas Merton)",
+      "era": "latin_american",
+      "top_alt": "on"
+    },
+    {
+      "word": "palm",
+      "s2": 11.1413,
+      "title": "Recessional (stanzas 1-3)",
+      "author": "Rudyard Kipling",
+      "era": "victorian",
+      "top_alt": "the"
+    },
+    {
+      "word": "bones",
+      "s2": 10.7875,
+      "title": "Black Stone Lying on a White Stone",
+      "author": "C\u00e9sar Vallejo (trans. Thomas Merton)",
+      "era": "latin_american",
+      "top_alt": "saturdays"
+    },
+    {
+      "word": "thigh",
+      "s2": 8.2027,
+      "title": "Mann und Frau gehn durch die Krebsbaracke (trans. Ward)",
+      "author": "Gottfried Benn",
+      "era": "german_expressionist",
+      "top_alt": "is"
+    },
+    {
+      "word": "hip",
+      "s2": 8.1812,
+      "title": "Howl (opening)",
+      "author": "Allen Ginsberg",
+      "era": "beat",
+      "top_alt": ","
+    },
+    {
+      "word": "eye",
+      "s2": 7.8904,
+      "title": "Constantly Risking Absurdity",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "top_alt": "the"
+    },
+    {
+      "word": "eye",
+      "s2": 7.3857,
+      "title": "An Essay on Man (Epistle I, opening)",
+      "author": "Alexander Pope",
+      "era": "18th_century",
+      "top_alt": "and"
+    },
+    {
+      "word": "eyes",
+      "s2": 7.1944,
+      "title": "O Captain! My Captain! (stanza 1)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "top_alt": "the"
+    },
+    {
+      "word": "eyes",
+      "s2": 7.1944,
+      "title": "O Captain! My Captain!",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "top_alt": "the"
+    },
+    {
+      "word": "mind",
+      "s2": 7.1709,
+      "title": "The Wanderer (excerpt, modern translation)",
+      "author": "Anonymous (Old English, trans. anon.)",
+      "era": "old_english",
+      "top_alt": "the"
+    },
+    {
+      "word": "hair",
+      "s2": 7.1032,
+      "title": "Umbra Vitae (trans. Hamburger)",
+      "author": "Georg Heym",
+      "era": "german_expressionist",
+      "top_alt": "light"
+    },
+    {
+      "word": "head",
+      "s2": 6.9943,
+      "title": "The Listeners",
+      "author": "Walter de la Mare",
+      "era": "19th_century",
+      "top_alt": "one"
+    },
+    {
+      "word": "lips",
+      "s2": 6.9185,
+      "title": "What lips my lips have kissed",
+      "author": "Edna St. Vincent Millay",
+      "era": "mid_century",
+      "top_alt": "is"
+    },
+    {
+      "word": "eye",
+      "s2": 6.8011,
+      "title": "Ghazal of the Better-Unbegun",
+      "author": "Heather McHugh",
+      "era": "ghazal",
+      "top_alt": "the"
+    },
+    {
+      "word": "mouth",
+      "s2": 6.288,
+      "title": "Neutral Tones",
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "top_alt": "face"
+    },
+    {
+      "word": "womb",
+      "s2": 6.2622,
+      "title": "Mann und Frau gehn durch die Krebsbaracke (trans. Ward)",
+      "author": "Gottfried Benn",
+      "era": "german_expressionist",
+      "top_alt": "tits"
+    },
+    {
+      "word": "retina",
+      "s2": 6.2029,
+      "title": "Scientific Method (Found Poem from Newton's Opticks, 1704)",
+      "author": "Isaac Newton (found text)",
+      "era": "found_poetry",
+      "top_alt": "light"
+    },
+    {
+      "word": "hips",
+      "s2": 6.1849,
+      "title": "Homage to My Hips",
+      "author": "Lucille Clifton",
+      "era": "spoken_word",
+      "top_alt": "to"
+    },
+    {
+      "word": "hips",
+      "s2": 5.9404,
+      "title": "Homage to My Hips",
+      "author": "Lucille Clifton",
+      "era": "spoken_word",
+      "top_alt": "and"
+    },
+    {
+      "word": "belly",
+      "s2": 5.8129,
+      "title": "Der Gott der Stadt (The God of the City, trans.)",
+      "author": "Georg Heym",
+      "era": "german_expressionist",
+      "top_alt": "sands"
+    },
+    {
+      "word": "belly",
+      "s2": 5.6808,
+      "title": "Lifting Belly (excerpt)",
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "top_alt": "the"
+    },
+    {
+      "word": "body",
+      "s2": 5.5963,
+      "title": "The Second Coming",
+      "author": "W.B. Yeats",
+      "era": "modernist",
+      "top_alt": "'s"
+    },
+    {
+      "word": "foot",
+      "s2": 5.4932,
+      "title": "God's Grandeur",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "top_alt": "it"
+    },
+    {
+      "word": "spine",
+      "s2": 5.4554,
+      "title": "Mann und Frau gehn durch die Krebsbaracke (trans. Ward)",
+      "author": "Gottfried Benn",
+      "era": "german_expressionist",
+      "top_alt": "little"
+    },
+    {
+      "word": "back",
+      "s2": 5.4254,
+      "title": "Ghazal of the Better-Unbegun",
+      "author": "Heather McHugh",
+      "era": "ghazal",
+      "top_alt": "he"
+    },
+    {
+      "word": "eyes",
+      "s2": 5.2356,
+      "title": "Tonight I Can Write (excerpt)",
+      "author": "Pablo Neruda (trans. W.S. Merwin)",
+      "era": "latin_american",
+      "top_alt": "?"
+    },
+    {
+      "word": "knee",
+      "s2": 5.158,
+      "title": "Digging",
+      "author": "Seamus Heaney",
+      "era": "contemporary",
+      "top_alt": "of"
+    },
+    {
+      "word": "chest",
+      "s2": 5.0821,
+      "title": "Pied Beauty",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "top_alt": "-"
+    },
+    {
+      "word": "bones",
+      "s2": 4.9942,
+      "title": "Proverbs of Hell (excerpt from Marriage of Heaven and Hell)",
+      "author": "William Blake",
+      "era": "romantic",
+      "top_alt": "fields"
+    }
+  ],
+  "metaphor_prone_mean_s2": -1.3219782051282052,
+  "literal_mean_s2": -0.5307912280701754
+}
