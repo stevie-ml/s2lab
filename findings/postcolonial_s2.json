@@ -1,0 +1,142 @@
+{
+  "postcolonial": {
+    "era": "postcolonial",
+    "n": 6,
+    "mean_s2": -0.495,
+    "max_s2": 25.655,
+    "pos_ratio": 0.296,
+    "poems": [
+      {
+        "title": "Remember",
+        "author": "Joy Harjo",
+        "era": "postcolonial",
+        "year": 1983,
+        "n_tokens": 169,
+        "mean_s2": -0.4521236686390533,
+        "max_s2": 18.0592,
+        "pos_ratio": 0.2958579881656805,
+        "std_s2": 3.803114205634193
+      },
+      {
+        "title": "She Had Some Horses",
+        "author": "Joy Harjo",
+        "era": "postcolonial",
+        "year": 1983,
+        "n_tokens": 115,
+        "mean_s2": -0.5787365217391304,
+        "max_s2": 10.9204,
+        "pos_ratio": 0.23478260869565218,
+        "std_s2": 2.910569495964677
+      },
+      {
+        "title": "The Season of Phantasmal Peace",
+        "author": "Derek Walcott",
+        "era": "postcolonial",
+        "year": 1981,
+        "n_tokens": 166,
+        "mean_s2": -0.8024337349397591,
+        "max_s2": 12.9406,
+        "pos_ratio": 0.2710843373493976,
+        "std_s2": 3.5060601459035583
+      },
+      {
+        "title": "Postcard from Kashmir",
+        "author": "Agha Shahid Ali",
+        "era": "postcolonial",
+        "year": 1987,
+        "n_tokens": 115,
+        "mean_s2": -0.38355826086956524,
+        "max_s2": 10.9181,
+        "pos_ratio": 0.3565217391304348,
+        "std_s2": 3.311133185796659
+      },
+      {
+        "title": "Even the Rain",
+        "author": "Agha Shahid Ali",
+        "era": "postcolonial",
+        "year": 1997,
+        "n_tokens": 209,
+        "mean_s2": -0.443566028708134,
+        "max_s2": 11.5783,
+        "pos_ratio": 0.3827751196172249,
+        "std_s2": 3.885986301438845
+      },
+      {
+        "title": "Calypso",
+        "author": "Kamau Brathwaite",
+        "era": "postcolonial",
+        "year": 1967,
+        "n_tokens": 215,
+        "mean_s2": -0.3070386046511628,
+        "max_s2": 25.6548,
+        "pos_ratio": 0.2372093023255814,
+        "std_s2": 4.766294138484971
+      }
+    ]
+  },
+  "comparisons": {
+    "contemporary": {
+      "n": 9,
+      "mean_s2": -0.365,
+      "pos_ratio": 0.342
+    },
+    "confessional": {
+      "n": 6,
+      "mean_s2": -0.3,
+      "pos_ratio": 0.385
+    },
+    "beat": {
+      "n": 6,
+      "mean_s2": 0.279,
+      "pos_ratio": 0.316
+    },
+    "new_york_school": {
+      "n": 18,
+      "mean_s2": -0.599,
+      "pos_ratio": 0.346
+    },
+    "victorian": {
+      "n": 21,
+      "mean_s2": -0.305,
+      "pos_ratio": 0.365
+    },
+    "romantic": {
+      "n": 15,
+      "mean_s2": -0.47,
+      "pos_ratio": 0.356
+    },
+    "modernist": {
+      "n": 24,
+      "mean_s2": -0.405,
+      "pos_ratio": 0.36
+    },
+    "black_arts": {
+      "n": 1,
+      "mean_s2": -0.502,
+      "pos_ratio": 0.34
+    },
+    "harlem_renaissance": {
+      "n": 5,
+      "mean_s2": -0.5,
+      "pos_ratio": 0.352
+    },
+    "protest_political": {
+      "n": 2,
+      "mean_s2": -0.73,
+      "pos_ratio": 0.329
+    },
+    "language": {
+      "n": 5,
+      "mean_s2": -0.424,
+      "pos_ratio": 0.333
+    }
+  },
+  "category_counts": {
+    "function_word": 10,
+    "content_word": 130,
+    "newline_expected": 33,
+    "long_rare_word": 8,
+    "cultural_lexicon": 6,
+    "proper_noun": 6
+  }
+}

@@ -5333,6 +5333,155 @@ Rules the bold hand, or prompts the suppliant voice;
 How nations sink, by darling schemes oppressed,
 When vengeance listens to the fool's request."""
     },
+
+    # ─── POSTCOLONIAL / DIASPORA ─────────────────────────────────────────────
+    # Poets working between oral traditions, dialect, and literary English.
+    # Hypothesis: code-switching, vernacular patterning, and cross-cultural
+    # lexicons produce distinct S2 signatures versus mainstream Anglo-American verse.
+    {
+        "title": "Remember",
+        "author": "Joy Harjo",
+        "year": 1983,
+        "era": "postcolonial",
+        "text": """Remember the sky that you were born under,
+know each of the star's stories.
+Remember the moon, know who she is.
+Remember the sun's birth at dawn, that is the
+strongest point of time. Remember sundown
+and the giving away to night.
+Remember your birth, how your mother struggled
+to give you form and breath. You are evidence of
+her life, and her mother's, and hers.
+Remember your father. He is your life, also.
+Remember the earth whose skin you are:
+red earth, black earth, yellow earth, white earth
+brown earth, we are earth.
+Remember the plants, trees, animal life who all have their
+tribes, their families, their histories, too. Talk to them,
+listen to them. They are alive poems."""
+    },
+    {
+        "title": "She Had Some Horses",
+        "author": "Joy Harjo",
+        "year": 1983,
+        "era": "postcolonial",
+        "text": """She had some horses.
+
+She had horses who were bodies of sand.
+She had horses who were maps drawn of blood.
+She had horses who were skins of ocean water.
+She had horses who were the blue air of sky.
+She had horses who were fur and teeth.
+She had horses who were clay and blood.
+She had horses who were dancers in their hearts.
+She had horses who told the truth about themselves.
+She had horses who were called dangerous.
+She had horses who jumped from skyscrapers to catch the wind.
+She had horses who waited for destruction.
+She had horses who waited at the end of the road."""
+    },
+    {
+        "title": "The Season of Phantasmal Peace",
+        "author": "Derek Walcott",
+        "year": 1981,
+        "era": "postcolonial",
+        "text": """Then all the birds of Guadeloupe, all the birds
+of St. Lucia, broke from the sap of their branches
+and flew to that arbor made of the boughs of both
+islands, the one bridge joining each in a season
+that was never the summer of this world, and the birds
+that flew over the sea, made it tremble,
+and the dolphins leaped from it, not in play
+but in gratitude.
+
+Then all the birds of Guadeloupe, those that feed
+on the wiry grasses of the savannah, the green-throated
+parrot, the humming-birds of the hills,
+all the singing birds of both islands
+stopped, and the trees were astonished by them.
+And nothing, not a single leaf, trembled."""
+    },
+    {
+        "title": "Postcard from Kashmir",
+        "author": "Agha Shahid Ali",
+        "year": 1987,
+        "era": "postcolonial",
+        "text": """Kashmir shrinks into my mailbox,
+my home a neat four by six inches.
+
+I always loved neatness. Now I hold
+the half-inch Himalayas in my hand.
+
+This is home. And this the closest
+I'll ever be to home. When I return,
+the colors won't be so brilliant,
+the Jhelum's waters so clear,
+so ultramarine. My love
+so overexposed.
+
+And my memory will be a little
+out of focus, in it
+a giant negative, black
+and white, still undeveloped."""
+    },
+    {
+        "title": "Even the Rain",
+        "author": "Agha Shahid Ali",
+        "year": 1997,
+        "era": "postcolonial",
+        "text": """What will suffice for a true-love knot? Even the rain?
+But he has bought grief's lottery, bought even the rain.
+
+"Our glosses / wanting in this world"—"Can you remember?"
+Anyone!—"when we thought / the poets taught" even the rain?
+
+After we died—That was it!—God left us in the dark.
+And as we forgot the dark, we forgot even the rain.
+
+Drought was over. Where was I? Drinks were on the house.
+For mixers, my love, you'd poured—what?—even the rain.
+
+Of this pear-shaped orange's perfumed twist, I will say:
+Extract Vermouth from the bergamot, even the rain.
+
+How did the Enemy love you—with earth? air? and fire?
+He held just one thing back till he got even: the rain.
+
+This is God's site for a new paradise. No plan
+is good without water, and that includes even the rain."""
+    },
+    {
+        "title": "Calypso",
+        "author": "Kamau Brathwaite",
+        "year": 1967,
+        "era": "postcolonial",
+        "text": """The stone had skidded arc'd and bloomed into islands:
+Cuba and San Domingo
+                         Jamaica and Puerto Rico
+Grenada        Guadeloupe         Bonaire
+
+curved stone hissed into reef
+coral             cay                    sand                  key
+
+The islands fell out of Columbus's hat
+into the morning and the morning sea
+
+and the deep sargasso
+rolled and wrote the syllable
+of trade wind
+and the sea
+
+And the stone sped into the Caribbean
+
+the dark trees
+and the dark peoples
+and the dark seabirds singing
+
+into this new morning
+where silence was
+and the heart's blood's
+    hum"""
+    },
 ]
 
 # Quick stats
