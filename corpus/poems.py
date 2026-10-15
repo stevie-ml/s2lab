@@ -5482,6 +5482,283 @@ where silence was
 and the heart's blood's
     hum"""
     },
+
+    # ─── DRAMATIC MONOLOGUE ────────────────────────────────────────────
+    # Poems where a fictional speaker addresses an implied listener,
+    # often revealing themselves unintentionally through what they say.
+    {
+        "title": "My Last Duchess (complete)",
+        "author": "Robert Browning",
+        "year": 1842,
+        "era": "dramatic_monologue",
+        "text": """That's my last Duchess painted on the wall,
+Looking as if she were alive. I call
+That piece a wonder, now; Fra Pandolf's hands
+Worked busily a day, and there she stands.
+Will't please you sit and look at her? I said
+"Fra Pandolf" by design, for never read
+Strangers like you that pictured countenance,
+The depth and passion of its earnest glance,
+But to myself they turned (since none puts by
+The curtain I have drawn for you, but I)
+And seemed as they would ask me, if they durst,
+How such a glance came there; so, not the first
+Are you to turn and ask thus. Sir, 'twas not
+Her husband's presence only, called that spot
+Of joy into the Duchess' cheek; perhaps
+Fra Pandolf chanced to say, "Her mantle laps
+Over my lady's wrist too much," or "Paint
+Must never hope to reproduce the faint
+Half-flush that dies along her throat." Such stuff
+Was courtesy, she thought, and cause enough
+For calling up that spot of joy. She had
+A heart—how shall I say?—too soon made glad,
+Too easily impressed; she liked whate'er
+She looked on, and her looks went everywhere.
+Sir, 'twas all one! My favour at her breast,
+The dropping of the daylight in the West,
+The bough of cherries some officious fool
+Broke in the orchard for her, the white mule
+She rode with round the terrace—all and each
+Would draw from her alike the approving speech,
+Or blush, at least. She thanked men—good! but thanked
+Somehow—I know not how—as if she ranked
+My gift of a nine-hundred-years-old name
+With anybody's gift. Who'd stoop to blame
+This sort of trifling? Even had you skill
+In speech—which I have not—to make your will
+Quite clear to one, and say, "Just this
+Or that in you disgusts me; here you miss,
+Or there exceed the mark"—and if she let
+Herself be lessoned so, nor plainly set
+Her wits to yours, forsooth, and made excuse,
+—E'en then would be some stooping; and I choose
+Never to stoop. Oh, sir, she smiled, no doubt,
+Whene'er I passed her; but who passed without
+Much the same smile? This grew; I gave commands;
+Then all smiles stopped together. There she stands
+As if alive. Will't please you rise? We'll meet
+The company below, then. I repeat,
+The Count your master's known munificence
+Is ample warrant that no just pretense
+Of mine for dowry will be disallowed;
+Though his fair daughter's self, as I avowed
+At starting, is my object. Nay, we'll go
+Together down, sir. Notice Neptune, though,
+Taming a sea-horse, thought a rarity,
+Which Claus of Innsbruck cast in bronze for me!"""
+    },
+    {
+        "title": "Soliloquy of the Spanish Cloister",
+        "author": "Robert Browning",
+        "year": 1842,
+        "era": "dramatic_monologue",
+        "text": """Gr-r-r—there go, my heart's abhorrence!
+Water your damned flower-pots, do!
+If hate killed men, Brother Lawrence,
+God's blood, would not mine kill you!
+What? your myrtle-bush wants trimming?
+Oh, that rose has prior claims—
+Needs its leaden vase filled brimming?
+Hell dry you up with its flames!
+
+At the meal we sit together;
+Salve tibi! I must hear
+Wise talk of the kind of weather,
+Sort of season, time of year:
+Not a plenteous cork-crop: scarcely
+Dare we hope oak-galls, I doubt;
+What's the Latin name for "parsley"?
+What's the Greek name for Swine's Snout?
+
+Whew! We'll have our platter burnished,
+Laid with care on our own shelf!
+With a fire-new spoon we're furnished,
+And a goblet for ourself,
+Rinsed like something sacrificial
+Ere 'tis fit to touch our chaps—
+Marked with L. for our initial!
+(He-he! There his lily snaps!)"""
+    },
+    {
+        "title": "The Bishop Orders His Tomb at Saint Praxed's Church",
+        "author": "Robert Browning",
+        "year": 1845,
+        "era": "dramatic_monologue",
+        "text": """Vanity, saith the preacher, vanity!
+Draw round my bed: is Anselm keeping back?
+Nephews—sons mine ... ah God, I know not! Well—
+She, men would have to be your mother once,
+Old Gandolf envied me, so fair she was!
+What's done is done, and she is dead beside,
+Dead long ago, and I am Bishop since,
+And as she died so must we die ourselves,
+And thence ye may perceive the world's a dream.
+Life, how and what is it? As here I lie
+In this state-chamber, dying by degrees,
+Hours and long hours in the dead night, I ask
+"Do I live, am I dead?" Peace, peace seems all.
+Saint Praxed's ever was the church for peace;
+And so, about this tomb of mine. I fought
+With tooth and nail to save my niche, ye know:
+—Old Gandolf cozened me, despite my care;
+Shrewd was that snatch from out the corner South
+He graced his carrion with, God curse the same!
+Yet still my niche is not so cramped but thence
+One sees the pulpit o' the epistle-side,
+And somewhat of the choir, those silent seats,
+And up into the aery dome where live
+The angels, and a sunbeam's sure to lurk:
+And I shall fill my slab of basalt there,
+And 'neath my tabernacle take my rest,
+With those nine columns round me, two and two,
+The odd one at my feet where Anselm stands:
+Peach-blossom marble all, the rare, the ripe
+As fresh-poured red wine of a mighty pulse."""
+    },
+    {
+        "title": "Andrea del Sarto",
+        "author": "Robert Browning",
+        "year": 1855,
+        "era": "dramatic_monologue",
+        "text": """But do not let us quarrel any more,
+No, my Lucrezia; bear with me for once:
+Sit down and all shall happen as you wish.
+You turn your face, but does it bring a tear?
+I fancy you are studying to put
+That little something in the eyes of yours
+Beyond my art, and the eyes are wide and bright
+As now,—go on, and see how that strikes you!
+No gainsaying, no, indeed! I dare not.
+Such frank blue eyes, they flatter my account!
+Too live the life led, too, do you not think?
+Beside, to-morrow,—a holiday! do you know,
+We have no such delight in all the year?
+Still, all I care for, if he cares for me at all,
+Is, does he paint? you ask. I paint, that's all.
+But do not let us quarrel any more,
+No, my Lucrezia; bear with me for once.
+Sit down, and let us judge: is the fault there,
+That the form is empty, that there is no soul?
+What's lost? I know it, and I say, I know it.
+A common greyness silvers everything—
+All in a twilight, you and I alike
+—You, at the point of your first pride in me
+(That's gone, you know)—but I, at every point
+My youth, my hope, my art, being all toned down
+To yonder sober pleasant Fiesole.
+There's the bell clinking from the chapel-top;
+That length of convent-wall across the way
+Holds the trees safer, huddled more inside;
+The last monk leaves the garden; days decrease
+And autumn grows, autumn in everything.
+Eh? the whole seems to fall into a shape
+As if I saw alike my work and self
+And all that I was born to be and do,
+A twilight-piece. Love, we are in God's hand.
+How strange now, looks the life he makes us lead;
+So free we seem, so fettered fast we are!"""
+    },
+    {
+        "title": "Tithonus",
+        "author": "Alfred Lord Tennyson",
+        "year": 1860,
+        "era": "dramatic_monologue",
+        "text": """The woods decay, the woods decay and fall,
+The vapours weep their burthen to the ground,
+Man comes and tills the field and lies beneath,
+And after many a summer dies the swan.
+Me only cruel immortality
+Consumes; I wither slowly in thine arms,
+Here at the quiet limit of the world,
+A white-haired shadow roaming like a dream
+The ever-silent spaces of the East,
+Far-folded mists, and gleaming halls of morn.
+
+Alas! for this gray shadow, once a man—
+So glorious in his beauty and thy choice,
+Who madest him thy chosen, that he seemed
+To his great heart none other than a God!
+I asked thee, "Give me immortality."
+Then didst thou grant mine asking with a smile,
+Like wealthy men who care not how they give.
+But thy strong Hours indignant worked their wills,
+And beat me down and marred and wasted me,
+And though they could not end me, left me maimed
+To dwell in presence of immortal youth,
+Immortal age beside immortal youth,
+And all I was in ashes."""
+    },
+    {
+        "title": "Gerontion",
+        "author": "T.S. Eliot",
+        "year": 1920,
+        "era": "dramatic_monologue",
+        "text": """Here I am, an old man in a dry month,
+Being read to by a boy, waiting for rain.
+I was neither at the hot gates
+Nor fought in the warm rain
+Nor knee deep in the salt marsh, heaving a cutlass,
+Bitten by flies, fought.
+My house is a decayed house,
+And the jew squats on the window sill, the owner,
+Spawned in some estaminet of Antwerp,
+Blistered in Brussels, patched and peeled in London.
+The goat coughs at night in the field overhead;
+Rocks, moss, stonecrop, iron, merds.
+The woman keeps the kitchen, makes tea,
+Sneezes at evening, poking the peevish gutter.
+
+I an old man,
+A dull head among windy spaces.
+
+Signs are taken for wonders. "We would see a sign!"
+The word within a word, unable to speak a word,
+Swaddled with darkness. In the derangement of the senses
+Comes Christ the tiger
+In depraved May, dogwood and chestnut, flowering judas,
+To be eaten, to be divided, to be drunk
+Among whispers; by Mr. Silvero
+With caressing hands, at Limoges
+Who walked all night in the next room;
+By Hakagawa, bowing among the Titians;
+By Madame de Tornquist, in the dark room
+Shifting the candles; Fräulein von Kulp
+Who turned in the hall, one hand on the door."""
+    },
+    {
+        "title": "The Love Song of J. Alfred Prufrock (middle)",
+        "author": "T.S. Eliot",
+        "year": 1915,
+        "era": "dramatic_monologue",
+        "text": """And indeed there will be time
+To wonder, "Do I dare?" and, "Do I dare?"
+Time to turn back and descend the stair,
+With a bald spot in the middle of my hair—
+(They will say: "How his hair is growing thin!")
+My morning coat, my collar mounting firmly to the chin,
+My necktie rich and modest, but asserted by a simple pin—
+(They will say: "But how his arms and legs are thin!")
+Do I dare
+Disturb the universe?
+In a minute there is time
+For decisions and revisions which a minute will reverse.
+
+For I have known them all already, known them all—
+Have known the evenings, mornings, afternoons,
+I have measured out my life with coffee spoons;
+I know the voices dying with a dying fall
+Beneath the music from a farther room.
+So how should I presume?
+
+And I have known the eyes already, known them all—
+The eyes that fix you in a formulated phrase,
+And when I am formulated, sprawling on a pin,
+When I am pinned and wriggling on the wall,
+Then how should I begin
+To spit out all the butt-ends of my days and ways?
+And how should I presume?"""
+    },
 ]
 
 # Quick stats
