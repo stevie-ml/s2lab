@@ -5759,6 +5759,164 @@ Then how should I begin
 To spit out all the butt-ends of my days and ways?
 And how should I presume?"""
     },
+
+    # ─── ELEGY ─────────────────────────────────────────────────────────
+    {
+        "title": "Elegy Written in a Country Churchyard (opening)",
+        "author": "Thomas Gray",
+        "year": 1751,
+        "era": "elegy",
+        "text": """The curfew tolls the knell of parting day,
+The lowing herd wind slowly o'er the lea,
+The ploughman homeward plods his weary way,
+And leaves the world to darkness and to me.
+
+Now fades the glimmering landscape on the sight,
+And all the air a solemn stillness holds,
+Save where the beetle wheels his droning flight,
+And drowsy tinklings lull the distant folds;
+
+Save that from yonder ivy-mantled tower
+The moping owl does to the moon complain
+Of such as, wandering near her secret bower,
+Molest her ancient solitary reign.
+
+Beneath those rugged elms, that yew-tree's shade,
+Where heaves the turf in many a mouldering heap,
+Each in his narrow cell for ever laid,
+The rude forefathers of the hamlet sleep."""
+    },
+    {
+        "title": "Lycidas (opening and lament)",
+        "author": "John Milton",
+        "year": 1637,
+        "era": "elegy",
+        "text": """Yet once more, O ye Laurels, and once more
+Ye Myrtles brown, with Ivy never-sear,
+I com to pluck your Berries harsh and crude,
+And with forc'd fingers rude,
+Shatter your leaves before the mellowing year.
+Bitter constraint, and sad occasion dear,
+Compels me to disturb your season due:
+For Lycidas is dead, dead ere his prime,
+Young Lycidas, and hath not left his peer:
+Who would not sing for Lycidas? he well knew
+Himself to sing, and build the lofty rhyme.
+He must not flote upon his watry bear
+Unwept, and welter to the parching wind,
+Without the meed of som melodious tear."""
+    },
+    {
+        "title": "In Memoriam A.H.H. (sections I and VII)",
+        "author": "Alfred Lord Tennyson",
+        "year": 1849,
+        "era": "elegy",
+        "text": """I hold it true, whate'er befall;
+I feel it, when I sorrow most;
+'Tis better to have loved and lost
+Than never to have loved at all.
+
+Dark house, by which once more I stand
+Here in the long unlovely street,
+Doors, where my heart was used to beat
+So quickly, waiting for a hand,
+
+A hand that can be clasp'd no more—
+Behold me, for I cannot sleep,
+And like a guilty thing I creep
+At earliest morning to the door.
+
+He is not here; but far away
+The noise of life begins again,
+And ghastly thro' the drizzling rain
+On the bald street breaks the blank day."""
+    },
+    {
+        "title": "Adonais (stanzas I and II)",
+        "author": "Percy Bysshe Shelley",
+        "year": 1821,
+        "era": "elegy",
+        "text": """I weep for Adonais—he is dead!
+Oh, weep for Adonais! though our tears
+Thaw not the frost which binds so dear a head!
+And thou, sad Hour, selected from all years
+To mourn our loss, rouse thy obscure compeers,
+And teach them thine own sorrow, say: with me
+Died Adonais; till the Future dares
+Forget the Past, his fate and fame shall be
+An echo and a light unto eternity!
+
+Where wert thou, mighty Mother, when he lay,
+When thy Son lay, pierced by the shaft which flies
+In darkness? where was lorn Urania
+When Adonais died? With veiled eyes,
+Mid listening Echoes, in her Paradise
+She sate, while one, with soft enamoured breath,
+Rekindled all the fading melodies,
+With which, like flowers that mock the corse beneath,
+He had adorned and hid the coming bulk of death."""
+    },
+    {
+        "title": "O Captain! My Captain!",
+        "author": "Walt Whitman",
+        "year": 1865,
+        "era": "elegy",
+        "text": """O Captain! my Captain! our fearful trip is done,
+The ship has weather'd every rack, the prize we sought is won,
+The port is near, the bells I hear, the people all exulting,
+While follow eyes the steady keel, the vessel grim and daring;
+But O heart! heart! heart!
+O the bleeding drops of red,
+Where on the deck my Captain lies,
+Fallen cold and dead.
+
+O Captain! my Captain! rise up and hear the bells;
+Rise up—for you the flag is flung—for you the bugle trills,
+For you bouquets and ribbon'd wreaths—for you the shores a-crowding,
+For you they call, the swaying mass, their eager faces turning;
+Here Captain! dear father!
+This arm beneath your head!
+It is some dream that on the deck,
+You've fallen cold and dead."""
+    },
+    {
+        "title": "To an Athlete Dying Young",
+        "author": "A.E. Housman",
+        "year": 1896,
+        "era": "elegy",
+        "text": """The time you won your town the race
+We chaired you through the market-place;
+Man and boy stood cheering by,
+And home we brought you shoulder-high.
+
+To-day, the road all runners come,
+Shoulder-high we bring you home,
+And set you at your threshold down,
+Townsman of a stiller town.
+
+Smart lad, to slip betimes away
+From fields where glory does not stay,
+And early though the laurel grows
+It withers quicker than the rose."""
+    },
+    {
+        "title": "On My First Son",
+        "author": "Ben Jonson",
+        "year": 1616,
+        "era": "elegy",
+        "text": """Farewell, thou child of my right hand, and joy;
+My sin was too much hope of thee, loved boy.
+Seven years thou wert lent to me, and I thee pay,
+Exacted by thy fate, on the just day.
+O, could I lose all father now! For why
+Will man lament the state he should envy?
+To have so soon 'scaped world's and flesh's rage,
+And if no other misery, yet age?
+Rest in soft peace, and, asked, say, Here doth lie
+Ben Jonson his best piece of poetry.
+For whose sake henceforth all his vows be such
+As what he loves may never like too much."""
+    },
 ]
 
 # Quick stats
