@@ -1,0 +1,949 @@
+{
+  "aggregate": {
+    "lineated_raw_mean": 0.3853,
+    "stripped_raw_mean": 0.0051,
+    "lineated_clean_mean": -0.02,
+    "stripped_clean_mean": 0.0051,
+    "raw_gap": 0.3802,
+    "clean_gap": -0.0251,
+    "n_poems": 26
+  },
+  "poems": [
+    {
+      "title": "The Harbor Dawn (from The Bridge)",
+      "author": "Hart Crane",
+      "era": "modernist",
+      "lineated": {
+        "raw": {
+          "avg_s2": 1.8717,
+          "n": 180,
+          "pct_positive": 0.5,
+          "std_s2": 5.7078
+        },
+        "artifact_free": {
+          "avg_s2": 1.2566,
+          "n": 155,
+          "pct_positive": 0.5097,
+          "std_s2": 4.0962
+        },
+        "newline_count": 16
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": 1.0991,
+          "n": 163,
+          "pct_positive": 0.5092,
+          "std_s2": 4.1488
+        },
+        "artifact_free": {
+          "avg_s2": 1.0991,
+          "n": 163,
+          "pct_positive": 0.5092,
+          "std_s2": 4.1488
+        }
+      },
+      "delta_s2_raw": 0.7726,
+      "delta_s2_clean": 0.1575
+    },
+    {
+      "title": "Anecdote of the Jar",
+      "author": "Wallace Stevens",
+      "era": "modernist",
+      "lineated": {
+        "raw": {
+          "avg_s2": 0.8866,
+          "n": 67,
+          "pct_positive": 0.4478,
+          "std_s2": 5.175
+        },
+        "artifact_free": {
+          "avg_s2": 0.1535,
+          "n": 56,
+          "pct_positive": 0.4286,
+          "std_s2": 3.6824
+        },
+        "newline_count": 8
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": 0.0392,
+          "n": 59,
+          "pct_positive": 0.4407,
+          "std_s2": 3.7893
+        },
+        "artifact_free": {
+          "avg_s2": 0.0392,
+          "n": 59,
+          "pct_positive": 0.4407,
+          "std_s2": 3.7893
+        }
+      },
+      "delta_s2_raw": 0.8474,
+      "delta_s2_clean": 0.1143
+    },
+    {
+      "title": "The Windhover",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "lineated": {
+        "raw": {
+          "avg_s2": 0.3381,
+          "n": 191,
+          "pct_positive": 0.3874,
+          "std_s2": 5.2033
+        },
+        "artifact_free": {
+          "avg_s2": -0.0639,
+          "n": 163,
+          "pct_positive": 0.3926,
+          "std_s2": 4.1203
+        },
+        "newline_count": 26
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": 0.0017,
+          "n": 164,
+          "pct_positive": 0.3963,
+          "std_s2": 4.2823
+        },
+        "artifact_free": {
+          "avg_s2": 0.0017,
+          "n": 164,
+          "pct_positive": 0.3963,
+          "std_s2": 4.2823
+        }
+      },
+      "delta_s2_raw": 0.3364,
+      "delta_s2_clean": -0.0656
+    },
+    {
+      "title": "Dover Beach (closing stanzas)",
+      "author": "Matthew Arnold",
+      "era": "victorian",
+      "lineated": {
+        "raw": {
+          "avg_s2": 0.1756,
+          "n": 155,
+          "pct_positive": 0.3419,
+          "std_s2": 5.0099
+        },
+        "artifact_free": {
+          "avg_s2": -0.6621,
+          "n": 133,
+          "pct_positive": 0.3083,
+          "std_s2": 3.2129
+        },
+        "newline_count": 15
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": -0.4973,
+          "n": 136,
+          "pct_positive": 0.3456,
+          "std_s2": 3.6932
+        },
+        "artifact_free": {
+          "avg_s2": -0.4973,
+          "n": 136,
+          "pct_positive": 0.3456,
+          "std_s2": 3.6932
+        }
+      },
+      "delta_s2_raw": 0.6729,
+      "delta_s2_clean": -0.1648
+    },
+    {
+      "title": "When I Heard the Learn'd Astronomer",
+      "author": "Walt Whitman",
+      "era": "romantic",
+      "lineated": {
+        "raw": {
+          "avg_s2": 0.2536,
+          "n": 113,
+          "pct_positive": 0.3805,
+          "std_s2": 4.4339
+        },
+        "artifact_free": {
+          "avg_s2": 0.1582,
+          "n": 104,
+          "pct_positive": 0.3942,
+          "std_s2": 4.1472
+        },
+        "newline_count": 7
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": -0.0529,
+          "n": 105,
+          "pct_positive": 0.3619,
+          "std_s2": 4.1513
+        },
+        "artifact_free": {
+          "avg_s2": -0.0529,
+          "n": 105,
+          "pct_positive": 0.3619,
+          "std_s2": 4.1513
+        }
+      },
+      "delta_s2_raw": 0.3065,
+      "delta_s2_clean": 0.2111
+    },
+    {
+      "title": "Proverbs of Hell (excerpt from Marriage of Heaven and Hell)",
+      "author": "William Blake",
+      "era": "romantic",
+      "lineated": {
+        "raw": {
+          "avg_s2": -0.6778,
+          "n": 258,
+          "pct_positive": 0.2946,
+          "std_s2": 3.9081
+        },
+        "artifact_free": {
+          "avg_s2": -0.7134,
+          "n": 238,
+          "pct_positive": 0.3151,
+          "std_s2": 3.7478
+        },
+        "newline_count": 19
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": -0.6081,
+          "n": 236,
+          "pct_positive": 0.3093,
+          "std_s2": 3.9079
+        },
+        "artifact_free": {
+          "avg_s2": -0.6081,
+          "n": 236,
+          "pct_positive": 0.3093,
+          "std_s2": 3.9079
+        }
+      },
+      "delta_s2_raw": -0.0697,
+      "delta_s2_clean": -0.1053
+    },
+    {
+      "title": "Three Haiku (Basho, translated)",
+      "author": "Matsuo Basho",
+      "era": "haiku",
+      "lineated": {
+        "raw": {
+          "avg_s2": 2.1417,
+          "n": 58,
+          "pct_positive": 0.4138,
+          "std_s2": 8.0194
+        },
+        "artifact_free": {
+          "avg_s2": 0.2306,
+          "n": 42,
+          "pct_positive": 0.4286,
+          "std_s2": 3.4146
+        },
+        "newline_count": 10
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": 0.5988,
+          "n": 46,
+          "pct_positive": 0.5217,
+          "std_s2": 3.4946
+        },
+        "artifact_free": {
+          "avg_s2": 0.5988,
+          "n": 46,
+          "pct_positive": 0.5217,
+          "std_s2": 3.4946
+        }
+      },
+      "delta_s2_raw": 1.5429,
+      "delta_s2_clean": -0.3682
+    },
+    {
+      "title": "Three Haiku (Issa, translated)",
+      "author": "Kobayashi Issa",
+      "era": "haiku",
+      "lineated": {
+        "raw": {
+          "avg_s2": 2.0211,
+          "n": 53,
+          "pct_positive": 0.3774,
+          "std_s2": 9.2471
+        },
+        "artifact_free": {
+          "avg_s2": -0.2458,
+          "n": 37,
+          "pct_positive": 0.3514,
+          "std_s2": 3.6953
+        },
+        "newline_count": 10
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": 0.2951,
+          "n": 41,
+          "pct_positive": 0.3659,
+          "std_s2": 4.3509
+        },
+        "artifact_free": {
+          "avg_s2": 0.2951,
+          "n": 41,
+          "pct_positive": 0.3659,
+          "std_s2": 4.3509
+        }
+      },
+      "delta_s2_raw": 1.726,
+      "delta_s2_clean": -0.5409
+    },
+    {
+      "title": "In Goya's greatest scenes",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "lineated": {
+        "raw": {
+          "avg_s2": -0.2336,
+          "n": 300,
+          "pct_positive": 0.0967,
+          "std_s2": 3.7583
+        },
+        "artifact_free": {
+          "avg_s2": 2.4769,
+          "n": 52,
+          "pct_positive": 0.4808,
+          "std_s2": 7.5038
+        },
+        "newline_count": 248
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": 1.258,
+          "n": 68,
+          "pct_positive": 0.4706,
+          "std_s2": 4.9783
+        },
+        "artifact_free": {
+          "avg_s2": 1.258,
+          "n": 68,
+          "pct_positive": 0.4706,
+          "std_s2": 4.9783
+        }
+      },
+      "delta_s2_raw": -1.4916,
+      "delta_s2_clean": 1.2189
+    },
+    {
+      "title": "Constantly Risking Absurdity",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "lineated": {
+        "raw": {
+          "avg_s2": -0.1201,
+          "n": 300,
+          "pct_positive": 0.0933,
+          "std_s2": 3.727
+        },
+        "artifact_free": {
+          "avg_s2": 3.5765,
+          "n": 43,
+          "pct_positive": 0.5814,
+          "std_s2": 7.9819
+        },
+        "newline_count": 257
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": 0.7028,
+          "n": 53,
+          "pct_positive": 0.434,
+          "std_s2": 4.774
+        },
+        "artifact_free": {
+          "avg_s2": 0.7028,
+          "n": 53,
+          "pct_positive": 0.434,
+          "std_s2": 4.774
+        }
+      },
+      "delta_s2_raw": -0.8229,
+      "delta_s2_clean": 2.8737
+    },
+    {
+      "title": "Daddy (opening)",
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "lineated": {
+        "raw": {
+          "avg_s2": 0.4797,
+          "n": 90,
+          "pct_positive": 0.3333,
+          "std_s2": 6.4395
+        },
+        "artifact_free": {
+          "avg_s2": -0.3973,
+          "n": 76,
+          "pct_positive": 0.3158,
+          "std_s2": 4.3761
+        },
+        "newline_count": 10
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": -0.1687,
+          "n": 78,
+          "pct_positive": 0.3718,
+          "std_s2": 4.6127
+        },
+        "artifact_free": {
+          "avg_s2": -0.1687,
+          "n": 78,
+          "pct_positive": 0.3718,
+          "std_s2": 4.6127
+        }
+      },
+      "delta_s2_raw": 0.6484,
+      "delta_s2_clean": -0.2286
+    },
+    {
+      "title": "Skunk Hour (opening)",
+      "author": "Robert Lowell",
+      "era": "confessional",
+      "lineated": {
+        "raw": {
+          "avg_s2": 0.419,
+          "n": 91,
+          "pct_positive": 0.4176,
+          "std_s2": 5.3352
+        },
+        "artifact_free": {
+          "avg_s2": 0.0143,
+          "n": 77,
+          "pct_positive": 0.4156,
+          "std_s2": 3.6639
+        },
+        "newline_count": 12
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": 0.0361,
+          "n": 80,
+          "pct_positive": 0.3875,
+          "std_s2": 3.9141
+        },
+        "artifact_free": {
+          "avg_s2": 0.0361,
+          "n": 80,
+          "pct_positive": 0.3875,
+          "std_s2": 3.9141
+        }
+      },
+      "delta_s2_raw": 0.3829,
+      "delta_s2_clean": -0.0218
+    },
+    {
+      "title": "Leaving the Atocha Station",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "lineated": {
+        "raw": {
+          "avg_s2": -0.2108,
+          "n": 54,
+          "pct_positive": 0.3704,
+          "std_s2": 4.9962
+        },
+        "artifact_free": {
+          "avg_s2": -0.6115,
+          "n": 48,
+          "pct_positive": 0.3333,
+          "std_s2": 4.1616
+        },
+        "newline_count": 5
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": 0.0835,
+          "n": 48,
+          "pct_positive": 0.3958,
+          "std_s2": 5.1398
+        },
+        "artifact_free": {
+          "avg_s2": 0.0835,
+          "n": 48,
+          "pct_positive": 0.3958,
+          "std_s2": 5.1398
+        }
+      },
+      "delta_s2_raw": -0.2943,
+      "delta_s2_clean": -0.695
+    },
+    {
+      "title": "Some Trees",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "lineated": {
+        "raw": {
+          "avg_s2": -0.5887,
+          "n": 44,
+          "pct_positive": 0.3409,
+          "std_s2": 5.264
+        },
+        "artifact_free": {
+          "avg_s2": -1.1487,
+          "n": 38,
+          "pct_positive": 0.3421,
+          "std_s2": 3.4324
+        },
+        "newline_count": 5
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": -0.4594,
+          "n": 39,
+          "pct_positive": 0.3846,
+          "std_s2": 4.2776
+        },
+        "artifact_free": {
+          "avg_s2": -0.4594,
+          "n": 39,
+          "pct_positive": 0.3846,
+          "std_s2": 4.2776
+        }
+      },
+      "delta_s2_raw": -0.1293,
+      "delta_s2_clean": -0.6893
+    },
+    {
+      "title": "Lord Randal",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "lineated": {
+        "raw": {
+          "avg_s2": 0.0193,
+          "n": 197,
+          "pct_positive": 0.2183,
+          "std_s2": 4.6945
+        },
+        "artifact_free": {
+          "avg_s2": -0.7049,
+          "n": 176,
+          "pct_positive": 0.1932,
+          "std_s2": 2.8388
+        },
+        "newline_count": 14
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": -0.7341,
+          "n": 183,
+          "pct_positive": 0.1803,
+          "std_s2": 2.7644
+        },
+        "artifact_free": {
+          "avg_s2": -0.7341,
+          "n": 183,
+          "pct_positive": 0.1803,
+          "std_s2": 2.7644
+        }
+      },
+      "delta_s2_raw": 0.7534,
+      "delta_s2_clean": 0.0292
+    },
+    {
+      "title": "Bonnie George Campbell",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "lineated": {
+        "raw": {
+          "avg_s2": 1.547,
+          "n": 119,
+          "pct_positive": 0.3529,
+          "std_s2": 7.169
+        },
+        "artifact_free": {
+          "avg_s2": -0.102,
+          "n": 90,
+          "pct_positive": 0.3444,
+          "std_s2": 4.3877
+        },
+        "newline_count": 18
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": -0.0023,
+          "n": 98,
+          "pct_positive": 0.398,
+          "std_s2": 4.2324
+        },
+        "artifact_free": {
+          "avg_s2": -0.0023,
+          "n": 98,
+          "pct_positive": 0.398,
+          "std_s2": 4.2324
+        }
+      },
+      "delta_s2_raw": 1.5493,
+      "delta_s2_clean": -0.0997
+    },
+    {
+      "title": "News article prose",
+      "author": "Control",
+      "era": "control",
+      "lineated": {
+        "raw": {
+          "avg_s2": -1.4921,
+          "n": 31,
+          "pct_positive": 0.2258,
+          "std_s2": 1.8487
+        },
+        "artifact_free": {
+          "avg_s2": -1.4921,
+          "n": 31,
+          "pct_positive": 0.2258,
+          "std_s2": 1.8487
+        },
+        "newline_count": 0
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": -1.4921,
+          "n": 31,
+          "pct_positive": 0.2258,
+          "std_s2": 1.8487
+        },
+        "artifact_free": {
+          "avg_s2": -1.4921,
+          "n": 31,
+          "pct_positive": 0.2258,
+          "std_s2": 1.8487
+        }
+      },
+      "delta_s2_raw": 0.0,
+      "delta_s2_clean": 0.0
+    },
+    {
+      "title": "German narrative prose",
+      "author": "Control",
+      "era": "control",
+      "lineated": {
+        "raw": {
+          "avg_s2": -0.3192,
+          "n": 68,
+          "pct_positive": 0.3529,
+          "std_s2": 3.206
+        },
+        "artifact_free": {
+          "avg_s2": -0.3192,
+          "n": 68,
+          "pct_positive": 0.3529,
+          "std_s2": 3.206
+        },
+        "newline_count": 0
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": -0.3192,
+          "n": 68,
+          "pct_positive": 0.3529,
+          "std_s2": 3.206
+        },
+        "artifact_free": {
+          "avg_s2": -0.3192,
+          "n": 68,
+          "pct_positive": 0.3529,
+          "std_s2": 3.206
+        }
+      },
+      "delta_s2_raw": 0.0,
+      "delta_s2_clean": 0.0
+    },
+    {
+      "title": "Lorine's Work",
+      "author": "Lorine Niedecker",
+      "era": "imagist",
+      "lineated": {
+        "raw": {
+          "avg_s2": 3.2578,
+          "n": 35,
+          "pct_positive": 0.4857,
+          "std_s2": 9.1532
+        },
+        "artifact_free": {
+          "avg_s2": 1.7236,
+          "n": 20,
+          "pct_positive": 0.55,
+          "std_s2": 5.0599
+        },
+        "newline_count": 10
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": 2.9485,
+          "n": 24,
+          "pct_positive": 0.7083,
+          "std_s2": 4.4538
+        },
+        "artifact_free": {
+          "avg_s2": 2.9485,
+          "n": 24,
+          "pct_positive": 0.7083,
+          "std_s2": 4.4538
+        }
+      },
+      "delta_s2_raw": 0.3093,
+      "delta_s2_clean": -1.2249
+    },
+    {
+      "title": "The Taxi",
+      "author": "Amy Lowell",
+      "era": "imagist",
+      "lineated": {
+        "raw": {
+          "avg_s2": -0.7418,
+          "n": 100,
+          "pct_positive": 0.33,
+          "std_s2": 3.7281
+        },
+        "artifact_free": {
+          "avg_s2": -0.7383,
+          "n": 88,
+          "pct_positive": 0.3409,
+          "std_s2": 3.3765
+        },
+        "newline_count": 11
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": -0.5154,
+          "n": 88,
+          "pct_positive": 0.3523,
+          "std_s2": 3.9768
+        },
+        "artifact_free": {
+          "avg_s2": -0.5154,
+          "n": 88,
+          "pct_positive": 0.3523,
+          "std_s2": 3.9768
+        }
+      },
+      "delta_s2_raw": -0.2264,
+      "delta_s2_clean": -0.2229
+    },
+    {
+      "title": "Villanelle (A dainty thing's the Villanelle)",
+      "author": "William Ernest Henley",
+      "era": "fixed_form",
+      "lineated": {
+        "raw": {
+          "avg_s2": 0.8877,
+          "n": 125,
+          "pct_positive": 0.312,
+          "std_s2": 6.255
+        },
+        "artifact_free": {
+          "avg_s2": -0.1947,
+          "n": 104,
+          "pct_positive": 0.3077,
+          "std_s2": 4.0218
+        },
+        "newline_count": 14
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": -0.141,
+          "n": 110,
+          "pct_positive": 0.3182,
+          "std_s2": 3.997
+        },
+        "artifact_free": {
+          "avg_s2": -0.141,
+          "n": 110,
+          "pct_positive": 0.3182,
+          "std_s2": 3.997
+        }
+      },
+      "delta_s2_raw": 1.0287,
+      "delta_s2_clean": -0.0537
+    },
+    {
+      "title": "In After Days (rondeau)",
+      "author": "Austin Dobson",
+      "era": "fixed_form",
+      "lineated": {
+        "raw": {
+          "avg_s2": 0.2593,
+          "n": 79,
+          "pct_positive": 0.3291,
+          "std_s2": 5.641
+        },
+        "artifact_free": {
+          "avg_s2": -0.7417,
+          "n": 66,
+          "pct_positive": 0.2879,
+          "std_s2": 3.7785
+        },
+        "newline_count": 9
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": -0.0756,
+          "n": 70,
+          "pct_positive": 0.3429,
+          "std_s2": 4.4033
+        },
+        "artifact_free": {
+          "avg_s2": -0.0756,
+          "n": 70,
+          "pct_positive": 0.3429,
+          "std_s2": 4.4033
+        }
+      },
+      "delta_s2_raw": 0.3349,
+      "delta_s2_clean": -0.6661
+    },
+    {
+      "title": "The Summer Day",
+      "author": "Mary Oliver",
+      "era": "contemporary",
+      "lineated": {
+        "raw": {
+          "avg_s2": -0.6512,
+          "n": 195,
+          "pct_positive": 0.2872,
+          "std_s2": 3.0923
+        },
+        "artifact_free": {
+          "avg_s2": -0.6695,
+          "n": 178,
+          "pct_positive": 0.2978,
+          "std_s2": 2.869
+        },
+        "newline_count": 16
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": -0.5254,
+          "n": 179,
+          "pct_positive": 0.3128,
+          "std_s2": 2.9562
+        },
+        "artifact_free": {
+          "avg_s2": -0.5254,
+          "n": 179,
+          "pct_positive": 0.3128,
+          "std_s2": 2.9562
+        }
+      },
+      "delta_s2_raw": -0.1258,
+      "delta_s2_clean": -0.1441
+    },
+    {
+      "title": "Digging",
+      "author": "Seamus Heaney",
+      "era": "contemporary",
+      "lineated": {
+        "raw": {
+          "avg_s2": 1.8544,
+          "n": 140,
+          "pct_positive": 0.4714,
+          "std_s2": 7.2237
+        },
+        "artifact_free": {
+          "avg_s2": 0.3813,
+          "n": 114,
+          "pct_positive": 0.4737,
+          "std_s2": 3.7154
+        },
+        "newline_count": 16
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": 0.3944,
+          "n": 122,
+          "pct_positive": 0.4918,
+          "std_s2": 4.1101
+        },
+        "artifact_free": {
+          "avg_s2": 0.3944,
+          "n": 122,
+          "pct_positive": 0.4918,
+          "std_s2": 4.1101
+        }
+      },
+      "delta_s2_raw": 1.46,
+      "delta_s2_clean": -0.0131
+    },
+    {
+      "title": "Yesterday (prose poem)",
+      "author": "W.S. Merwin",
+      "era": "prose_poetry",
+      "lineated": {
+        "raw": {
+          "avg_s2": -1.0256,
+          "n": 60,
+          "pct_positive": 0.2833,
+          "std_s2": 2.7255
+        },
+        "artifact_free": {
+          "avg_s2": -1.0256,
+          "n": 60,
+          "pct_positive": 0.2833,
+          "std_s2": 2.7255
+        },
+        "newline_count": 0
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": -1.0256,
+          "n": 60,
+          "pct_positive": 0.2833,
+          "std_s2": 2.7255
+        },
+        "artifact_free": {
+          "avg_s2": -1.0256,
+          "n": 60,
+          "pct_positive": 0.2833,
+          "std_s2": 2.7255
+        }
+      },
+      "delta_s2_raw": 0.0,
+      "delta_s2_clean": 0.0
+    },
+    {
+      "title": "Crossing (excerpt)",
+      "author": "Rae Armantrout",
+      "era": "prose_poetry",
+      "lineated": {
+        "raw": {
+          "avg_s2": -0.3327,
+          "n": 137,
+          "pct_positive": 0.3504,
+          "std_s2": 3.5923
+        },
+        "artifact_free": {
+          "avg_s2": -0.6615,
+          "n": 114,
+          "pct_positive": 0.3596,
+          "std_s2": 2.9037
+        },
+        "newline_count": 20
+      },
+      "stripped": {
+        "raw": {
+          "avg_s2": -0.7078,
+          "n": 116,
+          "pct_positive": 0.3276,
+          "std_s2": 2.8286
+        },
+        "artifact_free": {
+          "avg_s2": -0.7078,
+          "n": 116,
+          "pct_positive": 0.3276,
+          "std_s2": 2.8286
+        }
+      },
+      "delta_s2_raw": 0.3751,
+      "delta_s2_clean": 0.0463
+    }
+  ]
+}
