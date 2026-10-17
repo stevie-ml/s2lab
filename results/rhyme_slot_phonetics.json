@@ -1,0 +1,195 @@
+{
+  "n_poems": 301,
+  "n_rhymed": 24,
+  "n_linefinal": 1077,
+  "n_midline": 25607,
+  "linefinal_phon_by_s2_bin": {
+    "very_low (< \u22124)": {
+      "n": 88,
+      "mean_phon_sim": 0.646,
+      "pct_close": 59.1,
+      "pct_phon_fidelity": 61.4
+    },
+    "low (\u22124 to \u22121)": {
+      "n": 315,
+      "mean_phon_sim": 0.3841,
+      "pct_close": 32.4,
+      "pct_phon_fidelity": 34.9
+    },
+    "neutral (\u22121 to 1)": {
+      "n": 272,
+      "mean_phon_sim": 0.3319,
+      "pct_close": 25.4,
+      "pct_phon_fidelity": 28.7
+    },
+    "moderate (1 to 4)": {
+      "n": 210,
+      "mean_phon_sim": 0.1043,
+      "pct_close": 3.3,
+      "pct_phon_fidelity": 4.8
+    },
+    "high (4 to 8)": {
+      "n": 141,
+      "mean_phon_sim": 0.0872,
+      "pct_close": 0.7,
+      "pct_phon_fidelity": 2.1
+    },
+    "very_high (> 8)": {
+      "n": 51,
+      "mean_phon_sim": 0.0825,
+      "pct_close": 0.0,
+      "pct_phon_fidelity": 0.0
+    }
+  },
+  "midline_phon_by_s2_bin": {
+    "very_low (< \u22124)": {
+      "n": 2764,
+      "mean_phon_sim": 0.7468,
+      "pct_close": 72.3,
+      "pct_phon_fidelity": 73.3
+    },
+    "low (\u22124 to \u22121)": {
+      "n": 9099,
+      "mean_phon_sim": 0.4162,
+      "pct_close": 35.7,
+      "pct_phon_fidelity": 39.0
+    },
+    "neutral (\u22121 to 1)": {
+      "n": 5504,
+      "mean_phon_sim": 0.3093,
+      "pct_close": 24.2,
+      "pct_phon_fidelity": 27.0
+    },
+    "moderate (1 to 4)": {
+      "n": 4448,
+      "mean_phon_sim": 0.1085,
+      "pct_close": 2.2,
+      "pct_phon_fidelity": 4.9
+    },
+    "high (4 to 8)": {
+      "n": 2736,
+      "mean_phon_sim": 0.0925,
+      "pct_close": 1.1,
+      "pct_phon_fidelity": 3.7
+    },
+    "very_high (> 8)": {
+      "n": 1056,
+      "mean_phon_sim": 0.0804,
+      "pct_close": 1.1,
+      "pct_phon_fidelity": 3.0
+    }
+  },
+  "pfs_linefinal_rate": 3.125,
+  "pfs_midline_rate": 4.879,
+  "pfs_ratio": 0.641,
+  "rhymed_lf_pfs_rate": 3.03,
+  "freev_lf_pfs_rate": 3.145,
+  "era_linefinal_highS2_phonetics": {
+    "spoken_word": {
+      "n": 5,
+      "mean_phon_sim": 0.1867
+    },
+    "german_modernist": {
+      "n": 5,
+      "mean_phon_sim": 0.13
+    },
+    "new_york_school": {
+      "n": 17,
+      "mean_phon_sim": 0.1275
+    },
+    "postcolonial": {
+      "n": 11,
+      "mean_phon_sim": 0.1221
+    },
+    "surrealist": {
+      "n": 6,
+      "mean_phon_sim": 0.1019
+    },
+    "fixed_form": {
+      "n": 7,
+      "mean_phon_sim": 0.0988
+    },
+    "modernist": {
+      "n": 23,
+      "mean_phon_sim": 0.0988
+    },
+    "victorian": {
+      "n": 26,
+      "mean_phon_sim": 0.095
+    },
+    "romantic": {
+      "n": 7,
+      "mean_phon_sim": 0.081
+    },
+    "dramatic_monologue": {
+      "n": 18,
+      "mean_phon_sim": 0.0797
+    },
+    "german_expressionist": {
+      "n": 6,
+      "mean_phon_sim": 0.0516
+    },
+    "metaphysical": {
+      "n": 5,
+      "mean_phon_sim": 0.0472
+    },
+    "contemporary": {
+      "n": 6,
+      "mean_phon_sim": 0.0
+    },
+    "18th_century": {
+      "n": 5,
+      "mean_phon_sim": 0.0
+    }
+  },
+  "top_pfs_examples": [
+    {
+      "token": " cloud",
+      "top_pred": " child",
+      "s2": 8.1033,
+      "phon_sim": 0.4,
+      "era": "romantic",
+      "title": "I Wandered Lonely as a Cloud"
+    },
+    {
+      "token": "ly",
+      "top_pred": "fully",
+      "s2": 6.4521,
+      "phon_sim": 0.4,
+      "era": "victorian",
+      "title": "The Lady of Shalott (Part I)"
+    },
+    {
+      "token": " tight",
+      "top_pred": " the",
+      "s2": 5.9312,
+      "phon_sim": 0.4,
+      "era": "spoken_word",
+      "title": "Won't You Celebrate With Me"
+    },
+    {
+      "token": " weave",
+      "top_pred": " have",
+      "s2": 5.7656,
+      "phon_sim": 0.6,
+      "era": "victorian",
+      "title": "The Oxen"
+    },
+    {
+      "token": " feed",
+      "top_pred": " flew",
+      "s2": 4.554,
+      "phon_sim": 0.5,
+      "era": "postcolonial",
+      "title": "The Season of Phantasmal Peace"
+    },
+    {
+      "token": " fits",
+      "top_pred": " is",
+      "s2": 4.0101,
+      "phon_sim": 0.5,
+      "era": "new_york_school",
+      "title": "Self-Portrait in a Convex Mirror (middle passage)"
+    }
+  ]
+}
