@@ -1,0 +1,390 @@
+{
+  "poem_stats": [
+    {
+      "title": "Sir Patrick Spens",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "avg_s2_quoted": -0.4816303225806452,
+      "avg_s2_unquoted": 2.784685714285714,
+      "avg_s2_attribution": -0.6445333333333333,
+      "delta": -3.2663160368663595,
+      "n_quoted": 155,
+      "n_unquoted": 14,
+      "quote_pct": 91.71597633136095
+    },
+    {
+      "title": "The Love Song of J. Alfred Prufrock (middle)",
+      "author": "T.S. Eliot",
+      "era": "dramatic_monologue",
+      "avg_s2_quoted": -0.2630194552529183,
+      "avg_s2_unquoted": 2.2075,
+      "avg_s2_attribution": 1.36092,
+      "delta": -2.4705194552529184,
+      "n_quoted": 257,
+      "n_unquoted": 4,
+      "quote_pct": 98.46743295019157
+    },
+    {
+      "title": "Ozymandias",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "avg_s2_quoted": -0.38291632653061225,
+      "avg_s2_unquoted": 1.05005,
+      "avg_s2_attribution": 2.25124,
+      "delta": -1.4329663265306123,
+      "n_quoted": 147,
+      "n_unquoted": 6,
+      "quote_pct": 96.07843137254902
+    },
+    {
+      "title": "My Last Duchess (complete)",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "avg_s2_quoted": -0.37794755700325733,
+      "avg_s2_unquoted": 0.7724384615384615,
+      "avg_s2_attribution": -1.425,
+      "delta": -1.150386018541719,
+      "n_quoted": 614,
+      "n_unquoted": 52,
+      "quote_pct": 92.1921921921922
+    },
+    {
+      "title": "Even the Rain",
+      "author": "Agha Shahid Ali",
+      "era": "postcolonial",
+      "avg_s2_quoted": -0.5156077348066298,
+      "avg_s2_unquoted": 0.5772045454545455,
+      "avg_s2_attribution": -2.013133333333333,
+      "delta": -1.0928122802611753,
+      "n_quoted": 181,
+      "n_unquoted": 22,
+      "quote_pct": 89.16256157635468
+    },
+    {
+      "title": "Edward, Edward",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "avg_s2_quoted": -0.992355,
+      "avg_s2_unquoted": -0.03727948717948714,
+      "avg_s2_attribution": 1.1231499999999999,
+      "delta": -0.9550755128205128,
+      "n_quoted": 140,
+      "n_unquoted": 39,
+      "quote_pct": 78.2122905027933
+    },
+    {
+      "title": "My Last Duchess (opening)",
+      "author": "Robert Browning",
+      "era": "victorian",
+      "avg_s2_quoted": -0.093346875,
+      "avg_s2_unquoted": 0.7767075471698113,
+      "avg_s2_attribution": -1.5058,
+      "delta": -0.8700544221698112,
+      "n_quoted": 32,
+      "n_unquoted": 53,
+      "quote_pct": 37.64705882352941
+    },
+    {
+      "title": "The New Colossus",
+      "author": "Emma Lazarus",
+      "era": "protest_political",
+      "avg_s2_quoted": -1.274339705882353,
+      "avg_s2_unquoted": -0.6147086419753086,
+      "avg_s2_attribution": 1.2819666666666667,
+      "delta": -0.6596310639070443,
+      "n_quoted": 68,
+      "n_unquoted": 81,
+      "quote_pct": 45.63758389261745
+    },
+    {
+      "title": "Soliloquy of the Spanish Cloister",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "avg_s2_quoted": -0.889741237113402,
+      "avg_s2_unquoted": -0.24329930555555554,
+      "avg_s2_attribution": -2.137966666666667,
+      "delta": -0.6464419315578465,
+      "n_quoted": 97,
+      "n_unquoted": 144,
+      "quote_pct": 40.24896265560166
+    },
+    {
+      "title": "On Being Brought from Africa to America",
+      "author": "Phillis Wheatley",
+      "era": "18th_century",
+      "avg_s2_quoted": -0.16182857142857143,
+      "avg_s2_unquoted": 0.261182,
+      "avg_s2_attribution": -0.94235,
+      "delta": -0.42301057142857146,
+      "n_quoted": 35,
+      "n_unquoted": 50,
+      "quote_pct": 41.1764705882353
+    },
+    {
+      "title": "The Death of the Hired Man (opening)",
+      "author": "Robert Frost",
+      "era": "early_modern",
+      "avg_s2_quoted": -0.4317672794117647,
+      "avg_s2_unquoted": -0.11144565217391304,
+      "avg_s2_attribution": -1.1707,
+      "delta": -0.3203216272378516,
+      "n_quoted": 272,
+      "n_unquoted": 46,
+      "quote_pct": 85.53459119496856
+    },
+    {
+      "title": "Gerontion",
+      "author": "T.S. Eliot",
+      "era": "dramatic_monologue",
+      "avg_s2_quoted": -0.6683234042553191,
+      "avg_s2_unquoted": -0.42522758620689655,
+      "avg_s2_attribution": 1.1975333333333333,
+      "delta": -0.24309581804842256,
+      "n_quoted": 141,
+      "n_unquoted": 174,
+      "quote_pct": 44.76190476190476
+    },
+    {
+      "title": "The Charge of the Light Brigade",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "avg_s2_quoted": -0.48684979919678717,
+      "avg_s2_unquoted": -0.2721666666666667,
+      "avg_s2_attribution": -2.3583,
+      "delta": -0.21468313253012045,
+      "n_quoted": 249,
+      "n_unquoted": 21,
+      "quote_pct": 92.22222222222223
+    },
+    {
+      "title": "The Wife of Usher's Well",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "avg_s2_quoted": -0.26726666666666676,
+      "avg_s2_unquoted": -0.070528125,
+      "avg_s2_attribution": -1.99895,
+      "delta": -0.19673854166666677,
+      "n_quoted": 33,
+      "n_unquoted": 96,
+      "quote_pct": 25.58139534883721
+    },
+    {
+      "title": "The Bishop Orders His Tomb at Saint Praxed's Church",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "avg_s2_quoted": -0.3481942731277533,
+      "avg_s2_unquoted": -0.1938944055944056,
+      "avg_s2_attribution": -1.2336,
+      "delta": -0.1542998675333477,
+      "n_quoted": 227,
+      "n_unquoted": 143,
+      "quote_pct": 61.351351351351354
+    },
+    {
+      "title": "The Raven (opening stanzas)",
+      "author": "Edgar Allan Poe",
+      "era": "19th_century",
+      "avg_s2_quoted": -0.7442376623376623,
+      "avg_s2_unquoted": -0.6766634615384616,
+      "avg_s2_attribution": -0.8734166666666667,
+      "delta": -0.06757420079920073,
+      "n_quoted": 616,
+      "n_unquoted": 52,
+      "quote_pct": 92.21556886227545
+    },
+    {
+      "title": "Barbara Allen",
+      "author": "Traditional (English/Scottish ballad)",
+      "era": "ballad",
+      "avg_s2_quoted": -0.13972500000000002,
+      "avg_s2_unquoted": -0.33648192771084334,
+      "avg_s2_attribution": 0.93056,
+      "delta": 0.19675692771084333,
+      "n_quoted": 52,
+      "n_unquoted": 83,
+      "quote_pct": 38.51851851851852
+    },
+    {
+      "title": "Tithonus",
+      "author": "Alfred Lord Tennyson",
+      "era": "dramatic_monologue",
+      "avg_s2_quoted": -0.02782409638554215,
+      "avg_s2_unquoted": -0.504004054054054,
+      "avg_s2_attribution": -1.7848000000000002,
+      "delta": 0.47617995766851184,
+      "n_quoted": 83,
+      "n_unquoted": 148,
+      "quote_pct": 35.93073593073593
+    },
+    {
+      "title": "Frankie and Johnny (opening stanzas)",
+      "author": "Traditional (American folk)",
+      "era": "song_lyrics",
+      "avg_s2_quoted": -0.6802806722689075,
+      "avg_s2_unquoted": -1.2164757575757577,
+      "avg_s2_attribution": -2.5056333333333334,
+      "delta": 0.5361950853068501,
+      "n_quoted": 119,
+      "n_unquoted": 99,
+      "quote_pct": 54.58715596330275
+    },
+    {
+      "title": "Lord Randal",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "avg_s2_quoted": -0.7141591194968553,
+      "avg_s2_unquoted": -1.35503,
+      "avg_s2_attribution": 1.4941499999999999,
+      "delta": 0.6408708805031447,
+      "n_quoted": 159,
+      "n_unquoted": 20,
+      "quote_pct": 88.8268156424581
+    },
+    {
+      "title": "Why I Am Not a Painter",
+      "author": "Frank O'Hara",
+      "era": "new_york_school",
+      "avg_s2_quoted": 0.07421600000000002,
+      "avg_s2_unquoted": -0.6318575,
+      "avg_s2_attribution": 0.8926,
+      "delta": 0.7060735,
+      "n_quoted": 50,
+      "n_unquoted": 40,
+      "quote_pct": 55.55555555555556
+    },
+    {
+      "title": "The Lady of Shalott (Part I)",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "avg_s2_quoted": 0.9766636363636364,
+      "avg_s2_unquoted": -0.35917025089605736,
+      "avg_s2_attribution": 1.09462,
+      "delta": 1.3358338872596938,
+      "n_quoted": 11,
+      "n_unquoted": 279,
+      "quote_pct": 3.793103448275862
+    },
+    {
+      "title": "The Oxen",
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "avg_s2_quoted": 0.15352932330827068,
+      "avg_s2_unquoted": -1.5103000000000002,
+      "avg_s2_attribution": -0.18075,
+      "delta": 1.6638293233082708,
+      "n_quoted": 133,
+      "n_unquoted": 3,
+      "quote_pct": 97.79411764705883
+    },
+    {
+      "title": "Goblin Market (opening stanzas)",
+      "author": "Christina Rossetti",
+      "era": "victorian",
+      "avg_s2_quoted": -0.3558032544378698,
+      "avg_s2_unquoted": -2.40038,
+      "avg_s2_attribution": 0.6682666666666665,
+      "delta": 2.0445767455621304,
+      "n_quoted": 338,
+      "n_unquoted": 5,
+      "quote_pct": 98.54227405247813
+    }
+  ],
+  "era_summary": [
+    {
+      "era": "romantic",
+      "avg_s2_quoted": -0.38291632653061225,
+      "avg_s2_unquoted": 1.05005,
+      "delta": -1.4329663265306123,
+      "n_quoted": 147,
+      "n_unquoted": 6
+    },
+    {
+      "era": "postcolonial",
+      "avg_s2_quoted": -0.5156077348066298,
+      "avg_s2_unquoted": 0.5772045454545455,
+      "delta": -1.0928122802611753,
+      "n_quoted": 181,
+      "n_unquoted": 22
+    },
+    {
+      "era": "protest_political",
+      "avg_s2_quoted": -1.274339705882353,
+      "avg_s2_unquoted": -0.6147086419753086,
+      "delta": -0.6596310639070443,
+      "n_quoted": 68,
+      "n_unquoted": 81
+    },
+    {
+      "era": "ballad",
+      "avg_s2_quoted": -0.6367703153988868,
+      "avg_s2_unquoted": -0.09629999999999998,
+      "delta": -0.5404703153988869,
+      "n_quoted": 539,
+      "n_unquoted": 252
+    },
+    {
+      "era": "18th_century",
+      "avg_s2_quoted": -0.16182857142857143,
+      "avg_s2_unquoted": 0.261182,
+      "delta": -0.42301057142857146,
+      "n_quoted": 35,
+      "n_unquoted": 50
+    },
+    {
+      "era": "early_modern",
+      "avg_s2_quoted": -0.4317672794117647,
+      "avg_s2_unquoted": -0.11144565217391304,
+      "delta": -0.3203216272378516,
+      "n_quoted": 272,
+      "n_unquoted": 46
+    },
+    {
+      "era": "dramatic_monologue",
+      "avg_s2_quoted": -0.39573206483439044,
+      "avg_s2_unquoted": -0.24413142857142855,
+      "delta": -0.15160063626296189,
+      "n_quoted": 1419,
+      "n_unquoted": 665
+    },
+    {
+      "era": "19th_century",
+      "avg_s2_quoted": -0.7442376623376623,
+      "avg_s2_unquoted": -0.6766634615384616,
+      "delta": -0.06757420079920073,
+      "n_quoted": 616,
+      "n_unquoted": 52
+    },
+    {
+      "era": "victorian",
+      "avg_s2_quoted": -0.2795694626474443,
+      "avg_s2_unquoted": -0.22518365650969532,
+      "delta": -0.05438580613774899,
+      "n_quoted": 763,
+      "n_unquoted": 361
+    },
+    {
+      "era": "song_lyrics",
+      "avg_s2_quoted": -0.6802806722689075,
+      "avg_s2_unquoted": -1.2164757575757577,
+      "delta": 0.5361950853068501,
+      "n_quoted": 119,
+      "n_unquoted": 99
+    },
+    {
+      "era": "new_york_school",
+      "avg_s2_quoted": 0.07421600000000002,
+      "avg_s2_unquoted": -0.6318575,
+      "delta": 0.7060735,
+      "n_quoted": 50,
+      "n_unquoted": 40
+    }
+  ],
+  "global": {
+    "avg_s2_quoted": -0.4782943692088382,
+    "avg_s2_unquoted": -0.2817551971326165,
+    "avg_s2_attribution": -0.3599220588235294,
+    "n_quoted": 4209,
+    "n_unquoted": 1674,
+    "n_attribution": 136
+  }
+}

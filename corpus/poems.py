@@ -5333,6 +5333,839 @@ Rules the bold hand, or prompts the suppliant voice;
 How nations sink, by darling schemes oppressed,
 When vengeance listens to the fool's request."""
     },
+
+    # ─── POSTCOLONIAL / DIASPORA ─────────────────────────────────────────────
+    # Poets working between oral traditions, dialect, and literary English.
+    # Hypothesis: code-switching, vernacular patterning, and cross-cultural
+    # lexicons produce distinct S2 signatures versus mainstream Anglo-American verse.
+    {
+        "title": "Remember",
+        "author": "Joy Harjo",
+        "year": 1983,
+        "era": "postcolonial",
+        "text": """Remember the sky that you were born under,
+know each of the star's stories.
+Remember the moon, know who she is.
+Remember the sun's birth at dawn, that is the
+strongest point of time. Remember sundown
+and the giving away to night.
+Remember your birth, how your mother struggled
+to give you form and breath. You are evidence of
+her life, and her mother's, and hers.
+Remember your father. He is your life, also.
+Remember the earth whose skin you are:
+red earth, black earth, yellow earth, white earth
+brown earth, we are earth.
+Remember the plants, trees, animal life who all have their
+tribes, their families, their histories, too. Talk to them,
+listen to them. They are alive poems."""
+    },
+    {
+        "title": "She Had Some Horses",
+        "author": "Joy Harjo",
+        "year": 1983,
+        "era": "postcolonial",
+        "text": """She had some horses.
+
+She had horses who were bodies of sand.
+She had horses who were maps drawn of blood.
+She had horses who were skins of ocean water.
+She had horses who were the blue air of sky.
+She had horses who were fur and teeth.
+She had horses who were clay and blood.
+She had horses who were dancers in their hearts.
+She had horses who told the truth about themselves.
+She had horses who were called dangerous.
+She had horses who jumped from skyscrapers to catch the wind.
+She had horses who waited for destruction.
+She had horses who waited at the end of the road."""
+    },
+    {
+        "title": "The Season of Phantasmal Peace",
+        "author": "Derek Walcott",
+        "year": 1981,
+        "era": "postcolonial",
+        "text": """Then all the birds of Guadeloupe, all the birds
+of St. Lucia, broke from the sap of their branches
+and flew to that arbor made of the boughs of both
+islands, the one bridge joining each in a season
+that was never the summer of this world, and the birds
+that flew over the sea, made it tremble,
+and the dolphins leaped from it, not in play
+but in gratitude.
+
+Then all the birds of Guadeloupe, those that feed
+on the wiry grasses of the savannah, the green-throated
+parrot, the humming-birds of the hills,
+all the singing birds of both islands
+stopped, and the trees were astonished by them.
+And nothing, not a single leaf, trembled."""
+    },
+    {
+        "title": "Postcard from Kashmir",
+        "author": "Agha Shahid Ali",
+        "year": 1987,
+        "era": "postcolonial",
+        "text": """Kashmir shrinks into my mailbox,
+my home a neat four by six inches.
+
+I always loved neatness. Now I hold
+the half-inch Himalayas in my hand.
+
+This is home. And this the closest
+I'll ever be to home. When I return,
+the colors won't be so brilliant,
+the Jhelum's waters so clear,
+so ultramarine. My love
+so overexposed.
+
+And my memory will be a little
+out of focus, in it
+a giant negative, black
+and white, still undeveloped."""
+    },
+    {
+        "title": "Even the Rain",
+        "author": "Agha Shahid Ali",
+        "year": 1997,
+        "era": "postcolonial",
+        "text": """What will suffice for a true-love knot? Even the rain?
+But he has bought grief's lottery, bought even the rain.
+
+"Our glosses / wanting in this world"—"Can you remember?"
+Anyone!—"when we thought / the poets taught" even the rain?
+
+After we died—That was it!—God left us in the dark.
+And as we forgot the dark, we forgot even the rain.
+
+Drought was over. Where was I? Drinks were on the house.
+For mixers, my love, you'd poured—what?—even the rain.
+
+Of this pear-shaped orange's perfumed twist, I will say:
+Extract Vermouth from the bergamot, even the rain.
+
+How did the Enemy love you—with earth? air? and fire?
+He held just one thing back till he got even: the rain.
+
+This is God's site for a new paradise. No plan
+is good without water, and that includes even the rain."""
+    },
+    {
+        "title": "Calypso",
+        "author": "Kamau Brathwaite",
+        "year": 1967,
+        "era": "postcolonial",
+        "text": """The stone had skidded arc'd and bloomed into islands:
+Cuba and San Domingo
+                         Jamaica and Puerto Rico
+Grenada        Guadeloupe         Bonaire
+
+curved stone hissed into reef
+coral             cay                    sand                  key
+
+The islands fell out of Columbus's hat
+into the morning and the morning sea
+
+and the deep sargasso
+rolled and wrote the syllable
+of trade wind
+and the sea
+
+And the stone sped into the Caribbean
+
+the dark trees
+and the dark peoples
+and the dark seabirds singing
+
+into this new morning
+where silence was
+and the heart's blood's
+    hum"""
+    },
+
+    # ─── DRAMATIC MONOLOGUE ────────────────────────────────────────────
+    # Poems where a fictional speaker addresses an implied listener,
+    # often revealing themselves unintentionally through what they say.
+    {
+        "title": "My Last Duchess (complete)",
+        "author": "Robert Browning",
+        "year": 1842,
+        "era": "dramatic_monologue",
+        "text": """That's my last Duchess painted on the wall,
+Looking as if she were alive. I call
+That piece a wonder, now; Fra Pandolf's hands
+Worked busily a day, and there she stands.
+Will't please you sit and look at her? I said
+"Fra Pandolf" by design, for never read
+Strangers like you that pictured countenance,
+The depth and passion of its earnest glance,
+But to myself they turned (since none puts by
+The curtain I have drawn for you, but I)
+And seemed as they would ask me, if they durst,
+How such a glance came there; so, not the first
+Are you to turn and ask thus. Sir, 'twas not
+Her husband's presence only, called that spot
+Of joy into the Duchess' cheek; perhaps
+Fra Pandolf chanced to say, "Her mantle laps
+Over my lady's wrist too much," or "Paint
+Must never hope to reproduce the faint
+Half-flush that dies along her throat." Such stuff
+Was courtesy, she thought, and cause enough
+For calling up that spot of joy. She had
+A heart—how shall I say?—too soon made glad,
+Too easily impressed; she liked whate'er
+She looked on, and her looks went everywhere.
+Sir, 'twas all one! My favour at her breast,
+The dropping of the daylight in the West,
+The bough of cherries some officious fool
+Broke in the orchard for her, the white mule
+She rode with round the terrace—all and each
+Would draw from her alike the approving speech,
+Or blush, at least. She thanked men—good! but thanked
+Somehow—I know not how—as if she ranked
+My gift of a nine-hundred-years-old name
+With anybody's gift. Who'd stoop to blame
+This sort of trifling? Even had you skill
+In speech—which I have not—to make your will
+Quite clear to one, and say, "Just this
+Or that in you disgusts me; here you miss,
+Or there exceed the mark"—and if she let
+Herself be lessoned so, nor plainly set
+Her wits to yours, forsooth, and made excuse,
+—E'en then would be some stooping; and I choose
+Never to stoop. Oh, sir, she smiled, no doubt,
+Whene'er I passed her; but who passed without
+Much the same smile? This grew; I gave commands;
+Then all smiles stopped together. There she stands
+As if alive. Will't please you rise? We'll meet
+The company below, then. I repeat,
+The Count your master's known munificence
+Is ample warrant that no just pretense
+Of mine for dowry will be disallowed;
+Though his fair daughter's self, as I avowed
+At starting, is my object. Nay, we'll go
+Together down, sir. Notice Neptune, though,
+Taming a sea-horse, thought a rarity,
+Which Claus of Innsbruck cast in bronze for me!"""
+    },
+    {
+        "title": "Soliloquy of the Spanish Cloister",
+        "author": "Robert Browning",
+        "year": 1842,
+        "era": "dramatic_monologue",
+        "text": """Gr-r-r—there go, my heart's abhorrence!
+Water your damned flower-pots, do!
+If hate killed men, Brother Lawrence,
+God's blood, would not mine kill you!
+What? your myrtle-bush wants trimming?
+Oh, that rose has prior claims—
+Needs its leaden vase filled brimming?
+Hell dry you up with its flames!
+
+At the meal we sit together;
+Salve tibi! I must hear
+Wise talk of the kind of weather,
+Sort of season, time of year:
+Not a plenteous cork-crop: scarcely
+Dare we hope oak-galls, I doubt;
+What's the Latin name for "parsley"?
+What's the Greek name for Swine's Snout?
+
+Whew! We'll have our platter burnished,
+Laid with care on our own shelf!
+With a fire-new spoon we're furnished,
+And a goblet for ourself,
+Rinsed like something sacrificial
+Ere 'tis fit to touch our chaps—
+Marked with L. for our initial!
+(He-he! There his lily snaps!)"""
+    },
+    {
+        "title": "The Bishop Orders His Tomb at Saint Praxed's Church",
+        "author": "Robert Browning",
+        "year": 1845,
+        "era": "dramatic_monologue",
+        "text": """Vanity, saith the preacher, vanity!
+Draw round my bed: is Anselm keeping back?
+Nephews—sons mine ... ah God, I know not! Well—
+She, men would have to be your mother once,
+Old Gandolf envied me, so fair she was!
+What's done is done, and she is dead beside,
+Dead long ago, and I am Bishop since,
+And as she died so must we die ourselves,
+And thence ye may perceive the world's a dream.
+Life, how and what is it? As here I lie
+In this state-chamber, dying by degrees,
+Hours and long hours in the dead night, I ask
+"Do I live, am I dead?" Peace, peace seems all.
+Saint Praxed's ever was the church for peace;
+And so, about this tomb of mine. I fought
+With tooth and nail to save my niche, ye know:
+—Old Gandolf cozened me, despite my care;
+Shrewd was that snatch from out the corner South
+He graced his carrion with, God curse the same!
+Yet still my niche is not so cramped but thence
+One sees the pulpit o' the epistle-side,
+And somewhat of the choir, those silent seats,
+And up into the aery dome where live
+The angels, and a sunbeam's sure to lurk:
+And I shall fill my slab of basalt there,
+And 'neath my tabernacle take my rest,
+With those nine columns round me, two and two,
+The odd one at my feet where Anselm stands:
+Peach-blossom marble all, the rare, the ripe
+As fresh-poured red wine of a mighty pulse."""
+    },
+    {
+        "title": "Andrea del Sarto",
+        "author": "Robert Browning",
+        "year": 1855,
+        "era": "dramatic_monologue",
+        "text": """But do not let us quarrel any more,
+No, my Lucrezia; bear with me for once:
+Sit down and all shall happen as you wish.
+You turn your face, but does it bring a tear?
+I fancy you are studying to put
+That little something in the eyes of yours
+Beyond my art, and the eyes are wide and bright
+As now,—go on, and see how that strikes you!
+No gainsaying, no, indeed! I dare not.
+Such frank blue eyes, they flatter my account!
+Too live the life led, too, do you not think?
+Beside, to-morrow,—a holiday! do you know,
+We have no such delight in all the year?
+Still, all I care for, if he cares for me at all,
+Is, does he paint? you ask. I paint, that's all.
+But do not let us quarrel any more,
+No, my Lucrezia; bear with me for once.
+Sit down, and let us judge: is the fault there,
+That the form is empty, that there is no soul?
+What's lost? I know it, and I say, I know it.
+A common greyness silvers everything—
+All in a twilight, you and I alike
+—You, at the point of your first pride in me
+(That's gone, you know)—but I, at every point
+My youth, my hope, my art, being all toned down
+To yonder sober pleasant Fiesole.
+There's the bell clinking from the chapel-top;
+That length of convent-wall across the way
+Holds the trees safer, huddled more inside;
+The last monk leaves the garden; days decrease
+And autumn grows, autumn in everything.
+Eh? the whole seems to fall into a shape
+As if I saw alike my work and self
+And all that I was born to be and do,
+A twilight-piece. Love, we are in God's hand.
+How strange now, looks the life he makes us lead;
+So free we seem, so fettered fast we are!"""
+    },
+    {
+        "title": "Tithonus",
+        "author": "Alfred Lord Tennyson",
+        "year": 1860,
+        "era": "dramatic_monologue",
+        "text": """The woods decay, the woods decay and fall,
+The vapours weep their burthen to the ground,
+Man comes and tills the field and lies beneath,
+And after many a summer dies the swan.
+Me only cruel immortality
+Consumes; I wither slowly in thine arms,
+Here at the quiet limit of the world,
+A white-haired shadow roaming like a dream
+The ever-silent spaces of the East,
+Far-folded mists, and gleaming halls of morn.
+
+Alas! for this gray shadow, once a man—
+So glorious in his beauty and thy choice,
+Who madest him thy chosen, that he seemed
+To his great heart none other than a God!
+I asked thee, "Give me immortality."
+Then didst thou grant mine asking with a smile,
+Like wealthy men who care not how they give.
+But thy strong Hours indignant worked their wills,
+And beat me down and marred and wasted me,
+And though they could not end me, left me maimed
+To dwell in presence of immortal youth,
+Immortal age beside immortal youth,
+And all I was in ashes."""
+    },
+    {
+        "title": "Gerontion",
+        "author": "T.S. Eliot",
+        "year": 1920,
+        "era": "dramatic_monologue",
+        "text": """Here I am, an old man in a dry month,
+Being read to by a boy, waiting for rain.
+I was neither at the hot gates
+Nor fought in the warm rain
+Nor knee deep in the salt marsh, heaving a cutlass,
+Bitten by flies, fought.
+My house is a decayed house,
+And the jew squats on the window sill, the owner,
+Spawned in some estaminet of Antwerp,
+Blistered in Brussels, patched and peeled in London.
+The goat coughs at night in the field overhead;
+Rocks, moss, stonecrop, iron, merds.
+The woman keeps the kitchen, makes tea,
+Sneezes at evening, poking the peevish gutter.
+
+I an old man,
+A dull head among windy spaces.
+
+Signs are taken for wonders. "We would see a sign!"
+The word within a word, unable to speak a word,
+Swaddled with darkness. In the derangement of the senses
+Comes Christ the tiger
+In depraved May, dogwood and chestnut, flowering judas,
+To be eaten, to be divided, to be drunk
+Among whispers; by Mr. Silvero
+With caressing hands, at Limoges
+Who walked all night in the next room;
+By Hakagawa, bowing among the Titians;
+By Madame de Tornquist, in the dark room
+Shifting the candles; Fräulein von Kulp
+Who turned in the hall, one hand on the door."""
+    },
+    {
+        "title": "The Love Song of J. Alfred Prufrock (middle)",
+        "author": "T.S. Eliot",
+        "year": 1915,
+        "era": "dramatic_monologue",
+        "text": """And indeed there will be time
+To wonder, "Do I dare?" and, "Do I dare?"
+Time to turn back and descend the stair,
+With a bald spot in the middle of my hair—
+(They will say: "How his hair is growing thin!")
+My morning coat, my collar mounting firmly to the chin,
+My necktie rich and modest, but asserted by a simple pin—
+(They will say: "But how his arms and legs are thin!")
+Do I dare
+Disturb the universe?
+In a minute there is time
+For decisions and revisions which a minute will reverse.
+
+For I have known them all already, known them all—
+Have known the evenings, mornings, afternoons,
+I have measured out my life with coffee spoons;
+I know the voices dying with a dying fall
+Beneath the music from a farther room.
+So how should I presume?
+
+And I have known the eyes already, known them all—
+The eyes that fix you in a formulated phrase,
+And when I am formulated, sprawling on a pin,
+When I am pinned and wriggling on the wall,
+Then how should I begin
+To spit out all the butt-ends of my days and ways?
+And how should I presume?"""
+    },
+
+    # ─── ELEGY ─────────────────────────────────────────────────────────
+    {
+        "title": "Elegy Written in a Country Churchyard (opening)",
+        "author": "Thomas Gray",
+        "year": 1751,
+        "era": "elegy",
+        "text": """The curfew tolls the knell of parting day,
+The lowing herd wind slowly o'er the lea,
+The ploughman homeward plods his weary way,
+And leaves the world to darkness and to me.
+
+Now fades the glimmering landscape on the sight,
+And all the air a solemn stillness holds,
+Save where the beetle wheels his droning flight,
+And drowsy tinklings lull the distant folds;
+
+Save that from yonder ivy-mantled tower
+The moping owl does to the moon complain
+Of such as, wandering near her secret bower,
+Molest her ancient solitary reign.
+
+Beneath those rugged elms, that yew-tree's shade,
+Where heaves the turf in many a mouldering heap,
+Each in his narrow cell for ever laid,
+The rude forefathers of the hamlet sleep."""
+    },
+    {
+        "title": "Lycidas (opening and lament)",
+        "author": "John Milton",
+        "year": 1637,
+        "era": "elegy",
+        "text": """Yet once more, O ye Laurels, and once more
+Ye Myrtles brown, with Ivy never-sear,
+I com to pluck your Berries harsh and crude,
+And with forc'd fingers rude,
+Shatter your leaves before the mellowing year.
+Bitter constraint, and sad occasion dear,
+Compels me to disturb your season due:
+For Lycidas is dead, dead ere his prime,
+Young Lycidas, and hath not left his peer:
+Who would not sing for Lycidas? he well knew
+Himself to sing, and build the lofty rhyme.
+He must not flote upon his watry bear
+Unwept, and welter to the parching wind,
+Without the meed of som melodious tear."""
+    },
+    {
+        "title": "In Memoriam A.H.H. (sections I and VII)",
+        "author": "Alfred Lord Tennyson",
+        "year": 1849,
+        "era": "elegy",
+        "text": """I hold it true, whate'er befall;
+I feel it, when I sorrow most;
+'Tis better to have loved and lost
+Than never to have loved at all.
+
+Dark house, by which once more I stand
+Here in the long unlovely street,
+Doors, where my heart was used to beat
+So quickly, waiting for a hand,
+
+A hand that can be clasp'd no more—
+Behold me, for I cannot sleep,
+And like a guilty thing I creep
+At earliest morning to the door.
+
+He is not here; but far away
+The noise of life begins again,
+And ghastly thro' the drizzling rain
+On the bald street breaks the blank day."""
+    },
+    {
+        "title": "Adonais (stanzas I and II)",
+        "author": "Percy Bysshe Shelley",
+        "year": 1821,
+        "era": "elegy",
+        "text": """I weep for Adonais—he is dead!
+Oh, weep for Adonais! though our tears
+Thaw not the frost which binds so dear a head!
+And thou, sad Hour, selected from all years
+To mourn our loss, rouse thy obscure compeers,
+And teach them thine own sorrow, say: with me
+Died Adonais; till the Future dares
+Forget the Past, his fate and fame shall be
+An echo and a light unto eternity!
+
+Where wert thou, mighty Mother, when he lay,
+When thy Son lay, pierced by the shaft which flies
+In darkness? where was lorn Urania
+When Adonais died? With veiled eyes,
+Mid listening Echoes, in her Paradise
+She sate, while one, with soft enamoured breath,
+Rekindled all the fading melodies,
+With which, like flowers that mock the corse beneath,
+He had adorned and hid the coming bulk of death."""
+    },
+    {
+        "title": "O Captain! My Captain!",
+        "author": "Walt Whitman",
+        "year": 1865,
+        "era": "elegy",
+        "text": """O Captain! my Captain! our fearful trip is done,
+The ship has weather'd every rack, the prize we sought is won,
+The port is near, the bells I hear, the people all exulting,
+While follow eyes the steady keel, the vessel grim and daring;
+But O heart! heart! heart!
+O the bleeding drops of red,
+Where on the deck my Captain lies,
+Fallen cold and dead.
+
+O Captain! my Captain! rise up and hear the bells;
+Rise up—for you the flag is flung—for you the bugle trills,
+For you bouquets and ribbon'd wreaths—for you the shores a-crowding,
+For you they call, the swaying mass, their eager faces turning;
+Here Captain! dear father!
+This arm beneath your head!
+It is some dream that on the deck,
+You've fallen cold and dead."""
+    },
+    {
+        "title": "To an Athlete Dying Young",
+        "author": "A.E. Housman",
+        "year": 1896,
+        "era": "elegy",
+        "text": """The time you won your town the race
+We chaired you through the market-place;
+Man and boy stood cheering by,
+And home we brought you shoulder-high.
+
+To-day, the road all runners come,
+Shoulder-high we bring you home,
+And set you at your threshold down,
+Townsman of a stiller town.
+
+Smart lad, to slip betimes away
+From fields where glory does not stay,
+And early though the laurel grows
+It withers quicker than the rose."""
+    },
+    {
+        "title": "On My First Son",
+        "author": "Ben Jonson",
+        "year": 1616,
+        "era": "elegy",
+        "text": """Farewell, thou child of my right hand, and joy;
+My sin was too much hope of thee, loved boy.
+Seven years thou wert lent to me, and I thee pay,
+Exacted by thy fate, on the just day.
+O, could I lose all father now! For why
+Will man lament the state he should envy?
+To have so soon 'scaped world's and flesh's rage,
+And if no other misery, yet age?
+Rest in soft peace, and, asked, say, Here doth lie
+Ben Jonson his best piece of poetry.
+For whose sake henceforth all his vows be such
+As what he loves may never like too much."""
+    },
+
+    # ─── DIALOGUE-HEAVY POEMS (added for dialogue S₂ analysis) ────────────────
+    {
+        "title": "La Belle Dame sans Merci",
+        "author": "John Keats",
+        "year": 1819,
+        "era": "romantic",
+        "text": """"O what can ail thee, knight-at-arms,
+Alone and palely loitering?
+The sedge has withered from the lake,
+And no birds sing.
+
+O what can ail thee, knight-at-arms,
+So haggard and so woe-begone?
+The squirrel's granary is full,
+And the harvest's done.
+
+I see a lily on thy brow,
+With anguish moist and fever-dew,
+And on thy cheeks a fading rose
+Fast withereth too.
+
+I met a lady in the meads,
+Full beautiful—a faery's child,
+Her hair was long, her foot was light,
+And her eyes were wild.
+
+I made a garland for her head,
+And bracelets too, and fragrant zone;
+She looked at me as she did love,
+And made sweet moan.
+
+I set her on my pacing steed,
+And nothing else saw all day long,
+For sidelong would she bend, and sing
+A faery's song.
+
+She found me roots of relish sweet,
+And honey wild, and manna-dew,
+And sure in language strange she said—
+'I love thee true'.
+
+She took me to her elfin grot,
+And there she wept and sighed full sore,
+And there I shut her wild wild eyes
+With kisses four.
+
+And there she lullèd me asleep,
+And there I dreamed—Ah! woe betide!—
+The latest dream I ever dreamt
+On the cold hill side.
+
+I saw pale kings and princes too,
+Pale warriors, death-pale were they all;
+They cried—'La Belle Dame sans Merci
+Thee hath in thrall!'
+
+I saw their starved lips in the gloam,
+With horrid warning gapèd wide,
+And I awoke and found me here,
+On the cold hill's side.
+
+And this is why I sojourn here,
+Alone and palely loitering,
+Though the sedge is withered from the lake,
+And no birds sing."""
+    },
+    {
+        "title": "The Death of the Hired Man (opening)",
+        "author": "Robert Frost",
+        "year": 1914,
+        "era": "early_modern",
+        "text": """Mary sat musing on the lamp-flame at the table
+Waiting for Warren. When she heard his step,
+She ran on tip-toe down the darkened passage
+To meet him in the doorway with the news
+And put him on his guard. "Silas is back."
+She pushed him outward with her through the door
+And shut it after her. "Be kind," she said.
+She took the market things from Warren's arms
+And set them on the porch, then drew him down
+To sit beside her on the wooden steps.
+
+"When was I ever anything but kind to him?
+But I'll not have the fellow back," he said.
+"I told him so last haying, didn't I?
+If he left then, I said, that ended it."
+"What good is he? Who else will harbor him
+At his age for the little he can do?
+What help he is there's no depending on.
+Off he goes always when I need him most.
+'We do some charity work as well as farming,'
+With your nice load of hay. He never could
+Make up his mind to be dependent on.
+Oh, he had to be told; he had to go.
+But Mary, remember—it's for you he came."
+"Think of it, Warren," and she sighed. "He came
+Home to die: you needn't be afraid he'll leave you this time."
+"Home," he mocked gently.
+"Yes, what else but home?
+It all depends on what you mean by home.\""""
+    },
+    {
+        "title": "Goblin Market (opening stanzas)",
+        "author": "Christina Rossetti",
+        "year": 1862,
+        "era": "victorian",
+        "text": """Morning and evening
+Maids heard the goblins cry:
+"Come buy our orchard fruits,
+Come buy, come buy:
+Apples and quinces,
+Lemons and oranges,
+Plump unpecked cherries,
+Melons and raspberries,
+Bloom-down-cheeked peaches,
+Swart-headed mulberries,
+Wild free-born cranberries,
+Crab-apples, dewberries,
+Pine-apples, blackberries,
+Apricots, strawberries;—
+All ripe together
+In summer weather,—
+Morns that pass by,
+Fair eves that fly;
+Come buy, come buy:
+Our grapes fresh from the vine,
+Pomegranates full and fine,
+Dates and sharp bullaces,
+Rare pears and greengages,
+Damsons and bilberries,
+Taste them and try:
+Currants and gooseberries,
+Bright-fire-like barberries,
+Figs to fill your mouth,
+Citrons from the South,
+Sweet to tongue and sound to eye;
+Come buy, come buy."
+
+Evening by evening
+Among the brookside rushes,
+Laura bowed her head to hear,
+Lizzie veiled her blushes:
+Crouching close together
+In the cooling weather,
+With clasping arms and cautioning lips,
+With tingling cheeks and finger tips.
+"Lie close," Laura said,
+Pricking up her golden head:
+"We must not look at goblin men,
+We must not buy their fruits:
+Who knows upon what soil they fed
+Their hungry thirsty roots?"
+"Come buy," call the goblins
+Hobbling down the glen."""
+    },
+    {
+        "title": "A Dialogue of Self and Soul (Part I)",
+        "author": "W.B. Yeats",
+        "year": 1933,
+        "era": "modernist",
+        "text": """MY SOUL. I summon to the winding ancient stair;
+Set all your mind upon the steep ascent,
+Upon the broken, crumbling battlement,
+Upon the breathless starlit air,
+'Upon the star that marks the hidden pole;
+Fix every wandering thought upon
+That quarter where all thought is done:
+Who can distinguish darkness from the soul?
+
+MY SELF. The consecrated blade upon my knees
+Is Sato's ancient blade, still razor-keen,
+Still like a looking-glass unscratched, unstained,
+Unworn by time; and by Montashigi
+Three hundred years ago or thereabouts
+Wrought it of such a temper that he thought
+He could outcut the hardest of the night.
+
+MY SOUL. Montashigi, third of his family, fashioned it
+Five hundred years ago, about it lie
+Flowers from I know not what embroidery—
+Heart's purple—and all these I set
+For emblems of the day against the tower
+Emblematical of the night,
+And claim as by a soldier's right
+A charter to commit the crime once more.
+
+MY SELF. Why should the imagination of a man
+Long past his prime remember things that are
+Emblematical of love and war?
+Think of ancestral night that can,
+If but imagination scorn the earth
+And intellect is wandering
+To this and that and t'other thing,
+Deliver from the crime of death and birth.
+
+MY SOUL. Whence had they come,
+The hand and lash that beat down frigid Rome?
+What sacred drama's part was played
+When that fierce virgin and her Star
+Out of the fabulous darkness called?"""
+    },
+    {
+        "title": "The Charge of the Light Brigade",
+        "author": "Alfred, Lord Tennyson",
+        "year": 1854,
+        "era": "victorian",
+        "text": """Half a league, half a league,
+Half a league onward,
+All in the valley of Death
+Rode the six hundred.
+"Forward, the Light Brigade!
+Charge for the guns!" he said.
+Into the valley of Death
+Rode the six hundred.
+
+"Forward, the Light Brigade!"
+Was there a man dismayed?
+Not though the soldier knew
+Someone had blundered.
+Theirs not to make reply,
+Theirs not to reason why,
+Theirs but to do and die.
+Into the valley of Death
+Rode the six hundred.
+
+Cannon to right of them,
+Cannon to left of them,
+Cannon in front of them
+Volleyed and thundered;
+Stormed at with shot and shell,
+Boldly they rode and well,
+Into the jaws of Death,
+Into the mouth of hell
+Rode the six hundred.
+
+Flashed all their sabres bare,
+Flashed as they turned in air
+Sabring the gunners there,
+Charging an army, while
+All the world wondered.
+Plunged in the battery-smoke
+Right through the line they broke;
+Cossack and Russian
+Reeled from the sabre stroke
+Shattered and sundered.
+Then they rode back, but not,
+Not the six hundred."""
+    },
 ]
 
 # Quick stats
