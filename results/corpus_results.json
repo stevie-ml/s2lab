@@ -6,7 +6,7 @@
       "year": 1807,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:50.885516",
+      "analyzed_at": "2026-10-15T18:54:20.176809",
       "model": "gpt2",
       "n_tokens": 59
     },
@@ -3639,7 +3639,7 @@
       "year": 1819,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:51.659440",
+      "analyzed_at": "2026-10-15T18:54:20.892845",
       "model": "gpt2",
       "n_tokens": 116
     },
@@ -10236,7 +10236,7 @@
       "year": 1863,
       "era": "19th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:52.103149",
+      "analyzed_at": "2026-10-15T18:54:21.248630",
       "model": "gpt2",
       "n_tokens": 59
     },
@@ -13869,7 +13869,7 @@
       "year": 1861,
       "era": "19th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:52.679454",
+      "analyzed_at": "2026-10-15T18:54:21.637050",
       "model": "gpt2",
       "n_tokens": 69
     },
@@ -18022,7 +18022,7 @@
       "year": 1855,
       "era": "19th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:53.151212",
+      "analyzed_at": "2026-10-15T18:54:21.939744",
       "model": "gpt2",
       "n_tokens": 55
     },
@@ -21447,7 +21447,7 @@
       "year": 1867,
       "era": "19th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:53.687079",
+      "analyzed_at": "2026-10-15T18:54:22.369967",
       "model": "gpt2",
       "n_tokens": 68
     },
@@ -25548,7 +25548,7 @@
       "year": 1818,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:54.750972",
+      "analyzed_at": "2026-10-15T18:54:23.370988",
       "model": "gpt2",
       "n_tokens": 161
     },
@@ -34485,7 +34485,7 @@
       "year": 1915,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:55.300195",
+      "analyzed_at": "2026-10-15T18:54:23.813783",
       "model": "gpt2",
       "n_tokens": 70
     },
@@ -38690,7 +38690,7 @@
       "year": 1922,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:55.779013",
+      "analyzed_at": "2026-10-15T18:54:24.203474",
       "model": "gpt2",
       "n_tokens": 58
     },
@@ -42271,7 +42271,7 @@
       "year": 1913,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:55.993913",
+      "analyzed_at": "2026-10-15T18:54:24.353203",
       "model": "gpt2",
       "n_tokens": 20
     },
@@ -43876,7 +43876,7 @@
       "year": 1923,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:56.236423",
+      "analyzed_at": "2026-10-15T18:54:24.546714",
       "model": "gpt2",
       "n_tokens": 31
     },
@@ -46053,7 +46053,7 @@
       "year": 1919,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:56.821672",
+      "analyzed_at": "2026-10-15T18:54:24.960306",
       "model": "gpt2",
       "n_tokens": 67
     },
@@ -50102,7 +50102,7 @@
       "year": 1922,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:57.518531",
+      "analyzed_at": "2026-10-15T18:54:25.569578",
       "model": "gpt2",
       "n_tokens": 101
     },
@@ -55919,7 +55919,7 @@
       "year": 1915,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:58.113312",
+      "analyzed_at": "2026-10-15T18:54:26.053412",
       "model": "gpt2",
       "n_tokens": 80
     },
@@ -60644,7 +60644,7 @@
       "year": 1956,
       "era": "beat",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:58.511167",
+      "analyzed_at": "2026-10-15T18:54:26.409106",
       "model": "gpt2",
       "n_tokens": 54
     },
@@ -64017,7 +64017,7 @@
       "year": 1962,
       "era": "confessional",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:59.172331",
+      "analyzed_at": "2026-10-15T18:54:27.012884",
       "model": "gpt2",
       "n_tokens": 90
     },
@@ -69262,7 +69262,7 @@
       "year": 1962,
       "era": "confessional",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:52:59.649726",
+      "analyzed_at": "2026-10-15T18:54:27.522751",
       "model": "gpt2",
       "n_tokens": 57
     },
@@ -72791,7 +72791,7 @@
       "year": 1976,
       "era": "mid_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:00.168284",
+      "analyzed_at": "2026-10-15T18:54:28.209651",
       "model": "gpt2",
       "n_tokens": 63
     },
@@ -76632,7 +76632,7 @@
       "year": 1955,
       "era": "beat",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:00.899074",
+      "analyzed_at": "2026-10-15T18:54:28.852613",
       "model": "gpt2",
       "n_tokens": 96
     },
@@ -82189,7 +82189,7 @@
       "year": 1975,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:01.470074",
+      "analyzed_at": "2026-10-15T18:54:29.316414",
       "model": "gpt2",
       "n_tokens": 73
     },
@@ -86550,7 +86550,7 @@
       "year": 1956,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:01.821244",
+      "analyzed_at": "2026-10-15T18:54:29.586074",
       "model": "gpt2",
       "n_tokens": 44
     },
@@ -89403,7 +89403,7 @@
       "year": 1956,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:02.346034",
+      "analyzed_at": "2026-10-15T18:54:29.949466",
       "model": "gpt2",
       "n_tokens": 71
     },
@@ -93660,7 +93660,7 @@
       "year": 1970,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:02.944854",
+      "analyzed_at": "2026-10-15T18:54:30.399721",
       "model": "gpt2",
       "n_tokens": 82
     },
@@ -98489,7 +98489,7 @@
       "year": 1956,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:03.670386",
+      "analyzed_at": "2026-10-15T18:54:31.010385",
       "model": "gpt2",
       "n_tokens": 107
     },
@@ -104618,7 +104618,7 @@
       "year": 1977,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:04.190389",
+      "analyzed_at": "2026-10-15T18:54:31.399083",
       "model": "gpt2",
       "n_tokens": 67
     },
@@ -108667,7 +108667,7 @@
       "year": 1981,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:05.301973",
+      "analyzed_at": "2026-10-15T18:54:32.375213",
       "model": "gpt2",
       "n_tokens": 159
     },
@@ -117500,7 +117500,7 @@
       "year": 1977,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:05.917558",
+      "analyzed_at": "2026-10-15T18:54:32.927473",
       "model": "gpt2",
       "n_tokens": 92
     },
@@ -122849,7 +122849,7 @@
       "year": 1975,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:06.435097",
+      "analyzed_at": "2026-10-15T18:54:33.442195",
       "model": "gpt2",
       "n_tokens": 83
     },
@@ -127730,7 +127730,7 @@
       "year": 1975,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:07.060302",
+      "analyzed_at": "2026-10-15T18:54:33.938999",
       "model": "gpt2",
       "n_tokens": 91
     },
@@ -133027,7 +133027,7 @@
       "year": 1975,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:07.620438",
+      "analyzed_at": "2026-10-15T18:54:35.274805",
       "model": "gpt2",
       "n_tokens": 82
     },
@@ -137856,7 +137856,7 @@
       "year": 1984,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:08.152839",
+      "analyzed_at": "2026-10-15T18:54:35.684973",
       "model": "gpt2",
       "n_tokens": 70
     },
@@ -142061,7 +142061,7 @@
       "year": 1966,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:08.632264",
+      "analyzed_at": "2026-10-15T18:54:36.048819",
       "model": "gpt2",
       "n_tokens": 64
     },
@@ -145954,7 +145954,7 @@
       "year": 1962,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:09.066987",
+      "analyzed_at": "2026-10-15T18:54:36.394831",
       "model": "gpt2",
       "n_tokens": 54
     },
@@ -149327,7 +149327,7 @@
       "year": 1962,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:09.593826",
+      "analyzed_at": "2026-10-15T18:54:36.877284",
       "model": "gpt2",
       "n_tokens": 76
     },
@@ -153844,7 +153844,7 @@
       "year": 1977,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:10.046434",
+      "analyzed_at": "2026-10-15T18:54:37.351473",
       "model": "gpt2",
       "n_tokens": 77
     },
@@ -158413,7 +158413,7 @@
       "year": 1957,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:10.642366",
+      "analyzed_at": "2026-10-15T18:54:37.968077",
       "model": "gpt2",
       "n_tokens": 102
     },
@@ -164282,7 +164282,7 @@
       "year": 1959,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:11.073657",
+      "analyzed_at": "2026-10-15T18:54:38.390674",
       "model": "gpt2",
       "n_tokens": 67
     },
@@ -168331,7 +168331,7 @@
       "year": 1980,
       "era": "language",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:11.432224",
+      "analyzed_at": "2026-10-15T18:54:38.696171",
       "model": "gpt2",
       "n_tokens": 50
     },
@@ -171496,7 +171496,7 @@
       "year": 1978,
       "era": "language",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:11.821414",
+      "analyzed_at": "2026-10-15T18:54:39.237900",
       "model": "gpt2",
       "n_tokens": 51
     },
@@ -174713,7 +174713,7 @@
       "year": 1983,
       "era": "language",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:12.122284",
+      "analyzed_at": "2026-10-15T18:54:39.526833",
       "model": "gpt2",
       "n_tokens": 46
     },
@@ -177670,7 +177670,7 @@
       "year": 2014,
       "era": "contemporary",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:12.532447",
+      "analyzed_at": "2026-10-15T18:54:39.917976",
       "model": "gpt2",
       "n_tokens": 58
     },
@@ -181251,7 +181251,7 @@
       "year": 2015,
       "era": "contemporary",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:12.955338",
+      "analyzed_at": "2026-10-15T18:54:40.265985",
       "model": "gpt2",
       "n_tokens": 57
     },
@@ -184780,7 +184780,7 @@
       "year": 2017,
       "era": "contemporary",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:13.421025",
+      "analyzed_at": "2026-10-15T18:54:40.605982",
       "model": "gpt2",
       "n_tokens": 58
     },
@@ -188361,7 +188361,7 @@
       "year": 2016,
       "era": "contemporary",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:13.741444",
+      "analyzed_at": "2026-10-15T18:54:40.841065",
       "model": "gpt2",
       "n_tokens": 42
     },
@@ -191110,7 +191110,7 @@
       "year": 2000,
       "era": "contemporary",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:14.141388",
+      "analyzed_at": "2026-10-15T18:54:41.197046",
       "model": "gpt2",
       "n_tokens": 57
     },
@@ -194639,7 +194639,7 @@
       "year": 1951,
       "era": "harlem_renaissance",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:14.616137",
+      "analyzed_at": "2026-10-15T18:54:41.649048",
       "model": "gpt2",
       "n_tokens": 77
     },
@@ -199208,7 +199208,7 @@
       "year": 1921,
       "era": "harlem_renaissance",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:15.601898",
+      "analyzed_at": "2026-10-15T18:54:42.366599",
       "model": "gpt2",
       "n_tokens": 128
     },
@@ -206429,7 +206429,7 @@
       "year": 1960,
       "era": "mid_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:15.938237",
+      "analyzed_at": "2026-10-15T18:54:42.641014",
       "model": "gpt2",
       "n_tokens": 45
     },
@@ -209334,7 +209334,7 @@
       "year": 1969,
       "era": "oulipo",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:16.301625",
+      "analyzed_at": "2026-10-15T18:54:42.948423",
       "model": "gpt2",
       "n_tokens": 51
     },
@@ -212551,7 +212551,7 @@
       "year": 1931,
       "era": "surrealist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:16.773082",
+      "analyzed_at": "2026-10-15T18:54:43.274691",
       "model": "gpt2",
       "n_tokens": 58
     },
@@ -216132,7 +216132,7 @@
       "year": 1962,
       "era": "deep_image",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:17.276418",
+      "analyzed_at": "2026-10-15T18:54:43.637456",
       "model": "gpt2",
       "n_tokens": 62
     },
@@ -219921,7 +219921,7 @@
       "year": 2024,
       "era": "control",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:17.537513",
+      "analyzed_at": "2026-10-15T18:54:43.868851",
       "model": "gpt2",
       "n_tokens": 36
     },
@@ -222358,7 +222358,7 @@
       "year": 2024,
       "era": "control",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:17.764722",
+      "analyzed_at": "2026-10-15T18:54:44.070876",
       "model": "gpt2",
       "n_tokens": 31
     },
@@ -224535,7 +224535,7 @@
       "year": 2024,
       "era": "control",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:17.991589",
+      "analyzed_at": "2026-10-15T18:54:44.267549",
       "model": "gpt2",
       "n_tokens": 29
     },
@@ -226608,7 +226608,7 @@
       "year": 2024,
       "era": "control",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:18.241246",
+      "analyzed_at": "2026-10-15T18:54:44.463226",
       "model": "gpt2",
       "n_tokens": 32
     },
@@ -228837,7 +228837,7 @@
       "year": 1891,
       "era": "german_symbolist",
       "language": "de",
-      "analyzed_at": "2026-10-13T06:53:26.901067",
+      "analyzed_at": "2026-10-15T18:54:55.716132",
       "model": "dbmdz/german-gpt2",
       "n_tokens": 138
     },
@@ -236578,7 +236578,7 @@
       "year": 1919,
       "era": "german_symbolist",
       "language": "de",
-      "analyzed_at": "2026-10-13T06:53:27.826158",
+      "analyzed_at": "2026-10-15T18:54:56.442348",
       "model": "dbmdz/german-gpt2",
       "n_tokens": 139
     },
@@ -244371,7 +244371,7 @@
       "year": 1907,
       "era": "german_symbolist",
       "language": "de",
-      "analyzed_at": "2026-10-13T06:53:28.476142",
+      "analyzed_at": "2026-10-15T18:54:56.893949",
       "model": "dbmdz/german-gpt2",
       "n_tokens": 89
     },
@@ -249564,7 +249564,7 @@
       "year": 1914,
       "era": "german_expressionist",
       "language": "de",
-      "analyzed_at": "2026-10-13T06:53:29.816943",
+      "analyzed_at": "2026-10-15T18:54:57.893172",
       "model": "dbmdz/german-gpt2",
       "n_tokens": 189
     },
@@ -259957,7 +259957,7 @@
       "year": 1913,
       "era": "german_expressionist",
       "language": "de",
-      "analyzed_at": "2026-10-13T06:53:30.502791",
+      "analyzed_at": "2026-10-15T18:54:58.471353",
       "model": "dbmdz/german-gpt2",
       "n_tokens": 105
     },
@@ -265982,7 +265982,7 @@
       "year": 1912,
       "era": "german_modernist",
       "language": "de",
-      "analyzed_at": "2026-10-13T06:53:31.099669",
+      "analyzed_at": "2026-10-15T18:54:58.914313",
       "model": "dbmdz/german-gpt2",
       "n_tokens": 84
     },
@@ -270915,7 +270915,7 @@
       "year": 1908,
       "era": "german_modernist",
       "language": "de",
-      "analyzed_at": "2026-10-13T06:53:32.108873",
+      "analyzed_at": "2026-10-15T18:54:59.768756",
       "model": "dbmdz/german-gpt2",
       "n_tokens": 156
     },
@@ -279592,7 +279592,7 @@
       "year": 2024,
       "era": "control",
       "language": "de",
-      "analyzed_at": "2026-10-13T06:53:32.378121",
+      "analyzed_at": "2026-10-15T18:55:00.048694",
       "model": "dbmdz/german-gpt2",
       "n_tokens": 36
     },
@@ -282029,7 +282029,7 @@
       "year": 1877,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:33.564563",
+      "analyzed_at": "2026-10-15T18:55:01.014446",
       "model": "gpt2",
       "n_tokens": 191
     },
@@ -292526,7 +292526,7 @@
       "year": 1833,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:34.281462",
+      "analyzed_at": "2026-10-15T18:55:01.575085",
       "model": "gpt2",
       "n_tokens": 101
     },
@@ -298343,7 +298343,7 @@
       "year": 1896,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:34.857064",
+      "analyzed_at": "2026-10-15T18:55:02.055318",
       "model": "gpt2",
       "n_tokens": 85
     },
@@ -303328,7 +303328,7 @@
       "year": 1912,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:35.509813",
+      "analyzed_at": "2026-10-15T18:55:02.516859",
       "model": "gpt2",
       "n_tokens": 90
     },
@@ -308573,7 +308573,7 @@
       "year": 1842,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:36.135963",
+      "analyzed_at": "2026-10-15T18:55:03.008135",
       "model": "gpt2",
       "n_tokens": 92
     },
@@ -313922,7 +313922,7 @@
       "year": 1962,
       "era": "confessional",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:36.435565",
+      "analyzed_at": "2026-10-15T18:55:03.245009",
       "model": "gpt2",
       "n_tokens": 43
     },
@@ -316723,7 +316723,7 @@
       "year": 1914,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:36.731323",
+      "analyzed_at": "2026-10-15T18:55:03.485517",
       "model": "gpt2",
       "n_tokens": 42
     },
@@ -319472,7 +319472,7 @@
       "year": 1921,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:39.139845",
+      "analyzed_at": "2026-10-15T18:55:05.352930",
       "model": "gpt2",
       "n_tokens": 366
     },
@@ -339069,7 +339069,7 @@
       "year": 1865,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:39.847496",
+      "analyzed_at": "2026-10-15T18:55:05.961539",
       "model": "gpt2",
       "n_tokens": 113
     },
@@ -345510,7 +345510,7 @@
       "year": 1919,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:40.187921",
+      "analyzed_at": "2026-10-15T18:55:06.212158",
       "model": "gpt2",
       "n_tokens": 45
     },
@@ -348415,7 +348415,7 @@
       "year": 1913,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:40.717581",
+      "analyzed_at": "2026-10-15T18:55:06.666098",
       "model": "gpt2",
       "n_tokens": 85
     },
@@ -353400,7 +353400,7 @@
       "year": 1920,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:41.913832",
+      "analyzed_at": "2026-10-15T18:55:07.652159",
       "model": "gpt2",
       "n_tokens": 187
     },
@@ -363689,7 +363689,7 @@
       "year": 1686,
       "era": "haiku",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:42.273064",
+      "analyzed_at": "2026-10-15T18:55:07.987720",
       "model": "gpt2",
       "n_tokens": 58
     },
@@ -367270,7 +367270,7 @@
       "year": 1819,
       "era": "haiku",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:42.636368",
+      "analyzed_at": "2026-10-15T18:55:08.300136",
       "model": "gpt2",
       "n_tokens": 53
     },
@@ -370591,7 +370591,7 @@
       "year": 1914,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:43.268044",
+      "analyzed_at": "2026-10-15T18:55:08.797615",
       "model": "gpt2",
       "n_tokens": 94
     },
@@ -376044,7 +376044,7 @@
       "year": -600,
       "era": "ancient",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:43.856337",
+      "analyzed_at": "2026-10-15T18:55:09.281235",
       "model": "gpt2",
       "n_tokens": 92
     },
@@ -381393,7 +381393,7 @@
       "year": 1869,
       "era": "prose_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:44.790339",
+      "analyzed_at": "2026-10-15T18:55:10.137740",
       "model": "gpt2",
       "n_tokens": 148
     },
@@ -389654,7 +389654,7 @@
       "year": 1879,
       "era": "19th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:45.179320",
+      "analyzed_at": "2026-10-15T18:55:10.431374",
       "model": "gpt2",
       "n_tokens": 57
     },
@@ -393183,7 +393183,7 @@
       "year": 1868,
       "era": "19th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:46.049268",
+      "analyzed_at": "2026-10-15T18:55:11.226090",
       "model": "gpt2",
       "n_tokens": 139
     },
@@ -400976,7 +400976,7 @@
       "year": 1794,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:47.369276",
+      "analyzed_at": "2026-10-15T18:55:12.269330",
       "model": "gpt2",
       "n_tokens": 212
     },
@@ -412565,7 +412565,7 @@
       "year": 1845,
       "era": "19th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:52.156119",
+      "analyzed_at": "2026-10-15T18:55:16.320236",
       "model": "gpt2",
       "n_tokens": 719
     },
@@ -450518,7 +450518,7 @@
       "year": 1849,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:53.169264",
+      "analyzed_at": "2026-10-15T18:55:17.174476",
       "model": "gpt2",
       "n_tokens": 140
     },
@@ -458363,7 +458363,7 @@
       "year": 1794,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:53.976718",
+      "analyzed_at": "2026-10-15T18:55:17.823727",
       "model": "gpt2",
       "n_tokens": 109
     },
@@ -464596,7 +464596,7 @@
       "year": 1896,
       "era": "19th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:55.018768",
+      "analyzed_at": "2026-10-15T18:55:18.597745",
       "model": "gpt2",
       "n_tokens": 140
     },
@@ -472441,7 +472441,7 @@
       "year": 1915,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:56.236179",
+      "analyzed_at": "2026-10-15T18:55:19.402869",
       "model": "gpt2",
       "n_tokens": 153
     },
@@ -480962,7 +480962,7 @@
       "year": 1912,
       "era": "19th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:57.119144",
+      "analyzed_at": "2026-10-15T18:55:20.117081",
       "model": "gpt2",
       "n_tokens": 124
     },
@@ -487975,7 +487975,7 @@
       "year": 1919,
       "era": "harlem_renaissance",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:58.201992",
+      "analyzed_at": "2026-10-15T18:55:21.021586",
       "model": "gpt2",
       "n_tokens": 158
     },
@@ -496756,7 +496756,7 @@
       "year": 1925,
       "era": "harlem_renaissance",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:53:59.160126",
+      "analyzed_at": "2026-10-15T18:55:21.772855",
       "model": "gpt2",
       "n_tokens": 145
     },
@@ -504861,7 +504861,7 @@
       "year": 1794,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:00.281841",
+      "analyzed_at": "2026-10-15T18:55:22.716753",
       "model": "gpt2",
       "n_tokens": 164
     },
@@ -513954,7 +513954,7 @@
       "year": 1898,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:01.475025",
+      "analyzed_at": "2026-10-15T18:55:23.616122",
       "model": "gpt2",
       "n_tokens": 175
     },
@@ -523619,7 +523619,7 @@
       "year": 1925,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:02.323161",
+      "analyzed_at": "2026-10-15T18:55:24.239972",
       "model": "gpt2",
       "n_tokens": 120
     },
@@ -530424,7 +530424,7 @@
       "year": 1934,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:02.636425",
+      "analyzed_at": "2026-10-15T18:55:24.473554",
       "model": "gpt2",
       "n_tokens": 43
     },
@@ -533225,7 +533225,7 @@
       "year": 1940,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:03.351344",
+      "analyzed_at": "2026-10-15T18:55:24.989038",
       "model": "gpt2",
       "n_tokens": 103
     },
@@ -539146,7 +539146,7 @@
       "year": 1977,
       "era": "contemporary",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:04.076295",
+      "analyzed_at": "2026-10-15T18:55:25.513300",
       "model": "gpt2",
       "n_tokens": 106
     },
@@ -545223,7 +545223,7 @@
       "year": 1966,
       "era": "contemporary",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:04.985870",
+      "analyzed_at": "2026-10-15T18:55:26.259257",
       "model": "gpt2",
       "n_tokens": 140
     },
@@ -553068,7 +553068,7 @@
       "year": 1972,
       "era": "contemporary",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:05.833343",
+      "analyzed_at": "2026-10-15T18:55:26.959463",
       "model": "gpt2",
       "n_tokens": 128
     },
@@ -560289,7 +560289,7 @@
       "year": 1990,
       "era": "contemporary",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:07.299783",
+      "analyzed_at": "2026-10-15T18:55:28.001822",
       "model": "gpt2",
       "n_tokens": 195
     },
@@ -570994,7 +570994,7 @@
       "year": 1920,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:08.886879",
+      "analyzed_at": "2026-10-15T18:55:29.156875",
       "model": "gpt2",
       "n_tokens": 231
     },
@@ -583571,7 +583571,7 @@
       "year": 1928,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:09.556711",
+      "analyzed_at": "2026-10-15T18:55:29.654638",
       "model": "gpt2",
       "n_tokens": 90
     },
@@ -588816,7 +588816,7 @@
       "year": 1916,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:10.813789",
+      "analyzed_at": "2026-10-15T18:55:30.689392",
       "model": "gpt2",
       "n_tokens": 190
     },
@@ -599261,7 +599261,7 @@
       "year": 1800,
       "era": "ballad",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:12.217496",
+      "analyzed_at": "2026-10-15T18:55:31.803124",
       "model": "gpt2",
       "n_tokens": 197
     },
@@ -610070,7 +610070,7 @@
       "year": 1785,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:13.042439",
+      "analyzed_at": "2026-10-15T18:55:32.523081",
       "model": "gpt2",
       "n_tokens": 126
     },
@@ -617187,7 +617187,7 @@
       "year": 1867,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:13.976804",
+      "analyzed_at": "2026-10-15T18:55:33.394110",
       "model": "gpt2",
       "n_tokens": 155
     },
@@ -625812,7 +625812,7 @@
       "year": 1666,
       "era": "ballad",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:14.997475",
+      "analyzed_at": "2026-10-15T18:55:34.242530",
       "model": "gpt2",
       "n_tokens": 159
     },
@@ -634645,7 +634645,7 @@
       "year": 1765,
       "era": "ballad",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:16.204954",
+      "analyzed_at": "2026-10-15T18:55:35.210962",
       "model": "gpt2",
       "n_tokens": 199
     },
@@ -645558,7 +645558,7 @@
       "year": 1765,
       "era": "ballad",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:17.543460",
+      "analyzed_at": "2026-10-15T18:55:36.173551",
       "model": "gpt2",
       "n_tokens": 195
     },
@@ -656263,7 +656263,7 @@
       "year": 1802,
       "era": "ballad",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:18.466417",
+      "analyzed_at": "2026-10-15T18:55:36.934086",
       "model": "gpt2",
       "n_tokens": 149
     },
@@ -664576,7 +664576,7 @@
       "year": 1818,
       "era": "ballad",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:19.300860",
+      "analyzed_at": "2026-10-15T18:55:37.591717",
       "model": "gpt2",
       "n_tokens": 119
     },
@@ -671329,7 +671329,7 @@
       "year": 1981,
       "era": "prose_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:19.714237",
+      "analyzed_at": "2026-10-15T18:55:37.969525",
       "model": "gpt2",
       "n_tokens": 64
     },
@@ -675222,7 +675222,7 @@
       "year": 1973,
       "era": "prose_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:20.482633",
+      "analyzed_at": "2026-10-15T18:55:38.587304",
       "model": "gpt2",
       "n_tokens": 122
     },
@@ -682131,7 +682131,7 @@
       "year": 1988,
       "era": "prose_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:20.954444",
+      "analyzed_at": "2026-10-15T18:55:38.898721",
       "model": "gpt2",
       "n_tokens": 60
     },
@@ -685816,7 +685816,7 @@
       "year": 1963,
       "era": "prose_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:21.318874",
+      "analyzed_at": "2026-10-15T18:55:39.195333",
       "model": "gpt2",
       "n_tokens": 54
     },
@@ -689189,7 +689189,7 @@
       "year": 2014,
       "era": "prose_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:21.869264",
+      "analyzed_at": "2026-10-15T18:55:39.704673",
       "model": "gpt2",
       "n_tokens": 81
     },
@@ -693966,7 +693966,7 @@
       "year": 1609,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:22.898887",
+      "analyzed_at": "2026-10-15T18:55:40.580841",
       "model": "gpt2",
       "n_tokens": 163
     },
@@ -703007,7 +703007,7 @@
       "year": 1609,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:24.250136",
+      "analyzed_at": "2026-10-15T18:55:41.461940",
       "model": "gpt2",
       "n_tokens": 173
     },
@@ -712568,7 +712568,7 @@
       "year": 1609,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:25.434292",
+      "analyzed_at": "2026-10-15T18:55:42.387872",
       "model": "gpt2",
       "n_tokens": 164
     },
@@ -721661,7 +721661,7 @@
       "year": 1673,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:26.514207",
+      "analyzed_at": "2026-10-15T18:55:43.153258",
       "model": "gpt2",
       "n_tokens": 163
     },
@@ -730702,7 +730702,7 @@
       "year": 1816,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:27.666170",
+      "analyzed_at": "2026-10-15T18:55:43.909229",
       "model": "gpt2",
       "n_tokens": 157
     },
@@ -739431,7 +739431,7 @@
       "year": 1923,
       "era": "mid_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:28.647158",
+      "analyzed_at": "2026-10-15T18:55:44.655006",
       "model": "gpt2",
       "n_tokens": 149
     },
@@ -747744,7 +747744,7 @@
       "year": 1899,
       "era": "song_lyrics",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:30.288326",
+      "analyzed_at": "2026-10-15T18:55:45.937831",
       "model": "gpt2",
       "n_tokens": 231
     },
@@ -760321,7 +760321,7 @@
       "year": 1860,
       "era": "song_lyrics",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:31.634467",
+      "analyzed_at": "2026-10-15T18:55:46.967108",
       "model": "gpt2",
       "n_tokens": 186
     },
@@ -770558,7 +770558,7 @@
       "year": 1872,
       "era": "song_lyrics",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:32.728216",
+      "analyzed_at": "2026-10-15T18:55:47.815656",
       "model": "gpt2",
       "n_tokens": 166
     },
@@ -779755,7 +779755,7 @@
       "year": 1760,
       "era": "nursery_rhyme",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:34.367602",
+      "analyzed_at": "2026-10-15T18:55:49.085900",
       "model": "gpt2",
       "n_tokens": 243
     },
@@ -792956,7 +792956,7 @@
       "year": 1989,
       "era": "prose_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:35.586109",
+      "analyzed_at": "2026-10-15T18:55:50.022385",
       "model": "gpt2",
       "n_tokens": 172
     },
@@ -802465,7 +802465,7 @@
       "year": 1991,
       "era": "prose_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:36.574365",
+      "analyzed_at": "2026-10-15T18:55:50.847518",
       "model": "gpt2",
       "n_tokens": 137
     },
@@ -810154,7 +810154,7 @@
       "year": 1971,
       "era": "prose_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:37.515932",
+      "analyzed_at": "2026-10-15T18:55:51.588558",
       "model": "gpt2",
       "n_tokens": 129
     },
@@ -817427,7 +817427,7 @@
       "year": 1633,
       "era": "metaphysical",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:38.672894",
+      "analyzed_at": "2026-10-15T18:55:52.472527",
       "model": "gpt2",
       "n_tokens": 174
     },
@@ -827040,7 +827040,7 @@
       "year": 1633,
       "era": "metaphysical",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:39.934438",
+      "analyzed_at": "2026-10-15T18:55:53.564630",
       "model": "gpt2",
       "n_tokens": 188
     },
@@ -837381,7 +837381,7 @@
       "year": 1557,
       "era": "early_modern",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:41.364144",
+      "analyzed_at": "2026-10-15T18:55:54.663036",
       "model": "gpt2",
       "n_tokens": 217
     },
@@ -849230,7 +849230,7 @@
       "year": 1877,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:42.592833",
+      "analyzed_at": "2026-10-15T18:55:55.584113",
       "model": "gpt2",
       "n_tokens": 183
     },
@@ -859311,7 +859311,7 @@
       "year": 1951,
       "era": "harlem_renaissance",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:43.130213",
+      "analyzed_at": "2026-10-15T18:55:56.006748",
       "model": "gpt2",
       "n_tokens": 77
     },
@@ -863880,7 +863880,7 @@
       "year": 1686,
       "era": "haiku",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:43.295122",
+      "analyzed_at": "2026-10-15T18:55:56.147925",
       "model": "gpt2",
       "n_tokens": 19
     },
@@ -865433,7 +865433,7 @@
       "year": 1680,
       "era": "haiku",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:43.457865",
+      "analyzed_at": "2026-10-15T18:55:56.274511",
       "model": "gpt2",
       "n_tokens": 18
     },
@@ -866934,7 +866934,7 @@
       "year": 1689,
       "era": "haiku",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:43.601280",
+      "analyzed_at": "2026-10-15T18:55:56.381785",
       "model": "gpt2",
       "n_tokens": 14
     },
@@ -868227,7 +868227,7 @@
       "year": 1893,
       "era": "haiku",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:43.761387",
+      "analyzed_at": "2026-10-15T18:55:56.496181",
       "model": "gpt2",
       "n_tokens": 19
     },
@@ -869780,7 +869780,7 @@
       "year": 1780,
       "era": "haiku",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:43.939291",
+      "analyzed_at": "2026-10-15T18:55:56.617091",
       "model": "gpt2",
       "n_tokens": 21
     },
@@ -871437,7 +871437,7 @@
       "year": 1819,
       "era": "haiku",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:44.094170",
+      "analyzed_at": "2026-10-15T18:55:56.738124",
       "model": "gpt2",
       "n_tokens": 19
     },
@@ -872990,7 +872990,7 @@
       "year": 1763,
       "era": "haiku",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:44.244355",
+      "analyzed_at": "2026-10-15T18:55:56.837206",
       "model": "gpt2",
       "n_tokens": 16
     },
@@ -874387,7 +874387,7 @@
       "year": 1771,
       "era": "haiku",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:44.417167",
+      "analyzed_at": "2026-10-15T18:55:56.948160",
       "model": "gpt2",
       "n_tokens": 18
     },
@@ -875888,7 +875888,7 @@
       "year": 1896,
       "era": "haiku",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:44.576352",
+      "analyzed_at": "2026-10-15T18:55:57.070488",
       "model": "gpt2",
       "n_tokens": 19
     },
@@ -877441,7 +877441,7 @@
       "year": 1823,
       "era": "haiku",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:44.733695",
+      "analyzed_at": "2026-10-15T18:55:57.194703",
       "model": "gpt2",
       "n_tokens": 17
     },
@@ -878890,7 +878890,7 @@
       "year": 1689,
       "era": "haiku",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:44.900926",
+      "analyzed_at": "2026-10-15T18:55:57.310655",
       "model": "gpt2",
       "n_tokens": 17
     },
@@ -880339,7 +880339,7 @@
       "year": 1960,
       "era": "haiku",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:45.071320",
+      "analyzed_at": "2026-10-15T18:55:57.416651",
       "model": "gpt2",
       "n_tokens": 16
     },
@@ -881736,7 +881736,7 @@
       "year": 1993,
       "era": "spoken_word",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:45.768866",
+      "analyzed_at": "2026-10-15T18:55:57.890406",
       "model": "gpt2",
       "n_tokens": 91
     },
@@ -887033,7 +887033,7 @@
       "year": 1980,
       "era": "spoken_word",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:46.581294",
+      "analyzed_at": "2026-10-15T18:55:58.525045",
       "model": "gpt2",
       "n_tokens": 104
     },
@@ -893006,7 +893006,7 @@
       "year": 1557,
       "era": "early_modern",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:47.762083",
+      "analyzed_at": "2026-10-15T18:55:59.508329",
       "model": "gpt2",
       "n_tokens": 170
     },
@@ -902411,7 +902411,7 @@
       "year": 1820,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:48.835960",
+      "analyzed_at": "2026-10-15T18:56:00.453019",
       "model": "gpt2",
       "n_tokens": 170
     },
@@ -911816,7 +911816,7 @@
       "year": 1794,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:49.213946",
+      "analyzed_at": "2026-10-15T18:56:00.722518",
       "model": "gpt2",
       "n_tokens": 48
     },
@@ -914877,7 +914877,7 @@
       "year": 1820,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:50.174295",
+      "analyzed_at": "2026-10-15T18:56:01.467549",
       "model": "gpt2",
       "n_tokens": 134
     },
@@ -922410,7 +922410,7 @@
       "year": 1820,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:51.069694",
+      "analyzed_at": "2026-10-15T18:56:02.165112",
       "model": "gpt2",
       "n_tokens": 128
     },
@@ -929631,7 +929631,7 @@
       "year": 1865,
       "era": "19th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:51.772158",
+      "analyzed_at": "2026-10-15T18:56:02.662985",
       "model": "gpt2",
       "n_tokens": 93
     },
@@ -935032,7 +935032,7 @@
       "year": 1859,
       "era": "found_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:52.710317",
+      "analyzed_at": "2026-10-15T18:56:03.373180",
       "model": "gpt2",
       "n_tokens": 142
     },
@@ -942981,7 +942981,7 @@
       "year": 1611,
       "era": "found_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:53.766039",
+      "analyzed_at": "2026-10-15T18:56:04.156153",
       "model": "gpt2",
       "n_tokens": 154
     },
@@ -951554,7 +951554,7 @@
       "year": 1776,
       "era": "found_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:54.795965",
+      "analyzed_at": "2026-10-15T18:56:04.986916",
       "model": "gpt2",
       "n_tokens": 153
     },
@@ -960075,7 +960075,7 @@
       "year": 2010,
       "era": "found_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:55.703953",
+      "analyzed_at": "2026-10-15T18:56:05.674439",
       "model": "gpt2",
       "n_tokens": 135
     },
@@ -967660,7 +967660,7 @@
       "year": 1900,
       "era": "found_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:56.563769",
+      "analyzed_at": "2026-10-15T18:56:06.340639",
       "model": "gpt2",
       "n_tokens": 132
     },
@@ -975089,7 +975089,7 @@
       "year": 1950,
       "era": "found_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:57.577613",
+      "analyzed_at": "2026-10-15T18:56:06.996279",
       "model": "gpt2",
       "n_tokens": 129
     },
@@ -982362,7 +982362,7 @@
       "year": 1704,
       "era": "found_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:58.449355",
+      "analyzed_at": "2026-10-15T18:56:07.652072",
       "model": "gpt2",
       "n_tokens": 130
     },
@@ -989687,7 +989687,7 @@
       "year": 1964,
       "era": "confessional",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:59.038233",
+      "analyzed_at": "2026-10-15T18:56:08.076177",
       "model": "gpt2",
       "n_tokens": 85
     },
@@ -994672,7 +994672,7 @@
       "year": 1959,
       "era": "confessional",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:54:59.699584",
+      "analyzed_at": "2026-10-15T18:56:08.525167",
       "model": "gpt2",
       "n_tokens": 91
     },
@@ -999969,7 +999969,7 @@
       "year": 1681,
       "era": "metaphysical",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:00.480491",
+      "analyzed_at": "2026-10-15T18:56:09.024971",
       "model": "gpt2",
       "n_tokens": 99
     },
@@ -1005682,7 +1005682,7 @@
       "year": 1633,
       "era": "metaphysical",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:01.105459",
+      "analyzed_at": "2026-10-15T18:56:09.491383",
       "model": "gpt2",
       "n_tokens": 87
     },
@@ -1010771,7 +1010771,7 @@
       "year": 1616,
       "era": "early_modern",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:01.611184",
+      "analyzed_at": "2026-10-15T18:56:09.908570",
       "model": "gpt2",
       "n_tokens": 75
     },
@@ -1015236,7 +1015236,7 @@
       "year": 1595,
       "era": "early_modern",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:02.233103",
+      "analyzed_at": "2026-10-15T18:56:10.360745",
       "model": "gpt2",
       "n_tokens": 87
     },
@@ -1020325,7 +1020325,7 @@
       "year": 1962,
       "era": "confessional",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:02.545685",
+      "analyzed_at": "2026-10-15T18:56:10.647950",
       "model": "gpt2",
       "n_tokens": 45
     },
@@ -1023230,7 +1023230,7 @@
       "year": 1881,
       "era": "fixed_form",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:03.225680",
+      "analyzed_at": "2026-10-15T18:56:11.292553",
       "model": "gpt2",
       "n_tokens": 102
     },
@@ -1029099,7 +1029099,7 @@
       "year": 1894,
       "era": "fixed_form",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:03.905331",
+      "analyzed_at": "2026-10-15T18:56:11.909078",
       "model": "gpt2",
       "n_tokens": 114
     },
@@ -1035592,7 +1035592,7 @@
       "year": 1899,
       "era": "fixed_form",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:04.473258",
+      "analyzed_at": "2026-10-15T18:56:12.460533",
       "model": "gpt2",
       "n_tokens": 94
     },
@@ -1041045,7 +1041045,7 @@
       "year": 1891,
       "era": "fixed_form",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:05.269506",
+      "analyzed_at": "2026-10-15T18:56:13.189147",
       "model": "gpt2",
       "n_tokens": 125
     },
@@ -1048110,7 +1048110,7 @@
       "year": 1870,
       "era": "fixed_form",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:06.378485",
+      "analyzed_at": "2026-10-15T18:56:14.127857",
       "model": "gpt2",
       "n_tokens": 170
     },
@@ -1057515,7 +1057515,7 @@
       "year": 1893,
       "era": "fixed_form",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:06.931941",
+      "analyzed_at": "2026-10-15T18:56:14.582886",
       "model": "gpt2",
       "n_tokens": 79
     },
@@ -1062188,7 +1062188,7 @@
       "year": 1849,
       "era": "fixed_form",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:07.719381",
+      "analyzed_at": "2026-10-15T18:56:15.305619",
       "model": "gpt2",
       "n_tokens": 118
     },
@@ -1068889,7 +1068889,7 @@
       "year": 1896,
       "era": "fixed_form",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:08.525287",
+      "analyzed_at": "2026-10-15T18:56:16.039622",
       "model": "gpt2",
       "n_tokens": 130
     },
@@ -1076214,7 +1076214,7 @@
       "year": 1847,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:10.061815",
+      "analyzed_at": "2026-10-15T18:56:17.337927",
       "model": "gpt2",
       "n_tokens": 231
     },
@@ -1088791,7 +1088791,7 @@
       "year": 1842,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:11.056862",
+      "analyzed_at": "2026-10-15T18:56:18.224639",
       "model": "gpt2",
       "n_tokens": 152
     },
@@ -1097260,7 +1097260,7 @@
       "year": 1842,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:13.209430",
+      "analyzed_at": "2026-10-15T18:56:19.927425",
       "model": "gpt2",
       "n_tokens": 319
     },
@@ -1114413,7 +1114413,7 @@
       "year": 1897,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:14.394339",
+      "analyzed_at": "2026-10-15T18:56:20.913436",
       "model": "gpt2",
       "n_tokens": 177
     },
@@ -1124182,7 +1124182,7 @@
       "year": 2026,
       "era": "cliche_control",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:15.166719",
+      "analyzed_at": "2026-10-15T18:56:21.524831",
       "model": "gpt2",
       "n_tokens": 110
     },
@@ -1130467,7 +1130467,7 @@
       "year": 2026,
       "era": "cliche_control",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:15.985970",
+      "analyzed_at": "2026-10-15T18:56:22.140713",
       "model": "gpt2",
       "n_tokens": 114
     },
@@ -1136960,7 +1136960,7 @@
       "year": 2026,
       "era": "cliche_control",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:16.900514",
+      "analyzed_at": "2026-10-15T18:56:22.905155",
       "model": "gpt2",
       "n_tokens": 134
     },
@@ -1144493,7 +1144493,7 @@
       "year": 1763,
       "era": "18th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:18.985047",
+      "analyzed_at": "2026-10-15T18:56:24.593597",
       "model": "gpt2",
       "n_tokens": 309
     },
@@ -1161126,7 +1161126,7 @@
       "year": 1816,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:20.761134",
+      "analyzed_at": "2026-10-15T18:56:25.895821",
       "model": "gpt2",
       "n_tokens": 255
     },
@@ -1174951,7 +1174951,7 @@
       "year": 1793,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:22.494379",
+      "analyzed_at": "2026-10-15T18:56:27.193067",
       "model": "gpt2",
       "n_tokens": 258
     },
@@ -1188932,7 +1188932,7 @@
       "year": 1826,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:23.898823",
+      "analyzed_at": "2026-10-15T18:56:28.219485",
       "model": "gpt2",
       "n_tokens": 212
     },
@@ -1200521,7 +1200521,7 @@
       "year": 1888,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:24.962231",
+      "analyzed_at": "2026-10-15T18:56:29.026099",
       "model": "gpt2",
       "n_tokens": 146
     },
@@ -1208678,7 +1208678,7 @@
       "year": 1877,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:26.226103",
+      "analyzed_at": "2026-10-15T18:56:29.960418",
       "model": "gpt2",
       "n_tokens": 188
     },
@@ -1219019,7 +1219019,7 @@
       "year": 1916,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:26.445616",
+      "analyzed_at": "2026-10-15T18:56:30.129710",
       "model": "gpt2",
       "n_tokens": 29
     },
@@ -1221092,7 +1221092,7 @@
       "year": 1918,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:27.225060",
+      "analyzed_at": "2026-10-15T18:56:30.642300",
       "model": "gpt2",
       "n_tokens": 102
     },
@@ -1226961,7 +1226961,7 @@
       "year": 1930,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:28.399464",
+      "analyzed_at": "2026-10-15T18:56:31.549513",
       "model": "gpt2",
       "n_tokens": 180
     },
@@ -1236886,7 +1236886,7 @@
       "year": -1000,
       "era": "biblical",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:29.428289",
+      "analyzed_at": "2026-10-15T18:56:32.381449",
       "model": "gpt2",
       "n_tokens": 153
     },
@@ -1245407,7 +1245407,7 @@
       "year": -1000,
       "era": "biblical",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:30.357883",
+      "analyzed_at": "2026-10-15T18:56:33.157171",
       "model": "gpt2",
       "n_tokens": 145
     },
@@ -1253512,7 +1253512,7 @@
       "year": -1000,
       "era": "biblical",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:31.209466",
+      "analyzed_at": "2026-10-15T18:56:33.886777",
       "model": "gpt2",
       "n_tokens": 141
     },
@@ -1261409,7 +1261409,7 @@
       "year": -950,
       "era": "biblical",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:31.981346",
+      "analyzed_at": "2026-10-15T18:56:34.522776",
       "model": "gpt2",
       "n_tokens": 127
     },
@@ -1268578,7 +1268578,7 @@
       "year": -700,
       "era": "biblical",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:32.880913",
+      "analyzed_at": "2026-10-15T18:56:35.164828",
       "model": "gpt2",
       "n_tokens": 126
     },
@@ -1275695,7 +1275695,7 @@
       "year": -1000,
       "era": "biblical",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:33.617546",
+      "analyzed_at": "2026-10-15T18:56:35.737594",
       "model": "gpt2",
       "n_tokens": 114
     },
@@ -1282188,7 +1282188,7 @@
       "year": -587,
       "era": "biblical",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:34.194129",
+      "analyzed_at": "2026-10-15T18:56:36.220537",
       "model": "gpt2",
       "n_tokens": 87
     },
@@ -1287277,7 +1287277,7 @@
       "year": 1954,
       "era": "concrete",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:34.538306",
+      "analyzed_at": "2026-10-15T18:56:36.468714",
       "model": "gpt2",
       "n_tokens": 48
     },
@@ -1290338,7 +1290338,7 @@
       "year": 1958,
       "era": "concrete",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:34.720475",
+      "analyzed_at": "2026-10-15T18:56:36.612596",
       "model": "gpt2",
       "n_tokens": 23
     },
@@ -1292099,7 +1292099,7 @@
       "year": 1965,
       "era": "concrete",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:35.129498",
+      "analyzed_at": "2026-10-15T18:56:36.909781",
       "model": "gpt2",
       "n_tokens": 58
     },
@@ -1295680,7 +1295680,7 @@
       "year": 1924,
       "era": "latin_american",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:35.932663",
+      "analyzed_at": "2026-10-15T18:56:37.552213",
       "model": "gpt2",
       "n_tokens": 117
     },
@@ -1302329,7 +1302329,7 @@
       "year": 1928,
       "era": "latin_american",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:36.499060",
+      "analyzed_at": "2026-10-15T18:56:37.997406",
       "model": "gpt2",
       "n_tokens": 87
     },
@@ -1307418,7 +1307418,7 @@
       "year": 1937,
       "era": "latin_american",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:37.492015",
+      "analyzed_at": "2026-10-15T18:56:38.781263",
       "model": "gpt2",
       "n_tokens": 166
     },
@@ -1316615,7 +1316615,7 @@
       "year": 1961,
       "era": "black_arts",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:38.518251",
+      "analyzed_at": "2026-10-15T18:56:39.647069",
       "model": "gpt2",
       "n_tokens": 159
     },
@@ -1325448,7 +1325448,7 @@
       "year": 1986,
       "era": "korean_modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:39.271785",
+      "analyzed_at": "2026-10-15T18:56:40.262921",
       "model": "gpt2",
       "n_tokens": 112
     },
@@ -1331837,7 +1331837,7 @@
       "year": 1914,
       "era": "imagist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:39.852145",
+      "analyzed_at": "2026-10-15T18:56:40.813714",
       "model": "gpt2",
       "n_tokens": 100
     },
@@ -1337602,7 +1337602,7 @@
       "year": 1916,
       "era": "imagist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:40.690383",
+      "analyzed_at": "2026-10-15T18:56:41.584620",
       "model": "gpt2",
       "n_tokens": 148
     },
@@ -1345863,7 +1345863,7 @@
       "year": 1715,
       "era": "ancient",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:41.326492",
+      "analyzed_at": "2026-10-15T18:56:42.124153",
       "model": "gpt2",
       "n_tokens": 92
     },
@@ -1351212,7 +1351212,7 @@
       "year": 1909,
       "era": "ancient",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:42.217720",
+      "analyzed_at": "2026-10-15T18:56:42.868568",
       "model": "gpt2",
       "n_tokens": 140
     },
@@ -1359057,7 +1359057,7 @@
       "year": 1773,
       "era": "18th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:42.851903",
+      "analyzed_at": "2026-10-15T18:56:43.320704",
       "model": "gpt2",
       "n_tokens": 92
     },
@@ -1364406,7 +1364406,7 @@
       "year": 1865,
       "era": "19th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:44.134710",
+      "analyzed_at": "2026-10-15T18:56:44.417619",
       "model": "gpt2",
       "n_tokens": 199
     },
@@ -1375319,7 +1375319,7 @@
       "year": 1500,
       "era": "early_modern",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:44.417146",
+      "analyzed_at": "2026-10-15T18:56:44.675304",
       "model": "gpt2",
       "n_tokens": 34
     },
@@ -1377652,7 +1377652,7 @@
       "year": 1958,
       "era": "beat",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:45.215734",
+      "analyzed_at": "2026-10-15T18:56:45.322016",
       "model": "gpt2",
       "n_tokens": 111
     },
@@ -1383989,7 +1383989,7 @@
       "year": 1960,
       "era": "beat",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:46.057916",
+      "analyzed_at": "2026-10-15T18:56:46.079203",
       "model": "gpt2",
       "n_tokens": 121
     },
@@ -1390846,7 +1390846,7 @@
       "year": 1958,
       "era": "beat",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:48.540892",
+      "analyzed_at": "2026-10-15T18:56:48.056011",
       "model": "gpt2",
       "n_tokens": 353
     },
@@ -1409767,7 +1409767,7 @@
       "year": 1958,
       "era": "beat",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:50.913161",
+      "analyzed_at": "2026-10-15T18:56:49.794647",
       "model": "gpt2",
       "n_tokens": 319
     },
@@ -1426920,7 +1426920,7 @@
       "year": 1912,
       "era": "german_expressionist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:51.823539",
+      "analyzed_at": "2026-10-15T18:56:50.626185",
       "model": "gpt2",
       "n_tokens": 134
     },
@@ -1434453,7 +1434453,7 @@
       "year": 1912,
       "era": "german_expressionist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:52.605797",
+      "analyzed_at": "2026-10-15T18:56:51.248318",
       "model": "gpt2",
       "n_tokens": 116
     },
@@ -1441050,7 +1441050,7 @@
       "year": 1910,
       "era": "german_expressionist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:53.551617",
+      "analyzed_at": "2026-10-15T18:56:51.985145",
       "model": "gpt2",
       "n_tokens": 131
     },
@@ -1448427,7 +1448427,7 @@
       "year": 1912,
       "era": "german_expressionist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:54.392516",
+      "analyzed_at": "2026-10-15T18:56:52.682237",
       "model": "gpt2",
       "n_tokens": 135
     },
@@ -1456012,7 +1456012,7 @@
       "year": 1914,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:55.013587",
+      "analyzed_at": "2026-10-15T18:56:53.263198",
       "model": "gpt2",
       "n_tokens": 96
     },
@@ -1461569,7 +1461569,7 @@
       "year": 1917,
       "era": "modernist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:56.161428",
+      "analyzed_at": "2026-10-15T18:56:54.164010",
       "model": "gpt2",
       "n_tokens": 169
     },
@@ -1470922,7 +1470922,7 @@
       "year": 1715,
       "era": "parody_original",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:57.064252",
+      "analyzed_at": "2026-10-15T18:56:54.804970",
       "model": "gpt2",
       "n_tokens": 128
     },
@@ -1478143,7 +1478143,7 @@
       "year": 1865,
       "era": "parody",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:57.434890",
+      "analyzed_at": "2026-10-15T18:56:55.093767",
       "model": "gpt2",
       "n_tokens": 56
     },
@@ -1481620,7 +1481620,7 @@
       "year": 1799,
       "era": "parody_original",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:55:59.106407",
+      "analyzed_at": "2026-10-15T18:56:56.509826",
       "model": "gpt2",
       "n_tokens": 262
     },
@@ -1495809,7 +1495809,7 @@
       "year": 1865,
       "era": "parody",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:01.482536",
+      "analyzed_at": "2026-10-15T18:56:58.480721",
       "model": "gpt2",
       "n_tokens": 382
     },
@@ -1516238,7 +1516238,7 @@
       "year": 1715,
       "era": "parody_original",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:02.248042",
+      "analyzed_at": "2026-10-15T18:56:59.066190",
       "model": "gpt2",
       "n_tokens": 112
     },
@@ -1522627,7 +1522627,7 @@
       "year": 1865,
       "era": "parody",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:02.929541",
+      "analyzed_at": "2026-10-15T18:56:59.629263",
       "model": "gpt2",
       "n_tokens": 109
     },
@@ -1528860,7 +1528860,7 @@
       "year": 1714,
       "era": "parody",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:04.067180",
+      "analyzed_at": "2026-10-15T18:57:00.660760",
       "model": "gpt2",
       "n_tokens": 187
     },
@@ -1539149,7 +1539149,7 @@
       "year": 1992,
       "era": "prose_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:04.946333",
+      "analyzed_at": "2026-10-15T18:57:01.400977",
       "model": "gpt2",
       "n_tokens": 131
     },
@@ -1546526,7 +1546526,7 @@
       "year": 1973,
       "era": "prose_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:05.737378",
+      "analyzed_at": "2026-10-15T18:57:02.147358",
       "model": "gpt2",
       "n_tokens": 125
     },
@@ -1553591,7 +1553591,7 @@
       "year": 1981,
       "era": "prose_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:07.266179",
+      "analyzed_at": "2026-10-15T18:57:03.388752",
       "model": "gpt2",
       "n_tokens": 218
     },
@@ -1565492,7 +1565492,7 @@
       "year": 1923,
       "era": "oulipo",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:08.531486",
+      "analyzed_at": "2026-10-15T18:57:04.575095",
       "model": "gpt2",
       "n_tokens": 203
     },
@@ -1576613,7 +1576613,7 @@
       "year": 1969,
       "era": "oulipo",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:09.295902",
+      "analyzed_at": "2026-10-15T18:57:05.210916",
       "model": "gpt2",
       "n_tokens": 115
     },
@@ -1583158,7 +1583158,7 @@
       "year": 2001,
       "era": "oulipo",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:10.064961",
+      "analyzed_at": "2026-10-15T18:57:05.837084",
       "model": "gpt2",
       "n_tokens": 123
     },
@@ -1590119,7 +1590119,7 @@
       "year": 1981,
       "era": "language",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:10.801047",
+      "analyzed_at": "2026-10-15T18:57:06.469855",
       "model": "gpt2",
       "n_tokens": 123
     },
@@ -1597080,7 +1597080,7 @@
       "year": 1980,
       "era": "language",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:11.616712",
+      "analyzed_at": "2026-10-15T18:57:07.043731",
       "model": "gpt2",
       "n_tokens": 115
     },
@@ -1603625,7 +1603625,7 @@
       "year": 1968,
       "era": "imagist",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:11.932038",
+      "analyzed_at": "2026-10-15T18:57:07.240957",
       "model": "gpt2",
       "n_tokens": 35
     },
@@ -1606010,7 +1606010,7 @@
       "year": 757,
       "era": "classical_chinese",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:12.468989",
+      "analyzed_at": "2026-10-15T18:57:07.666209",
       "model": "gpt2",
       "n_tokens": 85
     },
@@ -1610995,7 +1610995,7 @@
       "year": 726,
       "era": "classical_chinese",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:12.805591",
+      "analyzed_at": "2026-10-15T18:57:07.891766",
       "model": "gpt2",
       "n_tokens": 38
     },
@@ -1613536,7 +1613536,7 @@
       "year": 740,
       "era": "classical_chinese",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:13.107149",
+      "analyzed_at": "2026-10-15T18:57:08.075041",
       "model": "gpt2",
       "n_tokens": 33
     },
@@ -1615817,7 +1615817,7 @@
       "year": 730,
       "era": "classical_chinese",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:13.767081",
+      "analyzed_at": "2026-10-15T18:57:08.533289",
       "model": "gpt2",
       "n_tokens": 87
     },
@@ -1620906,7 +1620906,7 @@
       "year": 1120,
       "era": "persian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:15.195534",
+      "analyzed_at": "2026-10-15T18:57:09.710728",
       "model": "gpt2",
       "n_tokens": 212
     },
@@ -1632495,7 +1632495,7 @@
       "year": 1120,
       "era": "persian",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:16.628213",
+      "analyzed_at": "2026-10-15T18:57:10.741770",
       "model": "gpt2",
       "n_tokens": 203
     },
@@ -1643616,7 +1643616,7 @@
       "year": 905,
       "era": "japanese_classical",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:16.896892",
+      "analyzed_at": "2026-10-15T18:57:10.968714",
       "model": "gpt2",
       "n_tokens": 33
     },
@@ -1645897,7 +1645897,7 @@
       "year": 880,
       "era": "japanese_classical",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:17.124884",
+      "analyzed_at": "2026-10-15T18:57:11.149273",
       "model": "gpt2",
       "n_tokens": 28
     },
@@ -1647918,7 +1647918,7 @@
       "year": 1902,
       "era": "limerick",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:17.444934",
+      "analyzed_at": "2026-10-15T18:57:11.429674",
       "model": "gpt2",
       "n_tokens": 47
     },
@@ -1650927,7 +1650927,7 @@
       "year": 1900,
       "era": "limerick",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:17.717819",
+      "analyzed_at": "2026-10-15T18:57:11.707311",
       "model": "gpt2",
       "n_tokens": 38
     },
@@ -1653468,7 +1653468,7 @@
       "year": 1910,
       "era": "limerick",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:18.044506",
+      "analyzed_at": "2026-10-15T18:57:11.927784",
       "model": "gpt2",
       "n_tokens": 38
     },
@@ -1656009,7 +1656009,7 @@
       "year": 658,
       "era": "old_english",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:18.627271",
+      "analyzed_at": "2026-10-15T18:57:12.360919",
       "model": "gpt2",
       "n_tokens": 78
     },
@@ -1660630,7 +1660630,7 @@
       "year": 900,
       "era": "old_english",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:19.257138",
+      "analyzed_at": "2026-10-15T18:57:12.849579",
       "model": "gpt2",
       "n_tokens": 80
     },
@@ -1665355,7 +1665355,7 @@
       "year": 1883,
       "era": "protest_political",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:20.444345",
+      "analyzed_at": "2026-10-15T18:57:13.833592",
       "model": "gpt2",
       "n_tokens": 162
     },
@@ -1674344,7 +1674344,7 @@
       "year": 1978,
       "era": "protest_political",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:21.210758",
+      "analyzed_at": "2026-10-15T18:57:14.430803",
       "model": "gpt2",
       "n_tokens": 104
     },
@@ -1680317,7 +1680317,7 @@
       "year": 1992,
       "era": "spoken_word",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:21.963223",
+      "analyzed_at": "2026-10-15T18:57:14.996769",
       "model": "gpt2",
       "n_tokens": 98
     },
@@ -1685978,7 +1685978,7 @@
       "year": 1994,
       "era": "ghazal",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:22.909929",
+      "analyzed_at": "2026-10-15T18:57:15.761207",
       "model": "gpt2",
       "n_tokens": 128
     },
@@ -1693199,7 +1693199,7 @@
       "year": 1902,
       "era": "limerick",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:23.318739",
+      "analyzed_at": "2026-10-15T18:57:16.067284",
       "model": "gpt2",
       "n_tokens": 47
     },
@@ -1696208,7 +1696208,7 @@
       "year": 1880,
       "era": "limerick",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:23.768448",
+      "analyzed_at": "2026-10-15T18:57:16.383462",
       "model": "gpt2",
       "n_tokens": 52
     },
@@ -1699477,7 +1699477,7 @@
       "year": 1847,
       "era": "limerick",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:24.222291",
+      "analyzed_at": "2026-10-15T18:57:16.686021",
       "model": "gpt2",
       "n_tokens": 51
     },
@@ -1702694,7 +1702694,7 @@
       "year": 1880,
       "era": "limerick",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:24.680847",
+      "analyzed_at": "2026-10-15T18:57:17.063703",
       "model": "gpt2",
       "n_tokens": 52
     },
@@ -1705963,7 +1705963,7 @@
       "year": 1917,
       "era": "war_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:27.185258",
+      "analyzed_at": "2026-10-15T18:57:19.101104",
       "model": "gpt2",
       "n_tokens": 343
     },
@@ -1724364,7 +1724364,7 @@
       "year": 1917,
       "era": "war_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:28.340250",
+      "analyzed_at": "2026-10-15T18:57:19.977084",
       "model": "gpt2",
       "n_tokens": 165
     },
@@ -1733509,7 +1733509,7 @@
       "year": 1914,
       "era": "war_poetry",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:29.460125",
+      "analyzed_at": "2026-10-15T18:57:20.998744",
       "model": "gpt2",
       "n_tokens": 163
     },
@@ -1742550,7 +1742550,7 @@
       "year": 700,
       "era": "old_english",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:30.348113",
+      "analyzed_at": "2026-10-15T18:57:21.747976",
       "model": "gpt2",
       "n_tokens": 140
     },
@@ -1750395,7 +1750395,7 @@
       "year": 700,
       "era": "old_english",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:31.197038",
+      "analyzed_at": "2026-10-15T18:57:22.457784",
       "model": "gpt2",
       "n_tokens": 127
     },
@@ -1757564,7 +1757564,7 @@
       "year": 1711,
       "era": "18th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:32.235752",
+      "analyzed_at": "2026-10-15T18:57:23.286012",
       "model": "gpt2",
       "n_tokens": 162
     },
@@ -1766553,7 +1766553,7 @@
       "year": 1735,
       "era": "18th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:33.472732",
+      "analyzed_at": "2026-10-15T18:57:24.343216",
       "model": "gpt2",
       "n_tokens": 191
     },
@@ -1777050,7 +1777050,7 @@
       "year": 1733,
       "era": "18th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:34.538048",
+      "analyzed_at": "2026-10-15T18:57:25.187427",
       "model": "gpt2",
       "n_tokens": 160
     },
@@ -1785935,7 +1785935,7 @@
       "year": 1682,
       "era": "18th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:35.542044",
+      "analyzed_at": "2026-10-15T18:57:26.019571",
       "model": "gpt2",
       "n_tokens": 156
     },
@@ -1794612,7 +1794612,7 @@
       "year": 1749,
       "era": "18th_century",
       "language": "en",
-      "analyzed_at": "2026-10-13T06:56:36.703052",
+      "analyzed_at": "2026-10-15T18:57:26.860545",
       "model": "gpt2",
       "n_tokens": 164
     },
@@ -1803697,6 +1803697,7 @@
         "context_before": "Remark each"
       }
     ]
+
 
   },
   {
@@ -2002663,6 +2002664,7 @@
         "context_before": " you in a"
       }
     ]
+
   },
   {
     "metadata": {
@@ -2207996,6 +2207998,7 @@
         "context_before": " said.\n"
       }
     ]
+
 
   }
 ]

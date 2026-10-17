@@ -1,0 +1,390 @@
+{
+  "s2_bins": {
+    "very_low": {
+      "n": 2355,
+      "mean_sim": 0.801,
+      "frac_close": 0.7745,
+      "frac_same_start": 0.7915
+    },
+    "low": {
+      "n": 7013,
+      "mean_sim": 0.489,
+      "frac_close": 0.4229,
+      "frac_same_start": 0.471
+    },
+    "neutral": {
+      "n": 4098,
+      "mean_sim": 0.379,
+      "frac_close": 0.3001,
+      "frac_same_start": 0.3624
+    },
+    "moderate": {
+      "n": 3096,
+      "mean_sim": 0.1394,
+      "frac_close": 0.0304,
+      "frac_same_start": 0.0985
+    },
+    "high": {
+      "n": 1864,
+      "mean_sim": 0.1246,
+      "frac_close": 0.0161,
+      "frac_same_start": 0.0821
+    },
+    "very_high": {
+      "n": 651,
+      "mean_sim": 0.1149,
+      "frac_close": 0.0169,
+      "frac_same_start": 0.0737
+    }
+  },
+  "correlation_s2_phonetic_sim": -0.465,
+  "n_total_tokens": 19077,
+  "close_high_s2_examples": [
+    {
+      "token": " arr",
+      "top_pred": " are",
+      "s2": 11.28,
+      "sim": 0.67,
+      "era": "oulipo",
+      "entropy": 8.2
+    },
+    {
+      "token": " could",
+      "top_pred": " would",
+      "s2": 10.83,
+      "sim": 0.8,
+      "era": "parody_original",
+      "entropy": 0.3
+    },
+    {
+      "token": " Lee",
+      "top_pred": "le",
+      "s2": 10.59,
+      "sim": 0.67,
+      "era": "fixed_form",
+      "entropy": 1.58
+    },
+    {
+      "token": " nob",
+      "top_pred": " not",
+      "s2": 10.46,
+      "sim": 0.67,
+      "era": "harlem_renaissance",
+      "entropy": 5.2
+    },
+    {
+      "token": " day",
+      "top_pred": " way",
+      "s2": 9.47,
+      "sim": 0.67,
+      "era": "cliche_control",
+      "entropy": 0.48
+    },
+    {
+      "token": "arn",
+      "top_pred": "ars",
+      "s2": 9.4,
+      "sim": 0.67,
+      "era": "romantic",
+      "entropy": 2.3
+    },
+    {
+      "token": "ers",
+      "top_pred": "er",
+      "s2": 9.2,
+      "sim": 0.67,
+      "era": "18th_century",
+      "entropy": 0.53
+    },
+    {
+      "token": " He",
+      "top_pred": " the",
+      "s2": 8.27,
+      "sim": 0.67,
+      "era": "18th_century",
+      "entropy": 8.21
+    },
+    {
+      "token": "them",
+      "top_pred": "the",
+      "s2": 8.06,
+      "sim": 0.75,
+      "era": "prose_poetry",
+      "entropy": 2.85
+    },
+    {
+      "token": "bed",
+      "top_pred": "ber",
+      "s2": 8.02,
+      "sim": 0.67,
+      "era": "new_york_school",
+      "entropy": 1.83
+    },
+    {
+      "token": " He",
+      "top_pred": " the",
+      "s2": 6.89,
+      "sim": 0.67,
+      "era": "fixed_form",
+      "entropy": 7.11
+    },
+    {
+      "token": " men",
+      "top_pred": " me",
+      "s2": 6.17,
+      "sim": 0.67,
+      "era": "dramatic_monologue",
+      "entropy": 5.16
+    },
+    {
+      "token": " them",
+      "top_pred": " the",
+      "s2": 6.14,
+      "sim": 0.75,
+      "era": "found_poetry",
+      "entropy": 4.51
+    }
+  ],
+  "far_high_s2_examples": [
+    {
+      "token": " shook",
+      "top_pred": " the",
+      "s2": 22.04,
+      "sim": 0.2,
+      "era": "victorian",
+      "entropy": 3.6
+    },
+    {
+      "token": " prank",
+      "top_pred": " the",
+      "s2": 22.02,
+      "sim": 0.0,
+      "era": "18th_century",
+      "entropy": 2.72
+    },
+    {
+      "token": " badly",
+      "top_pred": "glass",
+      "s2": 20.59,
+      "sim": 0.0,
+      "era": "mid_century",
+      "entropy": 1.64
+    },
+    {
+      "token": " list",
+      "top_pred": "ever",
+      "s2": 19.48,
+      "sim": 0.0,
+      "era": "early_modern",
+      "entropy": 1.18
+    },
+    {
+      "token": " Fun",
+      "top_pred": " little",
+      "s2": 18.9,
+      "sim": 0.0,
+      "era": "19th_century",
+      "entropy": 6.87
+    },
+    {
+      "token": "ashes",
+      "top_pred": "ain",
+      "s2": 18.51,
+      "sim": 0.2,
+      "era": "ballad",
+      "entropy": 2.1
+    },
+    {
+      "token": " his",
+      "top_pred": "lessly",
+      "s2": 18.24,
+      "sim": 0.17,
+      "era": "victorian",
+      "entropy": 0.43
+    },
+    {
+      "token": " squats",
+      "top_pred": "elled",
+      "s2": 18.2,
+      "sim": 0.0,
+      "era": "dramatic_monologue",
+      "entropy": 3.48
+    },
+    {
+      "token": " stacked",
+      "top_pred": "ime",
+      "s2": 18.16,
+      "sim": 0.14,
+      "era": "contemporary",
+      "entropy": 4.81
+    },
+    {
+      "token": " stacked",
+      "top_pred": "ime",
+      "s2": 18.16,
+      "sim": 0.14,
+      "era": "prose_poetry",
+      "entropy": 4.81
+    },
+    {
+      "token": " red",
+      "top_pred": " Sp",
+      "s2": 17.95,
+      "sim": 0.0,
+      "era": "ballad",
+      "entropy": 1.96
+    },
+    {
+      "token": "at",
+      "top_pred": " is",
+      "s2": 17.66,
+      "sim": 0.0,
+      "era": "19th_century",
+      "entropy": 2.31
+    },
+    {
+      "token": "is",
+      "top_pred": " you",
+      "s2": 17.47,
+      "sim": 0.0,
+      "era": "ballad",
+      "entropy": 3.41
+    },
+    {
+      "token": " fearful",
+      "top_pred": " Captain",
+      "s2": 17.32,
+      "sim": 0.0,
+      "era": "19th_century",
+      "entropy": 4.75
+    },
+    {
+      "token": " fearful",
+      "top_pred": " Captain",
+      "s2": 17.32,
+      "sim": 0.0,
+      "era": "19th_century",
+      "entropy": 4.75
+    },
+    {
+      "token": " liking",
+      "top_pred": " to",
+      "s2": 16.66,
+      "sim": 0.0,
+      "era": "contemporary",
+      "entropy": 2.48
+    },
+    {
+      "token": " witnessed",
+      "top_pred": "gan",
+      "s2": 16.59,
+      "sim": 0.11,
+      "era": "19th_century",
+      "entropy": 4.68
+    },
+    {
+      "token": " neb",
+      "top_pred": " you",
+      "s2": 16.56,
+      "sim": 0.0,
+      "era": "beat",
+      "entropy": 4.67
+    },
+    {
+      "token": " trave",
+      "top_pred": " been",
+      "s2": 16.51,
+      "sim": 0.0,
+      "era": "romantic",
+      "entropy": 7.07
+    },
+    {
+      "token": " indoors",
+      "top_pred": " the",
+      "s2": 16.4,
+      "sim": 0.0,
+      "era": "prose_poetry",
+      "entropy": 6.61
+    },
+    {
+      "token": "der",
+      "top_pred": "And",
+      "s2": 16.38,
+      "sim": 0.0,
+      "era": "found_poetry",
+      "entropy": 6.81
+    },
+    {
+      "token": " Dum",
+      "top_pred": " the",
+      "s2": 16.1,
+      "sim": 0.0,
+      "era": "ballad",
+      "entropy": 4.2
+    },
+    {
+      "token": " Gim",
+      "top_pred": " was",
+      "s2": 16.07,
+      "sim": 0.0,
+      "era": "korean_modernist",
+      "entropy": 7.35
+    },
+    {
+      "token": " Napoleon",
+      "top_pred": " he",
+      "s2": 15.69,
+      "sim": 0.12,
+      "era": "oulipo",
+      "entropy": 3.74
+    },
+    {
+      "token": " hysterical",
+      "top_pred": " to",
+      "s2": 15.61,
+      "sim": 0.1,
+      "era": "beat",
+      "entropy": 4.62
+    },
+    {
+      "token": " bou",
+      "top_pred": " the",
+      "s2": 15.44,
+      "sim": 0.0,
+      "era": "19th_century",
+      "entropy": 5.13
+    },
+    {
+      "token": " abroad",
+      "top_pred": " not",
+      "s2": 15.36,
+      "sim": 0.17,
+      "era": "metaphysical",
+      "entropy": 7.52
+    },
+    {
+      "token": " midway",
+      "top_pred": " to",
+      "s2": 15.32,
+      "sim": 0.0,
+      "era": "modernist",
+      "entropy": 4.25
+    },
+    {
+      "token": " Us",
+      "top_pred": " the",
+      "s2": 15.27,
+      "sim": 0.0,
+      "era": "ballad",
+      "entropy": 5.32
+    },
+    {
+      "token": "spl",
+      "top_pred": "And",
+      "s2": 15.27,
+      "sim": 0.0,
+      "era": "haiku",
+      "entropy": 6.22
+    }
+  ]
+}
