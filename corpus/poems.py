@@ -714,6 +714,168 @@ Whose waist is the waist of an otter caught in the teeth of a tiger
 Whose mouth is a cockade and a bouquet of stars of the last magnitude"""
     },
 
+    {
+        "title": "I Have Dreamed of You So Much",
+        "author": "Robert Desnos",
+        "year": 1926,
+        "era": "surrealist",
+        "text": """I have dreamed of you so much that you lose your reality.
+Is there still time for me to reach your breathing body, to kiss your mouth and make
+your voice dear to me, that voice which was dear to me?
+I have dreamed of you so much that my arms, grown used to being crossed on my
+chest as I hugged your shadow, would perhaps not bend to the shape of your body.
+For want of time to spend at your side I have embraced your shadow so many times,
+your shadow so many times, that perhaps I could not touch your living body.
+And even so, in the presence of the real thing, this thing that haunts and governs
+me, I would probably become a shadow.
+O sentimental balances."""
+    },
+    {
+        "title": "Somnambule Ballad",
+        "author": "Federico García Lorca",
+        "year": 1928,
+        "era": "surrealist",
+        "text": """Green, how I want you green.
+Green wind. Green branches.
+The ship out on the sea
+and the horse on the mountain.
+With the shadow on her waist
+she dreams on her balcony,
+green flesh, her hair green,
+with eyes of cold silver.
+Green, how I want you green.
+Under the gypsy moon,
+all things are watching her
+and she cannot see them.
+
+Green, how I want you green.
+Big hoarfrost stars
+come with the fish of shadow
+that opens the road of dawn.
+The fig tree rubs its wind
+with the sandpaper of its branches,
+and the forest, cunning cat,
+bristles its brittle fibers.
+But who will come? And from where?
+She is still on her balcony,
+green flesh, her hair green,
+dreaming in the bitter sea."""
+    },
+    {
+        "title": "Black Stone Lying on a White Stone",
+        "author": "César Vallejo",
+        "year": 1939,
+        "era": "surrealist",
+        "text": """I will die in Paris, on a rainy day,
+on some day I can already remember.
+I will die in Paris—and I don't step aside—
+perhaps on a Thursday, as today is Thursday, in autumn.
+
+It will be a Thursday, because today, Thursday, as I prose
+these lines, the bones of my arms have hurt me, and never,
+like today, have I turned, with all my road,
+to see myself alone.
+
+César Vallejo has died, everyone would beat him,
+although he does nothing to them; they struck him hard
+with a stick and hard also
+
+with a rope; his witnesses are
+the Thursdays and the arm bones,
+the loneliness, the rain, the roads."""
+    },
+    {
+        "title": "The Curve of Your Eyes",
+        "author": "Paul Éluard",
+        "year": 1926,
+        "era": "surrealist",
+        "text": """The curve of your eyes goes around my heart,
+a round of dance and sweetness,
+halo of time, cradle nocturnal and certain,
+and if I no longer know all I have lived
+it is because your eyes have not always seen me.
+
+Leaves of day and foam of dew,
+reeds of wind, smiling incense,
+wings covering the world with light,
+boats laden with sky and sea,
+hunters of sound and sources of color,
+
+Perfumes rising from a nest of dawn
+that lingers past the road of the world—
+all things are turning on their axis of love,
+your eyes are the only dawn."""
+    },
+    {
+        "title": "Walking Around",
+        "author": "Pablo Neruda",
+        "year": 1935,
+        "era": "surrealist",
+        "text": """It so happens I am sick of being a man.
+And it happens that I walk into tailor-shops and movie houses
+dried up, waterproof, like a swan made of felt
+steering my way in a water of wombs and ashes.
+
+The smell of barbershops makes me break into hoarse sobs.
+The only thing I want is to lie still like stones or wool.
+The only thing I want is to see no more stores, no gardens,
+no more goods, no spectacles, no elevators.
+
+It so happens I am sick of my feet and my nails
+and my hair and my shadow.
+It so happens I am sick of being a man.
+
+Still it would be marvelous
+to terrify a law clerk with a cut lily,
+or kill a nun with a blow to the ear.
+It would be great
+to go through the streets with a green knife
+letting out yells until I died of the cold."""
+    },
+    {
+        "title": "Departure",
+        "author": "Pierre Reverdy",
+        "year": 1918,
+        "era": "surrealist",
+        "text": """All the doors are open on the wind
+and the shadows of the walls fall slowly
+toward you
+
+The trees are burning in the night
+the branches spread their arms
+the sky falls
+
+Nothing is moving now
+but the road
+and the light that runs
+always a little ahead of you
+
+You will not come back"""
+    },
+    {
+        "title": "The Sleeper in the Valley",
+        "author": "Arthur Rimbaud",
+        "year": 1870,
+        "era": "surrealist",
+        "text": """A green hollow where a stream sings wildly,
+crazily catching silver rags of light
+on the grasses; where the sun shines from the proud
+mountain, it's a small valley bubbling over with light.
+
+A young soldier, mouth open, bare head,
+the nape of his neck bathing in cool blue water cress,
+sleeps; he is stretched out on the grass, under the clouds,
+pale in his green bed where the light rains down.
+
+His feet in the gladioli, he sleeps. Smiling the way
+a sick child might smile, he is napping:
+Nature, cradle him warmly: he is cold.
+
+The fragrances do not make his nostrils quiver;
+he sleeps in the sun, hand on his still chest.
+He has two red holes in his right side."""
+    },
+
     # ─── DEEP IMAGE / AMERICAN SURREALISM ─────────────────────────────
     {
         "title": "Driving Toward the Lac Qui Parle River",
