@@ -6328,6 +6328,71 @@ Shattered and sundered.
 Then they rode back, but not,
 Not the six hundred."""
     },
+
+    # ─── ADDITIONAL LIMERICKS: PUNCHLINE VARIATION STUDY ─────────────────
+    # Testing the hypothesis that limerick punchline (line 5) S2 is driven
+    # by CONTENT (invented vocabulary, absurdism) not position alone.
+    # Three variants: invented-word punchline, conventional punchline, dark twist.
+    {
+        "title": "There Was a Young Lady Whose Nose",
+        "author": "Edward Lear",
+        "year": 1846,
+        "era": "limerick",
+        "text": """There was a Young Lady whose nose
+Was so long that it reached to her toes;
+So she hired an Old Lady
+Whose conduct was steady,
+To carry that wonderful nose."""
+    },
+    {
+        "title": "There Was an Old Man of the Coast",
+        "author": "Edward Lear",
+        "year": 1846,
+        "era": "limerick",
+        "text": """There was an Old Man of the Coast,
+Who placidly sat on a post;
+But when it was cold
+He relinquished his hold
+And called for some hot buttered toast."""
+    },
+    {
+        "title": "There Was a Young Lady of Niger",
+        "author": "Anonymous",
+        "year": 1902,
+        "era": "limerick",
+        "text": """There was a young lady of Niger
+Who smiled as she rode on a tiger;
+They returned from the ride
+With the lady inside,
+And the smile on the face of the tiger."""
+    },
+
+    # ─── CLERIHEW ─────────────────────────────────────────────────────────
+    # The clerihew (Edmund Clerihew Bentley, ~1905) is a 4-line AABB
+    # biographical humorous form. Unlike the limerick (AABBA, strict meter),
+    # clerihews have no meter constraint — lines vary wildly in length.
+    # Hypothesis: without metrical constraint, clerihews should show higher
+    # S2 than limericks (less GPT-2-predictable syllabic structure).
+    {
+        "title": "Sir Humphrey Davy",
+        "author": "Edmund Clerihew Bentley",
+        "year": 1905,
+        "era": "clerihew",
+        "text": """Sir Humphrey Davy
+Abominated gravy.
+He lived in the odium
+Of having discovered sodium."""
+    },
+    {
+        "title": "The Art of Biography",
+        "author": "Edmund Clerihew Bentley",
+        "year": 1905,
+        "era": "clerihew",
+        "text": """The art of Biography
+Is different from Geography.
+Geography is about maps,
+But Biography is about chaps."""
+    },
 ]
 
 # Quick stats

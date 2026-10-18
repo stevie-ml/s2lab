@@ -1,0 +1,655 @@
+{
+  "n_poems": 10,
+  "poems": [
+    {
+      "title": "There Was an Old Man of Nantucket",
+      "author": "Anonymous (limerick tradition)",
+      "n_lines": 5,
+      "setup": {
+        "n": 18,
+        "mean_s2": -1.9158777777777776,
+        "pos_ratio": 0.1111111111111111,
+        "mean_entropy": 6.340022222222222,
+        "mean_surprisal": 4.424138888888889
+      },
+      "twist": {
+        "n": 14,
+        "mean_s2": -0.5291857142857143,
+        "pos_ratio": 0.21428571428571427,
+        "mean_entropy": 6.24245,
+        "mean_surprisal": 5.713278571428572
+      },
+      "punchline": {
+        "n": 9,
+        "mean_s2": -0.9426666666666667,
+        "pos_ratio": 0.3333333333333333,
+        "mean_entropy": 6.7809333333333335,
+        "mean_surprisal": 5.838277777777778
+      },
+      "line_by_line": [
+        {
+          "n": 8,
+          "mean_s2": -3.360425,
+          "pos_ratio": 0.0,
+          "mean_entropy": 7.3352875,
+          "mean_surprisal": 3.9748625
+        },
+        {
+          "n": 10,
+          "mean_s2": -0.76024,
+          "pos_ratio": 0.2,
+          "mean_entropy": 5.54381,
+          "mean_surprisal": 4.78356
+        },
+        {
+          "n": 6,
+          "mean_s2": 0.7528000000000001,
+          "pos_ratio": 0.3333333333333333,
+          "mean_entropy": 6.28585,
+          "mean_surprisal": 7.038666666666667
+        },
+        {
+          "n": 8,
+          "mean_s2": -1.490675,
+          "pos_ratio": 0.125,
+          "mean_entropy": 6.2099,
+          "mean_surprisal": 4.7192375
+        },
+        {
+          "n": 9,
+          "mean_s2": -0.9426666666666667,
+          "pos_ratio": 0.3333333333333333,
+          "mean_entropy": 6.7809333333333335,
+          "mean_surprisal": 5.838277777777778
+        }
+      ]
+    },
+    {
+      "title": "A Limerick on Time",
+      "author": "Anonymous (limerick tradition)",
+      "n_lines": 5,
+      "setup": {
+        "n": 15,
+        "mean_s2": -1.18968,
+        "pos_ratio": 0.2,
+        "mean_entropy": 6.681093333333333,
+        "mean_surprisal": 5.491433333333333
+      },
+      "twist": {
+        "n": 11,
+        "mean_s2": -0.8966272727272727,
+        "pos_ratio": 0.2727272727272727,
+        "mean_entropy": 6.277127272727273,
+        "mean_surprisal": 5.3805
+      },
+      "punchline": {
+        "n": 7,
+        "mean_s2": -1.0980285714285716,
+        "pos_ratio": 0.2857142857142857,
+        "mean_entropy": 5.763542857142857,
+        "mean_surprisal": 4.665514285714286
+      },
+      "line_by_line": [
+        {
+          "n": 7,
+          "mean_s2": -1.5703285714285715,
+          "pos_ratio": 0.14285714285714285,
+          "mean_entropy": 7.786499999999999,
+          "mean_surprisal": 6.216214285714286
+        },
+        {
+          "n": 8,
+          "mean_s2": -0.8566125,
+          "pos_ratio": 0.25,
+          "mean_entropy": 5.7138625,
+          "mean_surprisal": 4.85725
+        },
+        {
+          "n": 6,
+          "mean_s2": -0.7090333333333333,
+          "pos_ratio": 0.3333333333333333,
+          "mean_entropy": 5.592366666666667,
+          "mean_surprisal": 4.883333333333334
+        },
+        {
+          "n": 5,
+          "mean_s2": -1.12174,
+          "pos_ratio": 0.2,
+          "mean_entropy": 7.09884,
+          "mean_surprisal": 5.9771
+        },
+        {
+          "n": 7,
+          "mean_s2": -1.0980285714285716,
+          "pos_ratio": 0.2857142857142857,
+          "mean_entropy": 5.763542857142857,
+          "mean_surprisal": 4.665514285714286
+        }
+      ]
+    },
+    {
+      "title": "There Once Was a Man from Peru",
+      "author": "Anonymous (limerick tradition)",
+      "n_lines": 5,
+      "setup": {
+        "n": 13,
+        "mean_s2": -0.32776923076923076,
+        "pos_ratio": 0.46153846153846156,
+        "mean_entropy": 6.894392307692308,
+        "mean_surprisal": 6.566607692307692
+      },
+      "twist": {
+        "n": 11,
+        "mean_s2": -1.9486818181818182,
+        "pos_ratio": 0.18181818181818182,
+        "mean_entropy": 5.340636363636364,
+        "mean_surprisal": 3.3919545454545457
+      },
+      "punchline": {
+        "n": 9,
+        "mean_s2": -1.9547666666666668,
+        "pos_ratio": 0.0,
+        "mean_entropy": 4.956055555555555,
+        "mean_surprisal": 3.001288888888889
+      },
+      "line_by_line": [
+        {
+          "n": 6,
+          "mean_s2": -1.6562166666666667,
+          "pos_ratio": 0.5,
+          "mean_entropy": 7.576833333333333,
+          "mean_surprisal": 5.9206
+        },
+        {
+          "n": 7,
+          "mean_s2": 0.8109,
+          "pos_ratio": 0.42857142857142855,
+          "mean_entropy": 6.309442857142857,
+          "mean_surprisal": 7.120328571428572
+        },
+        {
+          "n": 5,
+          "mean_s2": -1.21894,
+          "pos_ratio": 0.4,
+          "mean_entropy": 6.609440000000001,
+          "mean_surprisal": 5.390479999999999
+        },
+        {
+          "n": 6,
+          "mean_s2": -2.5568,
+          "pos_ratio": 0.0,
+          "mean_entropy": 4.2833,
+          "mean_surprisal": 1.7265166666666667
+        },
+        {
+          "n": 9,
+          "mean_s2": -1.9547666666666668,
+          "pos_ratio": 0.0,
+          "mean_entropy": 4.956055555555555,
+          "mean_surprisal": 3.001288888888889
+        }
+      ]
+    },
+    {
+      "title": "A Tutor Who Tooted the Flute",
+      "author": "Carolyn Wells",
+      "n_lines": 5,
+      "setup": {
+        "n": 17,
+        "mean_s2": 0.7170117647058823,
+        "pos_ratio": 0.5294117647058824,
+        "mean_entropy": 7.627594117647059,
+        "mean_surprisal": 8.344617647058824
+      },
+      "twist": {
+        "n": 16,
+        "mean_s2": -0.942075,
+        "pos_ratio": 0.3125,
+        "mean_entropy": 6.45125,
+        "mean_surprisal": 5.509175
+      },
+      "punchline": {
+        "n": 9,
+        "mean_s2": -1.3293,
+        "pos_ratio": 0.1111111111111111,
+        "mean_entropy": 4.43448888888889,
+        "mean_surprisal": 3.1051777777777776
+      },
+      "line_by_line": [
+        {
+          "n": 7,
+          "mean_s2": 1.9065285714285714,
+          "pos_ratio": 0.5714285714285714,
+          "mean_entropy": 7.502171428571429,
+          "mean_surprisal": 9.408714285714286
+        },
+        {
+          "n": 10,
+          "mean_s2": -0.11564999999999995,
+          "pos_ratio": 0.5,
+          "mean_entropy": 7.715389999999999,
+          "mean_surprisal": 7.59975
+        },
+        {
+          "n": 7,
+          "mean_s2": -0.9619142857142858,
+          "pos_ratio": 0.2857142857142857,
+          "mean_entropy": 7.235799999999999,
+          "mean_surprisal": 6.2739142857142856
+        },
+        {
+          "n": 9,
+          "mean_s2": -0.9266444444444445,
+          "pos_ratio": 0.3333333333333333,
+          "mean_entropy": 5.841044444444445,
+          "mean_surprisal": 4.914377777777777
+        },
+        {
+          "n": 9,
+          "mean_s2": -1.3293,
+          "pos_ratio": 0.1111111111111111,
+          "mean_entropy": 4.43448888888889,
+          "mean_surprisal": 3.1051777777777776
+        }
+      ]
+    },
+    {
+      "title": "A Flea and a Fly in a Flue",
+      "author": "Anonymous",
+      "n_lines": 5,
+      "setup": {
+        "n": 17,
+        "mean_s2": -0.6479058823529412,
+        "pos_ratio": 0.29411764705882354,
+        "mean_entropy": 6.9504882352941175,
+        "mean_surprisal": 6.302588235294118
+      },
+      "twist": {
+        "n": 19,
+        "mean_s2": -1.726242105263158,
+        "pos_ratio": 0.15789473684210525,
+        "mean_entropy": 5.434457894736842,
+        "mean_surprisal": 3.7082263157894735
+      },
+      "punchline": {
+        "n": 11,
+        "mean_s2": -0.3277636363636364,
+        "pos_ratio": 0.36363636363636365,
+        "mean_entropy": 4.908381818181818,
+        "mean_surprisal": 4.580609090909091
+      },
+      "line_by_line": [
+        {
+          "n": 9,
+          "mean_s2": -1.0339777777777777,
+          "pos_ratio": 0.2222222222222222,
+          "mean_entropy": 7.679811111111111,
+          "mean_surprisal": 6.645833333333333
+        },
+        {
+          "n": 8,
+          "mean_s2": -0.21357500000000001,
+          "pos_ratio": 0.375,
+          "mean_entropy": 6.13,
+          "mean_surprisal": 5.9164375
+        },
+        {
+          "n": 9,
+          "mean_s2": -1.490722222222222,
+          "pos_ratio": 0.3333333333333333,
+          "mean_entropy": 6.676888888888889,
+          "mean_surprisal": 5.186177777777778
+        },
+        {
+          "n": 10,
+          "mean_s2": -1.9382100000000002,
+          "pos_ratio": 0.0,
+          "mean_entropy": 4.31627,
+          "mean_surprisal": 2.37807
+        },
+        {
+          "n": 11,
+          "mean_s2": -0.3277636363636364,
+          "pos_ratio": 0.36363636363636365,
+          "mean_entropy": 4.908381818181818,
+          "mean_surprisal": 4.580609090909091
+        }
+      ]
+    },
+    {
+      "title": "There Was an Old Person of Ware",
+      "author": "Edward Lear",
+      "n_lines": 5,
+      "setup": {
+        "n": 15,
+        "mean_s2": -0.6127066666666666,
+        "pos_ratio": 0.26666666666666666,
+        "mean_entropy": 7.125893333333334,
+        "mean_surprisal": 6.513186666666667
+      },
+      "twist": {
+        "n": 15,
+        "mean_s2": -0.3415999999999999,
+        "pos_ratio": 0.3333333333333333,
+        "mean_entropy": 4.6379133333333336,
+        "mean_surprisal": 4.296306666666666
+      },
+      "punchline": {
+        "n": 14,
+        "mean_s2": 2.310914285714286,
+        "pos_ratio": 0.5714285714285714,
+        "mean_entropy": 6.533364285714286,
+        "mean_surprisal": 8.844278571428571
+      },
+      "line_by_line": [
+        {
+          "n": 7,
+          "mean_s2": 0.7605285714285716,
+          "pos_ratio": 0.42857142857142855,
+          "mean_entropy": 8.00542857142857,
+          "mean_surprisal": 8.765957142857143
+        },
+        {
+          "n": 8,
+          "mean_s2": -1.8142875,
+          "pos_ratio": 0.125,
+          "mean_entropy": 6.3563,
+          "mean_surprisal": 4.5420125
+        },
+        {
+          "n": 9,
+          "mean_s2": -0.3074444444444444,
+          "pos_ratio": 0.3333333333333333,
+          "mean_entropy": 5.505655555555555,
+          "mean_surprisal": 5.1982
+        },
+        {
+          "n": 6,
+          "mean_s2": -0.3928333333333332,
+          "pos_ratio": 0.3333333333333333,
+          "mean_entropy": 3.3363,
+          "mean_surprisal": 2.9434666666666662
+        },
+        {
+          "n": 14,
+          "mean_s2": 2.310914285714286,
+          "pos_ratio": 0.5714285714285714,
+          "mean_entropy": 6.533364285714286,
+          "mean_surprisal": 8.844278571428571
+        }
+      ]
+    },
+    {
+      "title": "There Was a Young Man of Japan",
+      "author": "Anonymous",
+      "n_lines": 5,
+      "setup": {
+        "n": 14,
+        "mean_s2": 1.430357142857143,
+        "pos_ratio": 0.42857142857142855,
+        "mean_entropy": 6.24045,
+        "mean_surprisal": 7.670821428571428
+      },
+      "twist": {
+        "n": 14,
+        "mean_s2": -0.5543714285714285,
+        "pos_ratio": 0.2857142857142857,
+        "mean_entropy": 4.92255,
+        "mean_surprisal": 4.368171428571428
+      },
+      "punchline": {
+        "n": 19,
+        "mean_s2": -0.25362631578947364,
+        "pos_ratio": 0.3684210526315789,
+        "mean_entropy": 5.130199999999999,
+        "mean_surprisal": 4.876563157894737
+      },
+      "line_by_line": [
+        {
+          "n": 6,
+          "mean_s2": -0.48408333333333325,
+          "pos_ratio": 0.3333333333333333,
+          "mean_entropy": 7.136066666666667,
+          "mean_surprisal": 6.652
+        },
+        {
+          "n": 8,
+          "mean_s2": 2.8661875,
+          "pos_ratio": 0.5,
+          "mean_entropy": 5.5687375,
+          "mean_surprisal": 8.4349375
+        },
+        {
+          "n": 6,
+          "mean_s2": -1.0730166666666665,
+          "pos_ratio": 0.16666666666666666,
+          "mean_entropy": 5.507533333333334,
+          "mean_surprisal": 4.4345
+        },
+        {
+          "n": 8,
+          "mean_s2": -0.1653874999999999,
+          "pos_ratio": 0.375,
+          "mean_entropy": 4.4838125,
+          "mean_surprisal": 4.318425
+        },
+        {
+          "n": 19,
+          "mean_s2": -0.25362631578947364,
+          "pos_ratio": 0.3684210526315789,
+          "mean_entropy": 5.130199999999999,
+          "mean_surprisal": 4.876563157894737
+        }
+      ]
+    },
+    {
+      "title": "There Was a Young Lady Whose Nose",
+      "author": "Edward Lear",
+      "n_lines": 5,
+      "setup": {
+        "n": 15,
+        "mean_s2": -1.1524133333333333,
+        "pos_ratio": 0.4,
+        "mean_entropy": 7.251926666666667,
+        "mean_surprisal": 6.099500000000001
+      },
+      "twist": {
+        "n": 12,
+        "mean_s2": 0.4691,
+        "pos_ratio": 0.4166666666666667,
+        "mean_entropy": 5.942150000000001,
+        "mean_surprisal": 6.411216666666667
+      },
+      "punchline": {
+        "n": 6,
+        "mean_s2": -0.6667000000000001,
+        "pos_ratio": 0.3333333333333333,
+        "mean_entropy": 7.643533333333333,
+        "mean_surprisal": 6.9768333333333326
+      },
+      "line_by_line": [
+        {
+          "n": 6,
+          "mean_s2": -0.43898333333333345,
+          "pos_ratio": 0.5,
+          "mean_entropy": 8.374733333333333,
+          "mean_surprisal": 7.93575
+        },
+        {
+          "n": 9,
+          "mean_s2": -1.6280333333333334,
+          "pos_ratio": 0.3333333333333333,
+          "mean_entropy": 6.503388888888889,
+          "mean_surprisal": 4.875333333333334
+        },
+        {
+          "n": 6,
+          "mean_s2": -0.5761999999999999,
+          "pos_ratio": 0.3333333333333333,
+          "mean_entropy": 6.718,
+          "mean_surprisal": 6.141783333333334
+        },
+        {
+          "n": 6,
+          "mean_s2": 1.5144,
+          "pos_ratio": 0.5,
+          "mean_entropy": 5.166300000000001,
+          "mean_surprisal": 6.68065
+        },
+        {
+          "n": 6,
+          "mean_s2": -0.6667000000000001,
+          "pos_ratio": 0.3333333333333333,
+          "mean_entropy": 7.643533333333333,
+          "mean_surprisal": 6.9768333333333326
+        }
+      ]
+    },
+    {
+      "title": "There Was an Old Man of the Coast",
+      "author": "Edward Lear",
+      "n_lines": 5,
+      "setup": {
+        "n": 16,
+        "mean_s2": -1.16345,
+        "pos_ratio": 0.3125,
+        "mean_entropy": 7.05993125,
+        "mean_surprisal": 5.896475
+      },
+      "twist": {
+        "n": 8,
+        "mean_s2": -1.0614875,
+        "pos_ratio": 0.125,
+        "mean_entropy": 6.295325,
+        "mean_surprisal": 5.2338249999999995
+      },
+      "punchline": {
+        "n": 9,
+        "mean_s2": -1.2707111111111111,
+        "pos_ratio": 0.1111111111111111,
+        "mean_entropy": 6.9998555555555555,
+        "mean_surprisal": 5.729155555555555
+      },
+      "line_by_line": [
+        {
+          "n": 8,
+          "mean_s2": -2.4505250000000003,
+          "pos_ratio": 0.25,
+          "mean_entropy": 8.3063,
+          "mean_surprisal": 5.855775
+        },
+        {
+          "n": 8,
+          "mean_s2": 0.12362499999999998,
+          "pos_ratio": 0.375,
+          "mean_entropy": 5.8135625,
+          "mean_surprisal": 5.937175
+        },
+        {
+          "n": 4,
+          "mean_s2": -2.5162,
+          "pos_ratio": 0.0,
+          "mean_entropy": 6.9674000000000005,
+          "mean_surprisal": 4.45115
+        },
+        {
+          "n": 4,
+          "mean_s2": 0.39322500000000016,
+          "pos_ratio": 0.25,
+          "mean_entropy": 5.62325,
+          "mean_surprisal": 6.0165
+        },
+        {
+          "n": 9,
+          "mean_s2": -1.2707111111111111,
+          "pos_ratio": 0.1111111111111111,
+          "mean_entropy": 6.9998555555555555,
+          "mean_surprisal": 5.729155555555555
+        }
+      ]
+    },
+    {
+      "title": "There Was a Young Lady of Niger",
+      "author": "Anonymous",
+      "n_lines": 5,
+      "setup": {
+        "n": 14,
+        "mean_s2": -0.3272428571428572,
+        "pos_ratio": 0.42857142857142855,
+        "mean_entropy": 6.696350000000001,
+        "mean_surprisal": 6.369114285714285
+      },
+      "twist": {
+        "n": 9,
+        "mean_s2": -0.775911111111111,
+        "pos_ratio": 0.3333333333333333,
+        "mean_entropy": 7.276944444444445,
+        "mean_surprisal": 6.501011111111111
+      },
+      "punchline": {
+        "n": 10,
+        "mean_s2": -2.05678,
+        "pos_ratio": 0.2,
+        "mean_entropy": 5.5061599999999995,
+        "mean_surprisal": 3.4493899999999997
+      },
+      "line_by_line": [
+        {
+          "n": 6,
+          "mean_s2": 0.011216666666666542,
+          "pos_ratio": 0.3333333333333333,
+          "mean_entropy": 7.2588,
+          "mean_surprisal": 7.270016666666667
+        },
+        {
+          "n": 8,
+          "mean_s2": -0.5810875000000001,
+          "pos_ratio": 0.5,
+          "mean_entropy": 6.2745125,
+          "mean_surprisal": 5.6934375
+        },
+        {
+          "n": 4,
+          "mean_s2": -0.653875,
+          "pos_ratio": 0.5,
+          "mean_entropy": 7.811575,
+          "mean_surprisal": 7.157674999999999
+        },
+        {
+          "n": 5,
+          "mean_s2": -0.8735399999999999,
+          "pos_ratio": 0.2,
+          "mean_entropy": 6.84924,
+          "mean_surprisal": 5.97568
+        },
+        {
+          "n": 10,
+          "mean_s2": -2.05678,
+          "pos_ratio": 0.2,
+          "mean_entropy": 5.5061599999999995,
+          "mean_surprisal": 3.4493899999999997
+        }
+      ]
+    }
+  ],
+  "pooled": {
+    "setup": {
+      "n_tokens": 154,
+      "mean_s2": -0.5523740259740259,
+      "pos_ratio": 0.33766233766233766,
+      "mean_entropy": 6.893069480519481
+    },
+    "twist": {
+      "n_tokens": 129,
+      "mean_s2": -0.8473635658914729,
+      "pos_ratio": 0.26356589147286824,
+      "mean_entropy": 5.793098449612403
+    },
+    "punchline": {
+      "n_tokens": 103,
+      "mean_s2": -0.5611912621359223,
+      "pos_ratio": 0.2912621359223301,
+      "mean_entropy": 5.754783495145631
+    }
+  }
+}
