@@ -1,0 +1,300 @@
+{
+  "summary": {
+    "poetry_n": 1775,
+    "prose_n": 13,
+    "poetry_back_pct": 49.86,
+    "prose_back_pct": 38.46,
+    "poetry_mean_pos": 0.4834,
+    "prose_mean_pos": 0.3719
+  },
+  "by_era": {
+    "deep_image": {
+      "n_sentences": 5,
+      "back_pct": 100.0,
+      "mean_peak_pos": 0.7014,
+      "avg_s2": -0.1685
+    },
+    "mid_century": {
+      "n_sentences": 15,
+      "back_pct": 80.0,
+      "mean_peak_pos": 0.6645,
+      "avg_s2": -0.5276
+    },
+    "confessional": {
+      "n_sentences": 21,
+      "back_pct": 76.19,
+      "mean_peak_pos": 0.6074,
+      "avg_s2": -0.6504
+    },
+    "persian": {
+      "n_sentences": 14,
+      "back_pct": 71.43,
+      "mean_peak_pos": 0.6867,
+      "avg_s2": -0.3782
+    },
+    "german_modernist": {
+      "n_sentences": 10,
+      "back_pct": 70.0,
+      "mean_peak_pos": 0.6239,
+      "avg_s2": 0.6836
+    },
+    "classical_chinese": {
+      "n_sentences": 20,
+      "back_pct": 65.0,
+      "mean_peak_pos": 0.55,
+      "avg_s2": -0.7374
+    },
+    "postcolonial": {
+      "n_sentences": 56,
+      "back_pct": 60.71,
+      "mean_peak_pos": 0.5046,
+      "avg_s2": -0.4667
+    },
+    "fixed_form": {
+      "n_sentences": 39,
+      "back_pct": 58.97,
+      "mean_peak_pos": 0.5349,
+      "avg_s2": -0.6104
+    },
+    "prose_poetry": {
+      "n_sentences": 112,
+      "back_pct": 58.93,
+      "mean_peak_pos": 0.5219,
+      "avg_s2": -0.614
+    },
+    "imagist": {
+      "n_sentences": 12,
+      "back_pct": 58.33,
+      "mean_peak_pos": 0.568,
+      "avg_s2": -0.4412
+    },
+    "protest_political": {
+      "n_sentences": 12,
+      "back_pct": 58.33,
+      "mean_peak_pos": 0.5663,
+      "avg_s2": -0.5507
+    },
+    "contemporary": {
+      "n_sentences": 47,
+      "back_pct": 57.45,
+      "mean_peak_pos": 0.4809,
+      "avg_s2": -0.3765
+    },
+    "spoken_word": {
+      "n_sentences": 16,
+      "back_pct": 56.25,
+      "mean_peak_pos": 0.4793,
+      "avg_s2": -0.6046
+    },
+    "cliche_control": {
+      "n_sentences": 18,
+      "back_pct": 55.56,
+      "mean_peak_pos": 0.5915,
+      "avg_s2": -0.8666
+    },
+    "latin_american": {
+      "n_sentences": 20,
+      "back_pct": 55.0,
+      "mean_peak_pos": 0.4762,
+      "avg_s2": -0.5048
+    },
+    "metaphysical": {
+      "n_sentences": 32,
+      "back_pct": 53.12,
+      "mean_peak_pos": 0.5428,
+      "avg_s2": -0.5509
+    },
+    "german_expressionist": {
+      "n_sentences": 55,
+      "back_pct": 52.73,
+      "mean_peak_pos": 0.497,
+      "avg_s2": -0.0802
+    },
+    "modernist": {
+      "n_sentences": 130,
+      "back_pct": 51.54,
+      "mean_peak_pos": 0.5115,
+      "avg_s2": -0.4732
+    },
+    "language": {
+      "n_sentences": 33,
+      "back_pct": 51.52,
+      "mean_peak_pos": 0.4678,
+      "avg_s2": -0.4031
+    },
+    "19th_century": {
+      "n_sentences": 51,
+      "back_pct": 50.98,
+      "mean_peak_pos": 0.5065,
+      "avg_s2": -0.4274
+    },
+    "oulipo": {
+      "n_sentences": 34,
+      "back_pct": 50.0,
+      "mean_peak_pos": 0.4819,
+      "avg_s2": -0.0344
+    },
+    "german_symbolist": {
+      "n_sentences": 10,
+      "back_pct": 50.0,
+      "mean_peak_pos": 0.5399,
+      "avg_s2": 0.2868
+    },
+    "haiku": {
+      "n_sentences": 22,
+      "back_pct": 50.0,
+      "mean_peak_pos": 0.4556,
+      "avg_s2": -0.1927
+    },
+    "parody_original": {
+      "n_sentences": 24,
+      "back_pct": 50.0,
+      "mean_peak_pos": 0.4658,
+      "avg_s2": -0.4047
+    },
+    "dramatic_monologue": {
+      "n_sentences": 114,
+      "back_pct": 50.0,
+      "mean_peak_pos": 0.4784,
+      "avg_s2": -0.2308
+    },
+    "18th_century": {
+      "n_sentences": 61,
+      "back_pct": 49.18,
+      "mean_peak_pos": 0.4879,
+      "avg_s2": -0.235
+    },
+    "elegy": {
+      "n_sentences": 34,
+      "back_pct": 47.06,
+      "mean_peak_pos": 0.4691,
+      "avg_s2": -0.2501
+    },
+    "new_york_school": {
+      "n_sentences": 64,
+      "back_pct": 46.88,
+      "mean_peak_pos": 0.4538,
+      "avg_s2": -0.6241
+    },
+    "found_poetry": {
+      "n_sentences": 43,
+      "back_pct": 46.51,
+      "mean_peak_pos": 0.4598,
+      "avg_s2": -0.7543
+    },
+    "ballad": {
+      "n_sentences": 28,
+      "back_pct": 46.43,
+      "mean_peak_pos": 0.4469,
+      "avg_s2": -0.3826
+    },
+    "romantic": {
+      "n_sentences": 110,
+      "back_pct": 46.36,
+      "mean_peak_pos": 0.4587,
+      "avg_s2": -0.5393
+    },
+    "harlem_renaissance": {
+      "n_sentences": 31,
+      "back_pct": 45.16,
+      "mean_peak_pos": 0.4765,
+      "avg_s2": -0.6449
+    },
+    "black_arts": {
+      "n_sentences": 9,
+      "back_pct": 44.44,
+      "mean_peak_pos": 0.5251,
+      "avg_s2": -0.2945
+    },
+    "ghazal": {
+      "n_sentences": 9,
+      "back_pct": 44.44,
+      "mean_peak_pos": 0.4068,
+      "avg_s2": -0.2937
+    },
+    "victorian": {
+      "n_sentences": 156,
+      "back_pct": 43.59,
+      "mean_peak_pos": 0.4605,
+      "avg_s2": -0.3316
+    },
+    "parody": {
+      "n_sentences": 30,
+      "back_pct": 43.33,
+      "mean_peak_pos": 0.4331,
+      "avg_s2": -0.2004
+    },
+    "biblical": {
+      "n_sentences": 51,
+      "back_pct": 43.14,
+      "mean_peak_pos": 0.4435,
+      "avg_s2": -0.5424
+    },
+    "surrealist": {
+      "n_sentences": 45,
+      "back_pct": 40.0,
+      "mean_peak_pos": 0.4104,
+      "avg_s2": -0.4471
+    },
+    "early_modern": {
+      "n_sentences": 45,
+      "back_pct": 40.0,
+      "mean_peak_pos": 0.4256,
+      "avg_s2": -0.2667
+    },
+    "old_english": {
+      "n_sentences": 15,
+      "back_pct": 40.0,
+      "mean_peak_pos": 0.4613,
+      "avg_s2": -0.1478
+    },
+    "control": {
+      "n_sentences": 13,
+      "back_pct": 38.46,
+      "mean_peak_pos": 0.3719,
+      "avg_s2": -1.5755
+    },
+    "nursery_rhyme": {
+      "n_sentences": 11,
+      "back_pct": 36.36,
+      "mean_peak_pos": 0.4068,
+      "avg_s2": -0.746
+    },
+    "limerick": {
+      "n_sentences": 22,
+      "back_pct": 36.36,
+      "mean_peak_pos": 0.4315,
+      "avg_s2": -0.5634
+    },
+    "beat": {
+      "n_sentences": 17,
+      "back_pct": 35.29,
+      "mean_peak_pos": 0.4232,
+      "avg_s2": 0.2094
+    },
+    "ancient": {
+      "n_sentences": 9,
+      "back_pct": 33.33,
+      "mean_peak_pos": 0.3949,
+      "avg_s2": -0.167
+    },
+    "war_poetry": {
+      "n_sentences": 33,
+      "back_pct": 33.33,
+      "mean_peak_pos": 0.4018,
+      "avg_s2": -0.136
+    },
+    "song_lyrics": {
+      "n_sentences": 13,
+      "back_pct": 30.77,
+      "mean_peak_pos": 0.3839,
+      "avg_s2": -0.7158
+    },
+    "korean_modernist": {
+      "n_sentences": 8,
+      "back_pct": 25.0,
+      "mean_peak_pos": 0.2882,
+      "avg_s2": -0.9338
+    }
+  }
+}
