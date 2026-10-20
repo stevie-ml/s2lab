@@ -6393,6 +6393,123 @@ Is different from Geography.
 Geography is about maps,
 But Biography is about chaps."""
     },
+    {
+        "title": "Oscar Wilde",
+        "author": "Edmund Clerihew Bentley",
+        "year": 1905,
+        "era": "clerihew",
+        "text": """Oscar Wilde
+When mild
+Spoke in epigrams to fill
+The gallery—and always will."""
+    },
+    {
+        "title": "Charlotte Mew",
+        "author": "Synthetic (clerihew test case)",
+        "year": 2024,
+        "era": "clerihew",
+        "text": """Charlotte Mew
+Hardly anyone knew.
+She wrote "The Farmer's Bride"—
+A masterpiece, and quietly died."""
+    },
+    {
+        "title": "William Topaz McGonagall",
+        "author": "Synthetic (clerihew test case)",
+        "year": 2024,
+        "era": "clerihew",
+        "text": """William Topaz McGonagall
+Was known as rather comical.
+His Tay Bridge poem was so bad
+It made all of Scotland glad."""
+    },
+
+    # ─── DOUBLE DACTYL ────────────────────────────────────────────────────────
+    # The double dactyl (invented by Anthony Hecht and John Hollander, 1966) is
+    # the most formally constrained English short poem form:
+    # - Two stanzas of 4 lines each
+    # - Lines 1-3 and 5-7: dactylic dimeter (DUM-da-da DUM-da-da, 6 syllables)
+    # - Lines 4 and 8: catalectic (DUM-da-da DUM, 4 syllables); they must RHYME
+    # - Line 1: nonsense reduplication phrase (e.g., "Higgledy-piggledy")
+    # - Line 2: person's name (6 syllables, dactylic dimeter)
+    # - Line 7: a SINGLE polysyllabic word (6 syllables)
+    # Hypothesis: greater constraint than limericks → even lower mean S₂,
+    # except at the nonsense line-1 and the rare polysyllabic line-7 word.
+    {
+        "title": "Emily Dickinson (Double Dactyl)",
+        "author": "Synthetic (double dactyl test case)",
+        "year": 2024,
+        "era": "double_dactyl",
+        "text": """Higgledy-piggledy,
+Emily Dickinson,
+Dressed all in white when she
+Stayed home to write.
+
+Slant rhymes and dashes and
+Letters to everyone,
+Unconventionally
+Blazing with light."""
+    },
+    {
+        "title": "Gerard Manley Hopkins (Double Dactyl)",
+        "author": "Synthetic (double dactyl test case)",
+        "year": 2024,
+        "era": "double_dactyl",
+        "text": """Higgledy-piggledy,
+Gerard Manley Hopkins,
+Bent the old meter and
+Wrestled with God.
+
+Strangely anguished by love,
+Tortured but beautiful—
+Theologically
+Giving the nod."""
+    },
+    {
+        "title": "Alfred Lord Tennyson (Double Dactyl)",
+        "author": "Synthetic (double dactyl test case)",
+        "year": 2024,
+        "era": "double_dactyl",
+        "text": """Higgledy-piggledy,
+Alfred Lord Tennyson,
+Wrote his elegy for
+Arthur, his friend.
+
+Elegiacally,
+Philosophically—
+Death, he concluded, was
+Not quite the end."""
+    },
+    {
+        "title": "William Carlos Williams (Double Dactyl)",
+        "author": "Synthetic (double dactyl test case)",
+        "year": 2024,
+        "era": "double_dactyl",
+        "text": """Higgledy-piggledy,
+William Carlos Williams,
+Doctor by day, and by
+Night a new voice.
+
+No ideas but in
+Concrete, particular—
+Experientially
+Right in his choice."""
+    },
+    {
+        "title": "Lawrence Ferlinghetti (Double Dactyl)",
+        "author": "Synthetic (double dactyl test case)",
+        "year": 2024,
+        "era": "double_dactyl",
+        "text": """Higgledy-piggledy,
+Lawrence Ferlinghetti,
+Ran a bookshop and kept
+Freedom above.
+
+Beat-era polemics—
+Selling the dangerous—
+Uncompromisingly
+Done it for love."""
+    },
 ]
 
 # Quick stats
