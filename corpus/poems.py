@@ -6510,6 +6510,197 @@ Selling the dangerous—
 Uncompromisingly
 Done it for love."""
     },
+
+    # ─── ASYMMETRY TEST POEMS (added 2026-10-20) ──────────────────────────────
+    # Poems added specifically to test the surprise asymmetry finding:
+    # (1) Emily Dickinson — short, dense poems to test the "isolated spike / deep valley" pattern
+    # (2) Countee Cullen — formal sonnets testing the "ramp-up crash" pattern
+    # (3) Gerard Manley Hopkins — sprung rhythm testing "pre-spike buildup"
+    # (4) A Valediction: Forbidding Mourning — Donne's extended metaphor asymmetry
+    # (5) Anne Carson — contemporary lyric testing sustained-elevation pattern
+    # (6) Robinson Jeffers — environmental poetry with long-arc conformity
+
+    # Emily Dickinson — "Tell all the truth but tell it slant" (Fr. 1263, 1872, PD)
+    {
+        "title": "Tell all the truth but tell it slant",
+        "author": "Emily Dickinson",
+        "year": 1872,
+        "era": "19th_century",
+        "text": """Tell all the truth but tell it slant —
+Success in Circuit lies
+Too bright for our infirm Delight
+The Truth's superb surprise
+As Lightning to the Children eased
+With explanation kind
+The Truth must dazzle gradually
+Or every man be blind —"""
+    },
+
+    # Emily Dickinson — "I'm Nobody! Who are you?" (Fr. 288, 1861, PD)
+    {
+        "title": "I'm Nobody! Who are you?",
+        "author": "Emily Dickinson",
+        "year": 1861,
+        "era": "19th_century",
+        "text": """I'm Nobody! Who are you?
+Are you – Nobody – too?
+Then there's a pair of us!
+Don't tell! they'd advertise –
+
+How dreary – to be – Somebody!
+How public – like a Frog –
+To tell one's name – the livelong June –
+To an admiring Bog!"""
+    },
+
+    # Countee Cullen — "Heritage" (opening, 1925, PD)
+    # Long, meditative poem with refrain structure; tests "ramp-up crash" in Harlem Renaissance
+    {
+        "title": "Heritage (opening)",
+        "author": "Countee Cullen",
+        "year": 1925,
+        "era": "harlem_renaissance",
+        "text": """What is Africa to me:
+Copper sun or scarlet sea,
+Jungle star or jungle track,
+Strong bronzed men, or regal black
+Women from whose loins I sprang
+When the birds of Eden sang?
+One three centuries removed
+From the scenes his fathers loved,
+Spicy grove, cinnamon tree,
+What is Africa to me?
+
+So I lie, who all day long
+Want no sound except the song
+Sung by wild barbaric birds
+Goading massive jungle herds,
+Juggernauts of flesh that pass
+Trampling tall defiant grass
+Where young forest lovers lie,
+Plighting troth beneath the sky."""
+    },
+
+    # Gerard Manley Hopkins — "Pied Beauty" (1877, PD)
+    # Short poem with dense sprung rhythm; extreme pre-spike setup pattern
+    {
+        "title": "Pied Beauty",
+        "author": "Gerard Manley Hopkins",
+        "year": 1877,
+        "era": "victorian",
+        "text": """Glory be to God for dappled things –
+  For skies of couple-colour as a brinded cow;
+    For rose-moles all in stipple upon trout that swim;
+Fresh-firecoal chestnut-falls; finches' wings;
+  Landscape plotted and pieced – fold, fallow, and plough;
+    And áll trádes, their gear and tackle and trim.
+
+All things counter, original, spare, strange;
+  Whatever is fickle, freckled (who knows how?)
+    With swift, slow; sweet, sour; adazzle, dim;
+He fathers-forth whose beauty is past change:
+                                Praise him."""
+    },
+
+    # John Donne — "A Valediction: Forbidding Mourning" (1633, PD)
+    # Extended metaphor (compass conceit); metaphysical asymmetry tests
+    {
+        "title": "A Valediction: Forbidding Mourning",
+        "author": "John Donne",
+        "year": 1633,
+        "era": "early_modern",
+        "text": """As virtuous men pass mildly away,
+  And whisper to their souls to go,
+Whilst some of their sad friends do say,
+  "Now his breath goes," and some say, "No."
+
+So let us melt, and make no noise,
+  No tear-floods, nor sigh-tempests move;
+'Twere profanation of our joys
+  To tell the laity our love.
+
+Moving of th' earth brings harms and fears;
+  Men reckon what it did, and meant;
+But trepidation of the spheres,
+  Though greater far, is innocent.
+
+Dull sublunary lovers' love
+  (Whose soul is sense) cannot admit
+Of absence, 'cause it doth remove
+  The thing which elemented it.
+
+But we, by a love so much refined
+  That ourselves know not what it is,
+Inter-assurèd of the mind,
+  Care less, eyes, lips, and hands to miss.
+
+Our two souls therefore, which are one,
+  Though I must go, endure not yet
+A breach, but an expansion,
+  Like gold to aery thinness beat.
+
+If they be two, they are two so
+  As stiff twin compasses are two;
+Thy soul, the fixed foot, makes no show
+  To move, but doth, if th' other do.
+
+And though it in the center sit,
+  Yet, when the other far doth roam,
+It leans and hearkens after it,
+  And grows erect, as that comes home.
+
+Such wilt thou be to me, who must,
+  Like th' other foot, obliquely run;
+Thy firmness makes my circle just,
+  And makes me end where I begun."""
+    },
+
+    # Robinson Jeffers — "Carmel Point" (1954)
+    # Environmental/ecological poetry; stark imagery; tests long-arc conformity
+    {
+        "title": "Carmel Point",
+        "author": "Robinson Jeffers",
+        "year": 1954,
+        "era": "contemporary",
+        "text": """We must uncenter our minds from ourselves;
+We must unhumanize our views a little, and become confident
+As the rock and ocean that we were made from.
+
+Beauty is not always lovely; and the beauty of Carmel Point
+Is its distance, the great rocks breaking wave-power,
+And the wind's unsleeping restlessness.
+
+This little headland, the gray stone cliff, the colony of pelicans,
+Seem permanent; but the land has been eroded seaward
+A foot or two since they were first described,
+And the pelicans are probably not immortal.
+
+Look up the coast at the old stone farmhouses on the hills.
+They are still inhabited, but they will all be gone
+Within the century; the century will pass; and the long ocean,
+The slow unhasting tide of time will wash them away."""
+    },
+
+    # Anne Carson — "The Glass Essay (opening)" (1995)
+    # Confessional/contemporary lyric; tests "extended valley" in high-asymmetry poets
+    {
+        "title": "The Glass Essay (opening)",
+        "author": "Anne Carson",
+        "year": 1995,
+        "era": "contemporary",
+        "text": """I can hear little clicks inside my dream.
+Night drips its silver tap
+down the back.
+At 4 A.M. I wake. Thinking
+
+of the man who
+left in September.
+His name was Law.
+
+My mother is asleep in the next room.
+We are in her house on the moors.
+It is bleak and very cold."""
+    },
 ]
 
 # Quick stats
