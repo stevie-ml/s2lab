@@ -1,6 +1,6 @@
 # S₂ Lab Research Report
-**Generated:** 2026-10-20 07:00:59
-**Corpus:** 315 texts analyzed with GPT-2
+**Generated:** 2026-10-21 12:48:00
+**Corpus:** 321 texts analyzed with GPT-2
 **Model:** gpt2 (117M parameters)
 
 ---
@@ -26,29 +26,29 @@ Do different literary movements produce systematically different information-the
 | korean_modernist | 1 | 0.75 | **-0.69** | 31% | 30.95 |
 | parody_original | 3 | 0.65 | **-0.45** | 36% | 29.30 |
 | black_arts | 1 | 0.65 | **-0.50** | 36% | 27.57 |
-| harlem_renaissance | 5 | 0.63 | **-0.39** | 37% | 31.07 |
 | fixed_form | 8 | 0.60 | **-0.56** | 34% | 30.18 |
 | modernist | 25 | 0.59 | **-0.34** | 38% | 39.17 |
 | ghazal | 1 | 0.54 | **-0.41** | 34% | 35.04 |
 | confessional | 6 | 0.50 | **-0.23** | 41% | 35.23 |
 | postcolonial | 6 | 0.49 | **-0.48** | 32% | 36.66 |
+| harlem_renaissance | 6 | 0.49 | **-0.38** | 38% | 31.07 |
 | beat | 6 | 0.46 | **0.07** | 32% | 36.66 |
 | german_expressionist | 6 | 0.44 | **0.10** | 41% | 28.16 |
 | german_symbolist | 3 | 0.42 | **0.45** | 45% | 23.40 |
+| 19th_century | 13 | 0.40 | **-0.39** | 40% | 35.25 |
 | protest_political | 2 | 0.36 | **-0.75** | 36% | 34.25 |
 | victorian | 23 | 0.35 | **-0.34** | 37% | 34.00 |
-| 19th_century | 11 | 0.27 | **-0.46** | 39% | 35.25 |
 | elegy | 6 | 0.26 | **-0.37** | 37% | 29.70 |
 | deep_image | 1 | 0.25 | **0.07** | 45% | 12.62 |
 | war_poetry | 3 | 0.19 | **-0.34** | 41% | 33.05 |
+| contemporary | 11 | 0.18 | **-0.37** | 36% | 33.21 |
 | romantic | 16 | 0.16 | **-0.44** | 36% | 33.80 |
 | surrealist | 8 | 0.16 | **-0.50** | 34% | 37.05 |
 | latin_american | 3 | 0.16 | **-0.54** | 33% | 36.73 |
 | ancient | 3 | 0.11 | **-0.20** | 41% | 24.76 |
 | nursery_rhyme | 1 | 0.10 | **-0.82** | 32% | 26.92 |
 | song_lyrics | 3 | 0.09 | **-0.68** | 25% | 29.34 |
-| contemporary | 9 | 0.07 | **-0.36** | 35% | 33.21 |
-| early_modern | 6 | 0.01 | **-0.26** | 40% | 24.20 |
+| early_modern | 7 | 0.09 | **-0.39** | 39% | 31.07 |
 | cliche_control | 3 | -0.03 | **-0.87** | 28% | 28.76 |
 | limerick | 10 | -0.06 | **-0.66** | 32% | 22.11 |
 | oulipo | 4 | -0.07 | **-0.15** | 36% | 19.63 |
@@ -190,23 +190,23 @@ Do high-S₂ moments cluster at beginnings, endings, or enjambments?
 
 | Position in poem | Avg S₂ | Median S₂ | n tokens |
 |---|---|---|---|
-| first_10% | 0.87 | -0.63 | 3829 |
-| 10-25% | 0.24 | -1.07 | 5970 |
-| 25-50% | 0.09 | -1.05 | 9970 |
-| 50-75% | 0.10 | -1.03 | 9890 |
-| 75-90% | 0.30 | -0.91 | 5935 |
-| last_10% | 0.10 | -1.08 | 4105 |
+| first_10% | 0.89 | -0.62 | 3919 |
+| 10-25% | 0.25 | -1.06 | 6109 |
+| 25-50% | 0.10 | -1.05 | 10202 |
+| 50-75% | 0.10 | -1.03 | 10119 |
+| 75-90% | 0.30 | -0.91 | 6072 |
+| last_10% | 0.11 | -1.08 | 4201 |
 
 ### Line break analysis:
-- Avg S₂ at newline tokens: **-1.62** (n=3755)
-- Avg S₂ at tokens immediately after newline (raw): **6.42** (n=3755)
-- Avg S₂ at tokens immediately after newline (**artifact-free**): **0.15** (n=2393)
-- Avg S₂ at all other tokens: **0.42** (n=35944)
+- Avg S₂ at newline tokens: **-1.62** (n=3858)
+- Avg S₂ at tokens immediately after newline (raw): **6.47** (n=3858)
+- Avg S₂ at tokens immediately after newline (**artifact-free**): **0.16** (n=2442)
+- Avg S₂ at all other tokens: **0.42** (n=36764)
 
 > ⚠️ The raw post-newline figure is dominated by the stanza-break artifact (see `findings/stanza_break_artifact.md`). The artifact-free value is near-zero. **The enjambment finding does not survive artifact removal.**
 
 ### Finding
-Artifact-free post-newline S₂ = 0.15 vs other tokens = 0.42. Line-head tokens are at or below baseline once artifact positions are removed. The Straussian gap is distributed throughout the poem, not concentrated at line breaks.
+Artifact-free post-newline S₂ = 0.16 vs other tokens = 0.42. Line-head tokens are at or below baseline once artifact positions are removed. The Straussian gap is distributed throughout the poem, not concentrated at line breaks.
 
 ---
 
@@ -235,11 +235,11 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | Traditional (Scottish ballad) | 5 | 0.76 | 6.09 | 31% | 29.02 | high spikes, volatile |
 | William Ernest Henley | 2 | 0.75 | 6.36 | 33% | 27.27 | high spikes, volatile |
 | Lewis Carroll | 3 | 0.72 | 6.35 | 36% | 29.74 | high spikes, volatile |
+| Emily Dickinson | 6 | 0.71 | 5.58 | 40% | 24.03 | consistently deviant |
 | Frank O'Hara | 2 | 0.66 | 4.93 | 39% | 22.82 | consistently deviant |
 | Georg Trakl | 2 | 0.62 | 3.97 | 45% | 14.57 | consistently deviant |
 | Marianne Moore | 2 | 0.57 | 5.56 | 39% | 28.36 | consistently deviant |
 | Yosa Buson | 2 | 0.56 | 5.42 | 43% | 16.78 | consistently deviant |
-| Emily Dickinson | 4 | 0.54 | 5.59 | 38% | 24.91 | consistently deviant |
 | Gerard Manley Hopkins | 3 | 0.52 | 5.35 | 40% | 26.15 | consistently deviant |
 | Isaac Watts | 2 | 0.49 | 5.97 | 37% | 27.01 | selective spikes |
 | Thomas Wyatt | 2 | 0.48 | 4.59 | 44% | 21.84 | mild deviation |
@@ -267,12 +267,14 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | John Milton | 2 | 0.03 | 4.33 | 39% | 22.55 | mild deviation |
 | T.S. Eliot | 5 | 0.02 | 4.42 | 39% | 21.03 | mild deviation |
 | Claudia Rankine | 2 | -0.00 | 4.25 | 36% | 18.16 | smooth/conventional |
+| John Donne | 2 | -0.03 | 4.85 | 35% | 24.90 | smooth/conventional |
 | Robert Browning | 5 | -0.03 | 4.20 | 37% | 23.09 | smooth/conventional |
 | Synthetic (research test case) | 3 | -0.03 | 5.07 | 28% | 24.70 | volatile but conforming |
 | Christina Rossetti | 2 | -0.04 | 3.74 | 35% | 20.49 | smooth/conventional |
 | W.B. Yeats | 3 | -0.04 | 4.55 | 38% | 24.46 | smooth/conventional |
 | Lawrence Ferlinghetti | 2 | -0.08 | 3.94 | 11% | 32.46 | smooth/conventional |
 | Amy Lowell | 2 | -0.12 | 4.57 | 36% | 20.88 | smooth/conventional |
+| Countee Cullen | 2 | -0.13 | 4.02 | 41% | 17.61 | smooth/conventional |
 | Anonymous | 3 | -0.13 | 4.55 | 34% | 20.21 | smooth/conventional |
 | Anne Sexton | 2 | -0.14 | 4.92 | 39% | 21.88 | smooth/conventional |
 | Anonymous (trans. Hall) | 2 | -0.27 | 3.98 | 37% | 15.65 | smooth/conventional |
@@ -299,7 +301,7 @@ Do 'great' poems have distinctive S₂ profiles?
 
 > ⚠️ **Stanza-break artifact:** Raw S₂ numbers are inflated by layout positions. See `findings/stanza_break_artifact.md` for details.
 
-- Poetry avg S₂ (raw): **0.33** (σ=0.86, n=310)
+- Poetry avg S₂ (raw): **0.33** (σ=0.85, n=316)
 - Control prose avg S₂ (raw): **-1.66** (σ=0.67, n=5)
 - Gap (raw): **1.99**
 

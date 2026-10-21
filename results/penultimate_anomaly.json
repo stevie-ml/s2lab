@@ -1,0 +1,1659 @@
+{
+  "n_poems": 289,
+  "global_lag_profile": {
+    "0": {
+      "mean_s2": -1.3302024221453297,
+      "mean_entropy": 4.221936332179926,
+      "mean_surprisal": 2.891733910034602,
+      "n": 289,
+      "pos_rate": 0.11764705882352941,
+      "spike_rate": 0.03806228373702422
+    },
+    "1": {
+      "mean_s2": 0.019042906574394478,
+      "mean_entropy": 6.195201384083042,
+      "mean_surprisal": 6.2142442906574376,
+      "n": 289,
+      "pos_rate": 0.3771626297577855,
+      "spike_rate": 0.20069204152249134
+    },
+    "2": {
+      "mean_s2": -1.013183044982699,
+      "mean_entropy": 6.0225605536332205,
+      "mean_surprisal": 5.009377508650518,
+      "n": 289,
+      "pos_rate": 0.25951557093425603,
+      "spike_rate": 0.10726643598615918
+    },
+    "3": {
+      "mean_s2": -0.4017422145328719,
+      "mean_entropy": 6.079236332179935,
+      "mean_surprisal": 5.6774941176470595,
+      "n": 289,
+      "pos_rate": 0.3494809688581315,
+      "spike_rate": 0.12802768166089964
+    },
+    "4": {
+      "mean_s2": -0.5638173010380628,
+      "mean_entropy": 6.32891660899654,
+      "mean_surprisal": 5.765099307958475,
+      "n": 289,
+      "pos_rate": 0.34256055363321797,
+      "spike_rate": 0.1522491349480969
+    },
+    "5": {
+      "mean_s2": -0.42858373702422153,
+      "mean_entropy": 6.000016955017302,
+      "mean_surprisal": 5.571433217993077,
+      "n": 289,
+      "pos_rate": 0.3356401384083045,
+      "spike_rate": 0.1453287197231834
+    },
+    "6": {
+      "mean_s2": -0.7049228373702422,
+      "mean_entropy": 5.839350173010382,
+      "mean_surprisal": 5.134427335640136,
+      "n": 289,
+      "pos_rate": 0.27335640138408307,
+      "spike_rate": 0.12802768166089964
+    },
+    "7": {
+      "mean_s2": -0.5969896193771626,
+      "mean_entropy": 6.226198269896195,
+      "mean_surprisal": 5.629208650519031,
+      "n": 289,
+      "pos_rate": 0.328719723183391,
+      "spike_rate": 0.1245674740484429
+    },
+    "8": {
+      "mean_s2": -0.5982262975778543,
+      "mean_entropy": 6.004227335640135,
+      "mean_surprisal": 5.406001038062283,
+      "n": 289,
+      "pos_rate": 0.3079584775086505,
+      "spike_rate": 0.1384083044982699
+    },
+    "9": {
+      "mean_s2": -0.6862792387543253,
+      "mean_entropy": 6.186392733564014,
+      "mean_surprisal": 5.500113494809687,
+      "n": 289,
+      "pos_rate": 0.30103806228373703,
+      "spike_rate": 0.16608996539792387
+    },
+    "10": {
+      "mean_s2": -0.5440712802768166,
+      "mean_entropy": 5.997028719723185,
+      "mean_surprisal": 5.45295743944637,
+      "n": 289,
+      "pos_rate": 0.34256055363321797,
+      "spike_rate": 0.1384083044982699
+    },
+    "11": {
+      "mean_s2": -0.6370581314878894,
+      "mean_entropy": 5.990834256055364,
+      "mean_surprisal": 5.353776124567475,
+      "n": 289,
+      "pos_rate": 0.314878892733564,
+      "spike_rate": 0.1245674740484429
+    },
+    "12": {
+      "mean_s2": -0.42400588235294107,
+      "mean_entropy": 6.046015570934256,
+      "mean_surprisal": 5.622009688581316,
+      "n": 289,
+      "pos_rate": 0.35294117647058826,
+      "spike_rate": 0.1384083044982699
+    },
+    "13": {
+      "mean_s2": -0.9187432525951553,
+      "mean_entropy": 6.2117141868512125,
+      "mean_surprisal": 5.2929709342560525,
+      "n": 289,
+      "pos_rate": 0.2837370242214533,
+      "spike_rate": 0.12802768166089964
+    },
+    "14": {
+      "mean_s2": -0.7340311418685117,
+      "mean_entropy": 6.340985467128024,
+      "mean_surprisal": 5.606954325259511,
+      "n": 289,
+      "pos_rate": 0.3079584775086505,
+      "spike_rate": 0.1384083044982699
+    },
+    "15": {
+      "mean_s2": -0.9060522491349485,
+      "mean_entropy": 6.091642906574393,
+      "mean_surprisal": 5.185590657439449,
+      "n": 289,
+      "pos_rate": 0.25951557093425603,
+      "spike_rate": 0.10726643598615918
+    },
+    "16": {
+      "mean_s2": -0.6747740484429066,
+      "mean_entropy": 6.017861937716265,
+      "mean_surprisal": 5.343087889273354,
+      "n": 289,
+      "pos_rate": 0.28719723183391005,
+      "spike_rate": 0.1384083044982699
+    },
+    "17": {
+      "mean_s2": -0.5408640138408305,
+      "mean_entropy": 6.421364359861595,
+      "mean_surprisal": 5.880500346020756,
+      "n": 289,
+      "pos_rate": 0.328719723183391,
+      "spike_rate": 0.1384083044982699
+    },
+    "18": {
+      "mean_s2": -0.4312840830449826,
+      "mean_entropy": 5.930897923875426,
+      "mean_surprisal": 5.499613840830448,
+      "n": 289,
+      "pos_rate": 0.34256055363321797,
+      "spike_rate": 0.1453287197231834
+    },
+    "19": {
+      "mean_s2": -0.6556875432525949,
+      "mean_entropy": 6.004811764705883,
+      "mean_surprisal": 5.34912422145329,
+      "n": 289,
+      "pos_rate": 0.314878892733564,
+      "spike_rate": 0.12802768166089964
+    },
+    "20": {
+      "mean_s2": -0.33292214532871983,
+      "mean_entropy": 6.0035788927335645,
+      "mean_surprisal": 5.6706567474048475,
+      "n": 289,
+      "pos_rate": 0.3460207612456747,
+      "spike_rate": 0.14878892733564014
+    }
+  },
+  "lag_decomposition_focus": {
+    "lag_0_last": {
+      "mean_s2": -1.3302024221453297,
+      "mean_entropy": 4.221936332179926,
+      "mean_surprisal": 2.891733910034602,
+      "n": 289,
+      "pos_rate": 0.11764705882352941,
+      "spike_rate": 0.03806228373702422
+    },
+    "lag_1_penultimate": {
+      "mean_s2": 0.019042906574394478,
+      "mean_entropy": 6.195201384083042,
+      "mean_surprisal": 6.2142442906574376,
+      "n": 289,
+      "pos_rate": 0.3771626297577855,
+      "spike_rate": 0.20069204152249134
+    },
+    "lag_2_antepenultimate": {
+      "mean_s2": -1.013183044982699,
+      "mean_entropy": 6.0225605536332205,
+      "mean_surprisal": 5.009377508650518,
+      "n": 289,
+      "pos_rate": 0.25951557093425603,
+      "spike_rate": 0.10726643598615918
+    },
+    "note": "lag -1 S2 elevation: how much is entropy vs surprisal?",
+    "lag1_entropy_vs_lag0": 1.973265051903116,
+    "lag1_surprisal_vs_lag0": 3.3225103806228358,
+    "lag1_s2_vs_lag0": 1.3492453287197241
+  },
+  "category_breakdown": {
+    "penultimate": {
+      "content": {
+        "n": 254,
+        "mean_s2": 0.20743228346456694,
+        "pct": 87.88927335640139
+      },
+      "function": {
+        "n": 30,
+        "mean_s2": -1.759793333333333,
+        "pct": 10.380622837370241
+      },
+      "punct": {
+        "n": 3,
+        "mean_s2": 1.9729999999999999,
+        "pct": 1.0380622837370241
+      },
+      "capitalized": {
+        "n": 1,
+        "mean_s2": -0.1855,
+        "pct": 0.34602076124567477
+      },
+      "empty": {
+        "n": 1,
+        "mean_s2": -0.1241,
+        "pct": 0.34602076124567477
+      }
+    },
+    "last": {
+      "punct": {
+        "n": 268,
+        "mean_s2": -1.5870078358208968,
+        "pct": 92.73356401384083
+      },
+      "content": {
+        "n": 16,
+        "mean_s2": 0.8668375000000003,
+        "pct": 5.536332179930796
+      },
+      "empty": {
+        "n": 3,
+        "mean_s2": 10.062366666666668,
+        "pct": 1.0380622837370241
+      },
+      "function": {
+        "n": 2,
+        "mean_s2": -1.58345,
+        "pct": 0.6920415224913495
+      }
+    }
+  },
+  "era_pen_s2": {
+    "romantic": {
+      "n": 16,
+      "mean_pen_s2": 0.3826562499999997
+    },
+    "19th_century": {
+      "n": 13,
+      "mean_pen_s2": -1.6584923076923077
+    },
+    "modernist": {
+      "n": 22,
+      "mean_pen_s2": -0.000986363636363568
+    },
+    "beat": {
+      "n": 6,
+      "mean_pen_s2": -1.5001166666666668
+    },
+    "confessional": {
+      "n": 6,
+      "mean_pen_s2": 4.881349999999999
+    },
+    "mid_century": {
+      "n": 3,
+      "mean_pen_s2": -1.7223333333333333
+    },
+    "new_york_school": {
+      "n": 18,
+      "mean_pen_s2": 0.42203333333333337
+    },
+    "language": {
+      "n": 5,
+      "mean_pen_s2": 1.32988
+    },
+    "contemporary": {
+      "n": 11,
+      "mean_pen_s2": -2.326
+    },
+    "harlem_renaissance": {
+      "n": 6,
+      "mean_pen_s2": -1.2778999999999998
+    },
+    "oulipo": {
+      "n": 4,
+      "mean_pen_s2": 0.6859500000000002
+    },
+    "surrealist": {
+      "n": 8,
+      "mean_pen_s2": 1.3676
+    },
+    "control": {
+      "n": 3,
+      "mean_pen_s2": -2.0378666666666665
+    },
+    "victorian": {
+      "n": 23,
+      "mean_pen_s2": -0.6446260869565217
+    },
+    "haiku": {
+      "n": 2,
+      "mean_pen_s2": 2.0392
+    },
+    "ancient": {
+      "n": 3,
+      "mean_pen_s2": -0.4751333333333334
+    },
+    "prose_poetry": {
+      "n": 12,
+      "mean_pen_s2": -1.8319249999999998
+    },
+    "ballad": {
+      "n": 6,
+      "mean_pen_s2": -1.72665
+    },
+    "song_lyrics": {
+      "n": 3,
+      "mean_pen_s2": -0.8747666666666666
+    },
+    "metaphysical": {
+      "n": 4,
+      "mean_pen_s2": -1.02305
+    },
+    "early_modern": {
+      "n": 7,
+      "mean_pen_s2": 3.473785714285714
+    },
+    "spoken_word": {
+      "n": 3,
+      "mean_pen_s2": -1.0710666666666666
+    },
+    "found_poetry": {
+      "n": 7,
+      "mean_pen_s2": 2.202128571428571
+    },
+    "fixed_form": {
+      "n": 8,
+      "mean_pen_s2": -1.4033000000000002
+    },
+    "cliche_control": {
+      "n": 3,
+      "mean_pen_s2": 6.274933333333334
+    },
+    "18th_century": {
+      "n": 7,
+      "mean_pen_s2": -0.5718142857142857
+    },
+    "biblical": {
+      "n": 7,
+      "mean_pen_s2": 2.085657142857143
+    },
+    "concrete": {
+      "n": 2,
+      "mean_pen_s2": -2.3594999999999997
+    },
+    "latin_american": {
+      "n": 3,
+      "mean_pen_s2": 1.4562666666666668
+    },
+    "imagist": {
+      "n": 2,
+      "mean_pen_s2": -2.6822
+    },
+    "german_expressionist": {
+      "n": 4,
+      "mean_pen_s2": 0.8385750000000001
+    },
+    "parody_original": {
+      "n": 3,
+      "mean_pen_s2": -0.6752666666666668
+    },
+    "parody": {
+      "n": 4,
+      "mean_pen_s2": 1.5555500000000002
+    },
+    "classical_chinese": {
+      "n": 4,
+      "mean_pen_s2": 0.89025
+    },
+    "persian": {
+      "n": 2,
+      "mean_pen_s2": 6.25575
+    },
+    "limerick": {
+      "n": 10,
+      "mean_pen_s2": -0.81082
+    },
+    "old_english": {
+      "n": 4,
+      "mean_pen_s2": 3.5024
+    },
+    "protest_political": {
+      "n": 2,
+      "mean_pen_s2": -1.6054500000000003
+    },
+    "war_poetry": {
+      "n": 3,
+      "mean_pen_s2": -3.9687
+    },
+    "postcolonial": {
+      "n": 6,
+      "mean_pen_s2": 1.7879000000000005
+    },
+    "dramatic_monologue": {
+      "n": 7,
+      "mean_pen_s2": -0.14387142857142846
+    },
+    "elegy": {
+      "n": 6,
+      "mean_pen_s2": 0.8285499999999999
+    },
+    "double_dactyl": {
+      "n": 5,
+      "mean_pen_s2": -0.18539999999999993
+    }
+  },
+  "correlations": {
+    "pen_s2_vs_overall": 0.07723631775698099,
+    "last_s2_vs_overall": 0.0566656204377094
+  },
+  "top_pen_tokens": [
+    [
+      "night",
+      6
+    ],
+    [
+      "me",
+      5
+    ],
+    [
+      "more",
+      4
+    ],
+    [
+      "he",
+      4
+    ],
+    [
+      "s",
+      3
+    ],
+    [
+      "of",
+      3
+    ],
+    [
+      "air",
+      2
+    ],
+    [
+      ".\"",
+      2
+    ],
+    [
+      "survey",
+      2
+    ],
+    [
+      "time",
+      2
+    ],
+    [
+      "world",
+      2
+    ],
+    [
+      "explode",
+      2
+    ],
+    [
+      "again",
+      2
+    ],
+    [
+      "last",
+      2
+    ],
+    [
+      "it",
+      2
+    ],
+    [
+      "soul",
+      2
+    ],
+    [
+      "so",
+      2
+    ],
+    [
+      "sing",
+      2
+    ],
+    [
+      "men",
+      2
+    ],
+    [
+      "hands",
+      2
+    ],
+    [
+      "poems",
+      2
+    ],
+    [
+      "life",
+      2
+    ],
+    [
+      "on",
+      2
+    ],
+    [
+      "begun",
+      2
+    ],
+    [
+      "dead",
+      2
+    ],
+    [
+      "day",
+      2
+    ],
+    [
+      "you",
+      2
+    ],
+    [
+      "roads",
+      2
+    ],
+    [
+      "ed",
+      2
+    ],
+    [
+      "home",
+      2
+    ]
+  ],
+  "top_last_tokens": [
+    [
+      ".",
+      214
+    ],
+    [
+      "!",
+      21
+    ],
+    [
+      "?",
+      12
+    ],
+    [
+      ".\"",
+      6
+    ],
+    [
+      "\u2014",
+      4
+    ],
+    [
+      "",
+      3
+    ],
+    [
+      "\u2013",
+      2
+    ],
+    [
+      ".'",
+      2
+    ],
+    [
+      "!'",
+      2
+    ],
+    [
+      ":",
+      1
+    ],
+    [
+      ",",
+      1
+    ],
+    [
+      "seal",
+      1
+    ],
+    [
+      "by",
+      1
+    ],
+    [
+      "me",
+      1
+    ],
+    [
+      "magnitude",
+      1
+    ],
+    [
+      "death",
+      1
+    ],
+    [
+      "walls",
+      1
+    ],
+    [
+      "cold",
+      1
+    ],
+    [
+      "more",
+      1
+    ],
+    [
+      "!\"",
+      1
+    ],
+    [
+      "stopped",
+      1
+    ],
+    [
+      "io",
+      1
+    ],
+    [
+      "skies",
+      1
+    ],
+    [
+      "hands",
+      1
+    ],
+    [
+      "men",
+      1
+    ],
+    [
+      "sky",
+      1
+    ],
+    [
+      "day",
+      1
+    ],
+    [
+      "aks",
+      1
+    ],
+    [
+      "?'",
+      1
+    ],
+    [
+      "hum",
+      1
+    ]
+  ],
+  "top_penultimate_s2_poems": [
+    {
+      "title": "Remember",
+      "author": "Joy Harjo",
+      "era": "postcolonial",
+      "overall_s2": -0.4521236686390533,
+      "pen_s2": 18.0592,
+      "pen_h": 3.5625,
+      "last_s2": -1.8569,
+      "last_h": 4.3174,
+      "pen_minus_last": 19.9161,
+      "pen_above_overall": 18.511323668639054,
+      "pen_token": " poems",
+      "last_token": ".",
+      "pen_top_pred": ",",
+      "last_top_pred": ",",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Caedmon's Hymn (modern prose translation)",
+      "author": "Caedmon (trans. anon.)",
+      "era": "old_english",
+      "overall_s2": -0.025876315789473633,
+      "pen_s2": 13.5807,
+      "pen_h": 2.3528,
+      "last_s2": -2.144,
+      "last_h": 4.1482,
+      "pen_minus_last": 15.7247,
+      "pen_above_overall": 13.606576315789473,
+      "pen_token": " Almighty",
+      "last_token": ".",
+      "pen_top_pred": " of",
+      "last_top_pred": ",",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "To a Skylark (opening stanzas)",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "overall_s2": -0.3392267241379311,
+      "pen_s2": 11.0834,
+      "pen_h": 2.9213,
+      "last_s2": -1.3875,
+      "last_h": 2.2096,
+      "pen_minus_last": 12.470899999999999,
+      "pen_above_overall": 11.422626724137931,
+      "pen_token": " begun",
+      "last_token": ".",
+      "pen_top_pred": ".",
+      "last_top_pred": ".",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Rubaiyat of Omar Khayyam (stanzas 11\u201314)",
+      "author": "Omar Khayyam (trans. FitzGerald, 1859)",
+      "era": "persian",
+      "overall_s2": -0.2853375661375664,
+      "pen_s2": 10.6516,
+      "pen_h": 6.8613,
+      "last_s2": 1.1334,
+      "last_h": 4.4732,
+      "pen_minus_last": 9.5182,
+      "pen_above_overall": 10.936937566137567,
+      "pen_token": " throw",
+      "last_token": ".'",
+      "pen_top_pred": " of",
+      "last_top_pred": ",",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "London",
+      "author": "William Blake",
+      "era": "romantic",
+      "overall_s2": -0.3426326530612246,
+      "pen_s2": 10.5213,
+      "pen_h": 5.2591,
+      "last_s2": -2.0169,
+      "last_h": 7.0981,
+      "pen_minus_last": 12.5382,
+      "pen_above_overall": 10.863932653061225,
+      "pen_token": " Palace",
+      "last_token": " walls",
+      "pen_top_pred": " the",
+      "last_top_pred": " steps",
+      "pen_category": "content",
+      "last_category": "content"
+    },
+    {
+      "title": "Dream Song 14 (opening)",
+      "author": "John Berryman",
+      "era": "confessional",
+      "overall_s2": 0.4177084337349399,
+      "pen_s2": 10.4502,
+      "pen_h": 5.3304,
+      "last_s2": -2.733,
+      "last_h": 4.1527,
+      "pen_minus_last": 13.183200000000001,
+      "pen_above_overall": 10.03249156626506,
+      "pen_token": " bored",
+      "last_token": ".",
+      "pen_top_pred": ".",
+      "last_top_pred": ".",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Amoretti LXXV: One Day I Wrote Her Name",
+      "author": "Edmund Spenser",
+      "era": "early_modern",
+      "overall_s2": -0.25600602409638534,
+      "pen_s2": 10.4189,
+      "pen_h": 4.842,
+      "last_s2": -2.2315,
+      "last_h": 3.664,
+      "pen_minus_last": 12.650400000000001,
+      "pen_above_overall": 10.674906024096385,
+      "pen_token": " likewise",
+      "last_token": ".",
+      "pen_top_pred": ",",
+      "last_top_pred": ".",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "I Have Dreamed of You So Much",
+      "author": "Robert Desnos",
+      "era": "surrealist",
+      "overall_s2": -0.42970909090909104,
+      "pen_s2": 10.3761,
+      "pen_h": 9.8148,
+      "last_s2": -1.4679,
+      "last_h": 5.6566,
+      "pen_minus_last": 11.844,
+      "pen_above_overall": 10.80580909090909,
+      "pen_token": " balances",
+      "last_token": ".",
+      "pen_top_pred": ",",
+      "last_top_pred": ",",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Psalm 46:1-5 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "overall_s2": -0.6286681415929202,
+      "pen_s2": 10.2115,
+      "pen_h": 6.9407,
+      "last_s2": -2.1077,
+      "last_h": 5.901,
+      "pen_minus_last": 12.319199999999999,
+      "pen_above_overall": 10.840168141592919,
+      "pen_token": " early",
+      "last_token": ".",
+      "pen_top_pred": " hand",
+      "last_top_pred": " in",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Life Is a Journey (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "overall_s2": -0.7748714285714282,
+      "pen_s2": 9.4655,
+      "pen_h": 0.4755,
+      "last_s2": -1.3323,
+      "last_h": 1.675,
+      "pen_minus_last": 10.7978,
+      "pen_above_overall": 10.240371428571429,
+      "pen_token": " day",
+      "last_token": ".",
+      "pen_top_pred": " way",
+      "last_top_pred": ".",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "I'm Nobody! Who are you?",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "overall_s2": 0.6090666666666668,
+      "pen_s2": 9.3685,
+      "pen_h": 9.1799,
+      "last_s2": 2.2483,
+      "last_h": 7.033,
+      "pen_minus_last": 7.120199999999999,
+      "pen_above_overall": 8.759433333333332,
+      "pen_token": " Bog",
+      "last_token": "!",
+      "pen_top_pred": " audience",
+      "last_top_pred": "us",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Lady Lazarus (opening)",
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "overall_s2": -0.21351509433962257,
+      "pen_s2": 9.0522,
+      "pen_h": 6.0419,
+      "last_s2": -3.6732,
+      "last_h": 7.2533,
+      "pen_minus_last": 12.725399999999999,
+      "pen_above_overall": 9.265715094339622,
+      "pen_token": " linen",
+      "last_token": ".",
+      "pen_top_pred": "el",
+      "last_top_pred": ",",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Susie Asado",
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "overall_s2": -0.8934797619047623,
+      "pen_s2": 8.9587,
+      "pen_h": 8.1224,
+      "last_s2": -5.3655,
+      "last_h": 8.7157,
+      "pen_minus_last": 14.324200000000001,
+      "pen_above_overall": 9.852179761904763,
+      "pen_token": " jelly",
+      "last_token": ".",
+      "pen_top_pred": " be",
+      "last_top_pred": ".",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "You Are Old, Father William",
+      "author": "Lewis Carroll",
+      "era": "parody",
+      "overall_s2": -0.27759088235294116,
+      "pen_s2": 8.3146,
+      "pen_h": 4.9103,
+      "last_s2": -1.562,
+      "last_h": 4.4097,
+      "pen_minus_last": 9.8766,
+      "pen_above_overall": 8.592190882352941,
+      "pen_token": " downstairs",
+      "last_token": "!",
+      "pen_top_pred": " out",
+      "last_top_pred": ".",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Anecdote of the Jar",
+      "author": "Wallace Stevens",
+      "era": "modernist",
+      "overall_s2": 0.09771904761904758,
+      "pen_s2": 8.1351,
+      "pen_h": 4.074,
+      "last_s2": -1.6398,
+      "last_h": 2.472,
+      "pen_minus_last": 9.774899999999999,
+      "pen_above_overall": 8.037380952380952,
+      "pen_token": " air",
+      "last_token": ".",
+      "pen_top_pred": " the",
+      "last_top_pred": ".",
+      "pen_category": "content",
+      "last_category": "punct"
+    }
+  ],
+  "top_pen_minus_last_poems": [
+    {
+      "title": "Remember",
+      "author": "Joy Harjo",
+      "era": "postcolonial",
+      "overall_s2": -0.4521236686390533,
+      "pen_s2": 18.0592,
+      "pen_h": 3.5625,
+      "last_s2": -1.8569,
+      "last_h": 4.3174,
+      "pen_minus_last": 19.9161,
+      "pen_above_overall": 18.511323668639054,
+      "pen_token": " poems",
+      "last_token": ".",
+      "pen_top_pred": ",",
+      "last_top_pred": ",",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Caedmon's Hymn (modern prose translation)",
+      "author": "Caedmon (trans. anon.)",
+      "era": "old_english",
+      "overall_s2": -0.025876315789473633,
+      "pen_s2": 13.5807,
+      "pen_h": 2.3528,
+      "last_s2": -2.144,
+      "last_h": 4.1482,
+      "pen_minus_last": 15.7247,
+      "pen_above_overall": 13.606576315789473,
+      "pen_token": " Almighty",
+      "last_token": ".",
+      "pen_top_pred": " of",
+      "last_top_pred": ",",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Susie Asado",
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "overall_s2": -0.8934797619047623,
+      "pen_s2": 8.9587,
+      "pen_h": 8.1224,
+      "last_s2": -5.3655,
+      "last_h": 8.7157,
+      "pen_minus_last": 14.324200000000001,
+      "pen_above_overall": 9.852179761904763,
+      "pen_token": " jelly",
+      "last_token": ".",
+      "pen_top_pred": " be",
+      "last_top_pred": ".",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Dream Song 14 (opening)",
+      "author": "John Berryman",
+      "era": "confessional",
+      "overall_s2": 0.4177084337349399,
+      "pen_s2": 10.4502,
+      "pen_h": 5.3304,
+      "last_s2": -2.733,
+      "last_h": 4.1527,
+      "pen_minus_last": 13.183200000000001,
+      "pen_above_overall": 10.03249156626506,
+      "pen_token": " bored",
+      "last_token": ".",
+      "pen_top_pred": ".",
+      "last_top_pred": ".",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Lady Lazarus (opening)",
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "overall_s2": -0.21351509433962257,
+      "pen_s2": 9.0522,
+      "pen_h": 6.0419,
+      "last_s2": -3.6732,
+      "last_h": 7.2533,
+      "pen_minus_last": 12.725399999999999,
+      "pen_above_overall": 9.265715094339622,
+      "pen_token": " linen",
+      "last_token": ".",
+      "pen_top_pred": "el",
+      "last_top_pred": ",",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Amoretti LXXV: One Day I Wrote Her Name",
+      "author": "Edmund Spenser",
+      "era": "early_modern",
+      "overall_s2": -0.25600602409638534,
+      "pen_s2": 10.4189,
+      "pen_h": 4.842,
+      "last_s2": -2.2315,
+      "last_h": 3.664,
+      "pen_minus_last": 12.650400000000001,
+      "pen_above_overall": 10.674906024096385,
+      "pen_token": " likewise",
+      "last_token": ".",
+      "pen_top_pred": ",",
+      "last_top_pred": ".",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "London",
+      "author": "William Blake",
+      "era": "romantic",
+      "overall_s2": -0.3426326530612246,
+      "pen_s2": 10.5213,
+      "pen_h": 5.2591,
+      "last_s2": -2.0169,
+      "last_h": 7.0981,
+      "pen_minus_last": 12.5382,
+      "pen_above_overall": 10.863932653061225,
+      "pen_token": " Palace",
+      "last_token": " walls",
+      "pen_top_pred": " the",
+      "last_top_pred": " steps",
+      "pen_category": "content",
+      "last_category": "content"
+    },
+    {
+      "title": "To a Skylark (opening stanzas)",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "overall_s2": -0.3392267241379311,
+      "pen_s2": 11.0834,
+      "pen_h": 2.9213,
+      "last_s2": -1.3875,
+      "last_h": 2.2096,
+      "pen_minus_last": 12.470899999999999,
+      "pen_above_overall": 11.422626724137931,
+      "pen_token": " begun",
+      "last_token": ".",
+      "pen_top_pred": ".",
+      "last_top_pred": ".",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Psalm 46:1-5 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "overall_s2": -0.6286681415929202,
+      "pen_s2": 10.2115,
+      "pen_h": 6.9407,
+      "last_s2": -2.1077,
+      "last_h": 5.901,
+      "pen_minus_last": 12.319199999999999,
+      "pen_above_overall": 10.840168141592919,
+      "pen_token": " early",
+      "last_token": ".",
+      "pen_top_pred": " hand",
+      "last_top_pred": " in",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "I Have Dreamed of You So Much",
+      "author": "Robert Desnos",
+      "era": "surrealist",
+      "overall_s2": -0.42970909090909104,
+      "pen_s2": 10.3761,
+      "pen_h": 9.8148,
+      "last_s2": -1.4679,
+      "last_h": 5.6566,
+      "pen_minus_last": 11.844,
+      "pen_above_overall": 10.80580909090909,
+      "pen_token": " balances",
+      "last_token": ".",
+      "pen_top_pred": ",",
+      "last_top_pred": ",",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Life Is a Journey (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "overall_s2": -0.7748714285714282,
+      "pen_s2": 9.4655,
+      "pen_h": 0.4755,
+      "last_s2": -1.3323,
+      "last_h": 1.675,
+      "pen_minus_last": 10.7978,
+      "pen_above_overall": 10.240371428571429,
+      "pen_token": " day",
+      "last_token": ".",
+      "pen_top_pred": " way",
+      "last_top_pred": ".",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "You Are Old, Father William",
+      "author": "Lewis Carroll",
+      "era": "parody",
+      "overall_s2": -0.27759088235294116,
+      "pen_s2": 8.3146,
+      "pen_h": 4.9103,
+      "last_s2": -1.562,
+      "last_h": 4.4097,
+      "pen_minus_last": 9.8766,
+      "pen_above_overall": 8.592190882352941,
+      "pen_token": " downstairs",
+      "last_token": "!",
+      "pen_top_pred": " out",
+      "last_top_pred": ".",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Anecdote of the Jar",
+      "author": "Wallace Stevens",
+      "era": "modernist",
+      "overall_s2": 0.09771904761904758,
+      "pen_s2": 8.1351,
+      "pen_h": 4.074,
+      "last_s2": -1.6398,
+      "last_h": 2.472,
+      "pen_minus_last": 9.774899999999999,
+      "pen_above_overall": 8.037380952380952,
+      "pen_token": " air",
+      "last_token": ".",
+      "pen_top_pred": " the",
+      "last_top_pred": ".",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Rubaiyat of Omar Khayyam (stanzas 11\u201314)",
+      "author": "Omar Khayyam (trans. FitzGerald, 1859)",
+      "era": "persian",
+      "overall_s2": -0.2853375661375664,
+      "pen_s2": 10.6516,
+      "pen_h": 6.8613,
+      "last_s2": 1.1334,
+      "last_h": 4.4732,
+      "pen_minus_last": 9.5182,
+      "pen_above_overall": 10.936937566137567,
+      "pen_token": " throw",
+      "last_token": ".'",
+      "pen_top_pred": " of",
+      "last_top_pred": ",",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Natural Selection (Found Poem from Darwin, 1859)",
+      "author": "Charles Darwin (found text)",
+      "era": "found_poetry",
+      "overall_s2": -0.908577372262774,
+      "pen_s2": 7.4796,
+      "pen_h": 4.4891,
+      "last_s2": -1.9945,
+      "last_h": 2.976,
+      "pen_minus_last": 9.4741,
+      "pen_above_overall": 8.388177372262774,
+      "pen_token": " Art",
+      "last_token": ".",
+      "pen_top_pred": " man",
+      "last_top_pred": ".",
+      "pen_category": "content",
+      "last_category": "punct"
+    }
+  ],
+  "inverted_poems": [
+    {
+      "title": "Calypso",
+      "author": "Kamau Brathwaite",
+      "era": "postcolonial",
+      "overall_s2": -0.3070386046511626,
+      "pen_s2": -0.1241,
+      "pen_h": 0.1402,
+      "last_s2": 25.6548,
+      "last_h": 0.1923,
+      "pen_minus_last": -25.7789,
+      "pen_above_overall": 0.18293860465116263,
+      "pen_token": " ",
+      "last_token": " hum",
+      "pen_top_pred": " ",
+      "last_top_pred": " ",
+      "pen_category": "empty",
+      "last_category": "content"
+    },
+    {
+      "title": "Constantly Risking Absurdity",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "overall_s2": -0.1298153409090909,
+      "pen_s2": -2.1763,
+      "pen_h": 2.9324,
+      "last_s2": 10.6865,
+      "last_h": 3.8202,
+      "pen_minus_last": -12.8628,
+      "pen_above_overall": -2.046484659090909,
+      "pen_token": " of",
+      "last_token": " day",
+      "pen_top_pred": " of",
+      "last_top_pred": " the",
+      "pen_category": "function",
+      "last_category": "content"
+    },
+    {
+      "title": "The Wife of Usher's Well",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "overall_s2": -0.17734060150375947,
+      "pen_s2": -2.0613,
+      "pen_h": 3.9719,
+      "last_s2": 10.1284,
+      "last_h": 3.2997,
+      "pen_minus_last": -12.189699999999998,
+      "pen_above_overall": -1.8839593984962406,
+      "pen_token": ".\"",
+      "last_token": " ",
+      "pen_top_pred": ".\"",
+      "last_top_pred": "\n",
+      "pen_category": "punct",
+      "last_category": "empty"
+    },
+    {
+      "title": "In After Days (rondeau)",
+      "author": "Austin Dobson",
+      "era": "fixed_form",
+      "overall_s2": -0.7002189189189185,
+      "pen_s2": -3.1273,
+      "pen_h": 3.9219,
+      "last_s2": 8.4117,
+      "last_h": 3.7497,
+      "pen_minus_last": -11.539,
+      "pen_above_overall": -2.4270810810810817,
+      "pen_token": " days",
+      "last_token": "!",
+      "pen_top_pred": " days",
+      "last_top_pred": " when",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "The New Colossus",
+      "author": "Emma Lazarus",
+      "era": "protest_political",
+      "overall_s2": -0.8306754838709675,
+      "pen_s2": 1.3397,
+      "pen_h": 4.4245,
+      "last_s2": 10.8679,
+      "last_h": 2.9653,
+      "pen_minus_last": -9.5282,
+      "pen_above_overall": 2.1703754838709672,
+      "pen_token": "!\"",
+      "last_token": " ",
+      "pen_top_pred": ",",
+      "last_top_pred": "\n",
+      "pen_category": "punct",
+      "last_category": "empty"
+    },
+    {
+      "title": "We Wear the Mask",
+      "author": "Paul Laurence Dunbar",
+      "era": "victorian",
+      "overall_s2": -0.41444375000000006,
+      "pen_s2": -2.6924,
+      "pen_h": 3.0595,
+      "last_s2": 3.9854,
+      "last_h": 2.7786,
+      "pen_minus_last": -6.6777999999999995,
+      "pen_above_overall": -2.27795625,
+      "pen_token": " mask",
+      "last_token": ".",
+      "pen_top_pred": " mask",
+      "last_top_pred": " that",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "One Art",
+      "author": "Elizabeth Bishop",
+      "era": "mid_century",
+      "overall_s2": 0.17475666666666653,
+      "pen_s2": -0.2586,
+      "pen_h": 0.2931,
+      "last_s2": 6.2661,
+      "last_h": 0.3192,
+      "pen_minus_last": -6.5247,
+      "pen_above_overall": -0.4333566666666665,
+      "pen_token": " master",
+      "last_token": ".",
+      "pen_top_pred": " master",
+      "last_top_pred": ";",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "The Love Song of J. Alfred Prufrock (opening)",
+      "author": "T.S. Eliot",
+      "era": "modernist",
+      "overall_s2": -0.4788057971014493,
+      "pen_s2": -5.1265,
+      "pen_h": 6.1569,
+      "last_s2": 1.2928,
+      "last_h": 6.9513,
+      "pen_minus_last": -6.4193,
+      "pen_above_overall": -4.647694202898551,
+      "pen_token": "s",
+      "last_token": ":",
+      "pen_top_pred": "s",
+      "last_top_pred": ",",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "When I Heard the Learn'd Astronomer",
+      "author": "Walt Whitman",
+      "era": "romantic",
+      "overall_s2": 0.03873211009174289,
+      "pen_s2": -6.3954,
+      "pen_h": 9.9136,
+      "last_s2": -0.0733,
+      "last_h": 4.8366,
+      "pen_minus_last": -6.322100000000001,
+      "pen_above_overall": -6.434132110091744,
+      "pen_token": " stars",
+      "last_token": ".",
+      "pen_top_pred": " stars",
+      "last_top_pred": ",",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Tell all the truth but tell it slant",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "overall_s2": 0.5243094339622643,
+      "pen_s2": -4.389,
+      "pen_h": 10.167,
+      "last_s2": 1.9178,
+      "last_h": 5.7119,
+      "pen_minus_last": -6.3068,
+      "pen_above_overall": -4.913309433962264,
+      "pen_token": " blind",
+      "last_token": " \u2014",
+      "pen_top_pred": " a",
+      "last_top_pred": "\n",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Sir Patrick Spens",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "overall_s2": -0.2259102857142858,
+      "pen_s2": -6.13,
+      "pen_h": 8.4252,
+      "last_s2": -0.0836,
+      "last_h": 5.2913,
+      "pen_minus_last": -6.0464,
+      "pen_above_overall": -5.904089714285714,
+      "pen_token": " se",
+      "last_token": "!\"",
+      "pen_top_pred": " se",
+      "last_top_pred": "?\"",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "A Noiseless Patient Spider",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "overall_s2": 0.02902985074626868,
+      "pen_s2": -6.6487,
+      "pen_h": 8.2607,
+      "last_s2": -1.2008,
+      "last_h": 5.3216,
+      "pen_minus_last": -5.4479,
+      "pen_above_overall": -6.677729850746268,
+      "pen_token": " soul",
+      "last_token": ".",
+      "pen_top_pred": " soul",
+      "last_top_pred": " where",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "Gerontion",
+      "author": "T.S. Eliot",
+      "era": "dramatic_monologue",
+      "overall_s2": -0.5016760124610593,
+      "pen_s2": -5.4501,
+      "pen_h": 9.6,
+      "last_s2": -0.2483,
+      "last_h": 3.6689,
+      "pen_minus_last": -5.2017999999999995,
+      "pen_above_overall": -4.94842398753894,
+      "pen_token": " door",
+      "last_token": ".",
+      "pen_top_pred": " door",
+      "last_top_pred": ",",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "I Wandered Lonely as a Cloud",
+      "author": "William Wordsworth",
+      "era": "romantic",
+      "overall_s2": -0.6973196428571427,
+      "pen_s2": -5.0553,
+      "pen_h": 8.5402,
+      "last_s2": -0.3928,
+      "last_h": 2.5405,
+      "pen_minus_last": -4.6625,
+      "pen_above_overall": -4.357980357142857,
+      "pen_token": " breeze",
+      "last_token": ".",
+      "pen_top_pred": " breeze",
+      "last_top_pred": ",",
+      "pen_category": "content",
+      "last_category": "punct"
+    },
+    {
+      "title": "My Last Duchess (complete)",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "overall_s2": -0.29827827380952393,
+      "pen_s2": -3.1323,
+      "pen_h": 7.9409,
+      "last_s2": 1.4981,
+      "last_h": 3.9448,
+      "pen_minus_last": -4.6304,
+      "pen_above_overall": -2.834021726190476,
+      "pen_token": " me",
+      "last_token": "!",
+      "pen_top_pred": " the",
+      "last_top_pred": ".",
+      "pen_category": "function",
+      "last_category": "punct"
+    }
+  ],
+  "straussian_gap_examples": [
+    {
+      "title": "Remember",
+      "author": "Joy Harjo",
+      "era": "postcolonial",
+      "actual_pen": " poems",
+      "expected_pen": ",",
+      "actual_last": ".",
+      "expected_last": ",",
+      "pen_s2": 18.0592,
+      "last_s2": -1.8569
+    },
+    {
+      "title": "Caedmon's Hymn (modern prose translation)",
+      "author": "Caedmon (trans. anon.)",
+      "era": "old_english",
+      "actual_pen": " Almighty",
+      "expected_pen": " of",
+      "actual_last": ".",
+      "expected_last": ",",
+      "pen_s2": 13.5807,
+      "last_s2": -2.144
+    },
+    {
+      "title": "To a Skylark (opening stanzas)",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "actual_pen": " begun",
+      "expected_pen": ".",
+      "actual_last": ".",
+      "expected_last": ".",
+      "pen_s2": 11.0834,
+      "last_s2": -1.3875
+    },
+    {
+      "title": "Rubaiyat of Omar Khayyam (stanzas 11\u201314)",
+      "author": "Omar Khayyam (trans. FitzGerald, 1859)",
+      "era": "persian",
+      "actual_pen": " throw",
+      "expected_pen": " of",
+      "actual_last": ".'",
+      "expected_last": ",",
+      "pen_s2": 10.6516,
+      "last_s2": 1.1334
+    },
+    {
+      "title": "London",
+      "author": "William Blake",
+      "era": "romantic",
+      "actual_pen": " Palace",
+      "expected_pen": " the",
+      "actual_last": " walls",
+      "expected_last": " steps",
+      "pen_s2": 10.5213,
+      "last_s2": -2.0169
+    },
+    {
+      "title": "Dream Song 14 (opening)",
+      "author": "John Berryman",
+      "era": "confessional",
+      "actual_pen": " bored",
+      "expected_pen": ".",
+      "actual_last": ".",
+      "expected_last": ".",
+      "pen_s2": 10.4502,
+      "last_s2": -2.733
+    },
+    {
+      "title": "Amoretti LXXV: One Day I Wrote Her Name",
+      "author": "Edmund Spenser",
+      "era": "early_modern",
+      "actual_pen": " likewise",
+      "expected_pen": ",",
+      "actual_last": ".",
+      "expected_last": ".",
+      "pen_s2": 10.4189,
+      "last_s2": -2.2315
+    },
+    {
+      "title": "I Have Dreamed of You So Much",
+      "author": "Robert Desnos",
+      "era": "surrealist",
+      "actual_pen": " balances",
+      "expected_pen": ",",
+      "actual_last": ".",
+      "expected_last": ",",
+      "pen_s2": 10.3761,
+      "last_s2": -1.4679
+    },
+    {
+      "title": "Psalm 46:1-5 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "actual_pen": " early",
+      "expected_pen": " hand",
+      "actual_last": ".",
+      "expected_last": " in",
+      "pen_s2": 10.2115,
+      "last_s2": -2.1077
+    },
+    {
+      "title": "Life Is a Journey (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "actual_pen": " day",
+      "expected_pen": " way",
+      "actual_last": ".",
+      "expected_last": ".",
+      "pen_s2": 9.4655,
+      "last_s2": -1.3323
+    },
+    {
+      "title": "I'm Nobody! Who are you?",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "actual_pen": " Bog",
+      "expected_pen": " audience",
+      "actual_last": "!",
+      "expected_last": "us",
+      "pen_s2": 9.3685,
+      "last_s2": 2.2483
+    },
+    {
+      "title": "Lady Lazarus (opening)",
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "actual_pen": " linen",
+      "expected_pen": "el",
+      "actual_last": ".",
+      "expected_last": ",",
+      "pen_s2": 9.0522,
+      "last_s2": -3.6732
+    },
+    {
+      "title": "Susie Asado",
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "actual_pen": " jelly",
+      "expected_pen": " be",
+      "actual_last": ".",
+      "expected_last": ".",
+      "pen_s2": 8.9587,
+      "last_s2": -5.3655
+    },
+    {
+      "title": "You Are Old, Father William",
+      "author": "Lewis Carroll",
+      "era": "parody",
+      "actual_pen": " downstairs",
+      "expected_pen": " out",
+      "actual_last": "!",
+      "expected_last": ".",
+      "pen_s2": 8.3146,
+      "last_s2": -1.562
+    },
+    {
+      "title": "Anecdote of the Jar",
+      "author": "Wallace Stevens",
+      "era": "modernist",
+      "actual_pen": " air",
+      "expected_pen": " the",
+      "actual_last": ".",
+      "expected_last": ".",
+      "pen_s2": 8.1351,
+      "last_s2": -1.6398
+    }
+  ]
+}
