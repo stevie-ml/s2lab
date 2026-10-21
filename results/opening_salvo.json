@@ -1,0 +1,707 @@
+{
+  "n_poems": 289,
+  "opening_n_tokens": 15,
+  "corpus_level": {
+    "mean_opening_s2": 0.058682698961937715,
+    "mean_rest_s2": -0.5347371450260511,
+    "delta_opening_minus_rest": 0.5934198439879887,
+    "mean_opening_entropy": 7.055180622837374,
+    "mean_rest_entropy": 6.116880143865788,
+    "mean_opening_spike_rate": 0.21361014994233019,
+    "mean_rest_spike_rate": 0.14840268538242643,
+    "corr_opening_vs_overall_s2": 0.44344194873366255,
+    "corr_rest_vs_overall_s2": 0.872799119679663,
+    "corr_opening_vs_rest_entropy": 0.45007137329021674
+  },
+  "era_stats": {
+    "18th_century": {
+      "n": 7,
+      "mean_opening_s2": 0.8945380952380952,
+      "mean_rest_s2": -0.3790836924488127,
+      "opening_advantage": 1.273621787686908
+    },
+    "19th_century": {
+      "n": 13,
+      "mean_opening_s2": 0.819500512820513,
+      "mean_rest_s2": -0.2812971011033544,
+      "opening_advantage": 1.1007976139238673
+    },
+    "ancient": {
+      "n": 3,
+      "mean_opening_s2": 0.3209977777777779,
+      "mean_rest_s2": -0.2530910677506775,
+      "opening_advantage": 0.5740888455284554
+    },
+    "ballad": {
+      "n": 6,
+      "mean_opening_s2": 1.0037833333333335,
+      "mean_rest_s2": -0.5536333970921584,
+      "opening_advantage": 1.557416730425492
+    },
+    "beat": {
+      "n": 6,
+      "mean_opening_s2": 0.2506088888888889,
+      "mean_rest_s2": 0.2678845057985698,
+      "opening_advantage": -0.017275616909680935
+    },
+    "biblical": {
+      "n": 7,
+      "mean_opening_s2": -0.5716304761904761,
+      "mean_rest_s2": -0.5440657651013798,
+      "opening_advantage": -0.027564711089096305
+    },
+    "classical_chinese": {
+      "n": 4,
+      "mean_opening_s2": -0.42111833333333326,
+      "mean_rest_s2": -0.5213171096056304,
+      "opening_advantage": 0.10019877627229712
+    },
+    "cliche_control": {
+      "n": 3,
+      "mean_opening_s2": -0.6696799999999999,
+      "mean_rest_s2": -0.9151192399791777,
+      "opening_advantage": 0.24543923997917771
+    },
+    "concrete": {
+      "n": 2,
+      "mean_opening_s2": 0.024866666666666593,
+      "mean_rest_s2": -0.5172940625000001,
+      "opening_advantage": 0.5421607291666667
+    },
+    "confessional": {
+      "n": 6,
+      "mean_opening_s2": -0.19340111111111105,
+      "mean_rest_s2": -0.3968145853693838,
+      "opening_advantage": 0.20341347425827275
+    },
+    "contemporary": {
+      "n": 11,
+      "mean_opening_s2": 0.026135151515151556,
+      "mean_rest_s2": -0.44387759364554635,
+      "opening_advantage": 0.4700127451606979
+    },
+    "control": {
+      "n": 3,
+      "mean_opening_s2": -2.2027644444444445,
+      "mean_rest_s2": -1.4114732259570495,
+      "opening_advantage": -0.791291218487395
+    },
+    "double_dactyl": {
+      "n": 5,
+      "mean_opening_s2": -1.317656,
+      "mean_rest_s2": -0.7844145511393746,
+      "opening_advantage": -0.5332414488606253
+    },
+    "dramatic_monologue": {
+      "n": 7,
+      "mean_opening_s2": 0.1765257142857144,
+      "mean_rest_s2": -0.40715854221359704,
+      "opening_advantage": 0.5836842564993114
+    },
+    "early_modern": {
+      "n": 7,
+      "mean_opening_s2": 1.152684761904762,
+      "mean_rest_s2": -0.5987770578244145,
+      "opening_advantage": 1.7514618197291765
+    },
+    "elegy": {
+      "n": 6,
+      "mean_opening_s2": 0.7301866666666669,
+      "mean_rest_s2": -0.45586145594543465,
+      "opening_advantage": 1.1860481226121016
+    },
+    "fixed_form": {
+      "n": 8,
+      "mean_opening_s2": -0.1866316666666667,
+      "mean_rest_s2": -0.6595805835403198,
+      "opening_advantage": 0.4729489168736531
+    },
+    "found_poetry": {
+      "n": 7,
+      "mean_opening_s2": -0.5052619047619047,
+      "mean_rest_s2": -0.6313800503220683,
+      "opening_advantage": 0.12611814556016365
+    },
+    "german_expressionist": {
+      "n": 4,
+      "mean_opening_s2": 0.6286166666666665,
+      "mean_rest_s2": -0.2713807090707964,
+      "opening_advantage": 0.8999973757374629
+    },
+    "haiku": {
+      "n": 2,
+      "mean_opening_s2": -0.45561999999999997,
+      "mean_rest_s2": -0.6206369585253457,
+      "opening_advantage": 0.16501695852534576
+    },
+    "harlem_renaissance": {
+      "n": 6,
+      "mean_opening_s2": 0.19850222222222222,
+      "mean_rest_s2": -0.5878899307556753,
+      "opening_advantage": 0.7863921529778976
+    },
+    "imagist": {
+      "n": 2,
+      "mean_opening_s2": -0.1421066666666666,
+      "mean_rest_s2": -0.739569598583235,
+      "opening_advantage": 0.5974629319165684
+    },
+    "language": {
+      "n": 5,
+      "mean_opening_s2": 0.07771466666666657,
+      "mean_rest_s2": -0.5415687922566209,
+      "opening_advantage": 0.6192834589232875
+    },
+    "latin_american": {
+      "n": 3,
+      "mean_opening_s2": -0.4107955555555554,
+      "mean_rest_s2": -0.6346390720207772,
+      "opening_advantage": 0.22384351646522177
+    },
+    "limerick": {
+      "n": 10,
+      "mean_opening_s2": -0.33883133333333343,
+      "mean_rest_s2": -0.883576395894428,
+      "opening_advantage": 0.5447450625610946
+    },
+    "metaphysical": {
+      "n": 4,
+      "mean_opening_s2": -0.04420666666666653,
+      "mean_rest_s2": -0.6693267297498143,
+      "opening_advantage": 0.6251200630831478
+    },
+    "mid_century": {
+      "n": 3,
+      "mean_opening_s2": -0.45923333333333344,
+      "mean_rest_s2": -0.519447516835017,
+      "opening_advantage": 0.06021418350168356
+    },
+    "modernist": {
+      "n": 22,
+      "mean_opening_s2": -0.038025757575757664,
+      "mean_rest_s2": -0.5123039195724264,
+      "opening_advantage": 0.4742781619966687
+    },
+    "new_york_school": {
+      "n": 18,
+      "mean_opening_s2": 0.32858999999999994,
+      "mean_rest_s2": -0.8645988563342569,
+      "opening_advantage": 1.193188856334257
+    },
+    "old_english": {
+      "n": 4,
+      "mean_opening_s2": 0.04352500000000002,
+      "mean_rest_s2": -0.30369405469914307,
+      "opening_advantage": 0.3472190546991431
+    },
+    "oulipo": {
+      "n": 4,
+      "mean_opening_s2": 0.2524533333333332,
+      "mean_rest_s2": -0.28852806980906204,
+      "opening_advantage": 0.5409814031423952
+    },
+    "parody": {
+      "n": 4,
+      "mean_opening_s2": -0.16560666666666668,
+      "mean_rest_s2": -0.357918663822901,
+      "opening_advantage": 0.19231199715623432
+    },
+    "parody_original": {
+      "n": 3,
+      "mean_opening_s2": -0.21539111111111123,
+      "mean_rest_s2": -0.5714115804114657,
+      "opening_advantage": 0.35602046930035447
+    },
+    "persian": {
+      "n": 2,
+      "mean_opening_s2": 0.5924433333333334,
+      "mean_rest_s2": -0.3073217971070643,
+      "opening_advantage": 0.8997651304403977
+    },
+    "postcolonial": {
+      "n": 6,
+      "mean_opening_s2": 0.20291333333333328,
+      "mean_rest_s2": -0.5614729085284665,
+      "opening_advantage": 0.7643862418617998
+    },
+    "prose_poetry": {
+      "n": 12,
+      "mean_opening_s2": -0.33386666666666676,
+      "mean_rest_s2": -0.4972399209504647,
+      "opening_advantage": 0.16337325428379795
+    },
+    "protest_political": {
+      "n": 2,
+      "mean_opening_s2": -0.1677933333333333,
+      "mean_rest_s2": -0.7857187499999998,
+      "opening_advantage": 0.6179254166666666
+    },
+    "romantic": {
+      "n": 16,
+      "mean_opening_s2": 0.5824875,
+      "mean_rest_s2": -0.6273368671553932,
+      "opening_advantage": 1.2098243671553932
+    },
+    "song_lyrics": {
+      "n": 3,
+      "mean_opening_s2": -0.25423111111111113,
+      "mean_rest_s2": -0.6737471977215588,
+      "opening_advantage": 0.41951608661044765
+    },
+    "spoken_word": {
+      "n": 3,
+      "mean_opening_s2": -0.65392,
+      "mean_rest_s2": -0.5704795326340325,
+      "opening_advantage": -0.08344046736596744
+    },
+    "surrealist": {
+      "n": 8,
+      "mean_opening_s2": -0.042151666666666684,
+      "mean_rest_s2": -0.7143490943637709,
+      "opening_advantage": 0.6721974276971042
+    },
+    "victorian": {
+      "n": 23,
+      "mean_opening_s2": -0.10289333333333338,
+      "mean_rest_s2": -0.3408821502663422,
+      "opening_advantage": 0.23798881693300883
+    },
+    "war_poetry": {
+      "n": 3,
+      "mean_opening_s2": 0.7123733333333334,
+      "mean_rest_s2": -0.3824535113677394,
+      "opening_advantage": 1.094826844701073
+    }
+  },
+  "position_profile": {
+    "0": {
+      "mean_s2": -0.5785103806228374,
+      "mean_entropy": 11.14225709342559,
+      "n": 289
+    },
+    "1": {
+      "mean_s2": 0.49114809688581307,
+      "mean_entropy": 7.3738484429065725,
+      "n": 289
+    },
+    "2": {
+      "mean_s2": 0.37219861591695524,
+      "mean_entropy": 7.209634256055367,
+      "n": 289
+    },
+    "3": {
+      "mean_s2": 0.31352006920415243,
+      "mean_entropy": 7.1417750865051906,
+      "n": 289
+    },
+    "4": {
+      "mean_s2": 0.660995501730104,
+      "mean_entropy": 6.832313840830453,
+      "n": 289
+    },
+    "5": {
+      "mean_s2": 0.23982214532871976,
+      "mean_entropy": 6.57219930795848,
+      "n": 289
+    },
+    "6": {
+      "mean_s2": 0.1603650519031142,
+      "mean_entropy": 6.446783044982695,
+      "n": 289
+    },
+    "7": {
+      "mean_s2": 0.27834083044982716,
+      "mean_entropy": 6.416280276816613,
+      "n": 289
+    },
+    "8": {
+      "mean_s2": 0.011595155709342553,
+      "mean_entropy": 6.949906574394461,
+      "n": 289
+    },
+    "9": {
+      "mean_s2": -0.10385674740484431,
+      "mean_entropy": 6.687731833910034,
+      "n": 289
+    },
+    "10": {
+      "mean_s2": -0.07871937716262982,
+      "mean_entropy": 6.556907612456743,
+      "n": 289
+    },
+    "11": {
+      "mean_s2": -0.24871453287197237,
+      "mean_entropy": 6.647832179930794,
+      "n": 289
+    },
+    "12": {
+      "mean_s2": 0.00017820069204142335,
+      "mean_entropy": 6.649465397923874,
+      "n": 289
+    },
+    "13": {
+      "mean_s2": -0.5171152249134948,
+      "mean_entropy": 6.759946712802766,
+      "n": 289
+    },
+    "14": {
+      "mean_s2": -0.12100692041522497,
+      "mean_entropy": 6.440827681660897,
+      "n": 289
+    },
+    "15": {
+      "mean_s2": -0.9006761245674731,
+      "mean_entropy": 6.460173010380623,
+      "n": 289
+    },
+    "16": {
+      "mean_s2": -0.6397131487889272,
+      "mean_entropy": 6.4350411764705875,
+      "n": 289
+    },
+    "17": {
+      "mean_s2": -0.4328179930795849,
+      "mean_entropy": 6.408353979238756,
+      "n": 289
+    },
+    "18": {
+      "mean_s2": -0.28943771626297593,
+      "mean_entropy": 6.157876124567475,
+      "n": 289
+    },
+    "19": {
+      "mean_s2": -0.5242169550173004,
+      "mean_entropy": 6.3165114186851214,
+      "n": 289
+    },
+    "20": {
+      "mean_s2": -0.11787923875432525,
+      "mean_entropy": 6.39969757785467,
+      "n": 289
+    },
+    "21": {
+      "mean_s2": -0.4965266435986161,
+      "mean_entropy": 6.310682698961937,
+      "n": 289
+    },
+    "22": {
+      "mean_s2": -0.5390636678200688,
+      "mean_entropy": 6.469288927335638,
+      "n": 289
+    },
+    "23": {
+      "mean_s2": -0.5729975778546711,
+      "mean_entropy": 6.466892387543251,
+      "n": 289
+    },
+    "24": {
+      "mean_s2": -0.563953633217993,
+      "mean_entropy": 6.3571415224913475,
+      "n": 289
+    }
+  },
+  "top_opening_advantage": [
+    {
+      "title": "To a Mouse (closing stanzas)",
+      "author": "Robert Burns",
+      "era": "romantic",
+      "overall_s2": -0.26900762711864395,
+      "opening_s2": 3.7679266666666664,
+      "rest_s2": -0.8569106796116508,
+      "delta": 4.624837346278317,
+      "opening_entropy": 7.077719999999999,
+      "rest_entropy": 7.464624271844659,
+      "opening_spike_rate": 0.6,
+      "rest_spike_rate": 0.1650485436893204,
+      "n_opening": 15,
+      "n_rest": 103
+    },
+    {
+      "title": "Elegy Written in a Country Churchyard (opening)",
+      "author": "Thomas Gray",
+      "era": "elegy",
+      "overall_s2": -0.5166823863636363,
+      "opening_s2": 3.4930533333333336,
+      "rest_s2": -0.8902602484472047,
+      "delta": 4.383313581780539,
+      "opening_entropy": 7.448546666666667,
+      "rest_entropy": 7.330477018633541,
+      "opening_spike_rate": 0.5333333333333333,
+      "rest_spike_rate": 0.08695652173913043,
+      "n_opening": 15,
+      "n_rest": 161
+    },
+    {
+      "title": "Wet Casements",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "overall_s2": 0.1727447368421052,
+      "opening_s2": 3.5540466666666664,
+      "rest_s2": -0.6587229508196722,
+      "delta": 4.212769617486338,
+      "opening_entropy": 7.290359999999999,
+      "rest_entropy": 6.26795573770492,
+      "opening_spike_rate": 0.5333333333333333,
+      "rest_spike_rate": 0.08196721311475409,
+      "n_opening": 15,
+      "n_rest": 61
+    },
+    {
+      "title": "I Wandered Lonely as a Cloud",
+      "author": "William Wordsworth",
+      "era": "romantic",
+      "overall_s2": -0.6973196428571427,
+      "opening_s2": 2.274706666666667,
+      "rest_s2": -1.784646341463415,
+      "delta": 4.059353008130082,
+      "opening_entropy": 6.316680000000001,
+      "rest_entropy": 6.449317073170732,
+      "opening_spike_rate": 0.4,
+      "rest_spike_rate": 0.0,
+      "n_opening": 15,
+      "n_rest": 41
+    },
+    {
+      "title": "The Sleeper in the Valley",
+      "author": "Arthur Rimbaud",
+      "era": "surrealist",
+      "overall_s2": -0.8143811764705878,
+      "opening_s2": 2.5396533333333333,
+      "rest_s2": -1.138965161290323,
+      "delta": 3.6786184946236564,
+      "opening_entropy": 7.372086666666666,
+      "rest_entropy": 6.530656129032258,
+      "opening_spike_rate": 0.4,
+      "rest_spike_rate": 0.08387096774193549,
+      "n_opening": 15,
+      "n_rest": 155
+    },
+    {
+      "title": "anyone lived in a pretty how town",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "overall_s2": -0.01616041666666667,
+      "opening_s2": 3.0205466666666663,
+      "rest_s2": -0.5785135802469135,
+      "delta": 3.59906024691358,
+      "opening_entropy": 7.477233333333334,
+      "rest_entropy": 7.229572839506173,
+      "opening_spike_rate": 0.4666666666666667,
+      "rest_spike_rate": 0.2222222222222222,
+      "n_opening": 15,
+      "n_rest": 81
+    },
+    {
+      "title": "Kubla Khan (opening stanzas)",
+      "author": "Samuel Taylor Coleridge",
+      "era": "romantic",
+      "overall_s2": 0.09088148148148154,
+      "opening_s2": 3.360446666666667,
+      "rest_s2": -0.12422149122807032,
+      "delta": 3.484668157894737,
+      "opening_entropy": 6.508066666666666,
+      "rest_entropy": 6.919517982456144,
+      "opening_spike_rate": 0.3333333333333333,
+      "rest_spike_rate": 0.18859649122807018,
+      "n_opening": 15,
+      "n_rest": 228
+    },
+    {
+      "title": "Eunoia: Chapter A (excerpt)",
+      "author": "Christian B\u00f6k",
+      "era": "oulipo",
+      "overall_s2": 0.06329590163934415,
+      "opening_s2": 2.8909599999999998,
+      "rest_s2": -0.3331056074766354,
+      "delta": 3.224065607476635,
+      "opening_entropy": 7.3110599999999994,
+      "rest_entropy": 7.025562616822428,
+      "opening_spike_rate": 0.4666666666666667,
+      "rest_spike_rate": 0.18691588785046728,
+      "n_opening": 15,
+      "n_rest": 107
+    },
+    {
+      "title": "Whereas (excerpt)",
+      "author": "Layli Long Soldier",
+      "era": "contemporary",
+      "overall_s2": 0.15876315789473675,
+      "opening_s2": 2.4949333333333334,
+      "rest_s2": -0.6755833333333333,
+      "delta": 3.170516666666667,
+      "opening_entropy": 7.302499999999998,
+      "rest_entropy": 6.748166666666667,
+      "opening_spike_rate": 0.3333333333333333,
+      "rest_spike_rate": 0.16666666666666666,
+      "n_opening": 15,
+      "n_rest": 42
+    },
+    {
+      "title": "They Flee from Me",
+      "author": "Thomas Wyatt",
+      "era": "early_modern",
+      "overall_s2": 0.17780749999999995,
+      "opening_s2": 3.0960666666666667,
+      "rest_s2": -0.05880810810810813,
+      "delta": 3.154874774774775,
+      "opening_entropy": 7.150266666666667,
+      "rest_entropy": 6.818321621621622,
+      "opening_spike_rate": 0.4666666666666667,
+      "rest_spike_rate": 0.21081081081081082,
+      "n_opening": 15,
+      "n_rest": 185
+    }
+  ],
+  "top_rest_advantage": [
+    {
+      "title": "Deer Park (literal trans.)",
+      "author": "Wang Wei",
+      "era": "classical_chinese",
+      "overall_s2": -0.9864124999999997,
+      "opening_s2": -2.6675400000000002,
+      "rest_s2": 0.4969352941176471,
+      "delta": -3.1644752941176475,
+      "opening_entropy": 8.613660000000003,
+      "rest_entropy": 6.143258823529412,
+      "opening_spike_rate": 0.06666666666666667,
+      "rest_spike_rate": 0.29411764705882354,
+      "n_opening": 15,
+      "n_rest": 17
+    },
+    {
+      "title": "Susie Asado",
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "overall_s2": -0.8934797619047623,
+      "opening_s2": -2.61758,
+      "rest_s2": -0.5186753623188405,
+      "delta": -2.0989046376811595,
+      "opening_entropy": 7.8934066666666665,
+      "rest_entropy": 6.679024637681162,
+      "opening_spike_rate": 0.0,
+      "rest_spike_rate": 0.18840579710144928,
+      "n_opening": 15,
+      "n_rest": 69
+    },
+    {
+      "title": "Why I Am Not a Painter",
+      "author": "Frank O'Hara",
+      "era": "new_york_school",
+      "overall_s2": -0.16883229166666688,
+      "opening_s2": -1.8088933333333335,
+      "rest_s2": 0.1348827160493828,
+      "delta": -1.9437760493827163,
+      "opening_entropy": 6.008046666666667,
+      "rest_entropy": 5.245424691358025,
+      "opening_spike_rate": 0.0,
+      "rest_spike_rate": 0.18518518518518517,
+      "n_opening": 15,
+      "n_rest": 81
+    },
+    {
+      "title": "On My First Son",
+      "author": "Ben Jonson",
+      "era": "elegy",
+      "overall_s2": -0.18330748299319727,
+      "opening_s2": -1.8787133333333335,
+      "rest_s2": 0.009352272727272825,
+      "delta": -1.8880656060606062,
+      "opening_entropy": 7.899673333333335,
+      "rest_entropy": 6.825875757575756,
+      "opening_spike_rate": 0.0,
+      "rest_spike_rate": 0.21212121212121213,
+      "n_opening": 15,
+      "n_rest": 132
+    },
+    {
+      "title": "Walking Around",
+      "author": "Pablo Neruda",
+      "era": "surrealist",
+      "overall_s2": -0.13214358974358986,
+      "opening_s2": -1.7729666666666668,
+      "rest_s2": 0.0045916666666665,
+      "delta": -1.7775583333333334,
+      "opening_entropy": 6.588066666666668,
+      "rest_entropy": 5.249660000000003,
+      "opening_spike_rate": 0.13333333333333333,
+      "rest_spike_rate": 0.19444444444444445,
+      "n_opening": 15,
+      "n_rest": 180
+    },
+    {
+      "title": "Dream Song 14 (opening)",
+      "author": "John Berryman",
+      "era": "confessional",
+      "overall_s2": 0.4177084337349399,
+      "opening_s2": -1.0229533333333334,
+      "rest_s2": 0.7355014705882356,
+      "delta": -1.7584548039215688,
+      "opening_entropy": 6.660539999999999,
+      "rest_entropy": 6.2472338235294105,
+      "opening_spike_rate": 0.13333333333333333,
+      "rest_spike_rate": 0.25,
+      "n_opening": 15,
+      "n_rest": 68
+    },
+    {
+      "title": "Sonnet 18 (Shall I compare thee)",
+      "author": "William Shakespeare",
+      "era": "victorian",
+      "overall_s2": -0.5681658064516131,
+      "opening_s2": -2.0521200000000004,
+      "rest_s2": -0.40917071428571417,
+      "delta": -1.6429492857142862,
+      "opening_entropy": 7.047780000000001,
+      "rest_entropy": 6.8116342857142875,
+      "opening_spike_rate": 0.06666666666666667,
+      "rest_spike_rate": 0.12857142857142856,
+      "n_opening": 15,
+      "n_rest": 140
+    },
+    {
+      "title": "Technical prose",
+      "author": "Control",
+      "era": "control",
+      "overall_s2": -1.7607312499999996,
+      "opening_s2": -2.6113933333333335,
+      "rest_s2": -1.0101470588235293,
+      "delta": -1.6012462745098042,
+      "opening_entropy": 6.612353333333333,
+      "rest_entropy": 4.627282352941177,
+      "opening_spike_rate": 0.0,
+      "rest_spike_rate": 0.11764705882352941,
+      "n_opening": 15,
+      "n_rest": 17
+    },
+    {
+      "title": "The Oxen",
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "overall_s2": 0.10425352112676058,
+      "opening_s2": -1.2810000000000001,
+      "rest_s2": 0.26786614173228324,
+      "delta": -1.5488661417322833,
+      "opening_entropy": 7.714693333333332,
+      "rest_entropy": 6.160630708661416,
+      "opening_spike_rate": 0.2,
+      "rest_spike_rate": 0.1889763779527559,
+      "n_opening": 15,
+      "n_rest": 127
+    },
+    {
+      "title": "There Was an Old Man of Nantucket",
+      "author": "Anonymous (limerick tradition)",
+      "era": "limerick",
+      "overall_s2": -1.2176177777777781,
+      "opening_s2": -2.198733333333334,
+      "rest_s2": -0.7270599999999999,
+      "delta": -1.4716733333333343,
+      "opening_entropy": 6.543386666666667,
+      "rest_entropy": 6.198963333333333,
+      "opening_spike_rate": 0.06666666666666667,
+      "rest_spike_rate": 0.16666666666666666,
+      "n_opening": 15,
+      "n_rest": 30
+    }
+  ]
+}
