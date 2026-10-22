@@ -1,0 +1,434 @@
+{
+  "n": 311,
+  "mean_centroid": 0.46193600941487417,
+  "median_centroid": 0.47035164210688735,
+  "stdev_centroid": 0.07761917540245857,
+  "corr_centroid_s2": -0.02326724938400494,
+  "front_loaded": [
+    [
+      "silencio",
+      "Eugen Gomringer",
+      0.048
+    ],
+    [
+      "I Wandered Lonely as a Cloud",
+      "William Wordsworth",
+      0.204
+    ],
+    [
+      "The Red Wheelbarrow",
+      "William Carlos Williams",
+      0.23
+    ],
+    [
+      "There Once Was a Man from Peru",
+      "Anonymous (limerick tradition)",
+      0.239
+    ],
+    [
+      "The Emperor of Ice-Cream",
+      "Wallace Stevens",
+      0.255
+    ],
+    [
+      "I felt a Funeral, in my Brain",
+      "Emily Dickinson",
+      0.256
+    ],
+    [
+      "Temple Bells (Buson, translated)",
+      "Yosa Buson",
+      0.282
+    ],
+    [
+      "My Life (excerpt)",
+      "Lyn Hejinian",
+      0.293
+    ],
+    [
+      "This Is Just to Say",
+      "William Carlos Williams",
+      0.308
+    ],
+    [
+      "Whereas (excerpt)",
+      "Layli Long Soldier",
+      0.311
+    ]
+  ],
+  "back_loaded": [
+    [
+      "Technical prose",
+      "Control",
+      0.675
+    ],
+    [
+      "The Colonel (excerpt)",
+      "Carolyn Forch\u00e9",
+      0.671
+    ],
+    [
+      "Night Sky with Exit Wounds (excerpt)",
+      "Ocean Vuong",
+      0.654
+    ],
+    [
+      "Three Haiku (Issa, translated)",
+      "Kobayashi Issa",
+      0.639
+    ],
+    [
+      "There Was an Old Person of Ware",
+      "Edward Lear",
+      0.635
+    ],
+    [
+      "The World of Dew (Issa, translated)",
+      "Kobayashi Issa",
+      0.626
+    ],
+    [
+      "l(a",
+      "E.E. Cummings",
+      0.617
+    ],
+    [
+      "Daddy (opening)",
+      "Sylvia Plath",
+      0.602
+    ],
+    [
+      "Old Pond (Bash\u014d, translated)",
+      "Matsuo Bash\u014d",
+      0.601
+    ],
+    [
+      "One Art",
+      "Elizabeth Bishop",
+      0.601
+    ]
+  ],
+  "by_length_class": {
+    "long (250\u2013499)": {
+      "n": 17,
+      "mean": 0.4907,
+      "stdev": 0.048
+    },
+    "medium (120\u2013249)": {
+      "n": 119,
+      "mean": 0.4693,
+      "stdev": 0.0458
+    },
+    "short (50\u2013119)": {
+      "n": 121,
+      "mean": 0.4519,
+      "stdev": 0.081
+    },
+    "very_long (500+)": {
+      "n": 2,
+      "mean": 0.4912,
+      "stdev": 0.0181
+    },
+    "very_short (<50)": {
+      "n": 52,
+      "mean": 0.458,
+      "stdev": 0.1222
+    }
+  },
+  "by_era": {
+    "concrete": {
+      "n": 3,
+      "mean": 0.3324,
+      "stdev": 0.2843,
+      "front": 0.6667,
+      "back": 0.3333
+    },
+    "ballad": {
+      "n": 6,
+      "mean": 0.4039,
+      "stdev": 0.0536,
+      "front": 0.5,
+      "back": 0.0
+    },
+    "new_york_school": {
+      "n": 18,
+      "mean": 0.4144,
+      "stdev": 0.0734,
+      "front": 0.4444,
+      "back": 0.0
+    },
+    "harlem_renaissance": {
+      "n": 6,
+      "mean": 0.4196,
+      "stdev": 0.0658,
+      "front": 0.5,
+      "back": 0.0
+    },
+    "ancient": {
+      "n": 3,
+      "mean": 0.4269,
+      "stdev": 0.0425,
+      "front": 0.3333,
+      "back": 0.0
+    },
+    "modernist": {
+      "n": 25,
+      "mean": 0.4362,
+      "stdev": 0.0903,
+      "front": 0.28,
+      "back": 0.0
+    },
+    "surrealist": {
+      "n": 8,
+      "mean": 0.4388,
+      "stdev": 0.0531,
+      "front": 0.125,
+      "back": 0.0
+    },
+    "clerihew": {
+      "n": 5,
+      "mean": 0.44,
+      "stdev": 0.0706,
+      "front": 0.2,
+      "back": 0.0
+    },
+    "19th_century": {
+      "n": 13,
+      "mean": 0.4443,
+      "stdev": 0.0746,
+      "front": 0.1538,
+      "back": 0.0
+    },
+    "fixed_form": {
+      "n": 8,
+      "mean": 0.4476,
+      "stdev": 0.067,
+      "front": 0.25,
+      "back": 0.0
+    },
+    "german_expressionist": {
+      "n": 4,
+      "mean": 0.4499,
+      "stdev": 0.0399,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "elegy": {
+      "n": 6,
+      "mean": 0.4503,
+      "stdev": 0.0473,
+      "front": 0.1667,
+      "back": 0.0
+    },
+    "language": {
+      "n": 5,
+      "mean": 0.4506,
+      "stdev": 0.1133,
+      "front": 0.2,
+      "back": 0.0
+    },
+    "song_lyrics": {
+      "n": 3,
+      "mean": 0.4519,
+      "stdev": 0.0917,
+      "front": 0.3333,
+      "back": 0.0
+    },
+    "romantic": {
+      "n": 16,
+      "mean": 0.4532,
+      "stdev": 0.0804,
+      "front": 0.125,
+      "back": 0.0
+    },
+    "limerick": {
+      "n": 10,
+      "mean": 0.4576,
+      "stdev": 0.1027,
+      "front": 0.2,
+      "back": 0.1
+    },
+    "haiku": {
+      "n": 13,
+      "mean": 0.4616,
+      "stdev": 0.1116,
+      "front": 0.3846,
+      "back": 0.2308
+    },
+    "metaphysical": {
+      "n": 4,
+      "mean": 0.4618,
+      "stdev": 0.0674,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "contemporary": {
+      "n": 11,
+      "mean": 0.4633,
+      "stdev": 0.098,
+      "front": 0.1818,
+      "back": 0.0909
+    },
+    "postcolonial": {
+      "n": 6,
+      "mean": 0.4683,
+      "stdev": 0.0304,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "18th_century": {
+      "n": 7,
+      "mean": 0.4692,
+      "stdev": 0.0215,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "dramatic_monologue": {
+      "n": 7,
+      "mean": 0.4696,
+      "stdev": 0.0281,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "oulipo": {
+      "n": 4,
+      "mean": 0.4738,
+      "stdev": 0.0592,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "victorian": {
+      "n": 23,
+      "mean": 0.4757,
+      "stdev": 0.0462,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "biblical": {
+      "n": 7,
+      "mean": 0.4784,
+      "stdev": 0.0505,
+      "front": 0.1429,
+      "back": 0.0
+    },
+    "cliche_control": {
+      "n": 3,
+      "mean": 0.4815,
+      "stdev": 0.0362,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "prose_poetry": {
+      "n": 12,
+      "mean": 0.4836,
+      "stdev": 0.0753,
+      "front": 0.0833,
+      "back": 0.0833
+    },
+    "war_poetry": {
+      "n": 3,
+      "mean": 0.4877,
+      "stdev": 0.0147,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "early_modern": {
+      "n": 7,
+      "mean": 0.4877,
+      "stdev": 0.0411,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "imagist": {
+      "n": 3,
+      "mean": 0.4886,
+      "stdev": 0.0901,
+      "front": 0.3333,
+      "back": 0.0
+    },
+    "latin_american": {
+      "n": 3,
+      "mean": 0.4927,
+      "stdev": 0.0764,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "parody": {
+      "n": 4,
+      "mean": 0.4941,
+      "stdev": 0.0746,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "classical_chinese": {
+      "n": 4,
+      "mean": 0.4942,
+      "stdev": 0.092,
+      "front": 0.25,
+      "back": 0.0
+    },
+    "found_poetry": {
+      "n": 7,
+      "mean": 0.4981,
+      "stdev": 0.0399,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "old_english": {
+      "n": 4,
+      "mean": 0.502,
+      "stdev": 0.0669,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "parody_original": {
+      "n": 3,
+      "mean": 0.5074,
+      "stdev": 0.0679,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "mid_century": {
+      "n": 3,
+      "mean": 0.51,
+      "stdev": 0.0794,
+      "front": 0.0,
+      "back": 0.3333
+    },
+    "spoken_word": {
+      "n": 3,
+      "mean": 0.5133,
+      "stdev": 0.051,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "double_dactyl": {
+      "n": 5,
+      "mean": 0.5164,
+      "stdev": 0.056,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "beat": {
+      "n": 6,
+      "mean": 0.5166,
+      "stdev": 0.05,
+      "front": 0.0,
+      "back": 0.0
+    },
+    "confessional": {
+      "n": 6,
+      "mean": 0.5286,
+      "stdev": 0.0577,
+      "front": 0.0,
+      "back": 0.3333
+    },
+    "control": {
+      "n": 3,
+      "mean": 0.5659,
+      "stdev": 0.0955,
+      "front": 0.0,
+      "back": 0.3333
+    }
+  }
+}
