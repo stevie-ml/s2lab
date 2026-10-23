@@ -1,0 +1,254 @@
+{
+  "n_texts": 328,
+  "n_pairs": 40205,
+  "overall": {
+    "r_s2_ent_next": -0.1307,
+    "partial_r_s2_ent_next_given_ent_t": -0.1252
+  },
+  "conditional": {
+    "low_entropy_context": {
+      "n": 8595,
+      "mean_ent_t": 2.2121,
+      "r_raw": 0.0544,
+      "partial_r": 0.0941,
+      "mean_ent1_after_pos_s2": 5.8655,
+      "mean_ent1_after_neg_s2": 4.6319,
+      "n_pos_s2": 1196,
+      "n_neg_s2": 6845
+    },
+    "mid_entropy_context": {
+      "n": 14530,
+      "mean_ent_t": 5.6275,
+      "r_raw": -0.1405,
+      "partial_r": -0.1401,
+      "mean_ent1_after_pos_s2": 5.8466,
+      "mean_ent1_after_neg_s2": 6.5695,
+      "n_pos_s2": 3089,
+      "n_neg_s2": 9633
+    },
+    "high_entropy_context": {
+      "n": 17080,
+      "mean_ent_t": 8.7739,
+      "r_raw": -0.2094,
+      "partial_r": -0.2093,
+      "mean_ent1_after_pos_s2": 6.0043,
+      "mean_ent1_after_neg_s2": 7.0239,
+      "n_pos_s2": 4147,
+      "n_neg_s2": 10015
+    }
+  },
+  "era_partial_correlations": {
+    "romantic": {
+      "n": 2464,
+      "partial_r": -0.1864
+    },
+    "19th_century": {
+      "n": 1747,
+      "partial_r": -0.1412
+    },
+    "modernist": {
+      "n": 2764,
+      "partial_r": -0.0651
+    },
+    "beat": {
+      "n": 1042,
+      "partial_r": 0.1028
+    },
+    "confessional": {
+      "n": 391,
+      "partial_r": -0.1441
+    },
+    "mid_century": {
+      "n": 243,
+      "partial_r": -0.152
+    },
+    "new_york_school": {
+      "n": 1412,
+      "partial_r": -0.2115
+    },
+    "language": {
+      "n": 375,
+      "partial_r": -0.1002
+    },
+    "contemporary": {
+      "n": 1046,
+      "partial_r": -0.1228
+    },
+    "harlem_renaissance": {
+      "n": 683,
+      "partial_r": -0.1628
+    },
+    "oulipo": {
+      "n": 484,
+      "partial_r": -0.0448
+    },
+    "surrealist": {
+      "n": 1094,
+      "partial_r": -0.1873
+    },
+    "deep_image": {
+      "n": 60,
+      "partial_r": -0.3281
+    },
+    "control": {
+      "n": 158,
+      "partial_r": -0.2789
+    },
+    "german_symbolist": {
+      "n": 353,
+      "partial_r": -0.0758
+    },
+    "german_expressionist": {
+      "n": 775,
+      "partial_r": -0.2425
+    },
+    "german_modernist": {
+      "n": 232,
+      "partial_r": -0.2871
+    },
+    "victorian": {
+      "n": 3848,
+      "partial_r": -0.1378
+    },
+    "haiku": {
+      "n": 279,
+      "partial_r": -0.0931
+    },
+    "ancient": {
+      "n": 315,
+      "partial_r": -0.2506
+    },
+    "prose_poetry": {
+      "n": 1396,
+      "partial_r": -0.1029
+    },
+    "ballad": {
+      "n": 909,
+      "partial_r": 0.1508
+    },
+    "song_lyrics": {
+      "n": 538,
+      "partial_r": 0.0058
+    },
+    "nursery_rhyme": {
+      "n": 221,
+      "partial_r": -0.1629
+    },
+    "metaphysical": {
+      "n": 529,
+      "partial_r": -0.2373
+    },
+    "early_modern": {
+      "n": 1223,
+      "partial_r": -0.1545
+    },
+    "spoken_word": {
+      "n": 283,
+      "partial_r": -0.0597
+    },
+    "found_poetry": {
+      "n": 945,
+      "partial_r": -0.1502
+    },
+    "fixed_form": {
+      "n": 850,
+      "partial_r": -0.0382
+    },
+    "cliche_control": {
+      "n": 330,
+      "partial_r": -0.1942
+    },
+    "18th_century": {
+      "n": 1189,
+      "partial_r": -0.1397
+    },
+    "biblical": {
+      "n": 876,
+      "partial_r": -0.1618
+    },
+    "concrete": {
+      "n": 114,
+      "partial_r": 0.2469
+    },
+    "latin_american": {
+      "n": 349,
+      "partial_r": -0.1073
+    },
+    "black_arts": {
+      "n": 143,
+      "partial_r": -0.0473
+    },
+    "korean_modernist": {
+      "n": 101,
+      "partial_r": -0.0083
+    },
+    "imagist": {
+      "n": 261,
+      "partial_r": -0.216
+    },
+    "parody_original": {
+      "n": 440,
+      "partial_r": -0.1169
+    },
+    "parody": {
+      "n": 665,
+      "partial_r": -0.1584
+    },
+    "classical_chinese": {
+      "n": 234,
+      "partial_r": -0.2676
+    },
+    "persian": {
+      "n": 380,
+      "partial_r": -0.1331
+    },
+    "japanese_classical": {
+      "n": 57,
+      "partial_r": -0.1219
+    },
+    "limerick": {
+      "n": 416,
+      "partial_r": -0.0454
+    },
+    "old_english": {
+      "n": 414,
+      "partial_r": -0.2522
+    },
+    "protest_political": {
+      "n": 248,
+      "partial_r": -0.2106
+    },
+    "ghazal": {
+      "n": 119,
+      "partial_r": -0.3402
+    },
+    "war_poetry": {
+      "n": 636,
+      "partial_r": -0.2415
+    },
+    "postcolonial": {
+      "n": 983,
+      "partial_r": -0.0968
+    },
+    "dramatic_monologue": {
+      "n": 2561,
+      "partial_r": -0.19
+    },
+    "elegy": {
+      "n": 933,
+      "partial_r": -0.2095
+    },
+    "clerihew": {
+      "n": 114,
+      "partial_r": -0.1097
+    },
+    "double_dactyl": {
+      "n": 243,
+      "partial_r": -0.0538
+    },
+    "ekphrastic": {
+      "n": 1740,
+      "partial_r": -0.1814
+    }
+  }
+}

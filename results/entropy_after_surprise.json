@@ -1,0 +1,545 @@
+{
+  "n_texts": 328,
+  "n_pairs": 40205,
+  "bins": {
+    "very_negative": {
+      "n": 9420,
+      "s2_range": [
+        -Infinity,
+        -3.0
+      ],
+      "mean_entropy_next": 7.1318,
+      "median_entropy_next": 7.5314,
+      "mean_s2_next": -0.4471,
+      "mean_entropy_now": 7.159
+    },
+    "negative": {
+      "n": 17073,
+      "s2_range": [
+        -3.0,
+        0.0
+      ],
+      "mean_entropy_next": 5.749,
+      "median_entropy_next": 6.0429,
+      "mean_s2_next": -0.3787,
+      "mean_entropy_now": 5.1777
+    },
+    "low_positive": {
+      "n": 5280,
+      "s2_range": [
+        0.0,
+        2.0
+      ],
+      "mean_entropy_next": 6.2681,
+      "median_entropy_next": 6.4013,
+      "mean_s2_next": -0.4273,
+      "mean_entropy_now": 7.1932
+    },
+    "mid_positive": {
+      "n": 4848,
+      "s2_range": [
+        2.0,
+        5.0
+      ],
+      "mean_entropy_next": 6.0625,
+      "median_entropy_next": 6.1736,
+      "mean_s2_next": -0.4327,
+      "mean_entropy_now": 7.1213
+    },
+    "high_positive": {
+      "n": 2921,
+      "s2_range": [
+        5.0,
+        10.0
+      ],
+      "mean_entropy_next": 5.73,
+      "median_entropy_next": 5.8549,
+      "mean_s2_next": -0.2944,
+      "mean_entropy_now": 6.538
+    },
+    "extreme": {
+      "n": 663,
+      "s2_range": [
+        10.0,
+        Infinity
+      ],
+      "mean_entropy_next": 5.8027,
+      "median_entropy_next": 5.9209,
+      "mean_s2_next": -0.2469,
+      "mean_entropy_now": 4.8267
+    }
+  },
+  "correlations": {
+    "r_s2_entropy_next": -0.1307,
+    "r_s2_s2_next": 0.0109,
+    "r_entropy_entropy_next": 0.2537
+  },
+  "conservation": {
+    "r_first_second_half": 0.2147,
+    "n_poems": 328,
+    "back_loaded_examples": [
+      {
+        "title": "How Doth the Little Crocodile",
+        "era": "parody",
+        "first_half_s2": -1.253,
+        "second_half_s2": 0.515,
+        "asymmetry": 1.768
+      },
+      {
+        "title": "Bluebird",
+        "era": "spoken_word",
+        "first_half_s2": -1.312,
+        "second_half_s2": 0.487,
+        "asymmetry": 1.799
+      },
+      {
+        "title": "Academic prose",
+        "era": "control",
+        "first_half_s2": -3.308,
+        "second_half_s2": -1.483,
+        "asymmetry": 1.824
+      },
+      {
+        "title": "The Colonel (excerpt)",
+        "era": "prose_poetry",
+        "first_half_s2": -1.233,
+        "second_half_s2": 0.639,
+        "asymmetry": 1.872
+      },
+      {
+        "title": "The Truth the Dead Know (excerpt)",
+        "era": "confessional",
+        "first_half_s2": -1.313,
+        "second_half_s2": 0.57,
+        "asymmetry": 1.883
+      },
+      {
+        "title": "Technical prose",
+        "era": "control",
+        "first_half_s2": -2.709,
+        "second_half_s2": -0.813,
+        "asymmetry": 1.896
+      },
+      {
+        "title": "Charlotte Mew",
+        "era": "clerihew",
+        "first_half_s2": -0.998,
+        "second_half_s2": 1.145,
+        "asymmetry": 2.143
+      },
+      {
+        "title": "Cicadas (Bash\u014d, translated)",
+        "era": "haiku",
+        "first_half_s2": -2.252,
+        "second_half_s2": 0.193,
+        "asymmetry": 2.445
+      },
+      {
+        "title": "Summer Grass (Bash\u014d, translated)",
+        "era": "haiku",
+        "first_half_s2": -1.611,
+        "second_half_s2": 0.984,
+        "asymmetry": 2.595
+      },
+      {
+        "title": "Deer Park (literal trans.)",
+        "era": "classical_chinese",
+        "first_half_s2": -2.755,
+        "second_half_s2": 0.782,
+        "asymmetry": 3.537
+      }
+    ],
+    "front_loaded_examples": [
+      {
+        "title": "The Red Wheelbarrow",
+        "era": "modernist",
+        "first_half_s2": 1.507,
+        "second_half_s2": -1.797,
+        "asymmetry": -3.304
+      },
+      {
+        "title": "Whereas (excerpt)",
+        "era": "contemporary",
+        "first_half_s2": 1.609,
+        "second_half_s2": -1.242,
+        "asymmetry": -2.851
+      },
+      {
+        "title": "Nobody (Wright)",
+        "era": "haiku",
+        "first_half_s2": 2.812,
+        "second_half_s2": 0.028,
+        "asymmetry": -2.785
+      },
+      {
+        "title": "My Life (excerpt)",
+        "era": "language",
+        "first_half_s2": 0.342,
+        "second_half_s2": -2.144,
+        "asymmetry": -2.486
+      },
+      {
+        "title": "Quiet Night Thoughts (literal trans.)",
+        "era": "classical_chinese",
+        "first_half_s2": 0.873,
+        "second_half_s2": -1.557,
+        "asymmetry": -2.43
+      },
+      {
+        "title": "For Spacious Skies",
+        "era": "concrete",
+        "first_half_s2": 1.239,
+        "second_half_s2": -1.175,
+        "asymmetry": -2.414
+      },
+      {
+        "title": "The Emperor of Ice-Cream",
+        "era": "modernist",
+        "first_half_s2": 0.276,
+        "second_half_s2": -2.106,
+        "asymmetry": -2.381
+      },
+      {
+        "title": "The Glass Essay (opening)",
+        "era": "contemporary",
+        "first_half_s2": 0.909,
+        "second_half_s2": -1.232,
+        "asymmetry": -2.141
+      },
+      {
+        "title": "There Once Was a Man from Peru",
+        "era": "limerick",
+        "first_half_s2": -0.107,
+        "second_half_s2": -2.196,
+        "asymmetry": -2.09
+      },
+      {
+        "title": "Die erste Elegie (Er\u00f6ffnung)",
+        "era": "german_modernist",
+        "first_half_s2": 2.259,
+        "second_half_s2": 0.271,
+        "asymmetry": -1.989
+      }
+    ]
+  },
+  "era_results": {
+    "romantic": {
+      "n": 2464,
+      "r_s2_entropy_next": -0.19,
+      "mean_s2": -0.4364,
+      "mean_entropy_next": 6.6589
+    },
+    "19th_century": {
+      "n": 1747,
+      "r_s2_entropy_next": -0.1433,
+      "mean_s2": -0.3816,
+      "mean_entropy_next": 6.4914
+    },
+    "modernist": {
+      "n": 2764,
+      "r_s2_entropy_next": -0.0825,
+      "mean_s2": -0.3296,
+      "mean_entropy_next": 6.26
+    },
+    "beat": {
+      "n": 1042,
+      "r_s2_entropy_next": 0.0595,
+      "mean_s2": 0.0689,
+      "mean_entropy_next": 3.7421
+    },
+    "confessional": {
+      "n": 391,
+      "r_s2_entropy_next": -0.1466,
+      "mean_s2": -0.2031,
+      "mean_entropy_next": 6.692
+    },
+    "mid_century": {
+      "n": 243,
+      "r_s2_entropy_next": -0.1601,
+      "mean_s2": -0.6108,
+      "mean_entropy_next": 6.3457
+    },
+    "new_york_school": {
+      "n": 1412,
+      "r_s2_entropy_next": -0.2153,
+      "mean_s2": -0.5523,
+      "mean_entropy_next": 6.4675
+    },
+    "language": {
+      "n": 375,
+      "r_s2_entropy_next": -0.106,
+      "mean_s2": -0.5361,
+      "mean_entropy_next": 6.0254
+    },
+    "contemporary": {
+      "n": 1046,
+      "r_s2_entropy_next": -0.1257,
+      "mean_s2": -0.3564,
+      "mean_entropy_next": 5.905
+    },
+    "harlem_renaissance": {
+      "n": 683,
+      "r_s2_entropy_next": -0.1633,
+      "mean_s2": -0.38,
+      "mean_entropy_next": 6.6304
+    },
+    "oulipo": {
+      "n": 484,
+      "r_s2_entropy_next": -0.0728,
+      "mean_s2": -0.1369,
+      "mean_entropy_next": 5.4192
+    },
+    "surrealist": {
+      "n": 1094,
+      "r_s2_entropy_next": -0.1937,
+      "mean_s2": -0.4965,
+      "mean_entropy_next": 5.9136
+    },
+    "deep_image": {
+      "n": 60,
+      "r_s2_entropy_next": -0.3286,
+      "mean_s2": 0.1094,
+      "mean_entropy_next": 6.654
+    },
+    "control": {
+      "n": 158,
+      "r_s2_entropy_next": -0.2723,
+      "mean_s2": -1.7208,
+      "mean_entropy_next": 5.3925
+    },
+    "german_symbolist": {
+      "n": 353,
+      "r_s2_entropy_next": -0.0865,
+      "mean_s2": 0.4607,
+      "mean_entropy_next": 6.7784
+    },
+    "german_expressionist": {
+      "n": 775,
+      "r_s2_entropy_next": -0.2427,
+      "mean_s2": 0.1174,
+      "mean_entropy_next": 6.4102
+    },
+    "german_modernist": {
+      "n": 232,
+      "r_s2_entropy_next": -0.2864,
+      "mean_s2": 0.6429,
+      "mean_entropy_next": 6.0957
+    },
+    "victorian": {
+      "n": 3848,
+      "r_s2_entropy_next": -0.1395,
+      "mean_s2": -0.3322,
+      "mean_entropy_next": 6.4194
+    },
+    "haiku": {
+      "n": 279,
+      "r_s2_entropy_next": -0.1007,
+      "mean_s2": -0.0831,
+      "mean_entropy_next": 6.7423
+    },
+    "ancient": {
+      "n": 315,
+      "r_s2_entropy_next": -0.2384,
+      "mean_s2": -0.2011,
+      "mean_entropy_next": 6.8235
+    },
+    "prose_poetry": {
+      "n": 1396,
+      "r_s2_entropy_next": -0.1052,
+      "mean_s2": -0.4609,
+      "mean_entropy_next": 5.4685
+    },
+    "ballad": {
+      "n": 909,
+      "r_s2_entropy_next": 0.0864,
+      "mean_s2": -0.4289,
+      "mean_entropy_next": 5.72
+    },
+    "song_lyrics": {
+      "n": 538,
+      "r_s2_entropy_next": -0.0565,
+      "mean_s2": -0.6742,
+      "mean_entropy_next": 4.4389
+    },
+    "nursery_rhyme": {
+      "n": 221,
+      "r_s2_entropy_next": -0.1789,
+      "mean_s2": -0.8098,
+      "mean_entropy_next": 5.697
+    },
+    "metaphysical": {
+      "n": 529,
+      "r_s2_entropy_next": -0.2324,
+      "mean_s2": -0.6345,
+      "mean_entropy_next": 6.8081
+    },
+    "early_modern": {
+      "n": 1223,
+      "r_s2_entropy_next": -0.1552,
+      "mean_s2": -0.3852,
+      "mean_entropy_next": 6.5537
+    },
+    "spoken_word": {
+      "n": 283,
+      "r_s2_entropy_next": -0.0869,
+      "mean_s2": -0.5928,
+      "mean_entropy_next": 5.6691
+    },
+    "found_poetry": {
+      "n": 945,
+      "r_s2_entropy_next": -0.174,
+      "mean_s2": -0.6073,
+      "mean_entropy_next": 4.7527
+    },
+    "fixed_form": {
+      "n": 850,
+      "r_s2_entropy_next": -0.0622,
+      "mean_s2": -0.5681,
+      "mean_entropy_next": 6.1514
+    },
+    "cliche_control": {
+      "n": 330,
+      "r_s2_entropy_next": -0.207,
+      "mean_s2": -0.8615,
+      "mean_entropy_next": 5.4684
+    },
+    "18th_century": {
+      "n": 1189,
+      "r_s2_entropy_next": -0.1351,
+      "mean_s2": -0.271,
+      "mean_entropy_next": 6.6272
+    },
+    "biblical": {
+      "n": 876,
+      "r_s2_entropy_next": -0.1665,
+      "mean_s2": -0.5516,
+      "mean_entropy_next": 5.1581
+    },
+    "concrete": {
+      "n": 114,
+      "r_s2_entropy_next": 0.1147,
+      "mean_s2": -0.5842,
+      "mean_entropy_next": 3.5934
+    },
+    "latin_american": {
+      "n": 349,
+      "r_s2_entropy_next": -0.1081,
+      "mean_s2": -0.5244,
+      "mean_entropy_next": 5.5966
+    },
+    "black_arts": {
+      "n": 143,
+      "r_s2_entropy_next": -0.0378,
+      "mean_s2": -0.4856,
+      "mean_entropy_next": 5.5261
+    },
+    "korean_modernist": {
+      "n": 101,
+      "r_s2_entropy_next": -0.0165,
+      "mean_s2": -0.667,
+      "mean_entropy_next": 6.0861
+    },
+    "imagist": {
+      "n": 261,
+      "r_s2_entropy_next": -0.2238,
+      "mean_s2": -0.546,
+      "mean_entropy_next": 6.2488
+    },
+    "parody_original": {
+      "n": 440,
+      "r_s2_entropy_next": -0.1413,
+      "mean_s2": -0.448,
+      "mean_entropy_next": 5.61
+    },
+    "parody": {
+      "n": 665,
+      "r_s2_entropy_next": -0.1473,
+      "mean_s2": -0.2784,
+      "mean_entropy_next": 6.1482
+    },
+    "classical_chinese": {
+      "n": 234,
+      "r_s2_entropy_next": -0.2742,
+      "mean_s2": -0.5217,
+      "mean_entropy_next": 6.552
+    },
+    "persian": {
+      "n": 380,
+      "r_s2_entropy_next": -0.1394,
+      "mean_s2": -0.236,
+      "mean_entropy_next": 6.7882
+    },
+    "japanese_classical": {
+      "n": 57,
+      "r_s2_entropy_next": -0.1213,
+      "mean_s2": -0.6536,
+      "mean_entropy_next": 6.0453
+    },
+    "limerick": {
+      "n": 416,
+      "r_s2_entropy_next": -0.0452,
+      "mean_s2": -0.6461,
+      "mean_entropy_next": 6.028
+    },
+    "old_english": {
+      "n": 414,
+      "r_s2_entropy_next": -0.2499,
+      "mean_s2": -0.2904,
+      "mean_entropy_next": 6.6541
+    },
+    "protest_political": {
+      "n": 248,
+      "r_s2_entropy_next": -0.2089,
+      "mean_s2": -0.795,
+      "mean_entropy_next": 6.7856
+    },
+    "ghazal": {
+      "n": 119,
+      "r_s2_entropy_next": -0.3212,
+      "mean_s2": -0.4052,
+      "mean_entropy_next": 6.0599
+    },
+    "war_poetry": {
+      "n": 636,
+      "r_s2_entropy_next": -0.2407,
+      "mean_s2": -0.3279,
+      "mean_entropy_next": 6.9022
+    },
+    "postcolonial": {
+      "n": 983,
+      "r_s2_entropy_next": -0.1128,
+      "mean_s2": -0.5062,
+      "mean_entropy_next": 5.507
+    },
+    "dramatic_monologue": {
+      "n": 2561,
+      "r_s2_entropy_next": -0.19,
+      "mean_s2": -0.362,
+      "mean_entropy_next": 6.5722
+    },
+    "elegy": {
+      "n": 933,
+      "r_s2_entropy_next": -0.2105,
+      "mean_s2": -0.3545,
+      "mean_entropy_next": 6.9474
+    },
+    "clerihew": {
+      "n": 114,
+      "r_s2_entropy_next": -0.0996,
+      "mean_s2": 0.4516,
+      "mean_entropy_next": 6.8323
+    },
+    "double_dactyl": {
+      "n": 243,
+      "r_s2_entropy_next": -0.0669,
+      "mean_s2": -0.9384,
+      "mean_entropy_next": 7.0269
+    },
+    "ekphrastic": {
+      "n": 1740,
+      "r_s2_entropy_next": -0.186,
+      "mean_s2": -0.5289,
+      "mean_entropy_next": 6.9213
+    }
+  }
+}
