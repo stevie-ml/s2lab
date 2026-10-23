@@ -1,8 +1,6 @@
 # S₂ Lab Research Report
-**Generated:** 2026-10-23 01:07:42
+**Generated:** 2026-10-23 06:51:45
 **Corpus:** 328 texts analyzed with GPT-2
-
-
 **Model:** gpt2 (117M parameters)
 
 ---
@@ -52,8 +50,6 @@ Do different literary movements produce systematically different information-the
 | song_lyrics | 3 | 0.09 | **-0.68** | 25% | 29.34 |
 | early_modern | 7 | 0.09 | **-0.39** | 39% | 31.07 |
 | ekphrastic | 7 | -0.03 | **-0.53** | 38% | 33.65 |
-
-
 | cliche_control | 3 | -0.03 | **-0.87** | 28% | 28.76 |
 | limerick | 10 | -0.06 | **-0.66** | 32% | 22.11 |
 | oulipo | 4 | -0.07 | **-0.15** | 36% | 19.63 |
@@ -208,14 +204,10 @@ Do high-S₂ moments cluster at beginnings, endings, or enjambments?
 - Avg S₂ at tokens immediately after newline (**artifact-free**): **0.17** (n=2561)
 - Avg S₂ at all other tokens: **0.42** (n=38430)
 
-
-
 > ⚠️ The raw post-newline figure is dominated by the stanza-break artifact (see `findings/stanza_break_artifact.md`). The artifact-free value is near-zero. **The enjambment finding does not survive artifact removal.**
 
 ### Finding
 Artifact-free post-newline S₂ = 0.17 vs other tokens = 0.42. Line-head tokens are at or below baseline once artifact positions are removed. The Straussian gap is distributed throughout the poem, not concentrated at line breaks.
-
-
 
 ---
 
@@ -278,7 +270,6 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | T.S. Eliot | 5 | 0.02 | 4.42 | 39% | 21.03 | mild deviation |
 | Claudia Rankine | 2 | -0.00 | 4.25 | 36% | 18.16 | smooth/conventional |
 | John Donne | 2 | -0.03 | 4.85 | 35% | 24.90 | smooth/conventional |
-
 | Synthetic (research test case) | 3 | -0.03 | 5.07 | 28% | 24.70 | volatile but conforming |
 | Christina Rossetti | 2 | -0.04 | 3.74 | 35% | 20.49 | smooth/conventional |
 | W.B. Yeats | 3 | -0.04 | 4.55 | 38% | 24.46 | smooth/conventional |
@@ -313,8 +304,6 @@ Do 'great' poems have distinctive S₂ profiles?
 > ⚠️ **Stanza-break artifact:** Raw S₂ numbers are inflated by layout positions. See `findings/stanza_break_artifact.md` for details.
 
 - Poetry avg S₂ (raw): **0.32** (σ=0.85, n=323)
-
-
 - Control prose avg S₂ (raw): **-1.66** (σ=0.67, n=5)
 - Gap (raw): **1.99**
 

@@ -1,219 +1,239 @@
 """
-Negation and S2: When Poets Say "Not"
+Negation and the Double Bind: S2 profiles at negation sites in poetry.
 
-Research question: How do negation tokens and the words that follow them
-behave informationally? When a poet says "not X", they invoke X while denying it.
-Does the negated term show elevated S2 (unexpected given the negation context)?
+Hypothesis:
+  - Negation words (not, no, never, nor, neither, without, etc.) force a
+    "double construction": the reader must build the affirmed version and
+    then cancel it.
+  - The negation token itself may have lower S2 (it's often structurally
+    predictable — poetry often needs to negate) or higher S2 if unexpected.
+  - The token FOLLOWING negation should have systematically different S2
+    than the same token in non-negated context (the post-negation space is
+    semantically constrained in a different way).
+  - Poems that use more negation might have different global S2 profiles.
 
-Method: Identify negation tokens in the corpus, analyze S2 for the negation
-token and its immediate successor.
+Analysis:
+  1. Identify negation tokens (token text matching negation vocab).
+  2. Compare S2 of negation tokens vs. overall non-negation distribution.
+  3. Compare S2 of post-negation tokens vs. all other tokens (same-class).
+  4. Measure per-poem negation density and correlate with overall S2.
+  5. Look at strongest negation "swerves": what did GPT-2 expect before
+     the negation, and what did the poet deny?
 """
 
 import json
-import re
+import math
 from collections import defaultdict
 
-NEGATION_TOKENS = {
-    'not', 'no', 'never', 'nothing', 'none', 'neither', 'nor',
-    'nobody', 'nowhere', 'never', 'without', 'beyond', 'un', 'dis',
-    'cannot', "can't", "won't", "don't", "doesn't", "didn't", "isn't",
-    "aren't", "wasn't", "weren't", "haven't", "hasn't", "hadn't",
-    "shouldn't", "wouldn't", "couldn't", "mightn't",
+CORPUS_PATH = "results/corpus_results.json"
+OUTPUT_PATH = "results/negation_s2.json"
+P_NEWLINE_MAX = 0.9
+
+# Core negation words (stripped/lowercased token text)
+NEGATION_WORDS = {
+    "not", "no", "never", "nor", "neither", "without",
+    "n't", "nt", "nothing", "nowhere", "nobody", "none",
+    "hardly", "scarcely", "barely",
 }
 
-# Stricter set for clear syntactic negation
-CORE_NEG = {'not', 'no', 'never', 'nothing', 'none', 'neither', 'nor',
-             'nobody', 'nowhere', 'without'}
+# Also catch "un-" and "-less" prefixes/suffixes
+def is_negation_prefix(tok_text):
+    t = tok_text.strip().lower()
+    return t.startswith("un") and len(t) > 3
+
+def is_negation_suffix(tok_text):
+    t = tok_text.strip().lower()
+    return t.endswith("less") and len(t) > 5
 
 
-def normalize(token: str) -> str:
-    return token.strip().lower().lstrip('Ġ').lstrip(' ')
-
-
-def load_results(path='results/corpus_results.json'):
+def load_corpus(path):
     with open(path) as f:
         return json.load(f)
 
 
-def find_negation_windows(tokens, window=2):
-    """
-    For each negation token, return a record with:
-      - the negation token and its S2
-      - the S2 of the next 1-2 tokens
-      - metadata for grouping
-    """
-    records = []
-    for i, tok in enumerate(tokens):
-        norm = normalize(tok['token'])
-        if norm in CORE_NEG:
-            record = {
-                'neg_token': tok['token'].strip(),
-                'neg_s2': tok['s2'],
-                'neg_surprisal': tok['surprisal'],
-                'neg_entropy': tok['entropy'],
-                'neg_pos': tok['position'],
-                'post_tokens': [],
-                'alternatives_at_neg': tok.get('alternatives', [])[:5],
-                'context': tok.get('context_before', ''),
-            }
-            for j in range(1, window + 1):
-                if i + j < len(tokens):
-                    next_tok = tokens[i + j]
-                    record['post_tokens'].append({
-                        'token': next_tok['token'].strip(),
-                        's2': next_tok['s2'],
-                        'surprisal': next_tok['surprisal'],
-                        'entropy': next_tok['entropy'],
-                        'alternatives': next_tok.get('alternatives', [])[:5],
-                    })
-            records.append(record)
-    return records
+def clean_tokens(poem):
+    return [t for t in poem["tokens"] if t.get("p_newline", 0) < P_NEWLINE_MAX]
 
 
-def analyze(results):
-    all_s2 = []
-    neg_records = []
-    poet_stats = defaultdict(lambda: {'neg_count': 0, 'post_neg_s2': [], 'baseline_s2': []})
-
-    for poem in results:
-        meta = poem['metadata']
-        tokens = poem['tokens']
-        author = meta['author']
-
-        # Baseline: all tokens in this poem
-        poem_s2 = [t['s2'] for t in tokens]
-        all_s2.extend(poem_s2)
-        poet_stats[author]['baseline_s2'].extend(poem_s2)
-
-        # Negation windows
-        negs = find_negation_windows(tokens)
-        for neg in negs:
-            neg['poem_title'] = meta['title']
-            neg['author'] = author
-            neg['era'] = meta['era']
-            neg['poem_baseline_s2'] = sum(poem_s2) / len(poem_s2) if poem_s2 else 0
-            neg_records.append(neg)
-
-            poet_stats[author]['neg_count'] += 1
-            if neg['post_tokens']:
-                post_s2 = neg['post_tokens'][0]['s2']
-                poet_stats[author]['post_neg_s2'].append(post_s2)
-
-    global_mean_s2 = sum(all_s2) / len(all_s2) if all_s2 else 0
-    return neg_records, poet_stats, global_mean_s2, all_s2
+def token_text_clean(t):
+    return t["token"].strip().lower()
 
 
-def print_report(neg_records, poet_stats, global_mean, all_s2):
-    print(f"\n{'='*60}")
-    print("NEGATION AND S2 — ANALYSIS REPORT")
-    print(f"{'='*60}")
-    print(f"  Total poems analyzed: {len(set(r['poem_title'] for r in neg_records))}")
-    print(f"  Total negation tokens found: {len(neg_records)}")
-    print(f"  Global mean S2 (all tokens): {global_mean:.4f}")
+def is_negation(tok):
+    t = token_text_clean(tok)
+    return (t in NEGATION_WORDS or
+            is_negation_prefix(tok["token"]) or
+            is_negation_suffix(tok["token"]))
 
-    # S2 of negation tokens themselves
-    neg_s2_vals = [r['neg_s2'] for r in neg_records]
-    mean_neg_s2 = sum(neg_s2_vals) / len(neg_s2_vals) if neg_s2_vals else 0
 
-    # S2 of the token immediately after negation
-    post1_s2_vals = [r['post_tokens'][0]['s2'] for r in neg_records if r['post_tokens']]
-    mean_post1_s2 = sum(post1_s2_vals) / len(post1_s2_vals) if post1_s2_vals else 0
+def pearson(xs, ys):
+    n = len(xs)
+    if n < 2:
+        return float("nan")
+    mx = sum(xs) / n
+    my = sum(ys) / n
+    num = sum((x - mx) * (y - my) for x, y in zip(xs, ys))
+    dx = math.sqrt(sum((x - mx)**2 for x in xs))
+    dy = math.sqrt(sum((y - my)**2 for y in ys))
+    return num / (dx * dy) if dx * dy > 0 else float("nan")
 
-    print(f"\n--- S2 VALUES ---")
-    print(f"  Mean S2 (negation tokens):     {mean_neg_s2:.4f}  (vs global {global_mean:.4f})")
-    print(f"  Mean S2 (token after negation): {mean_post1_s2:.4f}  (vs global {global_mean:.4f})")
 
-    # Break down by negation type
-    print(f"\n--- BY NEGATION WORD ---")
-    neg_by_word = defaultdict(list)
-    post_by_word = defaultdict(list)
-    for r in neg_records:
-        w = r['neg_token'].lower()
-        neg_by_word[w].append(r['neg_s2'])
-        if r['post_tokens']:
-            post_by_word[w].append(r['post_tokens'][0]['s2'])
+def mean(xs):
+    return sum(xs) / len(xs) if xs else float("nan")
 
-    rows = []
-    for w in sorted(neg_by_word, key=lambda x: -len(neg_by_word[x])):
-        n = len(neg_by_word[w])
-        ms2 = sum(neg_by_word[w]) / n
-        post_n = len(post_by_word[w])
-        mpost = sum(post_by_word[w]) / post_n if post_n else float('nan')
-        rows.append((w, n, ms2, mpost))
 
-    print(f"  {'Word':<14} {'Count':>6} {'Own S2':>8} {'Post S2':>8}")
-    print(f"  {'-'*40}")
-    for w, n, ms2, mpost in rows[:15]:
-        print(f"  {w:<14} {n:>6} {ms2:>8.3f} {mpost:>8.3f}")
+def stdev(xs):
+    if len(xs) < 2:
+        return float("nan")
+    m = mean(xs)
+    return math.sqrt(sum((x - m)**2 for x in xs) / (len(xs) - 1))
 
-    # Top "negation premium" cases: where post-negation S2 far exceeds baseline
-    print(f"\n--- TOP 10 CASES: HIGHEST POST-NEGATION S2 ---")
-    records_with_post = [r for r in neg_records if r['post_tokens']]
-    records_with_post.sort(key=lambda r: r['post_tokens'][0]['s2'], reverse=True)
-    print(f"  {'Negation':<12} {'Follows':<20} {'Post S2':>8} {'Poem'}")
-    print(f"  {'-'*70}")
-    for r in records_with_post[:10]:
-        post = r['post_tokens'][0]
-        title = r['poem_title'][:30]
-        print(f"  {r['neg_token']:<12} {post['token']:<20} {post['s2']:>8.3f}  {title} ({r['author'].split()[-1]})")
 
-    # Cases where GPT-2's top prediction after negation was something different
-    print(f"\n--- NEGATION OVERRIDES: WHAT GPT-2 PREDICTED VS WHAT THE POET CHOSE ---")
-    print(f"  (at the token following the negation)")
-    override_rows = []
-    for r in records_with_post:
-        post = r['post_tokens'][0]
-        alts = post.get('alternatives', [])
-        if alts:
-            gpt2_top = alts[0]['token'].strip()
-            poet_chose = post['token'].strip()
-            if poet_chose.lower() != gpt2_top.lower():
-                override_rows.append({
-                    'neg': r['neg_token'],
-                    'gpt2_predicted': gpt2_top,
-                    'poet_wrote': poet_chose,
-                    'post_s2': post['s2'],
-                    'poem': r['poem_title'],
-                    'author': r['author'],
-                    'context': r['context'],
+def main():
+    corpus = load_corpus(CORPUS_PATH)
+
+    neg_s2 = []          # S2 of negation tokens
+    neg_ent = []         # entropy of negation tokens
+    post_neg_s2 = []     # S2 of token immediately after negation
+    non_neg_s2 = []      # S2 of all non-negation, non-post-negation tokens
+    all_token_s2 = []    # S2 of all clean tokens
+
+    per_poem = []        # per-poem stats
+
+    # Examples of biggest negation S2 swerves
+    top_neg = []         # (s2, token, prev_alts, poem_title, neg_word)
+    top_post_neg = []    # (s2, token, neg_word, poem_title)
+
+    for poem in corpus:
+        meta = poem["metadata"]
+        toks = clean_tokens(poem)
+        if len(toks) < 10:
+            continue
+
+        poem_neg_s2 = []
+        poem_post_neg_s2 = []
+        poem_non_neg_s2 = []
+
+        neg_count = 0
+        i = 0
+        while i < len(toks):
+            t = toks[i]
+            all_token_s2.append(t["s2"])
+            if is_negation(t):
+                neg_count += 1
+                neg_s2.append(t["s2"])
+                neg_ent.append(t["entropy"])
+                poem_neg_s2.append(t["s2"])
+                top_neg.append({
+                    "s2": t["s2"],
+                    "neg_token": t["token"],
+                    "entropy": t["entropy"],
+                    "surprisal": t["surprisal"],
+                    "top_alts": [a["token"] for a in t.get("alternatives", [])[:5]],
+                    "title": meta.get("title", "unknown"),
+                    "poet": meta.get("poet", "unknown"),
                 })
-    override_rows.sort(key=lambda x: x['post_s2'], reverse=True)
-    print(f"  {'Context':<20} {'Neg':<8} GPT-2 predicted → Poet wrote  (S2)")
-    print(f"  {'-'*70}")
-    for row in override_rows[:10]:
-        ctx = (row['context'][-15:] if row['context'] else '').strip()
-        print(f"  '...{ctx:<17}' {row['neg']:<8} '{row['gpt2_predicted']}' → '{row['poet_wrote']}'  ({row['post_s2']:.2f})")
+                # Post-negation token
+                if i + 1 < len(toks):
+                    post = toks[i + 1]
+                    post_neg_s2.append(post["s2"])
+                    poem_post_neg_s2.append(post["s2"])
+                    top_post_neg.append({
+                        "s2": post["s2"],
+                        "post_token": post["token"],
+                        "neg_token": t["token"],
+                        "post_entropy": post["entropy"],
+                        "post_surprisal": post["surprisal"],
+                        "post_alts": [a["token"] for a in post.get("alternatives", [])[:5]],
+                        "title": meta.get("title", "unknown"),
+                        "poet": meta.get("poet", "unknown"),
+                    })
+                i += 1
+            else:
+                non_neg_s2.append(t["s2"])
+                poem_non_neg_s2.append(t["s2"])
+                i += 1
 
-    # Poet negation frequency and post-negation S2
-    print(f"\n--- POET PROFILES: NEGATION FREQUENCY & POST-NEGATION S2 ---")
-    poet_rows = []
-    for author, stats in poet_stats.items():
-        if stats['neg_count'] >= 2:
-            base_mean = sum(stats['baseline_s2']) / len(stats['baseline_s2']) if stats['baseline_s2'] else 0
-            post_mean = sum(stats['post_neg_s2']) / len(stats['post_neg_s2']) if stats['post_neg_s2'] else float('nan')
-            neg_rate = stats['neg_count'] / max(len(stats['baseline_s2']), 1) * 100
-            poet_rows.append((author, stats['neg_count'], neg_rate, base_mean, post_mean))
-    poet_rows.sort(key=lambda x: -x[2])
-    print(f"  {'Author':<25} {'Negs':>5} {'Rate%':>7} {'Base S2':>8} {'PostNeg S2':>10}")
-    print(f"  {'-'*60}")
-    for author, n, rate, base, post in poet_rows[:15]:
-        print(f"  {author:<25} {n:>5} {rate:>7.2f} {base:>8.3f} {post:>10.3f}")
+        n_clean = len(toks)
+        neg_density = neg_count / n_clean if n_clean > 0 else 0
+        per_poem.append({
+            "title": meta.get("title", "unknown"),
+            "poet": meta.get("poet", "unknown"),
+            "era": meta.get("era", "unknown"),
+            "n_clean": n_clean,
+            "neg_count": neg_count,
+            "neg_density": neg_density,
+            "mean_s2_overall": mean(all_token_s2[-n_clean:]),
+            "mean_neg_s2": mean(poem_neg_s2),
+            "mean_post_neg_s2": mean(poem_post_neg_s2),
+            "mean_non_neg_s2": mean(poem_non_neg_s2),
+        })
 
-    return {
-        'global_mean': global_mean,
-        'mean_neg_s2': mean_neg_s2,
-        'mean_post1_s2': mean_post1_s2,
-        'total_negation_tokens': len(neg_records),
-        'top_high_post_neg': records_with_post[:10],
-        'top_overrides': override_rows[:10],
-        'by_word_rows': rows,
-        'poet_rows': poet_rows,
+    # Sort examples
+    top_neg.sort(key=lambda x: abs(x["s2"]), reverse=True)
+    top_post_neg.sort(key=lambda x: x["s2"], reverse=True)
+
+    # Negation density vs overall S2 correlation
+    valid = [(p["neg_density"], p["mean_s2_overall"])
+             for p in per_poem if not math.isnan(p["mean_s2_overall"]) and p["neg_count"] > 0]
+    neg_densities = [x[0] for x in valid]
+    overall_s2s = [x[1] for x in valid]
+    r_density_s2 = pearson(neg_densities, overall_s2s)
+
+    # By era
+    era_stats = defaultdict(lambda: {"neg_s2": [], "post_neg_s2": [], "non_neg_s2": [], "densities": []})
+    for p in per_poem:
+        e = p["era"]
+        if not math.isnan(p.get("mean_neg_s2", float("nan"))):
+            era_stats[e]["neg_s2"].append(p["mean_neg_s2"])
+        if not math.isnan(p.get("mean_post_neg_s2", float("nan"))):
+            era_stats[e]["post_neg_s2"].append(p["mean_post_neg_s2"])
+        era_stats[e]["densities"].append(p["neg_density"])
+
+    era_summary = {}
+    for era, d in era_stats.items():
+        era_summary[era] = {
+            "mean_neg_s2": mean(d["neg_s2"]),
+            "mean_post_neg_s2": mean(d["post_neg_s2"]),
+            "mean_neg_density": mean(d["densities"]),
+            "n_poems": len(d["densities"]),
+        }
+
+    # Highest-density negation poems
+    high_neg_poems = sorted(per_poem, key=lambda x: x["neg_density"], reverse=True)[:10]
+
+    results = {
+        "n_poems": len(per_poem),
+        "n_neg_tokens": len(neg_s2),
+        "n_post_neg_tokens": len(post_neg_s2),
+        "corpus_stats": {
+            "mean_neg_s2": mean(neg_s2),
+            "stdev_neg_s2": stdev(neg_s2),
+            "mean_post_neg_s2": mean(post_neg_s2),
+            "stdev_post_neg_s2": stdev(post_neg_s2),
+            "mean_non_neg_s2": mean(non_neg_s2),
+            "stdev_non_neg_s2": stdev(non_neg_s2),
+            "mean_all_s2": mean(all_token_s2),
+            "mean_neg_entropy": mean(neg_ent),
+            "neg_pos_rate": sum(1 for x in neg_s2 if x > 0) / len(neg_s2) if neg_s2 else 0,
+            "post_neg_pos_rate": sum(1 for x in post_neg_s2 if x > 0) / len(post_neg_s2) if post_neg_s2 else 0,
+            "non_neg_pos_rate": sum(1 for x in non_neg_s2 if x > 0) / len(non_neg_s2) if non_neg_s2 else 0,
+        },
+        "r_neg_density_vs_overall_s2": r_density_s2,
+        "era_summary": era_summary,
+        "top_neg_swerves": top_neg[:20],
+        "top_post_neg_swerves": top_post_neg[:20],
+        "high_density_poems": high_neg_poems,
+        "per_poem": per_poem,
     }
 
+    with open(OUTPUT_PATH, "w") as f:
+        json.dump(results, f, indent=2)
 
-if __name__ == '__main__':
-    results = load_results()
-    neg_records, poet_stats, global_mean, all_s2 = analyze(results)
-    stats = print_report(neg_records, poet_stats, global_mean, all_s2)
-    print(f"\n{'='*60}")
-    print("Done.")
+    print(f"Done. {len(per_poem)} poems, {len(neg_s2)} negation tokens, {len(post_neg_s2)} post-neg tokens.")
+    print(f"Mean S2: negation={mean(neg_s2):.3f}, post-neg={mean(post_neg_s2):.3f}, non-neg={mean(non_neg_s2):.3f}")
+    print(f"Correlation neg_density ~ overall_s2: r={r_density_s2:.3f}")
+
+
+if __name__ == "__main__":
+    main()
