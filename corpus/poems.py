@@ -6701,6 +6701,277 @@ My mother is asleep in the next room.
 We are in her house on the moors.
 It is bleak and very cold."""
     },
+
+    # ─── EKPHRASTIC POETRY ─────────────────────────────────────────────────────
+    # Poems about visual art / sculpture / images — tests the verbal-visual interface
+    # and whether S2 spikes at "translation moments" where language captures the visual
+
+    # Keats — "Ode on a Grecian Urn" (1820, PD)
+    # The most canonical ekphrasis in English; apostrophe to a visual object
+    {
+        "title": "Ode on a Grecian Urn",
+        "author": "John Keats",
+        "year": 1820,
+        "era": "ekphrastic",
+        "text": """Thou still unravish'd bride of quietness,
+Thou foster-child of silence and slow time,
+Sylvan historian, who canst thus express
+A flowery tale more sweetly than our rhyme:
+What leaf-fring'd legend haunts about thy shape
+Of deities or mortals, or of both,
+In Tempe or the dales of Arcady?
+What men or gods are these? What maidens loth?
+What mad pursuit? What struggle to escape?
+What pipes and timbrels? What wild ecstasy?
+
+Heard melodies are sweet, but those unheard
+Are sweeter; therefore, ye soft pipes, play on;
+Not to the sensual ear, but, more endear'd,
+Pipe to the spirit ditties of no tone:
+Fair youth, beneath the trees, thou canst not leave
+Thy song, nor ever can those trees be bare;
+Bold Lover, never, never canst thou kiss,
+Though winning near the goal—yet, do not grieve;
+She cannot fade, though thou hast not thy bliss,
+For ever wilt thou love, and she be fair!
+
+Ah, happy, happy boughs! that cannot shed
+Your leaves, nor ever bid the Spring adieu;
+And, happy melodist, unwearied,
+For ever piping songs for ever new;
+More happy love! more happy, happy love!
+For ever warm and still to be enjoy'd,
+For ever panting, and for ever young;
+All breathing human passion far above,
+That leaves a heart high-sorrowful and cloy'd,
+A burning forehead, and a parching tongue.
+
+Who are these coming to the sacrifice?
+To what green altar, O mysterious priest,
+Lead'st thou that heifer lowing at the skies,
+And all her silken flanks with garlands drest?
+What little town by river or sea shore,
+Or mountain-built with peaceful citadel,
+Is emptied of this folk, this pious morn?
+And, little town, thy streets for evermore
+Will silent be; and not a soul to tell
+Why thou art desolate, can e'er return.
+
+O Attic shape! Fair attitude! with brede
+Of marble men and maidens overwrought,
+With forest branches and the trodden weed;
+Thou, silent form, dost tease us out of thought
+As doth eternity: Cold Pastoral!
+When old age shall this generation waste,
+Thou shalt remain, in midst of other woe
+Than ours, a friend to man, to whom thou say'st,
+'Beauty is truth, truth beauty,—that is all
+Ye know on earth, and all ye need to know.'"""
+    },
+
+    # Keats — "On Seeing the Elgin Marbles" (1817, PD)
+    # Confrontation with sculptural fragments; S2 at the "dim vastness" of art
+    {
+        "title": "On Seeing the Elgin Marbles",
+        "author": "John Keats",
+        "year": 1817,
+        "era": "ekphrastic",
+        "text": """My spirit is too weak—mortality
+Weighs heavily on me like unwilling sleep,
+And each imagin'd pinnacle and steep
+Of godlike hardship tells me I must die
+Like a sick Eagle looking at the sky.
+Yet 'tis a gentle luxury to weep
+That I have not the cloudy winds to keep
+Fresh for the opening of the morning's eye.
+Such dim-conceiv'd glories of the brain
+Bring round the heart an undescribable feud;
+So do these wonders a most dizzy pain,
+That mingles Grecian grandeur with the rude
+Wasting of old Time—with a billowy main—
+A sun—a shadow of a magnitude."""
+    },
+
+    # Keats — "On First Looking into Chapman's Homer" (1816, PD)
+    # Bibliographic ekphrasis — the experience of reading a translation as visual event
+    {
+        "title": "On First Looking into Chapman's Homer",
+        "author": "John Keats",
+        "year": 1816,
+        "era": "ekphrastic",
+        "text": """Much have I travell'd in the realms of gold,
+And many goodly states and kingdoms seen;
+Round many western islands have I been
+Which bards in fealty to Apollo hold.
+Oft of one wide expanse had I been told
+That deep-brow'd Homer ruled as his demesne;
+Yet did I never breathe its pure serene
+Till I heard Chapman speak out loud and bold:
+Then felt I like some watcher of the skies
+When a new planet swims into his ken;
+Or like stout Cortez when with eagle eyes
+He star'd at the Pacific—and all his men
+Look'd at each other with a wild surmise—
+Silent, upon a peak in Darien."""
+    },
+
+    # Tennyson — "The Lady of Shalott" (stanzas I-II, 1842, PD)
+    # About a weaver who creates images of the world she cannot directly see
+    {
+        "title": "The Lady of Shalott (opening)",
+        "author": "Alfred, Lord Tennyson",
+        "year": 1842,
+        "era": "ekphrastic",
+        "text": """On either side the river lie
+Long fields of barley and of rye,
+That clothe the wold and meet the sky;
+And thro' the field the road runs by
+To many-tower'd Camelot;
+And up and down the people go,
+Gazing where the lilies blow
+Round an island there below,
+The island of Shalott.
+
+Willows whiten, aspens quiver,
+Little breezes dusk and shiver
+Thro' the wave that runs for ever
+By the island in the river
+Flowing down to Camelot.
+Four gray walls, and four gray towers,
+Overlook a space of flowers,
+And the silent isle imbowers
+The Lady of Shalott.
+
+There she weaves by night and day
+A magic web with colours gay.
+She has heard a whisper say,
+A curse is on her if she stay
+To look down to Camelot.
+She knows not what the curse may be,
+And so she weaveth steadily,
+And little other care hath she,
+The Lady of Shalott.
+
+And moving thro' a mirror clear
+That hangs before her all the year,
+Shadows of the world appear.
+There she sees the highway near
+Winding down to Camelot:
+There the river eddy whirls,
+And there the surly village-churls,
+And the red cloaks of market girls,
+Pass onward from Shalott."""
+    },
+
+    # Browning — "Fra Lippo Lippi" (excerpt, 1855, PD)
+    # Dramatic monologue spoken by the painter Fra Lippo Lippi; S2 at art-theory moments
+    {
+        "title": "Fra Lippo Lippi (opening)",
+        "author": "Robert Browning",
+        "year": 1855,
+        "era": "ekphrastic",
+        "text": """I am poor brother Lippo, by your leave!
+You need not clap your torches to my face.
+Zooks, what's to blame? you think you see a monk!
+What, 'tis past midnight, and you go the rounds,
+And here you catch me at an alley's end
+Where sportive ladies leave their doors ajar?
+The Carmine's my cloister: hunt it up,
+Do,—harry out, if you must show your zeal,
+Whatever rat, there, haps on his wrong hole,
+And nip each softling of a wee white mouse,
+Weke, weke, that's crept to keep him company!
+Aha, you know your betters! Then, you'll take
+Your hand away that's fiddling on my throat,
+And please to know me likewise. Who am I?
+Why, one, sir, who is lodging with a friend
+Three streets off—he's a certain . . . how d'ye call?
+Master—a . . . Cosimo of the Medici,
+I' the house that caps the corner."""
+    },
+
+    # Browning — "Andrea del Sarto" (excerpt, 1855, PD)
+    # The "Faultless Painter" reflects on his perfect technique and moral failure
+    {
+        "title": "Andrea del Sarto (opening)",
+        "author": "Robert Browning",
+        "year": 1855,
+        "era": "ekphrastic",
+        "text": """But do not let us quarrel any more,
+No, my Lucrezia; bear with me for once:
+Sit down and all shall happen as you wish.
+You turn your face, but does it bring your heart?
+I'll work then for your friend's friend, never fear,
+Treat his own subject after his own way,
+Fix his own time, accept too his own price,
+And shut the money into this small hand
+When next it takes mine. Will it? tenderly?
+Oh, I'll content him,—but to-morrow, Love!
+I often am much wearier than you think,
+This evening more than usual, and it seems
+As if—forgive now—should you let me sit
+Here by the window with your hand in mine
+And look a half-hour forth on Fiesole,
+Both of one mind, as married people use,
+Quietly, quietly the evening through,
+I might get up to-morrow to my work
+Cheerful and fresh as ever. Let us try."""
+    },
+
+    # D.G. Rossetti — "For a Venetian Pastoral by Giorgione" (1850, PD)
+    # Sonnet written for a specific Giorgione painting in the Louvre
+    {
+        "title": "For a Venetian Pastoral by Giorgione",
+        "author": "Dante Gabriel Rossetti",
+        "year": 1850,
+        "era": "ekphrastic",
+        "text": """Water, for anguish of the solstice:—nay,
+But dip the vessel slowly,—nay, but lean
+And hark how at its verge the wave sighs in
+Reluctant. Hush! Beyond all depth away
+The heat lies silent at the brink of day:
+Now the hand trails upon the viol-string
+That sobs, and the brown faces cease to sing,
+Sad with the whole of pleasure. Whither stray
+Her eyes now, from whose mouth the slim pipes creep
+And leave it pouting, while the shadowed grass
+Is cool against her naked side? Let be:—
+Say nothing now unto her lest she weep,
+Nor name this ever. Be it as it was,—
+Life touching lips with Immortality."""
+    },
+
+    # Swinburne — "Before the Mirror" (1866, PD)
+    # Written for Whistler's painting "The Little White Girl"; one of the rare poet-painter collaborations
+    {
+        "title": "Before the Mirror (stanzas 1-3)",
+        "author": "Algernon Charles Swinburne",
+        "year": 1866,
+        "era": "ekphrastic",
+        "text": """White rose in red rose-garden
+Is not so white;
+Snowdrops that plead for pardon
+And pine for fright
+Because the hard East blows
+Over their maiden rows
+Grow not as this face grows from pale to bright.
+
+Behind the veil, forbidden,
+Shut up from sight,
+Love, is there sorrow hidden,
+Is there delight?
+Is joy thy dower or grief,
+White rose of weary leaf,
+Late rose whose life is brief, whose loves are light?
+
+Soft snows that hard winds harden
+Till each flake bite
+Fill all the flowerless garden
+Whose flowers took flight
+Long since when summer ceased,
+And men rose up from feast,
+And warm west wind grew east, and warm day night."""
+    },
 ]
 
 # Quick stats
