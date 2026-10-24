@@ -1,0 +1,328 @@
+{
+  "clerihew": {
+    "form": "clerihew",
+    "n_poems": 10,
+    "n_clean_tokens": 232,
+    "mean_s2": 0.5074974137931034,
+    "median_s2": -0.6658,
+    "stdev_s2": 4.517051987381066,
+    "pos_s2_ratio": 0.4353448275862069,
+    "mean_proper_noun_s2": 3.79008,
+    "mean_other_s2": 0.1978198113207547,
+    "n_proper_noun_tokens": 20,
+    "proper_noun_pct": 8.620689655172415,
+    "positional_means": {
+      "opening": 0.354975,
+      "early_middle": 0.3819272727272727,
+      "late_middle": 0.7129267857142857,
+      "closing": 0.5821475409836065
+    },
+    "high_s2_examples": [
+      {
+        "poem": "Sir Humphrey Davy",
+        "token": " gravy",
+        "s2": 18.4081,
+        "entropy": 6.4837,
+        "context": "\nAbominated",
+        "predicted": [
+          " by",
+          " in",
+          " for"
+        ],
+        "is_proper": false
+      },
+      {
+        "poem": "Edgar Allan Poe",
+        "token": " raven",
+        "s2": 15.8286,
+        "entropy": 5.6012,
+        "context": " Poe\nMade",
+        "predicted": [
+          "le",
+          " in",
+          " up"
+        ],
+        "is_proper": false
+      },
+      {
+        "poem": "Isaac Newton",
+        "token": " sums",
+        "s2": 13.3087,
+        "entropy": 7.8057,
+        "context": " beaten\nAt",
+        "predicted": [
+          " least",
+          " the",
+          " this"
+        ],
+        "is_proper": false
+      },
+      {
+        "poem": "Nikola Tesla",
+        "token": " pige",
+        "s2": 12.8674,
+        "entropy": 6.7694,
+        "context": "\nLoved",
+        "predicted": [
+          " the",
+          " this",
+          " it"
+        ],
+        "is_proper": false
+      },
+      {
+        "poem": "William Topaz McGonagall",
+        "token": " Tay",
+        "s2": 11.8382,
+        "entropy": 10.0724,
+        "context": ".\nHis",
+        "predicted": [
+          " name",
+          " first",
+          " father"
+        ],
+        "is_proper": true
+      },
+      {
+        "poem": "Nikola Tesla",
+        "token": " alternating",
+        "s2": 11.8169,
+        "entropy": 7.4181,
+        "context": "\nChanged what",
+        "predicted": [
+          " he",
+          " I",
+          " the"
+        ],
+        "is_proper": false
+      },
+      {
+        "poem": "Sir Humphrey Davy",
+        "token": " sodium",
+        "s2": 11.5161,
+        "entropy": 7.0825,
+        "context": "Of having discovered",
+        "predicted": [
+          " the",
+          " a",
+          "\n"
+        ],
+        "is_proper": false
+      },
+      {
+        "poem": "Oscar Wilde",
+        "token": " mild",
+        "s2": 11.2979,
+        "entropy": 7.6035,
+        "context": " Wilde\nWhen",
+        "predicted": [
+          " I",
+          " the",
+          " you"
+        ],
+        "is_proper": false
+      },
+      {
+        "poem": "William Topaz McGonagall",
+        "token": " McG",
+        "s2": 10.5065,
+        "entropy": 5.6234,
+        "context": " Topaz",
+        "predicted": [
+          ",",
+          "-",
+          "\n"
+        ],
+        "is_proper": true
+      },
+      {
+        "poem": "Marie Curie",
+        "token": " pol",
+        "s2": 10.2586,
+        "entropy": 5.0184,
+        "context": "\nShe named",
+        "predicted": [
+          " it",
+          " the",
+          " her"
+        ],
+        "is_proper": false
+      }
+    ]
+  },
+  "limerick": {
+    "form": "limerick",
+    "n_poems": 10,
+    "n_clean_tokens": 426,
+    "mean_s2": -0.6612607981220657,
+    "median_s2": -1.3891,
+    "stdev_s2": 3.356082147306791,
+    "pos_s2_ratio": 0.3004694835680751,
+    "mean_proper_noun_s2": 2.625407142857143,
+    "mean_other_s2": -0.7729436893203884,
+    "n_proper_noun_tokens": 14,
+    "proper_noun_pct": 3.2863849765258215,
+    "positional_means": {
+      "opening": -0.4045481132075472,
+      "early_middle": -0.6409514563106796,
+      "late_middle": -0.9991295238095238,
+      "closing": -0.6061464285714285
+    },
+    "high_s2_examples": [
+      {
+        "poem": "There Was a Young Man of Japan",
+        "token": " scan",
+        "s2": 14.1767,
+        "entropy": 4.3285,
+        "context": "icks never would",
+        "predicted": [
+          " have",
+          " be",
+          "'ve"
+        ],
+        "is_proper": false
+      },
+      {
+        "poem": "There Was an Old Person of Ware",
+        "token": "pps",
+        "s2": 12.4833,
+        "entropy": 6.6993,
+        "context": "'s a Mo",
+        "predicted": [
+          "at",
+          "-",
+          "ose"
+        ],
+        "is_proper": false
+      },
+      {
+        "poem": "There Was an Old Man of the Coast",
+        "token": " plac",
+        "s2": 9.4894,
+        "entropy": 8.0485,
+        "context": ",\nWho",
+        "predicted": [
+          " was",
+          " had",
+          ","
+        ],
+        "is_proper": false
+      },
+      {
+        "poem": "There Was an Old Person of Ware",
+        "token": " Ware",
+        "s2": 9.4106,
+        "entropy": 8.95,
+        "context": " Old Person of",
+        "predicted": [
+          " the",
+          " God",
+          " Light"
+        ],
+        "is_proper": false
+      },
+      {
+        "poem": "There Was a Young Man of Japan",
+        "token": " try",
+        "s2": 9.3313,
+        "entropy": 3.1185,
+        "context": " 'I do",
+        "predicted": [
+          " not",
+          " it",
+          " want"
+        ],
+        "is_proper": false
+      },
+      {
+        "poem": "There Was an Old Person of Ware",
+        "token": " Fl",
+        "s2": 8.8283,
+        "entropy": 6.0965,
+        "context": "ppsikon",
+        "predicted": [
+          ",",
+          ".'",
+          ";"
+        ],
+        "is_proper": true
+      },
+      {
+        "poem": "There Was an Old Man of Nantucket",
+        "token": " Ow",
+        "s2": 8.5891,
+        "entropy": 9.4429,
+        "context": "!\nTwo",
+        "predicted": [
+          " men",
+          " days",
+          " years"
+        ],
+        "is_proper": true
+      },
+      {
+        "poem": "There Was a Young Lady of Niger",
+        "token": " Niger",
+        "s2": 8.4957,
+        "entropy": 8.152,
+        "context": " young lady of",
+        "predicted": [
+          " about",
+          " the",
+          " a"
+        ],
+        "is_proper": true
+      },
+      {
+        "poem": "A Tutor Who Tooted the Flute",
+        "token": " tutor",
+        "s2": 8.1545,
+        "entropy": 4.3742,
+        "context": " or\nTo",
+        "predicted": [
+          "ot",
+          "ots",
+          " be"
+        ],
+        "is_proper": false
+      },
+      {
+        "poem": "A Tutor Who Tooted the Flute",
+        "token": " the",
+        "s2": 7.9581,
+        "entropy": 2.9333,
+        "context": " the two to",
+        "predicted": [
+          "ots",
+          "ot",
+          "oters"
+        ],
+        "is_proper": false
+      }
+    ]
+  },
+  "limerick_subtypes": {
+    "lear": {
+      "n": 3,
+      "mean_s2": -0.32391967213114753,
+      "poems": [
+        "There Was an Old Person of Ware",
+        "There Was a Young Lady Whose Nose",
+        "There Was an Old Man of the Coast"
+      ]
+    },
+    "other": {
+      "n": 7,
+      "mean_s2": -0.7966411184210527,
+      "poems": [
+        "There Was an Old Man of Nantucket",
+        "A Limerick on Time",
+        "There Once Was a Man from Peru",
+        "A Tutor Who Tooted the Flute",
+        "A Flea and a Fly in a Flue",
+        "There Was a Young Man of Japan",
+        "There Was a Young Lady of Niger"
+      ]
+    }
+  }
+}

@@ -6424,6 +6424,59 @@ His Tay Bridge poem was so bad
 It made all of Scotland glad."""
     },
 
+    # Additional clerihews to test the proper-noun hypothesis (see findings/clerihew_vs_limerick.md).
+    # Chosen for subjects with distinctive biographical facts requiring hard-to-predict tokens.
+    {
+        "title": "Isaac Newton",
+        "author": "Synthetic (clerihew test case)",
+        "year": 2024,
+        "era": "clerihew",
+        "text": """Isaac Newton
+Could never be beaten
+At sums involving gravity—
+His great depravity."""
+    },
+    {
+        "title": "Edgar Allan Poe",
+        "author": "Synthetic (clerihew test case)",
+        "year": 2024,
+        "era": "clerihew",
+        "text": """Edgar Allan Poe
+Made ravens say "Nevermore."
+He also married his cousin,
+Which was awkward by the dozen."""
+    },
+    {
+        "title": "Marie Curie",
+        "author": "Synthetic (clerihew test case)",
+        "year": 2024,
+        "era": "clerihew",
+        "text": """Marie Curie
+Isolated radium, purely.
+She named polonium after Poland,
+A patriotic rolland."""
+    },
+    {
+        "title": "Nikola Tesla",
+        "author": "Synthetic (clerihew test case)",
+        "year": 2024,
+        "era": "clerihew",
+        "text": """Nikola Tesla
+Loved pigeons better
+Than people. His rotating fields
+Changed what alternating current yields."""
+    },
+    {
+        "title": "James Joyce",
+        "author": "Synthetic (clerihew test case)",
+        "year": 2024,
+        "era": "clerihew",
+        "text": """James Joyce
+Had a peculiar voice.
+He wrote Ulysses in Trieste—
+A breakfast for the feast."""
+    },
+
     # ─── DOUBLE DACTYL ────────────────────────────────────────────────────────
     # The double dactyl (invented by Anthony Hecht and John Hollander, 1966) is
     # the most formally constrained English short poem form:
