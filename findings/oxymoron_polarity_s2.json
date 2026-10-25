@@ -1,0 +1,318 @@
+{
+  "n_reversal_tokens": 53,
+  "n_concordant_tokens": 348,
+  "avg_s2_reversal": 0.1438943396226415,
+  "avg_s2_concordant": -2.4121962643678163,
+  "std_s2_reversal": 3.0974518084296756,
+  "std_s2_concordant": 2.5537022719102342,
+  "avg_reversal_rate_poetry": 0.1628742784992785,
+  "avg_reversal_rate_prose": 0,
+  "reversal_type_counts": {
+    "pos\u2192neg": 31,
+    "neg\u2192pos": 22
+  },
+  "era_avg_reversal_rates": {
+    "surrealist": 0.3333333333333333,
+    "german_symbolist": 0.0,
+    "german_expressionist": 0.19444444444444445,
+    "german_modernist": 0.0,
+    "modernist": 0.2222222222222222,
+    "prose_poetry": 0.33095238095238094,
+    "romantic": 0.0,
+    "19th_century": 0.09090909090909091,
+    "harlem_renaissance": 0.0,
+    "contemporary": 0.25,
+    "ballad": 0.0,
+    "victorian": 0.1037037037037037,
+    "song_lyrics": 0.0,
+    "nursery_rhyme": 0.25,
+    "metaphysical": 0.2,
+    "found_poetry": 0.0,
+    "fixed_form": 0.0,
+    "cliche_control": 0.20833333333333334,
+    "biblical": 0.0,
+    "korean_modernist": 0.0,
+    "oulipo": 0.0,
+    "persian": 0.0,
+    "war_poetry": 0.0,
+    "18th_century": 0.0,
+    "postcolonial": 0.0,
+    "dramatic_monologue": 0.0,
+    "ekphrastic": 0.2222222222222222
+  },
+  "top_reversal_poems": [
+    {
+      "title": "From 'Who Whispered Near Me' (excerpt)",
+      "author": "Killarney Clary",
+      "era": "prose_poetry",
+      "is_prose": false,
+      "reversal_rate": 0.6,
+      "n_reversals": 3,
+      "n_valenced": 5,
+      "avg_reversal_s2": 0.5386333333333333,
+      "avg_concordant_s2": -2.7282
+    },
+    {
+      "title": "Autumn Comes (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "is_prose": false,
+      "reversal_rate": 0.4166666666666667,
+      "n_reversals": 5,
+      "n_valenced": 12,
+      "avg_reversal_s2": -2.0735,
+      "avg_concordant_s2": -2.093714285714286
+    },
+    {
+      "title": "Casabianca",
+      "author": "Felicia Hemans",
+      "era": "victorian",
+      "is_prose": false,
+      "reversal_rate": 0.4,
+      "n_reversals": 2,
+      "n_valenced": 5,
+      "avg_reversal_s2": -0.88345,
+      "avg_concordant_s2": -2.2659333333333334
+    },
+    {
+      "title": "Dover Beach (closing stanzas)",
+      "author": "Matthew Arnold",
+      "era": "victorian",
+      "is_prose": false,
+      "reversal_rate": 0.3333333333333333,
+      "n_reversals": 2,
+      "n_valenced": 6,
+      "avg_reversal_s2": -0.0015000000000000013,
+      "avg_concordant_s2": -3.04195
+    },
+    {
+      "title": "Ode on a Grecian Urn",
+      "author": "John Keats",
+      "era": "ekphrastic",
+      "is_prose": false,
+      "reversal_rate": 0.2222222222222222,
+      "n_reversals": 2,
+      "n_valenced": 9,
+      "avg_reversal_s2": -0.5952,
+      "avg_concordant_s2": -3.878242857142857
+    },
+    {
+      "title": "Love (III)",
+      "author": "George Herbert",
+      "era": "metaphysical",
+      "is_prose": false,
+      "reversal_rate": 0.2,
+      "n_reversals": 1,
+      "n_valenced": 5,
+      "avg_reversal_s2": -0.2525,
+      "avg_concordant_s2": -1.188075
+    },
+    {
+      "title": "Tears, Idle Tears",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "is_prose": false,
+      "reversal_rate": 0.2,
+      "n_reversals": 1,
+      "n_valenced": 5,
+      "avg_reversal_s2": 3.6365,
+      "avg_concordant_s2": -3.7222750000000002
+    },
+    {
+      "title": "The Stranger (prose poem, translated)",
+      "author": "Charles Baudelaire",
+      "era": "prose_poetry",
+      "is_prose": false,
+      "reversal_rate": 0.14285714285714285,
+      "n_reversals": 1,
+      "n_valenced": 7,
+      "avg_reversal_s2": 0.8843,
+      "avg_concordant_s2": -1.98675
+    },
+    {
+      "title": "The Raven (opening stanzas)",
+      "author": "Edgar Allan Poe",
+      "era": "19th_century",
+      "is_prose": false,
+      "reversal_rate": 0.09090909090909091,
+      "n_reversals": 1,
+      "n_valenced": 11,
+      "avg_reversal_s2": 0.4663,
+      "avg_concordant_s2": -3.17388
+    },
+    {
+      "title": "Grodek",
+      "author": "Georg Trakl",
+      "era": "german_expressionist",
+      "is_prose": false,
+      "reversal_rate": 0.0,
+      "n_reversals": 0,
+      "n_valenced": 10,
+      "avg_reversal_s2": null,
+      "avg_concordant_s2": -3.44499
+    }
+  ],
+  "top_s2_reversals": [
+    {
+      "token": " sinking",
+      "s2": 10.0336,
+      "surprisal": 19.3587,
+      "title": "Nobody (Wright)",
+      "author": "Richard Wright",
+      "reversal_type": "pos\u2192neg"
+    },
+    {
+      "token": " hunger",
+      "s2": 7.7467,
+      "surprisal": 11.5792,
+      "title": "Incantation",
+      "author": "Lucille Clifton",
+      "reversal_type": "pos\u2192neg"
+    },
+    {
+      "token": " immortal",
+      "s2": 7.6073,
+      "surprisal": 13.0428,
+      "title": "MacFlecknoe (opening)",
+      "author": "John Dryden",
+      "reversal_type": "neg\u2192pos"
+    },
+    {
+      "token": " hollow",
+      "s2": 5.4344,
+      "surprisal": 16.059,
+      "title": "The Sleeper in the Valley",
+      "author": "Arthur Rimbaud",
+      "reversal_type": "pos\u2192neg"
+    },
+    {
+      "token": " golden",
+      "s2": 5.2383,
+      "surprisal": 12.1755,
+      "title": "The Negro Speaks of Rivers",
+      "author": "Langston Hughes",
+      "reversal_type": "neg\u2192pos"
+    },
+    {
+      "token": " living",
+      "s2": 3.9343,
+      "surprisal": 11.249,
+      "title": "I Have Dreamed of You So Much",
+      "author": "Robert Desnos",
+      "reversal_type": "neg\u2192pos"
+    },
+    {
+      "token": " fresh",
+      "s2": 3.6365,
+      "surprisal": 10.1154,
+      "title": "Tears, Idle Tears",
+      "author": "Alfred, Lord Tennyson",
+      "reversal_type": "neg\u2192pos"
+    },
+    {
+      "token": " soft",
+      "s2": 3.2276,
+      "surprisal": 7.5217,
+      "title": "From 'Who Whispered Near Me' (excerpt)",
+      "author": "Killarney Clary",
+      "reversal_type": "neg\u2192pos"
+    },
+    {
+      "token": " empty",
+      "s2": 3.2249,
+      "surprisal": 12.3287,
+      "title": "Der Gott der Stadt (The God of the City, trans.)",
+      "author": "Georg Heym",
+      "reversal_type": "pos\u2192neg"
+    },
+    {
+      "token": " night",
+      "s2": 2.0647,
+      "surprisal": 10.211,
+      "title": "Howl (opening)",
+      "author": "Allen Ginsberg",
+      "reversal_type": "pos\u2192neg"
+    },
+    {
+      "token": " care",
+      "s2": 1.9773,
+      "surprisal": 10.5079,
+      "title": "The Wanderer (excerpt, modern translation)",
+      "author": "Anonymous (Old English, trans. anon.)",
+      "reversal_type": "neg\u2192pos"
+    },
+    {
+      "token": " shadow",
+      "s2": 1.6604,
+      "surprisal": 11.3285,
+      "title": "Somnambule Ballad",
+      "author": "Federico Garc\u00eda Lorca",
+      "reversal_type": "pos\u2192neg"
+    },
+    {
+      "token": " cold",
+      "s2": 1.504,
+      "surprisal": 9.278,
+      "title": "Somnambule Ballad",
+      "author": "Federico Garc\u00eda Lorca",
+      "reversal_type": "pos\u2192neg"
+    },
+    {
+      "token": " rise",
+      "s2": 1.4841,
+      "surprisal": 9.804,
+      "title": "An Essay on Man (Epistle I, opening)",
+      "author": "Alexander Pope",
+      "reversal_type": "neg\u2192pos"
+    },
+    {
+      "token": " cold",
+      "s2": 1.4602,
+      "surprisal": 9.3776,
+      "title": "Somnambulistic Ballad (excerpt)",
+      "author": "Federico Garc\u00eda Lorca (trans. Stephen Spender & J.L. Gili)",
+      "reversal_type": "pos\u2192neg"
+    },
+    {
+      "token": " night",
+      "s2": 1.2669,
+      "surprisal": 11.5225,
+      "title": "A Dialogue of Self and Soul (Part I)",
+      "author": "W.B. Yeats",
+      "reversal_type": "pos\u2192neg"
+    },
+    {
+      "token": " despair",
+      "s2": 1.1796,
+      "surprisal": 10.3432,
+      "title": "Casabianca",
+      "author": "Felicia Hemans",
+      "reversal_type": "pos\u2192neg"
+    },
+    {
+      "token": " hate",
+      "s2": 0.8843,
+      "surprisal": 6.8474,
+      "title": "The Stranger (prose poem, translated)",
+      "author": "Charles Baudelaire",
+      "reversal_type": "pos\u2192neg"
+    },
+    {
+      "token": " silent",
+      "s2": 0.8045,
+      "surprisal": 10.7628,
+      "title": "Ode on a Grecian Urn",
+      "author": "John Keats",
+      "reversal_type": "pos\u2192neg"
+    },
+    {
+      "token": " misery",
+      "s2": 0.4698,
+      "surprisal": 9.8203,
+      "title": "Dover Beach (closing stanzas)",
+      "author": "Matthew Arnold",
+      "reversal_type": "pos\u2192neg"
+    }
+  ],
+  "catalog_hits": []
+}
