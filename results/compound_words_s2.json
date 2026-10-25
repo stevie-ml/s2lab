@@ -1,0 +1,483 @@
+{
+  "global_compound": {
+    "n": 238,
+    "mean": 0.5143,
+    "std": 3.8446,
+    "median": -0.1529,
+    "pos_pct": 45.8
+  },
+  "global_baseline": {
+    "n": 28065,
+    "mean": -0.0754,
+    "std": 3.7717,
+    "median": -0.8134,
+    "pos_pct": 38.8
+  },
+  "delta_compound_minus_baseline": 0.5897,
+  "by_category": {
+    "poetry": {
+      "compound": {
+        "n": 238,
+        "mean": 0.5143,
+        "std": 3.8446,
+        "median": -0.1529,
+        "pos_pct": 45.8
+      },
+      "baseline": {
+        "n": 27936,
+        "mean": -0.0676,
+        "std": 3.7748,
+        "median": -0.8057,
+        "pos_pct": 38.8
+      }
+    },
+    "prose": {
+      "compound": {
+        "n": 0,
+        "mean": 0,
+        "std": 0,
+        "median": 0,
+        "pos_pct": 0
+      },
+      "baseline": {
+        "n": 129,
+        "mean": -1.7628,
+        "std": 2.4955,
+        "median": -1.9883,
+        "pos_pct": 20.9
+      }
+    }
+  },
+  "by_word_class": {
+    "ADJ": {
+      "n": 12,
+      "mean": 1.3788,
+      "std": 5.8371,
+      "median": 0.3284,
+      "pos_pct": 50.0
+    },
+    "NOUN": {
+      "n": 6,
+      "mean": 3.7335,
+      "std": 1.6474,
+      "median": 3.9806,
+      "pos_pct": 100.0
+    },
+    "VERB": {
+      "n": 4,
+      "mean": -0.1011,
+      "std": 4.2013,
+      "median": -0.651,
+      "pos_pct": 50.0
+    },
+    "OTHER": {
+      "n": 216,
+      "mean": 0.3883,
+      "std": 3.7265,
+      "median": -0.2182,
+      "pos_pct": 44.0
+    }
+  },
+  "by_era": {
+    "romantic": {
+      "compound": {
+        "n": 31,
+        "mean": 0.1839,
+        "std": 3.4365,
+        "median": -0.2957,
+        "pos_pct": 38.7
+      },
+      "baseline": {
+        "n": 1994,
+        "mean": 0.0061,
+        "std": 3.8484,
+        "median": -0.6182,
+        "pos_pct": 41.1
+      }
+    },
+    "modernist": {
+      "compound": {
+        "n": 23,
+        "mean": 0.3546,
+        "std": 3.7461,
+        "median": -0.1256,
+        "pos_pct": 43.5
+      },
+      "baseline": {
+        "n": 1749,
+        "mean": -0.1132,
+        "std": 3.8882,
+        "median": -0.7051,
+        "pos_pct": 39.6
+      }
+    },
+    "contemporary": {
+      "compound": {
+        "n": 5,
+        "mean": 2.6651,
+        "std": 3.0135,
+        "median": 3.5508,
+        "pos_pct": 80.0
+      },
+      "baseline": {
+        "n": 716,
+        "mean": -0.0287,
+        "std": 3.8114,
+        "median": -0.8286,
+        "pos_pct": 38.1
+      }
+    },
+    "victorian": {
+      "compound": {
+        "n": 44,
+        "mean": 1.3591,
+        "std": 3.4635,
+        "median": 1.0284,
+        "pos_pct": 70.5
+      },
+      "baseline": {
+        "n": 3094,
+        "mean": -0.0049,
+        "std": 3.7843,
+        "median": -0.7841,
+        "pos_pct": 39.3
+      }
+    },
+    "ballad": {
+      "compound": {
+        "n": 7,
+        "mean": -1.2361,
+        "std": 1.9543,
+        "median": -0.6104,
+        "pos_pct": 14.3
+      },
+      "baseline": {
+        "n": 607,
+        "mean": 0.0509,
+        "std": 4.1653,
+        "median": -0.7436,
+        "pos_pct": 34.1
+      }
+    },
+    "fixed_form": {
+      "compound": {
+        "n": 7,
+        "mean": -0.4024,
+        "std": 1.36,
+        "median": -0.2086,
+        "pos_pct": 28.6
+      },
+      "baseline": {
+        "n": 573,
+        "mean": -0.2365,
+        "std": 3.8153,
+        "median": -0.9108,
+        "pos_pct": 35.1
+      }
+    },
+    "18th_century": {
+      "compound": {
+        "n": 5,
+        "mean": -1.4522,
+        "std": 2.9708,
+        "median": -2.0926,
+        "pos_pct": 20.0
+      },
+      "baseline": {
+        "n": 796,
+        "mean": 0.1977,
+        "std": 3.8414,
+        "median": -0.6986,
+        "pos_pct": 42.0
+      }
+    },
+    "old_english": {
+      "compound": {
+        "n": 13,
+        "mean": 1.0958,
+        "std": 5.7173,
+        "median": -0.6526,
+        "pos_pct": 38.5
+      },
+      "baseline": {
+        "n": 396,
+        "mean": 0.0331,
+        "std": 4.0322,
+        "median": -0.7736,
+        "pos_pct": 43.4
+      }
+    },
+    "protest_political": {
+      "compound": {
+        "n": 5,
+        "mean": 0.0708,
+        "std": 4.4281,
+        "median": 0.3965,
+        "pos_pct": 60.0
+      },
+      "baseline": {
+        "n": 153,
+        "mean": -0.1851,
+        "std": 3.5933,
+        "median": -1.0671,
+        "pos_pct": 39.9
+      }
+    },
+    "war_poetry": {
+      "compound": {
+        "n": 6,
+        "mean": 2.6121,
+        "std": 2.34,
+        "median": 2.1284,
+        "pos_pct": 100.0
+      },
+      "baseline": {
+        "n": 405,
+        "mean": 0.0836,
+        "std": 3.778,
+        "median": -0.6716,
+        "pos_pct": 43.7
+      }
+    },
+    "postcolonial": {
+      "compound": {
+        "n": 5,
+        "mean": -0.4712,
+        "std": 3.0129,
+        "median": -1.1688,
+        "pos_pct": 40.0
+      },
+      "baseline": {
+        "n": 597,
+        "mean": -0.34,
+        "std": 3.7879,
+        "median": -1.1614,
+        "pos_pct": 35.0
+      }
+    },
+    "dramatic_monologue": {
+      "compound": {
+        "n": 25,
+        "mean": -0.4758,
+        "std": 2.7793,
+        "median": -1.3618,
+        "pos_pct": 40.0
+      },
+      "baseline": {
+        "n": 1667,
+        "mean": 0.0046,
+        "std": 3.7986,
+        "median": -0.7472,
+        "pos_pct": 40.2
+      }
+    },
+    "elegy": {
+      "compound": {
+        "n": 8,
+        "mean": -1.8548,
+        "std": 1.5716,
+        "median": -1.5772,
+        "pos_pct": 12.5
+      },
+      "baseline": {
+        "n": 750,
+        "mean": -0.0457,
+        "std": 3.7912,
+        "median": -0.7068,
+        "pos_pct": 39.9
+      }
+    },
+    "early_modern": {
+      "compound": {
+        "n": 5,
+        "mean": 2.3061,
+        "std": 3.8574,
+        "median": 1.1306,
+        "pos_pct": 60.0
+      },
+      "baseline": {
+        "n": 827,
+        "mean": 0.0289,
+        "std": 3.6761,
+        "median": -0.7113,
+        "pos_pct": 41.2
+      }
+    },
+    "double_dactyl": {
+      "compound": {
+        "n": 6,
+        "mean": -1.2248,
+        "std": 2.5705,
+        "median": -2.2742,
+        "pos_pct": 16.7
+      },
+      "baseline": {
+        "n": 141,
+        "mean": -0.5284,
+        "std": 3.654,
+        "median": -1.2262,
+        "pos_pct": 34.8
+      }
+    },
+    "ekphrastic": {
+      "compound": {
+        "n": 13,
+        "mean": 0.6353,
+        "std": 3.484,
+        "median": -0.631,
+        "pos_pct": 46.2
+      },
+      "baseline": {
+        "n": 1285,
+        "mean": -0.1656,
+        "std": 3.7138,
+        "median": -0.7823,
+        "pos_pct": 40.2
+      }
+    }
+  },
+  "top_compound_moments": [
+    {
+      "compound": "role-L",
+      "s2": 17.7338,
+      "title": "Paradoxes and Oxymorons",
+      "author": "John Ashbery",
+      "suppressed_top1": "playing"
+    },
+    {
+      "compound": "Sea-mess",
+      "s2": 16.9861,
+      "title": "The Battle of Maldon (excerpt, trans. E.V. Gordon)",
+      "author": "Anonymous (trans. E.V. Gordon)",
+      "suppressed_top1": "w"
+    },
+    {
+      "compound": "Far-called",
+      "s2": 14.9272,
+      "title": "Recessional (stanzas 1-3)",
+      "author": "Rudyard Kipling",
+      "suppressed_top1": "fl"
+    },
+    {
+      "compound": "razor-ke",
+      "s2": 13.3381,
+      "title": "A Dialogue of Self and Soul (Part I)",
+      "author": "W.B. Yeats",
+      "suppressed_top1": "sharp"
+    },
+    {
+      "compound": "ice-of",
+      "s2": 13.3094,
+      "title": "Ghazal of the Better-Unbegun",
+      "author": "Heather McHugh",
+      "suppressed_top1": "cold"
+    },
+    {
+      "compound": "thy-lane",
+      "s2": 13.222,
+      "title": "To a Mouse (closing stanzas)",
+      "author": "Robert Burns",
+      "suppressed_top1": "self"
+    },
+    {
+      "compound": "tailor-sh",
+      "s2": 13.0186,
+      "title": "Walking Around",
+      "author": "Pablo Neruda",
+      "suppressed_top1": "made"
+    },
+    {
+      "compound": "well-buck",
+      "s2": 10.0486,
+      "title": "Morning Glory (Chiyo-ni, translated)",
+      "author": "Chiyo-ni",
+      "suppressed_top1": "known"
+    },
+    {
+      "compound": "dim-con",
+      "s2": 9.4774,
+      "title": "On Seeing the Elgin Marbles",
+      "author": "John Keats",
+      "suppressed_top1": "w"
+    },
+    {
+      "compound": "sigh-temp",
+      "s2": 8.3765,
+      "title": "A Valediction: Forbidding Mourning",
+      "author": "John Donne",
+      "suppressed_top1": "we"
+    },
+    {
+      "compound": "of-eye",
+      "s2": 6.8011,
+      "title": "Ghazal of the Better-Unbegun",
+      "author": "Heather McHugh",
+      "suppressed_top1": "the"
+    },
+    {
+      "compound": "passing-bell",
+      "s2": 6.7151,
+      "title": "Anthem for Doomed Youth",
+      "author": "Wilfred Owen",
+      "suppressed_top1": "time"
+    },
+    {
+      "compound": "sea-washed",
+      "s2": 6.499,
+      "title": "The New Colossus",
+      "author": "Emma Lazarus",
+      "suppressed_top1": "shore"
+    },
+    {
+      "compound": "ad-bench",
+      "s2": 6.4356,
+      "title": "Beowulf (opening, trans. Gummere)",
+      "author": "Anonymous (trans. Francis B. Gummere)",
+      "suppressed_top1": "t"
+    },
+    {
+      "compound": "ad-bench",
+      "s2": 6.4356,
+      "title": "Beowulf: The Opening (Hall translation, 1892)",
+      "author": "Anonymous (trans. Hall)",
+      "suppressed_top1": "t"
+    },
+    {
+      "compound": "curtain-ed",
+      "s2": 6.4259,
+      "title": "Aubade (opening)",
+      "author": "Philip Larkin",
+      "suppressed_top1": "cl"
+    },
+    {
+      "compound": "nut-falls",
+      "s2": 6.3167,
+      "title": "Pied Beauty",
+      "author": "Gerard Manley Hopkins",
+      "suppressed_top1": "green"
+    },
+    {
+      "compound": "nut-falls",
+      "s2": 6.2233,
+      "title": "Pied Beauty",
+      "author": "Gerard Manley Hopkins",
+      "suppressed_top1": "leaf"
+    },
+    {
+      "compound": "ble-heavy",
+      "s2": 6.1465,
+      "title": "Daddy (opening)",
+      "author": "Sylvia Plath",
+      "suppressed_top1": "white"
+    },
+    {
+      "compound": "half-inter",
+      "s2": 5.1129,
+      "title": "Kubla Khan (opening stanzas)",
+      "author": "Samuel Taylor Coleridge",
+      "suppressed_top1": "dark"
+    }
+  ],
+  "high_s2_fraction": 0.2521,
+  "low_s2_fraction": 0.2437
+}

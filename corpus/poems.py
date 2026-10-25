@@ -7025,6 +7025,201 @@ Long since when summer ceased,
 And men rose up from feast,
 And warm west wind grew east, and warm day night."""
     },
+
+    # ─── COMPOUND-RICH ADDITIONS (for S2/compound-word analysis) ──────────
+
+    # Hopkins — "Spring and Fall: To a Young Child" (1880, PD)
+    # Compound-rich; the question "what heart heard of, ghost guessed" demonstrates
+    # Hopkins's coined diction
+    {
+        "title": "Spring and Fall: To a Young Child",
+        "author": "Gerard Manley Hopkins",
+        "year": 1880,
+        "era": "victorian",
+        "text": """Márgarét, áre you gríeving
+Over Goldengrove unleaving?
+Leáves, líke the things of man, you
+With your fresh thoughts care for, can you?
+Áh! ás the heart grows older
+It will come to such sights colder
+By and by, nor spare a sigh
+Though worlds of wanwood leafmeal lie;
+And yet you wíll weep and know why.
+Now no matter, child, the name:
+Sórrow's spríngs áre the same.
+Nor mouth had, no nor mind, expressed
+What heart heard of, ghost guessed:
+It ís the blight man was born for,
+It is Margaret you mourn for."""
+    },
+
+    # Hopkins — "Inversnaid" (1881, PD)
+    # Famous for its coined compound words: "windpuff-bonnet", "twindles"
+    {
+        "title": "Inversnaid",
+        "author": "Gerard Manley Hopkins",
+        "year": 1881,
+        "era": "victorian",
+        "text": """This darksome burn, horseback brown,
+His rollrock highroad roaring down,
+In coop and in comb the fleece of his foam
+Flutes and low to the lake falls home.
+
+A windpuff-bonnet of fáwn-fróth
+Turns and twindles over the broth
+Of a pool so pitchblack, féll-frówning,
+It rounds and rounds Despair to drowning.
+
+Degged with dew, dappled with dew
+Are the groins of the braes that the brook treads through,
+Wiry heathpacks, flitches of fern,
+And the beadbonny ash that sits over the burn.
+
+What would the world be, once bereft
+Of wet and of wildness? Let them be left,
+O let them be left, wildness and wet;
+Long live the weeds and the wilderness yet."""
+    },
+
+    # Swinburne — "The Garden of Proserpine" (stanzas 1-5, 1866, PD)
+    # Victorian compound adjectives and extended repetition
+    {
+        "title": "The Garden of Proserpine (stanzas 1-5)",
+        "author": "Algernon Charles Swinburne",
+        "year": 1866,
+        "era": "victorian",
+        "text": """Here, where the world is quiet;
+Here, where all trouble seems
+Dead winds' and spent waves' riot
+In doubtful dreams of dreams;
+I watch the green field growing
+For reaping folk and sowing,
+For harvest-time and mowing,
+A sleepy world of streams.
+
+I am tired of tears and laughter,
+And men that laugh and weep;
+Of what may come hereafter
+For men that sow to reap:
+I am weary of days and hours,
+Blown buds of barren flowers,
+Desires and dreams and powers
+And everything but sleep.
+
+Here life has death for neighbour,
+And far from eye or ear
+Wan waves and wet winds labour,
+Weak leaves and winds that fear;
+And time remembered is grief forgotten,
+And frosts are slain and flowers begotten,
+And in green underwood and cover
+Blossom by blossom the spring begins.
+
+The full streams feed on flower of rushes,
+Ripe grasses trammel a travelling foot,
+The faint fresh flame of the young year flushes
+From leaf to flower and flower to fruit;
+And fruit and leaf are as gold and fire,
+And the oat is heard above the lyre,
+And the hoofed heel of a satyr crushes
+The chestnut-husk at the chestnut-root.
+
+And Pan by noon and Bacchus by night,
+Fleeter of foot than the fleet-foot kid,
+Follows with dancing and fills with delight
+The Maenad and the Bassarid;
+And soft as lips that laugh and hide
+The laughing leaves of the tree divide,
+And screen from seeing and leave in sight
+The god pursuing, the maiden hid."""
+    },
+
+    # Keats — "The Eve of St. Agnes" (stanzas 1-5, 1819, PD)
+    # Rich compound adjectives: "argent-still", "silver-snarling"
+    {
+        "title": "The Eve of St. Agnes (stanzas 1-5)",
+        "author": "John Keats",
+        "year": 1819,
+        "era": "romantic",
+        "text": """St. Agnes' Eve—Ah, bitter chill it was!
+The owl, for all his feathers, was a-cold;
+The hare limp'd trembling through the frozen grass,
+And silent was the flock in woolly fold:
+Numb were the Beadsman's fingers, while he told
+His rosary, and while his frosted breath,
+Like pious incense from a censer old,
+Seem'd taking flight for heaven, without a death,
+Past the sweet Virgin's picture, while his prayer he saith.
+
+His prayer he saith, this patient, holy man;
+Then takes his lamp, and riseth from his knees,
+And back returneth, meagre, barefoot, wan,
+Along the chapel aisle by slow degrees:
+The sculptur'd dead, on each side, seem to freeze,
+Emprison'd in black, purgatorial rails:
+Knights, ladies, praying in dumb orat'ries,
+He passeth by; and his weak spirit fails
+To think how they may ache in icy hoods and mails.
+
+Northward he turneth through a little door,
+And scarce three steps, ere Music's golden tongue
+Flatter'd to tears this aged man and poor;
+But no—already had his deathbell rung;
+The joys of all his life were said and sung:
+His was harsh penance on St. Agnes' Eve:
+Another way he went, and soon among
+Rough ashes sat he for his soul's reprieve,
+And all night kept awake, for sinners' sake to grieve.
+
+That ancient Beadsman heard the prelude soft;
+And so it chanc'd, for many a door was wide,
+From hurry to and fro. Soon, up aloft,
+The silver, snarling trumpets 'gan to chide:
+The level chambers, ready with their pride,
+Were glowing to receive a thousand guests:
+The carved angels, ever eager-eyed,
+Star'd, where upon their heads the cornice rests,
+With hair blown back, and wings put cross-wise on their breasts.
+
+At length burst in the argent revelry,
+With plume, tiara, and all rich array,
+Numerous as shadows haunting faerily
+The brain, new stuff'd, in youth, with triumphs gay
+Of old romance. These let us wish away,
+And turn, sole-thoughted, to one Lady there,
+Whose heart had brooded, all that wintry day,
+On love, and wing'd St. Agnes' saintly care,
+As she had heard old dames full many times declare."""
+    },
+
+    # Old English — "The Battle of Maldon" (excerpt, trans. Gordon, 991 AD, PD)
+    # Contains kennings (compound-metaphors) typical of Old English poetry
+    {
+        "title": "The Battle of Maldon (excerpt, trans. E.V. Gordon)",
+        "author": "Anonymous (trans. E.V. Gordon)",
+        "year": 991,
+        "era": "old_english",
+        "text": """Then Byrhtnoth spoke, raised up his shield,
+brandished his slender ash-spear, angry and resolute:
+with words he gave him answer,
+the proud man gave him answer:
+'Do you hear, sea-wanderer, what this people say?
+They will give you spears as tribute,
+poisoned point and old sword,
+that heriot which will not help you in the fight.
+Sea-messengers, carry back your message:
+tell your people a far worse tale,
+how there stands here with his war-band
+a man not without honour who defends
+this country, Aethelred's homeland,
+the people and the ground. The heathen shall fall.
+It seems to me too shameful that you should
+go to your ships with our tribute unfought,
+now that you have come thus far into our land.
+You shall not gain treasure so easily;
+point and edge shall settle this matter,
+grim play of war, before we pay tribute.'"""
+    },
 ]
 
 # Quick stats
