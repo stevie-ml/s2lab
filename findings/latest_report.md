@@ -1,5 +1,5 @@
 # S₂ Lab Research Report
-**Generated:** 2026-10-24 18:49:24
+**Generated:** 2026-10-25 00:50:51
 **Corpus:** 336 texts analyzed with GPT-2
 **Model:** gpt2 (117M parameters)
 
@@ -337,6 +337,17 @@ The poetry–prose gap is real and survives artifact removal. Poetry is measurab
 
 Do nouns, verbs, adjectives, and function words have systematically different S₂ values in poetry vs prose?
 
-*Syntactic position experiment skipped: No module named 'nltk'*
+| POS | Poetry AvgS₂ | Prose AvgS₂ | Δ S₂ |
+|-----|------------|-----------|------|
+| NOUN | +1.515 | -1.854 | **+3.369** |
+| VERB | +1.090 | -1.210 | **+2.300** |
+| ADJ | +1.105 | -2.376 | **+3.481** |
+| PREP | +0.474 | -1.071 | **+1.545** |
+| DET | -1.585 | -3.551 | **+1.966** |
+| CONJ | +0.801 | -1.978 | **+2.779** |
+| PUNCT | -1.922 | -1.793 | **-0.129** |
+
+### Finding
+**ADJ** shows the largest poetry-vs-prose Straussian gap (Δ = +3.481), while **PUNCT** shows the smallest (Δ = -0.129). The Straussian gap is concentrated in lexical content words, not grammatical function words — poets deviate from expectation by choosing unexpected *things and qualities*, not by restructuring the syntactic frame.
 
 ---
