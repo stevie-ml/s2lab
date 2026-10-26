@@ -1,0 +1,1156 @@
+{
+  "total_clean_tokens": 41168,
+  "high_s2_tokens": 9770,
+  "high_s2_strategy": {
+    "longer_rarer": 4772,
+    "same_length": 3864,
+    "shorter_commoner": 1134,
+    "pct_longer": 48.84339815762539,
+    "pct_shorter": 11.606960081883317
+  },
+  "function_word_rates": {
+    "overall": 0.26331130975514966,
+    "high_s2": 0.11218014329580347,
+    "enrichment": 0.42603617520310305
+  },
+  "mean_length_at_high_s2": 4.130808597748209,
+  "mean_length_overall": 2.9790856976292264,
+  "top_high_s2_tokens": {
+    "\u2014": 96,
+    ":": 70,
+    ";": 63,
+    "and": 62,
+    ".": 50,
+    "a": 45,
+    "the": 44,
+    "in": 42,
+    "that": 41,
+    "to": 40,
+    "for": 39,
+    "of": 37,
+    "on": 37,
+    "as": 35,
+    ",": 34,
+    "!": 34,
+    "i": 32,
+    "all": 32,
+    "with": 30,
+    "he": 29,
+    "at": 29,
+    "an": 28,
+    "there": 28,
+    "'": 28,
+    "o": 27,
+    "my": 27,
+    "upon": 27,
+    "one": 26,
+    "but": 25,
+    "where": 24
+  },
+  "top_expected_at_high_s2": {
+    ",": 1015,
+    "the": 980,
+    "": 711,
+    "and": 449,
+    "of": 308,
+    ".": 291,
+    "i": 290,
+    "a": 208,
+    "to": 177,
+    "is": 166,
+    "in": 106,
+    "was": 99,
+    "-": 94,
+    "be": 93,
+    "are": 78,
+    "not": 78,
+    "'s": 76,
+    "you": 74,
+    "he": 65,
+    "my": 57,
+    "that": 55,
+    "man": 48,
+    "me": 45,
+    "with": 43,
+    "his": 41,
+    "have": 38,
+    "\"": 36,
+    "it": 35,
+    "her": 35,
+    "who": 34
+  },
+  "poet_profiles": {
+    "Thomas Jefferson (found text)": {
+      "n": 16,
+      "mean_len": 1.625,
+      "pct_short": 81.25
+    },
+    "Lorine Niedecker": {
+      "n": 10,
+      "mean_len": 2.8,
+      "pct_short": 70.0
+    },
+    "Masaoka Shiki": {
+      "n": 10,
+      "mean_len": 2.9,
+      "pct_short": 60.0
+    },
+    "William Carlos Williams": {
+      "n": 12,
+      "mean_len": 2.9166666666666665,
+      "pct_short": 58.333333333333336
+    },
+    "Yosa Buson": {
+      "n": 12,
+      "mean_len": 3.0,
+      "pct_short": 66.66666666666666
+    },
+    "Anonymous (English, c. 1500)": {
+      "n": 10,
+      "mean_len": 3.1,
+      "pct_short": 60.0
+    },
+    "Traditional (Scottish ballad)": {
+      "n": 159,
+      "mean_len": 3.119496855345912,
+      "pct_short": 63.52201257861635
+    },
+    "Anne Carson": {
+      "n": 24,
+      "mean_len": 3.125,
+      "pct_short": 66.66666666666666
+    },
+    "Layli Long Soldier": {
+      "n": 22,
+      "mean_len": 3.1363636363636362,
+      "pct_short": 63.63636363636363
+    },
+    "H.D. (Hilda Doolittle)": {
+      "n": 11,
+      "mean_len": 3.1818181818181817,
+      "pct_short": 63.63636363636363
+    },
+    "Robert Burns": {
+      "n": 58,
+      "mean_len": 3.206896551724138,
+      "pct_short": 56.896551724137936
+    },
+    "Frank O'Hara": {
+      "n": 41,
+      "mean_len": 3.2195121951219514,
+      "pct_short": 60.97560975609756
+    },
+    "Emmett Williams": {
+      "n": 12,
+      "mean_len": 3.3333333333333335,
+      "pct_short": 75.0
+    },
+    "Langston Hughes": {
+      "n": 46,
+      "mean_len": 3.347826086956522,
+      "pct_short": 54.347826086956516
+    },
+    "Carolyn Wells": {
+      "n": 11,
+      "mean_len": 3.3636363636363638,
+      "pct_short": 45.45454545454545
+    },
+    "E.E. Cummings": {
+      "n": 61,
+      "mean_len": 3.4098360655737703,
+      "pct_short": 45.90163934426229
+    },
+    "Stefan George": {
+      "n": 113,
+      "mean_len": 3.4513274336283186,
+      "pct_short": 48.67256637168141
+    },
+    "Kobayashi Issa": {
+      "n": 17,
+      "mean_len": 3.4705882352941178,
+      "pct_short": 47.05882352941176
+    },
+    "Rudyard Kipling": {
+      "n": 69,
+      "mean_len": 3.4782608695652173,
+      "pct_short": 52.17391304347826
+    },
+    "Ko Un (trans. Brother Anthony of Taiz\u00e9)": {
+      "n": 20,
+      "mean_len": 3.5,
+      "pct_short": 65.0
+    },
+    "Edward Lear": {
+      "n": 28,
+      "mean_len": 3.5,
+      "pct_short": 50.0
+    },
+    "Sylvia Plath": {
+      "n": 36,
+      "mean_len": 3.5277777777777777,
+      "pct_short": 41.66666666666667
+    },
+    "Ben Jonson": {
+      "n": 54,
+      "mean_len": 3.537037037037037,
+      "pct_short": 46.2962962962963
+    },
+    "Omar Khayyam (trans. FitzGerald, 1859)": {
+      "n": 104,
+      "mean_len": 3.5576923076923075,
+      "pct_short": 51.92307692307693
+    },
+    "Edwin Arlington Robinson": {
+      "n": 24,
+      "mean_len": 3.5833333333333335,
+      "pct_short": 33.33333333333333
+    },
+    "Traditional (American sea chanty)": {
+      "n": 25,
+      "mean_len": 3.6,
+      "pct_short": 48.0
+    },
+    "Traditional (English/Scottish ballad)": {
+      "n": 41,
+      "mean_len": 3.6097560975609757,
+      "pct_short": 39.02439024390244
+    },
+    "Charles Bukowski": {
+      "n": 16,
+      "mean_len": 3.625,
+      "pct_short": 43.75
+    },
+    "Agha Shahid Ali": {
+      "n": 81,
+      "mean_len": 3.6419753086419755,
+      "pct_short": 40.74074074074074
+    },
+    "Walter de la Mare": {
+      "n": 26,
+      "mean_len": 3.6538461538461537,
+      "pct_short": 42.30769230769231
+    },
+    "Edmund Clerihew Bentley": {
+      "n": 18,
+      "mean_len": 3.6666666666666665,
+      "pct_short": 50.0
+    },
+    "Matthew Arnold": {
+      "n": 53,
+      "mean_len": 3.6792452830188678,
+      "pct_short": 45.28301886792453
+    },
+    "Sappho": {
+      "n": 23,
+      "mean_len": 3.6956521739130435,
+      "pct_short": 47.82608695652174
+    },
+    "Synthetic (double dactyl test case)": {
+      "n": 57,
+      "mean_len": 3.7017543859649122,
+      "pct_short": 59.64912280701754
+    },
+    "Anonymous (limerick tradition)": {
+      "n": 21,
+      "mean_len": 3.7142857142857144,
+      "pct_short": 38.095238095238095
+    },
+    "Pablo Neruda": {
+      "n": 50,
+      "mean_len": 3.72,
+      "pct_short": 44.0
+    },
+    "James Wright": {
+      "n": 12,
+      "mean_len": 3.75,
+      "pct_short": 33.33333333333333
+    },
+    "Anonymous": {
+      "n": 28,
+      "mean_len": 3.75,
+      "pct_short": 46.42857142857143
+    },
+    "Matsuo Bash\u014d": {
+      "n": 17,
+      "mean_len": 3.764705882352941,
+      "pct_short": 52.94117647058824
+    },
+    "Dante Gabriel Rossetti": {
+      "n": 86,
+      "mean_len": 3.7674418604651163,
+      "pct_short": 44.18604651162791
+    },
+    "John Milton": {
+      "n": 97,
+      "mean_len": 3.7938144329896906,
+      "pct_short": 42.2680412371134
+    },
+    "Christina Rossetti": {
+      "n": 124,
+      "mean_len": 3.806451612903226,
+      "pct_short": 45.96774193548387
+    },
+    "Isaac Watts": {
+      "n": 47,
+      "mean_len": 3.8085106382978724,
+      "pct_short": 38.297872340425535
+    },
+    "Andrew Marvell": {
+      "n": 21,
+      "mean_len": 3.8095238095238093,
+      "pct_short": 52.38095238095239
+    },
+    "Felicia Hemans": {
+      "n": 42,
+      "mean_len": 3.8095238095238093,
+      "pct_short": 42.857142857142854
+    },
+    "Traditional (American folk)": {
+      "n": 29,
+      "mean_len": 3.8275862068965516,
+      "pct_short": 48.275862068965516
+    },
+    "Lucille Clifton": {
+      "n": 53,
+      "mean_len": 3.830188679245283,
+      "pct_short": 37.735849056603776
+    },
+    "Amy Lowell": {
+      "n": 59,
+      "mean_len": 3.830508474576271,
+      "pct_short": 38.983050847457626
+    },
+    "Kamau Brathwaite": {
+      "n": 42,
+      "mean_len": 3.8333333333333335,
+      "pct_short": 47.61904761904761
+    },
+    "Alfred, Lord Tennyson": {
+      "n": 285,
+      "mean_len": 3.8526315789473684,
+      "pct_short": 38.94736842105263
+    },
+    "Philip Larkin": {
+      "n": 27,
+      "mean_len": 3.888888888888889,
+      "pct_short": 48.148148148148145
+    },
+    "Paul Laurence Dunbar": {
+      "n": 20,
+      "mean_len": 3.9,
+      "pct_short": 30.0
+    },
+    "W.S. Merwin": {
+      "n": 10,
+      "mean_len": 3.9,
+      "pct_short": 50.0
+    },
+    "William Wordsworth": {
+      "n": 11,
+      "mean_len": 3.909090909090909,
+      "pct_short": 45.45454545454545
+    },
+    "George Herbert": {
+      "n": 65,
+      "mean_len": 3.923076923076923,
+      "pct_short": 40.0
+    },
+    "Ernest Dowson": {
+      "n": 13,
+      "mean_len": 3.923076923076923,
+      "pct_short": 46.15384615384615
+    },
+    "Thomas Hardy": {
+      "n": 125,
+      "mean_len": 3.944,
+      "pct_short": 43.2
+    },
+    "Gerard Manley Hopkins": {
+      "n": 195,
+      "mean_len": 3.948717948717949,
+      "pct_short": 41.53846153846154
+    },
+    "Anonymous (trans. Francis B. Gummere)": {
+      "n": 39,
+      "mean_len": 3.948717948717949,
+      "pct_short": 43.58974358974359
+    },
+    "Oscar Wilde": {
+      "n": 24,
+      "mean_len": 3.9583333333333335,
+      "pct_short": 50.0
+    },
+    "Carl Sandburg": {
+      "n": 28,
+      "mean_len": 3.9642857142857144,
+      "pct_short": 35.714285714285715
+    },
+    "Robert Browning": {
+      "n": 564,
+      "mean_len": 3.976950354609929,
+      "pct_short": 40.78014184397163
+    },
+    "Traditional (English)": {
+      "n": 47,
+      "mean_len": 3.978723404255319,
+      "pct_short": 46.808510638297875
+    },
+    "Elizabeth Bishop": {
+      "n": 13,
+      "mean_len": 4.0,
+      "pct_short": 30.76923076923077
+    },
+    "Seamus Heaney": {
+      "n": 42,
+      "mean_len": 4.0,
+      "pct_short": 38.095238095238095
+    },
+    "Edmund Spenser": {
+      "n": 19,
+      "mean_len": 4.0,
+      "pct_short": 36.84210526315789
+    },
+    "Amiri Baraka (LeRoi Jones)": {
+      "n": 34,
+      "mean_len": 4.0,
+      "pct_short": 29.411764705882355
+    },
+    "Cui Hao": {
+      "n": 21,
+      "mean_len": 4.0,
+      "pct_short": 28.57142857142857
+    },
+    "Thomas Gray": {
+      "n": 42,
+      "mean_len": 4.0,
+      "pct_short": 40.476190476190474
+    },
+    "Emily Dickinson": {
+      "n": 126,
+      "mean_len": 4.0476190476190474,
+      "pct_short": 43.65079365079365
+    },
+    "Countee Cullen": {
+      "n": 79,
+      "mean_len": 4.050632911392405,
+      "pct_short": 45.56962025316456
+    },
+    "Robert Frost": {
+      "n": 114,
+      "mean_len": 4.078947368421052,
+      "pct_short": 35.08771929824561
+    },
+    "Ron Silliman": {
+      "n": 12,
+      "mean_len": 4.083333333333333,
+      "pct_short": 41.66666666666667
+    },
+    "Marianne Moore": {
+      "n": 97,
+      "mean_len": 4.092783505154639,
+      "pct_short": 40.20618556701031
+    },
+    "Georg Heym": {
+      "n": 75,
+      "mean_len": 4.093333333333334,
+      "pct_short": 37.333333333333336
+    },
+    "John Keats": {
+      "n": 360,
+      "mean_len": 4.094444444444444,
+      "pct_short": 37.5
+    },
+    "Paul \u00c9luard": {
+      "n": 29,
+      "mean_len": 4.103448275862069,
+      "pct_short": 41.37931034482759
+    },
+    "Thomas Wyatt": {
+      "n": 102,
+      "mean_len": 4.107843137254902,
+      "pct_short": 38.23529411764706
+    },
+    "David Antin": {
+      "n": 17,
+      "mean_len": 4.117647058823529,
+      "pct_short": 29.411764705882355
+    },
+    "Alfred Lord Tennyson": {
+      "n": 123,
+      "mean_len": 4.138211382113822,
+      "pct_short": 35.77235772357724
+    },
+    "Maya Angelou": {
+      "n": 21,
+      "mean_len": 4.142857142857143,
+      "pct_short": 28.57142857142857
+    },
+    "Mary Oliver": {
+      "n": 41,
+      "mean_len": 4.146341463414634,
+      "pct_short": 36.58536585365854
+    },
+    "Georg Trakl": {
+      "n": 90,
+      "mean_len": 4.155555555555556,
+      "pct_short": 43.333333333333336
+    },
+    "Heather McHugh": {
+      "n": 32,
+      "mean_len": 4.15625,
+      "pct_short": 43.75
+    },
+    "Hart Crane": {
+      "n": 64,
+      "mean_len": 4.171875,
+      "pct_short": 37.5
+    },
+    "Edgar Allan Poe": {
+      "n": 172,
+      "mean_len": 4.174418604651163,
+      "pct_short": 38.372093023255815
+    },
+    "Federico Garc\u00eda Lorca": {
+      "n": 40,
+      "mean_len": 4.175,
+      "pct_short": 37.5
+    },
+    "Phillis Wheatley": {
+      "n": 28,
+      "mean_len": 4.178571428571429,
+      "pct_short": 42.857142857142854
+    },
+    "Killarney Clary": {
+      "n": 32,
+      "mean_len": 4.1875,
+      "pct_short": 25.0
+    },
+    "Algernon Charles Swinburne": {
+      "n": 47,
+      "mean_len": 4.191489361702128,
+      "pct_short": 21.27659574468085
+    },
+    "Samuel Taylor Coleridge": {
+      "n": 67,
+      "mean_len": 4.1940298507462686,
+      "pct_short": 40.298507462686565
+    },
+    "Rainer Maria Rilke": {
+      "n": 71,
+      "mean_len": 4.197183098591549,
+      "pct_short": 40.845070422535215
+    },
+    "Claude McKay": {
+      "n": 43,
+      "mean_len": 4.209302325581396,
+      "pct_short": 37.2093023255814
+    },
+    "William Blake": {
+      "n": 117,
+      "mean_len": 4.222222222222222,
+      "pct_short": 35.8974358974359
+    },
+    "Percy Bysshe Shelley": {
+      "n": 161,
+      "mean_len": 4.22360248447205,
+      "pct_short": 32.298136645962735
+    },
+    "Anonymous (trans. Hall)": {
+      "n": 67,
+      "mean_len": 4.2388059701492535,
+      "pct_short": 35.82089552238806
+    },
+    "Charles Baudelaire": {
+      "n": 36,
+      "mean_len": 4.25,
+      "pct_short": 47.22222222222222
+    },
+    "Austin Dobson": {
+      "n": 16,
+      "mean_len": 4.25,
+      "pct_short": 31.25
+    },
+    "Homer (trans. Alexander Pope)": {
+      "n": 24,
+      "mean_len": 4.25,
+      "pct_short": 33.33333333333333
+    },
+    "William Shakespeare": {
+      "n": 95,
+      "mean_len": 4.252631578947368,
+      "pct_short": 31.57894736842105
+    },
+    "C\u00e9sar Vallejo": {
+      "n": 46,
+      "mean_len": 4.260869565217392,
+      "pct_short": 32.608695652173914
+    },
+    "Federico Garc\u00eda Lorca (trans. Stephen Spender & J.L. Gili)": {
+      "n": 19,
+      "mean_len": 4.2631578947368425,
+      "pct_short": 36.84210526315789
+    },
+    "Christian B\u00f6k": {
+      "n": 38,
+      "mean_len": 4.2631578947368425,
+      "pct_short": 36.84210526315789
+    },
+    "Gertrude Stein": {
+      "n": 129,
+      "mean_len": 4.263565891472868,
+      "pct_short": 39.53488372093023
+    },
+    "Gottfried Benn": {
+      "n": 53,
+      "mean_len": 4.264150943396227,
+      "pct_short": 28.30188679245283
+    },
+    "Anonymous (KJV, found text)": {
+      "n": 29,
+      "mean_len": 4.275862068965517,
+      "pct_short": 44.827586206896555
+    },
+    "Lawrence Ferlinghetti": {
+      "n": 57,
+      "mean_len": 4.298245614035087,
+      "pct_short": 42.10526315789473
+    },
+    "Andr\u00e9 Breton": {
+      "n": 13,
+      "mean_len": 4.3076923076923075,
+      "pct_short": 38.46153846153847
+    },
+    "Wilfred Owen": {
+      "n": 119,
+      "mean_len": 4.310924369747899,
+      "pct_short": 36.134453781512605
+    },
+    "Alexander Pope": {
+      "n": 187,
+      "mean_len": 4.315508021390374,
+      "pct_short": 29.946524064171122
+    },
+    "Rae Armantrout": {
+      "n": 28,
+      "mean_len": 4.321428571428571,
+      "pct_short": 28.57142857142857
+    },
+    "Gregory Corso": {
+      "n": 64,
+      "mean_len": 4.328125,
+      "pct_short": 39.0625
+    },
+    "John Berryman": {
+      "n": 27,
+      "mean_len": 4.333333333333333,
+      "pct_short": 37.03703703703704
+    },
+    "T.S. Eliot": {
+      "n": 205,
+      "mean_len": 4.351219512195122,
+      "pct_short": 37.5609756097561
+    },
+    "Synthetic (clerihew test case)": {
+      "n": 62,
+      "mean_len": 4.354838709677419,
+      "pct_short": 43.54838709677419
+    },
+    "Robert Southey": {
+      "n": 44,
+      "mean_len": 4.363636363636363,
+      "pct_short": 38.63636363636363
+    },
+    "Joy Harjo": {
+      "n": 63,
+      "mean_len": 4.365079365079365,
+      "pct_short": 33.33333333333333
+    },
+    "Arthur Rimbaud": {
+      "n": 33,
+      "mean_len": 4.393939393939394,
+      "pct_short": 27.27272727272727
+    },
+    "Wallace Stevens": {
+      "n": 57,
+      "mean_len": 4.4035087719298245,
+      "pct_short": 35.08771929824561
+    },
+    "Anonymous (Hebrew Bible)": {
+      "n": 187,
+      "mean_len": 4.427807486631016,
+      "pct_short": 28.342245989304814
+    },
+    "Robert Bly": {
+      "n": 21,
+      "mean_len": 4.428571428571429,
+      "pct_short": 38.095238095238095
+    },
+    "Lewis Carroll": {
+      "n": 105,
+      "mean_len": 4.428571428571429,
+      "pct_short": 32.38095238095238
+    },
+    "Edna St. Vincent Millay": {
+      "n": 25,
+      "mean_len": 4.44,
+      "pct_short": 24.0
+    },
+    "A.E. Housman": {
+      "n": 31,
+      "mean_len": 4.451612903225806,
+      "pct_short": 35.483870967741936
+    },
+    "William Ernest Henley": {
+      "n": 53,
+      "mean_len": 4.452830188679245,
+      "pct_short": 37.735849056603776
+    },
+    "Emma Lazarus": {
+      "n": 33,
+      "mean_len": 4.454545454545454,
+      "pct_short": 24.242424242424242
+    },
+    "Bruce Andrews": {
+      "n": 15,
+      "mean_len": 4.466666666666667,
+      "pct_short": 40.0
+    },
+    "Matsuo Basho": {
+      "n": 15,
+      "mean_len": 4.466666666666667,
+      "pct_short": 26.666666666666668
+    },
+    "Vachel Lindsay": {
+      "n": 15,
+      "mean_len": 4.466666666666667,
+      "pct_short": 20.0
+    },
+    "Derek Walcott": {
+      "n": 32,
+      "mean_len": 4.46875,
+      "pct_short": 31.25
+    },
+    "John Donne": {
+      "n": 113,
+      "mean_len": 4.469026548672566,
+      "pct_short": 30.08849557522124
+    },
+    "Brewster Higley": {
+      "n": 29,
+      "mean_len": 4.482758620689655,
+      "pct_short": 41.37931034482759
+    },
+    "Anonymous (found text)": {
+      "n": 64,
+      "mean_len": 4.484375,
+      "pct_short": 45.3125
+    },
+    "Walt Whitman": {
+      "n": 206,
+      "mean_len": 4.495145631067961,
+      "pct_short": 29.61165048543689
+    },
+    "Robert Desnos": {
+      "n": 36,
+      "mean_len": 4.5,
+      "pct_short": 30.555555555555557
+    },
+    "Anne Sexton": {
+      "n": 23,
+      "mean_len": 4.521739130434782,
+      "pct_short": 34.78260869565217
+    },
+    "C\u00e9sar Vallejo (trans. Thomas Merton)": {
+      "n": 43,
+      "mean_len": 4.534883720930233,
+      "pct_short": 23.25581395348837
+    },
+    "Charles Bernstein": {
+      "n": 47,
+      "mean_len": 4.553191489361702,
+      "pct_short": 27.659574468085108
+    },
+    "Synthetic (research test case)": {
+      "n": 58,
+      "mean_len": 4.568965517241379,
+      "pct_short": 24.137931034482758
+    },
+    "Carolyn Forche": {
+      "n": 49,
+      "mean_len": 4.612244897959184,
+      "pct_short": 24.489795918367346
+    },
+    "W.B. Yeats": {
+      "n": 156,
+      "mean_len": 4.621794871794871,
+      "pct_short": 32.69230769230769
+    },
+    "Christopher Smart": {
+      "n": 61,
+      "mean_len": 4.622950819672131,
+      "pct_short": 32.78688524590164
+    },
+    "Carolyn Forch\u00e9": {
+      "n": 16,
+      "mean_len": 4.625,
+      "pct_short": 18.75
+    },
+    "Russell Edson": {
+      "n": 56,
+      "mean_len": 4.625,
+      "pct_short": 32.142857142857146
+    },
+    "John Ashbery": {
+      "n": 296,
+      "mean_len": 4.628378378378378,
+      "pct_short": 34.45945945945946
+    },
+    "Robert Lowell": {
+      "n": 27,
+      "mean_len": 4.62962962962963,
+      "pct_short": 29.629629629629626
+    },
+    "Claudia Rankine": {
+      "n": 34,
+      "mean_len": 4.647058823529412,
+      "pct_short": 23.52941176470588
+    },
+    "Robinson Jeffers": {
+      "n": 37,
+      "mean_len": 4.648648648648648,
+      "pct_short": 32.432432432432435
+    },
+    "Georges Perec": {
+      "n": 40,
+      "mean_len": 4.75,
+      "pct_short": 20.0
+    },
+    "Rupert Brooke": {
+      "n": 47,
+      "mean_len": 4.76595744680851,
+      "pct_short": 19.148936170212767
+    },
+    "Pablo Neruda (trans. W.S. Merwin)": {
+      "n": 23,
+      "mean_len": 4.826086956521739,
+      "pct_short": 21.73913043478261
+    },
+    "Charles Darwin (found text)": {
+      "n": 28,
+      "mean_len": 4.857142857142857,
+      "pct_short": 35.714285714285715
+    },
+    "John Dryden": {
+      "n": 42,
+      "mean_len": 4.9523809523809526,
+      "pct_short": 28.57142857142857
+    },
+    "Anonymous (Old English, trans. anon.)": {
+      "n": 22,
+      "mean_len": 4.954545454545454,
+      "pct_short": 13.636363636363635
+    },
+    "Samuel Johnson": {
+      "n": 40,
+      "mean_len": 4.975,
+      "pct_short": 35.0
+    },
+    "Du Fu": {
+      "n": 21,
+      "mean_len": 5.142857142857143,
+      "pct_short": 9.523809523809524
+    },
+    "Wislawa Szymborska": {
+      "n": 30,
+      "mean_len": 5.166666666666667,
+      "pct_short": 20.0
+    },
+    "Lyn Hejinian": {
+      "n": 10,
+      "mean_len": 5.2,
+      "pct_short": 10.0
+    },
+    "Louise Gluck": {
+      "n": 42,
+      "mean_len": 5.238095238095238,
+      "pct_short": 21.428571428571427
+    },
+    "Ross Gay": {
+      "n": 10,
+      "mean_len": 5.3,
+      "pct_short": 10.0
+    },
+    "Caedmon (trans. anon.)": {
+      "n": 19,
+      "mean_len": 5.368421052631579,
+      "pct_short": 21.052631578947366
+    },
+    "Allen Ginsberg": {
+      "n": 54,
+      "mean_len": 5.388888888888889,
+      "pct_short": 27.77777777777778
+    },
+    "Isaac Newton (found text)": {
+      "n": 28,
+      "mean_len": 5.5,
+      "pct_short": 28.57142857142857
+    },
+    "Control": {
+      "n": 15,
+      "mean_len": 7.866666666666666,
+      "pct_short": 13.333333333333334
+    }
+  },
+  "era_profiles": {
+    "ballad": {
+      "n": 200,
+      "mean_len": 3.22,
+      "pct_short": 58.5
+    },
+    "german_symbolist": {
+      "n": 113,
+      "mean_len": 3.4513274336283186,
+      "pct_short": 48.67256637168141
+    },
+    "korean_modernist": {
+      "n": 20,
+      "mean_len": 3.5,
+      "pct_short": 65.0
+    },
+    "persian": {
+      "n": 104,
+      "mean_len": 3.5576923076923075,
+      "pct_short": 51.92307692307693
+    },
+    "limerick": {
+      "n": 88,
+      "mean_len": 3.6136363636363638,
+      "pct_short": 45.45454545454545
+    },
+    "fixed_form": {
+      "n": 190,
+      "mean_len": 3.636842105263158,
+      "pct_short": 48.94736842105264
+    },
+    "imagist": {
+      "n": 69,
+      "mean_len": 3.681159420289855,
+      "pct_short": 43.47826086956522
+    },
+    "double_dactyl": {
+      "n": 57,
+      "mean_len": 3.7017543859649122,
+      "pct_short": 59.64912280701754
+    },
+    "haiku": {
+      "n": 81,
+      "mean_len": 3.7037037037037037,
+      "pct_short": 46.913580246913575
+    },
+    "harlem_renaissance": {
+      "n": 168,
+      "mean_len": 3.8988095238095237,
+      "pct_short": 45.83333333333333
+    },
+    "elegy": {
+      "n": 288,
+      "mean_len": 3.9027777777777777,
+      "pct_short": 41.31944444444444
+    },
+    "spoken_word": {
+      "n": 60,
+      "mean_len": 3.9166666666666665,
+      "pct_short": 36.666666666666664
+    },
+    "ancient": {
+      "n": 86,
+      "mean_len": 3.9651162790697674,
+      "pct_short": 41.86046511627907
+    },
+    "victorian": {
+      "n": 1026,
+      "mean_len": 3.97270955165692,
+      "pct_short": 39.278752436647174
+    },
+    "nursery_rhyme": {
+      "n": 47,
+      "mean_len": 3.978723404255319,
+      "pct_short": 46.808510638297875
+    },
+    "ekphrastic": {
+      "n": 458,
+      "mean_len": 3.98471615720524,
+      "pct_short": 37.99126637554585
+    },
+    "song_lyrics": {
+      "n": 83,
+      "mean_len": 3.9879518072289155,
+      "pct_short": 45.78313253012048
+    },
+    "black_arts": {
+      "n": 34,
+      "mean_len": 4.0,
+      "pct_short": 29.411764705882355
+    },
+    "postcolonial": {
+      "n": 218,
+      "mean_len": 4.009174311926605,
+      "pct_short": 38.53211009174312
+    },
+    "early_modern": {
+      "n": 289,
+      "mean_len": 4.041522491349481,
+      "pct_short": 38.75432525951557
+    },
+    "parody_original": {
+      "n": 91,
+      "mean_len": 4.076923076923077,
+      "pct_short": 38.46153846153847
+    },
+    "romantic": {
+      "n": 576,
+      "mean_len": 4.088541666666667,
+      "pct_short": 37.5
+    },
+    "dramatic_monologue": {
+      "n": 621,
+      "mean_len": 4.098228663446055,
+      "pct_short": 40.25764895330113
+    },
+    "contemporary": {
+      "n": 266,
+      "mean_len": 4.12781954887218,
+      "pct_short": 39.097744360902254
+    },
+    "metaphysical": {
+      "n": 123,
+      "mean_len": 4.130081300813008,
+      "pct_short": 38.21138211382114
+    },
+    "mid_century": {
+      "n": 47,
+      "mean_len": 4.148936170212766,
+      "pct_short": 29.78723404255319
+    },
+    "ghazal": {
+      "n": 32,
+      "mean_len": 4.15625,
+      "pct_short": 43.75
+    },
+    "german_expressionist": {
+      "n": 218,
+      "mean_len": 4.160550458715596,
+      "pct_short": 37.61467889908257
+    },
+    "surrealist": {
+      "n": 256,
+      "mean_len": 4.171875,
+      "pct_short": 35.9375
+    },
+    "confessional": {
+      "n": 113,
+      "mean_len": 4.185840707964601,
+      "pct_short": 36.283185840707965
+    },
+    "german_modernist": {
+      "n": 71,
+      "mean_len": 4.197183098591549,
+      "pct_short": 40.845070422535215
+    },
+    "clerihew": {
+      "n": 80,
+      "mean_len": 4.2,
+      "pct_short": 45.0
+    },
+    "19th_century": {
+      "n": 452,
+      "mean_len": 4.221238938053097,
+      "pct_short": 36.94690265486726
+    },
+    "modernist": {
+      "n": 692,
+      "mean_len": 4.267341040462428,
+      "pct_short": 35.69364161849711
+    },
+    "oulipo": {
+      "n": 129,
+      "mean_len": 4.325581395348837,
+      "pct_short": 35.65891472868217
+    },
+    "protest_political": {
+      "n": 54,
+      "mean_len": 4.333333333333333,
+      "pct_short": 25.925925925925924
+    },
+    "parody": {
+      "n": 157,
+      "mean_len": 4.369426751592357,
+      "pct_short": 33.12101910828025
+    },
+    "found_poetry": {
+      "n": 165,
+      "mean_len": 4.406060606060606,
+      "pct_short": 44.24242424242424
+    },
+    "biblical": {
+      "n": 187,
+      "mean_len": 4.427807486631016,
+      "pct_short": 28.342245989304814
+    },
+    "deep_image": {
+      "n": 21,
+      "mean_len": 4.428571428571429,
+      "pct_short": 38.095238095238095
+    },
+    "war_poetry": {
+      "n": 166,
+      "mean_len": 4.4397590361445785,
+      "pct_short": 31.32530120481928
+    },
+    "new_york_school": {
+      "n": 337,
+      "mean_len": 4.456973293768546,
+      "pct_short": 37.68545994065282
+    },
+    "classical_chinese": {
+      "n": 58,
+      "mean_len": 4.482758620689655,
+      "pct_short": 20.689655172413794
+    },
+    "prose_poetry": {
+      "n": 316,
+      "mean_len": 4.506329113924051,
+      "pct_short": 29.746835443037973
+    },
+    "language": {
+      "n": 84,
+      "mean_len": 4.5476190476190474,
+      "pct_short": 29.761904761904763
+    },
+    "18th_century": {
+      "n": 306,
+      "mean_len": 4.549019607843137,
+      "pct_short": 31.372549019607842
+    },
+    "latin_american": {
+      "n": 85,
+      "mean_len": 4.552941176470588,
+      "pct_short": 25.882352941176475
+    },
+    "cliche_control": {
+      "n": 58,
+      "mean_len": 4.568965517241379,
+      "pct_short": 24.137931034482758
+    },
+    "old_english": {
+      "n": 108,
+      "mean_len": 4.583333333333333,
+      "pct_short": 28.703703703703702
+    },
+    "beat": {
+      "n": 175,
+      "mean_len": 4.645714285714286,
+      "pct_short": 36.57142857142857
+    }
+  }
+}

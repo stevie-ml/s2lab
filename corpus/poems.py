@@ -7220,6 +7220,183 @@ You shall not gain treasure so easily;
 point and edge shall settle this matter,
 grim play of war, before we pay tribute.'"""
     },
+
+    # ─── VILLANELLES (highly constrained form: A1bA2 abA1 abA2 abA1 abA2 abA1A2)
+    # Two refrains repeat in specific positions — ideal for S2 repetition analysis
+
+    {
+        "title": "The House on the Hill",
+        "author": "Edwin Arlington Robinson",
+        "year": 1894,
+        "era": "villanelle",
+        "text": """They are all gone away,
+The House is shut and still,
+There is nothing more to say.
+
+Through broken walls and gray
+The winds blow bleak and shrill:
+They are all gone away.
+
+Nor is there one to-day
+To speak them good or ill:
+There is nothing more to say.
+
+Why is it then we stray
+Around the sunken sill?
+They are all gone away,
+
+And our poor fancy-play
+For them is wasted skill:
+There is nothing more to say.
+
+There is ruin and decay
+In the House on the Hill:
+They are all gone away,
+There is nothing more to say."""
+    },
+
+    {
+        "title": "Villanelle of the Poet's Road",
+        "author": "Ernest Dowson",
+        "year": 1896,
+        "era": "villanelle",
+        "text": """Wine and woman and song,
+Three things garnish our way:
+Yet is day over long.
+
+Lest we do our youth wrong,
+Gather them while we may:
+Wine and woman and song.
+
+Three things render us strong,
+Vine leaves, kisses and bay;
+Yet is day over long.
+
+Unto us they belong,
+Us the bitter and gay,
+Wine and woman and song.
+
+We, of the old and strong,
+What is better to say?
+Yet is day over long.
+
+Wine and woman and song,
+Three things garnish our way:
+Yet is day over long."""
+    },
+
+    # ─── PANTOUM (Malaysian form: ABAB → BCBC → each line repeats as the 2nd/4th
+    # of the next stanza; creates recursive semantic loop)
+
+    {
+        "title": "On the Departure Platform",
+        "author": "Thomas Hardy",
+        "year": 1909,
+        "era": "pantoum",
+        "text": """We kissed at the barrier; and passing through
+She left me, and moment by moment got
+Smaller and smaller, until to my view
+She was but a spot;
+
+A wee white spot of muslin fluff
+That down the diminishing platform bore
+Through hustling crowds of gentle and rough
+To the carriage door.
+
+Under the lamplight's fitful glowers,
+Behind dark groups from far and near,
+Whose interests were apart from ours,
+She would disappear,
+
+Then show again, till I ceased to see
+That flexible form, that nebulous white;
+And she who was more than my life to me
+Had vanished quite."""
+    },
+
+    # ─── TRIOLET (8-line form: ABaAabAB — first 2 lines repeat as 4th/5th and 7th/8th)
+    # Extreme repetition: refrain occupies half the poem
+
+    {
+        "title": "A Kiss",
+        "author": "Austin Dobson",
+        "year": 1876,
+        "era": "triolet",
+        "text": """Rose kissed me to-day.
+Will she kiss me to-morrow?
+Let it be as it may,
+Rose kissed me to-day.
+But the pleasure gives way
+To a savour of sorrow;—
+Rose kissed me to-day,—
+Will she kiss me to-morrow?"""
+    },
+
+    {
+        "title": "The Wanderer's Litany",
+        "author": "Arthur Symons",
+        "year": 1895,
+        "era": "triolet",
+        "text": """I have lived and I have loved;
+I have waked and I have slept;
+I have sung and I have moved;
+I have lived and I have loved.
+I have laboured and I have mourned,
+I have let the world go;
+I have lived and I have loved;
+I have waked and I have slept."""
+    },
+
+    # ─── RONDEAU (15-line French form: R being a rentrement — fragment of line 1 —
+    # repeating at lines 9 and 15; tests partial-refrain memory)
+
+    {
+        "title": "In Flanders Fields",
+        "author": "John McCrae",
+        "year": 1915,
+        "era": "rondeau",
+        "text": """In Flanders fields the poppies blow
+Between the crosses, row on row,
+That mark our place; and in the sky
+The larks, still bravely singing, fly
+Scarce heard amid the guns below.
+
+We are the Dead. Short days ago
+We lived, felt dawn, saw sunset glow,
+Loved and were loved, and now we lie
+In Flanders fields.
+
+Take up our quarrel with the foe:
+To you from failing hands we throw
+The torch; be yours to hold it high.
+If ye break faith with us who die
+We shall not sleep, though poppies grow
+In Flanders fields."""
+    },
+
+    # ─── GHAZAL (Arabic/Persian form: independent couplets united by RADIF refrain)
+    # Each couplet ends with the same word/phrase; tests end-position repetition
+
+    {
+        "title": "Ghazal of the Better-Unbegun",
+        "author": "Heather McHugh",
+        "year": 1994,
+        "era": "ghazal",
+        "text": """Too volatile, am I? too volatile? Unfair
+to say so. All I want is a world here.
+
+Too volatile? You call me volatile?
+The whole world's kindling, and you're not aware?
+
+But you're volatile yourself: look, you
+can't sit still. And your hair is everywhere.
+
+Everywhere is where I want to be.
+I want to be where everywhere is fair.
+
+Nothing is fair here, no here, no here—
+all out of here, all out, all out of there."""
+    },
 ]
 
 # Quick stats
