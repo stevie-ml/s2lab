@@ -7397,6 +7397,241 @@ I want to be where everywhere is fair.
 Nothing is fair here, no here, no here—
 all out of here, all out, all out of there."""
     },
+    # --- New poems added to test poet fingerprint consistency hypothesis ---
+    # Blake: Songs of Innocence (simple/repetitive) vs Experience (compressed)
+    {
+        "title": "The Lamb",
+        "author": "William Blake",
+        "year": 1789,
+        "era": "romantic",
+        "text": """Little Lamb, who made thee?
+Dost thou know who made thee?
+Gave thee life, and bid thee feed,
+By the stream and o'er the mead;
+Gave thee clothing of delight,
+Softest clothing, woolly, bright;
+Gave thee such a tender voice,
+Making all the vales rejoice?
+Little Lamb, who made thee?
+Dost thou know who made thee?
+
+Little Lamb, I'll tell thee,
+Little Lamb, I'll tell thee:
+He is called by thy name,
+For he calls himself a Lamb.
+He is meek, and he is mild;
+He became a little child.
+I a child, and thou a lamb,
+We are called by his name.
+Little Lamb, God bless thee!
+Little Lamb, God bless thee!"""
+    },
+    {
+        "title": "The Garden of Love",
+        "author": "William Blake",
+        "year": 1794,
+        "era": "romantic",
+        "text": """I went to the Garden of Love,
+And saw what I never had seen:
+A Chapel was built in the midst,
+Where I used to play on the green.
+
+And the gates of this Chapel were shut,
+And 'Thou shalt not' writ over the door;
+So I turned to the Garden of Love
+That so many sweet flowers bore;
+
+And I saw it was filled with graves,
+And tomb-stones where flowers should be;
+And Priests in black gowns were walking their rounds,
+And binding with briars my joys and desires."""
+    },
+    {
+        "title": "The Chimney Sweeper (Experience)",
+        "author": "William Blake",
+        "year": 1794,
+        "era": "romantic",
+        "text": """A little black thing among the snow,
+Crying 'weep! weep!' in notes of woe!
+'Where are thy father and mother? say?'
+'They are both gone up to the church to pray.
+
+Because I was happy upon the heath,
+And smiled among the winter's snow,
+They clothed me in the clothes of death,
+And taught me to sing the notes of woe.
+
+And because I am happy and dance and sing,
+They think they have done me no injury,
+And are gone to praise God and his Priest and King,
+Who made up a heaven of our misery.'"""
+    },
+    # Hardy: more poems to test his high variance (1.935 vs 0.068)
+    {
+        "title": "The Darkling Thrush",
+        "author": "Thomas Hardy",
+        "year": 1900,
+        "era": "victorian",
+        "text": """I leant upon a coppice gate
+When Frost was spectre-grey,
+And Winter's dregs made desolate
+The weakening eye of day.
+The tangled bine-stems scored the sky
+Like strings of broken lyres,
+And all mankind that haunted nigh
+Had sought their household fires.
+
+The land's sharp features seemed to be
+The Century's corpse outleant,
+His crypt the cloudy canopy,
+The wind his death-lament.
+The ancient pulse of germ and birth
+Was shrunken hard and dry,
+And every spirit upon earth
+Seemed fervourless as I.
+
+At once a voice arose among
+The bleak twigs overhead
+In a full-hearted evensong
+Of joy illimited;
+An aged thrush, frail, gaunt, and small,
+In blast-beruffled plume,
+Had chosen thus to fling his soul
+Upon the growing gloom.
+
+So little cause for carolings
+Of such ecstatic sound
+Was written on terrestrial things
+Afar or nigh around,
+That I could think there trembled through
+His happy good-night air
+Some blessed Hope, whereof he knew
+And I was unaware."""
+    },
+    {
+        "title": "After a Journey",
+        "author": "Thomas Hardy",
+        "year": 1914,
+        "era": "victorian",
+        "text": """Hereto I come to view a voiceless ghost;
+Whither, O whither will its whim now draw me?
+Up the cliff, down, till I'm lonely, lost,
+And the unseen waters' ejaculations awe me.
+Where you will next be there's no knowing,
+Facing round about me everywhere,
+With your nut-coloured hair,
+And gray eyes, and rose-flush coming and going.
+
+Yes: I have re-entered your olden haunts at last;
+Through the years, through the dead scenes I have tracked you;
+What have you now found to say of our past—
+Scanned across the dark space wherein I have lacked you?
+Summer gave us sweets, but autumn wrought division?
+Things were not lastly as firstly well
+With us twain, you tell?
+But all's closed now, despite Time's derision."""
+    },
+    # Keats: additional poems to clarify his variance pattern
+    {
+        "title": "To Autumn",
+        "author": "John Keats",
+        "year": 1819,
+        "era": "romantic",
+        "text": """Season of mists and mellow fruitfulness,
+Close bosom-friend of the maturing sun;
+Conspiring with him how to load and bless
+With fruit the vines that round the thatch-eves run;
+To bend with apples the moss'd cottage-trees,
+And fill all fruit with ripeness to the core;
+To swell the gourd, and plump the hazel shells
+With a sweet kernel; to set budding more,
+And still more, later flowers for the bees,
+Until they think warm days will never cease,
+For summer has o'er-brimm'd their clammy cells.
+
+Who hath not seen thee oft amid thy store?
+Sometimes whoever seeks abroad may find
+Thee sitting careless on a granary floor,
+Thy hair soft-lifted by the winnowing wind;
+Or on a half-reap'd furrow sound asleep,
+Drows'd with the fume of poppies, while thy hook
+Spares the next swath and all its twined flowers:
+And sometimes like a gleaner thou dost keep
+Steady thy laden head across a brook;
+Or by a cider-press, with patient look,
+Thou watchest the last oozings hours by hours.
+
+Where are the songs of spring? Ay, where are they?
+Think not of them, thou hast thy music too,—
+While barred clouds bloom the soft-dying day,
+And touch the stubble-plains with rosy hue;
+Then in a wailful choir the small gnats mourn
+Among the river sallows, borne aloft
+Or sinking as the light wind lives or dies;
+And full-grown lambs loud bleat from hilly bourn;
+Hedge-crickets sing; and now with treble soft
+The red-breast whistles from a garden-croft;
+And gathering swallows twitter in the skies."""
+    },
+    # Cinquain: Adelaide Crapsey — a uniquely American syllabic form (not yet in corpus)
+    {
+        "title": "November Night",
+        "author": "Adelaide Crapsey",
+        "year": 1915,
+        "era": "imagist",
+        "text": """Listen…
+With faint dry sound,
+Like steps of passing ghosts,
+The leaves, frost-crisp'd, break from the trees
+And fall."""
+    },
+    {
+        "title": "Triad",
+        "author": "Adelaide Crapsey",
+        "year": 1915,
+        "era": "imagist",
+        "text": """These be
+Three silent things:
+The falling snow… the hour
+Before the dawn… the mouth of one
+Just dead."""
+    },
+    # Dickinson: "Because I could not stop for Death" — one of her most famous
+    {
+        "title": "Because I could not stop for Death",
+        "author": "Emily Dickinson",
+        "year": 1863,
+        "era": "19th_century",
+        "text": """Because I could not stop for Death –
+He kindly stopped for me –
+The Carriage held but just Ourselves –
+And Immortality.
+
+We slowly drove – He knew no haste
+And I had put away
+My labor and my leisure too,
+For His Civility –
+
+We passed the School, where Children strove
+At Recess – in the Ring –
+We passed the Fields of Gazing Grain –
+We passed the Setting Sun –
+
+Or rather – He passed us –
+The Dews drew quivering and chill –
+For only Gossamer, my Gown –
+My Tippet – only Tulle –
+
+We paused before a House that seemed
+A Swelling of the Ground –
+The Roof was scarcely visible –
+The Cornice – in the Ground –
+
+Since then – 'tis Centuries – and yet
+Feels shorter than the Day
+I first surmised the Horses' Heads
+Were toward Eternity –"""
+    },
 ]
 
 # Quick stats
