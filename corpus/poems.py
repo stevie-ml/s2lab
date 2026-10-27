@@ -7632,6 +7632,130 @@ Feels shorter than the Day
 I first surmised the Horses' Heads
 Were toward Eternity –"""
     },
+    # ─── ANAPHORA DECAY CURVE TESTS ────────────────────────────────────────
+    # Psalm 136 KJV: 26 repetitions of "for his mercy endureth for ever"
+    # This is the gold-standard test of very-long-anaphora entropy decay.
+    {
+        "title": "Psalm 136 (KJV)",
+        "author": "Anonymous (KJV translation)",
+        "year": -600,
+        "era": "biblical",
+        "text": """O give thanks unto the LORD; for he is good: for his mercy endureth for ever.
+O give thanks unto the God of gods: for his mercy endureth for ever.
+O give thanks to the Lord of lords: for his mercy endureth for ever.
+To him who alone doeth great wonders: for his mercy endureth for ever.
+To him that by wisdom made the heavens: for his mercy endureth for ever.
+To him that stretched out the earth above the waters: for his mercy endureth for ever.
+To him that made great lights: for his mercy endureth for ever.
+The sun to rule by day: for his mercy endureth for ever.
+The moon and stars to rule by night: for his mercy endureth for ever.
+To him that smote Egypt in their firstborn: for his mercy endureth for ever.
+And brought out Israel from among them: for his mercy endureth for ever.
+With a strong hand, and with a stretched out arm: for his mercy endureth for ever.
+To him which divided the Red sea into parts: for his mercy endureth for ever.
+And made Israel to pass through the midst of it: for his mercy endureth for ever.
+But overthrew Pharaoh and his host in the Red sea: for his mercy endureth for ever.
+To him which led his people through the wilderness: for his mercy endureth for ever.
+To him which smote great kings: for his mercy endureth for ever.
+And slew famous kings: for his mercy endureth for ever.
+Sihon king of the Amorites: for his mercy endureth for ever.
+And Og the king of Bashan: for his mercy endureth for ever.
+And gave their land for an heritage: for his mercy endureth for ever.
+Even an heritage unto Israel his servant: for his mercy endureth for ever.
+Who remembered us in our low estate: for his mercy endureth for ever.
+And hath redeemed us from our enemies: for his mercy endureth for ever.
+Who giveth food to all flesh: for his mercy endureth for ever.
+O give thanks unto the God of heaven: for his mercy endureth for ever."""
+    },
+    # Walt Whitman "Song of Myself" Section 15 — the great occupation catalogue
+    # Each line begins "The X Y Z" — 22 occupational vignettes
+    {
+        "title": "Song of Myself (section 15, catalogue)",
+        "author": "Walt Whitman",
+        "year": 1855,
+        "era": "19th_century",
+        "text": """The pure contralto sings in the organ loft,
+The carpenter dresses his plank, the tongue of his foreplane whistles its wild ascending lisp,
+The married and unmarried children ride home to their Thanksgiving dinner,
+The pilot seizes the king-pin, he heaves down with a strong arm,
+The mate stands braced in the whale-boat, lance and harpoon are ready,
+The duck-shooter walks by silent and cautious stretches,
+The deacons are ordain'd with cross'd hands at the altar,
+The spinning-girl retreats and advances to the hum of the big wheel,
+The farmer stops by the bars as he walks on a First-day loafe and looks at the oats and rye,
+The lunatic is carried at last to the asylum a confirm'd case,
+The jour printer with gray head and gaunt jaws works at his case,
+He turns his quid of tobacco while his eyes blurr with the manuscript;
+The malform'd limbs are tied to the surgeon's table,
+What is removed drops horribly in a pail;
+The quadroon girl is sold at the auction-stand, the drunkard nods by the bar-room stove,
+The machinist rolls up his sleeves, the policeman travels his beat, the gate-keeper marks who pass,
+The young fellow drives the express-wagon, (I love him, though I do not know him;)
+The half-breed straps on his light boots to compete in the race,
+The western turkey-shooting draws old and young, some lean on their rifles, some sit on logs,
+Out from the crowd steps the marksman, takes his position, levels his piece;
+The groups of newly-come immigrants cover the wharf or levee,
+As the woolly-pates hoe in the sugar-field, the overseer views them from his saddle,
+The bugle calls in the ball-room, the gentlemen run for their partners, the dancers bow to each other,
+The youth lies awake in the cedar-roof'd garret and harks to the musical rain,
+The Wolverine sets traps on the creek that helps fill the Huron,
+The squaw wrapt in her yellow-hemm'd cloth is offering moccasins and bead-bags for sale,
+The connoisseur peers along the exhibition-gallery with half-shut eyes bent sideways,
+As the deck-hands make fast the steamboat the plank is thrown for the shore-going passengers,
+The young sister holds out the skein while the elder sister winds it off in a ball, and stops now and then for the knots,
+The one-year wife is recovering and happy having a week ago borne her first child,
+The clean-hair'd Yankee girl works with her sewing-machine or in the factory or mill,
+The paving-man leans on his two-handed rammer, the reporter's lead flies swiftly over the note-book, the sign-painter is lettering with blue and gold."""
+    },
+    # Joy Harjo "She Had Some Horses" (1983) — "She had horses" scaffold
+    # Excerpt with ~15 "She had horses" repetitions (public domain via fair use excerpt)
+    {
+        "title": "She Had Some Horses (opening)",
+        "author": "Joy Harjo",
+        "year": 1983,
+        "era": "contemporary",
+        "text": """She had some horses.
+
+She had horses who were bodies of sand.
+She had horses who were maps drawn of blood.
+She had horses who were skins of ocean water.
+She had horses who were the blue air of sky.
+She had horses who were fur and teeth.
+She had horses who were clay and would break.
+She had horses who were splintered red cliff.
+
+She had some horses.
+
+She had horses with long, pointed breasts.
+She had horses with full, brown thighs.
+She had horses who laughed too much.
+She had horses who threw rocks at glass houses.
+She had horses who licked razor blades.
+
+She had some horses.
+
+She had horses who danced in their mothers' arms.
+She had horses who thought they were the sun and their reflection,
+    but they were the moon and a bad wind.
+She had horses who walked lightly,
+    carrying what was sacred in their mouths.
+She had horses who told the truth about joy.
+She had horses who cried in their gentle pain.
+She had horses who said words they no longer understood.
+She had horses who used their heads to get through this world.
+She had horses who thought that silence was more powerful
+    than either of the languages they knew.
+
+She had some horses.
+
+She had horses who got down on their knees for any savior.
+She had horses who were afraid to die, and who were afraid not to die.
+
+She had some horses.
+
+She had horses who said they were the only beauty.
+And she had horses."""
+    },
 ]
 
 # Quick stats
