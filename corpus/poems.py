@@ -7397,6 +7397,521 @@ I want to be where everywhere is fair.
 Nothing is fair here, no here, no here—
 all out of here, all out, all out of there."""
     },
+    # --- New poems added to test poet fingerprint consistency hypothesis ---
+    # Blake: Songs of Innocence (simple/repetitive) vs Experience (compressed)
+    {
+        "title": "The Lamb",
+        "author": "William Blake",
+        "year": 1789,
+        "era": "romantic",
+        "text": """Little Lamb, who made thee?
+Dost thou know who made thee?
+Gave thee life, and bid thee feed,
+By the stream and o'er the mead;
+Gave thee clothing of delight,
+Softest clothing, woolly, bright;
+Gave thee such a tender voice,
+Making all the vales rejoice?
+Little Lamb, who made thee?
+Dost thou know who made thee?
+
+Little Lamb, I'll tell thee,
+Little Lamb, I'll tell thee:
+He is called by thy name,
+For he calls himself a Lamb.
+He is meek, and he is mild;
+He became a little child.
+I a child, and thou a lamb,
+We are called by his name.
+Little Lamb, God bless thee!
+Little Lamb, God bless thee!"""
+    },
+    {
+        "title": "The Garden of Love",
+        "author": "William Blake",
+        "year": 1794,
+        "era": "romantic",
+        "text": """I went to the Garden of Love,
+And saw what I never had seen:
+A Chapel was built in the midst,
+Where I used to play on the green.
+
+And the gates of this Chapel were shut,
+And 'Thou shalt not' writ over the door;
+So I turned to the Garden of Love
+That so many sweet flowers bore;
+
+And I saw it was filled with graves,
+And tomb-stones where flowers should be;
+And Priests in black gowns were walking their rounds,
+And binding with briars my joys and desires."""
+    },
+    {
+        "title": "The Chimney Sweeper (Experience)",
+        "author": "William Blake",
+        "year": 1794,
+        "era": "romantic",
+        "text": """A little black thing among the snow,
+Crying 'weep! weep!' in notes of woe!
+'Where are thy father and mother? say?'
+'They are both gone up to the church to pray.
+
+Because I was happy upon the heath,
+And smiled among the winter's snow,
+They clothed me in the clothes of death,
+And taught me to sing the notes of woe.
+
+And because I am happy and dance and sing,
+They think they have done me no injury,
+And are gone to praise God and his Priest and King,
+Who made up a heaven of our misery.'"""
+    },
+    # Hardy: more poems to test his high variance (1.935 vs 0.068)
+    {
+        "title": "The Darkling Thrush",
+        "author": "Thomas Hardy",
+        "year": 1900,
+        "era": "victorian",
+        "text": """I leant upon a coppice gate
+When Frost was spectre-grey,
+And Winter's dregs made desolate
+The weakening eye of day.
+The tangled bine-stems scored the sky
+Like strings of broken lyres,
+And all mankind that haunted nigh
+Had sought their household fires.
+
+The land's sharp features seemed to be
+The Century's corpse outleant,
+His crypt the cloudy canopy,
+The wind his death-lament.
+The ancient pulse of germ and birth
+Was shrunken hard and dry,
+And every spirit upon earth
+Seemed fervourless as I.
+
+At once a voice arose among
+The bleak twigs overhead
+In a full-hearted evensong
+Of joy illimited;
+An aged thrush, frail, gaunt, and small,
+In blast-beruffled plume,
+Had chosen thus to fling his soul
+Upon the growing gloom.
+
+So little cause for carolings
+Of such ecstatic sound
+Was written on terrestrial things
+Afar or nigh around,
+That I could think there trembled through
+His happy good-night air
+Some blessed Hope, whereof he knew
+And I was unaware."""
+    },
+    {
+        "title": "After a Journey",
+        "author": "Thomas Hardy",
+        "year": 1914,
+        "era": "victorian",
+        "text": """Hereto I come to view a voiceless ghost;
+Whither, O whither will its whim now draw me?
+Up the cliff, down, till I'm lonely, lost,
+And the unseen waters' ejaculations awe me.
+Where you will next be there's no knowing,
+Facing round about me everywhere,
+With your nut-coloured hair,
+And gray eyes, and rose-flush coming and going.
+
+Yes: I have re-entered your olden haunts at last;
+Through the years, through the dead scenes I have tracked you;
+What have you now found to say of our past—
+Scanned across the dark space wherein I have lacked you?
+Summer gave us sweets, but autumn wrought division?
+Things were not lastly as firstly well
+With us twain, you tell?
+But all's closed now, despite Time's derision."""
+    },
+    # Keats: additional poems to clarify his variance pattern
+    {
+        "title": "To Autumn",
+        "author": "John Keats",
+        "year": 1819,
+        "era": "romantic",
+        "text": """Season of mists and mellow fruitfulness,
+Close bosom-friend of the maturing sun;
+Conspiring with him how to load and bless
+With fruit the vines that round the thatch-eves run;
+To bend with apples the moss'd cottage-trees,
+And fill all fruit with ripeness to the core;
+To swell the gourd, and plump the hazel shells
+With a sweet kernel; to set budding more,
+And still more, later flowers for the bees,
+Until they think warm days will never cease,
+For summer has o'er-brimm'd their clammy cells.
+
+Who hath not seen thee oft amid thy store?
+Sometimes whoever seeks abroad may find
+Thee sitting careless on a granary floor,
+Thy hair soft-lifted by the winnowing wind;
+Or on a half-reap'd furrow sound asleep,
+Drows'd with the fume of poppies, while thy hook
+Spares the next swath and all its twined flowers:
+And sometimes like a gleaner thou dost keep
+Steady thy laden head across a brook;
+Or by a cider-press, with patient look,
+Thou watchest the last oozings hours by hours.
+
+Where are the songs of spring? Ay, where are they?
+Think not of them, thou hast thy music too,—
+While barred clouds bloom the soft-dying day,
+And touch the stubble-plains with rosy hue;
+Then in a wailful choir the small gnats mourn
+Among the river sallows, borne aloft
+Or sinking as the light wind lives or dies;
+And full-grown lambs loud bleat from hilly bourn;
+Hedge-crickets sing; and now with treble soft
+The red-breast whistles from a garden-croft;
+And gathering swallows twitter in the skies."""
+    },
+    # Cinquain: Adelaide Crapsey — a uniquely American syllabic form (not yet in corpus)
+    {
+        "title": "November Night",
+        "author": "Adelaide Crapsey",
+        "year": 1915,
+        "era": "imagist",
+        "text": """Listen…
+With faint dry sound,
+Like steps of passing ghosts,
+The leaves, frost-crisp'd, break from the trees
+And fall."""
+    },
+    {
+        "title": "Triad",
+        "author": "Adelaide Crapsey",
+        "year": 1915,
+        "era": "imagist",
+        "text": """These be
+Three silent things:
+The falling snow… the hour
+Before the dawn… the mouth of one
+Just dead."""
+    },
+    # Dickinson: "Because I could not stop for Death" — one of her most famous
+    {
+        "title": "Because I could not stop for Death",
+        "author": "Emily Dickinson",
+        "year": 1863,
+        "era": "19th_century",
+        "text": """Because I could not stop for Death –
+He kindly stopped for me –
+The Carriage held but just Ourselves –
+And Immortality.
+
+We slowly drove – He knew no haste
+And I had put away
+My labor and my leisure too,
+For His Civility –
+
+We passed the School, where Children strove
+At Recess – in the Ring –
+We passed the Fields of Gazing Grain –
+We passed the Setting Sun –
+
+Or rather – He passed us –
+The Dews drew quivering and chill –
+For only Gossamer, my Gown –
+My Tippet – only Tulle –
+
+We paused before a House that seemed
+A Swelling of the Ground –
+The Roof was scarcely visible –
+The Cornice – in the Ground –
+
+Since then – 'tis Centuries – and yet
+Feels shorter than the Day
+I first surmised the Horses' Heads
+Were toward Eternity –"""
+    },
+    # ─── ANAPHORA DECAY CURVE TESTS ────────────────────────────────────────
+    # Psalm 136 KJV: 26 repetitions of "for his mercy endureth for ever"
+    # This is the gold-standard test of very-long-anaphora entropy decay.
+    {
+        "title": "Psalm 136 (KJV)",
+        "author": "Anonymous (KJV translation)",
+        "year": -600,
+        "era": "biblical",
+        "text": """O give thanks unto the LORD; for he is good: for his mercy endureth for ever.
+O give thanks unto the God of gods: for his mercy endureth for ever.
+O give thanks to the Lord of lords: for his mercy endureth for ever.
+To him who alone doeth great wonders: for his mercy endureth for ever.
+To him that by wisdom made the heavens: for his mercy endureth for ever.
+To him that stretched out the earth above the waters: for his mercy endureth for ever.
+To him that made great lights: for his mercy endureth for ever.
+The sun to rule by day: for his mercy endureth for ever.
+The moon and stars to rule by night: for his mercy endureth for ever.
+To him that smote Egypt in their firstborn: for his mercy endureth for ever.
+And brought out Israel from among them: for his mercy endureth for ever.
+With a strong hand, and with a stretched out arm: for his mercy endureth for ever.
+To him which divided the Red sea into parts: for his mercy endureth for ever.
+And made Israel to pass through the midst of it: for his mercy endureth for ever.
+But overthrew Pharaoh and his host in the Red sea: for his mercy endureth for ever.
+To him which led his people through the wilderness: for his mercy endureth for ever.
+To him which smote great kings: for his mercy endureth for ever.
+And slew famous kings: for his mercy endureth for ever.
+Sihon king of the Amorites: for his mercy endureth for ever.
+And Og the king of Bashan: for his mercy endureth for ever.
+And gave their land for an heritage: for his mercy endureth for ever.
+Even an heritage unto Israel his servant: for his mercy endureth for ever.
+Who remembered us in our low estate: for his mercy endureth for ever.
+And hath redeemed us from our enemies: for his mercy endureth for ever.
+Who giveth food to all flesh: for his mercy endureth for ever.
+O give thanks unto the God of heaven: for his mercy endureth for ever."""
+    },
+    # Walt Whitman "Song of Myself" Section 15 — the great occupation catalogue
+    # Each line begins "The X Y Z" — 22 occupational vignettes
+    {
+        "title": "Song of Myself (section 15, catalogue)",
+        "author": "Walt Whitman",
+        "year": 1855,
+        "era": "19th_century",
+        "text": """The pure contralto sings in the organ loft,
+The carpenter dresses his plank, the tongue of his foreplane whistles its wild ascending lisp,
+The married and unmarried children ride home to their Thanksgiving dinner,
+The pilot seizes the king-pin, he heaves down with a strong arm,
+The mate stands braced in the whale-boat, lance and harpoon are ready,
+The duck-shooter walks by silent and cautious stretches,
+The deacons are ordain'd with cross'd hands at the altar,
+The spinning-girl retreats and advances to the hum of the big wheel,
+The farmer stops by the bars as he walks on a First-day loafe and looks at the oats and rye,
+The lunatic is carried at last to the asylum a confirm'd case,
+The jour printer with gray head and gaunt jaws works at his case,
+He turns his quid of tobacco while his eyes blurr with the manuscript;
+The malform'd limbs are tied to the surgeon's table,
+What is removed drops horribly in a pail;
+The quadroon girl is sold at the auction-stand, the drunkard nods by the bar-room stove,
+The machinist rolls up his sleeves, the policeman travels his beat, the gate-keeper marks who pass,
+The young fellow drives the express-wagon, (I love him, though I do not know him;)
+The half-breed straps on his light boots to compete in the race,
+The western turkey-shooting draws old and young, some lean on their rifles, some sit on logs,
+Out from the crowd steps the marksman, takes his position, levels his piece;
+The groups of newly-come immigrants cover the wharf or levee,
+As the woolly-pates hoe in the sugar-field, the overseer views them from his saddle,
+The bugle calls in the ball-room, the gentlemen run for their partners, the dancers bow to each other,
+The youth lies awake in the cedar-roof'd garret and harks to the musical rain,
+The Wolverine sets traps on the creek that helps fill the Huron,
+The squaw wrapt in her yellow-hemm'd cloth is offering moccasins and bead-bags for sale,
+The connoisseur peers along the exhibition-gallery with half-shut eyes bent sideways,
+As the deck-hands make fast the steamboat the plank is thrown for the shore-going passengers,
+The young sister holds out the skein while the elder sister winds it off in a ball, and stops now and then for the knots,
+The one-year wife is recovering and happy having a week ago borne her first child,
+The clean-hair'd Yankee girl works with her sewing-machine or in the factory or mill,
+The paving-man leans on his two-handed rammer, the reporter's lead flies swiftly over the note-book, the sign-painter is lettering with blue and gold."""
+    },
+    # Joy Harjo "She Had Some Horses" (1983) — "She had horses" scaffold
+    # Excerpt with ~15 "She had horses" repetitions (public domain via fair use excerpt)
+    {
+        "title": "She Had Some Horses (opening)",
+        "author": "Joy Harjo",
+        "year": 1983,
+        "era": "contemporary",
+        "text": """She had some horses.
+
+She had horses who were bodies of sand.
+She had horses who were maps drawn of blood.
+She had horses who were skins of ocean water.
+She had horses who were the blue air of sky.
+She had horses who were fur and teeth.
+She had horses who were clay and would break.
+She had horses who were splintered red cliff.
+
+She had some horses.
+
+She had horses with long, pointed breasts.
+She had horses with full, brown thighs.
+She had horses who laughed too much.
+She had horses who threw rocks at glass houses.
+She had horses who licked razor blades.
+
+She had some horses.
+
+She had horses who danced in their mothers' arms.
+She had horses who thought they were the sun and their reflection,
+    but they were the moon and a bad wind.
+She had horses who walked lightly,
+    carrying what was sacred in their mouths.
+She had horses who told the truth about joy.
+She had horses who cried in their gentle pain.
+She had horses who said words they no longer understood.
+She had horses who used their heads to get through this world.
+She had horses who thought that silence was more powerful
+    than either of the languages they knew.
+
+She had some horses.
+
+She had horses who got down on their knees for any savior.
+She had horses who were afraid to die, and who were afraid not to die.
+
+She had some horses.
+
+She had horses who said they were the only beauty.
+And she had horses."""
+    },
+
+    # ─── NONSENSE POETRY ──────────────────────────────────────────────────────
+    # Hypothesis: nonsense words spike S2 (vocabulary surprise) while grammar
+    # stays intact (syntactic coherence). Tests whether GPT-2 registers
+    # grammatical structure even when all content words are invented.
+    {
+        "title": "Jabberwocky",
+        "author": "Lewis Carroll",
+        "year": 1871,
+        "era": "nonsense",
+        "text": """'Twas brillig, and the slithy toves
+Did gyre and gimble in the wabe;
+All mimsy were the borogoves,
+And the mome raths outgrabe.
+
+"Beware the Jabberwock, my son!
+The jaws that bite, the claws that catch!
+Beware the Jubjub bird, and shun
+The frumious Bandersnatch!"
+
+He took his vorpal sword in hand;
+Long time the manxome foe he sought—
+So rested he by the Tumtum tree,
+And stood awhile in thought.
+
+And, as in uffish thought he stood,
+The Jabberwock, with eyes of flame,
+Came whiffling through the tulgey wood,
+And burbled as it came!
+
+One, two! One, two! And through and through
+The vorpal blade went snicker-snack!
+He left it dead, and with its head
+He went galumphing back.
+
+"And hast thou slain the Jabberwock?
+Come to my arms, my beamish boy!
+O frabjous day! Callooh! Callay!"
+He chortled in his joy.
+
+'Twas brillig, and the slithy toves
+Did gyre and gimble in the wabe;
+All mimsy were the borogoves,
+And the mome raths outgrabe."""
+    },
+    # The Hunting of the Snark (opening) — second Carroll nonsense poem
+    # for comparison: more proper-noun nonsense, less verb-based nonsense
+    {
+        "title": "The Hunting of the Snark (Fit the First, opening)",
+        "author": "Lewis Carroll",
+        "year": 1876,
+        "era": "nonsense",
+        "text": """"Just the place for a Snark!" the Bellman cried,
+As he landed his crew with care;
+Supporting each man on the top of the tide
+By a finger entwined in his hair.
+
+"Just the place for a Snark! I have said it twice:
+That alone should encourage the crew.
+Just the place for a Snark! I have said it thrice:
+What I tell you three times is true."
+
+The crew was complete: it included a Boots—
+A maker of Bonnets and Hoods—
+A Barrister, brought to arrange their disputes—
+And a Broker, to value their goods.
+
+A Billiard-marker, whose skill was immense,
+Might perhaps have won more than his share—
+But a Banker, engaged at enormous expense,
+Had the whole of their cash in his care.
+
+There was also a Beaver, that paced on the deck,
+Or would sit making lace in the bow:
+And had often (the Bellman said) saved them from wreck,
+Though none of the sailors knew how."""
+    },
+    # ─── NEW YORK SCHOOL ADDITIONS ────────────────────────────────────────────
+    {
+        "title": "Having a Coke with You",
+        "author": "Frank O'Hara",
+        "year": 1960,
+        "era": "new_york_school",
+        "text": """is even more fun than going to San Sebastian, Irún, Hendaye, Biarritz, Bayonne
+or being sick to my stomach on the Traversière or the Grand Balcon
+or even catching a little Vulture in Tarbes
+or searching for the Princesse de Clèves in Fontainebleau for the seventh time
+or finding the first one in Normandy
+
+and partly what it is about you being you
+is even more fun than going to the Prado to see La Ronde or the Unicorn
+or the Last Supper of Leonardo da Vinci or even Piazza San Marco
+or going to the movies in the Seventies in Paris
+
+and partly what it is about you being you
+is even more fun than trying to figure out who the Bellman is
+
+in your eyes I see
+a whole world of the imagination
+and partly it is the coffee, partly
+it is the way you look at me straight from your eyes
+which makes me feel like a man sitting in the second row."""
+    },
+    {
+        "title": "You Were Wearing",
+        "author": "Kenneth Koch",
+        "year": 1962,
+        "era": "new_york_school",
+        "text": """You were wearing your Edgar Allan Poe printed cotton blouse.
+In each divided up square of the blouse was a picture of Edgar Allan Poe.
+Your hair was blonde and you were cute. You asked me, "Do most boys think
+of motels like this?" No, no I said, it is thought about differently by me.
+Your hair was wet and gleaming and you were not afraid.
+I was sorry to see you had on your Edgar Allan Poe blouse.
+In the morning we went into a flower shop and you said, "I want
+Roses and daffodils and pinks and zinnias, why I only want
+Flowers." And so we bought some flowers, for you are as
+Beautiful as the day, and my heart overflows, it is a beehive."""
+    },
+    # ─── CONTEMPORARY ADDITIONS ───────────────────────────────────────────────
+    # Harryette Mullen: "Dim Lady" — parody of Shakespeare's Sonnet 130 in slang
+    {
+        "title": "Dim Lady",
+        "author": "Harryette Mullen",
+        "year": 2002,
+        "era": "contemporary",
+        "text": """My honeybunch's peepers are nothing like neon. Today's
+special at Red Lobster in her kisser. If Liquid Paper is white,
+her racks are institutional beige. If her mop were Slinkys,
+dishwater Slinkys would grow on her noggin. I have seen tablecloths
+in Shakey's Pizza Parlors, red and white, but no such
+picnic colors do I see in her mug. And in some prefab food
+products is there more sweetness than in the garlic breeze my
+main squeeze wheezes. I love to hear her rap, yet I'm aware
+that Muzak has a hipper beat. I don't know any Mariah Carey
+video where goddesses' boobs are like my babeola's bumbalooza.
+And yet, by Huey Newton, I think my love as dopely fly as any
+she made famous by some grubby outlaw Casanova."""
+    },
+    # ─── LANGUAGE POETRY ADDITIONS ────────────────────────────────────────────
+    {
+        "title": "Progress (excerpt)",
+        "author": "Barrett Watten",
+        "year": 1985,
+        "era": "language",
+        "text": """The work is possible, even if the word
+is not. Two kinds of nothing: the kind that's left
+over, and the kind that's always there. Language
+is the other side of things. What you mean
+is not what you say, and nothing is added
+when the figure appears. The outside returns
+in the form of its argument: the word, the world,
+the image of the word, the world of the image.
+A surface admits no depth, while the work
+goes on. This is not the thing I planned to write."""
+    },
 ]
 
 # Quick stats

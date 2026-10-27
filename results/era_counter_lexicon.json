@@ -1,0 +1,6000 @@
+{
+  "romantic": {
+    "n_poems": 21,
+    "total_predictions": 3477,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 391,
+        "accepted": 95,
+        "accept_rate": 0.243,
+        "suppress_rate": 0.757,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 535,
+        "accepted": 174,
+        "accept_rate": 0.325,
+        "suppress_rate": 0.675,
+        "is_function": false
+      },
+      {
+        "word": "of",
+        "predicted": 124,
+        "accepted": 22,
+        "accept_rate": 0.177,
+        "suppress_rate": 0.823,
+        "is_function": true
+      },
+      {
+        "word": "And",
+        "predicted": 88,
+        "accepted": 12,
+        "accept_rate": 0.136,
+        "suppress_rate": 0.864,
+        "is_function": true
+      },
+      {
+        "word": "and",
+        "predicted": 120,
+        "accepted": 31,
+        "accept_rate": 0.258,
+        "suppress_rate": 0.742,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 81,
+        "accepted": 19,
+        "accept_rate": 0.235,
+        "suppress_rate": 0.765,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 109,
+        "accepted": 36,
+        "accept_rate": 0.33,
+        "suppress_rate": 0.67,
+        "is_function": false
+      },
+      {
+        "word": "The",
+        "predicted": 36,
+        "accepted": 6,
+        "accept_rate": 0.167,
+        "suppress_rate": 0.833,
+        "is_function": true
+      },
+      {
+        "word": "-",
+        "predicted": 59,
+        "accepted": 16,
+        "accept_rate": 0.271,
+        "suppress_rate": 0.729,
+        "is_function": false
+      },
+      {
+        "word": "a",
+        "predicted": 60,
+        "accepted": 17,
+        "accept_rate": 0.283,
+        "suppress_rate": 0.717,
+        "is_function": true
+      },
+      {
+        "word": "was",
+        "predicted": 28,
+        "accepted": 4,
+        "accept_rate": 0.143,
+        "suppress_rate": 0.857,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 54,
+        "accepted": 16,
+        "accept_rate": 0.296,
+        "suppress_rate": 0.704,
+        "is_function": true
+      },
+      {
+        "word": "man",
+        "predicted": 24,
+        "accepted": 3,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 22,
+        "accepted": 3,
+        "accept_rate": 0.136,
+        "suppress_rate": 0.864,
+        "is_function": false
+      },
+      {
+        "word": "face",
+        "predicted": 14,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 535,
+        "accepted": 174,
+        "accept_rate": 0.325,
+        "suppress_rate": 0.675,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 109,
+        "accepted": 36,
+        "accept_rate": 0.33,
+        "suppress_rate": 0.67,
+        "is_function": false
+      },
+      {
+        "word": "-",
+        "predicted": 59,
+        "accepted": 16,
+        "accept_rate": 0.271,
+        "suppress_rate": 0.729,
+        "is_function": false
+      },
+      {
+        "word": "man",
+        "predicted": 24,
+        "accepted": 3,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 22,
+        "accepted": 3,
+        "accept_rate": 0.136,
+        "suppress_rate": 0.864,
+        "is_function": false
+      },
+      {
+        "word": "face",
+        "predicted": 14,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 28,
+        "accepted": 6,
+        "accept_rate": 0.214,
+        "suppress_rate": 0.786,
+        "is_function": false
+      },
+      {
+        "word": "sun",
+        "predicted": 12,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "O",
+        "predicted": 11,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "eyes",
+        "predicted": 11,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "sweet",
+        "predicted": 15,
+        "accepted": 2,
+        "accept_rate": 0.133,
+        "suppress_rate": 0.867,
+        "is_function": false
+      },
+      {
+        "word": "great",
+        "predicted": 10,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "hand",
+        "predicted": 12,
+        "accepted": 1,
+        "accept_rate": 0.083,
+        "suppress_rate": 0.917,
+        "is_function": false
+      },
+      {
+        "word": "sea",
+        "predicted": 11,
+        "accepted": 1,
+        "accept_rate": 0.091,
+        "suppress_rate": 0.909,
+        "is_function": false
+      },
+      {
+        "word": "wind",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.765,
+    "cw_suppression_rate": 0.691
+  },
+  "19th_century": {
+    "n_poems": 14,
+    "total_predictions": 2137,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 313,
+        "accepted": 109,
+        "accept_rate": 0.348,
+        "suppress_rate": 0.652,
+        "is_function": false
+      },
+      {
+        "word": "I",
+        "predicted": 59,
+        "accepted": 9,
+        "accept_rate": 0.153,
+        "suppress_rate": 0.847,
+        "is_function": true
+      },
+      {
+        "word": "the",
+        "predicted": 200,
+        "accepted": 74,
+        "accept_rate": 0.37,
+        "suppress_rate": 0.63,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 54,
+        "accepted": 11,
+        "accept_rate": 0.204,
+        "suppress_rate": 0.796,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 37,
+        "accepted": 5,
+        "accept_rate": 0.135,
+        "suppress_rate": 0.865,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 33,
+        "accepted": 5,
+        "accept_rate": 0.152,
+        "suppress_rate": 0.848,
+        "is_function": false
+      },
+      {
+        "word": "man",
+        "predicted": 23,
+        "accepted": 2,
+        "accept_rate": 0.087,
+        "suppress_rate": 0.913,
+        "is_function": false
+      },
+      {
+        "word": "And",
+        "predicted": 22,
+        "accepted": 2,
+        "accept_rate": 0.091,
+        "suppress_rate": 0.909,
+        "is_function": true
+      },
+      {
+        "word": "'s",
+        "predicted": 27,
+        "accepted": 4,
+        "accept_rate": 0.148,
+        "suppress_rate": 0.852,
+        "is_function": false
+      },
+      {
+        "word": "and",
+        "predicted": 43,
+        "accepted": 11,
+        "accept_rate": 0.256,
+        "suppress_rate": 0.744,
+        "is_function": true
+      },
+      {
+        "word": "was",
+        "predicted": 23,
+        "accepted": 3,
+        "accept_rate": 0.13,
+        "suppress_rate": 0.87,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 37,
+        "accepted": 9,
+        "accept_rate": 0.243,
+        "suppress_rate": 0.757,
+        "is_function": true
+      },
+      {
+        "word": "are",
+        "predicted": 14,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "ship",
+        "predicted": 14,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "young",
+        "predicted": 18,
+        "accepted": 2,
+        "accept_rate": 0.111,
+        "suppress_rate": 0.889,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 313,
+        "accepted": 109,
+        "accept_rate": 0.348,
+        "suppress_rate": 0.652,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 33,
+        "accepted": 5,
+        "accept_rate": 0.152,
+        "suppress_rate": 0.848,
+        "is_function": false
+      },
+      {
+        "word": "man",
+        "predicted": 23,
+        "accepted": 2,
+        "accept_rate": 0.087,
+        "suppress_rate": 0.913,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 27,
+        "accepted": 4,
+        "accept_rate": 0.148,
+        "suppress_rate": 0.852,
+        "is_function": false
+      },
+      {
+        "word": "ship",
+        "predicted": 14,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "young",
+        "predicted": 18,
+        "accepted": 2,
+        "accept_rate": 0.111,
+        "suppress_rate": 0.889,
+        "is_function": false
+      },
+      {
+        "word": "sea",
+        "predicted": 9,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "heart",
+        "predicted": 10,
+        "accepted": 1,
+        "accept_rate": 0.1,
+        "suppress_rate": 0.9,
+        "is_function": false
+      },
+      {
+        "word": "Captain",
+        "predicted": 10,
+        "accepted": 1,
+        "accept_rate": 0.1,
+        "suppress_rate": 0.9,
+        "is_function": false
+      },
+      {
+        "word": "s",
+        "predicted": 9,
+        "accepted": 1,
+        "accept_rate": 0.111,
+        "suppress_rate": 0.889,
+        "is_function": false
+      },
+      {
+        "word": "door",
+        "predicted": 23,
+        "accepted": 9,
+        "accept_rate": 0.391,
+        "suppress_rate": 0.609,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 15,
+        "accepted": 5,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": false
+      },
+      {
+        "word": "-",
+        "predicted": 34,
+        "accepted": 18,
+        "accept_rate": 0.529,
+        "suppress_rate": 0.471,
+        "is_function": false
+      },
+      {
+        "word": "\u2013",
+        "predicted": 15,
+        "accepted": 6,
+        "accept_rate": 0.4,
+        "suppress_rate": 0.6,
+        "is_function": false
+      },
+      {
+        "word": "\u2014",
+        "predicted": 16,
+        "accepted": 7,
+        "accept_rate": 0.438,
+        "suppress_rate": 0.562,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.706,
+    "cw_suppression_rate": 0.683
+  },
+  "modernist": {
+    "n_poems": 25,
+    "total_predictions": 2097,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 222,
+        "accepted": 53,
+        "accept_rate": 0.239,
+        "suppress_rate": 0.761,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 234,
+        "accepted": 64,
+        "accept_rate": 0.274,
+        "suppress_rate": 0.726,
+        "is_function": false
+      },
+      {
+        "word": "and",
+        "predicted": 55,
+        "accepted": 9,
+        "accept_rate": 0.164,
+        "suppress_rate": 0.836,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 97,
+        "accepted": 28,
+        "accept_rate": 0.289,
+        "suppress_rate": 0.711,
+        "is_function": true
+      },
+      {
+        "word": "The",
+        "predicted": 33,
+        "accepted": 4,
+        "accept_rate": 0.121,
+        "suppress_rate": 0.879,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 65,
+        "accepted": 17,
+        "accept_rate": 0.262,
+        "suppress_rate": 0.738,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 28,
+        "accepted": 3,
+        "accept_rate": 0.107,
+        "suppress_rate": 0.893,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 28,
+        "accepted": 4,
+        "accept_rate": 0.143,
+        "suppress_rate": 0.857,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 118,
+        "accepted": 49,
+        "accept_rate": 0.415,
+        "suppress_rate": 0.585,
+        "is_function": false
+      },
+      {
+        "word": "And",
+        "predicted": 26,
+        "accepted": 5,
+        "accept_rate": 0.192,
+        "suppress_rate": 0.808,
+        "is_function": true
+      },
+      {
+        "word": "be",
+        "predicted": 13,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "in",
+        "predicted": 24,
+        "accepted": 5,
+        "accept_rate": 0.208,
+        "suppress_rate": 0.792,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 49,
+        "accepted": 18,
+        "accept_rate": 0.367,
+        "suppress_rate": 0.633,
+        "is_function": true
+      },
+      {
+        "word": "-",
+        "predicted": 25,
+        "accepted": 7,
+        "accept_rate": 0.28,
+        "suppress_rate": 0.72,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 18,
+        "accepted": 4,
+        "accept_rate": 0.222,
+        "suppress_rate": 0.778,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 234,
+        "accepted": 64,
+        "accept_rate": 0.274,
+        "suppress_rate": 0.726,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 118,
+        "accepted": 49,
+        "accept_rate": 0.415,
+        "suppress_rate": 0.585,
+        "is_function": false
+      },
+      {
+        "word": "-",
+        "predicted": 25,
+        "accepted": 7,
+        "accept_rate": 0.28,
+        "suppress_rate": 0.72,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 18,
+        "accepted": 4,
+        "accept_rate": 0.222,
+        "suppress_rate": 0.778,
+        "is_function": false
+      },
+      {
+        "word": "L",
+        "predicted": 23,
+        "accepted": 13,
+        "accept_rate": 0.565,
+        "suppress_rate": 0.435,
+        "is_function": false
+      },
+      {
+        "word": "ly",
+        "predicted": 9,
+        "accepted": 4,
+        "accept_rate": 0.444,
+        "suppress_rate": 0.556,
+        "is_function": false
+      },
+      {
+        "word": "sweet",
+        "predicted": 9,
+        "accepted": 6,
+        "accept_rate": 0.667,
+        "suppress_rate": 0.333,
+        "is_function": false
+      },
+      {
+        "word": "?",
+        "predicted": 10,
+        "accepted": 7,
+        "accept_rate": 0.7,
+        "suppress_rate": 0.3,
+        "is_function": false
+      },
+      {
+        "word": "belly",
+        "predicted": 15,
+        "accepted": 14,
+        "accept_rate": 0.933,
+        "suppress_rate": 0.067,
+        "is_function": false
+      },
+      {
+        "word": "ifting",
+        "predicted": 14,
+        "accepted": 14,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.776,
+    "cw_suppression_rate": 0.617
+  },
+  "beat": {
+    "n_poems": 6,
+    "total_predictions": 425,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 21,
+        "accepted": 2,
+        "accept_rate": 0.095,
+        "suppress_rate": 0.905,
+        "is_function": false
+      },
+      {
+        "word": "the",
+        "predicted": 51,
+        "accepted": 16,
+        "accept_rate": 0.314,
+        "suppress_rate": 0.686,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 18,
+        "accepted": 3,
+        "accept_rate": 0.167,
+        "suppress_rate": 0.833,
+        "is_function": true
+      },
+      {
+        "word": "and",
+        "predicted": 15,
+        "accepted": 2,
+        "accept_rate": 0.133,
+        "suppress_rate": 0.867,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 12,
+        "accepted": 2,
+        "accept_rate": 0.167,
+        "suppress_rate": 0.833,
+        "is_function": true
+      },
+      {
+        "word": "you",
+        "predicted": 8,
+        "accepted": 1,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 24,
+        "accepted": 10,
+        "accept_rate": 0.417,
+        "suppress_rate": 0.583,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 10,
+        "accepted": 3,
+        "accept_rate": 0.3,
+        "suppress_rate": 0.7,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 21,
+        "accepted": 2,
+        "accept_rate": 0.095,
+        "suppress_rate": 0.905,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 10,
+        "accepted": 3,
+        "accept_rate": 0.3,
+        "suppress_rate": 0.7,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.734,
+    "cw_suppression_rate": 0.839
+  },
+  "confessional": {
+    "n_poems": 6,
+    "total_predictions": 323,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 35,
+        "accepted": 9,
+        "accept_rate": 0.257,
+        "suppress_rate": 0.743,
+        "is_function": false
+      },
+      {
+        "word": "a",
+        "predicted": 17,
+        "accepted": 3,
+        "accept_rate": 0.176,
+        "suppress_rate": 0.824,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 27,
+        "accepted": 8,
+        "accept_rate": 0.296,
+        "suppress_rate": 0.704,
+        "is_function": false
+      },
+      {
+        "word": "to",
+        "predicted": 12,
+        "accepted": 2,
+        "accept_rate": 0.167,
+        "suppress_rate": 0.833,
+        "is_function": true
+      },
+      {
+        "word": "the",
+        "predicted": 21,
+        "accepted": 7,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 8,
+        "accepted": 2,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 11,
+        "accepted": 4,
+        "accept_rate": 0.364,
+        "suppress_rate": 0.636,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 35,
+        "accepted": 9,
+        "accept_rate": 0.257,
+        "suppress_rate": 0.743,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 27,
+        "accepted": 8,
+        "accept_rate": 0.296,
+        "suppress_rate": 0.704,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.739,
+    "cw_suppression_rate": 0.726
+  },
+  "mid_century": {
+    "n_poems": 3,
+    "total_predictions": 212,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 21,
+        "accepted": 2,
+        "accept_rate": 0.095,
+        "suppress_rate": 0.905,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 27,
+        "accepted": 7,
+        "accept_rate": 0.259,
+        "suppress_rate": 0.741,
+        "is_function": false
+      },
+      {
+        "word": "I",
+        "predicted": 10,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 18,
+        "accepted": 9,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 27,
+        "accepted": 7,
+        "accept_rate": 0.259,
+        "suppress_rate": 0.741,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 18,
+        "accepted": 9,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.935,
+    "cw_suppression_rate": 0.644
+  },
+  "new_york_school": {
+    "n_poems": 20,
+    "total_predictions": 1566,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 159,
+        "accepted": 50,
+        "accept_rate": 0.314,
+        "suppress_rate": 0.686,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 43,
+        "accepted": 7,
+        "accept_rate": 0.163,
+        "suppress_rate": 0.837,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 60,
+        "accepted": 16,
+        "accept_rate": 0.267,
+        "suppress_rate": 0.733,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 89,
+        "accepted": 31,
+        "accept_rate": 0.348,
+        "suppress_rate": 0.652,
+        "is_function": false
+      },
+      {
+        "word": "and",
+        "predicted": 39,
+        "accepted": 9,
+        "accept_rate": 0.231,
+        "suppress_rate": 0.769,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 104,
+        "accepted": 41,
+        "accept_rate": 0.394,
+        "suppress_rate": 0.606,
+        "is_function": false
+      },
+      {
+        "word": "The",
+        "predicted": 29,
+        "accepted": 5,
+        "accept_rate": 0.172,
+        "suppress_rate": 0.828,
+        "is_function": true
+      },
+      {
+        "word": "that",
+        "predicted": 13,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 59,
+        "accepted": 22,
+        "accept_rate": 0.373,
+        "suppress_rate": 0.627,
+        "is_function": true
+      },
+      {
+        "word": "world",
+        "predicted": 11,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "And",
+        "predicted": 15,
+        "accepted": 2,
+        "accept_rate": 0.133,
+        "suppress_rate": 0.867,
+        "is_function": true
+      },
+      {
+        "word": "it",
+        "predicted": 20,
+        "accepted": 5,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 44,
+        "accepted": 18,
+        "accept_rate": 0.409,
+        "suppress_rate": 0.591,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 31,
+        "accepted": 11,
+        "accept_rate": 0.355,
+        "suppress_rate": 0.645,
+        "is_function": true
+      },
+      {
+        "word": "in",
+        "predicted": 17,
+        "accepted": 4,
+        "accept_rate": 0.235,
+        "suppress_rate": 0.765,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ".",
+        "predicted": 89,
+        "accepted": 31,
+        "accept_rate": 0.348,
+        "suppress_rate": 0.652,
+        "is_function": false
+      },
+      {
+        "word": ",",
+        "predicted": 104,
+        "accepted": 41,
+        "accept_rate": 0.394,
+        "suppress_rate": 0.606,
+        "is_function": false
+      },
+      {
+        "word": "world",
+        "predicted": 11,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 12,
+        "accepted": 2,
+        "accept_rate": 0.167,
+        "suppress_rate": 0.833,
+        "is_function": false
+      },
+      {
+        "word": "am",
+        "predicted": 11,
+        "accepted": 2,
+        "accept_rate": 0.182,
+        "suppress_rate": 0.818,
+        "is_function": false
+      },
+      {
+        "word": "see",
+        "predicted": 9,
+        "accepted": 2,
+        "accept_rate": 0.222,
+        "suppress_rate": 0.778,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.703,
+    "cw_suppression_rate": 0.669
+  },
+  "language": {
+    "n_poems": 6,
+    "total_predictions": 425,
+    "top_suppressed_overall": [
+      {
+        "word": "I",
+        "predicted": 14,
+        "accepted": 1,
+        "accept_rate": 0.071,
+        "suppress_rate": 0.929,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 15,
+        "accepted": 2,
+        "accept_rate": 0.133,
+        "suppress_rate": 0.867,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 56,
+        "accepted": 31,
+        "accept_rate": 0.554,
+        "suppress_rate": 0.446,
+        "is_function": false
+      },
+      {
+        "word": "the",
+        "predicted": 38,
+        "accepted": 22,
+        "accept_rate": 0.579,
+        "suppress_rate": 0.421,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 16,
+        "accepted": 8,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": false
+      },
+      {
+        "word": "is",
+        "predicted": 18,
+        "accepted": 10,
+        "accept_rate": 0.556,
+        "suppress_rate": 0.444,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 22,
+        "accepted": 13,
+        "accept_rate": 0.591,
+        "suppress_rate": 0.409,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 10,
+        "accepted": 5,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ".",
+        "predicted": 56,
+        "accepted": 31,
+        "accept_rate": 0.554,
+        "suppress_rate": 0.446,
+        "is_function": false
+      },
+      {
+        "word": ",",
+        "predicted": 16,
+        "accepted": 8,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.547,
+    "cw_suppression_rate": 0.458
+  },
+  "contemporary": {
+    "n_poems": 13,
+    "total_predictions": 1381,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 127,
+        "accepted": 30,
+        "accept_rate": 0.236,
+        "suppress_rate": 0.764,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 101,
+        "accepted": 30,
+        "accept_rate": 0.297,
+        "suppress_rate": 0.703,
+        "is_function": false
+      },
+      {
+        "word": "and",
+        "predicted": 28,
+        "accepted": 7,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 20,
+        "accepted": 4,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 119,
+        "accepted": 60,
+        "accept_rate": 0.504,
+        "suppress_rate": 0.496,
+        "is_function": false
+      },
+      {
+        "word": "be",
+        "predicted": 12,
+        "accepted": 1,
+        "accept_rate": 0.083,
+        "suppress_rate": 0.917,
+        "is_function": true
+      },
+      {
+        "word": "in",
+        "predicted": 16,
+        "accepted": 3,
+        "accept_rate": 0.188,
+        "suppress_rate": 0.812,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 37,
+        "accepted": 14,
+        "accept_rate": 0.378,
+        "suppress_rate": 0.622,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 50,
+        "accepted": 22,
+        "accept_rate": 0.44,
+        "suppress_rate": 0.56,
+        "is_function": true
+      },
+      {
+        "word": "-",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "to",
+        "predicted": 31,
+        "accepted": 12,
+        "accept_rate": 0.387,
+        "suppress_rate": 0.613,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 23,
+        "accepted": 8,
+        "accept_rate": 0.348,
+        "suppress_rate": 0.652,
+        "is_function": true
+      },
+      {
+        "word": "that",
+        "predicted": 9,
+        "accepted": 1,
+        "accept_rate": 0.111,
+        "suppress_rate": 0.889,
+        "is_function": true
+      },
+      {
+        "word": "'s",
+        "predicted": 12,
+        "accepted": 3,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": false
+      },
+      {
+        "word": "my",
+        "predicted": 10,
+        "accepted": 2,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 101,
+        "accepted": 30,
+        "accept_rate": 0.297,
+        "suppress_rate": 0.703,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 119,
+        "accepted": 60,
+        "accept_rate": 0.504,
+        "suppress_rate": 0.496,
+        "is_function": false
+      },
+      {
+        "word": "-",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 12,
+        "accepted": 3,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": false
+      },
+      {
+        "word": "horses",
+        "predicted": 31,
+        "accepted": 26,
+        "accept_rate": 0.839,
+        "suppress_rate": 0.161,
+        "is_function": false
+      },
+      {
+        "word": "prefer",
+        "predicted": 11,
+        "accepted": 11,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.614,
+    "cw_suppression_rate": 0.539
+  },
+  "harlem_renaissance": {
+    "n_poems": 6,
+    "total_predictions": 587,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 61,
+        "accepted": 17,
+        "accept_rate": 0.279,
+        "suppress_rate": 0.721,
+        "is_function": true
+      },
+      {
+        "word": "And",
+        "predicted": 18,
+        "accepted": 1,
+        "accept_rate": 0.056,
+        "suppress_rate": 0.944,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 43,
+        "accepted": 13,
+        "accept_rate": 0.302,
+        "suppress_rate": 0.698,
+        "is_function": false
+      },
+      {
+        "word": "and",
+        "predicted": 11,
+        "accepted": 1,
+        "accept_rate": 0.091,
+        "suppress_rate": 0.909,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 15,
+        "accepted": 3,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": true
+      },
+      {
+        "word": "The",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 12,
+        "accepted": 2,
+        "accept_rate": 0.167,
+        "suppress_rate": 0.833,
+        "is_function": true
+      },
+      {
+        "word": "be",
+        "predicted": 13,
+        "accepted": 3,
+        "accept_rate": 0.231,
+        "suppress_rate": 0.769,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 16,
+        "accepted": 5,
+        "accept_rate": 0.312,
+        "suppress_rate": 0.688,
+        "is_function": false
+      },
+      {
+        "word": "-",
+        "predicted": 8,
+        "accepted": 1,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": false
+      },
+      {
+        "word": "we",
+        "predicted": 10,
+        "accepted": 2,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": true
+      },
+      {
+        "word": "?",
+        "predicted": 13,
+        "accepted": 4,
+        "accept_rate": 0.308,
+        "suppress_rate": 0.692,
+        "is_function": false
+      },
+      {
+        "word": "to",
+        "predicted": 12,
+        "accepted": 6,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 8,
+        "accepted": 4,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": true
+      },
+      {
+        "word": "it",
+        "predicted": 14,
+        "accepted": 9,
+        "accept_rate": 0.643,
+        "suppress_rate": 0.357,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 43,
+        "accepted": 13,
+        "accept_rate": 0.302,
+        "suppress_rate": 0.698,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 16,
+        "accepted": 5,
+        "accept_rate": 0.312,
+        "suppress_rate": 0.688,
+        "is_function": false
+      },
+      {
+        "word": "-",
+        "predicted": 8,
+        "accepted": 1,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": false
+      },
+      {
+        "word": "?",
+        "predicted": 13,
+        "accepted": 4,
+        "accept_rate": 0.308,
+        "suppress_rate": 0.692,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.709,
+    "cw_suppression_rate": 0.713
+  },
+  "oulipo": {
+    "n_poems": 4,
+    "total_predictions": 452,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 14,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 48,
+        "accepted": 17,
+        "accept_rate": 0.354,
+        "suppress_rate": 0.646,
+        "is_function": false
+      },
+      {
+        "word": "of",
+        "predicted": 11,
+        "accepted": 1,
+        "accept_rate": 0.091,
+        "suppress_rate": 0.909,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 32,
+        "accepted": 12,
+        "accept_rate": 0.375,
+        "suppress_rate": 0.625,
+        "is_function": false
+      },
+      {
+        "word": "man",
+        "predicted": 9,
+        "accepted": 1,
+        "accept_rate": 0.111,
+        "suppress_rate": 0.889,
+        "is_function": false
+      },
+      {
+        "word": "I",
+        "predicted": 11,
+        "accepted": 2,
+        "accept_rate": 0.182,
+        "suppress_rate": 0.818,
+        "is_function": true
+      },
+      {
+        "word": "shut",
+        "predicted": 13,
+        "accepted": 3,
+        "accept_rate": 0.231,
+        "suppress_rate": 0.769,
+        "is_function": false
+      },
+      {
+        "word": "and",
+        "predicted": 20,
+        "accepted": 8,
+        "accept_rate": 0.4,
+        "suppress_rate": 0.6,
+        "is_function": true
+      },
+      {
+        "word": "would",
+        "predicted": 8,
+        "accepted": 2,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 22,
+        "accepted": 11,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": true
+      },
+      {
+        "word": "he",
+        "predicted": 11,
+        "accepted": 5,
+        "accept_rate": 0.455,
+        "suppress_rate": 0.545,
+        "is_function": true
+      },
+      {
+        "word": "so",
+        "predicted": 11,
+        "accepted": 6,
+        "accept_rate": 0.545,
+        "suppress_rate": 0.455,
+        "is_function": true
+      },
+      {
+        "word": "as",
+        "predicted": 8,
+        "accepted": 5,
+        "accept_rate": 0.625,
+        "suppress_rate": 0.375,
+        "is_function": true
+      },
+      {
+        "word": "if",
+        "predicted": 9,
+        "accepted": 6,
+        "accept_rate": 0.667,
+        "suppress_rate": 0.333,
+        "is_function": true
+      },
+      {
+        "word": "him",
+        "predicted": 8,
+        "accepted": 6,
+        "accept_rate": 0.75,
+        "suppress_rate": 0.25,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ".",
+        "predicted": 48,
+        "accepted": 17,
+        "accept_rate": 0.354,
+        "suppress_rate": 0.646,
+        "is_function": false
+      },
+      {
+        "word": ",",
+        "predicted": 32,
+        "accepted": 12,
+        "accept_rate": 0.375,
+        "suppress_rate": 0.625,
+        "is_function": false
+      },
+      {
+        "word": "man",
+        "predicted": 9,
+        "accepted": 1,
+        "accept_rate": 0.111,
+        "suppress_rate": 0.889,
+        "is_function": false
+      },
+      {
+        "word": "shut",
+        "predicted": 13,
+        "accepted": 3,
+        "accept_rate": 0.231,
+        "suppress_rate": 0.769,
+        "is_function": false
+      },
+      {
+        "word": "ters",
+        "predicted": 9,
+        "accepted": 8,
+        "accept_rate": 0.889,
+        "suppress_rate": 0.111,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.609,
+    "cw_suppression_rate": 0.631
+  },
+  "surrealist": {
+    "n_poems": 8,
+    "total_predictions": 964,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 103,
+        "accepted": 39,
+        "accept_rate": 0.379,
+        "suppress_rate": 0.621,
+        "is_function": false
+      },
+      {
+        "word": "and",
+        "predicted": 29,
+        "accepted": 5,
+        "accept_rate": 0.172,
+        "suppress_rate": 0.828,
+        "is_function": true
+      },
+      {
+        "word": "the",
+        "predicted": 80,
+        "accepted": 34,
+        "accept_rate": 0.425,
+        "suppress_rate": 0.575,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 40,
+        "accepted": 13,
+        "accept_rate": 0.325,
+        "suppress_rate": 0.675,
+        "is_function": true
+      },
+      {
+        "word": "wind",
+        "predicted": 11,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "a",
+        "predicted": 37,
+        "accepted": 13,
+        "accept_rate": 0.351,
+        "suppress_rate": 0.649,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 25,
+        "accepted": 7,
+        "accept_rate": 0.28,
+        "suppress_rate": 0.72,
+        "is_function": true
+      },
+      {
+        "word": "'s",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 47,
+        "accepted": 21,
+        "accept_rate": 0.447,
+        "suppress_rate": 0.553,
+        "is_function": false
+      },
+      {
+        "word": "be",
+        "predicted": 14,
+        "accepted": 3,
+        "accept_rate": 0.214,
+        "suppress_rate": 0.786,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 20,
+        "accepted": 8,
+        "accept_rate": 0.4,
+        "suppress_rate": 0.6,
+        "is_function": true
+      },
+      {
+        "word": "Green",
+        "predicted": 9,
+        "accepted": 2,
+        "accept_rate": 0.222,
+        "suppress_rate": 0.778,
+        "is_function": false
+      },
+      {
+        "word": "of",
+        "predicted": 42,
+        "accepted": 22,
+        "accept_rate": 0.524,
+        "suppress_rate": 0.476,
+        "is_function": true
+      },
+      {
+        "word": "in",
+        "predicted": 12,
+        "accepted": 4,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": true
+      },
+      {
+        "word": "that",
+        "predicted": 10,
+        "accepted": 3,
+        "accept_rate": 0.3,
+        "suppress_rate": 0.7,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 103,
+        "accepted": 39,
+        "accept_rate": 0.379,
+        "suppress_rate": 0.621,
+        "is_function": false
+      },
+      {
+        "word": "wind",
+        "predicted": 11,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 47,
+        "accepted": 21,
+        "accept_rate": 0.447,
+        "suppress_rate": 0.553,
+        "is_function": false
+      },
+      {
+        "word": "Green",
+        "predicted": 9,
+        "accepted": 2,
+        "accept_rate": 0.222,
+        "suppress_rate": 0.778,
+        "is_function": false
+      },
+      {
+        "word": "green",
+        "predicted": 11,
+        "accepted": 4,
+        "accept_rate": 0.364,
+        "suppress_rate": 0.636,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.629,
+    "cw_suppression_rate": 0.651
+  },
+  "control": {
+    "n_poems": 4,
+    "total_predictions": 119,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 9,
+        "accepted": 3,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": false
+      },
+      {
+        "word": "the",
+        "predicted": 21,
+        "accepted": 13,
+        "accept_rate": 0.619,
+        "suppress_rate": 0.381,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 12,
+        "accepted": 8,
+        "accept_rate": 0.667,
+        "suppress_rate": 0.333,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 9,
+        "accepted": 3,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 12,
+        "accepted": 8,
+        "accept_rate": 0.667,
+        "suppress_rate": 0.333,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.381,
+    "cw_suppression_rate": 0.476
+  },
+  "victorian": {
+    "n_poems": 29,
+    "total_predictions": 4434,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 521,
+        "accepted": 119,
+        "accept_rate": 0.228,
+        "suppress_rate": 0.772,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 667,
+        "accepted": 218,
+        "accept_rate": 0.327,
+        "suppress_rate": 0.673,
+        "is_function": false
+      },
+      {
+        "word": "and",
+        "predicted": 170,
+        "accepted": 31,
+        "accept_rate": 0.182,
+        "suppress_rate": 0.818,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 86,
+        "accepted": 8,
+        "accept_rate": 0.093,
+        "suppress_rate": 0.907,
+        "is_function": true
+      },
+      {
+        "word": "And",
+        "predicted": 116,
+        "accepted": 18,
+        "accept_rate": 0.155,
+        "suppress_rate": 0.845,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 174,
+        "accepted": 56,
+        "accept_rate": 0.322,
+        "suppress_rate": 0.678,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 50,
+        "accepted": 6,
+        "accept_rate": 0.12,
+        "suppress_rate": 0.88,
+        "is_function": true
+      },
+      {
+        "word": "-",
+        "predicted": 84,
+        "accepted": 22,
+        "accept_rate": 0.262,
+        "suppress_rate": 0.738,
+        "is_function": false
+      },
+      {
+        "word": "in",
+        "predicted": 35,
+        "accepted": 3,
+        "accept_rate": 0.086,
+        "suppress_rate": 0.914,
+        "is_function": true
+      },
+      {
+        "word": "was",
+        "predicted": 30,
+        "accepted": 2,
+        "accept_rate": 0.067,
+        "suppress_rate": 0.933,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 50,
+        "accepted": 10,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": true
+      },
+      {
+        "word": "'s",
+        "predicted": 43,
+        "accepted": 8,
+        "accept_rate": 0.186,
+        "suppress_rate": 0.814,
+        "is_function": false
+      },
+      {
+        "word": "sea",
+        "predicted": 20,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "world",
+        "predicted": 20,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "are",
+        "predicted": 34,
+        "accepted": 5,
+        "accept_rate": 0.147,
+        "suppress_rate": 0.853,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 667,
+        "accepted": 218,
+        "accept_rate": 0.327,
+        "suppress_rate": 0.673,
+        "is_function": false
+      },
+      {
+        "word": "-",
+        "predicted": 84,
+        "accepted": 22,
+        "accept_rate": 0.262,
+        "suppress_rate": 0.738,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 43,
+        "accepted": 8,
+        "accept_rate": 0.186,
+        "suppress_rate": 0.814,
+        "is_function": false
+      },
+      {
+        "word": "sea",
+        "predicted": 20,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "world",
+        "predicted": 20,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 116,
+        "accepted": 46,
+        "accept_rate": 0.397,
+        "suppress_rate": 0.603,
+        "is_function": false
+      },
+      {
+        "word": "man",
+        "predicted": 16,
+        "accepted": 1,
+        "accept_rate": 0.062,
+        "suppress_rate": 0.938,
+        "is_function": false
+      },
+      {
+        "word": "sun",
+        "predicted": 13,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "\"",
+        "predicted": 18,
+        "accepted": 3,
+        "accept_rate": 0.167,
+        "suppress_rate": 0.833,
+        "is_function": false
+      },
+      {
+        "word": "love",
+        "predicted": 12,
+        "accepted": 1,
+        "accept_rate": 0.083,
+        "suppress_rate": 0.917,
+        "is_function": false
+      },
+      {
+        "word": "eyes",
+        "predicted": 14,
+        "accepted": 2,
+        "accept_rate": 0.143,
+        "suppress_rate": 0.857,
+        "is_function": false
+      },
+      {
+        "word": "sweet",
+        "predicted": 9,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "night",
+        "predicted": 11,
+        "accepted": 1,
+        "accept_rate": 0.091,
+        "suppress_rate": 0.909,
+        "is_function": false
+      },
+      {
+        "word": "ed",
+        "predicted": 15,
+        "accepted": 3,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": false
+      },
+      {
+        "word": "thy",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.783,
+    "cw_suppression_rate": 0.687
+  },
+  "haiku": {
+    "n_poems": 14,
+    "total_predictions": 226,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 29,
+        "accepted": 5,
+        "accept_rate": 0.172,
+        "suppress_rate": 0.828,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 9,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "the",
+        "predicted": 21,
+        "accepted": 7,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 14,
+        "accepted": 4,
+        "accept_rate": 0.286,
+        "suppress_rate": 0.714,
+        "is_function": false
+      },
+      {
+        "word": "of",
+        "predicted": 10,
+        "accepted": 4,
+        "accept_rate": 0.4,
+        "suppress_rate": 0.6,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 29,
+        "accepted": 5,
+        "accept_rate": 0.172,
+        "suppress_rate": 0.828,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 9,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 14,
+        "accepted": 4,
+        "accept_rate": 0.286,
+        "suppress_rate": 0.714,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.645,
+    "cw_suppression_rate": 0.827
+  },
+  "ancient": {
+    "n_poems": 3,
+    "total_predictions": 270,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 29,
+        "accepted": 5,
+        "accept_rate": 0.172,
+        "suppress_rate": 0.828,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 46,
+        "accepted": 15,
+        "accept_rate": 0.326,
+        "suppress_rate": 0.674,
+        "is_function": false
+      },
+      {
+        "word": "and",
+        "predicted": 19,
+        "accepted": 3,
+        "accept_rate": 0.158,
+        "suppress_rate": 0.842,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 15,
+        "accepted": 3,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 8,
+        "accepted": 1,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 46,
+        "accepted": 15,
+        "accept_rate": 0.326,
+        "suppress_rate": 0.674,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.831,
+    "cw_suppression_rate": 0.674
+  },
+  "prose_poetry": {
+    "n_poems": 12,
+    "total_predictions": 1305,
+    "top_suppressed_overall": [
+      {
+        "word": "and",
+        "predicted": 39,
+        "accepted": 4,
+        "accept_rate": 0.103,
+        "suppress_rate": 0.897,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 55,
+        "accepted": 15,
+        "accept_rate": 0.273,
+        "suppress_rate": 0.727,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 40,
+        "accepted": 9,
+        "accept_rate": 0.225,
+        "suppress_rate": 0.775,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 60,
+        "accepted": 20,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": false
+      },
+      {
+        "word": "the",
+        "predicted": 79,
+        "accepted": 30,
+        "accept_rate": 0.38,
+        "suppress_rate": 0.62,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 35,
+        "accepted": 9,
+        "accept_rate": 0.257,
+        "suppress_rate": 0.743,
+        "is_function": true
+      },
+      {
+        "word": "was",
+        "predicted": 32,
+        "accepted": 8,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 143,
+        "accepted": 75,
+        "accept_rate": 0.524,
+        "suppress_rate": 0.476,
+        "is_function": false
+      },
+      {
+        "word": "am",
+        "predicted": 12,
+        "accepted": 1,
+        "accept_rate": 0.083,
+        "suppress_rate": 0.917,
+        "is_function": false
+      },
+      {
+        "word": "light",
+        "predicted": 9,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 11,
+        "accepted": 1,
+        "accept_rate": 0.091,
+        "suppress_rate": 0.909,
+        "is_function": false
+      },
+      {
+        "word": "The",
+        "predicted": 15,
+        "accepted": 3,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 28,
+        "accepted": 10,
+        "accept_rate": 0.357,
+        "suppress_rate": 0.643,
+        "is_function": true
+      },
+      {
+        "word": "no",
+        "predicted": 9,
+        "accepted": 1,
+        "accept_rate": 0.111,
+        "suppress_rate": 0.889,
+        "is_function": true
+      },
+      {
+        "word": "house",
+        "predicted": 13,
+        "accepted": 3,
+        "accept_rate": 0.231,
+        "suppress_rate": 0.769,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 60,
+        "accepted": 20,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 143,
+        "accepted": 75,
+        "accept_rate": 0.524,
+        "suppress_rate": 0.476,
+        "is_function": false
+      },
+      {
+        "word": "am",
+        "predicted": 12,
+        "accepted": 1,
+        "accept_rate": 0.083,
+        "suppress_rate": 0.917,
+        "is_function": false
+      },
+      {
+        "word": "light",
+        "predicted": 9,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 11,
+        "accepted": 1,
+        "accept_rate": 0.091,
+        "suppress_rate": 0.909,
+        "is_function": false
+      },
+      {
+        "word": "house",
+        "predicted": 13,
+        "accepted": 3,
+        "accept_rate": 0.231,
+        "suppress_rate": 0.769,
+        "is_function": false
+      },
+      {
+        "word": "said",
+        "predicted": 10,
+        "accepted": 4,
+        "accept_rate": 0.4,
+        "suppress_rate": 0.6,
+        "is_function": false
+      },
+      {
+        "word": "know",
+        "predicted": 8,
+        "accepted": 3,
+        "accept_rate": 0.375,
+        "suppress_rate": 0.625,
+        "is_function": false
+      },
+      {
+        "word": "\u2014",
+        "predicted": 11,
+        "accepted": 11,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.674,
+    "cw_suppression_rate": 0.574
+  },
+  "ballad": {
+    "n_poems": 6,
+    "total_predictions": 840,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 143,
+        "accepted": 58,
+        "accept_rate": 0.406,
+        "suppress_rate": 0.594,
+        "is_function": false
+      },
+      {
+        "word": "the",
+        "predicted": 38,
+        "accepted": 9,
+        "accept_rate": 0.237,
+        "suppress_rate": 0.763,
+        "is_function": true
+      },
+      {
+        "word": "And",
+        "predicted": 16,
+        "accepted": 2,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 19,
+        "accepted": 4,
+        "accept_rate": 0.211,
+        "suppress_rate": 0.789,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 16,
+        "accepted": 3,
+        "accept_rate": 0.188,
+        "suppress_rate": 0.812,
+        "is_function": true
+      },
+      {
+        "word": "?\"",
+        "predicted": 13,
+        "accepted": 2,
+        "accept_rate": 0.154,
+        "suppress_rate": 0.846,
+        "is_function": false
+      },
+      {
+        "word": "of",
+        "predicted": 10,
+        "accepted": 1,
+        "accept_rate": 0.1,
+        "suppress_rate": 0.9,
+        "is_function": true
+      },
+      {
+        "word": "'s",
+        "predicted": 8,
+        "accepted": 1,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": false
+      },
+      {
+        "word": "he",
+        "predicted": 8,
+        "accepted": 1,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": true
+      },
+      {
+        "word": "ha",
+        "predicted": 15,
+        "accepted": 5,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": false
+      },
+      {
+        "word": "I",
+        "predicted": 22,
+        "accepted": 10,
+        "accept_rate": 0.455,
+        "suppress_rate": 0.545,
+        "is_function": true
+      },
+      {
+        "word": "in",
+        "predicted": 10,
+        "accepted": 3,
+        "accept_rate": 0.3,
+        "suppress_rate": 0.7,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 8,
+        "accepted": 2,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 8,
+        "accepted": 2,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": false
+      },
+      {
+        "word": "and",
+        "predicted": 11,
+        "accepted": 4,
+        "accept_rate": 0.364,
+        "suppress_rate": 0.636,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 143,
+        "accepted": 58,
+        "accept_rate": 0.406,
+        "suppress_rate": 0.594,
+        "is_function": false
+      },
+      {
+        "word": "?\"",
+        "predicted": 13,
+        "accepted": 2,
+        "accept_rate": 0.154,
+        "suppress_rate": 0.846,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 8,
+        "accepted": 1,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": false
+      },
+      {
+        "word": "ha",
+        "predicted": 15,
+        "accepted": 5,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 8,
+        "accepted": 2,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 8,
+        "accepted": 2,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": false
+      },
+      {
+        "word": "'",
+        "predicted": 18,
+        "accepted": 11,
+        "accept_rate": 0.611,
+        "suppress_rate": 0.389,
+        "is_function": false
+      },
+      {
+        "word": "e",
+        "predicted": 19,
+        "accepted": 12,
+        "accept_rate": 0.632,
+        "suppress_rate": 0.368,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.706,
+    "cw_suppression_rate": 0.599
+  },
+  "song_lyrics": {
+    "n_poems": 3,
+    "total_predictions": 499,
+    "top_suppressed_overall": [
+      {
+        "word": "a",
+        "predicted": 15,
+        "accepted": 5,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": true
+      },
+      {
+        "word": "was",
+        "predicted": 12,
+        "accepted": 5,
+        "accept_rate": 0.417,
+        "suppress_rate": 0.583,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 14,
+        "accepted": 7,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 72,
+        "accepted": 50,
+        "accept_rate": 0.694,
+        "suppress_rate": 0.306,
+        "is_function": false
+      },
+      {
+        "word": "I",
+        "predicted": 16,
+        "accepted": 10,
+        "accept_rate": 0.625,
+        "suppress_rate": 0.375,
+        "is_function": true
+      },
+      {
+        "word": "the",
+        "predicted": 30,
+        "accepted": 21,
+        "accept_rate": 0.7,
+        "suppress_rate": 0.3,
+        "is_function": true
+      },
+      {
+        "word": "you",
+        "predicted": 13,
+        "accepted": 8,
+        "accept_rate": 0.615,
+        "suppress_rate": 0.385,
+        "is_function": true
+      },
+      {
+        "word": "her",
+        "predicted": 11,
+        "accepted": 7,
+        "accept_rate": 0.636,
+        "suppress_rate": 0.364,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 13,
+        "accepted": 9,
+        "accept_rate": 0.692,
+        "suppress_rate": 0.308,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 72,
+        "accepted": 50,
+        "accept_rate": 0.694,
+        "suppress_rate": 0.306,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 13,
+        "accepted": 9,
+        "accept_rate": 0.692,
+        "suppress_rate": 0.308,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.432,
+    "cw_suppression_rate": 0.306
+  },
+  "metaphysical": {
+    "n_poems": 4,
+    "total_predictions": 470,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 94,
+        "accepted": 35,
+        "accept_rate": 0.372,
+        "suppress_rate": 0.628,
+        "is_function": false
+      },
+      {
+        "word": "the",
+        "predicted": 25,
+        "accepted": 4,
+        "accept_rate": 0.16,
+        "suppress_rate": 0.84,
+        "is_function": true
+      },
+      {
+        "word": "not",
+        "predicted": 12,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 31,
+        "accepted": 9,
+        "accept_rate": 0.29,
+        "suppress_rate": 0.71,
+        "is_function": true
+      },
+      {
+        "word": "my",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "and",
+        "predicted": 22,
+        "accepted": 8,
+        "accept_rate": 0.364,
+        "suppress_rate": 0.636,
+        "is_function": true
+      },
+      {
+        "word": "be",
+        "predicted": 8,
+        "accepted": 1,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": true
+      },
+      {
+        "word": "And",
+        "predicted": 17,
+        "accepted": 6,
+        "accept_rate": 0.353,
+        "suppress_rate": 0.647,
+        "is_function": true
+      },
+      {
+        "word": "me",
+        "predicted": 8,
+        "accepted": 2,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 11,
+        "accepted": 4,
+        "accept_rate": 0.364,
+        "suppress_rate": 0.636,
+        "is_function": false
+      },
+      {
+        "word": "thou",
+        "predicted": 9,
+        "accepted": 4,
+        "accept_rate": 0.444,
+        "suppress_rate": 0.556,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 94,
+        "accepted": 35,
+        "accept_rate": 0.372,
+        "suppress_rate": 0.628,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 11,
+        "accepted": 4,
+        "accept_rate": 0.364,
+        "suppress_rate": 0.636,
+        "is_function": false
+      },
+      {
+        "word": "thou",
+        "predicted": 9,
+        "accepted": 4,
+        "accept_rate": 0.444,
+        "suppress_rate": 0.556,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.771,
+    "cw_suppression_rate": 0.623
+  },
+  "early_modern": {
+    "n_poems": 7,
+    "total_predictions": 1100,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 161,
+        "accepted": 44,
+        "accept_rate": 0.273,
+        "suppress_rate": 0.727,
+        "is_function": false
+      },
+      {
+        "word": "the",
+        "predicted": 60,
+        "accepted": 13,
+        "accept_rate": 0.217,
+        "suppress_rate": 0.783,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 41,
+        "accepted": 6,
+        "accept_rate": 0.146,
+        "suppress_rate": 0.854,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 57,
+        "accepted": 14,
+        "accept_rate": 0.246,
+        "suppress_rate": 0.754,
+        "is_function": true
+      },
+      {
+        "word": "And",
+        "predicted": 47,
+        "accepted": 10,
+        "accept_rate": 0.213,
+        "suppress_rate": 0.787,
+        "is_function": true
+      },
+      {
+        "word": "my",
+        "predicted": 17,
+        "accepted": 1,
+        "accept_rate": 0.059,
+        "suppress_rate": 0.941,
+        "is_function": true
+      },
+      {
+        "word": "not",
+        "predicted": 22,
+        "accepted": 3,
+        "accept_rate": 0.136,
+        "suppress_rate": 0.864,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 14,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "and",
+        "predicted": 27,
+        "accepted": 6,
+        "accept_rate": 0.222,
+        "suppress_rate": 0.778,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 18,
+        "accepted": 3,
+        "accept_rate": 0.167,
+        "suppress_rate": 0.833,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 44,
+        "accepted": 16,
+        "accept_rate": 0.364,
+        "suppress_rate": 0.636,
+        "is_function": false
+      },
+      {
+        "word": "?\"",
+        "predicted": 10,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "be",
+        "predicted": 14,
+        "accepted": 2,
+        "accept_rate": 0.143,
+        "suppress_rate": 0.857,
+        "is_function": true
+      },
+      {
+        "word": "was",
+        "predicted": 9,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "am",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 161,
+        "accepted": 44,
+        "accept_rate": 0.273,
+        "suppress_rate": 0.727,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 44,
+        "accepted": 16,
+        "accept_rate": 0.364,
+        "suppress_rate": 0.636,
+        "is_function": false
+      },
+      {
+        "word": "?\"",
+        "predicted": 10,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "am",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 8,
+        "accepted": 1,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": false
+      },
+      {
+        "word": "\"",
+        "predicted": 8,
+        "accepted": 5,
+        "accept_rate": 0.625,
+        "suppress_rate": 0.375,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.805,
+    "cw_suppression_rate": 0.724
+  },
+  "spoken_word": {
+    "n_poems": 3,
+    "total_predictions": 218,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 14,
+        "accepted": 2,
+        "accept_rate": 0.143,
+        "suppress_rate": 0.857,
+        "is_function": true
+      },
+      {
+        "word": "and",
+        "predicted": 11,
+        "accepted": 3,
+        "accept_rate": 0.273,
+        "suppress_rate": 0.727,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 9,
+        "accepted": 2,
+        "accept_rate": 0.222,
+        "suppress_rate": 0.778,
+        "is_function": false
+      },
+      {
+        "word": "a",
+        "predicted": 8,
+        "accepted": 2,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 15,
+        "accepted": 7,
+        "accept_rate": 0.467,
+        "suppress_rate": 0.533,
+        "is_function": false
+      },
+      {
+        "word": "to",
+        "predicted": 13,
+        "accepted": 7,
+        "accept_rate": 0.538,
+        "suppress_rate": 0.462,
+        "is_function": true
+      },
+      {
+        "word": "are",
+        "predicted": 8,
+        "accepted": 4,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": true
+      },
+      {
+        "word": "they",
+        "predicted": 9,
+        "accepted": 5,
+        "accept_rate": 0.556,
+        "suppress_rate": 0.444,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 9,
+        "accepted": 2,
+        "accept_rate": 0.222,
+        "suppress_rate": 0.778,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 15,
+        "accepted": 7,
+        "accept_rate": 0.467,
+        "suppress_rate": 0.533,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.635,
+    "cw_suppression_rate": 0.625
+  },
+  "found_poetry": {
+    "n_poems": 7,
+    "total_predictions": 795,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 86,
+        "accepted": 27,
+        "accept_rate": 0.314,
+        "suppress_rate": 0.686,
+        "is_function": true
+      },
+      {
+        "word": "Add",
+        "predicted": 9,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "and",
+        "predicted": 28,
+        "accepted": 10,
+        "accept_rate": 0.357,
+        "suppress_rate": 0.643,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 22,
+        "accepted": 7,
+        "accept_rate": 0.318,
+        "suppress_rate": 0.682,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 11,
+        "accepted": 2,
+        "accept_rate": 0.182,
+        "suppress_rate": 0.818,
+        "is_function": true
+      },
+      {
+        "word": "in",
+        "predicted": 14,
+        "accepted": 4,
+        "accept_rate": 0.286,
+        "suppress_rate": 0.714,
+        "is_function": true
+      },
+      {
+        "word": "be",
+        "predicted": 10,
+        "accepted": 2,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 52,
+        "accepted": 29,
+        "accept_rate": 0.558,
+        "suppress_rate": 0.442,
+        "is_function": false
+      },
+      {
+        "word": "of",
+        "predicted": 41,
+        "accepted": 22,
+        "accept_rate": 0.537,
+        "suppress_rate": 0.463,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 40,
+        "accepted": 22,
+        "accept_rate": 0.55,
+        "suppress_rate": 0.45,
+        "is_function": true
+      },
+      {
+        "word": "The",
+        "predicted": 8,
+        "accepted": 2,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": true
+      },
+      {
+        "word": "that",
+        "predicted": 11,
+        "accepted": 5,
+        "accept_rate": 0.455,
+        "suppress_rate": 0.545,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 37,
+        "accepted": 25,
+        "accept_rate": 0.676,
+        "suppress_rate": 0.324,
+        "is_function": false
+      },
+      {
+        "word": "eth",
+        "predicted": 10,
+        "accepted": 10,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": "Add",
+        "predicted": 9,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 52,
+        "accepted": 29,
+        "accept_rate": 0.558,
+        "suppress_rate": 0.442,
+        "is_function": false
+      },
+      {
+        "word": ",",
+        "predicted": 37,
+        "accepted": 25,
+        "accept_rate": 0.676,
+        "suppress_rate": 0.324,
+        "is_function": false
+      },
+      {
+        "word": "eth",
+        "predicted": 10,
+        "accepted": 10,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.62,
+    "cw_suppression_rate": 0.407
+  },
+  "fixed_form": {
+    "n_poems": 8,
+    "total_predictions": 752,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 97,
+        "accepted": 25,
+        "accept_rate": 0.258,
+        "suppress_rate": 0.742,
+        "is_function": false
+      },
+      {
+        "word": "the",
+        "predicted": 75,
+        "accepted": 17,
+        "accept_rate": 0.227,
+        "suppress_rate": 0.773,
+        "is_function": true
+      },
+      {
+        "word": "And",
+        "predicted": 16,
+        "accepted": 1,
+        "accept_rate": 0.062,
+        "suppress_rate": 0.938,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 23,
+        "accepted": 6,
+        "accept_rate": 0.261,
+        "suppress_rate": 0.739,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 14,
+        "accepted": 2,
+        "accept_rate": 0.143,
+        "suppress_rate": 0.857,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 24,
+        "accepted": 7,
+        "accept_rate": 0.292,
+        "suppress_rate": 0.708,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 13,
+        "accepted": 2,
+        "accept_rate": 0.154,
+        "suppress_rate": 0.846,
+        "is_function": false
+      },
+      {
+        "word": "to",
+        "predicted": 19,
+        "accepted": 5,
+        "accept_rate": 0.263,
+        "suppress_rate": 0.737,
+        "is_function": true
+      },
+      {
+        "word": "be",
+        "predicted": 10,
+        "accepted": 1,
+        "accept_rate": 0.1,
+        "suppress_rate": 0.9,
+        "is_function": true
+      },
+      {
+        "word": "and",
+        "predicted": 16,
+        "accepted": 5,
+        "accept_rate": 0.312,
+        "suppress_rate": 0.688,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 15,
+        "accepted": 5,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": true
+      },
+      {
+        "word": "are",
+        "predicted": 8,
+        "accepted": 3,
+        "accept_rate": 0.375,
+        "suppress_rate": 0.625,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 15,
+        "accepted": 8,
+        "accept_rate": 0.533,
+        "suppress_rate": 0.467,
+        "is_function": true
+      },
+      {
+        "word": "'",
+        "predicted": 17,
+        "accepted": 10,
+        "accept_rate": 0.588,
+        "suppress_rate": 0.412,
+        "is_function": false
+      },
+      {
+        "word": "?",
+        "predicted": 8,
+        "accepted": 4,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 97,
+        "accepted": 25,
+        "accept_rate": 0.258,
+        "suppress_rate": 0.742,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 24,
+        "accepted": 7,
+        "accept_rate": 0.292,
+        "suppress_rate": 0.708,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 13,
+        "accepted": 2,
+        "accept_rate": 0.154,
+        "suppress_rate": 0.846,
+        "is_function": false
+      },
+      {
+        "word": "'",
+        "predicted": 17,
+        "accepted": 10,
+        "accept_rate": 0.588,
+        "suppress_rate": 0.412,
+        "is_function": false
+      },
+      {
+        "word": "?",
+        "predicted": 8,
+        "accepted": 4,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.749,
+    "cw_suppression_rate": 0.698
+  },
+  "cliche_control": {
+    "n_poems": 3,
+    "total_predictions": 298,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 22,
+        "accepted": 6,
+        "accept_rate": 0.273,
+        "suppress_rate": 0.727,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 26,
+        "accepted": 9,
+        "accept_rate": 0.346,
+        "suppress_rate": 0.654,
+        "is_function": false
+      },
+      {
+        "word": "to",
+        "predicted": 9,
+        "accepted": 1,
+        "accept_rate": 0.111,
+        "suppress_rate": 0.889,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 10,
+        "accepted": 2,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 29,
+        "accepted": 13,
+        "accept_rate": 0.448,
+        "suppress_rate": 0.552,
+        "is_function": false
+      },
+      {
+        "word": "are",
+        "predicted": 9,
+        "accepted": 2,
+        "accept_rate": 0.222,
+        "suppress_rate": 0.778,
+        "is_function": true
+      },
+      {
+        "word": "my",
+        "predicted": 8,
+        "accepted": 3,
+        "accept_rate": 0.375,
+        "suppress_rate": 0.625,
+        "is_function": true
+      },
+      {
+        "word": "and",
+        "predicted": 17,
+        "accepted": 9,
+        "accept_rate": 0.529,
+        "suppress_rate": 0.471,
+        "is_function": true
+      },
+      {
+        "word": "will",
+        "predicted": 8,
+        "accepted": 5,
+        "accept_rate": 0.625,
+        "suppress_rate": 0.375,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 26,
+        "accepted": 9,
+        "accept_rate": 0.346,
+        "suppress_rate": 0.654,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 29,
+        "accepted": 13,
+        "accept_rate": 0.448,
+        "suppress_rate": 0.552,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.663,
+    "cw_suppression_rate": 0.6
+  },
+  "18th_century": {
+    "n_poems": 7,
+    "total_predictions": 1108,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 124,
+        "accepted": 22,
+        "accept_rate": 0.177,
+        "suppress_rate": 0.823,
+        "is_function": true
+      },
+      {
+        "word": "And",
+        "predicted": 45,
+        "accepted": 2,
+        "accept_rate": 0.044,
+        "suppress_rate": 0.956,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 178,
+        "accepted": 61,
+        "accept_rate": 0.343,
+        "suppress_rate": 0.657,
+        "is_function": false
+      },
+      {
+        "word": "and",
+        "predicted": 45,
+        "accepted": 6,
+        "accept_rate": 0.133,
+        "suppress_rate": 0.867,
+        "is_function": true
+      },
+      {
+        "word": "his",
+        "predicted": 20,
+        "accepted": 2,
+        "accept_rate": 0.1,
+        "suppress_rate": 0.9,
+        "is_function": false
+      },
+      {
+        "word": "a",
+        "predicted": 24,
+        "accepted": 4,
+        "accept_rate": 0.167,
+        "suppress_rate": 0.833,
+        "is_function": true
+      },
+      {
+        "word": "be",
+        "predicted": 16,
+        "accepted": 1,
+        "accept_rate": 0.062,
+        "suppress_rate": 0.938,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 26,
+        "accepted": 6,
+        "accept_rate": 0.231,
+        "suppress_rate": 0.769,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 26,
+        "accepted": 8,
+        "accept_rate": 0.308,
+        "suppress_rate": 0.692,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 10,
+        "accepted": 1,
+        "accept_rate": 0.1,
+        "suppress_rate": 0.9,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 25,
+        "accepted": 10,
+        "accept_rate": 0.4,
+        "suppress_rate": 0.6,
+        "is_function": true
+      },
+      {
+        "word": "own",
+        "predicted": 8,
+        "accepted": 1,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 10,
+        "accepted": 2,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 41,
+        "accepted": 20,
+        "accept_rate": 0.488,
+        "suppress_rate": 0.512,
+        "is_function": false
+      },
+      {
+        "word": "in",
+        "predicted": 9,
+        "accepted": 2,
+        "accept_rate": 0.222,
+        "suppress_rate": 0.778,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 178,
+        "accepted": 61,
+        "accept_rate": 0.343,
+        "suppress_rate": 0.657,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 20,
+        "accepted": 2,
+        "accept_rate": 0.1,
+        "suppress_rate": 0.9,
+        "is_function": false
+      },
+      {
+        "word": "own",
+        "predicted": 8,
+        "accepted": 1,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 10,
+        "accepted": 2,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 41,
+        "accepted": 20,
+        "accept_rate": 0.488,
+        "suppress_rate": 0.512,
+        "is_function": false
+      },
+      {
+        "word": "ly",
+        "predicted": 8,
+        "accepted": 8,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.75,
+    "cw_suppression_rate": 0.645
+  },
+  "biblical": {
+    "n_poems": 8,
+    "total_predictions": 1285,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 133,
+        "accepted": 51,
+        "accept_rate": 0.383,
+        "suppress_rate": 0.617,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 79,
+        "accepted": 25,
+        "accept_rate": 0.316,
+        "suppress_rate": 0.684,
+        "is_function": false
+      },
+      {
+        "word": "be",
+        "predicted": 23,
+        "accepted": 3,
+        "accept_rate": 0.13,
+        "suppress_rate": 0.87,
+        "is_function": true
+      },
+      {
+        "word": "And",
+        "predicted": 20,
+        "accepted": 4,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": true
+      },
+      {
+        "word": "and",
+        "predicted": 47,
+        "accepted": 18,
+        "accept_rate": 0.383,
+        "suppress_rate": 0.617,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 31,
+        "accepted": 10,
+        "accept_rate": 0.323,
+        "suppress_rate": 0.677,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 15,
+        "accepted": 3,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 18,
+        "accepted": 5,
+        "accept_rate": 0.278,
+        "suppress_rate": 0.722,
+        "is_function": true
+      },
+      {
+        "word": "he",
+        "predicted": 11,
+        "accepted": 2,
+        "accept_rate": 0.182,
+        "suppress_rate": 0.818,
+        "is_function": true
+      },
+      {
+        "word": "not",
+        "predicted": 20,
+        "accepted": 7,
+        "accept_rate": 0.35,
+        "suppress_rate": 0.65,
+        "is_function": true
+      },
+      {
+        "word": "in",
+        "predicted": 11,
+        "accepted": 3,
+        "accept_rate": 0.273,
+        "suppress_rate": 0.727,
+        "is_function": true
+      },
+      {
+        "word": "my",
+        "predicted": 11,
+        "accepted": 3,
+        "accept_rate": 0.273,
+        "suppress_rate": 0.727,
+        "is_function": true
+      },
+      {
+        "word": "earth",
+        "predicted": 11,
+        "accepted": 3,
+        "accept_rate": 0.273,
+        "suppress_rate": 0.727,
+        "is_function": false
+      },
+      {
+        "word": "God",
+        "predicted": 8,
+        "accepted": 2,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": false
+      },
+      {
+        "word": "He",
+        "predicted": 8,
+        "accepted": 2,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 79,
+        "accepted": 25,
+        "accept_rate": 0.316,
+        "suppress_rate": 0.684,
+        "is_function": false
+      },
+      {
+        "word": "earth",
+        "predicted": 11,
+        "accepted": 3,
+        "accept_rate": 0.273,
+        "suppress_rate": 0.727,
+        "is_function": false
+      },
+      {
+        "word": "God",
+        "predicted": 8,
+        "accepted": 2,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": false
+      },
+      {
+        "word": "Lord",
+        "predicted": 8,
+        "accepted": 2,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 76,
+        "accepted": 51,
+        "accept_rate": 0.671,
+        "suppress_rate": 0.329,
+        "is_function": false
+      },
+      {
+        "word": "LORD",
+        "predicted": 10,
+        "accepted": 5,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": false
+      },
+      {
+        "word": ":",
+        "predicted": 30,
+        "accepted": 22,
+        "accept_rate": 0.733,
+        "suppress_rate": 0.267,
+        "is_function": false
+      },
+      {
+        "word": "us",
+        "predicted": 8,
+        "accepted": 5,
+        "accept_rate": 0.625,
+        "suppress_rate": 0.375,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 32,
+        "accepted": 26,
+        "accept_rate": 0.812,
+        "suppress_rate": 0.188,
+        "is_function": false
+      },
+      {
+        "word": "th",
+        "predicted": 32,
+        "accepted": 30,
+        "accept_rate": 0.938,
+        "suppress_rate": 0.062,
+        "is_function": false
+      },
+      {
+        "word": "ever",
+        "predicted": 28,
+        "accepted": 27,
+        "accept_rate": 0.964,
+        "suppress_rate": 0.036,
+        "is_function": false
+      },
+      {
+        "word": "eth",
+        "predicted": 14,
+        "accepted": 14,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      },
+      {
+        "word": "mercy",
+        "predicted": 25,
+        "accepted": 25,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      },
+      {
+        "word": "endure",
+        "predicted": 25,
+        "accepted": 25,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.557,
+    "cw_suppression_rate": 0.321
+  },
+  "concrete": {
+    "n_poems": 3,
+    "total_predictions": 75,
+    "top_suppressed_overall": [
+      {
+        "word": "enc",
+        "predicted": 14,
+        "accepted": 14,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      },
+      {
+        "word": "io",
+        "predicted": 14,
+        "accepted": 14,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      },
+      {
+        "word": "sil",
+        "predicted": 10,
+        "accepted": 10,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      },
+      {
+        "word": "spacious",
+        "predicted": 8,
+        "accepted": 8,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": "enc",
+        "predicted": 14,
+        "accepted": 14,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      },
+      {
+        "word": "io",
+        "predicted": 14,
+        "accepted": 14,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      },
+      {
+        "word": "sil",
+        "predicted": 10,
+        "accepted": 10,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      },
+      {
+        "word": "spacious",
+        "predicted": 8,
+        "accepted": 8,
+        "accept_rate": 1.0,
+        "suppress_rate": 0.0,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": null,
+    "cw_suppression_rate": null
+  },
+  "latin_american": {
+    "n_poems": 3,
+    "total_predictions": 304,
+    "top_suppressed_overall": [
+      {
+        "word": "I",
+        "predicted": 20,
+        "accepted": 4,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 36,
+        "accepted": 13,
+        "accept_rate": 0.361,
+        "suppress_rate": 0.639,
+        "is_function": false
+      },
+      {
+        "word": "is",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "the",
+        "predicted": 33,
+        "accepted": 14,
+        "accept_rate": 0.424,
+        "suppress_rate": 0.576,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 9,
+        "accepted": 2,
+        "accept_rate": 0.222,
+        "suppress_rate": 0.778,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 24,
+        "accepted": 12,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": false
+      },
+      {
+        "word": "and",
+        "predicted": 9,
+        "accepted": 3,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 36,
+        "accepted": 13,
+        "accept_rate": 0.361,
+        "suppress_rate": 0.639,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 24,
+        "accepted": 12,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.709,
+    "cw_suppression_rate": 0.583
+  },
+  "imagist": {
+    "n_poems": 5,
+    "total_predictions": 262,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 26,
+        "accepted": 8,
+        "accept_rate": 0.308,
+        "suppress_rate": 0.692,
+        "is_function": false
+      },
+      {
+        "word": "-",
+        "predicted": 8,
+        "accepted": 1,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": false
+      },
+      {
+        "word": "I",
+        "predicted": 15,
+        "accepted": 6,
+        "accept_rate": 0.4,
+        "suppress_rate": 0.6,
+        "is_function": true
+      },
+      {
+        "word": "the",
+        "predicted": 28,
+        "accepted": 15,
+        "accept_rate": 0.536,
+        "suppress_rate": 0.464,
+        "is_function": true
+      },
+      {
+        "word": "And",
+        "predicted": 9,
+        "accepted": 3,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 8,
+        "accepted": 3,
+        "accept_rate": 0.375,
+        "suppress_rate": 0.625,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 8,
+        "accepted": 4,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 26,
+        "accepted": 8,
+        "accept_rate": 0.308,
+        "suppress_rate": 0.692,
+        "is_function": false
+      },
+      {
+        "word": "-",
+        "predicted": 8,
+        "accepted": 1,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.544,
+    "cw_suppression_rate": 0.735
+  },
+  "german_expressionist": {
+    "n_poems": 4,
+    "total_predictions": 423,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 28,
+        "accepted": 6,
+        "accept_rate": 0.214,
+        "suppress_rate": 0.786,
+        "is_function": false
+      },
+      {
+        "word": "and",
+        "predicted": 17,
+        "accepted": 2,
+        "accept_rate": 0.118,
+        "suppress_rate": 0.882,
+        "is_function": true
+      },
+      {
+        "word": "the",
+        "predicted": 44,
+        "accepted": 16,
+        "accept_rate": 0.364,
+        "suppress_rate": 0.636,
+        "is_function": true
+      },
+      {
+        "word": "in",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 49,
+        "accepted": 22,
+        "accept_rate": 0.449,
+        "suppress_rate": 0.551,
+        "is_function": false
+      },
+      {
+        "word": "is",
+        "predicted": 12,
+        "accepted": 2,
+        "accept_rate": 0.167,
+        "suppress_rate": 0.833,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 10,
+        "accepted": 2,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 17,
+        "accepted": 8,
+        "accept_rate": 0.471,
+        "suppress_rate": 0.529,
+        "is_function": true
+      },
+      {
+        "word": "'s",
+        "predicted": 9,
+        "accepted": 4,
+        "accept_rate": 0.444,
+        "suppress_rate": 0.556,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 28,
+        "accepted": 6,
+        "accept_rate": 0.214,
+        "suppress_rate": 0.786,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 49,
+        "accepted": 22,
+        "accept_rate": 0.449,
+        "suppress_rate": 0.551,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 9,
+        "accepted": 4,
+        "accept_rate": 0.444,
+        "suppress_rate": 0.556,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.722,
+    "cw_suppression_rate": 0.628
+  },
+  "parody_original": {
+    "n_poems": 3,
+    "total_predictions": 415,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 64,
+        "accepted": 29,
+        "accept_rate": 0.453,
+        "suppress_rate": 0.547,
+        "is_function": false
+      },
+      {
+        "word": "in",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "the",
+        "predicted": 28,
+        "accepted": 11,
+        "accept_rate": 0.393,
+        "suppress_rate": 0.607,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 17,
+        "accepted": 6,
+        "accept_rate": 0.353,
+        "suppress_rate": 0.647,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 14,
+        "accepted": 5,
+        "accept_rate": 0.357,
+        "suppress_rate": 0.643,
+        "is_function": true
+      },
+      {
+        "word": "he",
+        "predicted": 8,
+        "accepted": 3,
+        "accept_rate": 0.375,
+        "suppress_rate": 0.625,
+        "is_function": true
+      },
+      {
+        "word": "me",
+        "predicted": 8,
+        "accepted": 3,
+        "accept_rate": 0.375,
+        "suppress_rate": 0.625,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 13,
+        "accepted": 7,
+        "accept_rate": 0.538,
+        "suppress_rate": 0.462,
+        "is_function": false
+      },
+      {
+        "word": "man",
+        "predicted": 9,
+        "accepted": 5,
+        "accept_rate": 0.556,
+        "suppress_rate": 0.444,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 8,
+        "accepted": 5,
+        "accept_rate": 0.625,
+        "suppress_rate": 0.375,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 64,
+        "accepted": 29,
+        "accept_rate": 0.453,
+        "suppress_rate": 0.547,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 13,
+        "accepted": 7,
+        "accept_rate": 0.538,
+        "suppress_rate": 0.462,
+        "is_function": false
+      },
+      {
+        "word": "man",
+        "predicted": 9,
+        "accepted": 5,
+        "accept_rate": 0.556,
+        "suppress_rate": 0.444,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 8,
+        "accepted": 5,
+        "accept_rate": 0.625,
+        "suppress_rate": 0.375,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.663,
+    "cw_suppression_rate": 0.511
+  },
+  "parody": {
+    "n_poems": 4,
+    "total_predictions": 611,
+    "top_suppressed_overall": [
+      {
+        "word": "a",
+        "predicted": 20,
+        "accepted": 3,
+        "accept_rate": 0.15,
+        "suppress_rate": 0.85,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 90,
+        "accepted": 40,
+        "accept_rate": 0.444,
+        "suppress_rate": 0.556,
+        "is_function": false
+      },
+      {
+        "word": "the",
+        "predicted": 36,
+        "accepted": 11,
+        "accept_rate": 0.306,
+        "suppress_rate": 0.694,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 18,
+        "accepted": 3,
+        "accept_rate": 0.167,
+        "suppress_rate": 0.833,
+        "is_function": true
+      },
+      {
+        "word": "and",
+        "predicted": 13,
+        "accepted": 2,
+        "accept_rate": 0.154,
+        "suppress_rate": 0.846,
+        "is_function": true
+      },
+      {
+        "word": "be",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "your",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 17,
+        "accepted": 5,
+        "accept_rate": 0.294,
+        "suppress_rate": 0.706,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 13,
+        "accepted": 3,
+        "accept_rate": 0.231,
+        "suppress_rate": 0.769,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 14,
+        "accepted": 4,
+        "accept_rate": 0.286,
+        "suppress_rate": 0.714,
+        "is_function": false
+      },
+      {
+        "word": "to",
+        "predicted": 14,
+        "accepted": 5,
+        "accept_rate": 0.357,
+        "suppress_rate": 0.643,
+        "is_function": true
+      },
+      {
+        "word": "old",
+        "predicted": 8,
+        "accepted": 3,
+        "accept_rate": 0.375,
+        "suppress_rate": 0.625,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 12,
+        "accepted": 6,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": false
+      },
+      {
+        "word": "you",
+        "predicted": 16,
+        "accepted": 9,
+        "accept_rate": 0.562,
+        "suppress_rate": 0.438,
+        "is_function": true
+      },
+      {
+        "word": "are",
+        "predicted": 9,
+        "accepted": 5,
+        "accept_rate": 0.556,
+        "suppress_rate": 0.444,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 90,
+        "accepted": 40,
+        "accept_rate": 0.444,
+        "suppress_rate": 0.556,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 14,
+        "accepted": 4,
+        "accept_rate": 0.286,
+        "suppress_rate": 0.714,
+        "is_function": false
+      },
+      {
+        "word": "old",
+        "predicted": 8,
+        "accepted": 3,
+        "accept_rate": 0.375,
+        "suppress_rate": 0.625,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 12,
+        "accepted": 6,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": false
+      },
+      {
+        "word": "?",
+        "predicted": 8,
+        "accepted": 5,
+        "accept_rate": 0.625,
+        "suppress_rate": 0.375,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.733,
+    "cw_suppression_rate": 0.561
+  },
+  "classical_chinese": {
+    "n_poems": 4,
+    "total_predictions": 209,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 27,
+        "accepted": 7,
+        "accept_rate": 0.259,
+        "suppress_rate": 0.741,
+        "is_function": true
+      },
+      {
+        "word": "The",
+        "predicted": 11,
+        "accepted": 1,
+        "accept_rate": 0.091,
+        "suppress_rate": 0.909,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 19,
+        "accepted": 7,
+        "accept_rate": 0.368,
+        "suppress_rate": 0.632,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 20,
+        "accepted": 11,
+        "accept_rate": 0.55,
+        "suppress_rate": 0.45,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 19,
+        "accepted": 7,
+        "accept_rate": 0.368,
+        "suppress_rate": 0.632,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 20,
+        "accepted": 11,
+        "accept_rate": 0.55,
+        "suppress_rate": 0.45,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.789,
+    "cw_suppression_rate": 0.538
+  },
+  "limerick": {
+    "n_poems": 10,
+    "total_predictions": 377,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 21,
+        "accepted": 6,
+        "accept_rate": 0.286,
+        "suppress_rate": 0.714,
+        "is_function": false
+      },
+      {
+        "word": "is",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "who",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "the",
+        "predicted": 29,
+        "accepted": 11,
+        "accept_rate": 0.379,
+        "suppress_rate": 0.621,
+        "is_function": true
+      },
+      {
+        "word": "was",
+        "predicted": 15,
+        "accepted": 4,
+        "accept_rate": 0.267,
+        "suppress_rate": 0.733,
+        "is_function": true
+      },
+      {
+        "word": "And",
+        "predicted": 14,
+        "accepted": 4,
+        "accept_rate": 0.286,
+        "suppress_rate": 0.714,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 13,
+        "accepted": 6,
+        "accept_rate": 0.462,
+        "suppress_rate": 0.538,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 26,
+        "accepted": 15,
+        "accept_rate": 0.577,
+        "suppress_rate": 0.423,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 8,
+        "accepted": 3,
+        "accept_rate": 0.375,
+        "suppress_rate": 0.625,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 21,
+        "accepted": 6,
+        "accept_rate": 0.286,
+        "suppress_rate": 0.714,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 8,
+        "accepted": 3,
+        "accept_rate": 0.375,
+        "suppress_rate": 0.625,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.646,
+    "cw_suppression_rate": 0.69
+  },
+  "old_english": {
+    "n_poems": 5,
+    "total_predictions": 553,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 61,
+        "accepted": 14,
+        "accept_rate": 0.23,
+        "suppress_rate": 0.77,
+        "is_function": true
+      },
+      {
+        "word": "and",
+        "predicted": 29,
+        "accepted": 4,
+        "accept_rate": 0.138,
+        "suppress_rate": 0.862,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 82,
+        "accepted": 34,
+        "accept_rate": 0.415,
+        "suppress_rate": 0.585,
+        "is_function": false
+      },
+      {
+        "word": "of",
+        "predicted": 36,
+        "accepted": 12,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 23,
+        "accepted": 7,
+        "accept_rate": 0.304,
+        "suppress_rate": 0.696,
+        "is_function": false
+      },
+      {
+        "word": "in",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "be",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 10,
+        "accepted": 1,
+        "accept_rate": 0.1,
+        "suppress_rate": 0.9,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 8,
+        "accepted": 1,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": true
+      },
+      {
+        "word": "Lord",
+        "predicted": 9,
+        "accepted": 2,
+        "accept_rate": 0.222,
+        "suppress_rate": 0.778,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 14,
+        "accepted": 7,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": false
+      },
+      {
+        "word": "-",
+        "predicted": 8,
+        "accepted": 5,
+        "accept_rate": 0.625,
+        "suppress_rate": 0.375,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 82,
+        "accepted": 34,
+        "accept_rate": 0.415,
+        "suppress_rate": 0.585,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 23,
+        "accepted": 7,
+        "accept_rate": 0.304,
+        "suppress_rate": 0.696,
+        "is_function": false
+      },
+      {
+        "word": "Lord",
+        "predicted": 9,
+        "accepted": 2,
+        "accept_rate": 0.222,
+        "suppress_rate": 0.778,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 14,
+        "accepted": 7,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": false
+      },
+      {
+        "word": "-",
+        "predicted": 8,
+        "accepted": 5,
+        "accept_rate": 0.625,
+        "suppress_rate": 0.375,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.8,
+    "cw_suppression_rate": 0.596
+  },
+  "war_poetry": {
+    "n_poems": 3,
+    "total_predictions": 573,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 73,
+        "accepted": 13,
+        "accept_rate": 0.178,
+        "suppress_rate": 0.822,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 101,
+        "accepted": 34,
+        "accept_rate": 0.337,
+        "suppress_rate": 0.663,
+        "is_function": false
+      },
+      {
+        "word": "and",
+        "predicted": 15,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 12,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 31,
+        "accepted": 11,
+        "accept_rate": 0.355,
+        "suppress_rate": 0.645,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 22,
+        "accepted": 7,
+        "accept_rate": 0.318,
+        "suppress_rate": 0.682,
+        "is_function": false
+      },
+      {
+        "word": "And",
+        "predicted": 14,
+        "accepted": 3,
+        "accept_rate": 0.214,
+        "suppress_rate": 0.786,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 10,
+        "accepted": 2,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": true
+      },
+      {
+        "word": "-",
+        "predicted": 10,
+        "accepted": 3,
+        "accept_rate": 0.3,
+        "suppress_rate": 0.7,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 101,
+        "accepted": 34,
+        "accept_rate": 0.337,
+        "suppress_rate": 0.663,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 22,
+        "accepted": 7,
+        "accept_rate": 0.318,
+        "suppress_rate": 0.682,
+        "is_function": false
+      },
+      {
+        "word": "-",
+        "predicted": 10,
+        "accepted": 3,
+        "accept_rate": 0.3,
+        "suppress_rate": 0.7,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.813,
+    "cw_suppression_rate": 0.669
+  },
+  "postcolonial": {
+    "n_poems": 6,
+    "total_predictions": 759,
+    "top_suppressed_overall": [
+      {
+        "word": "the",
+        "predicted": 104,
+        "accepted": 37,
+        "accept_rate": 0.356,
+        "suppress_rate": 0.644,
+        "is_function": true
+      },
+      {
+        "word": ",",
+        "predicted": 63,
+        "accepted": 22,
+        "accept_rate": 0.349,
+        "suppress_rate": 0.651,
+        "is_function": false
+      },
+      {
+        "word": "sea",
+        "predicted": 12,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 61,
+        "accepted": 30,
+        "accept_rate": 0.492,
+        "suppress_rate": 0.508,
+        "is_function": false
+      },
+      {
+        "word": "I",
+        "predicted": 15,
+        "accepted": 4,
+        "accept_rate": 0.267,
+        "suppress_rate": 0.733,
+        "is_function": true
+      },
+      {
+        "word": "and",
+        "predicted": 21,
+        "accepted": 8,
+        "accept_rate": 0.381,
+        "suppress_rate": 0.619,
+        "is_function": true
+      },
+      {
+        "word": "were",
+        "predicted": 22,
+        "accepted": 9,
+        "accept_rate": 0.409,
+        "suppress_rate": 0.591,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 11,
+        "accepted": 3,
+        "accept_rate": 0.273,
+        "suppress_rate": 0.727,
+        "is_function": true
+      },
+      {
+        "word": "was",
+        "predicted": 9,
+        "accepted": 2,
+        "accept_rate": 0.222,
+        "suppress_rate": 0.778,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 29,
+        "accepted": 14,
+        "accept_rate": 0.483,
+        "suppress_rate": 0.517,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 9,
+        "accepted": 3,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": true
+      },
+      {
+        "word": "rain",
+        "predicted": 10,
+        "accepted": 7,
+        "accept_rate": 0.7,
+        "suppress_rate": 0.3,
+        "is_function": false
+      },
+      {
+        "word": "horses",
+        "predicted": 12,
+        "accepted": 11,
+        "accept_rate": 0.917,
+        "suppress_rate": 0.083,
+        "is_function": false
+      },
+      {
+        "word": "who",
+        "predicted": 12,
+        "accepted": 11,
+        "accept_rate": 0.917,
+        "suppress_rate": 0.083,
+        "is_function": true
+      },
+      {
+        "word": "had",
+        "predicted": 13,
+        "accepted": 12,
+        "accept_rate": 0.923,
+        "suppress_rate": 0.077,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 63,
+        "accepted": 22,
+        "accept_rate": 0.349,
+        "suppress_rate": 0.651,
+        "is_function": false
+      },
+      {
+        "word": "sea",
+        "predicted": 12,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 61,
+        "accepted": 30,
+        "accept_rate": 0.492,
+        "suppress_rate": 0.508,
+        "is_function": false
+      },
+      {
+        "word": "rain",
+        "predicted": 10,
+        "accepted": 7,
+        "accept_rate": 0.7,
+        "suppress_rate": 0.3,
+        "is_function": false
+      },
+      {
+        "word": "horses",
+        "predicted": 12,
+        "accepted": 11,
+        "accept_rate": 0.917,
+        "suppress_rate": 0.083,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.58,
+    "cw_suppression_rate": 0.557
+  },
+  "dramatic_monologue": {
+    "n_poems": 7,
+    "total_predictions": 2239,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 372,
+        "accepted": 103,
+        "accept_rate": 0.277,
+        "suppress_rate": 0.723,
+        "is_function": false
+      },
+      {
+        "word": "the",
+        "predicted": 185,
+        "accepted": 39,
+        "accept_rate": 0.211,
+        "suppress_rate": 0.789,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 116,
+        "accepted": 16,
+        "accept_rate": 0.138,
+        "suppress_rate": 0.862,
+        "is_function": true
+      },
+      {
+        "word": "and",
+        "predicted": 57,
+        "accepted": 7,
+        "accept_rate": 0.123,
+        "suppress_rate": 0.877,
+        "is_function": true
+      },
+      {
+        "word": "And",
+        "predicted": 65,
+        "accepted": 13,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 44,
+        "accepted": 8,
+        "accept_rate": 0.182,
+        "suppress_rate": 0.818,
+        "is_function": false
+      },
+      {
+        "word": "to",
+        "predicted": 44,
+        "accepted": 8,
+        "accept_rate": 0.182,
+        "suppress_rate": 0.818,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 30,
+        "accepted": 3,
+        "accept_rate": 0.1,
+        "suppress_rate": 0.9,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 54,
+        "accepted": 15,
+        "accept_rate": 0.278,
+        "suppress_rate": 0.722,
+        "is_function": true
+      },
+      {
+        "word": "a",
+        "predicted": 30,
+        "accepted": 6,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": true
+      },
+      {
+        "word": "man",
+        "predicted": 19,
+        "accepted": 2,
+        "accept_rate": 0.105,
+        "suppress_rate": 0.895,
+        "is_function": false
+      },
+      {
+        "word": "you",
+        "predicted": 26,
+        "accepted": 6,
+        "accept_rate": 0.231,
+        "suppress_rate": 0.769,
+        "is_function": true
+      },
+      {
+        "word": "was",
+        "predicted": 14,
+        "accepted": 1,
+        "accept_rate": 0.071,
+        "suppress_rate": 0.929,
+        "is_function": true
+      },
+      {
+        "word": "own",
+        "predicted": 11,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 29,
+        "accepted": 8,
+        "accept_rate": 0.276,
+        "suppress_rate": 0.724,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 372,
+        "accepted": 103,
+        "accept_rate": 0.277,
+        "suppress_rate": 0.723,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 44,
+        "accepted": 8,
+        "accept_rate": 0.182,
+        "suppress_rate": 0.818,
+        "is_function": false
+      },
+      {
+        "word": "man",
+        "predicted": 19,
+        "accepted": 2,
+        "accept_rate": 0.105,
+        "suppress_rate": 0.895,
+        "is_function": false
+      },
+      {
+        "word": "own",
+        "predicted": 11,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 29,
+        "accepted": 8,
+        "accept_rate": 0.276,
+        "suppress_rate": 0.724,
+        "is_function": false
+      },
+      {
+        "word": "am",
+        "predicted": 14,
+        "accepted": 2,
+        "accept_rate": 0.143,
+        "suppress_rate": 0.857,
+        "is_function": false
+      },
+      {
+        "word": "world",
+        "predicted": 10,
+        "accepted": 1,
+        "accept_rate": 0.1,
+        "suppress_rate": 0.9,
+        "is_function": false
+      },
+      {
+        "word": "-",
+        "predicted": 27,
+        "accepted": 11,
+        "accept_rate": 0.407,
+        "suppress_rate": 0.593,
+        "is_function": false
+      },
+      {
+        "word": "?",
+        "predicted": 14,
+        "accepted": 6,
+        "accept_rate": 0.429,
+        "suppress_rate": 0.571,
+        "is_function": false
+      },
+      {
+        "word": "\"",
+        "predicted": 12,
+        "accepted": 5,
+        "accept_rate": 0.417,
+        "suppress_rate": 0.583,
+        "is_function": false
+      },
+      {
+        "word": "know",
+        "predicted": 8,
+        "accepted": 3,
+        "accept_rate": 0.375,
+        "suppress_rate": 0.625,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.797,
+    "cw_suppression_rate": 0.734
+  },
+  "elegy": {
+    "n_poems": 7,
+    "total_predictions": 1011,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 169,
+        "accepted": 53,
+        "accept_rate": 0.314,
+        "suppress_rate": 0.686,
+        "is_function": false
+      },
+      {
+        "word": "the",
+        "predicted": 91,
+        "accepted": 25,
+        "accept_rate": 0.275,
+        "suppress_rate": 0.725,
+        "is_function": true
+      },
+      {
+        "word": "And",
+        "predicted": 27,
+        "accepted": 4,
+        "accept_rate": 0.148,
+        "suppress_rate": 0.852,
+        "is_function": true
+      },
+      {
+        "word": "and",
+        "predicted": 35,
+        "accepted": 8,
+        "accept_rate": 0.229,
+        "suppress_rate": 0.771,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 25,
+        "accepted": 4,
+        "accept_rate": 0.16,
+        "suppress_rate": 0.84,
+        "is_function": true
+      },
+      {
+        "word": "of",
+        "predicted": 29,
+        "accepted": 6,
+        "accept_rate": 0.207,
+        "suppress_rate": 0.793,
+        "is_function": true
+      },
+      {
+        "word": "my",
+        "predicted": 13,
+        "accepted": 1,
+        "accept_rate": 0.077,
+        "suppress_rate": 0.923,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 22,
+        "accepted": 5,
+        "accept_rate": 0.227,
+        "suppress_rate": 0.773,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 25,
+        "accepted": 7,
+        "accept_rate": 0.28,
+        "suppress_rate": 0.72,
+        "is_function": false
+      },
+      {
+        "word": "are",
+        "predicted": 9,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "be",
+        "predicted": 11,
+        "accepted": 1,
+        "accept_rate": 0.091,
+        "suppress_rate": 0.909,
+        "is_function": true
+      },
+      {
+        "word": "his",
+        "predicted": 13,
+        "accepted": 2,
+        "accept_rate": 0.154,
+        "suppress_rate": 0.846,
+        "is_function": false
+      },
+      {
+        "word": "world",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "The",
+        "predicted": 11,
+        "accepted": 2,
+        "accept_rate": 0.182,
+        "suppress_rate": 0.818,
+        "is_function": true
+      },
+      {
+        "word": "is",
+        "predicted": 22,
+        "accepted": 8,
+        "accept_rate": 0.364,
+        "suppress_rate": 0.636,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 169,
+        "accepted": 53,
+        "accept_rate": 0.314,
+        "suppress_rate": 0.686,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 25,
+        "accepted": 7,
+        "accept_rate": 0.28,
+        "suppress_rate": 0.72,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 13,
+        "accepted": 2,
+        "accept_rate": 0.154,
+        "suppress_rate": 0.846,
+        "is_function": false
+      },
+      {
+        "word": "world",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "-",
+        "predicted": 9,
+        "accepted": 3,
+        "accept_rate": 0.333,
+        "suppress_rate": 0.667,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.763,
+    "cw_suppression_rate": 0.71
+  },
+  "clerihew": {
+    "n_poems": 10,
+    "total_predictions": 187,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 21,
+        "accepted": 2,
+        "accept_rate": 0.095,
+        "suppress_rate": 0.905,
+        "is_function": false
+      },
+      {
+        "word": "a",
+        "predicted": 14,
+        "accepted": 1,
+        "accept_rate": 0.071,
+        "suppress_rate": 0.929,
+        "is_function": true
+      },
+      {
+        "word": "the",
+        "predicted": 15,
+        "accepted": 2,
+        "accept_rate": 0.133,
+        "suppress_rate": 0.867,
+        "is_function": true
+      },
+      {
+        "word": "was",
+        "predicted": 8,
+        "accepted": 1,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 12,
+        "accepted": 6,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 21,
+        "accepted": 2,
+        "accept_rate": 0.095,
+        "suppress_rate": 0.905,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 12,
+        "accepted": 6,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.892,
+    "cw_suppression_rate": 0.758
+  },
+  "double_dactyl": {
+    "n_poems": 5,
+    "total_predictions": 189,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 44,
+        "accepted": 11,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": false
+      },
+      {
+        "word": "the",
+        "predicted": 13,
+        "accepted": 3,
+        "accept_rate": 0.231,
+        "suppress_rate": 0.769,
+        "is_function": true
+      },
+      {
+        "word": ".",
+        "predicted": 10,
+        "accepted": 2,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": false
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 44,
+        "accepted": 11,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 10,
+        "accepted": 2,
+        "accept_rate": 0.2,
+        "suppress_rate": 0.8,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.769,
+    "cw_suppression_rate": 0.759
+  },
+  "ekphrastic": {
+    "n_poems": 8,
+    "total_predictions": 1674,
+    "top_suppressed_overall": [
+      {
+        "word": ",",
+        "predicted": 253,
+        "accepted": 68,
+        "accept_rate": 0.269,
+        "suppress_rate": 0.731,
+        "is_function": false
+      },
+      {
+        "word": "the",
+        "predicted": 146,
+        "accepted": 37,
+        "accept_rate": 0.253,
+        "suppress_rate": 0.747,
+        "is_function": true
+      },
+      {
+        "word": "and",
+        "predicted": 58,
+        "accepted": 9,
+        "accept_rate": 0.155,
+        "suppress_rate": 0.845,
+        "is_function": true
+      },
+      {
+        "word": "I",
+        "predicted": 51,
+        "accepted": 8,
+        "accept_rate": 0.157,
+        "suppress_rate": 0.843,
+        "is_function": true
+      },
+      {
+        "word": "And",
+        "predicted": 60,
+        "accepted": 13,
+        "accept_rate": 0.217,
+        "suppress_rate": 0.783,
+        "is_function": true
+      },
+      {
+        "word": "-",
+        "predicted": 23,
+        "accepted": 1,
+        "accept_rate": 0.043,
+        "suppress_rate": 0.957,
+        "is_function": false
+      },
+      {
+        "word": "is",
+        "predicted": 24,
+        "accepted": 3,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": true
+      },
+      {
+        "word": "'s",
+        "predicted": 20,
+        "accepted": 2,
+        "accept_rate": 0.1,
+        "suppress_rate": 0.9,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 48,
+        "accepted": 15,
+        "accept_rate": 0.312,
+        "suppress_rate": 0.688,
+        "is_function": false
+      },
+      {
+        "word": "of",
+        "predicted": 56,
+        "accepted": 19,
+        "accept_rate": 0.339,
+        "suppress_rate": 0.661,
+        "is_function": true
+      },
+      {
+        "word": "in",
+        "predicted": 13,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "are",
+        "predicted": 12,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": true
+      },
+      {
+        "word": "thou",
+        "predicted": 19,
+        "accepted": 3,
+        "accept_rate": 0.158,
+        "suppress_rate": 0.842,
+        "is_function": false
+      },
+      {
+        "word": "be",
+        "predicted": 16,
+        "accepted": 2,
+        "accept_rate": 0.125,
+        "suppress_rate": 0.875,
+        "is_function": true
+      },
+      {
+        "word": "to",
+        "predicted": 25,
+        "accepted": 6,
+        "accept_rate": 0.24,
+        "suppress_rate": 0.76,
+        "is_function": true
+      }
+    ],
+    "top_suppressed_content": [
+      {
+        "word": ",",
+        "predicted": 253,
+        "accepted": 68,
+        "accept_rate": 0.269,
+        "suppress_rate": 0.731,
+        "is_function": false
+      },
+      {
+        "word": "-",
+        "predicted": 23,
+        "accepted": 1,
+        "accept_rate": 0.043,
+        "suppress_rate": 0.957,
+        "is_function": false
+      },
+      {
+        "word": "'s",
+        "predicted": 20,
+        "accepted": 2,
+        "accept_rate": 0.1,
+        "suppress_rate": 0.9,
+        "is_function": false
+      },
+      {
+        "word": ".",
+        "predicted": 48,
+        "accepted": 15,
+        "accept_rate": 0.312,
+        "suppress_rate": 0.688,
+        "is_function": false
+      },
+      {
+        "word": "thou",
+        "predicted": 19,
+        "accepted": 3,
+        "accept_rate": 0.158,
+        "suppress_rate": 0.842,
+        "is_function": false
+      },
+      {
+        "word": "sweet",
+        "predicted": 9,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "thy",
+        "predicted": 8,
+        "accepted": 0,
+        "accept_rate": 0.0,
+        "suppress_rate": 1.0,
+        "is_function": false
+      },
+      {
+        "word": "heart",
+        "predicted": 10,
+        "accepted": 1,
+        "accept_rate": 0.1,
+        "suppress_rate": 0.9,
+        "is_function": false
+      },
+      {
+        "word": "his",
+        "predicted": 8,
+        "accepted": 2,
+        "accept_rate": 0.25,
+        "suppress_rate": 0.75,
+        "is_function": false
+      },
+      {
+        "word": "own",
+        "predicted": 8,
+        "accepted": 3,
+        "accept_rate": 0.375,
+        "suppress_rate": 0.625,
+        "is_function": false
+      },
+      {
+        "word": "?",
+        "predicted": 10,
+        "accepted": 5,
+        "accept_rate": 0.5,
+        "suppress_rate": 0.5,
+        "is_function": false
+      },
+      {
+        "word": "ever",
+        "predicted": 8,
+        "accepted": 5,
+        "accept_rate": 0.625,
+        "suppress_rate": 0.375,
+        "is_function": false
+      }
+    ],
+    "fw_suppression_rate": 0.783,
+    "cw_suppression_rate": 0.752
+  }
+}
