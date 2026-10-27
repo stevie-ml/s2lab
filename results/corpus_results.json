@@ -2569594,7 +2569594,7 @@
       "year": 1789,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:22.757092",
+      "analyzed_at": "2026-10-27T00:55:59.710721",
       "model": "gpt2",
       "n_tokens": 177
     },
@@ -2579363,7 +2579363,7 @@
       "year": 1794,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:23.272555",
+      "analyzed_at": "2026-10-27T00:56:00.372402",
       "model": "gpt2",
       "n_tokens": 122
     },
@@ -2586272,7 +2586272,7 @@
       "year": 1794,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:23.850507",
+      "analyzed_at": "2026-10-27T00:56:01.141519",
       "model": "gpt2",
       "n_tokens": 133
     },
@@ -2593753,7 +2593753,7 @@
       "year": 1900,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:24.903106",
+      "analyzed_at": "2026-10-27T00:56:02.597662",
       "model": "gpt2",
       "n_tokens": 260
     },
@@ -2607838,7 +2607838,7 @@
       "year": 1914,
       "era": "victorian",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:25.633776",
+      "analyzed_at": "2026-10-27T00:56:03.703842",
       "model": "gpt2",
       "n_tokens": 190
     },
@@ -2618283,7 +2618283,7 @@
       "year": 1819,
       "era": "romantic",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:27.441652",
+      "analyzed_at": "2026-10-27T00:56:05.906266",
       "model": "gpt2",
       "n_tokens": 412
     },
@@ -2640272,7 +2640272,7 @@
       "year": 1915,
       "era": "imagist",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:27.588771",
+      "analyzed_at": "2026-10-27T00:56:06.095854",
       "model": "gpt2",
       "n_tokens": 33
     },
@@ -2642553,7 +2642553,7 @@
       "year": 1915,
       "era": "imagist",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:27.705472",
+      "analyzed_at": "2026-10-27T00:56:06.248587",
       "model": "gpt2",
       "n_tokens": 26
     },
@@ -2644470,7 +2644470,7 @@
       "year": -600,
       "era": "biblical",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:29.567466",
+      "analyzed_at": "2026-10-27T12:54:17.521613",
       "model": "gpt2",
       "n_tokens": 468
     },
@@ -2669371,7 +2669371,7 @@
       "year": 1855,
       "era": "19th_century",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:32.131108",
+      "analyzed_at": "2026-10-27T12:54:20.132058",
       "model": "gpt2",
       "n_tokens": 640
     },
@@ -2703216,7 +2703216,7 @@
       "year": 1983,
       "era": "contemporary",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:33.503284",
+      "analyzed_at": "2026-10-27T12:54:21.517062",
       "model": "gpt2",
       "n_tokens": 345
     },
@@ -2721721,7 +2721721,7 @@
       "year": 1871,
       "era": "nonsense",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:34.750630",
+      "analyzed_at": "2026-10-27T19:02:17.914510",
       "model": "gpt2",
       "n_tokens": 320
     },
@@ -2738926,7 +2738926,7 @@
       "year": 1876,
       "era": "nonsense",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:35.833006",
+      "analyzed_at": "2026-10-27T19:02:18.825989",
       "model": "gpt2",
       "n_tokens": 234
     },
@@ -2751659,7 +2751659,7 @@
       "year": 1960,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:36.665794",
+      "analyzed_at": "2026-10-27T19:02:19.667177",
       "model": "gpt2",
       "n_tokens": 216
     },
@@ -2763456,7 +2763456,7 @@
       "year": 1962,
       "era": "new_york_school",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:37.312021",
+      "analyzed_at": "2026-10-27T19:02:20.343846",
       "model": "gpt2",
       "n_tokens": 171
     },
@@ -2772913,7 +2772913,7 @@
       "year": 2002,
       "era": "contemporary",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:38.114135",
+      "analyzed_at": "2026-10-27T19:02:21.125402",
       "model": "gpt2",
       "n_tokens": 202
     },
@@ -2783982,7 +2783982,7 @@
       "year": 1985,
       "era": "language",
       "language": "en",
-      "analyzed_at": "2026-10-27T18:59:38.556636",
+      "analyzed_at": "2026-10-27T19:02:21.579025",
       "model": "gpt2",
       "n_tokens": 117
     },

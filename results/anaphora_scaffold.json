@@ -1,0 +1,180 @@
+{
+  "description": "Anaphora scaffold analysis: entropy and S2 by occurrence number",
+  "poems_analyzed": [
+    "Szymborska - \"Possibilities\" (I prefer...)",
+    "Clifton - \"Homage to My Hips\" (these hips...)",
+    "Hughes - \"Harlem\" (like a...)"
+  ],
+  "results": {
+    "Szymborska - \"Possibilities\" (I prefer...)": [
+      {
+        "occurrence_num": 1,
+        "scaffold_entropy": 5.7164,
+        "scaffold_s2": -2.56,
+        "variation_s2": -0.3282666666666667,
+        "variation_entropy": 4.503733333333334,
+        "variation_text": "cats ."
+      },
+      {
+        "occurrence_num": 2,
+        "scaffold_entropy": 3.1106499999999997,
+        "scaffold_s2": -2.5060000000000002,
+        "variation_s2": -1.3074999999999999,
+        "variation_entropy": 9.405233333333333,
+        "variation_text": "the  o aks"
+      },
+      {
+        "occurrence_num": 3,
+        "scaffold_entropy": 2.87165,
+        "scaffold_s2": -2.35945,
+        "variation_s2": 2.2834333333333334,
+        "variation_entropy": 7.4882333333333335,
+        "variation_text": "Dickens  to  D"
+      },
+      {
+        "occurrence_num": 4,
+        "scaffold_entropy": 2.31895,
+        "scaffold_s2": -1.9236,
+        "variation_s2": 5.0151,
+        "variation_entropy": 7.6621999999999995,
+        "variation_text": "myself  liking  people"
+      },
+      {
+        "occurrence_num": 5,
+        "scaffold_entropy": 3.66145,
+        "scaffold_s2": -2.9242999999999997,
+        "variation_s2": 0.5299666666666667,
+        "variation_entropy": 8.6817,
+        "variation_text": "keeping  a  needle"
+      },
+      {
+        "occurrence_num": 6,
+        "scaffold_entropy": 3.1188000000000002,
+        "scaffold_s2": -2.52665,
+        "variation_s2": -2.3223333333333334,
+        "variation_entropy": 8.761633333333334,
+        "variation_text": "the  color  green"
+      },
+      {
+        "occurrence_num": 7,
+        "scaffold_entropy": 1.6609500000000001,
+        "scaffold_s2": -1.4036499999999998,
+        "variation_s2": 0.1242666666666669,
+        "variation_entropy": 7.7764,
+        "variation_text": "not  to  maintain"
+      },
+      {
+        "occurrence_num": 8,
+        "scaffold_entropy": 3.64315,
+        "scaffold_s2": -2.96015,
+        "variation_s2": 1.4603333333333337,
+        "variation_entropy": 4.301433333333333,
+        "variation_text": "exceptions ."
+      },
+      {
+        "occurrence_num": 9,
+        "scaffold_entropy": 1.6817,
+        "scaffold_s2": -1.43125,
+        "variation_s2": -0.7299666666666665,
+        "variation_entropy": 8.272,
+        "variation_text": "to  leave  early"
+      },
+      {
+        "occurrence_num": 10,
+        "scaffold_entropy": 1.8818000000000001,
+        "scaffold_s2": -1.6040999999999999,
+        "variation_s2": 1.8895666666666668,
+        "variation_entropy": 6.8013,
+        "variation_text": "talking  to  doctors"
+      },
+      {
+        "occurrence_num": 11,
+        "scaffold_entropy": 1.4448,
+        "scaffold_s2": -1.23415,
+        "variation_s2": -1.2777000000000005,
+        "variation_entropy": 10.103833333333334,
+        "variation_text": "the  old  fine"
+      },
+      {
+        "occurrence_num": 12,
+        "scaffold_entropy": 1.3185,
+        "scaffold_s2": -1.1274,
+        "variation_s2": -1.7847666666666668,
+        "variation_entropy": 7.3298,
+        "variation_text": "the  absurdity  of"
+      }
+    ],
+    "Clifton - \"Homage to My Hips\" (these hips...)": [
+      {
+        "occurrence_num": 1,
+        "scaffold_entropy": 4.6639,
+        "scaffold_s2": 2.2547499999999996,
+        "variation_s2": -1.3765333333333334,
+        "variation_entropy": 6.872766666666666,
+        "variation_text": "are  free"
+      },
+      {
+        "occurrence_num": 2,
+        "scaffold_entropy": 3.2580999999999998,
+        "scaffold_s2": -1.0388,
+        "variation_s2": -0.5390666666666668,
+        "variation_entropy": 6.127766666666666,
+        "variation_text": "have  never  been"
+      },
+      {
+        "occurrence_num": 3,
+        "scaffold_entropy": 4.20175,
+        "scaffold_s2": -2.4564500000000002,
+        "variation_s2": -0.45423333333333343,
+        "variation_entropy": 7.235333333333333,
+        "variation_text": "are  mighty  hips"
+      },
+      {
+        "occurrence_num": 4,
+        "scaffold_entropy": 3.6396,
+        "scaffold_s2": -1.9811,
+        "variation_s2": -1.7349666666666668,
+        "variation_entropy": 6.4376,
+        "variation_text": "are  magic  hips"
+      }
+    ],
+    "Hughes - \"Harlem\" (like a...)": [
+      {
+        "occurrence_num": 1,
+        "scaffold_entropy": 7.0558,
+        "scaffold_s2": -5.4191,
+        "variation_s2": -0.0682666666666667,
+        "variation_entropy": 5.7376,
+        "variation_text": "ra isin  in"
+      },
+      {
+        "occurrence_num": 2,
+        "scaffold_entropy": 5.48945,
+        "scaffold_s2": -3.4460500000000005,
+        "variation_s2": 0.5434333333333331,
+        "variation_entropy": 7.905566666666668,
+        "variation_text": "sore \u2014"
+      },
+      {
+        "occurrence_num": 3,
+        "scaffold_entropy": 8.8988,
+        "scaffold_s2": -6.6121,
+        "variation_s2": -0.18900000000000003,
+        "variation_entropy": 4.5351333333333335,
+        "variation_text": "sy ru py"
+      },
+      {
+        "occurrence_num": 4,
+        "scaffold_entropy": 6.4452,
+        "scaffold_s2": -5.1941,
+        "variation_s2": -1.8846,
+        "variation_entropy": 8.659166666666666,
+        "variation_text": "heavy  load ."
+      }
+    ]
+  },
+  "summary": {
+    "avg_first_scaffold_entropy": 5.812033333333333,
+    "avg_last_scaffold_entropy": 3.8011
+  }
+}

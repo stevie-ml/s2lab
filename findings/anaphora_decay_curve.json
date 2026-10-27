@@ -1,0 +1,239 @@
+{
+  "Szymborska \"Possibilities\" (I prefer...)": {
+    "label": "Szymborska \"Possibilities\" (I prefer...)",
+    "scaffold": [
+      "I",
+      "prefer"
+    ],
+    "stats": {
+      "n_occurrences": 12,
+      "H_first": 5.7164,
+      "H_last": 1.3185,
+      "total_drop": 4.3979,
+      "pct_drop": 76.93478412987194,
+      "avg_slope": 0.3998090909090909,
+      "early_slope": 0.6759083333333334,
+      "late_slope": 0.05707500000000002,
+      "acceleration": 11.84245875310264
+    },
+    "best_model": "power_law",
+    "best_r2": 0.6596611641659939,
+    "all_model_r2": {
+      "exponential": 0.5942560577757714,
+      "power_law": 0.6596611641659939,
+      "logarithmic": 0.5733750523915251,
+      "hyperbolic": 0.6103855567168212
+    },
+    "models": {
+      "exponential": {
+        "params": {
+          "A": 4.00148,
+          "k": 0.28,
+          "C": 1.71492
+        },
+        "r2": 0.5942560577757714
+      },
+      "power_law": {
+        "params": {
+          "A": 4.2873,
+          "alpha": 0.85,
+          "C": 1.4291
+        },
+        "r2": 0.6596611641659939
+      },
+      "logarithmic": {
+        "params": {
+          "H0": 5.7164,
+          "k": 1.74
+        },
+        "r2": 0.5733750523915251
+      },
+      "hyperbolic": {
+        "params": {
+          "A": 5.43058,
+          "k": 0.24,
+          "C": 0.28582
+        },
+        "r2": 0.6103855567168212
+      }
+    }
+  },
+  "Psalm 136 KJV (for his mercy...)": {
+    "label": "Psalm 136 KJV (for his mercy...)",
+    "scaffold": [
+      "for",
+      "his",
+      "mercy"
+    ],
+    "stats": {
+      "n_occurrences": 26,
+      "H_first": 5.7977,
+      "H_last": 0.41840000000000005,
+      "total_drop": 5.3793,
+      "pct_drop": 92.7833451196164,
+      "avg_slope": 0.215172,
+      "early_slope": 0.43209487179487177,
+      "late_slope": -0.018302564102564107,
+      "acceleration": Infinity
+    },
+    "best_model": "power_law",
+    "best_r2": 0.6943239266584839,
+    "all_model_r2": {
+      "exponential": 0.6659256556134321,
+      "power_law": 0.6943239266584839,
+      "logarithmic": 0.6786144287935654,
+      "hyperbolic": 0.5883849938788628
+    },
+    "models": {
+      "exponential": {
+        "params": {
+          "A": 5.507815,
+          "k": 0.3,
+          "C": 0.289885
+        },
+        "r2": 0.6659256556134321
+      },
+      "power_law": {
+        "params": {
+          "A": 5.7977,
+          "alpha": 0.95,
+          "C": 0.0
+        },
+        "r2": 0.6943239266584839
+      },
+      "logarithmic": {
+        "params": {
+          "H0": 5.7977,
+          "k": 2.82
+        },
+        "r2": 0.6786144287935654
+      },
+      "hyperbolic": {
+        "params": {
+          "A": 5.7977,
+          "k": 0.55,
+          "C": 0.0
+        },
+        "r2": 0.5883849938788628
+      }
+    }
+  },
+  "Whitman \"Song of Myself\" Sec. 15 (The...)": {
+    "label": "Whitman \"Song of Myself\" Sec. 15 (The...)",
+    "scaffold": [
+      "The"
+    ],
+    "stats": {
+      "n_occurrences": 25,
+      "H_first": 5.148,
+      "H_last": 3.5879,
+      "total_drop": 1.5600999999999998,
+      "pct_drop": 30.304972804972806,
+      "avg_slope": 0.06500416666666665,
+      "early_slope": 0.05394999999999994,
+      "late_slope": 0.07020769230769235,
+      "acceleration": 0.7684343157664061
+    },
+    "best_model": "power_law",
+    "best_r2": 0.08933527112093553,
+    "all_model_r2": {
+      "exponential": 0.07973191616058883,
+      "power_law": 0.08933527112093553,
+      "logarithmic": 0.04733403710784312,
+      "hyperbolic": 0.06355317355082823
+    },
+    "models": {
+      "exponential": {
+        "params": {
+          "A": 0.7721999999999998,
+          "k": 0.4,
+          "C": 4.3758
+        },
+        "r2": 0.07973191616058883
+      },
+      "power_law": {
+        "params": {
+          "A": 0.7721999999999998,
+          "alpha": 1.1,
+          "C": 4.3758
+        },
+        "r2": 0.08933527112093553
+      },
+      "logarithmic": {
+        "params": {
+          "H0": 5.148,
+          "k": 0.28
+        },
+        "r2": 0.04733403710784312
+      },
+      "hyperbolic": {
+        "params": {
+          "A": 0.7721999999999998,
+          "k": 0.63,
+          "C": 4.3758
+        },
+        "r2": 0.06355317355082823
+      }
+    }
+  },
+  "Harjo \"She Had Some Horses\" (She had horses...)": {
+    "label": "Harjo \"She Had Some Horses\" (She had horses...)",
+    "scaffold": [
+      "She",
+      "had",
+      "horses"
+    ],
+    "stats": {
+      "n_occurrences": 12,
+      "H_first": 6.947366666666667,
+      "H_last": 0.7844,
+      "total_drop": 6.162966666666668,
+      "pct_drop": 88.70939108823008,
+      "avg_slope": 0.5602696969696971,
+      "early_slope": 1.0276694444444445,
+      "late_slope": -0.0005083333333333329,
+      "acceleration": Infinity
+    },
+    "best_model": "power_law",
+    "best_r2": 0.9943814052747557,
+    "all_model_r2": {
+      "exponential": 0.8555905929356349,
+      "power_law": 0.9943814052747557,
+      "logarithmic": 0.8451241490983005,
+      "hyperbolic": 0.7590900825230312
+    },
+    "models": {
+      "exponential": {
+        "params": {
+          "A": 6.599998333333334,
+          "k": 0.36,
+          "C": 0.3473683333333334
+        },
+        "r2": 0.8555905929356349
+      },
+      "power_law": {
+        "params": {
+          "A": 6.599998333333334,
+          "alpha": 1.25,
+          "C": 0.3473683333333334
+        },
+        "r2": 0.9943814052747557
+      },
+      "logarithmic": {
+        "params": {
+          "H0": 6.947366666666667,
+          "k": 4.0
+        },
+        "r2": 0.8451241490983005
+      },
+      "hyperbolic": {
+        "params": {
+          "A": 6.947366666666667,
+          "k": 0.6,
+          "C": 0.0
+        },
+        "r2": 0.7590900825230312
+      }
+    }
+  }
+}

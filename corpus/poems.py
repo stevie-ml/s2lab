@@ -7758,9 +7758,8 @@ And she had horses."""
     },
 
     # ─── NONSENSE POETRY ──────────────────────────────────────────────────────
-    # Hypothesis: nonsense words spike S2 (vocabulary surprise) while grammar
-    # stays intact (syntactic coherence). Tests whether GPT-2 registers
-    # grammatical structure even when all content words are invented.
+    # Tests whether nonsense vocabulary spikes S2 despite correct grammar,
+    # and whether within-poem repetition shows learning/decay effects.
     {
         "title": "Jabberwocky",
         "author": "Lewis Carroll",
@@ -7801,8 +7800,6 @@ Did gyre and gimble in the wabe;
 All mimsy were the borogoves,
 And the mome raths outgrabe."""
     },
-    # The Hunting of the Snark (opening) — second Carroll nonsense poem
-    # for comparison: more proper-noun nonsense, less verb-based nonsense
     {
         "title": "The Hunting of the Snark (Fit the First, opening)",
         "author": "Lewis Carroll",
@@ -7876,7 +7873,6 @@ Flowers." And so we bought some flowers, for you are as
 Beautiful as the day, and my heart overflows, it is a beehive."""
     },
     # ─── CONTEMPORARY ADDITIONS ───────────────────────────────────────────────
-    # Harryette Mullen: "Dim Lady" — parody of Shakespeare's Sonnet 130 in slang
     {
         "title": "Dim Lady",
         "author": "Harryette Mullen",
