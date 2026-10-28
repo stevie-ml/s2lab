@@ -1,5 +1,5 @@
 # S₂ Lab Research Report
-**Generated:** 2026-10-28 13:01:31
+**Generated:** 2026-10-28 18:46:49
 **Corpus:** 369 texts analyzed with GPT-2
 **Model:** gpt2 (117M parameters)
 
