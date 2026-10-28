@@ -1,47 +1,55 @@
-"""Run analysis only on new poems not yet in corpus_results.json."""
+"""
+Incremental corpus updater: analyzes only poems not yet in corpus_results.json.
+Appends new results and saves.
+"""
 import sys
-import json
-import os
-
 sys.path.insert(0, '/home/user/s2lab')
 
-from engine import analyze_poem, get_model
+import json
+from engine import analyze_poem, load_results, save_results
 from corpus.poems import POEMS
 
-RESULTS_FILE = os.path.join(os.path.dirname(__file__), "results", "corpus_results.json")
+# Load existing results
+existing = load_results("corpus_results.json")
+analyzed_keys = set()
+for r in existing:
+    m = r.get('metadata', {})
+    key = (m.get('title', ''), m.get('author', ''))
+    analyzed_keys.add(key)
 
-with open(RESULTS_FILE) as f:
-    existing = json.load(f)
+print(f"Existing analyzed poems: {len(existing)}")
 
-# Build a set of already-analyzed (author, title) pairs
-analyzed = {(e["metadata"]["author"], e["metadata"]["title"]) for e in existing}
+# Find new poems
+new_poems = []
+for poem in POEMS:
+    key = (poem['title'], poem['author'])
+    if key not in analyzed_keys:
+        new_poems.append(poem)
 
-new_poems = [
-    p for p in POEMS
-    if (p["author"], p["title"]) not in analyzed
-]
-
-print(f"Corpus: {len(POEMS)} poems total, {len(existing)} already analyzed, {len(new_poems)} new")
+print(f"New poems to analyze: {len(new_poems)}")
+for p in new_poems:
+    print(f"  - {p['author']} — {p['title']}")
 
 if not new_poems:
-    print("Nothing to do.")
+    print("No new poems to analyze.")
     sys.exit(0)
 
-new_results = []
+# Analyze new poems
+results = []
 for i, poem in enumerate(new_poems):
-    lang = poem.get("language", "en")
-    print(f"  [{i+1}/{len(new_poems)}] [{lang}] {poem['author']} — {poem['title']}")
+    lang = poem.get('language', 'en')
+    print(f"\n  [{i+1}/{len(new_poems)}] {poem['author']} — {poem['title']}")
     result = analyze_poem(
-        text=poem["text"],
-        title=poem["title"],
-        author=poem["author"],
-        year=poem.get("year"),
-        era=poem.get("era", ""),
+        text=poem['text'],
+        title=poem['title'],
+        author=poem['author'],
+        year=poem.get('year'),
+        era=poem.get('era', ''),
         language=lang,
     )
-    new_results.append(result)
+    results.append(result)
 
-all_results = existing + new_results
-with open(RESULTS_FILE, "w") as f:
-    json.dump(all_results, f, indent=2, default=str)
-print(f"Saved {len(all_results)} results ({len(new_results)} new) to {RESULTS_FILE}")
+# Merge and save
+all_results = existing + results
+save_results(all_results, "corpus_results.json")
+print(f"\nDone. Total poems in corpus: {len(all_results)}")

@@ -7908,6 +7908,146 @@ the image of the word, the world of the image.
 A surface admits no depth, while the work
 goes on. This is not the thing I planned to write."""
     },
+    # ─── CATALOGUE / LIST POEMS ────────────────────────────────────────────────
+    {
+        "title": "I Hear America Singing",
+        "author": "Walt Whitman",
+        "year": 1860,
+        "era": "19th_century",
+        "text": """I hear America singing, the varied carols I hear,
+Those of mechanics, each one singing his as it should be blithe and strong,
+The carpenter singing his as he measures his plank or beam,
+The mason singing his as he makes ready for work, or leaves off work,
+The boatman singing what belongs to him in his boat, the deckhand singing on the steamboat deck,
+The shoemaker singing as he sits on his bench, the hatter singing as he stands,
+The wood-cutter's song, the ploughboy's on his way in the morning, or at noon intermission or at sundown,
+The delicious singing of the mother, or of the young wife at work, or of the girl sewing or washing,
+Each singing what belongs to him or her and to no one else,
+The day what belongs to the day—at night the party of young fellows, robust, friendly,
+Singing with open mouths their strong melodious songs."""
+    },
+    {
+        "title": "For I will consider my Cat Jeoffry (excerpt)",
+        "author": "Christopher Smart",
+        "year": 1763,
+        "era": "18th_century",
+        "text": """For I will consider my Cat Jeoffry.
+For he is the servant of the Living God, duly and daily serving him.
+For at the first glance of the glory of God in the East he worships in his way.
+For this is done by wreathing his body seven times round with elegant quickness.
+For then he leaps up to catch the musk, which is the blessing of God upon his prayer.
+For he rolls upon prank to work it in.
+For having done duty and received blessing he begins to consider himself.
+For this he performs in ten degrees.
+For first he looks upon his forepaws to see if they are clean.
+For secondly he kicks up behind to clear away there.
+For thirdly he works it upon stretch with the forepaws extended.
+For fourthly he sharpens his paws by wood.
+For fifthly he washes himself.
+For sixthly he rolls upon wash.
+For seventhly he fleas himself, that he may not be interrupted upon the beat.
+For eighthly he rubs himself against a post.
+For ninthly he looks up for his instructions.
+For tenthly he goes in quest of food."""
+    },
+    {
+        "title": "We Real Cool",
+        "author": "Gwendolyn Brooks",
+        "year": 1959,
+        "era": "mid_century",
+        "text": """We real cool. We
+Left school. We
+
+Lurk late. We
+Strike straight. We
+
+Sing sin. We
+Thin gin. We
+
+Jazz June. We
+Die soon."""
+    },
+    {
+        "title": "This Is Just to Say",
+        "author": "William Carlos Williams",
+        "year": 1934,
+        "era": "modernist",
+        "text": """I have eaten
+the plums
+that were in
+the icebox
+
+and which
+you were probably
+saving
+for breakfast
+
+Forgive me
+they were delicious
+so sweet
+and so cold"""
+    },
+    {
+        "title": "Song of Myself (section 33, excerpt)",
+        "author": "Walt Whitman",
+        "year": 1855,
+        "era": "19th_century",
+        "text": """I am the hounded slave, I wince at the bite of the dogs,
+Hell and despair are upon me, crack and again crack the marksmen,
+I clutch the rails of the fence, my gore dribs, thinn'd with the ooze of my skin,
+I fall on the weeds and stones,
+The riders spur their unwilling horses, haul close,
+Taunt my dizzy ears and beat me violently over the head with whip-stocks.
+
+Agonies are one of my changes of garments,
+I do not ask the wounded person how he feels, I myself become the wounded person,
+My hurts turn livid upon me as I lean on a cane and observe.
+
+I am the mash'd fireman with breast-bone broken,
+Tumbling walls buried me in their debris,
+Heat and smoke I inspired, I heard the yelling shouts of my comrades,
+I heard the distant click of their picks and shovels,
+They have clear'd the beams away, they tenderly lift me forth."""
+    },
+    {
+        "title": "Ode to My Socks",
+        "author": "Pablo Neruda",
+        "year": 1956,
+        "era": "latin_american",
+        "text": """Maru Mori brought me
+a pair of socks
+which she knitted herself
+with her sheepherder's hands,
+two socks as soft as rabbits.
+I slipped my feet into them
+as if into two cases
+knitted with threads of twilight and goatskin,
+Violent socks,
+my feet were two fish made of wool,
+two long sharks sea-blue, shot through
+by one golden thread,
+two immense blackbirds,
+two cannons,
+my feet were honored in this way
+by these heavenly socks."""
+    },
+    {
+        "title": "The Red Wheelbarrow",
+        "author": "William Carlos Williams",
+        "year": 1923,
+        "era": "modernist",
+        "text": """so much depends
+upon
+
+a red wheel
+barrow
+
+glazed with rain
+water
+
+beside the white
+chickens."""
+    },
 ]
 
 # Quick stats

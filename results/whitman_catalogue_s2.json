@@ -1,0 +1,259 @@
+{
+  "poem": "Song of Myself section 15",
+  "total_tokens": 640,
+  "catalog_item_count": 26,
+  "position_entropy_correlation": -0.5012815044667386,
+  "position_s2_correlation": -0.03937311654707034,
+  "thirds_analysis": {
+    "First third": {
+      "mean_entropy": 7.646771893158924,
+      "mean_s2": -0.22887754561410809
+    },
+    "Middle third": {
+      "mean_entropy": 7.325270906968275,
+      "mean_s2": -0.2577867727139657
+    },
+    "Final third": {
+      "mean_entropy": 6.859407312817719,
+      "mean_s2": -0.13577233006535946
+    }
+  },
+  "top_surprise_items": [
+    {
+      "pos": 20,
+      "text": "The Wolverine sets traps on the creek that helps fill the Huron,",
+      "first_noun_s2": 8.9212
+    },
+    {
+      "pos": 26,
+      "text": "The paving-man leans on his two-handed rammer, the reporter's lead flies swiftly over the note-book, the sign-painter is lettering with blue and gold.",
+      "first_noun_s2": 4.0761
+    },
+    {
+      "pos": 17,
+      "text": "The groups of newly-come immigrants cover the wharf or levee,",
+      "first_noun_s2": 3.8527
+    },
+    {
+      "pos": 9,
+      "text": "The lunatic is carried at last to the asylum a confirm'd case,",
+      "first_noun_s2": 3.2642
+    },
+    {
+      "pos": 16,
+      "text": "The western turkey-shooting draws old and young, some lean on their rifles, some sit on logs,",
+      "first_noun_s2": 3.2573
+    }
+  ],
+  "least_surprise_items": [
+    {
+      "pos": 21,
+      "text": "The squaw wrapt in her yellow-hemm'd cloth is offering moccasins and bead-bags for sale,",
+      "first_noun_s2": -1.8889
+    },
+    {
+      "pos": 19,
+      "text": "The youth lies awake in the cedar-roof'd garret and harks to the musical rain,",
+      "first_noun_s2": -2.1216
+    },
+    {
+      "pos": 8,
+      "text": "The farmer stops by the bars as he walks on a First-day loafe and looks at the oats and rye,",
+      "first_noun_s2": -2.5264
+    },
+    {
+      "pos": 14,
+      "text": "The young fellow drives the express-wagon, (I love him, though I do not know him;)",
+      "first_noun_s2": -4.0452
+    },
+    {
+      "pos": 23,
+      "text": "The young sister holds out the skein while the elder sister winds it off in a ball, and stops now and then for the knots,",
+      "first_noun_s2": -5.716
+    }
+  ],
+  "all_catalog_items": [
+    {
+      "pos": 1,
+      "text": "The carpenter dresses his plank, the tongue of his foreplane whistles its wild ascending lisp,",
+      "mean_s2": 1.297,
+      "mean_entropy": 7.43,
+      "first_noun_s2": -0.81
+    },
+    {
+      "pos": 2,
+      "text": "The married and unmarried children ride home to their Thanksgiving dinner,",
+      "mean_s2": -0.673,
+      "mean_entropy": 8.625,
+      "first_noun_s2": 2.253
+    },
+    {
+      "pos": 3,
+      "text": "The pilot seizes the king-pin, he heaves down with a strong arm,",
+      "mean_s2": -0.491,
+      "mean_entropy": 7.505,
+      "first_noun_s2": 1.93
+    },
+    {
+      "pos": 4,
+      "text": "The mate stands braced in the whale-boat, lance and harpoon are ready,",
+      "mean_s2": -0.806,
+      "mean_entropy": 7.025,
+      "first_noun_s2": 0.709
+    },
+    {
+      "pos": 5,
+      "text": "The duck-shooter walks by silent and cautious stretches,",
+      "mean_s2": 0.101,
+      "mean_entropy": 8.13,
+      "first_noun_s2": 1.093
+    },
+    {
+      "pos": 6,
+      "text": "The deacons are ordain'd with cross'd hands at the altar,",
+      "mean_s2": -0.467,
+      "mean_entropy": 7.502,
+      "first_noun_s2": -0.006
+    },
+    {
+      "pos": 7,
+      "text": "The spinning-girl retreats and advances to the hum of the big wheel,",
+      "mean_s2": -0.648,
+      "mean_entropy": 7.624,
+      "first_noun_s2": 3.186
+    },
+    {
+      "pos": 8,
+      "text": "The farmer stops by the bars as he walks on a First-day loafe and looks at the oats and rye,",
+      "mean_s2": -0.144,
+      "mean_entropy": 7.334,
+      "first_noun_s2": -2.526
+    },
+    {
+      "pos": 9,
+      "text": "The lunatic is carried at last to the asylum a confirm'd case,",
+      "mean_s2": 0.186,
+      "mean_entropy": 7.268,
+      "first_noun_s2": 3.264
+    },
+    {
+      "pos": 10,
+      "text": "The jour printer with gray head and gaunt jaws works at his case,",
+      "mean_s2": 1.889,
+      "mean_entropy": 7.515,
+      "first_noun_s2": 2.883
+    },
+    {
+      "pos": 11,
+      "text": "The malform'd limbs are tied to the surgeon's table,",
+      "mean_s2": -0.655,
+      "mean_entropy": 7.568,
+      "first_noun_s2": -0.516
+    },
+    {
+      "pos": 12,
+      "text": "The quadroon girl is sold at the auction-stand, the drunkard nods by the bar-room stove,",
+      "mean_s2": -1.625,
+      "mean_entropy": 7.691,
+      "first_noun_s2": 2.069
+    },
+    {
+      "pos": 13,
+      "text": "The machinist rolls up his sleeves, the policeman travels his beat, the gate-keeper marks who pass,",
+      "mean_s2": -0.169,
+      "mean_entropy": 7.042,
+      "first_noun_s2": 2.092
+    },
+    {
+      "pos": 14,
+      "text": "The young fellow drives the express-wagon, (I love him, though I do not know him;)",
+      "mean_s2": -0.731,
+      "mean_entropy": 6.907,
+      "first_noun_s2": -4.045
+    },
+    {
+      "pos": 15,
+      "text": "The half-breed straps on his light boots to compete in the race,",
+      "mean_s2": -0.497,
+      "mean_entropy": 6.713,
+      "first_noun_s2": -1.741
+    },
+    {
+      "pos": 16,
+      "text": "The western turkey-shooting draws old and young, some lean on their rifles, some sit on logs,",
+      "mean_s2": -0.814,
+      "mean_entropy": 8.032,
+      "first_noun_s2": 3.257
+    },
+    {
+      "pos": 17,
+      "text": "The groups of newly-come immigrants cover the wharf or levee,",
+      "mean_s2": 0.097,
+      "mean_entropy": 7.193,
+      "first_noun_s2": 3.853
+    },
+    {
+      "pos": 18,
+      "text": "The bugle calls in the ball-room, the gentlemen run for their partners, the dancers bow to each other,",
+      "mean_s2": -1.267,
+      "mean_entropy": 7.092,
+      "first_noun_s2": 1.559
+    },
+    {
+      "pos": 19,
+      "text": "The youth lies awake in the cedar-roof'd garret and harks to the musical rain,",
+      "mean_s2": -0.535,
+      "mean_entropy": 6.688,
+      "first_noun_s2": -2.122
+    },
+    {
+      "pos": 20,
+      "text": "The Wolverine sets traps on the creek that helps fill the Huron,",
+      "mean_s2": 1.357,
+      "mean_entropy": 7.206,
+      "first_noun_s2": 8.921
+    },
+    {
+      "pos": 21,
+      "text": "The squaw wrapt in her yellow-hemm'd cloth is offering moccasins and bead-bags for sale,",
+      "mean_s2": -0.109,
+      "mean_entropy": 6.767,
+      "first_noun_s2": -1.889
+    },
+    {
+      "pos": 22,
+      "text": "The connoisseur peers along the exhibition-gallery with half-shut eyes bent sideways,",
+      "mean_s2": 1.237,
+      "mean_entropy": 5.382,
+      "first_noun_s2": -0.813
+    },
+    {
+      "pos": 23,
+      "text": "The young sister holds out the skein while the elder sister winds it off in a ball, and stops now and then for the knots,",
+      "mean_s2": -0.232,
+      "mean_entropy": 6.509,
+      "first_noun_s2": -5.716
+    },
+    {
+      "pos": 24,
+      "text": "The one-year wife is recovering and happy having a week ago borne her first child,",
+      "mean_s2": 0.22,
+      "mean_entropy": 7.155,
+      "first_noun_s2": -1.449
+    },
+    {
+      "pos": 25,
+      "text": "The clean-hair'd Yankee girl works with her sewing-machine or in the factory or mill,",
+      "mean_s2": -1.352,
+      "mean_entropy": 7.912,
+      "first_noun_s2": 0.963
+    },
+    {
+      "pos": 26,
+      "text": "The paving-man leans on his two-handed rammer, the reporter's lead flies swiftly over the note-book, the sign-painter is lettering with blue and gold.",
+      "mean_s2": -0.539,
+      "mean_entropy": 7.023,
+      "first_noun_s2": 4.076
+    }
+  ]
+}
