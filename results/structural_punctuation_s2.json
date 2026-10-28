@@ -1,0 +1,446 @@
+{
+  "generated": "2026-10-28T13:00:15.275328",
+  "summary": {
+    "em_dash": {
+      "n": 225,
+      "mean_s2": 2.0658906666666663,
+      "median_s2": 1.8364,
+      "pos_s2_pct": 64.88888888888889,
+      "max_s2": 16.0988
+    },
+    "colon": {
+      "n": 212,
+      "mean_s2": 0.946404245283019,
+      "median_s2": 0.73485,
+      "pos_s2_pct": 59.905660377358494,
+      "max_s2": 9.7267
+    },
+    "semicolon": {
+      "n": 383,
+      "mean_s2": 0.05668381201044386,
+      "median_s2": -0.2213,
+      "pos_s2_pct": 44.38642297650131,
+      "max_s2": 9.9625
+    },
+    "comma": {
+      "n": 2801,
+      "mean_s2": -2.6970030703320242,
+      "median_s2": -2.71,
+      "pos_s2_pct": 3.9985719385933596,
+      "max_s2": 13.1767
+    },
+    "sentence_end": {
+      "n": 1844,
+      "mean_s2": -1.594915672451193,
+      "median_s2": -1.8881999999999999,
+      "pos_s2_pct": 12.527114967462039,
+      "max_s2": 8.4117
+    }
+  },
+  "poet_em_dash": {
+    "John Keats": {
+      "mean_s2": 2.270721052631579,
+      "n": 19
+    },
+    "Langston Hughes": {
+      "mean_s2": 4.030799999999999,
+      "n": 4
+    },
+    "Gerard Manley Hopkins": {
+      "mean_s2": 4.020099999999999,
+      "n": 4
+    },
+    "Thomas Hardy": {
+      "mean_s2": 5.441233333333334,
+      "n": 3
+    },
+    "Marianne Moore": {
+      "mean_s2": 2.525866666666667,
+      "n": 3
+    },
+    "Charles Baudelaire": {
+      "mean_s2": -0.6158285714285714,
+      "n": 14
+    },
+    "Emily Dickinson": {
+      "mean_s2": -0.8544200000000001,
+      "n": 25
+    },
+    "Edgar Allan Poe": {
+      "mean_s2": 0.47767368421052625,
+      "n": 19
+    },
+    "T.S. Eliot": {
+      "mean_s2": 0.8086000000000001,
+      "n": 6
+    },
+    "W.B. Yeats": {
+      "mean_s2": 1.9410999999999998,
+      "n": 4
+    },
+    "Matsuo Bash\u014d": {
+      "mean_s2": 3.289266666666667,
+      "n": 3
+    },
+    "Dante Gabriel Rossetti": {
+      "mean_s2": 1.17528,
+      "n": 5
+    },
+    "Rudyard Kipling": {
+      "mean_s2": 1.3487,
+      "n": 5
+    },
+    "Hart Crane": {
+      "mean_s2": 1.600075,
+      "n": 4
+    },
+    "Walt Whitman": {
+      "mean_s2": 2.2523000000000004,
+      "n": 7
+    },
+    "Lewis Carroll": {
+      "mean_s2": 0.7411454545454547,
+      "n": 11
+    },
+    "Omar Khayyam (trans. FitzGerald, 1859)": {
+      "mean_s2": 1.0832166666666665,
+      "n": 6
+    },
+    "Agha Shahid Ali": {
+      "mean_s2": 2.0159285714285713,
+      "n": 7
+    },
+    "Robert Browning": {
+      "mean_s2": 2.1462444444444446,
+      "n": 27
+    },
+    "Synthetic (clerihew test case)": {
+      "mean_s2": 4.6319333333333335,
+      "n": 3
+    },
+    "Synthetic (double dactyl test case)": {
+      "mean_s2": 3.03746,
+      "n": 5
+    }
+  },
+  "line_position": {
+    "em_dash": {
+      "mid": {
+        "n": 109,
+        "mean_s2": 1.7662899082568808
+      },
+      "final": {
+        "n": 116,
+        "mean_s2": 2.3474120689655176
+      }
+    },
+    "colon": {
+      "mid": {
+        "n": 92,
+        "mean_s2": 0.3224782608695652
+      },
+      "final": {
+        "n": 120,
+        "mean_s2": 1.4247475
+      }
+    },
+    "semicolon": {
+      "mid": {
+        "n": 114,
+        "mean_s2": 0.6217254385964911
+      },
+      "final": {
+        "n": 269,
+        "mean_s2": -0.18277620817843868
+      }
+    }
+  },
+  "after_mark_entropy": {
+    "after_structural": 4.349711302211302,
+    "after_comma": 5.848118714285714
+  },
+  "top_em_dash_examples": [
+    {
+      "s2": 16.0988,
+      "token": "\u2014\u2014",
+      "context_before": " died before I had time",
+      "author": "Sylvia Plath",
+      "title": "Daddy (opening)"
+    },
+    {
+      "s2": 16.0014,
+      "token": ",\u2014",
+      "context_before": " kissed me to-day",
+      "author": "Austin Dobson",
+      "title": "A Kiss"
+    },
+    {
+      "s2": 13.7031,
+      "token": ",\u2014",
+      "context_before": " it up,\nDo",
+      "author": "Robert Browning",
+      "title": "Fra Lippo Lippi (opening)"
+    },
+    {
+      "s2": 11.3774,
+      "token": "\u2014\u2014",
+      "context_before": " ten\nI manage it",
+      "author": "Sylvia Plath",
+      "title": "Lady Lazarus (opening)"
+    },
+    {
+      "s2": 10.1659,
+      "token": ",\u2014",
+      "context_before": " cheeks and shades our eyes",
+      "author": "Paul Laurence Dunbar",
+      "title": "We Wear the Mask"
+    },
+    {
+      "s2": 9.9447,
+      "token": "\"\u2014",
+      "context_before": " / wanting in this world",
+      "author": "Agha Shahid Ali",
+      "title": "Even the Rain"
+    },
+    {
+      "s2": 9.6983,
+      "token": " \u2014",
+      "context_before": "\n\nThe Eyes around",
+      "author": "Emily Dickinson",
+      "title": "I heard a Fly buzz \u2014 when I died"
+    },
+    {
+      "s2": 9.1121,
+      "token": " \u2014",
+      "context_before": "I will die in Paris",
+      "author": "C\u00e9sar Vallejo (trans. Thomas Merton)",
+      "title": "Black Stone Lying on a White Stone"
+    },
+    {
+      "s2": 9.0883,
+      "token": "\u2014",
+      "context_before": " the starving sod;\n",
+      "author": "Thomas Hardy",
+      "title": "Neutral Tones"
+    },
+    {
+      "s2": 8.9787,
+      "token": " \u2014",
+      "context_before": " sees nothing, turns again",
+      "author": "Georg Heym",
+      "title": "Umbra Vitae (trans. Hamburger)"
+    },
+    {
+      "s2": 8.8577,
+      "token": "\u2014",
+      "context_before": " into the crevices",
+      "author": "Marianne Moore",
+      "title": "The Fish"
+    },
+    {
+      "s2": 8.8177,
+      "token": " \u2014",
+      "context_before": " under and let me work",
+      "author": "Carl Sandburg",
+      "title": "Grass"
+    },
+    {
+      "s2": 8.7562,
+      "token": " \u2014",
+      "context_before": " grandiose and sublime",
+      "author": "William Ernest Henley",
+      "title": "Villanelle (A dainty thing's the Villanelle)"
+    },
+    {
+      "s2": 8.6467,
+      "token": "\u2014",
+      "context_before": "\nPhilosophically",
+      "author": "Synthetic (double dactyl test case)",
+      "title": "Alfred Lord Tennyson (Double Dactyl)"
+    },
+    {
+      "s2": 8.4111,
+      "token": "\u2014",
+      "context_before": " fester like a sore",
+      "author": "Langston Hughes",
+      "title": "Harlem"
+    },
+    {
+      "s2": 8.4111,
+      "token": "\u2014",
+      "context_before": " fester like a sore",
+      "author": "Langston Hughes",
+      "title": "A Dream Deferred"
+    },
+    {
+      "s2": 7.9911,
+      "token": "\u2014\"",
+      "context_before": " land,\nWho said",
+      "author": "Percy Bysshe Shelley",
+      "title": "Ozymandias"
+    },
+    {
+      "s2": 7.9385,
+      "token": "\u2014",
+      "context_before": "icots, strawberries;",
+      "author": "Christina Rossetti",
+      "title": "Goblin Market (opening stanzas)"
+    },
+    {
+      "s2": 7.734,
+      "token": " \u2014",
+      "context_before": "\nThe flames rolled on",
+      "author": "Felicia Hemans",
+      "title": "Casabianca"
+    },
+    {
+      "s2": 7.42,
+      "token": "\u2014",
+      "context_before": "I will die in Paris",
+      "author": "C\u00e9sar Vallejo",
+      "title": "Black Stone Lying on a White Stone"
+    }
+  ],
+  "top_colon_examples": [
+    {
+      "s2": 9.7267,
+      "token": ":",
+      "context_before": " making lace in the bow",
+      "author": "Lewis Carroll",
+      "title": "The Hunting of the Snark (Fit the First, opening)"
+    },
+    {
+      "s2": 9.1317,
+      "token": ":",
+      "context_before": "For them is wasted skill",
+      "author": "Edwin Arlington Robinson",
+      "title": "The House on the Hill"
+    },
+    {
+      "s2": 9.1317,
+      "token": ":",
+      "context_before": "For them is wasted skill",
+      "author": "Edwin Arlington Robinson",
+      "title": "The House on the Hill"
+    },
+    {
+      "s2": 6.7923,
+      "token": ":",
+      "context_before": "akes hot tears spurt",
+      "author": "John Ashbery",
+      "title": "Self-Portrait in a Convex Mirror (middle passage)"
+    },
+    {
+      "s2": 6.7758,
+      "token": ":",
+      "context_before": " out of\nOr into",
+      "author": "John Ashbery",
+      "title": "Wet Casements"
+    },
+    {
+      "s2": 6.2837,
+      "token": ":",
+      "context_before": ", comfort me with apples",
+      "author": "Anonymous (Hebrew Bible)",
+      "title": "Song of Solomon 2:1-7 (KJV)"
+    },
+    {
+      "s2": 6.1675,
+      "token": ":",
+      "context_before": "'ve known rivers",
+      "author": "Langston Hughes",
+      "title": "The Negro Speaks of Rivers"
+    },
+    {
+      "s2": 6.1436,
+      "token": ":",
+      "context_before": " nobody is going to touch",
+      "author": "James Wright",
+      "title": "The Jewel"
+    },
+    {
+      "s2": 5.9594,
+      "token": ":",
+      "context_before": " going.\n\nYes",
+      "author": "Thomas Hardy",
+      "title": "After a Journey"
+    },
+    {
+      "s2": 5.8745,
+      "token": ":",
+      "context_before": " odours plain and hill",
+      "author": "Percy Bysshe Shelley",
+      "title": "Ode to the West Wind (stanza 1)"
+    },
+    {
+      "s2": 5.2907,
+      "token": ":",
+      "context_before": " is Africa to me",
+      "author": "Countee Cullen",
+      "title": "Heritage (opening)"
+    },
+    {
+      "s2": 5.0608,
+      "token": ":",
+      "context_before": "But you're volatile yourself",
+      "author": "Heather McHugh",
+      "title": "Ghazal of the Better-Unbegun"
+    },
+    {
+      "s2": 4.8334,
+      "token": ":",
+      "context_before": ", child, the name",
+      "author": "Gerard Manley Hopkins",
+      "title": "Spring and Fall: To a Young Child"
+    },
+    {
+      "s2": 4.7159,
+      "token": ":",
+      "context_before": " fountain momently was forced",
+      "author": "Samuel Taylor Coleridge",
+      "title": "Kubla Khan (opening stanzas)"
+    },
+    {
+      "s2": 4.6807,
+      "token": ":",
+      "context_before": "That is what writing is",
+      "author": "Charles Bernstein",
+      "title": "The Sheds of Our Webs"
+    },
+    {
+      "s2": 4.5134,
+      "token": ":",
+      "context_before": ". Then it was over",
+      "author": "Louise Gluck",
+      "title": "The Wild Iris (prose extract)"
+    },
+    {
+      "s2": 4.5094,
+      "token": ":",
+      "context_before": " came\nHome to die",
+      "author": "Robert Frost",
+      "title": "The Death of the Hired Man (opening)"
+    },
+    {
+      "s2": 4.3473,
+      "token": ":",
+      "context_before": " the forests of the night",
+      "author": "William Blake",
+      "title": "The Tyger"
+    },
+    {
+      "s2": 4.1538,
+      "token": ":",
+      "context_before": " blow bleak and shrill",
+      "author": "Edwin Arlington Robinson",
+      "title": "The House on the Hill"
+    },
+    {
+      "s2": 4.1538,
+      "token": ":",
+      "context_before": " blow bleak and shrill",
+      "author": "Edwin Arlington Robinson",
+      "title": "The House on the Hill"
+    }
+  ]
+}
