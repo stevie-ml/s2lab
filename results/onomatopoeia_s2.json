@@ -1,0 +1,364 @@
+{
+  "total_poems": 361,
+  "poems_with_hit": 32,
+  "onomat_count": 46,
+  "control_count": 46961,
+  "onomat_s2": {
+    "n": 46,
+    "mean": 2.7489,
+    "median": 2.2693,
+    "pct_positive": 65.2
+  },
+  "control_s2": {
+    "n": 46961,
+    "mean": -0.4263,
+    "median": -1.1927,
+    "pct_positive": 33.5
+  },
+  "onomat_rank": {
+    "n": 46,
+    "mean": 899.8478,
+    "median": 130,
+    "pct_positive": 100.0
+  },
+  "control_rank": {
+    "n": 46961,
+    "mean": 304.5905,
+    "median": 4,
+    "pct_positive": 100.0
+  },
+  "per_word": [
+    {
+      "word": "hum",
+      "n": 4,
+      "mean_s2": 10.292,
+      "mean_rank": 1775.2
+    },
+    {
+      "word": "tap",
+      "n": 3,
+      "mean_s2": 8.248,
+      "mean_rank": 2142.0
+    },
+    {
+      "word": "thunder",
+      "n": 3,
+      "mean_s2": 2.052,
+      "mean_rank": 809.7
+    },
+    {
+      "word": "sigh",
+      "n": 9,
+      "mean_s2": 1.008,
+      "mean_rank": 256.8
+    },
+    {
+      "word": "whisper",
+      "n": 3,
+      "mean_s2": 0.306,
+      "mean_rank": 465.0
+    },
+    {
+      "word": "tapping",
+      "n": 4,
+      "mean_s2": 0.041,
+      "mean_rank": 93.0
+    },
+    {
+      "word": "boom",
+      "n": 3,
+      "mean_s2": -4.26,
+      "mean_rank": 1.3
+    }
+  ],
+  "era_breakdown": [
+    {
+      "era": "19th_century",
+      "n": 11,
+      "mean_s2": 2.659
+    },
+    {
+      "era": "romantic",
+      "n": 4,
+      "mean_s2": 2.611
+    },
+    {
+      "era": "victorian",
+      "n": 4,
+      "mean_s2": 1.214
+    },
+    {
+      "era": "early_modern",
+      "n": 3,
+      "mean_s2": 0.687
+    },
+    {
+      "era": "modernist",
+      "n": 5,
+      "mean_s2": -3.098
+    }
+  ],
+  "top_alternatives": [
+    [
+      "",
+      15
+    ],
+    [
+      ",",
+      13
+    ],
+    [
+      "the",
+      9
+    ],
+    [
+      "and",
+      9
+    ],
+    [
+      "a",
+      6
+    ],
+    [
+      "voice",
+      5
+    ],
+    [
+      ".",
+      5
+    ],
+    [
+      "boom",
+      4
+    ],
+    [
+      "bo",
+      4
+    ],
+    [
+      "are",
+      4
+    ],
+    [
+      "in",
+      4
+    ],
+    [
+      "they",
+      4
+    ],
+    [
+      "tears",
+      3
+    ],
+    [
+      "i",
+      3
+    ],
+    [
+      "but",
+      2
+    ],
+    [
+      "with",
+      2
+    ],
+    [
+      "hear",
+      2
+    ],
+    [
+      "loud",
+      2
+    ],
+    [
+      "cry",
+      2
+    ],
+    [
+      "r",
+      2
+    ]
+  ],
+  "onomat_predicts_onomat_pct": 28.3,
+  "high_s2_examples": [
+    {
+      "token": "hum",
+      "s2": 25.6548,
+      "rank": 4680,
+      "top_pred": "",
+      "author": "Kamau Brathwaite",
+      "era": "postcolonial"
+    },
+    {
+      "token": "Buzz",
+      "s2": 15.2307,
+      "rank": 5418,
+      "top_pred": "\u2014",
+      "author": "Emily Dickinson",
+      "era": "19th_century"
+    },
+    {
+      "token": "tap",
+      "s2": 14.0541,
+      "rank": 3342,
+      "top_pred": "dawn",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry"
+    },
+    {
+      "token": "Hum",
+      "s2": 9.6783,
+      "rank": 699,
+      "top_pred": "\"",
+      "author": "Traditional (English)",
+      "era": "nursery_rhyme"
+    },
+    {
+      "token": "crack",
+      "s2": 8.8,
+      "rank": 2275,
+      "top_pred": "and",
+      "author": "Walt Whitman",
+      "era": "19th_century"
+    },
+    {
+      "token": "twitter",
+      "s2": 8.491,
+      "rank": 6492,
+      "top_pred": ",",
+      "author": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "token": "buzz",
+      "s2": 8.2978,
+      "rank": 3421,
+      "top_pred": "er",
+      "author": "Emily Dickinson",
+      "era": "19th_century"
+    },
+    {
+      "token": "sigh",
+      "s2": 7.7838,
+      "rank": 993,
+      "top_pred": "be",
+      "author": "George Herbert",
+      "era": "metaphysical"
+    },
+    {
+      "token": "sigh",
+      "s2": 6.1037,
+      "rank": 155,
+      "top_pred": ";",
+      "author": "Austin Dobson",
+      "era": "fixed_form"
+    },
+    {
+      "token": "tap",
+      "s2": 6.0921,
+      "rank": 2258,
+      "top_pred": "i",
+      "author": "Edna St. Vincent Millay",
+      "era": "mid_century"
+    },
+    {
+      "token": "thunder",
+      "s2": 5.8527,
+      "rank": 914,
+      "top_pred": "no",
+      "author": "John Ashbery",
+      "era": "new_york_school"
+    },
+    {
+      "token": "sigh",
+      "s2": 5.2282,
+      "rank": 862,
+      "top_pred": "",
+      "author": "Dante Gabriel Rossetti",
+      "era": "ekphrastic"
+    }
+  ],
+  "low_s2_examples": [
+    {
+      "token": "boom",
+      "s2": -6.1119,
+      "rank": 1,
+      "top_pred": "boom",
+      "author": "Vachel Lindsay",
+      "era": "modernist"
+    },
+    {
+      "token": "boom",
+      "s2": -4.0169,
+      "rank": 1,
+      "top_pred": "boom",
+      "author": "Vachel Lindsay",
+      "era": "modernist"
+    },
+    {
+      "token": "whisper",
+      "s2": -3.3882,
+      "rank": 8,
+      "top_pred": "voice",
+      "author": "Alfred, Lord Tennyson",
+      "era": "ekphrastic"
+    },
+    {
+      "token": "crack",
+      "s2": -3.3243,
+      "rank": 4,
+      "top_pred": "i",
+      "author": "Walt Whitman",
+      "era": "19th_century"
+    },
+    {
+      "token": "sigh",
+      "s2": -3.2727,
+      "rank": 10,
+      "top_pred": "little",
+      "author": "Robert Frost",
+      "era": "modernist"
+    },
+    {
+      "token": "sigh",
+      "s2": -2.9219,
+      "rank": 16,
+      "top_pred": "any",
+      "author": "John Donne",
+      "era": "early_modern"
+    },
+    {
+      "token": "sigh",
+      "s2": -2.9137,
+      "rank": 14,
+      "top_pred": "our",
+      "author": "Paul Laurence Dunbar",
+      "era": "victorian"
+    },
+    {
+      "token": "boom",
+      "s2": -2.6505,
+      "rank": 2,
+      "top_pred": "bo",
+      "author": "Vachel Lindsay",
+      "era": "modernist"
+    },
+    {
+      "token": "sigh",
+      "s2": -2.1822,
+      "rank": 7,
+      "top_pred": "cry",
+      "author": "William Blake",
+      "era": "romantic"
+    },
+    {
+      "token": "humming",
+      "s2": -2.1212,
+      "rank": 53,
+      "top_pred": "black",
+      "author": "Derek Walcott",
+      "era": "postcolonial"
+    }
+  ]
+}
