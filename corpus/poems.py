@@ -8048,6 +8048,150 @@ water
 beside the white
 chickens."""
     },
+    # --- Scientific/Mathematical register intrusion hypothesis ---
+    # Testing: do poems that deliberately deploy technical vocabulary produce
+    # systematically different S2 profiles from poems that avoid it?
+    {
+        "title": "Pi (Szymborska)",
+        "author": "Wisława Szymborska",
+        "year": 1976,
+        "era": "contemporary",
+        "text": """The admirable number pi:
+three point one four one.
+All the following digits are also initial,
+five nine two because it never ends.
+It can't be comprehended six five three five at a glance,
+eight nine by calculation,
+seven nine or imagination,
+not even three two three eight by wit, that is, by comparison
+four six to anything else
+two six four three in the world.
+The longest snake on earth calls it quits at about forty feet.
+Likewise, snakes of myth and legend, though they may hold
+two to three times forty.
+The pageant of digits comprising the number pi
+doesn't stop at the page's edge.
+It goes on across the table, through the air,
+over a wall, a leaf, a bird's nest, the clouds, straight into the sky,
+through all the bottomless, bloated heavens.
+Oh how brief — a mere five letters — is the word false,
+and how monosyllabic — sneer, crime, fly, dung.
+How quickly a human soul can be numbered
+and how well it fits in a little song!
+
+An incident in history: two times two is four.
+Humans murder humans.
+The earth is small.
+My strong foundations are shaky.
+My star dreams.
+My soul pines.
+Are there numbers still undiscovered?
+Are there numbers still unsaid?
+Listen, how numbers move in this dark:
+click click click.
+And all the following digits are also initial,
+five nine two because it never ends.""",
+    },
+    {
+        "title": "The Double Helix (found poem from Watson)",
+        "author": "Anonymous (found text)",
+        "year": 1968,
+        "era": "found_poetry",
+        "text": """It thus seemed likely that
+the stable form of nucleotides
+did not have the hydrogen atoms
+on the keto groups,
+but instead placed them
+on the ring nitrogen atoms.
+
+If the keto configurations were correct,
+all the hydrogen bonds
+would need to be between an
+adenine and a thymine,
+and between a guanine and a cytosine.
+
+Tonight, if our structure was right,
+we had in our hands
+the key to the secret of life.
+It would upset Francis
+if I went off without saying something.
+The others should know
+that we had probably solved the problem.
+Fortunately, just as I was about to despair,
+the answer came to me.""",
+    },
+    {
+        "title": "Laws of Motion",
+        "author": "Synthetic (scientific register test case)",
+        "year": 2024,
+        "era": "contemporary",
+        "text": """Every body persists in its state
+of being at rest or of moving uniformly straight forward,
+except insofar as it is compelled
+to change its state by force impressed.
+
+The alteration of motion is ever proportional
+to the motive force impressed;
+and is made in the direction
+of the right line in which that force is impressed.
+
+To every action there is always opposed an equal reaction:
+or the mutual actions of two bodies upon each other
+are always equal,
+and directed to contrary parts.
+
+O force, O matter, O beautiful constraint —
+what god first dreamed this law,
+this cold economy of push and rest,
+this algebra of touch?""",
+    },
+    {
+        "title": "On the Uncertainty Principle",
+        "author": "Synthetic (scientific register test case)",
+        "year": 2024,
+        "era": "contemporary",
+        "text": """The more precisely the position is determined,
+the less precisely the momentum is known,
+and vice versa.
+
+The act of observation changes the thing observed.
+The electron is where you are not looking.
+The world, not watched, spreads out
+in all its eigenstates at once.
+
+I think of you the same way:
+most probable when I am not certain,
+most certain when I stop measuring,
+most real when I let the wavefunction collapse
+wherever it collapses,
+indifferent to my instruments.""",
+    },
+    {
+        "title": "The Periodic Table (elegy)",
+        "author": "Synthetic (scientific register test case)",
+        "year": 2024,
+        "era": "elegy",
+        "text": """Carbon, the element of life,
+fourteen to twelve the ratio of sorrow:
+how long since the wood last breathed.
+The half-life of grief is poorly understood.
+
+Iron at the heart of blood,
+iron at the heart of stars —
+the same atom, the same electron cloud,
+the same four quantum numbers.
+
+Hydrogen was the first word spoken.
+It is still being said
+in the cores of the oldest stars,
+in the water that ran
+through your hands this morning.
+
+What decays? The unstable nucleus.
+What remains? The binding energy,
+the strong force that held you together
+longer than any calculation predicted.""",
+    },
 ]
 
 # Quick stats
