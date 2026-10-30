@@ -1,0 +1,876 @@
+{
+  "experiment": "hyperbaton_s2",
+  "description": "Syntactic inversion (hyperbaton) and its effect on S\u2082",
+  "pair_results": [
+    {
+      "label": "adj-noun: raven black",
+      "canonical": "The night was still when I saw the black raven fly.",
+      "inverted": "The night was still when I saw the raven black fly.",
+      "displaced_word": "black",
+      "canonical_s2": -3.9345,
+      "inverted_s2": 4.2184,
+      "inversion_premium": 8.1529,
+      "canonical_surprisal": 7.6612,
+      "inverted_surprisal": 11.2088,
+      "canonical_entropy": 11.5957,
+      "inverted_entropy": 6.9903,
+      "canonical_rank": 12,
+      "inverted_rank": 212,
+      "canonical_position": 8,
+      "inverted_position": 9
+    },
+    {
+      "label": "obj-front: beauty I have none",
+      "canonical": "He confessed: I have no beauty here.",
+      "inverted": "He confessed: beauty I have none here.",
+      "displaced_word": "beauty",
+      "canonical_s2": 9.8407,
+      "inverted_s2": 20.7714,
+      "inversion_premium": 10.9307,
+      "canonical_surprisal": 17.0153,
+      "inverted_surprisal": 22.6245,
+      "canonical_entropy": 7.1746,
+      "inverted_entropy": 1.8531,
+      "canonical_rank": 3270,
+      "inverted_rank": 6887,
+      "canonical_position": 6,
+      "inverted_position": 3
+    },
+    {
+      "label": "adv-front: softly she spoke",
+      "canonical": "In the hall she spoke softly at night.",
+      "inverted": "In the hall softly she spoke at night.",
+      "displaced_word": "softly",
+      "canonical_s2": 0.7535,
+      "inverted_s2": 14.0021,
+      "inversion_premium": 13.2486,
+      "canonical_surprisal": 5.9763,
+      "inverted_surprisal": 18.1163,
+      "canonical_entropy": 5.2228,
+      "inverted_entropy": 4.1142,
+      "canonical_rank": 8,
+      "inverted_rank": 2198,
+      "canonical_position": 5,
+      "inverted_position": 3
+    },
+    {
+      "label": "verb-subj: down fell the knight",
+      "canonical": "In the tournament the knight fell down.",
+      "inverted": "In the tournament down fell the knight.",
+      "displaced_word": "fell",
+      "canonical_s2": 0.4754,
+      "inverted_s2": 9.0108,
+      "inversion_premium": 8.5354,
+      "canonical_surprisal": 8.9383,
+      "inverted_surprisal": 13.9955,
+      "canonical_entropy": 8.4629,
+      "inverted_entropy": 4.9846,
+      "canonical_rank": 55,
+      "inverted_rank": 393,
+      "canonical_position": 5,
+      "inverted_position": 4
+    },
+    {
+      "label": "pred-front: great is the king",
+      "canonical": "Among all rulers the king is great.",
+      "inverted": "Among all rulers great is the king.",
+      "displaced_word": "great",
+      "canonical_s2": 1.7008,
+      "inverted_s2": 8.432,
+      "inversion_premium": 6.7312,
+      "canonical_surprisal": 9.8345,
+      "inverted_surprisal": 12.6839,
+      "canonical_entropy": 8.1337,
+      "inverted_entropy": 4.2519,
+      "canonical_rank": 121,
+      "inverted_rank": 165,
+      "canonical_position": 6,
+      "inverted_position": 3
+    },
+    {
+      "label": "part-inv: said the poet",
+      "canonical": "At the feast the poet said, I saw the light.",
+      "inverted": "At the feast said the poet, I saw the light.",
+      "displaced_word": "said",
+      "canonical_s2": -4.8723,
+      "inverted_s2": 8.8909,
+      "inversion_premium": 13.7632,
+      "canonical_surprisal": 4.5472,
+      "inverted_surprisal": 12.4019,
+      "canonical_entropy": 9.4195,
+      "inverted_entropy": 3.5109,
+      "canonical_rank": 2,
+      "inverted_rank": 138,
+      "canonical_position": 5,
+      "inverted_position": 3
+    },
+    {
+      "label": "gen-inv: of winter the cold",
+      "canonical": "When the cold of winter settles in.",
+      "inverted": "When of winter the cold settles in.",
+      "displaced_word": "cold",
+      "canonical_s2": -0.4391,
+      "inverted_s2": -2.855,
+      "inversion_premium": -2.4159,
+      "canonical_surprisal": 11.8946,
+      "inverted_surprisal": 8.429,
+      "canonical_entropy": 12.3337,
+      "inverted_entropy": 11.284,
+      "canonical_rank": 648,
+      "inverted_rank": 34,
+      "canonical_position": 2,
+      "inverted_position": 4
+    },
+    {
+      "label": "dobj-front: love alone I sought",
+      "canonical": "All my days I sought love alone.",
+      "inverted": "All my days love alone I sought.",
+      "displaced_word": "love",
+      "canonical_s2": 3.7254,
+      "inverted_s2": 8.4932,
+      "inversion_premium": 4.7678,
+      "canonical_surprisal": 10.1653,
+      "inverted_surprisal": 13.4458,
+      "canonical_entropy": 6.4399,
+      "inverted_entropy": 4.9526,
+      "canonical_rank": 78,
+      "inverted_rank": 286,
+      "canonical_position": 5,
+      "inverted_position": 3
+    },
+    {
+      "label": "keats-style: wild surmise",
+      "canonical": "He looked with a wild surmise upon the sea.",
+      "inverted": "He looked with a surmise wild upon the sea.",
+      "displaced_word": "wild",
+      "canonical_s2": -0.0315,
+      "inverted_s2": 15.7475,
+      "inversion_premium": 15.779,
+      "canonical_surprisal": 9.585,
+      "inverted_surprisal": 20.1952,
+      "canonical_entropy": 9.6165,
+      "inverted_entropy": 4.4478,
+      "canonical_rank": 141,
+      "inverted_rank": 5040,
+      "canonical_position": 4,
+      "inverted_position": 7
+    },
+    {
+      "label": "milt-verb-last: him long endured",
+      "canonical": "The wife endured him long with patience.",
+      "inverted": "The wife him long endured with patience.",
+      "displaced_word": "endured",
+      "canonical_s2": 12.1118,
+      "inverted_s2": 10.4457,
+      "inversion_premium": -1.6661,
+      "canonical_surprisal": 15.8124,
+      "inverted_surprisal": 16.7651,
+      "canonical_entropy": 3.7006,
+      "inverted_entropy": 6.3194,
+      "canonical_rank": 843,
+      "inverted_rank": 2847,
+      "canonical_position": 2,
+      "inverted_position": 4
+    },
+    {
+      "label": "adj-post: the rose red",
+      "canonical": "He gave her the red rose at dawn.",
+      "inverted": "He gave her the rose red at dawn.",
+      "displaced_word": "red",
+      "canonical_s2": -1.4765,
+      "inverted_s2": 6.3427,
+      "inversion_premium": 7.8192,
+      "canonical_surprisal": 8.7968,
+      "inverted_surprisal": 11.4959,
+      "canonical_entropy": 10.2733,
+      "inverted_entropy": 5.1532,
+      "canonical_rank": 60,
+      "inverted_rank": 100,
+      "canonical_position": 4,
+      "inverted_position": 5
+    },
+    {
+      "label": "sov: the words she spoke",
+      "canonical": "In the silence she spoke the words.",
+      "inverted": "In the silence the words she spoke.",
+      "displaced_word": "spoke",
+      "canonical_s2": -3.2067,
+      "inverted_s2": -3.8164,
+      "inversion_premium": -0.6097,
+      "canonical_surprisal": 5.1015,
+      "inverted_surprisal": 2.9808,
+      "canonical_entropy": 8.3082,
+      "inverted_entropy": 6.7972,
+      "canonical_rank": 5,
+      "inverted_rank": 1,
+      "canonical_position": 4,
+      "inverted_position": 6
+    }
+  ],
+  "summary": {
+    "n_pairs": 12,
+    "avg_inversion_premium": 7.0864,
+    "positive_premium_count": 9,
+    "total_pairs": 12,
+    "all_premiums": [
+      8.1529,
+      10.9307,
+      13.2486,
+      8.5354,
+      6.7312,
+      13.7632,
+      -2.4159,
+      4.7678,
+      15.779,
+      -1.6661,
+      7.8192,
+      -0.6097
+    ]
+  },
+  "corpus_scan": {
+    "early_line_high_s2": [
+      {
+        "poem": "Lorine's Work",
+        "author": "Lorine Niedecker",
+        "token": "ad",
+        "s2": 28.3507,
+        "surprisal": 28.363,
+        "entropy": 0.0124,
+        "rank": 3175,
+        "alternatives": [
+          {
+            "token": "\n",
+            "prob": 0.9993625283241272
+          },
+          {
+            "token": "\"",
+            "prob": 5.594027243205346e-05
+          },
+          {
+            "token": ".",
+            "prob": 4.032547803944908e-05
+          }
+        ]
+      },
+      {
+        "poem": "The Fish",
+        "author": "Marianne Moore",
+        "token": "through",
+        "s2": 26.7243,
+        "surprisal": 26.7484,
+        "entropy": 0.0241,
+        "rank": 3426,
+        "alternatives": [
+          {
+            "token": "\n",
+            "prob": 0.9987516403198242
+          },
+          {
+            "token": "The",
+            "prob": 6.073363692848943e-05
+          },
+          {
+            "token": ".",
+            "prob": 4.824408097192645e-05
+          }
+        ]
+      },
+      {
+        "poem": "James Joyce",
+        "author": "Synthetic (clerihew test case)",
+        "token": "Had",
+        "s2": 25.7436,
+        "surprisal": 25.7579,
+        "entropy": 0.0143,
+        "rank": 1287,
+        "alternatives": [
+          {
+            "token": "\n",
+            "prob": 0.9992640614509583
+          },
+          {
+            "token": "<|endoftext|>",
+            "prob": 4.964172330801375e-05
+          },
+          {
+            "token": ".",
+            "prob": 4.304926551412791e-05
+          }
+        ]
+      },
+      {
+        "poem": "Triad",
+        "author": "Adelaide Crapsey",
+        "token": "Three",
+        "s2": 24.4618,
+        "surprisal": 24.4836,
+        "entropy": 0.0218,
+        "rank": 988,
+        "alternatives": [
+          {
+            "token": "\n",
+            "prob": 0.9988264441490173
+          },
+          {
+            "token": ".",
+            "prob": 0.0001134184785769321
+          },
+          {
+            "token": "\"",
+            "prob": 7.732816447969526e-05
+          }
+        ]
+      },
+      {
+        "poem": "Whoso List to Hunt",
+        "author": "Thomas Wyatt",
+        "token": " list",
+        "s2": 19.4767,
+        "surprisal": 20.6528,
+        "entropy": 1.176,
+        "rank": 6869,
+        "alternatives": [
+          {
+            "token": "ever",
+            "prob": 0.9227502346038818
+          },
+          {
+            "token": " is",
+            "prob": 0.003838295117020607
+          },
+          {
+            "token": " shall",
+            "prob": 0.0033478206023573875
+          }
+        ]
+      },
+      {
+        "poem": "Pi (Szymborska)",
+        "author": "Wis\u0142awa Szymborska",
+        "token": " pi",
+        "s2": 19.3862,
+        "surprisal": 21.0624,
+        "entropy": 1.6761,
+        "rank": 7233,
+        "alternatives": [
+          {
+            "token": " of",
+            "prob": 0.8622245192527771
+          },
+          {
+            "token": " is",
+            "prob": 0.013291056267917156
+          },
+          {
+            "token": " that",
+            "prob": 0.012773354537785053
+          }
+        ]
+      },
+      {
+        "poem": "I felt a Funeral, in my Brain",
+        "author": "Emily Dickinson",
+        "token": " Fun",
+        "s2": 18.9026,
+        "surprisal": 25.7712,
+        "entropy": 6.8686,
+        "rank": 24702,
+        "alternatives": [
+          {
+            "token": " little",
+            "prob": 0.19108593463897705
+          },
+          {
+            "token": " bit",
+            "prob": 0.1183333620429039
+          },
+          {
+            "token": " sense",
+            "prob": 0.07727759331464767
+          }
+        ]
+      },
+      {
+        "poem": "Edward, Edward",
+        "author": "Traditional (Scottish ballad)",
+        "token": "is",
+        "s2": 17.4662,
+        "surprisal": 20.8719,
+        "entropy": 3.4056,
+        "rank": 11489,
+        "alternatives": [
+          {
+            "token": " you",
+            "prob": 0.5073887705802917
+          },
+          {
+            "token": " we",
+            "prob": 0.13849665224552155
+          },
+          {
+            "token": " I",
+            "prob": 0.09235584735870361
+          }
+        ]
+      },
+      {
+        "poem": "November Night",
+        "author": "Adelaide Crapsey",
+        "token": "With",
+        "s2": 17.3142,
+        "surprisal": 17.353,
+        "entropy": 0.0388,
+        "rank": 65,
+        "alternatives": [
+          {
+            "token": "\n",
+            "prob": 0.9979034662246704
+          },
+          {
+            "token": "I",
+            "prob": 0.00016121348016895354
+          },
+          {
+            "token": "The",
+            "prob": 0.00013470301928464323
+          }
+        ]
+      },
+      {
+        "poem": "On First Looking into Chapman's Homer",
+        "author": "John Keats",
+        "token": " trave",
+        "s2": 16.5141,
+        "surprisal": 23.5882,
+        "entropy": 7.0741,
+        "rank": 14136,
+        "alternatives": [
+          {
+            "token": " been",
+            "prob": 0.12317518144845963
+          },
+          {
+            "token": " ever",
+            "prob": 0.054916560649871826
+          },
+          {
+            "token": " seen",
+            "prob": 0.04583446681499481
+          }
+        ]
+      },
+      {
+        "poem": "On First Looking into Chapman's Homer",
+        "author": "John Keats",
+        "token": " trave",
+        "s2": 16.5141,
+        "surprisal": 23.5882,
+        "entropy": 7.0741,
+        "rank": 14136,
+        "alternatives": [
+          {
+            "token": " been",
+            "prob": 0.12317518144845963
+          },
+          {
+            "token": " ever",
+            "prob": 0.054916560649871826
+          },
+          {
+            "token": " seen",
+            "prob": 0.04583446681499481
+          }
+        ]
+      },
+      {
+        "poem": "From Ten Thousand Lives: Three Portraits",
+        "author": "Ko Un (trans. Brother Anthony of Taiz\u00e9)",
+        "token": " Gim",
+        "s2": 16.0689,
+        "surprisal": 23.4199,
+        "entropy": 7.351,
+        "rank": 17931,
+        "alternatives": [
+          {
+            "token": " was",
+            "prob": 0.1056722030043602
+          },
+          {
+            "token": ",",
+            "prob": 0.06577274948358536
+          },
+          {
+            "token": "'s",
+            "prob": 0.06467848271131516
+          }
+        ]
+      },
+      {
+        "poem": "For a Venetian Pastoral by Giorgione",
+        "author": "Dante Gabriel Rossetti",
+        "token": " anguish",
+        "s2": 15.6544,
+        "surprisal": 20.1993,
+        "entropy": 4.5449,
+        "rank": 17009,
+        "alternatives": [
+          {
+            "token": " example",
+            "prob": 0.48968467116355896
+          },
+          {
+            "token": " instance",
+            "prob": 0.18050125241279602
+          },
+          {
+            "token": " the",
+            "prob": 0.03974566236138344
+          }
+        ]
+      },
+      {
+        "poem": "Proverbs of Hell (excerpt from Marriage of Heaven and Hell)",
+        "author": "William Blake",
+        "token": " learn",
+        "s2": 13.8815,
+        "surprisal": 18.5969,
+        "entropy": 4.7154,
+        "rank": 6615,
+        "alternatives": [
+          {
+            "token": ",",
+            "prob": 0.5313142538070679
+          },
+          {
+            "token": " the",
+            "prob": 0.042298197746276855
+          },
+          {
+            "token": " (",
+            "prob": 0.028450582176446915
+          }
+        ]
+      },
+      {
+        "poem": "Constantly Risking Absurdity",
+        "author": "Lawrence Ferlinghetti",
+        "token": " absurdity",
+        "s2": 13.8468,
+        "surprisal": 21.2031,
+        "entropy": 7.3563,
+        "rank": 18682,
+        "alternatives": [
+          {
+            "token": " their",
+            "prob": 0.14084288477897644
+          },
+          {
+            "token": " your",
+            "prob": 0.08895599842071533
+          },
+          {
+            "token": " the",
+            "prob": 0.08845586329698563
+          }
+        ]
+      },
+      {
+        "poem": "Winter Forest (Shiki, translated)",
+        "author": "Masaoka Shiki",
+        "token": " w",
+        "s2": 13.6648,
+        "surprisal": 17.0613,
+        "entropy": 3.3965,
+        "rank": 1364,
+        "alternatives": [
+          {
+            "token": " past",
+            "prob": 0.4005889296531677
+          },
+          {
+            "token": " last",
+            "prob": 0.21944266557693481
+          },
+          {
+            "token": " years",
+            "prob": 0.1540982872247696
+          }
+        ]
+      },
+      {
+        "poem": "Beowulf: The Fight with Grendel",
+        "author": "Anonymous (trans. Hall)",
+        "token": " hardened",
+        "s2": 13.0308,
+        "surprisal": 19.605,
+        "entropy": 6.5742,
+        "rank": 10378,
+        "alternatives": [
+          {
+            "token": " of",
+            "prob": 0.2121681571006775
+          },
+          {
+            "token": " is",
+            "prob": 0.09629279375076294
+          },
+          {
+            "token": "'s",
+            "prob": 0.08609334379434586
+          }
+        ]
+      },
+      {
+        "poem": "The Convergence of the Twain (excerpt)",
+        "author": "Thomas Hardy",
+        "token": " solitude",
+        "s2": 12.9443,
+        "surprisal": 21.5938,
+        "entropy": 8.6496,
+        "rank": 17187,
+        "alternatives": [
+          {
+            "token": " statement",
+            "prob": 0.11886867135763168
+          },
+          {
+            "token": " recent",
+            "prob": 0.04539956524968147
+          },
+          {
+            "token": " letter",
+            "prob": 0.03232848271727562
+          }
+        ]
+      },
+      {
+        "poem": "Ode on a Grecian Urn",
+        "author": "John Keats",
+        "token": " still",
+        "s2": 12.5439,
+        "surprisal": 15.5829,
+        "entropy": 3.039,
+        "rank": 938,
+        "alternatives": [
+          {
+            "token": " shalt",
+            "prob": 0.7355479598045349
+          },
+          {
+            "token": " shall",
+            "prob": 0.02841733768582344
+          },
+          {
+            "token": " art",
+            "prob": 0.027287954464554787
+          }
+        ]
+      },
+      {
+        "poem": "I'm Nobody! Who are you?",
+        "author": "Emily Dickinson",
+        "token": " Nobody",
+        "s2": 12.3786,
+        "surprisal": 19.6329,
+        "entropy": 7.2543,
+        "rank": 8184,
+        "alternatives": [
+          {
+            "token": " not",
+            "prob": 0.161420077085495
+          },
+          {
+            "token": " going",
+            "prob": 0.05858928710222244
+          },
+          {
+            "token": " a",
+            "prob": 0.05026878044009209
+          }
+        ]
+      }
+    ],
+    "article_surprises": [
+      {
+        "poem": "For I will consider my Cat Jeoffry (excerpt)",
+        "author": "Christopher Smart",
+        "token": " prank",
+        "top_predicted": " the",
+        "s2": 22.1297,
+        "rank": 18988,
+        "position": 94
+      },
+      {
+        "poem": "God's Grandeur",
+        "author": "Gerard Manley Hopkins",
+        "token": " shook",
+        "top_predicted": " the",
+        "s2": 22.0439,
+        "rank": 26974,
+        "position": 20
+      },
+      {
+        "poem": "For I Will Consider My Cat Jeoffry (excerpt)",
+        "author": "Christopher Smart",
+        "token": " prank",
+        "top_predicted": " the",
+        "s2": 22.0152,
+        "rank": 18926,
+        "position": 94
+      },
+      {
+        "poem": "The Eve of St. Agnes (stanzas 1-5)",
+        "author": "John Keats",
+        "token": " Music",
+        "top_predicted": " he",
+        "s2": 17.2452,
+        "rank": 22267,
+        "position": 258
+      },
+      {
+        "poem": "The Fall",
+        "author": "Russell Edson",
+        "token": " indoors",
+        "top_predicted": " the",
+        "s2": 16.402,
+        "rank": 19554,
+        "position": 83
+      },
+      {
+        "poem": "La Belle Dame sans Merci",
+        "author": "John Keats",
+        "token": " sidel",
+        "top_predicted": " she",
+        "s2": 16.2677,
+        "rank": 17838,
+        "position": 218
+      },
+      {
+        "poem": "Sir Patrick Spens",
+        "author": "Traditional (Scottish ballad)",
+        "token": " Dum",
+        "top_predicted": " the",
+        "s2": 16.0955,
+        "rank": 9325,
+        "position": 4
+      },
+      {
+        "poem": "If I Told Him: A Completed Portrait of Picasso (excerpt)",
+        "author": "Gertrude Stein",
+        "token": " Napoleon",
+        "top_predicted": " he",
+        "s2": 15.6923,
+        "rank": 3705,
+        "position": 24
+      },
+      {
+        "poem": "O Captain! My Captain!",
+        "author": "Walt Whitman",
+        "token": " bou",
+        "top_predicted": " the",
+        "s2": 15.4421,
+        "rank": 12333,
+        "position": 132
+      },
+      {
+        "poem": "O Captain! My Captain!",
+        "author": "Walt Whitman",
+        "token": " bou",
+        "top_predicted": " the",
+        "s2": 15.4421,
+        "rank": 12333,
+        "position": 132
+      },
+      {
+        "poem": "The Wife of Usher's Well",
+        "author": "Traditional (Scottish ballad)",
+        "token": " Us",
+        "top_predicted": " the",
+        "s2": 15.2688,
+        "rank": 11169,
+        "position": 5
+      },
+      {
+        "poem": "Andrea del Sarto",
+        "author": "Robert Browning",
+        "token": " alike",
+        "top_predicted": " it",
+        "s2": 14.9825,
+        "rank": 9995,
+        "position": 399
+      },
+      {
+        "poem": "The Wife of Usher's Well",
+        "author": "Traditional (Scottish ballad)",
+        "token": " three",
+        "top_predicted": " an",
+        "s2": 14.8785,
+        "rank": 11,
+        "position": 91
+      },
+      {
+        "poem": "A Dialogue of Self and Soul (Part I)",
+        "author": "W.B. Yeats",
+        "token": " frig",
+        "top_predicted": " the",
+        "s2": 14.6724,
+        "rank": 12128,
+        "position": 335
+      },
+      {
+        "poem": "Carmel Point",
+        "author": "Robinson Jeffers",
+        "token": " Carm",
+        "top_predicted": " the",
+        "s2": 14.6522,
+        "rank": 16215,
+        "position": 48
+      },
+      {
+        "poem": "On the Tower of Yellow Crane (literal trans.)",
+        "author": "Cui Hao",
+        "token": " Par",
+        "top_predicted": " the",
+        "s2": 14.4875,
+        "rank": 4199,
+        "position": 60
+      },
+      {
+        "poem": "The Collar (opening)",
+        "author": "George Herbert",
+        "token": " store",
+        "top_predicted": " the",
+        "s2": 14.4431,
+        "rank": 2143,
+        "position": 50
+      },
+      {
+        "poem": "Villanelle (A dainty thing's the Villanelle)",
+        "author": "William Ernest Henley",
+        "token": " rhy",
+        "top_predicted": " the",
+        "s2": 14.2852,
+        "rank": 2688,
+        "position": 20
+      },
+      {
+        "poem": "The Colonel",
+        "author": "Carolyn Forche",
+        "token": " Broken",
+        "top_predicted": " I",
+        "s2": 14.2039,
+        "rank": 5658,
+        "position": 153
+      },
+      {
+        "poem": "Anecdote of the Jar",
+        "author": "Wallace Stevens",
+        "token": " Tennessee",
+        "top_predicted": " the",
+        "s2": 14.2032,
+        "rank": 1976,
+        "position": 5
+      }
+    ]
+  }
+}
