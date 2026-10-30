@@ -1,6 +1,6 @@
 # S₂ Lab Research Report
-**Generated:** 2026-10-30 06:46:21
-**Corpus:** 374 texts analyzed with GPT-2
+**Generated:** 2026-10-30 13:01:50
+**Corpus:** 381 texts analyzed with GPT-2
 **Model:** gpt2 (117M parameters)
 
 ---
@@ -17,19 +17,19 @@ Do different literary movements produce systematically different information-the
 | clerihew | 10 | 1.55 | **0.51** | 46% | 28.21 |
 | concrete | 3 | 1.51 | **-0.50** | 25% | 30.95 |
 | double_dactyl | 5 | 1.21 | **-0.95** | 36% | 39.00 |
+| mid_century | 4 | 1.20 | **-0.60** | 37% | 36.38 |
 | german_modernist | 2 | 1.12 | **0.63** | 46% | 17.49 |
 | villanelle | 2 | 1.11 | **-0.80** | 28% | 30.18 |
-| mid_century | 3 | 0.87 | **-0.59** | 37% | 36.38 |
 | persian | 2 | 0.84 | **-0.23** | 40% | 30.32 |
 | ballad | 6 | 0.81 | **-0.42** | 32% | 32.75 |
 | parody | 4 | 0.80 | **-0.29** | 39% | 38.37 |
+| modernist | 27 | 0.78 | **-0.35** | 39% | 39.17 |
 | korean_modernist | 1 | 0.75 | **-0.69** | 31% | 30.95 |
 | imagist | 5 | 0.70 | **-0.52** | 42% | 28.35 |
 | parody_original | 3 | 0.65 | **-0.45** | 36% | 29.30 |
 | black_arts | 1 | 0.65 | **-0.50** | 36% | 27.57 |
 | nonsense | 2 | 0.62 | **-0.69** | 32% | 32.61 |
 | fixed_form | 8 | 0.60 | **-0.56** | 34% | 30.18 |
-| modernist | 25 | 0.59 | **-0.34** | 38% | 39.17 |
 | ghazal | 2 | 0.58 | **-0.46** | 34% | 35.04 |
 | confessional | 6 | 0.50 | **-0.23** | 41% | 35.23 |
 | postcolonial | 6 | 0.49 | **-0.48** | 32% | 36.66 |
@@ -42,8 +42,9 @@ Do different literary movements produce systematically different information-the
 | protest_political | 2 | 0.36 | **-0.75** | 36% | 34.25 |
 | contemporary | 16 | 0.35 | **-0.40** | 36% | 33.21 |
 | elegy | 8 | 0.29 | **-0.45** | 36% | 34.93 |
-| 19th_century | 16 | 0.27 | **-0.45** | 39% | 35.25 |
+| 19th_century | 17 | 0.29 | **-0.46** | 39% | 35.25 |
 | deep_image | 1 | 0.25 | **0.07** | 45% | 12.62 |
+| oulipo | 7 | 0.21 | **-0.05** | 37% | 31.24 |
 | romantic | 21 | 0.19 | **-0.44** | 36% | 33.80 |
 | war_poetry | 3 | 0.19 | **-0.34** | 41% | 33.05 |
 | surrealist | 8 | 0.16 | **-0.50** | 34% | 37.05 |
@@ -56,7 +57,6 @@ Do different literary movements produce systematically different information-the
 | cliche_control | 3 | -0.03 | **-0.87** | 28% | 28.76 |
 | ekphrastic | 8 | -0.04 | **-0.51** | 38% | 33.65 |
 | limerick | 10 | -0.06 | **-0.66** | 32% | 22.11 |
-| oulipo | 4 | -0.07 | **-0.15** | 36% | 19.63 |
 | old_english | 5 | -0.07 | **-0.31** | 40% | 34.24 |
 | dramatic_monologue | 7 | -0.09 | **-0.36** | 36% | 24.44 |
 | japanese_classical | 2 | -0.15 | **-0.71** | 38% | 17.39 |
@@ -75,7 +75,7 @@ Do different literary movements produce systematically different information-the
 ### Finding
 After removing stanza-break artifact positions, **german_modernist** has the highest artifact-free avg S₂ (0.63), while **double_dactyl** is lowest among poetry (-0.95). Prose control: -1.72.
 Only 6 of 57 poetry eras have positive artifact-free avg S₂ — **most era averages are negative once cleaned** (the artifact inflated them).
-The core claim survives: **poetry is less statistically conformist than prose** (gap = 1.30 bits artifact-free), but the absolute positive-S₂ framing does not hold.
+The core claim survives: **poetry is less statistically conformist than prose** (gap = 1.31 bits artifact-free), but the absolute positive-S₂ framing does not hold.
 
 ---
 
@@ -113,6 +113,12 @@ What does GPT-2 expect when poets deviate? Can we categorize the 'unsaid'?
 ` → poet wrote **"Death"**
   - GPT-2 expected: "" (100.0%)
   - S₂ = 39.00
+
+- **William Carlos Williams**, "This Is Just to Say":
+  - Context: `... were probably
+` → poet wrote **"saving"**
+  - GPT-2 expected: "" (99.9%)
+  - S₂ = 38.55
 
 - **William Carlos Williams**, "This Is Just to Say":
   - Context: `... were probably
@@ -161,6 +167,12 @@ What does GPT-2 expect when poets deviate? Can we categorize the 'unsaid'?
   - GPT-2 expected: "" (100.0%)
   - S₂ = 36.38
 
+- **Gwendolyn Brooks**, "We Real Cool":
+  - Context: `.... We
+` → poet wrote **"Die"**
+  - GPT-2 expected: "" (100.0%)
+  - S₂ = 36.38
+
 - **Paul Éluard**, "The Curve of Your Eyes":
   - Context: `...ense,
 ` → poet wrote **"wings"**
@@ -173,18 +185,6 @@ What does GPT-2 expect when poets deviate? Can we categorize the 'unsaid'?
   - GPT-2 expected: "" (100.0%)
   - S₂ = 35.43
 
-- **Bruce Andrews**, "Islets/Irritations (excerpt)":
-  - Context: `... my patriotic
-` → poet wrote **"duty"**
-  - GPT-2 expected: "" (99.9%)
-  - S₂ = 35.40
-
-- **Edgar Allan Poe**, "The Raven (opening stanzas)":
-  - Context: `... shore!"
-` → poet wrote **"Qu"**
-  - GPT-2 expected: "" (100.0%)
-  - S₂ = 35.25
-
 ### Finding
 The 'unsaid' falls into distinct categories. When poets deviate most sharply from expectation, the model's top prediction reveals what *conventional* language would do in that position. This makes the poet's choice legible as a *decision* — not random noise, but a deliberate suppression of the expected in favor of something the poet needed to say.
 
@@ -196,23 +196,23 @@ Do high-S₂ moments cluster at beginnings, endings, or enjambments?
 
 | Position in poem | Avg S₂ | Median S₂ | n tokens |
 |---|---|---|---|
-| first_10% | 0.87 | -0.63 | 4955 |
-| 10-25% | 0.17 | -1.11 | 7697 |
-| 25-50% | 0.10 | -1.04 | 12852 |
-| 50-75% | 0.10 | -1.02 | 12757 |
-| 75-90% | 0.33 | -0.89 | 7652 |
-| last_10% | 0.13 | -1.03 | 5282 |
+| first_10% | 0.87 | -0.63 | 5021 |
+| 10-25% | 0.17 | -1.11 | 7798 |
+| 25-50% | 0.11 | -1.04 | 13025 |
+| 50-75% | 0.10 | -1.02 | 12928 |
+| 75-90% | 0.34 | -0.89 | 7753 |
+| last_10% | 0.16 | -1.02 | 5355 |
 
 ### Line break analysis:
-- Avg S₂ at newline tokens: **-1.63** (n=4835)
-- Avg S₂ at tokens immediately after newline (raw): **6.54** (n=4835)
-- Avg S₂ at tokens immediately after newline (**artifact-free**): **0.11** (n=3031)
-- Avg S₂ at all other tokens: **0.42** (n=46360)
+- Avg S₂ at newline tokens: **-1.64** (n=4912)
+- Avg S₂ at tokens immediately after newline (raw): **6.58** (n=4912)
+- Avg S₂ at tokens immediately after newline (**artifact-free**): **0.10** (n=3065)
+- Avg S₂ at all other tokens: **0.43** (n=46968)
 
 > ⚠️ The raw post-newline figure is dominated by the stanza-break artifact (see `findings/stanza_break_artifact.md`). The artifact-free value is near-zero. **The enjambment finding does not survive artifact removal.**
 
 ### Finding
-Artifact-free post-newline S₂ = 0.11 vs other tokens = 0.42. Line-head tokens are at or below baseline once artifact positions are removed. The Straussian gap is distributed throughout the poem, not concentrated at line breaks.
+Artifact-free post-newline S₂ = 0.10 vs other tokens = 0.43. Line-head tokens are at or below baseline once artifact positions are removed. The Straussian gap is distributed throughout the poem, not concentrated at line breaks.
 
 ---
 
@@ -222,8 +222,9 @@ Does each poet have a distinctive information-theoretic fingerprint?
 
 | Author | n poems | Avg S₂ | S₂ σ | +S₂% | Avg Max S₂ | Style |
 |---|---|---|---|---|---|---|
-| William Carlos Williams | 2 | 3.10 | 10.12 | 45% | 34.86 | high spikes, volatile |
+| William Carlos Williams | 4 | 3.10 | 10.12 | 45% | 34.86 | high spikes, volatile |
 | Carl Sandburg | 2 | 2.54 | 7.95 | 45% | 27.90 | high spikes, volatile |
+| Gwendolyn Brooks | 2 | 2.18 | 9.84 | 38% | 36.38 | high spikes, volatile |
 | Masaoka Shiki | 2 | 1.96 | 6.87 | 45% | 25.09 | high spikes, volatile |
 | Synthetic (clerihew test case) | 7 | 1.68 | 6.45 | 49% | 24.60 | high spikes, volatile |
 | Synthetic (scientific register test case) | 3 | 1.60 | 7.19 | 42% | 31.46 | high spikes, volatile |
@@ -235,6 +236,7 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | Kobayashi Issa | 3 | 1.15 | 7.51 | 39% | 27.52 | high spikes, volatile |
 | Rainer Maria Rilke | 2 | 1.12 | 4.24 | 46% | 17.09 | consistently deviant |
 | Langston Hughes | 3 | 1.09 | 7.15 | 36% | 27.66 | high spikes, volatile |
+| Christian Bök | 2 | 1.05 | 5.13 | 48% | 15.55 | consistently deviant |
 | Thomas Hardy | 6 | 1.04 | 5.92 | 44% | 28.64 | consistently deviant |
 | Allen Ginsberg | 2 | 1.03 | 5.23 | 47% | 19.80 | consistently deviant |
 | Sylvia Plath | 2 | 0.95 | 6.92 | 38% | 25.82 | high spikes, volatile |
@@ -243,8 +245,8 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | Ernest Dowson | 2 | 0.79 | 7.47 | 24% | 30.18 | high spikes, volatile |
 | Traditional (Scottish ballad) | 5 | 0.76 | 6.09 | 31% | 29.02 | high spikes, volatile |
 | William Ernest Henley | 2 | 0.75 | 6.36 | 33% | 27.27 | high spikes, volatile |
-| Emily Dickinson | 6 | 0.71 | 5.58 | 40% | 24.03 | consistently deviant |
 | Lewis Carroll | 5 | 0.68 | 6.35 | 35% | 30.55 | high spikes, volatile |
+| Emily Dickinson | 7 | 0.68 | 5.55 | 40% | 24.00 | consistently deviant |
 | Georg Trakl | 2 | 0.62 | 3.97 | 45% | 14.57 | consistently deviant |
 | Heather McHugh | 2 | 0.58 | 6.24 | 34% | 32.85 | high spikes, volatile |
 | Marianne Moore | 2 | 0.57 | 5.56 | 39% | 28.36 | consistently deviant |
@@ -317,13 +319,13 @@ Do 'great' poems have distinctive S₂ profiles?
 
 > ⚠️ **Stanza-break artifact:** Raw S₂ numbers are inflated by layout positions. See `findings/stanza_break_artifact.md` for details.
 
-- Poetry avg S₂ (raw): **0.34** (σ=0.84, n=369)
+- Poetry avg S₂ (raw): **0.36** (σ=0.87, n=376)
 - Control prose avg S₂ (raw): **-1.66** (σ=0.67, n=5)
-- Gap (raw): **2.00**
+- Gap (raw): **2.02**
 
-- Poetry avg S₂ (artifact-free): **-0.403**
+- Poetry avg S₂ (artifact-free): **-0.401**
 - Control prose avg S₂ (artifact-free): **-1.721**
-- Gap (artifact-free): **1.317** (66% of raw gap survives)
+- Gap (artifact-free): **1.320** (65% of raw gap survives)
 
 - Poetry: 36% of tokens have positive S₂ (raw)
 - Control prose: 20% of tokens have positive S₂ (raw)
@@ -331,9 +333,9 @@ Do 'great' poems have distinctive S₂ profiles?
 ### Highest S₂ poems (artifact-free):
 1. **Chiyo-ni** — "Morning Glory (Chiyo-ni, translated)" (S₂ clean=2.08, raw=4.16)
 1. **Synthetic (clerihew test case)** — "Nikola Tesla" (S₂ clean=1.89, raw=2.59)
+1. **Christian Bök** — "Eunoia: Chapter E (excerpt)" (S₂ clean=1.77, raw=1.93)
 1. **Richard Wright** — "Nobody (Wright)" (S₂ clean=1.33, raw=2.03)
 1. **Rainer Maria Rilke** — "Die erste Elegie (Eröffnung)" (S₂ clean=1.25, raw=1.67)
-1. **Matsuo Bashō** — "Old Pond (Bashō, translated)" (S₂ clean=1.18, raw=1.91)
 
 ### Lowest S₂ poems (artifact-free):
 1. **Synthetic (double dactyl test case)** — "Alfred Lord Tennyson (Double Dactyl)" (S₂ clean=-1.38, raw=0.64)

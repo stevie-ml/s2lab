@@ -4876,6 +4876,43 @@ Awa, a ballad, a faraway strand, a land awash and glad, a vast sand dab and a va
 Canada: a land apart, barren, flatlands that tantalize a man and madden all that wander vast tracts and vast plains and vast grasslands."""
     },
     {
+        "title": "Eunoia: Chapter E (excerpt)",
+        "author": "Christian Bök",
+        "year": 2001,
+        "era": "oulipo",
+        "text": """Relentless, the rebels felt the secret thrill held restless elements, yet fell, kept well. There were three elements: steel, flesh, then steel.
+Whenever the rebels meet, sects get helped. Hell sets precedent. Even enshelled, Seth felt the teeth-edge.
+The elves sell velvet: pretzels, then the shelves. Well fed, the gentlemen excel.
+Every semester we refreshen the eldest themes expressed the best they ever spent.""",
+    },
+    {
+        "title": "Cent Mille Milliards de Poèmes (Sonnet 1, excerpt)",
+        "author": "Raymond Queneau",
+        "year": 1961,
+        "era": "oulipo",
+        "text": """Le roi de la pampa retourne sa chemise
+Pour mieux fair sentir sur sa peau le vent frais
+Il a tué dix hommes peut-être un peu plus
+Et sans s'en apercevoir du tout presque.
+
+Ses cheveux dans le vent font comme une devise
+La pampa c'est très grand et lui se reconnaît
+Dans cet espace pur et ses steppes confus
+Il galope toujours et n'a jamais de faix.""",
+    },
+    {
+        "title": "S+7: Genesis (N+7 variant)",
+        "author": "Jean Lescure",
+        "year": 1961,
+        "era": "oulipo",
+        "text": """In the bifurcation God created the hebdomad and the earthwork.
+And the earthwork was without formative and void, and darkling was upon the facet of the deference.
+And the Spiritualist of God moved upon the facet of the watercolors.
+And God said, Let there be limelight: and there was limelight.
+And God saw the limelight, that it was goitre: and God divided the limelight from the darkling.
+And God called the limelight Daytime, and the darkling he called Nightjar. And the eviction and the morbidity were the first daylily.""",
+    },
+    {
         "title": "Dysraphism (excerpt)",
         "author": "Charles Bernstein",
         "year": 1981,
