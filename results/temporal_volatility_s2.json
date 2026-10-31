@@ -1,0 +1,636 @@
+{
+  "n_poems": 294,
+  "correlation_year_vs_std_s2": 0.0608,
+  "slope_std_s2_per_year": 0.000998,
+  "global_mean_s2": 0.359,
+  "global_mean_std_s2": 5.165,
+  "period_results": [
+    {
+      "period": "17th C",
+      "mid_year": 1649,
+      "n": 19,
+      "mean_s2": 0.346,
+      "mean_std_s2": 4.977,
+      "mean_max_s2": 20.953,
+      "sd_std_s2": 1.499
+    },
+    {
+      "period": "18th C",
+      "mid_year": 1749,
+      "n": 23,
+      "mean_s2": 0.312,
+      "mean_std_s2": 5.004,
+      "mean_max_s2": 22.403,
+      "sd_std_s2": 1.407
+    },
+    {
+      "period": "Early Romantic",
+      "mid_year": 1824,
+      "n": 35,
+      "mean_s2": 0.31,
+      "mean_std_s2": 5.225,
+      "mean_max_s2": 25.183,
+      "sd_std_s2": 1.324
+    },
+    {
+      "period": "Victorian",
+      "mid_year": 1874,
+      "n": 54,
+      "mean_s2": 0.381,
+      "mean_std_s2": 5.156,
+      "mean_max_s2": 23.991,
+      "sd_std_s2": 1.176
+    },
+    {
+      "period": "Modernist",
+      "mid_year": 1914,
+      "n": 56,
+      "mean_s2": 0.338,
+      "mean_std_s2": 5.134,
+      "mean_max_s2": 23.065,
+      "sd_std_s2": 1.53
+    },
+    {
+      "period": "Mid-Century",
+      "mid_year": 1944,
+      "n": 27,
+      "mean_s2": 0.79,
+      "mean_std_s2": 5.987,
+      "mean_max_s2": 26.596,
+      "sd_std_s2": 2.158
+    },
+    {
+      "period": "Postmodern",
+      "mid_year": 1969,
+      "n": 41,
+      "mean_s2": 0.323,
+      "mean_std_s2": 5.084,
+      "mean_max_s2": 21.968,
+      "sd_std_s2": 1.637
+    },
+    {
+      "period": "Late/Language",
+      "mid_year": 1989,
+      "n": 27,
+      "mean_s2": 0.01,
+      "mean_std_s2": 4.725,
+      "mean_max_s2": 23.12,
+      "sd_std_s2": 1.337
+    },
+    {
+      "period": "Contemporary",
+      "mid_year": 2013,
+      "n": 12,
+      "mean_s2": 0.554,
+      "mean_std_s2": 5.21,
+      "mean_max_s2": 21.932,
+      "sd_std_s2": 1.279
+    }
+  ],
+  "poet_stats": [
+    {
+      "author": "William Carlos Williams",
+      "n": 4,
+      "mean_std_s2": 10.1158,
+      "mean_avg_s2": 3.10285,
+      "era": "modernist",
+      "year": 1923
+    },
+    {
+      "author": "Gwendolyn Brooks",
+      "n": 2,
+      "mean_std_s2": 9.835,
+      "mean_avg_s2": 2.1811,
+      "era": "mid_century",
+      "year": 1960
+    },
+    {
+      "author": "Carl Sandburg",
+      "n": 2,
+      "mean_std_s2": 7.9504,
+      "mean_avg_s2": 2.5402,
+      "era": "modernist",
+      "year": 1916
+    },
+    {
+      "author": "E.E. Cummings",
+      "n": 3,
+      "mean_std_s2": 7.815533333333333,
+      "mean_avg_s2": 1.5766333333333333,
+      "era": "modernist",
+      "year": 1920
+    },
+    {
+      "author": "Kobayashi Issa",
+      "n": 3,
+      "mean_std_s2": 7.512533333333333,
+      "mean_avg_s2": 1.1533666666666667,
+      "era": "haiku",
+      "year": 1819
+    },
+    {
+      "author": "Ernest Dowson",
+      "n": 2,
+      "mean_std_s2": 7.472950000000001,
+      "mean_avg_s2": 0.78775,
+      "era": "fixed_form",
+      "year": 1899
+    },
+    {
+      "author": "Synthetic (scientific register test case)",
+      "n": 3,
+      "mean_std_s2": 7.1864333333333335,
+      "mean_avg_s2": 1.5996666666666666,
+      "era": "contemporary",
+      "year": 2024
+    },
+    {
+      "author": "Langston Hughes",
+      "n": 3,
+      "mean_std_s2": 7.1515,
+      "mean_avg_s2": 1.0850333333333333,
+      "era": "harlem_renaissance",
+      "year": 1951
+    },
+    {
+      "author": "Sylvia Plath",
+      "n": 2,
+      "mean_std_s2": 6.91655,
+      "mean_avg_s2": 0.94675,
+      "era": "confessional",
+      "year": 1962
+    },
+    {
+      "author": "Masaoka Shiki",
+      "n": 2,
+      "mean_std_s2": 6.87265,
+      "mean_avg_s2": 1.9588,
+      "era": "haiku",
+      "year": 1893
+    },
+    {
+      "author": "Edwin Arlington Robinson",
+      "n": 2,
+      "mean_std_s2": 6.60875,
+      "mean_avg_s2": 1.45785,
+      "era": "fixed_form",
+      "year": 1894
+    },
+    {
+      "author": "Matsuo Bash\u014d",
+      "n": 4,
+      "mean_std_s2": 6.5794250000000005,
+      "mean_avg_s2": 1.50635,
+      "era": "haiku",
+      "year": 1686
+    },
+    {
+      "author": "Agha Shahid Ali",
+      "n": 2,
+      "mean_std_s2": 6.4428,
+      "mean_avg_s2": 0.8873500000000001,
+      "era": "postcolonial",
+      "year": 1987
+    },
+    {
+      "author": "William Ernest Henley",
+      "n": 2,
+      "mean_std_s2": 6.3622499999999995,
+      "mean_avg_s2": 0.7475,
+      "era": "fixed_form",
+      "year": 1891
+    },
+    {
+      "author": "Heather McHugh",
+      "n": 2,
+      "mean_std_s2": 6.24005,
+      "mean_avg_s2": 0.57535,
+      "era": "ghazal",
+      "year": 1994
+    },
+    {
+      "author": "Traditional (Scottish ballad)",
+      "n": 5,
+      "mean_std_s2": 6.092,
+      "mean_avg_s2": 0.75612,
+      "era": "ballad",
+      "year": 1800
+    },
+    {
+      "author": "Edgar Allan Poe",
+      "n": 2,
+      "mean_std_s2": 6.0479,
+      "mean_avg_s2": 0.15289999999999998,
+      "era": "19th_century",
+      "year": 1845
+    },
+    {
+      "author": "Robert Burns",
+      "n": 2,
+      "mean_std_s2": 5.9833,
+      "mean_avg_s2": 0.39075,
+      "era": "romantic",
+      "year": 1794
+    },
+    {
+      "author": "Thomas Hardy",
+      "n": 6,
+      "mean_std_s2": 5.92375,
+      "mean_avg_s2": 1.0389333333333333,
+      "era": "victorian",
+      "year": 1912
+    },
+    {
+      "author": "Joy Harjo",
+      "n": 3,
+      "mean_std_s2": 5.717866666666667,
+      "mean_avg_s2": 0.5573666666666667,
+      "era": "postcolonial",
+      "year": 1983
+    },
+    {
+      "author": "Marianne Moore",
+      "n": 2,
+      "mean_std_s2": 5.56445,
+      "mean_avg_s2": 0.56555,
+      "era": "modernist",
+      "year": 1921
+    },
+    {
+      "author": "Emily Dickinson",
+      "n": 7,
+      "mean_std_s2": 5.547471428571429,
+      "mean_avg_s2": 0.6785,
+      "era": "19th_century",
+      "year": 1863
+    },
+    {
+      "author": "Gerard Manley Hopkins",
+      "n": 6,
+      "mean_std_s2": 5.466083333333334,
+      "mean_avg_s2": 0.46353333333333335,
+      "era": "victorian",
+      "year": 1877
+    },
+    {
+      "author": "Yosa Buson",
+      "n": 2,
+      "mean_std_s2": 5.425,
+      "mean_avg_s2": 0.55965,
+      "era": "haiku",
+      "year": 1780
+    },
+    {
+      "author": "Rudyard Kipling",
+      "n": 2,
+      "mean_std_s2": 5.4193999999999996,
+      "mean_avg_s2": 0.10055,
+      "era": "fixed_form",
+      "year": 1896
+    },
+    {
+      "author": "Adelaide Crapsey",
+      "n": 2,
+      "mean_std_s2": 5.31135,
+      "mean_avg_s2": 0.2423,
+      "era": "imagist",
+      "year": 1915
+    },
+    {
+      "author": "William Blake",
+      "n": 7,
+      "mean_std_s2": 5.257057142857143,
+      "mean_avg_s2": 0.13397142857142857,
+      "era": "romantic",
+      "year": 1794
+    },
+    {
+      "author": "Allen Ginsberg",
+      "n": 2,
+      "mean_std_s2": 5.23365,
+      "mean_avg_s2": 1.03065,
+      "era": "beat",
+      "year": 1956
+    },
+    {
+      "author": "Alfred, Lord Tennyson",
+      "n": 5,
+      "mean_std_s2": 5.20112,
+      "mean_avg_s2": 0.19466,
+      "era": "victorian",
+      "year": 1847
+    },
+    {
+      "author": "Alfred Lord Tennyson",
+      "n": 3,
+      "mean_std_s2": 5.189133333333333,
+      "mean_avg_s2": 0.27326666666666666,
+      "era": "victorian",
+      "year": 1833
+    },
+    {
+      "author": "Christian B\u00f6k",
+      "n": 2,
+      "mean_std_s2": 5.128349999999999,
+      "mean_avg_s2": 1.05195,
+      "era": "oulipo",
+      "year": 2001
+    },
+    {
+      "author": "George Herbert",
+      "n": 2,
+      "mean_std_s2": 5.00975,
+      "mean_avg_s2": 0.26030000000000003,
+      "era": "metaphysical",
+      "year": 1633
+    },
+    {
+      "author": "Wallace Stevens",
+      "n": 3,
+      "mean_std_s2": 4.9767,
+      "mean_avg_s2": 0.12923333333333337,
+      "era": "modernist",
+      "year": 1919
+    },
+    {
+      "author": "Dante Gabriel Rossetti",
+      "n": 2,
+      "mean_std_s2": 4.965,
+      "mean_avg_s2": 0.26630000000000004,
+      "era": "fixed_form",
+      "year": 1870
+    },
+    {
+      "author": "Robert Frost",
+      "n": 2,
+      "mean_std_s2": 4.9641,
+      "mean_avg_s2": 0.4491,
+      "era": "modernist",
+      "year": 1916
+    },
+    {
+      "author": "Gottfried Benn",
+      "n": 2,
+      "mean_std_s2": 4.9533000000000005,
+      "mean_avg_s2": 0.294,
+      "era": "german_expressionist",
+      "year": 1912
+    },
+    {
+      "author": "Anne Sexton",
+      "n": 2,
+      "mean_std_s2": 4.921950000000001,
+      "mean_avg_s2": -0.1355,
+      "era": "confessional",
+      "year": 1962
+    },
+    {
+      "author": "John Donne",
+      "n": 2,
+      "mean_std_s2": 4.84905,
+      "mean_avg_s2": -0.02510000000000001,
+      "era": "metaphysical",
+      "year": 1633
+    },
+    {
+      "author": "Gregory Corso",
+      "n": 2,
+      "mean_std_s2": 4.84055,
+      "mean_avg_s2": 0.42885,
+      "era": "beat",
+      "year": 1958
+    },
+    {
+      "author": "John Keats",
+      "n": 9,
+      "mean_std_s2": 4.835077777777777,
+      "mean_avg_s2": 0.13113333333333332,
+      "era": "romantic",
+      "year": 1819
+    },
+    {
+      "author": "Austin Dobson",
+      "n": 2,
+      "mean_std_s2": 4.76815,
+      "mean_avg_s2": 0.011749999999999983,
+      "era": "fixed_form",
+      "year": 1893
+    },
+    {
+      "author": "Frank O'Hara",
+      "n": 3,
+      "mean_std_s2": 4.7526,
+      "mean_avg_s2": 0.3625333333333333,
+      "era": "new_york_school",
+      "year": 1957
+    },
+    {
+      "author": "Wilfred Owen",
+      "n": 2,
+      "mean_std_s2": 4.6388,
+      "mean_avg_s2": 0.08085,
+      "era": "war_poetry",
+      "year": 1917
+    },
+    {
+      "author": "Amy Lowell",
+      "n": 2,
+      "mean_std_s2": 4.57455,
+      "mean_avg_s2": -0.1159,
+      "era": "imagist",
+      "year": 1914
+    },
+    {
+      "author": "Percy Bysshe Shelley",
+      "n": 4,
+      "mean_std_s2": 4.56515,
+      "mean_avg_s2": 0.11195000000000002,
+      "era": "romantic",
+      "year": 1818
+    },
+    {
+      "author": "Pablo Neruda",
+      "n": 2,
+      "mean_std_s2": 4.55145,
+      "mean_avg_s2": 0.15865,
+      "era": "surrealist",
+      "year": 1935
+    },
+    {
+      "author": "W.B. Yeats",
+      "n": 3,
+      "mean_std_s2": 4.5492,
+      "mean_avg_s2": -0.03763333333333333,
+      "era": "modernist",
+      "year": 1920
+    },
+    {
+      "author": "Walt Whitman",
+      "n": 9,
+      "mean_std_s2": 4.488822222222222,
+      "mean_avg_s2": -0.02008888888888888,
+      "era": "19th_century",
+      "year": 1855
+    },
+    {
+      "author": "Algernon Charles Swinburne",
+      "n": 2,
+      "mean_std_s2": 4.4801,
+      "mean_avg_s2": 0.14845,
+      "era": "ekphrastic",
+      "year": 1866
+    },
+    {
+      "author": "John Ashbery",
+      "n": 16,
+      "mean_std_s2": 4.47393125,
+      "mean_avg_s2": -0.283575,
+      "era": "new_york_school",
+      "year": 1975
+    },
+    {
+      "author": "Georg Heym",
+      "n": 2,
+      "mean_std_s2": 4.45565,
+      "mean_avg_s2": 0.40145,
+      "era": "german_expressionist",
+      "year": 1910
+    },
+    {
+      "author": "T.S. Eliot",
+      "n": 5,
+      "mean_std_s2": 4.418,
+      "mean_avg_s2": 0.019239999999999997,
+      "era": "modernist",
+      "year": 1915
+    },
+    {
+      "author": "John Milton",
+      "n": 2,
+      "mean_std_s2": 4.33455,
+      "mean_avg_s2": 0.028200000000000003,
+      "era": "victorian",
+      "year": 1673
+    },
+    {
+      "author": "Claudia Rankine",
+      "n": 2,
+      "mean_std_s2": 4.25395,
+      "mean_avg_s2": -0.0019999999999999983,
+      "era": "contemporary",
+      "year": 2014
+    },
+    {
+      "author": "Matthew Arnold",
+      "n": 2,
+      "mean_std_s2": 4.15895,
+      "mean_avg_s2": 0.053450000000000004,
+      "era": "19th_century",
+      "year": 1867
+    },
+    {
+      "author": "Robert Browning",
+      "n": 7,
+      "mean_std_s2": 4.103085714285714,
+      "mean_avg_s2": -0.043971428571428564,
+      "era": "victorian",
+      "year": 1842
+    },
+    {
+      "author": "Countee Cullen",
+      "n": 2,
+      "mean_std_s2": 4.021599999999999,
+      "mean_avg_s2": -0.12940000000000002,
+      "era": "harlem_renaissance",
+      "year": 1925
+    },
+    {
+      "author": "Gertrude Stein",
+      "n": 4,
+      "mean_std_s2": 3.99475,
+      "mean_avg_s2": -0.28915,
+      "era": "modernist",
+      "year": 1913
+    },
+    {
+      "author": "Alexander Pope",
+      "n": 3,
+      "mean_std_s2": 3.9587,
+      "mean_avg_s2": -0.22486666666666666,
+      "era": "18th_century",
+      "year": 1711
+    },
+    {
+      "author": "Lawrence Ferlinghetti",
+      "n": 2,
+      "mean_std_s2": 3.9368499999999997,
+      "mean_avg_s2": -0.07995,
+      "era": "beat",
+      "year": 1958
+    },
+    {
+      "author": "Lucille Clifton",
+      "n": 3,
+      "mean_std_s2": 3.912233333333333,
+      "mean_avg_s2": -0.3576333333333333,
+      "era": "contemporary",
+      "year": 2000
+    },
+    {
+      "author": "Ben Jonson",
+      "n": 2,
+      "mean_std_s2": 3.8419999999999996,
+      "mean_avg_s2": -0.36920000000000003,
+      "era": "early_modern",
+      "year": 1616
+    },
+    {
+      "author": "Christina Rossetti",
+      "n": 2,
+      "mean_std_s2": 3.7361,
+      "mean_avg_s2": -0.0364,
+      "era": "victorian",
+      "year": 1849
+    },
+    {
+      "author": "Charles Bernstein",
+      "n": 2,
+      "mean_std_s2": 3.72765,
+      "mean_avg_s2": -0.60715,
+      "era": "language",
+      "year": 1981
+    },
+    {
+      "author": "Georges Perec",
+      "n": 2,
+      "mean_std_s2": 3.58705,
+      "mean_avg_s2": -0.3099,
+      "era": "oulipo",
+      "year": 1969
+    },
+    {
+      "author": "William Shakespeare",
+      "n": 3,
+      "mean_std_s2": 3.5138333333333334,
+      "mean_avg_s2": -0.6182,
+      "era": "victorian",
+      "year": 1609
+    },
+    {
+      "author": "Christopher Smart",
+      "n": 2,
+      "mean_std_s2": 3.3701499999999998,
+      "mean_avg_s2": -0.34835,
+      "era": "18th_century",
+      "year": 1763
+    },
+    {
+      "author": "Russell Edson",
+      "n": 2,
+      "mean_std_s2": 3.2001,
+      "mean_avg_s2": -0.3867,
+      "era": "prose_poetry",
+      "year": 1973
+    }
+  ]
+}
