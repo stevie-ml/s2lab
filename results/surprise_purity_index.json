@@ -1,0 +1,1447 @@
+{
+  "confident_threshold": 5.0863,
+  "overall_spi": 0.2572,
+  "n_total_tokens": 49373,
+  "n_high_s2": 7842,
+  "n_confident_high_s2": 2017,
+  "global_s2_mean": 0.4175,
+  "global_spi_mean": 0.2577,
+  "by_era": [
+    {
+      "era": "found_poetry",
+      "n_poems": 8,
+      "mean_spi": 0.4718,
+      "mean_avg_s2": -0.1922
+    },
+    {
+      "era": "prose_poetry",
+      "n_poems": 12,
+      "mean_spi": 0.452,
+      "mean_avg_s2": -0.1799
+    },
+    {
+      "era": "nursery_rhyme",
+      "n_poems": 1,
+      "mean_spi": 0.4516,
+      "mean_avg_s2": 0.1041
+    },
+    {
+      "era": "control",
+      "n_poems": 3,
+      "mean_spi": 0.4444,
+      "mean_avg_s2": -1.487
+    },
+    {
+      "era": "song_lyrics",
+      "n_poems": 3,
+      "mean_spi": 0.419,
+      "mean_avg_s2": 0.0922
+    },
+    {
+      "era": "biblical",
+      "n_poems": 8,
+      "mean_spi": 0.3746,
+      "mean_avg_s2": -0.3909
+    },
+    {
+      "era": "double_dactyl",
+      "n_poems": 5,
+      "mean_spi": 0.3733,
+      "mean_avg_s2": 1.2129
+    },
+    {
+      "era": "contemporary",
+      "n_poems": 16,
+      "mean_spi": 0.3695,
+      "mean_avg_s2": 0.3489
+    },
+    {
+      "era": "imagist",
+      "n_poems": 5,
+      "mean_spi": 0.3601,
+      "mean_avg_s2": 0.7021
+    },
+    {
+      "era": "rondeau",
+      "n_poems": 1,
+      "mean_spi": 0.3529,
+      "mean_avg_s2": 0.3913
+    },
+    {
+      "era": "beat",
+      "n_poems": 6,
+      "mean_spi": 0.3503,
+      "mean_avg_s2": 0.4599
+    },
+    {
+      "era": "oulipo",
+      "n_poems": 7,
+      "mean_spi": 0.3445,
+      "mean_avg_s2": 0.2106
+    },
+    {
+      "era": "postcolonial",
+      "n_poems": 6,
+      "mean_spi": 0.3443,
+      "mean_avg_s2": 0.4917
+    },
+    {
+      "era": "haiku",
+      "n_poems": 14,
+      "mean_spi": 0.3427,
+      "mean_avg_s2": 1.632
+    },
+    {
+      "era": "black_arts",
+      "n_poems": 1,
+      "mean_spi": 0.3333,
+      "mean_avg_s2": 0.6496
+    },
+    {
+      "era": "cliche_control",
+      "n_poems": 3,
+      "mean_spi": 0.3313,
+      "mean_avg_s2": -0.0343
+    },
+    {
+      "era": "parody_original",
+      "n_poems": 3,
+      "mean_spi": 0.3171,
+      "mean_avg_s2": 0.6507
+    },
+    {
+      "era": "language",
+      "n_poems": 6,
+      "mean_spi": 0.3049,
+      "mean_avg_s2": -0.2064
+    },
+    {
+      "era": "ghazal",
+      "n_poems": 2,
+      "mean_spi": 0.3013,
+      "mean_avg_s2": 0.5754
+    },
+    {
+      "era": "ballad",
+      "n_poems": 6,
+      "mean_spi": 0.2939,
+      "mean_avg_s2": 0.8144
+    },
+    {
+      "era": "classical_chinese",
+      "n_poems": 4,
+      "mean_spi": 0.2919,
+      "mean_avg_s2": -0.2181
+    },
+    {
+      "era": "surrealist",
+      "n_poems": 8,
+      "mean_spi": 0.2862,
+      "mean_avg_s2": 0.1615
+    },
+    {
+      "era": "fixed_form",
+      "n_poems": 8,
+      "mean_spi": 0.2814,
+      "mean_avg_s2": 0.5994
+    },
+    {
+      "era": "mid_century",
+      "n_poems": 4,
+      "mean_spi": 0.2813,
+      "mean_avg_s2": 1.1982
+    },
+    {
+      "era": "parody",
+      "n_poems": 4,
+      "mean_spi": 0.2778,
+      "mean_avg_s2": 0.8048
+    },
+    {
+      "era": "spoken_word",
+      "n_poems": 3,
+      "mean_spi": 0.2708,
+      "mean_avg_s2": -0.1738
+    },
+    {
+      "era": "19th_century",
+      "n_poems": 17,
+      "mean_spi": 0.2667,
+      "mean_avg_s2": 0.2861
+    },
+    {
+      "era": "german_symbolist",
+      "n_poems": 3,
+      "mean_spi": 0.2581,
+      "mean_avg_s2": 0.4188
+    },
+    {
+      "era": "new_york_school",
+      "n_poems": 20,
+      "mean_spi": 0.2494,
+      "mean_avg_s2": -0.1886
+    },
+    {
+      "era": "villanelle",
+      "n_poems": 2,
+      "mean_spi": 0.2417,
+      "mean_avg_s2": 1.1077
+    },
+    {
+      "era": "ancient",
+      "n_poems": 3,
+      "mean_spi": 0.2397,
+      "mean_avg_s2": 0.1125
+    },
+    {
+      "era": "harlem_renaissance",
+      "n_poems": 6,
+      "mean_spi": 0.2372,
+      "mean_avg_s2": 0.4916
+    },
+    {
+      "era": "german_modernist",
+      "n_poems": 2,
+      "mean_spi": 0.2359,
+      "mean_avg_s2": 1.1209
+    },
+    {
+      "era": "victorian",
+      "n_poems": 29,
+      "mean_spi": 0.2198,
+      "mean_avg_s2": 0.3819
+    },
+    {
+      "era": "elegy",
+      "n_poems": 8,
+      "mean_spi": 0.2171,
+      "mean_avg_s2": 0.2944
+    },
+    {
+      "era": "latin_american",
+      "n_poems": 4,
+      "mean_spi": 0.216,
+      "mean_avg_s2": 0.0813
+    },
+    {
+      "era": "dramatic_monologue",
+      "n_poems": 7,
+      "mean_spi": 0.216,
+      "mean_avg_s2": -0.0918
+    },
+    {
+      "era": "protest_political",
+      "n_poems": 2,
+      "mean_spi": 0.2122,
+      "mean_avg_s2": 0.3565
+    },
+    {
+      "era": "concrete",
+      "n_poems": 3,
+      "mean_spi": 0.2121,
+      "mean_avg_s2": 1.5101
+    },
+    {
+      "era": "limerick",
+      "n_poems": 10,
+      "mean_spi": 0.2058,
+      "mean_avg_s2": -0.0619
+    },
+    {
+      "era": "confessional",
+      "n_poems": 6,
+      "mean_spi": 0.2027,
+      "mean_avg_s2": 0.5034
+    },
+    {
+      "era": "german_expressionist",
+      "n_poems": 6,
+      "mean_spi": 0.2027,
+      "mean_avg_s2": 0.44
+    },
+    {
+      "era": "japanese_classical",
+      "n_poems": 2,
+      "mean_spi": 0.2,
+      "mean_avg_s2": -0.1513
+    },
+    {
+      "era": "triolet",
+      "n_poems": 2,
+      "mean_spi": 0.2,
+      "mean_avg_s2": -0.4379
+    },
+    {
+      "era": "ekphrastic",
+      "n_poems": 8,
+      "mean_spi": 0.1993,
+      "mean_avg_s2": -0.0436
+    },
+    {
+      "era": "modernist",
+      "n_poems": 27,
+      "mean_spi": 0.1988,
+      "mean_avg_s2": 0.7781
+    },
+    {
+      "era": "romantic",
+      "n_poems": 21,
+      "mean_spi": 0.195,
+      "mean_avg_s2": 0.1923
+    },
+    {
+      "era": "war_poetry",
+      "n_poems": 3,
+      "mean_spi": 0.191,
+      "mean_avg_s2": 0.189
+    },
+    {
+      "era": "old_english",
+      "n_poems": 5,
+      "mean_spi": 0.1866,
+      "mean_avg_s2": -0.0735
+    },
+    {
+      "era": "early_modern",
+      "n_poems": 7,
+      "mean_spi": 0.1726,
+      "mean_avg_s2": 0.089
+    },
+    {
+      "era": "18th_century",
+      "n_poems": 8,
+      "mean_spi": 0.1685,
+      "mean_avg_s2": -0.1709
+    },
+    {
+      "era": "pantoum",
+      "n_poems": 1,
+      "mean_spi": 0.1667,
+      "mean_avg_s2": 0.0685
+    },
+    {
+      "era": "nonsense",
+      "n_poems": 2,
+      "mean_spi": 0.1534,
+      "mean_avg_s2": 0.6207
+    },
+    {
+      "era": "metaphysical",
+      "n_poems": 4,
+      "mean_spi": 0.1417,
+      "mean_avg_s2": -0.1711
+    },
+    {
+      "era": "persian",
+      "n_poems": 2,
+      "mean_spi": 0.1375,
+      "mean_avg_s2": 0.8416
+    },
+    {
+      "era": "clerihew",
+      "n_poems": 10,
+      "mean_spi": 0.1287,
+      "mean_avg_s2": 1.5518
+    },
+    {
+      "era": "deep_image",
+      "n_poems": 1,
+      "mean_spi": 0.0667,
+      "mean_avg_s2": 0.2506
+    },
+    {
+      "era": "korean_modernist",
+      "n_poems": 1,
+      "mean_spi": 0.0625,
+      "mean_avg_s2": 0.7491
+    }
+  ],
+  "by_poet": [
+    {
+      "author": "Kobayashi Issa",
+      "era": "haiku",
+      "n_poems": 3,
+      "mean_spi": 0.6667,
+      "mean_avg_s2": 1.1534
+    },
+    {
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "n_poems": 4,
+      "mean_spi": 0.5527,
+      "mean_avg_s2": -0.0325
+    },
+    {
+      "author": "Russell Edson",
+      "era": "prose_poetry",
+      "n_poems": 2,
+      "mean_spi": 0.5285,
+      "mean_avg_s2": -0.3867
+    },
+    {
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "n_poems": 2,
+      "mean_spi": 0.4958,
+      "mean_avg_s2": -0.0799
+    },
+    {
+      "author": "Charles Bernstein",
+      "era": "language",
+      "n_poems": 2,
+      "mean_spi": 0.4834,
+      "mean_avg_s2": -0.6071
+    },
+    {
+      "author": "Control",
+      "era": "control",
+      "n_poems": 3,
+      "mean_spi": 0.4444,
+      "mean_avg_s2": -1.487
+    },
+    {
+      "author": "Joy Harjo",
+      "era": "postcolonial",
+      "n_poems": 3,
+      "mean_spi": 0.4381,
+      "mean_avg_s2": 0.5574
+    },
+    {
+      "author": "Claudia Rankine",
+      "era": "contemporary",
+      "n_poems": 2,
+      "mean_spi": 0.4083,
+      "mean_avg_s2": -0.002
+    },
+    {
+      "author": "Frank O'Hara",
+      "era": "new_york_school",
+      "n_poems": 3,
+      "mean_spi": 0.4048,
+      "mean_avg_s2": 0.3625
+    },
+    {
+      "author": "Synthetic (scientific register test case)",
+      "era": "contemporary",
+      "n_poems": 3,
+      "mean_spi": 0.3989,
+      "mean_avg_s2": 1.5997
+    },
+    {
+      "author": "Georges Perec",
+      "era": "oulipo",
+      "n_poems": 2,
+      "mean_spi": 0.3934,
+      "mean_avg_s2": -0.3099
+    },
+    {
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "n_poems": 2,
+      "mean_spi": 0.3848,
+      "mean_avg_s2": 0.5655
+    },
+    {
+      "author": "Adelaide Crapsey",
+      "era": "imagist",
+      "n_poems": 2,
+      "mean_spi": 0.375,
+      "mean_avg_s2": 0.2423
+    },
+    {
+      "author": "Synthetic (double dactyl test case)",
+      "era": "double_dactyl",
+      "n_poems": 5,
+      "mean_spi": 0.3733,
+      "mean_avg_s2": 1.2129
+    },
+    {
+      "author": "Edwin Arlington Robinson",
+      "era": "fixed_form",
+      "n_poems": 2,
+      "mean_spi": 0.3667,
+      "mean_avg_s2": 1.4579
+    },
+    {
+      "author": "Matsuo Bash\u014d",
+      "era": "haiku",
+      "n_poems": 4,
+      "mean_spi": 0.3625,
+      "mean_avg_s2": 1.5064
+    },
+    {
+      "author": "Christina Rossetti",
+      "era": "victorian",
+      "n_poems": 2,
+      "mean_spi": 0.3558,
+      "mean_avg_s2": -0.0364
+    },
+    {
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "n_poems": 7,
+      "mean_spi": 0.3533,
+      "mean_avg_s2": -0.4165
+    },
+    {
+      "author": "Pablo Neruda",
+      "era": "surrealist",
+      "n_poems": 2,
+      "mean_spi": 0.3519,
+      "mean_avg_s2": 0.1587
+    },
+    {
+      "author": "Isaac Watts",
+      "era": "parody_original",
+      "n_poems": 2,
+      "mean_spi": 0.3405,
+      "mean_avg_s2": 0.4907
+    },
+    {
+      "author": "Masaoka Shiki",
+      "era": "haiku",
+      "n_poems": 2,
+      "mean_spi": 0.3333,
+      "mean_avg_s2": 1.9588
+    },
+    {
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "n_poems": 3,
+      "mean_spi": 0.3313,
+      "mean_avg_s2": -0.0343
+    },
+    {
+      "author": "Christopher Smart",
+      "era": "18th_century",
+      "n_poems": 2,
+      "mean_spi": 0.3206,
+      "mean_avg_s2": -0.3483
+    },
+    {
+      "author": "Heather McHugh",
+      "era": "ghazal",
+      "n_poems": 2,
+      "mean_spi": 0.3013,
+      "mean_avg_s2": 0.5754
+    },
+    {
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "n_poems": 4,
+      "mean_spi": 0.3002,
+      "mean_avg_s2": -0.2892
+    },
+    {
+      "author": "Matthew Arnold",
+      "era": "19th_century",
+      "n_poems": 2,
+      "mean_spi": 0.2954,
+      "mean_avg_s2": 0.0535
+    },
+    {
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "n_poems": 5,
+      "mean_spi": 0.2948,
+      "mean_avg_s2": 0.1947
+    },
+    {
+      "author": "Edgar Allan Poe",
+      "era": "19th_century",
+      "n_poems": 2,
+      "mean_spi": 0.2943,
+      "mean_avg_s2": 0.1529
+    },
+    {
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "n_poems": 5,
+      "mean_spi": 0.2918,
+      "mean_avg_s2": 0.7561
+    },
+    {
+      "author": "William Ernest Henley",
+      "era": "fixed_form",
+      "n_poems": 2,
+      "mean_spi": 0.2886,
+      "mean_avg_s2": 0.7475
+    },
+    {
+      "author": "Georg Heym",
+      "era": "german_expressionist",
+      "n_poems": 2,
+      "mean_spi": 0.2858,
+      "mean_avg_s2": 0.4014
+    },
+    {
+      "author": "Gregory Corso",
+      "era": "beat",
+      "n_poems": 2,
+      "mean_spi": 0.2857,
+      "mean_avg_s2": 0.4289
+    },
+    {
+      "author": "Langston Hughes",
+      "era": "harlem_renaissance",
+      "n_poems": 3,
+      "mean_spi": 0.2782,
+      "mean_avg_s2": 1.085
+    },
+    {
+      "author": "Christian B\u00f6k",
+      "era": "oulipo",
+      "n_poems": 2,
+      "mean_spi": 0.2767,
+      "mean_avg_s2": 1.0519
+    },
+    {
+      "author": "Lucille Clifton",
+      "era": "contemporary",
+      "n_poems": 3,
+      "mean_spi": 0.2708,
+      "mean_avg_s2": -0.3576
+    },
+    {
+      "author": "Allen Ginsberg",
+      "era": "beat",
+      "n_poems": 2,
+      "mean_spi": 0.2692,
+      "mean_avg_s2": 1.0307
+    },
+    {
+      "author": "Austin Dobson",
+      "era": "fixed_form",
+      "n_poems": 2,
+      "mean_spi": 0.2666,
+      "mean_avg_s2": 0.0117
+    },
+    {
+      "author": "Anonymous",
+      "era": "limerick",
+      "n_poems": 3,
+      "mean_spi": 0.2639,
+      "mean_avg_s2": -0.1298
+    },
+    {
+      "author": "Stefan George",
+      "era": "german_symbolist",
+      "n_poems": 3,
+      "mean_spi": 0.2581,
+      "mean_avg_s2": 0.4188
+    },
+    {
+      "author": "Lewis Carroll",
+      "era": "parody",
+      "n_poems": 5,
+      "mean_spi": 0.2573,
+      "mean_avg_s2": 0.6818
+    },
+    {
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "n_poems": 9,
+      "mean_spi": 0.2543,
+      "mean_avg_s2": -0.0201
+    },
+    {
+      "author": "Robert Frost",
+      "era": "modernist",
+      "n_poems": 2,
+      "mean_spi": 0.2503,
+      "mean_avg_s2": 0.4491
+    },
+    {
+      "author": "Amy Lowell",
+      "era": "imagist",
+      "n_poems": 2,
+      "mean_spi": 0.2396,
+      "mean_avg_s2": -0.1159
+    },
+    {
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "n_poems": 2,
+      "mean_spi": 0.2364,
+      "mean_avg_s2": 0.9467
+    },
+    {
+      "author": "Rudyard Kipling",
+      "era": "fixed_form",
+      "n_poems": 2,
+      "mean_spi": 0.2361,
+      "mean_avg_s2": 0.1006
+    },
+    {
+      "author": "Rainer Maria Rilke",
+      "era": "german_modernist",
+      "n_poems": 2,
+      "mean_spi": 0.2359,
+      "mean_avg_s2": 1.1209
+    },
+    {
+      "author": "William Blake",
+      "era": "romantic",
+      "n_poems": 7,
+      "mean_spi": 0.2347,
+      "mean_avg_s2": 0.134
+    },
+    {
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "n_poems": 4,
+      "mean_spi": 0.2331,
+      "mean_avg_s2": 0.112
+    },
+    {
+      "author": "Robert Browning",
+      "era": "victorian",
+      "n_poems": 7,
+      "mean_spi": 0.228,
+      "mean_avg_s2": -0.044
+    },
+    {
+      "author": "Edward Lear",
+      "era": "limerick",
+      "n_poems": 3,
+      "mean_spi": 0.2278,
+      "mean_avg_s2": 0.4273
+    },
+    {
+      "author": "Agha Shahid Ali",
+      "era": "postcolonial",
+      "n_poems": 2,
+      "mean_spi": 0.2207,
+      "mean_avg_s2": 0.8874
+    },
+    {
+      "author": "T.S. Eliot",
+      "era": "modernist",
+      "n_poems": 5,
+      "mean_spi": 0.2149,
+      "mean_avg_s2": 0.0192
+    },
+    {
+      "author": "Dante Gabriel Rossetti",
+      "era": "fixed_form",
+      "n_poems": 2,
+      "mean_spi": 0.2143,
+      "mean_avg_s2": 0.2663
+    },
+    {
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "n_poems": 7,
+      "mean_spi": 0.2135,
+      "mean_avg_s2": 0.6785
+    },
+    {
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "n_poems": 6,
+      "mean_spi": 0.2117,
+      "mean_avg_s2": 1.0389
+    },
+    {
+      "author": "Robert Burns",
+      "era": "romantic",
+      "n_poems": 2,
+      "mean_spi": 0.2098,
+      "mean_avg_s2": 0.3907
+    },
+    {
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "n_poems": 16,
+      "mean_spi": 0.2078,
+      "mean_avg_s2": -0.2836
+    },
+    {
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "n_poems": 3,
+      "mean_spi": 0.2047,
+      "mean_avg_s2": 1.5766
+    },
+    {
+      "author": "Wallace Stevens",
+      "era": "modernist",
+      "n_poems": 3,
+      "mean_spi": 0.2032,
+      "mean_avg_s2": 0.1292
+    },
+    {
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "n_poems": 6,
+      "mean_spi": 0.1974,
+      "mean_avg_s2": 0.4635
+    },
+    {
+      "author": "Thomas Wyatt",
+      "era": "early_modern",
+      "n_poems": 2,
+      "mean_spi": 0.1898,
+      "mean_avg_s2": 0.4771
+    },
+    {
+      "author": "Anne Sexton",
+      "era": "confessional",
+      "n_poems": 2,
+      "mean_spi": 0.1875,
+      "mean_avg_s2": -0.1355
+    },
+    {
+      "author": "Synthetic (clerihew test case)",
+      "era": "clerihew",
+      "n_poems": 7,
+      "mean_spi": 0.1839,
+      "mean_avg_s2": 1.6813
+    },
+    {
+      "author": "Countee Cullen",
+      "era": "harlem_renaissance",
+      "n_poems": 2,
+      "mean_spi": 0.1805,
+      "mean_avg_s2": -0.1294
+    },
+    {
+      "author": "W.B. Yeats",
+      "era": "modernist",
+      "n_poems": 3,
+      "mean_spi": 0.1798,
+      "mean_avg_s2": -0.0376
+    },
+    {
+      "author": "Georg Trakl",
+      "era": "german_expressionist",
+      "n_poems": 2,
+      "mean_spi": 0.1711,
+      "mean_avg_s2": 0.6247
+    },
+    {
+      "author": "Wilfred Owen",
+      "era": "war_poetry",
+      "n_poems": 2,
+      "mean_spi": 0.1711,
+      "mean_avg_s2": 0.0809
+    },
+    {
+      "author": "William Shakespeare",
+      "era": "victorian",
+      "n_poems": 3,
+      "mean_spi": 0.1705,
+      "mean_avg_s2": -0.6182
+    },
+    {
+      "author": "Gwendolyn Brooks",
+      "era": "mid_century",
+      "n_poems": 2,
+      "mean_spi": 0.1667,
+      "mean_avg_s2": 2.1811
+    },
+    {
+      "author": "George Herbert",
+      "era": "metaphysical",
+      "n_poems": 2,
+      "mean_spi": 0.1515,
+      "mean_avg_s2": 0.2603
+    },
+    {
+      "author": "Gottfried Benn",
+      "era": "german_expressionist",
+      "n_poems": 2,
+      "mean_spi": 0.1513,
+      "mean_avg_s2": 0.294
+    },
+    {
+      "author": "John Keats",
+      "era": "romantic",
+      "n_poems": 9,
+      "mean_spi": 0.1442,
+      "mean_avg_s2": 0.1311
+    },
+    {
+      "author": "Alfred Lord Tennyson",
+      "era": "victorian",
+      "n_poems": 3,
+      "mean_spi": 0.1415,
+      "mean_avg_s2": 0.2733
+    },
+    {
+      "author": "John Milton",
+      "era": "victorian",
+      "n_poems": 2,
+      "mean_spi": 0.1396,
+      "mean_avg_s2": 0.0282
+    },
+    {
+      "author": "Algernon Charles Swinburne",
+      "era": "ekphrastic",
+      "n_poems": 2,
+      "mean_spi": 0.1379,
+      "mean_avg_s2": 0.1484
+    },
+    {
+      "author": "Omar Khayyam (trans. FitzGerald, 1859)",
+      "era": "persian",
+      "n_poems": 2,
+      "mean_spi": 0.1375,
+      "mean_avg_s2": 0.8416
+    },
+    {
+      "author": "John Donne",
+      "era": "metaphysical",
+      "n_poems": 2,
+      "mean_spi": 0.1173,
+      "mean_avg_s2": -0.0251
+    },
+    {
+      "author": "Anonymous (trans. Hall)",
+      "era": "old_english",
+      "n_poems": 2,
+      "mean_spi": 0.1156,
+      "mean_avg_s2": -0.2661
+    },
+    {
+      "author": "Anonymous (limerick tradition)",
+      "era": "limerick",
+      "n_poems": 3,
+      "mean_spi": 0.1111,
+      "mean_avg_s2": -0.4856
+    },
+    {
+      "author": "Alexander Pope",
+      "era": "parody",
+      "n_poems": 4,
+      "mean_spi": 0.0945,
+      "mean_avg_s2": 0.0943
+    },
+    {
+      "author": "William Carlos Williams",
+      "era": "modernist",
+      "n_poems": 4,
+      "mean_spi": 0.0833,
+      "mean_avg_s2": 3.1029
+    },
+    {
+      "author": "Yosa Buson",
+      "era": "haiku",
+      "n_poems": 2,
+      "mean_spi": 0.0833,
+      "mean_avg_s2": 0.5596
+    },
+    {
+      "author": "Ernest Dowson",
+      "era": "fixed_form",
+      "n_poems": 2,
+      "mean_spi": 0.0833,
+      "mean_avg_s2": 0.7877
+    },
+    {
+      "author": "Carl Sandburg",
+      "era": "modernist",
+      "n_poems": 2,
+      "mean_spi": 0.0833,
+      "mean_avg_s2": 2.5402
+    },
+    {
+      "author": "Ben Jonson",
+      "era": "early_modern",
+      "n_poems": 2,
+      "mean_spi": 0.0714,
+      "mean_avg_s2": -0.3692
+    },
+    {
+      "author": "Edmund Clerihew Bentley",
+      "era": "clerihew",
+      "n_poems": 3,
+      "mean_spi": 0.0,
+      "mean_avg_s2": 1.2498
+    }
+  ],
+  "top_poems_by_spi": [
+    {
+      "title": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)",
+      "author": "Thomas Jefferson (found text)",
+      "era": "found_poetry",
+      "spi": 0.7857,
+      "high_s2_total": 14,
+      "avg_s2": 0.0965
+    },
+    {
+      "title": "On the Roof of Hell (Issa, translated)",
+      "author": "Kobayashi Issa",
+      "era": "haiku",
+      "spi": 0.75,
+      "high_s2_total": 4,
+      "avg_s2": 1.6155
+    },
+    {
+      "title": "Cooking Instructions (Found Poem from generic recipe prose)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "spi": 0.75,
+      "high_s2_total": 8,
+      "avg_s2": -0.6009
+    },
+    {
+      "title": "Crossing (excerpt)",
+      "author": "Rae Armantrout",
+      "era": "prose_poetry",
+      "spi": 0.7333,
+      "high_s2_total": 15,
+      "avg_s2": -0.3327
+    },
+    {
+      "title": "Yesterday (prose poem)",
+      "author": "W.S. Merwin",
+      "era": "prose_poetry",
+      "spi": 0.7143,
+      "high_s2_total": 7,
+      "avg_s2": -1.0256
+    },
+    {
+      "title": "Remember",
+      "author": "Joy Harjo",
+      "era": "postcolonial",
+      "spi": 0.6774,
+      "high_s2_total": 31,
+      "avg_s2": -0.2811
+    },
+    {
+      "title": "Night Sky with Exit Wounds (excerpt)",
+      "author": "Ocean Vuong",
+      "era": "contemporary",
+      "spi": 0.6667,
+      "high_s2_total": 3,
+      "avg_s2": -0.0839
+    },
+    {
+      "title": "Terms and Conditions (Found Poem from generic legal prose)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "spi": 0.6667,
+      "high_s2_total": 18,
+      "avg_s2": 0.3542
+    },
+    {
+      "title": "Alfred Lord Tennyson (Double Dactyl)",
+      "author": "Synthetic (double dactyl test case)",
+      "era": "double_dactyl",
+      "spi": 0.6667,
+      "high_s2_total": 3,
+      "avg_s2": 0.6386
+    },
+    {
+      "title": "For Spacious Skies",
+      "author": "Emmett Williams",
+      "era": "concrete",
+      "spi": 0.6364,
+      "high_s2_total": 11,
+      "avg_s2": 0.8064
+    },
+    {
+      "title": "Constantly Risking Absurdity",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "spi": 0.6316,
+      "high_s2_total": 19,
+      "avg_s2": -0.0775
+    },
+    {
+      "title": "One Art",
+      "author": "Elizabeth Bishop",
+      "era": "mid_century",
+      "spi": 0.625,
+      "high_s2_total": 8,
+      "avg_s2": 1.2159
+    },
+    {
+      "title": "There Was a Young Man of Japan",
+      "author": "Anonymous",
+      "era": "limerick",
+      "spi": 0.625,
+      "high_s2_total": 8,
+      "avg_s2": 0.5423
+    },
+    {
+      "title": "The Listeners",
+      "author": "Walter de la Mare",
+      "era": "19th_century",
+      "spi": 0.6,
+      "high_s2_total": 20,
+      "avg_s2": -0.1358
+    },
+    {
+      "title": "If I Told Him: A Completed Portrait of Picasso (excerpt)",
+      "author": "Gertrude Stein",
+      "era": "oulipo",
+      "spi": 0.6,
+      "high_s2_total": 40,
+      "avg_s2": 0.1527
+    },
+    {
+      "title": "Fragment 31 (translated)",
+      "author": "Sappho",
+      "era": "ancient",
+      "spi": 0.5833,
+      "high_s2_total": 12,
+      "avg_s2": 0.1851
+    },
+    {
+      "title": "Pillow",
+      "author": "Russell Edson",
+      "era": "prose_poetry",
+      "spi": 0.5833,
+      "high_s2_total": 12,
+      "avg_s2": -0.8543
+    },
+    {
+      "title": "Catalog of Unabashed Gratitude (excerpt)",
+      "author": "Ross Gay",
+      "era": "contemporary",
+      "spi": 0.5714,
+      "high_s2_total": 7,
+      "avg_s2": -0.3804
+    },
+    {
+      "title": "Oh Shenandoah",
+      "author": "Traditional (American sea chanty)",
+      "era": "song_lyrics",
+      "spi": 0.5714,
+      "high_s2_total": 21,
+      "avg_s2": 0.3372
+    },
+    {
+      "title": "How Doth the Little Crocodile",
+      "author": "Lewis Carroll",
+      "era": "parody",
+      "spi": 0.5714,
+      "high_s2_total": 7,
+      "avg_s2": 1.3849
+    },
+    {
+      "title": "Lorine's Work",
+      "author": "Lorine Niedecker",
+      "era": "imagist",
+      "spi": 0.5714,
+      "high_s2_total": 7,
+      "avg_s2": 3.2578
+    },
+    {
+      "title": "Psalm 121 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "spi": 0.55,
+      "high_s2_total": 20,
+      "avg_s2": -0.4133
+    },
+    {
+      "title": "Ghazal of the Better-Unbegun",
+      "author": "Heather McHugh",
+      "era": "ghazal",
+      "spi": 0.55,
+      "high_s2_total": 20,
+      "avg_s2": 0.6073
+    },
+    {
+      "title": "My Heart Burns for You (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "spi": 0.5455,
+      "high_s2_total": 11,
+      "avg_s2": 0.2626
+    },
+    {
+      "title": "Psalm 136 (KJV)",
+      "author": "Anonymous (KJV translation)",
+      "era": "biblical",
+      "spi": 0.5238,
+      "high_s2_total": 42,
+      "avg_s2": -0.2118
+    },
+    {
+      "title": "Incantation",
+      "author": "Lucille Clifton",
+      "era": "contemporary",
+      "spi": 0.5,
+      "high_s2_total": 6,
+      "avg_s2": -0.1797
+    },
+    {
+      "title": "Oread",
+      "author": "H.D. (Hilda Doolittle)",
+      "era": "modernist",
+      "spi": 0.5,
+      "high_s2_total": 6,
+      "avg_s2": 0.5052
+    },
+    {
+      "title": "The Jewel",
+      "author": "James Wright",
+      "era": "prose_poetry",
+      "spi": 0.5,
+      "high_s2_total": 6,
+      "avg_s2": -0.0824
+    },
+    {
+      "title": "Weather Observations (Found Poem from meteorological prose)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "spi": 0.5,
+      "high_s2_total": 14,
+      "avg_s2": -0.5679
+    },
+    {
+      "title": "The Sheds of Our Webs",
+      "author": "Charles Bernstein",
+      "era": "language",
+      "spi": 0.5,
+      "high_s2_total": 18,
+      "avg_s2": -0.6011
+    }
+  ],
+  "bottom_poems_by_spi": [
+    {
+      "title": "Mann und Frau gehn durch die Krebsbaracke (trans. Ward)",
+      "author": "Gottfried Benn",
+      "era": "german_expressionist",
+      "spi": 0.0526,
+      "high_s2_total": 19,
+      "avg_s2": 0.4604
+    },
+    {
+      "title": "Ghazal of the Better-Unbegun",
+      "author": "Heather McHugh",
+      "era": "ghazal",
+      "spi": 0.0526,
+      "high_s2_total": 19,
+      "avg_s2": 0.5434
+    },
+    {
+      "title": "Bonnie George Campbell",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "spi": 0.05,
+      "high_s2_total": 20,
+      "avg_s2": 1.547
+    },
+    {
+      "title": "On First Looking into Chapman's Homer",
+      "author": "John Keats",
+      "era": "romantic",
+      "spi": 0.037,
+      "high_s2_total": 27,
+      "avg_s2": -0.1383
+    },
+    {
+      "title": "On First Looking into Chapman's Homer",
+      "author": "John Keats",
+      "era": "ekphrastic",
+      "spi": 0.037,
+      "high_s2_total": 27,
+      "avg_s2": -0.1383
+    },
+    {
+      "title": "I Wandered Lonely as a Cloud",
+      "author": "William Wordsworth",
+      "era": "romantic",
+      "spi": 0.0,
+      "high_s2_total": 6,
+      "avg_s2": -0.398
+    },
+    {
+      "title": "I felt a Funeral, in my Brain",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "spi": 0.0,
+      "high_s2_total": 6,
+      "avg_s2": 0.4799
+    },
+    {
+      "title": "Some Trees",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "spi": 0.0,
+      "high_s2_total": 4,
+      "avg_s2": -0.5887
+    },
+    {
+      "title": "Ulysses (opening)",
+      "author": "Alfred Lord Tennyson",
+      "era": "victorian",
+      "spi": 0.0,
+      "high_s2_total": 14,
+      "avg_s2": 0.002
+    },
+    {
+      "title": "The Truth the Dead Know (opening)",
+      "author": "Anne Sexton",
+      "era": "confessional",
+      "spi": 0.0,
+      "high_s2_total": 5,
+      "avg_s2": -0.2904
+    },
+    {
+      "title": "This Is Just to Say",
+      "author": "William Carlos Williams",
+      "era": "modernist",
+      "spi": 0.0,
+      "high_s2_total": 3,
+      "avg_s2": 2.6119
+    },
+    {
+      "title": "Summer Grass (Bash\u014d, translated)",
+      "author": "Matsuo Bash\u014d",
+      "era": "haiku",
+      "spi": 0.0,
+      "high_s2_total": 3,
+      "avg_s2": 1.3622
+    },
+    {
+      "title": "Temple Bells (Buson, translated)",
+      "author": "Yosa Buson",
+      "era": "haiku",
+      "spi": 0.0,
+      "high_s2_total": 4,
+      "avg_s2": 0.058
+    },
+    {
+      "title": "Nobody (Wright)",
+      "author": "Richard Wright",
+      "era": "haiku",
+      "spi": 0.0,
+      "high_s2_total": 5,
+      "avg_s2": 2.028
+    },
+    {
+      "title": "Won't You Celebrate With Me",
+      "author": "Lucille Clifton",
+      "era": "spoken_word",
+      "spi": 0.0,
+      "high_s2_total": 15,
+      "avg_s2": -0.2758
+    },
+    {
+      "title": "The Sick Rose",
+      "author": "William Blake",
+      "era": "romantic",
+      "spi": 0.0,
+      "high_s2_total": 3,
+      "avg_s2": -0.9514
+    },
+    {
+      "title": "Song: To Celia",
+      "author": "Ben Jonson",
+      "era": "early_modern",
+      "spi": 0.0,
+      "high_s2_total": 7,
+      "avg_s2": -0.7035
+    },
+    {
+      "title": "Fog",
+      "author": "Carl Sandburg",
+      "era": "modernist",
+      "spi": 0.0,
+      "high_s2_total": 7,
+      "avg_s2": 3.9577
+    },
+    {
+      "title": "l(a",
+      "author": "E.E. Cummings",
+      "era": "concrete",
+      "spi": 0.0,
+      "high_s2_total": 3,
+      "avg_s2": 3.8896
+    },
+    {
+      "title": "Western Wind (anonymous lyric)",
+      "author": "Anonymous (English, c. 1500)",
+      "era": "early_modern",
+      "spi": 0.0,
+      "high_s2_total": 4,
+      "avg_s2": -0.0797
+    },
+    {
+      "title": "'Tis the Voice of the Lobster",
+      "author": "Lewis Carroll",
+      "era": "parody",
+      "spi": 0.0,
+      "high_s2_total": 10,
+      "avg_s2": -0.4259
+    },
+    {
+      "title": "There Was an Old Man of Nantucket",
+      "author": "Anonymous (limerick tradition)",
+      "era": "limerick",
+      "spi": 0.0,
+      "high_s2_total": 6,
+      "avg_s2": -0.3447
+    },
+    {
+      "title": "A Limerick on Time",
+      "author": "Anonymous (limerick tradition)",
+      "era": "limerick",
+      "spi": 0.0,
+      "high_s2_total": 4,
+      "avg_s2": -0.4022
+    },
+    {
+      "title": "A Flea and a Fly in a Flue",
+      "author": "Anonymous",
+      "era": "limerick",
+      "spi": 0.0,
+      "high_s2_total": 3,
+      "avg_s2": -0.736
+    },
+    {
+      "title": "An Essay on Criticism (opening)",
+      "author": "Alexander Pope",
+      "era": "18th_century",
+      "spi": 0.0,
+      "high_s2_total": 25,
+      "avg_s2": -0.145
+    },
+    {
+      "title": "Sir Humphrey Davy",
+      "author": "Edmund Clerihew Bentley",
+      "era": "clerihew",
+      "spi": 0.0,
+      "high_s2_total": 6,
+      "avg_s2": 2.3064
+    },
+    {
+      "title": "The Art of Biography",
+      "author": "Edmund Clerihew Bentley",
+      "era": "clerihew",
+      "spi": 0.0,
+      "high_s2_total": 3,
+      "avg_s2": -0.4399
+    },
+    {
+      "title": "Oscar Wilde",
+      "author": "Edmund Clerihew Bentley",
+      "era": "clerihew",
+      "spi": 0.0,
+      "high_s2_total": 4,
+      "avg_s2": 1.8828
+    },
+    {
+      "title": "Lawrence Ferlinghetti (Double Dactyl)",
+      "author": "Synthetic (double dactyl test case)",
+      "era": "double_dactyl",
+      "spi": 0.0,
+      "high_s2_total": 4,
+      "avg_s2": 1.1229
+    },
+    {
+      "title": "This Is Just to Say",
+      "author": "William Carlos Williams",
+      "era": "modernist",
+      "spi": 0.0,
+      "high_s2_total": 3,
+      "avg_s2": 2.6119
+    }
+  ]
+}
