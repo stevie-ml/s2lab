@@ -1,0 +1,381 @@
+{
+  "baseline_mean_s2": -0.2838217923615331,
+  "baseline_std_s2": 3.684164364030848,
+  "intensifier_self_mean_s2": 0.6387076923076923,
+  "intensifier_next_mean_s2": -0.42442769230769234,
+  "presupposition_self_mean_s2": 1.1940403846153846,
+  "presupposition_next_mean_s2": -0.766818918918919,
+  "n_intensifier_tokens": 195,
+  "n_presupposition_tokens": 260,
+  "era_density": {
+    "romantic": {
+      "mean_density": 0.2466579282163087,
+      "n_poems": 21
+    },
+    "19th_century": {
+      "mean_density": 0.37947679898405645,
+      "n_poems": 17
+    },
+    "modernist": {
+      "mean_density": 0.7055005037565858,
+      "n_poems": 27
+    },
+    "beat": {
+      "mean_density": 0.2976190476190476,
+      "n_poems": 6
+    },
+    "confessional": {
+      "mean_density": 0.22222222222222224,
+      "n_poems": 6
+    },
+    "mid_century": {
+      "mean_density": 0.1851851851851852,
+      "n_poems": 4
+    },
+    "new_york_school": {
+      "mean_density": 0.7298894926425027,
+      "n_poems": 20
+    },
+    "language": {
+      "mean_density": 1.0443245684569977,
+      "n_poems": 6
+    },
+    "contemporary": {
+      "mean_density": 0.3051241179383908,
+      "n_poems": 16
+    },
+    "harlem_renaissance": {
+      "mean_density": 0.8392482478460782,
+      "n_poems": 6
+    },
+    "oulipo": {
+      "mean_density": 0.8403361344537814,
+      "n_poems": 7
+    },
+    "surrealist": {
+      "mean_density": 0.9565494640320289,
+      "n_poems": 8
+    },
+    "deep_image": {
+      "mean_density": 0.0,
+      "n_poems": 1
+    },
+    "control": {
+      "mean_density": 0.0,
+      "n_poems": 5
+    },
+    "german_symbolist": {
+      "mean_density": 0.0,
+      "n_poems": 3
+    },
+    "german_expressionist": {
+      "mean_density": 0.3293490135595399,
+      "n_poems": 6
+    },
+    "german_modernist": {
+      "mean_density": 1.0343137254901962,
+      "n_poems": 2
+    },
+    "victorian": {
+      "mean_density": 0.24413897484655206,
+      "n_poems": 29
+    },
+    "haiku": {
+      "mean_density": 0.19305019305019305,
+      "n_poems": 14
+    },
+    "ancient": {
+      "mean_density": 0.0,
+      "n_poems": 3
+    },
+    "prose_poetry": {
+      "mean_density": 0.7267957351290685,
+      "n_poems": 12
+    },
+    "ballad": {
+      "mean_density": 0.2777777777777778,
+      "n_poems": 6
+    },
+    "song_lyrics": {
+      "mean_density": 1.6041421075746018,
+      "n_poems": 3
+    },
+    "nursery_rhyme": {
+      "mean_density": 0.4761904761904762,
+      "n_poems": 1
+    },
+    "metaphysical": {
+      "mean_density": 0.15625,
+      "n_poems": 4
+    },
+    "early_modern": {
+      "mean_density": 0.7875043557785949,
+      "n_poems": 7
+    },
+    "spoken_word": {
+      "mean_density": 0.0,
+      "n_poems": 3
+    },
+    "found_poetry": {
+      "mean_density": 0.31434359458697325,
+      "n_poems": 8
+    },
+    "fixed_form": {
+      "mean_density": 0.0,
+      "n_poems": 8
+    },
+    "cliche_control": {
+      "mean_density": 0.3546099290780142,
+      "n_poems": 3
+    },
+    "18th_century": {
+      "mean_density": 0.3293498490116811,
+      "n_poems": 8
+    },
+    "biblical": {
+      "mean_density": 0.42717889908256884,
+      "n_poems": 8
+    },
+    "concrete": {
+      "mean_density": 0.0,
+      "n_poems": 3
+    },
+    "latin_american": {
+      "mean_density": 0.17605633802816903,
+      "n_poems": 4
+    },
+    "black_arts": {
+      "mean_density": 0.0,
+      "n_poems": 1
+    },
+    "korean_modernist": {
+      "mean_density": 1.1627906976744187,
+      "n_poems": 1
+    },
+    "imagist": {
+      "mean_density": 0.0,
+      "n_poems": 5
+    },
+    "parody_original": {
+      "mean_density": 0.3333333333333333,
+      "n_poems": 3
+    },
+    "parody": {
+      "mean_density": 1.189408977396427,
+      "n_poems": 4
+    },
+    "classical_chinese": {
+      "mean_density": 0.3246753246753247,
+      "n_poems": 4
+    },
+    "persian": {
+      "mean_density": 0.30303030303030304,
+      "n_poems": 2
+    },
+    "japanese_classical": {
+      "mean_density": 1.7857142857142856,
+      "n_poems": 2
+    },
+    "limerick": {
+      "mean_density": 0.7596986995015018,
+      "n_poems": 10
+    },
+    "old_english": {
+      "mean_density": 0.3775995457449074,
+      "n_poems": 5
+    },
+    "protest_political": {
+      "mean_density": 0.5952380952380952,
+      "n_poems": 2
+    },
+    "ghazal": {
+      "mean_density": 0.5,
+      "n_poems": 2
+    },
+    "war_poetry": {
+      "mean_density": 0.34495705636645235,
+      "n_poems": 3
+    },
+    "postcolonial": {
+      "mean_density": 0.4155030887704155,
+      "n_poems": 6
+    },
+    "dramatic_monologue": {
+      "mean_density": 0.3950722171030223,
+      "n_poems": 7
+    },
+    "elegy": {
+      "mean_density": 0.24996109554933083,
+      "n_poems": 8
+    },
+    "clerihew": {
+      "mean_density": 1.276190476190476,
+      "n_poems": 10
+    },
+    "double_dactyl": {
+      "mean_density": 0.4545454545454546,
+      "n_poems": 5
+    },
+    "ekphrastic": {
+      "mean_density": 0.22523812672616886,
+      "n_poems": 8
+    },
+    "villanelle": {
+      "mean_density": 0.0,
+      "n_poems": 2
+    },
+    "pantoum": {
+      "mean_density": 0.847457627118644,
+      "n_poems": 1
+    },
+    "triolet": {
+      "mean_density": 0.0,
+      "n_poems": 2
+    },
+    "rondeau": {
+      "mean_density": 0.0,
+      "n_poems": 1
+    },
+    "nonsense": {
+      "mean_density": 0.0,
+      "n_poems": 2
+    }
+  },
+  "top_examples": [
+    {
+      "poem": "The Wife of Usher's Well",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "intensifier": " barely",
+      "next_token": " three",
+      "next_s2": 14.8785,
+      "context": ""
+    },
+    {
+      "poem": "anyone lived in a pretty how town",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "intensifier": " so",
+      "next_token": " floating",
+      "next_s2": 13.0637,
+      "context": ""
+    },
+    {
+      "poem": "To a Skylark (opening stanzas)",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "intensifier": " just",
+      "next_token": " begun",
+      "next_s2": 11.0834,
+      "context": ""
+    },
+    {
+      "poem": "Because I could not stop for Death",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "intensifier": " just",
+      "next_token": " Our",
+      "next_s2": 10.2034,
+      "context": ""
+    },
+    {
+      "poem": "Because I could not stop for Death",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "intensifier": " just",
+      "next_token": " Our",
+      "next_s2": 10.2034,
+      "context": ""
+    },
+    {
+      "poem": "The Painter",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "intensifier": " merely",
+      "next_token": " silence",
+      "next_s2": 10.0148,
+      "context": " prayer\nIs"
+    },
+    {
+      "poem": "An Essay on Criticism (opening)",
+      "author": "Alexander Pope",
+      "era": "18th_century",
+      "intensifier": " just",
+      "next_token": " alike",
+      "next_s2": 8.6677,
+      "context": ""
+    },
+    {
+      "poem": "anyone lived in a pretty how town",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "intensifier": " pretty",
+      "next_token": " how",
+      "next_s2": 7.7897,
+      "context": ""
+    },
+    {
+      "poem": "She Had Some Horses (opening)",
+      "author": "Joy Harjo",
+      "era": "contemporary",
+      "intensifier": " only",
+      "next_token": " beauty",
+      "next_s2": 7.0366,
+      "context": ""
+    },
+    {
+      "poem": "The Soldier",
+      "author": "Rupert Brooke",
+      "era": "war_poetry",
+      "intensifier": " only",
+      "next_token": " this",
+      "next_s2": 7.0266,
+      "context": ""
+    },
+    {
+      "poem": "The Wanderer (excerpt, modern translation)",
+      "author": "Anonymous (Old English, trans. anon.)",
+      "era": "old_english",
+      "intensifier": " So",
+      "next_token": " spoke",
+      "next_s2": 6.8288,
+      "context": ""
+    },
+    {
+      "poem": "Having a Coke with You",
+      "author": "Frank O'Hara",
+      "era": "new_york_school",
+      "intensifier": " partly",
+      "next_token": " it",
+      "next_s2": 6.4265,
+      "context": ""
+    },
+    {
+      "poem": "William Topaz McGonagall",
+      "author": "Synthetic (clerihew test case)",
+      "era": "clerihew",
+      "intensifier": " rather",
+      "next_token": " com",
+      "next_s2": 5.9094,
+      "context": "Was known as"
+    },
+    {
+      "poem": "Tithonus",
+      "author": "Alfred Lord Tennyson",
+      "era": "dramatic_monologue",
+      "intensifier": " only",
+      "next_token": " cruel",
+      "next_s2": 5.6482,
+      "context": ""
+    },
+    {
+      "poem": "The Death of the Hired Man (opening)",
+      "author": "Robert Frost",
+      "era": "early_modern",
+      "intensifier": " so",
+      "next_token": " last",
+      "next_s2": 5.6468,
+      "context": ""
+    }
+  ]
+}
