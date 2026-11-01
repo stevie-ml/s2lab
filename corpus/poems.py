@@ -8604,6 +8604,237 @@ I am putting makeup on empty space
 I am turning empty space inside out
 I am dressing empty space with words""",
     },
+    # --- Sentence-length hypothesis test cases (added 2026-11-01) ---
+    # Ultra-short sentences: Robert Creeley
+    {
+        "title": "I Know a Man",
+        "author": "Robert Creeley",
+        "year": 1962,
+        "era": "beat",
+        "text": """As I sd to my
+friend, because I am
+always talking,— John, I
+
+sd, which was not his
+name, the darkness sur-
+rounds us, what
+
+can we do against
+it, or else, shall we &
+why not, buy a goddamn big car,
+
+drive, he sd, for
+christ's sake, look
+out where yr going.""",
+    },
+    {
+        "title": "The Language",
+        "author": "Robert Creeley",
+        "year": 1967,
+        "era": "beat",
+        "text": """Locate I
+love you some-
+where in
+
+teeth and
+eyes, bite
+it but
+
+take care not
+to hurt, you
+want so
+
+much so
+little. Words
+say everything.
+
+I
+love you
+again,
+
+then what
+is emptiness
+for. To
+
+fill, fill.
+I heard words
+and words full
+
+of holes
+aching. Speech
+is a mouth.""",
+    },
+    # Long-sentence style: William Stafford, precise mid-length sentences
+    {
+        "title": "Traveling Through the Dark",
+        "author": "William Stafford",
+        "year": 1962,
+        "era": "mid_century",
+        "text": """Traveling through the dark I found a deer
+dead on the edge of the Wilson River road.
+It is usually best to roll them into the canyon:
+that road is narrow; to swerve might make more dead.
+
+By glow of the tail-light I stumbled back of the car
+and stood by the heap, a doe, a recent killing;
+she had stiffened already, almost cold.
+I dragged her off; she was large in the belly.
+
+My fingers touching her side brought me the reason—
+her side was warm; her fawn lay there waiting,
+alive, still, never to be born.
+Beside that mountain road I hesitated.
+
+The car aimed ahead its lowered parking lights;
+under the hood purred the steady engine.
+I stood in the glare of the warm exhaust turning red;
+around our group I could hear the wilderness listen.
+
+I thought hard for us all—my only swerving—
+then pushed her over the edge into the river.""",
+    },
+    # Very long lines / sentences: C.K. Williams (known for Alexandrine-length lines)
+    {
+        "title": "Tar",
+        "author": "C.K. Williams",
+        "year": 1983,
+        "era": "contemporary",
+        "text": """The first morning of Three Mile Island: those first disquieting, un-
+certain, mystifying hours.
+All morning a crew of workmen have been putting a new roof on the
+house across the street;
+I can see them clearly from my window, three floors below, as they
+slog alarmingly about on the material of the old, torn-up shingles.
+I keep remembering the story of the workmen who killed themselves
+inadvertently during construction of a bridge by ripping into a steel
+cable that snapped back with lethal force and killed them all.
+But in the event, it goes well, the new roofing is in place, the
+workers have gone home, the place looks tidier, better, more stable.
+Meantime, what's happening over there with the reactor has been
+happening all day: the temperature keeps rising, or else it doesn't;
+there's a possibility of a massive radioactive discharge, or else there
+isn't; the authorities say one thing, the residents something else;
+one citizen films the afternoon sun directly, trying to prove it's
+turned colors, another climbs a hill to read the instruments of his
+geiger counter.
+I'm thinking of the poem I want to write about the workmen on the
+rooftop and the things their bodies must be telling them as they work,
+what it feels like to be a workman on a rooftop, to balance, to do
+real labor, and how their bodies must feel to themselves.""",
+    },
+    # Objectivist sparse style: George Oppen
+    {
+        "title": "Psalm",
+        "author": "George Oppen",
+        "year": 1965,
+        "era": "modernist",
+        "text": """Veritas sequitur...
+
+In the small beauty of the forest
+The wild deer bedding down—
+That they are there!
+
+Their eyes
+Effortless, the soft lips
+Nuzzle and the alien small teeth
+Tear at the grass
+
+The roots of it
+Damp and work, the threads
+Thin as a leaf's
+
+Little rivers, threads
+Of root go down, and the plant
+Goes up from the small round stone
+Whose weight the roots
+Curl round in the earth's wet
+
+O small
+
+Sequoit
+Who set the jewel of his eyes
+In the warm dry grass of the field—
+
+The small beauty
+No one has seen
+The small beauty
+Of the earth.""",
+    },
+    # Galway Kinnell: long sentences, narrative arc
+    {
+        "title": "Saint Francis and the Sow",
+        "author": "Galway Kinnell",
+        "year": 1980,
+        "era": "contemporary",
+        "text": """The bud
+stands for all things,
+even for those things that don't flower,
+for everything flowers, from within, of self-blessing;
+though sometimes it is necessary
+to reteach a thing its loveliness,
+to put a hand on its brow
+of the flower
+and retell it in words and in touch
+it is lovely
+until it flowers again from within, of self-blessing;
+as Saint Francis
+put his hand on the creased forehead
+of the sow, and told her in words and in touch
+blessings of earth on the sow, and the sow
+began remembering all down her thick length,
+from the earthen snout all the way
+through the fodder and slops to the spiritual curl of the tail,
+from the hard spininess spiked out from the spine
+down through the great broken heart
+to the sheer blue milken dreaminess spurting and shuddering
+from the fourteen teats into the fourteen mouths sucking and blowing beneath them:
+the long, perfect loveliness of sow.""",
+    },
+    # Jack Gilbert: spare philosophical style, varied sentence length
+    {
+        "title": "Refusing Heaven",
+        "author": "Jack Gilbert",
+        "year": 2005,
+        "era": "contemporary",
+        "text": """Dürer believed that grace was found
+in pure simplicity. The kind of thing you see
+in early Flemish painting: the Virgin,
+or a peasant in the foreground, or just fields.
+He believed in the straight path through.
+This is why he was so exacting
+about his angels. He wanted them
+to be simply ordinary in their goodness.
+Not shining. Just present.
+
+My friend Peter used to say
+the angels of the past were innocent
+because they didn't know yet.
+But ours have to choose goodness.
+My friend said the whole point
+was the falling through.
+The terrible labor of choice.""",
+    },
+    # William Stafford spare style: "At the Bomb Testing Site" (short, terse)
+    {
+        "title": "At the Bomb Testing Site",
+        "author": "William Stafford",
+        "year": 1960,
+        "era": "mid_century",
+        "text": """At noon in the desert a panting lizard
+waited for history, its elbows tense,
+watching the curve of a particular road
+as if something might happen.
+
+It was looking at something farther off
+than people could see, an important scene
+acted in stone for little selves
+at the flute end of consequences.
+
+There was just a continent without much on it
+under a sky that never cared less.
+Ready for a change, the elbows waited.
+The hands gripped hard on the desert.""",
+    },
 ]
 
 # Quick stats

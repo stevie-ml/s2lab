@@ -1,0 +1,411 @@
+{
+  "global_correlation": {
+    "pearson_r": -0.23289359039592192,
+    "pearson_p": 1.1090639759117009e-70,
+    "spearman_rho": -0.15950105645806595,
+    "spearman_p": 1.2989846694564591e-33,
+    "n_sentences": 5668
+  },
+  "bins": [
+    {
+      "lo": 1,
+      "hi": 2,
+      "n": 66,
+      "avg_s2": 6.0069878787878785,
+      "std": 12.269787571751749
+    },
+    {
+      "lo": 2,
+      "hi": 3,
+      "n": 156,
+      "avg_s2": 3.3838108974358967,
+      "std": 5.871363983513581
+    },
+    {
+      "lo": 3,
+      "hi": 5,
+      "n": 562,
+      "avg_s2": 1.6982052639383154,
+      "std": 3.4561828852597687
+    },
+    {
+      "lo": 5,
+      "hi": 8,
+      "n": 1557,
+      "avg_s2": 0.7978199532067163,
+      "std": 2.151931369727625
+    },
+    {
+      "lo": 8,
+      "hi": 13,
+      "n": 2649,
+      "avg_s2": 0.3912986575456338,
+      "std": 1.610080309804267
+    },
+    {
+      "lo": 13,
+      "hi": 21,
+      "n": 677,
+      "avg_s2": 0.043525834230521115,
+      "std": 1.1880640106949651
+    },
+    {
+      "lo": 21,
+      "hi": 34,
+      "n": 61,
+      "avg_s2": -0.2455976634133238,
+      "std": 0.8961672458719084
+    },
+    {
+      "lo": 34,
+      "hi": 55,
+      "n": 6,
+      "avg_s2": -0.4420689943813783,
+      "std": 0.5183966833551358
+    }
+  ],
+  "eras": [
+    {
+      "era": "victorian",
+      "n_sentences": 548,
+      "avg_sent_len": 8.815693430656934,
+      "avg_s2": 0.5900776120576681
+    },
+    {
+      "era": "romantic",
+      "n_sentences": 395,
+      "avg_sent_len": 9.384810126582279,
+      "avg_s2": 0.6836733990038019
+    },
+    {
+      "era": "modernist",
+      "n_sentences": 364,
+      "avg_sent_len": 7.115384615384615,
+      "avg_s2": 1.283297385302082
+    },
+    {
+      "era": "new_york_school",
+      "n_sentences": 344,
+      "avg_sent_len": 7.537790697674419,
+      "avg_s2": 0.19974641726476705
+    },
+    {
+      "era": "contemporary",
+      "n_sentences": 297,
+      "avg_sent_len": 8.804713804713804,
+      "avg_s2": 0.47043594451926757
+    },
+    {
+      "era": "19th_century",
+      "n_sentences": 278,
+      "avg_sent_len": 11.140287769784173,
+      "avg_s2": 0.4634922548675325
+    },
+    {
+      "era": "dramatic_monologue",
+      "n_sentences": 265,
+      "avg_sent_len": 9.067924528301887,
+      "avg_s2": 0.14945155763314255
+    },
+    {
+      "era": "ekphrastic",
+      "n_sentences": 206,
+      "avg_sent_len": 8.766990291262136,
+      "avg_s2": 0.2640842261083038
+    },
+    {
+      "era": "found_poetry",
+      "n_sentences": 181,
+      "avg_sent_len": 5.911602209944752,
+      "avg_s2": 0.09310754143646406
+    },
+    {
+      "era": "prose_poetry",
+      "n_sentences": 153,
+      "avg_sent_len": 8.856209150326798,
+      "avg_s2": 0.47401266446795987
+    },
+    {
+      "era": "elegy",
+      "n_sentences": 135,
+      "avg_sent_len": 8.962962962962964,
+      "avg_s2": 0.6021309064077127
+    },
+    {
+      "era": "early_modern",
+      "n_sentences": 126,
+      "avg_sent_len": 9.293650793650794,
+      "avg_s2": 0.27725919177862807
+    },
+    {
+      "era": "18th_century",
+      "n_sentences": 124,
+      "avg_sent_len": 11.07258064516129,
+      "avg_s2": -0.026243037449649762
+    },
+    {
+      "era": "surrealist",
+      "n_sentences": 112,
+      "avg_sent_len": 9.321428571428571,
+      "avg_s2": 0.5600250691999211
+    },
+    {
+      "era": "postcolonial",
+      "n_sentences": 109,
+      "avg_sent_len": 7.91743119266055,
+      "avg_s2": 1.2939309475883447
+    },
+    {
+      "era": "fixed_form",
+      "n_sentences": 98,
+      "avg_sent_len": 8.39795918367347,
+      "avg_s2": 1.0565907118533395
+    },
+    {
+      "era": "ballad",
+      "n_sentences": 96,
+      "avg_sent_len": 9.447916666666666,
+      "avg_s2": 1.1672218064286102
+    },
+    {
+      "era": "beat",
+      "n_sentences": 90,
+      "avg_sent_len": 6.822222222222222,
+      "avg_s2": 3.505553831314202
+    },
+    {
+      "era": "german_expressionist",
+      "n_sentences": 92,
+      "avg_sent_len": 7.934782608695652,
+      "avg_s2": 0.6899707463475534
+    },
+    {
+      "era": "harlem_renaissance",
+      "n_sentences": 91,
+      "avg_sent_len": 8.340659340659341,
+      "avg_s2": 0.6859066306129766
+    },
+    {
+      "era": "oulipo",
+      "n_sentences": 83,
+      "avg_sent_len": 11.650602409638553,
+      "avg_s2": 0.6528651513850386
+    },
+    {
+      "era": "mid_century",
+      "n_sentences": 67,
+      "avg_sent_len": 7.985074626865671,
+      "avg_s2": 1.9666611383558397
+    },
+    {
+      "era": "biblical",
+      "n_sentences": 70,
+      "avg_sent_len": 18.571428571428573,
+      "avg_s2": -0.2699922133763973
+    },
+    {
+      "era": "parody",
+      "n_sentences": 66,
+      "avg_sent_len": 10.045454545454545,
+      "avg_s2": 1.4054937972591381
+    },
+    {
+      "era": "language",
+      "n_sentences": 60,
+      "avg_sent_len": 7.633333333333334,
+      "avg_s2": -0.04076930507918004
+    },
+    {
+      "era": "war_poetry",
+      "n_sentences": 62,
+      "avg_sent_len": 9.903225806451612,
+      "avg_s2": 0.5269661029051067
+    },
+    {
+      "era": "old_english",
+      "n_sentences": 61,
+      "avg_sent_len": 9.60655737704918,
+      "avg_s2": 0.12172243616356322
+    },
+    {
+      "era": "haiku",
+      "n_sentences": 57,
+      "avg_sent_len": 4.912280701754386,
+      "avg_s2": 2.5334460609857974
+    },
+    {
+      "era": "villanelle",
+      "n_sentences": 56,
+      "avg_sent_len": 7.660714285714286,
+      "avg_s2": 1.2387471883374561
+    },
+    {
+      "era": "latin_american",
+      "n_sentences": 55,
+      "avg_sent_len": 7.8,
+      "avg_s2": 0.41818315087437824
+    },
+    {
+      "era": "nonsense",
+      "n_sentences": 55,
+      "avg_sent_len": 9.054545454545455,
+      "avg_s2": 0.863215552387007
+    },
+    {
+      "era": "confessional",
+      "n_sentences": 54,
+      "avg_sent_len": 6.7592592592592595,
+      "avg_s2": 0.9995735948876225
+    },
+    {
+      "era": "metaphysical",
+      "n_sentences": 54,
+      "avg_sent_len": 9.24074074074074,
+      "avg_s2": 0.15389260399065952
+    },
+    {
+      "era": "concrete",
+      "n_sentences": 43,
+      "avg_sent_len": 5.837209302325581,
+      "avg_s2": 0.21683678663713557
+    },
+    {
+      "era": "limerick",
+      "n_sentences": 51,
+      "avg_sent_len": 7.882352941176471,
+      "avg_s2": -0.06369311417655846
+    },
+    {
+      "era": "cliche_control",
+      "n_sentences": 50,
+      "avg_sent_len": 9.34,
+      "avg_s2": -0.10581446024531027
+    },
+    {
+      "era": "imagist",
+      "n_sentences": 47,
+      "avg_sent_len": 6.212765957446808,
+      "avg_s2": 1.3260327789468216
+    },
+    {
+      "era": "song_lyrics",
+      "n_sentences": 48,
+      "avg_sent_len": 11.020833333333334,
+      "avg_s2": 0.3269690771801387
+    },
+    {
+      "era": "parody_original",
+      "n_sentences": 48,
+      "avg_sent_len": 9.333333333333334,
+      "avg_s2": 1.2780600621369371
+    },
+    {
+      "era": "spoken_word",
+      "n_sentences": 46,
+      "avg_sent_len": 5.456521739130435,
+      "avg_s2": 0.2319376213219149
+    },
+    {
+      "era": "clerihew",
+      "n_sentences": 40,
+      "avg_sent_len": 5.3,
+      "avg_s2": 2.133556994047619
+    },
+    {
+      "era": "double_dactyl",
+      "n_sentences": 40,
+      "avg_sent_len": 5.725,
+      "avg_s2": 2.9012390535714285
+    },
+    {
+      "era": "black_arts",
+      "n_sentences": 36,
+      "avg_sent_len": 6.611111111111111,
+      "avg_s2": 2.253867781084656
+    },
+    {
+      "era": "german_symbolist",
+      "n_sentences": 35,
+      "avg_sent_len": 9.314285714285715,
+      "avg_s2": 0.5634018811347383
+    },
+    {
+      "era": "persian",
+      "n_sentences": 33,
+      "avg_sent_len": 10.757575757575758,
+      "avg_s2": 0.7829145308437353
+    },
+    {
+      "era": "protest_political",
+      "n_sentences": 29,
+      "avg_sent_len": 8.206896551724139,
+      "avg_s2": 0.5091597426232771
+    },
+    {
+      "era": "ancient",
+      "n_sentences": 28,
+      "avg_sent_len": 10.5,
+      "avg_s2": 0.2855466753286397
+    },
+    {
+      "era": "ghazal",
+      "n_sentences": 28,
+      "avg_sent_len": 7.857142857142857,
+      "avg_s2": 0.8536473079499863
+    },
+    {
+      "era": "german_modernist",
+      "n_sentences": 26,
+      "avg_sent_len": 8.346153846153847,
+      "avg_s2": 1.1572003839536533
+    },
+    {
+      "era": "classical_chinese",
+      "n_sentences": 24,
+      "avg_sent_len": 9.291666666666666,
+      "avg_s2": 0.009087816558441522
+    },
+    {
+      "era": "nursery_rhyme",
+      "n_sentences": 18,
+      "avg_sent_len": 12.333333333333334,
+      "avg_s2": 0.2753398349331315
+    },
+    {
+      "era": "korean_modernist",
+      "n_sentences": 16,
+      "avg_sent_len": 5.9375,
+      "avg_s2": 1.3103224776785716
+    },
+    {
+      "era": "pantoum",
+      "n_sentences": 16,
+      "avg_sent_len": 7.6875,
+      "avg_s2": 0.2434841745580808
+    },
+    {
+      "era": "triolet",
+      "n_sentences": 16,
+      "avg_sent_len": 7.625,
+      "avg_s2": -0.24935806795634924
+    },
+    {
+      "era": "rondeau",
+      "n_sentences": 16,
+      "avg_sent_len": 7.75,
+      "avg_s2": 0.64727767609127
+    },
+    {
+      "era": "control",
+      "n_sentences": 13,
+      "avg_sent_len": 12.615384615384615,
+      "avg_s2": -1.4963875411824228
+    },
+    {
+      "era": "japanese_classical",
+      "n_sentences": 10,
+      "avg_sent_len": 5.3,
+      "avg_s2": 0.029472916666666703
+    }
+  ]
+}
