@@ -1,0 +1,324 @@
+{
+  "era_comparison": {
+    "confessional": {
+      "n_poems": 6,
+      "n_tokens": 411,
+      "avg_s2": 0.5681,
+      "std_s2": 5.8704,
+      "pos_ratio": 0.409,
+      "max_s2": 35.23,
+      "median_s2": -0.9956
+    },
+    "modernist": {
+      "n_poems": 27,
+      "n_tokens": 3035,
+      "avg_s2": 0.5286,
+      "std_s2": 5.825,
+      "pos_ratio": 0.369,
+      "max_s2": 39.17,
+      "median_s2": -0.8284
+    },
+    "imagist": {
+      "n_poems": 5,
+      "n_tokens": 342,
+      "avg_s2": 0.3838,
+      "std_s2": 5.603,
+      "pos_ratio": 0.392,
+      "max_s2": 28.35,
+      "median_s2": -0.8385
+    },
+    "romantic": {
+      "n_poems": 21,
+      "n_tokens": 4106,
+      "avg_s2": 0.3472,
+      "std_s2": 5.448,
+      "pos_ratio": 0.361,
+      "max_s2": 33.8,
+      "median_s2": -0.853
+    },
+    "victorian": {
+      "n_poems": 29,
+      "n_tokens": 5484,
+      "avg_s2": 0.3279,
+      "std_s2": 5.1656,
+      "pos_ratio": 0.369,
+      "max_s2": 34.0,
+      "median_s2": -0.9098
+    },
+    "surrealist": {
+      "n_poems": 8,
+      "n_tokens": 1160,
+      "avg_s2": 0.1944,
+      "std_s2": 5.2701,
+      "pos_ratio": 0.341,
+      "max_s2": 37.05,
+      "median_s2": -1.1928
+    },
+    "beat": {
+      "n_poems": 6,
+      "n_tokens": 1054,
+      "avg_s2": 0.1799,
+      "std_s2": 4.3474,
+      "pos_ratio": 0.217,
+      "max_s2": 36.66,
+      "median_s2": -0.2612
+    },
+    "new_york_school": {
+      "n_poems": 26,
+      "n_tokens": 2862,
+      "avg_s2": -0.1157,
+      "std_s2": 4.6187,
+      "pos_ratio": 0.338,
+      "max_s2": 29.7,
+      "median_s2": -1.2779
+    },
+    "language": {
+      "n_poems": 6,
+      "n_tokens": 502,
+      "avg_s2": -0.4144,
+      "std_s2": 4.2219,
+      "pos_ratio": 0.315,
+      "max_s2": 35.4,
+      "median_s2": -1.5299
+    }
+  },
+  "author_comparison": {
+    "John Ashbery": {
+      "n_poems": 17,
+      "n_tokens": 1475,
+      "avg_s2": -0.1623,
+      "std_s2": 4.5929,
+      "pos_ratio": 0.361,
+      "max_s2": 29.7,
+      "median_s2": -1.3681
+    },
+    "Frank O'Hara": {
+      "n_poems": 3,
+      "n_tokens": 385,
+      "avg_s2": 0.1738,
+      "std_s2": 4.6766,
+      "pos_ratio": 0.351,
+      "max_s2": 23.15,
+      "median_s2": -1.0745
+    },
+    "Kenneth Koch": {
+      "n_poems": 1,
+      "n_tokens": 171,
+      "avg_s2": -0.3224,
+      "std_s2": 3.6712,
+      "pos_ratio": 0.327,
+      "max_s2": 16.78,
+      "median_s2": -1.013
+    }
+  },
+  "per_poem": [
+    {
+      "title": "What Is Poetry",
+      "author": "Ashbery",
+      "avg_s2": 1.0006477611940299,
+      "std_s2": 6.65780574931631,
+      "pos_ratio": 0.3582089552238806,
+      "n": 67
+    },
+    {
+      "title": "Poems",
+      "author": "Guest",
+      "avg_s2": 0.9973078260869565,
+      "std_s2": 6.745067506687004,
+      "pos_ratio": 0.3217391304347826,
+      "n": 115
+    },
+    {
+      "title": "A Few Days",
+      "author": "Schuyler",
+      "avg_s2": 0.8025424050632911,
+      "std_s2": 6.6278130273286315,
+      "pos_ratio": 0.3670886075949367,
+      "n": 158
+    },
+    {
+      "title": "Why I Am Not a Painter",
+      "author": "O'Hara",
+      "avg_s2": 0.795143137254902,
+      "std_s2": 5.098902560538363,
+      "pos_ratio": 0.38235294117647056,
+      "n": 102
+    },
+    {
+      "title": "The Day Lady Died",
+      "author": "O'Hara",
+      "avg_s2": 0.5193149253731343,
+      "std_s2": 4.769143207360683,
+      "pos_ratio": 0.40298507462686567,
+      "n": 67
+    },
+    {
+      "title": "Farm Implements and Rutabagas in a ",
+      "author": "Ashbery",
+      "avg_s2": 0.5173262295081967,
+      "std_s2": 4.882112845505715,
+      "pos_ratio": 0.3989071038251366,
+      "n": 183
+    },
+    {
+      "title": "Wet Casements",
+      "author": "Ashbery",
+      "avg_s2": 0.33824155844155845,
+      "std_s2": 4.043241732973668,
+      "pos_ratio": 0.4155844155844156,
+      "n": 77
+    },
+    {
+      "title": "Paradoxes and Oxymorons",
+      "author": "Ashbery",
+      "avg_s2": 0.3157786163522012,
+      "std_s2": 5.223213338240689,
+      "pos_ratio": 0.3522012578616352,
+      "n": 159
+    },
+    {
+      "title": "Self-Portrait in a Convex Mirror (o",
+      "author": "Ashbery",
+      "avg_s2": 0.006668493150684931,
+      "std_s2": 4.416603708171554,
+      "pos_ratio": 0.410958904109589,
+      "n": 73
+    },
+    {
+      "title": "Self-Portrait in a Convex Mirror (c",
+      "author": "Ashbery",
+      "avg_s2": -0.014395604395604378,
+      "std_s2": 4.245787422378167,
+      "pos_ratio": 0.42857142857142855,
+      "n": 91
+    },
+    {
+      "title": "Self-Portrait in a Convex Mirror (m",
+      "author": "Ashbery",
+      "avg_s2": -0.047656626506024084,
+      "std_s2": 4.53560323040507,
+      "pos_ratio": 0.3493975903614458,
+      "n": 83
+    },
+    {
+      "title": "Soonest Mended",
+      "author": "Ashbery",
+      "avg_s2": -0.1008707317073171,
+      "std_s2": 4.374321647716358,
+      "pos_ratio": 0.36585365853658536,
+      "n": 82
+    },
+    {
+      "title": "The Painter",
+      "author": "Ashbery",
+      "avg_s2": -0.15312676056338034,
+      "std_s2": 4.3975423130652604,
+      "pos_ratio": 0.43661971830985913,
+      "n": 71
+    },
+    {
+      "title": "Leaving the Atocha Station",
+      "author": "Ashbery",
+      "avg_s2": -0.21076481481481477,
+      "std_s2": 4.996152632634117,
+      "pos_ratio": 0.37037037037037035,
+      "n": 54
+    },
+    {
+      "title": "Having a Coke with You",
+      "author": "O'Hara",
+      "avg_s2": -0.22684351851851853,
+      "std_s2": 4.3898440924241635,
+      "pos_ratio": 0.3194444444444444,
+      "n": 216
+    },
+    {
+      "title": "You Were Wearing",
+      "author": "Koch",
+      "avg_s2": -0.322387134502924,
+      "std_s2": 3.671222479277046,
+      "pos_ratio": 0.32748538011695905,
+      "n": 171
+    },
+    {
+      "title": "Parachutes, My Love, Could Carry Us",
+      "author": "Guest",
+      "avg_s2": -0.36123464052287585,
+      "std_s2": 3.647970301258687,
+      "pos_ratio": 0.29411764705882354,
+      "n": 153
+    },
+    {
+      "title": "Makeup on Empty Space",
+      "author": "Waldman",
+      "avg_s2": -0.49004575163398695,
+      "std_s2": 3.6850043073375547,
+      "pos_ratio": 0.2679738562091503,
+      "n": 153
+    },
+    {
+      "title": "And Ut Pictura Poesis Is Her Name",
+      "author": "Ashbery",
+      "avg_s2": -0.5301945652173913,
+      "std_s2": 3.9463346670584065,
+      "pos_ratio": 0.33695652173913043,
+      "n": 92
+    },
+    {
+      "title": "Rivers and Mountains",
+      "author": "Ashbery",
+      "avg_s2": -0.5669390625,
+      "std_s2": 4.541625979640207,
+      "pos_ratio": 0.359375,
+      "n": 64
+    },
+    {
+      "title": "Some Trees",
+      "author": "Ashbery",
+      "avg_s2": -0.5887113636363636,
+      "std_s2": 5.264023688820347,
+      "pos_ratio": 0.3409090909090909,
+      "n": 44
+    },
+    {
+      "title": "The One Thing That Can Save America",
+      "author": "Ashbery",
+      "avg_s2": -0.8251219512195122,
+      "std_s2": 4.178836304407046,
+      "pos_ratio": 0.32926829268292684,
+      "n": 82
+    },
+    {
+      "title": "Personal Poem",
+      "author": "Berrigan",
+      "avg_s2": -0.851931746031746,
+      "std_s2": 3.113326709604731,
+      "pos_ratio": 0.25396825396825395,
+      "n": 252
+    },
+    {
+      "title": "The Instruction Manual",
+      "author": "Ashbery",
+      "avg_s2": -0.9687906542056075,
+      "std_s2": 3.4193563363942867,
+      "pos_ratio": 0.29906542056074764,
+      "n": 107
+    },
+    {
+      "title": "A Blessing in Disguise",
+      "author": "Ashbery",
+      "avg_s2": -1.0480842105263157,
+      "std_s2": 3.708084901765069,
+      "pos_ratio": 0.2894736842105263,
+      "n": 76
+    },
+    {
+      "title": "A Wave (opening)",
+      "author": "Ashbery",
+      "avg_s2": -1.1437557142857142,
+      "std_s2": 3.634530397673158,
+      "pos_ratio": 0.2571428571428571,
+      "n": 70
+    }
+  ]
+}

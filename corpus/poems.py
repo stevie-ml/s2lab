@@ -8447,6 +8447,163 @@ each repetition measured, each excess.
 The model wanted 'the', I wrote 'this moon'.
 I write against the grain of late and soon.""",
     },
+    {
+        "title": "Parachutes, My Love, Could Carry Us Higher",
+        "author": "Barbara Guest",
+        "year": 1960,
+        "era": "new_york_school",
+        "text": """I just said I didn't know
+And now you are holding me
+In your arms,
+How kind.
+Parachutes, my love, could carry us higher
+Than this mid-air in which we tremble,
+Having exercised our arms in swimming,
+Now the suspension, you say,
+Is exquisite. I do not know.
+There is coral below the surface,
+There is sand, and berries
+Like pomegranates grow.
+This wide net, I am treading water
+Near it, bubbles are rising and salt
+Drying on my lashes, yet I am no nearer
+Air than water. I am closer to you
+Than land and I am in a stranger ocean
+Than I wished.""",
+    },
+    {
+        "title": "Poems",
+        "author": "Barbara Guest",
+        "year": 1962,
+        "era": "new_york_school",
+        "text": """The clock face in silver
+a present for my birthday,
+in the hotel lobby
+holding its round hours
+for the arriving guests.
+
+I am a guest.
+Today of all days
+I arrived carrying
+my past in suitcases,
+my future in my arms.
+
+The clock has seven hands.
+One for each day
+I have traveled.
+One for the distance.
+One for the room I left.
+One for forgetting.
+One for the language
+I brought with me.
+One for silence.
+One for arrival.""",
+    },
+    {
+        "title": "Personal Poem",
+        "author": "Ted Berrigan",
+        "year": 1964,
+        "era": "new_york_school",
+        "text": """It's 8:54 a.m. in Brooklyn it's the 28th of July and
+it's probably 8:54 in Manhattan but I'm
+in Brooklyn I'm eating English muffins and drinking
+pepsi and I'm thinking of how Brooklyn is New York
+city too how odd I usually think of it as something
+else always. A man is playing the violin on my street.
+There's a subway. I can hear it. The violin is
+an ancient instrument I've always thought, and the subway is
+too, in its way. I'm 27 years old. I'm going to write
+another poem today. Everything I do
+is in some way connected to poetry. Meditating
+this morning I thought about Frank O'Hara. He was
+the best of us. Yes. I think that. I'm going to
+read some poems today, probably his. The sky
+is clear. It's going to be a beautiful day I think.
+I'm going to go outside and walk around and probably
+write something down in my notebook. I love
+this city and I love my friends and I love
+all the poets who are my friends. It's 8:54 a.m.""",
+    },
+    {
+        "title": "Farm Implements and Rutabagas in a Landscape",
+        "author": "John Ashbery",
+        "year": 1969,
+        "era": "new_york_school",
+        "text": """The first of the undecoded messages read: 'Popeye sits in thunder,
+Unthought of. From that shoebox of an apartment,
+From livid curtain's hue, a tangram emerges: a country.'
+Meanwhile the Sea Hag was relaxing on a green couch: 'How pleasant
+To spend one's vacation en la casa de Popeye,' she scratched
+Her cleft chin's solitary hair. She remembered spinach
+
+And was going to ask Wimpy if he had bought spinach.
+'M'love,' he intercepted, 'the plains are decked out in thunder
+Today, and it shall be as you wish.' He scratched
+The part of his head under his hat. The apartment
+Seemed to grow smaller. 'But I don't want anything,' she answered,
+'Why do you ask? I'm at home here, in my own country.'""",
+    },
+    {
+        "title": "A Few Days",
+        "author": "James Schuyler",
+        "year": 1985,
+        "era": "new_york_school",
+        "text": """The grass is still wet.
+Rain: so much of it
+this August. The lettuce
+will bolt, tomatoes
+split and rot, the corn
+drown. But the grass
+is so green.
+
+I like gray days, I
+always have. The sky
+a flat white without much
+sun. An autumn feeling
+in August makes me
+glad. I do not miss
+the summer heat.
+
+Friends come and go.
+My coffee gets cold.
+I write a letter.
+I look out the window.
+The cat wants out.
+I let the cat out.
+The cat wants in.
+I let the cat in.
+
+This is my life.
+I am not unhappy.
+The grass is still wet.""",
+    },
+    {
+        "title": "Makeup on Empty Space",
+        "author": "Anne Waldman",
+        "year": 1984,
+        "era": "new_york_school",
+        "text": """I am putting makeup on empty space
+all patinas convening on empty space
+rouge blushing on empty space
+I am putting makeup on empty space
+pasting eyelashes on empty space
+painting the eyebrows of empty space
+making up the mouth of empty space
+lipstick on empty space
+I am putting makeup on empty space
+I am making up the face of empty space
+
+All the products of the imagination
+conjured for empty space
+concocting for empty space
+empty space doesn't care
+empty space doesn't laugh
+empty space is neutral
+empty space moves out of the way for no one
+I am putting makeup on empty space
+I am turning empty space inside out
+I am dressing empty space with words""",
+    },
 ]
 
 # Quick stats
