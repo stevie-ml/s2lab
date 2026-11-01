@@ -8229,6 +8229,224 @@ What remains? The binding energy,
 the strong force that held you together
 longer than any calculation predicted.""",
     },
+
+    # ─── SHADOW-DIVERGENCE TEST CASES (added 2026-11-01) ──────────────────────
+    # New poems added to test the shadow-poem divergence hypothesis.
+    # These include: public-domain works filling key gaps, and synthetic poems
+    # that probe specific divergence scenarios.
+
+    # --- Test: LOW divergence (formulaic/repetitive) ---
+    {
+        "title": "Sympathy",
+        "author": "Paul Laurence Dunbar",
+        "year": 1899,
+        "era": "19th_century",
+        "text": """I know what the caged bird feels, alas!
+When the sun is bright on the upland slopes;
+When the wind stirs soft through the springing grass,
+And the river flows like a stream of glass;
+When the first bird sings and the first bud opes,
+And the faint perfume from its chalice steals —
+I know what the caged bird feels!
+
+I know why the caged bird beats his wing
+Till its blood is red on the cruel bars;
+For he must fly back to his perch and cling
+When he fain would be on the bough a-swing;
+And a pain still throbs in the old, old scars
+And they pulse again with a keener sting —
+I know why he beats his wing!
+
+I know why the caged bird sings, ah me,
+When his wing is bruised and his bosom sore, —
+When he beats his bars and he would be free;
+It is not a carol of joy or glee,
+But a prayer that he sends from his heart's deep core,
+But a plea, that upward to Heaven he flings —
+I know why the caged bird sings!""",
+    },
+    {
+        "title": "The Tropics in New York",
+        "author": "Claude McKay",
+        "year": 1922,
+        "era": "harlem_renaissance",
+        "text": """Bananas ripe and green, and ginger-root,
+Cocoa in pods and alligator pears,
+And tangerines and mangoes and grape fruit,
+Fit for the highest prize at parish fairs,
+
+Set in the window, bringing memories
+Of fruit-trees laden by low-singing rills,
+And dewy dawns, and mystical blue skies
+In benediction over nun-like hills.
+
+My eyes grew dim, and I could no more gaze;
+A wave of longing through my body swept,
+And, hungry for the old, familiar ways,
+I turned aside and bowed my head and wept.""",
+    },
+    {
+        "title": "Gifts",
+        "author": "Sonia Sanchez",
+        "year": 1978,
+        "era": "black_arts",
+        "text": """I have looked into
+my father's eyes and seen an
+african sunset.
+
+I have looked into
+my mother's eyes and seen the
+moon in mourning.
+
+I have heard my daughter
+singing to the trees.
+trees singing back.
+
+I have cupped the wind
+in my hands — felt it
+travel through my fingers
+into the city's
+asphalt mouth.
+
+These are the gifts.
+This is the harvest.
+This is what we carry:
+the weight of what we love,
+the light of what we know.""",
+    },
+    # --- Test: HIGH divergence (semantically idiosyncratic) ---
+    {
+        "title": "N+7: Wandered Lonely (OuLiPo variant)",
+        "author": "Synthetic (OuLiPo N+7 test case)",
+        "year": 2024,
+        "era": "oulipo",
+        "text": """I wandered lonely as a clown
+That floats on high o'er vales and hills,
+When all at once I saw a crown,
+A host, of golden daffodils;
+Beside the lake, beneath the trees,
+Fluttering and dancing in the breadth.
+
+The waves beside them danced; but they
+Out-did the sparkling waves in glee:
+A poison could not but be gay,
+In such a jocund company:
+I gazed — and gazed — but little thought
+What wealthy the show to me had brought:
+
+For oft, when on my courage I lie
+In vacant or in pensive mop,
+They flash upon that inward eye
+Which is the bliss of solitude;
+And then my heartburn with pleasure fills,
+And dances with the daffodils.""",
+    },
+    {
+        "title": "The Maximum Cliché (control)",
+        "author": "Synthetic (cliche_control test case)",
+        "year": 2024,
+        "era": "cliche_control",
+        "text": """Time heals all wounds at the end of the day.
+Every cloud has a silver lining, they say.
+When life gives you lemons, make lemonade.
+The pen is mightier than the sword, they say.
+
+Actions speak louder than words, it's true.
+You can't judge a book by its cover, too.
+The grass is always greener on the other side.
+Two wrongs don't make a right, open wide.
+
+It takes a village to raise a child.
+Better late than never, running wild.
+Don't count your chickens before they hatch.
+Every rose has its thorns — it's a catch.
+
+What goes around comes around in the end.
+A friend in need is a friend indeed, my friend.""",
+    },
+    {
+        "title": "Decreasing Divergence: The Coined Word Ladder",
+        "author": "Synthetic (shadow-divergence test case)",
+        "year": 2024,
+        "era": "concrete",
+        "text": """Gleam: the word I invented.
+Gleam: I say it again.
+The gleam of the window at dusk.
+The gleam of my hands in rain.
+
+Throb: the word I discovered.
+Throb: I say it once more.
+The throb of the city at midnight.
+The throb behind the door.
+
+Hush: the word I remembered.
+Hush: I say it three times.
+The hush before the music starts.
+The hush between the chimes.
+
+Gleam. Throb. Hush.
+Gleam. Throb. Hush.
+These are the words I invented.
+Watch how quickly they become expected.
+Watch how the gleam becomes the norm.
+Watch how throb becomes a word you've heard.
+Watch how hush becomes the usual word.""",
+    },
+    {
+        "title": "Legal Boilerplate (Found Poem)",
+        "author": "Found (legal boilerplate, public domain)",
+        "year": 2024,
+        "era": "found_poetry",
+        "text": """The parties agree as follows:
+The term of this agreement shall be
+one year from the date of execution.
+Either party may terminate with notice.
+
+All disputes shall be resolved
+by binding arbitration.
+The prevailing party shall be entitled
+to reasonable attorney's fees.
+
+This agreement constitutes the entire
+understanding of the parties.
+No modification shall be effective
+unless in writing and signed by both parties.
+
+The laws of the state shall govern.
+Time is of the essence.
+Failure to exercise any right shall not
+constitute a waiver of such right.""",
+    },
+    {
+        "title": "Villanelle of the Unsaid",
+        "author": "Synthetic (shadow-poem meta-poem)",
+        "year": 2024,
+        "era": "villanelle",
+        "text": """The model wanted 'the', I wrote 'this moon'.
+It wanted 'and', I gave it 'nevertheless'.
+I write against the grain of late and soon.
+
+The corpus of the unsaid is a boon:
+each word I chose records what I suppress.
+The model wanted 'the', I wrote 'this moon'.
+
+Every poet keeps a second tune,
+the ghost-text underneath, the palimpsest.
+I write against the grain of late and soon.
+
+What language wants is daylight, afternoon,
+the expected word, the worn-out tenderness.
+The model wanted 'the', I wrote 'this moon'.
+
+The oracle of language speaks at noon:
+the top prediction is the consciousness.
+I write against the grain of late and soon.
+
+This villanelle is my divergence rune:
+each repetition measured, each excess.
+The model wanted 'the', I wrote 'this moon'.
+I write against the grain of late and soon.""",
+    },
 ]
 
 # Quick stats
