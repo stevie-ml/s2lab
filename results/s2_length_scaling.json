@@ -1,0 +1,425 @@
+{
+  "n_poems": 387,
+  "global_scaling": {
+    "alpha": 0.9793,
+    "r2": 0.8122,
+    "interpretation": "sub-linear (diminishing returns)"
+  },
+  "per_token_scaling": {
+    "alpha": 0.0021,
+    "r2": 0.0001
+  },
+  "length_bins": [
+    {
+      "range": "13-53",
+      "n_poems": 79,
+      "avg_length": 34.63291139240506,
+      "avg_s2_per_token": -0.38106803063507555,
+      "avg_pos_ratio": 0.35356590638098406,
+      "avg_max_s2": 9.72376075949367,
+      "avg_gini": 0.38672602536447914
+    },
+    {
+      "range": "53-97",
+      "n_poems": 82,
+      "avg_length": 75.02439024390245,
+      "avg_s2_per_token": -0.32785399123369424,
+      "avg_pos_ratio": 0.3643978536729193,
+      "avg_max_s2": 12.318808536585365,
+      "avg_gini": 0.39926117627109614
+    },
+    {
+      "range": "97-133",
+      "n_poems": 77,
+      "avg_length": 117.0,
+      "avg_s2_per_token": -0.4802477556523208,
+      "avg_pos_ratio": 0.32638295909658005,
+      "avg_max_s2": 11.997357142857144,
+      "avg_gini": 0.39479272469911825
+    },
+    {
+      "range": "133-178",
+      "n_poems": 77,
+      "avg_length": 154.84415584415584,
+      "avg_s2_per_token": -0.40759383605478794,
+      "avg_pos_ratio": 0.34513621935294575,
+      "avg_max_s2": 12.95711818181818,
+      "avg_gini": 0.40388885106791633
+    },
+    {
+      "range": "178-674",
+      "n_poems": 78,
+      "avg_length": 271.55128205128204,
+      "avg_s2_per_token": -0.4288340155815321,
+      "avg_pos_ratio": 0.32306747174041267,
+      "avg_max_s2": 16.017582051282055,
+      "avg_gini": 0.4228060609862205
+    }
+  ],
+  "era_scaling": [
+    {
+      "era": "control",
+      "n": 4,
+      "avg_len": 32.0,
+      "avg_s2": -1.926,
+      "alpha": 3.641,
+      "r2": 0.306
+    },
+    {
+      "era": "villanelle",
+      "n": 3,
+      "avg_len": 145.3,
+      "avg_s2": -0.569,
+      "alpha": 2.125,
+      "r2": 0.71
+    },
+    {
+      "era": "limerick",
+      "n": 10,
+      "avg_len": 42.6,
+      "avg_s2": -0.693,
+      "alpha": 1.685,
+      "r2": 0.389
+    },
+    {
+      "era": "found_poetry",
+      "n": 9,
+      "avg_len": 133.8,
+      "avg_s2": -0.615,
+      "alpha": 1.679,
+      "r2": 0.31
+    },
+    {
+      "era": "harlem_renaissance",
+      "n": 7,
+      "avg_len": 116.6,
+      "avg_s2": -0.459,
+      "alpha": 1.608,
+      "r2": 0.981
+    },
+    {
+      "era": "postcolonial",
+      "n": 6,
+      "avg_len": 164.8,
+      "avg_s2": -0.495,
+      "alpha": 1.56,
+      "r2": 0.94
+    },
+    {
+      "era": "ancient",
+      "n": 3,
+      "avg_len": 106.0,
+      "avg_s2": -0.187,
+      "alpha": 1.465,
+      "r2": 0.996
+    },
+    {
+      "era": "surrealist",
+      "n": 8,
+      "avg_len": 137.8,
+      "avg_s2": -0.609,
+      "alpha": 1.416,
+      "r2": 0.868
+    },
+    {
+      "era": "confessional",
+      "n": 6,
+      "avg_len": 66.2,
+      "avg_s2": -0.3,
+      "alpha": 1.397,
+      "r2": 0.833
+    },
+    {
+      "era": "latin_american",
+      "n": 4,
+      "avg_len": 115.2,
+      "avg_s2": -0.516,
+      "alpha": 1.337,
+      "r2": 0.855
+    },
+    {
+      "era": "fixed_form",
+      "n": 8,
+      "avg_len": 107.2,
+      "avg_s2": -0.576,
+      "alpha": 1.283,
+      "r2": 0.629
+    },
+    {
+      "era": "romantic",
+      "n": 21,
+      "avg_len": 180.6,
+      "avg_s2": -0.496,
+      "alpha": 1.125,
+      "r2": 0.911
+    },
+    {
+      "era": "parody_original",
+      "n": 3,
+      "avg_len": 147.7,
+      "avg_s2": -0.548,
+      "alpha": 1.102,
+      "r2": 0.891
+    },
+    {
+      "era": "german_expressionist",
+      "n": 4,
+      "avg_len": 124.5,
+      "avg_s2": -0.162,
+      "alpha": 1.1,
+      "r2": 0.253
+    },
+    {
+      "era": "modernist",
+      "n": 27,
+      "avg_len": 105.5,
+      "avg_s2": -0.427,
+      "alpha": 1.085,
+      "r2": 0.871
+    },
+    {
+      "era": "early_modern",
+      "n": 7,
+      "avg_len": 175.7,
+      "avg_s2": -0.41,
+      "alpha": 1.071,
+      "r2": 0.96
+    },
+    {
+      "era": "prose_poetry",
+      "n": 12,
+      "avg_len": 117.3,
+      "avg_s2": -0.47,
+      "alpha": 1.063,
+      "r2": 0.688
+    },
+    {
+      "era": "parody",
+      "n": 4,
+      "avg_len": 167.2,
+      "avg_s2": -0.396,
+      "alpha": 1.058,
+      "r2": 0.873
+    },
+    {
+      "era": "cliche_control",
+      "n": 4,
+      "avg_len": 122.2,
+      "avg_s2": -0.93,
+      "alpha": 1.045,
+      "r2": 0.609
+    },
+    {
+      "era": "oulipo",
+      "n": 8,
+      "avg_len": 125.1,
+      "avg_s2": -0.046,
+      "alpha": 1.019,
+      "r2": 0.523
+    },
+    {
+      "era": "contemporary",
+      "n": 16,
+      "avg_len": 131.2,
+      "avg_s2": -0.339,
+      "alpha": 0.989,
+      "r2": 0.829
+    },
+    {
+      "era": "concrete",
+      "n": 4,
+      "avg_len": 71.5,
+      "avg_s2": -0.738,
+      "alpha": 0.963,
+      "r2": 0.547
+    },
+    {
+      "era": "dramatic_monologue",
+      "n": 7,
+      "avg_len": 366.9,
+      "avg_s2": -0.375,
+      "alpha": 0.959,
+      "r2": 0.972
+    },
+    {
+      "era": "classical_chinese",
+      "n": 4,
+      "avg_len": 59.5,
+      "avg_s2": -0.594,
+      "alpha": 0.952,
+      "r2": 0.903
+    },
+    {
+      "era": "old_english",
+      "n": 5,
+      "avg_len": 125.8,
+      "avg_s2": -0.288,
+      "alpha": 0.95,
+      "r2": 0.962
+    },
+    {
+      "era": "new_york_school",
+      "n": 26,
+      "avg_len": 106.7,
+      "avg_s2": -0.597,
+      "alpha": 0.937,
+      "r2": 0.778
+    },
+    {
+      "era": "war_poetry",
+      "n": 3,
+      "avg_len": 213.0,
+      "avg_s2": -0.309,
+      "alpha": 0.893,
+      "r2": 0.944
+    },
+    {
+      "era": "victorian",
+      "n": 29,
+      "avg_len": 177.5,
+      "avg_s2": -0.293,
+      "alpha": 0.891,
+      "r2": 0.673
+    },
+    {
+      "era": "imagist",
+      "n": 5,
+      "avg_len": 64.2,
+      "avg_s2": -0.446,
+      "alpha": 0.853,
+      "r2": 0.859
+    },
+    {
+      "era": "ekphrastic",
+      "n": 8,
+      "avg_len": 237.6,
+      "avg_s2": -0.392,
+      "alpha": 0.827,
+      "r2": 0.973
+    },
+    {
+      "era": "haiku",
+      "n": 14,
+      "avg_len": 20.9,
+      "avg_s2": 0.033,
+      "alpha": 0.823,
+      "r2": 0.343
+    },
+    {
+      "era": "19th_century",
+      "n": 18,
+      "avg_len": 179.1,
+      "avg_s2": -0.23,
+      "alpha": 0.801,
+      "r2": 0.883
+    },
+    {
+      "era": "elegy",
+      "n": 8,
+      "avg_len": 156.9,
+      "avg_s2": -0.428,
+      "alpha": 0.781,
+      "r2": 0.547
+    },
+    {
+      "era": "18th_century",
+      "n": 8,
+      "avg_len": 179.4,
+      "avg_s2": -0.255,
+      "alpha": 0.677,
+      "r2": 0.878
+    },
+    {
+      "era": "biblical",
+      "n": 8,
+      "avg_len": 166.4,
+      "avg_s2": -0.508,
+      "alpha": 0.606,
+      "r2": 0.926
+    },
+    {
+      "era": "mid_century",
+      "n": 4,
+      "avg_len": 71.2,
+      "avg_s2": -0.508,
+      "alpha": 0.545,
+      "r2": 0.823
+    },
+    {
+      "era": "language",
+      "n": 6,
+      "avg_len": 82.7,
+      "avg_s2": -0.518,
+      "alpha": 0.505,
+      "r2": 0.577
+    },
+    {
+      "era": "metaphysical",
+      "n": 4,
+      "avg_len": 133.2,
+      "avg_s2": -0.558,
+      "alpha": 0.488,
+      "r2": 0.672
+    },
+    {
+      "era": "beat",
+      "n": 6,
+      "avg_len": 174.7,
+      "avg_s2": 0.279,
+      "alpha": 0.339,
+      "r2": 0.799
+    },
+    {
+      "era": "song_lyrics",
+      "n": 3,
+      "avg_len": 180.3,
+      "avg_s2": -0.644,
+      "alpha": 0.318,
+      "r2": 0.984
+    },
+    {
+      "era": "ballad",
+      "n": 6,
+      "avg_len": 152.5,
+      "avg_s2": -0.388,
+      "alpha": 0.197,
+      "r2": 0.036
+    },
+    {
+      "era": "clerihew",
+      "n": 10,
+      "avg_len": 23.2,
+      "avg_s2": 0.552,
+      "alpha": -0.242,
+      "r2": 0.008
+    },
+    {
+      "era": "spoken_word",
+      "n": 3,
+      "avg_len": 95.3,
+      "avg_s2": -0.584,
+      "alpha": -1.135,
+      "r2": 0.837
+    },
+    {
+      "era": "double_dactyl",
+      "n": 5,
+      "avg_len": 49.6,
+      "avg_s2": -0.95,
+      "alpha": -1.368,
+      "r2": 0.052
+    }
+  ],
+  "short_vs_long": {
+    "short_n": 20,
+    "long_n": 20,
+    "short_avg_len": 18.0,
+    "long_avg_len": 424.0,
+    "short_avg_s2": 0.1796,
+    "long_avg_s2": -0.4258,
+    "short_pos_ratio": 0.3937,
+    "long_pos_ratio": 0.3235,
+    "short_gini": 0.4163,
+    "long_gini": 0.435
+  }
+}
