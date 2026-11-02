@@ -1,5 +1,5 @@
 # S₂ Lab Research Report
-**Generated:** 2026-11-01 19:06:14
+**Generated:** 2026-11-02 00:54:46
 **Corpus:** 403 texts analyzed with GPT-2
 **Model:** gpt2 (117M parameters)
 
@@ -15,7 +15,7 @@ Do different literary movements produce systematically different information-the
 |---|---|---|---|---|---|
 | haiku | 14 | 1.63 | **-0.11** | 42% | 39.62 |
 | clerihew | 10 | 1.55 | **0.51** | 46% | 28.21 |
-| concrete | 3 | 1.51 | **-0.50** | 25% | 30.95 |
+| black_arts | 2 | 1.50 | **-0.42** | 37% | 32.64 |
 | double_dactyl | 5 | 1.21 | **-0.95** | 36% | 39.00 |
 | mid_century | 6 | 1.21 | **-0.25** | 40% | 37.72 |
 | german_modernist | 2 | 1.12 | **0.63** | 46% | 17.49 |
@@ -29,10 +29,10 @@ Do different literary movements produce systematically different information-the
 | korean_modernist | 1 | 0.75 | **-0.69** | 31% | 30.95 |
 | imagist | 5 | 0.70 | **-0.52** | 42% | 28.35 |
 | parody_original | 3 | 0.65 | **-0.45** | 36% | 29.30 |
-| black_arts | 1 | 0.65 | **-0.50** | 36% | 27.57 |
 | nonsense | 2 | 0.62 | **-0.69** | 32% | 32.61 |
 | fixed_form | 8 | 0.60 | **-0.56** | 34% | 30.18 |
 | ghazal | 2 | 0.58 | **-0.46** | 34% | 35.04 |
+| harlem_renaissance | 7 | 0.51 | **-0.38** | 38% | 31.07 |
 | confessional | 6 | 0.50 | **-0.23** | 41% | 35.23 |
 | postcolonial | 6 | 0.49 | **-0.48** | 32% | 36.66 |
 | german_expressionist | 6 | 0.44 | **0.10** | 41% | 28.16 |
@@ -41,7 +41,8 @@ Do different literary movements produce systematically different information-the
 | victorian | 29 | 0.38 | **-0.32** | 38% | 34.00 |
 | protest_political | 2 | 0.36 | **-0.75** | 36% | 34.25 |
 | elegy | 8 | 0.29 | **-0.45** | 36% | 34.93 |
-| 19th_century | 17 | 0.29 | **-0.46** | 39% | 35.25 |
+| oulipo | 8 | 0.28 | **-0.07** | 37% | 31.24 |
+| 19th_century | 18 | 0.26 | **-0.47** | 38% | 35.25 |
 | deep_image | 1 | 0.25 | **0.07** | 45% | 12.62 |
 | contemporary | 19 | 0.25 | **-0.43** | 36% | 33.21 |
 | romantic | 21 | 0.19 | **-0.44** | 36% | 33.80 |
@@ -53,19 +54,19 @@ Do different literary movements produce systematically different information-the
 | early_modern | 7 | 0.09 | **-0.39** | 39% | 31.07 |
 | latin_american | 4 | 0.08 | **-0.48** | 33% | 36.73 |
 | pantoum | 1 | 0.07 | **-0.50** | 37% | 20.85 |
-| cliche_control | 3 | -0.03 | **-0.87** | 28% | 28.76 |
 | ekphrastic | 8 | -0.04 | **-0.51** | 38% | 33.65 |
 | limerick | 10 | -0.06 | **-0.66** | 32% | 22.11 |
 | old_english | 5 | -0.07 | **-0.31** | 40% | 34.24 |
+| found_poetry | 9 | -0.08 | **-0.62** | 29% | 36.23 |
 | dramatic_monologue | 7 | -0.09 | **-0.36** | 36% | 24.44 |
+| new_york_school | 26 | -0.12 | **-0.59** | 35% | 29.70 |
 | japanese_classical | 2 | -0.15 | **-0.71** | 38% | 17.39 |
 | 18th_century | 8 | -0.17 | **-0.29** | 35% | 22.18 |
 | metaphysical | 4 | -0.17 | **-0.65** | 38% | 27.32 |
 | spoken_word | 3 | -0.17 | **-0.59** | 32% | 27.73 |
 | prose_poetry | 12 | -0.18 | **-0.47** | 34% | 34.59 |
-| new_york_school | 20 | -0.19 | **-0.56** | 36% | 29.70 |
-| found_poetry | 8 | -0.19 | **-0.62** | 29% | 28.70 |
 | language | 6 | -0.21 | **-0.66** | 33% | 35.40 |
+| cliche_control | 4 | -0.22 | **-0.93** | 28% | 28.76 |
 | classical_chinese | 4 | -0.22 | **-0.56** | 35% | 20.15 |
 | biblical | 8 | -0.39 | **-0.45** | 31% | 21.23 |
 | triolet | 2 | -0.44 | **-0.75** | 25% | 16.00 |
@@ -263,7 +264,9 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | Georg Heym | 2 | 0.40 | 4.46 | 44% | 16.34 | mild deviation |
 | Robert Burns | 2 | 0.39 | 5.98 | 35% | 24.00 | selective spikes |
 | Frank O'Hara | 3 | 0.36 | 4.75 | 37% | 21.83 | mild deviation |
+| Barbara Guest | 2 | 0.32 | 5.20 | 31% | 22.30 | selective spikes |
 | Gottfried Benn | 2 | 0.29 | 4.95 | 35% | 25.66 | mild deviation |
+| Claude McKay | 2 | 0.28 | 4.83 | 40% | 25.57 | mild deviation |
 | Alfred Lord Tennyson | 3 | 0.27 | 5.19 | 37% | 24.68 | selective spikes |
 | Dante Gabriel Rossetti | 2 | 0.27 | 4.96 | 41% | 23.02 | mild deviation |
 | George Herbert | 2 | 0.26 | 5.01 | 39% | 21.56 | selective spikes |
@@ -271,6 +274,7 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | Alfred, Lord Tennyson | 5 | 0.19 | 5.20 | 33% | 28.62 | selective spikes |
 | Pablo Neruda | 2 | 0.16 | 4.55 | 35% | 19.17 | mild deviation |
 | Edgar Allan Poe | 2 | 0.15 | 6.05 | 32% | 32.50 | selective spikes |
+| Paul Laurence Dunbar | 2 | 0.15 | 4.71 | 37% | 24.82 | mild deviation |
 | Algernon Charles Swinburne | 2 | 0.15 | 4.48 | 40% | 25.45 | mild deviation |
 | William Blake | 7 | 0.13 | 5.26 | 32% | 23.97 | selective spikes |
 | John Keats | 9 | 0.13 | 4.84 | 38% | 24.11 | mild deviation |
@@ -296,8 +300,8 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | Countee Cullen | 2 | -0.13 | 4.02 | 41% | 17.61 | smooth/conventional |
 | Anonymous | 3 | -0.13 | 4.55 | 34% | 20.21 | smooth/conventional |
 | Anne Sexton | 2 | -0.14 | 4.92 | 39% | 21.88 | smooth/conventional |
+| John Ashbery | 17 | -0.24 | 4.50 | 36% | 20.55 | smooth/conventional |
 | Anonymous (trans. Hall) | 2 | -0.27 | 3.98 | 37% | 15.65 | smooth/conventional |
-| John Ashbery | 16 | -0.28 | 4.47 | 36% | 20.23 | smooth/conventional |
 | Gertrude Stein | 4 | -0.29 | 3.99 | 33% | 14.94 | smooth/conventional |
 | Georges Perec | 2 | -0.31 | 3.59 | 34% | 13.39 | smooth/conventional |
 | Christopher Smart | 2 | -0.35 | 3.37 | 30% | 22.07 | smooth/conventional |
@@ -326,7 +330,7 @@ Do 'great' poems have distinctive S₂ profiles?
 
 - Poetry avg S₂ (artifact-free): **-0.408**
 - Control prose avg S₂ (artifact-free): **-1.721**
-- Gap (artifact-free): **1.320** (65% of raw gap survives)
+- Gap (artifact-free): **1.313** (65% of raw gap survives)
 
 - Poetry: 36% of tokens have positive S₂ (raw)
 - Control prose: 20% of tokens have positive S₂ (raw)
