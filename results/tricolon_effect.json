@@ -1,0 +1,661 @@
+{
+  "n_hits": 176,
+  "n_poems": 113,
+  "overall": {
+    "mean_s2_a": -0.12321590909090908,
+    "mean_s2_b": 0.30924431818181825,
+    "mean_s2_c": 0.060886931818181986,
+    "median_s2_a": -1.0346,
+    "median_s2_b": -0.45840000000000003,
+    "median_s2_c": -0.5257000000000001,
+    "mean_h_a": 7.2163732954545425,
+    "mean_h_b": 7.011935795454547,
+    "mean_h_c": 8.332138636363638
+  },
+  "sign_tests": {
+    "n": 176,
+    "c_gt_a_pct": 53.40909090909091,
+    "c_gt_b_pct": 49.43181818181818,
+    "a_max_pct": 31.818181818181817,
+    "b_max_pct": 32.38636363636363,
+    "c_max_pct": 35.79545454545455,
+    "h_c_lt_a_pct": 29.545454545454547
+  },
+  "by_era": {
+    "romantic": {
+      "n": 24,
+      "mean_s2_a": 0.7940166666666665,
+      "mean_s2_b": 1.8092125000000001,
+      "mean_s2_c": -0.7248916666666666,
+      "c_max_pct": 20.833333333333332
+    },
+    "19th_century": {
+      "n": 9,
+      "mean_s2_a": -1.0722222222222222,
+      "mean_s2_b": -3.628355555555556,
+      "mean_s2_c": -0.5655888888888889,
+      "c_max_pct": 44.44444444444444
+    },
+    "modernist": {
+      "n": 7,
+      "mean_s2_a": 1.1666,
+      "mean_s2_b": 0.573314285714286,
+      "mean_s2_c": 6.160971428571429,
+      "c_max_pct": 71.42857142857143
+    },
+    "new_york_school": {
+      "n": 6,
+      "mean_s2_a": 0.43106666666666654,
+      "mean_s2_b": -0.7761833333333333,
+      "mean_s2_c": 3.3234166666666667,
+      "c_max_pct": 66.66666666666667
+    },
+    "victorian": {
+      "n": 21,
+      "mean_s2_a": 0.40607619047619065,
+      "mean_s2_b": 0.18398571428571434,
+      "mean_s2_c": -1.1994047619047619,
+      "c_max_pct": 33.333333333333336
+    },
+    "ballad": {
+      "n": 7,
+      "mean_s2_a": -1.5175285714285713,
+      "mean_s2_b": -0.48034285714285707,
+      "mean_s2_c": -1.1663285714285714,
+      "c_max_pct": 42.857142857142854
+    },
+    "early_modern": {
+      "n": 6,
+      "mean_s2_a": 3.5141666666666667,
+      "mean_s2_b": 0.6099166666666668,
+      "mean_s2_c": -1.205933333333333,
+      "c_max_pct": 0.0
+    },
+    "18th_century": {
+      "n": 10,
+      "mean_s2_a": 0.22154999999999997,
+      "mean_s2_b": 1.71509,
+      "mean_s2_c": -0.41658000000000006,
+      "c_max_pct": 30.0
+    },
+    "parody_original": {
+      "n": 6,
+      "mean_s2_a": -2.15305,
+      "mean_s2_b": -1.0421666666666667,
+      "mean_s2_c": 3.2175166666666666,
+      "c_max_pct": 83.33333333333333
+    },
+    "parody": {
+      "n": 8,
+      "mean_s2_a": 2.2595625,
+      "mean_s2_b": -0.8090875,
+      "mean_s2_c": 0.005874999999999908,
+      "c_max_pct": 37.5
+    },
+    "dramatic_monologue": {
+      "n": 8,
+      "mean_s2_a": -1.1359375,
+      "mean_s2_b": 2.181375,
+      "mean_s2_c": -0.44138750000000004,
+      "c_max_pct": 12.5
+    },
+    "elegy": {
+      "n": 9,
+      "mean_s2_a": -1.5136444444444443,
+      "mean_s2_b": 0.3589444444444445,
+      "mean_s2_c": 0.002866666666666696,
+      "c_max_pct": 44.44444444444444
+    },
+    "ekphrastic": {
+      "n": 12,
+      "mean_s2_a": -1.2132666666666667,
+      "mean_s2_b": -0.2065,
+      "mean_s2_c": -1.4148916666666667,
+      "c_max_pct": 16.666666666666668
+    }
+  },
+  "top_tricola": [
+    {
+      "phrase": "dynamite grooves, burns, and\n   hatchet strokes",
+      "a_text": "dynam",
+      "b_text": "burns",
+      "c_text": "hat",
+      "s2_a": 8.4428,
+      "s2_b": 5.3475,
+      "s2_c": 15.7328,
+      "h_a": 9.1203,
+      "h_b": 8.7951,
+      "h_c": 0.7579,
+      "rank_a": 8108,
+      "rank_b": 2029,
+      "rank_c": 473,
+      "title": "The Fish",
+      "author": "Marianne Moore",
+      "era": "modernist"
+    },
+    {
+      "phrase": "Two years, ten years, and passengers ask the conductor:",
+      "a_text": "years",
+      "b_text": "ten",
+      "c_text": "passengers",
+      "s2_a": -4.2375,
+      "s2_b": -0.2169,
+      "s2_c": 13.5945,
+      "h_a": 9.9599,
+      "h_b": 6.8587,
+      "h_c": 6.1585,
+      "rank_a": 7,
+      "rank_b": 15,
+      "rank_c": 5544,
+      "title": "Grass",
+      "author": "Carl Sandburg",
+      "era": "modernist"
+    },
+    {
+      "phrase": "Father William, the young man cried,\nAnd pleasures with youth pass away",
+      "a_text": "Father",
+      "b_text": "the",
+      "c_text": "pleasures",
+      "s2_a": -1.1831,
+      "s2_b": -1.3774,
+      "s2_c": 10.551,
+      "h_a": 1.3544,
+      "h_b": 1.6155,
+      "h_c": 7.0238,
+      "rank_a": 1,
+      "rank_b": 1,
+      "rank_c": 3993,
+      "title": "The Old Man's Comforts and How He Gained Them",
+      "author": "Robert Southey",
+      "era": "parody_original"
+    },
+    {
+      "phrase": "The sun also ariseth,\nand the sun goeth down,\nand hasteth to his place",
+      "a_text": "The",
+      "b_text": "and",
+      "c_text": "hast",
+      "s2_a": -3.568,
+      "s2_b": -4.3257,
+      "s2_c": 10.0672,
+      "h_a": 7.3012,
+      "h_b": 7.0482,
+      "h_c": 3.4182,
+      "rank_a": 2,
+      "rank_b": 1,
+      "rank_c": 331,
+      "title": "Vanity of Vanities (Found Poem from Ecclesiastes 1:2-8, KJV)",
+      "author": "Anonymous (KJV, found text)",
+      "era": "found_poetry"
+    },
+    {
+      "phrase": "Father William replied,\nI remembered that youth would fly fast,\nAnd abused not my health and my vigo",
+      "a_text": "Father",
+      "b_text": "remembered",
+      "c_text": "abused",
+      "s2_a": 0.7053,
+      "s2_b": 4.5492,
+      "s2_c": 9.0541,
+      "h_a": 5.8056,
+      "h_b": 7.1511,
+      "h_c": 8.4656,
+      "rank_a": 10,
+      "rank_b": 268,
+      "rank_c": 4975,
+      "title": "The Old Man's Comforts and How He Gained Them",
+      "author": "Robert Southey",
+      "era": "parody_original"
+    },
+    {
+      "phrase": "I look down into the street and see people, each walking with an inner peace,\nAnd envy them\u2014they are",
+      "a_text": "I",
+      "b_text": "each",
+      "c_text": "envy",
+      "s2_a": -4.9175,
+      "s2_b": 0.4027,
+      "s2_c": 8.6831,
+      "h_a": 7.2789,
+      "h_b": 9.262,
+      "h_c": 7.4851,
+      "rank_a": 1,
+      "rank_b": 125,
+      "rank_c": 2329,
+      "title": "The Instruction Manual",
+      "author": "John Ashbery",
+      "era": "new_york_school"
+    },
+    {
+      "phrase": "There is coral below the surface,\nThere is sand, and berries",
+      "a_text": "There",
+      "b_text": "There",
+      "c_text": "berries",
+      "s2_a": -0.093,
+      "s2_b": -0.9989,
+      "s2_c": 8.3202,
+      "h_a": 7.1757,
+      "h_b": 6.5878,
+      "h_c": 6.2999,
+      "rank_a": 25,
+      "rank_b": 6,
+      "rank_c": 1053,
+      "title": "Parachutes, My Love, Could Carry Us Higher",
+      "author": "Barbara Guest",
+      "era": "new_york_school"
+    },
+    {
+      "phrase": "the roller of big cigars,\nThe muscular one, and bid him whip",
+      "a_text": "the",
+      "b_text": "muscular",
+      "c_text": "bid",
+      "s2_a": -5.4683,
+      "s2_b": 3.0712,
+      "s2_c": 7.695,
+      "h_a": 10.7812,
+      "h_b": 11.9398,
+      "h_c": 7.34,
+      "rank_a": 4,
+      "rank_b": 4902,
+      "rank_c": 1623,
+      "title": "The Emperor of Ice-Cream",
+      "author": "Wallace Stevens",
+      "era": "modernist"
+    },
+    {
+      "phrase": "the great sea yearns,\nwe ourselves flash and yearn,\nand moreover my mother told me as a boy",
+      "a_text": "the",
+      "b_text": "we",
+      "c_text": "moreover",
+      "s2_a": -3.2995,
+      "s2_b": 0.8564,
+      "s2_c": 7.2065,
+      "h_a": 5.9969,
+      "h_b": 8.0504,
+      "h_c": 7.1886,
+      "rank_a": 2,
+      "rank_b": 72,
+      "rank_c": 1005,
+      "title": "Dream Song 14 (opening)",
+      "author": "John Berryman",
+      "era": "confessional"
+    },
+    {
+      "phrase": "There would be thunder in the bushes, a rustling of coils,\nAnd Angelica",
+      "a_text": "There",
+      "b_text": "a",
+      "c_text": "Angel",
+      "s2_a": -1.4039,
+      "s2_b": -3.4433,
+      "s2_c": 6.925,
+      "h_a": 7.9102,
+      "h_b": 8.6186,
+      "h_c": 8.5294,
+      "rank_a": 19,
+      "rank_b": 5,
+      "rank_c": 2807,
+      "title": "Soonest Mended",
+      "author": "John Ashbery",
+      "era": "new_york_school"
+    },
+    {
+      "phrase": "In them hath he set a tabernacle for the sun, which is as a bridegroom coming out of his chamber,\nan",
+      "a_text": "In",
+      "b_text": "which",
+      "c_text": "rejo",
+      "s2_a": -1.1812,
+      "s2_b": 1.2089,
+      "s2_c": 6.6819,
+      "h_a": 6.5827,
+      "h_b": 3.4748,
+      "h_c": 6.9579,
+      "rank_a": 7,
+      "rank_b": 2,
+      "rank_c": 638,
+      "title": "Psalm 19:1-6 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical"
+    },
+    {
+      "phrase": "these lines, the bones of my arms have hurt me, and never",
+      "a_text": "lines",
+      "b_text": "the",
+      "c_text": "never",
+      "s2_a": -1.8985,
+      "s2_b": -1.4055,
+      "s2_c": 6.3492,
+      "h_a": 6.4653,
+      "h_b": 5.8424,
+      "h_c": 4.8583,
+      "rank_a": 2,
+      "rank_b": 3,
+      "rank_c": 110,
+      "title": "Black Stone Lying on a White Stone",
+      "author": "C\u00e9sar Vallejo",
+      "era": "surrealist"
+    },
+    {
+      "phrase": "said the youth, as I mentioned before,\nAnd have grown most uncommonly fat;",
+      "a_text": "said",
+      "b_text": "as",
+      "c_text": "have",
+      "s2_a": 10.0355,
+      "s2_b": 0.5917,
+      "s2_c": 5.7321,
+      "h_a": 2.0171,
+      "h_b": 5.3088,
+      "h_c": 3.3531,
+      "rank_a": 82,
+      "rank_b": 9,
+      "rank_c": 28,
+      "title": "You Are Old, Father William",
+      "author": "Lewis Carroll",
+      "era": "parody"
+    },
+    {
+      "phrase": "all that wintry day,\nOn love, and wing'd St",
+      "a_text": "all",
+      "b_text": "love",
+      "c_text": "wing",
+      "s2_a": 0.427,
+      "s2_b": -0.4714,
+      "s2_c": 5.7296,
+      "h_a": 7.2465,
+      "h_b": 8.6057,
+      "h_c": 10.0312,
+      "rank_a": 25,
+      "rank_b": 21,
+      "rank_c": 4107,
+      "title": "The Eve of St. Agnes (stanzas 1-5)",
+      "author": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "phrase": "Facing round about me everywhere,\nWith your nut-coloured hair,\nAnd gray eyes",
+      "a_text": "F",
+      "b_text": "With",
+      "c_text": "gray",
+      "s2_a": 1.8304,
+      "s2_b": -1.2567,
+      "s2_c": 5.5593,
+      "h_a": 6.8684,
+      "h_b": 7.6952,
+      "h_c": 6.8059,
+      "rank_a": 66,
+      "rank_b": 17,
+      "rank_c": 389,
+      "title": "After a Journey",
+      "author": "Thomas Hardy",
+      "era": "victorian"
+    },
+    {
+      "phrase": "Mary had a little lamb, its fleece was white as snow,\nAnd everywhere that Mary went",
+      "a_text": "Mary",
+      "b_text": "its",
+      "c_text": "everywhere",
+      "s2_a": 1.121,
+      "s2_b": 7.6021,
+      "s2_c": 4.8818,
+      "h_a": 7.2763,
+      "h_b": 5.4567,
+      "h_c": 8.5445,
+      "rank_a": 55,
+      "rank_b": 366,
+      "rank_c": 952,
+      "title": "Nursery Rhymes (compilation)",
+      "author": "Traditional (English)",
+      "era": "nursery_rhyme"
+    },
+    {
+      "phrase": "Upon his brow he felt their breath,\nAnd in his waving hair,\nAnd looked from that lone post of death",
+      "a_text": "Upon",
+      "b_text": "in",
+      "c_text": "looked",
+      "s2_a": 3.7043,
+      "s2_b": -2.0575,
+      "s2_c": 4.6923,
+      "h_a": 6.621,
+      "h_b": 8.2777,
+      "h_c": 6.8894,
+      "rank_a": 126,
+      "rank_b": 11,
+      "rank_c": 234,
+      "title": "Casabianca",
+      "author": "Felicia Hemans",
+      "era": "victorian"
+    },
+    {
+      "phrase": "chance, kings, and desperate men",
+      "a_text": "chance",
+      "b_text": "kings",
+      "c_text": "desperate",
+      "s2_a": 9.4145,
+      "s2_b": 6.5149,
+      "s2_c": 4.6207,
+      "h_a": 7.2962,
+      "h_b": 6.6311,
+      "h_c": 9.4718,
+      "rank_a": 3340,
+      "rank_b": 653,
+      "rank_c": 1706,
+      "title": "Death, Be Not Proud (Holy Sonnet X)",
+      "author": "John Donne",
+      "era": "metaphysical"
+    },
+    {
+      "phrase": "Perched, and sat, and nothing more",
+      "a_text": "ched",
+      "b_text": "and",
+      "c_text": "nothing",
+      "s2_a": -0.7348,
+      "s2_b": -4.4576,
+      "s2_c": 4.3764,
+      "h_a": 0.8553,
+      "h_b": 8.78,
+      "h_c": 8.6922,
+      "rank_a": 1,
+      "rank_b": 3,
+      "rank_c": 852,
+      "title": "The Raven (opening stanzas)",
+      "author": "Edgar Allan Poe",
+      "era": "19th_century"
+    },
+    {
+      "phrase": "Of fruit-trees laden by low-singing rills,\nAnd dewy dawns, and mystical blue skies",
+      "a_text": "fruit",
+      "b_text": "de",
+      "c_text": "mystical",
+      "s2_a": 0.6904,
+      "s2_b": 0.0293,
+      "s2_c": 4.2659,
+      "h_a": 9.4146,
+      "h_b": 10.9461,
+      "h_c": 10.2838,
+      "rank_a": 108,
+      "rank_b": 319,
+      "rank_c": 2630,
+      "title": "The Tropics in New York",
+      "author": "Claude McKay",
+      "era": "harlem_renaissance"
+    }
+  ],
+  "poem_hit_counts": [
+    {
+      "title": "La Belle Dame sans Merci",
+      "author": "John Keats",
+      "era": "romantic",
+      "n_tricola": 8
+    },
+    {
+      "title": "The Raven (opening stanzas)",
+      "author": "Edgar Allan Poe",
+      "era": "19th_century",
+      "n_tricola": 4
+    },
+    {
+      "title": "You Are Old, Father William",
+      "author": "Lewis Carroll",
+      "era": "parody",
+      "n_tricola": 4
+    },
+    {
+      "title": "Tithonus",
+      "author": "Alfred Lord Tennyson",
+      "era": "dramatic_monologue",
+      "n_tricola": 4
+    },
+    {
+      "title": "Ode on a Grecian Urn",
+      "author": "John Keats",
+      "era": "ekphrastic",
+      "n_tricola": 4
+    },
+    {
+      "title": "The Eve of St. Agnes (stanzas 1-5)",
+      "author": "John Keats",
+      "era": "romantic",
+      "n_tricola": 4
+    },
+    {
+      "title": "Ozymandias",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "n_tricola": 3
+    },
+    {
+      "title": "Neutral Tones",
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "n_tricola": 3
+    },
+    {
+      "title": "Lord Randal",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "n_tricola": 3
+    },
+    {
+      "title": "Death, Be Not Proud (Holy Sonnet X)",
+      "author": "John Donne",
+      "era": "metaphysical",
+      "n_tricola": 3
+    },
+    {
+      "title": "The Old Man's Comforts and How He Gained Them",
+      "author": "Robert Southey",
+      "era": "parody_original",
+      "n_tricola": 3
+    },
+    {
+      "title": "Epistle to Dr. Arbuthnot (opening)",
+      "author": "Alexander Pope",
+      "era": "18th_century",
+      "n_tricola": 3
+    },
+    {
+      "title": "The Vanity of Human Wishes (opening)",
+      "author": "Samuel Johnson",
+      "era": "18th_century",
+      "n_tricola": 3
+    },
+    {
+      "title": "Lycidas (opening and lament)",
+      "author": "John Milton",
+      "era": "elegy",
+      "n_tricola": 3
+    },
+    {
+      "title": "The Lady of Shalott (opening)",
+      "author": "Alfred, Lord Tennyson",
+      "era": "ekphrastic",
+      "n_tricola": 3
+    },
+    {
+      "title": "I Hear America Singing",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "n_tricola": 3
+    },
+    {
+      "title": "When I Heard the Learn'd Astronomer",
+      "author": "Walt Whitman",
+      "era": "romantic",
+      "n_tricola": 2
+    },
+    {
+      "title": "Sailing to Byzantium (stanza 1)",
+      "author": "W.B. Yeats",
+      "era": "modernist",
+      "n_tricola": 2
+    },
+    {
+      "title": "Sonnet 18 (Shall I compare thee)",
+      "author": "William Shakespeare",
+      "era": "victorian",
+      "n_tricola": 2
+    },
+    {
+      "title": "Home on the Range",
+      "author": "Brewster Higley",
+      "era": "song_lyrics",
+      "n_tricola": 2
+    },
+    {
+      "title": "Nursery Rhymes (compilation)",
+      "author": "Traditional (English)",
+      "era": "nursery_rhyme",
+      "n_tricola": 2
+    },
+    {
+      "title": "They Flee from Me",
+      "author": "Thomas Wyatt",
+      "era": "early_modern",
+      "n_tricola": 2
+    },
+    {
+      "title": "To a Skylark (opening stanzas)",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "n_tricola": 2
+    },
+    {
+      "title": "Tears, Idle Tears",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "n_tricola": 2
+    },
+    {
+      "title": "'Tis the Voice of the Sluggard",
+      "author": "Isaac Watts",
+      "era": "parody_original",
+      "n_tricola": 2
+    },
+    {
+      "title": "The Rape of the Lock (Canto I, opening)",
+      "author": "Alexander Pope",
+      "era": "parody",
+      "n_tricola": 2
+    },
+    {
+      "title": "An Essay on Man (Epistle I, opening)",
+      "author": "Alexander Pope",
+      "era": "18th_century",
+      "n_tricola": 2
+    },
+    {
+      "title": "My Last Duchess (complete)",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "n_tricola": 2
+    },
+    {
+      "title": "The Bishop Orders His Tomb at Saint Praxed's Church",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "n_tricola": 2
+    },
+    {
+      "title": "Elegy Written in a Country Churchyard (opening)",
+      "author": "Thomas Gray",
+      "era": "elegy",
+      "n_tricola": 2
+    }
+  ]
+}
