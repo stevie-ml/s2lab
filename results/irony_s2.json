@@ -1,0 +1,400 @@
+{
+  "experiment": "irony_s2",
+  "hypothesis": "Verbal irony hides semantic surprise: ironic tokens have lower S\u2082 than their literal counterparts",
+  "pairs": [
+    {
+      "id": "great_war_1",
+      "ironic": {
+        "title": "Dulce et Decorum Est (closing lines)",
+        "avg_s2_all": 1.4823,
+        "avg_s2_key_tokens": -1.7557,
+        "key_moments": [
+          {
+            "token": "est",
+            "s2": -2.8579,
+            "surprisal": 1.5191,
+            "entropy": 4.377,
+            "top_alt": "est"
+          },
+          {
+            "token": " glory",
+            "s2": 1.1183,
+            "surprisal": 10.5429,
+            "entropy": 9.4246,
+            "top_alt": " cause"
+          },
+          {
+            "token": " est",
+            "s2": -3.5274,
+            "surprisal": 5.322,
+            "entropy": 8.8494,
+            "top_alt": ","
+          }
+        ],
+        "summary": {
+          "avg_surprisal": 8.3856,
+          "avg_entropy": 6.9033,
+          "avg_s2": 1.4823,
+          "max_s2": 19.7911,
+          "min_s2": -4.9907,
+          "std_s2": 6.2786,
+          "pos_s2_ratio": 0.4737
+        },
+        "note": "Owen ironizes the Latin tag: 'sweet and fitting to die for one's country' \u2014 conventional sentiment vs. gas attack reality"
+      },
+      "literal": {
+        "title": "Dulce et Decorum Est (literal paraphrase)",
+        "avg_s2_all": 0.5479,
+        "avg_s2_key_tokens": 1.3323,
+        "key_moments": [
+          {
+            "token": " horror",
+            "s2": 1.7771,
+            "surprisal": 11.2017,
+            "entropy": 9.4246,
+            "top_alt": " cause"
+          },
+          {
+            "token": " Truth",
+            "s2": 4.685,
+            "surprisal": 15.6092,
+            "entropy": 10.9242,
+            "top_alt": " man"
+          },
+          {
+            "token": " shameful",
+            "s2": -2.4652,
+            "surprisal": 8.3954,
+            "entropy": 10.8606,
+            "top_alt": " painful"
+          }
+        ],
+        "summary": {
+          "avg_surprisal": 7.6748,
+          "avg_entropy": 7.1269,
+          "avg_s2": 0.5479,
+          "max_s2": 19.7911,
+          "min_s2": -6.1307,
+          "std_s2": 5.5961,
+          "pos_s2_ratio": 0.359
+        },
+        "note": ""
+      },
+      "delta_avg_s2": 0.9344,
+      "delta_key_s2": -3.088
+    },
+    {
+      "id": "swift_praise",
+      "ironic": {
+        "title": "On the Death of Dr. Swift (ironic self-praise)",
+        "avg_s2_all": 2.0982,
+        "avg_s2_key_tokens": 2.7819,
+        "key_moments": [
+          {
+            "token": " allow",
+            "s2": 7.1706,
+            "surprisal": 12.0667,
+            "entropy": 4.8961,
+            "top_alt": " have"
+          },
+          {
+            "token": " deserve",
+            "s2": -1.6069,
+            "surprisal": 8.8396,
+            "entropy": 10.4466,
+            "top_alt": " easily"
+          }
+        ],
+        "summary": {
+          "avg_surprisal": 8.1372,
+          "avg_entropy": 6.039,
+          "avg_s2": 2.0982,
+          "max_s2": 24.1387,
+          "min_s2": -3.9166,
+          "std_s2": 5.7296,
+          "pos_s2_ratio": 0.5758
+        },
+        "note": "Self-deprecatory framing ironizes the praise; 'no age could more deserve it' means the age deserves satire"
+      },
+      "literal": {
+        "title": "On the Death of Dr. Swift (literal version)",
+        "avg_s2_all": 1.714,
+        "avg_s2_key_tokens": 3.0104,
+        "key_moments": [
+          {
+            "token": " admit",
+            "s2": 4.4978,
+            "surprisal": 9.3939,
+            "entropy": 4.8961,
+            "top_alt": " have"
+          },
+          {
+            "token": " require",
+            "s2": 1.523,
+            "surprisal": 11.7459,
+            "entropy": 10.2229,
+            "top_alt": " easily"
+          }
+        ],
+        "summary": {
+          "avg_surprisal": 7.3691,
+          "avg_entropy": 5.6552,
+          "avg_s2": 1.714,
+          "max_s2": 24.0603,
+          "min_s2": -4.019,
+          "std_s2": 5.2888,
+          "pos_s2_ratio": 0.5758
+        },
+        "note": ""
+      },
+      "delta_avg_s2": 0.3842,
+      "delta_key_s2": -0.2285
+    },
+    {
+      "id": "mock_heroic_pope",
+      "ironic": {
+        "title": "The Rape of the Lock (Canto I, opening)",
+        "avg_s2_all": 1.6882,
+        "avg_s2_key_tokens": 3.7014,
+        "key_moments": [
+          {
+            "token": " dire",
+            "s2": 6.4566,
+            "surprisal": 17.0187,
+            "entropy": 10.5621,
+            "top_alt": " is"
+          },
+          {
+            "token": " mighty",
+            "s2": -1.6544,
+            "surprisal": 9.4011,
+            "entropy": 11.0555,
+            "top_alt": " is"
+          },
+          {
+            "token": " contests",
+            "s2": 4.9283,
+            "surprisal": 15.4538,
+            "entropy": 10.5256,
+            "top_alt": " offence"
+          },
+          {
+            "token": " trivial",
+            "s2": 5.075,
+            "surprisal": 14.092,
+            "entropy": 9.017,
+            "top_alt": " the"
+          }
+        ],
+        "summary": {
+          "avg_surprisal": 8.9617,
+          "avg_entropy": 7.2735,
+          "avg_s2": 1.6882,
+          "max_s2": 20.1929,
+          "min_s2": -5.9984,
+          "std_s2": 4.7436,
+          "pos_s2_ratio": 0.6458
+        },
+        "note": "Mock-heroic: epic vocabulary applied to a card game and a stolen curl"
+      },
+      "literal": {
+        "title": "Mock-heroic control (literal epic)",
+        "avg_s2_all": 1.8923,
+        "avg_s2_key_tokens": 2.8622,
+        "key_moments": [
+          {
+            "token": " glorious",
+            "s2": 1.2736,
+            "surprisal": 10.5956,
+            "entropy": 9.3219,
+            "top_alt": " the"
+          },
+          {
+            "token": " Caesar",
+            "s2": 2.0415,
+            "surprisal": 10.5867,
+            "entropy": 8.5452,
+            "top_alt": " the"
+          },
+          {
+            "token": " Achilles",
+            "s2": 5.2714,
+            "surprisal": 14.8293,
+            "entropy": 9.5579,
+            "top_alt": ","
+          }
+        ],
+        "summary": {
+          "avg_surprisal": 8.8008,
+          "avg_entropy": 6.9084,
+          "avg_s2": 1.8923,
+          "max_s2": 19.9794,
+          "min_s2": -4.5472,
+          "std_s2": 4.9097,
+          "pos_s2_ratio": 0.6222
+        },
+        "note": ""
+      },
+      "delta_avg_s2": -0.2041,
+      "delta_key_s2": 0.8392
+    },
+    {
+      "id": "housman_bitter",
+      "ironic": {
+        "title": "Here Dead We Lie",
+        "avg_s2_all": 0.1057,
+        "avg_s2_key_tokens": 2.0614,
+        "key_moments": [
+          {
+            "token": " shame",
+            "s2": 10.8512,
+            "surprisal": 16.9445,
+            "entropy": 6.0933,
+            "top_alt": " die"
+          },
+          {
+            "token": " sure",
+            "s2": -4.9003,
+            "surprisal": 4.3944,
+            "entropy": 9.2946,
+            "top_alt": " born"
+          },
+          {
+            "token": " nothing",
+            "s2": 0.2334,
+            "surprisal": 8.3237,
+            "entropy": 8.0903,
+            "top_alt": " a"
+          }
+        ],
+        "summary": {
+          "avg_surprisal": 6.2387,
+          "avg_entropy": 6.133,
+          "avg_s2": 0.1057,
+          "max_s2": 22.3083,
+          "min_s2": -5.4017,
+          "std_s2": 5.348,
+          "pos_s2_ratio": 0.3261
+        },
+        "note": "Bitter understatement: 'nothing much to lose' ironizes the sacrifice. 'shame the land' \u2014 dying is better than cowardice."
+      },
+      "literal": {
+        "title": "Here Dead We Lie (literal paraphrase)",
+        "avg_s2_all": -0.1298,
+        "avg_s2_key_tokens": 2.1855,
+        "key_moments": [
+          {
+            "token": " fight",
+            "s2": 1.8124,
+            "surprisal": 8.248,
+            "entropy": 6.4356,
+            "top_alt": " live"
+          },
+          {
+            "token": " serve",
+            "s2": 2.2356,
+            "surprisal": 7.8433,
+            "entropy": 5.6078,
+            "top_alt": " die"
+          },
+          {
+            "token": " everything",
+            "s2": 2.5086,
+            "surprisal": 10.9236,
+            "entropy": 8.415,
+            "top_alt": " a"
+          }
+        ],
+        "summary": {
+          "avg_surprisal": 6.0169,
+          "avg_entropy": 6.1467,
+          "avg_s2": -0.1298,
+          "max_s2": 17.4459,
+          "min_s2": -6.1499,
+          "std_s2": 4.3581,
+          "pos_s2_ratio": 0.3636
+        },
+        "note": ""
+      },
+      "delta_avg_s2": 0.2355,
+      "delta_key_s2": -0.1241
+    },
+    {
+      "id": "larkin_this_be",
+      "ironic": {
+        "title": "This Be The Verse",
+        "avg_s2_all": -0.7539,
+        "avg_s2_key_tokens": -3.9634,
+        "key_moments": [
+          {
+            "token": " extra",
+            "s2": -5.0518,
+            "surprisal": 5.0802,
+            "entropy": 10.132,
+            "top_alt": " more"
+          },
+          {
+            "token": " just",
+            "s2": -2.8749,
+            "surprisal": 6.6596,
+            "entropy": 9.5345,
+            "top_alt": " and"
+          }
+        ],
+        "summary": {
+          "avg_surprisal": 5.3379,
+          "avg_entropy": 6.0918,
+          "avg_s2": -0.7539,
+          "max_s2": 14.3733,
+          "min_s2": -5.0518,
+          "std_s2": 3.8628,
+          "pos_s2_ratio": 0.3077
+        },
+        "note": "Blunt register with ironic closing flourish: 'just for you' echoes a gift-giving clich\u00e9 applied to inherited trauma"
+      },
+      "literal": {
+        "title": "This Be The Verse (literal paraphrase)",
+        "avg_s2_all": 0.1159,
+        "avg_s2_key_tokens": -1.3391,
+        "key_moments": [
+          {
+            "token": " more",
+            "s2": -4.6684,
+            "surprisal": 5.0155,
+            "entropy": 9.6839,
+            "top_alt": " of"
+          },
+          {
+            "token": " without",
+            "s2": 1.9902,
+            "surprisal": 9.7159,
+            "entropy": 7.7257,
+            "top_alt": " and"
+          }
+        ],
+        "summary": {
+          "avg_surprisal": 6.0224,
+          "avg_entropy": 5.9065,
+          "avg_s2": 0.1159,
+          "max_s2": 17.2046,
+          "min_s2": -4.6684,
+          "std_s2": 4.3137,
+          "pos_s2_ratio": 0.3947
+        },
+        "note": ""
+      },
+      "delta_avg_s2": -0.8698,
+      "delta_key_s2": -2.6243
+    }
+  ],
+  "summary": {
+    "grand_ironic_avg_s2": 0.9241,
+    "grand_literal_avg_s2": 0.8281,
+    "grand_delta_avg": 0.096,
+    "grand_ironic_key_s2": 0.5651,
+    "grand_literal_key_s2": 1.6103,
+    "grand_delta_key": -1.0451,
+    "hypothesis_supported": false,
+    "n_pairs": 5
+  }
+}
