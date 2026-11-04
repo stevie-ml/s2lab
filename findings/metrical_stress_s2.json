@@ -1,0 +1,187 @@
+{
+  "experiment": "metrical_stress_vs_s2",
+  "date": "2026-11-04",
+  "full_corpus": {
+    "n_poems": 395,
+    "n_tokens": 38857,
+    "stress_summary": {
+      "function_word": {
+        "n": 16247,
+        "mean": -0.1587,
+        "median": -1.6903,
+        "std": 5.8908
+      },
+      "monosyllabic_content": {
+        "n": 13664,
+        "mean": 1.0445,
+        "median": -0.0479,
+        "std": 5.0776
+      },
+      "trochaic_initial_stress": {
+        "n": 4736,
+        "mean": 2.2,
+        "median": 1.1486,
+        "std": 5.3589
+      },
+      "iambic_final_stress": {
+        "n": 1036,
+        "mean": 2.8554,
+        "median": 2.2356,
+        "std": 5.2091
+      },
+      "medial_stress": {
+        "n": 490,
+        "mean": 3.3681,
+        "median": 2.9792,
+        "std": 5.067
+      },
+      "unknown": {
+        "n": 2684,
+        "mean": 1.5155,
+        "median": -0.0658,
+        "std": 5.0291
+      }
+    },
+    "monosyllabic": {
+      "n": 29300,
+      "mean": 0.3613,
+      "median": -0.9954,
+      "std": 5.5608
+    },
+    "polysyllabic": {
+      "n": 6840,
+      "mean": 2.3365,
+      "median": 1.4526,
+      "std": 5.3371
+    },
+    "initial_stressed": {
+      "n": 29992,
+      "mean": 0.8864,
+      "median": -0.413,
+      "std": 5.4614
+    },
+    "final_stressed": {
+      "n": 1706,
+      "mean": 2.9808,
+      "median": 2.3018,
+      "std": 5.1745
+    }
+  },
+  "sonnets_only": {
+    "n_tokens": 503,
+    "stress_summary": {
+      "function_word": {
+        "n": 239,
+        "mean": -1.6668,
+        "median": -2.1885,
+        "std": 2.8177
+      },
+      "monosyllabic_content": {
+        "n": 187,
+        "mean": 0.4838,
+        "median": -0.4712,
+        "std": 3.6395
+      },
+      "trochaic_initial_stress": {
+        "n": 47,
+        "mean": 2.0566,
+        "median": 1.1217,
+        "std": 4.5821
+      },
+      "iambic_final_stress": {
+        "n": 8,
+        "mean": 1.8335,
+        "median": 2.256,
+        "std": 3.0026
+      },
+      "medial_stress": {
+        "n": 5,
+        "mean": 4.8002,
+        "median": 3.295,
+        "std": 3.4708
+      },
+      "unknown": {
+        "n": 17,
+        "mean": 0.689,
+        "median": -0.2844,
+        "std": 4.6629
+      }
+    }
+  },
+  "iambic_pentameter_positions": {
+    "by_position": {
+      "1": {
+        "n": 56,
+        "mean": 0.3382,
+        "median": -1.7032,
+        "std": 5.9615
+      },
+      "2": {
+        "n": 56,
+        "mean": -0.0537,
+        "median": -1.0479,
+        "std": 4.2989
+      },
+      "3": {
+        "n": 56,
+        "mean": 0.1417,
+        "median": -0.807,
+        "std": 3.8089
+      },
+      "4": {
+        "n": 56,
+        "mean": 0.2257,
+        "median": -0.249,
+        "std": 3.9069
+      },
+      "5": {
+        "n": 56,
+        "mean": 0.4191,
+        "median": -0.5482,
+        "std": 4.0075
+      },
+      "6": {
+        "n": 56,
+        "mean": -0.3962,
+        "median": -0.6959,
+        "std": 3.189
+      },
+      "7": {
+        "n": 56,
+        "mean": -0.5013,
+        "median": -0.9155,
+        "std": 2.8153
+      },
+      "8": {
+        "n": 56,
+        "mean": 0.8295,
+        "median": 0.1689,
+        "std": 3.582
+      },
+      "9": {
+        "n": 54,
+        "mean": -0.3771,
+        "median": -1.0979,
+        "std": 3.5765
+      },
+      "10": {
+        "n": 54,
+        "mean": -0.2429,
+        "median": -0.8131,
+        "std": 3.9324
+      }
+    },
+    "stressed_positions": {
+      "n": 278,
+      "mean": 0.0747,
+      "median": -0.5055,
+      "std": 3.7965
+    },
+    "unstressed_positions": {
+      "n": 278,
+      "mean": 0.0069,
+      "median": -0.8758,
+      "std": 4.158
+    }
+  }
+}
