@@ -1,0 +1,442 @@
+{
+  "total_tokens": 51940,
+  "bin_summary": {
+    "very_low (<-3)": {
+      "n": 12210,
+      "mean_div": 2.246,
+      "median_div": 2.0,
+      "pct_1cat": 16.8,
+      "pct_4plus": 4.0
+    },
+    "low (-3 to -1)": {
+      "n": 15119,
+      "mean_div": 2.273,
+      "median_div": 2,
+      "pct_1cat": 13.7,
+      "pct_4plus": 3.7
+    },
+    "neutral (-1 to 1)": {
+      "n": 10847,
+      "mean_div": 2.233,
+      "median_div": 2,
+      "pct_1cat": 16.5,
+      "pct_4plus": 4.6
+    },
+    "high (1 to 3)": {
+      "n": 5597,
+      "mean_div": 2.226,
+      "median_div": 2,
+      "pct_1cat": 17.6,
+      "pct_4plus": 4.0
+    },
+    "very_high (>3)": {
+      "n": 8167,
+      "mean_div": 2.257,
+      "median_div": 2,
+      "pct_1cat": 15.6,
+      "pct_4plus": 4.3
+    }
+  },
+  "era_summary": {
+    "18th_century": {
+      "n": 1435,
+      "n_high": 238,
+      "base_div": 2.28,
+      "high_div": 2.298,
+      "delta": 0.018
+    },
+    "19th_century": {
+      "n": 3223,
+      "n_high": 534,
+      "base_div": 2.243,
+      "high_div": 2.247,
+      "delta": 0.004
+    },
+    "ancient": {
+      "n": 318,
+      "n_high": 57,
+      "base_div": 2.242,
+      "high_div": 2.193,
+      "delta": -0.049
+    },
+    "ballad": {
+      "n": 915,
+      "n_high": 140,
+      "base_div": 2.266,
+      "high_div": 2.414,
+      "delta": 0.149
+    },
+    "beat": {
+      "n": 1195,
+      "n_high": 162,
+      "base_div": 2.169,
+      "high_div": 2.315,
+      "delta": 0.146
+    },
+    "biblical": {
+      "n": 1331,
+      "n_high": 170,
+      "base_div": 2.152,
+      "high_div": 2.165,
+      "delta": 0.013
+    },
+    "black_arts": {
+      "n": 246,
+      "n_high": 34,
+      "base_div": 2.089,
+      "high_div": 1.971,
+      "delta": -0.119
+    },
+    "classical_chinese": {
+      "n": 238,
+      "n_high": 34,
+      "base_div": 2.361,
+      "high_div": 2.353,
+      "delta": -0.008
+    },
+    "clerihew": {
+      "n": 232,
+      "n_high": 59,
+      "base_div": 2.388,
+      "high_div": 2.542,
+      "delta": 0.154
+    },
+    "cliche_control": {
+      "n": 489,
+      "n_high": 53,
+      "base_div": 2.182,
+      "high_div": 2.208,
+      "delta": 0.026
+    },
+    "concrete": {
+      "n": 286,
+      "n_high": 36,
+      "base_div": 2.357,
+      "high_div": 2.444,
+      "delta": 0.088
+    },
+    "confessional": {
+      "n": 397,
+      "n_high": 77,
+      "base_div": 2.244,
+      "high_div": 2.143,
+      "delta": -0.101
+    },
+    "contemporary": {
+      "n": 2775,
+      "n_high": 434,
+      "base_div": 2.308,
+      "high_div": 2.364,
+      "delta": 0.056
+    },
+    "control": {
+      "n": 128,
+      "n_high": 3,
+      "base_div": 2.414,
+      "high_div": 3,
+      "delta": 0.586
+    },
+    "deep_image": {
+      "n": 61,
+      "n_high": 15,
+      "base_div": 2.213,
+      "high_div": 2.2,
+      "delta": -0.013
+    },
+    "double_dactyl": {
+      "n": 248,
+      "n_high": 30,
+      "base_div": 2.456,
+      "high_div": 2.533,
+      "delta": 0.078
+    },
+    "dramatic_monologue": {
+      "n": 2568,
+      "n_high": 411,
+      "base_div": 2.19,
+      "high_div": 2.182,
+      "delta": -0.007
+    },
+    "early_modern": {
+      "n": 1230,
+      "n_high": 190,
+      "base_div": 2.22,
+      "high_div": 2.232,
+      "delta": 0.012
+    },
+    "ekphrastic": {
+      "n": 1901,
+      "n_high": 301,
+      "base_div": 2.277,
+      "high_div": 2.219,
+      "delta": -0.057
+    },
+    "elegy": {
+      "n": 1255,
+      "n_high": 200,
+      "base_div": 2.304,
+      "high_div": 2.29,
+      "delta": -0.014
+    },
+    "fixed_form": {
+      "n": 858,
+      "n_high": 142,
+      "base_div": 2.323,
+      "high_div": 2.296,
+      "delta": -0.027
+    },
+    "found_poetry": {
+      "n": 1204,
+      "n_high": 129,
+      "base_div": 2.387,
+      "high_div": 2.473,
+      "delta": 0.086
+    },
+    "german_expressionist": {
+      "n": 498,
+      "n_high": 99,
+      "base_div": 2.223,
+      "high_div": 2.303,
+      "delta": 0.08
+    },
+    "ghazal": {
+      "n": 230,
+      "n_high": 39,
+      "base_div": 2.27,
+      "high_div": 2.256,
+      "delta": -0.013
+    },
+    "haiku": {
+      "n": 293,
+      "n_high": 61,
+      "base_div": 2.328,
+      "high_div": 2.475,
+      "delta": 0.148
+    },
+    "harlem_renaissance": {
+      "n": 816,
+      "n_high": 123,
+      "base_div": 2.248,
+      "high_div": 2.171,
+      "delta": -0.077
+    },
+    "imagist": {
+      "n": 321,
+      "n_high": 57,
+      "base_div": 2.159,
+      "high_div": 2.123,
+      "delta": -0.036
+    },
+    "japanese_classical": {
+      "n": 59,
+      "n_high": 10,
+      "base_div": 2.186,
+      "high_div": 2.3,
+      "delta": 0.114
+    },
+    "korean_modernist": {
+      "n": 102,
+      "n_high": 16,
+      "base_div": 2.275,
+      "high_div": 2.188,
+      "delta": -0.087
+    },
+    "language": {
+      "n": 496,
+      "n_high": 75,
+      "base_div": 2.389,
+      "high_div": 2.413,
+      "delta": 0.024
+    },
+    "latin_american": {
+      "n": 461,
+      "n_high": 72,
+      "base_div": 2.178,
+      "high_div": 2.139,
+      "delta": -0.039
+    },
+    "limerick": {
+      "n": 426,
+      "n_high": 58,
+      "base_div": 2.254,
+      "high_div": 2.31,
+      "delta": 0.057
+    },
+    "metaphysical": {
+      "n": 533,
+      "n_high": 78,
+      "base_div": 2.281,
+      "high_div": 2.205,
+      "delta": -0.076
+    },
+    "mid_century": {
+      "n": 583,
+      "n_high": 94,
+      "base_div": 2.273,
+      "high_div": 2.404,
+      "delta": 0.132
+    },
+    "modernist": {
+      "n": 2985,
+      "n_high": 507,
+      "base_div": 2.25,
+      "high_div": 2.264,
+      "delta": 0.014
+    },
+    "new_york_school": {
+      "n": 2773,
+      "n_high": 406,
+      "base_div": 2.237,
+      "high_div": 2.239,
+      "delta": 0.002
+    },
+    "nonsense": {
+      "n": 500,
+      "n_high": 65,
+      "base_div": 2.276,
+      "high_div": 2.185,
+      "delta": -0.091
+    },
+    "nursery_rhyme": {
+      "n": 222,
+      "n_high": 31,
+      "base_div": 2.252,
+      "high_div": 2.161,
+      "delta": -0.091
+    },
+    "old_english": {
+      "n": 629,
+      "n_high": 106,
+      "base_div": 2.243,
+      "high_div": 2.151,
+      "delta": -0.092
+    },
+    "oulipo": {
+      "n": 1001,
+      "n_high": 197,
+      "base_div": 2.295,
+      "high_div": 2.315,
+      "delta": 0.02
+    },
+    "pantoum": {
+      "n": 134,
+      "n_high": 24,
+      "base_div": 2.157,
+      "high_div": 1.875,
+      "delta": -0.282
+    },
+    "parody": {
+      "n": 669,
+      "n_high": 104,
+      "base_div": 2.16,
+      "high_div": 2.135,
+      "delta": -0.025
+    },
+    "parody_original": {
+      "n": 443,
+      "n_high": 66,
+      "base_div": 2.196,
+      "high_div": 2.212,
+      "delta": 0.016
+    },
+    "persian": {
+      "n": 382,
+      "n_high": 72,
+      "base_div": 2.147,
+      "high_div": 2.139,
+      "delta": -0.008
+    },
+    "postcolonial": {
+      "n": 989,
+      "n_high": 156,
+      "base_div": 2.207,
+      "high_div": 2.244,
+      "delta": 0.036
+    },
+    "prose_poetry": {
+      "n": 1408,
+      "n_high": 199,
+      "base_div": 2.214,
+      "high_div": 2.271,
+      "delta": 0.057
+    },
+    "protest_political": {
+      "n": 250,
+      "n_high": 40,
+      "base_div": 2.184,
+      "high_div": 2.175,
+      "delta": -0.009
+    },
+    "romantic": {
+      "n": 3792,
+      "n_high": 606,
+      "base_div": 2.303,
+      "high_div": 2.262,
+      "delta": -0.041
+    },
+    "rondeau": {
+      "n": 130,
+      "n_high": 17,
+      "base_div": 2.131,
+      "high_div": 2.118,
+      "delta": -0.013
+    },
+    "song_lyrics": {
+      "n": 541,
+      "n_high": 67,
+      "base_div": 2.281,
+      "high_div": 2.269,
+      "delta": -0.012
+    },
+    "spoken_word": {
+      "n": 286,
+      "n_high": 45,
+      "base_div": 2.112,
+      "high_div": 2.111,
+      "delta": -0.001
+    },
+    "surrealist": {
+      "n": 1102,
+      "n_high": 161,
+      "base_div": 2.163,
+      "high_div": 2.186,
+      "delta": 0.023
+    },
+    "triolet": {
+      "n": 130,
+      "n_high": 10,
+      "base_div": 2.223,
+      "high_div": 2.1,
+      "delta": -0.123
+    },
+    "victorian": {
+      "n": 5148,
+      "n_high": 890,
+      "base_div": 2.241,
+      "high_div": 2.218,
+      "delta": -0.023
+    },
+    "villanelle": {
+      "n": 436,
+      "n_high": 66,
+      "base_div": 2.317,
+      "high_div": 2.318,
+      "delta": 0.002
+    },
+    "war_poetry": {
+      "n": 639,
+      "n_high": 101,
+      "base_div": 2.197,
+      "high_div": 2.337,
+      "delta": 0.139
+    }
+  },
+  "overall_distribution": {
+    "1": 8171,
+    "2": 24871,
+    "3": 16773,
+    "4": 1960,
+    "5": 160,
+    "6": 5
+  }
+}
