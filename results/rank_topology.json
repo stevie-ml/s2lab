@@ -1,0 +1,1590 @@
+{
+  "band_stats": {
+    "rank_1": {
+      "n": 10033,
+      "mean_s2": -2.9174816106847383,
+      "mean_entropy": 4.296488129173723,
+      "mean_surp": 1.3790064686534382,
+      "pos_pct": 0.0,
+      "mean_rank": 1.0
+    },
+    "rank_2": {
+      "n": 3392,
+      "mean_s2": -2.6260279775943367,
+      "mean_entropy": 5.961754451650941,
+      "mean_surp": 3.3357265330188626,
+      "pos_pct": 8.49056603773585,
+      "mean_rank": 2.0
+    },
+    "rank_3-5": {
+      "n": 4407,
+      "mean_s2": -1.9182776265032948,
+      "mean_entropy": 6.45672414340822,
+      "mean_surp": 4.5384469253460455,
+      "pos_pct": 13.501248014522352,
+      "mean_rank": 3.7987292943045157
+    },
+    "rank_6-10": {
+      "n": 3291,
+      "mean_s2": -0.9850768459434815,
+      "mean_entropy": 6.8014143421452475,
+      "mean_surp": 5.816337526587662,
+      "pos_pct": 25.00759647523549,
+      "mean_rank": 7.6809480401093895
+    },
+    "rank_11-20": {
+      "n": 3022,
+      "mean_s2": -0.16503762409000652,
+      "mean_entropy": 7.1014477167438805,
+      "mean_surp": 6.936409033752489,
+      "pos_pct": 39.27862342819325,
+      "mean_rank": 14.946724023825281
+    },
+    "rank_21-50": {
+      "n": 3693,
+      "mean_s2": 0.6249914703493085,
+      "mean_entropy": 7.524530354725166,
+      "mean_surp": 8.149520714865973,
+      "pos_pct": 54.15651232060655,
+      "mean_rank": 33.02897373409152
+    },
+    "rank_51-100": {
+      "n": 2631,
+      "mean_s2": 1.5485488787533273,
+      "mean_entropy": 7.846829836564051,
+      "mean_surp": 9.39537996959333,
+      "pos_pct": 69.4032687191182,
+      "mean_rank": 72.43709616115545
+    },
+    "rank_101-500": {
+      "n": 4980,
+      "mean_s2": 2.90457512048193,
+      "mean_entropy": 8.214745200803202,
+      "mean_surp": 11.119319959839318,
+      "pos_pct": 86.6867469879518,
+      "mean_rank": 239.16024096385541
+    },
+    "rank_501-1000": {
+      "n": 1601,
+      "mean_s2": 4.298459837601511,
+      "mean_entropy": 8.64768132417239,
+      "mean_surp": 12.94614072454715,
+      "pos_pct": 98.75078076202374,
+      "mean_rank": 710.6046221111806
+    },
+    "rank_1001+": {
+      "n": 3107,
+      "mean_s2": 6.9148439974251925,
+      "mean_entropy": 8.79957029288705,
+      "mean_surp": 15.714412552301242,
+      "pos_pct": 100.0,
+      "mean_rank": 4102.3360154489865
+    }
+  },
+  "spike_counts": {
+    "rank_2": 55,
+    "rank_3-5": 112,
+    "rank_6-10": 171,
+    "rank_11-20": 263,
+    "rank_21-50": 543,
+    "rank_51-100": 626,
+    "rank_101-500": 2104,
+    "rank_501-1000": 992,
+    "rank_1001+": 2718
+  },
+  "total_spikes": 7584,
+  "poet_profiles": [
+    {
+      "author": "Ted Berrigan",
+      "era": "new_york_school",
+      "n": 205,
+      "mean_rank": 40.19512195121951,
+      "mean_s2": -0.7727307317073172,
+      "conventional_pct": 32.68292682926829,
+      "near_miss_pct": 42.4390243902439,
+      "radical_pct": 0.0
+    },
+    {
+      "author": "Killarney Clary",
+      "era": "prose_poetry",
+      "n": 141,
+      "mean_rank": 44.59574468085106,
+      "mean_s2": -0.8210319148936165,
+      "conventional_pct": 23.404255319148938,
+      "near_miss_pct": 53.191489361702125,
+      "radical_pct": 0.7092198581560284
+    },
+    {
+      "author": "Anonymous (KJV translation)",
+      "era": "biblical",
+      "n": 388,
+      "mean_rank": 52.09278350515464,
+      "mean_s2": -0.10122963917525771,
+      "conventional_pct": 62.11340206185567,
+      "near_miss_pct": 23.195876288659793,
+      "radical_pct": 1.5463917525773196
+    },
+    {
+      "author": "Thomas Jefferson (found text)",
+      "era": "found_poetry",
+      "n": 114,
+      "mean_rank": 72.82456140350877,
+      "mean_s2": -0.6328798245614036,
+      "conventional_pct": 70.17543859649123,
+      "near_miss_pct": 24.56140350877193,
+      "radical_pct": 0.8771929824561403
+    },
+    {
+      "author": "Traditional (English)",
+      "era": "nursery_rhyme",
+      "n": 181,
+      "mean_rank": 76.42541436464089,
+      "mean_s2": -0.6135160220994471,
+      "conventional_pct": 29.281767955801104,
+      "near_miss_pct": 42.5414364640884,
+      "radical_pct": 1.1049723756906078
+    },
+    {
+      "author": "Synthetic (shadow-divergence test case)",
+      "era": "concrete",
+      "n": 130,
+      "mean_rank": 92.99230769230769,
+      "mean_s2": -0.4668123076923077,
+      "conventional_pct": 42.30769230769231,
+      "near_miss_pct": 36.15384615384615,
+      "radical_pct": 2.3076923076923075
+    },
+    {
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "n": 260,
+      "mean_rank": 94.18846153846154,
+      "mean_s2": -0.6948650000000002,
+      "conventional_pct": 29.23076923076923,
+      "near_miss_pct": 43.46153846153846,
+      "radical_pct": 2.6923076923076925
+    },
+    {
+      "author": "Traditional (American folk)",
+      "era": "song_lyrics",
+      "n": 180,
+      "mean_rank": 95.95,
+      "mean_s2": -0.7303844444444445,
+      "conventional_pct": 38.333333333333336,
+      "near_miss_pct": 38.333333333333336,
+      "radical_pct": 1.6666666666666667
+    },
+    {
+      "author": "Mary Oliver",
+      "era": "contemporary",
+      "n": 156,
+      "mean_rank": 115.94871794871794,
+      "mean_s2": -0.645814743589744,
+      "conventional_pct": 39.1025641025641,
+      "near_miss_pct": 32.69230769230769,
+      "radical_pct": 2.5641025641025643
+    },
+    {
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "n": 407,
+      "mean_rank": 125.22850122850123,
+      "mean_s2": -0.4164945945945945,
+      "conventional_pct": 36.11793611793612,
+      "near_miss_pct": 41.52334152334152,
+      "radical_pct": 3.194103194103194
+    },
+    {
+      "author": "Charles Bernstein",
+      "era": "language",
+      "n": 192,
+      "mean_rank": 128.61979166666666,
+      "mean_s2": -0.5034031250000001,
+      "conventional_pct": 30.729166666666668,
+      "near_miss_pct": 41.145833333333336,
+      "radical_pct": 2.0833333333333335
+    },
+    {
+      "author": "Charles Darwin (found text)",
+      "era": "found_poetry",
+      "n": 103,
+      "mean_rank": 130.79611650485438,
+      "mean_s2": -0.5920699029126215,
+      "conventional_pct": 33.00970873786408,
+      "near_miss_pct": 33.980582524271846,
+      "radical_pct": 3.883495145631068
+    },
+    {
+      "author": "Robert Southey",
+      "era": "parody_original",
+      "n": 182,
+      "mean_rank": 134.48901098901098,
+      "mean_s2": 0.03107527472527465,
+      "conventional_pct": 37.362637362637365,
+      "near_miss_pct": 34.61538461538461,
+      "radical_pct": 3.2967032967032965
+    },
+    {
+      "author": "Derek Walcott",
+      "era": "postcolonial",
+      "n": 132,
+      "mean_rank": 138.0681818181818,
+      "mean_s2": -0.565435606060606,
+      "conventional_pct": 37.878787878787875,
+      "near_miss_pct": 30.303030303030305,
+      "radical_pct": 3.0303030303030303
+    },
+    {
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "n": 746,
+      "mean_rank": 145.06166219839142,
+      "mean_s2": -0.37474718498659537,
+      "conventional_pct": 35.656836461126005,
+      "near_miss_pct": 37.39946380697051,
+      "radical_pct": 2.680965147453083
+    },
+    {
+      "author": "Edwin Arlington Robinson",
+      "era": "fixed_form",
+      "n": 167,
+      "mean_rank": 152.50898203592814,
+      "mean_s2": -0.17014251497005994,
+      "conventional_pct": 39.52095808383233,
+      "near_miss_pct": 30.538922155688624,
+      "radical_pct": 3.592814371257485
+    },
+    {
+      "author": "Felicia Hemans",
+      "era": "victorian",
+      "n": 144,
+      "mean_rank": 167.11111111111111,
+      "mean_s2": -0.08845069444444423,
+      "conventional_pct": 16.666666666666668,
+      "near_miss_pct": 41.666666666666664,
+      "radical_pct": 4.861111111111111
+    },
+    {
+      "author": "Traditional (American sea chanty)",
+      "era": "song_lyrics",
+      "n": 123,
+      "mean_rank": 167.91056910569105,
+      "mean_s2": -0.1256837398373984,
+      "conventional_pct": 66.66666666666667,
+      "near_miss_pct": 18.69918699186992,
+      "radical_pct": 1.6260162601626016
+    },
+    {
+      "author": "Isaac Watts",
+      "era": "parody_original",
+      "n": 173,
+      "mean_rank": 170.9306358381503,
+      "mean_s2": -0.4638028901734105,
+      "conventional_pct": 22.54335260115607,
+      "near_miss_pct": 37.57225433526011,
+      "radical_pct": 2.8901734104046244
+    },
+    {
+      "author": "Russell Edson",
+      "era": "prose_poetry",
+      "n": 205,
+      "mean_rank": 171.0487804878049,
+      "mean_s2": -0.09838634146341461,
+      "conventional_pct": 34.146341463414636,
+      "near_miss_pct": 43.90243902439025,
+      "radical_pct": 1.4634146341463414
+    },
+    {
+      "author": "C.K. Williams",
+      "era": "contemporary",
+      "n": 261,
+      "mean_rank": 171.34865900383141,
+      "mean_s2": -0.5771544061302684,
+      "conventional_pct": 28.735632183908045,
+      "near_miss_pct": 42.911877394636015,
+      "radical_pct": 4.980842911877395
+    },
+    {
+      "author": "Walter de la Mare",
+      "era": "19th_century",
+      "n": 100,
+      "mean_rank": 171.47,
+      "mean_s2": -0.24382500000000001,
+      "conventional_pct": 30.0,
+      "near_miss_pct": 42.0,
+      "radical_pct": 5.0
+    },
+    {
+      "author": "Edgar Allan Poe",
+      "era": "19th_century",
+      "n": 629,
+      "mean_rank": 171.5389507154213,
+      "mean_s2": -0.49662861685214665,
+      "conventional_pct": 29.41176470588235,
+      "near_miss_pct": 36.72496025437202,
+      "radical_pct": 4.610492845786964
+    },
+    {
+      "author": "Christina Rossetti",
+      "era": "victorian",
+      "n": 379,
+      "mean_rank": 173.3377308707124,
+      "mean_s2": 0.09194432717678101,
+      "conventional_pct": 23.218997361477573,
+      "near_miss_pct": 35.35620052770449,
+      "radical_pct": 4.221635883905013
+    },
+    {
+      "author": "Joy Harjo",
+      "era": "postcolonial",
+      "n": 467,
+      "mean_rank": 174.0471092077088,
+      "mean_s2": -0.3495730192719486,
+      "conventional_pct": 45.82441113490364,
+      "near_miss_pct": 29.550321199143468,
+      "radical_pct": 4.0685224839400425
+    },
+    {
+      "author": "Georges Perec",
+      "era": "oulipo",
+      "n": 124,
+      "mean_rank": 174.94354838709677,
+      "mean_s2": 0.034516129032258105,
+      "conventional_pct": 18.548387096774192,
+      "near_miss_pct": 44.354838709677416,
+      "radical_pct": 4.032258064516129
+    },
+    {
+      "author": "Brewster Higley",
+      "era": "song_lyrics",
+      "n": 120,
+      "mean_rank": 180.05833333333334,
+      "mean_s2": -0.2845425,
+      "conventional_pct": 40.833333333333336,
+      "near_miss_pct": 27.5,
+      "radical_pct": 5.833333333333333
+    },
+    {
+      "author": "Lucille Clifton",
+      "era": "contemporary",
+      "n": 193,
+      "mean_rank": 183.23316062176167,
+      "mean_s2": -0.3535740932642485,
+      "conventional_pct": 30.05181347150259,
+      "near_miss_pct": 39.89637305699482,
+      "radical_pct": 4.66321243523316
+    },
+    {
+      "author": "Paul Laurence Dunbar",
+      "era": "victorian",
+      "n": 264,
+      "mean_rank": 187.1060606060606,
+      "mean_s2": -0.4532284090909091,
+      "conventional_pct": 31.439393939393938,
+      "near_miss_pct": 35.984848484848484,
+      "radical_pct": 4.924242424242424
+    },
+    {
+      "author": "Robert Frost",
+      "era": "modernist",
+      "n": 396,
+      "mean_rank": 190.53787878787878,
+      "mean_s2": -0.08017045454545449,
+      "conventional_pct": 25.0,
+      "near_miss_pct": 40.4040404040404,
+      "radical_pct": 4.292929292929293
+    },
+    {
+      "author": "Federico Garc\u00eda Lorca",
+      "era": "surrealist",
+      "n": 134,
+      "mean_rank": 207.3134328358209,
+      "mean_s2": -0.10187089552238807,
+      "conventional_pct": 29.104477611940297,
+      "near_miss_pct": 35.07462686567164,
+      "radical_pct": 6.7164179104477615
+    },
+    {
+      "author": "Frank O'Hara",
+      "era": "new_york_school",
+      "n": 312,
+      "mean_rank": 209.5096153846154,
+      "mean_s2": -0.32598910256410263,
+      "conventional_pct": 32.69230769230769,
+      "near_miss_pct": 38.782051282051285,
+      "radical_pct": 4.8076923076923075
+    },
+    {
+      "author": "Ben Jonson",
+      "era": "early_modern",
+      "n": 174,
+      "mean_rank": 212.21264367816093,
+      "mean_s2": 0.0825126436781609,
+      "conventional_pct": 17.816091954022987,
+      "near_miss_pct": 32.758620689655174,
+      "radical_pct": 4.022988505747127
+    },
+    {
+      "author": "Barbara Guest",
+      "era": "new_york_school",
+      "n": 188,
+      "mean_rank": 220.80851063829786,
+      "mean_s2": -0.07661861702127665,
+      "conventional_pct": 22.872340425531913,
+      "near_miss_pct": 42.5531914893617,
+      "radical_pct": 8.51063829787234
+    },
+    {
+      "author": "Amiri Baraka (LeRoi Jones)",
+      "era": "black_arts",
+      "n": 116,
+      "mean_rank": 224.30172413793105,
+      "mean_s2": -0.359385344827586,
+      "conventional_pct": 27.586206896551722,
+      "near_miss_pct": 46.55172413793103,
+      "radical_pct": 5.172413793103448
+    },
+    {
+      "author": "Anonymous (KJV, found text)",
+      "era": "found_poetry",
+      "n": 115,
+      "mean_rank": 250.3913043478261,
+      "mean_s2": -0.6086634782608695,
+      "conventional_pct": 36.52173913043478,
+      "near_miss_pct": 30.434782608695652,
+      "radical_pct": 4.3478260869565215
+    },
+    {
+      "author": "Arthur Rimbaud",
+      "era": "surrealist",
+      "n": 135,
+      "mean_rank": 251.55555555555554,
+      "mean_s2": -0.4108348148148147,
+      "conventional_pct": 20.74074074074074,
+      "near_miss_pct": 42.96296296296296,
+      "radical_pct": 5.925925925925926
+    },
+    {
+      "author": "Edna St. Vincent Millay",
+      "era": "mid_century",
+      "n": 121,
+      "mean_rank": 252.21487603305786,
+      "mean_s2": -0.6229289256198345,
+      "conventional_pct": 19.00826446280992,
+      "near_miss_pct": 43.80165289256198,
+      "radical_pct": 2.479338842975207
+    },
+    {
+      "author": "George Herbert",
+      "era": "metaphysical",
+      "n": 190,
+      "mean_rank": 252.97894736842105,
+      "mean_s2": -0.004069999999999999,
+      "conventional_pct": 16.31578947368421,
+      "near_miss_pct": 39.473684210526315,
+      "radical_pct": 6.315789473684211
+    },
+    {
+      "author": "Synthetic (scientific register test case)",
+      "era": "contemporary",
+      "n": 266,
+      "mean_rank": 255.5,
+      "mean_s2": 0.12387781954887227,
+      "conventional_pct": 27.44360902255639,
+      "near_miss_pct": 30.075187969924812,
+      "radical_pct": 6.390977443609023
+    },
+    {
+      "author": "Jack Gilbert",
+      "era": "contemporary",
+      "n": 103,
+      "mean_rank": 257.6116504854369,
+      "mean_s2": -0.2255194174757282,
+      "conventional_pct": 22.33009708737864,
+      "near_miss_pct": 40.77669902912621,
+      "radical_pct": 7.766990291262136
+    },
+    {
+      "author": "John McCrae",
+      "era": "rondeau",
+      "n": 100,
+      "mean_rank": 259.27,
+      "mean_s2": 0.13946000000000003,
+      "conventional_pct": 23.0,
+      "near_miss_pct": 34.0,
+      "radical_pct": 6.0
+    },
+    {
+      "author": "Isaac Newton (found text)",
+      "era": "found_poetry",
+      "n": 102,
+      "mean_rank": 260.6372549019608,
+      "mean_s2": -0.2822960784313724,
+      "conventional_pct": 23.529411764705884,
+      "near_miss_pct": 39.21568627450981,
+      "radical_pct": 6.862745098039215
+    },
+    {
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "n": 958,
+      "mean_rank": 263.09498956158666,
+      "mean_s2": -0.1754176409185803,
+      "conventional_pct": 27.34864300626305,
+      "near_miss_pct": 33.08977035490605,
+      "radical_pct": 6.054279749478079
+    },
+    {
+      "author": "Synthetic (cliche_control test case)",
+      "era": "cliche_control",
+      "n": 122,
+      "mean_rank": 263.22131147540983,
+      "mean_s2": -1.029158196721312,
+      "conventional_pct": 39.34426229508197,
+      "near_miss_pct": 34.42622950819672,
+      "radical_pct": 5.737704918032787
+    },
+    {
+      "author": "Christopher Smart",
+      "era": "18th_century",
+      "n": 473,
+      "mean_rank": 265.0126849894292,
+      "mean_s2": -0.09644312896405917,
+      "conventional_pct": 35.095137420718814,
+      "near_miss_pct": 34.46088794926004,
+      "radical_pct": 4.016913319238901
+    },
+    {
+      "author": "Ernest Dowson",
+      "era": "fixed_form",
+      "n": 149,
+      "mean_rank": 266.28187919463085,
+      "mean_s2": -0.924736241610738,
+      "conventional_pct": 38.25503355704698,
+      "near_miss_pct": 30.201342281879196,
+      "radical_pct": 4.026845637583893
+    },
+    {
+      "author": "William Shakespeare",
+      "era": "victorian",
+      "n": 403,
+      "mean_rank": 268.19602977667495,
+      "mean_s2": -0.475028039702233,
+      "conventional_pct": 19.602977667493796,
+      "near_miss_pct": 41.935483870967744,
+      "radical_pct": 3.970223325062035
+    },
+    {
+      "author": "Raymond Queneau",
+      "era": "oulipo",
+      "n": 117,
+      "mean_rank": 269.8119658119658,
+      "mean_s2": -0.5547615384615383,
+      "conventional_pct": 19.65811965811966,
+      "near_miss_pct": 43.58974358974359,
+      "radical_pct": 7.6923076923076925
+    },
+    {
+      "author": "Louise Gluck",
+      "era": "prose_poetry",
+      "n": 114,
+      "mean_rank": 271.00877192982455,
+      "mean_s2": 0.7405008771929826,
+      "conventional_pct": 17.54385964912281,
+      "near_miss_pct": 40.35087719298246,
+      "radical_pct": 8.771929824561404
+    },
+    {
+      "author": "Matthew Arnold",
+      "era": "19th_century",
+      "n": 165,
+      "mean_rank": 271.1757575757576,
+      "mean_s2": -0.40194969696969685,
+      "conventional_pct": 20.606060606060606,
+      "near_miss_pct": 37.57575757575758,
+      "radical_pct": 6.666666666666667
+    },
+    {
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "n": 437,
+      "mean_rank": 271.8237986270023,
+      "mean_s2": 0.048843249427917644,
+      "conventional_pct": 34.09610983981693,
+      "near_miss_pct": 35.92677345537757,
+      "radical_pct": 6.178489702517163
+    },
+    {
+      "author": "Anne Waldman",
+      "era": "new_york_school",
+      "n": 132,
+      "mean_rank": 278.59090909090907,
+      "mean_s2": -0.47719848484848504,
+      "conventional_pct": 51.515151515151516,
+      "near_miss_pct": 24.242424242424242,
+      "radical_pct": 4.545454545454546
+    },
+    {
+      "author": "Langston Hughes",
+      "era": "harlem_renaissance",
+      "n": 189,
+      "mean_rank": 283.3703703703704,
+      "mean_s2": -0.4978206349206352,
+      "conventional_pct": 31.21693121693122,
+      "near_miss_pct": 31.746031746031747,
+      "radical_pct": 5.8201058201058204
+    },
+    {
+      "author": "Lewis Carroll",
+      "era": "parody",
+      "n": 787,
+      "mean_rank": 285.07369758576874,
+      "mean_s2": -0.388287801778907,
+      "conventional_pct": 28.46251588310038,
+      "near_miss_pct": 37.484116899618805,
+      "radical_pct": 5.844980940279543
+    },
+    {
+      "author": "Rupert Brooke",
+      "era": "war_poetry",
+      "n": 117,
+      "mean_rank": 297.14529914529913,
+      "mean_s2": 0.6941076923076923,
+      "conventional_pct": 10.256410256410257,
+      "near_miss_pct": 40.17094017094017,
+      "radical_pct": 8.547008547008547
+    },
+    {
+      "author": "Claude McKay",
+      "era": "harlem_renaissance",
+      "n": 225,
+      "mean_rank": 302.24,
+      "mean_s2": 0.11387733333333337,
+      "conventional_pct": 22.666666666666668,
+      "near_miss_pct": 29.77777777777778,
+      "radical_pct": 7.555555555555555
+    },
+    {
+      "author": "Amy Lowell",
+      "era": "imagist",
+      "n": 184,
+      "mean_rank": 315.60869565217394,
+      "mean_s2": -0.40992500000000043,
+      "conventional_pct": 30.97826086956522,
+      "near_miss_pct": 34.78260869565217,
+      "radical_pct": 8.152173913043478
+    },
+    {
+      "author": "Robert Desnos",
+      "era": "surrealist",
+      "n": 130,
+      "mean_rank": 320.3692307692308,
+      "mean_s2": -0.2465376923076922,
+      "conventional_pct": 29.23076923076923,
+      "near_miss_pct": 37.69230769230769,
+      "radical_pct": 3.076923076923077
+    },
+    {
+      "author": "Georg Heym",
+      "era": "german_expressionist",
+      "n": 201,
+      "mean_rank": 322.0845771144279,
+      "mean_s2": 0.1806298507462687,
+      "conventional_pct": 21.393034825870647,
+      "near_miss_pct": 30.845771144278608,
+      "radical_pct": 9.45273631840796
+    },
+    {
+      "author": "Paul \u00c9luard",
+      "era": "surrealist",
+      "n": 106,
+      "mean_rank": 322.20754716981133,
+      "mean_s2": -0.46851415094339616,
+      "conventional_pct": 22.641509433962263,
+      "near_miss_pct": 39.62264150943396,
+      "radical_pct": 4.716981132075472
+    },
+    {
+      "author": "Thomas Wyatt",
+      "era": "early_modern",
+      "n": 299,
+      "mean_rank": 328.40133779264215,
+      "mean_s2": 0.4587899665551838,
+      "conventional_pct": 10.702341137123746,
+      "near_miss_pct": 35.785953177257525,
+      "radical_pct": 9.698996655518394
+    },
+    {
+      "author": "William Blake",
+      "era": "romantic",
+      "n": 768,
+      "mean_rank": 329.8346354166667,
+      "mean_s2": -0.5100016927083334,
+      "conventional_pct": 29.166666666666668,
+      "near_miss_pct": 32.161458333333336,
+      "radical_pct": 6.901041666666667
+    },
+    {
+      "author": "Heather McHugh",
+      "era": "ghazal",
+      "n": 170,
+      "mean_rank": 337.8,
+      "mean_s2": -0.15121294117647055,
+      "conventional_pct": 26.470588235294116,
+      "near_miss_pct": 37.64705882352941,
+      "radical_pct": 4.117647058823529
+    },
+    {
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "n": 614,
+      "mean_rank": 338.7931596091205,
+      "mean_s2": -0.027640390879478956,
+      "conventional_pct": 35.66775244299674,
+      "near_miss_pct": 27.19869706840391,
+      "radical_pct": 5.700325732899023
+    },
+    {
+      "author": "Kenneth Koch",
+      "era": "new_york_school",
+      "n": 144,
+      "mean_rank": 343.21527777777777,
+      "mean_s2": -0.24040625,
+      "conventional_pct": 29.166666666666668,
+      "near_miss_pct": 44.44444444444444,
+      "radical_pct": 3.4722222222222223
+    },
+    {
+      "author": "Anonymous",
+      "era": "limerick",
+      "n": 112,
+      "mean_rank": 345.9375,
+      "mean_s2": -0.4785473214285715,
+      "conventional_pct": 30.357142857142858,
+      "near_miss_pct": 39.285714285714285,
+      "radical_pct": 6.25
+    },
+    {
+      "author": "Pablo Neruda",
+      "era": "surrealist",
+      "n": 246,
+      "mean_rank": 349.0162601626016,
+      "mean_s2": 0.16361585365853645,
+      "conventional_pct": 29.67479674796748,
+      "near_miss_pct": 35.77235772357724,
+      "radical_pct": 10.16260162601626
+    },
+    {
+      "author": "Robert Browning",
+      "era": "victorian",
+      "n": 1752,
+      "mean_rank": 354.601598173516,
+      "mean_s2": 0.18160753424657528,
+      "conventional_pct": 17.23744292237443,
+      "near_miss_pct": 37.5,
+      "radical_pct": 7.191780821917808
+    },
+    {
+      "author": "Algernon Charles Swinburne",
+      "era": "ekphrastic",
+      "n": 394,
+      "mean_rank": 356.8071065989848,
+      "mean_s2": -0.015464467005076045,
+      "conventional_pct": 14.467005076142131,
+      "near_miss_pct": 34.01015228426396,
+      "radical_pct": 8.375634517766498
+    },
+    {
+      "author": "Galway Kinnell",
+      "era": "contemporary",
+      "n": 186,
+      "mean_rank": 357.5698924731183,
+      "mean_s2": 0.13452688172043015,
+      "conventional_pct": 27.419354838709676,
+      "near_miss_pct": 34.40860215053763,
+      "radical_pct": 6.451612903225806
+    },
+    {
+      "author": "Seamus Heaney",
+      "era": "contemporary",
+      "n": 102,
+      "mean_rank": 363.2156862745098,
+      "mean_s2": 0.5553294117647058,
+      "conventional_pct": 12.745098039215685,
+      "near_miss_pct": 33.333333333333336,
+      "radical_pct": 10.784313725490197
+    },
+    {
+      "author": "Emma Lazarus",
+      "era": "protest_political",
+      "n": 116,
+      "mean_rank": 367.3534482758621,
+      "mean_s2": -0.3444836206896551,
+      "conventional_pct": 16.379310344827587,
+      "near_miss_pct": 32.758620689655174,
+      "radical_pct": 6.896551724137931
+    },
+    {
+      "author": "Alfred Lord Tennyson",
+      "era": "victorian",
+      "n": 379,
+      "mean_rank": 368.2664907651715,
+      "mean_s2": -0.1568997361477573,
+      "conventional_pct": 20.58047493403694,
+      "near_miss_pct": 34.03693931398417,
+      "radical_pct": 7.387862796833773
+    },
+    {
+      "author": "Wis\u0142awa Szymborska",
+      "era": "contemporary",
+      "n": 248,
+      "mean_rank": 370.2056451612903,
+      "mean_s2": -0.37253104838709683,
+      "conventional_pct": 25.403225806451612,
+      "near_miss_pct": 39.11290322580645,
+      "radical_pct": 6.048387096774194
+    },
+    {
+      "author": "Rudyard Kipling",
+      "era": "fixed_form",
+      "n": 212,
+      "mean_rank": 371.89622641509436,
+      "mean_s2": -0.12624858490566038,
+      "conventional_pct": 27.358490566037737,
+      "near_miss_pct": 31.132075471698112,
+      "radical_pct": 7.0754716981132075
+    },
+    {
+      "author": "Wilfred Owen",
+      "era": "war_poetry",
+      "n": 378,
+      "mean_rank": 376.66931216931215,
+      "mean_s2": -0.03850925925925923,
+      "conventional_pct": 18.253968253968253,
+      "near_miss_pct": 32.27513227513227,
+      "radical_pct": 9.788359788359788
+    },
+    {
+      "author": "George Oppen",
+      "era": "modernist",
+      "n": 105,
+      "mean_rank": 377.96190476190475,
+      "mean_s2": -1.1634409523809526,
+      "conventional_pct": 21.904761904761905,
+      "near_miss_pct": 39.04761904761905,
+      "radical_pct": 9.523809523809524
+    },
+    {
+      "author": "Claudia Rankine",
+      "era": "contemporary",
+      "n": 125,
+      "mean_rank": 382.56,
+      "mean_s2": 0.20395200000000005,
+      "conventional_pct": 22.4,
+      "near_miss_pct": 41.6,
+      "radical_pct": 4.0
+    },
+    {
+      "author": "Robinson Jeffers",
+      "era": "contemporary",
+      "n": 136,
+      "mean_rank": 384.61764705882354,
+      "mean_s2": -0.23244338235294132,
+      "conventional_pct": 22.794117647058822,
+      "near_miss_pct": 41.911764705882355,
+      "radical_pct": 8.088235294117647
+    },
+    {
+      "author": "Omar Khayyam (trans. FitzGerald, 1859)",
+      "era": "persian",
+      "n": 297,
+      "mean_rank": 386.8484848484849,
+      "mean_s2": 0.0666336700336702,
+      "conventional_pct": 20.53872053872054,
+      "near_miss_pct": 30.63973063973064,
+      "radical_pct": 8.417508417508417
+    },
+    {
+      "author": "W.B. Yeats",
+      "era": "modernist",
+      "n": 522,
+      "mean_rank": 402.2950191570881,
+      "mean_s2": -0.03248122605364003,
+      "conventional_pct": 23.754789272030653,
+      "near_miss_pct": 31.417624521072796,
+      "radical_pct": 10.153256704980842
+    },
+    {
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "n": 1154,
+      "mean_rank": 429.3726169844021,
+      "mean_s2": -0.30783986135181945,
+      "conventional_pct": 22.18370883882149,
+      "near_miss_pct": 39.168110918544194,
+      "radical_pct": 8.405545927209705
+    },
+    {
+      "author": "Carolyn Forche",
+      "era": "prose_poetry",
+      "n": 192,
+      "mean_rank": 429.3854166666667,
+      "mean_s2": -0.06529895833333331,
+      "conventional_pct": 26.5625,
+      "near_miss_pct": 43.229166666666664,
+      "radical_pct": 6.770833333333333
+    },
+    {
+      "author": "John Keats",
+      "era": "romantic",
+      "n": 2050,
+      "mean_rank": 430.36048780487806,
+      "mean_s2": -0.04209795121951201,
+      "conventional_pct": 20.634146341463413,
+      "near_miss_pct": 31.70731707317073,
+      "radical_pct": 9.170731707317072
+    },
+    {
+      "author": "C\u00e9sar Vallejo (trans. Thomas Merton)",
+      "era": "latin_american",
+      "n": 119,
+      "mean_rank": 430.8151260504202,
+      "mean_s2": 0.02073529411764701,
+      "conventional_pct": 28.571428571428573,
+      "near_miss_pct": 36.97478991596638,
+      "radical_pct": 5.042016806722689
+    },
+    {
+      "author": "John Donne",
+      "era": "metaphysical",
+      "n": 398,
+      "mean_rank": 433.8140703517588,
+      "mean_s2": -0.20526683417085437,
+      "conventional_pct": 16.834170854271356,
+      "near_miss_pct": 36.93467336683417,
+      "radical_pct": 8.291457286432161
+    },
+    {
+      "author": "Synthetic (double dactyl test case)",
+      "era": "double_dactyl",
+      "n": 169,
+      "mean_rank": 446.53846153846155,
+      "mean_s2": -0.02500532544378703,
+      "conventional_pct": 19.526627218934912,
+      "near_miss_pct": 31.36094674556213,
+      "radical_pct": 9.467455621301776
+    },
+    {
+      "author": "Synthetic (OuLiPo N+7 test case)",
+      "era": "oulipo",
+      "n": 125,
+      "mean_rank": 447.504,
+      "mean_s2": -0.012043199999999973,
+      "conventional_pct": 18.4,
+      "near_miss_pct": 39.2,
+      "radical_pct": 8.8
+    },
+    {
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "n": 499,
+      "mean_rank": 453.1302605210421,
+      "mean_s2": 0.17941342685370748,
+      "conventional_pct": 16.83366733466934,
+      "near_miss_pct": 34.06813627254509,
+      "radical_pct": 10.62124248496994
+    },
+    {
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "n": 103,
+      "mean_rank": 461.6601941747573,
+      "mean_s2": 0.368983495145631,
+      "conventional_pct": 19.41747572815534,
+      "near_miss_pct": 39.80582524271845,
+      "radical_pct": 12.62135922330097
+    },
+    {
+      "author": "William Ernest Henley",
+      "era": "fixed_form",
+      "n": 195,
+      "mean_rank": 477.65641025641025,
+      "mean_s2": -0.285054358974359,
+      "conventional_pct": 28.71794871794872,
+      "near_miss_pct": 37.43589743589744,
+      "radical_pct": 12.820512820512821
+    },
+    {
+      "author": "T.S. Eliot",
+      "era": "modernist",
+      "n": 638,
+      "mean_rank": 481.153605015674,
+      "mean_s2": 0.053893887147335486,
+      "conventional_pct": 19.592476489028215,
+      "near_miss_pct": 38.557993730407524,
+      "radical_pct": 9.404388714733543
+    },
+    {
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "n": 1465,
+      "mean_rank": 513.0088737201365,
+      "mean_s2": -0.04507331058020468,
+      "conventional_pct": 23.003412969283275,
+      "near_miss_pct": 33.78839590443686,
+      "radical_pct": 9.69283276450512
+    },
+    {
+      "author": "Kamau Brathwaite",
+      "era": "postcolonial",
+      "n": 105,
+      "mean_rank": 513.2761904761904,
+      "mean_s2": 1.253792380952382,
+      "conventional_pct": 23.80952380952381,
+      "near_miss_pct": 29.523809523809526,
+      "radical_pct": 12.380952380952381
+    },
+    {
+      "author": "John Dryden",
+      "era": "18th_century",
+      "n": 115,
+      "mean_rank": 515.7652173913043,
+      "mean_s2": 0.45421391304347847,
+      "conventional_pct": 13.043478260869565,
+      "near_miss_pct": 40.869565217391305,
+      "radical_pct": 10.434782608695652
+    },
+    {
+      "author": "Samuel Taylor Coleridge",
+      "era": "romantic",
+      "n": 203,
+      "mean_rank": 520.2807881773399,
+      "mean_s2": 0.4140600985221676,
+      "conventional_pct": 14.285714285714286,
+      "near_miss_pct": 33.49753694581281,
+      "radical_pct": 10.344827586206897
+    },
+    {
+      "author": "Anonymous (trans. E.V. Gordon)",
+      "era": "old_english",
+      "n": 164,
+      "mean_rank": 535.829268292683,
+      "mean_s2": 0.24509329268292684,
+      "conventional_pct": 17.682926829268293,
+      "near_miss_pct": 40.24390243902439,
+      "radical_pct": 6.7073170731707314
+    },
+    {
+      "author": "Agha Shahid Ali",
+      "era": "postcolonial",
+      "n": 241,
+      "mean_rank": 547.5352697095435,
+      "mean_s2": 0.1342236514522821,
+      "conventional_pct": 21.57676348547718,
+      "near_miss_pct": 33.19502074688797,
+      "radical_pct": 10.37344398340249
+    },
+    {
+      "author": "Traditional (English/Scottish ballad)",
+      "era": "ballad",
+      "n": 110,
+      "mean_rank": 548.7545454545455,
+      "mean_s2": 0.25082727272727273,
+      "conventional_pct": 21.818181818181817,
+      "near_miss_pct": 35.45454545454545,
+      "radical_pct": 8.181818181818182
+    },
+    {
+      "author": "Synthetic (shadow-poem meta-poem)",
+      "era": "villanelle",
+      "n": 154,
+      "mean_rank": 555.3506493506494,
+      "mean_s2": 0.3318025974025976,
+      "conventional_pct": 40.90909090909091,
+      "near_miss_pct": 24.675324675324674,
+      "radical_pct": 13.636363636363637
+    },
+    {
+      "author": "Gottfried Benn",
+      "era": "german_expressionist",
+      "n": 178,
+      "mean_rank": 561.870786516854,
+      "mean_s2": 0.32629213483146063,
+      "conventional_pct": 20.786516853932586,
+      "near_miss_pct": 39.325842696629216,
+      "radical_pct": 9.55056179775281
+    },
+    {
+      "author": "Countee Cullen",
+      "era": "harlem_renaissance",
+      "n": 226,
+      "mean_rank": 578.1946902654868,
+      "mean_s2": 0.23385752212389366,
+      "conventional_pct": 19.469026548672566,
+      "near_miss_pct": 25.221238938053098,
+      "radical_pct": 11.504424778761061
+    },
+    {
+      "author": "William Stafford",
+      "era": "mid_century",
+      "n": 236,
+      "mean_rank": 578.957627118644,
+      "mean_s2": 0.4829737288135591,
+      "conventional_pct": 20.76271186440678,
+      "near_miss_pct": 37.71186440677966,
+      "radical_pct": 9.745762711864407
+    },
+    {
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "n": 731,
+      "mean_rank": 600.7797537619699,
+      "mean_s2": 0.5202114911080705,
+      "conventional_pct": 15.047879616963064,
+      "near_miss_pct": 34.883720930232556,
+      "radical_pct": 13.132694938440492
+    },
+    {
+      "author": "Anonymous (trans. Hall)",
+      "era": "old_english",
+      "n": 207,
+      "mean_rank": 607.8405797101449,
+      "mean_s2": 0.17628212560386494,
+      "conventional_pct": 20.77294685990338,
+      "near_miss_pct": 33.333333333333336,
+      "radical_pct": 13.043478260869565
+    },
+    {
+      "author": "Thomas Gray",
+      "era": "elegy",
+      "n": 150,
+      "mean_rank": 614.4333333333333,
+      "mean_s2": -0.22772666666666674,
+      "conventional_pct": 19.333333333333332,
+      "near_miss_pct": 31.333333333333332,
+      "radical_pct": 10.666666666666666
+    },
+    {
+      "author": "John Milton",
+      "era": "victorian",
+      "n": 260,
+      "mean_rank": 616.6769230769231,
+      "mean_s2": 0.420813076923077,
+      "conventional_pct": 16.53846153846154,
+      "near_miss_pct": 33.46153846153846,
+      "radical_pct": 15.0
+    },
+    {
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "n": 215,
+      "mean_rank": 636.8279069767442,
+      "mean_s2": 1.5005390697674412,
+      "conventional_pct": 14.418604651162791,
+      "near_miss_pct": 38.13953488372093,
+      "radical_pct": 10.69767441860465
+    },
+    {
+      "author": "C\u00e9sar Vallejo",
+      "era": "surrealist",
+      "n": 112,
+      "mean_rank": 640.9553571428571,
+      "mean_s2": 0.6534785714285717,
+      "conventional_pct": 25.892857142857142,
+      "near_miss_pct": 40.17857142857143,
+      "radical_pct": 6.25
+    },
+    {
+      "author": "Dante Gabriel Rossetti",
+      "era": "fixed_form",
+      "n": 251,
+      "mean_rank": 645.4820717131474,
+      "mean_s2": 0.20921713147410367,
+      "conventional_pct": 15.936254980079681,
+      "near_miss_pct": 36.65338645418327,
+      "radical_pct": 8.764940239043824
+    },
+    {
+      "author": "Samuel Johnson",
+      "era": "18th_century",
+      "n": 124,
+      "mean_rank": 647.6129032258065,
+      "mean_s2": 0.3813701612903225,
+      "conventional_pct": 20.161290322580644,
+      "near_miss_pct": 25.806451612903224,
+      "radical_pct": 16.129032258064516
+    },
+    {
+      "author": "Wallace Stevens",
+      "era": "modernist",
+      "n": 188,
+      "mean_rank": 663.7074468085107,
+      "mean_s2": -0.2083718085106382,
+      "conventional_pct": 21.80851063829787,
+      "near_miss_pct": 34.57446808510638,
+      "radical_pct": 11.170212765957446
+    },
+    {
+      "author": "Alexander Pope",
+      "era": "parody",
+      "n": 518,
+      "mean_rank": 666.3783783783783,
+      "mean_s2": 0.4021455598455599,
+      "conventional_pct": 12.162162162162161,
+      "near_miss_pct": 32.04633204633205,
+      "radical_pct": 14.864864864864865
+    },
+    {
+      "author": "Hart Crane",
+      "era": "modernist",
+      "n": 131,
+      "mean_rank": 672.0381679389313,
+      "mean_s2": 1.642474809160305,
+      "conventional_pct": 11.450381679389313,
+      "near_miss_pct": 29.00763358778626,
+      "radical_pct": 19.083969465648856
+    },
+    {
+      "author": "Robert Burns",
+      "era": "romantic",
+      "n": 194,
+      "mean_rank": 713.2113402061856,
+      "mean_s2": 0.10757319587628862,
+      "conventional_pct": 24.22680412371134,
+      "near_miss_pct": 29.38144329896907,
+      "radical_pct": 8.24742268041237
+    },
+    {
+      "author": "Harryette Mullen",
+      "era": "contemporary",
+      "n": 173,
+      "mean_rank": 720.3005780346821,
+      "mean_s2": 0.32823815028901726,
+      "conventional_pct": 19.653179190751445,
+      "near_miss_pct": 35.83815028901734,
+      "radical_pct": 13.872832369942197
+    },
+    {
+      "author": "Allen Ginsberg",
+      "era": "beat",
+      "n": 127,
+      "mean_rank": 802.8818897637796,
+      "mean_s2": 1.0722976377952758,
+      "conventional_pct": 23.62204724409449,
+      "near_miss_pct": 29.133858267716537,
+      "radical_pct": 22.04724409448819
+    },
+    {
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "n": 757,
+      "mean_rank": 811.2747688243064,
+      "mean_s2": 0.7446912813738444,
+      "conventional_pct": 12.813738441215323,
+      "near_miss_pct": 31.30779392338177,
+      "radical_pct": 14.266842800528401
+    },
+    {
+      "author": "Jean Lescure",
+      "era": "oulipo",
+      "n": 115,
+      "mean_rank": 832.1565217391304,
+      "mean_s2": 0.011084347826087016,
+      "conventional_pct": 40.0,
+      "near_miss_pct": 32.17391304347826,
+      "radical_pct": 9.565217391304348
+    },
+    {
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "n": 450,
+      "mean_rank": 849.3377777777778,
+      "mean_s2": 0.6112679999999994,
+      "conventional_pct": 16.666666666666668,
+      "near_miss_pct": 36.666666666666664,
+      "radical_pct": 15.555555555555555
+    },
+    {
+      "author": "Anonymous (trans. Francis B. Gummere)",
+      "era": "ancient",
+      "n": 105,
+      "mean_rank": 897.7619047619048,
+      "mean_s2": 0.42486666666666706,
+      "conventional_pct": 17.142857142857142,
+      "near_miss_pct": 27.61904761904762,
+      "radical_pct": 19.047619047619047
+    },
+    {
+      "author": "Gregory Corso",
+      "era": "beat",
+      "n": 208,
+      "mean_rank": 955.3413461538462,
+      "mean_s2": 0.5566259615384617,
+      "conventional_pct": 22.115384615384617,
+      "near_miss_pct": 37.01923076923077,
+      "radical_pct": 14.423076923076923
+    },
+    {
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "n": 135,
+      "mean_rank": 1008.0222222222222,
+      "mean_s2": 0.9794829629629631,
+      "conventional_pct": 15.555555555555555,
+      "near_miss_pct": 29.62962962962963,
+      "radical_pct": 14.074074074074074
+    },
+    {
+      "author": "Christian B\u00f6k",
+      "era": "oulipo",
+      "n": 174,
+      "mean_rank": 1183.287356321839,
+      "mean_s2": 1.4821402298850572,
+      "conventional_pct": 17.816091954022987,
+      "near_miss_pct": 28.160919540229884,
+      "radical_pct": 20.689655172413794
+    },
+    {
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "n": 122,
+      "mean_rank": 1504.360655737705,
+      "mean_s2": 2.9108860655737696,
+      "conventional_pct": 13.114754098360656,
+      "near_miss_pct": 31.9672131147541,
+      "radical_pct": 17.21311475409836
+    },
+    {
+      "author": "Synthetic (clerihew test case)",
+      "era": "clerihew",
+      "n": 124,
+      "mean_rank": 1643.1290322580646,
+      "mean_s2": 1.4304387096774194,
+      "conventional_pct": 12.903225806451612,
+      "near_miss_pct": 29.032258064516128,
+      "radical_pct": 22.580645161290324
+    }
+  ],
+  "era_stats": {
+    "romantic": {
+      "n": 3007,
+      "mean_s2": -0.023594812105086942
+    },
+    "19th_century": {
+      "n": 2574,
+      "mean_s2": -0.05496010101010192
+    },
+    "modernist": {
+      "n": 2161,
+      "mean_s2": 0.17618634891254054
+    },
+    "beat": {
+      "n": 543,
+      "mean_s2": 1.406281583793739
+    },
+    "confessional": {
+      "n": 302,
+      "mean_s2": 0.30906754966887384
+    },
+    "mid_century": {
+      "n": 451,
+      "mean_s2": 0.22632372505543216
+    },
+    "new_york_school": {
+      "n": 2230,
+      "mean_s2": -0.3425408968609879
+    },
+    "language": {
+      "n": 393,
+      "mean_s2": -0.37720966921119603
+    },
+    "contemporary": {
+      "n": 2222,
+      "mean_s2": -0.149270747074708
+    },
+    "harlem_renaissance": {
+      "n": 640,
+      "mean_s2": -0.02439671875000046
+    },
+    "oulipo": {
+      "n": 823,
+      "mean_s2": 0.3144669501822598
+    },
+    "surrealist": {
+      "n": 882,
+      "mean_s2": -0.19335498866213033
+    },
+    "deep_image": {
+      "n": 48,
+      "mean_s2": 0.35471875
+    },
+    "victorian": {
+      "n": 3986,
+      "mean_s2": 0.1654551931761167
+    },
+    "haiku": {
+      "n": 200,
+      "mean_s2": 0.5445445000000002
+    },
+    "ancient": {
+      "n": 243,
+      "mean_s2": 0.33207283950617283
+    },
+    "prose_poetry": {
+      "n": 1161,
+      "mean_s2": -0.2194688199827734
+    },
+    "ballad": {
+      "n": 724,
+      "mean_s2": 0.014668232044199113
+    },
+    "song_lyrics": {
+      "n": 423,
+      "mean_s2": -0.428069503546099
+    },
+    "nursery_rhyme": {
+      "n": 181,
+      "mean_s2": -0.613516022099447
+    },
+    "metaphysical": {
+      "n": 397,
+      "mean_s2": -0.14693627204030293
+    },
+    "early_modern": {
+      "n": 974,
+      "mean_s2": 0.0024544147843953146
+    },
+    "spoken_word": {
+      "n": 223,
+      "mean_s2": -0.28382914798206255
+    },
+    "found_poetry": {
+      "n": 926,
+      "mean_s2": -0.4841200863930887
+    },
+    "fixed_form": {
+      "n": 660,
+      "mean_s2": -0.2737828787878785
+    },
+    "cliche_control": {
+      "n": 382,
+      "mean_s2": -0.8016287958115194
+    },
+    "18th_century": {
+      "n": 1168,
+      "mean_s2": 0.1542868150684923
+    },
+    "biblical": {
+      "n": 1134,
+      "mean_s2": -0.28116269841269886
+    },
+    "concrete": {
+      "n": 219,
+      "mean_s2": -0.2823972602739725
+    },
+    "latin_american": {
+      "n": 349,
+      "mean_s2": 1.2893982807865627e-05
+    },
+    "black_arts": {
+      "n": 191,
+      "mean_s2": -0.25087382198952896
+    },
+    "korean_modernist": {
+      "n": 77,
+      "mean_s2": -0.29114935064935066
+    },
+    "imagist": {
+      "n": 244,
+      "mean_s2": -0.14817254098360647
+    },
+    "german_expressionist": {
+      "n": 379,
+      "mean_s2": 0.2490411609498684
+    },
+    "parody_original": {
+      "n": 355,
+      "mean_s2": -0.21009070422535206
+    },
+    "parody": {
+      "n": 522,
+      "mean_s2": 0.053836973180076554
+    },
+    "classical_chinese": {
+      "n": 183,
+      "mean_s2": -0.011298907103825346
+    },
+    "persian": {
+      "n": 297,
+      "mean_s2": 0.06663367003366989
+    },
+    "japanese_classical": {
+      "n": 46,
+      "mean_s2": -0.6535804347826087
+    },
+    "limerick": {
+      "n": 341,
+      "mean_s2": -0.5368041055718475
+    },
+    "old_english": {
+      "n": 487,
+      "mean_s2": 0.225951540041068
+    },
+    "protest_political": {
+      "n": 188,
+      "mean_s2": -0.2522771276595744
+    },
+    "ghazal": {
+      "n": 170,
+      "mean_s2": -0.15121294117647063
+    },
+    "war_poetry": {
+      "n": 495,
+      "mean_s2": 0.13465474747474718
+    },
+    "postcolonial": {
+      "n": 703,
+      "mean_s2": 0.061965718349928
+    },
+    "dramatic_monologue": {
+      "n": 1981,
+      "mean_s2": 0.0891928823826354
+    },
+    "elegy": {
+      "n": 987,
+      "mean_s2": -0.02688257345491401
+    },
+    "clerihew": {
+      "n": 175,
+      "mean_s2": 1.2020977142857154
+    },
+    "double_dactyl": {
+      "n": 169,
+      "mean_s2": -0.02500532544378713
+    },
+    "ekphrastic": {
+      "n": 1501,
+      "mean_s2": -0.06154823451032627
+    },
+    "villanelle": {
+      "n": 336,
+      "mean_s2": -0.1854910714285723
+    },
+    "pantoum": {
+      "n": 106,
+      "mean_s2": -0.17917547169811324
+    },
+    "triolet": {
+      "n": 100,
+      "mean_s2": -0.7242839999999998
+    },
+    "rondeau": {
+      "n": 100,
+      "mean_s2": 0.13945999999999992
+    },
+    "nonsense": {
+      "n": 398,
+      "mean_s2": -0.5227937185929644
+    }
+  }
+}
