@@ -1,0 +1,743 @@
+{
+  "global_stats": {
+    "n_transitions": 52445,
+    "mean_delta_H": -0.05320402898274383,
+    "median_delta_H": 0.014799999999999997,
+    "stdev_delta_H": 3.3762257696714286,
+    "pct_openers": 37.709981885785105,
+    "pct_closers": 37.042616073982266,
+    "pct_flat": 25.247402040232625
+  },
+  "opener_closer_ratio_by_era": {
+    "victorian": {
+      "n": 5119,
+      "pct_opener": 38.562219183434266,
+      "pct_closer": 37.722211369408086,
+      "mean_delta_H": -0.03764547763235011,
+      "opener_closer_ratio": 0.50550576184379
+    },
+    "romantic": {
+      "n": 3771,
+      "pct_opener": 40.46671970299655,
+      "pct_closer": 37.70883054892602,
+      "mean_delta_H": -0.04092140015910891,
+      "opener_closer_ratio": 0.5176390773405699
+    },
+    "19th_century": {
+      "n": 3205,
+      "pct_opener": 38.81435257410296,
+      "pct_closer": 39.93759750390016,
+      "mean_delta_H": -0.034606895475819,
+      "opener_closer_ratio": 0.4928684627575277
+    },
+    "modernist": {
+      "n": 2957,
+      "pct_opener": 36.96313831586067,
+      "pct_closer": 36.38823131552249,
+      "mean_delta_H": -0.054094420020290884,
+      "opener_closer_ratio": 0.503918856615952
+    },
+    "contemporary": {
+      "n": 2756,
+      "pct_opener": 38.171262699564586,
+      "pct_closer": 38.171262699564586,
+      "mean_delta_H": -0.053599020319303255,
+      "opener_closer_ratio": 0.5
+    },
+    "new_york_school": {
+      "n": 2747,
+      "pct_opener": 38.76956680014561,
+      "pct_closer": 37.42264288314525,
+      "mean_delta_H": -0.06918580269384791,
+      "opener_closer_ratio": 0.5088389870998566
+    },
+    "dramatic_monologue": {
+      "n": 2561,
+      "pct_opener": 38.227254978524016,
+      "pct_closer": 37.4853572823116,
+      "mean_delta_H": -0.016624443576727828,
+      "opener_closer_ratio": 0.5048994326972667
+    },
+    "ekphrastic": {
+      "n": 1893,
+      "pct_opener": 38.404648705758056,
+      "pct_closer": 38.08769149498151,
+      "mean_delta_H": -0.02500575805599577,
+      "opener_closer_ratio": 0.5020718232044199
+    },
+    "18th_century": {
+      "n": 1427,
+      "pct_opener": 40.71478626489138,
+      "pct_closer": 37.561317449194114,
+      "mean_delta_H": -0.04091436580238263,
+      "opener_closer_ratio": 0.5201432408236347
+    },
+    "prose_poetry": {
+      "n": 1396,
+      "pct_opener": 38.53868194842407,
+      "pct_closer": 38.108882521489974,
+      "mean_delta_H": -0.05793051575931234,
+      "opener_closer_ratio": 0.502803738317757
+    },
+    "biblical": {
+      "n": 1323,
+      "pct_opener": 34.69387755102041,
+      "pct_closer": 31.670445956160243,
+      "mean_delta_H": -0.05071549508692361,
+      "opener_closer_ratio": 0.5227790432801822
+    },
+    "elegy": {
+      "n": 1247,
+      "pct_opener": 37.85084202085004,
+      "pct_closer": 39.13392141138733,
+      "mean_delta_H": -0.048987089013632676,
+      "opener_closer_ratio": 0.49166666666666664
+    },
+    "early_modern": {
+      "n": 1223,
+      "pct_opener": 36.140637775960755,
+      "pct_closer": 35.40474243663123,
+      "mean_delta_H": -0.03769607522485684,
+      "opener_closer_ratio": 0.5051428571428571
+    },
+    "found_poetry": {
+      "n": 1195,
+      "pct_opener": 36.31799163179916,
+      "pct_closer": 36.56903765690377,
+      "mean_delta_H": -0.06358987447698747,
+      "opener_closer_ratio": 0.49827784156142363
+    },
+    "beat": {
+      "n": 1187,
+      "pct_opener": 21.735467565290648,
+      "pct_closer": 22.07245155855097,
+      "mean_delta_H": -0.04528643639427123,
+      "opener_closer_ratio": 0.49615384615384617
+    },
+    "surrealist": {
+      "n": 1094,
+      "pct_opener": 38.84826325411335,
+      "pct_closer": 36.83729433272395,
+      "mean_delta_H": -0.04896828153564903,
+      "opener_closer_ratio": 0.5132850241545893
+    },
+    "oulipo": {
+      "n": 993,
+      "pct_opener": 37.26082578046324,
+      "pct_closer": 38.670694864048336,
+      "mean_delta_H": -0.05414018126888209,
+      "opener_closer_ratio": 0.4907161803713528
+    },
+    "postcolonial": {
+      "n": 983,
+      "pct_opener": 36.31739572736521,
+      "pct_closer": 34.68972533062055,
+      "mean_delta_H": -0.04763499491353004,
+      "opener_closer_ratio": 0.5114613180515759
+    },
+    "ballad": {
+      "n": 909,
+      "pct_opener": 34.103410341034106,
+      "pct_closer": 34.65346534653465,
+      "mean_delta_H": -0.05077359735973598,
+      "opener_closer_ratio": 0.496
+    },
+    "fixed_form": {
+      "n": 850,
+      "pct_opener": 36.0,
+      "pct_closer": 36.0,
+      "mean_delta_H": -0.0790823529411765,
+      "opener_closer_ratio": 0.5
+    },
+    "harlem_renaissance": {
+      "n": 809,
+      "pct_opener": 40.296662546353524,
+      "pct_closer": 38.93695920889988,
+      "mean_delta_H": -0.06008813349814586,
+      "opener_closer_ratio": 0.5085803432137286
+    },
+    "german_expressionist": {
+      "n": 775,
+      "pct_opener": 40.38709677419355,
+      "pct_closer": 39.096774193548384,
+      "mean_delta_H": -0.04697341935483867,
+      "opener_closer_ratio": 0.5081168831168831
+    },
+    "parody": {
+      "n": 665,
+      "pct_opener": 39.69924812030075,
+      "pct_closer": 39.097744360902254,
+      "mean_delta_H": -0.040643157894736784,
+      "opener_closer_ratio": 0.5038167938931297
+    },
+    "war_poetry": {
+      "n": 636,
+      "pct_opener": 39.465408805031444,
+      "pct_closer": 37.42138364779874,
+      "mean_delta_H": -0.026908176100628938,
+      "opener_closer_ratio": 0.5132924335378323
+    },
+    "old_english": {
+      "n": 624,
+      "pct_opener": 41.666666666666664,
+      "pct_closer": 35.256410256410255,
+      "mean_delta_H": -0.04734695512820522,
+      "opener_closer_ratio": 0.5416666666666666
+    },
+    "mid_century": {
+      "n": 577,
+      "pct_opener": 36.22183708838821,
+      "pct_closer": 38.128249566724435,
+      "mean_delta_H": -0.08295753899480061,
+      "opener_closer_ratio": 0.48717948717948717
+    },
+    "song_lyrics": {
+      "n": 538,
+      "pct_opener": 35.13011152416357,
+      "pct_closer": 34.572490706319705,
+      "mean_delta_H": -0.049948698884758364,
+      "opener_closer_ratio": 0.504
+    },
+    "metaphysical": {
+      "n": 529,
+      "pct_opener": 35.349716446124766,
+      "pct_closer": 35.72778827977316,
+      "mean_delta_H": -0.047072022684310044,
+      "opener_closer_ratio": 0.4973404255319149
+    },
+    "nonsense": {
+      "n": 498,
+      "pct_opener": 36.74698795180723,
+      "pct_closer": 37.34939759036145,
+      "mean_delta_H": -0.03742309236947797,
+      "opener_closer_ratio": 0.4959349593495935
+    },
+    "language": {
+      "n": 490,
+      "pct_opener": 39.38775510204081,
+      "pct_closer": 37.3469387755102,
+      "mean_delta_H": -0.10008795918367346,
+      "opener_closer_ratio": 0.5132978723404256
+    },
+    "cliche_control": {
+      "n": 485,
+      "pct_opener": 38.350515463917525,
+      "pct_closer": 40.0,
+      "mean_delta_H": -0.07229010309278347,
+      "opener_closer_ratio": 0.48947368421052634
+    },
+    "latin_american": {
+      "n": 457,
+      "pct_opener": 36.98030634573304,
+      "pct_closer": 35.667396061269145,
+      "mean_delta_H": -0.058373304157549266,
+      "opener_closer_ratio": 0.5090361445783133
+    },
+    "parody_original": {
+      "n": 440,
+      "pct_opener": 34.09090909090909,
+      "pct_closer": 38.18181818181818,
+      "mean_delta_H": -0.04979022727272731,
+      "opener_closer_ratio": 0.4716981132075472
+    },
+    "villanelle": {
+      "n": 433,
+      "pct_opener": 32.10161662817552,
+      "pct_closer": 33.25635103926097,
+      "mean_delta_H": -0.07463879907621251,
+      "opener_closer_ratio": 0.4911660777385159
+    },
+    "limerick": {
+      "n": 416,
+      "pct_opener": 37.01923076923077,
+      "pct_closer": 40.38461538461539,
+      "mean_delta_H": -0.14260192307692304,
+      "opener_closer_ratio": 0.4782608695652174
+    },
+    "confessional": {
+      "n": 391,
+      "pct_opener": 38.87468030690537,
+      "pct_closer": 35.549872122762146,
+      "mean_delta_H": -0.07238107416879794,
+      "opener_closer_ratio": 0.5223367697594502
+    },
+    "persian": {
+      "n": 380,
+      "pct_opener": 35.78947368421053,
+      "pct_closer": 37.89473684210526,
+      "mean_delta_H": -0.029510526315789466,
+      "opener_closer_ratio": 0.4857142857142857
+    },
+    "german_symbolist": {
+      "n": 353,
+      "pct_opener": 37.67705382436261,
+      "pct_closer": 36.26062322946176,
+      "mean_delta_H": -0.014701416430594885,
+      "opener_closer_ratio": 0.5095785440613027
+    },
+    "imagist": {
+      "n": 316,
+      "pct_opener": 38.607594936708864,
+      "pct_closer": 38.29113924050633,
+      "mean_delta_H": -0.09688481012658222,
+      "opener_closer_ratio": 0.5020576131687243
+    },
+    "ancient": {
+      "n": 315,
+      "pct_opener": 40.95238095238095,
+      "pct_closer": 35.55555555555556,
+      "mean_delta_H": -0.046965079365079467,
+      "opener_closer_ratio": 0.5352697095435685
+    },
+    "spoken_word": {
+      "n": 283,
+      "pct_opener": 37.45583038869258,
+      "pct_closer": 33.92226148409894,
+      "mean_delta_H": -0.05907526501766779,
+      "opener_closer_ratio": 0.5247524752475248
+    },
+    "concrete": {
+      "n": 282,
+      "pct_opener": 39.361702127659576,
+      "pct_closer": 37.5886524822695,
+      "mean_delta_H": -0.1117070921985816,
+      "opener_closer_ratio": 0.511520737327189
+    },
+    "haiku": {
+      "n": 279,
+      "pct_opener": 35.12544802867384,
+      "pct_closer": 43.01075268817204,
+      "mean_delta_H": -0.3331068100358423,
+      "opener_closer_ratio": 0.44954128440366975
+    },
+    "protest_political": {
+      "n": 248,
+      "pct_opener": 40.725806451612904,
+      "pct_closer": 36.29032258064516,
+      "mean_delta_H": -0.06070524193548387,
+      "opener_closer_ratio": 0.5287958115183246
+    },
+    "black_arts": {
+      "n": 244,
+      "pct_opener": 38.52459016393443,
+      "pct_closer": 38.114754098360656,
+      "mean_delta_H": -0.0664598360655738,
+      "opener_closer_ratio": 0.5026737967914439
+    },
+    "double_dactyl": {
+      "n": 243,
+      "pct_opener": 37.03703703703704,
+      "pct_closer": 38.68312757201646,
+      "mean_delta_H": -0.14843497942386824,
+      "opener_closer_ratio": 0.4891304347826087
+    },
+    "classical_chinese": {
+      "n": 234,
+      "pct_opener": 32.9059829059829,
+      "pct_closer": 36.324786324786324,
+      "mean_delta_H": -0.13743504273504276,
+      "opener_closer_ratio": 0.47530864197530864
+    },
+    "german_modernist": {
+      "n": 232,
+      "pct_opener": 40.51724137931034,
+      "pct_closer": 37.93103448275862,
+      "mean_delta_H": -0.03335129310344828,
+      "opener_closer_ratio": 0.5164835164835165
+    },
+    "ghazal": {
+      "n": 228,
+      "pct_opener": 39.473684210526315,
+      "pct_closer": 35.08771929824562,
+      "mean_delta_H": -0.07642456140350873,
+      "opener_closer_ratio": 0.5294117647058824
+    },
+    "clerihew": {
+      "n": 222,
+      "pct_opener": 36.93693693693694,
+      "pct_closer": 39.63963963963964,
+      "mean_delta_H": -0.28910360360360376,
+      "opener_closer_ratio": 0.4823529411764706
+    },
+    "nursery_rhyme": {
+      "n": 221,
+      "pct_opener": 40.27149321266968,
+      "pct_closer": 38.46153846153846,
+      "mean_delta_H": -0.0292733031674208,
+      "opener_closer_ratio": 0.5114942528735632
+    },
+    "control": {
+      "n": 158,
+      "pct_opener": 36.075949367088604,
+      "pct_closer": 41.77215189873418,
+      "mean_delta_H": -0.30183101265822787,
+      "opener_closer_ratio": 0.4634146341463415
+    },
+    "pantoum": {
+      "n": 133,
+      "pct_opener": 37.59398496240601,
+      "pct_closer": 33.83458646616541,
+      "mean_delta_H": -0.02233684210526314,
+      "opener_closer_ratio": 0.5263157894736842
+    },
+    "rondeau": {
+      "n": 129,
+      "pct_opener": 41.08527131782946,
+      "pct_closer": 37.98449612403101,
+      "mean_delta_H": -0.05568217054263569,
+      "opener_closer_ratio": 0.5196078431372549
+    },
+    "triolet": {
+      "n": 128,
+      "pct_opener": 35.15625,
+      "pct_closer": 38.28125,
+      "mean_delta_H": -0.16264453125,
+      "opener_closer_ratio": 0.4787234042553192
+    },
+    "korean_modernist": {
+      "n": 101,
+      "pct_opener": 33.663366336633665,
+      "pct_closer": 42.57425742574257,
+      "mean_delta_H": -0.08183267326732677,
+      "opener_closer_ratio": 0.44155844155844154
+    },
+    "deep_image": {
+      "n": 60,
+      "pct_opener": 43.333333333333336,
+      "pct_closer": 35.0,
+      "mean_delta_H": -0.12624000000000002,
+      "opener_closer_ratio": 0.5531914893617021
+    },
+    "japanese_classical": {
+      "n": 57,
+      "pct_opener": 40.35087719298246,
+      "pct_closer": 38.59649122807018,
+      "mean_delta_H": -0.20171929824561394,
+      "opener_closer_ratio": 0.5111111111111111
+    }
+  },
+  "entropy_jump_predicts_s2": {
+    "close (-2 to -1)": {
+      "n": 5181,
+      "mean_s2_next": -0.47400687126037444,
+      "pct_high_s2_next": 15.518239722061377
+    },
+    "large_close (-2-)": {
+      "n": 14245,
+      "mean_s2_next": -0.2800236784836785,
+      "pct_high_s2_next": 14.650754650754651
+    },
+    "large_open (+2+)": {
+      "n": 14316,
+      "mean_s2_next": -0.4828479673093043,
+      "pct_high_s2_next": 16.680637049455154
+    },
+    "open (+1 to +2)": {
+      "n": 5461,
+      "mean_s2_next": -0.5123530305804798,
+      "pct_high_s2_next": 16.865043032411645
+    },
+    "slight_close (-1 to 0)": {
+      "n": 6549,
+      "mean_s2_next": -0.3966090395480226,
+      "pct_high_s2_next": 15.45274087646969
+    },
+    "slight_open (0 to +1)": {
+      "n": 6693,
+      "mean_s2_next": -0.4240616913192888,
+      "pct_high_s2_next": 15.942028985507246
+    }
+  },
+  "top_opener_tokens": [
+    {
+      "token": "ose",
+      "mean_delta_H": 5.500422222222222,
+      "n": 18
+    },
+    {
+      "token": "prefer",
+      "mean_delta_H": 5.126746153846154,
+      "n": 13
+    },
+    {
+      "token": "oth",
+      "mean_delta_H": 4.62325,
+      "n": 20
+    },
+    {
+      "token": "eth",
+      "mean_delta_H": 4.076261111111111,
+      "n": 36
+    },
+    {
+      "token": "ies",
+      "mean_delta_H": 3.8994583333333335,
+      "n": 12
+    },
+    {
+      "token": "whose",
+      "mean_delta_H": 3.51293,
+      "n": 20
+    },
+    {
+      "token": "ide",
+      "mean_delta_H": 3.5063583333333335,
+      "n": 12
+    },
+    {
+      "token": "the",
+      "mean_delta_H": 3.441537511190689,
+      "n": 2234
+    },
+    {
+      "token": "les",
+      "mean_delta_H": 3.353630769230769,
+      "n": 13
+    },
+    {
+      "token": "das",
+      "mean_delta_H": 3.1207,
+      "n": 11
+    },
+    {
+      "token": "were",
+      "mean_delta_H": 3.118097777777778,
+      "n": 90
+    },
+    {
+      "token": "ers",
+      "mean_delta_H": 2.9855181818181817,
+      "n": 11
+    },
+    {
+      "token": "its",
+      "mean_delta_H": 2.879520588235294,
+      "n": 68
+    },
+    {
+      "token": "led",
+      "mean_delta_H": 2.8650942857142856,
+      "n": 35
+    },
+    {
+      "token": "ows",
+      "mean_delta_H": 2.812875,
+      "n": 12
+    },
+    {
+      "token": "your",
+      "mean_delta_H": 2.8068333333333335,
+      "n": 114
+    },
+    {
+      "token": "belly",
+      "mean_delta_H": 2.7426,
+      "n": 18
+    },
+    {
+      "token": "nor",
+      "mean_delta_H": 2.637344117647059,
+      "n": 34
+    },
+    {
+      "token": "ing",
+      "mean_delta_H": 2.591204225352113,
+      "n": 71
+    },
+    {
+      "token": "his",
+      "mean_delta_H": 2.5347711191335742,
+      "n": 277
+    },
+    {
+      "token": "ost",
+      "mean_delta_H": 2.497476923076923,
+      "n": 13
+    },
+    {
+      "token": "their",
+      "mean_delta_H": 2.491282978723404,
+      "n": 94
+    },
+    {
+      "token": "space",
+      "mean_delta_H": 2.482322222222222,
+      "n": 27
+    },
+    {
+      "token": "every",
+      "mean_delta_H": 2.429446875,
+      "n": 32
+    },
+    {
+      "token": "some",
+      "mean_delta_H": 2.4197096153846154,
+      "n": 52
+    }
+  ],
+  "top_closer_tokens": [
+    {
+      "token": "bro",
+      "mean_delta_H": -6.4339818181818185,
+      "n": 11
+    },
+    {
+      "token": "thro",
+      "mean_delta_H": -6.1070899999999995,
+      "n": 10
+    },
+    {
+      "token": "don",
+      "mean_delta_H": -5.536372222222222,
+      "n": 18
+    },
+    {
+      "token": "igg",
+      "mean_delta_H": -5.513099999999999,
+      "n": 11
+    },
+    {
+      "token": "state",
+      "mean_delta_H": -5.099983333333333,
+      "n": 12
+    },
+    {
+      "token": "chest",
+      "mean_delta_H": -4.94975,
+      "n": 12
+    },
+    {
+      "token": "kind",
+      "mean_delta_H": -4.911588235294118,
+      "n": 17
+    },
+    {
+      "token": "hills",
+      "mean_delta_H": -4.860392857142857,
+      "n": 14
+    },
+    {
+      "token": "sound",
+      "mean_delta_H": -4.7408866666666665,
+      "n": 15
+    },
+    {
+      "token": "int",
+      "mean_delta_H": -4.69205,
+      "n": 12
+    },
+    {
+      "token": "sil",
+      "mean_delta_H": -4.52365,
+      "n": 22
+    },
+    {
+      "token": "star",
+      "mean_delta_H": -4.4983,
+      "n": 13
+    },
+    {
+      "token": "sky",
+      "mean_delta_H": -4.393723076923077,
+      "n": 26
+    },
+    {
+      "token": "garden",
+      "mean_delta_H": -4.38406,
+      "n": 10
+    },
+    {
+      "token": "wing",
+      "mean_delta_H": -4.335925,
+      "n": 12
+    },
+    {
+      "token": "ground",
+      "mean_delta_H": -4.3221454545454545,
+      "n": 11
+    },
+    {
+      "token": "pain",
+      "mean_delta_H": -4.29565,
+      "n": 12
+    },
+    {
+      "token": "grass",
+      "mean_delta_H": -4.281032258064516,
+      "n": 31
+    },
+    {
+      "token": "form",
+      "mean_delta_H": -4.234285714285714,
+      "n": 14
+    },
+    {
+      "token": "king",
+      "mean_delta_H": -4.142978571428571,
+      "n": 14
+    },
+    {
+      "token": "survey",
+      "mean_delta_H": -4.105265384615385,
+      "n": 26
+    },
+    {
+      "token": "sir",
+      "mean_delta_H": -4.09397,
+      "n": 10
+    },
+    {
+      "token": "end",
+      "mean_delta_H": -4.072094117647059,
+      "n": 17
+    },
+    {
+      "token": "dreams",
+      "mean_delta_H": -3.9498,
+      "n": 14
+    },
+    {
+      "token": "joy",
+      "mean_delta_H": -3.9067312500000004,
+      "n": 16
+    }
+  ],
+  "open_close_cycle_length": {
+    "n_runs": 28026,
+    "mean_run_length": 1.3807892671091129,
+    "median_run_length": 1.0,
+    "pct_runs_1": 67.60864911153928,
+    "pct_runs_2_3": 31.959608934560766,
+    "pct_runs_4plus": 0.43174195389995007
+  },
+  "pre_spike_entropy_gradient": {
+    "n_pre_spike": 8279,
+    "n_non_spike": 44166,
+    "mean_delta_H_pre_spike": 0.13638722067882594,
+    "mean_delta_H_non_spike": -0.08874326631345379,
+    "pct_opener_pre_spike": 39.96859524097113,
+    "pct_opener_non_spike": 37.28660055246117,
+    "pct_closer_pre_spike": 34.91967628940694,
+    "pct_closer_non_spike": 37.4405651406059
+  },
+  "token_role_gradient": {
+    "CONTENT": {
+      "n": 25791,
+      "mean_delta_H": -1.5342985576363848,
+      "pct_opener": 19.933310069404055,
+      "pct_closer": 58.18696444496142
+    },
+    "FUNCTION": {
+      "n": 15107,
+      "mean_delta_H": 1.4878316740583835,
+      "pct_opener": 57.152313497054344,
+      "pct_closer": 15.727808300787714
+    },
+    "PUNCT": {
+      "n": 6421,
+      "mean_delta_H": 0.9447268338265068,
+      "pct_opener": 49.82090017131288,
+      "pct_closer": 23.314125525619062
+    }
+  }
+}
