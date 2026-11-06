@@ -1,0 +1,3085 @@
+{
+  "romantic": {
+    "n_poems": 21,
+    "total_artifact_free_tokens": 3792,
+    "n_peaks": 606,
+    "peak_rate": 0.1598,
+    "mean_peak_s2": 6.075,
+    "fw_rate_at_peaks": 0.099,
+    "field_distribution": {
+      "other": 0.883,
+      "nature": 0.028,
+      "human_society": 0.026,
+      "abstract_soul": 0.017,
+      "time": 0.015,
+      "death_void": 0.01,
+      "motion": 0.008,
+      "body": 0.007,
+      "color_light": 0.007
+    },
+    "top_content_peaks": {
+      "'d": 6,
+      "sweet": 3,
+      "thou": 3,
+      "wild": 3,
+      "whose": 3,
+      "among": 3,
+      "number": 2,
+      "Round": 2,
+      "learn": 2,
+      "wander": 2,
+      "moist": 2,
+      "Ty": 2,
+      "burning": 2,
+      "dare": 2,
+      "Lamb": 2
+    },
+    "top_per_field": {
+      "other": {
+        "'d": 6,
+        "thou": 3,
+        "wild": 3,
+        "whose": 3,
+        "among": 3
+      },
+      "nature": {
+        "fruit": 2,
+        "flowers": 2,
+        "cloud": 1,
+        "light": 1,
+        "water": 1
+      },
+      "abstract_soul": {
+        "envy": 1,
+        "lies": 1,
+        "art": 1,
+        "life": 1,
+        "Pride": 1
+      },
+      "death_void": {
+        "Nothing": 1,
+        "decay": 1,
+        "dead": 1,
+        "nothing": 1,
+        "death": 1
+      },
+      "time": {
+        "days": 2,
+        "hours": 2,
+        "before": 1,
+        "ever": 1,
+        "Past": 1
+      },
+      "motion": {
+        "run": 2,
+        "rising": 1,
+        "come": 1,
+        "return": 1
+      },
+      "body": {
+        "feet": 1,
+        "breath": 1,
+        "bones": 1,
+        "breasts": 1
+      },
+      "human_society": {
+        "sweet": 3,
+        "old": 2,
+        "Man": 1,
+        "sister": 1,
+        "living": 1
+      },
+      "color_light": {
+        "Yellow": 1,
+        "red": 1,
+        "bright": 1,
+        "pale": 1
+      }
+    }
+  },
+  "19th_century": {
+    "n_poems": 18,
+    "total_artifact_free_tokens": 3223,
+    "n_peaks": 534,
+    "peak_rate": 0.1657,
+    "mean_peak_s2": 5.9,
+    "fw_rate_at_peaks": 0.142,
+    "field_distribution": {
+      "other": 0.893,
+      "time": 0.021,
+      "death_void": 0.019,
+      "body": 0.019,
+      "nature": 0.013,
+      "human_society": 0.011,
+      "color_light": 0.009,
+      "motion": 0.009,
+      "abstract_soul": 0.006
+    },
+    "top_content_peaks": {
+      "'d": 5,
+      "each": 3,
+      "Death": 2,
+      "kindly": 2,
+      "Car": 2,
+      "Imm": 2,
+      "slowly": 2,
+      "haste": 2,
+      "labor": 2,
+      "too": 2,
+      "Civ": 2,
+      "assume": 2,
+      "belongs": 2,
+      "afe": 2,
+      "lies": 2
+    },
+    "top_per_field": {
+      "death_void": {
+        "Death": 2,
+        "Fall": 2,
+        "gone": 1,
+        "dying": 1,
+        "nothing": 1
+      },
+      "other": {
+        "'d": 5,
+        "each": 3,
+        "kindly": 2,
+        "Car": 2,
+        "Imm": 2
+      },
+      "body": {
+        "eyes": 2,
+        "heart": 2,
+        "Brain": 1,
+        "Back": 1,
+        "head": 1
+      },
+      "abstract_soul": {
+        "lies": 2,
+        "dreams": 1
+      },
+      "nature": {
+        "air": 1,
+        "Fly": 1,
+        "Air": 1,
+        "light": 1,
+        "moon": 1
+      },
+      "time": {
+        "again": 2,
+        "Ever": 1,
+        "midnight": 1,
+        "never": 1,
+        "still": 1
+      },
+      "color_light": {
+        "purple": 1,
+        "Blue": 1,
+        "bright": 1,
+        "gray": 1,
+        "blue": 1
+      },
+      "motion": {
+        "turning": 2,
+        "rise": 1,
+        "spinning": 1,
+        "pass": 1
+      },
+      "human_society": {
+        "cold": 1,
+        "silent": 1,
+        "old": 1,
+        "sister": 1,
+        "men": 1
+      }
+    }
+  },
+  "modernist": {
+    "n_poems": 28,
+    "total_artifact_free_tokens": 2985,
+    "n_peaks": 507,
+    "peak_rate": 0.1698,
+    "mean_peak_s2": 6.34,
+    "fw_rate_at_peaks": 0.148,
+    "field_distribution": {
+      "other": 0.892,
+      "nature": 0.041,
+      "abstract_soul": 0.014,
+      "color_light": 0.012,
+      "time": 0.01,
+      "motion": 0.01,
+      "human_society": 0.01,
+      "body": 0.008,
+      "death_void": 0.004
+    },
+    "top_content_peaks": {
+      "bes": 3,
+      "against": 2,
+      "kept": 2,
+      "depends": 2,
+      "red": 2,
+      "wheel": 2,
+      "jar": 2,
+      "wild": 2,
+      "chair": 2,
+      "black": 2,
+      "glass": 2,
+      "stars": 2,
+      "jelly": 2,
+      "slips": 2,
+      "just": 2
+    },
+    "top_per_field": {
+      "other": {
+        "bes": 3,
+        "against": 2,
+        "kept": 2,
+        "depends": 2,
+        "wheel": 2
+      },
+      "abstract_soul": {
+        "Memory": 1,
+        "freedom": 1,
+        "Spirit": 1,
+        "pain": 1,
+        "soul": 1
+      },
+      "color_light": {
+        "red": 2,
+        "black": 2,
+        "silver": 1,
+        "white": 1
+      },
+      "nature": {
+        "stars": 2,
+        "summer": 2,
+        "wood": 2,
+        "grass": 2,
+        "fog": 2
+      },
+      "motion": {
+        "move": 1,
+        "floating": 1,
+        "come": 1,
+        "pass": 1,
+        "go": 1
+      },
+      "time": {
+        "after": 1,
+        "now": 1,
+        "again": 1,
+        "once": 1
+      },
+      "body": {
+        "Head": 1,
+        "body": 1,
+        "feet": 1,
+        "belly": 1
+      },
+      "human_society": {
+        "small": 2,
+        "Women": 1,
+        "Hard": 1,
+        "country": 1
+      },
+      "death_void": {
+        "dying": 1,
+        "ash": 1
+      }
+    }
+  },
+  "beat": {
+    "n_poems": 8,
+    "total_artifact_free_tokens": 1195,
+    "n_peaks": 162,
+    "peak_rate": 0.1356,
+    "mean_peak_s2": 8.307,
+    "fw_rate_at_peaks": 0.185,
+    "field_distribution": {
+      "other": 0.914,
+      "abstract_soul": 0.025,
+      "nature": 0.019,
+      "body": 0.012,
+      "motion": 0.012,
+      "death_void": 0.012,
+      "time": 0.006
+    },
+    "top_content_peaks": {
+      "sd": 3,
+      "looking": 2,
+      "angry": 2,
+      "under": 2,
+      "shopping": 2,
+      "above": 2,
+      "where": 2,
+      "destroyed": 1,
+      "starving": 1,
+      "hysterical": 1,
+      "naked": 1,
+      "negro": 1,
+      "angel": 1,
+      "headed": 1,
+      "hip": 1
+    },
+    "top_per_field": {
+      "other": {
+        "sd": 3,
+        "looking": 2,
+        "angry": 2,
+        "under": 2,
+        "shopping": 2
+      },
+      "abstract_soul": {
+        "thoughts": 1,
+        "desire": 1,
+        "Words": 1,
+        "words": 1
+      },
+      "nature": {
+        "fruit": 1,
+        "sky": 1,
+        "day": 1
+      },
+      "body": {
+        "jaw": 1,
+        "eye": 1
+      },
+      "motion": {
+        "go": 1,
+        "going": 1
+      },
+      "death_void": {
+        "tomb": 1,
+        "emptiness": 1
+      },
+      "time": {
+        "always": 1
+      }
+    }
+  },
+  "confessional": {
+    "n_poems": 6,
+    "total_artifact_free_tokens": 397,
+    "n_peaks": 77,
+    "peak_rate": 0.194,
+    "mean_peak_s2": 6.0,
+    "fw_rate_at_peaks": 0.091,
+    "field_distribution": {
+      "other": 0.779,
+      "time": 0.065,
+      "color_light": 0.052,
+      "human_society": 0.026,
+      "body": 0.026,
+      "death_void": 0.013,
+      "motion": 0.013,
+      "nature": 0.013,
+      "abstract_soul": 0.013
+    },
+    "top_content_peaks": {
+      "\u2014\u2014": 2,
+      "heavy": 2,
+      "black": 1,
+      "shoe": 1,
+      "poor": 1,
+      "Ach": 1,
+      "oo": 1,
+      "Daddy": 1,
+      "died": 1,
+      "statue": 1,
+      "gray": 1,
+      "Big": 1,
+      "Fr": 1,
+      "isco": 1,
+      "every": 1
+    },
+    "top_per_field": {
+      "color_light": {
+        "black": 1,
+        "gray": 1,
+        "Bright": 1,
+        "flash": 1
+      },
+      "other": {
+        "\u2014\u2014": 2,
+        "heavy": 2,
+        "shoe": 1,
+        "Ach": 1,
+        "oo": 1
+      },
+      "human_society": {
+        "poor": 1,
+        "Queen": 1
+      },
+      "death_void": {
+        "died": 1
+      },
+      "motion": {
+        "walk": 1
+      },
+      "time": {
+        "year": 1,
+        "Ever": 1,
+        "still": 1,
+        "first": 1,
+        "century": 1
+      },
+      "nature": {
+        "shore": 1
+      },
+      "abstract_soul": {
+        "lie": 1
+      },
+      "body": {
+        "throat": 1,
+        "bone": 1
+      }
+    }
+  },
+  "mid_century": {
+    "n_poems": 6,
+    "total_artifact_free_tokens": 583,
+    "n_peaks": 94,
+    "peak_rate": 0.1612,
+    "mean_peak_s2": 6.366,
+    "fw_rate_at_peaks": 0.17,
+    "field_distribution": {
+      "other": 0.851,
+      "nature": 0.032,
+      "body": 0.021,
+      "motion": 0.021,
+      "death_void": 0.021,
+      "time": 0.021,
+      "human_society": 0.021,
+      "color_light": 0.011
+    },
+    "top_content_peaks": {
+      "fl": 2,
+      "ur": 2,
+      "late": 2,
+      "sin": 2,
+      "gin": 2,
+      "June": 2,
+      "road": 2,
+      "sw": 2,
+      "elbows": 2,
+      "filled": 1,
+      "disaster": 1,
+      "Accept": 1,
+      "door": 1,
+      "keys": 1,
+      "badly": 1
+    },
+    "top_per_field": {
+      "other": {
+        "fl": 2,
+        "ur": 2,
+        "late": 2,
+        "sin": 2,
+        "gin": 2
+      },
+      "body": {
+        "lips": 1,
+        "arms": 1
+      },
+      "nature": {
+        "winter": 1,
+        "birds": 1,
+        "mountain": 1
+      },
+      "motion": {
+        "roll": 1,
+        "turning": 1
+      },
+      "death_void": {
+        "dead": 1,
+        "end": 1
+      },
+      "color_light": {
+        "glow": 1
+      },
+      "time": {
+        "already": 1,
+        "noon": 1
+      },
+      "human_society": {
+        "hard": 1,
+        "people": 1
+      }
+    }
+  },
+  "new_york_school": {
+    "n_poems": 26,
+    "total_artifact_free_tokens": 2773,
+    "n_peaks": 406,
+    "peak_rate": 0.1464,
+    "mean_peak_s2": 6.005,
+    "fw_rate_at_peaks": 0.135,
+    "field_distribution": {
+      "other": 0.889,
+      "nature": 0.025,
+      "human_society": 0.022,
+      "abstract_soul": 0.017,
+      "time": 0.012,
+      "motion": 0.012,
+      "death_void": 0.01,
+      "color_light": 0.007,
+      "body": 0.005
+    },
+    "top_content_peaks": {
+      "survey": 11,
+      "thunder": 3,
+      "painting": 2,
+      "silence": 2,
+      "plain": 2,
+      "each": 2,
+      "outside": 2,
+      "turning": 2,
+      "days": 2,
+      "partly": 2,
+      "coffee": 2,
+      "Edgar": 2,
+      "thought": 2,
+      "August": 2,
+      "empty": 2
+    },
+    "top_per_field": {
+      "other": {
+        "survey": 11,
+        "painting": 2,
+        "each": 2,
+        "outside": 2,
+        "partly": 2
+      },
+      "body": {
+        "head": 1,
+        "face": 1
+      },
+      "human_society": {
+        "children": 1,
+        "living": 1,
+        "People": 1,
+        "hot": 1,
+        "small": 1
+      },
+      "death_void": {
+        "silence": 2,
+        "empty": 2
+      },
+      "nature": {
+        "thunder": 3,
+        "plain": 2,
+        "day": 1,
+        "water": 1,
+        "Air": 1
+      },
+      "abstract_soul": {
+        "thought": 2,
+        "envy": 1,
+        "beauty": 1,
+        "pain": 1,
+        "love": 1
+      },
+      "time": {
+        "days": 2,
+        "First": 1,
+        "hours": 1,
+        "always": 1
+      },
+      "motion": {
+        "turning": 2,
+        "rise": 1,
+        "go": 1,
+        "moves": 1
+      },
+      "color_light": {
+        "silver": 1,
+        "green": 1,
+        "gray": 1
+      }
+    }
+  },
+  "language": {
+    "n_poems": 6,
+    "total_artifact_free_tokens": 496,
+    "n_peaks": 75,
+    "peak_rate": 0.1512,
+    "mean_peak_s2": 6.043,
+    "fw_rate_at_peaks": 0.133,
+    "field_distribution": {
+      "other": 0.867,
+      "nature": 0.053,
+      "time": 0.04,
+      "color_light": 0.013,
+      "abstract_soul": 0.013,
+      "death_void": 0.013
+    },
+    "top_content_peaks": {
+      "pause": 1,
+      "rose": 1,
+      "paper": 1,
+      "yellow": 1,
+      "four": 1,
+      "greeting": 1,
+      "financial": 1,
+      "Al": 1,
+      "need": 1,
+      "night": 1,
+      "flames": 1,
+      "arch": 1,
+      "between": 1,
+      "ermanent": 1,
+      "culture": 1
+    },
+    "top_per_field": {
+      "other": {
+        "pause": 1,
+        "paper": 1,
+        "four": 1,
+        "greeting": 1,
+        "financial": 1
+      },
+      "nature": {
+        "rose": 1,
+        "night": 1,
+        "flowers": 1,
+        "Water": 1
+      },
+      "color_light": {
+        "yellow": 1
+      },
+      "time": {
+        "time": 1,
+        "once": 1,
+        "again": 1
+      },
+      "abstract_soul": {
+        "music": 1
+      },
+      "death_void": {
+        "nothing": 1
+      }
+    }
+  },
+  "contemporary": {
+    "n_poems": 19,
+    "total_artifact_free_tokens": 2775,
+    "n_peaks": 434,
+    "peak_rate": 0.1564,
+    "mean_peak_s2": 6.091,
+    "fw_rate_at_peaks": 0.164,
+    "field_distribution": {
+      "other": 0.892,
+      "nature": 0.028,
+      "abstract_soul": 0.028,
+      "time": 0.023,
+      "body": 0.007,
+      "color_light": 0.007,
+      "motion": 0.007,
+      "human_society": 0.005,
+      "death_void": 0.005
+    },
+    "top_content_peaks": {
+      "even": 2,
+      "any": 2,
+      "among": 2,
+      "nest": 2,
+      "Whereas": 2,
+      "early": 2,
+      "ocean": 2,
+      "dream": 2,
+      "down": 2,
+      "Sl": 2,
+      "colors": 2,
+      "yet": 2,
+      "fly": 2,
+      "straight": 2,
+      "impressed": 2
+    },
+    "top_per_field": {
+      "other": {
+        "even": 2,
+        "any": 2,
+        "among": 2,
+        "nest": 2,
+        "Whereas": 2
+      },
+      "time": {
+        "yet": 2,
+        "past": 1,
+        "again": 1,
+        "time": 1,
+        "always": 1
+      },
+      "nature": {
+        "fly": 2,
+        "wood": 1,
+        "dark": 1,
+        "grass": 1,
+        "wave": 1
+      },
+      "abstract_soul": {
+        "dream": 2,
+        "word": 1,
+        "hunger": 1,
+        "thought": 1,
+        "joy": 1
+      },
+      "human_society": {
+        "old": 1,
+        "house": 1
+      },
+      "death_void": {
+        "grave": 1,
+        "silence": 1
+      },
+      "body": {
+        "knee": 1,
+        "head": 1,
+        "breasts": 1
+      },
+      "color_light": {
+        "pale": 1,
+        "white": 1,
+        "shining": 1
+      },
+      "motion": {
+        "goes": 1,
+        "spin": 1,
+        "falling": 1
+      }
+    }
+  },
+  "harlem_renaissance": {
+    "n_poems": 7,
+    "total_artifact_free_tokens": 816,
+    "n_peaks": 123,
+    "peak_rate": 0.1507,
+    "mean_peak_s2": 6.265,
+    "fw_rate_at_peaks": 0.098,
+    "field_distribution": {
+      "other": 0.902,
+      "time": 0.024,
+      "color_light": 0.016,
+      "abstract_soul": 0.016,
+      "nature": 0.016,
+      "motion": 0.008,
+      "death_void": 0.008,
+      "body": 0.008
+    },
+    "top_content_peaks": {
+      "deferred": 2,
+      "dry": 2,
+      "over": 2,
+      "dawn": 2,
+      "rivers": 1,
+      "ancient": 1,
+      "older": 1,
+      "flow": 1,
+      "bat": 1,
+      "Euph": 1,
+      "Congo": 1,
+      "lull": 1,
+      "raised": 1,
+      "Mississippi": 1,
+      "Abe": 1
+    },
+    "top_per_field": {
+      "other": {
+        "deferred": 2,
+        "dry": 2,
+        "over": 2,
+        "rivers": 1,
+        "ancient": 1
+      },
+      "motion": {
+        "flow": 1
+      },
+      "time": {
+        "dawn": 2,
+        "before": 1
+      },
+      "color_light": {
+        "golden": 1,
+        "black": 1
+      },
+      "abstract_soul": {
+        "God": 1,
+        "memories": 1
+      },
+      "death_void": {
+        "buried": 1
+      },
+      "body": {
+        "flesh": 1
+      },
+      "nature": {
+        "plain": 1,
+        "sun": 1
+      }
+    }
+  },
+  "oulipo": {
+    "n_poems": 8,
+    "total_artifact_free_tokens": 1001,
+    "n_peaks": 197,
+    "peak_rate": 0.1968,
+    "mean_peak_s2": 6.483,
+    "fw_rate_at_peaks": 0.173,
+    "field_distribution": {
+      "other": 0.924,
+      "time": 0.025,
+      "nature": 0.025,
+      "body": 0.005,
+      "color_light": 0.005,
+      "death_void": 0.005,
+      "abstract_soul": 0.005,
+      "motion": 0.005
+    },
+    "top_content_peaks": {
+      "Napoleon": 6,
+      "full": 2,
+      "Shut": 2,
+      "shut": 2,
+      "also": 2,
+      "rank": 2,
+      "et": 2,
+      "saga": 1,
+      "catastrophe": 1,
+      "al": 1,
+      "ands": 1,
+      "again": 1,
+      "cascade": 1,
+      "Now": 1,
+      "Exactly": 1
+    },
+    "top_per_field": {
+      "other": {
+        "Napoleon": 6,
+        "full": 2,
+        "Shut": 2,
+        "shut": 2,
+        "also": 2
+      },
+      "time": {
+        "again": 1,
+        "Now": 1,
+        "now": 1,
+        "ever": 1
+      },
+      "nature": {
+        "plain": 1,
+        "shadow": 1,
+        "dark": 1,
+        "water": 1,
+        "Day": 1
+      },
+      "body": {
+        "palm": 1
+      },
+      "color_light": {
+        "Black": 1
+      },
+      "death_void": {
+        "fell": 1
+      },
+      "abstract_soul": {
+        "God": 1
+      },
+      "motion": {
+        "go": 1
+      }
+    }
+  },
+  "surrealist": {
+    "n_poems": 8,
+    "total_artifact_free_tokens": 1102,
+    "n_peaks": 161,
+    "peak_rate": 0.1461,
+    "mean_peak_s2": 6.325,
+    "fw_rate_at_peaks": 0.099,
+    "field_distribution": {
+      "other": 0.789,
+      "nature": 0.062,
+      "body": 0.05,
+      "time": 0.037,
+      "abstract_soul": 0.019,
+      "death_void": 0.019,
+      "color_light": 0.012,
+      "human_society": 0.006,
+      "motion": 0.006
+    },
+    "top_content_peaks": {
+      "shadow": 3,
+      "waist": 2,
+      "perhaps": 2,
+      "wind": 2,
+      "bones": 2,
+      "cradle": 2,
+      "whose": 1,
+      "brush": 1,
+      "fire": 1,
+      "summer": 1,
+      "lightning": 1,
+      "ot": 1,
+      "caught": 1,
+      "ade": 1,
+      "dreamed": 1
+    },
+    "top_per_field": {
+      "other": {
+        "waist": 2,
+        "perhaps": 2,
+        "cradle": 2,
+        "whose": 1,
+        "brush": 1
+      },
+      "nature": {
+        "shadow": 3,
+        "wind": 2,
+        "fire": 1,
+        "summer": 1,
+        "lightning": 1
+      },
+      "body": {
+        "bones": 2,
+        "body": 1,
+        "voice": 1,
+        "arm": 1,
+        "ear": 1
+      },
+      "human_society": {
+        "living": 1
+      },
+      "color_light": {
+        "green": 1,
+        "silver": 1
+      },
+      "abstract_soul": {
+        "dreams": 1,
+        "dream": 1,
+        "loneliness": 1
+      },
+      "time": {
+        "already": 1,
+        "never": 1,
+        "past": 1,
+        "dawn": 1,
+        "Still": 1
+      },
+      "death_void": {
+        "nothing": 1,
+        "falls": 1,
+        "Nothing": 1
+      },
+      "motion": {
+        "walk": 1
+      }
+    }
+  },
+  "control": {
+    "n_poems": 4,
+    "total_artifact_free_tokens": 128,
+    "n_peaks": 3,
+    "peak_rate": 0.0234,
+    "mean_peak_s2": 3.542,
+    "fw_rate_at_peaks": 0.0,
+    "field_distribution": {
+      "other": 1.0
+    },
+    "top_content_peaks": {
+      "outside": 1,
+      "installation": 1,
+      "administrator": 1
+    },
+    "top_per_field": {
+      "other": {
+        "outside": 1,
+        "installation": 1,
+        "administrator": 1
+      }
+    }
+  },
+  "victorian": {
+    "n_poems": 29,
+    "total_artifact_free_tokens": 5148,
+    "n_peaks": 890,
+    "peak_rate": 0.1729,
+    "mean_peak_s2": 6.137,
+    "fw_rate_at_peaks": 0.126,
+    "field_distribution": {
+      "other": 0.879,
+      "time": 0.025,
+      "nature": 0.022,
+      "abstract_soul": 0.02,
+      "death_void": 0.017,
+      "body": 0.015,
+      "color_light": 0.01,
+      "human_society": 0.008,
+      "motion": 0.004
+    },
+    "top_content_peaks": {
+      "air": 4,
+      "'s": 4,
+      "yet": 4,
+      "spare": 4,
+      ",\u2014": 3,
+      "mouth": 3,
+      "half": 3,
+      "ow": 3,
+      "black": 3,
+      "well": 3,
+      "re": 3,
+      "fresh": 3,
+      "below": 3,
+      "app": 3,
+      "falls": 3
+    },
+    "top_per_field": {
+      "other": {
+        "'s": 4,
+        "spare": 4,
+        ",\u2014": 3,
+        "half": 3,
+        "ow": 3
+      },
+      "human_society": {
+        "king": 1,
+        "men": 1,
+        "World": 1,
+        "cold": 1,
+        "man": 1
+      },
+      "nature": {
+        "air": 4,
+        "light": 2,
+        "bird": 1,
+        "winter": 1,
+        "plain": 1
+      },
+      "abstract_soul": {
+        "Life": 2,
+        "beauty": 1,
+        "pride": 1,
+        "alone": 1,
+        "Pride": 1
+      },
+      "body": {
+        "mouth": 3,
+        "chest": 2,
+        "eye": 2,
+        "foot": 1,
+        "Hand": 1
+      },
+      "time": {
+        "yet": 4,
+        "first": 2,
+        "long": 1,
+        "eternal": 1,
+        "present": 1
+      },
+      "motion": {
+        "turning": 1,
+        "returning": 1,
+        "come": 1,
+        "coming": 1
+      },
+      "death_void": {
+        "falls": 3,
+        "lost": 2,
+        "Death": 2,
+        "dead": 1,
+        "dying": 1
+      },
+      "color_light": {
+        "black": 3,
+        "gray": 2,
+        "yellow": 1,
+        "shining": 1,
+        "Gold": 1
+      }
+    }
+  },
+  "haiku": {
+    "n_poems": 14,
+    "total_artifact_free_tokens": 293,
+    "n_peaks": 61,
+    "peak_rate": 0.2082,
+    "mean_peak_s2": 6.195,
+    "fw_rate_at_peaks": 0.066,
+    "field_distribution": {
+      "other": 0.705,
+      "human_society": 0.082,
+      "death_void": 0.082,
+      "nature": 0.066,
+      "time": 0.033,
+      "abstract_soul": 0.016,
+      "motion": 0.016
+    },
+    "top_content_peaks": {
+      "silent": 2,
+      "ash": 2,
+      "Silence": 2,
+      "again": 2,
+      "jumps": 1,
+      "cold": 1,
+      "monkey": 1,
+      "coat": 1,
+      "Aut": 1,
+      "silently": 1,
+      "nut": 1,
+      "spiders": 1,
+      "keep": 1,
+      "house": 1,
+      "snail": 1
+    },
+    "top_per_field": {
+      "human_society": {
+        "silent": 2,
+        "cold": 1,
+        "house": 1,
+        "great": 1
+      },
+      "other": {
+        "jumps": 1,
+        "monkey": 1,
+        "coat": 1,
+        "Aut": 1,
+        "silently": 1
+      },
+      "death_void": {
+        "ash": 2,
+        "Silence": 2,
+        "die": 1
+      },
+      "time": {
+        "again": 2
+      },
+      "nature": {
+        "grass": 1,
+        "sky": 1,
+        "flowers": 1,
+        "autumn": 1
+      },
+      "abstract_soul": {
+        "glory": 1
+      },
+      "motion": {
+        "sinking": 1
+      }
+    }
+  },
+  "ancient": {
+    "n_poems": 3,
+    "total_artifact_free_tokens": 318,
+    "n_peaks": 57,
+    "peak_rate": 0.1792,
+    "mean_peak_s2": 5.812,
+    "fw_rate_at_peaks": 0.088,
+    "field_distribution": {
+      "other": 0.912,
+      "human_society": 0.07,
+      "time": 0.018
+    },
+    "top_content_peaks": {
+      "tore": 2,
+      "Since": 2,
+      "equal": 1,
+      "across": 1,
+      "softly": 1,
+      "speaking": 1,
+      "sweet": 1,
+      "sets": 1,
+      "uttering": 1,
+      "wrath": 1,
+      "Greece": 1,
+      "un": 1,
+      "heavenly": 1,
+      "Pluto": 1,
+      "unt": 1
+    },
+    "top_per_field": {
+      "other": {
+        "tore": 2,
+        "Since": 2,
+        "equal": 1,
+        "across": 1,
+        "softly": 1
+      },
+      "human_society": {
+        "sweet": 1,
+        "people": 1,
+        "friend": 1,
+        "house": 1
+      },
+      "time": {
+        "days": 1
+      }
+    }
+  },
+  "prose_poetry": {
+    "n_poems": 12,
+    "total_artifact_free_tokens": 1408,
+    "n_peaks": 199,
+    "peak_rate": 0.1413,
+    "mean_peak_s2": 6.006,
+    "fw_rate_at_peaks": 0.191,
+    "field_distribution": {
+      "other": 0.874,
+      "time": 0.035,
+      "nature": 0.02,
+      "death_void": 0.02,
+      "abstract_soul": 0.015,
+      "color_light": 0.01,
+      "human_society": 0.01,
+      "motion": 0.01,
+      "body": 0.005
+    },
+    "top_content_peaks": {
+      "carried": 2,
+      "filed": 2,
+      "daily": 2,
+      "pet": 2,
+      "cushion": 2,
+      "swung": 2,
+      "bare": 2,
+      "cord": 2,
+      "indoors": 2,
+      "holding": 2,
+      "even": 2,
+      "dark": 2,
+      "voices": 2,
+      "buried": 2,
+      "returns": 2
+    },
+    "top_per_field": {
+      "other": {
+        "carried": 2,
+        "filed": 2,
+        "daily": 2,
+        "pet": 2,
+        "cushion": 2
+      },
+      "abstract_soul": {
+        "lies": 1,
+        "God": 1,
+        "fear": 1
+      },
+      "color_light": {
+        "Gold": 1,
+        "green": 1
+      },
+      "human_society": {
+        "stranger": 1,
+        "soft": 1
+      },
+      "nature": {
+        "dark": 2,
+        "leaf": 1,
+        "birds": 1
+      },
+      "time": {
+        "past": 1,
+        "evening": 1,
+        "now": 1,
+        "yet": 1,
+        "time": 1
+      },
+      "motion": {
+        "going": 1,
+        "comes": 1
+      },
+      "death_void": {
+        "buried": 2,
+        "Nothing": 1,
+        "nothing": 1
+      },
+      "body": {
+        "head": 1
+      }
+    }
+  },
+  "ballad": {
+    "n_poems": 6,
+    "total_artifact_free_tokens": 915,
+    "n_peaks": 140,
+    "peak_rate": 0.153,
+    "mean_peak_s2": 6.949,
+    "fw_rate_at_peaks": 0.114,
+    "field_distribution": {
+      "other": 0.914,
+      "human_society": 0.021,
+      "time": 0.021,
+      "color_light": 0.021,
+      "motion": 0.007,
+      "abstract_soul": 0.007,
+      "death_void": 0.007
+    },
+    "top_content_peaks": {
+      "wi": 3,
+      "guid": 3,
+      "sa": 3,
+      "dwell": 2,
+      "Well": 2,
+      "dear": 2,
+      "re": 2,
+      "cam": 2,
+      "where": 1,
+      "ha": 1,
+      "handsome": 1,
+      "mother": 1,
+      "soon": 1,
+      "hunting": 1,
+      "ald": 1
+    },
+    "top_per_field": {
+      "other": {
+        "wi": 3,
+        "guid": 3,
+        "sa": 3,
+        "dwell": 2,
+        "Well": 2
+      },
+      "human_society": {
+        "mother": 1,
+        "man": 1,
+        "rich": 1
+      },
+      "time": {
+        "soon": 1,
+        "month": 1
+      },
+      "color_light": {
+        "Scarlet": 1,
+        "green": 1,
+        "red": 1
+      },
+      "motion": {
+        "walking": 1
+      },
+      "abstract_soul": {
+        "word": 1
+      },
+      "death_void": {
+        "ashes": 1
+      }
+    }
+  },
+  "song_lyrics": {
+    "n_poems": 3,
+    "total_artifact_free_tokens": 541,
+    "n_peaks": 67,
+    "peak_rate": 0.1238,
+    "mean_peak_s2": 5.959,
+    "fw_rate_at_peaks": 0.299,
+    "field_distribution": {
+      "other": 0.821,
+      "human_society": 0.06,
+      "nature": 0.045,
+      "motion": 0.03,
+      "time": 0.015,
+      "abstract_soul": 0.015,
+      "color_light": 0.015
+    },
+    "top_content_peaks": {
+      "rolling": 2,
+      "seldom": 2,
+      "sweet": 1,
+      "lord": 1,
+      "how": 1,
+      "ore": 1,
+      "done": 1,
+      "Frank": 1,
+      "everybody": 1,
+      "spent": 1,
+      "just": 1,
+      "bucket": 1,
+      "Mr": 1,
+      "lov": 1,
+      "story": 1
+    },
+    "top_per_field": {
+      "human_society": {
+        "sweet": 1,
+        "lord": 1,
+        "home": 1,
+        "Home": 1
+      },
+      "other": {
+        "seldom": 2,
+        "how": 1,
+        "ore": 1,
+        "done": 1,
+        "Frank": 1
+      },
+      "time": {
+        "long": 1
+      },
+      "motion": {
+        "rolling": 2
+      },
+      "nature": {
+        "river": 1,
+        "water": 1,
+        "air": 1
+      },
+      "abstract_soul": {
+        "love": 1
+      },
+      "color_light": {
+        "Red": 1
+      }
+    }
+  },
+  "metaphysical": {
+    "n_poems": 4,
+    "total_artifact_free_tokens": 533,
+    "n_peaks": 78,
+    "peak_rate": 0.1463,
+    "mean_peak_s2": 5.682,
+    "fw_rate_at_peaks": 0.103,
+    "field_distribution": {
+      "other": 0.885,
+      "human_society": 0.026,
+      "nature": 0.026,
+      "abstract_soul": 0.026,
+      "death_void": 0.013,
+      "time": 0.013,
+      "body": 0.013
+    },
+    "top_content_peaks": {
+      "'s": 1,
+      "overthrow": 1,
+      "Die": 1,
+      "poor": 1,
+      "rest": 1,
+      "pictures": 1,
+      "Much": 1,
+      "Rest": 1,
+      "delivery": 1,
+      "slave": 1,
+      "chance": 1,
+      "kings": 1,
+      "desperate": 1,
+      "poison": 1,
+      "dwell": 1
+    },
+    "top_per_field": {
+      "other": {
+        "'s": 1,
+        "overthrow": 1,
+        "rest": 1,
+        "pictures": 1,
+        "Much": 1
+      },
+      "death_void": {
+        "Die": 1
+      },
+      "human_society": {
+        "poor": 1,
+        "world": 1
+      },
+      "time": {
+        "past": 1
+      },
+      "nature": {
+        "dust": 1,
+        "fruit": 1
+      },
+      "abstract_soul": {
+        "Love": 1,
+        "Truth": 1
+      },
+      "body": {
+        "blood": 1
+      }
+    }
+  },
+  "early_modern": {
+    "n_poems": 7,
+    "total_artifact_free_tokens": 1230,
+    "n_peaks": 190,
+    "peak_rate": 0.1545,
+    "mean_peak_s2": 5.953,
+    "fw_rate_at_peaks": 0.137,
+    "field_distribution": {
+      "other": 0.879,
+      "time": 0.042,
+      "human_society": 0.026,
+      "motion": 0.016,
+      "nature": 0.011,
+      "body": 0.011,
+      "abstract_soul": 0.005,
+      "death_void": 0.005,
+      "color_light": 0.005
+    },
+    "top_content_peaks": {
+      "sometime": 2,
+      "after": 2,
+      "list": 2,
+      "Home": 2,
+      "flee": 1,
+      "naked": 1,
+      "stalking": 1,
+      "gentle": 1,
+      "bread": 1,
+      "range": 1,
+      "Bus": 1,
+      "Thank": 1,
+      "ed": 1,
+      "fortune": 1,
+      "otherwise": 1
+    },
+    "top_per_field": {
+      "other": {
+        "sometime": 2,
+        "list": 2,
+        "flee": 1,
+        "naked": 1,
+        "stalking": 1
+      },
+      "time": {
+        "after": 2,
+        "long": 1,
+        "Again": 1,
+        "again": 1,
+        "last": 1
+      },
+      "human_society": {
+        "Home": 2,
+        "sweet": 1,
+        "new": 1,
+        "home": 1
+      },
+      "abstract_soul": {
+        "doubt": 1
+      },
+      "nature": {
+        "plain": 1,
+        "waves": 1
+      },
+      "death_void": {
+        "decay": 1
+      },
+      "motion": {
+        "pass": 1,
+        "move": 1,
+        "Moving": 1
+      },
+      "body": {
+        "eyes": 1,
+        "foot": 1
+      },
+      "color_light": {
+        "gold": 1
+      }
+    }
+  },
+  "spoken_word": {
+    "n_poems": 3,
+    "total_artifact_free_tokens": 286,
+    "n_peaks": 45,
+    "peak_rate": 0.1573,
+    "mean_peak_s2": 6.332,
+    "fw_rate_at_peaks": 0.133,
+    "field_distribution": {
+      "other": 0.867,
+      "motion": 0.067,
+      "human_society": 0.022,
+      "color_light": 0.022,
+      "time": 0.022
+    },
+    "top_content_peaks": {
+      "hips": 3,
+      "celebrate": 2,
+      "shaped": 1,
+      "model": 1,
+      "bab": 1,
+      "woman": 1,
+      "except": 1,
+      "arsh": 1,
+      "tight": 1,
+      "come": 1,
+      "everyday": 1,
+      "tried": 1,
+      "little": 1,
+      "pet": 1,
+      "these": 1
+    },
+    "top_per_field": {
+      "other": {
+        "hips": 3,
+        "celebrate": 2,
+        "shaped": 1,
+        "model": 1,
+        "bab": 1
+      },
+      "human_society": {
+        "woman": 1
+      },
+      "motion": {
+        "come": 1,
+        "go": 1,
+        "spin": 1
+      },
+      "color_light": {
+        "blue": 1
+      },
+      "time": {
+        "never": 1
+      }
+    }
+  },
+  "found_poetry": {
+    "n_poems": 9,
+    "total_artifact_free_tokens": 1204,
+    "n_peaks": 129,
+    "peak_rate": 0.1071,
+    "mean_peak_s2": 6.299,
+    "fw_rate_at_peaks": 0.186,
+    "field_distribution": {
+      "other": 0.938,
+      "motion": 0.023,
+      "time": 0.016,
+      "abstract_soul": 0.008,
+      "nature": 0.008,
+      "death_void": 0.008
+    },
+    "top_content_peaks": {
+      "slight": 2,
+      "van": 2,
+      "various": 2,
+      "useful": 1,
+      "Natural": 1,
+      "adapt": 1,
+      "organic": 1,
+      "given": 1,
+      "incess": 1,
+      "ready": 1,
+      "im": 1,
+      "feeble": 1,
+      "Art": 1,
+      "anity": 1,
+      "generation": 1
+    },
+    "top_per_field": {
+      "other": {
+        "slight": 2,
+        "van": 2,
+        "various": 2,
+        "useful": 1,
+        "Natural": 1
+      },
+      "abstract_soul": {
+        "Art": 1
+      },
+      "motion": {
+        "turn": 1,
+        "passing": 1,
+        "pass": 1
+      },
+      "time": {
+        "yet": 1,
+        "after": 1
+      },
+      "nature": {
+        "Wind": 1
+      },
+      "death_void": {
+        "despair": 1
+      }
+    }
+  },
+  "fixed_form": {
+    "n_poems": 8,
+    "total_artifact_free_tokens": 858,
+    "n_peaks": 142,
+    "peak_rate": 0.1655,
+    "mean_peak_s2": 6.07,
+    "fw_rate_at_peaks": 0.204,
+    "field_distribution": {
+      "other": 0.887,
+      "time": 0.035,
+      "nature": 0.028,
+      "color_light": 0.014,
+      "human_society": 0.014,
+      "abstract_soul": 0.014,
+      "motion": 0.007
+    },
+    "top_content_peaks": {
+      "serves": 2,
+      "singer": 1,
+      "Perse": 1,
+      "dim": 1,
+      "desolate": 1,
+      "Sicily": 1,
+      "bee": 1,
+      "Am": 1,
+      "state": 1,
+      "ima": 1,
+      "laughing": 1,
+      "Poor": 1,
+      "away": 1,
+      "still": 1,
+      "Through": 1
+    },
+    "top_per_field": {
+      "other": {
+        "serves": 2,
+        "singer": 1,
+        "Perse": 1,
+        "desolate": 1,
+        "Sicily": 1
+      },
+      "color_light": {
+        "dim": 1,
+        "gray": 1
+      },
+      "human_society": {
+        "Poor": 1,
+        "woman": 1
+      },
+      "time": {
+        "still": 1,
+        "Yet": 1,
+        "now": 1,
+        "after": 1
+      },
+      "abstract_soul": {
+        "song": 1,
+        "thought": 1
+      },
+      "nature": {
+        "day": 1,
+        "leaves": 1,
+        "river": 1,
+        "grass": 1
+      },
+      "motion": {
+        "passing": 1
+      }
+    }
+  },
+  "cliche_control": {
+    "n_poems": 4,
+    "total_artifact_free_tokens": 489,
+    "n_peaks": 53,
+    "peak_rate": 0.1084,
+    "mean_peak_s2": 5.687,
+    "fw_rate_at_peaks": 0.094,
+    "field_distribution": {
+      "other": 0.736,
+      "nature": 0.113,
+      "motion": 0.057,
+      "abstract_soul": 0.057,
+      "human_society": 0.038
+    },
+    "top_content_peaks": {
+      "day": 2,
+      "life": 2,
+      "hills": 1,
+      "come": 1,
+      "challenge": 1,
+      "every": 1,
+      "sleep": 1,
+      "drought": 1,
+      "brighter": 1,
+      "burns": 1,
+      "night": 1,
+      "only": 1,
+      "here": 1,
+      "surely": 1,
+      "apple": 1
+    },
+    "top_per_field": {
+      "nature": {
+        "day": 2,
+        "hills": 1,
+        "night": 1,
+        "leaves": 1,
+        "cloud": 1
+      },
+      "motion": {
+        "come": 1,
+        "return": 1,
+        "running": 1
+      },
+      "other": {
+        "challenge": 1,
+        "every": 1,
+        "sleep": 1,
+        "drought": 1,
+        "brighter": 1
+      },
+      "abstract_soul": {
+        "life": 2,
+        "words": 1
+      },
+      "human_society": {
+        "good": 1,
+        "New": 1
+      }
+    }
+  },
+  "18th_century": {
+    "n_poems": 8,
+    "total_artifact_free_tokens": 1435,
+    "n_peaks": 238,
+    "peak_rate": 0.1659,
+    "mean_peak_s2": 6.225,
+    "fw_rate_at_peaks": 0.076,
+    "field_distribution": {
+      "other": 0.929,
+      "nature": 0.025,
+      "abstract_soul": 0.017,
+      "human_society": 0.013,
+      "time": 0.008,
+      "motion": 0.004,
+      "body": 0.004
+    },
+    "top_content_peaks": {
+      "Cat": 2,
+      "Je": 2,
+      "off": 2,
+      "ry": 2,
+      "duly": 2,
+      "wors": 2,
+      "seven": 2,
+      "elegant": 2,
+      "quick": 2,
+      "leaps": 2,
+      "catch": 2,
+      "mus": 2,
+      "prayer": 2,
+      "rolls": 2,
+      "prank": 2
+    },
+    "top_per_field": {
+      "other": {
+        "Cat": 2,
+        "Je": 2,
+        "off": 2,
+        "ry": 2,
+        "duly": 2
+      },
+      "nature": {
+        "wood": 2,
+        "star": 1,
+        "Fire": 1,
+        "Garden": 1,
+        "air": 1
+      },
+      "abstract_soul": {
+        "mercy": 1,
+        "alone": 1,
+        "Life": 1,
+        "hope": 1
+      },
+      "time": {
+        "Once": 1,
+        "once": 1
+      },
+      "human_society": {
+        "good": 1,
+        "living": 1,
+        "young": 1
+      },
+      "motion": {
+        "flow": 1
+      },
+      "body": {
+        "Eye": 1
+      }
+    }
+  },
+  "biblical": {
+    "n_poems": 8,
+    "total_artifact_free_tokens": 1331,
+    "n_peaks": 170,
+    "peak_rate": 0.1277,
+    "mean_peak_s2": 5.706,
+    "fw_rate_at_peaks": 0.212,
+    "field_distribution": {
+      "other": 0.888,
+      "abstract_soul": 0.029,
+      "human_society": 0.018,
+      "motion": 0.018,
+      "nature": 0.018,
+      "color_light": 0.012,
+      "body": 0.012,
+      "time": 0.006
+    },
+    "top_content_peaks": {
+      "unto": 4,
+      "thereof": 3,
+      "mine": 2,
+      "Israel": 2,
+      "upon": 2,
+      "sat": 2,
+      "his": 2,
+      "faint": 2,
+      "Even": 2,
+      "remembered": 2,
+      "stretched": 2,
+      "great": 2,
+      "heritage": 2,
+      "LORD": 1,
+      "green": 1
+    },
+    "top_per_field": {
+      "human_society": {
+        "great": 2,
+        "LORD": 1
+      },
+      "color_light": {
+        "green": 1,
+        "Red": 1
+      },
+      "other": {
+        "unto": 4,
+        "thereof": 3,
+        "mine": 2,
+        "Israel": 2,
+        "upon": 2
+      },
+      "time": {
+        "still": 1
+      },
+      "abstract_soul": {
+        "fear": 1,
+        "love": 1,
+        "God": 1,
+        "wisdom": 1
+      },
+      "motion": {
+        "run": 1,
+        "coming": 1,
+        "going": 1
+      },
+      "body": {
+        "foot": 1,
+        "flesh": 1
+      },
+      "nature": {
+        "sun": 1,
+        "rose": 1,
+        "sea": 1
+      }
+    }
+  },
+  "concrete": {
+    "n_poems": 4,
+    "total_artifact_free_tokens": 286,
+    "n_peaks": 36,
+    "peak_rate": 0.1259,
+    "mean_peak_s2": 6.981,
+    "fw_rate_at_peaks": 0.222,
+    "field_distribution": {
+      "other": 0.917,
+      "time": 0.056,
+      "nature": 0.028
+    },
+    "top_content_peaks": {
+      "spacious": 2,
+      "throb": 2,
+      "Watch": 2,
+      "sil": 1,
+      "le": 1,
+      "iness": 1,
+      "skies": 1,
+      "sp": 1,
+      "sk": 1,
+      "invented": 1,
+      "rain": 1,
+      "Th": 1,
+      "discovered": 1,
+      "once": 1,
+      "behind": 1
+    },
+    "top_per_field": {
+      "other": {
+        "spacious": 2,
+        "throb": 2,
+        "Watch": 2,
+        "sil": 1,
+        "le": 1
+      },
+      "nature": {
+        "rain": 1
+      },
+      "time": {
+        "once": 1,
+        "before": 1
+      }
+    }
+  },
+  "latin_american": {
+    "n_poems": 4,
+    "total_artifact_free_tokens": 461,
+    "n_peaks": 72,
+    "peak_rate": 0.1562,
+    "mean_peak_s2": 6.136,
+    "fw_rate_at_peaks": 0.069,
+    "field_distribution": {
+      "other": 0.778,
+      "nature": 0.069,
+      "body": 0.056,
+      "time": 0.042,
+      "color_light": 0.028,
+      "human_society": 0.014,
+      "abstract_soul": 0.014
+    },
+    "top_content_peaks": {
+      "wind": 2,
+      "today": 2,
+      "bones": 2,
+      "two": 2,
+      "write": 1,
+      "sadd": 1,
+      "star": 1,
+      "revolves": 1,
+      "loved": 1,
+      "sometimes": 1,
+      "Through": 1,
+      "nights": 1,
+      "held": 1,
+      "under": 1,
+      "endless": 1
+    },
+    "top_per_field": {
+      "other": {
+        "today": 2,
+        "two": 2,
+        "write": 1,
+        "sadd": 1,
+        "revolves": 1
+      },
+      "nature": {
+        "wind": 2,
+        "star": 1,
+        "autumn": 1,
+        "sea": 1
+      },
+      "time": {
+        "nights": 1,
+        "still": 1,
+        "already": 1
+      },
+      "human_society": {
+        "great": 1
+      },
+      "body": {
+        "bones": 2,
+        "eyes": 1,
+        "flesh": 1
+      },
+      "color_light": {
+        "green": 1,
+        "golden": 1
+      },
+      "abstract_soul": {
+        "dreams": 1
+      }
+    }
+  },
+  "imagist": {
+    "n_poems": 5,
+    "total_artifact_free_tokens": 321,
+    "n_peaks": 57,
+    "peak_rate": 0.1776,
+    "mean_peak_s2": 5.631,
+    "fw_rate_at_peaks": 0.088,
+    "field_distribution": {
+      "other": 0.895,
+      "motion": 0.035,
+      "death_void": 0.018,
+      "body": 0.018,
+      "nature": 0.018,
+      "human_society": 0.018
+    },
+    "top_content_peaks": {
+      "away": 1,
+      "beats": 1,
+      "dead": 1,
+      "slack": 1,
+      "against": 1,
+      "ut": 1,
+      "ted": 1,
+      "rid": 1,
+      "Stre": 1,
+      "coming": 1,
+      "fast": 1,
+      "lamps": 1,
+      "prick": 1,
+      "wound": 1,
+      "upon": 1
+    },
+    "top_per_field": {
+      "other": {
+        "away": 1,
+        "beats": 1,
+        "slack": 1,
+        "against": 1,
+        "ut": 1
+      },
+      "death_void": {
+        "dead": 1
+      },
+      "motion": {
+        "coming": 1,
+        "passing": 1
+      },
+      "body": {
+        "wound": 1
+      },
+      "nature": {
+        "garden": 1
+      },
+      "human_society": {
+        "silent": 1
+      }
+    }
+  },
+  "german_expressionist": {
+    "n_poems": 4,
+    "total_artifact_free_tokens": 498,
+    "n_peaks": 99,
+    "peak_rate": 0.1988,
+    "mean_peak_s2": 5.949,
+    "fw_rate_at_peaks": 0.141,
+    "field_distribution": {
+      "other": 0.838,
+      "body": 0.051,
+      "motion": 0.04,
+      "time": 0.02,
+      "nature": 0.02,
+      "abstract_soul": 0.01,
+      "death_void": 0.01,
+      "human_society": 0.01
+    },
+    "top_content_peaks": {
+      "aster": 2,
+      "mush": 1,
+      "womb": 1,
+      "Clean": 1,
+      "flesh": 1,
+      "bone": 1,
+      "waits": 1,
+      "battle": 1,
+      "spine": 1,
+      "ent": 1,
+      "drained": 1,
+      "accepts": 1,
+      "test": 1,
+      "thigh": 1,
+      "note": 1
+    },
+    "top_per_field": {
+      "other": {
+        "aster": 2,
+        "mush": 1,
+        "womb": 1,
+        "Clean": 1,
+        "waits": 1
+      },
+      "body": {
+        "flesh": 1,
+        "bone": 1,
+        "spine": 1,
+        "belly": 1,
+        "hair": 1
+      },
+      "motion": {
+        "run": 1,
+        "Move": 1,
+        "flow": 1,
+        "stand": 1
+      },
+      "abstract_soul": {
+        "lie": 1
+      },
+      "death_void": {
+        "empty": 1
+      },
+      "time": {
+        "evening": 1,
+        "again": 1
+      },
+      "nature": {
+        "darkness": 1,
+        "fog": 1
+      },
+      "human_society": {
+        "home": 1
+      }
+    }
+  },
+  "parody_original": {
+    "n_poems": 3,
+    "total_artifact_free_tokens": 443,
+    "n_peaks": 66,
+    "peak_rate": 0.149,
+    "mean_peak_s2": 5.449,
+    "fw_rate_at_peaks": 0.197,
+    "field_distribution": {
+      "other": 0.833,
+      "human_society": 0.045,
+      "color_light": 0.03,
+      "abstract_soul": 0.03,
+      "time": 0.015,
+      "nature": 0.015,
+      "motion": 0.015,
+      "death_void": 0.015
+    },
+    "top_content_peaks": {
+      "cheerful": 2,
+      "busy": 1,
+      "each": 1,
+      "shining": 1,
+      "sk": 1,
+      "fully": 1,
+      "lab": 1,
+      "store": 1,
+      "works": 1,
+      "Satan": 1,
+      "still": 1,
+      "old": 1,
+      "Father": 1,
+      "William": 1,
+      "cried": 1
+    },
+    "top_per_field": {
+      "other": {
+        "cheerful": 2,
+        "busy": 1,
+        "each": 1,
+        "sk": 1,
+        "fully": 1
+      },
+      "color_light": {
+        "shining": 1,
+        "grey": 1
+      },
+      "time": {
+        "still": 1
+      },
+      "human_society": {
+        "old": 1,
+        "Father": 1,
+        "young": 1
+      },
+      "nature": {
+        "fly": 1
+      },
+      "motion": {
+        "pass": 1
+      },
+      "abstract_soul": {
+        "life": 1,
+        "God": 1
+      },
+      "death_void": {
+        "death": 1
+      }
+    }
+  },
+  "parody": {
+    "n_poems": 4,
+    "total_artifact_free_tokens": 669,
+    "n_peaks": 104,
+    "peak_rate": 0.1555,
+    "mean_peak_s2": 5.931,
+    "fw_rate_at_peaks": 0.163,
+    "field_distribution": {
+      "other": 0.952,
+      "color_light": 0.029,
+      "human_society": 0.019
+    },
+    "top_content_peaks": {
+      "every": 1,
+      "cheer": 1,
+      "spreads": 1,
+      "little": 1,
+      "gently": 1,
+      "old": 1,
+      "Father": 1,
+      "William": 1,
+      "incess": 1,
+      "replied": 1,
+      "feared": 1,
+      "injure": 1,
+      "perfectly": 1,
+      "none": 1,
+      "said": 1
+    },
+    "top_per_field": {
+      "other": {
+        "every": 1,
+        "cheer": 1,
+        "spreads": 1,
+        "little": 1,
+        "gently": 1
+      },
+      "human_society": {
+        "old": 1,
+        "Father": 1
+      },
+      "color_light": {
+        "grey": 1,
+        "brown": 1,
+        "white": 1
+      }
+    }
+  },
+  "classical_chinese": {
+    "n_poems": 4,
+    "total_artifact_free_tokens": 238,
+    "n_peaks": 34,
+    "peak_rate": 0.1429,
+    "mean_peak_s2": 6.464,
+    "fw_rate_at_peaks": 0.059,
+    "field_distribution": {
+      "other": 0.676,
+      "nature": 0.118,
+      "color_light": 0.059,
+      "motion": 0.059,
+      "body": 0.029,
+      "time": 0.029,
+      "human_society": 0.029
+    },
+    "top_content_peaks": {
+      "broken": 1,
+      "mountains": 1,
+      "wall": 1,
+      "shed": 1,
+      "tears": 1,
+      "parting": 1,
+      "worth": 1,
+      "scratched": 1,
+      "ever": 1,
+      "shorter": 1,
+      "bright": 1,
+      "frost": 1,
+      "raise": 1,
+      "lower": 1,
+      "home": 1
+    },
+    "top_per_field": {
+      "other": {
+        "broken": 1,
+        "wall": 1,
+        "shed": 1,
+        "parting": 1,
+        "worth": 1
+      },
+      "nature": {
+        "mountains": 1,
+        "mountain": 1,
+        "light": 1,
+        "Mist": 1
+      },
+      "body": {
+        "tears": 1
+      },
+      "time": {
+        "ever": 1
+      },
+      "color_light": {
+        "bright": 1,
+        "Yellow": 1
+      },
+      "human_society": {
+        "home": 1
+      },
+      "motion": {
+        "Return": 1,
+        "drift": 1
+      }
+    }
+  },
+  "limerick": {
+    "n_poems": 10,
+    "total_artifact_free_tokens": 426,
+    "n_peaks": 58,
+    "peak_rate": 0.1362,
+    "mean_peak_s2": 6.06,
+    "fw_rate_at_peaks": 0.172,
+    "field_distribution": {
+      "other": 0.966,
+      "color_light": 0.017,
+      "human_society": 0.017
+    },
+    "top_content_peaks": {
+      "tutor": 2,
+      "feared": 1,
+      "Ow": 1,
+      "Hen": 1,
+      "built": 1,
+      "Bright": 1,
+      "relative": 1,
+      "eating": 1,
+      "shoe": 1,
+      "oted": 1,
+      "oters": 1,
+      "harder": 1,
+      "fle": 1,
+      "imprisoned": 1,
+      "flaw": 1
+    },
+    "top_per_field": {
+      "other": {
+        "tutor": 2,
+        "feared": 1,
+        "Ow": 1,
+        "Hen": 1,
+        "built": 1
+      },
+      "color_light": {
+        "Bright": 1
+      },
+      "human_society": {
+        "Young": 1
+      }
+    }
+  },
+  "old_english": {
+    "n_poems": 5,
+    "total_artifact_free_tokens": 629,
+    "n_peaks": 106,
+    "peak_rate": 0.1685,
+    "mean_peak_s2": 6.292,
+    "fw_rate_at_peaks": 0.113,
+    "field_distribution": {
+      "other": 0.858,
+      "human_society": 0.047,
+      "abstract_soul": 0.028,
+      "nature": 0.028,
+      "time": 0.019,
+      "death_void": 0.009,
+      "color_light": 0.009
+    },
+    "top_content_peaks": {
+      "praise": 2,
+      "point": 2,
+      "Gl": 1,
+      "Eternal": 1,
+      "established": 1,
+      "each": 1,
+      "wonder": 1,
+      "Guardian": 1,
+      "adorned": 1,
+      "middle": 1,
+      "below": 1,
+      "Almighty": 1,
+      "solitary": 1,
+      "grace": 1,
+      "although": 1
+    },
+    "top_per_field": {
+      "other": {
+        "praise": 2,
+        "point": 2,
+        "Gl": 1,
+        "established": 1,
+        "each": 1
+      },
+      "time": {
+        "Eternal": 1,
+        "days": 1
+      },
+      "abstract_soul": {
+        "wonder": 1,
+        "grace": 1,
+        "mind": 1
+      },
+      "nature": {
+        "earth": 1,
+        "sea": 1,
+        "Sea": 1
+      },
+      "human_society": {
+        "people": 1,
+        "friend": 1,
+        "house": 1,
+        "men": 1,
+        "man": 1
+      },
+      "death_void": {
+        "ash": 1
+      },
+      "color_light": {
+        "red": 1
+      }
+    }
+  },
+  "war_poetry": {
+    "n_poems": 3,
+    "total_artifact_free_tokens": 639,
+    "n_peaks": 101,
+    "peak_rate": 0.1581,
+    "mean_peak_s2": 5.963,
+    "fw_rate_at_peaks": 0.119,
+    "field_distribution": {
+      "other": 0.871,
+      "abstract_soul": 0.03,
+      "human_society": 0.02,
+      "motion": 0.02,
+      "time": 0.02,
+      "nature": 0.02,
+      "color_light": 0.01,
+      "body": 0.01
+    },
+    "top_content_peaks": {
+      "dreams": 2,
+      "England": 2,
+      "double": 1,
+      "begg": 1,
+      "under": 1,
+      "sacks": 1,
+      "coughing": 1,
+      "through": 1,
+      "haunting": 1,
+      "flares": 1,
+      "towards": 1,
+      "began": 1,
+      "Men": 1,
+      "asleep": 1,
+      "lim": 1
+    },
+    "top_per_field": {
+      "other": {
+        "England": 2,
+        "double": 1,
+        "begg": 1,
+        "under": 1,
+        "sacks": 1
+      },
+      "human_society": {
+        "Men": 1,
+        "bitter": 1
+      },
+      "abstract_soul": {
+        "dreams": 2,
+        "Lie": 1
+      },
+      "motion": {
+        "Come": 1,
+        "passing": 1
+      },
+      "time": {
+        "now": 1,
+        "dusk": 1
+      },
+      "color_light": {
+        "shine": 1
+      },
+      "nature": {
+        "dust": 1,
+        "sun": 1
+      },
+      "body": {
+        "back": 1
+      }
+    }
+  },
+  "postcolonial": {
+    "n_poems": 6,
+    "total_artifact_free_tokens": 989,
+    "n_peaks": 156,
+    "peak_rate": 0.1577,
+    "mean_peak_s2": 6.59,
+    "fw_rate_at_peaks": 0.135,
+    "field_distribution": {
+      "other": 0.859,
+      "nature": 0.071,
+      "color_light": 0.019,
+      "time": 0.019,
+      "death_void": 0.013,
+      "human_society": 0.013,
+      "abstract_soul": 0.006
+    },
+    "top_content_peaks": {
+      "each": 2,
+      "Remember": 2,
+      "earth": 2,
+      "sand": 2,
+      "air": 2,
+      "Gu": 2,
+      "both": 2,
+      "even": 2,
+      "under": 1,
+      "strong": 1,
+      "sund": 1,
+      "giving": 1,
+      "away": 1,
+      "struggled": 1,
+      "form": 1
+    },
+    "top_per_field": {
+      "other": {
+        "each": 2,
+        "Remember": 2,
+        "Gu": 2,
+        "both": 2,
+        "even": 2
+      },
+      "color_light": {
+        "red": 1,
+        "brown": 1,
+        "black": 1
+      },
+      "nature": {
+        "earth": 2,
+        "sand": 2,
+        "air": 2,
+        "summer": 1,
+        "birds": 1
+      },
+      "time": {
+        "season": 1,
+        "Now": 1,
+        "morning": 1
+      },
+      "death_void": {
+        "nothing": 1,
+        "grief": 1
+      },
+      "abstract_soul": {
+        "love": 1
+      },
+      "human_society": {
+        "house": 1,
+        "Enemy": 1
+      }
+    }
+  },
+  "dramatic_monologue": {
+    "n_poems": 7,
+    "total_artifact_free_tokens": 2568,
+    "n_peaks": 411,
+    "peak_rate": 0.16,
+    "mean_peak_s2": 6.074,
+    "fw_rate_at_peaks": 0.119,
+    "field_distribution": {
+      "other": 0.893,
+      "time": 0.032,
+      "abstract_soul": 0.017,
+      "human_society": 0.017,
+      "nature": 0.015,
+      "death_void": 0.012,
+      "motion": 0.007,
+      "body": 0.005,
+      "color_light": 0.002
+    },
+    "top_content_peaks": {
+      "Duchess": 2,
+      "Fra": 2,
+      "'t": 2,
+      "none": 2,
+      "alike": 2,
+      "sto": 2,
+      "self": 2,
+      "his": 2,
+      "mine": 2,
+      "God": 2,
+      "beside": 2,
+      "thence": 2,
+      "Hours": 2,
+      "seems": 2,
+      "fought": 2
+    },
+    "top_per_field": {
+      "other": {
+        "Duchess": 2,
+        "Fra": 2,
+        "'t": 2,
+        "none": 2,
+        "alike": 2
+      },
+      "time": {
+        "Hours": 2,
+        "now": 2,
+        "already": 2,
+        "never": 1,
+        "once": 1
+      },
+      "abstract_soul": {
+        "God": 2,
+        "hope": 1,
+        "thought": 1,
+        "Life": 1,
+        "Love": 1
+      },
+      "human_society": {
+        "men": 1,
+        "Brother": 1,
+        "new": 1,
+        "Old": 1,
+        "Peace": 1
+      },
+      "motion": {
+        "rise": 1,
+        "go": 1,
+        "turn": 1
+      },
+      "nature": {
+        "rose": 1,
+        "oak": 1,
+        "woods": 1,
+        "rain": 1,
+        "flies": 1
+      },
+      "death_void": {
+        "tomb": 1,
+        "lost": 1,
+        "gone": 1,
+        "decay": 1,
+        "dying": 1
+      },
+      "color_light": {
+        "blue": 1
+      },
+      "body": {
+        "knee": 1,
+        "hair": 1
+      }
+    }
+  },
+  "elegy": {
+    "n_poems": 8,
+    "total_artifact_free_tokens": 1255,
+    "n_peaks": 200,
+    "peak_rate": 0.1594,
+    "mean_peak_s2": 6.105,
+    "fw_rate_at_peaks": 0.1,
+    "field_distribution": {
+      "other": 0.8,
+      "time": 0.04,
+      "human_society": 0.04,
+      "nature": 0.03,
+      "body": 0.03,
+      "abstract_soul": 0.03,
+      "death_void": 0.015,
+      "motion": 0.01,
+      "color_light": 0.005
+    },
+    "top_content_peaks": {
+      "sorrow": 2,
+      "though": 2,
+      "beneath": 2,
+      "curfew": 1,
+      "toll": 1,
+      "kn": 1,
+      "ell": 1,
+      "parting": 1,
+      "day": 1,
+      "herd": 1,
+      "wind": 1,
+      "hom": 1,
+      "ods": 1,
+      "fades": 1,
+      "sight": 1
+    },
+    "top_per_field": {
+      "other": {
+        "though": 2,
+        "beneath": 2,
+        "curfew": 1,
+        "toll": 1,
+        "kn": 1
+      },
+      "nature": {
+        "day": 1,
+        "wind": 1,
+        "Dark": 1,
+        "fields": 1,
+        "stars": 1
+      },
+      "color_light": {
+        "brown": 1
+      },
+      "time": {
+        "never": 1,
+        "once": 1,
+        "Hour": 1,
+        "years": 1,
+        "Future": 1
+      },
+      "human_society": {
+        "Young": 1,
+        "house": 1,
+        "cold": 1,
+        "Man": 1,
+        "father": 1
+      },
+      "body": {
+        "tear": 1,
+        "eyes": 1,
+        "heart": 1,
+        "arm": 1,
+        "shoulder": 1
+      },
+      "death_void": {
+        "fall": 1,
+        "Fall": 1,
+        "grief": 1
+      },
+      "abstract_soul": {
+        "sorrow": 2,
+        "hope": 1,
+        "envy": 1,
+        "lie": 1,
+        "word": 1
+      },
+      "motion": {
+        "rise": 1,
+        "turning": 1
+      }
+    }
+  },
+  "clerihew": {
+    "n_poems": 10,
+    "total_artifact_free_tokens": 232,
+    "n_peaks": 59,
+    "peak_rate": 0.2543,
+    "mean_peak_s2": 6.832,
+    "fw_rate_at_peaks": 0.051,
+    "field_distribution": {
+      "other": 0.949,
+      "death_void": 0.017,
+      "time": 0.017,
+      "motion": 0.017
+    },
+    "top_content_peaks": {
+      "Humph": 1,
+      "Dav": 1,
+      "ominated": 1,
+      "gravy": 1,
+      "od": 1,
+      "sodium": 1,
+      "Bi": 1,
+      "different": 1,
+      "ch": 1,
+      "scar": 1,
+      "mild": 1,
+      "ep": 1,
+      "Mew": 1,
+      "wrote": 1,
+      "Bride": 1
+    },
+    "top_per_field": {
+      "other": {
+        "Humph": 1,
+        "Dav": 1,
+        "ominated": 1,
+        "gravy": 1,
+        "od": 1
+      },
+      "death_void": {
+        "died": 1
+      },
+      "time": {
+        "never": 1
+      },
+      "motion": {
+        "roll": 1
+      }
+    }
+  },
+  "double_dactyl": {
+    "n_poems": 5,
+    "total_artifact_free_tokens": 248,
+    "n_peaks": 30,
+    "peak_rate": 0.121,
+    "mean_peak_s2": 5.982,
+    "fw_rate_at_peaks": 0.1,
+    "field_distribution": {
+      "other": 0.933,
+      "human_society": 0.033,
+      "abstract_soul": 0.033
+    },
+    "top_content_peaks": {
+      "ressed": 1,
+      "rh": 1,
+      "Man": 1,
+      "Hopkins": 1,
+      "meter": 1,
+      "Strange": 1,
+      "ang": 1,
+      "love": 1,
+      "ologically": 1,
+      "Arthur": 1,
+      "iac": 1,
+      "Doctor": 1,
+      "ideas": 1,
+      "particular": 1,
+      "ient": 1
+    },
+    "top_per_field": {
+      "other": {
+        "ressed": 1,
+        "rh": 1,
+        "Hopkins": 1,
+        "meter": 1,
+        "Strange": 1
+      },
+      "human_society": {
+        "Man": 1
+      },
+      "abstract_soul": {
+        "love": 1
+      }
+    }
+  },
+  "ekphrastic": {
+    "n_poems": 8,
+    "total_artifact_free_tokens": 1901,
+    "n_peaks": 301,
+    "peak_rate": 0.1583,
+    "mean_peak_s2": 5.774,
+    "fw_rate_at_peaks": 0.113,
+    "field_distribution": {
+      "other": 0.86,
+      "abstract_soul": 0.04,
+      "time": 0.03,
+      "human_society": 0.023,
+      "nature": 0.02,
+      "motion": 0.013,
+      "color_light": 0.01,
+      "death_void": 0.003
+    },
+    "top_content_peaks": {
+      ",\u2014": 4,
+      "pipes": 3,
+      "soft": 2,
+      "'s": 2,
+      "'d": 2,
+      "sur": 2,
+      "thro": 2,
+      "Love": 2,
+      "still": 1,
+      "rav": 1,
+      "ish": 1,
+      "bride": 1,
+      "quiet": 1,
+      "foster": 1,
+      "historian": 1
+    },
+    "top_per_field": {
+      "time": {
+        "still": 1,
+        "eternity": 1,
+        "Past": 1,
+        "dusk": 1,
+        "past": 1
+      },
+      "other": {
+        ",\u2014": 4,
+        "pipes": 3,
+        "'s": 2,
+        "'d": 2,
+        "sur": 2
+      },
+      "nature": {
+        "leaf": 1,
+        "shore": 1,
+        "star": 1,
+        "Snow": 1,
+        "day": 1
+      },
+      "human_society": {
+        "soft": 2,
+        "Cold": 1,
+        "poor": 1,
+        "brother": 1,
+        "friend": 1
+      },
+      "death_void": {
+        "end": 1
+      },
+      "motion": {
+        "coming": 1,
+        "moving": 1,
+        "Pass": 1,
+        "turn": 1
+      },
+      "abstract_soul": {
+        "Love": 2,
+        "thought": 1,
+        "beauty": 1,
+        "lie": 1,
+        "lies": 1
+      },
+      "color_light": {
+        "dim": 1,
+        "gray": 1,
+        "White": 1
+      }
+    }
+  },
+  "villanelle": {
+    "n_poems": 3,
+    "total_artifact_free_tokens": 436,
+    "n_peaks": 66,
+    "peak_rate": 0.1514,
+    "mean_peak_s2": 5.977,
+    "fw_rate_at_peaks": 0.167,
+    "field_distribution": {
+      "other": 0.818,
+      "time": 0.061,
+      "nature": 0.045,
+      "death_void": 0.03,
+      "color_light": 0.015,
+      "human_society": 0.015,
+      "abstract_soul": 0.015
+    },
+    "top_content_peaks": {
+      "away": 1,
+      "still": 1,
+      "Through": 1,
+      "broken": 1,
+      "gray": 1,
+      "bleak": 1,
+      "shr": 1,
+      "Nor": 1,
+      "stray": 1,
+      "sunk": 1,
+      "sill": 1,
+      "fancy": 1,
+      "skill": 1,
+      "ruin": 1,
+      "woman": 1
+    },
+    "top_per_field": {
+      "other": {
+        "away": 1,
+        "Through": 1,
+        "broken": 1,
+        "bleak": 1,
+        "shr": 1
+      },
+      "time": {
+        "still": 1,
+        "Yet": 1,
+        "never": 1
+      },
+      "color_light": {
+        "gray": 1
+      },
+      "death_void": {
+        "ruin": 1,
+        "ghost": 1
+      },
+      "human_society": {
+        "woman": 1
+      },
+      "abstract_soul": {
+        "song": 1
+      },
+      "nature": {
+        "day": 1,
+        "leaves": 1,
+        "moon": 1
+      }
+    }
+  }
+}
