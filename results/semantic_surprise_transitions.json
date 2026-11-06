@@ -1,0 +1,1530 @@
+{
+  "n_events": 10721,
+  "transition_counts": {
+    "same": 3220,
+    "function/grammar \u2192 other": 3045,
+    "function/grammar \u2192 proper noun": 514,
+    "function/grammar \u2192 verbal": 414,
+    "other \u2192 function/grammar": 308,
+    "other \u2192 verbal": 221,
+    "concrete noun \u2192 other": 210,
+    "function/grammar \u2192 spatial/motion": 199,
+    "other \u2192 proper noun": 198,
+    "proper noun \u2192 other": 198,
+    "spatial/motion \u2192 other": 185,
+    "function/grammar \u2192 temporal": 163,
+    "temporal \u2192 other": 125,
+    "function/grammar \u2192 punctuation/numeral": 117,
+    "function/grammar \u2192 concrete noun": 114,
+    "verbal \u2192 other": 106,
+    "function/grammar \u2192 emotional/psychological": 96,
+    "emotional/psychological \u2192 other": 95,
+    "spatial/motion \u2192 function/grammar": 88,
+    "function/grammar \u2192 adverbial": 85,
+    "other \u2192 concrete noun": 82,
+    "function/grammar \u2192 abstract noun": 81,
+    "proper noun \u2192 function/grammar": 69,
+    "abstract noun \u2192 other": 69,
+    "other \u2192 temporal": 62,
+    "other \u2192 spatial/motion": 54,
+    "other \u2192 emotional/psychological": 41,
+    "concrete noun \u2192 proper noun": 33,
+    "other \u2192 abstract noun": 31,
+    "other \u2192 punctuation/numeral": 29
+  },
+  "era_profiles": {
+    "romantic": {
+      "emotional/psychological": 23,
+      "concrete noun": 9,
+      "abstract noun": 11,
+      "spatial/motion": 21,
+      "other": 492,
+      "adverbial": 3
+    },
+    "19th_century": {
+      "emotional/psychological": 7,
+      "concrete noun": 8,
+      "abstract noun": 6,
+      "spatial/motion": 15,
+      "other": 371,
+      "adverbial": 17
+    },
+    "modernist": {
+      "emotional/psychological": 11,
+      "concrete noun": 24,
+      "abstract noun": 6,
+      "spatial/motion": 17,
+      "other": 356,
+      "adverbial": 7
+    },
+    "beat": {
+      "emotional/psychological": 3,
+      "concrete noun": 3,
+      "abstract noun": 4,
+      "spatial/motion": 6,
+      "other": 99,
+      "adverbial": 0
+    },
+    "confessional": {
+      "emotional/psychological": 0,
+      "concrete noun": 3,
+      "abstract noun": 1,
+      "spatial/motion": 2,
+      "other": 51,
+      "adverbial": 0
+    },
+    "mid_century": {
+      "emotional/psychological": 0,
+      "concrete noun": 5,
+      "abstract noun": 1,
+      "spatial/motion": 2,
+      "other": 74,
+      "adverbial": 2
+    },
+    "new_york_school": {
+      "emotional/psychological": 11,
+      "concrete noun": 11,
+      "abstract noun": 6,
+      "spatial/motion": 15,
+      "other": 255,
+      "adverbial": 11
+    },
+    "language": {
+      "emotional/psychological": 0,
+      "concrete noun": 2,
+      "abstract noun": 4,
+      "spatial/motion": 1,
+      "other": 45,
+      "adverbial": 1
+    },
+    "contemporary": {
+      "emotional/psychological": 10,
+      "concrete noun": 16,
+      "abstract noun": 8,
+      "spatial/motion": 16,
+      "other": 331,
+      "adverbial": 11
+    },
+    "harlem_renaissance": {
+      "emotional/psychological": 1,
+      "concrete noun": 3,
+      "abstract noun": 2,
+      "spatial/motion": 4,
+      "other": 102,
+      "adverbial": 2
+    },
+    "oulipo": {
+      "emotional/psychological": 4,
+      "concrete noun": 2,
+      "abstract noun": 4,
+      "spatial/motion": 6,
+      "other": 144,
+      "adverbial": 2
+    },
+    "surrealist": {
+      "emotional/psychological": 6,
+      "concrete noun": 15,
+      "abstract noun": 3,
+      "spatial/motion": 7,
+      "other": 122,
+      "adverbial": 2
+    },
+    "german_symbolist": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 0,
+      "other": 84,
+      "adverbial": 0
+    },
+    "german_expressionist": {
+      "emotional/psychological": 0,
+      "concrete noun": 5,
+      "abstract noun": 1,
+      "spatial/motion": 6,
+      "other": 111,
+      "adverbial": 1
+    },
+    "german_modernist": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 0,
+      "other": 45,
+      "adverbial": 0
+    },
+    "victorian": {
+      "emotional/psychological": 13,
+      "concrete noun": 28,
+      "abstract noun": 16,
+      "spatial/motion": 36,
+      "other": 682,
+      "adverbial": 11
+    },
+    "haiku": {
+      "emotional/psychological": 1,
+      "concrete noun": 6,
+      "abstract noun": 4,
+      "spatial/motion": 1,
+      "other": 40,
+      "adverbial": 2
+    },
+    "ancient": {
+      "emotional/psychological": 1,
+      "concrete noun": 1,
+      "abstract noun": 2,
+      "spatial/motion": 1,
+      "other": 48,
+      "adverbial": 2
+    },
+    "prose_poetry": {
+      "emotional/psychological": 7,
+      "concrete noun": 7,
+      "abstract noun": 4,
+      "spatial/motion": 10,
+      "other": 128,
+      "adverbial": 7
+    },
+    "ballad": {
+      "emotional/psychological": 1,
+      "concrete noun": 2,
+      "abstract noun": 1,
+      "spatial/motion": 3,
+      "other": 108,
+      "adverbial": 3
+    },
+    "song_lyrics": {
+      "emotional/psychological": 2,
+      "concrete noun": 2,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 35,
+      "adverbial": 1
+    },
+    "nursery_rhyme": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 1,
+      "spatial/motion": 0,
+      "other": 17,
+      "adverbial": 0
+    },
+    "metaphysical": {
+      "emotional/psychological": 3,
+      "concrete noun": 2,
+      "abstract noun": 3,
+      "spatial/motion": 2,
+      "other": 56,
+      "adverbial": 2
+    },
+    "early_modern": {
+      "emotional/psychological": 3,
+      "concrete noun": 2,
+      "abstract noun": 1,
+      "spatial/motion": 8,
+      "other": 151,
+      "adverbial": 3
+    },
+    "spoken_word": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 42,
+      "adverbial": 0
+    },
+    "found_poetry": {
+      "emotional/psychological": 1,
+      "concrete noun": 0,
+      "abstract noun": 1,
+      "spatial/motion": 4,
+      "other": 100,
+      "adverbial": 7
+    },
+    "fixed_form": {
+      "emotional/psychological": 2,
+      "concrete noun": 4,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 93,
+      "adverbial": 1
+    },
+    "cliche_control": {
+      "emotional/psychological": 0,
+      "concrete noun": 2,
+      "abstract noun": 3,
+      "spatial/motion": 3,
+      "other": 42,
+      "adverbial": 2
+    },
+    "18th_century": {
+      "emotional/psychological": 5,
+      "concrete noun": 12,
+      "abstract noun": 5,
+      "spatial/motion": 5,
+      "other": 197,
+      "adverbial": 5
+    },
+    "biblical": {
+      "emotional/psychological": 4,
+      "concrete noun": 4,
+      "abstract noun": 2,
+      "spatial/motion": 11,
+      "other": 107,
+      "adverbial": 1
+    },
+    "concrete": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 0,
+      "spatial/motion": 0,
+      "other": 22,
+      "adverbial": 0
+    },
+    "latin_american": {
+      "emotional/psychological": 0,
+      "concrete noun": 7,
+      "abstract noun": 0,
+      "spatial/motion": 5,
+      "other": 53,
+      "adverbial": 0
+    },
+    "black_arts": {
+      "emotional/psychological": 1,
+      "concrete noun": 2,
+      "abstract noun": 1,
+      "spatial/motion": 3,
+      "other": 20,
+      "adverbial": 2
+    },
+    "imagist": {
+      "emotional/psychological": 1,
+      "concrete noun": 2,
+      "abstract noun": 0,
+      "spatial/motion": 1,
+      "other": 48,
+      "adverbial": 0
+    },
+    "parody_original": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 3,
+      "spatial/motion": 2,
+      "other": 42,
+      "adverbial": 1
+    },
+    "parody": {
+      "emotional/psychological": 1,
+      "concrete noun": 1,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 83,
+      "adverbial": 4
+    },
+    "classical_chinese": {
+      "emotional/psychological": 1,
+      "concrete noun": 5,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 25,
+      "adverbial": 0
+    },
+    "persian": {
+      "emotional/psychological": 2,
+      "concrete noun": 2,
+      "abstract noun": 0,
+      "spatial/motion": 5,
+      "other": 41,
+      "adverbial": 0
+    },
+    "limerick": {
+      "emotional/psychological": 2,
+      "concrete noun": 1,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 34,
+      "adverbial": 0
+    },
+    "old_english": {
+      "emotional/psychological": 4,
+      "concrete noun": 5,
+      "abstract noun": 3,
+      "spatial/motion": 3,
+      "other": 81,
+      "adverbial": 2
+    },
+    "protest_political": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 2,
+      "spatial/motion": 1,
+      "other": 27,
+      "adverbial": 0
+    },
+    "ghazal": {
+      "emotional/psychological": 0,
+      "concrete noun": 2,
+      "abstract noun": 2,
+      "spatial/motion": 4,
+      "other": 25,
+      "adverbial": 0
+    },
+    "war_poetry": {
+      "emotional/psychological": 4,
+      "concrete noun": 2,
+      "abstract noun": 0,
+      "spatial/motion": 5,
+      "other": 81,
+      "adverbial": 1
+    },
+    "postcolonial": {
+      "emotional/psychological": 2,
+      "concrete noun": 10,
+      "abstract noun": 3,
+      "spatial/motion": 5,
+      "other": 101,
+      "adverbial": 0
+    },
+    "dramatic_monologue": {
+      "emotional/psychological": 9,
+      "concrete noun": 6,
+      "abstract noun": 8,
+      "spatial/motion": 20,
+      "other": 291,
+      "adverbial": 5
+    },
+    "elegy": {
+      "emotional/psychological": 9,
+      "concrete noun": 5,
+      "abstract noun": 4,
+      "spatial/motion": 4,
+      "other": 162,
+      "adverbial": 2
+    },
+    "clerihew": {
+      "emotional/psychological": 1,
+      "concrete noun": 1,
+      "abstract noun": 0,
+      "spatial/motion": 0,
+      "other": 32,
+      "adverbial": 2
+    },
+    "double_dactyl": {
+      "emotional/psychological": 2,
+      "concrete noun": 0,
+      "abstract noun": 1,
+      "spatial/motion": 0,
+      "other": 19,
+      "adverbial": 2
+    },
+    "ekphrastic": {
+      "emotional/psychological": 9,
+      "concrete noun": 8,
+      "abstract noun": 2,
+      "spatial/motion": 13,
+      "other": 230,
+      "adverbial": 2
+    },
+    "villanelle": {
+      "emotional/psychological": 1,
+      "concrete noun": 1,
+      "abstract noun": 1,
+      "spatial/motion": 1,
+      "other": 42,
+      "adverbial": 0
+    },
+    "pantoum": {
+      "emotional/psychological": 1,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 4,
+      "other": 17,
+      "adverbial": 0
+    },
+    "nonsense": {
+      "emotional/psychological": 2,
+      "concrete noun": 2,
+      "abstract noun": 0,
+      "spatial/motion": 0,
+      "other": 55,
+      "adverbial": 0
+    }
+  },
+  "author_profiles": {
+    "John Keats": {
+      "emotional/psychological": 12,
+      "concrete noun": 9,
+      "abstract noun": 5,
+      "spatial/motion": 11,
+      "other": 357,
+      "adverbial": 0
+    },
+    "Emily Dickinson": {
+      "emotional/psychological": 1,
+      "concrete noun": 1,
+      "abstract noun": 2,
+      "spatial/motion": 3,
+      "other": 50,
+      "adverbial": 6
+    },
+    "Walt Whitman": {
+      "emotional/psychological": 5,
+      "concrete noun": 3,
+      "abstract noun": 2,
+      "spatial/motion": 12,
+      "other": 249,
+      "adverbial": 5
+    },
+    "Matthew Arnold": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 1,
+      "other": 26,
+      "adverbial": 1
+    },
+    "Percy Bysshe Shelley": {
+      "emotional/psychological": 8,
+      "concrete noun": 2,
+      "abstract noun": 2,
+      "spatial/motion": 3,
+      "other": 78,
+      "adverbial": 0
+    },
+    "T.S. Eliot": {
+      "emotional/psychological": 2,
+      "concrete noun": 6,
+      "abstract noun": 3,
+      "spatial/motion": 3,
+      "other": 93,
+      "adverbial": 1
+    },
+    "Wallace Stevens": {
+      "emotional/psychological": 1,
+      "concrete noun": 2,
+      "abstract noun": 1,
+      "spatial/motion": 1,
+      "other": 37,
+      "adverbial": 0
+    },
+    "Allen Ginsberg": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 29,
+      "adverbial": 0
+    },
+    "John Ashbery": {
+      "emotional/psychological": 8,
+      "concrete noun": 2,
+      "abstract noun": 3,
+      "spatial/motion": 8,
+      "other": 162,
+      "adverbial": 5
+    },
+    "Frank O'Hara": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 3,
+      "other": 26,
+      "adverbial": 2
+    },
+    "Claudia Rankine": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 0,
+      "spatial/motion": 1,
+      "other": 19,
+      "adverbial": 2
+    },
+    "Lucille Clifton": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 35,
+      "adverbial": 0
+    },
+    "Langston Hughes": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 3,
+      "other": 23,
+      "adverbial": 0
+    },
+    "Georges Perec": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 0,
+      "spatial/motion": 0,
+      "other": 16,
+      "adverbial": 0
+    },
+    "Federico Garc\u00eda Lorca": {
+      "emotional/psychological": 2,
+      "concrete noun": 6,
+      "abstract noun": 0,
+      "spatial/motion": 3,
+      "other": 16,
+      "adverbial": 0
+    },
+    "C\u00e9sar Vallejo": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 1,
+      "spatial/motion": 0,
+      "other": 25,
+      "adverbial": 0
+    },
+    "Pablo Neruda": {
+      "emotional/psychological": 2,
+      "concrete noun": 3,
+      "abstract noun": 1,
+      "spatial/motion": 1,
+      "other": 49,
+      "adverbial": 0
+    },
+    "Stefan George": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 0,
+      "other": 84,
+      "adverbial": 0
+    },
+    "Georg Trakl": {
+      "emotional/psychological": 0,
+      "concrete noun": 2,
+      "abstract noun": 0,
+      "spatial/motion": 0,
+      "other": 39,
+      "adverbial": 0
+    },
+    "Rainer Maria Rilke": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 0,
+      "other": 45,
+      "adverbial": 0
+    },
+    "Gerard Manley Hopkins": {
+      "emotional/psychological": 2,
+      "concrete noun": 9,
+      "abstract noun": 3,
+      "spatial/motion": 6,
+      "other": 166,
+      "adverbial": 1
+    },
+    "Alfred Lord Tennyson": {
+      "emotional/psychological": 5,
+      "concrete noun": 1,
+      "abstract noun": 2,
+      "spatial/motion": 4,
+      "other": 59,
+      "adverbial": 3
+    },
+    "Paul Laurence Dunbar": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 0,
+      "spatial/motion": 1,
+      "other": 41,
+      "adverbial": 0
+    },
+    "Thomas Hardy": {
+      "emotional/psychological": 3,
+      "concrete noun": 5,
+      "abstract noun": 0,
+      "spatial/motion": 13,
+      "other": 147,
+      "adverbial": 1
+    },
+    "Robert Browning": {
+      "emotional/psychological": 10,
+      "concrete noun": 1,
+      "abstract noun": 7,
+      "spatial/motion": 19,
+      "other": 260,
+      "adverbial": 2
+    },
+    "Marianne Moore": {
+      "emotional/psychological": 0,
+      "concrete noun": 4,
+      "abstract noun": 0,
+      "spatial/motion": 5,
+      "other": 52,
+      "adverbial": 1
+    },
+    "Gertrude Stein": {
+      "emotional/psychological": 3,
+      "concrete noun": 4,
+      "abstract noun": 2,
+      "spatial/motion": 1,
+      "other": 42,
+      "adverbial": 6
+    },
+    "E.E. Cummings": {
+      "emotional/psychological": 0,
+      "concrete noun": 2,
+      "abstract noun": 0,
+      "spatial/motion": 4,
+      "other": 27,
+      "adverbial": 0
+    },
+    "Charles Baudelaire": {
+      "emotional/psychological": 1,
+      "concrete noun": 1,
+      "abstract noun": 1,
+      "spatial/motion": 1,
+      "other": 10,
+      "adverbial": 1
+    },
+    "William Blake": {
+      "emotional/psychological": 5,
+      "concrete noun": 2,
+      "abstract noun": 3,
+      "spatial/motion": 6,
+      "other": 90,
+      "adverbial": 1
+    },
+    "Edgar Allan Poe": {
+      "emotional/psychological": 3,
+      "concrete noun": 3,
+      "abstract noun": 2,
+      "spatial/motion": 1,
+      "other": 68,
+      "adverbial": 6
+    },
+    "Christina Rossetti": {
+      "emotional/psychological": 1,
+      "concrete noun": 2,
+      "abstract noun": 1,
+      "spatial/motion": 6,
+      "other": 57,
+      "adverbial": 1
+    },
+    "Claude McKay": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 1,
+      "spatial/motion": 0,
+      "other": 41,
+      "adverbial": 0
+    },
+    "Countee Cullen": {
+      "emotional/psychological": 1,
+      "concrete noun": 2,
+      "abstract noun": 1,
+      "spatial/motion": 1,
+      "other": 38,
+      "adverbial": 2
+    },
+    "Robert Burns": {
+      "emotional/psychological": 1,
+      "concrete noun": 0,
+      "abstract noun": 2,
+      "spatial/motion": 1,
+      "other": 35,
+      "adverbial": 2
+    },
+    "Seamus Heaney": {
+      "emotional/psychological": 0,
+      "concrete noun": 2,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 24,
+      "adverbial": 1
+    },
+    "Mary Oliver": {
+      "emotional/psychological": 1,
+      "concrete noun": 1,
+      "abstract noun": 0,
+      "spatial/motion": 3,
+      "other": 20,
+      "adverbial": 2
+    },
+    "W.B. Yeats": {
+      "emotional/psychological": 3,
+      "concrete noun": 3,
+      "abstract noun": 2,
+      "spatial/motion": 3,
+      "other": 71,
+      "adverbial": 0
+    },
+    "Robert Frost": {
+      "emotional/psychological": 1,
+      "concrete noun": 3,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 44,
+      "adverbial": 3
+    },
+    "Traditional (Scottish ballad)": {
+      "emotional/psychological": 1,
+      "concrete noun": 2,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 91,
+      "adverbial": 2
+    },
+    "Traditional (English/Scottish ballad)": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 1,
+      "spatial/motion": 1,
+      "other": 17,
+      "adverbial": 1
+    },
+    "Russell Edson": {
+      "emotional/psychological": 0,
+      "concrete noun": 3,
+      "abstract noun": 1,
+      "spatial/motion": 1,
+      "other": 20,
+      "adverbial": 1
+    },
+    "William Shakespeare": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 3,
+      "spatial/motion": 3,
+      "other": 59,
+      "adverbial": 0
+    },
+    "John Milton": {
+      "emotional/psychological": 0,
+      "concrete noun": 2,
+      "abstract noun": 1,
+      "spatial/motion": 0,
+      "other": 56,
+      "adverbial": 1
+    },
+    "Traditional (English)": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 1,
+      "spatial/motion": 0,
+      "other": 17,
+      "adverbial": 0
+    },
+    "John Donne": {
+      "emotional/psychological": 1,
+      "concrete noun": 1,
+      "abstract noun": 1,
+      "spatial/motion": 4,
+      "other": 73,
+      "adverbial": 2
+    },
+    "George Herbert": {
+      "emotional/psychological": 2,
+      "concrete noun": 2,
+      "abstract noun": 1,
+      "spatial/motion": 1,
+      "other": 27,
+      "adverbial": 1
+    },
+    "Thomas Wyatt": {
+      "emotional/psychological": 2,
+      "concrete noun": 1,
+      "abstract noun": 1,
+      "spatial/motion": 1,
+      "other": 57,
+      "adverbial": 0
+    },
+    "Anonymous (found text)": {
+      "emotional/psychological": 1,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 0,
+      "other": 44,
+      "adverbial": 4
+    },
+    "Ben Jonson": {
+      "emotional/psychological": 2,
+      "concrete noun": 0,
+      "abstract noun": 1,
+      "spatial/motion": 0,
+      "other": 22,
+      "adverbial": 1
+    },
+    "Edwin Arlington Robinson": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 21,
+      "adverbial": 0
+    },
+    "William Ernest Henley": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 35,
+      "adverbial": 0
+    },
+    "Dante Gabriel Rossetti": {
+      "emotional/psychological": 2,
+      "concrete noun": 2,
+      "abstract noun": 1,
+      "spatial/motion": 3,
+      "other": 40,
+      "adverbial": 1
+    },
+    "Rudyard Kipling": {
+      "emotional/psychological": 0,
+      "concrete noun": 2,
+      "abstract noun": 1,
+      "spatial/motion": 0,
+      "other": 33,
+      "adverbial": 0
+    },
+    "Alfred, Lord Tennyson": {
+      "emotional/psychological": 4,
+      "concrete noun": 7,
+      "abstract noun": 3,
+      "spatial/motion": 8,
+      "other": 143,
+      "adverbial": 6
+    },
+    "Synthetic (research test case)": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 2,
+      "spatial/motion": 2,
+      "other": 30,
+      "adverbial": 2
+    },
+    "Christopher Smart": {
+      "emotional/psychological": 0,
+      "concrete noun": 5,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 58,
+      "adverbial": 3
+    },
+    "Samuel Taylor Coleridge": {
+      "emotional/psychological": 1,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 35,
+      "adverbial": 0
+    },
+    "Felicia Hemans": {
+      "emotional/psychological": 1,
+      "concrete noun": 0,
+      "abstract noun": 1,
+      "spatial/motion": 0,
+      "other": 12,
+      "adverbial": 0
+    },
+    "Hart Crane": {
+      "emotional/psychological": 1,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 1,
+      "other": 36,
+      "adverbial": 0
+    },
+    "Anonymous (Hebrew Bible)": {
+      "emotional/psychological": 2,
+      "concrete noun": 2,
+      "abstract noun": 1,
+      "spatial/motion": 9,
+      "other": 86,
+      "adverbial": 1
+    },
+    "C\u00e9sar Vallejo (trans. Thomas Merton)": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 1,
+      "other": 18,
+      "adverbial": 0
+    },
+    "Amiri Baraka (LeRoi Jones)": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 1,
+      "spatial/motion": 2,
+      "other": 14,
+      "adverbial": 2
+    },
+    "Amy Lowell": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 0,
+      "spatial/motion": 1,
+      "other": 31,
+      "adverbial": 0
+    },
+    "Anonymous (trans. Francis B. Gummere)": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 2,
+      "spatial/motion": 0,
+      "other": 25,
+      "adverbial": 0
+    },
+    "Gregory Corso": {
+      "emotional/psychological": 3,
+      "concrete noun": 2,
+      "abstract noun": 2,
+      "spatial/motion": 1,
+      "other": 25,
+      "adverbial": 0
+    },
+    "Lawrence Ferlinghetti": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 0,
+      "spatial/motion": 3,
+      "other": 27,
+      "adverbial": 0
+    },
+    "Gottfried Benn": {
+      "emotional/psychological": 0,
+      "concrete noun": 2,
+      "abstract noun": 0,
+      "spatial/motion": 3,
+      "other": 27,
+      "adverbial": 0
+    },
+    "Georg Heym": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 1,
+      "spatial/motion": 3,
+      "other": 45,
+      "adverbial": 1
+    },
+    "Isaac Watts": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 0,
+      "spatial/motion": 0,
+      "other": 24,
+      "adverbial": 1
+    },
+    "Lewis Carroll": {
+      "emotional/psychological": 2,
+      "concrete noun": 3,
+      "abstract noun": 0,
+      "spatial/motion": 1,
+      "other": 107,
+      "adverbial": 4
+    },
+    "Robert Southey": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 3,
+      "spatial/motion": 2,
+      "other": 18,
+      "adverbial": 0
+    },
+    "Alexander Pope": {
+      "emotional/psychological": 4,
+      "concrete noun": 7,
+      "abstract noun": 2,
+      "spatial/motion": 4,
+      "other": 107,
+      "adverbial": 2
+    },
+    "Louise Gluck": {
+      "emotional/psychological": 3,
+      "concrete noun": 0,
+      "abstract noun": 1,
+      "spatial/motion": 1,
+      "other": 19,
+      "adverbial": 1
+    },
+    "Carolyn Forche": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 3,
+      "other": 22,
+      "adverbial": 2
+    },
+    "Christian B\u00f6k": {
+      "emotional/psychological": 2,
+      "concrete noun": 0,
+      "abstract noun": 1,
+      "spatial/motion": 2,
+      "other": 53,
+      "adverbial": 0
+    },
+    "Charles Bernstein": {
+      "emotional/psychological": 0,
+      "concrete noun": 2,
+      "abstract noun": 1,
+      "spatial/motion": 0,
+      "other": 16,
+      "adverbial": 1
+    },
+    "Omar Khayyam (trans. FitzGerald, 1859)": {
+      "emotional/psychological": 2,
+      "concrete noun": 2,
+      "abstract noun": 0,
+      "spatial/motion": 5,
+      "other": 41,
+      "adverbial": 0
+    },
+    "Heather McHugh": {
+      "emotional/psychological": 0,
+      "concrete noun": 2,
+      "abstract noun": 2,
+      "spatial/motion": 4,
+      "other": 25,
+      "adverbial": 0
+    },
+    "Wilfred Owen": {
+      "emotional/psychological": 3,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 3,
+      "other": 63,
+      "adverbial": 0
+    },
+    "Rupert Brooke": {
+      "emotional/psychological": 1,
+      "concrete noun": 2,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 18,
+      "adverbial": 1
+    },
+    "Anonymous (trans. Hall)": {
+      "emotional/psychological": 1,
+      "concrete noun": 1,
+      "abstract noun": 2,
+      "spatial/motion": 2,
+      "other": 38,
+      "adverbial": 0
+    },
+    "John Dryden": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 2,
+      "spatial/motion": 0,
+      "other": 21,
+      "adverbial": 0
+    },
+    "Samuel Johnson": {
+      "emotional/psychological": 1,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 0,
+      "other": 29,
+      "adverbial": 0
+    },
+    "Joy Harjo": {
+      "emotional/psychological": 3,
+      "concrete noun": 8,
+      "abstract noun": 3,
+      "spatial/motion": 3,
+      "other": 47,
+      "adverbial": 1
+    },
+    "Agha Shahid Ali": {
+      "emotional/psychological": 2,
+      "concrete noun": 3,
+      "abstract noun": 0,
+      "spatial/motion": 1,
+      "other": 37,
+      "adverbial": 0
+    },
+    "Kamau Brathwaite": {
+      "emotional/psychological": 0,
+      "concrete noun": 2,
+      "abstract noun": 1,
+      "spatial/motion": 1,
+      "other": 22,
+      "adverbial": 0
+    },
+    "Thomas Gray": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 1,
+      "spatial/motion": 0,
+      "other": 27,
+      "adverbial": 0
+    },
+    "Synthetic (clerihew test case)": {
+      "emotional/psychological": 1,
+      "concrete noun": 1,
+      "abstract noun": 0,
+      "spatial/motion": 0,
+      "other": 22,
+      "adverbial": 2
+    },
+    "Synthetic (double dactyl test case)": {
+      "emotional/psychological": 2,
+      "concrete noun": 0,
+      "abstract noun": 1,
+      "spatial/motion": 0,
+      "other": 19,
+      "adverbial": 2
+    },
+    "Robinson Jeffers": {
+      "emotional/psychological": 0,
+      "concrete noun": 2,
+      "abstract noun": 0,
+      "spatial/motion": 0,
+      "other": 17,
+      "adverbial": 1
+    },
+    "Algernon Charles Swinburne": {
+      "emotional/psychological": 4,
+      "concrete noun": 2,
+      "abstract noun": 2,
+      "spatial/motion": 5,
+      "other": 51,
+      "adverbial": 1
+    },
+    "Anonymous (trans. E.V. Gordon)": {
+      "emotional/psychological": 0,
+      "concrete noun": 3,
+      "abstract noun": 0,
+      "spatial/motion": 1,
+      "other": 30,
+      "adverbial": 0
+    },
+    "Anonymous (KJV translation)": {
+      "emotional/psychological": 2,
+      "concrete noun": 2,
+      "abstract noun": 1,
+      "spatial/motion": 2,
+      "other": 21,
+      "adverbial": 0
+    },
+    "Harryette Mullen": {
+      "emotional/psychological": 0,
+      "concrete noun": 2,
+      "abstract noun": 0,
+      "spatial/motion": 1,
+      "other": 27,
+      "adverbial": 1
+    },
+    "Wis\u0142awa Szymborska": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 1,
+      "spatial/motion": 2,
+      "other": 38,
+      "adverbial": 0
+    },
+    "Synthetic (scientific register test case)": {
+      "emotional/psychological": 3,
+      "concrete noun": 3,
+      "abstract noun": 2,
+      "spatial/motion": 0,
+      "other": 46,
+      "adverbial": 3
+    },
+    "Synthetic (OuLiPo N+7 test case)": {
+      "emotional/psychological": 1,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 26,
+      "adverbial": 0
+    },
+    "Synthetic (shadow-divergence test case)": {
+      "emotional/psychological": 0,
+      "concrete noun": 1,
+      "abstract noun": 0,
+      "spatial/motion": 0,
+      "other": 11,
+      "adverbial": 0
+    },
+    "Synthetic (shadow-poem meta-poem)": {
+      "emotional/psychological": 1,
+      "concrete noun": 1,
+      "abstract noun": 1,
+      "spatial/motion": 0,
+      "other": 24,
+      "adverbial": 0
+    },
+    "Barbara Guest": {
+      "emotional/psychological": 0,
+      "concrete noun": 5,
+      "abstract noun": 1,
+      "spatial/motion": 2,
+      "other": 24,
+      "adverbial": 0
+    },
+    "Ted Berrigan": {
+      "emotional/psychological": 1,
+      "concrete noun": 1,
+      "abstract noun": 2,
+      "spatial/motion": 1,
+      "other": 8,
+      "adverbial": 2
+    },
+    "Robert Creeley": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 2,
+      "spatial/motion": 0,
+      "other": 18,
+      "adverbial": 0
+    },
+    "William Stafford": {
+      "emotional/psychological": 0,
+      "concrete noun": 4,
+      "abstract noun": 1,
+      "spatial/motion": 2,
+      "other": 43,
+      "adverbial": 0
+    },
+    "C.K. Williams": {
+      "emotional/psychological": 0,
+      "concrete noun": 0,
+      "abstract noun": 0,
+      "spatial/motion": 2,
+      "other": 33,
+      "adverbial": 1
+    },
+    "Galway Kinnell": {
+      "emotional/psychological": 1,
+      "concrete noun": 2,
+      "abstract noun": 0,
+      "spatial/motion": 3,
+      "other": 29,
+      "adverbial": 1
+    }
+  },
+  "top_pivots": [
+    {
+      "s2": 36.6583,
+      "author": "Lawrence Ferlinghetti",
+      "actual": "gro",
+      "actual_cat": "other",
+      "pred": "",
+      "pred_cat": "other",
+      "era": "beat"
+    },
+    {
+      "s2": 28.2527,
+      "author": "Lawrence Ferlinghetti",
+      "actual": "climbs",
+      "actual_cat": "other",
+      "pred": "",
+      "pred_cat": "other",
+      "era": "beat"
+    },
+    {
+      "s2": 27.7338,
+      "author": "Charles Bukowski",
+      "actual": "pour",
+      "actual_cat": "other",
+      "pred": "'m",
+      "pred_cat": "other",
+      "era": "spoken_word"
+    },
+    {
+      "s2": 25.6548,
+      "author": "Kamau Brathwaite",
+      "actual": "hum",
+      "actual_cat": "other",
+      "pred": "",
+      "pred_cat": "other",
+      "era": "postcolonial"
+    },
+    {
+      "s2": 25.6338,
+      "author": "Marianne Moore",
+      "actual": "glass",
+      "actual_cat": "concrete noun",
+      "pred": "",
+      "pred_cat": "other",
+      "era": "modernist"
+    },
+    {
+      "s2": 25.5956,
+      "author": "Lawrence Ferlinghetti",
+      "actual": "whenever",
+      "actual_cat": "other",
+      "pred": "",
+      "pred_cat": "other",
+      "era": "beat"
+    },
+    {
+      "s2": 23.3952,
+      "author": "Stefan George",
+      "actual": "ferner",
+      "actual_cat": "other",
+      "pred": "t",
+      "pred_cat": "other",
+      "era": "german_symbolist"
+    },
+    {
+      "s2": 22.9733,
+      "author": "Jean Lescure",
+      "actual": "jar",
+      "actual_cat": "other",
+      "pred": "time",
+      "pred_cat": "temporal",
+      "era": "oulipo"
+    },
+    {
+      "s2": 22.7313,
+      "author": "Anonymous (trans. E.V. Gordon)",
+      "actual": "riot",
+      "actual_cat": "other",
+      "pred": "may",
+      "pred_cat": "function/grammar",
+      "era": "old_english"
+    },
+    {
+      "s2": 22.298,
+      "author": "Lawrence Ferlinghetti",
+      "actual": "p",
+      "actual_cat": "other",
+      "pred": "",
+      "pred_cat": "other",
+      "era": "beat"
+    },
+    {
+      "s2": 22.1297,
+      "author": "Christopher Smart",
+      "actual": "prank",
+      "actual_cat": "other",
+      "pred": "the",
+      "pred_cat": "function/grammar",
+      "era": "18th_century"
+    },
+    {
+      "s2": 22.1255,
+      "author": "Wilfred Owen",
+      "actual": "'",
+      "actual_cat": "other",
+      "pred": "ering",
+      "pred_cat": "verbal",
+      "era": "war_poetry"
+    },
+    {
+      "s2": 22.0877,
+      "author": "Gerard Manley Hopkins",
+      "actual": "Pra",
+      "actual_cat": "proper noun",
+      "pred": "",
+      "pred_cat": "other",
+      "era": "victorian"
+    },
+    {
+      "s2": 22.0439,
+      "author": "Gerard Manley Hopkins",
+      "actual": "shook",
+      "actual_cat": "other",
+      "pred": "the",
+      "pred_cat": "function/grammar",
+      "era": "victorian"
+    },
+    {
+      "s2": 22.0152,
+      "author": "Christopher Smart",
+      "actual": "prank",
+      "actual_cat": "other",
+      "pred": "the",
+      "pred_cat": "function/grammar",
+      "era": "18th_century"
+    },
+    {
+      "s2": 21.805,
+      "author": "Kamau Brathwaite",
+      "actual": "Gu",
+      "actual_cat": "proper noun",
+      "pred": "",
+      "pred_cat": "other",
+      "era": "postcolonial"
+    },
+    {
+      "s2": 20.9771,
+      "author": "Robert Browning",
+      "actual": "env",
+      "actual_cat": "other",
+      "pred": "o",
+      "pred_cat": "other",
+      "era": "dramatic_monologue"
+    },
+    {
+      "s2": 20.7175,
+      "author": "Gerard Manley Hopkins",
+      "actual": "Pra",
+      "actual_cat": "proper noun",
+      "pred": "",
+      "pred_cat": "other",
+      "era": "victorian"
+    },
+    {
+      "s2": 20.6816,
+      "author": "Lawrence Ferlinghetti",
+      "actual": "suffering",
+      "actual_cat": "verbal",
+      "pred": "",
+      "pred_cat": "other",
+      "era": "beat"
+    },
+    {
+      "s2": 20.6428,
+      "author": "Walt Whitman",
+      "actual": "printer",
+      "actual_cat": "other",
+      "pred": "ne",
+      "pred_cat": "other",
+      "era": "19th_century"
+    },
+    {
+      "s2": 20.5858,
+      "author": "Elizabeth Bishop",
+      "actual": "badly",
+      "actual_cat": "adverbial",
+      "pred": "glass",
+      "pred_cat": "concrete noun",
+      "era": "mid_century"
+    },
+    {
+      "s2": 20.3969,
+      "author": "Walt Whitman",
+      "actual": "observing",
+      "actual_cat": "verbal",
+      "pred": ",",
+      "pred_cat": "function/grammar",
+      "era": "19th_century"
+    },
+    {
+      "s2": 19.9901,
+      "author": "Lawrence Ferlinghetti",
+      "actual": "under",
+      "actual_cat": "spatial/motion",
+      "pred": "",
+      "pred_cat": "other",
+      "era": "beat"
+    },
+    {
+      "s2": 19.6923,
+      "author": "Robert Browning",
+      "actual": "torches",
+      "actual_cat": "other",
+      "pred": "hands",
+      "pred_cat": "other",
+      "era": "ekphrastic"
+    },
+    {
+      "s2": 19.5628,
+      "author": "Alexander Pope",
+      "actual": "fatig",
+      "actual_cat": "other",
+      "pred": "",
+      "pred_cat": "other",
+      "era": "18th_century"
+    }
+  ]
+}
