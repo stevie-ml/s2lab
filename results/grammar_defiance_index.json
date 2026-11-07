@@ -1,0 +1,338 @@
+{
+  "romantic": {
+    "gdi": 0.8991596638655462,
+    "fn_breaks": 214,
+    "fn_conforms": 24,
+    "mean_break_s2": 5.433115887850471
+  },
+  "19th_century": {
+    "gdi": 0.7610619469026548,
+    "fn_breaks": 172,
+    "fn_conforms": 54,
+    "mean_break_s2": 5.2890343023255815
+  },
+  "modernist": {
+    "gdi": 0.8151658767772512,
+    "fn_breaks": 172,
+    "fn_conforms": 39,
+    "mean_break_s2": 5.322230232558141
+  },
+  "beat": {
+    "gdi": 0.8103448275862069,
+    "fn_breaks": 47,
+    "fn_conforms": 11,
+    "mean_break_s2": 7.282217021276592
+  },
+  "confessional": {
+    "gdi": 0.8666666666666667,
+    "fn_breaks": 26,
+    "fn_conforms": 4,
+    "mean_break_s2": 5.522973076923078
+  },
+  "mid_century": {
+    "gdi": 0.8461538461538461,
+    "fn_breaks": 33,
+    "fn_conforms": 6,
+    "mean_break_s2": 4.494730303030304
+  },
+  "new_york_school": {
+    "gdi": 0.7903225806451613,
+    "fn_breaks": 147,
+    "fn_conforms": 39,
+    "mean_break_s2": 5.429495238095236
+  },
+  "language": {
+    "gdi": 0.7666666666666667,
+    "fn_breaks": 23,
+    "fn_conforms": 7,
+    "mean_break_s2": 5.67885652173913
+  },
+  "contemporary": {
+    "gdi": 0.7421383647798742,
+    "fn_breaks": 118,
+    "fn_conforms": 41,
+    "mean_break_s2": 5.520602542372885
+  },
+  "harlem_renaissance": {
+    "gdi": 0.8939393939393939,
+    "fn_breaks": 59,
+    "fn_conforms": 7,
+    "mean_break_s2": 5.0944491525423725
+  },
+  "oulipo": {
+    "gdi": 0.7567567567567568,
+    "fn_breaks": 56,
+    "fn_conforms": 18,
+    "mean_break_s2": 5.523957142857143
+  },
+  "surrealist": {
+    "gdi": 0.6794871794871795,
+    "fn_breaks": 53,
+    "fn_conforms": 25,
+    "mean_break_s2": 5.384462264150942
+  },
+  "deep_image": {
+    "gdi": 1.0,
+    "fn_breaks": 7,
+    "fn_conforms": 0,
+    "mean_break_s2": 5.680442857142857
+  },
+  "control": {
+    "gdi": 1.0,
+    "fn_breaks": 1,
+    "fn_conforms": 0,
+    "mean_break_s2": 3.0256
+  },
+  "victorian": {
+    "gdi": 0.8114143920595533,
+    "fn_breaks": 327,
+    "fn_conforms": 76,
+    "mean_break_s2": 5.363789296636086
+  },
+  "haiku": {
+    "gdi": 0.9285714285714286,
+    "fn_breaks": 13,
+    "fn_conforms": 1,
+    "mean_break_s2": 6.650138461538462
+  },
+  "ancient": {
+    "gdi": 0.8571428571428571,
+    "fn_breaks": 24,
+    "fn_conforms": 4,
+    "mean_break_s2": 4.522575
+  },
+  "prose_poetry": {
+    "gdi": 0.6736842105263158,
+    "fn_breaks": 64,
+    "fn_conforms": 31,
+    "mean_break_s2": 5.408803125
+  },
+  "ballad": {
+    "gdi": 0.8918918918918919,
+    "fn_breaks": 33,
+    "fn_conforms": 4,
+    "mean_break_s2": 5.3766484848484835
+  },
+  "song_lyrics": {
+    "gdi": 0.631578947368421,
+    "fn_breaks": 12,
+    "fn_conforms": 7,
+    "mean_break_s2": 5.506283333333333
+  },
+  "nursery_rhyme": {
+    "gdi": 0.75,
+    "fn_breaks": 9,
+    "fn_conforms": 3,
+    "mean_break_s2": 4.391833333333334
+  },
+  "metaphysical": {
+    "gdi": 0.875,
+    "fn_breaks": 63,
+    "fn_conforms": 9,
+    "mean_break_s2": 5.336274603174602
+  },
+  "early_modern": {
+    "gdi": 0.7959183673469388,
+    "fn_breaks": 117,
+    "fn_conforms": 30,
+    "mean_break_s2": 5.144955555555557
+  },
+  "spoken_word": {
+    "gdi": 0.8333333333333334,
+    "fn_breaks": 15,
+    "fn_conforms": 3,
+    "mean_break_s2": 5.990266666666667
+  },
+  "found_poetry": {
+    "gdi": 0.6730769230769231,
+    "fn_breaks": 35,
+    "fn_conforms": 17,
+    "mean_break_s2": 5.435357142857143
+  },
+  "fixed_form": {
+    "gdi": 0.7931034482758621,
+    "fn_breaks": 46,
+    "fn_conforms": 12,
+    "mean_break_s2": 5.631878260869565
+  },
+  "cliche_control": {
+    "gdi": 0.7666666666666667,
+    "fn_breaks": 23,
+    "fn_conforms": 7,
+    "mean_break_s2": 5.065039130434781
+  },
+  "18th_century": {
+    "gdi": 0.8760330578512396,
+    "fn_breaks": 106,
+    "fn_conforms": 15,
+    "mean_break_s2": 5.374392452830188
+  },
+  "biblical": {
+    "gdi": 0.6578947368421053,
+    "fn_breaks": 50,
+    "fn_conforms": 26,
+    "mean_break_s2": 5.006863999999998
+  },
+  "latin_american": {
+    "gdi": 0.7837837837837838,
+    "fn_breaks": 29,
+    "fn_conforms": 8,
+    "mean_break_s2": 4.549
+  },
+  "black_arts": {
+    "gdi": 0.631578947368421,
+    "fn_breaks": 12,
+    "fn_conforms": 7,
+    "mean_break_s2": 4.166708333333333
+  },
+  "korean_modernist": {
+    "gdi": 0.7777777777777778,
+    "fn_breaks": 7,
+    "fn_conforms": 2,
+    "mean_break_s2": 4.242857142857143
+  },
+  "imagist": {
+    "gdi": 0.8235294117647058,
+    "fn_breaks": 14,
+    "fn_conforms": 3,
+    "mean_break_s2": 5.029121428571428
+  },
+  "german_expressionist": {
+    "gdi": 0.8823529411764706,
+    "fn_breaks": 30,
+    "fn_conforms": 4,
+    "mean_break_s2": 5.020096666666665
+  },
+  "parody_original": {
+    "gdi": 0.6666666666666666,
+    "fn_breaks": 20,
+    "fn_conforms": 10,
+    "mean_break_s2": 5.4954600000000005
+  },
+  "parody": {
+    "gdi": 0.7647058823529411,
+    "fn_breaks": 39,
+    "fn_conforms": 12,
+    "mean_break_s2": 5.0101051282051285
+  },
+  "classical_chinese": {
+    "gdi": 0.7142857142857143,
+    "fn_breaks": 10,
+    "fn_conforms": 4,
+    "mean_break_s2": 6.85868
+  },
+  "persian": {
+    "gdi": 0.8214285714285714,
+    "fn_breaks": 23,
+    "fn_conforms": 5,
+    "mean_break_s2": 5.4213130434782615
+  },
+  "japanese_classical": {
+    "gdi": 0.8571428571428571,
+    "fn_breaks": 6,
+    "fn_conforms": 1,
+    "mean_break_s2": 4.38155
+  },
+  "limerick": {
+    "gdi": 0.7777777777777778,
+    "fn_breaks": 14,
+    "fn_conforms": 4,
+    "mean_break_s2": 3.8751785714285716
+  },
+  "old_english": {
+    "gdi": 0.7346938775510204,
+    "fn_breaks": 36,
+    "fn_conforms": 13,
+    "mean_break_s2": 5.612475
+  },
+  "protest_political": {
+    "gdi": 0.8125,
+    "fn_breaks": 13,
+    "fn_conforms": 3,
+    "mean_break_s2": 4.427361538461539
+  },
+  "ghazal": {
+    "gdi": 0.8235294117647058,
+    "fn_breaks": 14,
+    "fn_conforms": 3,
+    "mean_break_s2": 4.040992857142857
+  },
+  "war_poetry": {
+    "gdi": 0.813953488372093,
+    "fn_breaks": 35,
+    "fn_conforms": 8,
+    "mean_break_s2": 4.680525714285715
+  },
+  "postcolonial": {
+    "gdi": 0.6666666666666666,
+    "fn_breaks": 36,
+    "fn_conforms": 18,
+    "mean_break_s2": 5.489394444444444
+  },
+  "dramatic_monologue": {
+    "gdi": 0.8312236286919831,
+    "fn_breaks": 197,
+    "fn_conforms": 40,
+    "mean_break_s2": 5.025628934010151
+  },
+  "elegy": {
+    "gdi": 0.8315789473684211,
+    "fn_breaks": 79,
+    "fn_conforms": 16,
+    "mean_break_s2": 5.00556835443038
+  },
+  "clerihew": {
+    "gdi": 0.9,
+    "fn_breaks": 18,
+    "fn_conforms": 2,
+    "mean_break_s2": 6.06806111111111
+  },
+  "double_dactyl": {
+    "gdi": 0.9090909090909091,
+    "fn_breaks": 10,
+    "fn_conforms": 1,
+    "mean_break_s2": 4.68916
+  },
+  "ekphrastic": {
+    "gdi": 0.8496732026143791,
+    "fn_breaks": 130,
+    "fn_conforms": 23,
+    "mean_break_s2": 4.90115076923077
+  },
+  "villanelle": {
+    "gdi": 0.7037037037037037,
+    "fn_breaks": 19,
+    "fn_conforms": 8,
+    "mean_break_s2": 5.5148473684210515
+  },
+  "pantoum": {
+    "gdi": 0.7272727272727273,
+    "fn_breaks": 8,
+    "fn_conforms": 3,
+    "mean_break_s2": 5.813924999999999
+  },
+  "triolet": {
+    "gdi": 0.75,
+    "fn_breaks": 3,
+    "fn_conforms": 1,
+    "mean_break_s2": 4.8734
+  },
+  "rondeau": {
+    "gdi": 0.8666666666666667,
+    "fn_breaks": 13,
+    "fn_conforms": 2,
+    "mean_break_s2": 5.1631307692307695
+  },
+  "nonsense": {
+    "gdi": 0.8,
+    "fn_breaks": 16,
+    "fn_conforms": 4,
+    "mean_break_s2": 5.191025000000001
+  },
+  "concrete": {
+    "gdi": 0.6666666666666666,
+    "fn_breaks": 8,
+    "fn_conforms": 4,
+    "mean_break_s2": 6.9215
+  }
+}

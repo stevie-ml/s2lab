@@ -8835,6 +8835,195 @@ under a sky that never cared less.
 Ready for a change, the elbows waited.
 The hands gripped hard on the desert.""",
     },
+
+    # ─── ORNATE SACRED / METAPHYSICAL BAROQUE ──────────────────────────────────
+    # Added 2026-11-07: testing "syntactic class-breaking" hypothesis.
+    # Hypothesis: ornate baroque sacred verse (high unusual vocabulary, inverted syntax)
+    # should show extreme class-breaking — the model predicts function/grammar
+    # but the poet substitutes dense content words.
+    #
+    # Henry Vaughan — "The World" (1655, PD)
+    # Opens with one of the most extraordinary images in English poetry:
+    # a vision of Eternity. Dense imagery, inverted syntax.
+    {
+        "title": "The World",
+        "author": "Henry Vaughan",
+        "year": 1655,
+        "era": "metaphysical",
+        "text": """I saw Eternity the other night,
+Like a great ring of pure and endless light,
+All calm, as it was bright;
+And round beneath it, Time in hours, days, years,
+Driv'n by the spheres
+Like a vast shadow mov'd; in which the world
+And all her train were hurl'd.
+The doting lover in his quaintest strain
+Did there complain;
+Near him, his lute, his fancy, and his flights,
+Wit's sour delights,
+With gloves, and knots, the silly snares of pleasure,
+Yet his dear treasure
+All scatter'd lay, while he his eyes did pour
+Upon a flow'r.""",
+    },
+    # Thomas Traherne — "Wonder" (c. 1670s, PD; posthumous 1908)
+    # Mystical vision of childhood innocence. Accumulates nouns of wonder.
+    {
+        "title": "Wonder",
+        "author": "Thomas Traherne",
+        "year": 1908,
+        "era": "metaphysical",
+        "text": """How like an angel came I down!
+How bright are all things here!
+When first among his works I did appear,
+O how their glory me did crown!
+The world resembled his eternity,
+In which my soul did walk;
+And every thing that I did see
+Did with me talk.
+
+The skies in their magnificence,
+The lovely, lively air,
+Oh how divine, how soft, how sweet, how fair!
+The stars did entertain my sense,
+And all the works of God so bright and pure,
+So rich and great, did seem
+As if they ever must endure
+In my esteem.""",
+    },
+    # Richard Crashaw — "On the Assumption" / "In the Holy Nativity of Our Lord" (1640s, PD)
+    # Baroque Catholic conceits: extreme ornament, dense layering of metaphor
+    {
+        "title": "A Hymn of the Nativity (opening)",
+        "author": "Richard Crashaw",
+        "year": 1646,
+        "era": "metaphysical",
+        "text": """Come, we shepherds, whose blest sight
+Hath met love's noon in nature's night;
+Come, lift we up our loftier song
+And wake the sun that lies too long.
+
+To all our world of well-stolen joy
+He slept, and dreamed of no such thing;
+While we found out heaven's fairer eye
+And kissed the cradle of our King.
+Tell him he rises now too late
+To show us aught worth looking at.
+
+Tell him we now can show him more
+Than he e'er showed to mortal sight,—
+Than he himself e'er saw before,
+Which to be seen needs not his light.""",
+    },
+    # Francis Thompson — "The Hound of Heaven" (1893, PD)
+    # Dense Victorian religious verse. Unusual vocabulary, inverted syntax, extreme compression.
+    {
+        "title": "The Hound of Heaven (opening)",
+        "author": "Francis Thompson",
+        "year": 1893,
+        "era": "victorian",
+        "text": """I fled Him, down the nights and down the days;
+I fled Him, down the arches of the years;
+I fled Him, down the labyrinthine ways
+Of my own mind; and in the mist of tears
+I hid from Him, and under running laughter.
+Up vistaed hopes I sped;
+And shot, precipitated,
+Adown Titanic glooms of chasmèd fears,
+From those strong Feet that followed, followed after.
+But with unhurrying chase,
+And unperturbèd pace,
+Deliberate speed, majestic instancy,
+They beat—and a Voice beat
+More instant than the Feet—
+"All things betray thee, who betrayest Me." """,
+    },
+    # Michael Drayton — "Since there's no help" (1619, PD)
+    # Famous farewell sonnet. Clear, emotionally direct syntax — contrasts with baroque above.
+    # Hypothesis: should show LOWER class-breaking than Crashaw/Thompson
+    {
+        "title": "Since there's no help (Sonnet 61)",
+        "author": "Michael Drayton",
+        "year": 1619,
+        "era": "early_modern",
+        "text": """Since there's no help, come let us kiss and part;
+Nay, I have done, you get no more of me,
+And I am glad, yea glad with all my heart
+That thus so cleanly I myself can free;
+Shake hands forever, cancel all our vows,
+And when we meet at any time again,
+Be it not seen in either of our brows
+That we one jot of former love retain.
+Now at the last gasp of love's latest breath,
+When his pulse failing, passion speechless lies,
+When faith is kneeling by his bed of death,
+And innocence is closing up his eyes,
+Now if thou wouldst, when all have given him over,
+From death to life thou mightst him yet recover.""",
+    },
+    # Anne Bradstreet — "To My Dear and Loving Husband" (1678, PD)
+    # First major American poet. Puritan faith infuses domestic love poetry.
+    {
+        "title": "To My Dear and Loving Husband",
+        "author": "Anne Bradstreet",
+        "year": 1678,
+        "era": "early_modern",
+        "text": """If ever two were one, then surely we.
+If ever man were lov'd by wife, then thee.
+If ever wife was happy in a man,
+Compare with me, ye women, if you can.
+I prize thy love more than whole mines of gold,
+Or all the riches that the East doth hold.
+My love is such that rivers cannot quench,
+Nor ought but love from thee give recompense.
+Thy love is such I can no way repay;
+The heavens reward thee manifold, I pray.
+Then while we live, in love let's so persever,
+That when we live no more, we may live ever.""",
+    },
+    # Thomas Campion — "My Sweetest Lesbia" (1601, PD)
+    # Lute song: compressed, musical, classical allusion to Catullus
+    {
+        "title": "My Sweetest Lesbia",
+        "author": "Thomas Campion",
+        "year": 1601,
+        "era": "early_modern",
+        "text": """My sweetest Lesbia, let us live and love,
+And, though the sager sort our deeds reprove,
+Let us not weigh them. Heaven's great lamps do dive
+Into their west, and straight again revive;
+But, soon as once set is our little light,
+Then must we sleep one ever-during night.
+
+If all would lead their lives in love like me,
+Then bloody swords and armor should not be;
+No drum nor trumpet peaceful sleeps should move,
+Unless alarm came from the camp of love.
+But fools do live and waste their little light,
+And seek with pain their ever-during night.""",
+    },
+    # Samuel Daniel — "Care-charmer Sleep" (1592, PD)
+    # Petrarchan sonnet. Regular, formal, invocation-structure.
+    {
+        "title": "Care-charmer Sleep (Delia, Sonnet 54)",
+        "author": "Samuel Daniel",
+        "year": 1592,
+        "era": "early_modern",
+        "text": """Care-charmer Sleep, son of the sable Night,
+Brother to Death, in silent darkness born,
+Relieve my languish and restore the light;
+With dark forgetting of my care, return,
+And let the day be time enough to mourn
+The shipwreck of my ill-adventur'd youth;
+Let waking eyes suffice to wail their scorn
+Without the torment of the night's untruth.
+Cease, dreams, th' imagery of our day-desires,
+To model forth the passions of the morrow;
+Never let rising sun approve you liars
+To add more grief to aggravate my sorrow.
+Still let me sleep, embracing clouds in vain,
+And never wake to feel the day's disdain.""",
+    },
 ]
 
 # Quick stats
