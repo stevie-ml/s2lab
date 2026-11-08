@@ -1,0 +1,436 @@
+{
+  "n_poems_with_pairs": 49,
+  "n_total_pairs": 108,
+  "global_mean_lead_s2": 1.2943,
+  "global_mean_echo_s2": 1.8835,
+  "global_mean_decay": -0.5892,
+  "pct_positive_decay": 49.07,
+  "null_mean_decay": -0.5892,
+  "distance_vs_decay_r": 0.0732,
+  "era_summary": [
+    {
+      "era": "found_poetry",
+      "n_pairs": 5,
+      "mean_lead": 0.089,
+      "mean_echo": -1.45,
+      "mean_decay": 1.5389,
+      "pct_positive_decay": 60.0
+    },
+    {
+      "era": "ekphrastic",
+      "n_pairs": 10,
+      "mean_lead": 0.3114,
+      "mean_echo": -1.077,
+      "mean_decay": 1.3884,
+      "pct_positive_decay": 80.0
+    },
+    {
+      "era": "modernist",
+      "n_pairs": 17,
+      "mean_lead": 3.6365,
+      "mean_echo": 4.4809,
+      "mean_decay": -0.8444,
+      "pct_positive_decay": 41.18
+    },
+    {
+      "era": "victorian",
+      "n_pairs": 29,
+      "mean_lead": 1.1045,
+      "mean_echo": 2.3815,
+      "mean_decay": -1.277,
+      "pct_positive_decay": 51.72
+    },
+    {
+      "era": "mid_century",
+      "n_pairs": 6,
+      "mean_lead": -1.011,
+      "mean_echo": 0.7895,
+      "mean_decay": -1.8005,
+      "pct_positive_decay": 16.67
+    },
+    {
+      "era": "dramatic_monologue",
+      "n_pairs": 5,
+      "mean_lead": 2.8286,
+      "mean_echo": 4.8257,
+      "mean_decay": -1.9971,
+      "pct_positive_decay": 40.0
+    }
+  ],
+  "lead_s2_tier_decay": {
+    "very_low (<-4)": {
+      "n": 4,
+      "mean_echo_s2": 1.128,
+      "mean_decay": -6.239
+    },
+    "low (-4 to -1)": {
+      "n": 29,
+      "mean_echo_s2": 0.9814,
+      "mean_decay": -3.1366
+    },
+    "neutral (-1 to 1)": {
+      "n": 26,
+      "mean_echo_s2": 0.5709,
+      "mean_decay": -0.6662
+    },
+    "moderate (1-4)": {
+      "n": 27,
+      "mean_echo_s2": 3.1621,
+      "mean_decay": -0.7736
+    },
+    "high (4-8)": {
+      "n": 14,
+      "mean_echo_s2": 3.2222,
+      "mean_decay": 1.9599
+    },
+    "very_high (>8)": {
+      "n": 8,
+      "mean_echo_s2": 3.1388,
+      "mean_decay": 7.882
+    }
+  },
+  "top_decay_examples": [
+    {
+      "lead": "desolate",
+      "echo": "ate",
+      "lead_s2": 14.2536,
+      "echo_s2": -1.2696,
+      "decay": 15.523200000000001,
+      "distance": 2,
+      "author": "Oscar Wilde",
+      "title": "Theocritus: A Villanelle (opening quatrains)"
+    },
+    {
+      "lead": "breeding",
+      "echo": "stirring",
+      "lead_s2": 11.174,
+      "echo_s2": 2.3473,
+      "decay": 8.826699999999999,
+      "distance": 2,
+      "author": "T.S. Eliot",
+      "title": "The Waste Land (opening)"
+    },
+    {
+      "lead": "singing",
+      "echo": "morning",
+      "lead_s2": 11.3629,
+      "echo_s2": 2.5746,
+      "decay": 8.7883,
+      "distance": 1,
+      "author": "Kamau Brathwaite",
+      "title": "Calypso"
+    },
+    {
+      "lead": "circumstance",
+      "echo": "chance",
+      "lead_s2": 8.9178,
+      "echo_s2": 0.4995,
+      "decay": 8.4183,
+      "distance": 1,
+      "author": "William Ernest Henley",
+      "title": "Invictus"
+    },
+    {
+      "lead": "breeding",
+      "echo": "mixing",
+      "lead_s2": 11.174,
+      "echo_s2": 3.6046,
+      "decay": 7.5694,
+      "distance": 1,
+      "author": "T.S. Eliot",
+      "title": "The Waste Land (opening)"
+    },
+    {
+      "lead": "ebenen",
+      "echo": "sternen",
+      "lead_s2": 6.801,
+      "echo_s2": -0.6717,
+      "decay": 7.4727,
+      "distance": 5,
+      "author": "Georg Trakl",
+      "title": "Grodek"
+    },
+    {
+      "lead": "marches",
+      "echo": "ches",
+      "lead_s2": 5.4234,
+      "echo_s2": -1.9277,
+      "decay": 7.3511,
+      "distance": 1,
+      "author": "Georg Heym",
+      "title": "Umbra Vitae (trans. Hamburger)"
+    },
+    {
+      "lead": "fright",
+      "echo": "flight",
+      "lead_s2": 5.0235,
+      "echo_s2": -1.6754,
+      "decay": 6.6989,
+      "distance": 6,
+      "author": "Algernon Charles Swinburne",
+      "title": "Before the Mirror (stanzas 1-3)"
+    },
+    {
+      "lead": "skill",
+      "echo": "will",
+      "lead_s2": 5.7111,
+      "echo_s2": -0.8071,
+      "decay": 6.5182,
+      "distance": 1,
+      "author": "Robert Browning",
+      "title": "My Last Duchess (complete)"
+    },
+    {
+      "lead": "breeding",
+      "echo": "covering",
+      "lead_s2": 11.174,
+      "echo_s2": 4.9815,
+      "decay": 6.1925,
+      "distance": 3,
+      "author": "T.S. Eliot",
+      "title": "The Waste Land (opening)"
+    },
+    {
+      "lead": "went",
+      "echo": "bent",
+      "lead_s2": 8.9363,
+      "echo_s2": 3.1568,
+      "decay": 5.779499999999999,
+      "distance": 1,
+      "author": "Gerard Manley Hopkins",
+      "title": "God's Grandeur"
+    },
+    {
+      "lead": "present",
+      "echo": "prevent",
+      "lead_s2": 5.1017,
+      "echo_s2": 0.1845,
+      "decay": 4.9172,
+      "distance": 1,
+      "author": "John Milton",
+      "title": "On His Blindness"
+    },
+    {
+      "lead": "bent",
+      "echo": "prevent",
+      "lead_s2": 4.827,
+      "echo_s2": 0.1845,
+      "decay": 4.6425,
+      "distance": 2,
+      "author": "John Milton",
+      "title": "On His Blindness"
+    },
+    {
+      "lead": "late",
+      "echo": "ate",
+      "lead_s2": 4.4151,
+      "echo_s2": -0.0364,
+      "decay": 4.4515,
+      "distance": 2,
+      "author": "Wallace Stevens",
+      "title": "Sunday Morning (stanza 1)"
+    },
+    {
+      "lead": "bonds",
+      "echo": "hands",
+      "lead_s2": 2.4024,
+      "echo_s2": -1.6915,
+      "decay": 4.0939,
+      "distance": 2,
+      "author": "Anonymous (found text)",
+      "title": "The Double Helix (found poem from Watson)"
+    },
+    {
+      "lead": "wing",
+      "echo": "iding",
+      "lead_s2": 2.0606,
+      "echo_s2": -1.5072,
+      "decay": 3.5678,
+      "distance": 1,
+      "author": "Gerard Manley Hopkins",
+      "title": "The Windhover"
+    },
+    {
+      "lead": "something",
+      "echo": "itating",
+      "lead_s2": 2.4542,
+      "echo_s2": -0.7319,
+      "decay": 3.1861,
+      "distance": 5,
+      "author": "Ted Berrigan",
+      "title": "Personal Poem"
+    },
+    {
+      "lead": "gate",
+      "echo": "desolate",
+      "lead_s2": 7.0627,
+      "echo_s2": 4.039,
+      "decay": 3.0237000000000007,
+      "distance": 1,
+      "author": "Thomas Hardy",
+      "title": "The Darkling Thrush"
+    },
+    {
+      "lead": "boots",
+      "echo": "oots",
+      "lead_s2": 2.5205,
+      "echo_s2": -0.1199,
+      "decay": 2.6404,
+      "distance": 1,
+      "author": "Wilfred Owen",
+      "title": "Dulce et Decorum Est"
+    }
+  ],
+  "top_inverse_examples": [
+    {
+      "lead": "older",
+      "echo": "colder",
+      "lead_s2": 0.7937,
+      "echo_s2": 15.6109,
+      "decay": -14.817200000000001,
+      "distance": 1,
+      "author": "Gerard Manley Hopkins",
+      "title": "Spring and Fall: To a Young Child"
+    },
+    {
+      "lead": "live",
+      "echo": "revive",
+      "lead_s2": 2.9042,
+      "echo_s2": 13.6482,
+      "decay": -10.744,
+      "distance": 1,
+      "author": "Marianne Moore",
+      "title": "The Fish"
+    },
+    {
+      "lead": "wing",
+      "echo": "hiding",
+      "lead_s2": 2.0606,
+      "echo_s2": 9.6166,
+      "decay": -7.556,
+      "distance": 2,
+      "author": "Gerard Manley Hopkins",
+      "title": "The Windhover"
+    },
+    {
+      "lead": "perhaps",
+      "echo": "laps",
+      "lead_s2": 3.4785,
+      "echo_s2": 10.9834,
+      "decay": -7.504899999999999,
+      "distance": 1,
+      "author": "Robert Browning",
+      "title": "My Last Duchess (complete)"
+    },
+    {
+      "lead": "thanked",
+      "echo": "ranked",
+      "lead_s2": 5.0503,
+      "echo_s2": 12.4154,
+      "decay": -7.3651,
+      "distance": 1,
+      "author": "Robert Browning",
+      "title": "My Last Duchess (complete)"
+    },
+    {
+      "lead": "stirring",
+      "echo": "feeding",
+      "lead_s2": 2.3473,
+      "echo_s2": 9.2159,
+      "decay": -6.868599999999999,
+      "distance": 2,
+      "author": "T.S. Eliot",
+      "title": "The Waste Land (opening)"
+    },
+    {
+      "lead": "mixing",
+      "echo": "feeding",
+      "lead_s2": 3.6046,
+      "echo_s2": 9.2159,
+      "decay": -5.6113,
+      "distance": 3,
+      "author": "T.S. Eliot",
+      "title": "The Waste Land (opening)"
+    },
+    {
+      "lead": "covering",
+      "echo": "feeding",
+      "lead_s2": 4.9815,
+      "echo_s2": 9.2159,
+      "decay": -4.2344,
+      "distance": 1,
+      "author": "T.S. Eliot",
+      "title": "The Waste Land (opening)"
+    },
+    {
+      "lead": "where",
+      "echo": "there",
+      "lead_s2": 2.4243,
+      "echo_s2": 5.9752,
+      "decay": -3.5509,
+      "distance": 1,
+      "author": "Thomas Hardy",
+      "title": "The Oxen"
+    },
+    {
+      "lead": "hand",
+      "echo": "command",
+      "lead_s2": 1.367,
+      "echo_s2": 4.5557,
+      "decay": -3.1887,
+      "distance": 1,
+      "author": "Emma Lazarus",
+      "title": "The New Colossus"
+    },
+    {
+      "lead": "side",
+      "echo": "hide",
+      "lead_s2": 0.1784,
+      "echo_s2": 3.2148,
+      "decay": -3.0364,
+      "distance": 1,
+      "author": "Marianne Moore",
+      "title": "The Fish"
+    },
+    {
+      "lead": "humanity",
+      "echo": "adversity",
+      "lead_s2": 2.3782,
+      "echo_s2": 5.1156,
+      "decay": -2.7373999999999996,
+      "distance": 3,
+      "author": "Lawrence Ferlinghetti",
+      "title": "In Goya's greatest scenes"
+    },
+    {
+      "lead": "stirring",
+      "echo": "covering",
+      "lead_s2": 2.3473,
+      "echo_s2": 4.9815,
+      "decay": -2.6341999999999994,
+      "distance": 1,
+      "author": "T.S. Eliot",
+      "title": "The Waste Land (opening)"
+    },
+    {
+      "lead": "gray",
+      "echo": "stray",
+      "lead_s2": 4.5091,
+      "echo_s2": 6.6872,
+      "decay": -2.1780999999999997,
+      "distance": 2,
+      "author": "Edwin Arlington Robinson",
+      "title": "The House on the Hill"
+    },
+    {
+      "lead": "gray",
+      "echo": "stray",
+      "lead_s2": 4.5091,
+      "echo_s2": 6.6872,
+      "decay": -2.1780999999999997,
+      "distance": 2,
+      "author": "Edwin Arlington Robinson",
+      "title": "The House on the Hill"
+    }
+  ]
+}
