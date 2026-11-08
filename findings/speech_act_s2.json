@@ -1,0 +1,2160 @@
+{
+  "summary": {
+    "commissive": {
+      "n": 8,
+      "mean": 1.4828625,
+      "median": 1.6935,
+      "pos_pct": 75.0,
+      "max": 5.4122
+    },
+    "expressive": {
+      "n": 38,
+      "mean": 2.2066394736842105,
+      "median": 2.27395,
+      "pos_pct": 65.78947368421052,
+      "max": 12.0833
+    },
+    "declaration": {
+      "n": 31,
+      "mean": -0.2211645161290322,
+      "median": -0.6719,
+      "pos_pct": 38.70967741935484,
+      "max": 9.9373
+    },
+    "directive": {
+      "n": 44,
+      "mean": 2.2160727272727274,
+      "median": 2.60935,
+      "pos_pct": 70.45454545454545,
+      "max": 10.7017
+    },
+    "constative_mental": {
+      "n": 291,
+      "mean": -0.5431209621993127,
+      "median": -0.982,
+      "pos_pct": 38.144329896907216,
+      "max": 11.6806
+    },
+    "constative_action": {
+      "n": 625,
+      "mean": 0.5512776,
+      "median": -0.1672,
+      "pos_pct": 48.48,
+      "max": 13.0811
+    }
+  },
+  "top_examples": {
+    "commissive": [
+      {
+        "token": "promise",
+        "s2": 5.4122,
+        "surprisal": 11.6905,
+        "entropy": 6.2783,
+        "rank": 288,
+        "alternatives": [
+          {
+            "token": " be",
+            "prob": 0.2781306505203247
+          },
+          {
+            "token": " me",
+            "prob": 0.18447661399841309
+          },
+          {
+            "token": " have",
+            "prob": 0.04469830170273781
+          },
+          {
+            "token": " make",
+            "prob": 0.01779644750058651
+          },
+          {
+            "token": " us",
+            "prob": 0.012741371057927608
+          },
+          {
+            "token": " you",
+            "prob": 0.00817582942545414
+          },
+          {
+            "token": " change",
+            "prob": 0.007885024882853031
+          },
+          {
+            "token": " contradict",
+            "prob": 0.007430444937199354
+          },
+          {
+            "token": " the",
+            "prob": 0.007336429785937071
+          },
+          {
+            "token": " mean",
+            "prob": 0.007186410948634148
+          }
+        ],
+        "context_before": " that seems to",
+        "author": "John Ashbery",
+        "title": "The One Thing That Can Save America",
+        "era": "new_york_school"
+      },
+      {
+        "token": "pledge",
+        "s2": 4.6025,
+        "surprisal": 12.5683,
+        "entropy": 7.9658,
+        "rank": 607,
+        "alternatives": [
+          {
+            "token": " not",
+            "prob": 0.12092215567827225
+          },
+          {
+            "token": " drink",
+            "prob": 0.04727185517549515
+          },
+          {
+            "token": " never",
+            "prob": 0.0460965521633625
+          },
+          {
+            "token": " take",
+            "prob": 0.029666954651474953
+          },
+          {
+            "token": " give",
+            "prob": 0.026044724509119987
+          },
+          {
+            "token": " be",
+            "prob": 0.024813400581479073
+          },
+          {
+            "token": " do",
+            "prob": 0.01990894414484501
+          },
+          {
+            "token": " eat",
+            "prob": 0.01896422915160656
+          },
+          {
+            "token": " tell",
+            "prob": 0.01875673606991768
+          },
+          {
+            "token": " make",
+            "prob": 0.018218806013464928
+          }
+        ],
+        "context_before": "And I will",
+        "author": "Ben Jonson",
+        "title": "Song: To Celia",
+        "era": "early_modern"
+      },
+      {
+        "token": "offer",
+        "s2": 2.3826,
+        "surprisal": 11.3719,
+        "entropy": 8.9892,
+        "rank": 396,
+        "alternatives": [
+          {
+            "token": " make",
+            "prob": 0.04073556885123253
+          },
+          {
+            "token": " be",
+            "prob": 0.040706366300582886
+          },
+          {
+            "token": " get",
+            "prob": 0.03441944718360901
+          },
+          {
+            "token": " keep",
+            "prob": 0.030196674168109894
+          },
+          {
+            "token": " do",
+            "prob": 0.02397865243256092
+          },
+          {
+            "token": " find",
+            "prob": 0.014034617692232132
+          },
+          {
+            "token": " learn",
+            "prob": 0.011495343409478664
+          },
+          {
+            "token": " help",
+            "prob": 0.011230424977838993
+          },
+          {
+            "token": " write",
+            "prob": 0.009986108168959618
+          },
+          {
+            "token": " save",
+            "prob": 0.00954634789377451
+          }
+        ],
+        "context_before": "",
+        "author": "Layli Long Soldier",
+        "title": "Whereas (excerpt)",
+        "era": "contemporary"
+      },
+      {
+        "token": "commit",
+        "s2": 1.9785,
+        "surprisal": 10.7158,
+        "entropy": 8.7373,
+        "rank": 220,
+        "alternatives": [
+          {
+            "token": " the",
+            "prob": 0.17061050236225128
+          },
+          {
+            "token": " his",
+            "prob": 0.052275191992521286
+          },
+          {
+            "token": " a",
+            "prob": 0.02584376372396946
+          },
+          {
+            "token": " be",
+            "prob": 0.022712234407663345
+          },
+          {
+            "token": " my",
+            "prob": 0.022066250443458557
+          },
+          {
+            "token": " this",
+            "prob": 0.011301680468022823
+          },
+          {
+            "token": " that",
+            "prob": 0.009552103467285633
+          },
+          {
+            "token": " keep",
+            "prob": 0.007891771383583546
+          },
+          {
+            "token": " me",
+            "prob": 0.007628801744431257
+          },
+          {
+            "token": " all",
+            "prob": 0.007424160372465849
+          }
+        ],
+        "context_before": "",
+        "author": "W.B. Yeats",
+        "title": "A Dialogue of Self and Soul (Part I)",
+        "era": "modernist"
+      },
+      {
+        "token": "promise",
+        "s2": 1.4085,
+        "surprisal": 13.2275,
+        "entropy": 11.819,
+        "rank": 1551,
+        "alternatives": [
+          {
+            "token": " next",
+            "prob": 0.029102610424160957
+          },
+          {
+            "token": " same",
+            "prob": 0.010794504545629025
+          },
+          {
+            "token": " most",
+            "prob": 0.009863287210464478
+          },
+          {
+            "token": " fact",
+            "prob": 0.007632581517100334
+          },
+          {
+            "token": " other",
+            "prob": 0.0075548323802649975
+          },
+          {
+            "token": " whole",
+            "prob": 0.007122005335986614
+          },
+          {
+            "token": " conclusion",
+            "prob": 0.006509344559162855
+          },
+          {
+            "token": " worst",
+            "prob": 0.006055260542780161
+          },
+          {
+            "token": " question",
+            "prob": 0.005850540939718485
+          },
+          {
+            "token": " end",
+            "prob": 0.005821465514600277
+          }
+        ],
+        "context_before": "",
+        "author": "John Ashbery",
+        "title": "A Blessing in Disguise",
+        "era": "new_york_school"
+      },
+      {
+        "token": "vows",
+        "s2": 0.8483,
+        "surprisal": 11.4091,
+        "entropy": 10.5608,
+        "rank": 471,
+        "alternatives": [
+          {
+            "token": " life",
+            "prob": 0.03473315387964249
+          },
+          {
+            "token": " work",
+            "prob": 0.020803028717637062
+          },
+          {
+            "token": " works",
+            "prob": 0.018665792420506477
+          },
+          {
+            "token": " poems",
+            "prob": 0.015765130519866943
+          },
+          {
+            "token": " fame",
+            "prob": 0.009617786854505539
+          },
+          {
+            "token": " love",
+            "prob": 0.008449998684227467
+          },
+          {
+            "token": " words",
+            "prob": 0.007806628011167049
+          },
+          {
+            "token": " thoughts",
+            "prob": 0.007324701640754938
+          },
+          {
+            "token": " heart",
+            "prob": 0.007304555736482143
+          },
+          {
+            "token": " poetry",
+            "prob": 0.0069730873219668865
+          }
+        ],
+        "context_before": "",
+        "author": "Ben Jonson",
+        "title": "On My First Son",
+        "era": "elegy"
+      },
+      {
+        "token": "binds",
+        "s2": -0.8128,
+        "surprisal": 8.6687,
+        "entropy": 9.4815,
+        "rank": 66,
+        "alternatives": [
+          {
+            "token": " is",
+            "prob": 0.03840397670865059
+          },
+          {
+            "token": " we",
+            "prob": 0.026768192648887634
+          },
+          {
+            "token": " falls",
+            "prob": 0.02454514242708683
+          },
+          {
+            "token": " fell",
+            "prob": 0.0242388304322958
+          },
+          {
+            "token": " has",
+            "prob": 0.021049262955784798
+          },
+          {
+            "token": " the",
+            "prob": 0.017992442473769188
+          },
+          {
+            "token": " I",
+            "prob": 0.016423478722572327
+          },
+          {
+            "token": " hath",
+            "prob": 0.014291517436504364
+          },
+          {
+            "token": " he",
+            "prob": 0.012914462946355343
+          },
+          {
+            "token": " was",
+            "prob": 0.012541214935481548
+          }
+        ],
+        "context_before": "",
+        "author": "Percy Bysshe Shelley",
+        "title": "Adonais (stanzas I and II)",
+        "era": "elegy"
+      },
+      {
+        "token": "vows",
+        "s2": -3.9569,
+        "surprisal": 6.1004,
+        "entropy": 10.0573,
+        "rank": 4,
+        "alternatives": [
+          {
+            "token": " sins",
+            "prob": 0.06964315474033356
+          },
+          {
+            "token": " love",
+            "prob": 0.022371314465999603
+          },
+          {
+            "token": " troubles",
+            "prob": 0.01882302016019821
+          },
+          {
+            "token": " vows",
+            "prob": 0.014574294909834862
+          },
+          {
+            "token": " quarrel",
+            "prob": 0.011726600117981434
+          },
+          {
+            "token": " faults",
+            "prob": 0.011439234018325806
+          },
+          {
+            "token": " sorrow",
+            "prob": 0.011007299646735191
+          },
+          {
+            "token": " woes",
+            "prob": 0.01088146772235632
+          },
+          {
+            "token": " fears",
+            "prob": 0.009153193794190884
+          },
+          {
+            "token": " desires",
+            "prob": 0.00899686012417078
+          }
+        ],
+        "context_before": "",
+        "author": "Michael Drayton",
+        "title": "Since there's no help (Sonnet 61)",
+        "era": "early_modern"
+      }
+    ],
+    "expressive": [
+      {
+        "token": "abhor",
+        "s2": 12.0833,
+        "surprisal": 19.9925,
+        "entropy": 7.9092,
+        "rank": 9190,
+        "alternatives": [
+          {
+            "token": " going",
+            "prob": 0.07688801735639572
+          },
+          {
+            "token": " broken",
+            "prob": 0.061893537640571594
+          },
+          {
+            "token": " in",
+            "prob": 0.050086602568626404
+          },
+          {
+            "token": " a",
+            "prob": 0.042654138058423996
+          },
+          {
+            "token": " not",
+            "prob": 0.0345679447054863
+          },
+          {
+            "token": " gonna",
+            "prob": 0.028394928202033043
+          },
+          {
+            "token": " full",
+            "prob": 0.02150864154100418
+          },
+          {
+            "token": " beating",
+            "prob": 0.021377600729465485
+          },
+          {
+            "token": " heavy",
+            "prob": 0.019844038411974907
+          },
+          {
+            "token": " racing",
+            "prob": 0.01736992411315441
+          }
+        ],
+        "context_before": "",
+        "author": "Robert Browning",
+        "title": "Soliloquy of the Spanish Cloister",
+        "era": "dramatic_monologue"
+      },
+      {
+        "token": "celebrate",
+        "s2": 9.9925,
+        "surprisal": 16.0578,
+        "entropy": 6.0653,
+        "rank": 1251,
+        "alternatives": [
+          {
+            "token": ",",
+            "prob": 0.18792496621608734
+          },
+          {
+            "token": " to",
+            "prob": 0.08642449975013733
+          },
+          {
+            "token": " on",
+            "prob": 0.07688337564468384
+          },
+          {
+            "token": " here",
+            "prob": 0.0630570501089096
+          },
+          {
+            "token": " and",
+            "prob": 0.04976971447467804
+          },
+          {
+            "token": " hither",
+            "prob": 0.03722236305475235
+          },
+          {
+            "token": "\n",
+            "prob": 0.03369514271616936
+          },
+          {
+            "token": " now",
+            "prob": 0.026922179386019707
+          },
+          {
+            "token": " out",
+            "prob": 0.015523693524301052
+          },
+          {
+            "token": " with",
+            "prob": 0.015331370756030083
+          }
+        ],
+        "context_before": " hand; come",
+        "author": "Lucille Clifton",
+        "title": "Won't You Celebrate With Me",
+        "era": "spoken_word"
+      },
+      {
+        "token": "welcome",
+        "s2": 8.0286,
+        "surprisal": 13.5414,
+        "entropy": 5.5127,
+        "rank": 419,
+        "alternatives": [
+          {
+            "token": ",",
+            "prob": 0.37443655729293823
+          },
+          {
+            "token": " the",
+            "prob": 0.07524482160806656
+          },
+          {
+            "token": ".",
+            "prob": 0.0519847497344017
+          },
+          {
+            "token": " and",
+            "prob": 0.04143131151795387
+          },
+          {
+            "token": " in",
+            "prob": 0.02907172217965126
+          },
+          {
+            "token": ";",
+            "prob": 0.02520943619310856
+          },
+          {
+            "token": " with",
+            "prob": 0.02481083758175373
+          },
+          {
+            "token": ":",
+            "prob": 0.019913872703909874
+          },
+          {
+            "token": " as",
+            "prob": 0.01522220391780138
+          },
+          {
+            "token": " like",
+            "prob": 0.013494359329342842
+          }
+        ],
+        "context_before": "",
+        "author": "Emma Lazarus",
+        "title": "The New Colossus",
+        "era": "protest_political"
+      },
+      {
+        "token": "praise",
+        "s2": 6.4687,
+        "surprisal": 18.2272,
+        "entropy": 11.7585,
+        "rank": 21612,
+        "alternatives": [
+          {
+            "token": " the",
+            "prob": 0.017860030755400658
+          },
+          {
+            "token": " I",
+            "prob": 0.016098305583000183
+          },
+          {
+            "token": " a",
+            "prob": 0.015175778418779373
+          },
+          {
+            "token": " and",
+            "prob": 0.013409345410764217
+          },
+          {
+            "token": " you",
+            "prob": 0.008490397594869137
+          },
+          {
+            "token": " who",
+            "prob": 0.008435000665485859
+          },
+          {
+            "token": " which",
+            "prob": 0.008407887071371078
+          },
+          {
+            "token": "\n",
+            "prob": 0.007782078348100185
+          },
+          {
+            "token": " it",
+            "prob": 0.007340262643992901
+          },
+          {
+            "token": " R",
+            "prob": 0.006720045115798712
+          }
+        ],
+        "context_before": ",",
+        "author": "Anonymous (trans. Francis B. Gummere)",
+        "title": "Beowulf (opening, trans. Gummere)",
+        "era": "ancient"
+      },
+      {
+        "token": "praise",
+        "s2": 6.4687,
+        "surprisal": 18.2272,
+        "entropy": 11.7585,
+        "rank": 21612,
+        "alternatives": [
+          {
+            "token": " the",
+            "prob": 0.017860030755400658
+          },
+          {
+            "token": " I",
+            "prob": 0.016098305583000183
+          },
+          {
+            "token": " a",
+            "prob": 0.015175778418779373
+          },
+          {
+            "token": " and",
+            "prob": 0.013409345410764217
+          },
+          {
+            "token": " you",
+            "prob": 0.008490397594869137
+          },
+          {
+            "token": " who",
+            "prob": 0.008435000665485859
+          },
+          {
+            "token": " which",
+            "prob": 0.008407887071371078
+          },
+          {
+            "token": "\n",
+            "prob": 0.007782078348100185
+          },
+          {
+            "token": " it",
+            "prob": 0.007340262643992901
+          },
+          {
+            "token": " R",
+            "prob": 0.006720045115798712
+          }
+        ],
+        "context_before": ",",
+        "author": "Anonymous (trans. Hall)",
+        "title": "Beowulf: The Opening (Hall translation, 1892)",
+        "era": "old_english"
+      },
+      {
+        "token": "Thank",
+        "s2": 6.3262,
+        "surprisal": 12.8785,
+        "entropy": 6.5522,
+        "rank": 414,
+        "alternatives": [
+          {
+            "token": "I",
+            "prob": 0.15820614993572235
+          },
+          {
+            "token": "They",
+            "prob": 0.1058545932173729
+          },
+          {
+            "token": "And",
+            "prob": 0.08042861521244049
+          },
+          {
+            "token": "But",
+            "prob": 0.033257585018873215
+          },
+          {
+            "token": "The",
+            "prob": 0.03057410754263401
+          },
+          {
+            "token": "My",
+            "prob": 0.023327263072133064
+          },
+          {
+            "token": "Now",
+            "prob": 0.019640378654003143
+          },
+          {
+            "token": "Their",
+            "prob": 0.01866663433611393
+          },
+          {
+            "token": "In",
+            "prob": 0.018048206344246864
+          },
+          {
+            "token": "When",
+            "prob": 0.016971025615930557
+          }
+        ],
+        "context_before": "",
+        "author": "Thomas Wyatt",
+        "title": "They Flee from Me",
+        "era": "early_modern"
+      },
+      {
+        "token": "celebrate",
+        "s2": 5.1368,
+        "surprisal": 11.6851,
+        "entropy": 6.5483,
+        "rank": 195,
+        "alternatives": [
+          {
+            "token": " think",
+            "prob": 0.12458857893943787
+          },
+          {
+            "token": " be",
+            "prob": 0.09915198385715485
+          },
+          {
+            "token": " see",
+            "prob": 0.04364537075161934
+          },
+          {
+            "token": " have",
+            "prob": 0.03752032294869423
+          },
+          {
+            "token": " like",
+            "prob": 0.036776088178157806
+          },
+          {
+            "token": " just",
+            "prob": 0.028478262946009636
+          },
+          {
+            "token": " agree",
+            "prob": 0.027317995205521584
+          },
+          {
+            "token": " want",
+            "prob": 0.027290914207696915
+          },
+          {
+            "token": " know",
+            "prob": 0.026447627693414688
+          },
+          {
+            "token": " say",
+            "prob": 0.025319430977106094
+          }
+        ],
+        "context_before": "",
+        "author": "Lucille Clifton",
+        "title": "Won't You Celebrate With Me",
+        "era": "spoken_word"
+      },
+      {
+        "token": "praise",
+        "s2": 4.8866,
+        "surprisal": 10.8302,
+        "entropy": 5.9436,
+        "rank": 146,
+        "alternatives": [
+          {
+            "token": " the",
+            "prob": 0.3677383065223694
+          },
+          {
+            "token": " heaven",
+            "prob": 0.07743402570486069
+          },
+          {
+            "token": " their",
+            "prob": 0.029324790462851524
+          },
+          {
+            "token": " sleep",
+            "prob": 0.026148157194256783
+          },
+          {
+            "token": " hell",
+            "prob": 0.023271385580301285
+          },
+          {
+            "token": " bed",
+            "prob": 0.021419474855065346
+          },
+          {
+            "token": " my",
+            "prob": 0.01947678066790104
+          },
+          {
+            "token": " pray",
+            "prob": 0.017896505072712898
+          },
+          {
+            "token": " a",
+            "prob": 0.010936742648482323
+          },
+          {
+            "token": " be",
+            "prob": 0.010483474470674992
+          }
+        ],
+        "context_before": "",
+        "author": "William Blake",
+        "title": "The Chimney Sweeper (Experience)",
+        "era": "romantic"
+      },
+      {
+        "token": "curse",
+        "s2": 4.6443,
+        "surprisal": 12.8924,
+        "entropy": 8.2481,
+        "rank": 583,
+        "alternatives": [
+          {
+            "token": "'s",
+            "prob": 0.0838172659277916
+          },
+          {
+            "token": ",",
+            "prob": 0.05780041590332985
+          },
+          {
+            "token": " bless",
+            "prob": 0.04641028866171837
+          },
+          {
+            "token": " knows",
+            "prob": 0.04101666435599327
+          },
+          {
+            "token": " be",
+            "prob": 0.020074287429451942
+          },
+          {
+            "token": " forbid",
+            "prob": 0.019273171201348305
+          },
+          {
+            "token": " save",
+            "prob": 0.016514422371983528
+          },
+          {
+            "token": " and",
+            "prob": 0.016250578686594963
+          },
+          {
+            "token": " was",
+            "prob": 0.01474830787628889
+          },
+          {
+            "token": "-",
+            "prob": 0.014662704430520535
+          }
+        ],
+        "context_before": "",
+        "author": "Robert Browning",
+        "title": "The Bishop Orders His Tomb at Saint Praxed's Church",
+        "era": "dramatic_monologue"
+      },
+      {
+        "token": "thanks",
+        "s2": 4.5741,
+        "surprisal": 11.2651,
+        "entropy": 6.691,
+        "rank": 127,
+        "alternatives": [
+          {
+            "token": " you",
+            "prob": 0.20653150975704193
+          },
+          {
+            "token": " the",
+            "prob": 0.08235525339841843
+          },
+          {
+            "token": " it",
+            "prob": 0.05991912633180618
+          },
+          {
+            "token": " a",
+            "prob": 0.05331187695264816
+          },
+          {
+            "token": " me",
+            "prob": 0.048472922295331955
+          },
+          {
+            "token": " us",
+            "prob": 0.04657045379281044
+          },
+          {
+            "token": " up",
+            "prob": 0.038955625146627426
+          },
+          {
+            "token": " him",
+            "prob": 0.0363045409321785
+          },
+          {
+            "token": " them",
+            "prob": 0.029087955132126808
+          },
+          {
+            "token": " this",
+            "prob": 0.013001199811697006
+          }
+        ],
+        "context_before": "",
+        "author": "Anonymous (KJV translation)",
+        "title": "Psalm 136 (KJV)",
+        "era": "biblical"
+      }
+    ],
+    "declaration": [
+      {
+        "token": "crown",
+        "s2": 9.9373,
+        "surprisal": 15.5039,
+        "entropy": 5.5666,
+        "rank": 832,
+        "alternatives": [
+          {
+            "token": " neck",
+            "prob": 0.14646421372890472
+          },
+          {
+            "token": " leg",
+            "prob": 0.11777712404727936
+          },
+          {
+            "token": " nose",
+            "prob": 0.07731736451387405
+          },
+          {
+            "token": " arm",
+            "prob": 0.065039724111557
+          },
+          {
+            "token": " ankle",
+            "prob": 0.053454115986824036
+          },
+          {
+            "token": " wrist",
+            "prob": 0.050379350781440735
+          },
+          {
+            "token": " hand",
+            "prob": 0.04177806153893471
+          },
+          {
+            "token": " collar",
+            "prob": 0.04033173993229866
+          },
+          {
+            "token": " right",
+            "prob": 0.033031269907951355
+          },
+          {
+            "token": " back",
+            "prob": 0.031040659174323082
+          }
+        ],
+        "context_before": "",
+        "author": "Traditional (English)",
+        "title": "Nursery Rhymes (compilation)",
+        "era": "nursery_rhyme"
+      },
+      {
+        "token": "declare",
+        "s2": 9.5475,
+        "surprisal": 17.5233,
+        "entropy": 7.9758,
+        "rank": 7398,
+        "alternatives": [
+          {
+            "token": "\n",
+            "prob": 0.17464959621429443
+          },
+          {
+            "token": " and",
+            "prob": 0.1056567132472992
+          },
+          {
+            "token": " the",
+            "prob": 0.03139356151223183
+          },
+          {
+            "token": " And",
+            "prob": 0.029660075902938843
+          },
+          {
+            "token": " that",
+            "prob": 0.02758997119963169
+          },
+          {
+            "token": " The",
+            "prob": 0.023785311728715897
+          },
+          {
+            "token": " or",
+            "prob": 0.013526534661650658
+          },
+          {
+            "token": " to",
+            "prob": 0.012264291755855083
+          },
+          {
+            "token": " by",
+            "prob": 0.012004801072180271
+          },
+          {
+            "token": " That",
+            "prob": 0.01190819963812828
+          }
+        ],
+        "context_before": "ickle fruit,",
+        "author": "Countee Cullen",
+        "title": "Yet Do I Marvel",
+        "era": "harlem_renaissance"
+      },
+      {
+        "token": "declare",
+        "s2": 7.259,
+        "surprisal": 12.5388,
+        "entropy": 5.2798,
+        "rank": 263,
+        "alternatives": [
+          {
+            "token": ",",
+            "prob": 0.28764456510543823
+          },
+          {
+            "token": ".",
+            "prob": 0.20162497460842133
+          },
+          {
+            "token": ";",
+            "prob": 0.052934370934963226
+          },
+          {
+            "token": ":",
+            "prob": 0.049326710402965546
+          },
+          {
+            "token": "\n",
+            "prob": 0.03512495383620262
+          },
+          {
+            "token": " of",
+            "prob": 0.029312418773770332
+          },
+          {
+            "token": " in",
+            "prob": 0.02350848913192749
+          },
+          {
+            "token": " before",
+            "prob": 0.019480302929878235
+          },
+          {
+            "token": " and",
+            "prob": 0.01098480075597763
+          },
+          {
+            "token": "\u2014",
+            "prob": 0.008994651027023792
+          }
+        ],
+        "context_before": "",
+        "author": "John Keats",
+        "title": "The Eve of St. Agnes (stanzas 1-5)",
+        "era": "romantic"
+      },
+      {
+        "token": "declare",
+        "s2": 5.4039,
+        "surprisal": 11.0976,
+        "entropy": 5.6937,
+        "rank": 155,
+        "alternatives": [
+          {
+            "token": " and",
+            "prob": 0.21098092198371887
+          },
+          {
+            "token": " are",
+            "prob": 0.20123186707496643
+          },
+          {
+            "token": ",",
+            "prob": 0.08052963763475418
+          },
+          {
+            "token": " were",
+            "prob": 0.05673148110508919
+          },
+          {
+            "token": " have",
+            "prob": 0.04651781544089317
+          },
+          {
+            "token": " will",
+            "prob": 0.02733618952333927
+          },
+          {
+            "token": " opened",
+            "prob": 0.01829170249402523
+          },
+          {
+            "token": ".",
+            "prob": 0.007901329547166824
+          },
+          {
+            "token": " had",
+            "prob": 0.007765252608805895
+          },
+          {
+            "token": " may",
+            "prob": 0.006700452882796526
+          }
+        ],
+        "context_before": " heavens",
+        "author": "Anonymous (Hebrew Bible)",
+        "title": "Psalm 19:1-6 (KJV)",
+        "era": "biblical"
+      },
+      {
+        "token": "name",
+        "s2": 4.767,
+        "surprisal": 13.498,
+        "entropy": 8.731,
+        "rank": 970,
+        "alternatives": [
+          {
+            "token": " the",
+            "prob": 0.2007276713848114
+          },
+          {
+            "token": " I",
+            "prob": 0.03686835989356041
+          },
+          {
+            "token": " a",
+            "prob": 0.023429950699210167
+          },
+          {
+            "token": " there",
+            "prob": 0.019665976986289024
+          },
+          {
+            "token": " no",
+            "prob": 0.019104011356830597
+          },
+          {
+            "token": ",",
+            "prob": 0.017137795686721802
+          },
+          {
+            "token": " we",
+            "prob": 0.01693645492196083
+          },
+          {
+            "token": " all",
+            "prob": 0.016009686514735222
+          },
+          {
+            "token": " my",
+            "prob": 0.01239504013210535
+          },
+          {
+            "token": " it",
+            "prob": 0.011547631584107876
+          }
+        ],
+        "context_before": "",
+        "author": "Omar Khayyam (trans. FitzGerald, 1859)",
+        "title": "Rubaiyat of Omar Khayyam (stanzas 11\u201314)",
+        "era": "persian"
+      },
+      {
+        "token": "crown",
+        "s2": 4.3146,
+        "surprisal": 12.3197,
+        "entropy": 8.0051,
+        "rank": 517,
+        "alternatives": [
+          {
+            "token": " not",
+            "prob": 0.09671419113874435
+          },
+          {
+            "token": " appear",
+            "prob": 0.060501422733068466
+          },
+          {
+            "token": " shine",
+            "prob": 0.0542231909930706
+          },
+          {
+            "token": " see",
+            "prob": 0.03983309492468834
+          },
+          {
+            "token": " come",
+            "prob": 0.024496685713529587
+          },
+          {
+            "token": " be",
+            "prob": 0.0223245732486248
+          },
+          {
+            "token": " rise",
+            "prob": 0.02228543348610401
+          },
+          {
+            "token": " behold",
+            "prob": 0.01647844910621643
+          },
+          {
+            "token": "\n",
+            "prob": 0.01304328627884388
+          },
+          {
+            "token": " I",
+            "prob": 0.0127748167142272
+          }
+        ],
+        "context_before": "",
+        "author": "Thomas Traherne",
+        "title": "Wonder",
+        "era": "metaphysical"
+      },
+      {
+        "token": "name",
+        "s2": 3.9441,
+        "surprisal": 9.9284,
+        "entropy": 5.9843,
+        "rank": 71,
+        "alternatives": [
+          {
+            "token": " breath",
+            "prob": 0.4512682855129242
+          },
+          {
+            "token": " eyes",
+            "prob": 0.03563361614942551
+          },
+          {
+            "token": " heart",
+            "prob": 0.023818740621209145
+          },
+          {
+            "token": " life",
+            "prob": 0.019128093495965004
+          },
+          {
+            "token": " mind",
+            "prob": 0.013553090393543243
+          },
+          {
+            "token": " hand",
+            "prob": 0.012722629122436047
+          },
+          {
+            "token": " attention",
+            "prob": 0.009570411406457424
+          },
+          {
+            "token": " eye",
+            "prob": 0.009327552281320095
+          },
+          {
+            "token": " head",
+            "prob": 0.008069983683526516
+          },
+          {
+            "token": " back",
+            "prob": 0.007628915831446648
+          }
+        ],
+        "context_before": "took my",
+        "author": "Richard Wright",
+        "title": "Nobody (Wright)",
+        "era": "haiku"
+      },
+      {
+        "token": "name",
+        "s2": 3.2886,
+        "surprisal": 11.5794,
+        "entropy": 8.2909,
+        "rank": 378,
+        "alternatives": [
+          {
+            "token": " had",
+            "prob": 0.1441219300031662
+          },
+          {
+            "token": " of",
+            "prob": 0.06681665778160095
+          },
+          {
+            "token": ",",
+            "prob": 0.023375891149044037
+          },
+          {
+            "token": " have",
+            "prob": 0.019480839371681213
+          },
+          {
+            "token": "\n",
+            "prob": 0.018863189965486526
+          },
+          {
+            "token": " once",
+            "prob": 0.018303904682397842
+          },
+          {
+            "token": " and",
+            "prob": 0.018232544884085655
+          },
+          {
+            "token": " would",
+            "prob": 0.015876401215791702
+          },
+          {
+            "token": " gave",
+            "prob": 0.015584775246679783
+          },
+          {
+            "token": " were",
+            "prob": 0.015583823435008526
+          }
+        ],
+        "context_before": "",
+        "author": "Edgar Allan Poe",
+        "title": "The Raven (opening stanzas)",
+        "era": "19th_century"
+      },
+      {
+        "token": "name",
+        "s2": 3.2505,
+        "surprisal": 12.438,
+        "entropy": 9.1875,
+        "rank": 690,
+        "alternatives": [
+          {
+            "token": " let",
+            "prob": 0.05293970927596092
+          },
+          {
+            "token": " to",
+            "prob": 0.026710081845521927
+          },
+          {
+            "token": " cry",
+            "prob": 0.025949006900191307
+          },
+          {
+            "token": ",",
+            "prob": 0.019828058779239655
+          },
+          {
+            "token": " say",
+            "prob": 0.019123820587992668
+          },
+          {
+            "token": " shall",
+            "prob": 0.01748005300760269
+          },
+          {
+            "token": " do",
+            "prob": 0.017153862863779068
+          },
+          {
+            "token": " weep",
+            "prob": 0.014205112121999264
+          },
+          {
+            "token": " be",
+            "prob": 0.011430860497057438
+          },
+          {
+            "token": " she",
+            "prob": 0.01120728813111782
+          }
+        ],
+        "context_before": "",
+        "author": "Dante Gabriel Rossetti",
+        "title": "For a Venetian Pastoral by Giorgione",
+        "era": "ekphrastic"
+      },
+      {
+        "token": "declare",
+        "s2": 2.762,
+        "surprisal": 11.2141,
+        "entropy": 8.4521,
+        "rank": 300,
+        "alternatives": [
+          {
+            "token": " say",
+            "prob": 0.09112969040870667
+          },
+          {
+            "token": " speak",
+            "prob": 0.05096569284796715
+          },
+          {
+            "token": ",",
+            "prob": 0.04004557058215141
+          },
+          {
+            "token": " cry",
+            "prob": 0.031198468059301376
+          },
+          {
+            "token": ".",
+            "prob": 0.021977340802550316
+          },
+          {
+            "token": " in",
+            "prob": 0.014850545674562454
+          },
+          {
+            "token": " talk",
+            "prob": 0.013893968425691128
+          },
+          {
+            "token": " sing",
+            "prob": 0.01339272502809763
+          },
+          {
+            "token": " grow",
+            "prob": 0.013362309895455837
+          },
+          {
+            "token": " saying",
+            "prob": 0.012921784073114395
+          }
+        ],
+        "context_before": "",
+        "author": "Lewis Carroll",
+        "title": "'Tis the Voice of the Lobster",
+        "era": "parody"
+      }
+    ],
+    "directive": [
+      {
+        "token": "commands",
+        "s2": 10.7017,
+        "surprisal": 15.6818,
+        "entropy": 4.98,
+        "rank": 954,
+        "alternatives": [
+          {
+            "token": "\n",
+            "prob": 0.28081756830215454
+          },
+          {
+            "token": " her",
+            "prob": 0.2111973613500595
+          },
+          {
+            "token": " it",
+            "prob": 0.08038747310638428
+          },
+          {
+            "token": " a",
+            "prob": 0.026080476120114326
+          },
+          {
+            "token": " up",
+            "prob": 0.025413036346435547
+          },
+          {
+            "token": " my",
+            "prob": 0.02491180971264839
+          },
+          {
+            "token": ",",
+            "prob": 0.017868168652057648
+          },
+          {
+            "token": " no",
+            "prob": 0.017727628350257874
+          },
+          {
+            "token": " to",
+            "prob": 0.017484772950410843
+          },
+          {
+            "token": " you",
+            "prob": 0.016243726015090942
+          }
+        ],
+        "context_before": "; I gave",
+        "author": "Robert Browning",
+        "title": "My Last Duchess (complete)",
+        "era": "dramatic_monologue"
+      },
+      {
+        "token": "call",
+        "s2": 9.8455,
+        "surprisal": 14.3106,
+        "entropy": 4.4651,
+        "rank": 743,
+        "alternatives": [
+          {
+            "token": " Laura",
+            "prob": 0.45066946744918823
+          },
+          {
+            "token": " said",
+            "prob": 0.19854368269443512
+          },
+          {
+            "token": " she",
+            "prob": 0.06862376630306244
+          },
+          {
+            "token": " the",
+            "prob": 0.013315914198756218
+          },
+          {
+            "token": " cried",
+            "prob": 0.011043324135243893
+          },
+          {
+            "token": " L",
+            "prob": 0.009105917997658253
+          },
+          {
+            "token": " whispered",
+            "prob": 0.0068738218396902084
+          },
+          {
+            "token": " replied",
+            "prob": 0.005069637205451727
+          },
+          {
+            "token": " answered",
+            "prob": 0.004883799236267805
+          },
+          {
+            "token": " came",
+            "prob": 0.0043234070762991905
+          }
+        ],
+        "context_before": "Come buy,\"",
+        "author": "Christina Rossetti",
+        "title": "Goblin Market (opening stanzas)",
+        "era": "victorian"
+      },
+      {
+        "token": "summon",
+        "s2": 8.4714,
+        "surprisal": 16.3349,
+        "entropy": 7.8635,
+        "rank": 2193,
+        "alternatives": [
+          {
+            "token": " am",
+            "prob": 0.06523014605045319
+          },
+          {
+            "token": "'m",
+            "prob": 0.05798768624663353
+          },
+          {
+            "token": " have",
+            "prob": 0.04319680854678154
+          },
+          {
+            "token": " AM",
+            "prob": 0.029502196237444878
+          },
+          {
+            "token": " was",
+            "prob": 0.023088796064257622
+          },
+          {
+            "token": " will",
+            "prob": 0.022382525727152824
+          },
+          {
+            "token": "'ve",
+            "prob": 0.020829569548368454
+          },
+          {
+            "token": " don",
+            "prob": 0.020477088168263435
+          },
+          {
+            "token": " want",
+            "prob": 0.01922089420258999
+          },
+          {
+            "token": " know",
+            "prob": 0.016442257910966873
+          }
+        ],
+        "context_before": "",
+        "author": "W.B. Yeats",
+        "title": "A Dialogue of Self and Soul (Part I)",
+        "era": "modernist"
+      },
+      {
+        "token": "bid",
+        "s2": 7.695,
+        "surprisal": 15.035,
+        "entropy": 7.34,
+        "rank": 1623,
+        "alternatives": [
+          {
+            "token": " the",
+            "prob": 0.28129932284355164
+          },
+          {
+            "token": " you",
+            "prob": 0.054985228925943375
+          },
+          {
+            "token": "\n",
+            "prob": 0.032164737582206726
+          },
+          {
+            "token": " I",
+            "prob": 0.02620006911456585
+          },
+          {
+            "token": " then",
+            "prob": 0.022744787856936455
+          },
+          {
+            "token": " let",
+            "prob": 0.01290916372090578
+          },
+          {
+            "token": " it",
+            "prob": 0.012614067643880844
+          },
+          {
+            "token": " your",
+            "prob": 0.011995723471045494
+          },
+          {
+            "token": " he",
+            "prob": 0.011913820169866085
+          },
+          {
+            "token": " we",
+            "prob": 0.010258764028549194
+          }
+        ],
+        "context_before": "",
+        "author": "Wallace Stevens",
+        "title": "The Emperor of Ice-Cream",
+        "era": "modernist"
+      },
+      {
+        "token": "demand",
+        "s2": 6.5196,
+        "surprisal": 14.5994,
+        "entropy": 8.0798,
+        "rank": 1255,
+        "alternatives": [
+          {
+            "token": " be",
+            "prob": 0.12548419833183289
+          },
+          {
+            "token": " the",
+            "prob": 0.03684007748961449
+          },
+          {
+            "token": " me",
+            "prob": 0.03442712500691414
+          },
+          {
+            "token": " you",
+            "prob": 0.025901252403855324
+          },
+          {
+            "token": " see",
+            "prob": 0.024929145351052284
+          },
+          {
+            "token": " have",
+            "prob": 0.022730650380253792
+          },
+          {
+            "token": " say",
+            "prob": 0.02237943932414055
+          },
+          {
+            "token": " think",
+            "prob": 0.018138224259018898
+          },
+          {
+            "token": " live",
+            "prob": 0.015191517770290375
+          },
+          {
+            "token": " go",
+            "prob": 0.014868846163153648
+          }
+        ],
+        "context_before": " OK. To",
+        "author": "John Ashbery",
+        "title": "And Ut Pictura Poesis Is Her Name",
+        "era": "new_york_school"
+      },
+      {
+        "token": "beg",
+        "s2": 6.2374,
+        "surprisal": 14.3968,
+        "entropy": 8.1594,
+        "rank": 1271,
+        "alternatives": [
+          {
+            "token": ",",
+            "prob": 0.13627658784389496
+          },
+          {
+            "token": " of",
+            "prob": 0.06024856120347977
+          },
+          {
+            "token": " came",
+            "prob": 0.0434596873819828
+          },
+          {
+            "token": "\u2014",
+            "prob": 0.028681082651019096
+          },
+          {
+            "token": " flew",
+            "prob": 0.022696740925312042
+          },
+          {
+            "token": "'s",
+            "prob": 0.015296343713998795
+          },
+          {
+            "token": " rose",
+            "prob": 0.015147460624575615
+          },
+          {
+            "token": " was",
+            "prob": 0.014864006079733372
+          },
+          {
+            "token": " I",
+            "prob": 0.014299591071903706
+          },
+          {
+            "token": " that",
+            "prob": 0.013993515633046627
+          }
+        ],
+        "context_before": "",
+        "author": "Edgar Allan Poe",
+        "title": "The Raven (opening stanzas)",
+        "era": "19th_century"
+      },
+      {
+        "token": "plead",
+        "s2": 5.8652,
+        "surprisal": 15.0546,
+        "entropy": 9.1894,
+        "rank": 2195,
+        "alternatives": [
+          {
+            "token": " fall",
+            "prob": 0.07232506573200226
+          },
+          {
+            "token": " are",
+            "prob": 0.06569314748048782
+          },
+          {
+            "token": " have",
+            "prob": 0.025196293368935585
+          },
+          {
+            "token": " come",
+            "prob": 0.01382160559296608
+          },
+          {
+            "token": " rise",
+            "prob": 0.01356192585080862
+          },
+          {
+            "token": " lie",
+            "prob": 0.013183638453483582
+          },
+          {
+            "token": " do",
+            "prob": 0.009802332147955894
+          },
+          {
+            "token": " go",
+            "prob": 0.009447691030800343
+          },
+          {
+            "token": " I",
+            "prob": 0.008728157728910446
+          },
+          {
+            "token": " grow",
+            "prob": 0.008036156184971333
+          }
+        ],
+        "context_before": "",
+        "author": "Algernon Charles Swinburne",
+        "title": "Before the Mirror (stanzas 1-3)",
+        "era": "ekphrastic"
+      },
+      {
+        "token": "command",
+        "s2": 5.722,
+        "surprisal": 14.0392,
+        "entropy": 8.3172,
+        "rank": 1477,
+        "alternatives": [
+          {
+            "token": ",",
+            "prob": 0.23103578388690948
+          },
+          {
+            "token": "ness",
+            "prob": 0.02927290089428425
+          },
+          {
+            "token": " air",
+            "prob": 0.0273697841912508
+          },
+          {
+            "token": "-",
+            "prob": 0.027247484773397446
+          },
+          {
+            "token": " eyes",
+            "prob": 0.021450035274028778
+          },
+          {
+            "token": " and",
+            "prob": 0.02059873193502426
+          },
+          {
+            "token": ".",
+            "prob": 0.015800584107637405
+          },
+          {
+            "token": " lips",
+            "prob": 0.011414822190999985
+          },
+          {
+            "token": " breath",
+            "prob": 0.011264290660619736
+          },
+          {
+            "token": " blood",
+            "prob": 0.009718429297208786
+          }
+        ],
+        "context_before": "",
+        "author": "Percy Bysshe Shelley",
+        "title": "Ozymandias",
+        "era": "romantic"
+      },
+      {
+        "token": "bid",
+        "s2": 5.2987,
+        "surprisal": 13.238,
+        "entropy": 7.9393,
+        "rank": 801,
+        "alternatives": [
+          {
+            "token": " life",
+            "prob": 0.16568663716316223
+          },
+          {
+            "token": " death",
+            "prob": 0.07710084319114685
+          },
+          {
+            "token": " thou",
+            "prob": 0.04284307360649109
+          },
+          {
+            "token": " gave",
+            "prob": 0.03572170063853264
+          },
+          {
+            "token": " made",
+            "prob": 0.02844160608947277
+          },
+          {
+            "token": " you",
+            "prob": 0.013898713514208794
+          },
+          {
+            "token": " thy",
+            "prob": 0.013309581205248833
+          },
+          {
+            "token": " the",
+            "prob": 0.012060127221047878
+          },
+          {
+            "token": " immortality",
+            "prob": 0.011436783708631992
+          },
+          {
+            "token": " I",
+            "prob": 0.01122310757637024
+          }
+        ],
+        "context_before": "",
+        "author": "William Blake",
+        "title": "The Lamb",
+        "era": "romantic"
+      },
+      {
+        "token": "calls",
+        "s2": 5.1617,
+        "surprisal": 11.7307,
+        "entropy": 6.569,
+        "rank": 232,
+        "alternatives": [
+          {
+            "token": ",",
+            "prob": 0.17187988758087158
+          },
+          {
+            "token": " is",
+            "prob": 0.15146374702453613
+          },
+          {
+            "token": ".",
+            "prob": 0.064785897731781
+          },
+          {
+            "token": "\n",
+            "prob": 0.0510469414293766
+          },
+          {
+            "token": " has",
+            "prob": 0.03744545578956604
+          },
+          {
+            "token": " can",
+            "prob": 0.02790108136832714
+          },
+          {
+            "token": " was",
+            "prob": 0.02196037769317627
+          },
+          {
+            "token": ":",
+            "prob": 0.012639486230909824
+          },
+          {
+            "token": "'s",
+            "prob": 0.012004042975604534
+          },
+          {
+            "token": " and",
+            "prob": 0.010726666077971458
+          }
+        ],
+        "context_before": "",
+        "author": "Wis\u0142awa Szymborska",
+        "title": "Pi (Szymborska)",
+        "era": "contemporary"
+      }
+    ]
+  },
+  "suppressed_alternatives": [
+    {
+      "token": "the",
+      "count": 21
+    },
+    {
+      "token": ",",
+      "count": 19
+    },
+    {
+      "token": "",
+      "count": 11
+    },
+    {
+      "token": "name",
+      "count": 10
+    },
+    {
+      "token": "a",
+      "count": 9
+    },
+    {
+      "token": "are",
+      "count": 9
+    },
+    {
+      "token": "be",
+      "count": 8
+    },
+    {
+      "token": "have",
+      "count": 7
+    },
+    {
+      "token": "not",
+      "count": 6
+    },
+    {
+      "token": "is",
+      "count": 6
+    },
+    {
+      "token": "see",
+      "count": 6
+    },
+    {
+      "token": "word",
+      "count": 6
+    },
+    {
+      "token": "and",
+      "count": 6
+    },
+    {
+      "token": ".",
+      "count": 5
+    },
+    {
+      "token": "to",
+      "count": 5
+    },
+    {
+      "token": "I",
+      "count": 5
+    },
+    {
+      "token": "'m",
+      "count": 5
+    },
+    {
+      "token": "of",
+      "count": 5
+    },
+    {
+      "token": "say",
+      "count": 5
+    },
+    {
+      "token": "life",
+      "count": 4
+    }
+  ],
+  "first_person_counts": {
+    "constative_mental": 1,
+    "constative_action": 2,
+    "expressive": 0,
+    "directive": 1,
+    "declaration": 0,
+    "commissive": 1
+  }
+}
