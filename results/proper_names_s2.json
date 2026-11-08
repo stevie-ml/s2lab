@@ -1,0 +1,848 @@
+{
+  "category_summary": {
+    "PROPER_PERSON": {
+      "s2": {
+        "n": 103,
+        "mean": 1.3666,
+        "median": 0.5912,
+        "stdev": 4.9894
+      },
+      "surprisal": {
+        "n": 103,
+        "mean": 7.6054,
+        "median": 7.569,
+        "stdev": 5.4911
+      },
+      "entropy": {
+        "n": 103,
+        "mean": 6.2387,
+        "median": 6.5768,
+        "stdev": 3.0053
+      }
+    },
+    "PROPER_PLACE": {
+      "s2": {
+        "n": 39,
+        "mean": 2.0074,
+        "median": 1.4341,
+        "stdev": 4.4961
+      },
+      "surprisal": {
+        "n": 39,
+        "mean": 9.0897,
+        "median": 9.7534,
+        "stdev": 5.2699
+      },
+      "entropy": {
+        "n": 39,
+        "mean": 7.0823,
+        "median": 7.5601,
+        "stdev": 2.903
+      }
+    },
+    "PROPER_MYTHOLOGICAL": {
+      "s2": {
+        "n": 31,
+        "mean": 2.5759,
+        "median": 1.9039,
+        "stdev": 5.3693
+      },
+      "surprisal": {
+        "n": 31,
+        "mean": 9.5751,
+        "median": 10.7487,
+        "stdev": 5.9485
+      },
+      "entropy": {
+        "n": 31,
+        "mean": 6.9992,
+        "median": 7.5894,
+        "stdev": 3.1636
+      }
+    },
+    "PROPER_OTHER": {
+      "s2": {
+        "n": 938,
+        "mean": 2.6339,
+        "median": 2.1227,
+        "stdev": 5.0001
+      },
+      "surprisal": {
+        "n": 938,
+        "mean": 10.562,
+        "median": 10.872,
+        "stdev": 5.525
+      },
+      "entropy": {
+        "n": 938,
+        "mean": 7.9282,
+        "median": 8.4473,
+        "stdev": 2.7038
+      }
+    },
+    "COMMON_NOUN": {
+      "s2": {
+        "n": 25526,
+        "mean": 1.4688,
+        "median": 0.1311,
+        "stdev": 5.3402
+      },
+      "surprisal": {
+        "n": 25526,
+        "mean": 8.3322,
+        "median": 8.3385,
+        "stdev": 5.322
+      },
+      "entropy": {
+        "n": 25526,
+        "mean": 6.8634,
+        "median": 7.4756,
+        "stdev": 3.0947
+      }
+    },
+    "FUNCTION": {
+      "s2": {
+        "n": 15655,
+        "mean": -0.3862,
+        "median": -1.9107,
+        "stdev": 5.8459
+      },
+      "surprisal": {
+        "n": 15655,
+        "mean": 5.193,
+        "median": 4.1495,
+        "stdev": 4.7342
+      },
+      "entropy": {
+        "n": 15655,
+        "mean": 5.5792,
+        "median": 5.9906,
+        "stdev": 2.5832
+      }
+    },
+    "PUNCT": {
+      "s2": {
+        "n": 7060,
+        "mean": -1.6252,
+        "median": -2.0581,
+        "stdev": 2.6913
+      },
+      "surprisal": {
+        "n": 7060,
+        "mean": 3.2507,
+        "median": 2.5404,
+        "stdev": 2.6471
+      },
+      "entropy": {
+        "n": 7060,
+        "mean": 4.8759,
+        "median": 4.6636,
+        "stdev": 2.0799
+      }
+    }
+  },
+  "high_proper_density_poems": [
+    {
+      "title": "A Route of Evanescence",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "proper_count": 13,
+      "total_tokens": 57,
+      "proper_density": 0.22807017543859648,
+      "proper_avg_s2": 2.9979153846153848,
+      "common_avg_s2": -0.5917159090909091
+    },
+    {
+      "title": "Verkl\u00e4rter Herbst",
+      "author": "Georg Trakl",
+      "era": "german_expressionist",
+      "proper_count": 21,
+      "total_tokens": 105,
+      "proper_density": 0.2,
+      "proper_avg_s2": 1.1881857142857144,
+      "common_avg_s2": 0.6716035714285714
+    },
+    {
+      "title": "Grodek",
+      "author": "Georg Trakl",
+      "era": "german_expressionist",
+      "proper_count": 32,
+      "total_tokens": 189,
+      "proper_density": 0.1693121693121693,
+      "proper_avg_s2": 0.906109375,
+      "common_avg_s2": 0.3865445859872611
+    },
+    {
+      "title": "German narrative prose",
+      "author": "Control",
+      "era": "control",
+      "proper_count": 6,
+      "total_tokens": 36,
+      "proper_density": 0.16666666666666666,
+      "proper_avg_s2": -3.5001333333333333,
+      "common_avg_s2": -0.033990000000000034
+    },
+    {
+      "title": "Charlotte Mew",
+      "author": "Synthetic (clerihew test case)",
+      "era": "clerihew",
+      "proper_count": 4,
+      "total_tokens": 25,
+      "proper_density": 0.16,
+      "proper_avg_s2": 3.58995,
+      "common_avg_s2": 0.5902666666666667
+    },
+    {
+      "title": "William Topaz McGonagall",
+      "author": "Synthetic (clerihew test case)",
+      "era": "clerihew",
+      "proper_count": 4,
+      "total_tokens": 29,
+      "proper_density": 0.13793103448275862,
+      "proper_avg_s2": 8.634500000000001,
+      "common_avg_s2": 0.9242480000000001
+    },
+    {
+      "title": "Rubaiyat of Omar Khayyam (stanzas 11\u201314)",
+      "author": "Omar Khayyam (trans. FitzGerald, 1859)",
+      "era": "persian",
+      "proper_count": 25,
+      "total_tokens": 203,
+      "proper_density": 0.12315270935960591,
+      "proper_avg_s2": 2.032728,
+      "common_avg_s2": 0.6389376404494381
+    },
+    {
+      "title": "Because I could not stop for Death",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "proper_count": 25,
+      "total_tokens": 203,
+      "proper_density": 0.12315270935960591,
+      "proper_avg_s2": 2.519052,
+      "common_avg_s2": 0.18626067415730335
+    },
+    {
+      "title": "Rubaiyat of Omar Khayyam (stanzas 7\u201310)",
+      "author": "Omar Khayyam (trans. FitzGerald, 1859)",
+      "era": "persian",
+      "proper_count": 26,
+      "total_tokens": 212,
+      "proper_density": 0.12264150943396226,
+      "proper_avg_s2": 0.18403846153846154,
+      "common_avg_s2": 0.9688139784946236
+    },
+    {
+      "title": "Caedmon's Hymn (modern prose translation)",
+      "author": "Caedmon (trans. anon.)",
+      "era": "old_english",
+      "proper_count": 9,
+      "total_tokens": 78,
+      "proper_density": 0.11538461538461539,
+      "proper_avg_s2": 2.533211111111111,
+      "common_avg_s2": 0.05842753623188404
+    },
+    {
+      "title": "I heard a Fly buzz \u2014 when I died",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "proper_count": 16,
+      "total_tokens": 140,
+      "proper_density": 0.11428571428571428,
+      "proper_avg_s2": 3.3267,
+      "common_avg_s2": 0.6070064516129032
+    },
+    {
+      "title": "Edgar Allan Poe",
+      "author": "Synthetic (clerihew test case)",
+      "era": "clerihew",
+      "proper_count": 3,
+      "total_tokens": 27,
+      "proper_density": 0.1111111111111111,
+      "proper_avg_s2": -1.3834666666666666,
+      "common_avg_s2": 0.7104208333333334
+    },
+    {
+      "title": "Tell all the truth but tell it slant",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "proper_count": 6,
+      "total_tokens": 54,
+      "proper_density": 0.1111111111111111,
+      "proper_avg_s2": 3.4356166666666668,
+      "common_avg_s2": 0.71915625
+    },
+    {
+      "title": "Archaischer Torso Apollos",
+      "author": "Rainer Maria Rilke",
+      "era": "german_modernist",
+      "proper_count": 17,
+      "total_tokens": 156,
+      "proper_density": 0.10897435897435898,
+      "proper_avg_s2": 1.935494117647059,
+      "common_avg_s2": 0.4007589928057554
+    },
+    {
+      "title": "There Was a Young Lady Whose Nose",
+      "author": "Edward Lear",
+      "era": "limerick",
+      "proper_count": 4,
+      "total_tokens": 38,
+      "proper_density": 0.10526315789473684,
+      "proper_avg_s2": -0.7615250000000001,
+      "common_avg_s2": 0.18989411764705882
+    }
+  ],
+  "s2_lift_poems": [
+    {
+      "title": "Inversnaid",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "proper_count": 1,
+      "total_tokens": 197,
+      "proper_density": 0.005076142131979695,
+      "proper_avg_s2": 17.187,
+      "common_avg_s2": 0.5816994897959183,
+      "lift": 16.60530051020408
+    },
+    {
+      "title": "Anecdote of the Jar",
+      "author": "Wallace Stevens",
+      "era": "modernist",
+      "proper_count": 1,
+      "total_tokens": 67,
+      "proper_density": 0.014925373134328358,
+      "proper_avg_s2": 14.2032,
+      "common_avg_s2": 0.6848787878787879,
+      "lift": 13.518321212121213
+    },
+    {
+      "title": "Wet Casements",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "proper_count": 2,
+      "total_tokens": 77,
+      "proper_density": 0.025974025974025976,
+      "proper_avg_s2": 12.67305,
+      "common_avg_s2": 0.009313333333333328,
+      "lift": 12.663736666666667
+    },
+    {
+      "title": "Driving Toward the Lac Qui Parle River",
+      "author": "Robert Bly",
+      "era": "deep_image",
+      "proper_count": 1,
+      "total_tokens": 62,
+      "proper_density": 0.016129032258064516,
+      "proper_avg_s2": 12.6224,
+      "common_avg_s2": 0.047742622950819706,
+      "lift": 12.574657377049181
+    },
+    {
+      "title": "From Ten Thousand Lives: Three Portraits",
+      "author": "Ko Un (trans. Brother Anthony of Taiz\u00e9)",
+      "era": "korean_modernist",
+      "proper_count": 2,
+      "total_tokens": 112,
+      "proper_density": 0.017857142857142856,
+      "proper_avg_s2": 12.8957,
+      "common_avg_s2": 0.5282263636363637,
+      "lift": 12.367473636363636
+    },
+    {
+      "title": "Proverbs of Hell (excerpt from Marriage of Heaven and Hell)",
+      "author": "William Blake",
+      "era": "romantic",
+      "proper_count": 2,
+      "total_tokens": 258,
+      "proper_density": 0.007751937984496124,
+      "proper_avg_s2": 10.9908,
+      "common_avg_s2": -0.768911328125,
+      "lift": 11.759711328125
+    },
+    {
+      "title": "The World",
+      "author": "Henry Vaughan",
+      "era": "metaphysical",
+      "proper_count": 2,
+      "total_tokens": 147,
+      "proper_density": 0.013605442176870748,
+      "proper_avg_s2": 11.156649999999999,
+      "common_avg_s2": -0.357023448275862,
+      "lift": 11.513673448275862
+    },
+    {
+      "title": "Carmel Point",
+      "author": "Robinson Jeffers",
+      "era": "contemporary",
+      "proper_count": 2,
+      "total_tokens": 182,
+      "proper_density": 0.01098901098901099,
+      "proper_avg_s2": 11.11055,
+      "common_avg_s2": 0.4358511111111111,
+      "lift": 10.674698888888889
+    },
+    {
+      "title": "For a Venetian Pastoral by Giorgione",
+      "author": "Dante Gabriel Rossetti",
+      "era": "ekphrastic",
+      "proper_count": 1,
+      "total_tokens": 160,
+      "proper_density": 0.00625,
+      "proper_avg_s2": 10.3192,
+      "common_avg_s2": -0.14322641509433962,
+      "lift": 10.46242641509434
+    },
+    {
+      "title": "The Double Helix (found poem from Watson)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "proper_count": 1,
+      "total_tokens": 152,
+      "proper_density": 0.006578947368421052,
+      "proper_avg_s2": 10.7497,
+      "common_avg_s2": 0.6177423841059603,
+      "lift": 10.13195761589404
+    },
+    {
+      "title": "Spring and Fall: To a Young Child",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "proper_count": 2,
+      "total_tokens": 164,
+      "proper_density": 0.012195121951219513,
+      "proper_avg_s2": 9.6999,
+      "common_avg_s2": 0.02859012345679011,
+      "lift": 9.671309876543209
+    },
+    {
+      "title": "How Doth the Little Busy Bee",
+      "author": "Isaac Watts",
+      "era": "parody_original",
+      "proper_count": 1,
+      "total_tokens": 128,
+      "proper_density": 0.0078125,
+      "proper_avg_s2": 10.9016,
+      "common_avg_s2": 1.250208661417323,
+      "lift": 9.651391338582677
+    },
+    {
+      "title": "Lady Lazarus (opening)",
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "proper_count": 1,
+      "total_tokens": 57,
+      "proper_density": 0.017543859649122806,
+      "proper_avg_s2": 10.3505,
+      "common_avg_s2": 1.254217857142857,
+      "lift": 9.096282142857143
+    },
+    {
+      "title": "Ode to a Nightingale (stanza 1)",
+      "author": "John Keats",
+      "era": "romantic",
+      "proper_count": 2,
+      "total_tokens": 116,
+      "proper_density": 0.017241379310344827,
+      "proper_avg_s2": 8.5274,
+      "common_avg_s2": -0.5185543859649123,
+      "lift": 9.045954385964912
+    },
+    {
+      "title": "There Was a Young Lady of Niger",
+      "author": "Anonymous",
+      "era": "limerick",
+      "proper_count": 1,
+      "total_tokens": 39,
+      "proper_density": 0.02564102564102564,
+      "proper_avg_s2": 8.4957,
+      "common_avg_s2": -0.42433157894736845,
+      "lift": 8.920031578947368
+    },
+    {
+      "title": "After a Journey",
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "proper_count": 1,
+      "total_tokens": 190,
+      "proper_density": 0.005263157894736842,
+      "proper_avg_s2": 9.8996,
+      "common_avg_s2": 0.9814492063492064,
+      "lift": 8.918150793650794
+    },
+    {
+      "title": "Soonest Mended",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "proper_count": 3,
+      "total_tokens": 82,
+      "proper_density": 0.036585365853658534,
+      "proper_avg_s2": 8.431733333333334,
+      "common_avg_s2": -0.42489367088607594,
+      "lift": 8.85662700421941
+    },
+    {
+      "title": "The Hollow Men (opening)",
+      "author": "T.S. Eliot",
+      "era": "modernist",
+      "proper_count": 1,
+      "total_tokens": 120,
+      "proper_density": 0.008333333333333333,
+      "proper_avg_s2": 8.8593,
+      "common_avg_s2": 0.14553529411764704,
+      "lift": 8.713764705882353
+    },
+    {
+      "title": "My Sweetest Lesbia",
+      "author": "Thomas Campion",
+      "era": "early_modern",
+      "proper_count": 1,
+      "total_tokens": 136,
+      "proper_density": 0.007352941176470588,
+      "proper_avg_s2": 9.6064,
+      "common_avg_s2": 1.0377429629629629,
+      "lift": 8.568657037037038
+    },
+    {
+      "title": "Possibilities",
+      "author": "Wislawa Szymborska",
+      "era": "contemporary",
+      "proper_count": 1,
+      "total_tokens": 128,
+      "proper_density": 0.0078125,
+      "proper_avg_s2": 7.8907,
+      "common_avg_s2": -0.3720590551181102,
+      "lift": 8.26275905511811
+    }
+  ],
+  "suppressed_alternatives": [
+    [
+      "the",
+      291
+    ],
+    [
+      ",",
+      172
+    ],
+    [
+      "I",
+      131
+    ],
+    [
+      "",
+      120
+    ],
+    [
+      "a",
+      114
+    ],
+    [
+      "and",
+      77
+    ],
+    [
+      ".",
+      40
+    ],
+    [
+      "my",
+      39
+    ],
+    [
+      "man",
+      35
+    ],
+    [
+      "'s",
+      33
+    ],
+    [
+      "his",
+      30
+    ],
+    [
+      "The",
+      28
+    ],
+    [
+      "God",
+      28
+    ],
+    [
+      "Lord",
+      28
+    ],
+    [
+      "of",
+      26
+    ],
+    [
+      "-",
+      24
+    ],
+    [
+      "And",
+      24
+    ],
+    [
+      "he",
+      22
+    ],
+    [
+      "world",
+      21
+    ],
+    [
+      "You",
+      19
+    ],
+    [
+      "her",
+      18
+    ],
+    [
+      "sun",
+      15
+    ],
+    [
+      "sea",
+      14
+    ],
+    [
+      "you",
+      14
+    ],
+    [
+      "men",
+      13
+    ],
+    [
+      "heart",
+      12
+    ],
+    [
+      "is",
+      12
+    ],
+    [
+      "William",
+      12
+    ],
+    [
+      "to",
+      11
+    ],
+    [
+      "our",
+      11
+    ]
+  ],
+  "suppressed_categories": {
+    "FUNCTION": 986,
+    "COMMON_NOUN": 1945,
+    "PUNCT": 282,
+    "OTHER": 120
+  },
+  "most_frequent_proper_names": [
+    [
+      "God",
+      43
+    ],
+    [
+      "Death",
+      12
+    ],
+    [
+      "Captain",
+      12
+    ],
+    [
+      "LORD",
+      10
+    ],
+    [
+      "Father",
+      10
+    ],
+    [
+      "Thursday",
+      9
+    ],
+    [
+      "And",
+      9
+    ],
+    [
+      "William",
+      9
+    ],
+    [
+      "Lord",
+      8
+    ],
+    [
+      "Lady",
+      8
+    ],
+    [
+      "Camel",
+      8
+    ],
+    [
+      "Shal",
+      8
+    ],
+    [
+      "Lamb",
+      7
+    ],
+    [
+      "Love",
+      7
+    ],
+    [
+      "Napoleon",
+      7
+    ],
+    [
+      "You",
+      6
+    ],
+    [
+      "Life",
+      6
+    ],
+    [
+      "The",
+      6
+    ],
+    [
+      "English",
+      6
+    ],
+    [
+      "Let",
+      5
+    ],
+    [
+      "England",
+      5
+    ],
+    [
+      "June",
+      5
+    ],
+    [
+      "Paris",
+      5
+    ],
+    [
+      "Pand",
+      5
+    ],
+    [
+      "Sir",
+      5
+    ],
+    [
+      "Him",
+      5
+    ],
+    [
+      "Red",
+      5
+    ],
+    [
+      "East",
+      5
+    ],
+    [
+      "His",
+      4
+    ],
+    [
+      "King",
+      4
+    ],
+    [
+      "Len",
+      4
+    ],
+    [
+      "Night",
+      4
+    ],
+    [
+      "Man",
+      4
+    ],
+    [
+      "They",
+      4
+    ],
+    [
+      "Patrick",
+      4
+    ],
+    [
+      "Johnny",
+      4
+    ],
+    [
+      "Shen",
+      4
+    ],
+    [
+      "Missouri",
+      4
+    ],
+    [
+      "West",
+      4
+    ],
+    [
+      "Heaven",
+      4
+    ],
+    [
+      "Light",
+      4
+    ],
+    [
+      "House",
+      4
+    ],
+    [
+      "For",
+      4
+    ],
+    [
+      "Israel",
+      4
+    ],
+    [
+      "Satan",
+      4
+    ],
+    [
+      "Time",
+      4
+    ],
+    [
+      "Garden",
+      4
+    ],
+    [
+      "Old",
+      4
+    ],
+    [
+      "Allan",
+      4
+    ],
+    [
+      "Poe",
+      4
+    ]
+  ]
+}
