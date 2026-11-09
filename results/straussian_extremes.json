@@ -1,0 +1,1949 @@
+{
+  "n_moments": 3156,
+  "suppressed_counts": {
+    "CONTENT_WORD": 988,
+    "FUNCTION_WORD": 1546,
+    "PUNCTUATION": 575,
+    "CONTRACTION": 47
+  },
+  "baseline_suppressed": {
+    "PUNCTUATION": 9323,
+    "FUNCTION_WORD": 20612,
+    "CONTENT_WORD": 23348,
+    "CONTRACTION": 690
+  },
+  "transition_matrix": {
+    "CONTENT_WORD": {
+      "OTHER_CONTENT": 832,
+      "PROPER_NOUN": 112,
+      "ACTION_VERB": 5,
+      "ABSTRACT": 14,
+      "CONCRETE_SENSORY": 22,
+      "COLLOQUIAL": 3
+    },
+    "FUNCTION_WORD": {
+      "ACTION_VERB": 3,
+      "ABSTRACT": 43,
+      "COLLOQUIAL": 5,
+      "OTHER_CONTENT": 1338,
+      "PROPER_NOUN": 133,
+      "CONCRETE_SENSORY": 24
+    },
+    "PUNCTUATION": {
+      "ACTION_VERB": 2,
+      "ABSTRACT": 6,
+      "OTHER_CONTENT": 511,
+      "PROPER_NOUN": 44,
+      "COLLOQUIAL": 1,
+      "CONCRETE_SENSORY": 11
+    },
+    "CONTRACTION": {
+      "ACTION_VERB": 2,
+      "OTHER_CONTENT": 42,
+      "PROPER_NOUN": 2,
+      "CONCRETE_SENSORY": 1
+    }
+  },
+  "era_stats": {
+    "german_symbolist": {
+      "n": 15,
+      "mean_s2": 8.605,
+      "max_s2": 23.395
+    },
+    "18th_century": {
+      "n": 99,
+      "mean_s2": 7.983,
+      "max_s2": 22.13
+    },
+    "victorian": {
+      "n": 327,
+      "mean_s2": 7.853,
+      "max_s2": 22.044
+    },
+    "dramatic_monologue": {
+      "n": 151,
+      "mean_s2": 8.117,
+      "max_s2": 20.977
+    },
+    "19th_century": {
+      "n": 185,
+      "mean_s2": 8.158,
+      "max_s2": 20.643
+    },
+    "mid_century": {
+      "n": 42,
+      "mean_s2": 8.206,
+      "max_s2": 20.586
+    },
+    "early_modern": {
+      "n": 126,
+      "mean_s2": 7.84,
+      "max_s2": 19.477
+    },
+    "clerihew": {
+      "n": 27,
+      "mean_s2": 9.259,
+      "max_s2": 18.408
+    },
+    "contemporary": {
+      "n": 175,
+      "mean_s2": 7.969,
+      "max_s2": 18.16
+    },
+    "prose_poetry": {
+      "n": 92,
+      "mean_s2": 7.794,
+      "max_s2": 18.16
+    },
+    "postcolonial": {
+      "n": 56,
+      "mean_s2": 7.742,
+      "max_s2": 18.059
+    },
+    "ballad": {
+      "n": 47,
+      "mean_s2": 8.038,
+      "max_s2": 17.954
+    },
+    "elegy": {
+      "n": 78,
+      "mean_s2": 8.128,
+      "max_s2": 17.478
+    },
+    "romantic": {
+      "n": 208,
+      "mean_s2": 8.369,
+      "max_s2": 17.245
+    },
+    "surrealist": {
+      "n": 59,
+      "mean_s2": 8.321,
+      "max_s2": 17.033
+    },
+    "new_york_school": {
+      "n": 146,
+      "mean_s2": 7.781,
+      "max_s2": 16.782
+    },
+    "haiku": {
+      "n": 19,
+      "mean_s2": 7.327,
+      "max_s2": 16.647
+    },
+    "beat": {
+      "n": 62,
+      "mean_s2": 8.401,
+      "max_s2": 16.559
+    },
+    "ekphrastic": {
+      "n": 98,
+      "mean_s2": 7.611,
+      "max_s2": 16.514
+    },
+    "korean_modernist": {
+      "n": 3,
+      "mean_s2": 12.419,
+      "max_s2": 16.069
+    },
+    "oulipo": {
+      "n": 86,
+      "mean_s2": 8.254,
+      "max_s2": 15.74
+    },
+    "metaphysical": {
+      "n": 48,
+      "mean_s2": 7.564,
+      "max_s2": 15.364
+    },
+    "modernist": {
+      "n": 173,
+      "mean_s2": 7.754,
+      "max_s2": 15.318
+    },
+    "fixed_form": {
+      "n": 45,
+      "mean_s2": 8.379,
+      "max_s2": 14.986
+    },
+    "confessional": {
+      "n": 25,
+      "mean_s2": 7.826,
+      "max_s2": 14.916
+    },
+    "biblical": {
+      "n": 67,
+      "mean_s2": 7.56,
+      "max_s2": 14.761
+    },
+    "language": {
+      "n": 32,
+      "mean_s2": 6.909,
+      "max_s2": 14.52
+    },
+    "classical_chinese": {
+      "n": 15,
+      "mean_s2": 8.395,
+      "max_s2": 14.488
+    },
+    "german_expressionist": {
+      "n": 73,
+      "mean_s2": 7.658,
+      "max_s2": 14.382
+    },
+    "harlem_renaissance": {
+      "n": 46,
+      "mean_s2": 7.719,
+      "max_s2": 14.315
+    },
+    "limerick": {
+      "n": 27,
+      "mean_s2": 7.199,
+      "max_s2": 14.177
+    },
+    "found_poetry": {
+      "n": 43,
+      "mean_s2": 7.971,
+      "max_s2": 14.054
+    },
+    "latin_american": {
+      "n": 27,
+      "mean_s2": 8.34,
+      "max_s2": 14.003
+    },
+    "imagist": {
+      "n": 19,
+      "mean_s2": 7.082,
+      "max_s2": 13.997
+    },
+    "old_english": {
+      "n": 38,
+      "mean_s2": 8.133,
+      "max_s2": 13.581
+    },
+    "villanelle": {
+      "n": 25,
+      "mean_s2": 8.185,
+      "max_s2": 13.182
+    },
+    "ghazal": {
+      "n": 17,
+      "mean_s2": 7.44,
+      "max_s2": 13.103
+    },
+    "double_dactyl": {
+      "n": 6,
+      "mean_s2": 8.102,
+      "max_s2": 13.079
+    },
+    "war_poetry": {
+      "n": 45,
+      "mean_s2": 7.293,
+      "max_s2": 12.967
+    },
+    "german_modernist": {
+      "n": 22,
+      "mean_s2": 7.42,
+      "max_s2": 12.929
+    },
+    "black_arts": {
+      "n": 10,
+      "mean_s2": 7.703,
+      "max_s2": 12.877
+    },
+    "cliche_control": {
+      "n": 23,
+      "mean_s2": 7.268,
+      "max_s2": 12.807
+    },
+    "deep_image": {
+      "n": 6,
+      "mean_s2": 7.373,
+      "max_s2": 12.622
+    },
+    "parody": {
+      "n": 49,
+      "mean_s2": 7.361,
+      "max_s2": 12.449
+    },
+    "nonsense": {
+      "n": 24,
+      "mean_s2": 7.258,
+      "max_s2": 12.332
+    },
+    "rondeau": {
+      "n": 10,
+      "mean_s2": 8.728,
+      "max_s2": 12.287
+    },
+    "pantoum": {
+      "n": 11,
+      "mean_s2": 7.481,
+      "max_s2": 11.157
+    },
+    "parody_original": {
+      "n": 25,
+      "mean_s2": 7.206,
+      "max_s2": 10.902
+    },
+    "song_lyrics": {
+      "n": 26,
+      "mean_s2": 7.375,
+      "max_s2": 10.858
+    },
+    "persian": {
+      "n": 15,
+      "mean_s2": 7.118,
+      "max_s2": 10.809
+    },
+    "nursery_rhyme": {
+      "n": 8,
+      "mean_s2": 7.177,
+      "max_s2": 10.223
+    },
+    "spoken_word": {
+      "n": 11,
+      "mean_s2": 6.983,
+      "max_s2": 9.992
+    },
+    "protest_political": {
+      "n": 11,
+      "mean_s2": 7.667,
+      "max_s2": 9.868
+    },
+    "concrete": {
+      "n": 9,
+      "mean_s2": 7.702,
+      "max_s2": 9.621
+    },
+    "ancient": {
+      "n": 19,
+      "mean_s2": 7.056,
+      "max_s2": 9.603
+    },
+    "triolet": {
+      "n": 3,
+      "mean_s2": 6.358,
+      "max_s2": 7.352
+    }
+  },
+  "poet_stats": {
+    "Stefan George": {
+      "n": 15,
+      "mean_s2": 8.605,
+      "max_s2": 23.395
+    },
+    "Christopher Smart": {
+      "n": 32,
+      "mean_s2": 8.403,
+      "max_s2": 22.13
+    },
+    "Gerard Manley Hopkins": {
+      "n": 70,
+      "mean_s2": 8.27,
+      "max_s2": 22.044
+    },
+    "Robert Browning": {
+      "n": 138,
+      "mean_s2": 7.99,
+      "max_s2": 20.977
+    },
+    "Walt Whitman": {
+      "n": 112,
+      "mean_s2": 8.144,
+      "max_s2": 20.643
+    },
+    "Elizabeth Bishop": {
+      "n": 5,
+      "mean_s2": 11.634,
+      "max_s2": 20.586
+    },
+    "Thomas Wyatt": {
+      "n": 33,
+      "mean_s2": 7.709,
+      "max_s2": 19.477
+    },
+    "Emily Dickinson": {
+      "n": 49,
+      "mean_s2": 8.781,
+      "max_s2": 18.903
+    },
+    "William Stafford": {
+      "n": 24,
+      "mean_s2": 7.763,
+      "max_s2": 18.881
+    },
+    "Edmund Clerihew Bentley": {
+      "n": 5,
+      "mean_s2": 10.68,
+      "max_s2": 18.408
+    },
+    "T.S. Eliot": {
+      "n": 45,
+      "mean_s2": 8.23,
+      "max_s2": 18.196
+    },
+    "Claudia Rankine": {
+      "n": 16,
+      "mean_s2": 8.97,
+      "max_s2": 18.16
+    },
+    "Joy Harjo": {
+      "n": 33,
+      "mean_s2": 7.809,
+      "max_s2": 18.059
+    },
+    "Alfred, Lord Tennyson": {
+      "n": 58,
+      "mean_s2": 7.691,
+      "max_s2": 18.043
+    },
+    "Traditional (Scottish ballad)": {
+      "n": 37,
+      "mean_s2": 8.022,
+      "max_s2": 17.954
+    },
+    "A.E. Housman": {
+      "n": 8,
+      "mean_s2": 8.396,
+      "max_s2": 17.478
+    },
+    "John Keats": {
+      "n": 143,
+      "mean_s2": 8.187,
+      "max_s2": 17.245
+    },
+    "C\u00e9sar Vallejo": {
+      "n": 15,
+      "mean_s2": 8.51,
+      "max_s2": 17.033
+    },
+    "Kenneth Koch": {
+      "n": 9,
+      "mean_s2": 8.512,
+      "max_s2": 16.782
+    },
+    "Percy Bysshe Shelley": {
+      "n": 33,
+      "mean_s2": 7.639,
+      "max_s2": 16.721
+    },
+    "Wislawa Szymborska": {
+      "n": 10,
+      "mean_s2": 7.774,
+      "max_s2": 16.659
+    },
+    "Gregory Corso": {
+      "n": 27,
+      "mean_s2": 8.468,
+      "max_s2": 16.559
+    },
+    "Russell Edson": {
+      "n": 14,
+      "mean_s2": 8.556,
+      "max_s2": 16.402
+    },
+    "Alfred Lord Tennyson": {
+      "n": 27,
+      "mean_s2": 7.399,
+      "max_s2": 16.274
+    },
+    "Synthetic (scientific register test case)": {
+      "n": 26,
+      "mean_s2": 8.33,
+      "max_s2": 16.184
+    },
+    "Ko Un (trans. Brother Anthony of Taiz\u00e9)": {
+      "n": 3,
+      "mean_s2": 12.419,
+      "max_s2": 16.069
+    },
+    "Synthetic (clerihew test case)": {
+      "n": 22,
+      "mean_s2": 8.937,
+      "max_s2": 15.829
+    },
+    "Thomas Campion": {
+      "n": 14,
+      "mean_s2": 8.484,
+      "max_s2": 15.82
+    },
+    "Carolyn Forche": {
+      "n": 21,
+      "mean_s2": 8.031,
+      "max_s2": 15.761
+    },
+    "Jean Lescure": {
+      "n": 10,
+      "mean_s2": 9.906,
+      "max_s2": 15.74
+    },
+    "Gertrude Stein": {
+      "n": 41,
+      "mean_s2": 8.042,
+      "max_s2": 15.692
+    },
+    "Dante Gabriel Rossetti": {
+      "n": 20,
+      "mean_s2": 8.388,
+      "max_s2": 15.654
+    },
+    "Allen Ginsberg": {
+      "n": 21,
+      "mean_s2": 8.363,
+      "max_s2": 15.606
+    },
+    "Wis\u0142awa Szymborska": {
+      "n": 19,
+      "mean_s2": 7.673,
+      "max_s2": 15.387
+    },
+    "Galway Kinnell": {
+      "n": 16,
+      "mean_s2": 8.359,
+      "max_s2": 15.376
+    },
+    "George Herbert": {
+      "n": 14,
+      "mean_s2": 7.798,
+      "max_s2": 15.364
+    },
+    "Hart Crane": {
+      "n": 25,
+      "mean_s2": 7.753,
+      "max_s2": 15.318
+    },
+    "Pablo Neruda": {
+      "n": 19,
+      "mean_s2": 7.98,
+      "max_s2": 15.232
+    },
+    "Samuel Johnson": {
+      "n": 12,
+      "mean_s2": 8.776,
+      "max_s2": 15.007
+    },
+    "Samuel Taylor Coleridge": {
+      "n": 15,
+      "mean_s2": 9.175,
+      "max_s2": 14.929
+    },
+    "Anne Sexton": {
+      "n": 4,
+      "mean_s2": 8.548,
+      "max_s2": 14.916
+    },
+    "John Ashbery": {
+      "n": 81,
+      "mean_s2": 7.833,
+      "max_s2": 14.908
+    },
+    "Walter de la Mare": {
+      "n": 4,
+      "mean_s2": 9.24,
+      "max_s2": 14.903
+    },
+    "Anonymous (KJV translation)": {
+      "n": 18,
+      "mean_s2": 7.446,
+      "max_s2": 14.761
+    },
+    "Anonymous (Hebrew Bible)": {
+      "n": 49,
+      "mean_s2": 7.602,
+      "max_s2": 14.756
+    },
+    "Kamau Brathwaite": {
+      "n": 6,
+      "mean_s2": 8.502,
+      "max_s2": 14.747
+    },
+    "Christian B\u00f6k": {
+      "n": 34,
+      "mean_s2": 9.231,
+      "max_s2": 14.732
+    },
+    "W.B. Yeats": {
+      "n": 33,
+      "mean_s2": 7.599,
+      "max_s2": 14.672
+    },
+    "Robinson Jeffers": {
+      "n": 7,
+      "mean_s2": 9.352,
+      "max_s2": 14.652
+    },
+    "Lyn Hejinian": {
+      "n": 5,
+      "mean_s2": 7.243,
+      "max_s2": 14.52
+    },
+    "Phillis Wheatley": {
+      "n": 8,
+      "mean_s2": 9.091,
+      "max_s2": 14.495
+    },
+    "Paul \u00c9luard": {
+      "n": 5,
+      "mean_s2": 10.164,
+      "max_s2": 14.42
+    },
+    "Georg Heym": {
+      "n": 25,
+      "mean_s2": 7.308,
+      "max_s2": 14.382
+    },
+    "Langston Hughes": {
+      "n": 15,
+      "mean_s2": 7.542,
+      "max_s2": 14.315
+    },
+    "William Ernest Henley": {
+      "n": 16,
+      "mean_s2": 8.529,
+      "max_s2": 14.285
+    },
+    "Oscar Wilde": {
+      "n": 6,
+      "mean_s2": 8.653,
+      "max_s2": 14.254
+    },
+    "Wallace Stevens": {
+      "n": 16,
+      "mean_s2": 8.055,
+      "max_s2": 14.203
+    },
+    "Anonymous": {
+      "n": 11,
+      "mean_s2": 7.667,
+      "max_s2": 14.177
+    },
+    "Traditional (English/Scottish ballad)": {
+      "n": 10,
+      "mean_s2": 8.095,
+      "max_s2": 14.055
+    },
+    "Anonymous (found text)": {
+      "n": 20,
+      "mean_s2": 9.004,
+      "max_s2": 14.054
+    },
+    "Francis Thompson": {
+      "n": 11,
+      "mean_s2": 8.456,
+      "max_s2": 14.039
+    },
+    "Federico Garc\u00eda Lorca": {
+      "n": 5,
+      "mean_s2": 9.512,
+      "max_s2": 14.003
+    },
+    "Federico Garc\u00eda Lorca (trans. Stephen Spender & J.L. Gili)": {
+      "n": 3,
+      "mean_s2": 10.375,
+      "max_s2": 14.003
+    },
+    "Amy Lowell": {
+      "n": 13,
+      "mean_s2": 7.014,
+      "max_s2": 13.997
+    },
+    "Thomas Hardy": {
+      "n": 78,
+      "mean_s2": 7.812,
+      "max_s2": 13.983
+    },
+    "John Donne": {
+      "n": 28,
+      "mean_s2": 7.89,
+      "max_s2": 13.908
+    },
+    "Frank O'Hara": {
+      "n": 16,
+      "mean_s2": 7.706,
+      "max_s2": 13.888
+    },
+    "William Blake": {
+      "n": 41,
+      "mean_s2": 8.263,
+      "max_s2": 13.885
+    },
+    "Lawrence Ferlinghetti": {
+      "n": 13,
+      "mean_s2": 8.514,
+      "max_s2": 13.847
+    },
+    "William Shakespeare": {
+      "n": 24,
+      "mean_s2": 7.842,
+      "max_s2": 13.827
+    },
+    "Anne Bradstreet": {
+      "n": 12,
+      "mean_s2": 8.427,
+      "max_s2": 13.727
+    },
+    "John Milton": {
+      "n": 27,
+      "mean_s2": 7.85,
+      "max_s2": 13.68
+    },
+    "Marianne Moore": {
+      "n": 11,
+      "mean_s2": 7.742,
+      "max_s2": 13.648
+    },
+    "Carl Sandburg": {
+      "n": 11,
+      "mean_s2": 8.027,
+      "max_s2": 13.595
+    },
+    "Paul Laurence Dunbar": {
+      "n": 11,
+      "mean_s2": 8.062,
+      "max_s2": 13.583
+    },
+    "Caedmon (trans. anon.)": {
+      "n": 6,
+      "mean_s2": 8.351,
+      "max_s2": 13.581
+    },
+    "Henry Vaughan": {
+      "n": 8,
+      "mean_s2": 9.548,
+      "max_s2": 13.514
+    },
+    "Jack Gilbert": {
+      "n": 10,
+      "mean_s2": 7.375,
+      "max_s2": 13.363
+    },
+    "Harryette Mullen": {
+      "n": 21,
+      "mean_s2": 8.345,
+      "max_s2": 13.326
+    },
+    "Li Bai": {
+      "n": 4,
+      "mean_s2": 9.452,
+      "max_s2": 13.277
+    },
+    "Alexander Pope": {
+      "n": 53,
+      "mean_s2": 7.353,
+      "max_s2": 13.245
+    },
+    "Edwin Arlington Robinson": {
+      "n": 13,
+      "mean_s2": 8.324,
+      "max_s2": 13.182
+    },
+    "Sylvia Plath": {
+      "n": 7,
+      "mean_s2": 8.279,
+      "max_s2": 13.143
+    },
+    "Thomas Gray": {
+      "n": 9,
+      "mean_s2": 8.107,
+      "max_s2": 13.106
+    },
+    "Heather McHugh": {
+      "n": 17,
+      "mean_s2": 7.44,
+      "max_s2": 13.103
+    },
+    "Synthetic (double dactyl test case)": {
+      "n": 6,
+      "mean_s2": 8.102,
+      "max_s2": 13.079
+    },
+    "E.E. Cummings": {
+      "n": 11,
+      "mean_s2": 8.199,
+      "max_s2": 13.064
+    },
+    "Anonymous (trans. Hall)": {
+      "n": 18,
+      "mean_s2": 7.97,
+      "max_s2": 13.031
+    },
+    "Rudyard Kipling": {
+      "n": 13,
+      "mean_s2": 8.355,
+      "max_s2": 12.967
+    },
+    "Wilfred Owen": {
+      "n": 30,
+      "mean_s2": 7.359,
+      "max_s2": 12.967
+    },
+    "Derek Walcott": {
+      "n": 10,
+      "mean_s2": 6.635,
+      "max_s2": 12.941
+    },
+    "Rainer Maria Rilke": {
+      "n": 22,
+      "mean_s2": 7.42,
+      "max_s2": 12.929
+    },
+    "Algernon Charles Swinburne": {
+      "n": 26,
+      "mean_s2": 7.436,
+      "max_s2": 12.908
+    },
+    "Amiri Baraka (LeRoi Jones)": {
+      "n": 7,
+      "mean_s2": 7.362,
+      "max_s2": 12.877
+    },
+    "Synthetic (research test case)": {
+      "n": 17,
+      "mean_s2": 7.386,
+      "max_s2": 12.807
+    },
+    "Countee Cullen": {
+      "n": 18,
+      "mean_s2": 7.878,
+      "max_s2": 12.742
+    },
+    "Edgar Allan Poe": {
+      "n": 35,
+      "mean_s2": 7.529,
+      "max_s2": 12.701
+    },
+    "C.K. Williams": {
+      "n": 12,
+      "mean_s2": 7.959,
+      "max_s2": 12.665
+    },
+    "Barbara Guest": {
+      "n": 18,
+      "mean_s2": 7.474,
+      "max_s2": 12.633
+    },
+    "Robert Bly": {
+      "n": 6,
+      "mean_s2": 7.373,
+      "max_s2": 12.622
+    },
+    "C\u00e9sar Vallejo (trans. Thomas Merton)": {
+      "n": 11,
+      "mean_s2": 8.804,
+      "max_s2": 12.579
+    },
+    "Christina Rossetti": {
+      "n": 24,
+      "mean_s2": 7.455,
+      "max_s2": 12.534
+    },
+    "Lewis Carroll": {
+      "n": 56,
+      "mean_s2": 7.339,
+      "max_s2": 12.449
+    },
+    "Georg Trakl": {
+      "n": 26,
+      "mean_s2": 7.909,
+      "max_s2": 12.41
+    },
+    "Robert Burns": {
+      "n": 17,
+      "mean_s2": 8.951,
+      "max_s2": 12.354
+    },
+    "John McCrae": {
+      "n": 10,
+      "mean_s2": 8.728,
+      "max_s2": 12.287
+    },
+    "Robert Frost": {
+      "n": 32,
+      "mean_s2": 7.676,
+      "max_s2": 12.275
+    },
+    "Du Fu": {
+      "n": 8,
+      "mean_s2": 7.597,
+      "max_s2": 12.242
+    },
+    "Claude McKay": {
+      "n": 13,
+      "mean_s2": 7.702,
+      "max_s2": 12.238
+    },
+    "Samuel Daniel": {
+      "n": 12,
+      "mean_s2": 7.11,
+      "max_s2": 12.217
+    },
+    "Synthetic (shadow-poem meta-poem)": {
+      "n": 15,
+      "mean_s2": 8.255,
+      "max_s2": 12.197
+    },
+    "Felicia Hemans": {
+      "n": 9,
+      "mean_s2": 8.168,
+      "max_s2": 11.981
+    },
+    "John Dryden": {
+      "n": 11,
+      "mean_s2": 7.052,
+      "max_s2": 11.807
+    },
+    "Seamus Heaney": {
+      "n": 10,
+      "mean_s2": 8.171,
+      "max_s2": 11.776
+    },
+    "Anonymous (trans. E.V. Gordon)": {
+      "n": 8,
+      "mean_s2": 9.072,
+      "max_s2": 11.759
+    },
+    "Richard Crashaw": {
+      "n": 6,
+      "mean_s2": 6.929,
+      "max_s2": 11.598
+    },
+    "Synthetic (OuLiPo N+7 test case)": {
+      "n": 11,
+      "mean_s2": 7.194,
+      "max_s2": 11.592
+    },
+    "Charles Baudelaire": {
+      "n": 10,
+      "mean_s2": 6.656,
+      "max_s2": 11.586
+    },
+    "Agha Shahid Ali": {
+      "n": 22,
+      "mean_s2": 7.924,
+      "max_s2": 11.578
+    },
+    "John Berryman": {
+      "n": 8,
+      "mean_s2": 7.74,
+      "max_s2": 11.445
+    },
+    "Edna St. Vincent Millay": {
+      "n": 7,
+      "mean_s2": 6.97,
+      "max_s2": 11.387
+    },
+    "William Wordsworth": {
+      "n": 4,
+      "mean_s2": 9.069,
+      "max_s2": 11.369
+    },
+    "Louise Gluck": {
+      "n": 16,
+      "mean_s2": 7.926,
+      "max_s2": 11.039
+    },
+    "Barrett Watten": {
+      "n": 5,
+      "mean_s2": 7.752,
+      "max_s2": 11.0
+    },
+    "Charles Bernstein": {
+      "n": 14,
+      "mean_s2": 6.652,
+      "max_s2": 10.997
+    },
+    "Ben Jonson": {
+      "n": 16,
+      "mean_s2": 7.595,
+      "max_s2": 10.943
+    },
+    "Bruce Andrews": {
+      "n": 4,
+      "mean_s2": 6.871,
+      "max_s2": 10.911
+    },
+    "Isaac Watts": {
+      "n": 10,
+      "mean_s2": 7.29,
+      "max_s2": 10.902
+    },
+    "Layli Long Soldier": {
+      "n": 3,
+      "mean_s2": 7.61,
+      "max_s2": 10.875
+    },
+    "Gottfried Benn": {
+      "n": 22,
+      "mean_s2": 7.761,
+      "max_s2": 10.871
+    },
+    "Pablo Neruda (trans. W.S. Merwin)": {
+      "n": 8,
+      "mean_s2": 7.398,
+      "max_s2": 10.867
+    },
+    "H.D. (Hilda Doolittle)": {
+      "n": 3,
+      "mean_s2": 7.379,
+      "max_s2": 10.862
+    },
+    "Brewster Higley": {
+      "n": 9,
+      "mean_s2": 7.801,
+      "max_s2": 10.858
+    },
+    "Omar Khayyam (trans. FitzGerald, 1859)": {
+      "n": 15,
+      "mean_s2": 7.118,
+      "max_s2": 10.809
+    },
+    "Isaac Newton (found text)": {
+      "n": 6,
+      "mean_s2": 6.798,
+      "max_s2": 10.704
+    },
+    "Robert Southey": {
+      "n": 15,
+      "mean_s2": 7.15,
+      "max_s2": 10.551
+    },
+    "Robert Lowell": {
+      "n": 6,
+      "mean_s2": 6.93,
+      "max_s2": 10.49
+    },
+    "Edmund Spenser": {
+      "n": 5,
+      "mean_s2": 7.076,
+      "max_s2": 10.419
+    },
+    "Robert Desnos": {
+      "n": 8,
+      "mean_s2": 7.575,
+      "max_s2": 10.376
+    },
+    "Traditional (American folk)": {
+      "n": 8,
+      "mean_s2": 7.98,
+      "max_s2": 10.333
+    },
+    "Rupert Brooke": {
+      "n": 15,
+      "mean_s2": 7.161,
+      "max_s2": 10.286
+    },
+    "Traditional (English)": {
+      "n": 8,
+      "mean_s2": 7.177,
+      "max_s2": 10.223
+    },
+    "Anonymous (Old English, trans. anon.)": {
+      "n": 6,
+      "mean_s2": 7.152,
+      "max_s2": 10.206
+    },
+    "Anne Waldman": {
+      "n": 6,
+      "mean_s2": 8.763,
+      "max_s2": 10.16
+    },
+    "Arthur Rimbaud": {
+      "n": 10,
+      "mean_s2": 7.446,
+      "max_s2": 10.155
+    },
+    "Matsuo Bash\u014d": {
+      "n": 3,
+      "mean_s2": 6.728,
+      "max_s2": 10.068
+    },
+    "Anonymous (KJV, found text)": {
+      "n": 6,
+      "mean_s2": 7.373,
+      "max_s2": 10.067
+    },
+    "Richard Wright": {
+      "n": 3,
+      "mean_s2": 8.275,
+      "max_s2": 10.034
+    },
+    "Michael Drayton": {
+      "n": 11,
+      "mean_s2": 7.247,
+      "max_s2": 10.021
+    },
+    "Lucille Clifton": {
+      "n": 12,
+      "mean_s2": 7.129,
+      "max_s2": 9.992
+    },
+    "Emma Lazarus": {
+      "n": 7,
+      "mean_s2": 7.486,
+      "max_s2": 9.868
+    },
+    "Ted Berrigan": {
+      "n": 8,
+      "mean_s2": 7.208,
+      "max_s2": 9.778
+    },
+    "Charles Darwin (found text)": {
+      "n": 8,
+      "mean_s2": 7.067,
+      "max_s2": 9.693
+    },
+    "Synthetic (shadow-divergence test case)": {
+      "n": 5,
+      "mean_s2": 7.648,
+      "max_s2": 9.621
+    },
+    "Anonymous (trans. Francis B. Gummere)": {
+      "n": 11,
+      "mean_s2": 6.982,
+      "max_s2": 9.603
+    },
+    "James Schuyler": {
+      "n": 8,
+      "mean_s2": 7.109,
+      "max_s2": 9.553
+    },
+    "Edward Lear": {
+      "n": 10,
+      "mean_s2": 7.062,
+      "max_s2": 9.489
+    },
+    "Sappho": {
+      "n": 4,
+      "mean_s2": 7.178,
+      "max_s2": 9.489
+    },
+    "Sonia Sanchez": {
+      "n": 3,
+      "mean_s2": 8.499,
+      "max_s2": 9.437
+    },
+    "Carolyn Forch\u00e9": {
+      "n": 6,
+      "mean_s2": 7.61,
+      "max_s2": 9.405
+    },
+    "Philip Larkin": {
+      "n": 8,
+      "mean_s2": 7.299,
+      "max_s2": 9.384
+    },
+    "Georges Perec": {
+      "n": 7,
+      "mean_s2": 6.749,
+      "max_s2": 9.354
+    },
+    "Emmett Williams": {
+      "n": 3,
+      "mean_s2": 7.402,
+      "max_s2": 9.337
+    },
+    "Maya Angelou": {
+      "n": 4,
+      "mean_s2": 7.983,
+      "max_s2": 9.332
+    },
+    "Austin Dobson": {
+      "n": 9,
+      "mean_s2": 7.124,
+      "max_s2": 9.28
+    },
+    "Ernest Dowson": {
+      "n": 6,
+      "mean_s2": 6.7,
+      "max_s2": 9.213
+    },
+    "Gwendolyn Brooks": {
+      "n": 6,
+      "mean_s2": 8.563,
+      "max_s2": 9.102
+    },
+    "Adelaide Crapsey": {
+      "n": 4,
+      "mean_s2": 7.001,
+      "max_s2": 9.062
+    },
+    "Synthetic (cliche_control test case)": {
+      "n": 6,
+      "mean_s2": 6.934,
+      "max_s2": 8.876
+    },
+    "Anne Carson": {
+      "n": 3,
+      "mean_s2": 6.691,
+      "max_s2": 8.738
+    },
+    "Traditional (American sea chanty)": {
+      "n": 9,
+      "mean_s2": 6.41,
+      "max_s2": 8.666
+    },
+    "Homer (trans. Alexander Pope)": {
+      "n": 4,
+      "mean_s2": 7.138,
+      "max_s2": 8.618
+    },
+    "George Oppen": {
+      "n": 4,
+      "mean_s2": 6.835,
+      "max_s2": 8.414
+    },
+    "Killarney Clary": {
+      "n": 4,
+      "mean_s2": 7.472,
+      "max_s2": 8.322
+    },
+    "Rae Armantrout": {
+      "n": 3,
+      "mean_s2": 6.838,
+      "max_s2": 8.202
+    },
+    "Carolyn Wells": {
+      "n": 3,
+      "mean_s2": 7.548,
+      "max_s2": 8.155
+    },
+    "W.S. Merwin": {
+      "n": 3,
+      "mean_s2": 6.375,
+      "max_s2": 8.083
+    },
+    "Mary Oliver": {
+      "n": 7,
+      "mean_s2": 6.237,
+      "max_s2": 8.067
+    },
+    "Matthew Arnold": {
+      "n": 9,
+      "mean_s2": 5.9,
+      "max_s2": 7.994
+    },
+    "Andrew Marvell": {
+      "n": 6,
+      "mean_s2": 6.759,
+      "max_s2": 7.898
+    },
+    "Kobayashi Issa": {
+      "n": 5,
+      "mean_s2": 6.941,
+      "max_s2": 7.781
+    },
+    "Thomas Traherne": {
+      "n": 5,
+      "mean_s2": 6.181,
+      "max_s2": 7.753
+    },
+    "David Antin": {
+      "n": 5,
+      "mean_s2": 6.988,
+      "max_s2": 7.659
+    },
+    "Ron Silliman": {
+      "n": 4,
+      "mean_s2": 6.379,
+      "max_s2": 7.381
+    },
+    "Yosa Buson": {
+      "n": 3,
+      "mean_s2": 6.442,
+      "max_s2": 7.263
+    },
+    "Raymond Queneau": {
+      "n": 9,
+      "mean_s2": 5.64,
+      "max_s2": 6.685
+    },
+    "Matsuo Basho": {
+      "n": 3,
+      "mean_s2": 5.354,
+      "max_s2": 5.969
+    },
+    "Anonymous (limerick tradition)": {
+      "n": 3,
+      "mean_s2": 5.591,
+      "max_s2": 5.822
+    }
+  },
+  "s2_by_suppressed": {
+    "CONTENT_WORD": {
+      "n": 988,
+      "mean": 7.778,
+      "median": 6.967,
+      "max": 23.395
+    },
+    "FUNCTION_WORD": {
+      "n": 1546,
+      "mean": 7.983,
+      "median": 7.305,
+      "max": 22.13
+    },
+    "PUNCTUATION": {
+      "n": 575,
+      "mean": 7.815,
+      "median": 7.206,
+      "max": 20.397
+    },
+    "CONTRACTION": {
+      "n": 47,
+      "mean": 8.734,
+      "median": 8.156,
+      "max": 17.478
+    }
+  },
+  "top_50_moments": [
+    {
+      "s2": 23.4,
+      "token": "ferner",
+      "top_pred": "t",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 10720,
+      "entropy": 1.25,
+      "context": "Der schimmer",
+      "poet": "Stefan George",
+      "era": "german_symbolist",
+      "title": "Komm in den totgesagten park und schau"
+    },
+    {
+      "s2": 22.13,
+      "token": "prank",
+      "top_pred": "the",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "ACTION_VERB",
+      "rank": 18988,
+      "entropy": 2.69,
+      "context": "he rolls upon",
+      "poet": "Christopher Smart",
+      "era": "18th_century",
+      "title": "For I will consider my Cat Jeoffry (excerpt)"
+    },
+    {
+      "s2": 22.04,
+      "token": "shook",
+      "top_pred": "the",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "ACTION_VERB",
+      "rank": 26974,
+      "entropy": 3.6,
+      "context": "like shining from",
+      "poet": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "title": "God's Grandeur"
+    },
+    {
+      "s2": 22.02,
+      "token": "prank",
+      "top_pred": "the",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "ACTION_VERB",
+      "rank": 18926,
+      "entropy": 2.72,
+      "context": "he rolls upon",
+      "poet": "Christopher Smart",
+      "era": "18th_century",
+      "title": "For I Will Consider My Cat Jeoffry (excerpt)"
+    },
+    {
+      "s2": 20.98,
+      "token": "env",
+      "top_pred": "o",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 29553,
+      "entropy": 5.07,
+      "context": "Old Gandolf",
+      "poet": "Robert Browning",
+      "era": "dramatic_monologue",
+      "title": "The Bishop Orders His Tomb at Saint Praxed's Church"
+    },
+    {
+      "s2": 20.64,
+      "token": "printer",
+      "top_pred": "ne",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 4194,
+      "entropy": 1.19,
+      "context": "The jour",
+      "poet": "Walt Whitman",
+      "era": "19th_century",
+      "title": "Song of Myself (section 15, catalogue)"
+    },
+    {
+      "s2": 20.59,
+      "token": "badly",
+      "top_pred": "glass",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 8227,
+      "entropy": 1.64,
+      "context": ", the hour",
+      "poet": "Elizabeth Bishop",
+      "era": "mid_century",
+      "title": "One Art"
+    },
+    {
+      "s2": 20.4,
+      "token": "observing",
+      "top_pred": ",",
+      "suppressed_cat": "PUNCTUATION",
+      "chosen_cat": "ACTION_VERB",
+      "rank": 5618,
+      "entropy": 2.39,
+      "context": "at my ease",
+      "poet": "Walt Whitman",
+      "era": "19th_century",
+      "title": "Song of Myself (section 1)"
+    },
+    {
+      "s2": 19.48,
+      "token": "list",
+      "top_pred": "ever",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 6869,
+      "entropy": 1.18,
+      "context": "oso",
+      "poet": "Thomas Wyatt",
+      "era": "early_modern",
+      "title": "Whoso List to Hunt"
+    },
+    {
+      "s2": 18.9,
+      "token": "Fun",
+      "top_pred": "little",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "PROPER_NOUN",
+      "rank": 24702,
+      "entropy": 6.87,
+      "context": "felt a",
+      "poet": "Emily Dickinson",
+      "era": "19th_century",
+      "title": "I felt a Funeral, in my Brain"
+    },
+    {
+      "s2": 18.88,
+      "token": "consequences",
+      "top_pred": "a",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "ABSTRACT",
+      "rank": 21065,
+      "entropy": 3.6,
+      "context": "ute end of",
+      "poet": "William Stafford",
+      "era": "mid_century",
+      "title": "At the Bomb Testing Site"
+    },
+    {
+      "s2": 18.41,
+      "token": "gravy",
+      "top_pred": "by",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "COLLOQUIAL",
+      "rank": 35877,
+      "entropy": 6.48,
+      "context": "Abominated",
+      "poet": "Edmund Clerihew Bentley",
+      "era": "clerihew",
+      "title": "Sir Humphrey Davy"
+    },
+    {
+      "s2": 18.2,
+      "token": "squats",
+      "top_pred": "elled",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "ACTION_VERB",
+      "rank": 8969,
+      "entropy": 3.48,
+      "context": "And the jew",
+      "poet": "T.S. Eliot",
+      "era": "dramatic_monologue",
+      "title": "Gerontion"
+    },
+    {
+      "s2": 18.16,
+      "token": "stacked",
+      "top_pred": "ime",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "ACTION_VERB",
+      "rank": 15503,
+      "entropy": 4.81,
+      "context": "in a past",
+      "poet": "Claudia Rankine",
+      "era": "contemporary",
+      "title": "Citizen (excerpt)"
+    },
+    {
+      "s2": 18.16,
+      "token": "stacked",
+      "top_pred": "ime",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "ACTION_VERB",
+      "rank": 15503,
+      "entropy": 4.81,
+      "context": "in a past",
+      "poet": "Claudia Rankine",
+      "era": "prose_poetry",
+      "title": "Citizen (excerpt, section I)"
+    },
+    {
+      "s2": 18.06,
+      "token": "poems",
+      "top_pred": ",",
+      "suppressed_cat": "PUNCTUATION",
+      "chosen_cat": "ABSTRACT",
+      "rank": 3856,
+      "entropy": 3.56,
+      "context": "They are alive",
+      "poet": "Joy Harjo",
+      "era": "postcolonial",
+      "title": "Remember"
+    },
+    {
+      "s2": 18.04,
+      "token": "onward",
+      "top_pred": ",",
+      "suppressed_cat": "PUNCTUATION",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 5768,
+      "entropy": 2.27,
+      "context": "Half a league",
+      "poet": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "title": "The Charge of the Light Brigade"
+    },
+    {
+      "s2": 17.95,
+      "token": "red",
+      "top_pred": "Sp",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 3690,
+      "entropy": 1.96,
+      "context": "that Sir Patrick",
+      "poet": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "title": "Sir Patrick Spens"
+    },
+    {
+      "s2": 17.93,
+      "token": "mounting",
+      "top_pred": ",",
+      "suppressed_cat": "PUNCTUATION",
+      "chosen_cat": "ACTION_VERB",
+      "rank": 6316,
+      "entropy": 3.21,
+      "context": ", my collar",
+      "poet": "T.S. Eliot",
+      "era": "dramatic_monologue",
+      "title": "The Love Song of J. Alfred Prufrock (middle)"
+    },
+    {
+      "s2": 17.87,
+      "token": "Pand",
+      "top_pred": "u",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "PROPER_NOUN",
+      "rank": 15813,
+      "entropy": 4.69,
+      "context": "now; Fra",
+      "poet": "Robert Browning",
+      "era": "dramatic_monologue",
+      "title": "My Last Duchess (complete)"
+    },
+    {
+      "s2": 17.48,
+      "token": "chaired",
+      "top_pred": "'ll",
+      "suppressed_cat": "CONTRACTION",
+      "chosen_cat": "ACTION_VERB",
+      "rank": 20450,
+      "entropy": 6.6,
+      "context": "race\nWe",
+      "poet": "A.E. Housman",
+      "era": "elegy",
+      "title": "To an Athlete Dying Young"
+    },
+    {
+      "s2": 17.45,
+      "token": "Del",
+      "top_pred": "ities",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "PROPER_NOUN",
+      "rank": 6325,
+      "entropy": 3.01,
+      "context": "our infirm",
+      "poet": "Emily Dickinson",
+      "era": "19th_century",
+      "title": "Tell all the truth but tell it slant"
+    },
+    {
+      "s2": 17.32,
+      "token": "fearful",
+      "top_pred": "Captain",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 27611,
+      "entropy": 4.75,
+      "context": "Captain! our",
+      "poet": "Walt Whitman",
+      "era": "19th_century",
+      "title": "O Captain! My Captain! (stanza 1)"
+    },
+    {
+      "s2": 17.32,
+      "token": "fearful",
+      "top_pred": "Captain",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 27611,
+      "entropy": 4.75,
+      "context": "Captain! our",
+      "poet": "Walt Whitman",
+      "era": "19th_century",
+      "title": "O Captain! My Captain!"
+    },
+    {
+      "s2": 17.32,
+      "token": "fearful",
+      "top_pred": "Captain",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 27611,
+      "entropy": 4.75,
+      "context": "Captain! our",
+      "poet": "Walt Whitman",
+      "era": "elegy",
+      "title": "O Captain! My Captain!"
+    },
+    {
+      "s2": 17.25,
+      "token": "Music",
+      "top_pred": "he",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "ABSTRACT",
+      "rank": 22267,
+      "entropy": 5.34,
+      "context": "",
+      "poet": "John Keats",
+      "era": "romantic",
+      "title": "The Eve of St. Agnes (stanzas 1-5)"
+    },
+    {
+      "s2": 17.19,
+      "token": "Despair",
+      "top_pred": "and",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "ABSTRACT",
+      "rank": 18902,
+      "entropy": 5.64,
+      "context": "rounds and rounds",
+      "poet": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "title": "Inversnaid"
+    },
+    {
+      "s2": 17.03,
+      "token": "prose",
+      "top_pred": "am",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "ABSTRACT",
+      "rank": 9107,
+      "entropy": 6.78,
+      "context": ", as I",
+      "poet": "C\u00e9sar Vallejo",
+      "era": "surrealist",
+      "title": "Black Stone Lying on a White Stone"
+    },
+    {
+      "s2": 16.78,
+      "token": "mot",
+      "top_pred": "you",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 16193,
+      "entropy": 4.92,
+      "context": "think\nof",
+      "poet": "Kenneth Koch",
+      "era": "new_york_school",
+      "title": "You Were Wearing"
+    },
+    {
+      "s2": 16.72,
+      "token": "fleeing",
+      "top_pred": "'s",
+      "suppressed_cat": "CONTRACTION",
+      "chosen_cat": "ACTION_VERB",
+      "rank": 5588,
+      "entropy": 2.93,
+      "context": "enchanter",
+      "poet": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "title": "Ode to the West Wind (stanza 1)"
+    },
+    {
+      "s2": 16.66,
+      "token": "liking",
+      "top_pred": "to",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 2119,
+      "entropy": 2.48,
+      "context": "I prefer myself",
+      "poet": "Wislawa Szymborska",
+      "era": "contemporary",
+      "title": "Possibilities"
+    },
+    {
+      "s2": 16.65,
+      "token": "entangled",
+      "top_pred": "ed",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "ACTION_VERB",
+      "rank": 6669,
+      "entropy": 2.39,
+      "context": "-bucket",
+      "poet": "Chiyo-ni",
+      "era": "haiku",
+      "title": "Morning Glory (Chiyo-ni, translated)"
+    },
+    {
+      "s2": 16.59,
+      "token": "witnessed",
+      "top_pred": "gan",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "ACTION_VERB",
+      "rank": 10123,
+      "entropy": 4.68,
+      "context": "King\nBe",
+      "poet": "Emily Dickinson",
+      "era": "19th_century",
+      "title": "I heard a Fly buzz \u2014 when I died"
+    },
+    {
+      "s2": 16.56,
+      "token": "neb",
+      "top_pred": "you",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 15583,
+      "entropy": 4.67,
+      "context": "So if",
+      "poet": "Gregory Corso",
+      "era": "beat",
+      "title": "Bomb"
+    },
+    {
+      "s2": 16.51,
+      "token": "trave",
+      "top_pred": "been",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 14136,
+      "entropy": 7.07,
+      "context": "have I",
+      "poet": "John Keats",
+      "era": "romantic",
+      "title": "On First Looking into Chapman's Homer"
+    },
+    {
+      "s2": 16.51,
+      "token": "trave",
+      "top_pred": "been",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 14136,
+      "entropy": 7.07,
+      "context": "have I",
+      "poet": "John Keats",
+      "era": "ekphrastic",
+      "title": "On First Looking into Chapman's Homer"
+    },
+    {
+      "s2": 16.4,
+      "token": "indoors",
+      "top_pred": "the",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 19554,
+      "entropy": 6.61,
+      "context": "the things of",
+      "poet": "Russell Edson",
+      "era": "prose_poetry",
+      "title": "The Fall"
+    },
+    {
+      "s2": 16.27,
+      "token": "Hours",
+      "top_pred": "heart",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "PROPER_NOUN",
+      "rank": 31511,
+      "entropy": 8.38,
+      "context": "But thy strong",
+      "poet": "Alfred Lord Tennyson",
+      "era": "dramatic_monologue",
+      "title": "Tithonus"
+    },
+    {
+      "s2": 16.27,
+      "token": "sidel",
+      "top_pred": "she",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 17838,
+      "entropy": 6.08,
+      "context": "",
+      "poet": "John Keats",
+      "era": "romantic",
+      "title": "La Belle Dame sans Merci"
+    },
+    {
+      "s2": 16.18,
+      "token": "impressed",
+      "top_pred": "or",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 2522,
+      "entropy": 3.66,
+      "context": "",
+      "poet": "Synthetic (scientific register test case)",
+      "era": "contemporary",
+      "title": "Laws of Motion"
+    },
+    {
+      "s2": 16.15,
+      "token": "cliff",
+      "top_pred": "and",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 4652,
+      "entropy": 3.98,
+      "context": "",
+      "poet": "Joy Harjo",
+      "era": "contemporary",
+      "title": "She Had Some Horses (opening)"
+    },
+    {
+      "s2": 16.1,
+      "token": "Dum",
+      "top_pred": "the",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "PROPER_NOUN",
+      "rank": 9325,
+      "entropy": 4.2,
+      "context": "",
+      "poet": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "title": "Sir Patrick Spens"
+    },
+    {
+      "s2": 16.08,
+      "token": "tou",
+      "top_pred": "'s",
+      "suppressed_cat": "CONTRACTION",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 17552,
+      "entropy": 5.87,
+      "context": "",
+      "poet": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "title": "Sir Patrick Spens"
+    },
+    {
+      "s2": 16.07,
+      "token": "Gim",
+      "top_pred": "was",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "PROPER_NOUN",
+      "rank": 17931,
+      "entropy": 7.35,
+      "context": "old man",
+      "poet": "Ko Un (trans. Brother Anthony of Taiz\u00e9)",
+      "era": "korean_modernist",
+      "title": "From Ten Thousand Lives: Three Portraits"
+    },
+    {
+      "s2": 15.83,
+      "token": "raven",
+      "top_pred": "le",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 20014,
+      "entropy": 5.6,
+      "context": "Poe\nMade",
+      "poet": "Synthetic (clerihew test case)",
+      "era": "clerihew",
+      "title": "Edgar Allan Poe"
+    },
+    {
+      "s2": 15.82,
+      "token": "peaceful",
+      "top_pred": "should",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 15379,
+      "entropy": 6.28,
+      "context": "drum nor trumpet",
+      "poet": "Thomas Campion",
+      "era": "early_modern",
+      "title": "My Sweetest Lesbia"
+    },
+    {
+      "s2": 15.76,
+      "token": "rack",
+      "top_pred": "and",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "COLLOQUIAL",
+      "rank": 22570,
+      "entropy": 7.26,
+      "context": "had dinner,",
+      "poet": "Carolyn Forche",
+      "era": "prose_poetry",
+      "title": "The Colonel"
+    },
+    {
+      "s2": 15.74,
+      "token": "eviction",
+      "top_pred": "dark",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "OTHER_CONTENT",
+      "rank": 28544,
+      "entropy": 7.7,
+      "context": ". And the",
+      "poet": "Jean Lescure",
+      "era": "oulipo",
+      "title": "S+7: Genesis (N+7 variant)"
+    },
+    {
+      "s2": 15.69,
+      "token": "Napoleon",
+      "top_pred": "he",
+      "suppressed_cat": "FUNCTION_WORD",
+      "chosen_cat": "PROPER_NOUN",
+      "rank": 3705,
+      "entropy": 3.74,
+      "context": "like it would",
+      "poet": "Gertrude Stein",
+      "era": "oulipo",
+      "title": "If I Told Him: A Completed Portrait of Picasso (excerpt)"
+    },
+    {
+      "s2": 15.65,
+      "token": "anguish",
+      "top_pred": "example",
+      "suppressed_cat": "CONTENT_WORD",
+      "chosen_cat": "ABSTRACT",
+      "rank": 17009,
+      "entropy": 4.54,
+      "context": ", for",
+      "poet": "Dante Gabriel Rossetti",
+      "era": "ekphrastic",
+      "title": "For a Venetian Pastoral by Giorgione"
+    }
+  ]
+}
