@@ -1,0 +1,5101 @@
+{
+  "global_stats": {
+    "n_poems": 410,
+    "mean_fulfillment_rate": 0.4117,
+    "median_fulfillment_rate": 0.4203,
+    "std_fulfillment_rate": 0.1531,
+    "mean_fulfillment_high_s2": 0.3164,
+    "median_fulfillment_high_s2": 0.3,
+    "mean_shadow_density": 0.2056,
+    "correlation_fulfillment_avg_s2": -0.2687
+  },
+  "era_breakdown": {
+    "concrete": {
+      "n": 3,
+      "mean_fulfillment": 0.7278,
+      "mean_fulfillment_high_s2": 0.6459,
+      "mean_avg_s2": -0.4817
+    },
+    "found_poetry": {
+      "n": 9,
+      "mean_fulfillment": 0.6208,
+      "mean_fulfillment_high_s2": 0.5787,
+      "mean_avg_s2": -0.6149
+    },
+    "triolet": {
+      "n": 2,
+      "mean_fulfillment": 0.6061,
+      "mean_fulfillment_high_s2": 0.75,
+      "mean_avg_s2": -0.7404
+    },
+    "song_lyrics": {
+      "n": 3,
+      "mean_fulfillment": 0.5799,
+      "mean_fulfillment_high_s2": 0.3696,
+      "mean_avg_s2": -0.6442
+    },
+    "biblical": {
+      "n": 8,
+      "mean_fulfillment": 0.5704,
+      "mean_fulfillment_high_s2": 0.4088,
+      "mean_avg_s2": -0.5081
+    },
+    "spoken_word": {
+      "n": 3,
+      "mean_fulfillment": 0.5485,
+      "mean_fulfillment_high_s2": 0.3619,
+      "mean_avg_s2": -0.5845
+    },
+    "cliche_control": {
+      "n": 4,
+      "mean_fulfillment": 0.5439,
+      "mean_fulfillment_high_s2": 0.5083,
+      "mean_avg_s2": -0.9304
+    },
+    "villanelle": {
+      "n": 3,
+      "mean_fulfillment": 0.5295,
+      "mean_fulfillment_high_s2": 0.4676,
+      "mean_avg_s2": -0.5686
+    },
+    "ghazal": {
+      "n": 2,
+      "mean_fulfillment": 0.5275,
+      "mean_fulfillment_high_s2": 0.4048,
+      "mean_avg_s2": -0.465
+    },
+    "control": {
+      "n": 5,
+      "mean_fulfillment": 0.5223,
+      "mean_fulfillment_high_s2": 0.2667,
+      "mean_avg_s2": -1.7362
+    },
+    "ballad": {
+      "n": 6,
+      "mean_fulfillment": 0.5124,
+      "mean_fulfillment_high_s2": 0.3321,
+      "mean_avg_s2": -0.3877
+    },
+    "nonsense": {
+      "n": 2,
+      "mean_fulfillment": 0.5089,
+      "mean_fulfillment_high_s2": 0.2583,
+      "mean_avg_s2": -0.6818
+    },
+    "latin_american": {
+      "n": 4,
+      "mean_fulfillment": 0.5084,
+      "mean_fulfillment_high_s2": 0.5398,
+      "mean_avg_s2": -0.5156
+    },
+    "prose_poetry": {
+      "n": 12,
+      "mean_fulfillment": 0.4784,
+      "mean_fulfillment_high_s2": 0.4278,
+      "mean_avg_s2": -0.4696
+    },
+    "language": {
+      "n": 6,
+      "mean_fulfillment": 0.4713,
+      "mean_fulfillment_high_s2": 0.422,
+      "mean_avg_s2": -0.5182
+    },
+    "japanese_classical": {
+      "n": 2,
+      "mean_fulfillment": 0.4643,
+      "mean_fulfillment_high_s2": 0.25,
+      "mean_avg_s2": -0.7049
+    },
+    "protest_political": {
+      "n": 2,
+      "mean_fulfillment": 0.4632,
+      "mean_fulfillment_high_s2": 0.25,
+      "mean_avg_s2": -0.7301
+    },
+    "oulipo": {
+      "n": 8,
+      "mean_fulfillment": 0.4542,
+      "mean_fulfillment_high_s2": 0.2874,
+      "mean_avg_s2": -0.0463
+    },
+    "fixed_form": {
+      "n": 8,
+      "mean_fulfillment": 0.4526,
+      "mean_fulfillment_high_s2": 0.3118,
+      "mean_avg_s2": -0.5761
+    },
+    "beat": {
+      "n": 8,
+      "mean_fulfillment": 0.4484,
+      "mean_fulfillment_high_s2": 0.2518,
+      "mean_avg_s2": 0.192
+    },
+    "postcolonial": {
+      "n": 6,
+      "mean_fulfillment": 0.4418,
+      "mean_fulfillment_high_s2": 0.2929,
+      "mean_avg_s2": -0.4946
+    },
+    "metaphysical": {
+      "n": 7,
+      "mean_fulfillment": 0.437,
+      "mean_fulfillment_high_s2": 0.3199,
+      "mean_avg_s2": -0.5428
+    },
+    "contemporary": {
+      "n": 19,
+      "mean_fulfillment": 0.4369,
+      "mean_fulfillment_high_s2": 0.3278,
+      "mean_avg_s2": -0.3589
+    },
+    "parody": {
+      "n": 4,
+      "mean_fulfillment": 0.4329,
+      "mean_fulfillment_high_s2": 0.4607,
+      "mean_avg_s2": -0.3961
+    },
+    "surrealist": {
+      "n": 8,
+      "mean_fulfillment": 0.4319,
+      "mean_fulfillment_high_s2": 0.2791,
+      "mean_avg_s2": -0.6095
+    },
+    "18th_century": {
+      "n": 8,
+      "mean_fulfillment": 0.4314,
+      "mean_fulfillment_high_s2": 0.3845,
+      "mean_avg_s2": -0.2548
+    },
+    "black_arts": {
+      "n": 2,
+      "mean_fulfillment": 0.4304,
+      "mean_fulfillment_high_s2": 0.5917,
+      "mean_avg_s2": -0.3982
+    },
+    "persian": {
+      "n": 2,
+      "mean_fulfillment": 0.425,
+      "mean_fulfillment_high_s2": 0.3357,
+      "mean_avg_s2": -0.2354
+    },
+    "romantic": {
+      "n": 21,
+      "mean_fulfillment": 0.424,
+      "mean_fulfillment_high_s2": 0.2944,
+      "mean_avg_s2": -0.4962
+    },
+    "early_modern": {
+      "n": 11,
+      "mean_fulfillment": 0.4232,
+      "mean_fulfillment_high_s2": 0.2775,
+      "mean_avg_s2": -0.3671
+    },
+    "elegy": {
+      "n": 8,
+      "mean_fulfillment": 0.423,
+      "mean_fulfillment_high_s2": 0.3978,
+      "mean_avg_s2": -0.4282
+    },
+    "parody_original": {
+      "n": 3,
+      "mean_fulfillment": 0.4199,
+      "mean_fulfillment_high_s2": 0.4286,
+      "mean_avg_s2": -0.5478
+    },
+    "german_expressionist": {
+      "n": 6,
+      "mean_fulfillment": 0.4159,
+      "mean_fulfillment_high_s2": 0.3368,
+      "mean_avg_s2": 0.0996
+    },
+    "dramatic_monologue": {
+      "n": 7,
+      "mean_fulfillment": 0.4133,
+      "mean_fulfillment_high_s2": 0.3554,
+      "mean_avg_s2": -0.3746
+    },
+    "old_english": {
+      "n": 5,
+      "mean_fulfillment": 0.4127,
+      "mean_fulfillment_high_s2": 0.3633,
+      "mean_avg_s2": -0.288
+    },
+    "19th_century": {
+      "n": 18,
+      "mean_fulfillment": 0.3965,
+      "mean_fulfillment_high_s2": 0.3453,
+      "mean_avg_s2": -0.2297
+    },
+    "classical_chinese": {
+      "n": 4,
+      "mean_fulfillment": 0.3919,
+      "mean_fulfillment_high_s2": 0.131,
+      "mean_avg_s2": -0.5938
+    },
+    "victorian": {
+      "n": 30,
+      "mean_fulfillment": 0.3876,
+      "mean_fulfillment_high_s2": 0.3709,
+      "mean_avg_s2": -0.2628
+    },
+    "war_poetry": {
+      "n": 3,
+      "mean_fulfillment": 0.3865,
+      "mean_fulfillment_high_s2": 0.3032,
+      "mean_avg_s2": -0.3092
+    },
+    "new_york_school": {
+      "n": 26,
+      "mean_fulfillment": 0.3861,
+      "mean_fulfillment_high_s2": 0.2668,
+      "mean_avg_s2": -0.5965
+    },
+    "ancient": {
+      "n": 3,
+      "mean_fulfillment": 0.381,
+      "mean_fulfillment_high_s2": 0.1667,
+      "mean_avg_s2": -0.1874
+    },
+    "double_dactyl": {
+      "n": 5,
+      "mean_fulfillment": 0.3767,
+      "mean_fulfillment_high_s2": 0.3333,
+      "mean_avg_s2": -0.9497
+    },
+    "german_symbolist": {
+      "n": 3,
+      "mean_fulfillment": 0.3731,
+      "mean_fulfillment_high_s2": 0.3694,
+      "mean_avg_s2": 0.3944
+    },
+    "harlem_renaissance": {
+      "n": 7,
+      "mean_fulfillment": 0.3589,
+      "mean_fulfillment_high_s2": 0.2724,
+      "mean_avg_s2": -0.4585
+    },
+    "ekphrastic": {
+      "n": 8,
+      "mean_fulfillment": 0.3575,
+      "mean_fulfillment_high_s2": 0.3436,
+      "mean_avg_s2": -0.3921
+    },
+    "modernist": {
+      "n": 28,
+      "mean_fulfillment": 0.3479,
+      "mean_fulfillment_high_s2": 0.2275,
+      "mean_avg_s2": -0.4579
+    },
+    "german_modernist": {
+      "n": 2,
+      "mean_fulfillment": 0.3478,
+      "mean_fulfillment_high_s2": 0.3095,
+      "mean_avg_s2": 0.7733
+    },
+    "imagist": {
+      "n": 5,
+      "mean_fulfillment": 0.3158,
+      "mean_fulfillment_high_s2": 0.17,
+      "mean_avg_s2": -0.4457
+    },
+    "clerihew": {
+      "n": 10,
+      "mean_fulfillment": 0.3021,
+      "mean_fulfillment_high_s2": 0.1,
+      "mean_avg_s2": 0.5523
+    },
+    "mid_century": {
+      "n": 6,
+      "mean_fulfillment": 0.2904,
+      "mean_fulfillment_high_s2": 0.1229,
+      "mean_avg_s2": -0.2852
+    },
+    "confessional": {
+      "n": 6,
+      "mean_fulfillment": 0.2785,
+      "mean_fulfillment_high_s2": 0.1536,
+      "mean_avg_s2": -0.3003
+    },
+    "limerick": {
+      "n": 10,
+      "mean_fulfillment": 0.2536,
+      "mean_fulfillment_high_s2": 0.2,
+      "mean_avg_s2": -0.6927
+    },
+    "haiku": {
+      "n": 14,
+      "mean_fulfillment": 0.2075,
+      "mean_fulfillment_high_s2": 0.1167,
+      "mean_avg_s2": 0.0331
+    }
+  },
+  "author_breakdown": {
+    "Anonymous (found text)": {
+      "n": 4,
+      "mean_fulfillment": 0.5796,
+      "mean_fulfillment_high_s2": 0.5271,
+      "mean_avg_s2": -0.5768
+    },
+    "Anonymous (Hebrew Bible)": {
+      "n": 7,
+      "mean_fulfillment": 0.5632,
+      "mean_fulfillment_high_s2": 0.3957,
+      "mean_avg_s2": -0.5471
+    },
+    "Synthetic (scientific register test case)": {
+      "n": 3,
+      "mean_fulfillment": 0.5402,
+      "mean_fulfillment_high_s2": 0.4693,
+      "mean_avg_s2": -0.1749
+    },
+    "Synthetic (research test case)": {
+      "n": 3,
+      "mean_fulfillment": 0.5326,
+      "mean_fulfillment_high_s2": 0.6222,
+      "mean_avg_s2": -0.8841
+    },
+    "Control": {
+      "n": 5,
+      "mean_fulfillment": 0.5223,
+      "mean_fulfillment_high_s2": 0.2667,
+      "mean_avg_s2": -1.7362
+    },
+    "Traditional (Scottish ballad)": {
+      "n": 5,
+      "mean_fulfillment": 0.5183,
+      "mean_fulfillment_high_s2": 0.2894,
+      "mean_avg_s2": -0.4216
+    },
+    "Edmund Clerihew Bentley": {
+      "n": 3,
+      "mean_fulfillment": 0.5,
+      "mean_fulfillment_high_s2": 0.3333,
+      "mean_avg_s2": 0.216
+    },
+    "Gertrude Stein": {
+      "n": 4,
+      "mean_fulfillment": 0.4914,
+      "mean_fulfillment_high_s2": 0.3729,
+      "mean_avg_s2": -0.3931
+    },
+    "Alexander Pope": {
+      "n": 4,
+      "mean_fulfillment": 0.4724,
+      "mean_fulfillment_high_s2": 0.525,
+      "mean_avg_s2": -0.1745
+    },
+    "Joy Harjo": {
+      "n": 3,
+      "mean_fulfillment": 0.468,
+      "mean_fulfillment_high_s2": 0.4111,
+      "mean_avg_s2": -0.5367
+    },
+    "Lucille Clifton": {
+      "n": 3,
+      "mean_fulfillment": 0.4667,
+      "mean_fulfillment_high_s2": 0.4452,
+      "mean_avg_s2": -0.6147
+    },
+    "Lewis Carroll": {
+      "n": 5,
+      "mean_fulfillment": 0.4626,
+      "mean_fulfillment_high_s2": 0.3919,
+      "mean_avg_s2": -0.6444
+    },
+    "Frank O'Hara": {
+      "n": 3,
+      "mean_fulfillment": 0.4624,
+      "mean_fulfillment_high_s2": 0.383,
+      "mean_avg_s2": -0.2144
+    },
+    "William Shakespeare": {
+      "n": 3,
+      "mean_fulfillment": 0.4609,
+      "mean_fulfillment_high_s2": 0.5889,
+      "mean_avg_s2": -0.7388
+    },
+    "Alfred, Lord Tennyson": {
+      "n": 5,
+      "mean_fulfillment": 0.4572,
+      "mean_fulfillment_high_s2": 0.413,
+      "mean_avg_s2": -0.5817
+    },
+    "W.B. Yeats": {
+      "n": 3,
+      "mean_fulfillment": 0.4494,
+      "mean_fulfillment_high_s2": 0.4422,
+      "mean_avg_s2": -0.4432
+    },
+    "William Blake": {
+      "n": 7,
+      "mean_fulfillment": 0.4191,
+      "mean_fulfillment_high_s2": 0.3884,
+      "mean_avg_s2": -0.7824
+    },
+    "Robert Browning": {
+      "n": 7,
+      "mean_fulfillment": 0.4159,
+      "mean_fulfillment_high_s2": 0.3212,
+      "mean_avg_s2": -0.233
+    },
+    "Percy Bysshe Shelley": {
+      "n": 4,
+      "mean_fulfillment": 0.406,
+      "mean_fulfillment_high_s2": 0.3133,
+      "mean_avg_s2": -0.3625
+    },
+    "John Keats": {
+      "n": 9,
+      "mean_fulfillment": 0.3997,
+      "mean_fulfillment_high_s2": 0.269,
+      "mean_avg_s2": -0.4413
+    },
+    "Walt Whitman": {
+      "n": 9,
+      "mean_fulfillment": 0.3961,
+      "mean_fulfillment_high_s2": 0.3613,
+      "mean_avg_s2": -0.3359
+    },
+    "Alfred Lord Tennyson": {
+      "n": 3,
+      "mean_fulfillment": 0.3913,
+      "mean_fulfillment_high_s2": 0.1528,
+      "mean_avg_s2": -0.5557
+    },
+    "Synthetic (double dactyl test case)": {
+      "n": 5,
+      "mean_fulfillment": 0.3767,
+      "mean_fulfillment_high_s2": 0.3333,
+      "mean_avg_s2": -0.9497
+    },
+    "Stefan George": {
+      "n": 3,
+      "mean_fulfillment": 0.3731,
+      "mean_fulfillment_high_s2": 0.3694,
+      "mean_avg_s2": 0.3944
+    },
+    "Gerard Manley Hopkins": {
+      "n": 6,
+      "mean_fulfillment": 0.3711,
+      "mean_fulfillment_high_s2": 0.3679,
+      "mean_avg_s2": -0.1344
+    },
+    "Emily Dickinson": {
+      "n": 7,
+      "mean_fulfillment": 0.3536,
+      "mean_fulfillment_high_s2": 0.2892,
+      "mean_avg_s2": 0.0019
+    },
+    "T.S. Eliot": {
+      "n": 5,
+      "mean_fulfillment": 0.3395,
+      "mean_fulfillment_high_s2": 0.3067,
+      "mean_avg_s2": -0.3104
+    },
+    "William Carlos Williams": {
+      "n": 4,
+      "mean_fulfillment": 0.3393,
+      "mean_fulfillment_high_s2": 0.0,
+      "mean_avg_s2": -0.7573
+    },
+    "Langston Hughes": {
+      "n": 3,
+      "mean_fulfillment": 0.3319,
+      "mean_fulfillment_high_s2": 0.381,
+      "mean_avg_s2": -0.704
+    },
+    "John Ashbery": {
+      "n": 17,
+      "mean_fulfillment": 0.3257,
+      "mean_fulfillment_high_s2": 0.16,
+      "mean_avg_s2": -0.641
+    }
+  },
+  "length_effect": {
+    "short": {
+      "n": 103,
+      "mean_fulfillment": 0.3258,
+      "length_range": "\u226470"
+    },
+    "medium-short": {
+      "n": 102,
+      "mean_fulfillment": 0.4195,
+      "length_range": "71\u2013127"
+    },
+    "medium-long": {
+      "n": 104,
+      "mean_fulfillment": 0.4468,
+      "length_range": "128\u2013170"
+    },
+    "long": {
+      "n": 101,
+      "mean_fulfillment": 0.4553,
+      "length_range": ">170"
+    }
+  },
+  "top_globally_evaded_words": [
+    [
+      "world",
+      70
+    ],
+    [
+      "man",
+      69
+    ],
+    [
+      "sun",
+      50
+    ],
+    [
+      "day",
+      49
+    ],
+    [
+      "eyes",
+      45
+    ],
+    [
+      "who",
+      44
+    ],
+    [
+      "little",
+      43
+    ],
+    [
+      "see",
+      43
+    ],
+    [
+      "night",
+      37
+    ],
+    [
+      "sea",
+      36
+    ],
+    [
+      "face",
+      35
+    ],
+    [
+      "same",
+      35
+    ],
+    [
+      "more",
+      33
+    ],
+    [
+      "light",
+      33
+    ],
+    [
+      "own",
+      30
+    ],
+    [
+      "sky",
+      27
+    ],
+    [
+      "time",
+      27
+    ],
+    [
+      "great",
+      25
+    ],
+    [
+      "wind",
+      25
+    ],
+    [
+      "lord",
+      25
+    ]
+  ],
+  "poems": [
+    {
+      "title": "silencio",
+      "author": "Eugen Gomringer",
+      "era": "concrete",
+      "poem_length": 48,
+      "actual_vocab_size": 2,
+      "shadow_vocab_size": 2,
+      "shadow_density": 0.0417,
+      "fulfilled_count": 2,
+      "fulfillment_rate": 1.0,
+      "shadow_in_actual_rate": 1.0,
+      "shadow_high_vocab_size": 0,
+      "fulfillment_rate_high_s2": null,
+      "top_evaded_words": [],
+      "avg_s2": -0.7703
+    },
+    {
+      "title": "The Art of Biography",
+      "author": "Edmund Clerihew Bentley",
+      "era": "clerihew",
+      "poem_length": 27,
+      "actual_vocab_size": 5,
+      "shadow_vocab_size": 2,
+      "shadow_density": 0.0741,
+      "fulfilled_count": 2,
+      "fulfillment_rate": 1.0,
+      "shadow_in_actual_rate": 0.4,
+      "shadow_high_vocab_size": 1,
+      "fulfillment_rate_high_s2": 1.0,
+      "top_evaded_words": [],
+      "avg_s2": -1.0347
+    },
+    {
+      "title": "The Language",
+      "author": "Robert Creeley",
+      "era": "beat",
+      "poem_length": 94,
+      "actual_vocab_size": 26,
+      "shadow_vocab_size": 3,
+      "shadow_density": 0.0319,
+      "fulfilled_count": 3,
+      "fulfillment_rate": 1.0,
+      "shadow_in_actual_rate": 0.1154,
+      "shadow_high_vocab_size": 0,
+      "fulfillment_rate_high_s2": null,
+      "top_evaded_words": [],
+      "avg_s2": -0.355
+    },
+    {
+      "title": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)",
+      "author": "Thomas Jefferson (found text)",
+      "era": "found_poetry",
+      "poem_length": 153,
+      "actual_vocab_size": 53,
+      "shadow_vocab_size": 50,
+      "shadow_density": 0.3268,
+      "fulfilled_count": 40,
+      "fulfillment_rate": 0.8,
+      "shadow_in_actual_rate": 0.7547,
+      "shadow_high_vocab_size": 3,
+      "fulfillment_rate_high_s2": 0.6667,
+      "top_evaded_words": [
+        [
+          "according",
+          2
+        ],
+        [
+          "necessary",
+          1
+        ],
+        [
+          "liberty",
+          1
+        ],
+        [
+          "manner",
+          1
+        ],
+        [
+          "must",
+          1
+        ],
+        [
+          "inking",
+          1
+        ],
+        [
+          "laws",
+          1
+        ],
+        [
+          "man",
+          1
+        ]
+      ],
+      "avg_s2": -0.2612
+    },
+    {
+      "title": "Legal Boilerplate (Found Poem)",
+      "author": "Found (legal boilerplate, public domain)",
+      "era": "found_poetry",
+      "poem_length": 120,
+      "actual_vocab_size": 45,
+      "shadow_vocab_size": 25,
+      "shadow_density": 0.2083,
+      "fulfilled_count": 19,
+      "fulfillment_rate": 0.76,
+      "shadow_in_actual_rate": 0.4222,
+      "shadow_high_vocab_size": 3,
+      "fulfillment_rate_high_s2": 0.6667,
+      "top_evaded_words": [
+        [
+          "due",
+          1
+        ],
+        [
+          "comply",
+          1
+        ],
+        [
+          "office",
+          1
+        ],
+        [
+          "settled",
+          1
+        ],
+        [
+          "made",
+          1
+        ],
+        [
+          "limited",
+          1
+        ]
+      ],
+      "avg_s2": -0.5653
+    },
+    {
+      "title": "The Fall",
+      "author": "Russell Edson",
+      "era": "prose_poetry",
+      "poem_length": 122,
+      "actual_vocab_size": 38,
+      "shadow_vocab_size": 20,
+      "shadow_density": 0.1639,
+      "fulfilled_count": 15,
+      "fulfillment_rate": 0.75,
+      "shadow_in_actual_rate": 0.3947,
+      "shadow_high_vocab_size": 8,
+      "fulfillment_rate_high_s2": 0.75,
+      "top_evaded_words": [
+        [
+          "wife",
+          1
+        ],
+        [
+          "little",
+          1
+        ],
+        [
+          "anny",
+          1
+        ],
+        [
+          "pocket",
+          1
+        ],
+        [
+          "lot",
+          1
+        ]
+      ],
+      "avg_s2": 0.0865
+    },
+    {
+      "title": "Peony Falling (Buson, translated)",
+      "author": "Yosa Buson",
+      "era": "haiku",
+      "poem_length": 21,
+      "actual_vocab_size": 9,
+      "shadow_vocab_size": 4,
+      "shadow_density": 0.1905,
+      "fulfilled_count": 3,
+      "fulfillment_rate": 0.75,
+      "shadow_in_actual_rate": 0.3333,
+      "shadow_high_vocab_size": 0,
+      "fulfillment_rate_high_s2": null,
+      "top_evaded_words": [
+        [
+          "ite",
+          1
+        ]
+      ],
+      "avg_s2": -0.1435
+    },
+    {
+      "title": "No Sky (Shiki, translated)",
+      "author": "Masaoka Shiki",
+      "era": "haiku",
+      "poem_length": 19,
+      "actual_vocab_size": 6,
+      "shadow_vocab_size": 4,
+      "shadow_density": 0.2105,
+      "fulfilled_count": 3,
+      "fulfillment_rate": 0.75,
+      "shadow_in_actual_rate": 0.5,
+      "shadow_high_vocab_size": 0,
+      "fulfillment_rate_high_s2": null,
+      "top_evaded_words": [
+        [
+          "night",
+          1
+        ]
+      ],
+      "avg_s2": 0.0095
+    },
+    {
+      "title": "My Heart Burns for You (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "poem_length": 114,
+      "actual_vocab_size": 33,
+      "shadow_vocab_size": 16,
+      "shadow_density": 0.1404,
+      "fulfilled_count": 12,
+      "fulfillment_rate": 0.75,
+      "shadow_in_actual_rate": 0.3636,
+      "shadow_high_vocab_size": 3,
+      "fulfillment_rate_high_s2": 0.6667,
+      "top_evaded_words": [
+        [
+          "never",
+          1
+        ],
+        [
+          "shine",
+          1
+        ],
+        [
+          "express",
+          1
+        ],
+        [
+          "cry",
+          1
+        ]
+      ],
+      "avg_s2": -1.1249
+    },
+    {
+      "title": "Oh Shenandoah",
+      "author": "Traditional (American sea chanty)",
+      "era": "song_lyrics",
+      "poem_length": 186,
+      "actual_vocab_size": 24,
+      "shadow_vocab_size": 29,
+      "shadow_density": 0.1559,
+      "fulfilled_count": 21,
+      "fulfillment_rate": 0.7241,
+      "shadow_in_actual_rate": 0.875,
+      "shadow_high_vocab_size": 8,
+      "fulfillment_rate_high_s2": 0.875,
+      "top_evaded_words": [
+        [
+          "cause",
+          1
+        ],
+        [
+          "saw",
+          1
+        ],
+        [
+          "see",
+          1
+        ],
+        [
+          "heart",
+          1
+        ],
+        [
+          "say",
+          1
+        ],
+        [
+          "never",
+          1
+        ],
+        [
+          "tis",
+          1
+        ],
+        [
+          "going",
+          1
+        ]
+      ],
+      "avg_s2": -0.3381
+    },
+    {
+      "title": "Vanity of Vanities (Found Poem from Ecclesiastes 1:2-8, KJV)",
+      "author": "Anonymous (KJV, found text)",
+      "era": "found_poetry",
+      "poem_length": 154,
+      "actual_vocab_size": 45,
+      "shadow_vocab_size": 24,
+      "shadow_density": 0.1558,
+      "fulfilled_count": 17,
+      "fulfillment_rate": 0.7083,
+      "shadow_in_actual_rate": 0.3778,
+      "shadow_high_vocab_size": 5,
+      "fulfillment_rate_high_s2": 0.6,
+      "top_evaded_words": [
+        [
+          "life",
+          1
+        ],
+        [
+          "fair",
+          1
+        ],
+        [
+          "ays",
+          1
+        ],
+        [
+          "ither",
+          1
+        ],
+        [
+          "waters",
+          1
+        ],
+        [
+          "moon",
+          1
+        ],
+        [
+          "lord",
+          1
+        ]
+      ],
+      "avg_s2": -0.8593
+    },
+    {
+      "title": "Psalm 19:1-6 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "poem_length": 145,
+      "actual_vocab_size": 55,
+      "shadow_vocab_size": 33,
+      "shadow_density": 0.2276,
+      "fulfilled_count": 23,
+      "fulfillment_rate": 0.697,
+      "shadow_in_actual_rate": 0.4182,
+      "shadow_high_vocab_size": 10,
+      "fulfillment_rate_high_s2": 0.7,
+      "top_evaded_words": [
+        [
+          "house",
+          1
+        ],
+        [
+          "sight",
+          1
+        ],
+        [
+          "ters",
+          1
+        ],
+        [
+          "name",
+          1
+        ],
+        [
+          "spoken",
+          1
+        ],
+        [
+          "watch",
+          1
+        ],
+        [
+          "sea",
+          1
+        ],
+        [
+          "icing",
+          1
+        ]
+      ],
+      "avg_s2": -0.579
+    },
+    {
+      "title": "I Hear America Singing",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "poem_length": 208,
+      "actual_vocab_size": 68,
+      "shadow_vocab_size": 45,
+      "shadow_density": 0.2163,
+      "fulfilled_count": 31,
+      "fulfillment_rate": 0.6889,
+      "shadow_in_actual_rate": 0.4559,
+      "shadow_high_vocab_size": 13,
+      "fulfillment_rate_high_s2": 0.7692,
+      "top_evaded_words": [
+        [
+          "voices",
+          3
+        ],
+        [
+          "sailor",
+          2
+        ],
+        [
+          "umber",
+          1
+        ],
+        [
+          "world",
+          1
+        ],
+        [
+          "aring",
+          1
+        ],
+        [
+          "who",
+          1
+        ],
+        [
+          "men",
+          1
+        ],
+        [
+          "apprentice",
+          1
+        ]
+      ],
+      "avg_s2": -0.691
+    },
+    {
+      "title": "Homage to My Hips",
+      "author": "Lucille Clifton",
+      "era": "spoken_word",
+      "poem_length": 104,
+      "actual_vocab_size": 28,
+      "shadow_vocab_size": 15,
+      "shadow_density": 0.1442,
+      "fulfilled_count": 10,
+      "fulfillment_rate": 0.6667,
+      "shadow_in_actual_rate": 0.3571,
+      "shadow_high_vocab_size": 5,
+      "fulfillment_rate_high_s2": 0.8,
+      "top_evaded_words": [
+        [
+          "spaces",
+          1
+        ],
+        [
+          "als",
+          1
+        ],
+        [
+          "spinning",
+          1
+        ],
+        [
+          "girl",
+          1
+        ],
+        [
+          "lot",
+          1
+        ]
+      ],
+      "avg_s2": -0.8142
+    },
+    {
+      "title": "Cooking Instructions (Found Poem from generic recipe prose)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "poem_length": 132,
+      "actual_vocab_size": 51,
+      "shadow_vocab_size": 33,
+      "shadow_density": 0.25,
+      "fulfilled_count": 22,
+      "fulfillment_rate": 0.6667,
+      "shadow_in_actual_rate": 0.4314,
+      "shadow_high_vocab_size": 6,
+      "fulfillment_rate_high_s2": 0.6667,
+      "top_evaded_words": [
+        [
+          "contents",
+          1
+        ],
+        [
+          "pepper",
+          1
+        ],
+        [
+          "bake",
+          1
+        ],
+        [
+          "skillet",
+          1
+        ],
+        [
+          "bottom",
+          1
+        ],
+        [
+          "remove",
+          1
+        ],
+        [
+          "sure",
+          1
+        ],
+        [
+          "middle",
+          1
+        ]
+      ],
+      "avg_s2": -0.7824
+    },
+    {
+      "title": "If I Told Him: A Completed Portrait of Picasso (excerpt)",
+      "author": "Gertrude Stein",
+      "era": "oulipo",
+      "poem_length": 203,
+      "actual_vocab_size": 20,
+      "shadow_vocab_size": 15,
+      "shadow_density": 0.0739,
+      "fulfilled_count": 10,
+      "fulfillment_rate": 0.6667,
+      "shadow_in_actual_rate": 0.5,
+      "shadow_high_vocab_size": 8,
+      "fulfillment_rate_high_s2": 0.625,
+      "top_evaded_words": [
+        [
+          "wanted",
+          1
+        ],
+        [
+          "pect",
+          1
+        ],
+        [
+          "say",
+          1
+        ],
+        [
+          "says",
+          1
+        ],
+        [
+          "tell",
+          1
+        ]
+      ],
+      "avg_s2": 0.0563
+    },
+    {
+      "title": "A Kiss",
+      "author": "Austin Dobson",
+      "era": "triolet",
+      "poem_length": 63,
+      "actual_vocab_size": 12,
+      "shadow_vocab_size": 9,
+      "shadow_density": 0.1429,
+      "fulfilled_count": 6,
+      "fulfillment_rate": 0.6667,
+      "shadow_in_actual_rate": 0.5,
+      "shadow_high_vocab_size": 1,
+      "fulfillment_rate_high_s2": 1.0,
+      "top_evaded_words": [
+        [
+          "again",
+          1
+        ],
+        [
+          "night",
+          1
+        ],
+        [
+          "ever",
+          1
+        ]
+      ],
+      "avg_s2": -0.6279
+    },
+    {
+      "title": "Lord Randal",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "poem_length": 197,
+      "actual_vocab_size": 26,
+      "shadow_vocab_size": 26,
+      "shadow_density": 0.132,
+      "fulfilled_count": 17,
+      "fulfillment_rate": 0.6538,
+      "shadow_in_actual_rate": 0.6538,
+      "shadow_high_vocab_size": 2,
+      "fulfillment_rate_high_s2": 0.5,
+      "top_evaded_words": [
+        [
+          "house",
+          1
+        ],
+        [
+          "wife",
+          1
+        ],
+        [
+          "ine",
+          1
+        ],
+        [
+          "born",
+          1
+        ],
+        [
+          "supper",
+          1
+        ],
+        [
+          "eat",
+          1
+        ],
+        [
+          "ama",
+          1
+        ],
+        [
+          "head",
+          1
+        ]
+      ],
+      "avg_s2": -0.7118
+    },
+    {
+      "title": "Edward, Edward",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "poem_length": 195,
+      "actual_vocab_size": 20,
+      "shadow_vocab_size": 20,
+      "shadow_density": 0.1026,
+      "fulfilled_count": 13,
+      "fulfillment_rate": 0.65,
+      "shadow_in_actual_rate": 0.65,
+      "shadow_high_vocab_size": 5,
+      "fulfillment_rate_high_s2": 0.4,
+      "top_evaded_words": [
+        [
+          "name",
+          2
+        ],
+        [
+          "brother",
+          1
+        ],
+        [
+          "oth",
+          1
+        ],
+        [
+          "thou",
+          1
+        ],
+        [
+          "ith",
+          1
+        ],
+        [
+          "erry",
+          1
+        ],
+        [
+          "red",
+          1
+        ]
+      ],
+      "avg_s2": -0.7224
+    },
+    {
+      "title": "Psalm 121 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "poem_length": 141,
+      "actual_vocab_size": 46,
+      "shadow_vocab_size": 31,
+      "shadow_density": 0.2199,
+      "fulfilled_count": 20,
+      "fulfillment_rate": 0.6452,
+      "shadow_in_actual_rate": 0.4348,
+      "shadow_high_vocab_size": 7,
+      "fulfillment_rate_high_s2": 0.4286,
+      "top_evaded_words": [
+        [
+          "name",
+          2
+        ],
+        [
+          "god",
+          2
+        ],
+        [
+          "his",
+          1
+        ],
+        [
+          "life",
+          1
+        ],
+        [
+          "voice",
+          1
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "broken",
+          1
+        ],
+        [
+          "shine",
+          1
+        ]
+      ],
+      "avg_s2": -0.5355
+    },
+    {
+      "title": "La Belle Dame sans Merci",
+      "author": "John Keats",
+      "era": "romantic",
+      "poem_length": 470,
+      "actual_vocab_size": 128,
+      "shadow_vocab_size": 75,
+      "shadow_density": 0.1596,
+      "fulfilled_count": 48,
+      "fulfillment_rate": 0.64,
+      "shadow_in_actual_rate": 0.375,
+      "shadow_high_vocab_size": 19,
+      "fulfillment_rate_high_s2": 0.5789,
+      "top_evaded_words": [
+        [
+          "face",
+          3
+        ],
+        [
+          "like",
+          2
+        ],
+        [
+          "alone",
+          1
+        ],
+        [
+          "wind",
+          1
+        ],
+        [
+          "night",
+          1
+        ],
+        [
+          "dark",
+          1
+        ],
+        [
+          "lay",
+          1
+        ],
+        [
+          "aming",
+          1
+        ]
+      ],
+      "avg_s2": -0.4741
+    },
+    {
+      "title": "Weather Observations (Found Poem from meteorological prose)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "poem_length": 129,
+      "actual_vocab_size": 60,
+      "shadow_vocab_size": 36,
+      "shadow_density": 0.2791,
+      "fulfilled_count": 23,
+      "fulfillment_rate": 0.6389,
+      "shadow_in_actual_rate": 0.3833,
+      "shadow_high_vocab_size": 5,
+      "fulfillment_rate_high_s2": 0.4,
+      "top_evaded_words": [
+        [
+          "knots",
+          3
+        ],
+        [
+          "used",
+          1
+        ],
+        [
+          "precipitation",
+          1
+        ],
+        [
+          "during",
+          1
+        ],
+        [
+          "roads",
+          1
+        ],
+        [
+          "when",
+          1
+        ],
+        [
+          "south",
+          1
+        ],
+        [
+          "atmosphere",
+          1
+        ]
+      ],
+      "avg_s2": -0.7433
+    },
+    {
+      "title": "Academic prose",
+      "author": "Control",
+      "era": "control",
+      "poem_length": 29,
+      "actual_vocab_size": 17,
+      "shadow_vocab_size": 11,
+      "shadow_density": 0.3793,
+      "fulfilled_count": 7,
+      "fulfillment_rate": 0.6364,
+      "shadow_in_actual_rate": 0.4118,
+      "shadow_high_vocab_size": 0,
+      "fulfillment_rate_high_s2": null,
+      "top_evaded_words": [
+        [
+          "association",
+          1
+        ],
+        [
+          "number",
+          1
+        ],
+        [
+          "strong",
+          1
+        ],
+        [
+          "whether",
+          1
+        ]
+      ],
+      "avg_s2": -2.3643
+    },
+    {
+      "title": "Makeup on Empty Space",
+      "author": "Anne Waldman",
+      "era": "new_york_school",
+      "poem_length": 153,
+      "actual_vocab_size": 37,
+      "shadow_vocab_size": 22,
+      "shadow_density": 0.1438,
+      "fulfilled_count": 14,
+      "fulfillment_rate": 0.6364,
+      "shadow_in_actual_rate": 0.3784,
+      "shadow_high_vocab_size": 10,
+      "fulfillment_rate_high_s2": 0.8,
+      "top_evaded_words": [
+        [
+          "reason",
+          1
+        ],
+        [
+          "day",
+          1
+        ],
+        [
+          "cent",
+          1
+        ],
+        [
+          "ink",
+          1
+        ],
+        [
+          "azes",
+          1
+        ],
+        [
+          "ina",
+          1
+        ],
+        [
+          "iner",
+          1
+        ],
+        [
+          "exist",
+          1
+        ]
+      ],
+      "avg_s2": -0.5943
+    },
+    {
+      "title": "a list of the delusions of the insane (excerpt)",
+      "author": "David Antin",
+      "era": "prose_poetry",
+      "poem_length": 129,
+      "actual_vocab_size": 41,
+      "shadow_vocab_size": 30,
+      "shadow_density": 0.2326,
+      "fulfilled_count": 19,
+      "fulfillment_rate": 0.6333,
+      "shadow_in_actual_rate": 0.4634,
+      "shadow_high_vocab_size": 6,
+      "fulfillment_rate_high_s2": 0.6667,
+      "top_evaded_words": [
+        [
+          "told",
+          4
+        ],
+        [
+          "world",
+          2
+        ],
+        [
+          "victim",
+          1
+        ],
+        [
+          "ociated",
+          1
+        ],
+        [
+          "energy",
+          1
+        ],
+        [
+          "most",
+          1
+        ],
+        [
+          "call",
+          1
+        ],
+        [
+          "power",
+          1
+        ]
+      ],
+      "avg_s2": -1.2798
+    },
+    {
+      "title": "German narrative prose",
+      "author": "Control",
+      "era": "control",
+      "poem_length": 36,
+      "actual_vocab_size": 25,
+      "shadow_vocab_size": 19,
+      "shadow_density": 0.5278,
+      "fulfilled_count": 12,
+      "fulfillment_rate": 0.6316,
+      "shadow_in_actual_rate": 0.48,
+      "shadow_high_vocab_size": 5,
+      "fulfillment_rate_high_s2": 0.8,
+      "top_evaded_words": [
+        [
+          "stadt",
+          1
+        ],
+        [
+          "dass",
+          1
+        ],
+        [
+          "stra\u00dfe",
+          1
+        ],
+        [
+          "ist",
+          1
+        ],
+        [
+          "sehr",
+          1
+        ],
+        [
+          "w\u00fcrde",
+          1
+        ],
+        [
+          "dem",
+          1
+        ]
+      ],
+      "avg_s2": -0.9753
+    },
+    {
+      "title": "Tonight I Can Write (excerpt)",
+      "author": "Pablo Neruda (trans. W.S. Merwin)",
+      "era": "latin_american",
+      "poem_length": 117,
+      "actual_vocab_size": 30,
+      "shadow_vocab_size": 19,
+      "shadow_density": 0.1624,
+      "fulfilled_count": 12,
+      "fulfillment_rate": 0.6316,
+      "shadow_in_actual_rate": 0.4,
+      "shadow_high_vocab_size": 4,
+      "fulfillment_rate_high_s2": 0.25,
+      "top_evaded_words": [
+        [
+          "love",
+          2
+        ],
+        [
+          "whole",
+          1
+        ],
+        [
+          "day",
+          1
+        ],
+        [
+          "around",
+          1
+        ],
+        [
+          "hand",
+          1
+        ],
+        [
+          "thing",
+          1
+        ],
+        [
+          "coming",
+          1
+        ]
+      ],
+      "avg_s2": -0.6222
+    },
+    {
+      "title": "A Few Days",
+      "author": "James Schuyler",
+      "era": "new_york_school",
+      "poem_length": 158,
+      "actual_vocab_size": 42,
+      "shadow_vocab_size": 19,
+      "shadow_density": 0.1203,
+      "fulfilled_count": 12,
+      "fulfillment_rate": 0.6316,
+      "shadow_in_actual_rate": 0.2857,
+      "shadow_high_vocab_size": 5,
+      "fulfillment_rate_high_s2": 1.0,
+      "top_evaded_words": [
+        [
+          "know",
+          1
+        ],
+        [
+          "home",
+          1
+        ],
+        [
+          "little",
+          1
+        ],
+        [
+          "ried",
+          1
+        ],
+        [
+          "there",
+          1
+        ],
+        [
+          "old",
+          1
+        ],
+        [
+          "feel",
+          1
+        ]
+      ],
+      "avg_s2": -0.9285
+    },
+    {
+      "title": "My Life (excerpt)",
+      "author": "Lyn Hejinian",
+      "era": "language",
+      "poem_length": 50,
+      "actual_vocab_size": 18,
+      "shadow_vocab_size": 8,
+      "shadow_density": 0.16,
+      "fulfilled_count": 5,
+      "fulfillment_rate": 0.625,
+      "shadow_in_actual_rate": 0.2778,
+      "shadow_high_vocab_size": 1,
+      "fulfillment_rate_high_s2": 1.0,
+      "top_evaded_words": [
+        [
+          "like",
+          1
+        ],
+        [
+          "first",
+          1
+        ],
+        [
+          "ago",
+          1
+        ]
+      ],
+      "avg_s2": -0.9011
+    },
+    {
+      "title": "Song of Solomon 2:1-7 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "poem_length": 127,
+      "actual_vocab_size": 39,
+      "shadow_vocab_size": 24,
+      "shadow_density": 0.189,
+      "fulfilled_count": 15,
+      "fulfillment_rate": 0.625,
+      "shadow_in_actual_rate": 0.3846,
+      "shadow_high_vocab_size": 3,
+      "fulfillment_rate_high_s2": 0.6667,
+      "top_evaded_words": [
+        [
+          "feet",
+          1
+        ],
+        [
+          "joy",
+          1
+        ],
+        [
+          "said",
+          1
+        ],
+        [
+          "garden",
+          1
+        ],
+        [
+          "vine",
+          1
+        ],
+        [
+          "field",
+          1
+        ],
+        [
+          "valley",
+          1
+        ],
+        [
+          "sun",
+          1
+        ]
+      ],
+      "avg_s2": -0.605
+    },
+    {
+      "title": "Psalm 136 (KJV)",
+      "author": "Anonymous (KJV translation)",
+      "era": "biblical",
+      "poem_length": 468,
+      "actual_vocab_size": 77,
+      "shadow_vocab_size": 58,
+      "shadow_density": 0.1239,
+      "fulfilled_count": 36,
+      "fulfillment_rate": 0.6207,
+      "shadow_in_actual_rate": 0.4675,
+      "shadow_high_vocab_size": 16,
+      "fulfillment_rate_high_s2": 0.5,
+      "top_evaded_words": [
+        [
+          "mighty",
+          2
+        ],
+        [
+          "inheritance",
+          1
+        ],
+        [
+          "two",
+          1
+        ],
+        [
+          "faces",
+          1
+        ],
+        [
+          "son",
+          1
+        ],
+        [
+          "works",
+          1
+        ],
+        [
+          "father",
+          1
+        ],
+        [
+          "army",
+          1
+        ]
+      ],
+      "avg_s2": -0.235
+    },
+    {
+      "title": "Grass",
+      "author": "Carl Sandburg",
+      "era": "modernist",
+      "poem_length": 102,
+      "actual_vocab_size": 27,
+      "shadow_vocab_size": 21,
+      "shadow_density": 0.2059,
+      "fulfilled_count": 13,
+      "fulfillment_rate": 0.619,
+      "shadow_in_actual_rate": 0.4815,
+      "shadow_high_vocab_size": 2,
+      "fulfillment_rate_high_s2": 0.5,
+      "top_evaded_words": [
+        [
+          "days",
+          2
+        ],
+        [
+          "same",
+          1
+        ],
+        [
+          "top",
+          1
+        ],
+        [
+          "see",
+          1
+        ],
+        [
+          "ago",
+          1
+        ],
+        [
+          "oot",
+          1
+        ],
+        [
+          "master",
+          1
+        ],
+        [
+          "going",
+          1
+        ]
+      ],
+      "avg_s2": -0.6295
+    },
+    {
+      "title": "The Sheds of Our Webs",
+      "author": "Charles Bernstein",
+      "era": "language",
+      "poem_length": 115,
+      "actual_vocab_size": 26,
+      "shadow_vocab_size": 21,
+      "shadow_density": 0.1826,
+      "fulfilled_count": 13,
+      "fulfillment_rate": 0.619,
+      "shadow_in_actual_rate": 0.5,
+      "shadow_high_vocab_size": 9,
+      "fulfillment_rate_high_s2": 0.7778,
+      "top_evaded_words": [
+        [
+          "form",
+          1
+        ],
+        [
+          "world",
+          1
+        ],
+        [
+          "born",
+          1
+        ],
+        [
+          "all",
+          1
+        ],
+        [
+          "who",
+          1
+        ],
+        [
+          "because",
+          1
+        ],
+        [
+          "persons",
+          1
+        ],
+        [
+          "thing",
+          1
+        ]
+      ],
+      "avg_s2": -0.7624
+    },
+    {
+      "title": "To My Dear and Loving Husband",
+      "author": "Anne Bradstreet",
+      "era": "early_modern",
+      "poem_length": 138,
+      "actual_vocab_size": 43,
+      "shadow_vocab_size": 26,
+      "shadow_density": 0.1884,
+      "fulfilled_count": 16,
+      "fulfillment_rate": 0.6154,
+      "shadow_in_actual_rate": 0.3721,
+      "shadow_high_vocab_size": 12,
+      "fulfillment_rate_high_s2": 0.5833,
+      "top_evaded_words": [
+        [
+          "world",
+          2
+        ],
+        [
+          "flow",
+          2
+        ],
+        [
+          "ingly",
+          1
+        ],
+        [
+          "die",
+          1
+        ],
+        [
+          "ance",
+          1
+        ],
+        [
+          "thou",
+          1
+        ],
+        [
+          "othe",
+          1
+        ],
+        [
+          "never",
+          1
+        ]
+      ],
+      "avg_s2": -0.1813
+    },
+    {
+      "title": "Terms and Conditions (Found Poem from generic legal prose)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "poem_length": 135,
+      "actual_vocab_size": 44,
+      "shadow_vocab_size": 31,
+      "shadow_density": 0.2296,
+      "fulfilled_count": 19,
+      "fulfillment_rate": 0.6129,
+      "shadow_in_actual_rate": 0.4318,
+      "shadow_high_vocab_size": 3,
+      "fulfillment_rate_high_s2": 0.6667,
+      "top_evaded_words": [
+        [
+          "use",
+          4
+        ],
+        [
+          "other",
+          3
+        ],
+        [
+          "used",
+          1
+        ],
+        [
+          "site",
+          1
+        ],
+        [
+          "specifications",
+          1
+        ],
+        [
+          "who",
+          1
+        ],
+        [
+          "change",
+          1
+        ],
+        [
+          "protocols",
+          1
+        ]
+      ],
+      "avg_s2": -0.1192
+    },
+    {
+      "title": "Psalm 23 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "poem_length": 153,
+      "actual_vocab_size": 53,
+      "shadow_vocab_size": 28,
+      "shadow_density": 0.183,
+      "fulfilled_count": 17,
+      "fulfillment_rate": 0.6071,
+      "shadow_in_actual_rate": 0.3208,
+      "shadow_high_vocab_size": 4,
+      "fulfillment_rate_high_s2": 0.25,
+      "top_evaded_words": [
+        [
+          "midst",
+          3
+        ],
+        [
+          "hast",
+          2
+        ],
+        [
+          "day",
+          1
+        ],
+        [
+          "wilderness",
+          1
+        ],
+        [
+          "bring",
+          1
+        ],
+        [
+          "mountains",
+          1
+        ],
+        [
+          "man",
+          1
+        ],
+        [
+          "own",
+          1
+        ]
+      ],
+      "avg_s2": -0.6234
+    },
+    {
+      "title": "Remember",
+      "author": "Joy Harjo",
+      "era": "postcolonial",
+      "poem_length": 171,
+      "actual_vocab_size": 52,
+      "shadow_vocab_size": 28,
+      "shadow_density": 0.1637,
+      "fulfilled_count": 17,
+      "fulfillment_rate": 0.6071,
+      "shadow_in_actual_rate": 0.3269,
+      "shadow_high_vocab_size": 9,
+      "fulfillment_rate_high_s2": 0.6667,
+      "top_evaded_words": [
+        [
+          "stars",
+          4
+        ],
+        [
+          "green",
+          3
+        ],
+        [
+          "name",
+          2
+        ],
+        [
+          "strength",
+          2
+        ],
+        [
+          "rees",
+          1
+        ],
+        [
+          "athered",
+          1
+        ],
+        [
+          "see",
+          1
+        ],
+        [
+          "other",
+          1
+        ]
+      ],
+      "avg_s2": -0.4521
+    },
+    {
+      "title": "For Spacious Skies",
+      "author": "Emmett Williams",
+      "era": "concrete",
+      "poem_length": 58,
+      "actual_vocab_size": 4,
+      "shadow_vocab_size": 5,
+      "shadow_density": 0.0862,
+      "fulfilled_count": 3,
+      "fulfillment_rate": 0.6,
+      "shadow_in_actual_rate": 0.75,
+      "shadow_high_vocab_size": 3,
+      "fulfillment_rate_high_s2": 0.6667,
+      "top_evaded_words": [
+        [
+          "ysc",
+          1
+        ],
+        [
+          "cean",
+          1
+        ]
+      ],
+      "avg_s2": 0.0101
+    },
+    {
+      "title": "Wonder",
+      "author": "Thomas Traherne",
+      "era": "metaphysical",
+      "poem_length": 134,
+      "actual_vocab_size": 50,
+      "shadow_vocab_size": 25,
+      "shadow_density": 0.1866,
+      "fulfilled_count": 15,
+      "fulfillment_rate": 0.6,
+      "shadow_in_actual_rate": 0.3,
+      "shadow_high_vocab_size": 6,
+      "fulfillment_rate_high_s2": 0.5,
+      "top_evaded_words": [
+        [
+          "saw",
+          2
+        ],
+        [
+          "presence",
+          1
+        ],
+        [
+          "dwell",
+          1
+        ],
+        [
+          "glorious",
+          1
+        ],
+        [
+          "flock",
+          1
+        ],
+        [
+          "eyes",
+          1
+        ],
+        [
+          "old",
+          1
+        ],
+        [
+          "own",
+          1
+        ]
+      ],
+      "avg_s2": -0.4071
+    },
+    {
+      "title": "The Stranger (prose poem, translated)",
+      "author": "Charles Baudelaire",
+      "era": "prose_poetry",
+      "poem_length": 148,
+      "actual_vocab_size": 40,
+      "shadow_vocab_size": 32,
+      "shadow_density": 0.2162,
+      "fulfilled_count": 19,
+      "fulfillment_rate": 0.5938,
+      "shadow_in_actual_rate": 0.475,
+      "shadow_high_vocab_size": 11,
+      "fulfillment_rate_high_s2": 0.4545,
+      "top_evaded_words": [
+        [
+          "think",
+          2
+        ],
+        [
+          "world",
+          1
+        ],
+        [
+          "who",
+          1
+        ],
+        [
+          "stars",
+          1
+        ],
+        [
+          "name",
+          1
+        ],
+        [
+          "where",
+          1
+        ],
+        [
+          "men",
+          1
+        ],
+        [
+          "hair",
+          1
+        ]
+      ],
+      "avg_s2": -0.4571
+    },
+    {
+      "title": "Pillow",
+      "author": "Russell Edson",
+      "era": "prose_poetry",
+      "poem_length": 125,
+      "actual_vocab_size": 38,
+      "shadow_vocab_size": 27,
+      "shadow_density": 0.216,
+      "fulfilled_count": 16,
+      "fulfillment_rate": 0.5926,
+      "shadow_in_actual_rate": 0.4211,
+      "shadow_high_vocab_size": 8,
+      "fulfillment_rate_high_s2": 0.625,
+      "top_evaded_words": [
+        [
+          "know",
+          2
+        ],
+        [
+          "covered",
+          1
+        ],
+        [
+          "scars",
+          1
+        ],
+        [
+          "who",
+          1
+        ],
+        [
+          "case",
+          1
+        ],
+        [
+          "wrinkles",
+          1
+        ],
+        [
+          "sleeping",
+          1
+        ],
+        [
+          "when",
+          1
+        ]
+      ],
+      "avg_s2": -0.8543
+    },
+    {
+      "title": "The Lamb",
+      "author": "William Blake",
+      "era": "romantic",
+      "poem_length": 177,
+      "actual_vocab_size": 38,
+      "shadow_vocab_size": 27,
+      "shadow_density": 0.1525,
+      "fulfilled_count": 16,
+      "fulfillment_rate": 0.5926,
+      "shadow_in_actual_rate": 0.4211,
+      "shadow_high_vocab_size": 7,
+      "fulfillment_rate_high_s2": 0.5714,
+      "top_evaded_words": [
+        [
+          "world",
+          1
+        ],
+        [
+          "blood",
+          1
+        ],
+        [
+          "ollen",
+          1
+        ],
+        [
+          "sea",
+          1
+        ],
+        [
+          "heart",
+          1
+        ],
+        [
+          "our",
+          1
+        ],
+        [
+          "aughter",
+          1
+        ],
+        [
+          "garment",
+          1
+        ]
+      ],
+      "avg_s2": -0.8542
+    },
+    {
+      "title": "S+7: Genesis (N+7 variant)",
+      "author": "Jean Lescure",
+      "era": "oulipo",
+      "poem_length": 134,
+      "actual_vocab_size": 39,
+      "shadow_vocab_size": 29,
+      "shadow_density": 0.2164,
+      "fulfilled_count": 17,
+      "fulfillment_rate": 0.5862,
+      "shadow_in_actual_rate": 0.4359,
+      "shadow_high_vocab_size": 12,
+      "fulfillment_rate_high_s2": 0.5,
+      "top_evaded_words": [
+        [
+          "light",
+          7
+        ],
+        [
+          "same",
+          1
+        ],
+        [
+          "ble",
+          1
+        ],
+        [
+          "past",
+          1
+        ],
+        [
+          "pid",
+          1
+        ],
+        [
+          "destruction",
+          1
+        ],
+        [
+          "ighters",
+          1
+        ],
+        [
+          "azaar",
+          1
+        ]
+      ],
+      "avg_s2": -0.2717
+    },
+    {
+      "title": "The Summer Day",
+      "author": "Mary Oliver",
+      "era": "contemporary",
+      "poem_length": 195,
+      "actual_vocab_size": 60,
+      "shadow_vocab_size": 41,
+      "shadow_density": 0.2103,
+      "fulfilled_count": 24,
+      "fulfillment_rate": 0.5854,
+      "shadow_in_actual_rate": 0.4,
+      "shadow_high_vocab_size": 14,
+      "fulfillment_rate_high_s2": 0.5714,
+      "top_evaded_words": [
+        [
+          "silent",
+          2
+        ],
+        [
+          "look",
+          2
+        ],
+        [
+          "beautiful",
+          2
+        ],
+        [
+          "finger",
+          1
+        ],
+        [
+          "fingers",
+          1
+        ],
+        [
+          "feet",
+          1
+        ],
+        [
+          "pray",
+          1
+        ],
+        [
+          "asleep",
+          1
+        ]
+      ],
+      "avg_s2": -0.7377
+    },
+    {
+      "title": "The Old Man's Comforts and How He Gained Them",
+      "author": "Robert Southey",
+      "era": "parody_original",
+      "poem_length": 262,
+      "actual_vocab_size": 60,
+      "shadow_vocab_size": 41,
+      "shadow_density": 0.1565,
+      "fulfilled_count": 24,
+      "fulfillment_rate": 0.5854,
+      "shadow_in_actual_rate": 0.4,
+      "shadow_high_vocab_size": 8,
+      "fulfillment_rate_high_s2": 0.625,
+      "top_evaded_words": [
+        [
+          "who",
+          2
+        ],
+        [
+          "remember",
+          2
+        ],
+        [
+          "uddled",
+          1
+        ],
+        [
+          "loss",
+          1
+        ],
+        [
+          "world",
+          1
+        ],
+        [
+          "all",
+          1
+        ],
+        [
+          "enough",
+          1
+        ],
+        [
+          "said",
+          1
+        ]
+      ],
+      "avg_s2": -0.2045
+    },
+    {
+      "title": "Paradoxes and Oxymorons",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "poem_length": 159,
+      "actual_vocab_size": 45,
+      "shadow_vocab_size": 24,
+      "shadow_density": 0.1509,
+      "fulfilled_count": 14,
+      "fulfillment_rate": 0.5833,
+      "shadow_in_actual_rate": 0.3111,
+      "shadow_high_vocab_size": 10,
+      "fulfillment_rate_high_s2": 0.4,
+      "top_evaded_words": [
+        [
+          "dream",
+          2
+        ],
+        [
+          "world",
+          1
+        ],
+        [
+          "all",
+          1
+        ],
+        [
+          "sense",
+          1
+        ],
+        [
+          "atic",
+          1
+        ],
+        [
+          "existence",
+          1
+        ],
+        [
+          "playing",
+          1
+        ],
+        [
+          "iddle",
+          1
+        ]
+      ],
+      "avg_s2": -0.273
+    },
+    {
+      "title": "Rubaiyat of Omar Khayyam (stanzas 7\u201310)",
+      "author": "Omar Khayyam (trans. FitzGerald, 1859)",
+      "era": "persian",
+      "poem_length": 212,
+      "actual_vocab_size": 60,
+      "shadow_vocab_size": 36,
+      "shadow_density": 0.1698,
+      "fulfilled_count": 21,
+      "fulfillment_rate": 0.5833,
+      "shadow_in_actual_rate": 0.35,
+      "shadow_high_vocab_size": 7,
+      "fulfillment_rate_high_s2": 0.5714,
+      "top_evaded_words": [
+        [
+          "come",
+          2
+        ],
+        [
+          "know",
+          1
+        ],
+        [
+          "ose",
+          1
+        ],
+        [
+          "vel",
+          1
+        ],
+        [
+          "name",
+          1
+        ],
+        [
+          "utters",
+          1
+        ],
+        [
+          "land",
+          1
+        ],
+        [
+          "void",
+          1
+        ]
+      ],
+      "avg_s2": -0.1855
+    },
+    {
+      "title": "Decreasing Divergence: The Coined Word Ladder",
+      "author": "Synthetic (shadow-divergence test case)",
+      "era": "concrete",
+      "poem_length": 182,
+      "actual_vocab_size": 37,
+      "shadow_vocab_size": 36,
+      "shadow_density": 0.1978,
+      "fulfilled_count": 21,
+      "fulfillment_rate": 0.5833,
+      "shadow_in_actual_rate": 0.5676,
+      "shadow_high_vocab_size": 8,
+      "fulfillment_rate_high_s2": 0.625,
+      "top_evaded_words": [
+        [
+          "bing",
+          3
+        ],
+        [
+          "two",
+          2
+        ],
+        [
+          "sound",
+          2
+        ],
+        [
+          "night",
+          1
+        ],
+        [
+          "don",
+          1
+        ],
+        [
+          "change",
+          1
+        ],
+        [
+          "ing",
+          1
+        ],
+        [
+          "aming",
+          1
+        ]
+      ],
+      "avg_s2": -0.6848
+    },
+    {
+      "title": "Bluebird",
+      "author": "Charles Bukowski",
+      "era": "spoken_word",
+      "poem_length": 98,
+      "actual_vocab_size": 27,
+      "shadow_vocab_size": 19,
+      "shadow_density": 0.1939,
+      "fulfilled_count": 11,
+      "fulfillment_rate": 0.5789,
+      "shadow_in_actual_rate": 0.4074,
+      "shadow_high_vocab_size": 4,
+      "fulfillment_rate_high_s2": 0.0,
+      "top_evaded_words": [
+        [
+          "wants",
+          1
+        ],
+        [
+          "what",
+          1
+        ],
+        [
+          "scared",
+          1
+        ],
+        [
+          "yard",
+          1
+        ],
+        [
+          "sky",
+          1
+        ],
+        [
+          "store",
+          1
+        ],
+        [
+          "myself",
+          1
+        ],
+        [
+          "lot",
+          1
+        ]
+      ],
+      "avg_s2": -0.403
+    },
+    {
+      "title": "The Maximum Clich\u00e9 (control)",
+      "author": "Synthetic (cliche_control test case)",
+      "era": "cliche_control",
+      "poem_length": 164,
+      "actual_vocab_size": 64,
+      "shadow_vocab_size": 45,
+      "shadow_density": 0.2744,
+      "fulfilled_count": 26,
+      "fulfillment_rate": 0.5778,
+      "shadow_in_actual_rate": 0.4062,
+      "shadow_high_vocab_size": 6,
+      "fulfillment_rate_high_s2": 0.1667,
+      "top_evaded_words": [
+        [
+          "man",
+          3
+        ],
+        [
+          "same",
+          1
+        ],
+        [
+          "green",
+          1
+        ],
+        [
+          "away",
+          1
+        ],
+        [
+          "says",
+          1
+        ],
+        [
+          "allies",
+          1
+        ],
+        [
+          "once",
+          1
+        ],
+        [
+          "good",
+          1
+        ]
+      ],
+      "avg_s2": -1.0693
+    },
+    {
+      "title": "Somnambule Ballad",
+      "author": "Federico Garc\u00eda Lorca",
+      "era": "surrealist",
+      "poem_length": 185,
+      "actual_vocab_size": 51,
+      "shadow_vocab_size": 26,
+      "shadow_density": 0.1405,
+      "fulfilled_count": 15,
+      "fulfillment_rate": 0.5769,
+      "shadow_in_actual_rate": 0.2941,
+      "shadow_high_vocab_size": 11,
+      "fulfillment_rate_high_s2": 0.4545,
+      "top_evaded_words": [
+        [
+          "leaves",
+          2
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "night",
+          1
+        ],
+        [
+          "feet",
+          1
+        ],
+        [
+          "dark",
+          1
+        ],
+        [
+          "blue",
+          1
+        ],
+        [
+          "ground",
+          1
+        ],
+        [
+          "oves",
+          1
+        ]
+      ],
+      "avg_s2": -0.6654
+    },
+    {
+      "title": "Death, Be Not Proud (Holy Sonnet X)",
+      "author": "John Donne",
+      "era": "metaphysical",
+      "poem_length": 174,
+      "actual_vocab_size": 60,
+      "shadow_vocab_size": 26,
+      "shadow_density": 0.1494,
+      "fulfilled_count": 15,
+      "fulfillment_rate": 0.5769,
+      "shadow_in_actual_rate": 0.25,
+      "shadow_high_vocab_size": 10,
+      "fulfillment_rate_high_s2": 0.6,
+      "top_evaded_words": [
+        [
+          "day",
+          2
+        ],
+        [
+          "mighty",
+          1
+        ],
+        [
+          "lives",
+          1
+        ],
+        [
+          "all",
+          1
+        ],
+        [
+          "who",
+          1
+        ],
+        [
+          "souls",
+          1
+        ],
+        [
+          "heart",
+          1
+        ],
+        [
+          "hast",
+          1
+        ]
+      ],
+      "avg_s2": -0.7509
+    },
+    {
+      "title": "On the Uncertainty Principle",
+      "author": "Synthetic (scientific register test case)",
+      "era": "contemporary",
+      "poem_length": 111,
+      "actual_vocab_size": 43,
+      "shadow_vocab_size": 26,
+      "shadow_density": 0.2342,
+      "fulfilled_count": 15,
+      "fulfillment_rate": 0.5769,
+      "shadow_in_actual_rate": 0.3488,
+      "shadow_high_vocab_size": 8,
+      "fulfillment_rate_high_s2": 0.375,
+      "top_evaded_words": [
+        [
+          "eed",
+          1
+        ],
+        [
+          "dimensions",
+          1
+        ],
+        [
+          "thereal",
+          1
+        ],
+        [
+          "see",
+          1
+        ],
+        [
+          "likely",
+          1
+        ],
+        [
+          "moving",
+          1
+        ],
+        [
+          "say",
+          1
+        ],
+        [
+          "defined",
+          1
+        ]
+      ],
+      "avg_s2": -0.0862
+    },
+    {
+      "title": "The Truth the Dead Know (opening)",
+      "author": "Anne Sexton",
+      "era": "confessional",
+      "poem_length": 43,
+      "actual_vocab_size": 19,
+      "shadow_vocab_size": 7,
+      "shadow_density": 0.1628,
+      "fulfilled_count": 4,
+      "fulfillment_rate": 0.5714,
+      "shadow_in_actual_rate": 0.2105,
+      "shadow_high_vocab_size": 0,
+      "fulfillment_rate_high_s2": null,
+      "top_evaded_words": [
+        [
+          "away",
+          1
+        ],
+        [
+          "use",
+          1
+        ],
+        [
+          "word",
+          1
+        ]
+      ],
+      "avg_s2": -0.9287
+    },
+    {
+      "title": "Nikola Tesla",
+      "author": "Synthetic (clerihew test case)",
+      "era": "clerihew",
+      "poem_length": 23,
+      "actual_vocab_size": 15,
+      "shadow_vocab_size": 7,
+      "shadow_density": 0.3043,
+      "fulfilled_count": 4,
+      "fulfillment_rate": 0.5714,
+      "shadow_in_actual_rate": 0.2667,
+      "shadow_high_vocab_size": 1,
+      "fulfillment_rate_high_s2": 0.0,
+      "top_evaded_words": [
+        [
+          "eyes",
+          1
+        ],
+        [
+          "inking",
+          1
+        ],
+        [
+          "favorite",
+          1
+        ]
+      ],
+      "avg_s2": 1.8914
+    },
+    {
+      "title": "Gerard Manley Hopkins (Double Dactyl)",
+      "author": "Synthetic (double dactyl test case)",
+      "era": "double_dactyl",
+      "poem_length": 55,
+      "actual_vocab_size": 22,
+      "shadow_vocab_size": 14,
+      "shadow_density": 0.2545,
+      "fulfilled_count": 8,
+      "fulfillment_rate": 0.5714,
+      "shadow_in_actual_rate": 0.3636,
+      "shadow_high_vocab_size": 3,
+      "fulfillment_rate_high_s2": 1.0,
+      "top_evaded_words": [
+        [
+          "ball",
+          1
+        ],
+        [
+          "eyed",
+          1
+        ],
+        [
+          "arry",
+          1
+        ],
+        [
+          "ill",
+          1
+        ],
+        [
+          "ink",
+          1
+        ],
+        [
+          "ling",
+          1
+        ]
+      ],
+      "avg_s2": -0.297
+    },
+    {
+      "title": "Laws of Motion",
+      "author": "Synthetic (scientific register test case)",
+      "era": "contemporary",
+      "poem_length": 139,
+      "actual_vocab_size": 55,
+      "shadow_vocab_size": 28,
+      "shadow_density": 0.2014,
+      "fulfilled_count": 16,
+      "fulfillment_rate": 0.5714,
+      "shadow_in_actual_rate": 0.2909,
+      "shadow_high_vocab_size": 13,
+      "fulfillment_rate_high_s2": 0.4615,
+      "top_evaded_words": [
+        [
+          "same",
+          2
+        ],
+        [
+          "move",
+          1
+        ],
+        [
+          "pull",
+          1
+        ],
+        [
+          "position",
+          1
+        ],
+        [
+          "ends",
+          1
+        ],
+        [
+          "when",
+          1
+        ],
+        [
+          "own",
+          1
+        ],
+        [
+          "ught",
+          1
+        ]
+      ],
+      "avg_s2": 0.1897
+    },
+    {
+      "title": "Villanelle of the Unsaid",
+      "author": "Synthetic (shadow-poem meta-poem)",
+      "era": "villanelle",
+      "poem_length": 211,
+      "actual_vocab_size": 53,
+      "shadow_vocab_size": 28,
+      "shadow_density": 0.1327,
+      "fulfilled_count": 16,
+      "fulfillment_rate": 0.5714,
+      "shadow_in_actual_rate": 0.3019,
+      "shadow_high_vocab_size": 9,
+      "fulfillment_rate_high_s2": 0.7778,
+      "top_evaded_words": [
+        [
+          "his",
+          1
+        ],
+        [
+          "very",
+          1
+        ],
+        [
+          "record",
+          1
+        ],
+        [
+          "home",
+          1
+        ],
+        [
+          "song",
+          1
+        ],
+        [
+          "cient",
+          1
+        ],
+        [
+          "best",
+          1
+        ],
+        [
+          "thought",
+          1
+        ]
+      ],
+      "avg_s2": -0.1102
+    },
+    {
+      "title": "Recessional (stanzas 1-3)",
+      "author": "Rudyard Kipling",
+      "era": "victorian",
+      "poem_length": 177,
+      "actual_vocab_size": 58,
+      "shadow_vocab_size": 37,
+      "shadow_density": 0.209,
+      "fulfilled_count": 21,
+      "fulfillment_rate": 0.5676,
+      "shadow_in_actual_rate": 0.3621,
+      "shadow_high_vocab_size": 9,
+      "fulfillment_rate_high_s2": 0.6667,
+      "top_evaded_words": [
+        [
+          "face",
+          2
+        ],
+        [
+          "mighty",
+          1
+        ],
+        [
+          "world",
+          1
+        ],
+        [
+          "ancestors",
+          1
+        ],
+        [
+          "oth",
+          1
+        ],
+        [
+          "fields",
+          1
+        ],
+        [
+          "king",
+          1
+        ],
+        [
+          "time",
+          1
+        ]
+      ],
+      "avg_s2": -0.5828
+    },
+    {
+      "title": "Eunoia: Chapter A (excerpt)",
+      "author": "Christian B\u00f6k",
+      "era": "oulipo",
+      "poem_length": 123,
+      "actual_vocab_size": 47,
+      "shadow_vocab_size": 34,
+      "shadow_density": 0.2764,
+      "fulfilled_count": 19,
+      "fulfillment_rate": 0.5588,
+      "shadow_in_actual_rate": 0.4043,
+      "shadow_high_vocab_size": 7,
+      "fulfillment_rate_high_s2": 0.0,
+      "top_evaded_words": [
+        [
+          "his",
+          2
+        ],
+        [
+          "sea",
+          2
+        ],
+        [
+          "olds",
+          1
+        ],
+        [
+          "iting",
+          1
+        ],
+        [
+          "ble",
+          1
+        ],
+        [
+          "isy",
+          1
+        ],
+        [
+          "ingle",
+          1
+        ],
+        [
+          "anges",
+          1
+        ]
+      ],
+      "avg_s2": 0.0633
+    },
+    {
+      "title": "The Listeners",
+      "author": "Walter de la Mare",
+      "era": "19th_century",
+      "poem_length": 124,
+      "actual_vocab_size": 39,
+      "shadow_vocab_size": 27,
+      "shadow_density": 0.2177,
+      "fulfilled_count": 15,
+      "fulfillment_rate": 0.5556,
+      "shadow_in_actual_rate": 0.3846,
+      "shadow_high_vocab_size": 9,
+      "fulfillment_rate_high_s2": 0.4444,
+      "top_evaded_words": [
+        [
+          "who",
+          2
+        ],
+        [
+          "man",
+          2
+        ],
+        [
+          "aving",
+          1
+        ],
+        [
+          "covered",
+          1
+        ],
+        [
+          "dark",
+          1
+        ],
+        [
+          "green",
+          1
+        ],
+        [
+          "else",
+          1
+        ],
+        [
+          "ground",
+          1
+        ]
+      ],
+      "avg_s2": -0.3204
+    },
+    {
+      "title": "Nursery Rhymes (compilation)",
+      "author": "Traditional (English)",
+      "era": "nursery_rhyme",
+      "poem_length": 243,
+      "actual_vocab_size": 80,
+      "shadow_vocab_size": 54,
+      "shadow_density": 0.2222,
+      "fulfilled_count": 30,
+      "fulfillment_rate": 0.5556,
+      "shadow_in_actual_rate": 0.375,
+      "shadow_high_vocab_size": 11,
+      "fulfillment_rate_high_s2": 0.4545,
+      "top_evaded_words": [
+        [
+          "bench",
+          2
+        ],
+        [
+          "head",
+          2
+        ],
+        [
+          "yes",
+          1
+        ],
+        [
+          "love",
+          1
+        ],
+        [
+          "bright",
+          1
+        ],
+        [
+          "ming",
+          1
+        ],
+        [
+          "people",
+          1
+        ],
+        [
+          "think",
+          1
+        ]
+      ],
+      "avg_s2": -0.8185
+    },
+    {
+      "title": "An Essay on Criticism (opening)",
+      "author": "Alexander Pope",
+      "era": "18th_century",
+      "poem_length": 162,
+      "actual_vocab_size": 68,
+      "shadow_vocab_size": 27,
+      "shadow_density": 0.1667,
+      "fulfilled_count": 15,
+      "fulfillment_rate": 0.5556,
+      "shadow_in_actual_rate": 0.2206,
+      "shadow_high_vocab_size": 5,
+      "fulfillment_rate_high_s2": 0.6,
+      "top_evaded_words": [
+        [
+          "same",
+          2
+        ],
+        [
+          "errors",
+          2
+        ],
+        [
+          "thousand",
+          1
+        ],
+        [
+          "age",
+          1
+        ],
+        [
+          "course",
+          1
+        ],
+        [
+          "ures",
+          1
+        ],
+        [
+          "believe",
+          1
+        ],
+        [
+          "what",
+          1
+        ]
+      ],
+      "avg_s2": -0.2765
+    },
+    {
+      "title": "In Memoriam A.H.H. (sections I and VII)",
+      "author": "Alfred Lord Tennyson",
+      "era": "elegy",
+      "poem_length": 160,
+      "actual_vocab_size": 57,
+      "shadow_vocab_size": 27,
+      "shadow_density": 0.1688,
+      "fulfilled_count": 15,
+      "fulfillment_rate": 0.5556,
+      "shadow_in_actual_rate": 0.2632,
+      "shadow_high_vocab_size": 8,
+      "fulfillment_rate_high_s2": 0.125,
+      "top_evaded_words": [
+        [
+          "night",
+          2
+        ],
+        [
+          "see",
+          2
+        ],
+        [
+          "man",
+          2
+        ],
+        [
+          "who",
+          1
+        ],
+        [
+          "moment",
+          1
+        ],
+        [
+          "oso",
+          1
+        ],
+        [
+          "seen",
+          1
+        ],
+        [
+          "streets",
+          1
+        ]
+      ],
+      "avg_s2": -0.7631
+    },
+    {
+      "title": "The Battle of Maldon (excerpt, trans. E.V. Gordon)",
+      "author": "Anonymous (trans. E.V. Gordon)",
+      "era": "old_english",
+      "poem_length": 214,
+      "actual_vocab_size": 84,
+      "shadow_vocab_size": 40,
+      "shadow_density": 0.1869,
+      "fulfilled_count": 22,
+      "fulfillment_rate": 0.55,
+      "shadow_in_actual_rate": 0.2619,
+      "shadow_high_vocab_size": 9,
+      "fulfillment_rate_high_s2": 0.6667,
+      "top_evaded_words": [
+        [
+          "battle",
+          2
+        ],
+        [
+          "know",
+          1
+        ],
+        [
+          "long",
+          1
+        ],
+        [
+          "atcher",
+          1
+        ],
+        [
+          "ishing",
+          1
+        ],
+        [
+          "such",
+          1
+        ],
+        [
+          "nes",
+          1
+        ],
+        [
+          "men",
+          1
+        ]
+      ],
+      "avg_s2": -0.3326
+    },
+    {
+      "title": "Personal Poem",
+      "author": "Ted Berrigan",
+      "era": "new_york_school",
+      "poem_length": 252,
+      "actual_vocab_size": 66,
+      "shadow_vocab_size": 51,
+      "shadow_density": 0.2024,
+      "fulfilled_count": 28,
+      "fulfillment_rate": 0.549,
+      "shadow_in_actual_rate": 0.4242,
+      "shadow_high_vocab_size": 6,
+      "fulfillment_rate_high_s2": 0.5,
+      "top_evaded_words": [
+        [
+          "first",
+          2
+        ],
+        [
+          "know",
+          1
+        ],
+        [
+          "icles",
+          1
+        ],
+        [
+          "fact",
+          1
+        ],
+        [
+          "never",
+          1
+        ],
+        [
+          "people",
+          1
+        ],
+        [
+          "poet",
+          1
+        ],
+        [
+          "long",
+          1
+        ]
+      ],
+      "avg_s2": -0.9254
+    },
+    {
+      "title": "Crossing (excerpt)",
+      "author": "Rae Armantrout",
+      "era": "prose_poetry",
+      "poem_length": 137,
+      "actual_vocab_size": 36,
+      "shadow_vocab_size": 31,
+      "shadow_density": 0.2263,
+      "fulfilled_count": 17,
+      "fulfillment_rate": 0.5484,
+      "shadow_in_actual_rate": 0.4722,
+      "shadow_high_vocab_size": 10,
+      "fulfillment_rate_high_s2": 0.4,
+      "top_evaded_words": [
+        [
+          "left",
+          1
+        ],
+        [
+          "children",
+          1
+        ],
+        [
+          "all",
+          1
+        ],
+        [
+          "rooms",
+          1
+        ],
+        [
+          "told",
+          1
+        ],
+        [
+          "away",
+          1
+        ],
+        [
+          "air",
+          1
+        ],
+        [
+          "sees",
+          1
+        ]
+      ],
+      "avg_s2": -0.6452
+    },
+    {
+      "title": "The Charge of the Light Brigade",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "poem_length": 293,
+      "actual_vocab_size": 74,
+      "shadow_vocab_size": 53,
+      "shadow_density": 0.1809,
+      "fulfilled_count": 29,
+      "fulfillment_rate": 0.5472,
+      "shadow_in_actual_rate": 0.3919,
+      "shadow_high_vocab_size": 16,
+      "fulfillment_rate_high_s2": 0.5,
+      "top_evaded_words": [
+        [
+          "fire",
+          3
+        ],
+        [
+          "aught",
+          2
+        ],
+        [
+          "unte",
+          1
+        ],
+        [
+          "ise",
+          1
+        ],
+        [
+          "away",
+          1
+        ],
+        [
+          "ame",
+          1
+        ],
+        [
+          "ocked",
+          1
+        ],
+        [
+          "before",
+          1
+        ]
+      ],
+      "avg_s2": -0.5112
+    },
+    {
+      "title": "The Raven (opening stanzas)",
+      "author": "Edgar Allan Poe",
+      "era": "19th_century",
+      "poem_length": 719,
+      "actual_vocab_size": 215,
+      "shadow_vocab_size": 139,
+      "shadow_density": 0.1933,
+      "fulfilled_count": 76,
+      "fulfillment_rate": 0.5468,
+      "shadow_in_actual_rate": 0.3535,
+      "shadow_high_vocab_size": 29,
+      "fulfillment_rate_high_s2": 0.4828,
+      "top_evaded_words": [
+        [
+          "time",
+          3
+        ],
+        [
+          "who",
+          3
+        ],
+        [
+          "day",
+          2
+        ],
+        [
+          "last",
+          2
+        ],
+        [
+          "own",
+          2
+        ],
+        [
+          "voice",
+          2
+        ],
+        [
+          "saw",
+          2
+        ],
+        [
+          "same",
+          1
+        ]
+      ],
+      "avg_s2": -0.7402
+    },
+    {
+      "title": "Somnambulistic Ballad (excerpt)",
+      "author": "Federico Garc\u00eda Lorca (trans. Stephen Spender & J.L. Gili)",
+      "era": "latin_american",
+      "poem_length": 87,
+      "actual_vocab_size": 26,
+      "shadow_vocab_size": 11,
+      "shadow_density": 0.1264,
+      "fulfilled_count": 6,
+      "fulfillment_rate": 0.5455,
+      "shadow_in_actual_rate": 0.2308,
+      "shadow_high_vocab_size": 3,
+      "fulfillment_rate_high_s2": 1.0,
+      "top_evaded_words": [
+        [
+          "who",
+          1
+        ],
+        [
+          "feet",
+          1
+        ],
+        [
+          "blue",
+          1
+        ],
+        [
+          "ground",
+          1
+        ],
+        [
+          "feel",
+          1
+        ]
+      ],
+      "avg_s2": -0.8131
+    },
+    {
+      "title": "The Wanderer's Litany",
+      "author": "Arthur Symons",
+      "era": "triolet",
+      "poem_length": 73,
+      "actual_vocab_size": 11,
+      "shadow_vocab_size": 11,
+      "shadow_density": 0.1507,
+      "fulfilled_count": 6,
+      "fulfillment_rate": 0.5455,
+      "shadow_in_actual_rate": 0.5455,
+      "shadow_high_vocab_size": 6,
+      "fulfillment_rate_high_s2": 0.5,
+      "top_evaded_words": [
+        [
+          "know",
+          1
+        ],
+        [
+          "oken",
+          1
+        ],
+        [
+          "ored",
+          1
+        ],
+        [
+          "worked",
+          1
+        ],
+        [
+          "danced",
+          1
+        ]
+      ],
+      "avg_s2": -0.8528
+    },
+    {
+      "title": "Home on the Range",
+      "author": "Brewster Higley",
+      "era": "song_lyrics",
+      "poem_length": 166,
+      "actual_vocab_size": 46,
+      "shadow_vocab_size": 46,
+      "shadow_density": 0.2771,
+      "fulfilled_count": 25,
+      "fulfillment_rate": 0.5435,
+      "shadow_in_actual_rate": 0.5435,
+      "shadow_high_vocab_size": 11,
+      "fulfillment_rate_high_s2": 0.0909,
+      "top_evaded_words": [
+        [
+          "wild",
+          2
+        ],
+        [
+          "sky",
+          2
+        ],
+        [
+          "clear",
+          2
+        ],
+        [
+          "land",
+          2
+        ],
+        [
+          "night",
+          1
+        ],
+        [
+          "spoken",
+          1
+        ],
+        [
+          "kids",
+          1
+        ],
+        [
+          "long",
+          1
+        ]
+      ],
+      "avg_s2": -0.6282
+    },
+    {
+      "title": "Ode to the West Wind (stanza 1)",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "poem_length": 170,
+      "actual_vocab_size": 78,
+      "shadow_vocab_size": 37,
+      "shadow_density": 0.2176,
+      "fulfilled_count": 20,
+      "fulfillment_rate": 0.5405,
+      "shadow_in_actual_rate": 0.2564,
+      "shadow_high_vocab_size": 12,
+      "fulfillment_rate_high_s2": 0.5,
+      "top_evaded_words": [
+        [
+          "flowers",
+          2
+        ],
+        [
+          "sun",
+          2
+        ],
+        [
+          "own",
+          2
+        ],
+        [
+          "world",
+          1
+        ],
+        [
+          "ale",
+          1
+        ],
+        [
+          "green",
+          1
+        ],
+        [
+          "ven",
+          1
+        ],
+        [
+          "orous",
+          1
+        ]
+      ],
+      "avg_s2": -0.3725
+    },
+    {
+      "title": "Song: To Celia",
+      "author": "Ben Jonson",
+      "era": "early_modern",
+      "poem_length": 75,
+      "actual_vocab_size": 21,
+      "shadow_vocab_size": 13,
+      "shadow_density": 0.1733,
+      "fulfilled_count": 7,
+      "fulfillment_rate": 0.5385,
+      "shadow_in_actual_rate": 0.3333,
+      "shadow_high_vocab_size": 0,
+      "fulfillment_rate_high_s2": null,
+      "top_evaded_words": [
+        [
+          "name",
+          1
+        ],
+        [
+          "ught",
+          1
+        ],
+        [
+          "water",
+          1
+        ],
+        [
+          "man",
+          1
+        ],
+        [
+          "own",
+          1
+        ],
+        [
+          "board",
+          1
+        ]
+      ],
+      "avg_s2": -0.9198
+    },
+    {
+      "title": "Jabberwocky",
+      "author": "Lewis Carroll",
+      "era": "nonsense",
+      "poem_length": 320,
+      "actual_vocab_size": 79,
+      "shadow_vocab_size": 52,
+      "shadow_density": 0.1625,
+      "fulfilled_count": 28,
+      "fulfillment_rate": 0.5385,
+      "shadow_in_actual_rate": 0.3544,
+      "shadow_high_vocab_size": 8,
+      "fulfillment_rate_high_s2": 0.25,
+      "top_evaded_words": [
+        [
+          "three",
+          2
+        ],
+        [
+          "house",
+          1
+        ],
+        [
+          "ilee",
+          1
+        ],
+        [
+          "aurus",
+          1
+        ],
+        [
+          "ing",
+          1
+        ],
+        [
+          "anced",
+          1
+        ],
+        [
+          "lord",
+          1
+        ],
+        [
+          "row",
+          1
+        ]
+      ],
+      "avg_s2": -0.7574
+    },
+    {
+      "title": "Calypso",
+      "author": "Kamau Brathwaite",
+      "era": "postcolonial",
+      "poem_length": 230,
+      "actual_vocab_size": 51,
+      "shadow_vocab_size": 30,
+      "shadow_density": 0.1304,
+      "fulfilled_count": 16,
+      "fulfillment_rate": 0.5333,
+      "shadow_in_actual_rate": 0.3137,
+      "shadow_high_vocab_size": 6,
+      "fulfillment_rate_high_s2": 0.1667,
+      "top_evaded_words": [
+        [
+          "sun",
+          2
+        ],
+        [
+          "reach",
+          1
+        ],
+        [
+          "world",
+          1
+        ],
+        [
+          "lim",
+          1
+        ],
+        [
+          "enne",
+          1
+        ],
+        [
+          "francisco",
+          1
+        ],
+        [
+          "ilt",
+          1
+        ],
+        [
+          "song",
+          1
+        ]
+      ],
+      "avg_s2": -0.307
+    },
+    {
+      "title": "Ghazal of the Better-Unbegun",
+      "author": "Heather McHugh",
+      "era": "ghazal",
+      "poem_length": 118,
+      "actual_vocab_size": 22,
+      "shadow_vocab_size": 15,
+      "shadow_density": 0.1271,
+      "fulfilled_count": 8,
+      "fulfillment_rate": 0.5333,
+      "shadow_in_actual_rate": 0.3636,
+      "shadow_high_vocab_size": 3,
+      "fulfillment_rate_high_s2": 0.6667,
+      "top_evaded_words": [
+        [
+          "matter",
+          1
+        ],
+        [
+          "time",
+          1
+        ],
+        [
+          "right",
+          1
+        ],
+        [
+          "good",
+          1
+        ],
+        [
+          "place",
+          1
+        ],
+        [
+          "stable",
+          1
+        ],
+        [
+          "going",
+          1
+        ]
+      ],
+      "avg_s2": -0.5165
+    },
+    {
+      "title": "Sonnet 73 (That time of year)",
+      "author": "William Shakespeare",
+      "era": "victorian",
+      "poem_length": 173,
+      "actual_vocab_size": 65,
+      "shadow_vocab_size": 32,
+      "shadow_density": 0.185,
+      "fulfilled_count": 17,
+      "fulfillment_rate": 0.5312,
+      "shadow_in_actual_rate": 0.2615,
+      "shadow_high_vocab_size": 5,
+      "fulfillment_rate_high_s2": 0.6,
+      "top_evaded_words": [
+        [
+          "est",
+          4
+        ],
+        [
+          "sun",
+          3
+        ],
+        [
+          "rise",
+          2
+        ],
+        [
+          "thee",
+          1
+        ],
+        [
+          "who",
+          1
+        ],
+        [
+          "ished",
+          1
+        ],
+        [
+          "dead",
+          1
+        ],
+        [
+          "earth",
+          1
+        ]
+      ],
+      "avg_s2": -0.8
+    },
+    {
+      "title": "Sestina of the Tramp-Royal (opening stanzas)",
+      "author": "Rudyard Kipling",
+      "era": "fixed_form",
+      "poem_length": 130,
+      "actual_vocab_size": 40,
+      "shadow_vocab_size": 19,
+      "shadow_density": 0.1462,
+      "fulfilled_count": 10,
+      "fulfillment_rate": 0.5263,
+      "shadow_in_actual_rate": 0.25,
+      "shadow_high_vocab_size": 6,
+      "fulfillment_rate_high_s2": 0.5,
+      "top_evaded_words": [
+        [
+          "their",
+          1
+        ],
+        [
+          "got",
+          1
+        ],
+        [
+          "ant",
+          1
+        ],
+        [
+          "people",
+          1
+        ],
+        [
+          "how",
+          1
+        ],
+        [
+          "mean",
+          1
+        ],
+        [
+          "much",
+          1
+        ],
+        [
+          "live",
+          1
+        ]
+      ],
+      "avg_s2": -0.6341
+    },
+    {
+      "title": "You Are Old, Father William",
+      "author": "Lewis Carroll",
+      "era": "parody",
+      "poem_length": 382,
+      "actual_vocab_size": 110,
+      "shadow_vocab_size": 57,
+      "shadow_density": 0.1492,
+      "fulfilled_count": 30,
+      "fulfillment_rate": 0.5263,
+      "shadow_in_actual_rate": 0.2727,
+      "shadow_high_vocab_size": 19,
+      "fulfillment_rate_high_s2": 0.5263,
+      "top_evaded_words": [
+        [
+          "long",
+          3
+        ],
+        [
+          "say",
+          2
+        ],
+        [
+          "teeth",
+          2
+        ],
+        [
+          "ground",
+          2
+        ],
+        [
+          "strong",
+          2
+        ],
+        [
+          "little",
+          2
+        ],
+        [
+          "work",
+          1
+        ],
+        [
+          "last",
+          1
+        ]
+      ],
+      "avg_s2": -0.2776
+    },
+    {
+      "title": "The New Colossus",
+      "author": "Emma Lazarus",
+      "era": "protest_political",
+      "poem_length": 162,
+      "actual_vocab_size": 74,
+      "shadow_vocab_size": 38,
+      "shadow_density": 0.2346,
+      "fulfilled_count": 20,
+      "fulfillment_rate": 0.5263,
+      "shadow_in_actual_rate": 0.2703,
+      "shadow_high_vocab_size": 9,
+      "fulfillment_rate_high_s2": 0.3333,
+      "top_evaded_words": [
+        [
+          "light",
+          3
+        ],
+        [
+          "long",
+          1
+        ],
+        [
+          "ory",
+          1
+        ],
+        [
+          "eed",
+          1
+        ],
+        [
+          "mythology",
+          1
+        ],
+        [
+          "feet",
+          1
+        ],
+        [
+          "oss",
+          1
+        ],
+        [
+          "dead",
+          1
+        ]
+      ],
+      "avg_s2": -0.8307
+    },
+    {
+      "title": "Progress (excerpt)",
+      "author": "Barrett Watten",
+      "era": "language",
+      "poem_length": 117,
+      "actual_vocab_size": 34,
+      "shadow_vocab_size": 19,
+      "shadow_density": 0.1624,
+      "fulfilled_count": 10,
+      "fulfillment_rate": 0.5263,
+      "shadow_in_actual_rate": 0.2941,
+      "shadow_high_vocab_size": 6,
+      "fulfillment_rate_high_s2": 0.5,
+      "top_evaded_words": [
+        [
+          "used",
+          1
+        ],
+        [
+          "matter",
+          1
+        ],
+        [
+          "case",
+          1
+        ],
+        [
+          "because",
+          1
+        ],
+        [
+          "being",
+          1
+        ],
+        [
+          "most",
+          1
+        ],
+        [
+          "ness",
+          1
+        ],
+        [
+          "people",
+          1
+        ]
+      ],
+      "avg_s2": -0.9877
+    },
+    {
+      "title": "Lifting Belly (excerpt)",
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "poem_length": 169,
+      "actual_vocab_size": 31,
+      "shadow_vocab_size": 21,
+      "shadow_density": 0.1243,
+      "fulfilled_count": 11,
+      "fulfillment_rate": 0.5238,
+      "shadow_in_actual_rate": 0.3548,
+      "shadow_high_vocab_size": 5,
+      "fulfillment_rate_high_s2": 0.2,
+      "top_evaded_words": [
+        [
+          "ucks",
+          1
+        ],
+        [
+          "see",
+          1
+        ],
+        [
+          "much",
+          1
+        ],
+        [
+          "sound",
+          1
+        ],
+        [
+          "ick",
+          1
+        ],
+        [
+          "ind",
+          1
+        ],
+        [
+          "button",
+          1
+        ],
+        [
+          "ies",
+          1
+        ]
+      ],
+      "avg_s2": -0.9005
+    },
+    {
+      "title": "Possibilities",
+      "author": "Wislawa Szymborska",
+      "era": "contemporary",
+      "poem_length": 128,
+      "actual_vocab_size": 39,
+      "shadow_vocab_size": 23,
+      "shadow_density": 0.1797,
+      "fulfilled_count": 12,
+      "fulfillment_rate": 0.5217,
+      "shadow_in_actual_rate": 0.3077,
+      "shadow_high_vocab_size": 9,
+      "fulfillment_rate_high_s2": 0.5556,
+      "top_evaded_words": [
+        [
+          "way",
+          2
+        ],
+        [
+          "like",
+          1
+        ],
+        [
+          "diary",
+          1
+        ],
+        [
+          "coast",
+          1
+        ],
+        [
+          "line",
+          1
+        ],
+        [
+          "art",
+          1
+        ],
+        [
+          "music",
+          1
+        ],
+        [
+          "keep",
+          1
+        ]
+      ],
+      "avg_s2": -0.3721
+    },
+    {
+      "title": "The Lipogram: A Sentence Without the Letter E",
+      "author": "Georges Perec",
+      "era": "oulipo",
+      "poem_length": 115,
+      "actual_vocab_size": 42,
+      "shadow_vocab_size": 23,
+      "shadow_density": 0.2,
+      "fulfilled_count": 12,
+      "fulfillment_rate": 0.5217,
+      "shadow_in_actual_rate": 0.2857,
+      "shadow_high_vocab_size": 7,
+      "fulfillment_rate_high_s2": 0.2857,
+      "top_evaded_words": [
+        [
+          "eyes",
+          3
+        ],
+        [
+          "happening",
+          2
+        ],
+        [
+          "large",
+          1
+        ],
+        [
+          "chest",
+          1
+        ],
+        [
+          "face",
+          1
+        ],
+        [
+          "single",
+          1
+        ],
+        [
+          "their",
+          1
+        ],
+        [
+          "dil",
+          1
+        ]
+      ],
+      "avg_s2": -0.5975
+    },
+    {
+      "title": "Ghazal of the Better-Unbegun",
+      "author": "Heather McHugh",
+      "era": "ghazal",
+      "poem_length": 128,
+      "actual_vocab_size": 45,
+      "shadow_vocab_size": 23,
+      "shadow_density": 0.1797,
+      "fulfilled_count": 12,
+      "fulfillment_rate": 0.5217,
+      "shadow_in_actual_rate": 0.2667,
+      "shadow_high_vocab_size": 7,
+      "fulfillment_rate_high_s2": 0.1429,
+      "top_evaded_words": [
+        [
+          "cold",
+          2
+        ],
+        [
+          "man",
+          2
+        ],
+        [
+          "talent",
+          1
+        ],
+        [
+          "upt",
+          1
+        ],
+        [
+          "school",
+          1
+        ],
+        [
+          "people",
+          1
+        ],
+        [
+          "one",
+          1
+        ],
+        [
+          "close",
+          1
+        ]
+      ],
+      "avg_s2": -0.4135
+    },
+    {
+      "title": "Love (III)",
+      "author": "George Herbert",
+      "era": "metaphysical",
+      "poem_length": 188,
+      "actual_vocab_size": 58,
+      "shadow_vocab_size": 25,
+      "shadow_density": 0.133,
+      "fulfilled_count": 13,
+      "fulfillment_rate": 0.52,
+      "shadow_in_actual_rate": 0.2241,
+      "shadow_high_vocab_size": 4,
+      "fulfillment_rate_high_s2": 0.5,
+      "top_evaded_words": [
+        [
+          "ilt",
+          1
+        ],
+        [
+          "too",
+          1
+        ],
+        [
+          "little",
+          1
+        ],
+        [
+          "ing",
+          1
+        ],
+        [
+          "kissed",
+          1
+        ],
+        [
+          "ark",
+          1
+        ],
+        [
+          "heart",
+          1
+        ],
+        [
+          "own",
+          1
+        ]
+      ],
+      "avg_s2": -0.86
+    },
+    {
+      "title": "Mann und Frau gehn durch die Krebsbaracke (trans. Ward)",
+      "author": "Gottfried Benn",
+      "era": "german_expressionist",
+      "poem_length": 134,
+      "actual_vocab_size": 49,
+      "shadow_vocab_size": 27,
+      "shadow_density": 0.2015,
+      "fulfilled_count": 14,
+      "fulfillment_rate": 0.5185,
+      "shadow_in_actual_rate": 0.2857,
+      "shadow_high_vocab_size": 6,
+      "fulfillment_rate_high_s2": 0.3333,
+      "top_evaded_words": [
+        [
+          "fate",
+          1
+        ],
+        [
+          "what",
+          1
+        ],
+        [
+          "name",
+          1
+        ],
+        [
+          "who",
+          1
+        ],
+        [
+          "little",
+          1
+        ],
+        [
+          "ing",
+          1
+        ],
+        [
+          "take",
+          1
+        ],
+        [
+          "nut",
+          1
+        ]
+      ],
+      "avg_s2": -0.4646
+    },
+    {
+      "title": "Since there's no help (Sonnet 61)",
+      "author": "Michael Drayton",
+      "era": "early_modern",
+      "poem_length": 162,
+      "actual_vocab_size": 58,
+      "shadow_vocab_size": 27,
+      "shadow_density": 0.1667,
+      "fulfilled_count": 14,
+      "fulfillment_rate": 0.5185,
+      "shadow_in_actual_rate": 0.2414,
+      "shadow_high_vocab_size": 10,
+      "fulfillment_rate_high_s2": 0.4,
+      "top_evaded_words": [
+        [
+          "know",
+          2
+        ],
+        [
+          "day",
+          2
+        ],
+        [
+          "side",
+          2
+        ],
+        [
+          "back",
+          1
+        ],
+        [
+          "sure",
+          1
+        ],
+        [
+          "tears",
+          1
+        ],
+        [
+          "many",
+          1
+        ],
+        [
+          "end",
+          1
+        ]
+      ],
+      "avg_s2": -0.4994
+    },
+    {
+      "title": "A Red, Red Rose",
+      "author": "Robert Burns",
+      "era": "romantic",
+      "poem_length": 164,
+      "actual_vocab_size": 40,
+      "shadow_vocab_size": 29,
+      "shadow_density": 0.1768,
+      "fulfilled_count": 15,
+      "fulfillment_rate": 0.5172,
+      "shadow_in_actual_rate": 0.375,
+      "shadow_high_vocab_size": 10,
+      "fulfillment_rate_high_s2": 0.5,
+      "top_evaded_words": [
+        [
+          "sea",
+          3
+        ],
+        [
+          "day",
+          2
+        ],
+        [
+          "years",
+          2
+        ],
+        [
+          "long",
+          1
+        ],
+        [
+          "wine",
+          1
+        ],
+        [
+          "what",
+          1
+        ],
+        [
+          "name",
+          1
+        ],
+        [
+          "time",
+          1
+        ]
+      ],
+      "avg_s2": -0.7768
+    },
+    {
+      "title": "The House on the Hill",
+      "author": "Edwin Arlington Robinson",
+      "era": "villanelle",
+      "poem_length": 144,
+      "actual_vocab_size": 36,
+      "shadow_vocab_size": 29,
+      "shadow_density": 0.2014,
+      "fulfilled_count": 15,
+      "fulfillment_rate": 0.5172,
+      "shadow_in_actual_rate": 0.4167,
+      "shadow_high_vocab_size": 8,
+      "fulfillment_rate_high_s2": 0.375,
+      "top_evaded_words": [
+        [
+          "world",
+          2
+        ],
+        [
+          "lives",
+          1
+        ],
+        [
+          "fully",
+          1
+        ],
+        [
+          "left",
+          1
+        ],
+        [
+          "very",
+          1
+        ],
+        [
+          "any",
+          1
+        ],
+        [
+          "bad",
+          1
+        ],
+        [
+          "little",
+          1
+        ]
+      ],
+      "avg_s2": -0.2722
+    },
+    {
+      "title": "The Fish",
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "poem_length": 366,
+      "actual_vocab_size": 106,
+      "shadow_vocab_size": 31,
+      "shadow_density": 0.0847,
+      "fulfilled_count": 16,
+      "fulfillment_rate": 0.5161,
+      "shadow_in_actual_rate": 0.1509,
+      "shadow_high_vocab_size": 4,
+      "fulfillment_rate_high_s2": 0.25,
+      "top_evaded_words": [
+        [
+          "ord",
+          1
+        ],
+        [
+          "closing",
+          1
+        ],
+        [
+          "acle",
+          1
+        ],
+        [
+          "ademic",
+          1
+        ],
+        [
+          "asses",
+          1
+        ],
+        [
+          "vice",
+          1
+        ],
+        [
+          "two",
+          1
+        ],
+        [
+          "oss",
+          1
+        ]
+      ],
+      "avg_s2": 0.0179
+    },
+    {
+      "title": "The Tyger",
+      "author": "William Blake",
+      "era": "romantic",
+      "poem_length": 212,
+      "actual_vocab_size": 61,
+      "shadow_vocab_size": 45,
+      "shadow_density": 0.2123,
+      "fulfilled_count": 23,
+      "fulfillment_rate": 0.5111,
+      "shadow_in_actual_rate": 0.377,
+      "shadow_high_vocab_size": 10,
+      "fulfillment_rate_high_s2": 0.5,
+      "top_evaded_words": [
+        [
+          "face",
+          3
+        ],
+        [
+          "dark",
+          2
+        ],
+        [
+          "oth",
+          1
+        ],
+        [
+          "thou",
+          1
+        ],
+        [
+          "hold",
+          1
+        ],
+        [
+          "light",
+          1
+        ],
+        [
+          "trem",
+          1
+        ],
+        [
+          "great",
+          1
+        ]
+      ],
+      "avg_s2": -0.879
+    },
+    {
+      "title": "The Second Coming",
+      "author": "W.B. Yeats",
+      "era": "modernist",
+      "poem_length": 231,
+      "actual_vocab_size": 94,
+      "shadow_vocab_size": 47,
+      "shadow_density": 0.2035,
+      "fulfilled_count": 24,
+      "fulfillment_rate": 0.5106,
+      "shadow_in_actual_rate": 0.2553,
+      "shadow_high_vocab_size": 8,
+      "fulfillment_rate_high_s2": 0.625,
+      "top_evaded_words": [
+        [
+          "akes",
+          2
+        ],
+        [
+          "who",
+          2
+        ],
+        [
+          "see",
+          2
+        ],
+        [
+          "esc",
+          1
+        ],
+        [
+          "ome",
+          1
+        ],
+        [
+          "lost",
+          1
+        ],
+        [
+          "sound",
+          1
+        ],
+        [
+          "great",
+          1
+        ]
+      ],
+      "avg_s2": -0.5102
+    },
+    {
+      "title": "I Wandered Lonely as a Cloud",
+      "author": "William Wordsworth",
+      "era": "romantic",
+      "poem_length": 59,
+      "actual_vocab_size": 23,
+      "shadow_vocab_size": 14,
+      "shadow_density": 0.2373,
+      "fulfilled_count": 7,
+      "fulfillment_rate": 0.5,
+      "shadow_in_actual_rate": 0.3043,
+      "shadow_high_vocab_size": 1,
+      "fulfillment_rate_high_s2": 0.0,
+      "top_evaded_words": [
+        [
+          "great",
+          2
+        ],
+        [
+          "men",
+          1
+        ],
+        [
+          "sea",
+          1
+        ],
+        [
+          "ain",
+          1
+        ],
+        [
+          "child",
+          1
+        ],
+        [
+          "less",
+          1
+        ],
+        [
+          "owing",
+          1
+        ]
+      ],
+      "avg_s2": -0.6973
+    },
+    {
+      "title": "I felt a Funeral, in my Brain",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "poem_length": 69,
+      "actual_vocab_size": 24,
+      "shadow_vocab_size": 16,
+      "shadow_density": 0.2319,
+      "fulfilled_count": 8,
+      "fulfillment_rate": 0.5,
+      "shadow_in_actual_rate": 0.3333,
+      "shadow_high_vocab_size": 3,
+      "fulfillment_rate_high_s2": 0.6667,
+      "top_evaded_words": [
+        [
+          "gone",
+          2
+        ],
+        [
+          "moment",
+          1
+        ],
+        [
+          "broken",
+          1
+        ],
+        [
+          "little",
+          1
+        ],
+        [
+          "prayer",
+          1
+        ],
+        [
+          "heart",
+          1
+        ],
+        [
+          "which",
+          1
+        ],
+        [
+          "came",
+          1
+        ]
+      ],
+      "avg_s2": -0.8858
+    },
+    {
+      "title": "Whereas (excerpt)",
+      "author": "Layli Long Soldier",
+      "era": "contemporary",
+      "poem_length": 58,
+      "actual_vocab_size": 9,
+      "shadow_vocab_size": 8,
+      "shadow_density": 0.1379,
+      "fulfilled_count": 4,
+      "fulfillment_rate": 0.5,
+      "shadow_in_actual_rate": 0.4444,
+      "shadow_high_vocab_size": 4,
+      "fulfillment_rate_high_s2": 0.5,
+      "top_evaded_words": [
+        [
+          "make",
+          2
+        ],
+        [
+          "course",
+          1
+        ],
+        [
+          "service",
+          1
+        ],
+        [
+          "own",
+          1
+        ]
+      ],
+      "avg_s2": 0.1588
+    },
+    {
+      "title": "Bonnie George Campbell",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "poem_length": 119,
+      "actual_vocab_size": 30,
+      "shadow_vocab_size": 22,
+      "shadow_density": 0.1849,
+      "fulfilled_count": 11,
+      "fulfillment_rate": 0.5,
+      "shadow_in_actual_rate": 0.3667,
+      "shadow_high_vocab_size": 5,
+      "fulfillment_rate_high_s2": 0.2,
+      "top_evaded_words": [
+        [
+          "glad",
+          1
+        ],
+        [
+          "ened",
+          1
+        ],
+        [
+          "oused",
+          1
+        ],
+        [
+          "ave",
+          1
+        ],
+        [
+          "ide",
+          1
+        ],
+        [
+          "air",
+          1
+        ],
+        [
+          "father",
+          1
+        ],
+        [
+          "oped",
+          1
+        ]
+      ],
+      "avg_s2": -0.2706
+    },
+    {
+      "title": "Natural Selection (Found Poem from Darwin, 1859)",
+      "author": "Charles Darwin (found text)",
+      "era": "found_poetry",
+      "poem_length": 142,
+      "actual_vocab_size": 44,
+      "shadow_vocab_size": 28,
+      "shadow_density": 0.1972,
+      "fulfilled_count": 14,
+      "fulfillment_rate": 0.5,
+      "shadow_in_actual_rate": 0.3182,
+      "shadow_high_vocab_size": 9,
+      "fulfillment_rate_high_s2": 0.6667,
+      "top_evaded_words": [
+        [
+          "same",
+          1
+        ],
+        [
+          "very",
+          1
+        ],
+        [
+          "matter",
+          1
+        ],
+        [
+          "needs",
+          1
+        ],
+        [
+          "always",
+          1
+        ],
+        [
+          "significant",
+          1
+        ],
+        [
+          "numbers",
+          1
+        ],
+        [
+          "exercised",
+          1
+        ]
+      ],
+      "avg_s2": -0.9086
+    },
+    {
+      "title": "Scientific Method (Found Poem from Newton's Opticks, 1704)",
+      "author": "Isaac Newton (found text)",
+      "era": "found_poetry",
+      "poem_length": 130,
+      "actual_vocab_size": 52,
+      "shadow_vocab_size": 26,
+      "shadow_density": 0.2,
+      "fulfilled_count": 13,
+      "fulfillment_rate": 0.5,
+      "shadow_in_actual_rate": 0.25,
+      "shadow_high_vocab_size": 12,
+      "fulfillment_rate_high_s2": 0.5,
+      "top_evaded_words": [
+        [
+          "points",
+          1
+        ],
+        [
+          "proportion",
+          1
+        ],
+        [
+          "objects",
+          1
+        ],
+        [
+          "their",
+          1
+        ],
+        [
+          "give",
+          1
+        ],
+        [
+          "experience",
+          1
+        ],
+        [
+          "ers",
+          1
+        ],
+        [
+          "william",
+          1
+        ]
+      ],
+      "avg_s2": -0.6321
+    }
+  ]
+}
