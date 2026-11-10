@@ -1,0 +1,452 @@
+{
+  "group_summary": {
+    "LL": {
+      "n": 17,
+      "mean_delta": -1.1622,
+      "median_delta": -1.002,
+      "mean_s2_1": 0.3079,
+      "mean_s2_2": -0.8543,
+      "pct_dip": 52.9,
+      "pct_rise": 47.1
+    },
+    "LM": {
+      "n": 77,
+      "mean_delta": -2.27,
+      "median_delta": -1.8091,
+      "mean_s2_1": 0.7085,
+      "mean_s2_2": -1.5616,
+      "pct_dip": 68.8,
+      "pct_rise": 31.2
+    },
+    "ML": {
+      "n": 96,
+      "mean_delta": -1.8838,
+      "median_delta": -1.3133,
+      "mean_s2_1": 1.4424,
+      "mean_s2_2": -0.4414,
+      "pct_dip": 68.8,
+      "pct_rise": 31.2
+    },
+    "MM": {
+      "n": 1269,
+      "mean_delta": -1.949,
+      "median_delta": -1.6446,
+      "mean_s2_1": 0.9619,
+      "mean_s2_2": -0.9871,
+      "pct_dip": 66.4,
+      "pct_rise": 33.6
+    }
+  },
+  "era_summary": {},
+  "examples": {
+    "LL": [
+      {
+        "word": "self",
+        "s2_1": 4.45,
+        "s2_2": -4.77,
+        "delta": -9.22,
+        "title": "Saint Francis and the Sow",
+        "author": "Galway Kinnell"
+      },
+      {
+        "word": "word",
+        "s2_1": 6.41,
+        "s2_2": -2.62,
+        "delta": -9.03,
+        "title": "The Wife of Usher's Well",
+        "author": "Traditional (Scottish ballad)"
+      },
+      {
+        "word": "ble",
+        "s2_1": 5.69,
+        "s2_2": 0.36,
+        "delta": -5.33,
+        "title": "A Dialogue of Self and Soul (Part I)",
+        "author": "W.B. Yeats"
+      },
+      {
+        "word": "let",
+        "s2_1": 0.79,
+        "s2_2": -3.13,
+        "delta": -3.92,
+        "title": "A Few Days",
+        "author": "James Schuyler"
+      },
+      {
+        "word": "ray",
+        "s2_1": -4.34,
+        "s2_2": -0.44,
+        "delta": 3.9,
+        "title": "You Are Old, Father William",
+        "author": "Lewis Carroll"
+      },
+      {
+        "word": "ants",
+        "s2_1": -3.23,
+        "s2_2": -0.06,
+        "delta": 3.17,
+        "title": "Bluebird",
+        "author": "Charles Bukowski"
+      },
+      {
+        "word": "ched",
+        "s2_1": -3.08,
+        "s2_2": -0.73,
+        "delta": 2.35,
+        "title": "The Raven (opening stanzas)",
+        "author": "Edgar Allan Poe"
+      },
+      {
+        "word": "hundred",
+        "s2_1": -5.18,
+        "s2_2": -2.97,
+        "delta": 2.22,
+        "title": "A Dialogue of Self and Soul (Part I)",
+        "author": "W.B. Yeats"
+      },
+      {
+        "word": "sus",
+        "s2_1": -4.98,
+        "s2_2": -2.79,
+        "delta": 2.19,
+        "title": "Susie Asado",
+        "author": "Gertrude Stein"
+      },
+      {
+        "word": "now",
+        "s2_1": -0.3,
+        "s2_2": -2.47,
+        "delta": -2.17,
+        "title": "The Summer Day",
+        "author": "Mary Oliver"
+      }
+    ],
+    "MM": [
+      {
+        "word": "red",
+        "s2_1": 17.95,
+        "s2_2": -5.82,
+        "delta": -23.77,
+        "title": "Sir Patrick Spens",
+        "author": "Traditional (Scottish ballad)"
+      },
+      {
+        "word": "rest",
+        "s2_1": -2.93,
+        "s2_2": 15.49,
+        "delta": 18.42,
+        "title": "Laws of Motion",
+        "author": "Synthetic (scientific register test case)"
+      },
+      {
+        "word": "passing",
+        "s2_1": 12.94,
+        "s2_2": -4.84,
+        "delta": -17.78,
+        "title": "Villanelle (A dainty thing's the Villanelle)",
+        "author": "William Ernest Henley"
+      },
+      {
+        "word": "thou",
+        "s2_1": 12.35,
+        "s2_2": -4.39,
+        "delta": -16.75,
+        "title": "To a Mouse (closing stanzas)",
+        "author": "Robert Burns"
+      },
+      {
+        "word": "explore",
+        "s2_1": 12.7,
+        "s2_2": -3.87,
+        "delta": -16.57,
+        "title": "The Raven (opening stanzas)",
+        "author": "Edgar Allan Poe"
+      },
+      {
+        "word": "expected",
+        "s2_1": 10.99,
+        "s2_2": -5.33,
+        "delta": -16.32,
+        "title": "Weather Observations (Found Poem from meteorological prose)",
+        "author": "Anonymous (found text)"
+      },
+      {
+        "word": "alike",
+        "s2_1": -1.32,
+        "s2_2": 14.98,
+        "delta": 16.3,
+        "title": "Andrea del Sarto",
+        "author": "Robert Browning"
+      },
+      {
+        "word": "sicily",
+        "s2_1": 13.0,
+        "s2_2": -3.3,
+        "delta": -16.3,
+        "title": "Theocritus: A Villanelle (opening quatrains)",
+        "author": "Oscar Wilde"
+      },
+      {
+        "word": "move",
+        "s2_1": 13.08,
+        "s2_2": -2.93,
+        "delta": -16.01,
+        "title": "A Valediction: Forbidding Mourning",
+        "author": "John Donne"
+      },
+      {
+        "word": "astronomer",
+        "s2_1": 11.5,
+        "s2_2": -4.42,
+        "delta": -15.93,
+        "title": "When I Heard the Learn'd Astronomer",
+        "author": "Walt Whitman"
+      }
+    ]
+  },
+  "ll_rises": [
+    {
+      "word": "ray",
+      "s2_1": -4.34,
+      "s2_2": -0.44,
+      "delta": 3.9,
+      "title": "You Are Old, Father William",
+      "author": "Lewis Carroll"
+    },
+    {
+      "word": "ants",
+      "s2_1": -3.23,
+      "s2_2": -0.06,
+      "delta": 3.17,
+      "title": "Bluebird",
+      "author": "Charles Bukowski"
+    },
+    {
+      "word": "ched",
+      "s2_1": -3.08,
+      "s2_2": -0.73,
+      "delta": 2.35,
+      "title": "The Raven (opening stanzas)",
+      "author": "Edgar Allan Poe"
+    },
+    {
+      "word": "hundred",
+      "s2_1": -5.18,
+      "s2_2": -2.97,
+      "delta": 2.22,
+      "title": "A Dialogue of Self and Soul (Part I)",
+      "author": "W.B. Yeats"
+    },
+    {
+      "word": "sus",
+      "s2_1": -4.98,
+      "s2_2": -2.79,
+      "delta": 2.19,
+      "title": "Susie Asado",
+      "author": "Gertrude Stein"
+    },
+    {
+      "word": "now",
+      "s2_1": -0.85,
+      "s2_2": 0.06,
+      "delta": 0.91,
+      "title": "Parachutes, My Love, Could Carry Us Higher",
+      "author": "Barbara Guest"
+    },
+    {
+      "word": "old",
+      "s2_1": 0.01,
+      "s2_2": 0.51,
+      "delta": 0.51,
+      "title": "Ode on a Grecian Urn",
+      "author": "John Keats"
+    },
+    {
+      "word": "like",
+      "s2_1": -0.17,
+      "s2_2": 0.05,
+      "delta": 0.22,
+      "title": "A Valediction: Forbidding Mourning",
+      "author": "John Donne"
+    },
+    {
+      "word": "one",
+      "s2_1": -0.27,
+      "s2_2": -1.27,
+      "delta": -1.0,
+      "title": "La Belle Dame sans Merci",
+      "author": "John Keats"
+    },
+    {
+      "word": "leaves",
+      "s2_1": -0.34,
+      "s2_2": -1.38,
+      "delta": -1.05,
+      "title": "Ode on a Grecian Urn",
+      "author": "John Keats"
+    },
+    {
+      "word": "mark",
+      "s2_1": 6.1,
+      "s2_2": 4.42,
+      "delta": -1.68,
+      "title": "A Noiseless Patient Spider",
+      "author": "Walt Whitman"
+    },
+    {
+      "word": "exactly",
+      "s2_1": 4.54,
+      "s2_2": 2.71,
+      "delta": -1.83,
+      "title": "If I Told Him: A Completed Portrait of Picasso (excerpt)",
+      "author": "Gertrude Stein"
+    },
+    {
+      "word": "now",
+      "s2_1": -0.3,
+      "s2_2": -2.47,
+      "delta": -2.17,
+      "title": "The Summer Day",
+      "author": "Mary Oliver"
+    },
+    {
+      "word": "let",
+      "s2_1": 0.79,
+      "s2_2": -3.13,
+      "delta": -3.92,
+      "title": "A Few Days",
+      "author": "James Schuyler"
+    },
+    {
+      "word": "ble",
+      "s2_1": 5.69,
+      "s2_2": 0.36,
+      "delta": -5.33,
+      "title": "A Dialogue of Self and Soul (Part I)",
+      "author": "W.B. Yeats"
+    }
+  ],
+  "mm_drops": [
+    {
+      "word": "red",
+      "s2_1": 17.95,
+      "s2_2": -5.82,
+      "delta": -23.77,
+      "title": "Sir Patrick Spens",
+      "author": "Traditional (Scottish ballad)"
+    },
+    {
+      "word": "passing",
+      "s2_1": 12.94,
+      "s2_2": -4.84,
+      "delta": -17.78,
+      "title": "Villanelle (A dainty thing's the Villanelle)",
+      "author": "William Ernest Henley"
+    },
+    {
+      "word": "thou",
+      "s2_1": 12.35,
+      "s2_2": -4.39,
+      "delta": -16.75,
+      "title": "To a Mouse (closing stanzas)",
+      "author": "Robert Burns"
+    },
+    {
+      "word": "explore",
+      "s2_1": 12.7,
+      "s2_2": -3.87,
+      "delta": -16.57,
+      "title": "The Raven (opening stanzas)",
+      "author": "Edgar Allan Poe"
+    },
+    {
+      "word": "expected",
+      "s2_1": 10.99,
+      "s2_2": -5.33,
+      "delta": -16.32,
+      "title": "Weather Observations (Found Poem from meteorological prose)",
+      "author": "Anonymous (found text)"
+    },
+    {
+      "word": "sicily",
+      "s2_1": 13.0,
+      "s2_2": -3.3,
+      "delta": -16.3,
+      "title": "Theocritus: A Villanelle (opening quatrains)",
+      "author": "Oscar Wilde"
+    },
+    {
+      "word": "move",
+      "s2_1": 13.08,
+      "s2_2": -2.93,
+      "delta": -16.01,
+      "title": "A Valediction: Forbidding Mourning",
+      "author": "John Donne"
+    },
+    {
+      "word": "astronomer",
+      "s2_1": 11.5,
+      "s2_2": -4.42,
+      "delta": -15.93,
+      "title": "When I Heard the Learn'd Astronomer",
+      "author": "Walt Whitman"
+    },
+    {
+      "word": "afe",
+      "s2_1": 12.87,
+      "s2_2": -2.49,
+      "delta": -15.36,
+      "title": "Song of Myself (section 1)",
+      "author": "Walt Whitman"
+    },
+    {
+      "word": "ail",
+      "s2_1": 10.25,
+      "s2_2": -4.89,
+      "delta": -15.14,
+      "title": "La Belle Dame sans Merci",
+      "author": "John Keats"
+    },
+    {
+      "word": "pand",
+      "s2_1": 11.04,
+      "s2_2": -3.94,
+      "delta": -14.97,
+      "title": "My Last Duchess (opening)",
+      "author": "Robert Browning"
+    },
+    {
+      "word": "seem",
+      "s2_1": 8.38,
+      "s2_2": -6.34,
+      "delta": -14.72,
+      "title": "The Emperor of Ice-Cream",
+      "author": "Wallace Stevens"
+    },
+    {
+      "word": "flower",
+      "s2_1": 9.35,
+      "s2_2": -5.36,
+      "delta": -14.71,
+      "title": "Saint Francis and the Sow",
+      "author": "Galway Kinnell"
+    },
+    {
+      "word": "decay",
+      "s2_1": 10.9,
+      "s2_2": -3.44,
+      "delta": -14.33,
+      "title": "Tithonus",
+      "author": "Alfred Lord Tennyson"
+    },
+    {
+      "word": "ent",
+      "s2_1": 10.48,
+      "s2_2": -3.5,
+      "delta": -13.98,
+      "title": "The Raven (opening stanzas)",
+      "author": "Edgar Allan Poe"
+    }
+  ],
+  "total_pairs": 1459
+}
