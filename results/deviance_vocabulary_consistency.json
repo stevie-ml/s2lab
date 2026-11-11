@@ -1,0 +1,2026 @@
+{
+  "summary": {
+    "n_poets_analyzed": 35,
+    "threshold": 2.0,
+    "mean_within_poet_jaccard": 0.0304,
+    "mean_between_poet_jaccard": 0.0095,
+    "mean_suppressed_vocab_jaccard": 0.1004,
+    "consistency_lift": 3.211
+  },
+  "most_consistent": [
+    {
+      "author": "Langston Hughes",
+      "mean_jaccard": 0.3333,
+      "suppressed_jaccard": 0.3333,
+      "n_poems": 3,
+      "core_vocab": [
+        "and",
+        "deferred",
+        "dry",
+        "over",
+        "ra"
+      ],
+      "signature_words": [
+        [
+          "over",
+          2
+        ],
+        [
+          "dry",
+          2
+        ],
+        [
+          "and",
+          2
+        ],
+        [
+          "ra",
+          2
+        ],
+        [
+          "deferred",
+          2
+        ]
+      ]
+    },
+    {
+      "author": "Joy Harjo",
+      "mean_jaccard": 0.1071,
+      "suppressed_jaccard": 0.1851,
+      "n_poems": 3,
+      "core_vocab": [
+        "air",
+        "at",
+        "bodies",
+        "drawn",
+        "fur",
+        "horses",
+        "maps",
+        "ocean",
+        "of",
+        "red"
+      ],
+      "signature_words": [
+        [
+          "who",
+          3
+        ],
+        [
+          "at",
+          2
+        ],
+        [
+          "red",
+          2
+        ],
+        [
+          "too",
+          2
+        ],
+        [
+          "maps",
+          2
+        ],
+        [
+          "fur",
+          2
+        ],
+        [
+          "of",
+          2
+        ],
+        [
+          "horses",
+          2
+        ],
+        [
+          "drawn",
+          2
+        ],
+        [
+          "sky",
+          2
+        ]
+      ]
+    },
+    {
+      "author": "Gerard Manley Hopkins",
+      "mean_jaccard": 0.0753,
+      "suppressed_jaccard": 0.1557,
+      "n_poems": 6,
+      "core_vocab": [
+        "falls",
+        "forth",
+        "ind",
+        "spare"
+      ],
+      "signature_words": [
+        [
+          "forth",
+          3
+        ],
+        [
+          "ind",
+          3
+        ],
+        [
+          "spare",
+          3
+        ],
+        [
+          "falls",
+          3
+        ],
+        [
+          "morning",
+          2
+        ],
+        [
+          "off",
+          2
+        ],
+        [
+          "why",
+          2
+        ],
+        [
+          "brown",
+          2
+        ],
+        [
+          "fresh",
+          2
+        ],
+        [
+          "man",
+          2
+        ]
+      ]
+    },
+    {
+      "author": "Walt Whitman",
+      "mean_jaccard": 0.0713,
+      "suppressed_jaccard": 0.1218,
+      "n_poems": 9,
+      "core_vocab": [
+        "where"
+      ],
+      "signature_words": [
+        [
+          "where",
+          5
+        ],
+        [
+          "drops",
+          4
+        ],
+        [
+          "while",
+          4
+        ],
+        [
+          "at",
+          3
+        ],
+        [
+          "as",
+          3
+        ],
+        [
+          "every",
+          3
+        ],
+        [
+          "follow",
+          3
+        ],
+        [
+          "bleeding",
+          3
+        ],
+        [
+          "rack",
+          3
+        ],
+        [
+          "captain",
+          3
+        ]
+      ]
+    },
+    {
+      "author": "Synthetic (double dactyl test case)",
+      "mean_jaccard": 0.0674,
+      "suppressed_jaccard": 0.0435,
+      "n_poems": 5,
+      "core_vocab": [
+        "igg"
+      ],
+      "signature_words": [
+        [
+          "igg",
+          5
+        ]
+      ]
+    },
+    {
+      "author": "Alfred, Lord Tennyson",
+      "mean_jaccard": 0.0499,
+      "suppressed_jaccard": 0.1134,
+      "n_poems": 5,
+      "core_vocab": [
+        "an",
+        "below",
+        "fl",
+        "over",
+        "there"
+      ],
+      "signature_words": [
+        [
+          "over",
+          3
+        ],
+        [
+          "below",
+          3
+        ],
+        [
+          "there",
+          3
+        ],
+        [
+          "fl",
+          3
+        ],
+        [
+          "an",
+          3
+        ],
+        [
+          "in",
+          2
+        ],
+        [
+          "we",
+          2
+        ],
+        [
+          "with",
+          2
+        ],
+        [
+          "cas",
+          2
+        ],
+        [
+          "well",
+          2
+        ]
+      ]
+    },
+    {
+      "author": "John Keats",
+      "mean_jaccard": 0.0454,
+      "suppressed_jaccard": 0.1298,
+      "n_poems": 9,
+      "core_vocab": [],
+      "signature_words": [
+        [
+          "like",
+          4
+        ],
+        [
+          "eagle",
+          3
+        ],
+        [
+          "wat",
+          3
+        ],
+        [
+          "round",
+          3
+        ],
+        [
+          "more",
+          3
+        ],
+        [
+          "all",
+          3
+        ],
+        [
+          "full",
+          3
+        ],
+        [
+          "shadows",
+          2
+        ],
+        [
+          "let",
+          2
+        ],
+        [
+          "wing",
+          2
+        ]
+      ]
+    },
+    {
+      "author": "William Shakespeare",
+      "mean_jaccard": 0.0359,
+      "suppressed_jaccard": 0.0916,
+      "n_poems": 3,
+      "core_vocab": [
+        "black",
+        "compare",
+        "death",
+        "from",
+        "well"
+      ],
+      "signature_words": [
+        [
+          "from",
+          2
+        ],
+        [
+          "compare",
+          2
+        ],
+        [
+          "death",
+          2
+        ],
+        [
+          "well",
+          2
+        ],
+        [
+          "black",
+          2
+        ]
+      ]
+    },
+    {
+      "author": "Robert Browning",
+      "mean_jaccard": 0.0306,
+      "suppressed_jaccard": 0.14,
+      "n_poems": 7,
+      "core_vocab": [],
+      "signature_words": [
+        [
+          "that",
+          3
+        ],
+        [
+          "by",
+          3
+        ],
+        [
+          "will",
+          3
+        ],
+        [
+          "never",
+          3
+        ],
+        [
+          "men",
+          3
+        ],
+        [
+          "one",
+          3
+        ],
+        [
+          "too",
+          3
+        ],
+        [
+          "there",
+          3
+        ],
+        [
+          "once",
+          3
+        ],
+        [
+          "the",
+          3
+        ]
+      ]
+    },
+    {
+      "author": "Frank O'Hara",
+      "mean_jaccard": 0.0296,
+      "suppressed_jaccard": 0.0471,
+      "n_poems": 3,
+      "core_vocab": [
+        "go",
+        "it",
+        "straight"
+      ],
+      "signature_words": [
+        [
+          "it",
+          2
+        ],
+        [
+          "go",
+          2
+        ],
+        [
+          "straight",
+          2
+        ]
+      ]
+    },
+    {
+      "author": "Emily Dickinson",
+      "mean_jaccard": 0.0294,
+      "suppressed_jaccard": 0.088,
+      "n_poems": 7,
+      "core_vocab": [
+        "too"
+      ],
+      "signature_words": [
+        [
+          "too",
+          4
+        ],
+        [
+          "but",
+          3
+        ],
+        [
+          "imm",
+          2
+        ],
+        [
+          "slowly",
+          2
+        ],
+        [
+          "death",
+          2
+        ],
+        [
+          "car",
+          2
+        ],
+        [
+          "he",
+          2
+        ],
+        [
+          "our",
+          2
+        ],
+        [
+          "haste",
+          2
+        ],
+        [
+          "civ",
+          2
+        ]
+      ]
+    },
+    {
+      "author": "Anonymous (Hebrew Bible)",
+      "mean_jaccard": 0.0226,
+      "suppressed_jaccard": 0.1364,
+      "n_poems": 7,
+      "core_vocab": [],
+      "signature_words": [
+        [
+          "they",
+          3
+        ],
+        [
+          "thereof",
+          3
+        ],
+        [
+          "run",
+          2
+        ],
+        [
+          "mine",
+          2
+        ],
+        [
+          "comfort",
+          2
+        ],
+        [
+          "though",
+          2
+        ],
+        [
+          "for",
+          2
+        ],
+        [
+          "where",
+          2
+        ],
+        [
+          "unto",
+          2
+        ],
+        [
+          "going",
+          2
+        ]
+      ]
+    },
+    {
+      "author": "Traditional (Scottish ballad)",
+      "mean_jaccard": 0.0225,
+      "suppressed_jaccard": 0.0484,
+      "n_poems": 5,
+      "core_vocab": [
+        "guid",
+        "wi"
+      ],
+      "signature_words": [
+        [
+          "wi",
+          3
+        ],
+        [
+          "guid",
+          3
+        ],
+        [
+          "your",
+          2
+        ],
+        [
+          "an",
+          2
+        ],
+        [
+          "upon",
+          2
+        ],
+        [
+          "sa",
+          2
+        ]
+      ]
+    },
+    {
+      "author": "Alfred Lord Tennyson",
+      "mean_jaccard": 0.0212,
+      "suppressed_jaccard": 0.1178,
+      "n_poems": 3,
+      "core_vocab": [
+        "fall",
+        "far",
+        "life",
+        "me"
+      ],
+      "signature_words": [
+        [
+          "life",
+          2
+        ],
+        [
+          "me",
+          2
+        ],
+        [
+          "far",
+          2
+        ],
+        [
+          "fall",
+          2
+        ]
+      ]
+    },
+    {
+      "author": "John Ashbery",
+      "mean_jaccard": 0.0204,
+      "suppressed_jaccard": 0.0849,
+      "n_poems": 17,
+      "core_vocab": [
+        "survey"
+      ],
+      "signature_words": [
+        [
+          "survey",
+          11
+        ],
+        [
+          "painting",
+          2
+        ],
+        [
+          "living",
+          2
+        ],
+        [
+          "thunder",
+          2
+        ],
+        [
+          "not",
+          2
+        ],
+        [
+          "on",
+          2
+        ],
+        [
+          "but",
+          2
+        ],
+        [
+          "out",
+          2
+        ],
+        [
+          "cannot",
+          2
+        ],
+        [
+          "that",
+          2
+        ]
+      ]
+    }
+  ],
+  "least_consistent": [
+    {
+      "author": "T.S. Eliot",
+      "mean_jaccard": 0.0024,
+      "n_poems": 5,
+      "mean_vocab_size": 31.4
+    },
+    {
+      "author": "Wallace Stevens",
+      "mean_jaccard": 0.0,
+      "n_poems": 3,
+      "mean_vocab_size": 15.3
+    },
+    {
+      "author": "Lucille Clifton",
+      "mean_jaccard": 0.0,
+      "n_poems": 3,
+      "mean_vocab_size": 11.7
+    },
+    {
+      "author": "Stefan George",
+      "mean_jaccard": 0.0,
+      "n_poems": 3,
+      "mean_vocab_size": 24.0
+    },
+    {
+      "author": "E.E. Cummings",
+      "mean_jaccard": 0.0,
+      "n_poems": 2,
+      "mean_vocab_size": 17.5
+    },
+    {
+      "author": "Anonymous (found text)",
+      "mean_jaccard": 0.0,
+      "n_poems": 4,
+      "mean_vocab_size": 16.0
+    },
+    {
+      "author": "Anonymous (limerick tradition)",
+      "mean_jaccard": 0.0,
+      "n_poems": 2,
+      "mean_vocab_size": 5.5
+    },
+    {
+      "author": "Anonymous",
+      "mean_jaccard": 0.0,
+      "n_poems": 3,
+      "mean_vocab_size": 6.7
+    },
+    {
+      "author": "Edward Lear",
+      "mean_jaccard": 0.0,
+      "n_poems": 2,
+      "mean_vocab_size": 8.0
+    },
+    {
+      "author": "Edmund Clerihew Bentley",
+      "mean_jaccard": 0.0,
+      "n_poems": 2,
+      "mean_vocab_size": 5.5
+    }
+  ],
+  "full_results": {
+    "John Keats": {
+      "mean_jaccard": 0.0454,
+      "suppressed_jaccard": 0.1298,
+      "n_poems": 9,
+      "mean_vocab_size": 50.7,
+      "total_unique_words": 380,
+      "core_vocab": [],
+      "signature_words": [
+        [
+          "like",
+          4
+        ],
+        [
+          "eagle",
+          3
+        ],
+        [
+          "wat",
+          3
+        ],
+        [
+          "round",
+          3
+        ],
+        [
+          "more",
+          3
+        ],
+        [
+          "all",
+          3
+        ],
+        [
+          "full",
+          3
+        ],
+        [
+          "shadows",
+          2
+        ],
+        [
+          "let",
+          2
+        ],
+        [
+          "wing",
+          2
+        ],
+        [
+          "had",
+          2
+        ],
+        [
+          "ruled",
+          2
+        ],
+        [
+          "as",
+          2
+        ],
+        [
+          "chapman",
+          2
+        ],
+        [
+          "trave",
+          2
+        ],
+        [
+          "apollo",
+          2
+        ],
+        [
+          "deep",
+          2
+        ],
+        [
+          "out",
+          2
+        ],
+        [
+          "dem",
+          2
+        ],
+        [
+          "fe",
+          2
+        ]
+      ]
+    },
+    "Emily Dickinson": {
+      "mean_jaccard": 0.0294,
+      "suppressed_jaccard": 0.088,
+      "n_poems": 7,
+      "mean_vocab_size": 18.7,
+      "total_unique_words": 113,
+      "core_vocab": [
+        "too"
+      ],
+      "signature_words": [
+        [
+          "too",
+          4
+        ],
+        [
+          "but",
+          3
+        ],
+        [
+          "imm",
+          2
+        ],
+        [
+          "slowly",
+          2
+        ],
+        [
+          "death",
+          2
+        ],
+        [
+          "car",
+          2
+        ],
+        [
+          "he",
+          2
+        ],
+        [
+          "our",
+          2
+        ],
+        [
+          "haste",
+          2
+        ],
+        [
+          "civ",
+          2
+        ],
+        [
+          "kindly",
+          2
+        ],
+        [
+          "my",
+          2
+        ],
+        [
+          "put",
+          2
+        ],
+        [
+          "labor",
+          2
+        ],
+        [
+          "for",
+          2
+        ]
+      ]
+    },
+    "Walt Whitman": {
+      "mean_jaccard": 0.0713,
+      "suppressed_jaccard": 0.1218,
+      "n_poems": 9,
+      "mean_vocab_size": 38.7,
+      "total_unique_words": 270,
+      "core_vocab": [
+        "where"
+      ],
+      "signature_words": [
+        [
+          "where",
+          5
+        ],
+        [
+          "drops",
+          4
+        ],
+        [
+          "while",
+          4
+        ],
+        [
+          "at",
+          3
+        ],
+        [
+          "as",
+          3
+        ],
+        [
+          "every",
+          3
+        ],
+        [
+          "follow",
+          3
+        ],
+        [
+          "bleeding",
+          3
+        ],
+        [
+          "rack",
+          3
+        ],
+        [
+          "captain",
+          3
+        ],
+        [
+          "steady",
+          3
+        ],
+        [
+          "fall",
+          3
+        ],
+        [
+          "daring",
+          3
+        ],
+        [
+          "my",
+          3
+        ],
+        [
+          "prize",
+          3
+        ],
+        [
+          "done",
+          3
+        ],
+        [
+          "fearful",
+          3
+        ],
+        [
+          "trip",
+          3
+        ],
+        [
+          "heart",
+          3
+        ],
+        [
+          "weather",
+          3
+        ]
+      ]
+    },
+    "Percy Bysshe Shelley": {
+      "mean_jaccard": 0.0168,
+      "suppressed_jaccard": 0.1133,
+      "n_poems": 4,
+      "mean_vocab_size": 32.5,
+      "total_unique_words": 124,
+      "core_vocab": [
+        "est",
+        "near",
+        "spirit",
+        "sunk",
+        "thou",
+        "which"
+      ],
+      "signature_words": [
+        [
+          "which",
+          2
+        ],
+        [
+          "sunk",
+          2
+        ],
+        [
+          "near",
+          2
+        ],
+        [
+          "est",
+          2
+        ],
+        [
+          "thou",
+          2
+        ],
+        [
+          "spirit",
+          2
+        ]
+      ]
+    },
+    "T.S. Eliot": {
+      "mean_jaccard": 0.0024,
+      "suppressed_jaccard": 0.0793,
+      "n_poems": 5,
+      "mean_vocab_size": 31.4,
+      "total_unique_words": 155,
+      "core_vocab": [],
+      "signature_words": [
+        [
+          "dry",
+          2
+        ],
+        [
+          "wind",
+          2
+        ]
+      ]
+    },
+    "Wallace Stevens": {
+      "mean_jaccard": 0.0,
+      "suppressed_jaccard": 0.1145,
+      "n_poems": 3,
+      "mean_vocab_size": 15.3,
+      "total_unique_words": 46,
+      "core_vocab": [],
+      "signature_words": []
+    },
+    "John Ashbery": {
+      "mean_jaccard": 0.0204,
+      "suppressed_jaccard": 0.0849,
+      "n_poems": 17,
+      "mean_vocab_size": 14.0,
+      "total_unique_words": 218,
+      "core_vocab": [
+        "survey"
+      ],
+      "signature_words": [
+        [
+          "survey",
+          11
+        ],
+        [
+          "painting",
+          2
+        ],
+        [
+          "living",
+          2
+        ],
+        [
+          "thunder",
+          2
+        ],
+        [
+          "not",
+          2
+        ],
+        [
+          "on",
+          2
+        ],
+        [
+          "but",
+          2
+        ],
+        [
+          "out",
+          2
+        ],
+        [
+          "cannot",
+          2
+        ],
+        [
+          "that",
+          2
+        ],
+        [
+          "to",
+          2
+        ]
+      ]
+    },
+    "Frank O'Hara": {
+      "mean_jaccard": 0.0296,
+      "suppressed_jaccard": 0.0471,
+      "n_poems": 3,
+      "mean_vocab_size": 19.0,
+      "total_unique_words": 54,
+      "core_vocab": [
+        "go",
+        "it",
+        "straight"
+      ],
+      "signature_words": [
+        [
+          "it",
+          2
+        ],
+        [
+          "go",
+          2
+        ],
+        [
+          "straight",
+          2
+        ]
+      ]
+    },
+    "Lucille Clifton": {
+      "mean_jaccard": 0.0,
+      "suppressed_jaccard": 0.0845,
+      "n_poems": 3,
+      "mean_vocab_size": 11.7,
+      "total_unique_words": 35,
+      "core_vocab": [],
+      "signature_words": []
+    },
+    "Langston Hughes": {
+      "mean_jaccard": 0.3333,
+      "suppressed_jaccard": 0.3333,
+      "n_poems": 3,
+      "mean_vocab_size": 10.0,
+      "total_unique_words": 25,
+      "core_vocab": [
+        "and",
+        "deferred",
+        "dry",
+        "over",
+        "ra"
+      ],
+      "signature_words": [
+        [
+          "over",
+          2
+        ],
+        [
+          "dry",
+          2
+        ],
+        [
+          "and",
+          2
+        ],
+        [
+          "ra",
+          2
+        ],
+        [
+          "deferred",
+          2
+        ]
+      ]
+    },
+    "Stefan George": {
+      "mean_jaccard": 0.0,
+      "suppressed_jaccard": 0.1011,
+      "n_poems": 3,
+      "mean_vocab_size": 24.0,
+      "total_unique_words": 72,
+      "core_vocab": [],
+      "signature_words": []
+    },
+    "Gerard Manley Hopkins": {
+      "mean_jaccard": 0.0753,
+      "suppressed_jaccard": 0.1557,
+      "n_poems": 6,
+      "mean_vocab_size": 38.0,
+      "total_unique_words": 185,
+      "core_vocab": [
+        "falls",
+        "forth",
+        "ind",
+        "spare"
+      ],
+      "signature_words": [
+        [
+          "forth",
+          3
+        ],
+        [
+          "ind",
+          3
+        ],
+        [
+          "spare",
+          3
+        ],
+        [
+          "falls",
+          3
+        ],
+        [
+          "morning",
+          2
+        ],
+        [
+          "off",
+          2
+        ],
+        [
+          "why",
+          2
+        ],
+        [
+          "brown",
+          2
+        ],
+        [
+          "fresh",
+          2
+        ],
+        [
+          "man",
+          2
+        ],
+        [
+          "ow",
+          2
+        ],
+        [
+          "original",
+          2
+        ],
+        [
+          "that",
+          2
+        ],
+        [
+          "tackle",
+          2
+        ],
+        [
+          "fathers",
+          2
+        ],
+        [
+          "whose",
+          2
+        ],
+        [
+          "azz",
+          2
+        ],
+        [
+          "pra",
+          2
+        ],
+        [
+          "des",
+          2
+        ],
+        [
+          "skies",
+          2
+        ]
+      ]
+    },
+    "Alfred Lord Tennyson": {
+      "mean_jaccard": 0.0212,
+      "suppressed_jaccard": 0.1178,
+      "n_poems": 3,
+      "mean_vocab_size": 32.0,
+      "total_unique_words": 92,
+      "core_vocab": [
+        "fall",
+        "far",
+        "life",
+        "me"
+      ],
+      "signature_words": [
+        [
+          "life",
+          2
+        ],
+        [
+          "me",
+          2
+        ],
+        [
+          "far",
+          2
+        ],
+        [
+          "fall",
+          2
+        ]
+      ]
+    },
+    "Thomas Hardy": {
+      "mean_jaccard": 0.0114,
+      "suppressed_jaccard": 0.1186,
+      "n_poems": 6,
+      "mean_vocab_size": 35.8,
+      "total_unique_words": 204,
+      "core_vocab": [
+        "to"
+      ],
+      "signature_words": [
+        [
+          "to",
+          3
+        ],
+        [
+          "from",
+          2
+        ],
+        [
+          "and",
+          2
+        ],
+        [
+          "on",
+          2
+        ],
+        [
+          "there",
+          2
+        ],
+        [
+          "they",
+          2
+        ],
+        [
+          "an",
+          2
+        ],
+        [
+          "lost",
+          2
+        ],
+        [
+          "gray",
+          2
+        ],
+        [
+          "our",
+          2
+        ]
+      ]
+    },
+    "Robert Browning": {
+      "mean_jaccard": 0.0306,
+      "suppressed_jaccard": 0.14,
+      "n_poems": 7,
+      "mean_vocab_size": 58.3,
+      "total_unique_words": 343,
+      "core_vocab": [],
+      "signature_words": [
+        [
+          "that",
+          3
+        ],
+        [
+          "by",
+          3
+        ],
+        [
+          "will",
+          3
+        ],
+        [
+          "never",
+          3
+        ],
+        [
+          "men",
+          3
+        ],
+        [
+          "one",
+          3
+        ],
+        [
+          "too",
+          3
+        ],
+        [
+          "there",
+          3
+        ],
+        [
+          "once",
+          3
+        ],
+        [
+          "the",
+          3
+        ],
+        [
+          "work",
+          2
+        ],
+        [
+          "please",
+          2
+        ],
+        [
+          "str",
+          2
+        ],
+        [
+          "sit",
+          2
+        ],
+        [
+          "pictured",
+          2
+        ],
+        [
+          "glance",
+          2
+        ],
+        [
+          "depth",
+          2
+        ],
+        [
+          "duchess",
+          2
+        ],
+        [
+          "call",
+          2
+        ],
+        [
+          "painted",
+          2
+        ]
+      ]
+    },
+    "Gertrude Stein": {
+      "mean_jaccard": 0.007,
+      "suppressed_jaccard": 0.0795,
+      "n_poems": 4,
+      "mean_vocab_size": 21.8,
+      "total_unique_words": 85,
+      "core_vocab": [
+        "for",
+        "not"
+      ],
+      "signature_words": [
+        [
+          "not",
+          2
+        ],
+        [
+          "for",
+          2
+        ]
+      ]
+    },
+    "E.E. Cummings": {
+      "mean_jaccard": 0.0,
+      "suppressed_jaccard": 0.0,
+      "n_poems": 2,
+      "mean_vocab_size": 17.5,
+      "total_unique_words": 35,
+      "core_vocab": [],
+      "signature_words": []
+    },
+    "William Blake": {
+      "mean_jaccard": 0.0087,
+      "suppressed_jaccard": 0.0961,
+      "n_poems": 7,
+      "mean_vocab_size": 19.4,
+      "total_unique_words": 130,
+      "core_vocab": [],
+      "signature_words": [
+        [
+          "who",
+          2
+        ],
+        [
+          "lamb",
+          2
+        ],
+        [
+          "love",
+          2
+        ],
+        [
+          "thy",
+          2
+        ],
+        [
+          "of",
+          2
+        ],
+        [
+          "he",
+          2
+        ]
+      ]
+    },
+    "W.B. Yeats": {
+      "mean_jaccard": 0.0065,
+      "suppressed_jaccard": 0.1243,
+      "n_poems": 3,
+      "mean_vocab_size": 40.7,
+      "total_unique_words": 120,
+      "core_vocab": [
+        "out",
+        "things"
+      ],
+      "signature_words": [
+        [
+          "out",
+          2
+        ],
+        [
+          "things",
+          2
+        ]
+      ]
+    },
+    "Traditional (Scottish ballad)": {
+      "mean_jaccard": 0.0225,
+      "suppressed_jaccard": 0.0484,
+      "n_poems": 5,
+      "mean_vocab_size": 22.4,
+      "total_unique_words": 104,
+      "core_vocab": [
+        "guid",
+        "wi"
+      ],
+      "signature_words": [
+        [
+          "wi",
+          3
+        ],
+        [
+          "guid",
+          3
+        ],
+        [
+          "your",
+          2
+        ],
+        [
+          "an",
+          2
+        ],
+        [
+          "upon",
+          2
+        ],
+        [
+          "sa",
+          2
+        ]
+      ]
+    },
+    "William Shakespeare": {
+      "mean_jaccard": 0.0359,
+      "suppressed_jaccard": 0.0916,
+      "n_poems": 3,
+      "mean_vocab_size": 24.0,
+      "total_unique_words": 67,
+      "core_vocab": [
+        "black",
+        "compare",
+        "death",
+        "from",
+        "well"
+      ],
+      "signature_words": [
+        [
+          "from",
+          2
+        ],
+        [
+          "compare",
+          2
+        ],
+        [
+          "death",
+          2
+        ],
+        [
+          "well",
+          2
+        ],
+        [
+          "black",
+          2
+        ]
+      ]
+    },
+    "Anonymous (found text)": {
+      "mean_jaccard": 0.0,
+      "suppressed_jaccard": 0.1288,
+      "n_poems": 4,
+      "mean_vocab_size": 16.0,
+      "total_unique_words": 64,
+      "core_vocab": [],
+      "signature_words": []
+    },
+    "Alfred, Lord Tennyson": {
+      "mean_jaccard": 0.0499,
+      "suppressed_jaccard": 0.1134,
+      "n_poems": 5,
+      "mean_vocab_size": 43.6,
+      "total_unique_words": 179,
+      "core_vocab": [
+        "an",
+        "below",
+        "fl",
+        "over",
+        "there"
+      ],
+      "signature_words": [
+        [
+          "over",
+          3
+        ],
+        [
+          "below",
+          3
+        ],
+        [
+          "there",
+          3
+        ],
+        [
+          "fl",
+          3
+        ],
+        [
+          "an",
+          3
+        ],
+        [
+          "in",
+          2
+        ],
+        [
+          "we",
+          2
+        ],
+        [
+          "with",
+          2
+        ],
+        [
+          "cas",
+          2
+        ],
+        [
+          "well",
+          2
+        ],
+        [
+          "qu",
+          2
+        ],
+        [
+          "ows",
+          2
+        ],
+        [
+          "thro",
+          2
+        ],
+        [
+          "whit",
+          2
+        ],
+        [
+          "many",
+          2
+        ],
+        [
+          "th",
+          2
+        ],
+        [
+          "where",
+          2
+        ],
+        [
+          "dusk",
+          2
+        ],
+        [
+          "lady",
+          2
+        ],
+        [
+          "blow",
+          2
+        ]
+      ]
+    },
+    "Synthetic (research test case)": {
+      "mean_jaccard": 0.0111,
+      "suppressed_jaccard": 0.1104,
+      "n_poems": 3,
+      "mean_vocab_size": 14.7,
+      "total_unique_words": 43,
+      "core_vocab": [
+        "comes"
+      ],
+      "signature_words": [
+        [
+          "comes",
+          2
+        ]
+      ]
+    },
+    "Anonymous (Hebrew Bible)": {
+      "mean_jaccard": 0.0226,
+      "suppressed_jaccard": 0.1364,
+      "n_poems": 7,
+      "mean_vocab_size": 20.4,
+      "total_unique_words": 126,
+      "core_vocab": [],
+      "signature_words": [
+        [
+          "they",
+          3
+        ],
+        [
+          "thereof",
+          3
+        ],
+        [
+          "run",
+          2
+        ],
+        [
+          "mine",
+          2
+        ],
+        [
+          "comfort",
+          2
+        ],
+        [
+          "though",
+          2
+        ],
+        [
+          "for",
+          2
+        ],
+        [
+          "where",
+          2
+        ],
+        [
+          "unto",
+          2
+        ],
+        [
+          "going",
+          2
+        ],
+        [
+          "upon",
+          2
+        ],
+        [
+          "even",
+          2
+        ],
+        [
+          "sat",
+          2
+        ],
+        [
+          "strength",
+          2
+        ],
+        [
+          "will",
+          2
+        ]
+      ]
+    },
+    "Lewis Carroll": {
+      "mean_jaccard": 0.0047,
+      "suppressed_jaccard": 0.1169,
+      "n_poems": 5,
+      "mean_vocab_size": 30.4,
+      "total_unique_words": 148,
+      "core_vocab": [],
+      "signature_words": [
+        [
+          "at",
+          2
+        ],
+        [
+          "none",
+          2
+        ],
+        [
+          "one",
+          2
+        ],
+        [
+          "sn",
+          2
+        ]
+      ]
+    },
+    "Alexander Pope": {
+      "mean_jaccard": 0.016,
+      "suppressed_jaccard": 0.1208,
+      "n_poems": 4,
+      "mean_vocab_size": 37.2,
+      "total_unique_words": 143,
+      "core_vocab": [
+        "am",
+        "just",
+        "let",
+        "or",
+        "walks"
+      ],
+      "signature_words": [
+        [
+          "just",
+          3
+        ],
+        [
+          "am",
+          2
+        ],
+        [
+          "or",
+          2
+        ],
+        [
+          "let",
+          2
+        ],
+        [
+          "walks",
+          2
+        ]
+      ]
+    },
+    "Anonymous (limerick tradition)": {
+      "mean_jaccard": 0.0,
+      "suppressed_jaccard": 0.0,
+      "n_poems": 2,
+      "mean_vocab_size": 5.5,
+      "total_unique_words": 11,
+      "core_vocab": [],
+      "signature_words": []
+    },
+    "Anonymous": {
+      "mean_jaccard": 0.0,
+      "suppressed_jaccard": 0.0606,
+      "n_poems": 3,
+      "mean_vocab_size": 6.7,
+      "total_unique_words": 20,
+      "core_vocab": [],
+      "signature_words": []
+    },
+    "Edward Lear": {
+      "mean_jaccard": 0.0,
+      "suppressed_jaccard": 0.0,
+      "n_poems": 2,
+      "mean_vocab_size": 8.0,
+      "total_unique_words": 16,
+      "core_vocab": [],
+      "signature_words": []
+    },
+    "Joy Harjo": {
+      "mean_jaccard": 0.1071,
+      "suppressed_jaccard": 0.1851,
+      "n_poems": 3,
+      "mean_vocab_size": 28.7,
+      "total_unique_words": 71,
+      "core_vocab": [
+        "air",
+        "at",
+        "bodies",
+        "drawn",
+        "fur",
+        "horses",
+        "maps",
+        "ocean",
+        "of",
+        "red",
+        "sand",
+        "sky",
+        "too",
+        "who"
+      ],
+      "signature_words": [
+        [
+          "who",
+          3
+        ],
+        [
+          "at",
+          2
+        ],
+        [
+          "red",
+          2
+        ],
+        [
+          "too",
+          2
+        ],
+        [
+          "maps",
+          2
+        ],
+        [
+          "fur",
+          2
+        ],
+        [
+          "of",
+          2
+        ],
+        [
+          "horses",
+          2
+        ],
+        [
+          "drawn",
+          2
+        ],
+        [
+          "sky",
+          2
+        ],
+        [
+          "air",
+          2
+        ],
+        [
+          "ocean",
+          2
+        ],
+        [
+          "bodies",
+          2
+        ],
+        [
+          "sand",
+          2
+        ]
+      ]
+    },
+    "Edmund Clerihew Bentley": {
+      "mean_jaccard": 0.0,
+      "suppressed_jaccard": 0.0,
+      "n_poems": 2,
+      "mean_vocab_size": 5.5,
+      "total_unique_words": 11,
+      "core_vocab": [],
+      "signature_words": []
+    },
+    "Synthetic (clerihew test case)": {
+      "mean_jaccard": 0.0048,
+      "suppressed_jaccard": 0.1014,
+      "n_poems": 7,
+      "mean_vocab_size": 6.7,
+      "total_unique_words": 46,
+      "core_vocab": [],
+      "signature_words": [
+        [
+          "wrote",
+          2
+        ]
+      ]
+    },
+    "Synthetic (double dactyl test case)": {
+      "mean_jaccard": 0.0674,
+      "suppressed_jaccard": 0.0435,
+      "n_poems": 5,
+      "mean_vocab_size": 8.0,
+      "total_unique_words": 36,
+      "core_vocab": [
+        "igg"
+      ],
+      "signature_words": [
+        [
+          "igg",
+          5
+        ]
+      ]
+    },
+    "Synthetic (scientific register test case)": {
+      "mean_jaccard": 0.0141,
+      "suppressed_jaccard": 0.1264,
+      "n_poems": 3,
+      "mean_vocab_size": 25.0,
+      "total_unique_words": 73,
+      "core_vocab": [
+        "the",
+        "this"
+      ],
+      "signature_words": [
+        [
+          "this",
+          2
+        ],
+        [
+          "the",
+          2
+        ]
+      ]
+    }
+  }
+}
