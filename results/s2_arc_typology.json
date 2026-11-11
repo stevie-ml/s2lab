@@ -1,0 +1,5299 @@
+{
+  "total_analyzed": 362,
+  "arc_distribution": {
+    "U_SHAPE": 84,
+    "DECLINE": 80,
+    "ARCH": 50,
+    "ASCENT": 34,
+    "FLAT": 114
+  },
+  "poems": [
+    {
+      "title": "The Love Song of J. Alfred Prufrock (opening)",
+      "author": "T.S. Eliot",
+      "era": "modernist",
+      "arc": "ARCH",
+      "q1": -1.521,
+      "q2": 0.755,
+      "q3": -0.77,
+      "q4": -0.385,
+      "range": 2.276,
+      "n_clean": 69
+    },
+    {
+      "title": "Lady Lazarus (opening)",
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "arc": "ARCH",
+      "q1": -0.419,
+      "q2": 0.569,
+      "q3": 0.499,
+      "q4": -1.411,
+      "range": 1.98,
+      "n_clean": 53
+    },
+    {
+      "title": "A Supermarket in California",
+      "author": "Allen Ginsberg",
+      "era": "beat",
+      "arc": "ARCH",
+      "q1": 0.571,
+      "q2": 0.504,
+      "q3": 1.206,
+      "q4": -0.059,
+      "range": 1.265,
+      "n_clean": 95
+    },
+    {
+      "title": "Some Trees",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "ARCH",
+      "q1": -0.805,
+      "q2": 0.07,
+      "q3": -1.849,
+      "q4": -2.021,
+      "range": 2.09,
+      "n_clean": 43
+    },
+    {
+      "title": "The Painter",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "ARCH",
+      "q1": -0.33,
+      "q2": 1.548,
+      "q3": -1.31,
+      "q4": -1.319,
+      "range": 2.867,
+      "n_clean": 70
+    },
+    {
+      "title": "Soonest Mended",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "ARCH",
+      "q1": -0.594,
+      "q2": 0.36,
+      "q3": -0.167,
+      "q4": -0.732,
+      "range": 1.092,
+      "n_clean": 81
+    },
+    {
+      "title": "And Ut Pictura Poesis Is Her Name",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "ARCH",
+      "q1": -0.63,
+      "q2": 0.527,
+      "q3": -1.414,
+      "q4": -1.614,
+      "range": 2.142,
+      "n_clean": 91
+    },
+    {
+      "title": "Why I Am Not a Painter",
+      "author": "Frank O'Hara",
+      "era": "new_york_school",
+      "arc": "ARCH",
+      "q1": -1.686,
+      "q2": 0.972,
+      "q3": -0.14,
+      "q4": 0.179,
+      "range": 2.658,
+      "n_clean": 96
+    },
+    {
+      "title": "My Life (excerpt)",
+      "author": "Lyn Hejinian",
+      "era": "language",
+      "arc": "ARCH",
+      "q1": 0.014,
+      "q2": 0.609,
+      "q3": -1.835,
+      "q4": -2.179,
+      "range": 2.788,
+      "n_clean": 50
+    },
+    {
+      "title": "Citizen (excerpt)",
+      "author": "Claudia Rankine",
+      "era": "contemporary",
+      "arc": "ARCH",
+      "q1": -0.485,
+      "q2": 1.906,
+      "q3": -0.275,
+      "q4": -1.165,
+      "range": 3.071,
+      "n_clean": 58
+    },
+    {
+      "title": "Catalog of Unabashed Gratitude (excerpt)",
+      "author": "Ross Gay",
+      "era": "contemporary",
+      "arc": "ARCH",
+      "q1": -1.372,
+      "q2": -0.908,
+      "q3": -0.227,
+      "q4": -1.265,
+      "range": 1.145,
+      "n_clean": 55
+    },
+    {
+      "title": "The Convergence of the Twain (excerpt)",
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "arc": "ARCH",
+      "q1": -0.109,
+      "q2": 1.048,
+      "q3": 0.783,
+      "q4": 0.207,
+      "range": 1.157,
+      "n_clean": 82
+    },
+    {
+      "title": "When I Heard the Learn'd Astronomer",
+      "author": "Walt Whitman",
+      "era": "romantic",
+      "arc": "ARCH",
+      "q1": 0.217,
+      "q2": 0.507,
+      "q3": 0.91,
+      "q4": -1.424,
+      "range": 2.334,
+      "n_clean": 109
+    },
+    {
+      "title": "Susie Asado",
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "arc": "ARCH",
+      "q1": -2.623,
+      "q2": 0.271,
+      "q3": 0.052,
+      "q4": -1.274,
+      "range": 2.894,
+      "n_clean": 84
+    },
+    {
+      "title": "Buffalo Bill 's",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "arc": "ARCH",
+      "q1": -1.501,
+      "q2": 0.028,
+      "q3": -1.329,
+      "q4": -0.687,
+      "range": 1.529,
+      "n_clean": 182
+    },
+    {
+      "title": "Fragment 31 (translated)",
+      "author": "Sappho",
+      "era": "ancient",
+      "arc": "ARCH",
+      "q1": -0.536,
+      "q2": 1.27,
+      "q3": -0.522,
+      "q4": -0.817,
+      "range": 2.087,
+      "n_clean": 90
+    },
+    {
+      "title": "The Stranger (prose poem, translated)",
+      "author": "Charles Baudelaire",
+      "era": "prose_poetry",
+      "arc": "ARCH",
+      "q1": -1.092,
+      "q2": -1.071,
+      "q3": 0.584,
+      "q4": -0.26,
+      "range": 1.676,
+      "n_clean": 146
+    },
+    {
+      "title": "Remember",
+      "author": "Christina Rossetti",
+      "era": "victorian",
+      "arc": "ARCH",
+      "q1": -0.565,
+      "q2": 1.378,
+      "q3": -0.065,
+      "q4": -0.873,
+      "range": 2.251,
+      "n_clean": 138
+    },
+    {
+      "title": "I heard a Fly buzz \u2014 when I died",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "arc": "ARCH",
+      "q1": 0.505,
+      "q2": 0.886,
+      "q3": -0.058,
+      "q4": -0.759,
+      "range": 1.645,
+      "n_clean": 133
+    },
+    {
+      "title": "The Summer Day",
+      "author": "Mary Oliver",
+      "era": "contemporary",
+      "arc": "ARCH",
+      "q1": -0.938,
+      "q2": 0.043,
+      "q3": -0.756,
+      "q4": -1.289,
+      "range": 1.331,
+      "n_clean": 193
+    },
+    {
+      "title": "Sonnet 18 (Shall I compare thee)",
+      "author": "William Shakespeare",
+      "era": "victorian",
+      "arc": "ARCH",
+      "q1": -0.853,
+      "q2": -0.131,
+      "q3": -0.014,
+      "q4": -1.224,
+      "range": 1.21,
+      "n_clean": 155
+    },
+    {
+      "title": "On His Blindness",
+      "author": "John Milton",
+      "era": "victorian",
+      "arc": "ARCH",
+      "q1": -0.389,
+      "q2": 0.646,
+      "q3": -0.326,
+      "q4": -0.178,
+      "range": 1.035,
+      "n_clean": 161
+    },
+    {
+      "title": "What lips my lips have kissed",
+      "author": "Edna St. Vincent Millay",
+      "era": "mid_century",
+      "arc": "ARCH",
+      "q1": -1.063,
+      "q2": -0.117,
+      "q3": -1.095,
+      "q4": -1.261,
+      "range": 1.144,
+      "n_clean": 147
+    },
+    {
+      "title": "Terms and Conditions (Found Poem from generic legal prose)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "arc": "ARCH",
+      "q1": -0.147,
+      "q2": -0.685,
+      "q3": 1.236,
+      "q4": -0.88,
+      "range": 2.116,
+      "n_clean": 132
+    },
+    {
+      "title": "Weather Observations (Found Poem from meteorological prose)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "arc": "ARCH",
+      "q1": -0.664,
+      "q2": -0.116,
+      "q3": -0.725,
+      "q4": -1.468,
+      "range": 1.352,
+      "n_clean": 128
+    },
+    {
+      "title": "Dream Song 14 (opening)",
+      "author": "John Berryman",
+      "era": "confessional",
+      "arc": "ARCH",
+      "q1": -0.565,
+      "q2": 1.125,
+      "q3": 0.772,
+      "q4": 0.349,
+      "range": 1.69,
+      "n_clean": 83
+    },
+    {
+      "title": "The Ballad of Dead Ladies (after Villon)",
+      "author": "Dante Gabriel Rossetti",
+      "era": "fixed_form",
+      "arc": "ARCH",
+      "q1": -0.16,
+      "q2": -0.435,
+      "q3": 0.528,
+      "q4": -1.432,
+      "range": 1.959,
+      "n_clean": 162
+    },
+    {
+      "title": "Sestina of the Tramp-Royal (opening stanzas)",
+      "author": "Rudyard Kipling",
+      "era": "fixed_form",
+      "arc": "ARCH",
+      "q1": -1.167,
+      "q2": -0.599,
+      "q3": 0.021,
+      "q4": -0.792,
+      "range": 1.188,
+      "n_clean": 128
+    },
+    {
+      "title": "Tears, Idle Tears",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "arc": "ARCH",
+      "q1": -1.246,
+      "q2": -0.124,
+      "q3": -0.323,
+      "q4": -0.226,
+      "range": 1.121,
+      "n_clean": 213
+    },
+    {
+      "title": "My Heart Burns for You (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "arc": "ARCH",
+      "q1": -1.794,
+      "q2": -0.237,
+      "q3": -0.862,
+      "q4": -1.606,
+      "range": 1.557,
+      "n_clean": 100
+    },
+    {
+      "title": "Song of Solomon 2:1-7 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "arc": "ARCH",
+      "q1": -1.234,
+      "q2": -0.574,
+      "q3": 0.071,
+      "q4": -0.681,
+      "range": 1.305,
+      "n_clean": 125
+    },
+    {
+      "title": "Beowulf (opening, trans. Gummere)",
+      "author": "Anonymous (trans. Francis B. Gummere)",
+      "era": "ancient",
+      "arc": "ARCH",
+      "q1": 0.113,
+      "q2": 0.337,
+      "q3": 0.022,
+      "q4": -1.552,
+      "range": 1.889,
+      "n_clean": 138
+    },
+    {
+      "title": "How Doth the Little Busy Bee",
+      "author": "Isaac Watts",
+      "era": "parody_original",
+      "arc": "ARCH",
+      "q1": -0.118,
+      "q2": 0.042,
+      "q3": -0.025,
+      "q4": -1.227,
+      "range": 1.269,
+      "n_clean": 110
+    },
+    {
+      "title": "Pillow",
+      "author": "Russell Edson",
+      "era": "prose_poetry",
+      "arc": "ARCH",
+      "q1": -1.646,
+      "q2": 0.157,
+      "q3": -0.446,
+      "q4": -1.463,
+      "range": 1.803,
+      "n_clean": 125
+    },
+    {
+      "title": "If I Told Him: A Completed Portrait of Picasso (excerpt)",
+      "author": "Gertrude Stein",
+      "era": "oulipo",
+      "arc": "ARCH",
+      "q1": -0.019,
+      "q2": 0.038,
+      "q3": 0.706,
+      "q4": -0.479,
+      "range": 1.185,
+      "n_clean": 202
+    },
+    {
+      "title": "On the Tower of Yellow Crane (literal trans.)",
+      "author": "Cui Hao",
+      "era": "classical_chinese",
+      "arc": "ARCH",
+      "q1": -0.03,
+      "q2": -0.923,
+      "q3": 0.168,
+      "q4": -1.198,
+      "range": 1.366,
+      "n_clean": 86
+    },
+    {
+      "title": "There Was an Old Man of Nantucket",
+      "author": "Anonymous (limerick tradition)",
+      "era": "limerick",
+      "arc": "ARCH",
+      "q1": -2.573,
+      "q2": 0.325,
+      "q3": -1.577,
+      "q4": -1.06,
+      "range": 2.898,
+      "n_clean": 45
+    },
+    {
+      "title": "Ghazal of the Better-Unbegun",
+      "author": "Heather McHugh",
+      "era": "ghazal",
+      "arc": "ARCH",
+      "q1": 0.143,
+      "q2": 0.586,
+      "q3": -0.972,
+      "q4": -1.41,
+      "range": 1.996,
+      "n_clean": 120
+    },
+    {
+      "title": "Beowulf: The Opening (Hall translation, 1892)",
+      "author": "Anonymous (trans. Hall)",
+      "era": "old_english",
+      "arc": "ARCH",
+      "q1": 0.113,
+      "q2": 0.337,
+      "q3": 0.022,
+      "q4": -1.521,
+      "range": 1.858,
+      "n_clean": 138
+    },
+    {
+      "title": "Calypso",
+      "author": "Kamau Brathwaite",
+      "era": "postcolonial",
+      "arc": "ARCH",
+      "q1": -0.271,
+      "q2": 0.441,
+      "q3": -0.628,
+      "q4": -0.745,
+      "range": 1.186,
+      "n_clean": 215
+    },
+    {
+      "title": "La Belle Dame sans Merci",
+      "author": "John Keats",
+      "era": "romantic",
+      "arc": "ARCH",
+      "q1": -1.14,
+      "q2": 0.017,
+      "q3": 0.12,
+      "q4": -0.881,
+      "range": 1.259,
+      "n_clean": 399
+    },
+    {
+      "title": "The Charge of the Light Brigade",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "arc": "ARCH",
+      "q1": -1.03,
+      "q2": -0.45,
+      "q3": 0.09,
+      "q4": -0.655,
+      "range": 1.12,
+      "n_clean": 276
+    },
+    {
+      "title": "Emily Dickinson (Double Dactyl)",
+      "author": "Synthetic (double dactyl test case)",
+      "era": "double_dactyl",
+      "arc": "ARCH",
+      "q1": -1.84,
+      "q2": 0.211,
+      "q3": -0.714,
+      "q4": -2.118,
+      "range": 2.33,
+      "n_clean": 51
+    },
+    {
+      "title": "Lawrence Ferlinghetti (Double Dactyl)",
+      "author": "Synthetic (double dactyl test case)",
+      "era": "double_dactyl",
+      "arc": "ARCH",
+      "q1": -1.249,
+      "q2": -1.469,
+      "q3": -0.124,
+      "q4": -1.754,
+      "range": 1.63,
+      "n_clean": 49
+    },
+    {
+      "title": "Inversnaid",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "arc": "ARCH",
+      "q1": -0.351,
+      "q2": 0.545,
+      "q3": -0.901,
+      "q4": -1.255,
+      "range": 1.8,
+      "n_clean": 182
+    },
+    {
+      "title": "On the Departure Platform",
+      "author": "Thomas Hardy",
+      "era": "pantoum",
+      "arc": "ARCH",
+      "q1": -0.661,
+      "q2": 0.246,
+      "q3": -0.286,
+      "q4": -1.27,
+      "range": 1.516,
+      "n_clean": 134
+    },
+    {
+      "title": "Ode to My Socks",
+      "author": "Pablo Neruda",
+      "era": "latin_american",
+      "arc": "ARCH",
+      "q1": 0.276,
+      "q2": 0.694,
+      "q3": -0.323,
+      "q4": -1.801,
+      "range": 2.494,
+      "n_clean": 109
+    },
+    {
+      "title": "The Tropics in New York",
+      "author": "Claude McKay",
+      "era": "harlem_renaissance",
+      "arc": "ARCH",
+      "q1": -0.702,
+      "q2": 0.659,
+      "q3": -0.435,
+      "q4": -1.02,
+      "range": 1.68,
+      "n_clean": 127
+    },
+    {
+      "title": "Gifts",
+      "author": "Sonia Sanchez",
+      "era": "black_arts",
+      "arc": "ARCH",
+      "q1": -0.785,
+      "q2": -0.468,
+      "q3": 1.087,
+      "q4": -0.96,
+      "range": 2.048,
+      "n_clean": 102
+    },
+    {
+      "title": "Since there's no help (Sonnet 61)",
+      "author": "Michael Drayton",
+      "era": "early_modern",
+      "arc": "ARCH",
+      "q1": -0.824,
+      "q2": -0.357,
+      "q3": 0.301,
+      "q4": -1.117,
+      "range": 1.418,
+      "n_clean": 156
+    },
+    {
+      "title": "Daddy (opening)",
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "arc": "ASCENT",
+      "q1": -1.441,
+      "q2": -0.671,
+      "q3": -0.766,
+      "q4": 0.49,
+      "range": 1.931,
+      "n_clean": 86
+    },
+    {
+      "title": "Incantation",
+      "author": "Lucille Clifton",
+      "era": "contemporary",
+      "arc": "ASCENT",
+      "q1": -0.347,
+      "q2": -1.42,
+      "q3": -0.403,
+      "q4": 0.196,
+      "range": 1.616,
+      "n_clean": 56
+    },
+    {
+      "title": "Poetry (opening)",
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "arc": "ASCENT",
+      "q1": -1.729,
+      "q2": -0.724,
+      "q3": -0.272,
+      "q4": 0.222,
+      "range": 1.951,
+      "n_clean": 44
+    },
+    {
+      "title": "Three Haiku (Issa, translated)",
+      "author": "Kobayashi Issa",
+      "era": "haiku",
+      "arc": "ASCENT",
+      "q1": -2.007,
+      "q2": -1.26,
+      "q3": -0.314,
+      "q4": 0.011,
+      "range": 2.018,
+      "n_clean": 46
+    },
+    {
+      "title": "The Tyger",
+      "author": "William Blake",
+      "era": "romantic",
+      "arc": "ASCENT",
+      "q1": -1.434,
+      "q2": -1.01,
+      "q3": -1.141,
+      "q4": 0.009,
+      "range": 1.444,
+      "n_clean": 179
+    },
+    {
+      "title": "Digging",
+      "author": "Seamus Heaney",
+      "era": "contemporary",
+      "arc": "ASCENT",
+      "q1": -0.466,
+      "q2": -0.092,
+      "q3": 0.58,
+      "q4": 0.618,
+      "range": 1.084,
+      "n_clean": 127
+    },
+    {
+      "title": "Sailing to Byzantium (stanza 1)",
+      "author": "W.B. Yeats",
+      "era": "modernist",
+      "arc": "ASCENT",
+      "q1": -1.232,
+      "q2": -1.029,
+      "q3": -0.216,
+      "q4": 0.356,
+      "range": 1.588,
+      "n_clean": 89
+    },
+    {
+      "title": "Lord Randal",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "arc": "ASCENT",
+      "q1": -0.983,
+      "q2": -1.008,
+      "q3": -0.888,
+      "q4": 0.016,
+      "range": 1.023,
+      "n_clean": 185
+    },
+    {
+      "title": "Dover Beach (closing stanzas)",
+      "author": "Matthew Arnold",
+      "era": "victorian",
+      "arc": "ASCENT",
+      "q1": -1.265,
+      "q2": -0.685,
+      "q3": -1.089,
+      "q4": 0.49,
+      "range": 1.755,
+      "n_clean": 145
+    },
+    {
+      "title": "The Colonel (excerpt)",
+      "author": "Carolyn Forch\u00e9",
+      "era": "prose_poetry",
+      "arc": "ASCENT",
+      "q1": -1.437,
+      "q2": -1.029,
+      "q3": -0.341,
+      "q4": 1.619,
+      "range": 3.055,
+      "n_clean": 64
+    },
+    {
+      "title": "Home on the Range",
+      "author": "Brewster Higley",
+      "era": "song_lyrics",
+      "arc": "ASCENT",
+      "q1": -0.694,
+      "q2": -1.396,
+      "q3": -0.675,
+      "q4": 0.229,
+      "range": 1.624,
+      "n_clean": 149
+    },
+    {
+      "title": "Ode to the West Wind (stanza 1)",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "arc": "ASCENT",
+      "q1": -0.17,
+      "q2": -0.982,
+      "q3": -0.686,
+      "q4": 0.299,
+      "range": 1.281,
+      "n_clean": 167
+    },
+    {
+      "title": "The Sick Rose",
+      "author": "William Blake",
+      "era": "romantic",
+      "arc": "ASCENT",
+      "q1": -1.316,
+      "q2": -2.526,
+      "q3": -0.743,
+      "q4": -0.524,
+      "range": 2.002,
+      "n_clean": 47
+    },
+    {
+      "title": "The Truth the Dead Know (excerpt)",
+      "author": "Anne Sexton",
+      "era": "confessional",
+      "arc": "ASCENT",
+      "q1": -0.531,
+      "q2": -2.096,
+      "q3": -0.456,
+      "q4": 1.595,
+      "range": 3.69,
+      "n_clean": 44
+    },
+    {
+      "title": "The Lady of Shalott (Part I)",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "arc": "ASCENT",
+      "q1": -0.958,
+      "q2": -0.614,
+      "q3": 0.003,
+      "q4": 0.402,
+      "range": 1.36,
+      "n_clean": 295
+    },
+    {
+      "title": "Tonight I Can Write (excerpt)",
+      "author": "Pablo Neruda (trans. W.S. Merwin)",
+      "era": "latin_american",
+      "arc": "ASCENT",
+      "q1": -0.554,
+      "q2": -1.332,
+      "q3": -0.796,
+      "q4": 0.164,
+      "range": 1.496,
+      "n_clean": 109
+    },
+    {
+      "title": "In Goya's greatest scenes",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "arc": "ASCENT",
+      "q1": -1.389,
+      "q2": -0.311,
+      "q3": 0.114,
+      "q4": 0.995,
+      "range": 2.384,
+      "n_clean": 318
+    },
+    {
+      "title": "How Doth the Little Crocodile",
+      "author": "Lewis Carroll",
+      "era": "parody",
+      "arc": "ASCENT",
+      "q1": -0.775,
+      "q2": -1.73,
+      "q3": 0.19,
+      "q4": 0.815,
+      "range": 2.545,
+      "n_clean": 49
+    },
+    {
+      "title": "The Old Man's Comforts and How He Gained Them",
+      "author": "Robert Southey",
+      "era": "parody_original",
+      "arc": "ASCENT",
+      "q1": -0.801,
+      "q2": -0.082,
+      "q3": -0.555,
+      "q4": 0.591,
+      "range": 1.392,
+      "n_clean": 226
+    },
+    {
+      "title": "The Wild Iris (prose extract)",
+      "author": "Louise Gluck",
+      "era": "prose_poetry",
+      "arc": "ASCENT",
+      "q1": 0.755,
+      "q2": -0.275,
+      "q3": 0.282,
+      "q4": 0.789,
+      "range": 1.063,
+      "n_clean": 131
+    },
+    {
+      "title": "The Lipogram: A Sentence Without the Letter E",
+      "author": "Georges Perec",
+      "era": "oulipo",
+      "arc": "ASCENT",
+      "q1": -1.003,
+      "q2": -1.015,
+      "q3": -0.837,
+      "q4": 0.394,
+      "range": 1.41,
+      "n_clean": 114
+    },
+    {
+      "title": "Cent Mille Milliards de Po\u00e8mes (Sonnet 1, excerpt)",
+      "author": "Raymond Queneau",
+      "era": "oulipo",
+      "arc": "ASCENT",
+      "q1": -0.84,
+      "q2": -1.6,
+      "q3": -1.047,
+      "q4": 0.383,
+      "range": 1.983,
+      "n_clean": 131
+    },
+    {
+      "title": "The Sheds of Our Webs",
+      "author": "Charles Bernstein",
+      "era": "language",
+      "arc": "ASCENT",
+      "q1": -0.445,
+      "q2": -2.025,
+      "q3": -0.465,
+      "q4": -0.158,
+      "range": 1.866,
+      "n_clean": 114
+    },
+    {
+      "title": "Spring View (literal trans.)",
+      "author": "Du Fu",
+      "era": "classical_chinese",
+      "arc": "ASCENT",
+      "q1": -1.307,
+      "q2": -0.455,
+      "q3": -0.464,
+      "q4": 0.088,
+      "range": 1.395,
+      "n_clean": 84
+    },
+    {
+      "title": "Rubaiyat of Omar Khayyam (stanzas 7\u201310)",
+      "author": "Omar Khayyam (trans. FitzGerald, 1859)",
+      "era": "persian",
+      "arc": "ASCENT",
+      "q1": -0.792,
+      "q2": -0.186,
+      "q3": -0.213,
+      "q4": 0.436,
+      "range": 1.228,
+      "n_clean": 193
+    },
+    {
+      "title": "Gerard Manley Hopkins (Double Dactyl)",
+      "author": "Synthetic (double dactyl test case)",
+      "era": "double_dactyl",
+      "arc": "ASCENT",
+      "q1": -1.359,
+      "q2": -0.088,
+      "q3": -0.095,
+      "q4": 0.224,
+      "range": 1.583,
+      "n_clean": 51
+    },
+    {
+      "title": "William Carlos Williams (Double Dactyl)",
+      "author": "Synthetic (double dactyl test case)",
+      "era": "double_dactyl",
+      "arc": "ASCENT",
+      "q1": -1.262,
+      "q2": -0.566,
+      "q3": -1.166,
+      "q4": -0.01,
+      "range": 1.252,
+      "n_clean": 45
+    },
+    {
+      "title": "After a Journey",
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "arc": "ASCENT",
+      "q1": 0.491,
+      "q2": -0.328,
+      "q3": 0.012,
+      "q4": 0.759,
+      "range": 1.088,
+      "n_clean": 180
+    },
+    {
+      "title": "Jabberwocky",
+      "author": "Lewis Carroll",
+      "era": "nonsense",
+      "arc": "ASCENT",
+      "q1": -1.33,
+      "q2": -0.495,
+      "q3": -0.89,
+      "q4": -0.315,
+      "range": 1.015,
+      "n_clean": 288
+    },
+    {
+      "title": "Dim Lady",
+      "author": "Harryette Mullen",
+      "era": "contemporary",
+      "arc": "ASCENT",
+      "q1": 0.151,
+      "q2": -0.855,
+      "q3": -0.491,
+      "q4": 0.205,
+      "range": 1.061,
+      "n_clean": 201
+    },
+    {
+      "title": "Laws of Motion",
+      "author": "Synthetic (scientific register test case)",
+      "era": "contemporary",
+      "arc": "ASCENT",
+      "q1": 0.093,
+      "q2": -0.606,
+      "q3": -0.071,
+      "q4": 1.273,
+      "range": 1.879,
+      "n_clean": 126
+    },
+    {
+      "title": "On the Uncertainty Principle",
+      "author": "Synthetic (scientific register test case)",
+      "era": "contemporary",
+      "arc": "ASCENT",
+      "q1": -0.963,
+      "q2": 0.26,
+      "q3": -0.272,
+      "q4": 0.63,
+      "range": 1.593,
+      "n_clean": 100
+    },
+    {
+      "title": "Saint Francis and the Sow",
+      "author": "Galway Kinnell",
+      "era": "contemporary",
+      "arc": "ASCENT",
+      "q1": -0.371,
+      "q2": -0.767,
+      "q3": -0.025,
+      "q4": 0.529,
+      "range": 1.296,
+      "n_clean": 225
+    },
+    {
+      "title": "Refusing Heaven",
+      "author": "Jack Gilbert",
+      "era": "contemporary",
+      "arc": "ASCENT",
+      "q1": 0.064,
+      "q2": -0.993,
+      "q3": -0.766,
+      "q4": 0.251,
+      "range": 1.244,
+      "n_clean": 133
+    },
+    {
+      "title": "Ode to a Nightingale (stanza 1)",
+      "author": "John Keats",
+      "era": "romantic",
+      "arc": "DECLINE",
+      "q1": 0.107,
+      "q2": -0.298,
+      "q3": -1.028,
+      "q4": -0.823,
+      "range": 1.135,
+      "n_clean": 114
+    },
+    {
+      "title": "I felt a Funeral, in my Brain",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "arc": "DECLINE",
+      "q1": -0.041,
+      "q2": -0.079,
+      "q3": -1.694,
+      "q4": -1.679,
+      "range": 1.652,
+      "n_clean": 65
+    },
+    {
+      "title": "Dover Beach",
+      "author": "Matthew Arnold",
+      "era": "19th_century",
+      "arc": "DECLINE",
+      "q1": 0.759,
+      "q2": -0.162,
+      "q3": -1.241,
+      "q4": -0.25,
+      "range": 2.001,
+      "n_clean": 67
+    },
+    {
+      "title": "The Emperor of Ice-Cream",
+      "author": "Wallace Stevens",
+      "era": "modernist",
+      "arc": "DECLINE",
+      "q1": 1.381,
+      "q2": -0.665,
+      "q3": -2.279,
+      "q4": -2.002,
+      "range": 3.66,
+      "n_clean": 94
+    },
+    {
+      "title": "Sunday Morning (stanza 1)",
+      "author": "Wallace Stevens",
+      "era": "modernist",
+      "arc": "DECLINE",
+      "q1": -0.258,
+      "q2": -0.928,
+      "q3": -1.507,
+      "q4": -0.542,
+      "range": 1.249,
+      "n_clean": 79
+    },
+    {
+      "title": "Self-Portrait in a Convex Mirror (opening)",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "DECLINE",
+      "q1": 0.659,
+      "q2": -0.192,
+      "q3": -1.016,
+      "q4": -0.745,
+      "range": 1.676,
+      "n_clean": 72
+    },
+    {
+      "title": "The Instruction Manual",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "DECLINE",
+      "q1": -0.321,
+      "q2": -1.177,
+      "q3": -0.826,
+      "q4": -1.937,
+      "range": 1.617,
+      "n_clean": 106
+    },
+    {
+      "title": "What Is Poetry",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "DECLINE",
+      "q1": 1.18,
+      "q2": -1.438,
+      "q3": -1.522,
+      "q4": -0.712,
+      "range": 2.702,
+      "n_clean": 62
+    },
+    {
+      "title": "Self-Portrait in a Convex Mirror (middle passage)",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "DECLINE",
+      "q1": 0.726,
+      "q2": -0.465,
+      "q3": -1.715,
+      "q4": -0.381,
+      "range": 2.441,
+      "n_clean": 81
+    },
+    {
+      "title": "A Wave (opening)",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "DECLINE",
+      "q1": -0.533,
+      "q2": -0.988,
+      "q3": -2.485,
+      "q4": -1.537,
+      "range": 1.952,
+      "n_clean": 69
+    },
+    {
+      "title": "Leaving the Atocha Station",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "DECLINE",
+      "q1": 1.174,
+      "q2": -0.527,
+      "q3": -2.067,
+      "q4": -0.973,
+      "range": 3.241,
+      "n_clean": 53
+    },
+    {
+      "title": "A Blessing in Disguise",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "DECLINE",
+      "q1": -0.569,
+      "q2": -1.312,
+      "q3": -1.454,
+      "q4": -1.653,
+      "range": 1.083,
+      "n_clean": 75
+    },
+    {
+      "title": "Wet Casements",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "DECLINE",
+      "q1": 2.569,
+      "q2": -0.648,
+      "q3": -1.088,
+      "q4": -0.142,
+      "range": 3.657,
+      "n_clean": 76
+    },
+    {
+      "title": "The Day Lady Died",
+      "author": "Frank O'Hara",
+      "era": "new_york_school",
+      "arc": "DECLINE",
+      "q1": 1.36,
+      "q2": 0.797,
+      "q3": -0.07,
+      "q4": -1.208,
+      "range": 2.568,
+      "n_clean": 66
+    },
+    {
+      "title": "Islets/Irritations (excerpt)",
+      "author": "Bruce Andrews",
+      "era": "language",
+      "arc": "DECLINE",
+      "q1": 1.701,
+      "q2": 1.658,
+      "q3": 0.664,
+      "q4": -1.081,
+      "range": 2.782,
+      "n_clean": 44
+    },
+    {
+      "title": "Whereas (excerpt)",
+      "author": "Layli Long Soldier",
+      "era": "contemporary",
+      "arc": "DECLINE",
+      "q1": 2.532,
+      "q2": 0.686,
+      "q3": -0.116,
+      "q4": -2.293,
+      "range": 4.825,
+      "n_clean": 57
+    },
+    {
+      "title": "Harlem",
+      "author": "Langston Hughes",
+      "era": "harlem_renaissance",
+      "arc": "DECLINE",
+      "q1": -0.355,
+      "q2": -1.099,
+      "q3": -0.406,
+      "q4": -1.582,
+      "range": 1.227,
+      "n_clean": 66
+    },
+    {
+      "title": "The Negro Speaks of Rivers",
+      "author": "Langston Hughes",
+      "era": "harlem_renaissance",
+      "arc": "DECLINE",
+      "q1": 0.328,
+      "q2": -0.449,
+      "q3": -1.059,
+      "q4": -0.222,
+      "range": 1.387,
+      "n_clean": 119
+    },
+    {
+      "title": "I Have Dreamed of You So Much",
+      "author": "Robert Desnos",
+      "era": "surrealist",
+      "arc": "DECLINE",
+      "q1": 0.133,
+      "q2": 0.003,
+      "q3": -1.424,
+      "q4": -0.43,
+      "range": 1.557,
+      "n_clean": 154
+    },
+    {
+      "title": "Walking Around",
+      "author": "Pablo Neruda",
+      "era": "surrealist",
+      "arc": "DECLINE",
+      "q1": 0.759,
+      "q2": -0.319,
+      "q3": -0.399,
+      "q4": -0.544,
+      "range": 1.303,
+      "n_clean": 195
+    },
+    {
+      "title": "Driving Toward the Lac Qui Parle River",
+      "author": "Robert Bly",
+      "era": "deep_image",
+      "arc": "DECLINE",
+      "q1": 1.884,
+      "q2": -0.262,
+      "q3": -0.829,
+      "q4": -0.493,
+      "range": 2.713,
+      "n_clean": 61
+    },
+    {
+      "title": "Porta Nigra",
+      "author": "Stefan George",
+      "era": "german_symbolist",
+      "arc": "DECLINE",
+      "q1": 0.335,
+      "q2": 0.178,
+      "q3": -0.736,
+      "q4": 0.166,
+      "range": 1.071,
+      "n_clean": 85
+    },
+    {
+      "title": "Grodek",
+      "author": "Georg Trakl",
+      "era": "german_expressionist",
+      "arc": "DECLINE",
+      "q1": 1.072,
+      "q2": 0.52,
+      "q3": -0.007,
+      "q4": 0.085,
+      "range": 1.079,
+      "n_clean": 184
+    },
+    {
+      "title": "Die erste Elegie (Er\u00f6ffnung)",
+      "author": "Rainer Maria Rilke",
+      "era": "german_modernist",
+      "arc": "DECLINE",
+      "q1": 2.656,
+      "q2": 1.863,
+      "q3": 0.419,
+      "q4": 0.129,
+      "range": 2.527,
+      "n_clean": 81
+    },
+    {
+      "title": "The Windhover",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "arc": "DECLINE",
+      "q1": 0.347,
+      "q2": -0.128,
+      "q3": -0.147,
+      "q4": -0.875,
+      "range": 1.222,
+      "n_clean": 186
+    },
+    {
+      "title": "We Wear the Mask",
+      "author": "Paul Laurence Dunbar",
+      "era": "victorian",
+      "arc": "DECLINE",
+      "q1": 0.319,
+      "q2": -0.3,
+      "q3": -0.595,
+      "q4": -1.082,
+      "range": 1.4,
+      "n_clean": 80
+    },
+    {
+      "title": "The Truth the Dead Know (opening)",
+      "author": "Anne Sexton",
+      "era": "confessional",
+      "arc": "DECLINE",
+      "q1": -0.28,
+      "q2": -0.486,
+      "q3": -1.951,
+      "q4": -0.987,
+      "range": 1.67,
+      "n_clean": 42
+    },
+    {
+      "title": "Three Haiku (Basho, translated)",
+      "author": "Matsuo Basho",
+      "era": "haiku",
+      "arc": "DECLINE",
+      "q1": -0.046,
+      "q2": -0.055,
+      "q3": -1.131,
+      "q4": -0.061,
+      "range": 1.085,
+      "n_clean": 50
+    },
+    {
+      "title": "London",
+      "author": "William Blake",
+      "era": "romantic",
+      "arc": "DECLINE",
+      "q1": 0.25,
+      "q2": -0.547,
+      "q3": -0.812,
+      "q4": -0.268,
+      "range": 1.062,
+      "n_clean": 98
+    },
+    {
+      "title": "Yet Do I Marvel",
+      "author": "Countee Cullen",
+      "era": "harlem_renaissance",
+      "arc": "DECLINE",
+      "q1": 1.317,
+      "q2": 0.037,
+      "q3": -1.193,
+      "q4": -0.917,
+      "range": 2.51,
+      "n_clean": 144
+    },
+    {
+      "title": "anyone lived in a pretty how town",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "arc": "DECLINE",
+      "q1": 1.514,
+      "q2": 0.001,
+      "q3": -0.597,
+      "q4": -0.983,
+      "range": 2.497,
+      "n_clean": 96
+    },
+    {
+      "title": "Aubade (opening)",
+      "author": "Philip Larkin",
+      "era": "contemporary",
+      "arc": "DECLINE",
+      "q1": 0.545,
+      "q2": -0.44,
+      "q3": -0.629,
+      "q4": -0.464,
+      "range": 1.174,
+      "n_clean": 105
+    },
+    {
+      "title": "Possibilities",
+      "author": "Wislawa Szymborska",
+      "era": "contemporary",
+      "arc": "DECLINE",
+      "q1": 0.277,
+      "q2": -0.018,
+      "q3": -0.6,
+      "q4": -1.1,
+      "range": 1.377,
+      "n_clean": 122
+    },
+    {
+      "title": "To a Mouse (closing stanzas)",
+      "author": "Robert Burns",
+      "era": "romantic",
+      "arc": "DECLINE",
+      "q1": 1.627,
+      "q2": -0.931,
+      "q3": -1.043,
+      "q4": -0.699,
+      "range": 2.67,
+      "n_clean": 118
+    },
+    {
+      "title": "Sir Patrick Spens",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "arc": "DECLINE",
+      "q1": 0.988,
+      "q2": 0.19,
+      "q3": -0.728,
+      "q4": -1.279,
+      "range": 2.267,
+      "n_clean": 175
+    },
+    {
+      "title": "Bonnie George Campbell",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "arc": "DECLINE",
+      "q1": 0.827,
+      "q2": 0.456,
+      "q3": -0.379,
+      "q4": -1.917,
+      "range": 2.744,
+      "n_clean": 97
+    },
+    {
+      "title": "The Fall",
+      "author": "Russell Edson",
+      "era": "prose_poetry",
+      "arc": "DECLINE",
+      "q1": 0.73,
+      "q2": -0.269,
+      "q3": 0.569,
+      "q4": -0.684,
+      "range": 1.415,
+      "n_clean": 116
+    },
+    {
+      "title": "Yesterday (prose poem)",
+      "author": "W.S. Merwin",
+      "era": "prose_poetry",
+      "arc": "DECLINE",
+      "q1": 0.253,
+      "q2": -1.466,
+      "q3": -1.921,
+      "q4": -0.969,
+      "range": 2.174,
+      "n_clean": 60
+    },
+    {
+      "title": "Sonnet 73 (That time of year)",
+      "author": "William Shakespeare",
+      "era": "victorian",
+      "arc": "DECLINE",
+      "q1": -0.025,
+      "q2": -1.236,
+      "q3": -1.829,
+      "q4": -0.126,
+      "range": 1.804,
+      "n_clean": 169
+    },
+    {
+      "title": "Sonnet 130 (My mistress' eyes)",
+      "author": "William Shakespeare",
+      "era": "victorian",
+      "arc": "DECLINE",
+      "q1": -0.097,
+      "q2": -1.07,
+      "q3": -1.38,
+      "q4": -0.846,
+      "range": 1.282,
+      "n_clean": 158
+    },
+    {
+      "title": "On First Looking into Chapman's Homer",
+      "author": "John Keats",
+      "era": "romantic",
+      "arc": "DECLINE",
+      "q1": 0.213,
+      "q2": -0.058,
+      "q3": -0.289,
+      "q4": -0.838,
+      "range": 1.05,
+      "n_clean": 154
+    },
+    {
+      "title": "a list of the delusions of the insane (excerpt)",
+      "author": "David Antin",
+      "era": "prose_poetry",
+      "arc": "DECLINE",
+      "q1": -0.724,
+      "q2": -1.407,
+      "q3": -2.044,
+      "q4": -0.956,
+      "range": 1.32,
+      "n_clean": 113
+    },
+    {
+      "title": "A Dream Deferred",
+      "author": "Langston Hughes",
+      "era": "harlem_renaissance",
+      "arc": "DECLINE",
+      "q1": -0.355,
+      "q2": -1.099,
+      "q3": -0.406,
+      "q4": -1.582,
+      "range": 1.227,
+      "n_clean": 66
+    },
+    {
+      "title": "To His Coy Mistress (opening)",
+      "author": "Andrew Marvell",
+      "era": "metaphysical",
+      "arc": "DECLINE",
+      "q1": 0.22,
+      "q2": -1.312,
+      "q3": -0.277,
+      "q4": -1.509,
+      "range": 1.729,
+      "n_clean": 98
+    },
+    {
+      "title": "The Collar (opening)",
+      "author": "George Herbert",
+      "era": "metaphysical",
+      "arc": "DECLINE",
+      "q1": 0.81,
+      "q2": -0.024,
+      "q3": 0.55,
+      "q4": -0.874,
+      "range": 1.684,
+      "n_clean": 84
+    },
+    {
+      "title": "Theocritus: A Villanelle (opening quatrains)",
+      "author": "Oscar Wilde",
+      "era": "fixed_form",
+      "arc": "DECLINE",
+      "q1": 1.443,
+      "q2": -0.17,
+      "q3": -0.883,
+      "q4": -0.163,
+      "range": 2.326,
+      "n_clean": 92
+    },
+    {
+      "title": "Pied Beauty",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "arc": "DECLINE",
+      "q1": 0.763,
+      "q2": -0.558,
+      "q3": -1.039,
+      "q4": -0.669,
+      "range": 1.803,
+      "n_clean": 179
+    },
+    {
+      "title": "Grass",
+      "author": "Carl Sandburg",
+      "era": "modernist",
+      "arc": "DECLINE",
+      "q1": 0.043,
+      "q2": -0.21,
+      "q3": -0.294,
+      "q4": -1.996,
+      "range": 2.039,
+      "n_clean": 93
+    },
+    {
+      "title": "Psalm 137:1-4 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "arc": "DECLINE",
+      "q1": 0.245,
+      "q2": 0.186,
+      "q3": 0.024,
+      "q4": -1.174,
+      "range": 1.419,
+      "n_clean": 86
+    },
+    {
+      "title": "Somnambulistic Ballad (excerpt)",
+      "author": "Federico Garc\u00eda Lorca (trans. Stephen Spender & J.L. Gili)",
+      "era": "latin_american",
+      "arc": "DECLINE",
+      "q1": -0.066,
+      "q2": -0.384,
+      "q3": -2.007,
+      "q4": -0.797,
+      "range": 1.94,
+      "n_clean": 86
+    },
+    {
+      "title": "Mann und Frau gehn durch die Krebsbaracke (trans. Ward)",
+      "author": "Gottfried Benn",
+      "era": "german_expressionist",
+      "arc": "DECLINE",
+      "q1": 0.043,
+      "q2": -0.361,
+      "q3": -1.094,
+      "q4": -0.448,
+      "range": 1.137,
+      "n_clean": 127
+    },
+    {
+      "title": "Kleine Aster (Little Aster, trans. Ward)",
+      "author": "Gottfried Benn",
+      "era": "german_expressionist",
+      "arc": "DECLINE",
+      "q1": 0.659,
+      "q2": -0.213,
+      "q3": 0.055,
+      "q4": -0.883,
+      "range": 1.542,
+      "n_clean": 115
+    },
+    {
+      "title": "Der Gott der Stadt (The God of the City, trans.)",
+      "author": "Georg Heym",
+      "era": "german_expressionist",
+      "arc": "DECLINE",
+      "q1": 1.248,
+      "q2": -0.467,
+      "q3": 0.82,
+      "q4": -1.271,
+      "range": 2.52,
+      "n_clean": 128
+    },
+    {
+      "title": "Objects (from Tender Buttons)",
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "arc": "DECLINE",
+      "q1": 0.951,
+      "q2": 0.544,
+      "q3": 0.085,
+      "q4": -0.793,
+      "range": 1.744,
+      "n_clean": 95
+    },
+    {
+      "title": "'Tis the Voice of the Lobster",
+      "author": "Lewis Carroll",
+      "era": "parody",
+      "arc": "DECLINE",
+      "q1": -0.671,
+      "q2": -1.166,
+      "q3": -1.341,
+      "q4": -1.723,
+      "range": 1.053,
+      "n_clean": 105
+    },
+    {
+      "title": "Eunoia: Chapter A (excerpt)",
+      "author": "Christian B\u00f6k",
+      "era": "oulipo",
+      "arc": "DECLINE",
+      "q1": 1.44,
+      "q2": -0.199,
+      "q3": -1.093,
+      "q4": 0.103,
+      "range": 2.533,
+      "n_clean": 122
+    },
+    {
+      "title": "Dysraphism (excerpt)",
+      "author": "Charles Bernstein",
+      "era": "language",
+      "arc": "DECLINE",
+      "q1": -0.048,
+      "q2": -0.564,
+      "q3": -1.66,
+      "q4": -0.749,
+      "range": 1.612,
+      "n_clean": 122
+    },
+    {
+      "title": "Rubaiyat of Omar Khayyam (stanzas 11\u201314)",
+      "author": "Omar Khayyam (trans. FitzGerald, 1859)",
+      "era": "persian",
+      "arc": "DECLINE",
+      "q1": 1.204,
+      "q2": -0.694,
+      "q3": -1.427,
+      "q4": -0.226,
+      "range": 2.631,
+      "n_clean": 189
+    },
+    {
+      "title": "A Tutor Who Tooted the Flute",
+      "author": "Carolyn Wells",
+      "era": "limerick",
+      "arc": "DECLINE",
+      "q1": 1.127,
+      "q2": -0.967,
+      "q3": -0.189,
+      "q4": -1.27,
+      "range": 2.397,
+      "n_clean": 46
+    },
+    {
+      "title": "A Flea and a Fly in a Flue",
+      "author": "Anonymous",
+      "era": "limerick",
+      "arc": "DECLINE",
+      "q1": -0.642,
+      "q2": -1.608,
+      "q3": -1.853,
+      "q4": -0.743,
+      "range": 1.212,
+      "n_clean": 51
+    },
+    {
+      "title": "There Was a Young Man of Japan",
+      "author": "Anonymous",
+      "era": "limerick",
+      "arc": "DECLINE",
+      "q1": 0.847,
+      "q2": -0.037,
+      "q3": -0.262,
+      "q4": 0.085,
+      "range": 1.109,
+      "n_clean": 51
+    },
+    {
+      "title": "Dulce et Decorum Est",
+      "author": "Wilfred Owen",
+      "era": "war_poetry",
+      "arc": "DECLINE",
+      "q1": -0.089,
+      "q2": -0.176,
+      "q3": -1.152,
+      "q4": -0.282,
+      "range": 1.063,
+      "n_clean": 322
+    },
+    {
+      "title": "Postcard from Kashmir",
+      "author": "Agha Shahid Ali",
+      "era": "postcolonial",
+      "arc": "DECLINE",
+      "q1": 0.191,
+      "q2": -0.479,
+      "q3": -0.361,
+      "q4": -0.836,
+      "range": 1.027,
+      "n_clean": 115
+    },
+    {
+      "title": "Even the Rain",
+      "author": "Agha Shahid Ali",
+      "era": "postcolonial",
+      "arc": "DECLINE",
+      "q1": 0.582,
+      "q2": -0.896,
+      "q3": -1.071,
+      "q4": -0.39,
+      "range": 1.653,
+      "n_clean": 209
+    },
+    {
+      "title": "The Bishop Orders His Tomb at Saint Praxed's Church",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "arc": "DECLINE",
+      "q1": 0.18,
+      "q2": -0.377,
+      "q3": 0.014,
+      "q4": -1.031,
+      "range": 1.211,
+      "n_clean": 376
+    },
+    {
+      "title": "Elegy Written in a Country Churchyard (opening)",
+      "author": "Thomas Gray",
+      "era": "elegy",
+      "arc": "DECLINE",
+      "q1": 0.319,
+      "q2": -0.626,
+      "q3": -0.319,
+      "q4": -1.44,
+      "range": 1.759,
+      "n_clean": 176
+    },
+    {
+      "title": "Lycidas (opening and lament)",
+      "author": "John Milton",
+      "era": "elegy",
+      "arc": "DECLINE",
+      "q1": 0.821,
+      "q2": 0.675,
+      "q3": -1.485,
+      "q4": -0.484,
+      "range": 2.306,
+      "n_clean": 163
+    },
+    {
+      "title": "Tell all the truth but tell it slant",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "arc": "DECLINE",
+      "q1": 1.308,
+      "q2": 0.511,
+      "q3": 1.078,
+      "q4": -0.705,
+      "range": 2.014,
+      "n_clean": 53
+    },
+    {
+      "title": "Pied Beauty",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "arc": "DECLINE",
+      "q1": 1.376,
+      "q2": -0.563,
+      "q3": -1.034,
+      "q4": -0.591,
+      "range": 2.41,
+      "n_clean": 180
+    },
+    {
+      "title": "A Valediction: Forbidding Mourning",
+      "author": "John Donne",
+      "era": "early_modern",
+      "arc": "DECLINE",
+      "q1": 0.0,
+      "q2": -0.667,
+      "q3": -0.901,
+      "q4": -1.304,
+      "range": 1.304,
+      "n_clean": 350
+    },
+    {
+      "title": "Carmel Point",
+      "author": "Robinson Jeffers",
+      "era": "contemporary",
+      "arc": "DECLINE",
+      "q1": 0.021,
+      "q2": -0.135,
+      "q3": -0.996,
+      "q4": -0.838,
+      "range": 1.017,
+      "n_clean": 170
+    },
+    {
+      "title": "The Glass Essay (opening)",
+      "author": "Anne Carson",
+      "era": "contemporary",
+      "arc": "DECLINE",
+      "q1": 1.952,
+      "q2": 0.071,
+      "q3": -1.463,
+      "q4": -1.1,
+      "range": 3.416,
+      "n_clean": 74
+    },
+    {
+      "title": "On First Looking into Chapman's Homer",
+      "author": "John Keats",
+      "era": "ekphrastic",
+      "arc": "DECLINE",
+      "q1": 0.213,
+      "q2": -0.058,
+      "q3": -0.289,
+      "q4": -0.838,
+      "range": 1.05,
+      "n_clean": 154
+    },
+    {
+      "title": "For a Venetian Pastoral by Giorgione",
+      "author": "Dante Gabriel Rossetti",
+      "era": "ekphrastic",
+      "arc": "DECLINE",
+      "q1": 0.399,
+      "q2": -0.251,
+      "q3": -0.914,
+      "q4": 0.012,
+      "range": 1.313,
+      "n_clean": 159
+    },
+    {
+      "title": "Villanelle of the Poet's Road",
+      "author": "Ernest Dowson",
+      "era": "villanelle",
+      "arc": "DECLINE",
+      "q1": -0.736,
+      "q2": -1.464,
+      "q3": -1.808,
+      "q4": -1.285,
+      "range": 1.072,
+      "n_clean": 120
+    },
+    {
+      "title": "Because I could not stop for Death",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "arc": "DECLINE",
+      "q1": 0.036,
+      "q2": -0.307,
+      "q3": -0.806,
+      "q4": -1.108,
+      "range": 1.144,
+      "n_clean": 182
+    },
+    {
+      "title": "The Hunting of the Snark (Fit the First, opening)",
+      "author": "Lewis Carroll",
+      "era": "nonsense",
+      "arc": "DECLINE",
+      "q1": -0.166,
+      "q2": -0.31,
+      "q3": -1.254,
+      "q4": -0.695,
+      "range": 1.088,
+      "n_clean": 212
+    },
+    {
+      "title": "Having a Coke with You",
+      "author": "Frank O'Hara",
+      "era": "new_york_school",
+      "arc": "DECLINE",
+      "q1": 0.357,
+      "q2": -0.819,
+      "q3": -1.387,
+      "q4": -0.755,
+      "range": 1.745,
+      "n_clean": 208
+    },
+    {
+      "title": "Legal Boilerplate (Found Poem)",
+      "author": "Found (legal boilerplate, public domain)",
+      "era": "found_poetry",
+      "arc": "DECLINE",
+      "q1": 0.23,
+      "q2": -0.558,
+      "q3": -0.929,
+      "q4": -0.961,
+      "range": 1.191,
+      "n_clean": 111
+    },
+    {
+      "title": "Farm Implements and Rutabagas in a Landscape",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "DECLINE",
+      "q1": 0.734,
+      "q2": 0.632,
+      "q3": -0.385,
+      "q4": -1.386,
+      "range": 2.12,
+      "n_clean": 176
+    },
+    {
+      "title": "Variations on A (excerpt)",
+      "author": "Georges Perec",
+      "era": "oulipo",
+      "arc": "FLAT",
+      "q1": -0.609,
+      "q2": -0.099,
+      "q3": -0.02,
+      "q4": -0.959,
+      "range": 0.939,
+      "n_clean": 50
+    },
+    {
+      "title": "Departure",
+      "author": "Pierre Reverdy",
+      "era": "surrealist",
+      "arc": "FLAT",
+      "q1": -1.381,
+      "q2": -2.036,
+      "q3": -1.085,
+      "q4": -1.807,
+      "range": 0.951,
+      "n_clean": 61
+    },
+    {
+      "title": "The Sleeper in the Valley",
+      "author": "Arthur Rimbaud",
+      "era": "surrealist",
+      "arc": "FLAT",
+      "q1": -0.17,
+      "q2": -1.133,
+      "q3": -0.946,
+      "q4": -1.0,
+      "range": 0.963,
+      "n_clean": 170
+    },
+    {
+      "title": "Das Wort",
+      "author": "Stefan George",
+      "era": "german_symbolist",
+      "arc": "FLAT",
+      "q1": 0.336,
+      "q2": 1.056,
+      "q3": 0.21,
+      "q4": 0.791,
+      "range": 0.846,
+      "n_clean": 135
+    },
+    {
+      "title": "Ulysses (opening)",
+      "author": "Alfred Lord Tennyson",
+      "era": "victorian",
+      "arc": "FLAT",
+      "q1": -0.245,
+      "q2": -0.906,
+      "q3": -0.46,
+      "q4": -0.572,
+      "range": 0.661,
+      "n_clean": 98
+    },
+    {
+      "title": "The Fish",
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "arc": "FLAT",
+      "q1": -0.556,
+      "q2": 0.31,
+      "q3": -0.121,
+      "q4": 0.425,
+      "range": 0.981,
+      "n_clean": 331
+    },
+    {
+      "title": "The Raven (opening stanzas)",
+      "author": "Edgar Allan Poe",
+      "era": "19th_century",
+      "arc": "FLAT",
+      "q1": -0.736,
+      "q2": -0.647,
+      "q3": -0.873,
+      "q4": -0.705,
+      "range": 0.227,
+      "n_clean": 674
+    },
+    {
+      "title": "The Oxen",
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "arc": "FLAT",
+      "q1": 0.101,
+      "q2": 0.595,
+      "q3": 0.054,
+      "q4": -0.31,
+      "range": 0.905,
+      "n_clean": 142
+    },
+    {
+      "title": "If We Must Die",
+      "author": "Claude McKay",
+      "era": "harlem_renaissance",
+      "arc": "FLAT",
+      "q1": -0.437,
+      "q2": -0.344,
+      "q3": 0.097,
+      "q4": -0.117,
+      "range": 0.534,
+      "n_clean": 154
+    },
+    {
+      "title": "Neutral Tones",
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "arc": "FLAT",
+      "q1": 0.469,
+      "q2": 0.302,
+      "q3": 0.072,
+      "q4": -0.15,
+      "range": 0.619,
+      "n_clean": 158
+    },
+    {
+      "title": "The Second Coming",
+      "author": "W.B. Yeats",
+      "era": "modernist",
+      "arc": "FLAT",
+      "q1": -0.755,
+      "q2": -0.688,
+      "q3": -0.511,
+      "q4": -0.109,
+      "range": 0.645,
+      "n_clean": 227
+    },
+    {
+      "title": "The Road Not Taken",
+      "author": "Robert Frost",
+      "era": "modernist",
+      "arc": "FLAT",
+      "q1": -0.147,
+      "q2": -0.038,
+      "q3": 0.02,
+      "q4": -0.665,
+      "range": 0.685,
+      "n_clean": 173
+    },
+    {
+      "title": "Barbara Allen",
+      "author": "Traditional (English/Scottish ballad)",
+      "era": "ballad",
+      "arc": "FLAT",
+      "q1": 0.164,
+      "q2": -0.284,
+      "q3": -0.779,
+      "q4": 0.027,
+      "range": 0.942,
+      "n_clean": 140
+    },
+    {
+      "title": "The Wife of Usher's Well",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "arc": "FLAT",
+      "q1": 0.237,
+      "q2": -0.141,
+      "q3": -0.496,
+      "q4": -0.306,
+      "range": 0.734,
+      "n_clean": 133
+    },
+    {
+      "title": "The Jewel",
+      "author": "James Wright",
+      "era": "prose_poetry",
+      "arc": "FLAT",
+      "q1": 0.008,
+      "q2": -0.684,
+      "q3": -0.226,
+      "q4": -0.49,
+      "range": 0.692,
+      "n_clean": 53
+    },
+    {
+      "title": "Frankie and Johnny (opening stanzas)",
+      "author": "Traditional (American folk)",
+      "era": "song_lyrics",
+      "arc": "FLAT",
+      "q1": -1.053,
+      "q2": -1.343,
+      "q3": -1.096,
+      "q4": -0.374,
+      "range": 0.969,
+      "n_clean": 224
+    },
+    {
+      "title": "Oh Shenandoah",
+      "author": "Traditional (American sea chanty)",
+      "era": "song_lyrics",
+      "arc": "FLAT",
+      "q1": -0.006,
+      "q2": -0.518,
+      "q3": -0.329,
+      "q4": -0.5,
+      "range": 0.512,
+      "n_clean": 168
+    },
+    {
+      "title": "Nursery Rhymes (compilation)",
+      "author": "Traditional (English)",
+      "era": "nursery_rhyme",
+      "arc": "FLAT",
+      "q1": -0.719,
+      "q2": -0.616,
+      "q3": -0.928,
+      "q4": -1.005,
+      "range": 0.389,
+      "n_clean": 222
+    },
+    {
+      "title": "From 'Who Whispered Near Me' (excerpt)",
+      "author": "Killarney Clary",
+      "era": "prose_poetry",
+      "arc": "FLAT",
+      "q1": -1.031,
+      "q2": -0.995,
+      "q3": -1.087,
+      "q4": -0.7,
+      "range": 0.387,
+      "n_clean": 171
+    },
+    {
+      "title": "Crossing (excerpt)",
+      "author": "Rae Armantrout",
+      "era": "prose_poetry",
+      "arc": "FLAT",
+      "q1": -0.167,
+      "q2": -0.682,
+      "q3": -0.864,
+      "q4": -0.855,
+      "range": 0.697,
+      "n_clean": 130
+    },
+    {
+      "title": "Death, Be Not Proud (Holy Sonnet X)",
+      "author": "John Donne",
+      "era": "metaphysical",
+      "arc": "FLAT",
+      "q1": -1.26,
+      "q2": -0.368,
+      "q3": -0.627,
+      "q4": -0.748,
+      "range": 0.892,
+      "n_clean": 172
+    },
+    {
+      "title": "Love (III)",
+      "author": "George Herbert",
+      "era": "metaphysical",
+      "arc": "FLAT",
+      "q1": -0.292,
+      "q2": -1.071,
+      "q3": -0.806,
+      "q4": -1.245,
+      "range": 0.953,
+      "n_clean": 179
+    },
+    {
+      "title": "They Flee from Me",
+      "author": "Thomas Wyatt",
+      "era": "early_modern",
+      "arc": "FLAT",
+      "q1": -0.097,
+      "q2": 0.71,
+      "q3": 0.213,
+      "q4": -0.115,
+      "range": 0.824,
+      "n_clean": 200
+    },
+    {
+      "title": "God's Grandeur",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "arc": "FLAT",
+      "q1": 0.821,
+      "q2": 0.35,
+      "q3": 0.355,
+      "q4": 0.371,
+      "range": 0.471,
+      "n_clean": 179
+    },
+    {
+      "title": "Won't You Celebrate With Me",
+      "author": "Lucille Clifton",
+      "era": "spoken_word",
+      "arc": "FLAT",
+      "q1": -0.172,
+      "q2": -0.518,
+      "q3": -0.846,
+      "q4": -0.603,
+      "range": 0.674,
+      "n_clean": 90
+    },
+    {
+      "title": "Whoso List to Hunt",
+      "author": "Thomas Wyatt",
+      "era": "early_modern",
+      "arc": "FLAT",
+      "q1": 0.095,
+      "q2": -0.465,
+      "q3": -0.581,
+      "q4": 0.232,
+      "range": 0.813,
+      "n_clean": 167
+    },
+    {
+      "title": "To Autumn (stanza 1)",
+      "author": "John Keats",
+      "era": "romantic",
+      "arc": "FLAT",
+      "q1": -0.602,
+      "q2": -0.097,
+      "q3": -1.083,
+      "q4": -0.215,
+      "range": 0.985,
+      "n_clean": 131
+    },
+    {
+      "title": "Natural Selection (Found Poem from Darwin, 1859)",
+      "author": "Charles Darwin (found text)",
+      "era": "found_poetry",
+      "arc": "FLAT",
+      "q1": -0.756,
+      "q2": -1.231,
+      "q3": -0.959,
+      "q4": -0.695,
+      "range": 0.536,
+      "n_clean": 137
+    },
+    {
+      "title": "Vanity of Vanities (Found Poem from Ecclesiastes 1:2-8, KJV)",
+      "author": "Anonymous (KJV, found text)",
+      "era": "found_poetry",
+      "arc": "FLAT",
+      "q1": -1.225,
+      "q2": -0.907,
+      "q3": -0.909,
+      "q4": -0.431,
+      "range": 0.794,
+      "n_clean": 147
+    },
+    {
+      "title": "Cooking Instructions (Found Poem from generic recipe prose)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "arc": "FLAT",
+      "q1": -0.754,
+      "q2": -0.941,
+      "q3": -0.799,
+      "q4": -0.648,
+      "range": 0.293,
+      "n_clean": 131
+    },
+    {
+      "title": "Scientific Method (Found Poem from Newton's Opticks, 1704)",
+      "author": "Isaac Newton (found text)",
+      "era": "found_poetry",
+      "arc": "FLAT",
+      "q1": -0.766,
+      "q2": -0.814,
+      "q3": -0.718,
+      "q4": -0.242,
+      "range": 0.572,
+      "n_clean": 129
+    },
+    {
+      "title": "Song: To Celia",
+      "author": "Ben Jonson",
+      "era": "early_modern",
+      "arc": "FLAT",
+      "q1": -0.823,
+      "q2": -1.405,
+      "q3": -0.753,
+      "q4": -0.711,
+      "range": 0.694,
+      "n_clean": 73
+    },
+    {
+      "title": "The House on the Hill",
+      "author": "Edwin Arlington Robinson",
+      "era": "fixed_form",
+      "arc": "FLAT",
+      "q1": -0.428,
+      "q2": 0.149,
+      "q3": 0.076,
+      "q4": -0.339,
+      "range": 0.577,
+      "n_clean": 98
+    },
+    {
+      "title": "Break, Break, Break",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "arc": "FLAT",
+      "q1": -0.934,
+      "q2": -1.073,
+      "q3": -0.667,
+      "q4": -1.03,
+      "range": 0.406,
+      "n_clean": 134
+    },
+    {
+      "title": "Recessional (stanzas 1-3)",
+      "author": "Rudyard Kipling",
+      "era": "victorian",
+      "arc": "FLAT",
+      "q1": -0.019,
+      "q2": -0.96,
+      "q3": -0.674,
+      "q4": -0.676,
+      "range": 0.941,
+      "n_clean": 165
+    },
+    {
+      "title": "Life Is a Journey (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "arc": "FLAT",
+      "q1": -0.72,
+      "q2": -0.711,
+      "q3": -0.448,
+      "q4": -1.204,
+      "range": 0.756,
+      "n_clean": 105
+    },
+    {
+      "title": "For I Will Consider My Cat Jeoffry (excerpt)",
+      "author": "Christopher Smart",
+      "era": "18th_century",
+      "arc": "FLAT",
+      "q1": -0.074,
+      "q2": -0.32,
+      "q3": -0.529,
+      "q4": -0.508,
+      "range": 0.455,
+      "n_clean": 293
+    },
+    {
+      "title": "Kubla Khan (opening stanzas)",
+      "author": "Samuel Taylor Coleridge",
+      "era": "romantic",
+      "arc": "FLAT",
+      "q1": 0.345,
+      "q2": -0.377,
+      "q3": 0.381,
+      "q4": 0.019,
+      "range": 0.758,
+      "n_clean": 243
+    },
+    {
+      "title": "Proverbs of Hell (excerpt from Marriage of Heaven and Hell)",
+      "author": "William Blake",
+      "era": "romantic",
+      "arc": "FLAT",
+      "q1": -0.277,
+      "q2": -0.742,
+      "q3": -1.088,
+      "q4": -0.961,
+      "range": 0.812,
+      "n_clean": 243
+    },
+    {
+      "title": "Invictus",
+      "author": "William Ernest Henley",
+      "era": "victorian",
+      "arc": "FLAT",
+      "q1": -0.634,
+      "q2": -0.497,
+      "q3": -0.992,
+      "q4": -1.023,
+      "range": 0.526,
+      "n_clean": 129
+    },
+    {
+      "title": "The Harbor Dawn (from The Bridge)",
+      "author": "Hart Crane",
+      "era": "modernist",
+      "arc": "FLAT",
+      "q1": 1.015,
+      "q2": 1.314,
+      "q3": 0.819,
+      "q4": 0.731,
+      "range": 0.583,
+      "n_clean": 169
+    },
+    {
+      "title": "Psalm 23 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "arc": "FLAT",
+      "q1": -0.339,
+      "q2": -1.233,
+      "q3": -0.262,
+      "q4": -0.66,
+      "range": 0.971,
+      "n_clean": 152
+    },
+    {
+      "title": "Psalm 121 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "arc": "FLAT",
+      "q1": -0.756,
+      "q2": -0.316,
+      "q3": -0.624,
+      "q4": -0.454,
+      "range": 0.44,
+      "n_clean": 139
+    },
+    {
+      "title": "Isaiah 40:28-31 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "arc": "FLAT",
+      "q1": -0.627,
+      "q2": -0.351,
+      "q3": -0.732,
+      "q4": -0.904,
+      "range": 0.553,
+      "n_clean": 125
+    },
+    {
+      "title": "Psalm 46:1-5 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "arc": "FLAT",
+      "q1": -0.333,
+      "q2": -0.608,
+      "q3": -0.924,
+      "q4": -0.649,
+      "range": 0.59,
+      "n_clean": 113
+    },
+    {
+      "title": "silencio",
+      "author": "Eugen Gomringer",
+      "era": "concrete",
+      "arc": "FLAT",
+      "q1": -0.578,
+      "q2": -1.3,
+      "q3": -0.729,
+      "q4": -0.538,
+      "range": 0.761,
+      "n_clean": 47
+    },
+    {
+      "title": "Black Stone Lying on a White Stone",
+      "author": "C\u00e9sar Vallejo (trans. Thomas Merton)",
+      "era": "latin_american",
+      "arc": "FLAT",
+      "q1": -0.289,
+      "q2": 0.168,
+      "q3": -0.603,
+      "q4": -0.569,
+      "range": 0.772,
+      "n_clean": 157
+    },
+    {
+      "title": "Preface to a Twenty Volume Suicide Note",
+      "author": "Amiri Baraka (LeRoi Jones)",
+      "era": "black_arts",
+      "arc": "FLAT",
+      "q1": -0.41,
+      "q2": -0.825,
+      "q3": 0.023,
+      "q4": -0.793,
+      "range": 0.848,
+      "n_clean": 144
+    },
+    {
+      "title": "Iliad (opening, trans. Pope)",
+      "author": "Homer (trans. Alexander Pope)",
+      "era": "ancient",
+      "arc": "FLAT",
+      "q1": -0.131,
+      "q2": 0.107,
+      "q3": 0.058,
+      "q4": -0.434,
+      "range": 0.542,
+      "n_clean": 90
+    },
+    {
+      "title": "On Being Brought from Africa to America",
+      "author": "Phillis Wheatley",
+      "era": "18th_century",
+      "arc": "FLAT",
+      "q1": 0.306,
+      "q2": -0.032,
+      "q3": -0.39,
+      "q4": 0.172,
+      "range": 0.696,
+      "n_clean": 91
+    },
+    {
+      "title": "Marriage",
+      "author": "Gregory Corso",
+      "era": "beat",
+      "arc": "FLAT",
+      "q1": 0.668,
+      "q2": 0.964,
+      "q3": 1.188,
+      "q4": 0.266,
+      "range": 0.922,
+      "n_clean": 120
+    },
+    {
+      "title": "Constantly Risking Absurdity",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "arc": "FLAT",
+      "q1": -0.689,
+      "q2": -0.202,
+      "q3": 0.218,
+      "q4": 0.154,
+      "range": 0.906,
+      "n_clean": 352
+    },
+    {
+      "title": "You Are Old, Father William",
+      "author": "Lewis Carroll",
+      "era": "parody",
+      "arc": "FLAT",
+      "q1": -0.336,
+      "q2": 0.076,
+      "q3": -0.801,
+      "q4": -0.05,
+      "range": 0.877,
+      "n_clean": 340
+    },
+    {
+      "title": "The New Colossus",
+      "author": "Emma Lazarus",
+      "era": "protest_political",
+      "arc": "FLAT",
+      "q1": -0.283,
+      "q2": -0.962,
+      "q3": -0.905,
+      "q4": -1.148,
+      "range": 0.865,
+      "n_clean": 155
+    },
+    {
+      "title": "Anthem for Doomed Youth",
+      "author": "Wilfred Owen",
+      "era": "war_poetry",
+      "arc": "FLAT",
+      "q1": -0.193,
+      "q2": -0.945,
+      "q3": -0.159,
+      "q4": -0.53,
+      "range": 0.787,
+      "n_clean": 161
+    },
+    {
+      "title": "Beowulf: The Fight with Grendel",
+      "author": "Anonymous (trans. Hall)",
+      "era": "old_english",
+      "arc": "FLAT",
+      "q1": -0.715,
+      "q2": -0.302,
+      "q3": -0.48,
+      "q4": -0.287,
+      "range": 0.429,
+      "n_clean": 125
+    },
+    {
+      "title": "An Essay on Criticism (opening)",
+      "author": "Alexander Pope",
+      "era": "18th_century",
+      "arc": "FLAT",
+      "q1": -0.128,
+      "q2": 0.059,
+      "q3": -0.404,
+      "q4": -0.624,
+      "range": 0.684,
+      "n_clean": 157
+    },
+    {
+      "title": "An Essay on Man (Epistle I, opening)",
+      "author": "Alexander Pope",
+      "era": "18th_century",
+      "arc": "FLAT",
+      "q1": 0.217,
+      "q2": -0.588,
+      "q3": -0.09,
+      "q4": -0.284,
+      "range": 0.805,
+      "n_clean": 156
+    },
+    {
+      "title": "MacFlecknoe (opening)",
+      "author": "John Dryden",
+      "era": "18th_century",
+      "arc": "FLAT",
+      "q1": 0.301,
+      "q2": -0.465,
+      "q3": -0.684,
+      "q4": 0.176,
+      "range": 0.985,
+      "n_clean": 153
+    },
+    {
+      "title": "The Vanity of Human Wishes (opening)",
+      "author": "Samuel Johnson",
+      "era": "18th_century",
+      "arc": "FLAT",
+      "q1": 0.182,
+      "q2": -0.679,
+      "q3": -0.653,
+      "q4": 0.113,
+      "range": 0.861,
+      "n_clean": 160
+    },
+    {
+      "title": "Remember",
+      "author": "Joy Harjo",
+      "era": "postcolonial",
+      "arc": "FLAT",
+      "q1": -0.589,
+      "q2": -0.129,
+      "q3": -0.821,
+      "q4": -0.273,
+      "range": 0.692,
+      "n_clean": 169
+    },
+    {
+      "title": "She Had Some Horses",
+      "author": "Joy Harjo",
+      "era": "postcolonial",
+      "arc": "FLAT",
+      "q1": -0.595,
+      "q2": -0.739,
+      "q3": -0.586,
+      "q4": -0.413,
+      "range": 0.325,
+      "n_clean": 115
+    },
+    {
+      "title": "The Season of Phantasmal Peace",
+      "author": "Derek Walcott",
+      "era": "postcolonial",
+      "arc": "FLAT",
+      "q1": -0.34,
+      "q2": -0.953,
+      "q3": -0.883,
+      "q4": -1.023,
+      "range": 0.682,
+      "n_clean": 166
+    },
+    {
+      "title": "My Last Duchess (complete)",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "arc": "FLAT",
+      "q1": -0.002,
+      "q2": -0.545,
+      "q3": -0.519,
+      "q4": -0.127,
+      "range": 0.543,
+      "n_clean": 672
+    },
+    {
+      "title": "Soliloquy of the Spanish Cloister",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "arc": "FLAT",
+      "q1": -0.277,
+      "q2": -0.376,
+      "q3": -0.803,
+      "q4": -0.708,
+      "range": 0.526,
+      "n_clean": 247
+    },
+    {
+      "title": "Andrea del Sarto",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "arc": "FLAT",
+      "q1": -0.066,
+      "q2": -0.499,
+      "q3": -0.738,
+      "q4": -0.389,
+      "range": 0.671,
+      "n_clean": 451
+    },
+    {
+      "title": "Gerontion",
+      "author": "T.S. Eliot",
+      "era": "dramatic_monologue",
+      "arc": "FLAT",
+      "q1": -0.663,
+      "q2": -0.199,
+      "q3": -0.244,
+      "q4": -0.896,
+      "range": 0.697,
+      "n_clean": 321
+    },
+    {
+      "title": "The Love Song of J. Alfred Prufrock (middle)",
+      "author": "T.S. Eliot",
+      "era": "dramatic_monologue",
+      "arc": "FLAT",
+      "q1": -0.176,
+      "q2": 0.06,
+      "q3": -0.117,
+      "q4": -0.538,
+      "range": 0.598,
+      "n_clean": 266
+    },
+    {
+      "title": "In Memoriam A.H.H. (sections I and VII)",
+      "author": "Alfred Lord Tennyson",
+      "era": "elegy",
+      "arc": "FLAT",
+      "q1": -0.316,
+      "q2": -0.93,
+      "q3": -1.078,
+      "q4": -0.731,
+      "range": 0.761,
+      "n_clean": 146
+    },
+    {
+      "title": "On My First Son",
+      "author": "Ben Jonson",
+      "era": "elegy",
+      "arc": "FLAT",
+      "q1": -0.621,
+      "q2": 0.335,
+      "q3": -0.379,
+      "q4": -0.077,
+      "range": 0.956,
+      "n_clean": 147
+    },
+    {
+      "title": "The Death of the Hired Man (opening)",
+      "author": "Robert Frost",
+      "era": "early_modern",
+      "arc": "FLAT",
+      "q1": -0.374,
+      "q2": -0.141,
+      "q3": -0.309,
+      "q4": -0.776,
+      "range": 0.635,
+      "n_clean": 324
+    },
+    {
+      "title": "Goblin Market (opening stanzas)",
+      "author": "Christina Rossetti",
+      "era": "victorian",
+      "arc": "FLAT",
+      "q1": -0.593,
+      "q2": -0.183,
+      "q3": -0.404,
+      "q4": -0.291,
+      "range": 0.41,
+      "n_clean": 349
+    },
+    {
+      "title": "A Dialogue of Self and Soul (Part I)",
+      "author": "W.B. Yeats",
+      "era": "modernist",
+      "arc": "FLAT",
+      "q1": -0.104,
+      "q2": -0.06,
+      "q3": -0.694,
+      "q4": -0.338,
+      "range": 0.633,
+      "n_clean": 341
+    },
+    {
+      "title": "Alfred Lord Tennyson (Double Dactyl)",
+      "author": "Synthetic (double dactyl test case)",
+      "era": "double_dactyl",
+      "arc": "FLAT",
+      "q1": -1.477,
+      "q2": -1.629,
+      "q3": -1.095,
+      "q4": -1.326,
+      "range": 0.534,
+      "n_clean": 52
+    },
+    {
+      "title": "I'm Nobody! Who are you?",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "arc": "FLAT",
+      "q1": 0.494,
+      "q2": 1.026,
+      "q3": 0.675,
+      "q4": 0.262,
+      "range": 0.764,
+      "n_clean": 69
+    },
+    {
+      "title": "Heritage (opening)",
+      "author": "Countee Cullen",
+      "era": "harlem_renaissance",
+      "arc": "FLAT",
+      "q1": -0.233,
+      "q2": -0.514,
+      "q3": -0.477,
+      "q4": -0.056,
+      "range": 0.458,
+      "n_clean": 140
+    },
+    {
+      "title": "Ode on a Grecian Urn",
+      "author": "John Keats",
+      "era": "ekphrastic",
+      "arc": "FLAT",
+      "q1": -0.862,
+      "q2": -1.041,
+      "q3": -1.047,
+      "q4": -0.752,
+      "range": 0.295,
+      "n_clean": 544
+    },
+    {
+      "title": "The Lady of Shalott (opening)",
+      "author": "Alfred, Lord Tennyson",
+      "era": "ekphrastic",
+      "arc": "FLAT",
+      "q1": -0.918,
+      "q2": -0.637,
+      "q3": -0.869,
+      "q4": -0.409,
+      "range": 0.509,
+      "n_clean": 290
+    },
+    {
+      "title": "Andrea del Sarto (opening)",
+      "author": "Robert Browning",
+      "era": "ekphrastic",
+      "arc": "FLAT",
+      "q1": -0.088,
+      "q2": 0.03,
+      "q3": -0.453,
+      "q4": 0.037,
+      "range": 0.49,
+      "n_clean": 219
+    },
+    {
+      "title": "Before the Mirror (stanzas 1-3)",
+      "author": "Algernon Charles Swinburne",
+      "era": "ekphrastic",
+      "arc": "FLAT",
+      "q1": -0.26,
+      "q2": -0.483,
+      "q3": -0.041,
+      "q4": -0.27,
+      "range": 0.441,
+      "n_clean": 155
+    },
+    {
+      "title": "Spring and Fall: To a Young Child",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "arc": "FLAT",
+      "q1": 0.108,
+      "q2": 0.116,
+      "q3": -0.25,
+      "q4": 0.068,
+      "range": 0.366,
+      "n_clean": 162
+    },
+    {
+      "title": "The Garden of Proserpine (stanzas 1-5)",
+      "author": "Algernon Charles Swinburne",
+      "era": "victorian",
+      "arc": "FLAT",
+      "q1": -0.887,
+      "q2": 0.074,
+      "q3": -0.738,
+      "q4": -0.4,
+      "range": 0.961,
+      "n_clean": 336
+    },
+    {
+      "title": "The Eve of St. Agnes (stanzas 1-5)",
+      "author": "John Keats",
+      "era": "romantic",
+      "arc": "FLAT",
+      "q1": -0.382,
+      "q2": 0.087,
+      "q3": -0.239,
+      "q4": -0.141,
+      "range": 0.47,
+      "n_clean": 531
+    },
+    {
+      "title": "The Battle of Maldon (excerpt, trans. E.V. Gordon)",
+      "author": "Anonymous (trans. E.V. Gordon)",
+      "era": "old_english",
+      "arc": "FLAT",
+      "q1": 0.1,
+      "q2": -0.26,
+      "q3": -0.713,
+      "q4": -0.45,
+      "range": 0.813,
+      "n_clean": 211
+    },
+    {
+      "title": "The House on the Hill",
+      "author": "Edwin Arlington Robinson",
+      "era": "villanelle",
+      "arc": "FLAT",
+      "q1": -0.437,
+      "q2": -0.056,
+      "q3": -0.52,
+      "q4": -0.082,
+      "range": 0.464,
+      "n_clean": 121
+    },
+    {
+      "title": "A Kiss",
+      "author": "Austin Dobson",
+      "era": "triolet",
+      "arc": "FLAT",
+      "q1": -0.928,
+      "q2": -0.575,
+      "q3": -0.858,
+      "q4": -0.18,
+      "range": 0.748,
+      "n_clean": 61
+    },
+    {
+      "title": "The Wanderer's Litany",
+      "author": "Arthur Symons",
+      "era": "triolet",
+      "arc": "FLAT",
+      "q1": -1.01,
+      "q2": -1.015,
+      "q3": -0.468,
+      "q4": -0.914,
+      "range": 0.547,
+      "n_clean": 69
+    },
+    {
+      "title": "The Lamb",
+      "author": "William Blake",
+      "era": "romantic",
+      "arc": "FLAT",
+      "q1": -0.689,
+      "q2": -0.443,
+      "q3": -0.928,
+      "q4": -1.323,
+      "range": 0.88,
+      "n_clean": 171
+    },
+    {
+      "title": "The Darkling Thrush",
+      "author": "Thomas Hardy",
+      "era": "victorian",
+      "arc": "FLAT",
+      "q1": -0.326,
+      "q2": -0.442,
+      "q3": 0.204,
+      "q4": -0.454,
+      "range": 0.658,
+      "n_clean": 237
+    },
+    {
+      "title": "To Autumn",
+      "author": "John Keats",
+      "era": "romantic",
+      "arc": "FLAT",
+      "q1": -0.516,
+      "q2": -0.489,
+      "q3": -0.747,
+      "q4": -0.135,
+      "range": 0.612,
+      "n_clean": 381
+    },
+    {
+      "title": "Psalm 136 (KJV)",
+      "author": "Anonymous (KJV translation)",
+      "era": "biblical",
+      "arc": "FLAT",
+      "q1": -0.372,
+      "q2": -0.069,
+      "q3": -0.411,
+      "q4": -0.087,
+      "range": 0.342,
+      "n_clean": 448
+    },
+    {
+      "title": "Song of Myself (section 15, catalogue)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "arc": "FLAT",
+      "q1": -0.547,
+      "q2": -0.522,
+      "q3": -0.755,
+      "q4": -0.668,
+      "range": 0.233,
+      "n_clean": 634
+    },
+    {
+      "title": "She Had Some Horses (opening)",
+      "author": "Joy Harjo",
+      "era": "contemporary",
+      "arc": "FLAT",
+      "q1": -0.45,
+      "q2": -0.521,
+      "q3": -0.584,
+      "q4": -0.757,
+      "range": 0.307,
+      "n_clean": 290
+    },
+    {
+      "title": "You Were Wearing",
+      "author": "Kenneth Koch",
+      "era": "new_york_school",
+      "arc": "FLAT",
+      "q1": -0.571,
+      "q2": 0.219,
+      "q3": -0.778,
+      "q4": -0.497,
+      "range": 0.998,
+      "n_clean": 170
+    },
+    {
+      "title": "Progress (excerpt)",
+      "author": "Barrett Watten",
+      "era": "language",
+      "arc": "FLAT",
+      "q1": -1.226,
+      "q2": -0.915,
+      "q3": -1.161,
+      "q4": -0.649,
+      "range": 0.577,
+      "n_clean": 116
+    },
+    {
+      "title": "I Hear America Singing",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "arc": "FLAT",
+      "q1": -0.274,
+      "q2": -1.265,
+      "q3": -0.983,
+      "q4": -0.266,
+      "range": 0.999,
+      "n_clean": 207
+    },
+    {
+      "title": "For I will consider my Cat Jeoffry (excerpt)",
+      "author": "Christopher Smart",
+      "era": "18th_century",
+      "arc": "FLAT",
+      "q1": -0.244,
+      "q2": 0.066,
+      "q3": -0.436,
+      "q4": -0.581,
+      "range": 0.647,
+      "n_clean": 239
+    },
+    {
+      "title": "Song of Myself (section 33, excerpt)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "arc": "FLAT",
+      "q1": -0.139,
+      "q2": 0.054,
+      "q3": -0.294,
+      "q4": -0.707,
+      "range": 0.761,
+      "n_clean": 203
+    },
+    {
+      "title": "The Double Helix (found poem from Watson)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "arc": "FLAT",
+      "q1": -0.272,
+      "q2": -0.924,
+      "q3": -0.23,
+      "q4": -1.209,
+      "range": 0.979,
+      "n_clean": 141
+    },
+    {
+      "title": "The Periodic Table (elegy)",
+      "author": "Synthetic (scientific register test case)",
+      "era": "elegy",
+      "arc": "FLAT",
+      "q1": -1.099,
+      "q2": -0.401,
+      "q3": -0.771,
+      "q4": -0.242,
+      "range": 0.857,
+      "n_clean": 128
+    },
+    {
+      "title": "Sympathy",
+      "author": "Paul Laurence Dunbar",
+      "era": "19th_century",
+      "arc": "FLAT",
+      "q1": -0.811,
+      "q2": -0.141,
+      "q3": -0.669,
+      "q4": -0.683,
+      "range": 0.67,
+      "n_clean": 237
+    },
+    {
+      "title": "N+7: Wandered Lonely (OuLiPo variant)",
+      "author": "Synthetic (OuLiPo N+7 test case)",
+      "era": "oulipo",
+      "arc": "FLAT",
+      "q1": -0.246,
+      "q2": -0.168,
+      "q3": 0.226,
+      "q4": -0.612,
+      "range": 0.838,
+      "n_clean": 156
+    },
+    {
+      "title": "The Maximum Clich\u00e9 (control)",
+      "author": "Synthetic (cliche_control test case)",
+      "era": "cliche_control",
+      "arc": "FLAT",
+      "q1": -0.978,
+      "q2": -1.645,
+      "q3": -0.818,
+      "q4": -0.837,
+      "range": 0.827,
+      "n_clean": 156
+    },
+    {
+      "title": "Decreasing Divergence: The Coined Word Ladder",
+      "author": "Synthetic (shadow-divergence test case)",
+      "era": "concrete",
+      "arc": "FLAT",
+      "q1": -0.829,
+      "q2": -0.654,
+      "q3": -0.68,
+      "q4": -0.579,
+      "range": 0.25,
+      "n_clean": 169
+    },
+    {
+      "title": "Villanelle of the Unsaid",
+      "author": "Synthetic (shadow-poem meta-poem)",
+      "era": "villanelle",
+      "arc": "FLAT",
+      "q1": 0.068,
+      "q2": -0.266,
+      "q3": -0.322,
+      "q4": 0.068,
+      "range": 0.39,
+      "n_clean": 195
+    },
+    {
+      "title": "Parachutes, My Love, Could Carry Us Higher",
+      "author": "Barbara Guest",
+      "era": "new_york_school",
+      "arc": "FLAT",
+      "q1": -0.238,
+      "q2": -0.476,
+      "q3": -0.461,
+      "q4": -0.677,
+      "range": 0.439,
+      "n_clean": 152
+    },
+    {
+      "title": "The Language",
+      "author": "Robert Creeley",
+      "era": "beat",
+      "arc": "FLAT",
+      "q1": -0.377,
+      "q2": -0.533,
+      "q3": -0.649,
+      "q4": 0.113,
+      "range": 0.763,
+      "n_clean": 73
+    },
+    {
+      "title": "Traveling Through the Dark",
+      "author": "William Stafford",
+      "era": "mid_century",
+      "arc": "FLAT",
+      "q1": 0.273,
+      "q2": -0.301,
+      "q3": -0.057,
+      "q4": -0.115,
+      "range": 0.573,
+      "n_clean": 200
+    },
+    {
+      "title": "Tar",
+      "author": "C.K. Williams",
+      "era": "contemporary",
+      "arc": "FLAT",
+      "q1": -0.865,
+      "q2": -0.895,
+      "q3": -0.398,
+      "q4": -1.387,
+      "range": 0.989,
+      "n_clean": 317
+    },
+    {
+      "title": "Psalm",
+      "author": "George Oppen",
+      "era": "modernist",
+      "arc": "FLAT",
+      "q1": -1.64,
+      "q2": -1.372,
+      "q3": -1.21,
+      "q4": -0.977,
+      "range": 0.663,
+      "n_clean": 137
+    },
+    {
+      "title": "The World",
+      "author": "Henry Vaughan",
+      "era": "metaphysical",
+      "arc": "FLAT",
+      "q1": -0.169,
+      "q2": -0.47,
+      "q3": -0.261,
+      "q4": -0.446,
+      "range": 0.301,
+      "n_clean": 143
+    },
+    {
+      "title": "The Hound of Heaven (opening)",
+      "author": "Francis Thompson",
+      "era": "victorian",
+      "arc": "FLAT",
+      "q1": 0.238,
+      "q2": 0.725,
+      "q3": 1.148,
+      "q4": 0.319,
+      "range": 0.91,
+      "n_clean": 149
+    },
+    {
+      "title": "My Sweetest Lesbia",
+      "author": "Thomas Campion",
+      "era": "early_modern",
+      "arc": "FLAT",
+      "q1": 0.322,
+      "q2": 0.384,
+      "q3": -0.143,
+      "q4": 0.496,
+      "range": 0.64,
+      "n_clean": 126
+    },
+    {
+      "title": "Care-charmer Sleep (Delia, Sonnet 54)",
+      "author": "Samuel Daniel",
+      "era": "early_modern",
+      "arc": "FLAT",
+      "q1": -0.67,
+      "q2": -0.92,
+      "q3": -1.065,
+      "q4": -0.386,
+      "range": 0.679,
+      "n_clean": 155
+    },
+    {
+      "title": "I Wandered Lonely as a Cloud",
+      "author": "William Wordsworth",
+      "era": "romantic",
+      "arc": "U_SHAPE",
+      "q1": 2.594,
+      "q2": -2.843,
+      "q3": -0.541,
+      "q4": -2.0,
+      "range": 5.437,
+      "n_clean": 56
+    },
+    {
+      "title": "Because I could not stop for Death",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "arc": "U_SHAPE",
+      "q1": 0.418,
+      "q2": 0.054,
+      "q3": -0.411,
+      "q4": 0.851,
+      "range": 1.262,
+      "n_clean": 58
+    },
+    {
+      "title": "Song of Myself (section 1)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "arc": "U_SHAPE",
+      "q1": 0.824,
+      "q2": 0.812,
+      "q3": -0.324,
+      "q4": 1.714,
+      "range": 2.038,
+      "n_clean": 53
+    },
+    {
+      "title": "Ozymandias",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "arc": "U_SHAPE",
+      "q1": 0.235,
+      "q2": 0.666,
+      "q3": -1.708,
+      "q4": -0.177,
+      "range": 2.374,
+      "n_clean": 158
+    },
+    {
+      "title": "The Waste Land (opening)",
+      "author": "T.S. Eliot",
+      "era": "modernist",
+      "arc": "U_SHAPE",
+      "q1": 0.45,
+      "q2": -1.101,
+      "q3": -0.186,
+      "q4": -0.215,
+      "range": 1.551,
+      "n_clean": 57
+    },
+    {
+      "title": "Anecdote of the Jar",
+      "author": "Wallace Stevens",
+      "era": "modernist",
+      "arc": "U_SHAPE",
+      "q1": 0.352,
+      "q2": -0.488,
+      "q3": -0.536,
+      "q4": 0.902,
+      "range": 1.438,
+      "n_clean": 63
+    },
+    {
+      "title": "Howl (opening)",
+      "author": "Allen Ginsberg",
+      "era": "beat",
+      "arc": "U_SHAPE",
+      "q1": 1.128,
+      "q2": -0.102,
+      "q3": 1.984,
+      "q4": 0.812,
+      "range": 2.086,
+      "n_clean": 53
+    },
+    {
+      "title": "One Art",
+      "author": "Elizabeth Bishop",
+      "era": "mid_century",
+      "arc": "U_SHAPE",
+      "q1": 0.062,
+      "q2": -1.4,
+      "q3": 1.914,
+      "q4": 0.123,
+      "range": 3.314,
+      "n_clean": 60
+    },
+    {
+      "title": "Paradoxes and Oxymorons",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "U_SHAPE",
+      "q1": 0.506,
+      "q2": -0.802,
+      "q3": -0.112,
+      "q4": -0.653,
+      "range": 1.308,
+      "n_clean": 155
+    },
+    {
+      "title": "Self-Portrait in a Convex Mirror (closing)",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "U_SHAPE",
+      "q1": 0.219,
+      "q2": -0.433,
+      "q3": -1.208,
+      "q4": 0.328,
+      "range": 1.535,
+      "n_clean": 90
+    },
+    {
+      "title": "The One Thing That Can Save America",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "U_SHAPE",
+      "q1": -0.373,
+      "q2": -1.872,
+      "q3": -0.763,
+      "q4": -1.203,
+      "range": 1.499,
+      "n_clean": 81
+    },
+    {
+      "title": "Rivers and Mountains",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "arc": "U_SHAPE",
+      "q1": -0.049,
+      "q2": -2.125,
+      "q3": -0.945,
+      "q4": -0.705,
+      "range": 2.076,
+      "n_clean": 63
+    },
+    {
+      "title": "Ketjak (excerpt)",
+      "author": "Ron Silliman",
+      "era": "language",
+      "arc": "U_SHAPE",
+      "q1": -0.861,
+      "q2": -1.634,
+      "q3": 1.328,
+      "q4": -0.565,
+      "range": 2.962,
+      "n_clean": 50
+    },
+    {
+      "title": "Night Sky with Exit Wounds (excerpt)",
+      "author": "Ocean Vuong",
+      "era": "contemporary",
+      "arc": "U_SHAPE",
+      "q1": -0.786,
+      "q2": -1.233,
+      "q3": -1.732,
+      "q4": 0.733,
+      "range": 2.465,
+      "n_clean": 40
+    },
+    {
+      "title": "Free Union (excerpt)",
+      "author": "Andr\u00e9 Breton",
+      "era": "surrealist",
+      "arc": "U_SHAPE",
+      "q1": 0.676,
+      "q2": -2.07,
+      "q3": -0.646,
+      "q4": -0.679,
+      "range": 2.746,
+      "n_clean": 57
+    },
+    {
+      "title": "Somnambule Ballad",
+      "author": "Federico Garc\u00eda Lorca",
+      "era": "surrealist",
+      "arc": "U_SHAPE",
+      "q1": -0.166,
+      "q2": -1.371,
+      "q3": -0.412,
+      "q4": -0.712,
+      "range": 1.205,
+      "n_clean": 180
+    },
+    {
+      "title": "Black Stone Lying on a White Stone",
+      "author": "C\u00e9sar Vallejo",
+      "era": "surrealist",
+      "arc": "U_SHAPE",
+      "q1": -0.313,
+      "q2": 0.619,
+      "q3": -0.324,
+      "q4": 0.936,
+      "range": 1.26,
+      "n_clean": 153
+    },
+    {
+      "title": "The Curve of Your Eyes",
+      "author": "Paul \u00c9luard",
+      "era": "surrealist",
+      "arc": "U_SHAPE",
+      "q1": 0.068,
+      "q2": -1.231,
+      "q3": -0.862,
+      "q4": -1.204,
+      "range": 1.299,
+      "n_clean": 132
+    },
+    {
+      "title": "Komm in den totgesagten park und schau",
+      "author": "Stefan George",
+      "era": "german_symbolist",
+      "arc": "U_SHAPE",
+      "q1": 1.396,
+      "q2": -0.553,
+      "q3": 1.113,
+      "q4": 0.415,
+      "range": 1.949,
+      "n_clean": 136
+    },
+    {
+      "title": "Verkl\u00e4rter Herbst",
+      "author": "Georg Trakl",
+      "era": "german_expressionist",
+      "arc": "U_SHAPE",
+      "q1": 1.797,
+      "q2": 0.374,
+      "q3": 0.652,
+      "q4": 0.534,
+      "range": 1.423,
+      "n_clean": 99
+    },
+    {
+      "title": "Archaischer Torso Apollos",
+      "author": "Rainer Maria Rilke",
+      "era": "german_modernist",
+      "arc": "U_SHAPE",
+      "q1": 0.688,
+      "q2": -0.333,
+      "q3": 1.052,
+      "q4": -0.218,
+      "range": 1.385,
+      "n_clean": 153
+    },
+    {
+      "title": "My Last Duchess (opening)",
+      "author": "Robert Browning",
+      "era": "victorian",
+      "arc": "U_SHAPE",
+      "q1": 0.041,
+      "q2": 1.384,
+      "q3": -0.168,
+      "q4": 0.059,
+      "range": 1.552,
+      "n_clean": 91
+    },
+    {
+      "title": "Oread",
+      "author": "H.D. (Hilda Doolittle)",
+      "era": "modernist",
+      "arc": "U_SHAPE",
+      "q1": 1.69,
+      "q2": -1.185,
+      "q3": -0.411,
+      "q4": -0.636,
+      "range": 2.874,
+      "n_clean": 40
+    },
+    {
+      "title": "The Congo (opening, sanitized excerpt)",
+      "author": "Vachel Lindsay",
+      "era": "modernist",
+      "arc": "U_SHAPE",
+      "q1": -1.083,
+      "q2": -2.084,
+      "q3": -0.971,
+      "q4": -1.113,
+      "range": 1.114,
+      "n_clean": 91
+    },
+    {
+      "title": "A Route of Evanescence",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "arc": "U_SHAPE",
+      "q1": 0.912,
+      "q2": -0.907,
+      "q3": 0.219,
+      "q4": -0.495,
+      "range": 1.819,
+      "n_clean": 56
+    },
+    {
+      "title": "A Noiseless Patient Spider",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "arc": "U_SHAPE",
+      "q1": 1.351,
+      "q2": -0.441,
+      "q3": -0.327,
+      "q4": -0.439,
+      "range": 1.792,
+      "n_clean": 134
+    },
+    {
+      "title": "The Listeners",
+      "author": "Walter de la Mare",
+      "era": "19th_century",
+      "arc": "U_SHAPE",
+      "q1": 0.621,
+      "q2": -1.521,
+      "q3": -0.429,
+      "q4": 0.047,
+      "range": 2.142,
+      "n_clean": 120
+    },
+    {
+      "title": "A Red, Red Rose",
+      "author": "Robert Burns",
+      "era": "romantic",
+      "arc": "U_SHAPE",
+      "q1": -0.794,
+      "q2": -0.337,
+      "q3": -1.781,
+      "q4": -0.195,
+      "range": 1.586,
+      "n_clean": 148
+    },
+    {
+      "title": "The Hollow Men (opening)",
+      "author": "T.S. Eliot",
+      "era": "modernist",
+      "arc": "U_SHAPE",
+      "q1": 0.782,
+      "q2": -0.853,
+      "q3": 0.437,
+      "q4": -0.8,
+      "range": 1.635,
+      "n_clean": 117
+    },
+    {
+      "title": "Edward, Edward",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "arc": "U_SHAPE",
+      "q1": 0.054,
+      "q2": -1.512,
+      "q3": -0.588,
+      "q4": -0.84,
+      "range": 1.565,
+      "n_clean": 185
+    },
+    {
+      "title": "Citizen (excerpt, section I)",
+      "author": "Claudia Rankine",
+      "era": "prose_poetry",
+      "arc": "U_SHAPE",
+      "q1": -0.248,
+      "q2": 0.973,
+      "q3": -0.667,
+      "q4": 0.102,
+      "range": 1.64,
+      "n_clean": 81
+    },
+    {
+      "title": "Homage to My Hips",
+      "author": "Lucille Clifton",
+      "era": "spoken_word",
+      "arc": "U_SHAPE",
+      "q1": -0.712,
+      "q2": -0.853,
+      "q3": -1.524,
+      "q4": -0.237,
+      "range": 1.286,
+      "n_clean": 103
+    },
+    {
+      "title": "To a Skylark (opening stanzas)",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "arc": "U_SHAPE",
+      "q1": -0.56,
+      "q2": -0.885,
+      "q3": 0.37,
+      "q4": -0.282,
+      "range": 1.255,
+      "n_clean": 116
+    },
+    {
+      "title": "O Captain! My Captain! (stanza 1)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "arc": "U_SHAPE",
+      "q1": 1.164,
+      "q2": -2.094,
+      "q3": 0.28,
+      "q4": -1.976,
+      "range": 3.258,
+      "n_clean": 90
+    },
+    {
+      "title": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)",
+      "author": "Thomas Jefferson (found text)",
+      "era": "found_poetry",
+      "arc": "U_SHAPE",
+      "q1": -0.654,
+      "q2": 0.543,
+      "q3": -1.302,
+      "q4": 0.368,
+      "range": 1.845,
+      "n_clean": 148
+    },
+    {
+      "title": "Skunk Hour (opening)",
+      "author": "Robert Lowell",
+      "era": "confessional",
+      "arc": "U_SHAPE",
+      "q1": 0.73,
+      "q2": -0.791,
+      "q3": -0.04,
+      "q4": -0.419,
+      "range": 1.522,
+      "n_clean": 89
+    },
+    {
+      "title": "Amoretti LXXV: One Day I Wrote Her Name",
+      "author": "Edmund Spenser",
+      "era": "early_modern",
+      "arc": "U_SHAPE",
+      "q1": 0.866,
+      "q2": -1.367,
+      "q3": -0.269,
+      "q4": -0.254,
+      "range": 2.233,
+      "n_clean": 83
+    },
+    {
+      "title": "Villanelle of the Poet's Road",
+      "author": "Ernest Dowson",
+      "era": "fixed_form",
+      "arc": "U_SHAPE",
+      "q1": -0.377,
+      "q2": -1.606,
+      "q3": -1.317,
+      "q4": -1.524,
+      "range": 1.228,
+      "n_clean": 81
+    },
+    {
+      "title": "Villanelle (A dainty thing's the Villanelle)",
+      "author": "William Ernest Henley",
+      "era": "fixed_form",
+      "arc": "U_SHAPE",
+      "q1": 0.473,
+      "q2": -1.32,
+      "q3": -0.526,
+      "q4": 0.028,
+      "range": 1.793,
+      "n_clean": 111
+    },
+    {
+      "title": "In After Days (rondeau)",
+      "author": "Austin Dobson",
+      "era": "fixed_form",
+      "arc": "U_SHAPE",
+      "q1": 0.0,
+      "q2": 0.017,
+      "q3": -2.383,
+      "q4": -0.463,
+      "range": 2.4,
+      "n_clean": 74
+    },
+    {
+      "title": "Annabel Lee (opening stanzas)",
+      "author": "Edgar Allan Poe",
+      "era": "fixed_form",
+      "arc": "U_SHAPE",
+      "q1": -1.133,
+      "q2": -1.431,
+      "q3": -1.974,
+      "q4": -0.531,
+      "range": 1.442,
+      "n_clean": 112
+    },
+    {
+      "title": "Autumn Comes (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "arc": "U_SHAPE",
+      "q1": -1.298,
+      "q2": 0.368,
+      "q3": -1.474,
+      "q4": -0.605,
+      "range": 1.842,
+      "n_clean": 128
+    },
+    {
+      "title": "Casabianca",
+      "author": "Felicia Hemans",
+      "era": "victorian",
+      "arc": "U_SHAPE",
+      "q1": 0.083,
+      "q2": -1.017,
+      "q3": -0.604,
+      "q4": -0.027,
+      "range": 1.1,
+      "n_clean": 189
+    },
+    {
+      "title": "Psalm 19:1-6 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "arc": "U_SHAPE",
+      "q1": 0.118,
+      "q2": -1.719,
+      "q3": -0.57,
+      "q4": -0.179,
+      "range": 1.837,
+      "n_clean": 143
+    },
+    {
+      "title": "For Spacious Skies",
+      "author": "Emmett Williams",
+      "era": "concrete",
+      "arc": "U_SHAPE",
+      "q1": 0.984,
+      "q2": 1.489,
+      "q3": -1.204,
+      "q4": -0.996,
+      "range": 2.693,
+      "n_clean": 55
+    },
+    {
+      "title": "From Ten Thousand Lives: Three Portraits",
+      "author": "Ko Un (trans. Brother Anthony of Taiz\u00e9)",
+      "era": "korean_modernist",
+      "arc": "U_SHAPE",
+      "q1": -0.378,
+      "q2": 0.688,
+      "q3": -1.864,
+      "q4": -1.176,
+      "range": 2.552,
+      "n_clean": 102
+    },
+    {
+      "title": "The Taxi",
+      "author": "Amy Lowell",
+      "era": "imagist",
+      "arc": "U_SHAPE",
+      "q1": -0.484,
+      "q2": 0.062,
+      "q3": -1.584,
+      "q4": -1.487,
+      "range": 1.645,
+      "n_clean": 99
+    },
+    {
+      "title": "Patterns",
+      "author": "Amy Lowell",
+      "era": "imagist",
+      "arc": "U_SHAPE",
+      "q1": -0.63,
+      "q2": -0.283,
+      "q3": -1.08,
+      "q4": 0.384,
+      "range": 1.464,
+      "n_clean": 136
+    },
+    {
+      "title": "O Captain! My Captain!",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "arc": "U_SHAPE",
+      "q1": -0.015,
+      "q2": -1.468,
+      "q3": -0.69,
+      "q4": -1.079,
+      "range": 1.453,
+      "n_clean": 188
+    },
+    {
+      "title": "Bomb",
+      "author": "Gregory Corso",
+      "era": "beat",
+      "arc": "U_SHAPE",
+      "q1": 0.08,
+      "q2": -1.363,
+      "q3": 0.779,
+      "q4": -0.719,
+      "range": 2.142,
+      "n_clean": 110
+    },
+    {
+      "title": "Umbra Vitae (trans. Hamburger)",
+      "author": "Georg Heym",
+      "era": "german_expressionist",
+      "arc": "U_SHAPE",
+      "q1": -0.389,
+      "q2": 0.254,
+      "q3": -1.042,
+      "q4": 0.57,
+      "range": 1.612,
+      "n_clean": 128
+    },
+    {
+      "title": "Lifting Belly (excerpt)",
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "arc": "U_SHAPE",
+      "q1": -0.073,
+      "q2": -1.753,
+      "q3": -0.488,
+      "q4": -1.288,
+      "range": 1.68,
+      "n_clean": 152
+    },
+    {
+      "title": "'Tis the Voice of the Sluggard",
+      "author": "Isaac Watts",
+      "era": "parody_original",
+      "arc": "U_SHAPE",
+      "q1": -1.128,
+      "q2": -0.856,
+      "q3": -1.902,
+      "q4": -0.539,
+      "range": 1.363,
+      "n_clean": 107
+    },
+    {
+      "title": "The Rape of the Lock (Canto I, opening)",
+      "author": "Alexander Pope",
+      "era": "parody",
+      "arc": "U_SHAPE",
+      "q1": 1.451,
+      "q2": -0.68,
+      "q3": -0.315,
+      "q4": 0.617,
+      "range": 2.132,
+      "n_clean": 175
+    },
+    {
+      "title": "The Colonel",
+      "author": "Carolyn Forche",
+      "era": "prose_poetry",
+      "arc": "U_SHAPE",
+      "q1": -0.684,
+      "q2": 0.358,
+      "q3": -0.869,
+      "q4": -0.02,
+      "range": 1.227,
+      "n_clean": 218
+    },
+    {
+      "title": "Eunoia: Chapter E (excerpt)",
+      "author": "Christian B\u00f6k",
+      "era": "oulipo",
+      "arc": "U_SHAPE",
+      "q1": 1.569,
+      "q2": 2.183,
+      "q3": 0.85,
+      "q4": 2.456,
+      "range": 1.605,
+      "n_clean": 93
+    },
+    {
+      "title": "S+7: Genesis (N+7 variant)",
+      "author": "Jean Lescure",
+      "era": "oulipo",
+      "arc": "U_SHAPE",
+      "q1": -0.256,
+      "q2": 0.214,
+      "q3": -1.223,
+      "q4": 0.165,
+      "range": 1.437,
+      "n_clean": 133
+    },
+    {
+      "title": "Caedmon's Hymn (modern prose translation)",
+      "author": "Caedmon (trans. anon.)",
+      "era": "old_english",
+      "arc": "U_SHAPE",
+      "q1": -0.191,
+      "q2": 0.663,
+      "q3": -1.479,
+      "q4": 0.904,
+      "range": 2.384,
+      "n_clean": 76
+    },
+    {
+      "title": "The Wanderer (excerpt, modern translation)",
+      "author": "Anonymous (Old English, trans. anon.)",
+      "era": "old_english",
+      "arc": "U_SHAPE",
+      "q1": -0.558,
+      "q2": -1.281,
+      "q3": 0.818,
+      "q4": -0.397,
+      "range": 2.099,
+      "n_clean": 79
+    },
+    {
+      "title": "Still I Rise",
+      "author": "Maya Angelou",
+      "era": "protest_political",
+      "arc": "U_SHAPE",
+      "q1": -0.607,
+      "q2": -1.158,
+      "q3": 0.037,
+      "q4": -0.771,
+      "range": 1.194,
+      "n_clean": 95
+    },
+    {
+      "title": "Bluebird",
+      "author": "Charles Bukowski",
+      "era": "spoken_word",
+      "arc": "U_SHAPE",
+      "q1": -1.108,
+      "q2": -1.516,
+      "q3": 1.959,
+      "q4": -0.924,
+      "range": 3.475,
+      "n_clean": 93
+    },
+    {
+      "title": "There Was an Old Person of Ware",
+      "author": "Edward Lear",
+      "era": "limerick",
+      "arc": "U_SHAPE",
+      "q1": -0.289,
+      "q2": -0.379,
+      "q3": -1.719,
+      "q4": 3.138,
+      "range": 4.857,
+      "n_clean": 48
+    },
+    {
+      "title": "The Soldier",
+      "author": "Rupert Brooke",
+      "era": "war_poetry",
+      "arc": "U_SHAPE",
+      "q1": 0.513,
+      "q2": -0.585,
+      "q3": -0.384,
+      "q4": 0.271,
+      "range": 1.098,
+      "n_clean": 156
+    },
+    {
+      "title": "Epistle to Dr. Arbuthnot (opening)",
+      "author": "Alexander Pope",
+      "era": "18th_century",
+      "arc": "U_SHAPE",
+      "q1": -0.185,
+      "q2": -0.8,
+      "q3": -1.491,
+      "q4": 0.397,
+      "range": 1.888,
+      "n_clean": 186
+    },
+    {
+      "title": "Tithonus",
+      "author": "Alfred Lord Tennyson",
+      "era": "dramatic_monologue",
+      "arc": "U_SHAPE",
+      "q1": 0.592,
+      "q2": -1.266,
+      "q3": -0.647,
+      "q4": -0.122,
+      "range": 1.858,
+      "n_clean": 235
+    },
+    {
+      "title": "Adonais (stanzas I and II)",
+      "author": "Percy Bysshe Shelley",
+      "era": "elegy",
+      "arc": "U_SHAPE",
+      "q1": -0.128,
+      "q2": -1.001,
+      "q3": 0.076,
+      "q4": -0.912,
+      "range": 1.077,
+      "n_clean": 205
+    },
+    {
+      "title": "O Captain! My Captain!",
+      "author": "Walt Whitman",
+      "era": "elegy",
+      "arc": "U_SHAPE",
+      "q1": -0.015,
+      "q2": -1.468,
+      "q3": -0.69,
+      "q4": -0.926,
+      "range": 1.453,
+      "n_clean": 188
+    },
+    {
+      "title": "To an Athlete Dying Young",
+      "author": "A.E. Housman",
+      "era": "elegy",
+      "arc": "U_SHAPE",
+      "q1": 1.072,
+      "q2": -0.795,
+      "q3": -0.149,
+      "q4": 0.102,
+      "range": 1.867,
+      "n_clean": 102
+    },
+    {
+      "title": "On Seeing the Elgin Marbles",
+      "author": "John Keats",
+      "era": "ekphrastic",
+      "arc": "U_SHAPE",
+      "q1": 0.423,
+      "q2": -1.42,
+      "q3": 0.133,
+      "q4": -0.817,
+      "range": 1.843,
+      "n_clean": 145
+    },
+    {
+      "title": "Fra Lippo Lippi (opening)",
+      "author": "Robert Browning",
+      "era": "ekphrastic",
+      "arc": "U_SHAPE",
+      "q1": -0.043,
+      "q2": 0.353,
+      "q3": -1.08,
+      "q4": -0.297,
+      "range": 1.433,
+      "n_clean": 235
+    },
+    {
+      "title": "In Flanders Fields",
+      "author": "John McCrae",
+      "era": "rondeau",
+      "arc": "U_SHAPE",
+      "q1": -0.809,
+      "q2": 0.915,
+      "q3": -0.98,
+      "q4": -0.705,
+      "range": 1.895,
+      "n_clean": 130
+    },
+    {
+      "title": "Ghazal of the Better-Unbegun",
+      "author": "Heather McHugh",
+      "era": "ghazal",
+      "arc": "U_SHAPE",
+      "q1": -0.481,
+      "q2": -0.072,
+      "q3": -1.41,
+      "q4": -0.132,
+      "range": 1.338,
+      "n_clean": 110
+    },
+    {
+      "title": "The Garden of Love",
+      "author": "William Blake",
+      "era": "romantic",
+      "arc": "U_SHAPE",
+      "q1": -0.498,
+      "q2": -0.821,
+      "q3": -1.558,
+      "q4": -0.136,
+      "range": 1.421,
+      "n_clean": 108
+    },
+    {
+      "title": "The Chimney Sweeper (Experience)",
+      "author": "William Blake",
+      "era": "romantic",
+      "arc": "U_SHAPE",
+      "q1": -0.638,
+      "q2": -0.075,
+      "q3": -1.314,
+      "q4": -0.573,
+      "range": 1.238,
+      "n_clean": 121
+    },
+    {
+      "title": "Pi (Szymborska)",
+      "author": "Wis\u0142awa Szymborska",
+      "era": "contemporary",
+      "arc": "U_SHAPE",
+      "q1": -0.031,
+      "q2": -1.31,
+      "q3": -0.739,
+      "q4": -0.971,
+      "range": 1.279,
+      "n_clean": 326
+    },
+    {
+      "title": "Poems",
+      "author": "Barbara Guest",
+      "era": "new_york_school",
+      "arc": "U_SHAPE",
+      "q1": -0.174,
+      "q2": -0.805,
+      "q3": -2.043,
+      "q4": 0.305,
+      "range": 2.348,
+      "n_clean": 99
+    },
+    {
+      "title": "Personal Poem",
+      "author": "Ted Berrigan",
+      "era": "new_york_school",
+      "arc": "U_SHAPE",
+      "q1": -0.135,
+      "q2": -1.375,
+      "q3": -0.843,
+      "q4": -1.329,
+      "range": 1.239,
+      "n_clean": 251
+    },
+    {
+      "title": "A Few Days",
+      "author": "James Schuyler",
+      "era": "new_york_school",
+      "arc": "U_SHAPE",
+      "q1": -0.373,
+      "q2": 0.55,
+      "q3": -1.906,
+      "q4": -1.902,
+      "range": 2.456,
+      "n_clean": 143
+    },
+    {
+      "title": "Makeup on Empty Space",
+      "author": "Anne Waldman",
+      "era": "new_york_school",
+      "arc": "U_SHAPE",
+      "q1": -0.377,
+      "q2": -1.578,
+      "q3": -0.131,
+      "q4": -0.29,
+      "range": 1.447,
+      "n_clean": 144
+    },
+    {
+      "title": "I Know a Man",
+      "author": "Robert Creeley",
+      "era": "beat",
+      "arc": "U_SHAPE",
+      "q1": 0.73,
+      "q2": -0.37,
+      "q3": -0.186,
+      "q4": 0.637,
+      "range": 1.1,
+      "n_clean": 74
+    },
+    {
+      "title": "At the Bomb Testing Site",
+      "author": "William Stafford",
+      "era": "mid_century",
+      "arc": "U_SHAPE",
+      "q1": 1.162,
+      "q2": -0.874,
+      "q3": 1.904,
+      "q4": -0.624,
+      "range": 2.778,
+      "n_clean": 98
+    },
+    {
+      "title": "Wonder",
+      "author": "Thomas Traherne",
+      "era": "metaphysical",
+      "arc": "U_SHAPE",
+      "q1": 1.061,
+      "q2": -1.583,
+      "q3": -0.845,
+      "q4": -0.275,
+      "range": 2.644,
+      "n_clean": 127
+    },
+    {
+      "title": "A Hymn of the Nativity (opening)",
+      "author": "Richard Crashaw",
+      "era": "metaphysical",
+      "arc": "U_SHAPE",
+      "q1": -0.191,
+      "q2": -1.248,
+      "q3": -0.992,
+      "q4": -0.858,
+      "range": 1.057,
+      "n_clean": 135
+    },
+    {
+      "title": "To My Dear and Loving Husband",
+      "author": "Anne Bradstreet",
+      "era": "early_modern",
+      "arc": "U_SHAPE",
+      "q1": 0.506,
+      "q2": -0.994,
+      "q3": 0.165,
+      "q4": -0.39,
+      "range": 1.5,
+      "n_clean": 134
+    }
+  ],
+  "era_arc_counts": {
+    "romantic": {
+      "U_SHAPE": 6,
+      "DECLINE": 4,
+      "ARCH": 2,
+      "ASCENT": 3,
+      "FLAT": 6
+    },
+    "19th_century": {
+      "U_SHAPE": 7,
+      "DECLINE": 4,
+      "FLAT": 6,
+      "ARCH": 1
+    },
+    "modernist": {
+      "ARCH": 3,
+      "U_SHAPE": 6,
+      "DECLINE": 5,
+      "FLAT": 6,
+      "ASCENT": 2
+    },
+    "beat": {
+      "U_SHAPE": 3,
+      "ARCH": 1,
+      "FLAT": 3,
+      "ASCENT": 1
+    },
+    "confessional": {
+      "ASCENT": 2,
+      "ARCH": 2,
+      "DECLINE": 1,
+      "U_SHAPE": 1
+    },
+    "mid_century": {
+      "U_SHAPE": 2,
+      "ARCH": 1,
+      "FLAT": 1
+    },
+    "new_york_school": {
+      "DECLINE": 11,
+      "ARCH": 5,
+      "U_SHAPE": 8,
+      "FLAT": 2
+    },
+    "language": {
+      "ARCH": 1,
+      "U_SHAPE": 1,
+      "DECLINE": 2,
+      "ASCENT": 1,
+      "FLAT": 1
+    },
+    "contemporary": {
+      "ARCH": 3,
+      "DECLINE": 5,
+      "U_SHAPE": 2,
+      "ASCENT": 7,
+      "FLAT": 2
+    },
+    "harlem_renaissance": {
+      "DECLINE": 4,
+      "FLAT": 2,
+      "ARCH": 1
+    },
+    "oulipo": {
+      "FLAT": 2,
+      "ARCH": 1,
+      "ASCENT": 2,
+      "DECLINE": 1,
+      "U_SHAPE": 2
+    },
+    "surrealist": {
+      "U_SHAPE": 4,
+      "DECLINE": 2,
+      "FLAT": 2
+    },
+    "deep_image": {
+      "DECLINE": 1
+    },
+    "german_symbolist": {
+      "U_SHAPE": 1,
+      "FLAT": 1,
+      "DECLINE": 1
+    },
+    "german_expressionist": {
+      "DECLINE": 4,
+      "U_SHAPE": 2
+    },
+    "german_modernist": {
+      "DECLINE": 1,
+      "U_SHAPE": 1
+    },
+    "victorian": {
+      "DECLINE": 6,
+      "FLAT": 12,
+      "ARCH": 7,
+      "U_SHAPE": 2,
+      "ASCENT": 3
+    },
+    "haiku": {
+      "DECLINE": 1,
+      "ASCENT": 1
+    },
+    "ancient": {
+      "ARCH": 2,
+      "FLAT": 1
+    },
+    "prose_poetry": {
+      "ARCH": 2,
+      "ASCENT": 2,
+      "DECLINE": 3,
+      "FLAT": 3,
+      "U_SHAPE": 2
+    },
+    "ballad": {
+      "ASCENT": 1,
+      "FLAT": 2,
+      "DECLINE": 2,
+      "U_SHAPE": 1
+    },
+    "song_lyrics": {
+      "FLAT": 2,
+      "ASCENT": 1
+    },
+    "nursery_rhyme": {
+      "FLAT": 1
+    },
+    "metaphysical": {
+      "FLAT": 3,
+      "DECLINE": 2,
+      "U_SHAPE": 2
+    },
+    "early_modern": {
+      "FLAT": 6,
+      "U_SHAPE": 2,
+      "DECLINE": 1,
+      "ARCH": 1
+    },
+    "spoken_word": {
+      "FLAT": 1,
+      "U_SHAPE": 2
+    },
+    "found_poetry": {
+      "FLAT": 5,
+      "U_SHAPE": 1,
+      "ARCH": 2,
+      "DECLINE": 1
+    },
+    "fixed_form": {
+      "DECLINE": 1,
+      "FLAT": 1,
+      "U_SHAPE": 4,
+      "ARCH": 2
+    },
+    "cliche_control": {
+      "FLAT": 2,
+      "ARCH": 1,
+      "U_SHAPE": 1
+    },
+    "18th_century": {
+      "FLAT": 7,
+      "U_SHAPE": 1
+    },
+    "biblical": {
+      "FLAT": 5,
+      "U_SHAPE": 1,
+      "ARCH": 1,
+      "DECLINE": 1
+    },
+    "concrete": {
+      "FLAT": 2,
+      "U_SHAPE": 1
+    },
+    "latin_american": {
+      "ASCENT": 1,
+      "DECLINE": 1,
+      "FLAT": 1,
+      "ARCH": 1
+    },
+    "black_arts": {
+      "FLAT": 1,
+      "ARCH": 1
+    },
+    "korean_modernist": {
+      "U_SHAPE": 1
+    },
+    "imagist": {
+      "U_SHAPE": 2
+    },
+    "parody_original": {
+      "ARCH": 1,
+      "ASCENT": 1,
+      "U_SHAPE": 1
+    },
+    "parody": {
+      "ASCENT": 1,
+      "FLAT": 1,
+      "DECLINE": 1,
+      "U_SHAPE": 1
+    },
+    "classical_chinese": {
+      "ASCENT": 1,
+      "ARCH": 1
+    },
+    "persian": {
+      "ASCENT": 1,
+      "DECLINE": 1
+    },
+    "limerick": {
+      "ARCH": 1,
+      "DECLINE": 3,
+      "U_SHAPE": 1
+    },
+    "old_english": {
+      "U_SHAPE": 2,
+      "ARCH": 1,
+      "FLAT": 2
+    },
+    "protest_political": {
+      "FLAT": 1,
+      "U_SHAPE": 1
+    },
+    "ghazal": {
+      "ARCH": 1,
+      "U_SHAPE": 1
+    },
+    "war_poetry": {
+      "DECLINE": 1,
+      "FLAT": 1,
+      "U_SHAPE": 1
+    },
+    "postcolonial": {
+      "FLAT": 3,
+      "DECLINE": 2,
+      "ARCH": 1
+    },
+    "dramatic_monologue": {
+      "FLAT": 5,
+      "DECLINE": 1,
+      "U_SHAPE": 1
+    },
+    "elegy": {
+      "DECLINE": 2,
+      "FLAT": 3,
+      "U_SHAPE": 3
+    },
+    "double_dactyl": {
+      "ARCH": 2,
+      "ASCENT": 2,
+      "FLAT": 1
+    },
+    "ekphrastic": {
+      "FLAT": 4,
+      "U_SHAPE": 2,
+      "DECLINE": 2
+    },
+    "villanelle": {
+      "FLAT": 2,
+      "DECLINE": 1
+    },
+    "pantoum": {
+      "ARCH": 1
+    },
+    "triolet": {
+      "FLAT": 2
+    },
+    "rondeau": {
+      "U_SHAPE": 1
+    },
+    "nonsense": {
+      "ASCENT": 1,
+      "DECLINE": 1
+    }
+  },
+  "author_arc_counts": {
+    "William Wordsworth": {
+      "U_SHAPE": 1
+    },
+    "John Keats": {
+      "DECLINE": 3,
+      "FLAT": 4,
+      "ARCH": 1,
+      "U_SHAPE": 1
+    },
+    "Emily Dickinson": {
+      "U_SHAPE": 2,
+      "DECLINE": 3,
+      "ARCH": 1,
+      "FLAT": 1
+    },
+    "Walt Whitman": {
+      "U_SHAPE": 5,
+      "ARCH": 1,
+      "FLAT": 3
+    },
+    "Matthew Arnold": {
+      "DECLINE": 1,
+      "ASCENT": 1
+    },
+    "Percy Bysshe Shelley": {
+      "U_SHAPE": 3,
+      "ASCENT": 1
+    },
+    "T.S. Eliot": {
+      "ARCH": 1,
+      "U_SHAPE": 2,
+      "FLAT": 2
+    },
+    "Wallace Stevens": {
+      "U_SHAPE": 1,
+      "DECLINE": 2
+    },
+    "Allen Ginsberg": {
+      "U_SHAPE": 1,
+      "ARCH": 1
+    },
+    "Sylvia Plath": {
+      "ASCENT": 1,
+      "ARCH": 1
+    },
+    "Elizabeth Bishop": {
+      "U_SHAPE": 1
+    },
+    "John Ashbery": {
+      "DECLINE": 9,
+      "ARCH": 4,
+      "U_SHAPE": 4
+    },
+    "Frank O'Hara": {
+      "ARCH": 1,
+      "DECLINE": 2
+    },
+    "Lyn Hejinian": {
+      "ARCH": 1
+    },
+    "Ron Silliman": {
+      "U_SHAPE": 1
+    },
+    "Bruce Andrews": {
+      "DECLINE": 1
+    },
+    "Claudia Rankine": {
+      "ARCH": 1,
+      "U_SHAPE": 1
+    },
+    "Ross Gay": {
+      "ARCH": 1
+    },
+    "Layli Long Soldier": {
+      "DECLINE": 1
+    },
+    "Ocean Vuong": {
+      "U_SHAPE": 1
+    },
+    "Lucille Clifton": {
+      "ASCENT": 1,
+      "FLAT": 1,
+      "U_SHAPE": 1
+    },
+    "Langston Hughes": {
+      "DECLINE": 3
+    },
+    "Georges Perec": {
+      "FLAT": 1,
+      "ASCENT": 1
+    },
+    "Andr\u00e9 Breton": {
+      "U_SHAPE": 1
+    },
+    "Robert Desnos": {
+      "DECLINE": 1
+    },
+    "Federico Garc\u00eda Lorca": {
+      "U_SHAPE": 1
+    },
+    "C\u00e9sar Vallejo": {
+      "U_SHAPE": 1
+    },
+    "Paul \u00c9luard": {
+      "U_SHAPE": 1
+    },
+    "Pablo Neruda": {
+      "DECLINE": 1,
+      "ARCH": 1
+    },
+    "Pierre Reverdy": {
+      "FLAT": 1
+    },
+    "Arthur Rimbaud": {
+      "FLAT": 1
+    },
+    "Robert Bly": {
+      "DECLINE": 1
+    },
+    "Stefan George": {
+      "U_SHAPE": 1,
+      "FLAT": 1,
+      "DECLINE": 1
+    },
+    "Georg Trakl": {
+      "DECLINE": 1,
+      "U_SHAPE": 1
+    },
+    "Rainer Maria Rilke": {
+      "DECLINE": 1,
+      "U_SHAPE": 1
+    },
+    "Gerard Manley Hopkins": {
+      "DECLINE": 3,
+      "FLAT": 2,
+      "ARCH": 1
+    },
+    "Alfred Lord Tennyson": {
+      "FLAT": 2,
+      "U_SHAPE": 1
+    },
+    "Paul Laurence Dunbar": {
+      "DECLINE": 1,
+      "FLAT": 1
+    },
+    "Thomas Hardy": {
+      "ARCH": 2,
+      "FLAT": 3,
+      "ASCENT": 1
+    },
+    "Robert Browning": {
+      "U_SHAPE": 2,
+      "FLAT": 4,
+      "DECLINE": 1
+    },
+    "Anne Sexton": {
+      "DECLINE": 1,
+      "ASCENT": 1
+    },
+    "H.D. (Hilda Doolittle)": {
+      "U_SHAPE": 1
+    },
+    "Marianne Moore": {
+      "FLAT": 1,
+      "ASCENT": 1
+    },
+    "Gertrude Stein": {
+      "ARCH": 2,
+      "DECLINE": 1,
+      "U_SHAPE": 1
+    },
+    "E.E. Cummings": {
+      "ARCH": 1,
+      "DECLINE": 1
+    },
+    "Matsuo Basho": {
+      "DECLINE": 1
+    },
+    "Kobayashi Issa": {
+      "ASCENT": 1
+    },
+    "Vachel Lindsay": {
+      "U_SHAPE": 1
+    },
+    "Sappho": {
+      "ARCH": 1
+    },
+    "Charles Baudelaire": {
+      "ARCH": 1
+    },
+    "William Blake": {
+      "ASCENT": 2,
+      "DECLINE": 1,
+      "FLAT": 2,
+      "U_SHAPE": 2
+    },
+    "Edgar Allan Poe": {
+      "FLAT": 1,
+      "U_SHAPE": 1
+    },
+    "Christina Rossetti": {
+      "ARCH": 1,
+      "FLAT": 1
+    },
+    "Walter de la Mare": {
+      "U_SHAPE": 1
+    },
+    "Claude McKay": {
+      "FLAT": 1,
+      "ARCH": 1
+    },
+    "Countee Cullen": {
+      "DECLINE": 1,
+      "FLAT": 1
+    },
+    "Robert Burns": {
+      "U_SHAPE": 1,
+      "DECLINE": 1
+    },
+    "Philip Larkin": {
+      "DECLINE": 1
+    },
+    "Seamus Heaney": {
+      "ASCENT": 1
+    },
+    "Wislawa Szymborska": {
+      "DECLINE": 1
+    },
+    "Mary Oliver": {
+      "ARCH": 1
+    },
+    "W.B. Yeats": {
+      "FLAT": 2,
+      "ASCENT": 1
+    },
+    "Robert Frost": {
+      "FLAT": 2
+    },
+    "Traditional (Scottish ballad)": {
+      "ASCENT": 1,
+      "DECLINE": 2,
+      "U_SHAPE": 1,
+      "FLAT": 1
+    },
+    "Traditional (English/Scottish ballad)": {
+      "FLAT": 1
+    },
+    "Carolyn Forch\u00e9": {
+      "ASCENT": 1
+    },
+    "Russell Edson": {
+      "DECLINE": 1,
+      "ARCH": 1
+    },
+    "W.S. Merwin": {
+      "DECLINE": 1
+    },
+    "James Wright": {
+      "FLAT": 1
+    },
+    "William Shakespeare": {
+      "ARCH": 1,
+      "DECLINE": 2
+    },
+    "John Milton": {
+      "ARCH": 1,
+      "DECLINE": 1
+    },
+    "Edna St. Vincent Millay": {
+      "ARCH": 1
+    },
+    "Traditional (American folk)": {
+      "FLAT": 1
+    },
+    "Traditional (American sea chanty)": {
+      "FLAT": 1
+    },
+    "Brewster Higley": {
+      "ASCENT": 1
+    },
+    "Traditional (English)": {
+      "FLAT": 1
+    },
+    "Killarney Clary": {
+      "FLAT": 1
+    },
+    "Rae Armantrout": {
+      "FLAT": 1
+    },
+    "David Antin": {
+      "DECLINE": 1
+    },
+    "John Donne": {
+      "FLAT": 1,
+      "DECLINE": 1
+    },
+    "George Herbert": {
+      "FLAT": 1,
+      "DECLINE": 1
+    },
+    "Thomas Wyatt": {
+      "FLAT": 2
+    },
+    "Charles Darwin (found text)": {
+      "FLAT": 1
+    },
+    "Anonymous (KJV, found text)": {
+      "FLAT": 1
+    },
+    "Thomas Jefferson (found text)": {
+      "U_SHAPE": 1
+    },
+    "Anonymous (found text)": {
+      "ARCH": 2,
+      "FLAT": 2
+    },
+    "Isaac Newton (found text)": {
+      "FLAT": 1
+    },
+    "John Berryman": {
+      "ARCH": 1
+    },
+    "Robert Lowell": {
+      "U_SHAPE": 1
+    },
+    "Andrew Marvell": {
+      "DECLINE": 1
+    },
+    "Ben Jonson": {
+      "FLAT": 2
+    },
+    "Edmund Spenser": {
+      "U_SHAPE": 1
+    },
+    "Oscar Wilde": {
+      "DECLINE": 1
+    },
+    "Edwin Arlington Robinson": {
+      "FLAT": 2
+    },
+    "Ernest Dowson": {
+      "U_SHAPE": 1,
+      "DECLINE": 1
+    },
+    "William Ernest Henley": {
+      "U_SHAPE": 1,
+      "FLAT": 1
+    },
+    "Dante Gabriel Rossetti": {
+      "ARCH": 1,
+      "DECLINE": 1
+    },
+    "Austin Dobson": {
+      "U_SHAPE": 1,
+      "FLAT": 1
+    },
+    "Rudyard Kipling": {
+      "ARCH": 1,
+      "FLAT": 1
+    },
+    "Alfred, Lord Tennyson": {
+      "ARCH": 2,
+      "FLAT": 2,
+      "ASCENT": 1
+    },
+    "Synthetic (research test case)": {
+      "FLAT": 1,
+      "ARCH": 1,
+      "U_SHAPE": 1
+    },
+    "Christopher Smart": {
+      "FLAT": 2
+    },
+    "Samuel Taylor Coleridge": {
+      "FLAT": 1
+    },
+    "Felicia Hemans": {
+      "U_SHAPE": 1
+    },
+    "Carl Sandburg": {
+      "DECLINE": 1
+    },
+    "Hart Crane": {
+      "FLAT": 1
+    },
+    "Anonymous (Hebrew Bible)": {
+      "FLAT": 4,
+      "U_SHAPE": 1,
+      "ARCH": 1,
+      "DECLINE": 1
+    },
+    "Eugen Gomringer": {
+      "FLAT": 1
+    },
+    "Emmett Williams": {
+      "U_SHAPE": 1
+    },
+    "Pablo Neruda (trans. W.S. Merwin)": {
+      "ASCENT": 1
+    },
+    "Federico Garc\u00eda Lorca (trans. Stephen Spender & J.L. Gili)": {
+      "DECLINE": 1
+    },
+    "C\u00e9sar Vallejo (trans. Thomas Merton)": {
+      "FLAT": 1
+    },
+    "Amiri Baraka (LeRoi Jones)": {
+      "FLAT": 1
+    },
+    "Ko Un (trans. Brother Anthony of Taiz\u00e9)": {
+      "U_SHAPE": 1
+    },
+    "Amy Lowell": {
+      "U_SHAPE": 2
+    },
+    "Homer (trans. Alexander Pope)": {
+      "FLAT": 1
+    },
+    "Anonymous (trans. Francis B. Gummere)": {
+      "ARCH": 1
+    },
+    "Phillis Wheatley": {
+      "FLAT": 1
+    },
+    "Gregory Corso": {
+      "U_SHAPE": 1,
+      "FLAT": 1
+    },
+    "Lawrence Ferlinghetti": {
+      "FLAT": 1,
+      "ASCENT": 1
+    },
+    "Gottfried Benn": {
+      "DECLINE": 2
+    },
+    "Georg Heym": {
+      "DECLINE": 1,
+      "U_SHAPE": 1
+    },
+    "Isaac Watts": {
+      "ARCH": 1,
+      "U_SHAPE": 1
+    },
+    "Lewis Carroll": {
+      "ASCENT": 2,
+      "FLAT": 1,
+      "DECLINE": 2
+    },
+    "Robert Southey": {
+      "ASCENT": 1
+    },
+    "Alexander Pope": {
+      "U_SHAPE": 2,
+      "FLAT": 2
+    },
+    "Louise Gluck": {
+      "ASCENT": 1
+    },
+    "Carolyn Forche": {
+      "U_SHAPE": 1
+    },
+    "Christian B\u00f6k": {
+      "DECLINE": 1,
+      "U_SHAPE": 1
+    },
+    "Raymond Queneau": {
+      "ASCENT": 1
+    },
+    "Jean Lescure": {
+      "U_SHAPE": 1
+    },
+    "Charles Bernstein": {
+      "DECLINE": 1,
+      "ASCENT": 1
+    },
+    "Du Fu": {
+      "ASCENT": 1
+    },
+    "Cui Hao": {
+      "ARCH": 1
+    },
+    "Omar Khayyam (trans. FitzGerald, 1859)": {
+      "ASCENT": 1,
+      "DECLINE": 1
+    },
+    "Anonymous (limerick tradition)": {
+      "ARCH": 1
+    },
+    "Caedmon (trans. anon.)": {
+      "U_SHAPE": 1
+    },
+    "Anonymous (Old English, trans. anon.)": {
+      "U_SHAPE": 1
+    },
+    "Emma Lazarus": {
+      "FLAT": 1
+    },
+    "Maya Angelou": {
+      "U_SHAPE": 1
+    },
+    "Charles Bukowski": {
+      "U_SHAPE": 1
+    },
+    "Heather McHugh": {
+      "ARCH": 1,
+      "U_SHAPE": 1
+    },
+    "Carolyn Wells": {
+      "DECLINE": 1
+    },
+    "Anonymous": {
+      "DECLINE": 2
+    },
+    "Edward Lear": {
+      "U_SHAPE": 1
+    },
+    "Wilfred Owen": {
+      "DECLINE": 1,
+      "FLAT": 1
+    },
+    "Rupert Brooke": {
+      "U_SHAPE": 1
+    },
+    "Anonymous (trans. Hall)": {
+      "ARCH": 1,
+      "FLAT": 1
+    },
+    "John Dryden": {
+      "FLAT": 1
+    },
+    "Samuel Johnson": {
+      "FLAT": 1
+    },
+    "Joy Harjo": {
+      "FLAT": 3
+    },
+    "Derek Walcott": {
+      "FLAT": 1
+    },
+    "Agha Shahid Ali": {
+      "DECLINE": 2
+    },
+    "Kamau Brathwaite": {
+      "ARCH": 1
+    },
+    "Thomas Gray": {
+      "DECLINE": 1
+    },
+    "A.E. Housman": {
+      "U_SHAPE": 1
+    },
+    "Synthetic (double dactyl test case)": {
+      "ARCH": 2,
+      "ASCENT": 2,
+      "FLAT": 1
+    },
+    "Robinson Jeffers": {
+      "DECLINE": 1
+    },
+    "Anne Carson": {
+      "DECLINE": 1
+    },
+    "Algernon Charles Swinburne": {
+      "FLAT": 2
+    },
+    "Anonymous (trans. E.V. Gordon)": {
+      "FLAT": 1
+    },
+    "Arthur Symons": {
+      "FLAT": 1
+    },
+    "John McCrae": {
+      "U_SHAPE": 1
+    },
+    "Anonymous (KJV translation)": {
+      "FLAT": 1
+    },
+    "Kenneth Koch": {
+      "FLAT": 1
+    },
+    "Harryette Mullen": {
+      "ASCENT": 1
+    },
+    "Barrett Watten": {
+      "FLAT": 1
+    },
+    "Wis\u0142awa Szymborska": {
+      "U_SHAPE": 1
+    },
+    "Synthetic (scientific register test case)": {
+      "ASCENT": 2,
+      "FLAT": 1
+    },
+    "Sonia Sanchez": {
+      "ARCH": 1
+    },
+    "Synthetic (OuLiPo N+7 test case)": {
+      "FLAT": 1
+    },
+    "Synthetic (cliche_control test case)": {
+      "FLAT": 1
+    },
+    "Synthetic (shadow-divergence test case)": {
+      "FLAT": 1
+    },
+    "Found (legal boilerplate, public domain)": {
+      "DECLINE": 1
+    },
+    "Synthetic (shadow-poem meta-poem)": {
+      "FLAT": 1
+    },
+    "Barbara Guest": {
+      "FLAT": 1,
+      "U_SHAPE": 1
+    },
+    "Ted Berrigan": {
+      "U_SHAPE": 1
+    },
+    "James Schuyler": {
+      "U_SHAPE": 1
+    },
+    "Anne Waldman": {
+      "U_SHAPE": 1
+    },
+    "Robert Creeley": {
+      "U_SHAPE": 1,
+      "FLAT": 1
+    },
+    "William Stafford": {
+      "FLAT": 1,
+      "U_SHAPE": 1
+    },
+    "C.K. Williams": {
+      "FLAT": 1
+    },
+    "George Oppen": {
+      "FLAT": 1
+    },
+    "Galway Kinnell": {
+      "ASCENT": 1
+    },
+    "Jack Gilbert": {
+      "ASCENT": 1
+    },
+    "Henry Vaughan": {
+      "FLAT": 1
+    },
+    "Thomas Traherne": {
+      "U_SHAPE": 1
+    },
+    "Richard Crashaw": {
+      "U_SHAPE": 1
+    },
+    "Francis Thompson": {
+      "FLAT": 1
+    },
+    "Michael Drayton": {
+      "ARCH": 1
+    },
+    "Anne Bradstreet": {
+      "U_SHAPE": 1
+    },
+    "Thomas Campion": {
+      "FLAT": 1
+    },
+    "Samuel Daniel": {
+      "FLAT": 1
+    }
+  }
+}
