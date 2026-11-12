@@ -1,0 +1,524 @@
+{
+  "global": {
+    "inside": {
+      "n": 490,
+      "mean": -0.603,
+      "median": -1.264,
+      "pos_pct": 31.2,
+      "max": 22.088
+    },
+    "outside": {
+      "n": 2573,
+      "mean": 0.12,
+      "median": -0.604,
+      "pos_pct": 42.2,
+      "max": 25.476
+    },
+    "open_paren": {
+      "n": 18,
+      "mean": 4.715,
+      "median": 4.114,
+      "pos_pct": 77.8,
+      "max": 16.822
+    },
+    "close_paren": {
+      "n": 13,
+      "mean": -1.712,
+      "median": -2.382,
+      "pos_pct": 15.4,
+      "max": 2.51
+    },
+    "gap": -0.723
+  },
+  "era_breakdown": [
+    {
+      "era": "romantic",
+      "n_inside": 11,
+      "inside_mean": 1.382,
+      "outside_mean": 0.096,
+      "gap": 1.286
+    },
+    {
+      "era": "18th_century",
+      "n_inside": 17,
+      "inside_mean": 0.22,
+      "outside_mean": 0.36,
+      "gap": -0.14
+    },
+    {
+      "era": "modernist",
+      "n_inside": 28,
+      "inside_mean": -0.007,
+      "outside_mean": 0.531,
+      "gap": -0.538
+    },
+    {
+      "era": "dramatic_monologue",
+      "n_inside": 214,
+      "inside_mean": -0.498,
+      "outside_mean": 0.173,
+      "gap": -0.671
+    },
+    {
+      "era": "fixed_form",
+      "n_inside": 54,
+      "inside_mean": -0.696,
+      "outside_mean": 0.238,
+      "gap": -0.934
+    },
+    {
+      "era": "19th_century",
+      "n_inside": 11,
+      "inside_mean": -1.633,
+      "outside_mean": -0.207,
+      "gap": -1.426
+    },
+    {
+      "era": "victorian",
+      "n_inside": 134,
+      "inside_mean": -0.92,
+      "outside_mean": 1.257,
+      "gap": -2.177
+    }
+  ],
+  "author_breakdown": [
+    {
+      "author": "Percy Bysshe Shelley",
+      "n_inside": 11,
+      "inside_mean": 1.382,
+      "outside_mean": 0.096,
+      "gap": 1.286
+    },
+    {
+      "author": "Alexander Pope",
+      "n_inside": 17,
+      "inside_mean": 0.22,
+      "outside_mean": 0.36,
+      "gap": -0.14
+    },
+    {
+      "author": "Robert Browning",
+      "n_inside": 188,
+      "inside_mean": -0.432,
+      "outside_mean": 0.127,
+      "gap": -0.559
+    },
+    {
+      "author": "Dante Gabriel Rossetti",
+      "n_inside": 54,
+      "inside_mean": -0.696,
+      "outside_mean": 0.238,
+      "gap": -0.934
+    },
+    {
+      "author": "E.E. Cummings",
+      "n_inside": 37,
+      "inside_mean": -0.441,
+      "outside_mean": 0.716,
+      "gap": -1.157
+    },
+    {
+      "author": "T.S. Eliot",
+      "n_inside": 26,
+      "inside_mean": -0.978,
+      "outside_mean": 0.399,
+      "gap": -1.377
+    },
+    {
+      "author": "Walt Whitman",
+      "n_inside": 11,
+      "inside_mean": -1.633,
+      "outside_mean": -0.207,
+      "gap": -1.426
+    },
+    {
+      "author": "Gerard Manley Hopkins",
+      "n_inside": 134,
+      "inside_mean": -0.92,
+      "outside_mean": 1.257,
+      "gap": -2.177
+    }
+  ],
+  "top_examples": [
+    {
+      "title": "Dream Song 14 (opening)",
+      "author": "John Berryman",
+      "era": "confessional",
+      "n_inside": 3,
+      "inside_mean_s2": 2.402,
+      "outside_mean_s2": 1.059,
+      "gap": 1.343,
+      "context": "repeatingly",
+      "best_inside_token": "ating",
+      "best_inside_s2": 3.809
+    },
+    {
+      "title": "Ode to the West Wind (stanza 1)",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "n_inside": 11,
+      "inside_mean_s2": 1.382,
+      "outside_mean_s2": 0.096,
+      "gap": 1.286,
+      "context": "Driving sweet buds like flocks to feed in air",
+      "best_inside_token": "Dri",
+      "best_inside_s2": 6.354
+    },
+    {
+      "title": "An Essay on Man (Epistle I, opening)",
+      "author": "Alexander Pope",
+      "era": "18th_century",
+      "n_inside": 17,
+      "inside_mean_s2": 0.22,
+      "outside_mean_s2": 0.36,
+      "gap": -0.14,
+      "context": "since Life can little more supply\nThan just to look about us",
+      "best_inside_token": " Life",
+      "best_inside_s2": 6.714
+    },
+    {
+      "title": "Andrea del Sarto",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "n_inside": 163,
+      "inside_mean_s2": -0.413,
+      "outside_mean_s2": -0.136,
+      "gap": -0.276,
+      "context": "That's gone, you know)\u2014but I, at every point\nMy",
+      "best_inside_token": " alike",
+      "best_inside_s2": 14.982
+    },
+    {
+      "title": "Soliloquy of the Spanish Cloister",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "n_inside": 10,
+      "inside_mean_s2": -0.338,
+      "outside_mean_s2": -0.049,
+      "gap": -0.289,
+      "context": "He-he! There his lily snaps!)",
+      "best_inside_token": " snaps",
+      "best_inside_s2": 6.437
+    },
+    {
+      "title": "anyone lived in a pretty how town",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "n_inside": 28,
+      "inside_mean_s2": -0.007,
+      "outside_mean_s2": 0.531,
+      "gap": -0.539,
+      "context": "with up so floating many bells downboth little and smallbut ",
+      "best_inside_token": "aut",
+      "best_inside_s2": 24.902
+    },
+    {
+      "title": "The Ballad of Dead Ladies (after Villon)",
+      "author": "Dante Gabriel Rossetti",
+      "era": "fixed_form",
+      "n_inside": 54,
+      "inside_mean_s2": -0.696,
+      "outside_mean_s2": 0.238,
+      "gap": -0.935,
+      "context": "From Love he won such dule and teen!)\nAnd where, I",
+      "best_inside_token": "And",
+      "best_inside_s2": 22.306
+    },
+    {
+      "title": "My Last Duchess (complete)",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "n_inside": 15,
+      "inside_mean_s2": -0.704,
+      "outside_mean_s2": 0.3,
+      "gap": -1.003,
+      "context": "since none puts by\nThe curtain I have drawn for you, but I",
+      "best_inside_token": " puts",
+      "best_inside_s2": 9.08
+    },
+    {
+      "title": "A Valediction: Forbidding Mourning",
+      "author": "John Donne",
+      "era": "early_modern",
+      "n_inside": 5,
+      "inside_mean_s2": -1.508,
+      "outside_mean_s2": -0.207,
+      "gap": -1.301,
+      "context": "Whose soul is sense",
+      "best_inside_token": " sense",
+      "best_inside_s2": 3.953
+    },
+    {
+      "title": "The Love Song of J. Alfred Prufrock (middle)",
+      "author": "T.S. Eliot",
+      "era": "dramatic_monologue",
+      "n_inside": 26,
+      "inside_mean_s2": -0.978,
+      "outside_mean_s2": 0.399,
+      "gap": -1.377,
+      "context": "They will say: \"How his hair is growing thin!\"They will say",
+      "best_inside_token": " his",
+      "best_inside_s2": 8.088
+    },
+    {
+      "title": "Song of Myself (section 15, catalogue)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "n_inside": 11,
+      "inside_mean_s2": -1.633,
+      "outside_mean_s2": -0.207,
+      "gap": -1.426,
+      "context": "I love him, though I do not know him;",
+      "best_inside_token": " though",
+      "best_inside_s2": 1.045
+    },
+    {
+      "title": "Pied Beauty",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "n_inside": 67,
+      "inside_mean_s2": -0.932,
+      "outside_mean_s2": 1.09,
+      "gap": -2.021,
+      "context": "who knows how?)\n    With swift, slow; sweet,",
+      "best_inside_token": "He",
+      "best_inside_s2": 27.474
+    },
+    {
+      "title": "Pied Beauty",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "n_inside": 67,
+      "inside_mean_s2": -0.907,
+      "outside_mean_s2": 1.422,
+      "gap": -2.329,
+      "context": "who knows how?)\n    With swift, slow; sweet,",
+      "best_inside_token": "He",
+      "best_inside_s2": 26.596
+    },
+    {
+      "title": "The Hunting of the Snark (Fit the First, opening)",
+      "author": "Lewis Carroll",
+      "era": "nonsense",
+      "n_inside": 4,
+      "inside_mean_s2": -3.109,
+      "outside_mean_s2": -0.457,
+      "gap": -2.652,
+      "context": "the Bellman said",
+      "best_inside_token": "man",
+      "best_inside_s2": -1.019
+    },
+    {
+      "title": "l(a",
+      "author": "E.E. Cummings",
+      "era": "concrete",
+      "n_inside": 9,
+      "inside_mean_s2": -1.791,
+      "outside_mean_s2": 10.338,
+      "gap": -12.129,
+      "context": "a\n\nle\naf\nfa\n\nll\n\ns",
+      "best_inside_token": "af",
+      "best_inside_s2": 30.954
+    }
+  ],
+  "bottom_examples": [
+    {
+      "title": "Dream Song 14 (opening)",
+      "author": "John Berryman",
+      "era": "confessional",
+      "n_inside": 3,
+      "inside_mean_s2": 2.402,
+      "outside_mean_s2": 1.059,
+      "gap": 1.343,
+      "context": "repeatingly",
+      "best_inside_token": "ating",
+      "best_inside_s2": 3.809
+    },
+    {
+      "title": "Ode to the West Wind (stanza 1)",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "n_inside": 11,
+      "inside_mean_s2": 1.382,
+      "outside_mean_s2": 0.096,
+      "gap": 1.286,
+      "context": "Driving sweet buds like flocks to feed in air",
+      "best_inside_token": "Dri",
+      "best_inside_s2": 6.354
+    },
+    {
+      "title": "An Essay on Man (Epistle I, opening)",
+      "author": "Alexander Pope",
+      "era": "18th_century",
+      "n_inside": 17,
+      "inside_mean_s2": 0.22,
+      "outside_mean_s2": 0.36,
+      "gap": -0.14,
+      "context": "since Life can little more supply\nThan just to look about us",
+      "best_inside_token": " Life",
+      "best_inside_s2": 6.714
+    },
+    {
+      "title": "Andrea del Sarto",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "n_inside": 163,
+      "inside_mean_s2": -0.413,
+      "outside_mean_s2": -0.136,
+      "gap": -0.276,
+      "context": "That's gone, you know)\u2014but I, at every point\nMy",
+      "best_inside_token": " alike",
+      "best_inside_s2": 14.982
+    },
+    {
+      "title": "Soliloquy of the Spanish Cloister",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "n_inside": 10,
+      "inside_mean_s2": -0.338,
+      "outside_mean_s2": -0.049,
+      "gap": -0.289,
+      "context": "He-he! There his lily snaps!)",
+      "best_inside_token": " snaps",
+      "best_inside_s2": 6.437
+    },
+    {
+      "title": "anyone lived in a pretty how town",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "n_inside": 28,
+      "inside_mean_s2": -0.007,
+      "outside_mean_s2": 0.531,
+      "gap": -0.539,
+      "context": "with up so floating many bells downboth little and smallbut ",
+      "best_inside_token": "aut",
+      "best_inside_s2": 24.902
+    },
+    {
+      "title": "The Ballad of Dead Ladies (after Villon)",
+      "author": "Dante Gabriel Rossetti",
+      "era": "fixed_form",
+      "n_inside": 54,
+      "inside_mean_s2": -0.696,
+      "outside_mean_s2": 0.238,
+      "gap": -0.935,
+      "context": "From Love he won such dule and teen!)\nAnd where, I",
+      "best_inside_token": "And",
+      "best_inside_s2": 22.306
+    },
+    {
+      "title": "My Last Duchess (complete)",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "n_inside": 15,
+      "inside_mean_s2": -0.704,
+      "outside_mean_s2": 0.3,
+      "gap": -1.003,
+      "context": "since none puts by\nThe curtain I have drawn for you, but I",
+      "best_inside_token": " puts",
+      "best_inside_s2": 9.08
+    },
+    {
+      "title": "A Valediction: Forbidding Mourning",
+      "author": "John Donne",
+      "era": "early_modern",
+      "n_inside": 5,
+      "inside_mean_s2": -1.508,
+      "outside_mean_s2": -0.207,
+      "gap": -1.301,
+      "context": "Whose soul is sense",
+      "best_inside_token": " sense",
+      "best_inside_s2": 3.953
+    },
+    {
+      "title": "The Love Song of J. Alfred Prufrock (middle)",
+      "author": "T.S. Eliot",
+      "era": "dramatic_monologue",
+      "n_inside": 26,
+      "inside_mean_s2": -0.978,
+      "outside_mean_s2": 0.399,
+      "gap": -1.377,
+      "context": "They will say: \"How his hair is growing thin!\"They will say",
+      "best_inside_token": " his",
+      "best_inside_s2": 8.088
+    },
+    {
+      "title": "Song of Myself (section 15, catalogue)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "n_inside": 11,
+      "inside_mean_s2": -1.633,
+      "outside_mean_s2": -0.207,
+      "gap": -1.426,
+      "context": "I love him, though I do not know him;",
+      "best_inside_token": " though",
+      "best_inside_s2": 1.045
+    },
+    {
+      "title": "Pied Beauty",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "n_inside": 67,
+      "inside_mean_s2": -0.932,
+      "outside_mean_s2": 1.09,
+      "gap": -2.021,
+      "context": "who knows how?)\n    With swift, slow; sweet,",
+      "best_inside_token": "He",
+      "best_inside_s2": 27.474
+    },
+    {
+      "title": "Pied Beauty",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "n_inside": 67,
+      "inside_mean_s2": -0.907,
+      "outside_mean_s2": 1.422,
+      "gap": -2.329,
+      "context": "who knows how?)\n    With swift, slow; sweet,",
+      "best_inside_token": "He",
+      "best_inside_s2": 26.596
+    },
+    {
+      "title": "The Hunting of the Snark (Fit the First, opening)",
+      "author": "Lewis Carroll",
+      "era": "nonsense",
+      "n_inside": 4,
+      "inside_mean_s2": -3.109,
+      "outside_mean_s2": -0.457,
+      "gap": -2.652,
+      "context": "the Bellman said",
+      "best_inside_token": "man",
+      "best_inside_s2": -1.019
+    },
+    {
+      "title": "l(a",
+      "author": "E.E. Cummings",
+      "era": "concrete",
+      "n_inside": 9,
+      "inside_mean_s2": -1.791,
+      "outside_mean_s2": 10.338,
+      "gap": -12.129,
+      "context": "a\n\nle\naf\nfa\n\nll\n\ns",
+      "best_inside_token": "af",
+      "best_inside_s2": 30.954
+    }
+  ],
+  "poems_with_parens": [
+    "anyone lived in a pretty how town",
+    "Ode to the West Wind (stanza 1)",
+    "Dream Song 14 (opening)",
+    "The Ballad of Dead Ladies (after Villon)",
+    "Pied Beauty",
+    "l(a",
+    "An Essay on Man (Epistle I, opening)",
+    "My Last Duchess (complete)",
+    "Soliloquy of the Spanish Cloister",
+    "Andrea del Sarto",
+    "The Love Song of J. Alfred Prufrock (middle)",
+    "Pied Beauty",
+    "A Valediction: Forbidding Mourning",
+    "Song of Myself (section 15, catalogue)",
+    "The Hunting of the Snark (Fit the First, opening)"
+  ],
+  "n_poems_with_parens": 15
+}
