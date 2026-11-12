@@ -1,0 +1,1032 @@
+{
+  "global": {
+    "n_poems": 409,
+    "mean_delta_high_s2": -0.5838,
+    "mean_delta_baseline": 0.2319,
+    "pct_liberating_overall": 39.4
+  },
+  "by_era": [
+    {
+      "era": "concrete",
+      "n": 3,
+      "mean_delta": 0.6127,
+      "pct_liberating": 69.4
+    },
+    {
+      "era": "ballad",
+      "n": 6,
+      "mean_delta": 0.5011,
+      "pct_liberating": 57.4
+    },
+    {
+      "era": "rondeau",
+      "n": 1,
+      "mean_delta": -0.0034,
+      "pct_liberating": 56.5
+    },
+    {
+      "era": "japanese_classical",
+      "n": 2,
+      "mean_delta": -0.2872,
+      "pct_liberating": 55.0
+    },
+    {
+      "era": "beat",
+      "n": 8,
+      "mean_delta": 0.2534,
+      "pct_liberating": 49.2
+    },
+    {
+      "era": "german_symbolist",
+      "n": 3,
+      "mean_delta": -0.0908,
+      "pct_liberating": 47.9
+    },
+    {
+      "era": "deep_image",
+      "n": 1,
+      "mean_delta": -0.7075,
+      "pct_liberating": 47.1
+    },
+    {
+      "era": "harlem_renaissance",
+      "n": 7,
+      "mean_delta": -0.2952,
+      "pct_liberating": 46.1
+    },
+    {
+      "era": "early_modern",
+      "n": 11,
+      "mean_delta": -0.417,
+      "pct_liberating": 45.9
+    },
+    {
+      "era": "fixed_form",
+      "n": 8,
+      "mean_delta": -0.1511,
+      "pct_liberating": 45.3
+    },
+    {
+      "era": "villanelle",
+      "n": 3,
+      "mean_delta": -0.2265,
+      "pct_liberating": 43.9
+    },
+    {
+      "era": "ancient",
+      "n": 3,
+      "mean_delta": -0.846,
+      "pct_liberating": 43.8
+    },
+    {
+      "era": "modernist",
+      "n": 28,
+      "mean_delta": -0.3799,
+      "pct_liberating": 42.8
+    },
+    {
+      "era": "song_lyrics",
+      "n": 3,
+      "mean_delta": -0.0825,
+      "pct_liberating": 42.6
+    },
+    {
+      "era": "limerick",
+      "n": 10,
+      "mean_delta": -0.3988,
+      "pct_liberating": 42.0
+    },
+    {
+      "era": "ekphrastic",
+      "n": 8,
+      "mean_delta": -0.3979,
+      "pct_liberating": 42.0
+    },
+    {
+      "era": "postcolonial",
+      "n": 6,
+      "mean_delta": -0.5032,
+      "pct_liberating": 41.9
+    },
+    {
+      "era": "biblical",
+      "n": 8,
+      "mean_delta": -0.5588,
+      "pct_liberating": 41.7
+    },
+    {
+      "era": "black_arts",
+      "n": 2,
+      "mean_delta": -0.1059,
+      "pct_liberating": 41.5
+    },
+    {
+      "era": "double_dactyl",
+      "n": 5,
+      "mean_delta": -0.3954,
+      "pct_liberating": 41.3
+    },
+    {
+      "era": "persian",
+      "n": 2,
+      "mean_delta": -0.4609,
+      "pct_liberating": 41.2
+    },
+    {
+      "era": "19th_century",
+      "n": 18,
+      "mean_delta": -0.495,
+      "pct_liberating": 40.9
+    },
+    {
+      "era": "nursery_rhyme",
+      "n": 1,
+      "mean_delta": -0.3735,
+      "pct_liberating": 40.0
+    },
+    {
+      "era": "korean_modernist",
+      "n": 1,
+      "mean_delta": -0.3185,
+      "pct_liberating": 40.0
+    },
+    {
+      "era": "contemporary",
+      "n": 19,
+      "mean_delta": -0.6775,
+      "pct_liberating": 39.7
+    },
+    {
+      "era": "spoken_word",
+      "n": 3,
+      "mean_delta": -0.5513,
+      "pct_liberating": 39.7
+    },
+    {
+      "era": "romantic",
+      "n": 21,
+      "mean_delta": -0.6582,
+      "pct_liberating": 39.5
+    },
+    {
+      "era": "confessional",
+      "n": 6,
+      "mean_delta": -0.7326,
+      "pct_liberating": 39.4
+    },
+    {
+      "era": "dramatic_monologue",
+      "n": 7,
+      "mean_delta": -0.6184,
+      "pct_liberating": 39.3
+    },
+    {
+      "era": "victorian",
+      "n": 30,
+      "mean_delta": -0.5657,
+      "pct_liberating": 39.0
+    },
+    {
+      "era": "surrealist",
+      "n": 8,
+      "mean_delta": -0.5655,
+      "pct_liberating": 38.6
+    },
+    {
+      "era": "metaphysical",
+      "n": 7,
+      "mean_delta": -0.7624,
+      "pct_liberating": 38.4
+    },
+    {
+      "era": "found_poetry",
+      "n": 9,
+      "mean_delta": -0.5559,
+      "pct_liberating": 38.0
+    },
+    {
+      "era": "parody",
+      "n": 4,
+      "mean_delta": -0.7751,
+      "pct_liberating": 37.9
+    },
+    {
+      "era": "elegy",
+      "n": 8,
+      "mean_delta": -0.74,
+      "pct_liberating": 37.9
+    },
+    {
+      "era": "new_york_school",
+      "n": 26,
+      "mean_delta": -0.7726,
+      "pct_liberating": 37.8
+    },
+    {
+      "era": "oulipo",
+      "n": 8,
+      "mean_delta": -0.6081,
+      "pct_liberating": 37.6
+    },
+    {
+      "era": "imagist",
+      "n": 5,
+      "mean_delta": -0.7486,
+      "pct_liberating": 37.6
+    },
+    {
+      "era": "prose_poetry",
+      "n": 12,
+      "mean_delta": -0.5693,
+      "pct_liberating": 37.4
+    },
+    {
+      "era": "latin_american",
+      "n": 4,
+      "mean_delta": -0.4407,
+      "pct_liberating": 37.1
+    },
+    {
+      "era": "old_english",
+      "n": 5,
+      "mean_delta": -1.0271,
+      "pct_liberating": 37.1
+    },
+    {
+      "era": "war_poetry",
+      "n": 3,
+      "mean_delta": -0.7657,
+      "pct_liberating": 35.7
+    },
+    {
+      "era": "language",
+      "n": 6,
+      "mean_delta": -1.0733,
+      "pct_liberating": 35.3
+    },
+    {
+      "era": "german_modernist",
+      "n": 2,
+      "mean_delta": -0.512,
+      "pct_liberating": 34.6
+    },
+    {
+      "era": "ghazal",
+      "n": 2,
+      "mean_delta": -1.4028,
+      "pct_liberating": 34.1
+    },
+    {
+      "era": "nonsense",
+      "n": 2,
+      "mean_delta": -0.9152,
+      "pct_liberating": 33.9
+    },
+    {
+      "era": "parody_original",
+      "n": 3,
+      "mean_delta": -0.4999,
+      "pct_liberating": 33.7
+    },
+    {
+      "era": "classical_chinese",
+      "n": 4,
+      "mean_delta": -1.2367,
+      "pct_liberating": 33.2
+    },
+    {
+      "era": "18th_century",
+      "n": 8,
+      "mean_delta": -0.8981,
+      "pct_liberating": 32.9
+    },
+    {
+      "era": "clerihew",
+      "n": 10,
+      "mean_delta": -0.8736,
+      "pct_liberating": 32.3
+    },
+    {
+      "era": "haiku",
+      "n": 13,
+      "mean_delta": -0.3395,
+      "pct_liberating": 31.9
+    },
+    {
+      "era": "german_expressionist",
+      "n": 6,
+      "mean_delta": -0.8763,
+      "pct_liberating": 31.2
+    },
+    {
+      "era": "cliche_control",
+      "n": 4,
+      "mean_delta": -1.2218,
+      "pct_liberating": 29.6
+    },
+    {
+      "era": "pantoum",
+      "n": 1,
+      "mean_delta": -0.8317,
+      "pct_liberating": 26.9
+    },
+    {
+      "era": "mid_century",
+      "n": 6,
+      "mean_delta": -1.1217,
+      "pct_liberating": 26.8
+    },
+    {
+      "era": "control",
+      "n": 5,
+      "mean_delta": -1.962,
+      "pct_liberating": 26.7
+    },
+    {
+      "era": "protest_political",
+      "n": 2,
+      "mean_delta": -1.2077,
+      "pct_liberating": 25.6
+    },
+    {
+      "era": "triolet",
+      "n": 2,
+      "mean_delta": -1.6316,
+      "pct_liberating": 25.0
+    }
+  ],
+  "by_author": [
+    {
+      "author": "Traditional (Scottish ballad)",
+      "n": 5,
+      "mean_delta": 0.6992,
+      "pct_liberating": 60.2
+    },
+    {
+      "author": "Edward Lear",
+      "n": 3,
+      "mean_delta": -0.3921,
+      "pct_liberating": 51.4
+    },
+    {
+      "author": "Lucille Clifton",
+      "n": 3,
+      "mean_delta": -0.4762,
+      "pct_liberating": 50.8
+    },
+    {
+      "author": "Gertrude Stein",
+      "n": 4,
+      "mean_delta": 0.0617,
+      "pct_liberating": 50.1
+    },
+    {
+      "author": "William Carlos Williams",
+      "n": 4,
+      "mean_delta": -0.0818,
+      "pct_liberating": 50.0
+    },
+    {
+      "author": "Langston Hughes",
+      "n": 3,
+      "mean_delta": -0.0482,
+      "pct_liberating": 49.7
+    },
+    {
+      "author": "Stefan George",
+      "n": 3,
+      "mean_delta": -0.0908,
+      "pct_liberating": 47.9
+    },
+    {
+      "author": "Joy Harjo",
+      "n": 3,
+      "mean_delta": -0.5121,
+      "pct_liberating": 46.5
+    },
+    {
+      "author": "Robert Browning",
+      "n": 7,
+      "mean_delta": -0.1579,
+      "pct_liberating": 44.1
+    },
+    {
+      "author": "Gerard Manley Hopkins",
+      "n": 6,
+      "mean_delta": -0.4326,
+      "pct_liberating": 44.0
+    },
+    {
+      "author": "Frank O'Hara",
+      "n": 3,
+      "mean_delta": -0.8421,
+      "pct_liberating": 43.8
+    },
+    {
+      "author": "William Shakespeare",
+      "n": 3,
+      "mean_delta": -0.3311,
+      "pct_liberating": 43.5
+    },
+    {
+      "author": "Emily Dickinson",
+      "n": 7,
+      "mean_delta": -0.3428,
+      "pct_liberating": 42.5
+    },
+    {
+      "author": "Synthetic (double dactyl test case)",
+      "n": 5,
+      "mean_delta": -0.3954,
+      "pct_liberating": 41.3
+    },
+    {
+      "author": "Matsuo Bash\u014d",
+      "n": 3,
+      "mean_delta": -0.303,
+      "pct_liberating": 41.1
+    },
+    {
+      "author": "John Keats",
+      "n": 9,
+      "mean_delta": -0.8028,
+      "pct_liberating": 40.1
+    },
+    {
+      "author": "Percy Bysshe Shelley",
+      "n": 4,
+      "mean_delta": -0.6874,
+      "pct_liberating": 40.0
+    },
+    {
+      "author": "Walt Whitman",
+      "n": 9,
+      "mean_delta": -0.5712,
+      "pct_liberating": 39.9
+    },
+    {
+      "author": "Anonymous",
+      "n": 3,
+      "mean_delta": -0.2154,
+      "pct_liberating": 39.7
+    },
+    {
+      "author": "Anonymous (Hebrew Bible)",
+      "n": 7,
+      "mean_delta": -0.7025,
+      "pct_liberating": 39.5
+    },
+    {
+      "author": "Thomas Hardy",
+      "n": 6,
+      "mean_delta": -0.5448,
+      "pct_liberating": 38.3
+    },
+    {
+      "author": "Alfred, Lord Tennyson",
+      "n": 5,
+      "mean_delta": -0.6487,
+      "pct_liberating": 37.5
+    },
+    {
+      "author": "Lewis Carroll",
+      "n": 5,
+      "mean_delta": -0.8279,
+      "pct_liberating": 37.3
+    },
+    {
+      "author": "Anonymous (found text)",
+      "n": 4,
+      "mean_delta": -0.3713,
+      "pct_liberating": 37.1
+    },
+    {
+      "author": "Anonymous (limerick tradition)",
+      "n": 3,
+      "mean_delta": -0.6504,
+      "pct_liberating": 35.6
+    },
+    {
+      "author": "John Ashbery",
+      "n": 17,
+      "mean_delta": -0.8379,
+      "pct_liberating": 35.1
+    },
+    {
+      "author": "William Blake",
+      "n": 7,
+      "mean_delta": -0.7621,
+      "pct_liberating": 35.0
+    },
+    {
+      "author": "Synthetic (scientific register test case)",
+      "n": 3,
+      "mean_delta": -0.8047,
+      "pct_liberating": 34.9
+    },
+    {
+      "author": "Synthetic (clerihew test case)",
+      "n": 7,
+      "mean_delta": -0.5951,
+      "pct_liberating": 34.7
+    },
+    {
+      "author": "T.S. Eliot",
+      "n": 5,
+      "mean_delta": -0.8022,
+      "pct_liberating": 33.9
+    },
+    {
+      "author": "W.B. Yeats",
+      "n": 3,
+      "mean_delta": -0.561,
+      "pct_liberating": 33.7
+    },
+    {
+      "author": "Synthetic (research test case)",
+      "n": 3,
+      "mean_delta": -1.0197,
+      "pct_liberating": 32.8
+    },
+    {
+      "author": "Alfred Lord Tennyson",
+      "n": 3,
+      "mean_delta": -1.0104,
+      "pct_liberating": 32.5
+    },
+    {
+      "author": "Wallace Stevens",
+      "n": 3,
+      "mean_delta": -1.3192,
+      "pct_liberating": 32.3
+    },
+    {
+      "author": "Alexander Pope",
+      "n": 4,
+      "mean_delta": -0.9658,
+      "pct_liberating": 29.6
+    },
+    {
+      "author": "Control",
+      "n": 5,
+      "mean_delta": -1.962,
+      "pct_liberating": 26.7
+    },
+    {
+      "author": "Edmund Clerihew Bentley",
+      "n": 3,
+      "mean_delta": -1.5235,
+      "pct_liberating": 26.7
+    },
+    {
+      "author": "Kobayashi Issa",
+      "n": 3,
+      "mean_delta": -0.5098,
+      "pct_liberating": 11.1
+    }
+  ],
+  "liberating_examples": [
+    {
+      "token": " the",
+      "s2": 5.36,
+      "curr_entropy": 2.137,
+      "next_entropy": 12.357,
+      "delta": 10.22,
+      "type": "liberating",
+      "context": "",
+      "author": "Alfred, Lord Tennyson",
+      "title": "The Lady of Shalott (Part I)"
+    },
+    {
+      "token": " the",
+      "s2": 5.36,
+      "curr_entropy": 2.137,
+      "next_entropy": 12.357,
+      "delta": 10.22,
+      "type": "liberating",
+      "context": "",
+      "author": "Alfred, Lord Tennyson",
+      "title": "The Lady of Shalott (opening)"
+    },
+    {
+      "token": " the",
+      "s2": 9.98,
+      "curr_entropy": 0.452,
+      "next_entropy": 9.879,
+      "delta": 9.427,
+      "type": "liberating",
+      "context": "\nAstound",
+      "author": "Gregory Corso",
+      "title": "Marriage"
+    },
+    {
+      "token": " and",
+      "s2": 10.75,
+      "curr_entropy": 2.128,
+      "next_entropy": 10.847,
+      "delta": 8.718,
+      "type": "liberating",
+      "context": "",
+      "author": "Lawrence Ferlinghetti",
+      "title": "Constantly Risking Absurdity"
+    },
+    {
+      "token": " your",
+      "s2": 6.84,
+      "curr_entropy": 1.198,
+      "next_entropy": 9.749,
+      "delta": 8.551,
+      "type": "liberating",
+      "context": "",
+      "author": "A.E. Housman",
+      "title": "To an Athlete Dying Young"
+    },
+    {
+      "token": " '",
+      "s2": 8.06,
+      "curr_entropy": 3.567,
+      "next_entropy": 11.525,
+      "delta": 7.958,
+      "type": "liberating",
+      "context": "",
+      "author": "Synthetic (shadow-poem meta-poem)",
+      "title": "Villanelle of the Unsaid"
+    },
+    {
+      "token": " the",
+      "s2": 7.96,
+      "curr_entropy": 2.933,
+      "next_entropy": 10.81,
+      "delta": 7.876,
+      "type": "liberating",
+      "context": " the two to",
+      "author": "Carolyn Wells",
+      "title": "A Tutor Who Tooted the Flute"
+    },
+    {
+      "token": " stall",
+      "s2": 17.85,
+      "curr_entropy": 2.613,
+      "next_entropy": 10.464,
+      "delta": 7.851,
+      "type": "liberating",
+      "context": "   ",
+      "author": "E.E. Cummings",
+      "title": "Buffalo Bill 's"
+    },
+    {
+      "token": "The",
+      "s2": 2.76,
+      "curr_entropy": 4.392,
+      "next_entropy": 12.202,
+      "delta": 7.81,
+      "type": "liberating",
+      "context": "",
+      "author": "Synthetic (shadow-divergence test case)",
+      "title": "Decreasing Divergence: The Coined Word Ladder"
+    },
+    {
+      "token": "A",
+      "s2": 4.86,
+      "curr_entropy": 2.461,
+      "next_entropy": 10.142,
+      "delta": 7.681,
+      "type": "liberating",
+      "context": " catastrophe!\n",
+      "author": "Georges Perec",
+      "title": "Variations on A (excerpt)"
+    },
+    {
+      "token": "The",
+      "s2": 2.99,
+      "curr_entropy": 3.867,
+      "next_entropy": 11.042,
+      "delta": 7.175,
+      "type": "liberating",
+      "context": "",
+      "author": "Federico Garc\u00eda Lorca",
+      "title": "Somnambule Ballad"
+    },
+    {
+      "token": "The",
+      "s2": 2.99,
+      "curr_entropy": 3.867,
+      "next_entropy": 11.042,
+      "delta": 7.175,
+      "type": "liberating",
+      "context": "",
+      "author": "Federico Garc\u00eda Lorca (trans. Stephen Spender & J.L. Gili)",
+      "title": "Somnambulistic Ballad (excerpt)"
+    },
+    {
+      "token": "'s",
+      "s2": 9.47,
+      "curr_entropy": 1.087,
+      "next_entropy": 8.24,
+      "delta": 7.153,
+      "type": "liberating",
+      "context": " whom thou think",
+      "author": "John Donne",
+      "title": "Death, Be Not Proud (Holy Sonnet X)"
+    },
+    {
+      "token": " my",
+      "s2": 4.45,
+      "curr_entropy": 2.883,
+      "next_entropy": 9.806,
+      "delta": 6.923,
+      "type": "liberating",
+      "context": "",
+      "author": "Synthetic (shadow-divergence test case)",
+      "title": "Decreasing Divergence: The Coined Word Ladder"
+    },
+    {
+      "token": "\u2014",
+      "s2": 8.65,
+      "curr_entropy": 1.514,
+      "next_entropy": 8.428,
+      "delta": 6.915,
+      "type": "liberating",
+      "context": "osophically",
+      "author": "Synthetic (double dactyl test case)",
+      "title": "Alfred Lord Tennyson (Double Dactyl)"
+    },
+    {
+      "token": " more",
+      "s2": 3.46,
+      "curr_entropy": 0.645,
+      "next_entropy": 7.538,
+      "delta": 6.893,
+      "type": "liberating",
+      "context": "",
+      "author": "Christina Rossetti",
+      "title": "Remember"
+    },
+    {
+      "token": " thy",
+      "s2": 4.54,
+      "curr_entropy": 3.708,
+      "next_entropy": 10.492,
+      "delta": 6.785,
+      "type": "liberating",
+      "context": "",
+      "author": "William Blake",
+      "title": "The Chimney Sweeper (Experience)"
+    },
+    {
+      "token": ":",
+      "s2": 5.29,
+      "curr_entropy": 2.969,
+      "next_entropy": 9.745,
+      "delta": 6.776,
+      "type": "liberating",
+      "context": "",
+      "author": "Countee Cullen",
+      "title": "Heritage (opening)"
+    },
+    {
+      "token": " some",
+      "s2": 4.86,
+      "curr_entropy": 3.967,
+      "next_entropy": 10.64,
+      "delta": 6.672,
+      "type": "liberating",
+      "context": "",
+      "author": "C\u00e9sar Vallejo",
+      "title": "Black Stone Lying on a White Stone"
+    },
+    {
+      "token": " some",
+      "s2": 4.86,
+      "curr_entropy": 3.967,
+      "next_entropy": 10.64,
+      "delta": 6.672,
+      "type": "liberating",
+      "context": "",
+      "author": "C\u00e9sar Vallejo (trans. Thomas Merton)",
+      "title": "Black Stone Lying on a White Stone"
+    }
+  ],
+  "channeling_examples": [
+    {
+      "token": " SOU",
+      "s2": 2.97,
+      "curr_entropy": 12.158,
+      "next_entropy": 2.253,
+      "delta": -9.904,
+      "type": "channeling",
+      "context": "",
+      "author": "W.B. Yeats",
+      "title": "A Dialogue of Self and Soul (Part I)"
+    },
+    {
+      "token": " might",
+      "s2": 4.47,
+      "curr_entropy": 9.203,
+      "next_entropy": 1.062,
+      "delta": -8.141,
+      "type": "channeling",
+      "context": ",\nthe",
+      "author": "Caedmon (trans. anon.)",
+      "title": "Caedmon's Hymn (modern prose translation)"
+    },
+    {
+      "token": " noon",
+      "s2": 3.21,
+      "curr_entropy": 11.374,
+      "next_entropy": 3.6,
+      "delta": -7.774,
+      "type": "channeling",
+      "context": "",
+      "author": "William Stafford",
+      "title": "At the Bomb Testing Site"
+    },
+    {
+      "token": " Properties",
+      "s2": 5.83,
+      "curr_entropy": 10.322,
+      "next_entropy": 2.766,
+      "delta": -7.556,
+      "type": "channeling",
+      "context": " to explain the",
+      "author": "Isaac Newton (found text)",
+      "title": "Scientific Method (Found Poem from Newton's Opticks, 1704)"
+    },
+    {
+      "token": " friends",
+      "s2": 3.21,
+      "curr_entropy": 11.047,
+      "next_entropy": 3.502,
+      "delta": -7.545,
+      "type": "channeling",
+      "context": "",
+      "author": "John Berryman",
+      "title": "Dream Song 14 (opening)"
+    },
+    {
+      "token": " grand",
+      "s2": 2.14,
+      "curr_entropy": 8.725,
+      "next_entropy": 1.24,
+      "delta": -7.486,
+      "type": "channeling",
+      "context": "",
+      "author": "Gerard Manley Hopkins",
+      "title": "God's Grandeur"
+    },
+    {
+      "token": " indeed",
+      "s2": 2.64,
+      "curr_entropy": 10.409,
+      "next_entropy": 2.973,
+      "delta": -7.436,
+      "type": "channeling",
+      "context": "",
+      "author": "T.S. Eliot",
+      "title": "The Love Song of J. Alfred Prufrock (middle)"
+    },
+    {
+      "token": " nothing",
+      "s2": 3.4,
+      "curr_entropy": 11.725,
+      "next_entropy": 4.47,
+      "delta": -7.255,
+      "type": "channeling",
+      "context": "",
+      "author": "Barrett Watten",
+      "title": "Progress (excerpt)"
+    },
+    {
+      "token": " Ruler",
+      "s2": 2.62,
+      "curr_entropy": 11.126,
+      "next_entropy": 3.872,
+      "delta": -7.254,
+      "type": "channeling",
+      "context": "",
+      "author": "Caedmon (trans. anon.)",
+      "title": "Caedmon's Hymn (modern prose translation)"
+    },
+    {
+      "token": " prowess",
+      "s2": 7.52,
+      "curr_entropy": 8.732,
+      "next_entropy": 1.552,
+      "delta": -7.18,
+      "type": "channeling",
+      "context": " praise of the",
+      "author": "Anonymous (trans. Francis B. Gummere)",
+      "title": "Beowulf (opening, trans. Gummere)"
+    },
+    {
+      "token": " prowess",
+      "s2": 7.52,
+      "curr_entropy": 8.732,
+      "next_entropy": 1.552,
+      "delta": -7.18,
+      "type": "channeling",
+      "context": " praise of the",
+      "author": "Anonymous (trans. Hall)",
+      "title": "Beowulf: The Opening (Hall translation, 1892)"
+    },
+    {
+      "token": " charged",
+      "s2": 6.14,
+      "curr_entropy": 8.555,
+      "next_entropy": 1.443,
+      "delta": -7.111,
+      "type": "channeling",
+      "context": "",
+      "author": "Gerard Manley Hopkins",
+      "title": "God's Grandeur"
+    },
+    {
+      "token": " sap",
+      "s2": 4.63,
+      "curr_entropy": 11.3,
+      "next_entropy": 4.216,
+      "delta": -7.084,
+      "type": "channeling",
+      "context": "",
+      "author": "Derek Walcott",
+      "title": "The Season of Phantasmal Peace"
+    },
+    {
+      "token": " heavens",
+      "s2": 3.66,
+      "curr_entropy": 12.727,
+      "next_entropy": 5.694,
+      "delta": -7.033,
+      "type": "channeling",
+      "context": "",
+      "author": "Anonymous (Hebrew Bible)",
+      "title": "Psalm 19:1-6 (KJV)"
+    },
+    {
+      "token": " strand",
+      "s2": 5.04,
+      "curr_entropy": 10.021,
+      "next_entropy": 3.107,
+      "delta": -6.915,
+      "type": "channeling",
+      "context": " name upon the",
+      "author": "Edmund Spenser",
+      "title": "Amoretti LXXV: One Day I Wrote Her Name"
+    },
+    {
+      "token": " voice",
+      "s2": 2.01,
+      "curr_entropy": 10.149,
+      "next_entropy": 3.467,
+      "delta": -6.682,
+      "type": "channeling",
+      "context": "",
+      "author": "Isaac Watts",
+      "title": "'Tis the Voice of the Sluggard"
+    },
+    {
+      "token": " voice",
+      "s2": 2.01,
+      "curr_entropy": 10.149,
+      "next_entropy": 3.467,
+      "delta": -6.682,
+      "type": "channeling",
+      "context": "",
+      "author": "Lewis Carroll",
+      "title": "'Tis the Voice of the Lobster"
+    },
+    {
+      "token": " concerned",
+      "s2": 3.31,
+      "curr_entropy": 8.024,
+      "next_entropy": 1.371,
+      "delta": -6.653,
+      "type": "channeling",
+      "context": "",
+      "author": "John Ashbery",
+      "title": "Paradoxes and Oxymorons"
+    },
+    {
+      "token": " cherry",
+      "s2": 4.01,
+      "curr_entropy": 11.694,
+      "next_entropy": 5.066,
+      "delta": -6.628,
+      "type": "channeling",
+      "context": " there were no",
+      "author": "Ariwara no Narihira",
+      "title": "Tanka on cherry blossoms (Ariwara no Narihira, literal trans.)"
+    },
+    {
+      "token": " pro",
+      "s2": 8.58,
+      "curr_entropy": 7.2,
+      "next_entropy": 0.723,
+      "delta": -6.477,
+      "type": "channeling",
+      "context": "ruck driver was",
+      "author": "Gottfried Benn",
+      "title": "Kleine Aster (Little Aster, trans. Ward)"
+    }
+  ]
+}
