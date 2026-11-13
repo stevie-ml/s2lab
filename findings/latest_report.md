@@ -1,5 +1,5 @@
 # S₂ Lab Research Report
-**Generated:** 2026-11-12 18:47:41
+**Generated:** 2026-11-13 01:00:00
 **Corpus:** 411 texts analyzed with GPT-2
 **Model:** gpt2 (117M parameters)
 
@@ -358,6 +358,28 @@ The poetry–prose gap is real and survives artifact removal. Poetry is measurab
 
 Do nouns, verbs, adjectives, and function words have systematically different S₂ values in poetry vs prose?
 
-*Syntactic position experiment skipped: No module named 'nltk'*
+*Syntactic position experiment skipped: 
+**********************************************************************
+  Resource 'punkt_tab' not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  >>> import nltk
+  >>> nltk.download('punkt_tab')
+
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load 'tokenizers/punkt_tab/english/'
+
+  Searched in:
+    - '/root/nltk_data'
+    - '/usr/local/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+*
 
 ---

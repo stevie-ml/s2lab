@@ -1,0 +1,824 @@
+{
+  "summary": {
+    "n_poems": 411,
+    "n_tokens_processed": 25029,
+    "n_wordnet_hits": 20803,
+    "n_unique_words": 5942,
+    "pearson_r_polysemy_s2": -0.0669
+  },
+  "bucket_summary": {
+    "hapax/OOV": {
+      "n": 4226,
+      "mean_s2": 0.873,
+      "median_s2": -0.122,
+      "std_s2": 3.9178,
+      "spike_rate": 0.2418
+    },
+    "monosemous (1)": {
+      "n": 1991,
+      "mean_s2": 1.5014,
+      "median_s2": 0.5691,
+      "std_s2": 4.2348,
+      "spike_rate": 0.3104
+    },
+    "low (2-3)": {
+      "n": 3437,
+      "mean_s2": 1.4786,
+      "median_s2": 0.5946,
+      "std_s2": 4.1154,
+      "spike_rate": 0.3157
+    },
+    "medium (4-7)": {
+      "n": 6102,
+      "mean_s2": 1.1119,
+      "median_s2": 0.2764,
+      "std_s2": 4.1402,
+      "spike_rate": 0.2822
+    },
+    "high (8-15)": {
+      "n": 5951,
+      "mean_s2": 0.7662,
+      "median_s2": 0.0544,
+      "std_s2": 3.9817,
+      "spike_rate": 0.2522
+    },
+    "very_high (16+)": {
+      "n": 3322,
+      "mean_s2": 0.7025,
+      "median_s2": 0.0956,
+      "std_s2": 3.8224,
+      "spike_rate": 0.2453
+    }
+  },
+  "synset_profile": {
+    "1": {
+      "n_words": 562,
+      "mean_s2": 2.6584
+    },
+    "2": {
+      "n_words": 542,
+      "mean_s2": 3.0418
+    },
+    "3": {
+      "n_words": 512,
+      "mean_s2": 2.6592
+    },
+    "4": {
+      "n_words": 484,
+      "mean_s2": 2.4544
+    },
+    "5": {
+      "n_words": 408,
+      "mean_s2": 2.8236
+    },
+    "6": {
+      "n_words": 322,
+      "mean_s2": 2.4501
+    },
+    "7": {
+      "n_words": 304,
+      "mean_s2": 3.0661
+    },
+    "8": {
+      "n_words": 210,
+      "mean_s2": 2.6402
+    },
+    "9": {
+      "n_words": 186,
+      "mean_s2": 2.2796
+    },
+    "10": {
+      "n_words": 185,
+      "mean_s2": 2.3564
+    },
+    "11": {
+      "n_words": 147,
+      "mean_s2": 2.242
+    },
+    "12": {
+      "n_words": 101,
+      "mean_s2": 1.9832
+    },
+    "13": {
+      "n_words": 101,
+      "mean_s2": 2.7603
+    },
+    "14": {
+      "n_words": 68,
+      "mean_s2": 1.7804
+    },
+    "15": {
+      "n_words": 74,
+      "mean_s2": 1.8408
+    },
+    "16": {
+      "n_words": 58,
+      "mean_s2": 2.2503
+    },
+    "17": {
+      "n_words": 47,
+      "mean_s2": 2.881
+    },
+    "18": {
+      "n_words": 53,
+      "mean_s2": 1.7341
+    },
+    "19": {
+      "n_words": 24,
+      "mean_s2": 2.4572
+    },
+    "20": {
+      "n_words": 23,
+      "mean_s2": 3.2168
+    }
+  },
+  "top_high_polysemy_high_s2": [
+    {
+      "word": "bes",
+      "n_synsets": 14,
+      "mean_s2": 6.6896,
+      "n_appearances": 7
+    },
+    {
+      "word": "bent",
+      "n_synsets": 13,
+      "mean_s2": 6.5629,
+      "n_appearances": 5
+    },
+    {
+      "word": "fresh",
+      "n_synsets": 13,
+      "mean_s2": 5.9147,
+      "n_appearances": 10
+    },
+    {
+      "word": "follow",
+      "n_synsets": 24,
+      "mean_s2": 5.9072,
+      "n_appearances": 5
+    },
+    {
+      "word": "stay",
+      "n_synsets": 16,
+      "mean_s2": 5.4947,
+      "n_appearances": 5
+    },
+    {
+      "word": "plain",
+      "n_synsets": 11,
+      "mean_s2": 4.9768,
+      "n_appearances": 8
+    },
+    {
+      "word": "straight",
+      "n_synsets": 21,
+      "mean_s2": 4.8209,
+      "n_appearances": 8
+    },
+    {
+      "word": "fast",
+      "n_synsets": 15,
+      "mean_s2": 4.7072,
+      "n_appearances": 7
+    },
+    {
+      "word": "steady",
+      "n_synsets": 10,
+      "mean_s2": 4.4904,
+      "n_appearances": 7
+    },
+    {
+      "word": "breathing",
+      "n_synsets": 11,
+      "mean_s2": 4.4792,
+      "n_appearances": 5
+    },
+    {
+      "word": "turning",
+      "n_synsets": 32,
+      "mean_s2": 4.4329,
+      "n_appearances": 10
+    },
+    {
+      "word": "falls",
+      "n_synsets": 46,
+      "mean_s2": 4.3504,
+      "n_appearances": 6
+    },
+    {
+      "word": "shining",
+      "n_synsets": 15,
+      "mean_s2": 4.2295,
+      "n_appearances": 5
+    },
+    {
+      "word": "passing",
+      "n_synsets": 37,
+      "mean_s2": 4.158,
+      "n_appearances": 7
+    },
+    {
+      "word": "stiff",
+      "n_synsets": 11,
+      "mean_s2": 4.0814,
+      "n_appearances": 6
+    },
+    {
+      "word": "mark",
+      "n_synsets": 30,
+      "mean_s2": 4.0781,
+      "n_appearances": 8
+    },
+    {
+      "word": "fit",
+      "n_synsets": 16,
+      "mean_s2": 4.0752,
+      "n_appearances": 5
+    },
+    {
+      "word": "burn",
+      "n_synsets": 20,
+      "mean_s2": 3.9326,
+      "n_appearances": 6
+    },
+    {
+      "word": "marks",
+      "n_synsets": 31,
+      "mean_s2": 3.8859,
+      "n_appearances": 6
+    },
+    {
+      "word": "cloud",
+      "n_synsets": 14,
+      "mean_s2": 3.847,
+      "n_appearances": 5
+    }
+  ],
+  "top_high_polysemy_low_s2": [
+    {
+      "word": "heart",
+      "n_synsets": 10,
+      "mean_s2": -2.784,
+      "n_appearances": 49
+    },
+    {
+      "word": "book",
+      "n_synsets": 15,
+      "mean_s2": -2.7537,
+      "n_appearances": 8
+    },
+    {
+      "word": "race",
+      "n_synsets": 10,
+      "mean_s2": -2.6562,
+      "n_appearances": 7
+    },
+    {
+      "word": "putting",
+      "n_synsets": 10,
+      "mean_s2": -2.6504,
+      "n_appearances": 5
+    },
+    {
+      "word": "knows",
+      "n_synsets": 12,
+      "mean_s2": -2.6196,
+      "n_appearances": 7
+    },
+    {
+      "word": "ground",
+      "n_synsets": 30,
+      "mean_s2": -2.5046,
+      "n_appearances": 11
+    },
+    {
+      "word": "hand",
+      "n_synsets": 16,
+      "mean_s2": -2.2729,
+      "n_appearances": 54
+    },
+    {
+      "word": "heads",
+      "n_synsets": 42,
+      "mean_s2": -2.2709,
+      "n_appearances": 5
+    },
+    {
+      "word": "cry",
+      "n_synsets": 12,
+      "mean_s2": -2.165,
+      "n_appearances": 6
+    },
+    {
+      "word": "flew",
+      "n_synsets": 14,
+      "mean_s2": -2.1597,
+      "n_appearances": 5
+    },
+    {
+      "word": "place",
+      "n_synsets": 32,
+      "mean_s2": -2.1003,
+      "n_appearances": 14
+    },
+    {
+      "word": "see",
+      "n_synsets": 25,
+      "mean_s2": -2.0876,
+      "n_appearances": 47
+    },
+    {
+      "word": "face",
+      "n_synsets": 22,
+      "mean_s2": -2.0749,
+      "n_appearances": 21
+    },
+    {
+      "word": "way",
+      "n_synsets": 13,
+      "mean_s2": -2.0491,
+      "n_appearances": 48
+    },
+    {
+      "word": "longer",
+      "n_synsets": 11,
+      "mean_s2": -1.9964,
+      "n_appearances": 7
+    }
+  ],
+  "top_monosemous_high_s2": [
+    {
+      "word": "wealthy",
+      "mean_s2": 10.2233,
+      "n_appearances": 3
+    },
+    {
+      "word": "viol",
+      "mean_s2": 10.1789,
+      "n_appearances": 3
+    },
+    {
+      "word": "duchess",
+      "mean_s2": 9.7252,
+      "n_appearances": 3
+    },
+    {
+      "word": "inter",
+      "mean_s2": 9.4659,
+      "n_appearances": 3
+    },
+    {
+      "word": "sd",
+      "mean_s2": 9.0321,
+      "n_appearances": 3
+    },
+    {
+      "word": "bos",
+      "mean_s2": 8.6391,
+      "n_appearances": 5
+    },
+    {
+      "word": "trave",
+      "mean_s2": 8.2493,
+      "n_appearances": 5
+    },
+    {
+      "word": "der",
+      "mean_s2": 7.7379,
+      "n_appearances": 4
+    },
+    {
+      "word": "june",
+      "mean_s2": 7.0036,
+      "n_appearances": 5
+    },
+    {
+      "word": "ben",
+      "mean_s2": 6.5748,
+      "n_appearances": 3
+    },
+    {
+      "word": "fe",
+      "mean_s2": 6.4158,
+      "n_appearances": 4
+    },
+    {
+      "word": "whatever",
+      "mean_s2": 6.4018,
+      "n_appearances": 8
+    },
+    {
+      "word": "goddess",
+      "mean_s2": 6.3693,
+      "n_appearances": 5
+    },
+    {
+      "word": "babylon",
+      "mean_s2": 6.3123,
+      "n_appearances": 3
+    },
+    {
+      "word": "nobody",
+      "mean_s2": 6.3108,
+      "n_appearances": 6
+    },
+    {
+      "word": "sur",
+      "mean_s2": 5.9329,
+      "n_appearances": 11
+    },
+    {
+      "word": "prom",
+      "mean_s2": 5.5143,
+      "n_appearances": 3
+    },
+    {
+      "word": "usually",
+      "mean_s2": 5.2714,
+      "n_appearances": 4
+    },
+    {
+      "word": "movies",
+      "mean_s2": 5.1606,
+      "n_appearances": 3
+    },
+    {
+      "word": "everywhere",
+      "mean_s2": 5.1292,
+      "n_appearances": 8
+    }
+  ],
+  "era_comparison": {
+    "18th_century": {
+      "high_poly_mean_s2": 1.3787,
+      "low_poly_mean_s2": 1.6892,
+      "gap": -0.3105,
+      "n_high": 252,
+      "n_low": 325
+    },
+    "19th_century": {
+      "high_poly_mean_s2": 0.6544,
+      "low_poly_mean_s2": 1.3443,
+      "gap": -0.6899,
+      "n_high": 575,
+      "n_low": 720
+    },
+    "ancient": {
+      "high_poly_mean_s2": 0.8934,
+      "low_poly_mean_s2": 1.2834,
+      "gap": -0.39,
+      "n_high": 32,
+      "n_low": 95
+    },
+    "ballad": {
+      "high_poly_mean_s2": 0.3383,
+      "low_poly_mean_s2": 0.5061,
+      "gap": -0.1678,
+      "n_high": 117,
+      "n_low": 284
+    },
+    "beat": {
+      "high_poly_mean_s2": 2.3785,
+      "low_poly_mean_s2": 3.3331,
+      "gap": -0.9546,
+      "n_high": 111,
+      "n_low": 157
+    },
+    "biblical": {
+      "high_poly_mean_s2": 0.7921,
+      "low_poly_mean_s2": 0.473,
+      "gap": 0.3191,
+      "n_high": 201,
+      "n_low": 325
+    },
+    "black_arts": {
+      "high_poly_mean_s2": -0.2479,
+      "low_poly_mean_s2": 1.8268,
+      "gap": -2.0747,
+      "n_high": 48,
+      "n_low": 42
+    },
+    "classical_chinese": {
+      "high_poly_mean_s2": 1.1113,
+      "low_poly_mean_s2": 0.4315,
+      "gap": 0.6798,
+      "n_high": 64,
+      "n_low": 54
+    },
+    "clerihew": {
+      "high_poly_mean_s2": 2.21,
+      "low_poly_mean_s2": 3.1265,
+      "gap": -0.9165,
+      "n_high": 26,
+      "n_low": 66
+    },
+    "cliche_control": {
+      "high_poly_mean_s2": -0.0611,
+      "low_poly_mean_s2": 0.0184,
+      "gap": -0.0795,
+      "n_high": 129,
+      "n_low": 86
+    },
+    "concrete": {
+      "high_poly_mean_s2": -0.3885,
+      "low_poly_mean_s2": 0.2877,
+      "gap": -0.6763,
+      "n_high": 28,
+      "n_low": 85
+    },
+    "confessional": {
+      "high_poly_mean_s2": 1.3244,
+      "low_poly_mean_s2": 2.1374,
+      "gap": -0.813,
+      "n_high": 62,
+      "n_low": 86
+    },
+    "contemporary": {
+      "high_poly_mean_s2": 0.6391,
+      "low_poly_mean_s2": 1.1562,
+      "gap": -0.5171,
+      "n_high": 518,
+      "n_low": 633
+    },
+    "control": {
+      "high_poly_mean_s2": -1.5163,
+      "low_poly_mean_s2": -1.4566,
+      "gap": -0.0597,
+      "n_high": 24,
+      "n_low": 45
+    },
+    "double_dactyl": {
+      "high_poly_mean_s2": -0.8556,
+      "low_poly_mean_s2": 0.7525,
+      "gap": -1.6081,
+      "n_high": 31,
+      "n_low": 73
+    },
+    "dramatic_monologue": {
+      "high_poly_mean_s2": 0.9277,
+      "low_poly_mean_s2": 1.8034,
+      "gap": -0.8758,
+      "n_high": 408,
+      "n_low": 526
+    },
+    "early_modern": {
+      "high_poly_mean_s2": 0.6788,
+      "low_poly_mean_s2": 1.9926,
+      "gap": -1.3138,
+      "n_high": 322,
+      "n_low": 359
+    },
+    "ekphrastic": {
+      "high_poly_mean_s2": 0.9288,
+      "low_poly_mean_s2": 1.0019,
+      "gap": -0.0731,
+      "n_high": 313,
+      "n_low": 462
+    },
+    "elegy": {
+      "high_poly_mean_s2": 0.7372,
+      "low_poly_mean_s2": 1.3196,
+      "gap": -0.5824,
+      "n_high": 215,
+      "n_low": 314
+    },
+    "fixed_form": {
+      "high_poly_mean_s2": 0.1779,
+      "low_poly_mean_s2": 0.5359,
+      "gap": -0.3579,
+      "n_high": 134,
+      "n_low": 168
+    },
+    "found_poetry": {
+      "high_poly_mean_s2": -0.0747,
+      "low_poly_mean_s2": 0.4856,
+      "gap": -0.5602,
+      "n_high": 190,
+      "n_low": 260
+    },
+    "german_expressionist": {
+      "high_poly_mean_s2": 1.2013,
+      "low_poly_mean_s2": 1.9983,
+      "gap": -0.797,
+      "n_high": 105,
+      "n_low": 101
+    },
+    "ghazal": {
+      "high_poly_mean_s2": 0.2412,
+      "low_poly_mean_s2": 1.8881,
+      "gap": -1.6469,
+      "n_high": 41,
+      "n_low": 46
+    },
+    "haiku": {
+      "high_poly_mean_s2": 0.7441,
+      "low_poly_mean_s2": 2.1659,
+      "gap": -1.4218,
+      "n_high": 57,
+      "n_low": 70
+    },
+    "harlem_renaissance": {
+      "high_poly_mean_s2": 0.5843,
+      "low_poly_mean_s2": 1.4194,
+      "gap": -0.8351,
+      "n_high": 147,
+      "n_low": 216
+    },
+    "imagist": {
+      "high_poly_mean_s2": 1.2908,
+      "low_poly_mean_s2": 1.2453,
+      "gap": 0.0454,
+      "n_high": 72,
+      "n_low": 59
+    },
+    "korean_modernist": {
+      "high_poly_mean_s2": -1.0657,
+      "low_poly_mean_s2": -0.1142,
+      "gap": -0.9514,
+      "n_high": 24,
+      "n_low": 23
+    },
+    "language": {
+      "high_poly_mean_s2": 0.6871,
+      "low_poly_mean_s2": 1.0918,
+      "gap": -0.4047,
+      "n_high": 102,
+      "n_low": 84
+    },
+    "latin_american": {
+      "high_poly_mean_s2": 0.8867,
+      "low_poly_mean_s2": 1.6732,
+      "gap": -0.7865,
+      "n_high": 82,
+      "n_low": 93
+    },
+    "limerick": {
+      "high_poly_mean_s2": -0.2464,
+      "low_poly_mean_s2": 1.3209,
+      "gap": -1.5673,
+      "n_high": 77,
+      "n_low": 65
+    },
+    "metaphysical": {
+      "high_poly_mean_s2": 0.7675,
+      "low_poly_mean_s2": 1.4465,
+      "gap": -0.679,
+      "n_high": 165,
+      "n_low": 181
+    },
+    "mid_century": {
+      "high_poly_mean_s2": 1.3008,
+      "low_poly_mean_s2": 1.8172,
+      "gap": -0.5165,
+      "n_high": 110,
+      "n_low": 132
+    },
+    "modernist": {
+      "high_poly_mean_s2": 1.0751,
+      "low_poly_mean_s2": 1.4494,
+      "gap": -0.3743,
+      "n_high": 538,
+      "n_low": 580
+    },
+    "new_york_school": {
+      "high_poly_mean_s2": 0.3134,
+      "low_poly_mean_s2": 1.3936,
+      "gap": -1.0803,
+      "n_high": 547,
+      "n_low": 519
+    },
+    "nonsense": {
+      "high_poly_mean_s2": 0.4083,
+      "low_poly_mean_s2": 0.2464,
+      "gap": 0.1619,
+      "n_high": 75,
+      "n_low": 117
+    },
+    "nursery_rhyme": {
+      "high_poly_mean_s2": -0.1314,
+      "low_poly_mean_s2": 0.3257,
+      "gap": -0.4572,
+      "n_high": 49,
+      "n_low": 42
+    },
+    "old_english": {
+      "high_poly_mean_s2": 1.0636,
+      "low_poly_mean_s2": 1.5589,
+      "gap": -0.4954,
+      "n_high": 109,
+      "n_low": 149
+    },
+    "oulipo": {
+      "high_poly_mean_s2": 1.2559,
+      "low_poly_mean_s2": 1.2512,
+      "gap": 0.0047,
+      "n_high": 154,
+      "n_low": 280
+    },
+    "pantoum": {
+      "high_poly_mean_s2": 1.0364,
+      "low_poly_mean_s2": 1.7665,
+      "gap": -0.7301,
+      "n_high": 25,
+      "n_low": 28
+    },
+    "parody": {
+      "high_poly_mean_s2": 0.6652,
+      "low_poly_mean_s2": 1.6722,
+      "gap": -1.007,
+      "n_high": 117,
+      "n_low": 135
+    },
+    "parody_original": {
+      "high_poly_mean_s2": 0.1173,
+      "low_poly_mean_s2": 1.3457,
+      "gap": -1.2284,
+      "n_high": 99,
+      "n_low": 84
+    },
+    "persian": {
+      "high_poly_mean_s2": 0.9729,
+      "low_poly_mean_s2": 1.4183,
+      "gap": -0.4453,
+      "n_high": 60,
+      "n_low": 70
+    },
+    "postcolonial": {
+      "high_poly_mean_s2": 0.8031,
+      "low_poly_mean_s2": 1.6633,
+      "gap": -0.8602,
+      "n_high": 149,
+      "n_low": 189
+    },
+    "prose_poetry": {
+      "high_poly_mean_s2": 0.5252,
+      "low_poly_mean_s2": 1.1203,
+      "gap": -0.5951,
+      "n_high": 297,
+      "n_low": 265
+    },
+    "protest_political": {
+      "high_poly_mean_s2": 1.1481,
+      "low_poly_mean_s2": 0.7832,
+      "gap": 0.365,
+      "n_high": 46,
+      "n_low": 57
+    },
+    "romantic": {
+      "high_poly_mean_s2": 0.7114,
+      "low_poly_mean_s2": 1.118,
+      "gap": -0.4066,
+      "n_high": 635,
+      "n_low": 949
+    },
+    "rondeau": {
+      "high_poly_mean_s2": 1.813,
+      "low_poly_mean_s2": 0.7627,
+      "gap": 1.0504,
+      "n_high": 31,
+      "n_low": 29
+    },
+    "song_lyrics": {
+      "high_poly_mean_s2": -0.0353,
+      "low_poly_mean_s2": 0.4618,
+      "gap": -0.4971,
+      "n_high": 111,
+      "n_low": 95
+    },
+    "spoken_word": {
+      "high_poly_mean_s2": 0.3662,
+      "low_poly_mean_s2": 2.6148,
+      "gap": -2.2486,
+      "n_high": 55,
+      "n_low": 47
+    },
+    "surrealist": {
+      "high_poly_mean_s2": 0.5727,
+      "low_poly_mean_s2": 1.4924,
+      "gap": -0.9197,
+      "n_high": 235,
+      "n_low": 195
+    },
+    "victorian": {
+      "high_poly_mean_s2": 1.1578,
+      "low_poly_mean_s2": 1.294,
+      "gap": -0.1362,
+      "n_high": 913,
+      "n_low": 1184
+    },
+    "villanelle": {
+      "high_poly_mean_s2": 0.2574,
+      "low_poly_mean_s2": 1.6294,
+      "gap": -1.3719,
+      "n_high": 89,
+      "n_low": 79
+    },
+    "war_poetry": {
+      "high_poly_mean_s2": 1.0151,
+      "low_poly_mean_s2": 1.1541,
+      "gap": -0.1391,
+      "n_high": 118,
+      "n_low": 154
+    }
+  }
+}
