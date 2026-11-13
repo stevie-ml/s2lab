@@ -1,0 +1,447 @@
+{
+  "total_high_s2": 11201,
+  "consecutive_surprise_rate": 20.7,
+  "post_surprise_distribution": {
+    "CONTENT_WORD": 72.9,
+    "PUNCTUATION": 17.0,
+    "NEWLINE": 6.6,
+    "FUNCTION_WORD": 3.4
+  },
+  "baseline_distribution": {
+    "CONTENT_WORD": 70.0,
+    "NEWLINE": 12.6,
+    "PUNCTUATION": 10.5,
+    "FUNCTION_WORD": 6.9
+  },
+  "post_surprise_top_tokens": {
+    ",": 884,
+    "\n": 710,
+    ".": 458,
+    " the": 365,
+    " of": 263,
+    " and": 221,
+    " to": 151,
+    "-": 145,
+    " in": 129,
+    " a": 121,
+    ";": 116,
+    " is": 84,
+    " on": 83,
+    " i": 81,
+    ":": 68,
+    "'s": 68,
+    "!": 67,
+    " with": 67,
+    "'d": 64,
+    " for": 58,
+    " my": 57,
+    "'": 55,
+    " you": 54,
+    "?": 54,
+    " his": 53,
+    " me": 51,
+    " that": 48,
+    " from": 47,
+    " it": 47,
+    " as": 45
+  },
+  "baseline_top_tokens": {
+    "\n": 4746,
+    ",": 2228,
+    " the": 1645,
+    ".": 1255,
+    " ": 983,
+    " and": 707,
+    " of": 557,
+    " a": 529,
+    "and": 430,
+    " i": 427,
+    " to": 409,
+    " in": 360,
+    "the": 344,
+    ";": 311,
+    " is": 285,
+    " his": 226,
+    " my": 224,
+    " that": 204,
+    "i": 202,
+    " for": 198,
+    " you": 198,
+    " he": 194,
+    ":": 187,
+    "-": 182,
+    " it": 177,
+    "?": 167,
+    " not": 165,
+    " me": 154,
+    "'s": 154,
+    " on": 151
+  },
+  "by_s2_bucket": {
+    "high (5\u20139.5)": {
+      "CONTENT_WORD": 73.1,
+      "PUNCTUATION": 17.7,
+      "NEWLINE": 5.8,
+      "FUNCTION_WORD": 3.4
+    },
+    "extreme (\u22659.5)": {
+      "CONTENT_WORD": 71.6,
+      "PUNCTUATION": 18.6,
+      "NEWLINE": 6.9,
+      "FUNCTION_WORD": 2.9
+    },
+    "moderate (2\u20135)": {
+      "CONTENT_WORD": 73.1,
+      "PUNCTUATION": 16.3,
+      "NEWLINE": 7.0,
+      "FUNCTION_WORD": 3.6
+    }
+  },
+  "post2_distribution": {
+    "CONTENT_WORD": 70.4,
+    "PUNCTUATION": 12.8,
+    "NEWLINE": 12.5,
+    "FUNCTION_WORD": 4.3
+  },
+  "by_era": {
+    "romantic": {
+      "CONTENT_WORD": 73.0,
+      "PUNCTUATION": 19.4,
+      "NEWLINE": 4.1,
+      "FUNCTION_WORD": 3.6
+    },
+    "19th_century": {
+      "CONTENT_WORD": 79.3,
+      "PUNCTUATION": 13.7,
+      "NEWLINE": 4.4,
+      "FUNCTION_WORD": 2.6
+    },
+    "modernist": {
+      "CONTENT_WORD": 70.4,
+      "PUNCTUATION": 14.2,
+      "NEWLINE": 11.1,
+      "FUNCTION_WORD": 4.4
+    },
+    "beat": {
+      "CONTENT_WORD": 74.1,
+      "NEWLINE": 13.8,
+      "PUNCTUATION": 9.5,
+      "FUNCTION_WORD": 2.6
+    },
+    "confessional": {
+      "CONTENT_WORD": 67.3,
+      "PUNCTUATION": 19.8,
+      "NEWLINE": 8.9,
+      "FUNCTION_WORD": 4.0
+    },
+    "mid_century": {
+      "CONTENT_WORD": 69.3,
+      "PUNCTUATION": 23.6,
+      "NEWLINE": 6.3,
+      "FUNCTION_WORD": 0.8
+    },
+    "new_york_school": {
+      "CONTENT_WORD": 70.4,
+      "PUNCTUATION": 15.2,
+      "NEWLINE": 9.5,
+      "FUNCTION_WORD": 4.8
+    },
+    "language": {
+      "CONTENT_WORD": 69.2,
+      "PUNCTUATION": 19.8,
+      "NEWLINE": 7.7,
+      "FUNCTION_WORD": 3.3
+    },
+    "contemporary": {
+      "CONTENT_WORD": 73.0,
+      "PUNCTUATION": 17.1,
+      "NEWLINE": 6.3,
+      "FUNCTION_WORD": 3.6
+    },
+    "harlem_renaissance": {
+      "CONTENT_WORD": 77.5,
+      "PUNCTUATION": 11.8,
+      "NEWLINE": 9.5,
+      "FUNCTION_WORD": 1.2
+    },
+    "oulipo": {
+      "CONTENT_WORD": 75.6,
+      "PUNCTUATION": 17.8,
+      "FUNCTION_WORD": 4.1,
+      "NEWLINE": 2.5
+    },
+    "surrealist": {
+      "CONTENT_WORD": 72.2,
+      "PUNCTUATION": 15.2,
+      "NEWLINE": 7.6,
+      "FUNCTION_WORD": 4.9
+    },
+    "german_symbolist": {
+      "CONTENT_WORD": 81.4,
+      "PUNCTUATION": 9.8,
+      "NEWLINE": 7.8,
+      "FUNCTION_WORD": 1.0
+    },
+    "german_expressionist": {
+      "CONTENT_WORD": 76.9,
+      "PUNCTUATION": 14.6,
+      "NEWLINE": 6.5,
+      "FUNCTION_WORD": 2.0
+    },
+    "german_modernist": {
+      "CONTENT_WORD": 75.4,
+      "PUNCTUATION": 11.6,
+      "NEWLINE": 8.7,
+      "FUNCTION_WORD": 4.3
+    },
+    "victorian": {
+      "CONTENT_WORD": 73.6,
+      "PUNCTUATION": 16.6,
+      "NEWLINE": 7.8,
+      "FUNCTION_WORD": 2.0
+    },
+    "haiku": {
+      "CONTENT_WORD": 58.9,
+      "PUNCTUATION": 26.0,
+      "NEWLINE": 12.3,
+      "FUNCTION_WORD": 2.7
+    },
+    "ancient": {
+      "CONTENT_WORD": 81.0,
+      "PUNCTUATION": 13.9,
+      "FUNCTION_WORD": 2.5,
+      "NEWLINE": 2.5
+    },
+    "prose_poetry": {
+      "CONTENT_WORD": 80.5,
+      "PUNCTUATION": 14.7,
+      "FUNCTION_WORD": 2.6,
+      "NEWLINE": 2.2
+    },
+    "ballad": {
+      "CONTENT_WORD": 65.4,
+      "PUNCTUATION": 24.0,
+      "FUNCTION_WORD": 6.7,
+      "NEWLINE": 3.9
+    },
+    "song_lyrics": {
+      "CONTENT_WORD": 82.1,
+      "PUNCTUATION": 14.1,
+      "FUNCTION_WORD": 3.8
+    },
+    "nursery_rhyme": {
+      "CONTENT_WORD": 79.5,
+      "PUNCTUATION": 15.4,
+      "NEWLINE": 5.1
+    },
+    "metaphysical": {
+      "CONTENT_WORD": 65.4,
+      "PUNCTUATION": 24.3,
+      "NEWLINE": 8.1,
+      "FUNCTION_WORD": 2.2
+    },
+    "early_modern": {
+      "CONTENT_WORD": 73.2,
+      "PUNCTUATION": 20.4,
+      "NEWLINE": 4.5,
+      "FUNCTION_WORD": 1.9
+    },
+    "spoken_word": {
+      "CONTENT_WORD": 74.1,
+      "PUNCTUATION": 11.1,
+      "NEWLINE": 9.3,
+      "FUNCTION_WORD": 5.6
+    },
+    "found_poetry": {
+      "CONTENT_WORD": 75.0,
+      "NEWLINE": 9.8,
+      "FUNCTION_WORD": 9.2,
+      "PUNCTUATION": 6.0
+    },
+    "fixed_form": {
+      "CONTENT_WORD": 65.7,
+      "PUNCTUATION": 15.4,
+      "NEWLINE": 11.2,
+      "FUNCTION_WORD": 7.7
+    },
+    "cliche_control": {
+      "CONTENT_WORD": 77.8,
+      "PUNCTUATION": 12.5,
+      "FUNCTION_WORD": 9.7
+    },
+    "18th_century": {
+      "CONTENT_WORD": 73.3,
+      "PUNCTUATION": 21.0,
+      "FUNCTION_WORD": 3.2,
+      "NEWLINE": 2.5
+    },
+    "biblical": {
+      "CONTENT_WORD": 83.5,
+      "PUNCTUATION": 14.2,
+      "FUNCTION_WORD": 1.4,
+      "NEWLINE": 0.9
+    },
+    "concrete": {
+      "CONTENT_WORD": 69.6,
+      "PUNCTUATION": 17.4,
+      "NEWLINE": 10.9,
+      "FUNCTION_WORD": 2.2
+    },
+    "latin_american": {
+      "CONTENT_WORD": 76.0,
+      "PUNCTUATION": 15.4,
+      "FUNCTION_WORD": 4.8,
+      "NEWLINE": 3.8
+    },
+    "black_arts": {
+      "CONTENT_WORD": 70.0,
+      "PUNCTUATION": 16.0,
+      "NEWLINE": 10.0,
+      "FUNCTION_WORD": 4.0
+    },
+    "korean_modernist": {
+      "CONTENT_WORD": 90.0,
+      "NEWLINE": 5.0,
+      "PUNCTUATION": 5.0
+    },
+    "imagist": {
+      "CONTENT_WORD": 64.4,
+      "PUNCTUATION": 19.2,
+      "NEWLINE": 11.0,
+      "FUNCTION_WORD": 5.5
+    },
+    "parody_original": {
+      "CONTENT_WORD": 73.2,
+      "PUNCTUATION": 17.1,
+      "NEWLINE": 6.1,
+      "FUNCTION_WORD": 3.7
+    },
+    "parody": {
+      "CONTENT_WORD": 74.1,
+      "PUNCTUATION": 20.0,
+      "NEWLINE": 3.7,
+      "FUNCTION_WORD": 2.2
+    },
+    "classical_chinese": {
+      "CONTENT_WORD": 66.0,
+      "PUNCTUATION": 21.3,
+      "FUNCTION_WORD": 8.5,
+      "NEWLINE": 4.3
+    },
+    "persian": {
+      "CONTENT_WORD": 74.7,
+      "PUNCTUATION": 14.3,
+      "NEWLINE": 7.7,
+      "FUNCTION_WORD": 3.3
+    },
+    "limerick": {
+      "CONTENT_WORD": 70.4,
+      "PUNCTUATION": 15.5,
+      "FUNCTION_WORD": 9.9,
+      "NEWLINE": 4.2
+    },
+    "old_english": {
+      "CONTENT_WORD": 73.9,
+      "PUNCTUATION": 21.8,
+      "FUNCTION_WORD": 2.8,
+      "NEWLINE": 1.4
+    },
+    "protest_political": {
+      "CONTENT_WORD": 70.8,
+      "PUNCTUATION": 20.8,
+      "NEWLINE": 6.2,
+      "FUNCTION_WORD": 2.1
+    },
+    "ghazal": {
+      "CONTENT_WORD": 60.8,
+      "PUNCTUATION": 29.4,
+      "FUNCTION_WORD": 5.9,
+      "NEWLINE": 3.9
+    },
+    "war_poetry": {
+      "CONTENT_WORD": 70.6,
+      "PUNCTUATION": 23.1,
+      "FUNCTION_WORD": 3.5,
+      "NEWLINE": 2.8
+    },
+    "postcolonial": {
+      "CONTENT_WORD": 67.7,
+      "PUNCTUATION": 16.1,
+      "NEWLINE": 12.5,
+      "FUNCTION_WORD": 3.6
+    },
+    "dramatic_monologue": {
+      "CONTENT_WORD": 67.9,
+      "PUNCTUATION": 21.6,
+      "NEWLINE": 7.5,
+      "FUNCTION_WORD": 2.9
+    },
+    "elegy": {
+      "CONTENT_WORD": 71.4,
+      "PUNCTUATION": 19.2,
+      "NEWLINE": 5.9,
+      "FUNCTION_WORD": 3.5
+    },
+    "clerihew": {
+      "CONTENT_WORD": 65.7,
+      "PUNCTUATION": 14.3,
+      "NEWLINE": 11.4,
+      "FUNCTION_WORD": 8.6
+    },
+    "double_dactyl": {
+      "CONTENT_WORD": 71.7,
+      "PUNCTUATION": 17.4,
+      "NEWLINE": 10.9
+    },
+    "ekphrastic": {
+      "CONTENT_WORD": 75.4,
+      "PUNCTUATION": 16.9,
+      "NEWLINE": 5.2,
+      "FUNCTION_WORD": 2.5
+    },
+    "villanelle": {
+      "CONTENT_WORD": 59.3,
+      "PUNCTUATION": 25.9,
+      "NEWLINE": 9.9,
+      "FUNCTION_WORD": 4.9
+    },
+    "pantoum": {
+      "CONTENT_WORD": 75.9,
+      "PUNCTUATION": 13.8,
+      "FUNCTION_WORD": 6.9,
+      "NEWLINE": 3.4
+    },
+    "rondeau": {
+      "CONTENT_WORD": 70.8,
+      "PUNCTUATION": 16.7,
+      "NEWLINE": 8.3,
+      "FUNCTION_WORD": 4.2
+    },
+    "nonsense": {
+      "CONTENT_WORD": 70.3,
+      "PUNCTUATION": 18.7,
+      "NEWLINE": 8.8,
+      "FUNCTION_WORD": 2.2
+    }
+  },
+  "raw_counts": {
+    "post_surprise": {
+      "CONTENT_WORD": 8171,
+      "NEWLINE": 738,
+      "FUNCTION_WORD": 386,
+      "PUNCTUATION": 1906
+    },
+    "baseline": {
+      "CONTENT_WORD": 31720,
+      "PUNCTUATION": 4754,
+      "NEWLINE": 5729,
+      "FUNCTION_WORD": 3119
+    }
+  },
+  "lifts": {
+    "NEWLINE": 0.521,
+    "PUNCTUATION": 1.622,
+    "FUNCTION_WORD": 0.501,
+    "CONTENT_WORD": 1.042
+  }
+}
