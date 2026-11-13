@@ -1,0 +1,318 @@
+{
+  "proverb_results": [
+    {
+      "n": 11,
+      "mean_s2": -1.4784,
+      "median_s2": -1.1858,
+      "std_s2": 2.4994,
+      "pos_ratio": 0.1818,
+      "mean_surprisal": 6.195,
+      "mean_entropy": 7.6734,
+      "title": "Bird in hand",
+      "type": "metaphorical",
+      "text": "A bird in the hand is worth two in the bush."
+    },
+    {
+      "n": 6,
+      "mean_s2": 0.9391,
+      "median_s2": 0.5806,
+      "std_s2": 3.7844,
+      "pos_ratio": 0.5,
+      "mean_surprisal": 9.786,
+      "mean_entropy": 8.8469,
+      "title": "Rolling stone",
+      "type": "metaphorical",
+      "text": "A rolling stone gathers no moss."
+    },
+    {
+      "n": 5,
+      "mean_s2": 1.0405,
+      "median_s2": -0.0949,
+      "std_s2": 5.1878,
+      "pos_ratio": 0.4,
+      "mean_surprisal": 8.7445,
+      "mean_entropy": 7.704,
+      "title": "Barking dog",
+      "type": "metaphorical",
+      "text": "A barking dog never bites."
+    },
+    {
+      "n": 4,
+      "mean_s2": 0.5407,
+      "median_s2": -0.3724,
+      "std_s2": 3.7559,
+      "pos_ratio": 0.5,
+      "mean_surprisal": 7.93,
+      "mean_entropy": 7.3893,
+      "title": "Still waters",
+      "type": "metaphorical",
+      "text": "Still waters run deep."
+    },
+    {
+      "n": 8,
+      "mean_s2": -1.8314,
+      "median_s2": -2.3407,
+      "std_s2": 3.3346,
+      "pos_ratio": 0.125,
+      "mean_surprisal": 3.1749,
+      "mean_entropy": 5.0063,
+      "title": "Bite the hand",
+      "type": "metaphorical",
+      "text": "Don't bite the hand that feeds you."
+    },
+    {
+      "n": 7,
+      "mean_s2": -0.2912,
+      "median_s2": -0.2775,
+      "std_s2": 3.0259,
+      "pos_ratio": 0.4286,
+      "mean_surprisal": 6.6568,
+      "mean_entropy": 6.948,
+      "title": "Leopard spots",
+      "type": "metaphorical",
+      "text": "A leopard cannot change its spots."
+    },
+    {
+      "n": 8,
+      "mean_s2": 0.3691,
+      "median_s2": -1.4203,
+      "std_s2": 3.7413,
+      "pos_ratio": 0.375,
+      "mean_surprisal": 7.1144,
+      "mean_entropy": 6.7452,
+      "title": "Broken clock",
+      "type": "metaphorical",
+      "text": "A broken clock is right twice a day."
+    },
+    {
+      "n": 6,
+      "mean_s2": 2.3902,
+      "median_s2": 3.0103,
+      "std_s2": 3.591,
+      "pos_ratio": 0.6667,
+      "mean_surprisal": 10.0429,
+      "mean_entropy": 7.6528,
+      "title": "Stitch in time",
+      "type": "metaphorical",
+      "text": "A stitch in time saves nine."
+    },
+    {
+      "n": 8,
+      "mean_s2": -1.5242,
+      "median_s2": -2.4768,
+      "std_s2": 3.2378,
+      "pos_ratio": 0.25,
+      "mean_surprisal": 5.2848,
+      "mean_entropy": 6.809,
+      "title": "Spilled milk",
+      "type": "metaphorical",
+      "text": "There is no use crying over spilled milk."
+    },
+    {
+      "n": 10,
+      "mean_s2": -0.6534,
+      "median_s2": -2.0328,
+      "std_s2": 3.1637,
+      "pos_ratio": 0.3,
+      "mean_surprisal": 5.2464,
+      "mean_entropy": 5.8998,
+      "title": "Glass houses",
+      "type": "metaphorical",
+      "text": "People who live in glass houses should not throw stones."
+    },
+    {
+      "n": 6,
+      "mean_s2": -0.7207,
+      "median_s2": -1.6104,
+      "std_s2": 3.1494,
+      "pos_ratio": 0.3333,
+      "mean_surprisal": 6.6249,
+      "mean_entropy": 7.3456,
+      "title": "Silver lining",
+      "type": "metaphorical",
+      "text": "Every cloud has a silver lining."
+    },
+    {
+      "n": 7,
+      "mean_s2": -0.1647,
+      "median_s2": -2.3339,
+      "std_s2": 4.9429,
+      "pos_ratio": 0.4286,
+      "mean_surprisal": 7.2091,
+      "mean_entropy": 7.3738,
+      "title": "One swallow",
+      "type": "metaphorical",
+      "text": "One swallow does not make a summer."
+    },
+    {
+      "n": 6,
+      "mean_s2": -1.0521,
+      "median_s2": -2.0059,
+      "std_s2": 3.5856,
+      "pos_ratio": 0.3333,
+      "mean_surprisal": 6.4068,
+      "mean_entropy": 7.4589,
+      "title": "Waste not",
+      "type": "literal",
+      "text": "Waste not, want not."
+    },
+    {
+      "n": 4,
+      "mean_s2": -2.6947,
+      "median_s2": -3.741,
+      "std_s2": 3.5911,
+      "pos_ratio": 0.25,
+      "mean_surprisal": 5.8105,
+      "mean_entropy": 8.5052,
+      "title": "Better safe",
+      "type": "literal",
+      "text": "Better safe than sorry."
+    },
+    {
+      "n": 6,
+      "mean_s2": -1.7061,
+      "median_s2": -2.415,
+      "std_s2": 1.8643,
+      "pos_ratio": 0.1667,
+      "mean_surprisal": 6.4325,
+      "mean_entropy": 8.1386,
+      "title": "Early bird",
+      "type": "literal",
+      "text": "The early bird catches the worm."
+    },
+    {
+      "n": 5,
+      "mean_s2": -0.2791,
+      "median_s2": 1.5153,
+      "std_s2": 3.1808,
+      "pos_ratio": 0.6,
+      "mean_surprisal": 7.3192,
+      "mean_entropy": 7.5982,
+      "title": "Many hands",
+      "type": "literal",
+      "text": "Many hands make light work."
+    },
+    {
+      "n": 6,
+      "mean_s2": 0.1208,
+      "median_s2": -1.2006,
+      "std_s2": 3.1643,
+      "pos_ratio": 0.3333,
+      "mean_surprisal": 5.1636,
+      "mean_entropy": 5.0429,
+      "title": "Actions speak",
+      "type": "literal",
+      "text": "Actions speak louder than words."
+    },
+    {
+      "n": 4,
+      "mean_s2": -1.2333,
+      "median_s2": -0.8317,
+      "std_s2": 1.964,
+      "pos_ratio": 0.5,
+      "mean_surprisal": 5.611,
+      "mean_entropy": 6.8443,
+      "title": "Look before",
+      "type": "literal",
+      "text": "Look before you leap."
+    },
+    {
+      "n": 6,
+      "mean_s2": -0.6613,
+      "median_s2": -1.6749,
+      "std_s2": 3.0605,
+      "pos_ratio": 0.3333,
+      "mean_surprisal": 7.0793,
+      "mean_entropy": 7.7406,
+      "title": "Too many cooks",
+      "type": "literal",
+      "text": "Too many cooks spoil the broth."
+    },
+    {
+      "n": 4,
+      "mean_s2": -1.0968,
+      "median_s2": -1.1273,
+      "std_s2": 2.2012,
+      "pos_ratio": 0.5,
+      "mean_surprisal": 6.6841,
+      "mean_entropy": 7.7809,
+      "title": "Better late",
+      "type": "literal",
+      "text": "Better late than never."
+    },
+    {
+      "n": 6,
+      "mean_s2": -2.6179,
+      "median_s2": -3.1717,
+      "std_s2": 2.1872,
+      "pos_ratio": 0.1667,
+      "mean_surprisal": 5.3336,
+      "mean_entropy": 7.9515,
+      "title": "Honesty policy",
+      "type": "literal",
+      "text": "Honesty is the best policy."
+    },
+    {
+      "n": 5,
+      "mean_s2": -2.7264,
+      "median_s2": -3.4399,
+      "std_s2": 2.788,
+      "pos_ratio": 0.2,
+      "mean_surprisal": 4.352,
+      "mean_entropy": 7.0783,
+      "title": "No pain",
+      "type": "literal",
+      "text": "No pain, no gain."
+    },
+    {
+      "n": 4,
+      "mean_s2": -1.0969,
+      "median_s2": -0.8379,
+      "std_s2": 2.2314,
+      "pos_ratio": 0.5,
+      "mean_surprisal": 6.0894,
+      "mean_entropy": 7.1863,
+      "title": "Practice perfect",
+      "type": "literal",
+      "text": "Practice makes perfect."
+    },
+    {
+      "n": 8,
+      "mean_s2": -2.9121,
+      "median_s2": -3.5412,
+      "std_s2": 2.3409,
+      "pos_ratio": 0.125,
+      "mean_surprisal": 3.2938,
+      "mean_entropy": 6.2059,
+      "title": "Two wrongs",
+      "type": "literal",
+      "text": "Two wrongs do not make a right."
+    }
+  ],
+  "meta_stats": {
+    "metaphorical": {
+      "n_proverbs": 12,
+      "mean_of_means_s2": -0.1154,
+      "median_of_means_s2": -0.228,
+      "mean_pos_ratio": 0.3741
+    },
+    "literal": {
+      "n_proverbs": 12,
+      "mean_of_means_s2": -1.4963,
+      "median_of_means_s2": -1.1651,
+      "mean_pos_ratio": 0.334
+    },
+    "all": {
+      "n_proverbs": 24,
+      "mean_of_means_s2": -0.8058,
+      "median_of_means_s2": -0.8864,
+      "mean_pos_ratio": 0.3541
+    }
+  },
+  "reference": {
+    "prose_control_artifact_free": -1.72,
+    "poetry_overall_artifact_free": -0.44,
+    "german_modernist_best": 0.63,
+    "cliche_control": -0.93
+  }
+}
