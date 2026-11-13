@@ -1,0 +1,936 @@
+{
+  "meta": {
+    "corpus_texts": 411,
+    "english_texts": 403,
+    "total_tokens": 55998,
+    "analysed_words": 29608,
+    "coverage_pct": 52.9,
+    "frequency_source": "wordfreq Zipf scale (external, corpus-independent)",
+    "bin_width": 0.25,
+    "spike_threshold": 3.0
+  },
+  "correlations": {
+    "zipf_vs_s2": -0.457,
+    "zipf_vs_s2_r2": 0.2088,
+    "zipf_vs_surprisal": -0.6039,
+    "zipf_vs_surprisal_r2": 0.3647,
+    "zipf_vs_entropy": -0.3602,
+    "zipf_vs_entropy_r2": 0.1298,
+    "zipf_vs_residual_s2": -0.0095
+  },
+  "frequency_curve": [
+    {
+      "zipf_bin": 3.0,
+      "n": 47,
+      "mean_s2": 3.2641
+    },
+    {
+      "zipf_bin": 3.25,
+      "n": 268,
+      "mean_s2": 3.9124
+    },
+    {
+      "zipf_bin": 3.5,
+      "n": 609,
+      "mean_s2": 3.6259
+    },
+    {
+      "zipf_bin": 3.75,
+      "n": 849,
+      "mean_s2": 3.1039
+    },
+    {
+      "zipf_bin": 4.0,
+      "n": 1141,
+      "mean_s2": 2.0803
+    },
+    {
+      "zipf_bin": 4.25,
+      "n": 1285,
+      "mean_s2": 2.1085
+    },
+    {
+      "zipf_bin": 4.5,
+      "n": 1490,
+      "mean_s2": 1.3348
+    },
+    {
+      "zipf_bin": 4.75,
+      "n": 1875,
+      "mean_s2": 1.0708
+    },
+    {
+      "zipf_bin": 5.0,
+      "n": 1827,
+      "mean_s2": 0.7379
+    },
+    {
+      "zipf_bin": 5.25,
+      "n": 1908,
+      "mean_s2": 0.4671
+    },
+    {
+      "zipf_bin": 5.5,
+      "n": 1669,
+      "mean_s2": 0.1654
+    },
+    {
+      "zipf_bin": 5.75,
+      "n": 1317,
+      "mean_s2": -0.2139
+    },
+    {
+      "zipf_bin": 6.0,
+      "n": 1869,
+      "mean_s2": -0.3782
+    },
+    {
+      "zipf_bin": 6.25,
+      "n": 1692,
+      "mean_s2": -0.9093
+    },
+    {
+      "zipf_bin": 6.5,
+      "n": 2157,
+      "mean_s2": -1.0296
+    },
+    {
+      "zipf_bin": 6.75,
+      "n": 2003,
+      "mean_s2": -1.4798
+    },
+    {
+      "zipf_bin": 7.0,
+      "n": 2114,
+      "mean_s2": -1.6986
+    },
+    {
+      "zipf_bin": 7.25,
+      "n": 1130,
+      "mean_s2": -2.108
+    },
+    {
+      "zipf_bin": 7.5,
+      "n": 2303,
+      "mean_s2": -2.0557
+    },
+    {
+      "zipf_bin": 7.75,
+      "n": 2020,
+      "mean_s2": -3.4148
+    }
+  ],
+  "poetry_vs_prose": {
+    "poetry": {
+      "n": 29493,
+      "mean": -0.2457,
+      "median": -1.0059,
+      "spike_rate": 0.1789,
+      "mean_zipf": 5.848,
+      "resid_s2": 0.0137
+    },
+    "prose_control": {
+      "n": 115,
+      "mean": -1.9394,
+      "median": -2.1388,
+      "spike_rate": 0.0261,
+      "mean_zipf": 5.846,
+      "resid_s2": -1.6208
+    },
+    "raw_gap": 1.6937,
+    "resid_gap": 1.6345
+  },
+  "bootstrap_raw_gap": {
+    "mean": 1.6957,
+    "ci95_low": 1.2785,
+    "ci95_high": 2.1002,
+    "frac_above_zero": 1.0
+  },
+  "bootstrap_resid_gap": {
+    "mean": 1.6346,
+    "ci95_low": 1.2176,
+    "ci95_high": 2.067,
+    "frac_above_zero": 1.0
+  },
+  "per_text": {
+    "n_poems": 348,
+    "n_prose": 4,
+    "poem_mean_resid": 0.017,
+    "prose_mean_resid": -1.6309,
+    "poem_sd": 0.6875,
+    "prose_texts": [
+      [
+        "Academic prose",
+        -2.1674
+      ],
+      [
+        "Technical prose",
+        -1.5211
+      ],
+      [
+        "Simple narrative prose",
+        -1.4555
+      ],
+      [
+        "News article prose",
+        -1.3794
+      ]
+    ],
+    "poems_below_worst_prose": 3,
+    "pct_poems_below_worst_prose": 0.9
+  },
+  "by_era": {
+    "romantic": {
+      "n": 1969,
+      "mean_zipf": 5.676,
+      "raw_s2": -0.3367,
+      "resid_s2": -0.3058,
+      "spike_rate": 0.1762
+    },
+    "19th_century": {
+      "n": 1808,
+      "mean_zipf": 5.82,
+      "raw_s2": -0.2535,
+      "resid_s2": -0.0242,
+      "spike_rate": 0.1853
+    },
+    "modernist": {
+      "n": 1503,
+      "mean_zipf": 5.848,
+      "raw_s2": -0.0301,
+      "resid_s2": 0.2249,
+      "spike_rate": 0.2142
+    },
+    "beat": {
+      "n": 380,
+      "mean_zipf": 5.917,
+      "raw_s2": 1.2838,
+      "resid_s2": 1.6187,
+      "spike_rate": 0.2789
+    },
+    "confessional": {
+      "n": 216,
+      "mean_zipf": 5.86,
+      "raw_s2": 0.0542,
+      "resid_s2": 0.3257,
+      "spike_rate": 0.2222
+    },
+    "mid_century": {
+      "n": 370,
+      "mean_zipf": 5.834,
+      "raw_s2": 0.133,
+      "resid_s2": 0.3948,
+      "spike_rate": 0.1973
+    },
+    "new_york_school": {
+      "n": 1724,
+      "mean_zipf": 6.015,
+      "raw_s2": -0.5277,
+      "resid_s2": -0.0483,
+      "spike_rate": 0.1514
+    },
+    "language": {
+      "n": 331,
+      "mean_zipf": 6.145,
+      "raw_s2": -0.5288,
+      "resid_s2": 0.1706,
+      "spike_rate": 0.1571
+    },
+    "contemporary": {
+      "n": 1727,
+      "mean_zipf": 5.851,
+      "raw_s2": -0.3225,
+      "resid_s2": -0.0468,
+      "spike_rate": 0.1737
+    },
+    "harlem_renaissance": {
+      "n": 449,
+      "mean_zipf": 5.668,
+      "raw_s2": -0.3835,
+      "resid_s2": -0.3967,
+      "spike_rate": 0.1626
+    },
+    "oulipo": {
+      "n": 535,
+      "mean_zipf": 5.785,
+      "raw_s2": 0.0729,
+      "resid_s2": 0.2284,
+      "spike_rate": 0.2262
+    },
+    "surrealist": {
+      "n": 713,
+      "mean_zipf": 5.971,
+      "raw_s2": -0.4675,
+      "resid_s2": -0.0525,
+      "spike_rate": 0.1543
+    },
+    "control": {
+      "n": 115,
+      "mean_zipf": 5.846,
+      "raw_s2": -1.9394,
+      "resid_s2": -1.6208,
+      "spike_rate": 0.0261
+    },
+    "victorian": {
+      "n": 2727,
+      "mean_zipf": 5.817,
+      "raw_s2": -0.1195,
+      "resid_s2": 0.0905,
+      "spike_rate": 0.194
+    },
+    "haiku": {
+      "n": 136,
+      "mean_zipf": 5.604,
+      "raw_s2": 0.2263,
+      "resid_s2": 0.1536,
+      "spike_rate": 0.25
+    },
+    "ancient": {
+      "n": 161,
+      "mean_zipf": 5.691,
+      "raw_s2": -0.1578,
+      "resid_s2": -0.1712,
+      "spike_rate": 0.1677
+    },
+    "prose_poetry": {
+      "n": 1027,
+      "mean_zipf": 5.991,
+      "raw_s2": -0.3153,
+      "resid_s2": 0.1511,
+      "spike_rate": 0.1529
+    },
+    "ballad": {
+      "n": 405,
+      "mean_zipf": 5.671,
+      "raw_s2": -0.3379,
+      "resid_s2": -0.2834,
+      "spike_rate": 0.1802
+    },
+    "song_lyrics": {
+      "n": 319,
+      "mean_zipf": 6.016,
+      "raw_s2": -0.5299,
+      "resid_s2": -0.0316,
+      "spike_rate": 0.1505
+    },
+    "nursery_rhyme": {
+      "n": 136,
+      "mean_zipf": 5.997,
+      "raw_s2": -0.8656,
+      "resid_s2": -0.3847,
+      "spike_rate": 0.1397
+    },
+    "metaphysical": {
+      "n": 547,
+      "mean_zipf": 5.766,
+      "raw_s2": -0.1712,
+      "resid_s2": -0.0279,
+      "spike_rate": 0.1956
+    },
+    "early_modern": {
+      "n": 1103,
+      "mean_zipf": 5.86,
+      "raw_s2": -0.0922,
+      "resid_s2": 0.1528,
+      "spike_rate": 0.1859
+    },
+    "spoken_word": {
+      "n": 162,
+      "mean_zipf": 6.012,
+      "raw_s2": -0.3234,
+      "resid_s2": 0.0838,
+      "spike_rate": 0.1667
+    },
+    "found_poetry": {
+      "n": 678,
+      "mean_zipf": 5.769,
+      "raw_s2": -0.6887,
+      "resid_s2": -0.519,
+      "spike_rate": 0.1047
+    },
+    "fixed_form": {
+      "n": 458,
+      "mean_zipf": 5.998,
+      "raw_s2": -0.7683,
+      "resid_s2": -0.313,
+      "spike_rate": 0.1616
+    },
+    "cliche_control": {
+      "n": 323,
+      "mean_zipf": 5.86,
+      "raw_s2": -0.9135,
+      "resid_s2": -0.6237,
+      "spike_rate": 0.1238
+    },
+    "18th_century": {
+      "n": 829,
+      "mean_zipf": 5.786,
+      "raw_s2": 0.0153,
+      "resid_s2": 0.1637,
+      "spike_rate": 0.1942
+    },
+    "biblical": {
+      "n": 910,
+      "mean_zipf": 5.951,
+      "raw_s2": -0.469,
+      "resid_s2": -0.0693,
+      "spike_rate": 0.1385
+    },
+    "concrete": {
+      "n": 106,
+      "mean_zipf": 5.547,
+      "raw_s2": -0.3179,
+      "resid_s2": -0.3371,
+      "spike_rate": 0.1698
+    },
+    "latin_american": {
+      "n": 283,
+      "mean_zipf": 5.866,
+      "raw_s2": -0.1665,
+      "resid_s2": 0.1335,
+      "spike_rate": 0.1802
+    },
+    "black_arts": {
+      "n": 156,
+      "mean_zipf": 6.081,
+      "raw_s2": -0.5461,
+      "resid_s2": 0.0408,
+      "spike_rate": 0.1218
+    },
+    "imagist": {
+      "n": 161,
+      "mean_zipf": 5.884,
+      "raw_s2": -0.6158,
+      "resid_s2": -0.257,
+      "spike_rate": 0.1925
+    },
+    "german_expressionist": {
+      "n": 297,
+      "mean_zipf": 5.685,
+      "raw_s2": 0.3448,
+      "resid_s2": 0.4185,
+      "spike_rate": 0.2458
+    },
+    "parody_original": {
+      "n": 303,
+      "mean_zipf": 5.848,
+      "raw_s2": -0.3815,
+      "resid_s2": -0.1167,
+      "spike_rate": 0.165
+    },
+    "parody": {
+      "n": 424,
+      "mean_zipf": 5.842,
+      "raw_s2": -0.1407,
+      "resid_s2": 0.0922,
+      "spike_rate": 0.1722
+    },
+    "classical_chinese": {
+      "n": 144,
+      "mean_zipf": 5.625,
+      "raw_s2": -0.3186,
+      "resid_s2": -0.3194,
+      "spike_rate": 0.1597
+    },
+    "persian": {
+      "n": 192,
+      "mean_zipf": 6.143,
+      "raw_s2": -0.6683,
+      "resid_s2": 0.0316,
+      "spike_rate": 0.1875
+    },
+    "limerick": {
+      "n": 251,
+      "mean_zipf": 6.034,
+      "raw_s2": -0.8176,
+      "resid_s2": -0.3215,
+      "spike_rate": 0.1275
+    },
+    "old_english": {
+      "n": 343,
+      "mean_zipf": 5.765,
+      "raw_s2": 0.053,
+      "resid_s2": 0.1857,
+      "spike_rate": 0.2012
+    },
+    "protest_political": {
+      "n": 135,
+      "mean_zipf": 5.555,
+      "raw_s2": -0.47,
+      "resid_s2": -0.6437,
+      "spike_rate": 0.2
+    },
+    "ghazal": {
+      "n": 146,
+      "mean_zipf": 5.95,
+      "raw_s2": -0.2847,
+      "resid_s2": 0.0875,
+      "spike_rate": 0.1986
+    },
+    "war_poetry": {
+      "n": 340,
+      "mean_zipf": 5.715,
+      "raw_s2": 0.1227,
+      "resid_s2": 0.1813,
+      "spike_rate": 0.2059
+    },
+    "postcolonial": {
+      "n": 525,
+      "mean_zipf": 5.956,
+      "raw_s2": -0.2206,
+      "resid_s2": 0.2328,
+      "spike_rate": 0.1886
+    },
+    "dramatic_monologue": {
+      "n": 1377,
+      "mean_zipf": 5.892,
+      "raw_s2": -0.0347,
+      "resid_s2": 0.2676,
+      "spike_rate": 0.1917
+    },
+    "elegy": {
+      "n": 687,
+      "mean_zipf": 5.742,
+      "raw_s2": -0.1715,
+      "resid_s2": -0.0547,
+      "spike_rate": 0.179
+    },
+    "ekphrastic": {
+      "n": 994,
+      "mean_zipf": 5.78,
+      "raw_s2": -0.3102,
+      "resid_s2": -0.137,
+      "spike_rate": 0.1761
+    },
+    "villanelle": {
+      "n": 256,
+      "mean_zipf": 5.885,
+      "raw_s2": -0.2734,
+      "resid_s2": 0.0042,
+      "spike_rate": 0.1719
+    },
+    "nonsense": {
+      "n": 222,
+      "mean_zipf": 6.078,
+      "raw_s2": -0.9817,
+      "resid_s2": -0.3962,
+      "spike_rate": 0.1261
+    }
+  },
+  "by_length": {
+    "7-9": {
+      "n": 2683,
+      "mean_zipf": 4.452,
+      "raw_s2": 2.6324,
+      "resid_s2": 0.9258,
+      "spike_rate": 0.4338
+    },
+    "5-6": {
+      "n": 6706,
+      "mean_zipf": 4.891,
+      "raw_s2": 1.0131,
+      "resid_s2": -0.0027,
+      "spike_rate": 0.275
+    },
+    "1-2": {
+      "n": 6074,
+      "mean_zipf": 6.953,
+      "raw_s2": -1.6781,
+      "resid_s2": -0.0778,
+      "spike_rate": 0.0555
+    },
+    "3-4": {
+      "n": 13885,
+      "mean_zipf": 6.128,
+      "raw_s2": -0.8607,
+      "resid_s2": -0.1471,
+      "spike_rate": 0.13
+    },
+    "10+": {
+      "n": 260,
+      "mean_zipf": 4.219,
+      "raw_s2": 3.1467,
+      "resid_s2": 1.0268,
+      "spike_rate": 0.4962
+    }
+  },
+  "by_word_class": {
+    "content": {
+      "n": 14889,
+      "mean_zipf": 4.849,
+      "raw_s2": 1.1128,
+      "resid_s2": 0.0266,
+      "spike_rate": 0.2899
+    },
+    "function": {
+      "n": 14719,
+      "mean_zipf": 6.859,
+      "raw_s2": -1.633,
+      "resid_s2": -0.0121,
+      "spike_rate": 0.0654
+    }
+  },
+  "by_author": {
+    "John Keats": {
+      "n": 1263,
+      "mean_zipf": 5.713,
+      "raw_s2": -0.3757,
+      "resid_s2": -0.3072,
+      "spike_rate": 0.1742
+    },
+    "Emily Dickinson": {
+      "n": 294,
+      "mean_zipf": 5.845,
+      "raw_s2": 0.3942,
+      "resid_s2": 0.6609,
+      "spike_rate": 0.2449
+    },
+    "Walt Whitman": {
+      "n": 1067,
+      "mean_zipf": 5.779,
+      "raw_s2": -0.0913,
+      "resid_s2": 0.0909,
+      "spike_rate": 0.1846
+    },
+    "Percy Bysshe Shelley": {
+      "n": 326,
+      "mean_zipf": 5.544,
+      "raw_s2": -0.0872,
+      "resid_s2": -0.2763,
+      "spike_rate": 0.1871
+    },
+    "T.S. Eliot": {
+      "n": 450,
+      "mean_zipf": 5.778,
+      "raw_s2": -0.2642,
+      "resid_s2": -0.1025,
+      "spike_rate": 0.1956
+    },
+    "John Ashbery": {
+      "n": 918,
+      "mean_zipf": 6.013,
+      "raw_s2": -0.4826,
+      "resid_s2": 0.0036,
+      "spike_rate": 0.159
+    },
+    "Frank O'Hara": {
+      "n": 224,
+      "mean_zipf": 6.216,
+      "raw_s2": -0.7051,
+      "resid_s2": 0.0453,
+      "spike_rate": 0.1205
+    },
+    "Pablo Neruda": {
+      "n": 187,
+      "mean_zipf": 5.852,
+      "raw_s2": -0.3629,
+      "resid_s2": -0.1472,
+      "spike_rate": 0.1925
+    },
+    "Gerard Manley Hopkins": {
+      "n": 434,
+      "mean_zipf": 5.807,
+      "raw_s2": 0.5918,
+      "resid_s2": 0.7761,
+      "spike_rate": 0.2788
+    },
+    "Alfred Lord Tennyson": {
+      "n": 280,
+      "mean_zipf": 5.82,
+      "raw_s2": -0.378,
+      "resid_s2": -0.1461,
+      "spike_rate": 0.15
+    },
+    "Paul Laurence Dunbar": {
+      "n": 192,
+      "mean_zipf": 5.853,
+      "raw_s2": -0.7603,
+      "resid_s2": -0.4714,
+      "spike_rate": 0.125
+    },
+    "Thomas Hardy": {
+      "n": 502,
+      "mean_zipf": 5.76,
+      "raw_s2": 0.169,
+      "resid_s2": 0.2746,
+      "spike_rate": 0.2171
+    },
+    "Robert Browning": {
+      "n": 1209,
+      "mean_zipf": 5.946,
+      "raw_s2": 0.1363,
+      "resid_s2": 0.5098,
+      "spike_rate": 0.2018
+    },
+    "Marianne Moore": {
+      "n": 150,
+      "mean_zipf": 5.954,
+      "raw_s2": 1.7072,
+      "resid_s2": 2.1087,
+      "spike_rate": 0.3267
+    },
+    "Gertrude Stein": {
+      "n": 323,
+      "mean_zipf": 6.051,
+      "raw_s2": 0.0061,
+      "resid_s2": 0.4849,
+      "spike_rate": 0.2074
+    },
+    "William Blake": {
+      "n": 587,
+      "mean_zipf": 5.696,
+      "raw_s2": -0.7391,
+      "resid_s2": -0.6709,
+      "spike_rate": 0.138
+    },
+    "Edgar Allan Poe": {
+      "n": 452,
+      "mean_zipf": 5.898,
+      "raw_s2": -0.8797,
+      "resid_s2": -0.5891,
+      "spike_rate": 0.1637
+    },
+    "Christina Rossetti": {
+      "n": 212,
+      "mean_zipf": 5.862,
+      "raw_s2": -0.1701,
+      "resid_s2": 0.0877,
+      "spike_rate": 0.1698
+    },
+    "Claude McKay": {
+      "n": 157,
+      "mean_zipf": 5.624,
+      "raw_s2": -0.2705,
+      "resid_s2": -0.3625,
+      "spike_rate": 0.172
+    },
+    "W.B. Yeats": {
+      "n": 359,
+      "mean_zipf": 5.842,
+      "raw_s2": -0.552,
+      "resid_s2": -0.3109,
+      "spike_rate": 0.1783
+    },
+    "Robert Frost": {
+      "n": 324,
+      "mean_zipf": 6.04,
+      "raw_s2": -0.1251,
+      "resid_s2": 0.3994,
+      "spike_rate": 0.1759
+    },
+    "Traditional (Scottish ballad)": {
+      "n": 324,
+      "mean_zipf": 5.659,
+      "raw_s2": -0.3851,
+      "resid_s2": -0.3295,
+      "spike_rate": 0.1821
+    },
+    "Russell Edson": {
+      "n": 188,
+      "mean_zipf": 6.006,
+      "raw_s2": -0.1725,
+      "resid_s2": 0.2899,
+      "spike_rate": 0.1383
+    },
+    "William Shakespeare": {
+      "n": 297,
+      "mean_zipf": 5.723,
+      "raw_s2": -0.6366,
+      "resid_s2": -0.5829,
+      "spike_rate": 0.1313
+    },
+    "John Milton": {
+      "n": 165,
+      "mean_zipf": 5.728,
+      "raw_s2": 0.3422,
+      "resid_s2": 0.4332,
+      "spike_rate": 0.2727
+    },
+    "John Donne": {
+      "n": 301,
+      "mean_zipf": 5.722,
+      "raw_s2": -0.3496,
+      "resid_s2": -0.3158,
+      "spike_rate": 0.1661
+    },
+    "George Herbert": {
+      "n": 151,
+      "mean_zipf": 5.88,
+      "raw_s2": -0.0179,
+      "resid_s2": 0.2925,
+      "spike_rate": 0.2119
+    },
+    "Thomas Wyatt": {
+      "n": 232,
+      "mean_zipf": 5.828,
+      "raw_s2": 0.2841,
+      "resid_s2": 0.4871,
+      "spike_rate": 0.2069
+    },
+    "Anonymous (found text)": {
+      "n": 302,
+      "mean_zipf": 5.755,
+      "raw_s2": -0.4515,
+      "resid_s2": -0.3044,
+      "spike_rate": 0.1126
+    },
+    "Dante Gabriel Rossetti": {
+      "n": 160,
+      "mean_zipf": 5.888,
+      "raw_s2": -0.2175,
+      "resid_s2": 0.1507,
+      "spike_rate": 0.2
+    },
+    "Alfred, Lord Tennyson": {
+      "n": 634,
+      "mean_zipf": 5.986,
+      "raw_s2": -0.6562,
+      "resid_s2": -0.1574,
+      "spike_rate": 0.1467
+    },
+    "Synthetic (research test case)": {
+      "n": 229,
+      "mean_zipf": 5.845,
+      "raw_s2": -0.81,
+      "resid_s2": -0.5424,
+      "spike_rate": 0.1266
+    },
+    "Christopher Smart": {
+      "n": 350,
+      "mean_zipf": 5.944,
+      "raw_s2": -0.1657,
+      "resid_s2": 0.2017,
+      "spike_rate": 0.1371
+    },
+    "Anonymous (Hebrew Bible)": {
+      "n": 617,
+      "mean_zipf": 5.954,
+      "raw_s2": -0.6564,
+      "resid_s2": -0.2431,
+      "spike_rate": 0.1507
+    },
+    "Georg Heym": {
+      "n": 163,
+      "mean_zipf": 5.589,
+      "raw_s2": 0.3615,
+      "resid_s2": 0.2671,
+      "spike_rate": 0.2515
+    },
+    "Lewis Carroll": {
+      "n": 551,
+      "mean_zipf": 6.001,
+      "raw_s2": -0.6018,
+      "resid_s2": -0.138,
+      "spike_rate": 0.1452
+    },
+    "Robert Southey": {
+      "n": 165,
+      "mean_zipf": 5.849,
+      "raw_s2": -0.0635,
+      "resid_s2": 0.2096,
+      "spike_rate": 0.1879
+    },
+    "Alexander Pope": {
+      "n": 372,
+      "mean_zipf": 5.677,
+      "raw_s2": 0.2411,
+      "resid_s2": 0.245,
+      "spike_rate": 0.2231
+    },
+    "Carolyn Forche": {
+      "n": 175,
+      "mean_zipf": 5.937,
+      "raw_s2": -0.1836,
+      "resid_s2": 0.2271,
+      "spike_rate": 0.1771
+    },
+    "Charles Bernstein": {
+      "n": 169,
+      "mean_zipf": 6.173,
+      "raw_s2": -0.6222,
+      "resid_s2": 0.0812,
+      "spike_rate": 0.142
+    },
+    "Omar Khayyam (trans. FitzGerald, 1859)": {
+      "n": 192,
+      "mean_zipf": 6.143,
+      "raw_s2": -0.6683,
+      "resid_s2": 0.0316,
+      "spike_rate": 0.1875
+    },
+    "Wilfred Owen": {
+      "n": 242,
+      "mean_zipf": 5.711,
+      "raw_s2": -0.1872,
+      "resid_s2": -0.1365,
+      "spike_rate": 0.1942
+    },
+    "Joy Harjo": {
+      "n": 427,
+      "mean_zipf": 5.807,
+      "raw_s2": -0.35,
+      "resid_s2": -0.099,
+      "spike_rate": 0.1475
+    },
+    "Agha Shahid Ali": {
+      "n": 173,
+      "mean_zipf": 5.996,
+      "raw_s2": -0.3137,
+      "resid_s2": 0.1706,
+      "spike_rate": 0.185
+    },
+    "Algernon Charles Swinburne": {
+      "n": 281,
+      "mean_zipf": 5.595,
+      "raw_s2": -0.1766,
+      "resid_s2": -0.2878,
+      "spike_rate": 0.1744
+    },
+    "Anonymous (KJV translation)": {
+      "n": 293,
+      "mean_zipf": 5.946,
+      "raw_s2": -0.0742,
+      "resid_s2": 0.2969,
+      "spike_rate": 0.1126
+    },
+    "Wis\u0142awa Szymborska": {
+      "n": 190,
+      "mean_zipf": 5.689,
+      "raw_s2": -0.5102,
+      "resid_s2": -0.4534,
+      "spike_rate": 0.1684
+    },
+    "Synthetic (scientific register test case)": {
+      "n": 240,
+      "mean_zipf": 5.745,
+      "raw_s2": 0.1055,
+      "resid_s2": 0.2108,
+      "spike_rate": 0.2292
+    },
+    "Ted Berrigan": {
+      "n": 155,
+      "mean_zipf": 6.192,
+      "raw_s2": -0.8339,
+      "resid_s2": -0.1716,
+      "spike_rate": 0.1161
+    },
+    "William Stafford": {
+      "n": 200,
+      "mean_zipf": 5.844,
+      "raw_s2": 0.429,
+      "resid_s2": 0.7201,
+      "spike_rate": 0.245
+    },
+    "C.K. Williams": {
+      "n": 201,
+      "mean_zipf": 6.036,
+      "raw_s2": -0.7498,
+      "resid_s2": -0.194,
+      "spike_rate": 0.1194
+    }
+  },
+  "polysemy_retest": {
+    "available": false,
+    "reason": "\n**********************************************************************\n  Resource 'wordnet' not found.\n  Please use the NLTK Downloader to obtain the resource:\n\n  >>> import nltk\n  >>> nltk.download("
+  }
+}
