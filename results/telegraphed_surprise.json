@@ -1,0 +1,756 @@
+{
+  "summary": {
+    "total_spikes": 9795,
+    "telegraphed": 261,
+    "ambush": 9534,
+    "telegraphed_rate": 0.0266,
+    "s2_threshold": 2.0,
+    "baseline_total": 28197,
+    "baseline_telegraphed": 4498,
+    "baseline_rate": 0.1595
+  },
+  "s2_bucket_rates": {
+    "2-3": {
+      "spikes": 2267,
+      "telegraphed": 87,
+      "rate": 0.0384
+    },
+    "3-5": {
+      "spikes": 3244,
+      "telegraphed": 95,
+      "rate": 0.0293
+    },
+    "5-10": {
+      "spikes": 3480,
+      "telegraphed": 71,
+      "rate": 0.0204
+    },
+    "10+": {
+      "spikes": 804,
+      "telegraphed": 8,
+      "rate": 0.01
+    }
+  },
+  "alt_rank_distribution": {
+    "1": 30,
+    "2": 32,
+    "3": 26,
+    "4": 27,
+    "5": 30,
+    "6": 32,
+    "7": 22,
+    "8": 23,
+    "9": 19,
+    "10": 20
+  },
+  "era_rates": [
+    {
+      "era": "concrete",
+      "spikes": 36,
+      "telegraphed": 4,
+      "rate": 0.111
+    },
+    {
+      "era": "latin_american",
+      "spikes": 90,
+      "telegraphed": 7,
+      "rate": 0.078
+    },
+    {
+      "era": "language",
+      "spikes": 80,
+      "telegraphed": 6,
+      "rate": 0.075
+    },
+    {
+      "era": "oulipo",
+      "spikes": 218,
+      "telegraphed": 14,
+      "rate": 0.064
+    },
+    {
+      "era": "korean_modernist",
+      "spikes": 16,
+      "telegraphed": 1,
+      "rate": 0.062
+    },
+    {
+      "era": "found_poetry",
+      "spikes": 140,
+      "telegraphed": 8,
+      "rate": 0.057
+    },
+    {
+      "era": "biblical",
+      "spikes": 199,
+      "telegraphed": 10,
+      "rate": 0.05
+    },
+    {
+      "era": "cliche_control",
+      "spikes": 62,
+      "telegraphed": 3,
+      "rate": 0.048
+    },
+    {
+      "era": "villanelle",
+      "spikes": 66,
+      "telegraphed": 3,
+      "rate": 0.045
+    },
+    {
+      "era": "rondeau",
+      "spikes": 22,
+      "telegraphed": 1,
+      "rate": 0.045
+    },
+    {
+      "era": "metaphysical",
+      "spikes": 164,
+      "telegraphed": 7,
+      "rate": 0.043
+    },
+    {
+      "era": "nonsense",
+      "spikes": 69,
+      "telegraphed": 3,
+      "rate": 0.043
+    },
+    {
+      "era": "ballad",
+      "spikes": 149,
+      "telegraphed": 6,
+      "rate": 0.04
+    },
+    {
+      "era": "pantoum",
+      "spikes": 25,
+      "telegraphed": 1,
+      "rate": 0.04
+    },
+    {
+      "era": "clerihew",
+      "spikes": 52,
+      "telegraphed": 2,
+      "rate": 0.038
+    },
+    {
+      "era": "mid_century",
+      "spikes": 109,
+      "telegraphed": 4,
+      "rate": 0.037
+    },
+    {
+      "era": "prose_poetry",
+      "spikes": 246,
+      "telegraphed": 9,
+      "rate": 0.037
+    },
+    {
+      "era": "contemporary",
+      "spikes": 512,
+      "telegraphed": 18,
+      "rate": 0.035
+    },
+    {
+      "era": "modernist",
+      "spikes": 535,
+      "telegraphed": 18,
+      "rate": 0.034
+    },
+    {
+      "era": "confessional",
+      "spikes": 89,
+      "telegraphed": 3,
+      "rate": 0.034
+    },
+    {
+      "era": "19th_century",
+      "spikes": 623,
+      "telegraphed": 18,
+      "rate": 0.029
+    },
+    {
+      "era": "song_lyrics",
+      "spikes": 68,
+      "telegraphed": 2,
+      "rate": 0.029
+    },
+    {
+      "era": "ghazal",
+      "spikes": 37,
+      "telegraphed": 1,
+      "rate": 0.027
+    },
+    {
+      "era": "surrealist",
+      "spikes": 193,
+      "telegraphed": 5,
+      "rate": 0.026
+    },
+    {
+      "era": "victorian",
+      "spikes": 1036,
+      "telegraphed": 27,
+      "rate": 0.026
+    },
+    {
+      "era": "persian",
+      "spikes": 77,
+      "telegraphed": 2,
+      "rate": 0.026
+    },
+    {
+      "era": "classical_chinese",
+      "spikes": 41,
+      "telegraphed": 1,
+      "rate": 0.024
+    },
+    {
+      "era": "postcolonial",
+      "spikes": 165,
+      "telegraphed": 4,
+      "rate": 0.024
+    },
+    {
+      "era": "elegy",
+      "spikes": 249,
+      "telegraphed": 6,
+      "rate": 0.024
+    },
+    {
+      "era": "spoken_word",
+      "spikes": 44,
+      "telegraphed": 1,
+      "rate": 0.023
+    },
+    {
+      "era": "new_york_school",
+      "spikes": 461,
+      "telegraphed": 10,
+      "rate": 0.022
+    },
+    {
+      "era": "early_modern",
+      "spikes": 336,
+      "telegraphed": 7,
+      "rate": 0.021
+    },
+    {
+      "era": "romantic",
+      "spikes": 678,
+      "telegraphed": 13,
+      "rate": 0.019
+    },
+    {
+      "era": "limerick",
+      "spikes": 53,
+      "telegraphed": 1,
+      "rate": 0.019
+    },
+    {
+      "era": "german_expressionist",
+      "spikes": 172,
+      "telegraphed": 3,
+      "rate": 0.017
+    },
+    {
+      "era": "german_modernist",
+      "spikes": 60,
+      "telegraphed": 1,
+      "rate": 0.017
+    },
+    {
+      "era": "18th_century",
+      "spikes": 294,
+      "telegraphed": 5,
+      "rate": 0.017
+    },
+    {
+      "era": "ekphrastic",
+      "spikes": 360,
+      "telegraphed": 6,
+      "rate": 0.017
+    },
+    {
+      "era": "imagist",
+      "spikes": 61,
+      "telegraphed": 1,
+      "rate": 0.016
+    },
+    {
+      "era": "war_poetry",
+      "spikes": 127,
+      "telegraphed": 2,
+      "rate": 0.016
+    },
+    {
+      "era": "dramatic_monologue",
+      "spikes": 486,
+      "telegraphed": 8,
+      "rate": 0.016
+    },
+    {
+      "era": "procedural",
+      "spikes": 126,
+      "telegraphed": 2,
+      "rate": 0.016
+    },
+    {
+      "era": "parody_original",
+      "spikes": 67,
+      "telegraphed": 1,
+      "rate": 0.015
+    },
+    {
+      "era": "ancient",
+      "spikes": 72,
+      "telegraphed": 1,
+      "rate": 0.014
+    },
+    {
+      "era": "harlem_renaissance",
+      "spikes": 150,
+      "telegraphed": 2,
+      "rate": 0.013
+    },
+    {
+      "era": "german_symbolist",
+      "spikes": 83,
+      "telegraphed": 1,
+      "rate": 0.012
+    },
+    {
+      "era": "fixed_form",
+      "spikes": 132,
+      "telegraphed": 1,
+      "rate": 0.008
+    },
+    {
+      "era": "beat",
+      "spikes": 174,
+      "telegraphed": 1,
+      "rate": 0.006
+    },
+    {
+      "era": "deep_image",
+      "spikes": 15,
+      "telegraphed": 0,
+      "rate": 0.0
+    },
+    {
+      "era": "control",
+      "spikes": 12,
+      "telegraphed": 0,
+      "rate": 0.0
+    },
+    {
+      "era": "haiku",
+      "spikes": 52,
+      "telegraphed": 0,
+      "rate": 0.0
+    },
+    {
+      "era": "nursery_rhyme",
+      "spikes": 30,
+      "telegraphed": 0,
+      "rate": 0.0
+    },
+    {
+      "era": "black_arts",
+      "spikes": 36,
+      "telegraphed": 0,
+      "rate": 0.0
+    },
+    {
+      "era": "parody",
+      "spikes": 112,
+      "telegraphed": 0,
+      "rate": 0.0
+    },
+    {
+      "era": "japanese_classical",
+      "spikes": 11,
+      "telegraphed": 0,
+      "rate": 0.0
+    },
+    {
+      "era": "old_english",
+      "spikes": 134,
+      "telegraphed": 0,
+      "rate": 0.0
+    },
+    {
+      "era": "protest_political",
+      "spikes": 44,
+      "telegraphed": 0,
+      "rate": 0.0
+    },
+    {
+      "era": "double_dactyl",
+      "spikes": 33,
+      "telegraphed": 0,
+      "rate": 0.0
+    },
+    {
+      "era": "triolet",
+      "spikes": 12,
+      "telegraphed": 0,
+      "rate": 0.0
+    }
+  ],
+  "telegraphed_examples": [
+    {
+      "s2": 7.29,
+      "prev_token": "\n",
+      "actual_token": "A",
+      "alt_rank": 5,
+      "era": "language",
+      "title": "My Life (excerpt)",
+      "author": "Lyn Hejinian",
+      "entropy": 1.29,
+      "rank_in_poem": 5
+    },
+    {
+      "s2": 7.04,
+      "prev_token": "\n",
+      "actual_token": "My",
+      "alt_rank": 1,
+      "era": "19th_century",
+      "title": "Because I could not stop for Death",
+      "author": "Emily Dickinson",
+      "entropy": 1.24,
+      "rank_in_poem": 6
+    },
+    {
+      "s2": 6.62,
+      "prev_token": "\n",
+      "actual_token": "with",
+      "alt_rank": 6,
+      "era": "surrealist",
+      "title": "Black Stone Lying on a White Stone",
+      "author": "C\u00e9sar Vallejo",
+      "entropy": 1.41,
+      "rank_in_poem": 5
+    },
+    {
+      "s2": 6.36,
+      "prev_token": "\n",
+      "actual_token": "I",
+      "alt_rank": 1,
+      "era": "contemporary",
+      "title": "Whereas (excerpt)",
+      "author": "Layli Long Soldier",
+      "entropy": 2.02,
+      "rank_in_poem": 7
+    },
+    {
+      "s2": 5.03,
+      "prev_token": "\n",
+      "actual_token": "when",
+      "alt_rank": 5,
+      "era": "language",
+      "title": "My Life (excerpt)",
+      "author": "Lyn Hejinian",
+      "entropy": 6.41,
+      "rank_in_poem": 206
+    },
+    {
+      "s2": 4.86,
+      "prev_token": "\n",
+      "actual_token": "A",
+      "alt_rank": 2,
+      "era": "oulipo",
+      "title": "Variations on A (excerpt)",
+      "author": "Georges Perec",
+      "entropy": 2.46,
+      "rank_in_poem": 7
+    },
+    {
+      "s2": 3.88,
+      "prev_token": " sunk",
+      "actual_token": " a",
+      "alt_rank": 2,
+      "era": "romantic",
+      "title": "Ozymandias",
+      "author": "Percy Bysshe Shelley",
+      "entropy": 3.8,
+      "rank_in_poem": 17
+    },
+    {
+      "s2": 3.78,
+      "prev_token": ".",
+      "actual_token": " Of",
+      "alt_rank": 1,
+      "era": "contemporary",
+      "title": "Whereas (excerpt)",
+      "author": "Layli Long Soldier",
+      "entropy": 6.13,
+      "rank_in_poem": 68
+    },
+    {
+      "s2": 3.49,
+      "prev_token": "\n",
+      "actual_token": "from",
+      "alt_rank": 3,
+      "era": "contemporary",
+      "title": "Catalog of Unabashed Gratitude (excerpt)",
+      "author": "Ross Gay",
+      "entropy": 3.19,
+      "rank_in_poem": 4
+    },
+    {
+      "s2": 3.45,
+      "prev_token": " it",
+      "actual_token": " that",
+      "alt_rank": 1,
+      "era": "new_york_school",
+      "title": "And Ut Pictura Poesis Is Her Name",
+      "author": "John Ashbery",
+      "entropy": 5.48,
+      "rank_in_poem": 57
+    },
+    {
+      "s2": 3.38,
+      "prev_token": " Of",
+      "actual_token": " my",
+      "alt_rank": 6,
+      "era": "contemporary",
+      "title": "Whereas (excerpt)",
+      "author": "Layli Long Soldier",
+      "entropy": 2.65,
+      "rank_in_poem": 4
+    },
+    {
+      "s2": 3.12,
+      "prev_token": "\n",
+      "actual_token": "and",
+      "alt_rank": 6,
+      "era": "surrealist",
+      "title": "Somnambule Ballad",
+      "author": "Federico Garc\u00eda Lorca",
+      "entropy": 6.95,
+      "rank_in_poem": 127
+    },
+    {
+      "s2": 2.99,
+      "prev_token": "\n",
+      "actual_token": "The",
+      "alt_rank": 5,
+      "era": "surrealist",
+      "title": "Somnambule Ballad",
+      "author": "Federico Garc\u00eda Lorca",
+      "entropy": 3.87,
+      "rank_in_poem": 7
+    },
+    {
+      "s2": 2.93,
+      "prev_token": " Whereas",
+      "actual_token": " the",
+      "alt_rank": 7,
+      "era": "contemporary",
+      "title": "Whereas (excerpt)",
+      "author": "Layli Long Soldier",
+      "entropy": 3.12,
+      "rank_in_poem": 6
+    },
+    {
+      "s2": 2.61,
+      "prev_token": "\n",
+      "actual_token": "For",
+      "alt_rank": 4,
+      "era": "19th_century",
+      "title": "Because I could not stop for Death",
+      "author": "Emily Dickinson",
+      "entropy": 3.52,
+      "rank_in_poem": 6
+    },
+    {
+      "s2": 2.31,
+      "prev_token": "Tell",
+      "actual_token": " that",
+      "alt_rank": 3,
+      "era": "romantic",
+      "title": "Ozymandias",
+      "author": "Percy Bysshe Shelley",
+      "entropy": 4.68,
+      "rank_in_poem": 15
+    },
+    {
+      "s2": 2.14,
+      "prev_token": "\n",
+      "actual_token": "The",
+      "alt_rank": 5,
+      "era": "new_york_school",
+      "title": "Self-Portrait in a Convex Mirror (middle passage)",
+      "author": "John Ashbery",
+      "entropy": 3.49,
+      "rank_in_poem": 2
+    },
+    {
+      "s2": 2.05,
+      "prev_token": ".",
+      "actual_token": " To",
+      "alt_rank": 4,
+      "era": "new_york_school",
+      "title": "And Ut Pictura Poesis Is Her Name",
+      "author": "John Ashbery",
+      "entropy": 6.3,
+      "rank_in_poem": 43
+    },
+    {
+      "s2": 2.0,
+      "prev_token": ",",
+      "actual_token": " to",
+      "alt_rank": 2,
+      "era": "contemporary",
+      "title": "Whereas (excerpt)",
+      "author": "Layli Long Soldier",
+      "entropy": 5.41,
+      "rank_in_poem": 22
+    },
+    {
+      "s2": 2.0,
+      "prev_token": "?",
+      "actual_token": " And",
+      "alt_rank": 10,
+      "era": "surrealist",
+      "title": "Somnambule Ballad",
+      "author": "Federico Garc\u00eda Lorca",
+      "entropy": 4.7,
+      "rank_in_poem": 8
+    }
+  ],
+  "ambush_examples": [
+    {
+      "s2": 11.37,
+      "prev_token": " wandered",
+      "actual_token": " lonely",
+      "era": "romantic",
+      "title": "I Wandered Lonely as a Cloud",
+      "author": "William Wordsworth",
+      "prev_top3": [
+        ".",
+        ",",
+        "\n"
+      ]
+    },
+    {
+      "s2": 10.7,
+      "prev_token": "er",
+      "actual_token": " val",
+      "era": "romantic",
+      "title": "I Wandered Lonely as a Cloud",
+      "author": "William Wordsworth",
+      "prev_top3": [
+        "er",
+        " the",
+        " clouds"
+      ]
+    },
+    {
+      "s2": 8.1,
+      "prev_token": " a",
+      "actual_token": " cloud",
+      "era": "romantic",
+      "title": "I Wandered Lonely as a Cloud",
+      "author": "William Wordsworth",
+      "prev_top3": [
+        " I",
+        " a",
+        " the"
+      ]
+    },
+    {
+      "s2": 5.02,
+      "prev_token": "ness",
+      "actual_token": " pains",
+      "era": "romantic",
+      "title": "Ode to a Nightingale (stanza 1)",
+      "author": "John Keats",
+      "prev_top3": [
+        "ness",
+        " is",
+        ","
+      ]
+    },
+    {
+      "s2": 4.98,
+      "prev_token": " high",
+      "actual_token": " o",
+      "era": "romantic",
+      "title": "I Wandered Lonely as a Cloud",
+      "author": "William Wordsworth",
+      "prev_top3": [
+        " the",
+        " my",
+        " a"
+      ]
+    },
+    {
+      "s2": 4.98,
+      "prev_token": " of",
+      "actual_token": " he",
+      "era": "romantic",
+      "title": "Ode to a Nightingale (stanza 1)",
+      "author": "John Keats",
+      "prev_top3": [
+        " I",
+        "\n",
+        " it"
+      ]
+    },
+    {
+      "s2": 3.37,
+      "prev_token": " on",
+      "actual_token": " high",
+      "era": "romantic",
+      "title": "I Wandered Lonely as a Cloud",
+      "author": "William Wordsworth",
+      "prev_top3": [
+        " in",
+        " on",
+        " above"
+      ]
+    },
+    {
+      "s2": 3.06,
+      "prev_token": "sy",
+      "actual_token": " numb",
+      "era": "romantic",
+      "title": "Ode to a Nightingale (stanza 1)",
+      "author": "John Keats",
+      "prev_top3": [
+        "sy",
+        "'s",
+        " feels"
+      ]
+    },
+    {
+      "s2": 2.78,
+      "prev_token": ",",
+      "actual_token": " beneath",
+      "era": "romantic",
+      "title": "I Wandered Lonely as a Cloud",
+      "author": "William Wordsworth",
+      "prev_top3": [
+        ",",
+        " of",
+        "-"
+      ]
+    },
+    {
+      "s2": 2.13,
+      "prev_token": " and",
+      "actual_token": " a",
+      "era": "romantic",
+      "title": "Ode to a Nightingale (stanza 1)",
+      "author": "John Keats",
+      "prev_top3": [
+        " but",
+        " and",
+        " I"
+      ]
+    }
+  ]
+}
