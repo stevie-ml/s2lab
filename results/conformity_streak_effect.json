@@ -1,0 +1,900 @@
+{
+  "total_spikes_analyzed": 11363,
+  "total_poems": 419,
+  "overall_correlation_streak_vs_s2": 0.0697,
+  "poem_level_correlation": 0.1313,
+  "streak_distribution": {
+    "mean_streak": 2.25,
+    "pct_zero_streak": 0.316,
+    "pct_1_streak": 0.226,
+    "pct_5plus_streak": 0.149,
+    "pct_10plus_streak": 0.029,
+    "max_streak": 60
+  },
+  "bin_table": [
+    {
+      "bucket": "0",
+      "count": 3589,
+      "mean_s2": 5.322,
+      "median_s2": 4.534,
+      "max_s2": 23.395
+    },
+    {
+      "bucket": "1",
+      "count": 2572,
+      "mean_s2": 5.354,
+      "median_s2": 4.665,
+      "max_s2": 22.044
+    },
+    {
+      "bucket": "2-3",
+      "count": 2747,
+      "mean_s2": 5.181,
+      "median_s2": 4.4,
+      "max_s2": 25.655
+    },
+    {
+      "bucket": "4-6",
+      "count": 1610,
+      "mean_s2": 5.076,
+      "median_s2": 4.293,
+      "max_s2": 27.734
+    },
+    {
+      "bucket": "7-10",
+      "count": 580,
+      "mean_s2": 4.931,
+      "median_s2": 4.165,
+      "max_s2": 18.85
+    },
+    {
+      "bucket": "11+",
+      "count": 265,
+      "mean_s2": 6.822,
+      "median_s2": 5.237,
+      "max_s2": 36.658
+    }
+  ],
+  "era_breakdown": [
+    {
+      "era": "18th_century",
+      "n_poems": 8,
+      "avg_streak": 2.15,
+      "avg_spike_s2": 5.293
+    },
+    {
+      "era": "19th_century",
+      "n_poems": 18,
+      "avg_streak": 2.06,
+      "avg_spike_s2": 5.375
+    },
+    {
+      "era": "ancient",
+      "n_poems": 3,
+      "avg_streak": 1.77,
+      "avg_spike_s2": 4.78
+    },
+    {
+      "era": "ballad",
+      "n_poems": 6,
+      "avg_streak": 2.64,
+      "avg_spike_s2": 5.975
+    },
+    {
+      "era": "beat",
+      "n_poems": 8,
+      "avg_streak": 4.4,
+      "avg_spike_s2": 7.522
+    },
+    {
+      "era": "biblical",
+      "n_poems": 8,
+      "avg_streak": 2.74,
+      "avg_spike_s2": 5.028
+    },
+    {
+      "era": "black_arts",
+      "n_poems": 2,
+      "avg_streak": 2.15,
+      "avg_spike_s2": 5.316
+    },
+    {
+      "era": "classical_chinese",
+      "n_poems": 4,
+      "avg_streak": 2.37,
+      "avg_spike_s2": 5.331
+    },
+    {
+      "era": "clerihew",
+      "n_poems": 10,
+      "avg_streak": 1.57,
+      "avg_spike_s2": 6.174
+    },
+    {
+      "era": "cliche_control",
+      "n_poems": 4,
+      "avg_streak": 3.67,
+      "avg_spike_s2": 4.833
+    },
+    {
+      "era": "concrete",
+      "n_poems": 4,
+      "avg_streak": 2.5,
+      "avg_spike_s2": 6.95
+    },
+    {
+      "era": "confessional",
+      "n_poems": 6,
+      "avg_streak": 1.78,
+      "avg_spike_s2": 5.101
+    },
+    {
+      "era": "contemporary",
+      "n_poems": 19,
+      "avg_streak": 2.28,
+      "avg_spike_s2": 5.112
+    },
+    {
+      "era": "control",
+      "n_poems": 5,
+      "avg_streak": 6.09,
+      "avg_spike_s2": 2.847
+    },
+    {
+      "era": "deep_image",
+      "n_poems": 1,
+      "avg_streak": 1.33,
+      "avg_spike_s2": 4.851
+    },
+    {
+      "era": "double_dactyl",
+      "n_poems": 5,
+      "avg_streak": 2.96,
+      "avg_spike_s2": 4.606
+    },
+    {
+      "era": "dramatic_monologue",
+      "n_poems": 7,
+      "avg_streak": 2.19,
+      "avg_spike_s2": 5.19
+    },
+    {
+      "era": "early_modern",
+      "n_poems": 11,
+      "avg_streak": 1.92,
+      "avg_spike_s2": 5.196
+    },
+    {
+      "era": "ekphrastic",
+      "n_poems": 8,
+      "avg_streak": 2.06,
+      "avg_spike_s2": 4.943
+    },
+    {
+      "era": "elegy",
+      "n_poems": 8,
+      "avg_streak": 2.17,
+      "avg_spike_s2": 4.97
+    },
+    {
+      "era": "fixed_form",
+      "n_poems": 8,
+      "avg_streak": 2.62,
+      "avg_spike_s2": 5.416
+    },
+    {
+      "era": "found_poetry",
+      "n_poems": 9,
+      "avg_streak": 3.6,
+      "avg_spike_s2": 5.22
+    },
+    {
+      "era": "german_expressionist",
+      "n_poems": 6,
+      "avg_streak": 1.84,
+      "avg_spike_s2": 5.561
+    },
+    {
+      "era": "german_modernist",
+      "n_poems": 2,
+      "avg_streak": 1.38,
+      "avg_spike_s2": 5.447
+    },
+    {
+      "era": "german_symbolist",
+      "n_poems": 3,
+      "avg_streak": 1.37,
+      "avg_spike_s2": 5.073
+    },
+    {
+      "era": "ghazal",
+      "n_poems": 2,
+      "avg_streak": 2.14,
+      "avg_spike_s2": 5.424
+    },
+    {
+      "era": "haiku",
+      "n_poems": 14,
+      "avg_streak": 2.19,
+      "avg_spike_s2": 5.913
+    },
+    {
+      "era": "harlem_renaissance",
+      "n_poems": 7,
+      "avg_streak": 1.8,
+      "avg_spike_s2": 5.316
+    },
+    {
+      "era": "imagist",
+      "n_poems": 5,
+      "avg_streak": 1.62,
+      "avg_spike_s2": 4.854
+    },
+    {
+      "era": "japanese_classical",
+      "n_poems": 2,
+      "avg_streak": 1.42,
+      "avg_spike_s2": 4.168
+    },
+    {
+      "era": "korean_modernist",
+      "n_poems": 1,
+      "avg_streak": 2.55,
+      "avg_spike_s2": 5.344
+    },
+    {
+      "era": "language",
+      "n_poems": 6,
+      "avg_streak": 2.52,
+      "avg_spike_s2": 5.486
+    },
+    {
+      "era": "latin_american",
+      "n_poems": 4,
+      "avg_streak": 2.26,
+      "avg_spike_s2": 5.019
+    },
+    {
+      "era": "limerick",
+      "n_poems": 10,
+      "avg_streak": 2.26,
+      "avg_spike_s2": 5.318
+    },
+    {
+      "era": "metaphysical",
+      "n_poems": 7,
+      "avg_streak": 2.34,
+      "avg_spike_s2": 4.912
+    },
+    {
+      "era": "mid_century",
+      "n_poems": 6,
+      "avg_streak": 2.11,
+      "avg_spike_s2": 5.806
+    },
+    {
+      "era": "modernist",
+      "n_poems": 28,
+      "avg_streak": 2.23,
+      "avg_spike_s2": 5.249
+    },
+    {
+      "era": "new_york_school",
+      "n_poems": 26,
+      "avg_streak": 2.31,
+      "avg_spike_s2": 5.134
+    },
+    {
+      "era": "nonsense",
+      "n_poems": 2,
+      "avg_streak": 2.77,
+      "avg_spike_s2": 4.886
+    },
+    {
+      "era": "nursery_rhyme",
+      "n_poems": 1,
+      "avg_streak": 2.33,
+      "avg_spike_s2": 4.662
+    },
+    {
+      "era": "old_english",
+      "n_poems": 5,
+      "avg_streak": 1.92,
+      "avg_spike_s2": 5.293
+    },
+    {
+      "era": "oulipo",
+      "n_poems": 8,
+      "avg_streak": 2.13,
+      "avg_spike_s2": 5.646
+    },
+    {
+      "era": "pantoum",
+      "n_poems": 1,
+      "avg_streak": 2.21,
+      "avg_spike_s2": 5.309
+    },
+    {
+      "era": "parody",
+      "n_poems": 4,
+      "avg_streak": 2.33,
+      "avg_spike_s2": 4.88
+    },
+    {
+      "era": "parody_original",
+      "n_poems": 3,
+      "avg_streak": 2.35,
+      "avg_spike_s2": 4.744
+    },
+    {
+      "era": "persian",
+      "n_poems": 2,
+      "avg_streak": 1.59,
+      "avg_spike_s2": 5.254
+    },
+    {
+      "era": "postcolonial",
+      "n_poems": 6,
+      "avg_streak": 2.71,
+      "avg_spike_s2": 5.674
+    },
+    {
+      "era": "procedural",
+      "n_poems": 8,
+      "avg_streak": 2.95,
+      "avg_spike_s2": 5.29
+    },
+    {
+      "era": "prose_poetry",
+      "n_poems": 12,
+      "avg_streak": 2.46,
+      "avg_spike_s2": 4.883
+    },
+    {
+      "era": "protest_political",
+      "n_poems": 2,
+      "avg_streak": 2.34,
+      "avg_spike_s2": 4.716
+    },
+    {
+      "era": "romantic",
+      "n_poems": 21,
+      "avg_streak": 2.1,
+      "avg_spike_s2": 5.144
+    },
+    {
+      "era": "rondeau",
+      "n_poems": 1,
+      "avg_streak": 1.92,
+      "avg_spike_s2": 5.956
+    },
+    {
+      "era": "song_lyrics",
+      "n_poems": 3,
+      "avg_streak": 3.7,
+      "avg_spike_s2": 5.505
+    },
+    {
+      "era": "spoken_word",
+      "n_poems": 3,
+      "avg_streak": 2.44,
+      "avg_spike_s2": 5.821
+    },
+    {
+      "era": "surrealist",
+      "n_poems": 8,
+      "avg_streak": 2.48,
+      "avg_spike_s2": 5.039
+    },
+    {
+      "era": "triolet",
+      "n_poems": 2,
+      "avg_streak": 4.13,
+      "avg_spike_s2": 4.38
+    },
+    {
+      "era": "victorian",
+      "n_poems": 30,
+      "avg_streak": 2.14,
+      "avg_spike_s2": 5.244
+    },
+    {
+      "era": "villanelle",
+      "n_poems": 3,
+      "avg_streak": 3.19,
+      "avg_spike_s2": 5.151
+    },
+    {
+      "era": "war_poetry",
+      "n_poems": 3,
+      "avg_streak": 2.01,
+      "avg_spike_s2": 4.927
+    }
+  ],
+  "top_tension_poems": [
+    {
+      "title": "Constantly Risking Absurdity",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "n_spikes": 20,
+      "avg_streak": 15.95,
+      "avg_spike_s2": 12.035,
+      "long_plateau_pct": 0.45,
+      "max_streak": 60,
+      "tension_score": 191.958
+    },
+    {
+      "title": "Cicadas (Bash\u014d, translated)",
+      "author": "Matsuo Bash\u014d",
+      "era": "haiku",
+      "n_spikes": 1,
+      "avg_streak": 9.0,
+      "avg_spike_s2": 10.621,
+      "long_plateau_pct": 1.0,
+      "max_streak": 9,
+      "tension_score": 95.589
+    },
+    {
+      "title": "In Goya's greatest scenes",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "n_spikes": 29,
+      "avg_streak": 9.41,
+      "avg_spike_s2": 9.042,
+      "long_plateau_pct": 0.276,
+      "max_streak": 52,
+      "tension_score": 85.085
+    },
+    {
+      "title": "Buffalo Bill 's",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "n_spikes": 18,
+      "avg_streak": 7.72,
+      "avg_spike_s2": 8.303,
+      "long_plateau_pct": 0.333,
+      "max_streak": 54,
+      "tension_score": 64.099
+    },
+    {
+      "title": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)",
+      "author": "Thomas Jefferson (found text)",
+      "era": "found_poetry",
+      "n_spikes": 15,
+      "avg_streak": 6.27,
+      "avg_spike_s2": 7.948,
+      "long_plateau_pct": 0.467,
+      "max_streak": 29,
+      "tension_score": 49.834
+    },
+    {
+      "title": "Protocol (Synthetic procedural test case III)",
+      "author": "Synthetic (procedural test case)",
+      "era": "procedural",
+      "n_spikes": 5,
+      "avg_streak": 6.2,
+      "avg_spike_s2": 5.847,
+      "long_plateau_pct": 0.4,
+      "max_streak": 14,
+      "tension_score": 36.251
+    },
+    {
+      "title": "There Was an Old Man of the Coast",
+      "author": "Edward Lear",
+      "era": "limerick",
+      "n_spikes": 4,
+      "avg_streak": 5.0,
+      "avg_spike_s2": 7.073,
+      "long_plateau_pct": 0.5,
+      "max_streak": 11,
+      "tension_score": 35.365
+    },
+    {
+      "title": "Academic prose",
+      "author": "Control",
+      "era": "control",
+      "n_spikes": 1,
+      "avg_streak": 16.0,
+      "avg_spike_s2": 2.131,
+      "long_plateau_pct": 1.0,
+      "max_streak": 16,
+      "tension_score": 34.096
+    },
+    {
+      "title": "Calypso",
+      "author": "Kamau Brathwaite",
+      "era": "postcolonial",
+      "n_spikes": 39,
+      "avg_streak": 3.97,
+      "avg_spike_s2": 7.805,
+      "long_plateau_pct": 0.205,
+      "max_streak": 22,
+      "tension_score": 30.986
+    },
+    {
+      "title": "Weather Observations (Found Poem from meteorological prose)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "n_spikes": 17,
+      "avg_streak": 4.94,
+      "avg_spike_s2": 5.926,
+      "long_plateau_pct": 0.412,
+      "max_streak": 15,
+      "tension_score": 29.274
+    },
+    {
+      "title": "There Was an Old Man of Nantucket",
+      "author": "Anonymous (limerick tradition)",
+      "era": "limerick",
+      "n_spikes": 6,
+      "avg_streak": 5.33,
+      "avg_spike_s2": 5.263,
+      "long_plateau_pct": 0.5,
+      "max_streak": 11,
+      "tension_score": 28.052
+    },
+    {
+      "title": "I felt a Funeral, in my Brain",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "n_spikes": 8,
+      "avg_streak": 4.0,
+      "avg_spike_s2": 6.758,
+      "long_plateau_pct": 0.375,
+      "max_streak": 7,
+      "tension_score": 27.032
+    },
+    {
+      "title": "Oh Shenandoah",
+      "author": "Traditional (American sea chanty)",
+      "era": "song_lyrics",
+      "n_spikes": 24,
+      "avg_streak": 4.46,
+      "avg_spike_s2": 5.978,
+      "long_plateau_pct": 0.292,
+      "max_streak": 20,
+      "tension_score": 26.662
+    },
+    {
+      "title": "Lord Randal",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "n_spikes": 23,
+      "avg_streak": 4.91,
+      "avg_spike_s2": 5.422,
+      "long_plateau_pct": 0.217,
+      "max_streak": 31,
+      "tension_score": 26.622
+    },
+    {
+      "title": "l(a",
+      "author": "E.E. Cummings",
+      "era": "concrete",
+      "n_spikes": 3,
+      "avg_streak": 4.0,
+      "avg_spike_s2": 6.419,
+      "long_plateau_pct": 0.333,
+      "max_streak": 10,
+      "tension_score": 25.676
+    }
+  ],
+  "long_plateau_examples": [
+    {
+      "token": " gro",
+      "s2": 36.6583,
+      "surprisal": 36.6966,
+      "entropy": 0.0383,
+      "streak_length": 12,
+      "pre_streak_s2": 1.2798,
+      "position": 245
+    },
+    {
+      "token": " climbs",
+      "s2": 28.2527,
+      "surprisal": 28.5424,
+      "entropy": 0.2897,
+      "streak_length": 35,
+      "pre_streak_s2": 1.7335,
+      "position": 211
+    },
+    {
+      "token": " whenever",
+      "s2": 25.5956,
+      "surprisal": 25.889,
+      "entropy": 0.2934,
+      "streak_length": 12,
+      "pre_streak_s2": 1.9885,
+      "position": 63
+    },
+    {
+      "token": " p",
+      "s2": 22.298,
+      "surprisal": 22.3247,
+      "entropy": 0.0267,
+      "streak_length": 17,
+      "pre_streak_s2": 15.6142,
+      "position": 313
+    },
+    {
+      "token": " Pra",
+      "s2": 22.0877,
+      "surprisal": 22.8833,
+      "entropy": 0.7956,
+      "streak_length": 31,
+      "pre_streak_s2": 1.1935,
+      "position": 185
+    },
+    {
+      "token": " Gu",
+      "s2": 21.805,
+      "surprisal": 22.0249,
+      "entropy": 0.2199,
+      "streak_length": 14,
+      "pre_streak_s2": 16.275,
+      "position": 62
+    },
+    {
+      "token": " Pra",
+      "s2": 20.7175,
+      "surprisal": 21.6788,
+      "entropy": 0.9613,
+      "streak_length": 31,
+      "pre_streak_s2": 1.35,
+      "position": 185
+    },
+    {
+      "token": " suffering",
+      "s2": 20.6816,
+      "surprisal": 22.4797,
+      "entropy": 1.7981,
+      "streak_length": 51,
+      "pre_streak_s2": 5.0485,
+      "position": 130
+    },
+    {
+      "token": " under",
+      "s2": 19.9901,
+      "surprisal": 20.5247,
+      "entropy": 0.5346,
+      "streak_length": 50,
+      "pre_streak_s2": 9.3385,
+      "position": 301
+    },
+    {
+      "token": " to",
+      "s2": 19.2039,
+      "surprisal": 19.2526,
+      "entropy": 0.0487,
+      "streak_length": 25,
+      "pre_streak_s2": 1.7361,
+      "position": 240
+    },
+    {
+      "token": " Jesus",
+      "s2": 19.0326,
+      "surprisal": 22.2297,
+      "entropy": 3.1971,
+      "streak_length": 54,
+      "pre_streak_s2": 5.6416,
+      "position": 140
+    },
+    {
+      "token": " and",
+      "s2": 18.6042,
+      "surprisal": 18.6474,
+      "entropy": 0.0432,
+      "streak_length": 26,
+      "pre_streak_s2": 19.0326,
+      "position": 168
+    },
+    {
+      "token": " in",
+      "s2": 18.4523,
+      "surprisal": 18.5565,
+      "entropy": 0.1042,
+      "streak_length": 30,
+      "pre_streak_s2": 2.89,
+      "position": 169
+    },
+    {
+      "token": " stall",
+      "s2": 17.852,
+      "surprisal": 20.4653,
+      "entropy": 2.6133,
+      "streak_length": 36,
+      "pre_streak_s2": 4.2683,
+      "position": 70
+    },
+    {
+      "token": " evidence",
+      "s2": 17.3573,
+      "surprisal": 18.1194,
+      "entropy": 0.7621,
+      "streak_length": 14,
+      "pre_streak_s2": 2.4912,
+      "position": 333
+    },
+    {
+      "token": " above",
+      "s2": 17.0902,
+      "surprisal": 18.1283,
+      "entropy": 1.0381,
+      "streak_length": 40,
+      "pre_streak_s2": 1.5253,
+      "position": 106
+    },
+    {
+      "token": " to",
+      "s2": 16.3821,
+      "surprisal": 16.5131,
+      "entropy": 0.131,
+      "streak_length": 34,
+      "pre_streak_s2": 22.298,
+      "position": 348
+    },
+    {
+      "token": " Jamaica",
+      "s2": 16.275,
+      "surprisal": 19.7361,
+      "entropy": 3.4611,
+      "streak_length": 22,
+      "pre_streak_s2": 4.3914,
+      "position": 47
+    },
+    {
+      "token": " they",
+      "s2": 16.0667,
+      "surprisal": 16.6459,
+      "entropy": 0.5791,
+      "streak_length": 11,
+      "pre_streak_s2": 6.4454,
+      "position": 76
+    },
+    {
+      "token": " c",
+      "s2": 15.7339,
+      "surprisal": 15.9194,
+      "entropy": 0.1855,
+      "streak_length": 14,
+      "pre_streak_s2": 4.5757,
+      "position": 101
+    }
+  ],
+  "zero_streak_examples": [
+    {
+      "token": " ferner",
+      "s2": 23.3952,
+      "surprisal": 24.6461,
+      "entropy": 1.2509,
+      "streak_length": 0,
+      "pre_streak_s2": 1.1696,
+      "position": 14
+    },
+    {
+      "token": "riot",
+      "s2": 22.7313,
+      "surprisal": 27.0229,
+      "entropy": 4.2916,
+      "streak_length": 0,
+      "pre_streak_s2": 2.5472,
+      "position": 81
+    },
+    {
+      "token": " prank",
+      "s2": 22.1297,
+      "surprisal": 24.8172,
+      "entropy": 2.6875,
+      "streak_length": 0,
+      "pre_streak_s2": 0.7651,
+      "position": 94
+    },
+    {
+      "token": "'",
+      "s2": 22.1255,
+      "surprisal": 22.3138,
+      "entropy": 0.1883,
+      "streak_length": 0,
+      "pre_streak_s2": 1.1676,
+      "position": 146
+    },
+    {
+      "token": " prank",
+      "s2": 22.0152,
+      "surprisal": 24.7363,
+      "entropy": 2.7212,
+      "streak_length": 0,
+      "pre_streak_s2": 0.7329,
+      "position": 94
+    },
+    {
+      "token": " env",
+      "s2": 20.9771,
+      "surprisal": 26.0509,
+      "entropy": 5.0738,
+      "streak_length": 0,
+      "pre_streak_s2": 2.1154,
+      "position": 57
+    },
+    {
+      "token": " printer",
+      "s2": 20.6428,
+      "surprisal": 21.8316,
+      "entropy": 1.1888,
+      "streak_length": 0,
+      "pre_streak_s2": 2.883,
+      "position": 175
+    },
+    {
+      "token": " badly",
+      "s2": 20.5858,
+      "surprisal": 22.2305,
+      "entropy": 1.6447,
+      "streak_length": 0,
+      "pre_streak_s2": 1.1657,
+      "position": 50
+    },
+    {
+      "token": " observing",
+      "s2": 20.3969,
+      "surprisal": 22.7821,
+      "entropy": 2.3852,
+      "streak_length": 0,
+      "pre_streak_s2": 1.7796,
+      "position": 49
+    },
+    {
+      "token": " list",
+      "s2": 19.4767,
+      "surprisal": 20.6528,
+      "entropy": 1.176,
+      "streak_length": 0,
+      "pre_streak_s2": 2.4125,
+      "position": 2
+    },
+    {
+      "token": "ashes",
+      "s2": 18.5125,
+      "surprisal": 20.6158,
+      "entropy": 2.1033,
+      "streak_length": 0,
+      "pre_streak_s2": 3.2014,
+      "position": 125
+    },
+    {
+      "token": " gravy",
+      "s2": 18.4081,
+      "surprisal": 24.8918,
+      "entropy": 6.4837,
+      "streak_length": 0,
+      "pre_streak_s2": 9.4419,
+      "position": 8
+    },
+    {
+      "token": " his",
+      "s2": 18.2394,
+      "surprisal": 18.6645,
+      "entropy": 0.4252,
+      "streak_length": 0,
+      "pre_streak_s2": 7.8905,
+      "position": 48
+    },
+    {
+      "token": "\u00e8",
+      "s2": 18.198,
+      "surprisal": 19.1121,
+      "entropy": 0.9141,
+      "streak_length": 0,
+      "pre_streak_s2": 4.3871,
+      "position": 315
+    },
+    {
+      "token": " squats",
+      "s2": 18.196,
+      "surprisal": 21.6784,
+      "entropy": 3.4824,
+      "streak_length": 0,
+      "pre_streak_s2": 4.1786,
+      "position": 75
+    }
+  ]
+}
