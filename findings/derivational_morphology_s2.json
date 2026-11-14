@@ -1,0 +1,212 @@
+{
+  "group_stats": {
+    "base form": {
+      "n": 52064,
+      "mean": -0.536,
+      "pos_rate": 0.323,
+      "max": 36.66,
+      "std": 3.556
+    },
+    "ADV suffix": {
+      "n": 216,
+      "mean": 3.038,
+      "pos_rate": 0.741,
+      "max": 20.59,
+      "std": 4.17
+    },
+    "VERB suffix / gerund": {
+      "n": 1343,
+      "mean": 1.898,
+      "pos_rate": 0.608,
+      "max": 20.68,
+      "std": 4.259
+    },
+    "NOUN suffix": {
+      "n": 317,
+      "mean": 2.001,
+      "pos_rate": 0.637,
+      "max": 17.36,
+      "std": 4.346
+    },
+    "ADJ suffix": {
+      "n": 314,
+      "mean": 2.688,
+      "pos_rate": 0.65,
+      "max": 17.32,
+      "std": 4.675
+    },
+    "prefix": {
+      "n": 359,
+      "mean": 2.415,
+      "pos_rate": 0.682,
+      "max": 16.4,
+      "std": 4.031
+    }
+  },
+  "suffix_rows": [
+    {
+      "cat": "prefix_in",
+      "label": "into/negation in-",
+      "group": "prefix",
+      "n": 59,
+      "mean": 3.756,
+      "pos_rate": 0.814,
+      "max": 16.4,
+      "std": 4.061
+    },
+    {
+      "cat": "adv_ly",
+      "label": "adverb -ly",
+      "group": "ADV suffix",
+      "n": 216,
+      "mean": 3.038,
+      "pos_rate": 0.741,
+      "max": 20.59,
+      "std": 4.17
+    },
+    {
+      "cat": "adj_al",
+      "label": "adjective -al",
+      "group": "ADJ suffix",
+      "n": 120,
+      "mean": 2.715,
+      "pos_rate": 0.675,
+      "max": 15.61,
+      "std": 4.298
+    },
+    {
+      "cat": "verb_ing",
+      "label": "gerund/participle -ing",
+      "group": "VERB suffix / gerund",
+      "n": 727,
+      "mean": 2.615,
+      "pos_rate": 0.681,
+      "max": 20.68,
+      "std": 4.369
+    },
+    {
+      "cat": "noun_ness",
+      "label": "quality -ness",
+      "group": "NOUN suffix",
+      "n": 53,
+      "mean": 1.987,
+      "pos_rate": 0.642,
+      "max": 12.78,
+      "std": 3.799
+    },
+    {
+      "cat": "prefix_re",
+      "label": "iteration re-",
+      "group": "prefix",
+      "n": 165,
+      "mean": 1.967,
+      "pos_rate": 0.667,
+      "max": 11.03,
+      "std": 3.727
+    },
+    {
+      "cat": "noun_tion",
+      "label": "nominalizer -tion",
+      "group": "NOUN suffix",
+      "n": 74,
+      "mean": 1.859,
+      "pos_rate": 0.635,
+      "max": 15.74,
+      "std": 4.282
+    },
+    {
+      "cat": "adj_ous",
+      "label": "adjective -ous",
+      "group": "ADJ suffix",
+      "n": 56,
+      "mean": 1.597,
+      "pos_rate": 0.554,
+      "max": 13.98,
+      "std": 4.312
+    },
+    {
+      "cat": "verb_en",
+      "label": "verbalizer -en",
+      "group": "VERB suffix / gerund",
+      "n": 546,
+      "mean": 0.828,
+      "pos_rate": 0.5,
+      "max": 15.83,
+      "std": 3.88
+    },
+    {
+      "cat": "base",
+      "label": "base form (short)",
+      "group": "base form",
+      "n": 52064,
+      "mean": -0.536,
+      "pos_rate": 0.323,
+      "max": 36.66,
+      "std": 3.556
+    }
+  ],
+  "top_noun_eras": [
+    [
+      "modernist",
+      2.314361904761905
+    ],
+    [
+      "contemporary",
+      2.1432096774193545
+    ],
+    [
+      "new_york_school",
+      1.0124448275862068
+    ],
+    [
+      "19th_century",
+      0.9489000000000001
+    ],
+    [
+      "found_poetry",
+      -1.1660103448275863
+    ]
+  ],
+  "top_prefix_eras": [
+    [
+      "modernist",
+      4.684458823529412
+    ],
+    [
+      "dramatic_monologue",
+      4.063366666666666
+    ],
+    [
+      "early_modern",
+      3.79825
+    ],
+    [
+      "prose_poetry",
+      3.6035666666666666
+    ],
+    [
+      "romantic",
+      3.5615166666666673
+    ],
+    [
+      "new_york_school",
+      3.4132263157894736
+    ],
+    [
+      "victorian",
+      3.268988461538462
+    ],
+    [
+      "biblical",
+      2.9778769230769226
+    ],
+    [
+      "19th_century",
+      2.58182
+    ],
+    [
+      "procedural",
+      2.2785818181818183
+    ]
+  ]
+}
