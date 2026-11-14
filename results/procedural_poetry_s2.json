@@ -1,0 +1,217 @@
+{
+  "procedural": {
+    "n_poems": 8,
+    "imperative_verb_s2": {
+      "n": 18,
+      "mean": 0.5442,
+      "median": -0.6881,
+      "std": 4.4913
+    },
+    "post_verb_s2": {
+      "n": 18,
+      "mean": 0.9119,
+      "median": -0.3942,
+      "std": 4.6002
+    },
+    "other_s2": {
+      "n": 546,
+      "mean": -0.3144,
+      "median": -1.327,
+      "std": 3.5132
+    },
+    "sawtooth_deltas": {
+      "n": 18,
+      "mean": 0.3677,
+      "median": 0.9336,
+      "std": 6.892
+    },
+    "poem_details": [
+      {
+        "title": "Recipe (Synthetic procedural test case I)",
+        "author": "Synthetic (procedural test case)",
+        "avg_s2": -0.3483,
+        "verb_s2": {
+          "n": 4,
+          "mean": 0.5191,
+          "median": -0.7482,
+          "std": 2.8964
+        },
+        "postverb_s2": {
+          "n": 4,
+          "mean": 0.3479,
+          "median": 0.1855,
+          "std": 3.2908
+        },
+        "n_imperative_verbs": 4
+      },
+      {
+        "title": "Instructions for Forgetting (Synthetic procedural test case II)",
+        "author": "Synthetic (procedural test case)",
+        "avg_s2": -0.5786,
+        "verb_s2": {
+          "n": 3,
+          "mean": 1.1885,
+          "median": 1.3803,
+          "std": 2.1091
+        },
+        "postverb_s2": {
+          "n": 3,
+          "mean": 1.224,
+          "median": -1.002,
+          "std": 5.4221
+        },
+        "n_imperative_verbs": 3
+      },
+      {
+        "title": "Protocol (Synthetic procedural test case III)",
+        "author": "Synthetic (procedural test case)",
+        "avg_s2": -1.1432,
+        "verb_s2": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "std": null
+        },
+        "postverb_s2": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "std": null
+        },
+        "n_imperative_verbs": 0
+      },
+      {
+        "title": "How to Disappear (Synthetic procedural test case IV)",
+        "author": "Synthetic (procedural test case)",
+        "avg_s2": -1.0169,
+        "verb_s2": {
+          "n": 4,
+          "mean": -4.8779,
+          "median": -4.9884,
+          "std": 0.5571
+        },
+        "postverb_s2": {
+          "n": 4,
+          "mean": -0.4231,
+          "median": -0.3942,
+          "std": 0.1242
+        },
+        "n_imperative_verbs": 4
+      },
+      {
+        "title": "Field Notes for Living (Synthetic procedural test case V)",
+        "author": "Synthetic (procedural test case)",
+        "avg_s2": -0.4254,
+        "verb_s2": {
+          "n": 5,
+          "mean": 1.9123,
+          "median": -0.3663,
+          "std": 4.8592
+        },
+        "postverb_s2": {
+          "n": 5,
+          "mean": 1.9457,
+          "median": -2.0836,
+          "std": 7.6403
+        },
+        "n_imperative_verbs": 5
+      },
+      {
+        "title": "Works and Days (farming instructions, excerpt)",
+        "author": "Hesiod (trans. Mair, 1908)",
+        "avg_s2": -0.1867,
+        "verb_s2": {
+          "n": 1,
+          "mean": 6.5152,
+          "median": 6.5152,
+          "std": 0.0
+        },
+        "postverb_s2": {
+          "n": 1,
+          "mean": 4.8021,
+          "median": 4.8021,
+          "std": 0.0
+        },
+        "n_imperative_verbs": 1
+      },
+      {
+        "title": "The Way to Wealth (excerpt, Poor Richard's Almanac)",
+        "author": "Benjamin Franklin",
+        "avg_s2": -0.2713,
+        "verb_s2": {
+          "n": 1,
+          "mean": 7.5887,
+          "median": 7.5887,
+          "std": 0.0
+        },
+        "postverb_s2": {
+          "n": 1,
+          "mean": -1.4878,
+          "median": -1.4878,
+          "std": 0.0
+        },
+        "n_imperative_verbs": 1
+      },
+      {
+        "title": "Ars Poetica (opening, trans. Howes 1849)",
+        "author": "Horace (trans. Howes, 1849)",
+        "avg_s2": -0.37,
+        "verb_s2": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "std": null
+        },
+        "postverb_s2": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "std": null
+        },
+        "n_imperative_verbs": 0
+      }
+    ]
+  },
+  "lyric_baseline": {
+    "n_poems": 103,
+    "imperative_verb_s2": {
+      "n": 33,
+      "mean": 0.695,
+      "median": -0.2464,
+      "std": 3.1869
+    },
+    "post_verb_s2": {
+      "n": 33,
+      "mean": -1.102,
+      "median": -2.0742,
+      "std": 3.1163
+    },
+    "other_s2": {
+      "n": 14129,
+      "mean": -0.2006,
+      "median": -0.9375,
+      "std": 3.8124
+    }
+  },
+  "prose_poetry_baseline": {
+    "n_poems": 12,
+    "imperative_verb_s2": {
+      "n": 2,
+      "mean": 1.3169,
+      "median": 1.3169,
+      "std": 8.1791
+    },
+    "post_verb_s2": {
+      "n": 2,
+      "mean": -0.7766,
+      "median": -0.7766,
+      "std": 2.743
+    },
+    "other_s2": {
+      "n": 1333,
+      "mean": -0.4109,
+      "median": -1.3172,
+      "std": 3.3492
+    }
+  }
+}

@@ -9024,6 +9024,135 @@ To add more grief to aggravate my sorrow.
 Still let me sleep, embracing clouds in vain,
 And never wake to feel the day's disdain.""",
     },
+
+    # ─── PROCEDURAL / INSTRUCTIONAL POETRY ─────────────────────────────────────
+    # Synthetic test cases designed to probe the "imperative verb" S2 hypothesis:
+    # do command verbs (high uncertainty about *which* action) produce higher S2
+    # than the objects that follow them (constrained by the verb)?
+    # Era label: "procedural"
+
+    {
+        "title": "Recipe (Synthetic procedural test case I)",
+        "author": "Synthetic (procedural test case)",
+        "year": 2024,
+        "era": "procedural",
+        "text": """Take the morning from its drawer.
+Unfold it on the counter.
+Cut into equal portions.
+Season with what you remember.
+Stir until the memory dissolves.
+Pour over the landscape.
+Let stand for thirty years.
+Serve cold.""",
+    },
+    {
+        "title": "Instructions for Forgetting (Synthetic procedural test case II)",
+        "author": "Synthetic (procedural test case)",
+        "year": 2024,
+        "era": "procedural",
+        "text": """To begin, gather all your silences.
+Sort them by weight and texture.
+Discard the ones that have gone bitter.
+Wash the remainder in running water.
+Press between paper until dry.
+Label each with the year of its making.
+Store in a cool, dark place.
+Do not open except in emergency.""",
+    },
+    {
+        "title": "Protocol (Synthetic procedural test case III)",
+        "author": "Synthetic (procedural test case)",
+        "year": 2024,
+        "era": "procedural",
+        "text": """First: refuse.
+Then: accept.
+Then: refuse again.
+Next: forget.
+Following that: remember.
+Now: refuse.
+Finally: accept what you refused.""",
+    },
+    {
+        "title": "How to Disappear (Synthetic procedural test case IV)",
+        "author": "Synthetic (procedural test case)",
+        "year": 2024,
+        "era": "procedural",
+        "text": """Begin with a name. Subtract it.
+Begin with a country. Erase the borders.
+Begin with a language. Exhale the vowels.
+Begin with a body. Open every door.
+Begin with a beginning. Skip it.
+Begin with the end. That's the place.""",
+    },
+    {
+        "title": "Field Notes for Living (Synthetic procedural test case V)",
+        "author": "Synthetic (procedural test case)",
+        "year": 2024,
+        "era": "procedural",
+        "text": """Observe the light as it enters.
+Note the angle. Note the season.
+Record the name of the first bird.
+Catalogue the shadows by length.
+Measure the distance to the nearest window.
+Compare today's silence to yesterday's.
+Write nothing. Cross it out. Write it again.""",
+    },
+    # Procedural poem from public domain: Hesiod, Works and Days (excerpts, trans. Mair 1908)
+    # Agricultural instructions as verse — ancient procedural poetry
+    {
+        "title": "Works and Days (farming instructions, excerpt)",
+        "author": "Hesiod (trans. Mair, 1908)",
+        "year": -700,
+        "era": "procedural",
+        "text": """Mark well the season when you hear the crane
+Give forth his yearly cry from out the clouds:
+His voice brings signal for the time to plough,
+And shows that winter's coming with its rains.
+Then gall the heart of him who hath no ox.
+At home sit thou and watch another's toil.
+When the Pleiades, Atlas' daughters, rise,
+Begin your harvest; plough when they go down.
+Prune first your vines when the snail climbs the stalk,
+Fleeing the Pleiades; for then no more
+You need to dig about your growing vines.""",
+    },
+    # Ben Franklin, Poor Richard's Almanac (1733, public domain) — aphoristic-procedural
+    {
+        "title": "The Way to Wealth (excerpt, Poor Richard's Almanac)",
+        "author": "Benjamin Franklin",
+        "year": 1758,
+        "era": "procedural",
+        "text": """Sloth makes all things difficult, but industry all easy.
+He that riseth late must trot all day,
+and shall scarce overtake his business at night;
+while laziness travels so slowly,
+that poverty soon overtakes him.
+Drive thy business, let not that drive thee;
+and early to bed, and early to rise,
+makes a man healthy, wealthy, and wise.""",
+    },
+    # Horace, Ars Poetica (opening, trans. Francis Howes 1849, public domain)
+    # Meta-instructional: how to write poetry — instructions about poetry
+    {
+        "title": "Ars Poetica (opening, trans. Howes 1849)",
+        "author": "Horace (trans. Howes, 1849)",
+        "year": -18,
+        "era": "procedural",
+        "text": """If to a human head a painter join
+A horse's neck, and feathers of all dyes
+O'er limbs collected from the strangest climes,
+So that the top a lovely woman show,
+The bottom, a black fish of hideous form,
+Could you, my friends, restrain your laughter there?
+Believe me, Pisos, to that picture like
+Would be a book, whose wild, unbridled thoughts
+Resemble sick men's dreams—where neither head
+Nor foot to one definite form belongs.
+"But painters and their art may claim
+A license still: we know it, and we grant
+The same to poets." True; but not so far
+That fierce things pair with tame.""",
+    },
 ]
 
 # Quick stats
