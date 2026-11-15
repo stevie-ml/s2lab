@@ -1,0 +1,1276 @@
+{
+  "baseline": {
+    "n": 34164,
+    "mean": 0.004,
+    "median": -0.747,
+    "pos_pct": 40.1
+  },
+  "by_category": {
+    "vague_quantifier": {
+      "poetry": {
+        "n": 601,
+        "mean": 0.002,
+        "median": -0.154,
+        "pos_pct": 46.6
+      },
+      "prose": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "pos_pct": null
+      },
+      "sample": [
+        [
+          "all",
+          "romantic",
+          -1.48,
+          "I"
+        ],
+        [
+          "once",
+          "romantic",
+          -3.84,
+          "once"
+        ],
+        [
+          "some",
+          "romantic",
+          1.77,
+          "my"
+        ],
+        [
+          "some",
+          "romantic",
+          -0.07,
+          "thy"
+        ],
+        [
+          "all",
+          "19th_century",
+          -0.92,
+          ","
+        ],
+        [
+          "all",
+          "19th_century",
+          -0.79,
+          "were"
+        ],
+        [
+          "every",
+          "19th_century",
+          1.33,
+          "I"
+        ],
+        [
+          "half",
+          "modernist",
+          1.8,
+          "places"
+        ],
+        [
+          "little",
+          "modernist",
+          -5.39,
+          "little"
+        ],
+        [
+          "much",
+          "modernist",
+          -1.43,
+          ","
+        ],
+        [
+          "little",
+          "modernist",
+          -4.35,
+          "dream"
+        ],
+        [
+          "more",
+          "confessional",
+          -2.91,
+          "body"
+        ],
+        [
+          "every",
+          "confessional",
+          3.87,
+          ","
+        ],
+        [
+          "many",
+          "mid_century",
+          -1.38,
+          "long"
+        ],
+        [
+          "every",
+          "mid_century",
+          2.88,
+          ","
+        ],
+        [
+          "few",
+          "new_york_school",
+          -3.4,
+          "man"
+        ],
+        [
+          "each",
+          "new_york_school",
+          1.33,
+          ""
+        ],
+        [
+          "each",
+          "new_york_school",
+          -2.82,
+          "the"
+        ],
+        [
+          "once",
+          "new_york_school",
+          -2.24,
+          "to"
+        ],
+        [
+          "all",
+          "new_york_school",
+          -0.55,
+          "a"
+        ]
+      ]
+    },
+    "extremal": {
+      "poetry": {
+        "n": 209,
+        "mean": 0.276,
+        "median": -0.285,
+        "pos_pct": 46.9
+      },
+      "prose": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "pos_pct": null
+      },
+      "sample": [
+        [
+          "no",
+          "19th_century",
+          -0.1,
+          "that"
+        ],
+        [
+          "no",
+          "modernist",
+          4.37,
+          "and"
+        ],
+        [
+          "no",
+          "mid_century",
+          -1.95,
+          "a"
+        ],
+        [
+          "never",
+          "new_york_school",
+          2.07,
+          "and"
+        ],
+        [
+          "never",
+          "new_york_school",
+          -0.7,
+          "see"
+        ],
+        [
+          "always",
+          "new_york_school",
+          -3.16,
+          "taught"
+        ],
+        [
+          "no",
+          "new_york_school",
+          -4.48,
+          "no"
+        ],
+        [
+          "no",
+          "new_york_school",
+          2.58,
+          "the"
+        ],
+        [
+          "no",
+          "new_york_school",
+          -0.72,
+          "a"
+        ],
+        [
+          "always",
+          "new_york_school",
+          -3.02,
+          "in"
+        ],
+        [
+          "never",
+          "surrealist",
+          6.35,
+          "I"
+        ],
+        [
+          "nothing",
+          "surrealist",
+          4.64,
+          "not"
+        ],
+        [
+          "no",
+          "surrealist",
+          11.12,
+          "of"
+        ],
+        [
+          "no",
+          "surrealist",
+          1.64,
+          "am"
+        ],
+        [
+          "always",
+          "surrealist",
+          -0.46,
+          "yet"
+        ],
+        [
+          "no",
+          "surrealist",
+          1.13,
+          "the"
+        ],
+        [
+          "no",
+          "surrealist",
+          -2.94,
+          "no"
+        ],
+        [
+          "no",
+          "surrealist",
+          -1.76,
+          "no"
+        ],
+        [
+          "no",
+          "surrealist",
+          -1.82,
+          "no"
+        ],
+        [
+          "never",
+          "victorian",
+          2.28,
+          "the"
+        ]
+      ]
+    },
+    "cardinal_other": {
+      "poetry": {
+        "n": 92,
+        "mean": 0.162,
+        "median": 0.024,
+        "pos_pct": 50.0
+      },
+      "prose": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "pos_pct": null
+      },
+      "sample": [
+        [
+          "one",
+          "modernist",
+          1.67,
+          "the"
+        ],
+        [
+          "one",
+          "modernist",
+          -4.43,
+          ","
+        ],
+        [
+          "one",
+          "confessional",
+          -1.94,
+          "a"
+        ],
+        [
+          "one",
+          "new_york_school",
+          -2.85,
+          "a"
+        ],
+        [
+          "one",
+          "new_york_school",
+          -0.4,
+          "it"
+        ],
+        [
+          "one",
+          "new_york_school",
+          -0.32,
+          "the"
+        ],
+        [
+          "one",
+          "new_york_school",
+          0.42,
+          "is"
+        ],
+        [
+          "one",
+          "contemporary",
+          -3.24,
+          "one"
+        ],
+        [
+          "one",
+          "modernist",
+          -2.26,
+          "the"
+        ],
+        [
+          "one",
+          "modernist",
+          0.96,
+          "I"
+        ],
+        [
+          "one",
+          "19th_century",
+          -3.23,
+          "strange"
+        ],
+        [
+          "one",
+          "victorian",
+          4.24,
+          "us"
+        ],
+        [
+          "one",
+          "19th_century",
+          -4.19,
+          "one"
+        ],
+        [
+          "one",
+          "harlem_renaissance",
+          1.56,
+          "us"
+        ],
+        [
+          "one",
+          "contemporary",
+          -2.44,
+          "grass"
+        ],
+        [
+          "one",
+          "contemporary",
+          -1.78,
+          "one"
+        ],
+        [
+          "one",
+          "contemporary",
+          4.56,
+          "life"
+        ],
+        [
+          "one",
+          "modernist",
+          -1.52,
+          "the"
+        ],
+        [
+          "one",
+          "modernist",
+          -0.88,
+          "so"
+        ],
+        [
+          "one",
+          "modernist",
+          2.51,
+          "on"
+        ]
+      ]
+    },
+    "prosaic_number": {
+      "poetry": {
+        "n": 50,
+        "mean": -0.021,
+        "median": -1.172,
+        "pos_pct": 38.0
+      },
+      "prose": {
+        "n": 1,
+        "mean": -2.731,
+        "median": -2.731,
+        "pos_pct": 0.0
+      },
+      "sample": [
+        [
+          "thirty",
+          "confessional",
+          -0.36,
+          "the"
+        ],
+        [
+          "two",
+          "new_york_school",
+          -3.88,
+          ""
+        ],
+        [
+          "two",
+          "surrealist",
+          0.11,
+          "a"
+        ],
+        [
+          "twenty",
+          "contemporary",
+          8.98,
+          ","
+        ],
+        [
+          "twenty",
+          "modernist",
+          8.87,
+          "the"
+        ],
+        [
+          "two",
+          "prose_poetry",
+          1.75,
+          "a"
+        ],
+        [
+          "twenty",
+          "found_poetry",
+          -2.44,
+          "twenty"
+        ],
+        [
+          "two",
+          "found_poetry",
+          -1.38,
+          "two"
+        ],
+        [
+          "five",
+          "romantic",
+          4.53,
+          "the"
+        ],
+        [
+          "Million",
+          "beat",
+          -0.32,
+          "-"
+        ],
+        [
+          "million",
+          "ghazal",
+          -2.77,
+          "-"
+        ],
+        [
+          "two",
+          "limerick",
+          1.44,
+          "the"
+        ],
+        [
+          "two",
+          "limerick",
+          -4.35,
+          "to"
+        ],
+        [
+          "two",
+          "limerick",
+          -3.1,
+          ","
+        ],
+        [
+          "Five",
+          "war_poetry",
+          11.56,
+          ","
+        ],
+        [
+          "two",
+          "18th_century",
+          -4.91,
+          "same"
+        ],
+        [
+          "six",
+          "postcolonial",
+          0.89,
+          "four"
+        ],
+        [
+          "two",
+          "dramatic_monologue",
+          1.03,
+          "and"
+        ],
+        [
+          "two",
+          "dramatic_monologue",
+          -1.45,
+          "three"
+        ],
+        [
+          "six",
+          "victorian",
+          1.04,
+          "mighty"
+        ]
+      ]
+    },
+    "mythic_number": {
+      "poetry": {
+        "n": 72,
+        "mean": 1.278,
+        "median": -0.074,
+        "pos_pct": 48.6
+      },
+      "prose": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "pos_pct": null
+      },
+      "sample": [
+        [
+          "ten",
+          "confessional",
+          -2.22,
+          "five"
+        ],
+        [
+          "four",
+          "language",
+          5.8,
+          "it"
+        ],
+        [
+          "ten",
+          "contemporary",
+          0.17,
+          ","
+        ],
+        [
+          "twelve",
+          "victorian",
+          4.54,
+          "the"
+        ],
+        [
+          "thousand",
+          "harlem_renaissance",
+          4.31,
+          "sake"
+        ],
+        [
+          "ten",
+          "romantic",
+          0.52,
+          "a"
+        ],
+        [
+          "thousand",
+          "romantic",
+          -2.99,
+          "years"
+        ],
+        [
+          "four",
+          "contemporary",
+          3.6,
+          "5"
+        ],
+        [
+          "three",
+          "ballad",
+          -1.61,
+          "a"
+        ],
+        [
+          "three",
+          "ballad",
+          -1.48,
+          "husband"
+        ],
+        [
+          "three",
+          "ballad",
+          14.88,
+          "an"
+        ],
+        [
+          "three",
+          "ballad",
+          -1.79,
+          "son"
+        ],
+        [
+          "hundred",
+          "song_lyrics",
+          1.93,
+          "lot"
+        ],
+        [
+          "seven",
+          "song_lyrics",
+          4.62,
+          "the"
+        ],
+        [
+          "seven",
+          "song_lyrics",
+          -1.02,
+          "seven"
+        ],
+        [
+          "three",
+          "haiku",
+          -4.92,
+          "three"
+        ],
+        [
+          "forty",
+          "found_poetry",
+          -1.68,
+          "twenty"
+        ],
+        [
+          "ten",
+          "metaphysical",
+          5.66,
+          ","
+        ],
+        [
+          "four",
+          "victorian",
+          -4.28,
+          "a"
+        ],
+        [
+          "Nine",
+          "victorian",
+          9.47,
+          "the"
+        ]
+      ]
+    },
+    "ordinal": {
+      "poetry": {
+        "n": 64,
+        "mean": -0.481,
+        "median": -1.037,
+        "pos_pct": 34.4
+      },
+      "prose": {
+        "n": 1,
+        "mean": 0.435,
+        "median": 0.435,
+        "pos_pct": 100.0
+      },
+      "sample": [
+        [
+          "First",
+          "new_york_school",
+          5.63,
+          ""
+        ],
+        [
+          "first",
+          "haiku",
+          -1.22,
+          "frog"
+        ],
+        [
+          "second",
+          "19th_century",
+          -2.95,
+          "bird"
+        ],
+        [
+          "Second",
+          "modernist",
+          3.08,
+          "world"
+        ],
+        [
+          "Second",
+          "modernist",
+          -5.59,
+          "Second"
+        ],
+        [
+          "first",
+          "modernist",
+          -3.57,
+          "other"
+        ],
+        [
+          "first",
+          "ballad",
+          2.08,
+          "king"
+        ],
+        [
+          "second",
+          "victorian",
+          0.51,
+          "day"
+        ],
+        [
+          "first",
+          "prose_poetry",
+          -3.11,
+          "house"
+        ],
+        [
+          "first",
+          "metaphysical",
+          -2.96,
+          "own"
+        ],
+        [
+          "first",
+          "confessional",
+          3.39,
+          "a"
+        ],
+        [
+          "second",
+          "early_modern",
+          -0.03,
+          "smile"
+        ],
+        [
+          "first",
+          "victorian",
+          -0.32,
+          "air"
+        ],
+        [
+          "first",
+          "victorian",
+          3.44,
+          "the"
+        ],
+        [
+          "first",
+          "18th_century",
+          -2.71,
+          "end"
+        ],
+        [
+          "first",
+          "18th_century",
+          2.05,
+          "he"
+        ],
+        [
+          "third",
+          "18th_century",
+          -3.01,
+          "third"
+        ],
+        [
+          "fourth",
+          "18th_century",
+          -3.21,
+          "fourth"
+        ],
+        [
+          "fifth",
+          "18th_century",
+          -2.29,
+          "fifth"
+        ],
+        [
+          "sixth",
+          "18th_century",
+          -3.03,
+          "sixth"
+        ]
+      ]
+    }
+  },
+  "per_number": {
+    "one": {
+      "n": 89,
+      "mean": 0.042,
+      "median": -0.037,
+      "pos_pct": 49.4
+    },
+    "ten": {
+      "n": 8,
+      "mean": 1.23,
+      "median": 0.52,
+      "pos_pct": 62.5
+    },
+    "two": {
+      "n": 29,
+      "mean": -0.923,
+      "median": -1.38,
+      "pos_pct": 37.9
+    },
+    "four": {
+      "n": 10,
+      "mean": 1.379,
+      "median": 1.792,
+      "pos_pct": 60.0
+    },
+    "twelve": {
+      "n": 3,
+      "mean": 3.738,
+      "median": 4.536,
+      "pos_pct": 66.7
+    },
+    "thousand": {
+      "n": 7,
+      "mean": -1.543,
+      "median": -2.995,
+      "pos_pct": 28.6
+    },
+    "twenty": {
+      "n": 3,
+      "mean": 5.136,
+      "median": 8.866,
+      "pos_pct": 66.7
+    },
+    "three": {
+      "n": 19,
+      "mean": 1.127,
+      "median": -1.482,
+      "pos_pct": 42.1
+    },
+    "hundred": {
+      "n": 8,
+      "mean": -1.514,
+      "median": -0.206,
+      "pos_pct": 12.5
+    },
+    "seven": {
+      "n": 6,
+      "mean": 4.766,
+      "median": 4.62,
+      "pos_pct": 83.3
+    },
+    "forty": {
+      "n": 4,
+      "mean": 4.054,
+      "median": 7.744,
+      "pos_pct": 50.0
+    },
+    "nine": {
+      "n": 7,
+      "mean": 1.979,
+      "median": 1.683,
+      "pos_pct": 57.1
+    },
+    "five": {
+      "n": 5,
+      "mean": 1.64,
+      "median": -1.736,
+      "pos_pct": 40.0
+    },
+    "six": {
+      "n": 9,
+      "mean": -0.066,
+      "median": -1.513,
+      "pos_pct": 33.3
+    }
+  },
+  "top_cardinal_moments": [
+    [
+      "three",
+      "ballad",
+      14.88,
+      0.0915,
+      "an",
+      "an"
+    ],
+    [
+      "Five",
+      "war_poetry",
+      11.56,
+      7.3619,
+      ",",
+      ","
+    ],
+    [
+      "six",
+      "contemporary",
+      11.19,
+      4.9887,
+      "that",
+      "that"
+    ],
+    [
+      "Three",
+      "contemporary",
+      10.8,
+      6.8011,
+      "the",
+      "the"
+    ],
+    [
+      "seven",
+      "18th_century",
+      10.43,
+      4.1412,
+      "and",
+      "and"
+    ],
+    [
+      "four",
+      "romantic",
+      10.41,
+      5.4514,
+      "and",
+      "and"
+    ],
+    [
+      "forty",
+      "contemporary",
+      10.35,
+      3.526,
+      "the",
+      "the"
+    ],
+    [
+      "seven",
+      "18th_century",
+      10.1,
+      4.2992,
+      "and",
+      "and"
+    ],
+    [
+      "Nine",
+      "victorian",
+      9.47,
+      6.593,
+      "the",
+      "the"
+    ],
+    [
+      "twenty",
+      "contemporary",
+      8.98,
+      5.7114,
+      ",",
+      ","
+    ],
+    [
+      "twenty",
+      "modernist",
+      8.87,
+      6.7527,
+      "the",
+      "the"
+    ],
+    [
+      "fifteen",
+      "found_poetry",
+      8.35,
+      6.9744,
+      "the",
+      "the"
+    ],
+    [
+      "one",
+      "ekphrastic",
+      8.18,
+      3.38,
+      "you",
+      "you"
+    ],
+    [
+      "forty",
+      "ghazal",
+      7.74,
+      6.027,
+      "it",
+      "it"
+    ],
+    [
+      "one",
+      "nursery_rhyme",
+      7.59,
+      2.8655,
+      ",",
+      ","
+    ],
+    [
+      "three",
+      "nonsense",
+      7.52,
+      4.9477,
+      "is",
+      "is"
+    ],
+    [
+      "one",
+      "parody",
+      7.47,
+      3.0268,
+      "and",
+      "and"
+    ],
+    [
+      "twelve",
+      "parody",
+      6.81,
+      6.8969,
+      "the",
+      "the"
+    ],
+    [
+      "two",
+      "early_modern",
+      6.22,
+      5.4367,
+      "there",
+      "there"
+    ],
+    [
+      "one",
+      "mid_century",
+      6.09,
+      5.1038,
+      "from",
+      "from"
+    ],
+    [
+      "four",
+      "language",
+      5.8,
+      7.4299,
+      "it",
+      "it"
+    ],
+    [
+      "ten",
+      "metaphysical",
+      5.66,
+      6.956,
+      ",",
+      ","
+    ],
+    [
+      "fourteen",
+      "contemporary",
+      5.49,
+      11.1197,
+      "heart",
+      "heart"
+    ],
+    [
+      "nine",
+      "contemporary",
+      5.46,
+      4.7933,
+      "points",
+      "points"
+    ],
+    [
+      "One",
+      "beat",
+      5.16,
+      9.6757,
+      "the",
+      "the"
+    ],
+    [
+      "three",
+      "harlem_renaissance",
+      4.84,
+      9.3764,
+      "of",
+      "of"
+    ],
+    [
+      "one",
+      "found_poetry",
+      4.74,
+      6.8457,
+      "rain",
+      "rain"
+    ],
+    [
+      "seven",
+      "song_lyrics",
+      4.62,
+      7.8896,
+      "the",
+      "the"
+    ],
+    [
+      "one",
+      "contemporary",
+      4.56,
+      6.4952,
+      "life",
+      "life"
+    ],
+    [
+      "twelve",
+      "victorian",
+      4.54,
+      9.4787,
+      "the",
+      "the"
+    ]
+  ],
+  "vague_high_s2_examples": [
+    [
+      "most",
+      "new_york_school",
+      14.42,
+      "you"
+    ],
+    [
+      "some",
+      "contemporary",
+      10.44,
+      "horses"
+    ],
+    [
+      "each",
+      "18th_century",
+      9.87,
+      "ably"
+    ],
+    [
+      "once",
+      "victorian",
+      9.24,
+      "cried"
+    ],
+    [
+      "many",
+      "romantic",
+      8.82,
+      "of"
+    ],
+    [
+      "all",
+      "modernist",
+      7.51,
+      "is"
+    ],
+    [
+      "half",
+      "victorian",
+      7.49,
+      "I"
+    ],
+    [
+      "once",
+      "concrete",
+      7.43,
+      "again"
+    ],
+    [
+      "enough",
+      "victorian",
+      7.39,
+      ","
+    ],
+    [
+      "every",
+      "procedural",
+      7.36,
+      "the"
+    ],
+    [
+      "few",
+      "victorian",
+      7.03,
+      "they"
+    ],
+    [
+      "most",
+      "prose_poetry",
+      6.96,
+      "more"
+    ],
+    [
+      "all",
+      "beat",
+      6.94,
+      "her"
+    ],
+    [
+      "some",
+      "victorian",
+      6.89,
+      "my"
+    ],
+    [
+      "all",
+      "romantic",
+      6.8,
+      "."
+    ],
+    [
+      "all",
+      "parody",
+      6.61,
+      "to"
+    ],
+    [
+      "more",
+      "prose_poetry",
+      6.41,
+      "when"
+    ],
+    [
+      "little",
+      "modernist",
+      6.24,
+      ","
+    ],
+    [
+      "every",
+      "19th_century",
+      6.17,
+      "a"
+    ],
+    [
+      "each",
+      "postcolonial",
+      6.13,
+      "that"
+    ]
+  ]
+}
