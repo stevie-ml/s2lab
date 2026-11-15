@@ -1,0 +1,1087 @@
+{
+  "experiment": "rereading_simulation",
+  "description": "Compare S2 on first vs second reading (poem prepended as context)",
+  "n_poems": 40,
+  "results": [
+    {
+      "title": "For I Will Consider My Cat Jeoffry (excerpt)",
+      "author": "Christopher Smart",
+      "era": "18th_century",
+      "n_tokens": 309,
+      "first_read": {
+        "avg_s2": -0.3772,
+        "avg_surprisal": 4.8199,
+        "avg_entropy": 5.1972,
+        "std_s2": 3.3101,
+        "pos_s2_ratio": 0.2945
+      },
+      "second_read": {
+        "avg_surprisal": 0.251,
+        "avg_entropy": 0.432,
+        "avg_s2": -0.1811,
+        "std_s2": 1.0126,
+        "pos_s2_ratio": 0.0259,
+        "n_tokens": 309
+      },
+      "delta": {
+        "s2": 0.1961,
+        "surprisal": -4.5689,
+        "entropy": -4.7652,
+        "s2_pct_change": 52.0
+      }
+    },
+    {
+      "title": "Because I could not stop for Death",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "n_tokens": 59,
+      "first_read": {
+        "avg_s2": 0.537,
+        "avg_surprisal": 7.2496,
+        "avg_entropy": 6.7126,
+        "std_s2": 4.4428,
+        "pos_s2_ratio": 0.4237
+      },
+      "second_read": {
+        "avg_surprisal": 0.8473,
+        "avg_entropy": 1.3276,
+        "avg_s2": -0.4804,
+        "std_s2": 2.4052,
+        "pos_s2_ratio": 0.0678,
+        "n_tokens": 59
+      },
+      "delta": {
+        "s2": -1.0174,
+        "surprisal": -6.4023,
+        "entropy": -5.385,
+        "s2_pct_change": -189.5
+      }
+    },
+    {
+      "title": "Fragment 31 (translated)",
+      "author": "Sappho",
+      "era": "ancient",
+      "n_tokens": 92,
+      "first_read": {
+        "avg_s2": 0.1851,
+        "avg_surprisal": 5.7969,
+        "avg_entropy": 5.6118,
+        "std_s2": 4.3486,
+        "pos_s2_ratio": 0.3696
+      },
+      "second_read": {
+        "avg_surprisal": 0.5263,
+        "avg_entropy": 0.6475,
+        "avg_s2": -0.1212,
+        "std_s2": 1.3851,
+        "pos_s2_ratio": 0.087,
+        "n_tokens": 92
+      },
+      "delta": {
+        "s2": -0.3063,
+        "surprisal": -5.2706,
+        "entropy": -4.9643,
+        "s2_pct_change": -165.5
+      }
+    },
+    {
+      "title": "Lord Randal",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "n_tokens": 197,
+      "first_read": {
+        "avg_s2": 0.0193,
+        "avg_surprisal": 3.7592,
+        "avg_entropy": 3.7398,
+        "std_s2": 4.6945,
+        "pos_s2_ratio": 0.2183
+      },
+      "second_read": {
+        "avg_surprisal": 1.0333,
+        "avg_entropy": 0.5073,
+        "avg_s2": 0.526,
+        "std_s2": 3.8743,
+        "pos_s2_ratio": 0.0561,
+        "n_tokens": 196
+      },
+      "delta": {
+        "s2": 0.5067,
+        "surprisal": -2.7259,
+        "entropy": -3.2325,
+        "s2_pct_change": 2625.4
+      }
+    },
+    {
+      "title": "Howl (opening)",
+      "author": "Allen Ginsberg",
+      "era": "beat",
+      "n_tokens": 54,
+      "first_read": {
+        "avg_s2": 1.4135,
+        "avg_surprisal": 8.2245,
+        "avg_entropy": 6.811,
+        "std_s2": 5.9677,
+        "pos_s2_ratio": 0.5185
+      },
+      "second_read": {
+        "avg_surprisal": 0.7621,
+        "avg_entropy": 1.3493,
+        "avg_s2": -0.5872,
+        "std_s2": 1.8073,
+        "pos_s2_ratio": 0.037,
+        "n_tokens": 54
+      },
+      "delta": {
+        "s2": -2.0007,
+        "surprisal": -7.4624,
+        "entropy": -5.4617,
+        "s2_pct_change": -141.5
+      }
+    },
+    {
+      "title": "Psalm 23 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "n_tokens": 153,
+      "first_read": {
+        "avg_s2": -0.5161,
+        "avg_surprisal": 4.1086,
+        "avg_entropy": 4.6247,
+        "std_s2": 3.4748,
+        "pos_s2_ratio": 0.281
+      },
+      "second_read": {
+        "avg_surprisal": 0.1101,
+        "avg_entropy": 0.4902,
+        "avg_s2": -0.3802,
+        "std_s2": 0.7536,
+        "pos_s2_ratio": 0.0,
+        "n_tokens": 153
+      },
+      "delta": {
+        "s2": 0.1359,
+        "surprisal": -3.9985,
+        "entropy": -4.1345,
+        "s2_pct_change": 26.3
+      }
+    },
+    {
+      "title": "Preface to a Twenty Volume Suicide Note",
+      "author": "Amiri Baraka (LeRoi Jones)",
+      "era": "black_arts",
+      "n_tokens": 159,
+      "first_read": {
+        "avg_s2": 0.6496,
+        "avg_surprisal": 5.7105,
+        "avg_entropy": 5.0609,
+        "std_s2": 5.6364,
+        "pos_s2_ratio": 0.3648
+      },
+      "second_read": {
+        "avg_surprisal": 1.3971,
+        "avg_entropy": 0.5231,
+        "avg_s2": 0.874,
+        "std_s2": 4.1141,
+        "pos_s2_ratio": 0.1195,
+        "n_tokens": 159
+      },
+      "delta": {
+        "s2": 0.2244,
+        "surprisal": -4.3134,
+        "entropy": -4.5378,
+        "s2_pct_change": 34.5
+      }
+    },
+    {
+      "title": "Spring View (literal trans.)",
+      "author": "Du Fu",
+      "era": "classical_chinese",
+      "n_tokens": 85,
+      "first_read": {
+        "avg_s2": -0.2912,
+        "avg_surprisal": 6.1694,
+        "avg_entropy": 6.4606,
+        "std_s2": 4.1723,
+        "pos_s2_ratio": 0.3529
+      },
+      "second_read": {
+        "avg_surprisal": 0.2504,
+        "avg_entropy": 0.6792,
+        "avg_s2": -0.4288,
+        "std_s2": 1.107,
+        "pos_s2_ratio": 0.0118,
+        "n_tokens": 85
+      },
+      "delta": {
+        "s2": -0.1376,
+        "surprisal": -5.919,
+        "entropy": -5.7814,
+        "s2_pct_change": -47.3
+      }
+    },
+    {
+      "title": "Life Is a Journey (synthetic clich\u00e9)",
+      "author": "Synthetic (research test case)",
+      "era": "cliche_control",
+      "n_tokens": 110,
+      "first_read": {
+        "avg_s2": -0.0379,
+        "avg_surprisal": 5.0278,
+        "avg_entropy": 5.0657,
+        "std_s2": 4.928,
+        "pos_s2_ratio": 0.3
+      },
+      "second_read": {
+        "avg_surprisal": 0.4495,
+        "avg_entropy": 0.3781,
+        "avg_s2": 0.0713,
+        "std_s2": 1.5406,
+        "pos_s2_ratio": 0.0545,
+        "n_tokens": 110
+      },
+      "delta": {
+        "s2": 0.1092,
+        "surprisal": -4.5783,
+        "entropy": -4.6876,
+        "s2_pct_change": 288.1
+      }
+    },
+    {
+      "title": "silencio",
+      "author": "Eugen Gomringer",
+      "era": "concrete",
+      "n_tokens": 48,
+      "first_read": {
+        "avg_s2": -0.1657,
+        "avg_surprisal": 1.7563,
+        "avg_entropy": 1.9221,
+        "std_s2": 4.6207,
+        "pos_s2_ratio": 0.0833
+      },
+      "second_read": {
+        "avg_surprisal": 0.8459,
+        "avg_entropy": 0.8413,
+        "avg_s2": 0.0046,
+        "std_s2": 3.0975,
+        "pos_s2_ratio": 0.0625,
+        "n_tokens": 48
+      },
+      "delta": {
+        "s2": 0.1703,
+        "surprisal": -0.9104,
+        "entropy": -1.0808,
+        "s2_pct_change": 102.8
+      }
+    },
+    {
+      "title": "Daddy (opening)",
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "n_tokens": 90,
+      "first_read": {
+        "avg_s2": 0.4797,
+        "avg_surprisal": 6.9574,
+        "avg_entropy": 6.4777,
+        "std_s2": 6.4395,
+        "pos_s2_ratio": 0.3333
+      },
+      "second_read": {
+        "avg_surprisal": 1.1179,
+        "avg_entropy": 0.9789,
+        "avg_s2": 0.139,
+        "std_s2": 3.8051,
+        "pos_s2_ratio": 0.0778,
+        "n_tokens": 90
+      },
+      "delta": {
+        "s2": -0.3407,
+        "surprisal": -5.8395,
+        "entropy": -5.4988,
+        "s2_pct_change": -71.0
+      }
+    },
+    {
+      "title": "Citizen (excerpt)",
+      "author": "Claudia Rankine",
+      "era": "contemporary",
+      "n_tokens": 58,
+      "first_read": {
+        "avg_s2": -0.0448,
+        "avg_surprisal": 5.9572,
+        "avg_entropy": 6.002,
+        "std_s2": 4.5098,
+        "pos_s2_ratio": 0.3448
+      },
+      "second_read": {
+        "avg_surprisal": 0.3742,
+        "avg_entropy": 0.5302,
+        "avg_s2": -0.156,
+        "std_s2": 1.0345,
+        "pos_s2_ratio": 0.0172,
+        "n_tokens": 58
+      },
+      "delta": {
+        "s2": -0.1112,
+        "surprisal": -5.583,
+        "entropy": -5.4718,
+        "s2_pct_change": -248.2
+      }
+    },
+    {
+      "title": "Simple narrative prose",
+      "author": "Control",
+      "era": "control",
+      "n_tokens": 36,
+      "first_read": {
+        "avg_s2": -2.0885,
+        "avg_surprisal": 4.1196,
+        "avg_entropy": 6.2081,
+        "std_s2": 2.1233,
+        "pos_s2_ratio": 0.1389
+      },
+      "second_read": {
+        "avg_surprisal": 0.2621,
+        "avg_entropy": 1.0103,
+        "avg_s2": -0.7482,
+        "std_s2": 1.4515,
+        "pos_s2_ratio": 0.0,
+        "n_tokens": 36
+      },
+      "delta": {
+        "s2": 1.3403,
+        "surprisal": -3.8575,
+        "entropy": -5.1978,
+        "s2_pct_change": 64.2
+      }
+    },
+    {
+      "title": "Driving Toward the Lac Qui Parle River",
+      "author": "Robert Bly",
+      "era": "deep_image",
+      "n_tokens": 62,
+      "first_read": {
+        "avg_s2": 0.2506,
+        "avg_surprisal": 6.8704,
+        "avg_entropy": 6.6199,
+        "std_s2": 4.0052,
+        "pos_s2_ratio": 0.4516
+      },
+      "second_read": {
+        "avg_surprisal": 0.3758,
+        "avg_entropy": 0.6193,
+        "avg_s2": -0.2435,
+        "std_s2": 1.3374,
+        "pos_s2_ratio": 0.0323,
+        "n_tokens": 62
+      },
+      "delta": {
+        "s2": -0.4941,
+        "surprisal": -6.4946,
+        "entropy": -6.0006,
+        "s2_pct_change": -197.2
+      }
+    },
+    {
+      "title": "Emily Dickinson (Double Dactyl)",
+      "author": "Synthetic (double dactyl test case)",
+      "era": "double_dactyl",
+      "n_tokens": 55,
+      "first_read": {
+        "avg_s2": 0.9548,
+        "avg_surprisal": 7.3557,
+        "avg_entropy": 6.4009,
+        "std_s2": 8.2074,
+        "pos_s2_ratio": 0.3455
+      },
+      "second_read": {
+        "avg_surprisal": 1.8351,
+        "avg_entropy": 0.8463,
+        "avg_s2": 0.9888,
+        "std_s2": 4.9987,
+        "pos_s2_ratio": 0.1818,
+        "n_tokens": 55
+      },
+      "delta": {
+        "s2": 0.034,
+        "surprisal": -5.5206,
+        "entropy": -5.5546,
+        "s2_pct_change": 3.6
+      }
+    },
+    {
+      "title": "Soliloquy of the Spanish Cloister",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "n_tokens": 260,
+      "first_read": {
+        "avg_s2": 0.1019,
+        "avg_surprisal": 6.9285,
+        "avg_entropy": 6.8266,
+        "std_s2": 5.1391,
+        "pos_s2_ratio": 0.3462
+      },
+      "second_read": {
+        "avg_surprisal": 0.5822,
+        "avg_entropy": 0.4795,
+        "avg_s2": 0.1027,
+        "std_s2": 1.9695,
+        "pos_s2_ratio": 0.0656,
+        "n_tokens": 259
+      },
+      "delta": {
+        "s2": 0.0008,
+        "surprisal": -6.3463,
+        "entropy": -6.3471,
+        "s2_pct_change": 0.8
+      }
+    },
+    {
+      "title": "They Flee from Me",
+      "author": "Thomas Wyatt",
+      "era": "early_modern",
+      "n_tokens": 217,
+      "first_read": {
+        "avg_s2": 1.0406,
+        "avg_surprisal": 7.3709,
+        "avg_entropy": 6.3303,
+        "std_s2": 5.2632,
+        "pos_s2_ratio": 0.47
+      },
+      "second_read": {
+        "avg_surprisal": 1.089,
+        "avg_entropy": 0.4169,
+        "avg_s2": 0.6721,
+        "std_s2": 3.6592,
+        "pos_s2_ratio": 0.0922,
+        "n_tokens": 217
+      },
+      "delta": {
+        "s2": -0.3685,
+        "surprisal": -6.2819,
+        "entropy": -5.9134,
+        "s2_pct_change": -35.4
+      }
+    },
+    {
+      "title": "On Seeing the Elgin Marbles",
+      "author": "John Keats",
+      "era": "ekphrastic",
+      "n_tokens": 148,
+      "first_read": {
+        "avg_s2": -0.309,
+        "avg_surprisal": 6.8161,
+        "avg_entropy": 7.1251,
+        "std_s2": 4.0146,
+        "pos_s2_ratio": 0.3514
+      },
+      "second_read": {
+        "avg_surprisal": 0.1709,
+        "avg_entropy": 0.4909,
+        "avg_s2": -0.32,
+        "std_s2": 0.8803,
+        "pos_s2_ratio": 0.0068,
+        "n_tokens": 148
+      },
+      "delta": {
+        "s2": -0.011,
+        "surprisal": -6.6452,
+        "entropy": -6.6342,
+        "s2_pct_change": -3.6
+      }
+    },
+    {
+      "title": "Elegy Written in a Country Churchyard (opening)",
+      "author": "Thomas Gray",
+      "era": "elegy",
+      "n_tokens": 195,
+      "first_read": {
+        "avg_s2": 0.1592,
+        "avg_surprisal": 6.8149,
+        "avg_entropy": 6.6557,
+        "std_s2": 4.6419,
+        "pos_s2_ratio": 0.3744
+      },
+      "second_read": {
+        "avg_surprisal": 1.0074,
+        "avg_entropy": 0.2572,
+        "avg_s2": 0.7503,
+        "std_s2": 3.873,
+        "pos_s2_ratio": 0.0718,
+        "n_tokens": 195
+      },
+      "delta": {
+        "s2": 0.5911,
+        "surprisal": -5.8075,
+        "entropy": -6.3985,
+        "s2_pct_change": 371.3
+      }
+    },
+    {
+      "title": "Theocritus: A Villanelle (opening quatrains)",
+      "author": "Oscar Wilde",
+      "era": "fixed_form",
+      "n_tokens": 102,
+      "first_read": {
+        "avg_s2": 1.266,
+        "avg_surprisal": 6.7369,
+        "avg_entropy": 5.471,
+        "std_s2": 6.2897,
+        "pos_s2_ratio": 0.4216
+      },
+      "second_read": {
+        "avg_surprisal": 1.6777,
+        "avg_entropy": 0.5554,
+        "avg_s2": 1.1223,
+        "std_s2": 5.5204,
+        "pos_s2_ratio": 0.0882,
+        "n_tokens": 102
+      },
+      "delta": {
+        "s2": -0.1437,
+        "surprisal": -5.0592,
+        "entropy": -4.9156,
+        "s2_pct_change": -11.4
+      }
+    },
+    {
+      "title": "Natural Selection (Found Poem from Darwin, 1859)",
+      "author": "Charles Darwin (found text)",
+      "era": "found_poetry",
+      "n_tokens": 142,
+      "first_read": {
+        "avg_s2": -0.3887,
+        "avg_surprisal": 5.0493,
+        "avg_entropy": 5.4379,
+        "std_s2": 4.1538,
+        "pos_s2_ratio": 0.2817
+      },
+      "second_read": {
+        "avg_surprisal": 0.5135,
+        "avg_entropy": 0.7889,
+        "avg_s2": -0.2753,
+        "std_s2": 1.0239,
+        "pos_s2_ratio": 0.0775,
+        "n_tokens": 142
+      },
+      "delta": {
+        "s2": 0.1134,
+        "surprisal": -4.5358,
+        "entropy": -4.649,
+        "s2_pct_change": 29.2
+      }
+    },
+    {
+      "title": "Mann und Frau gehn durch die Krebsbaracke (trans. Ward)",
+      "author": "Gottfried Benn",
+      "era": "german_expressionist",
+      "n_tokens": 134,
+      "first_read": {
+        "avg_s2": 0.4604,
+        "avg_surprisal": 6.4058,
+        "avg_entropy": 5.9455,
+        "std_s2": 5.3583,
+        "pos_s2_ratio": 0.3806
+      },
+      "second_read": {
+        "avg_surprisal": 0.5898,
+        "avg_entropy": 0.5615,
+        "avg_s2": 0.0283,
+        "std_s2": 1.7487,
+        "pos_s2_ratio": 0.0597,
+        "n_tokens": 134
+      },
+      "delta": {
+        "s2": -0.4321,
+        "surprisal": -5.816,
+        "entropy": -5.384,
+        "s2_pct_change": -93.9
+      }
+    },
+    {
+      "title": "Ghazal of the Better-Unbegun",
+      "author": "Heather McHugh",
+      "era": "ghazal",
+      "n_tokens": 128,
+      "first_read": {
+        "avg_s2": 0.5434,
+        "avg_surprisal": 6.2658,
+        "avg_entropy": 5.7224,
+        "std_s2": 5.994,
+        "pos_s2_ratio": 0.3438
+      },
+      "second_read": {
+        "avg_surprisal": 0.9299,
+        "avg_entropy": 0.4153,
+        "avg_s2": 0.5146,
+        "std_s2": 4.0452,
+        "pos_s2_ratio": 0.0625,
+        "n_tokens": 128
+      },
+      "delta": {
+        "s2": -0.0288,
+        "surprisal": -5.3359,
+        "entropy": -5.3071,
+        "s2_pct_change": -5.3
+      }
+    },
+    {
+      "title": "Three Haiku (Basho, translated)",
+      "author": "Matsuo Basho",
+      "era": "haiku",
+      "n_tokens": 58,
+      "first_read": {
+        "avg_s2": 2.1417,
+        "avg_surprisal": 8.0013,
+        "avg_entropy": 5.8596,
+        "std_s2": 8.0194,
+        "pos_s2_ratio": 0.4138
+      },
+      "second_read": {
+        "avg_surprisal": 2.0024,
+        "avg_entropy": 0.8232,
+        "avg_s2": 1.1792,
+        "std_s2": 5.1109,
+        "pos_s2_ratio": 0.1724,
+        "n_tokens": 58
+      },
+      "delta": {
+        "s2": -0.9625,
+        "surprisal": -5.9989,
+        "entropy": -5.0364,
+        "s2_pct_change": -44.9
+      }
+    },
+    {
+      "title": "Harlem",
+      "author": "Langston Hughes",
+      "era": "harlem_renaissance",
+      "n_tokens": 77,
+      "first_read": {
+        "avg_s2": 1.3961,
+        "avg_surprisal": 6.6959,
+        "avg_entropy": 5.2998,
+        "std_s2": 7.9949,
+        "pos_s2_ratio": 0.3636
+      },
+      "second_read": {
+        "avg_surprisal": 2.4168,
+        "avg_entropy": 0.5425,
+        "avg_s2": 1.8743,
+        "std_s2": 6.7519,
+        "pos_s2_ratio": 0.1429,
+        "n_tokens": 77
+      },
+      "delta": {
+        "s2": 0.4782,
+        "surprisal": -4.2791,
+        "entropy": -4.7573,
+        "s2_pct_change": 34.3
+      }
+    },
+    {
+      "title": "The Taxi",
+      "author": "Amy Lowell",
+      "era": "imagist",
+      "n_tokens": 100,
+      "first_read": {
+        "avg_s2": -0.7418,
+        "avg_surprisal": 5.3531,
+        "avg_entropy": 6.0949,
+        "std_s2": 3.7281,
+        "pos_s2_ratio": 0.33
+      },
+      "second_read": {
+        "avg_surprisal": 0.304,
+        "avg_entropy": 0.7975,
+        "avg_s2": -0.4935,
+        "std_s2": 0.9306,
+        "pos_s2_ratio": 0.01,
+        "n_tokens": 100
+      },
+      "delta": {
+        "s2": 0.2483,
+        "surprisal": -5.0491,
+        "entropy": -5.2974,
+        "s2_pct_change": 33.5
+      }
+    },
+    {
+      "title": "Tanka on longing (Ki no Tsurayuki, literal trans.)",
+      "author": "Ki no Tsurayuki",
+      "era": "japanese_classical",
+      "n_tokens": 33,
+      "first_read": {
+        "avg_s2": -0.2532,
+        "avg_surprisal": 6.1138,
+        "avg_entropy": 6.367,
+        "std_s2": 4.3868,
+        "pos_s2_ratio": 0.3939
+      },
+      "second_read": {
+        "avg_surprisal": 0.8308,
+        "avg_entropy": 1.9116,
+        "avg_s2": -1.0808,
+        "std_s2": 1.565,
+        "pos_s2_ratio": 0.0909,
+        "n_tokens": 33
+      },
+      "delta": {
+        "s2": -0.8276,
+        "surprisal": -5.283,
+        "entropy": -4.4554,
+        "s2_pct_change": -326.9
+      }
+    },
+    {
+      "title": "From Ten Thousand Lives: Three Portraits",
+      "author": "Ko Un (trans. Brother Anthony of Taiz\u00e9)",
+      "era": "korean_modernist",
+      "n_tokens": 112,
+      "first_read": {
+        "avg_s2": 0.7491,
+        "avg_surprisal": 6.3682,
+        "avg_entropy": 5.6192,
+        "std_s2": 6.4149,
+        "pos_s2_ratio": 0.3125
+      },
+      "second_read": {
+        "avg_surprisal": 1.3004,
+        "avg_entropy": 0.6863,
+        "avg_s2": 0.614,
+        "std_s2": 3.3714,
+        "pos_s2_ratio": 0.1429,
+        "n_tokens": 112
+      },
+      "delta": {
+        "s2": -0.1351,
+        "surprisal": -5.0678,
+        "entropy": -4.9329,
+        "s2_pct_change": -18.0
+      }
+    },
+    {
+      "title": "My Life (excerpt)",
+      "author": "Lyn Hejinian",
+      "era": "language",
+      "n_tokens": 50,
+      "first_read": {
+        "avg_s2": -0.9011,
+        "avg_surprisal": 5.6653,
+        "avg_entropy": 6.5664,
+        "std_s2": 3.9338,
+        "pos_s2_ratio": 0.26
+      },
+      "second_read": {
+        "avg_surprisal": 0.3709,
+        "avg_entropy": 1.2148,
+        "avg_s2": -0.8439,
+        "std_s2": 1.3583,
+        "pos_s2_ratio": 0.04,
+        "n_tokens": 50
+      },
+      "delta": {
+        "s2": 0.0572,
+        "surprisal": -5.2944,
+        "entropy": -5.3516,
+        "s2_pct_change": 6.3
+      }
+    },
+    {
+      "title": "Tonight I Can Write (excerpt)",
+      "author": "Pablo Neruda (trans. W.S. Merwin)",
+      "era": "latin_american",
+      "n_tokens": 117,
+      "first_read": {
+        "avg_s2": 0.6122,
+        "avg_surprisal": 5.3069,
+        "avg_entropy": 4.6947,
+        "std_s2": 6.3235,
+        "pos_s2_ratio": 0.2821
+      },
+      "second_read": {
+        "avg_surprisal": 1.218,
+        "avg_entropy": 0.6919,
+        "avg_s2": 0.5261,
+        "std_s2": 4.3053,
+        "pos_s2_ratio": 0.0684,
+        "n_tokens": 117
+      },
+      "delta": {
+        "s2": -0.0861,
+        "surprisal": -4.0889,
+        "entropy": -4.0028,
+        "s2_pct_change": -14.1
+      }
+    },
+    {
+      "title": "There Was an Old Man of Nantucket",
+      "author": "Anonymous (limerick tradition)",
+      "era": "limerick",
+      "n_tokens": 47,
+      "first_read": {
+        "avg_s2": -0.3447,
+        "avg_surprisal": 5.7029,
+        "avg_entropy": 6.0476,
+        "std_s2": 5.1105,
+        "pos_s2_ratio": 0.234
+      },
+      "second_read": {
+        "avg_surprisal": 0.6184,
+        "avg_entropy": 1.2713,
+        "avg_s2": -0.6529,
+        "std_s2": 1.3752,
+        "pos_s2_ratio": 0.0213,
+        "n_tokens": 47
+      },
+      "delta": {
+        "s2": -0.3082,
+        "surprisal": -5.0845,
+        "entropy": -4.7763,
+        "s2_pct_change": -89.4
+      }
+    },
+    {
+      "title": "Death, Be Not Proud (Holy Sonnet X)",
+      "author": "John Donne",
+      "era": "metaphysical",
+      "n_tokens": 174,
+      "first_read": {
+        "avg_s2": -0.6407,
+        "avg_surprisal": 6.2302,
+        "avg_entropy": 6.8709,
+        "std_s2": 3.6574,
+        "pos_s2_ratio": 0.3448
+      },
+      "second_read": {
+        "avg_surprisal": 0.1749,
+        "avg_entropy": 0.428,
+        "avg_s2": -0.2531,
+        "std_s2": 0.7028,
+        "pos_s2_ratio": 0.0058,
+        "n_tokens": 173
+      },
+      "delta": {
+        "s2": 0.3876,
+        "surprisal": -6.0553,
+        "entropy": -6.4429,
+        "s2_pct_change": 60.5
+      }
+    },
+    {
+      "title": "One Art",
+      "author": "Elizabeth Bishop",
+      "era": "mid_century",
+      "n_tokens": 63,
+      "first_read": {
+        "avg_s2": 1.2159,
+        "avg_surprisal": 6.6449,
+        "avg_entropy": 5.429,
+        "std_s2": 6.4712,
+        "pos_s2_ratio": 0.4127
+      },
+      "second_read": {
+        "avg_surprisal": 1.718,
+        "avg_entropy": 0.9473,
+        "avg_s2": 0.7707,
+        "std_s2": 5.0059,
+        "pos_s2_ratio": 0.0952,
+        "n_tokens": 63
+      },
+      "delta": {
+        "s2": -0.4452,
+        "surprisal": -4.9269,
+        "entropy": -4.4817,
+        "s2_pct_change": -36.6
+      }
+    },
+    {
+      "title": "The Love Song of J. Alfred Prufrock (opening)",
+      "author": "T.S. Eliot",
+      "era": "modernist",
+      "n_tokens": 70,
+      "first_read": {
+        "avg_s2": -0.2087,
+        "avg_surprisal": 6.4833,
+        "avg_entropy": 6.6921,
+        "std_s2": 4.2858,
+        "pos_s2_ratio": 0.3857
+      },
+      "second_read": {
+        "avg_surprisal": 0.597,
+        "avg_entropy": 0.9944,
+        "avg_s2": -0.3975,
+        "std_s2": 1.1864,
+        "pos_s2_ratio": 0.0571,
+        "n_tokens": 70
+      },
+      "delta": {
+        "s2": -0.1888,
+        "surprisal": -5.8863,
+        "entropy": -5.6977,
+        "s2_pct_change": -90.5
+      }
+    },
+    {
+      "title": "Self-Portrait in a Convex Mirror (opening)",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "n_tokens": 73,
+      "first_read": {
+        "avg_s2": 0.0067,
+        "avg_surprisal": 7.07,
+        "avg_entropy": 7.0633,
+        "std_s2": 4.4166,
+        "pos_s2_ratio": 0.411
+      },
+      "second_read": {
+        "avg_surprisal": 0.4488,
+        "avg_entropy": 0.9586,
+        "avg_s2": -0.5098,
+        "std_s2": 1.518,
+        "pos_s2_ratio": 0.0274,
+        "n_tokens": 73
+      },
+      "delta": {
+        "s2": -0.5165,
+        "surprisal": -6.6212,
+        "entropy": -6.1047,
+        "s2_pct_change": -7709.0
+      }
+    },
+    {
+      "title": "Jabberwocky",
+      "author": "Lewis Carroll",
+      "era": "nonsense",
+      "n_tokens": 320,
+      "first_read": {
+        "avg_s2": 0.4714,
+        "avg_surprisal": 5.9509,
+        "avg_entropy": 5.4795,
+        "std_s2": 6.0753,
+        "pos_s2_ratio": 0.2938
+      },
+      "second_read": {
+        "avg_surprisal": 1.4091,
+        "avg_entropy": 0.2688,
+        "avg_s2": 1.1403,
+        "std_s2": 5.1988,
+        "pos_s2_ratio": 0.0781,
+        "n_tokens": 320
+      },
+      "delta": {
+        "s2": 0.6689,
+        "surprisal": -4.5418,
+        "entropy": -5.2107,
+        "s2_pct_change": 141.9
+      }
+    },
+    {
+      "title": "Nursery Rhymes (compilation)",
+      "author": "Traditional (English)",
+      "era": "nursery_rhyme",
+      "n_tokens": 243,
+      "first_read": {
+        "avg_s2": 0.1041,
+        "avg_surprisal": 5.3541,
+        "avg_entropy": 5.25,
+        "std_s2": 5.3362,
+        "pos_s2_ratio": 0.321
+      },
+      "second_read": {
+        "avg_surprisal": 0.9982,
+        "avg_entropy": 0.3793,
+        "avg_s2": 0.6188,
+        "std_s2": 3.9635,
+        "pos_s2_ratio": 0.0576,
+        "n_tokens": 243
+      },
+      "delta": {
+        "s2": 0.5147,
+        "surprisal": -4.3559,
+        "entropy": -4.8707,
+        "s2_pct_change": 494.4
+      }
+    },
+    {
+      "title": "Caedmon's Hymn (modern prose translation)",
+      "author": "Caedmon (trans. anon.)",
+      "era": "old_english",
+      "n_tokens": 78,
+      "first_read": {
+        "avg_s2": 0.344,
+        "avg_surprisal": 6.1559,
+        "avg_entropy": 5.8119,
+        "std_s2": 4.2841,
+        "pos_s2_ratio": 0.4744
+      },
+      "second_read": {
+        "avg_surprisal": 0.4213,
+        "avg_entropy": 0.7851,
+        "avg_s2": -0.3637,
+        "std_s2": 1.0526,
+        "pos_s2_ratio": 0.0385,
+        "n_tokens": 78
+      },
+      "delta": {
+        "s2": -0.7077,
+        "surprisal": -5.7346,
+        "entropy": -5.0268,
+        "s2_pct_change": -205.7
+      }
+    },
+    {
+      "title": "Variations on A (excerpt)",
+      "author": "Georges Perec",
+      "era": "oulipo",
+      "n_tokens": 51,
+      "first_read": {
+        "avg_s2": -0.1214,
+        "avg_surprisal": 6.3985,
+        "avg_entropy": 6.5199,
+        "std_s2": 4.0948,
+        "pos_s2_ratio": 0.3333
+      },
+      "second_read": {
+        "avg_surprisal": 1.0003,
+        "avg_entropy": 1.1101,
+        "avg_s2": -0.1098,
+        "std_s2": 2.2456,
+        "pos_s2_ratio": 0.0784,
+        "n_tokens": 51
+      },
+      "delta": {
+        "s2": 0.0116,
+        "surprisal": -5.3982,
+        "entropy": -5.4098,
+        "s2_pct_change": 9.6
+      }
+    },
+    {
+      "title": "On the Departure Platform",
+      "author": "Thomas Hardy",
+      "era": "pantoum",
+      "n_tokens": 141,
+      "first_read": {
+        "avg_s2": 0.0685,
+        "avg_surprisal": 6.6042,
+        "avg_entropy": 6.5358,
+        "std_s2": 4.9127,
+        "pos_s2_ratio": 0.3688
+      },
+      "second_read": {
+        "avg_surprisal": 0.8959,
+        "avg_entropy": 0.4513,
+        "avg_s2": 0.4445,
+        "std_s2": 3.1739,
+        "pos_s2_ratio": 0.0922,
+        "n_tokens": 141
+      },
+      "delta": {
+        "s2": 0.376,
+        "surprisal": -5.7083,
+        "entropy": -6.0845,
+        "s2_pct_change": 548.9
+      }
+    }
+  ]
+}
