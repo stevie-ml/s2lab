@@ -1,0 +1,30 @@
+{
+  "tier_summary": {
+    "conformist": {
+      "n": 14350,
+      "mean_composite": 0.46222609214247046,
+      "mean_lev": 0.5854248194701094,
+      "onset_rate": 0.3645993031358885,
+      "skeleton_overlap": 0.612887214604983,
+      "coda_rate": 0.28599303135888504
+    },
+    "neutral": {
+      "n": 21800,
+      "mean_composite": 0.22631150497693175,
+      "mean_lev": 0.2868671816206158,
+      "onset_rate": 0.14954128440366973,
+      "skeleton_overlap": 0.3311311318650757,
+      "coda_rate": 0.13770642201834862
+    },
+    "straussian": {
+      "n": 5997,
+      "mean_composite": 0.08826973345795265,
+      "mean_lev": 0.11385493270185616,
+      "onset_rate": 0.04969151242287811,
+      "skeleton_overlap": 0.16635423291251109,
+      "coda_rate": 0.023178255794563948
+    }
+  },
+  "era_deltas": [],
+  "author_top": []
+}
