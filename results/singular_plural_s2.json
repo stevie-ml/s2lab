@@ -1,0 +1,688 @@
+{
+  "summary": {
+    "poetry_SG": {
+      "n": 11109,
+      "mean": 0.8166229183544873,
+      "median": -0.0489,
+      "std": 4.124680861472287,
+      "pos_ratio": 0.4810513997659555
+    },
+    "poetry_PL": {
+      "n": 2724,
+      "mean": 0.8184106828193832,
+      "median": -0.08465,
+      "std": 4.093216672871802,
+      "pos_ratio": 0.4746696035242291
+    },
+    "prose_SG": {
+      "n": 29,
+      "mean": -1.9523724137931033,
+      "median": -2.3516,
+      "std": 2.8375425006126784,
+      "pos_ratio": 0.27586206896551724
+    },
+    "prose_PL": {
+      "n": 9,
+      "mean": -1.5390666666666666,
+      "median": -1.4435,
+      "std": 2.179751567266325,
+      "pos_ratio": 0.2222222222222222
+    }
+  },
+  "era_sg_pl_gap": [
+    {
+      "era": "rondeau",
+      "n_sg": 21,
+      "n_pl": 16,
+      "sg_mean": 1.8795428571428572,
+      "pl_mean": -0.28557499999999997,
+      "gap": 2.165117857142857
+    },
+    {
+      "era": "fixed_form",
+      "n_sg": 197,
+      "n_pl": 22,
+      "sg_mean": 0.9331664974619289,
+      "pl_mean": -0.12342272727272721,
+      "gap": 1.0565892247346562
+    },
+    {
+      "era": "ancient",
+      "n_sg": 57,
+      "n_pl": 26,
+      "sg_mean": 1.0286842105263159,
+      "pl_mean": 0.32813846153846155,
+      "gap": 0.7005457489878544
+    },
+    {
+      "era": "imagist",
+      "n_sg": 58,
+      "n_pl": 27,
+      "sg_mean": 1.0812913793103447,
+      "pl_mean": 0.38704814814814814,
+      "gap": 0.6942432311621966
+    },
+    {
+      "era": "harlem_renaissance",
+      "n_sg": 165,
+      "n_pl": 61,
+      "sg_mean": 0.7025787878787879,
+      "pl_mean": 0.061799999999999994,
+      "gap": 0.640778787878788
+    },
+    {
+      "era": "limerick",
+      "n_sg": 88,
+      "n_pl": 10,
+      "sg_mean": 0.5361977272727273,
+      "pl_mean": -0.013409999999999945,
+      "gap": 0.5496077272727272
+    },
+    {
+      "era": "spoken_word",
+      "n_sg": 31,
+      "n_pl": 15,
+      "sg_mean": 0.9110935483870968,
+      "pl_mean": 0.3732133333333334,
+      "gap": 0.5378802150537634
+    },
+    {
+      "era": "old_english",
+      "n_sg": 146,
+      "n_pl": 35,
+      "sg_mean": 1.3855191780821918,
+      "pl_mean": 0.8804771428571428,
+      "gap": 0.505042035225049
+    },
+    {
+      "era": "contemporary",
+      "n_sg": 481,
+      "n_pl": 176,
+      "sg_mean": 0.906481288981289,
+      "pl_mean": 0.44508125,
+      "gap": 0.461400038981289
+    },
+    {
+      "era": "latin_american",
+      "n_sg": 69,
+      "n_pl": 30,
+      "sg_mean": 0.9153188405797101,
+      "pl_mean": 0.4975633333333333,
+      "gap": 0.41775550724637683
+    },
+    {
+      "era": "oulipo",
+      "n_sg": 255,
+      "n_pl": 85,
+      "sg_mean": 1.1419196078431373,
+      "pl_mean": 0.7495505882352941,
+      "gap": 0.3923690196078432
+    },
+    {
+      "era": "postcolonial",
+      "n_sg": 172,
+      "n_pl": 69,
+      "sg_mean": 1.084596511627907,
+      "pl_mean": 0.6927304347826087,
+      "gap": 0.3918660768452984
+    },
+    {
+      "era": "18th_century",
+      "n_sg": 289,
+      "n_pl": 41,
+      "sg_mean": 1.6056152249134947,
+      "pl_mean": 1.2197975609756098,
+      "gap": 0.38581766393788497
+    },
+    {
+      "era": "language",
+      "n_sg": 91,
+      "n_pl": 20,
+      "sg_mean": 0.519467032967033,
+      "pl_mean": 0.154145,
+      "gap": 0.36532203296703303
+    },
+    {
+      "era": "song_lyrics",
+      "n_sg": 122,
+      "n_pl": 17,
+      "sg_mean": -0.050463114754098364,
+      "pl_mean": -0.35197647058823534,
+      "gap": 0.30151335583413696
+    },
+    {
+      "era": "modernist",
+      "n_sg": 530,
+      "n_pl": 182,
+      "sg_mean": 0.9868937735849057,
+      "pl_mean": 0.7355164835164835,
+      "gap": 0.25137729006842224
+    },
+    {
+      "era": "victorian",
+      "n_sg": 1162,
+      "n_pl": 344,
+      "sg_mean": 1.1288494836488812,
+      "pl_mean": 0.8882218023255813,
+      "gap": 0.2406276813232998
+    },
+    {
+      "era": "early_modern",
+      "n_sg": 302,
+      "n_pl": 67,
+      "sg_mean": 1.2240503311258277,
+      "pl_mean": 1.0890402985074628,
+      "gap": 0.13501003261836497
+    },
+    {
+      "era": "parody_original",
+      "n_sg": 69,
+      "n_pl": 18,
+      "sg_mean": 0.22559565217391306,
+      "pl_mean": 0.18008888888888888,
+      "gap": 0.04550676328502418
+    },
+    {
+      "era": "haiku",
+      "n_sg": 82,
+      "n_pl": 16,
+      "sg_mean": 1.5564487804878049,
+      "pl_mean": 1.5502375,
+      "gap": 0.006211280487804949
+    },
+    {
+      "era": "biblical",
+      "n_sg": 289,
+      "n_pl": 64,
+      "sg_mean": 0.0632553633217993,
+      "pl_mean": 0.07809999999999996,
+      "gap": -0.014844636678200657
+    },
+    {
+      "era": "romantic",
+      "n_sg": 901,
+      "n_pl": 239,
+      "sg_mean": 0.6452028856825749,
+      "pl_mean": 0.730957740585774,
+      "gap": -0.08575485490319912
+    },
+    {
+      "era": "nonsense",
+      "n_sg": 135,
+      "n_pl": 28,
+      "sg_mean": -0.19328518518518514,
+      "pl_mean": -0.09165714285714284,
+      "gap": -0.1016280423280423
+    },
+    {
+      "era": "war_poetry",
+      "n_sg": 113,
+      "n_pl": 71,
+      "sg_mean": 0.6896787610619469,
+      "pl_mean": 0.7937605633802817,
+      "gap": -0.10408180231833475
+    },
+    {
+      "era": "ekphrastic",
+      "n_sg": 467,
+      "n_pl": 81,
+      "sg_mean": 0.8861126338329764,
+      "pl_mean": 0.9989703703703704,
+      "gap": -0.11285773653739395
+    },
+    {
+      "era": "german_expressionist",
+      "n_sg": 83,
+      "n_pl": 35,
+      "sg_mean": 1.4415036144578313,
+      "pl_mean": 1.5784114285714286,
+      "gap": -0.13690781411359731
+    },
+    {
+      "era": "new_york_school",
+      "n_sg": 523,
+      "n_pl": 101,
+      "sg_mean": 0.6710139579349904,
+      "pl_mean": 0.8159673267326732,
+      "gap": -0.14495336879768284
+    },
+    {
+      "era": "found_poetry",
+      "n_sg": 209,
+      "n_pl": 76,
+      "sg_mean": -0.3536794258373206,
+      "pl_mean": -0.1802815789473684,
+      "gap": -0.1733978468899522
+    },
+    {
+      "era": "procedural",
+      "n_sg": 136,
+      "n_pl": 33,
+      "sg_mean": 0.7954713235294117,
+      "pl_mean": 0.9883878787878788,
+      "gap": -0.19291655525846707
+    },
+    {
+      "era": "concrete",
+      "n_sg": 98,
+      "n_pl": 17,
+      "sg_mean": -0.632195918367347,
+      "pl_mean": -0.3680999999999999,
+      "gap": -0.2640959183673471
+    },
+    {
+      "era": "parody",
+      "n_sg": 114,
+      "n_pl": 28,
+      "sg_mean": 0.672728947368421,
+      "pl_mean": 0.9874499999999999,
+      "gap": -0.3147210526315789
+    },
+    {
+      "era": "beat",
+      "n_sg": 137,
+      "n_pl": 63,
+      "sg_mean": 1.9140109489051096,
+      "pl_mean": 2.241309523809524,
+      "gap": -0.3272985749044144
+    },
+    {
+      "era": "dramatic_monologue",
+      "n_sg": 546,
+      "n_pl": 92,
+      "sg_mean": 1.1132186813186813,
+      "pl_mean": 1.4569195652173914,
+      "gap": -0.3437008838987101
+    },
+    {
+      "era": "elegy",
+      "n_sg": 312,
+      "n_pl": 46,
+      "sg_mean": 0.8897201923076923,
+      "pl_mean": 1.2367608695652175,
+      "gap": -0.3470406772575252
+    },
+    {
+      "era": "metaphysical",
+      "n_sg": 180,
+      "n_pl": 30,
+      "sg_mean": 0.8093477777777778,
+      "pl_mean": 1.22595,
+      "gap": -0.4166022222222223
+    },
+    {
+      "era": "cliche_control",
+      "n_sg": 82,
+      "n_pl": 33,
+      "sg_mean": -0.47977073170731704,
+      "pl_mean": -0.04260909090909097,
+      "gap": -0.43716164079822606
+    },
+    {
+      "era": "protest_political",
+      "n_sg": 44,
+      "n_pl": 14,
+      "sg_mean": 0.75285,
+      "pl_mean": 1.2086071428571428,
+      "gap": -0.45575714285714275
+    },
+    {
+      "era": "prose_poetry",
+      "n_sg": 212,
+      "n_pl": 64,
+      "sg_mean": 0.41767122641509435,
+      "pl_mean": 0.95645,
+      "gap": -0.5387787735849057
+    },
+    {
+      "era": "surrealist",
+      "n_sg": 206,
+      "n_pl": 75,
+      "sg_mean": 0.6677796116504854,
+      "pl_mean": 1.2428973333333333,
+      "gap": -0.5751177216828479
+    },
+    {
+      "era": "classical_chinese",
+      "n_sg": 59,
+      "n_pl": 12,
+      "sg_mean": -0.1041677966101695,
+      "pl_mean": 0.48961666666666676,
+      "gap": -0.5937844632768363
+    },
+    {
+      "era": "black_arts",
+      "n_sg": 29,
+      "n_pl": 13,
+      "sg_mean": -0.24476896551724134,
+      "pl_mean": 0.35806923076923075,
+      "gap": -0.6028381962864721
+    },
+    {
+      "era": "confessional",
+      "n_sg": 84,
+      "n_pl": 13,
+      "sg_mean": 1.837122619047619,
+      "pl_mean": 2.4830846153846156,
+      "gap": -0.6459619963369965
+    },
+    {
+      "era": "mid_century",
+      "n_sg": 104,
+      "n_pl": 20,
+      "sg_mean": 1.6648067307692307,
+      "pl_mean": 2.671645,
+      "gap": -1.0068382692307691
+    },
+    {
+      "era": "19th_century",
+      "n_sg": 793,
+      "n_pl": 131,
+      "sg_mean": 0.4940358133669609,
+      "pl_mean": 1.621293893129771,
+      "gap": -1.12725807976281
+    },
+    {
+      "era": "clerihew",
+      "n_sg": 82,
+      "n_pl": 11,
+      "sg_mean": 1.9595280487804878,
+      "pl_mean": 4.571081818181818,
+      "gap": -2.61155376940133
+    }
+  ],
+  "alt_top1_at_high_s2_singular": {
+    "likely_singular": 2037,
+    "other": 618,
+    "likely_plural": 197
+  },
+  "alt_top1_at_high_s2_plural": {
+    "likely_singular": 460,
+    "likely_plural": 122,
+    "other": 135
+  },
+  "top_examples_singular": [
+    {
+      "s2": 28.2527,
+      "token": "climbs",
+      "era": "beat",
+      "top1": "",
+      "entropy": 0.2897
+    },
+    {
+      "s2": 25.6548,
+      "token": "hum",
+      "era": "postcolonial",
+      "top1": "",
+      "entropy": 0.1923
+    },
+    {
+      "s2": 25.6338,
+      "token": "glass",
+      "era": "modernist",
+      "top1": "",
+      "entropy": 0.093
+    },
+    {
+      "s2": 25.5956,
+      "token": "whenever",
+      "era": "beat",
+      "top1": "",
+      "entropy": 0.2934
+    },
+    {
+      "s2": 25.476,
+      "token": "Fresh",
+      "era": "victorian",
+      "top1": "",
+      "entropy": 0.8199
+    },
+    {
+      "s2": 22.9733,
+      "token": "jar",
+      "era": "oulipo",
+      "top1": "time",
+      "entropy": 1.7079
+    },
+    {
+      "s2": 22.7313,
+      "token": "riot",
+      "era": "old_english",
+      "top1": "may",
+      "entropy": 4.2916
+    },
+    {
+      "s2": 22.1297,
+      "token": "prank",
+      "era": "18th_century",
+      "top1": "the",
+      "entropy": 2.6875
+    },
+    {
+      "s2": 22.0877,
+      "token": "Pra",
+      "era": "victorian",
+      "top1": "",
+      "entropy": 0.7956
+    },
+    {
+      "s2": 22.0439,
+      "token": "shook",
+      "era": "victorian",
+      "top1": "the",
+      "entropy": 3.601
+    },
+    {
+      "s2": 22.0152,
+      "token": "prank",
+      "era": "18th_century",
+      "top1": "the",
+      "entropy": 2.7212
+    },
+    {
+      "s2": 21.805,
+      "token": "Gu",
+      "era": "postcolonial",
+      "top1": "",
+      "entropy": 0.2199
+    },
+    {
+      "s2": 20.7175,
+      "token": "Pra",
+      "era": "victorian",
+      "top1": "",
+      "entropy": 0.9613
+    },
+    {
+      "s2": 20.6428,
+      "token": "printer",
+      "era": "19th_century",
+      "top1": "ne",
+      "entropy": 1.1888
+    },
+    {
+      "s2": 19.7785,
+      "token": "cigarette",
+      "era": "spoken_word",
+      "top1": "",
+      "entropy": 1.4972
+    },
+    {
+      "s2": 19.4767,
+      "token": "list",
+      "era": "early_modern",
+      "top1": "ever",
+      "entropy": 1.176
+    },
+    {
+      "s2": 19.3862,
+      "token": "pi",
+      "era": "contemporary",
+      "top1": "of",
+      "entropy": 1.6761
+    },
+    {
+      "s2": 19.3727,
+      "token": "Wan",
+      "era": "victorian",
+      "top1": "",
+      "entropy": 1.8513
+    },
+    {
+      "s2": 19.0326,
+      "token": "Jesus",
+      "era": "modernist",
+      "top1": "",
+      "entropy": 3.1971
+    },
+    {
+      "s2": 18.9026,
+      "token": "Fun",
+      "era": "19th_century",
+      "top1": "little",
+      "entropy": 6.8686
+    }
+  ],
+  "top_examples_plural": [
+    {
+      "s2": 22.298,
+      "token": "p",
+      "era": "beat",
+      "top1": "",
+      "entropy": 0.0267
+    },
+    {
+      "s2": 19.6923,
+      "token": "torches",
+      "era": "ekphrastic",
+      "top1": "hands",
+      "entropy": 0.4399
+    },
+    {
+      "s2": 18.8809,
+      "token": "consequences",
+      "era": "mid_century",
+      "top1": "a",
+      "entropy": 3.595
+    },
+    {
+      "s2": 18.196,
+      "token": "squats",
+      "era": "dramatic_monologue",
+      "top1": "elled",
+      "entropy": 3.4824
+    },
+    {
+      "s2": 18.0592,
+      "token": "poems",
+      "era": "postcolonial",
+      "top1": ",",
+      "entropy": 3.5625
+    },
+    {
+      "s2": 16.9861,
+      "token": "mess",
+      "era": "old_english",
+      "top1": "w",
+      "entropy": 1.3879
+    },
+    {
+      "s2": 16.7818,
+      "token": "mot",
+      "era": "new_york_school",
+      "top1": "you",
+      "entropy": 4.9233
+    },
+    {
+      "s2": 16.402,
+      "token": "indoors",
+      "era": "prose_poetry",
+      "top1": "the",
+      "entropy": 6.6099
+    },
+    {
+      "s2": 16.1097,
+      "token": "marks",
+      "era": "modernist",
+      "top1": "",
+      "entropy": 1.6317
+    },
+    {
+      "s2": 15.8286,
+      "token": "raven",
+      "era": "clerihew",
+      "top1": "le",
+      "entropy": 5.6012
+    },
+    {
+      "s2": 15.4421,
+      "token": "bou",
+      "era": "19th_century",
+      "top1": "the",
+      "entropy": 5.1276
+    },
+    {
+      "s2": 15.4421,
+      "token": "bou",
+      "era": "elegy",
+      "top1": "the",
+      "entropy": 5.1276
+    },
+    {
+      "s2": 15.232,
+      "token": "spect",
+      "era": "surrealist",
+      "top1": "more",
+      "entropy": 3.5159
+    },
+    {
+      "s2": 14.1608,
+      "token": "owers",
+      "era": "victorian",
+      "top1": "ued",
+      "entropy": 1.2687
+    },
+    {
+      "s2": 14.1608,
+      "token": "owers",
+      "era": "ekphrastic",
+      "top1": "ued",
+      "entropy": 1.2687
+    },
+    {
+      "s2": 14.1456,
+      "token": "wit",
+      "era": "romantic",
+      "top1": "en",
+      "entropy": 2.461
+    },
+    {
+      "s2": 14.0224,
+      "token": "worms",
+      "era": "found_poetry",
+      "top1": "content",
+      "entropy": 5.8505
+    },
+    {
+      "s2": 13.974,
+      "token": "sects",
+      "era": "oulipo",
+      "top1": "they",
+      "entropy": 5.4859
+    },
+    {
+      "s2": 13.7614,
+      "token": "sid",
+      "era": "beat",
+      "top1": "street",
+      "entropy": 5.3296
+    },
+    {
+      "s2": 13.5945,
+      "token": "passengers",
+      "era": "modernist",
+      "top1": "a",
+      "entropy": 6.1585
+    }
+  ]
+}
