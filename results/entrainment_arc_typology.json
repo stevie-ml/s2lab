@@ -1,0 +1,343 @@
+{
+  "global_quartiles": {
+    "0": {
+      "mean_entropy": 6.663144260802577,
+      "mean_s2": -0.21774970236010927,
+      "pct_positive_s2": 0.37355557111842563
+    },
+    "1": {
+      "mean_entropy": 6.1575902787654675,
+      "mean_s2": -0.4267888138244915,
+      "pct_positive_s2": 0.3350163561371071
+    },
+    "2": {
+      "mean_entropy": 6.037239165431052,
+      "mean_s2": -0.5248690602273529,
+      "pct_positive_s2": 0.32133022664689687
+    },
+    "3": {
+      "mean_entropy": 5.989859961315281,
+      "mean_s2": -0.49419031449244216,
+      "pct_positive_s2": 0.3195071280177663
+    }
+  },
+  "entrainment": {
+    "mean_H_drop": 0.8524250964208484,
+    "pct_poems_H_drops": 0.7818627450980392,
+    "mean_S2_drop": 0.3733896439452509,
+    "pct_poems_S2_drops": 0.6200980392156863
+  },
+  "arc_types": {
+    "typeA_n": 125,
+    "typeA_pct": 0.30637254901960786,
+    "typeB_n": 111,
+    "typeB_pct": 0.27205882352941174,
+    "typeC_n": 5,
+    "typeC_pct": 0.012254901960784314,
+    "typeD_n": 43,
+    "typeD_pct": 0.1053921568627451
+  },
+  "spike_position": {
+    "mean": 0.4237901294944384,
+    "median": 0.382123791660655,
+    "q1_pct": 0.37254901960784315,
+    "q2_pct": 0.25245098039215685,
+    "q3_pct": 0.1715686274509804,
+    "q4_pct": 0.2034313725490196
+  },
+  "era_entrainment": {
+    "villanelle": {
+      "mean_H_drop": 3.9744515383196286,
+      "n": 3
+    },
+    "haiku": {
+      "mean_H_drop": 2.882125251415251,
+      "n": 3
+    },
+    "song_lyrics": {
+      "mean_H_drop": 2.5165699188850508,
+      "n": 3
+    },
+    "control": {
+      "mean_H_drop": 2.503572800865801,
+      "n": 5
+    },
+    "concrete": {
+      "mean_H_drop": 2.2455549437481124,
+      "n": 3
+    },
+    "classical_chinese": {
+      "mean_H_drop": 1.8259373490338164,
+      "n": 4
+    },
+    "fixed_form": {
+      "mean_H_drop": 1.8185209999021208,
+      "n": 8
+    },
+    "limerick": {
+      "mean_H_drop": 1.6570255982905981,
+      "n": 10
+    },
+    "ballad": {
+      "mean_H_drop": 1.6120723182464107,
+      "n": 6
+    },
+    "procedural": {
+      "mean_H_drop": 1.6113031525510357,
+      "n": 8
+    },
+    "mid_century": {
+      "mean_H_drop": 1.4532107485754986,
+      "n": 6
+    },
+    "parody_original": {
+      "mean_H_drop": 1.3954538148101365,
+      "n": 3
+    },
+    "language": {
+      "mean_H_drop": 1.2986605979592727,
+      "n": 6
+    },
+    "oulipo": {
+      "mean_H_drop": 1.2358831114143611,
+      "n": 8
+    },
+    "prose_poetry": {
+      "mean_H_drop": 1.1932105360010588,
+      "n": 12
+    },
+    "beat": {
+      "mean_H_drop": 1.11704076954392,
+      "n": 8
+    },
+    "cliche_control": {
+      "mean_H_drop": 1.061964583511396,
+      "n": 4
+    },
+    "clerihew": {
+      "mean_H_drop": 1.0204557539682542,
+      "n": 9
+    },
+    "biblical": {
+      "mean_H_drop": 0.9257014641993624,
+      "n": 8
+    },
+    "ancient": {
+      "mean_H_drop": 0.9052842939195885,
+      "n": 3
+    },
+    "new_york_school": {
+      "mean_H_drop": 0.8144969191952065,
+      "n": 26
+    },
+    "modernist": {
+      "mean_H_drop": 0.8029123109408914,
+      "n": 27
+    },
+    "imagist": {
+      "mean_H_drop": 0.7602573474945533,
+      "n": 5
+    },
+    "german_symbolist": {
+      "mean_H_drop": 0.736372031236737,
+      "n": 3
+    },
+    "spoken_word": {
+      "mean_H_drop": 0.7233841535541755,
+      "n": 3
+    },
+    "found_poetry": {
+      "mean_H_drop": 0.6796822460014822,
+      "n": 9
+    },
+    "surrealist": {
+      "mean_H_drop": 0.6750638932456647,
+      "n": 8
+    },
+    "confessional": {
+      "mean_H_drop": 0.6640321601948775,
+      "n": 6
+    },
+    "double_dactyl": {
+      "mean_H_drop": 0.641308766899767,
+      "n": 5
+    },
+    "parody": {
+      "mean_H_drop": 0.5831512048106511,
+      "n": 4
+    },
+    "latin_american": {
+      "mean_H_drop": 0.5504653286307088,
+      "n": 4
+    },
+    "contemporary": {
+      "mean_H_drop": 0.5457531805828713,
+      "n": 19
+    },
+    "postcolonial": {
+      "mean_H_drop": 0.5447349087106236,
+      "n": 6
+    },
+    "romantic": {
+      "mean_H_drop": 0.5415438293575537,
+      "n": 21
+    },
+    "victorian": {
+      "mean_H_drop": 0.5231163354978325,
+      "n": 30
+    },
+    "18th_century": {
+      "mean_H_drop": 0.48584862925828953,
+      "n": 8
+    },
+    "metaphysical": {
+      "mean_H_drop": 0.47658194692764166,
+      "n": 7
+    },
+    "old_english": {
+      "mean_H_drop": 0.46138695659799184,
+      "n": 5
+    },
+    "ekphrastic": {
+      "mean_H_drop": 0.36467286547926625,
+      "n": 8
+    },
+    "war_poetry": {
+      "mean_H_drop": 0.32684800552428595,
+      "n": 3
+    },
+    "19th_century": {
+      "mean_H_drop": 0.3258008424578201,
+      "n": 18
+    },
+    "early_modern": {
+      "mean_H_drop": 0.22705696106342946,
+      "n": 11
+    },
+    "german_expressionist": {
+      "mean_H_drop": 0.22202760052312578,
+      "n": 6
+    },
+    "harlem_renaissance": {
+      "mean_H_drop": 0.17499029454006884,
+      "n": 7
+    },
+    "elegy": {
+      "mean_H_drop": 0.02023794881777119,
+      "n": 8
+    },
+    "dramatic_monologue": {
+      "mean_H_drop": -0.05318969362661994,
+      "n": 10
+    }
+  },
+  "typeB_examples": [
+    {
+      "title": "There Was an Old Person of Ware",
+      "author": "Edward Lear",
+      "era": "limerick",
+      "H_drop": 1.339,
+      "S2_change": 3.427
+    },
+    {
+      "title": "The Colonel (excerpt)",
+      "author": "Carolyn Forch\u00e9",
+      "era": "prose_poetry",
+      "H_drop": 1.037,
+      "S2_change": 3.055
+    },
+    {
+      "title": "In Goya's greatest scenes",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "H_drop": 2.013,
+      "S2_change": 2.384
+    },
+    {
+      "title": "Protocol (Synthetic procedural test case III)",
+      "author": "Synthetic (procedural test case)",
+      "era": "procedural",
+      "H_drop": 3.2,
+      "S2_change": 2.18
+    },
+    {
+      "title": "The Truth the Dead Know (excerpt)",
+      "author": "Anne Sexton",
+      "era": "confessional",
+      "H_drop": 1.538,
+      "S2_change": 2.126
+    },
+    {
+      "title": "Technical prose",
+      "author": "Control",
+      "era": "control",
+      "H_drop": 2.981,
+      "S2_change": 2.075
+    },
+    {
+      "title": "Three Haiku (Issa, translated)",
+      "author": "Kobayashi Issa",
+      "era": "haiku",
+      "H_drop": 1.868,
+      "S2_change": 2.018
+    },
+    {
+      "title": "Deer Park (literal trans.)",
+      "author": "Wang Wei",
+      "era": "classical_chinese",
+      "H_drop": 2.519,
+      "S2_change": 1.958
+    },
+    {
+      "title": "Nikola Tesla",
+      "author": "Synthetic (clerihew test case)",
+      "era": "clerihew",
+      "H_drop": 2.229,
+      "S2_change": 1.953
+    },
+    {
+      "title": "Daddy (opening)",
+      "author": "Sylvia Plath",
+      "era": "confessional",
+      "H_drop": 0.71,
+      "S2_change": 1.931
+    }
+  ],
+  "typeC_examples": [
+    {
+      "title": "The Charge of the Light Brigade",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "H_rise": 0.979,
+      "S2_rise": 0.375
+    },
+    {
+      "title": "Susie Asado",
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "H_rise": 0.877,
+      "S2_rise": 1.348
+    },
+    {
+      "title": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)",
+      "author": "Thomas Jefferson (found text)",
+      "era": "found_poetry",
+      "H_rise": 0.761,
+      "S2_rise": 1.022
+    },
+    {
+      "title": "Marie Curie",
+      "author": "Synthetic (clerihew test case)",
+      "era": "clerihew",
+      "H_rise": 0.398,
+      "S2_rise": 1.331
+    },
+    {
+      "title": "Citizen (excerpt, section I)",
+      "author": "Claudia Rankine",
+      "era": "prose_poetry",
+      "H_rise": 0.384,
+      "S2_rise": 0.35
+    }
+  ]
+}
