@@ -9468,6 +9468,138 @@ A license still: we know it, and we grant
 The same to poets." True; but not so far
 That fierce things pair with tame.""",
     },
+    # --- New poems added 2026-11-16: testing scramble-resistance and minimalist poetry ---
+    # Oulipo: lipogram without 'a' (testing constraint deviance robustness)
+    {
+        "title": "Lipogram Without A (original composition)",
+        "author": "Synthetic (OuLiPo lipogram test)",
+        "year": 2024,
+        "era": "oulipo",
+        "text": """The moon, so white,
+shines over still pools.
+I swim in cold silence.
+My body knows nothing now—
+only this blue night,
+this chill, this glow.
+I open my mouth; no word comes.
+The world holds its long hush.""",
+    },
+    # Oulipo: N+7 applied to Emily Dickinson's "Because I could not stop for Death"
+    {
+        "title": "N+7: Death Poem (N+7 variant of Dickinson)",
+        "author": "Synthetic (OuLiPo N+7 of Dickinson)",
+        "year": 2024,
+        "era": "oulipo",
+        "text": """Because I could not stop for Deacon—
+He kindly stopped for me—
+The Carrot held but just Ourselves—
+And Immorality—
+
+We slowly drove—He knew no haste
+And I had put away
+My labrador and my lecture too,
+For His Civilty—""",
+    },
+    # Instagram / social media poetry (Rupi Kaur style) — testing low-S2 minimalism
+    {
+        "title": "Instagram Poem 1 (minimalist, contemporary)",
+        "author": "Synthetic (Instagram poetry style)",
+        "year": 2020,
+        "era": "social_media_poetry",
+        "text": """you
+told me
+i was
+everything
+
+then left
+like i was
+nothing""",
+    },
+    {
+        "title": "Instagram Poem 2 (healing narrative)",
+        "author": "Synthetic (Instagram poetry style)",
+        "year": 2021,
+        "era": "social_media_poetry",
+        "text": """healing
+is not linear
+
+some days you are okay
+some days you are not
+
+and both
+are allowed""",
+    },
+    {
+        "title": "Instagram Poem 3 (love/loss)",
+        "author": "Synthetic (Instagram poetry style)",
+        "year": 2022,
+        "era": "social_media_poetry",
+        "text": """i miss you
+the way you miss
+a word
+on the tip of your tongue
+
+present
+but
+unreachable""",
+    },
+    # Concrete poetry — visual/structural constraint
+    {
+        "title": "Diamond Concrete Poem (shape poem)",
+        "author": "Synthetic (concrete poetry test)",
+        "year": 2024,
+        "era": "concrete",
+        "text": """I
+see
+light
+falling
+through the
+broken glass
+of the window
+falling
+through
+glass
+I""",
+    },
+    # Acrostic poem — constraint where first letters spell a word
+    {
+        "title": "Acrostic: SILENCE",
+        "author": "Synthetic (acrostic constraint test)",
+        "year": 2024,
+        "era": "oulipo",
+        "text": """Something moves in the dark, unhurried—
+Invisible as breath before it fogs the glass.
+Leaves do not fall; they wait, suspended.
+Each hour is a held note in the throat of the world.
+Nothing announces itself. The river
+Carries what it carries, without ceremony.
+Everything is here, and no one comes to claim it.""",
+    },
+    # Palindromic structure — same read forward and backward at the line level
+    {
+        "title": "Line Palindrome (chiastic structure)",
+        "author": "Synthetic (palindromic constraint test)",
+        "year": 2024,
+        "era": "oulipo",
+        "text": """The sea was still.
+Birds hung in the gray air.
+A single boat moved out toward the horizon.
+Silence.
+A single boat moved out toward the horizon.
+Birds hung in the gray air.
+The sea was still.""",
+    },
+    # Homophonic translation — translating by sound, not meaning (Zukofsky style)
+    {
+        "title": "Homophonic Translation of Catullus 85",
+        "author": "Synthetic (homophonic translation test)",
+        "year": 2024,
+        "era": "oulipo",
+        "text": """Ode it and aim, quarry it, fact—
+Curiously, curring it.
+Excruciate me—
+I know not how, but I feel it, and I am tormented.""",
+    },
 ]
 
 # Quick stats
