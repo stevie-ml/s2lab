@@ -5959,6 +5959,321 @@ To spit out all the butt-ends of my days and ways?
 And how should I presume?"""
     },
 
+    # ─── DRAMATIC MONOLOGUE (additional) ──────────────────────────────
+    # Browning, "Porphyria's Lover" (1836) — murderer speaker
+    {
+        "title": "Porphyria's Lover",
+        "author": "Robert Browning",
+        "year": 1836,
+        "era": "dramatic_monologue",
+        "text": """The rain set early in tonight,
+The sullen wind was soon awake,
+It tore the elm-tops down for spite,
+And did its worst to vex the lake:
+I listened with heart fit to break.
+When glided in Porphyria; straight
+She shut the cold out and the storm,
+And kneeled and made the cheerless grate
+Blaze up, and all the cottage warm;
+Which done, she rose, and from her form
+Withdrew the dripping cloak and shawl,
+And laid her soiled gloves by, untied
+Her hat and let the damp hair fall,
+And, last, she sat down by my side
+And called me. When no voice replied,
+She put my arm about her waist,
+And made her smooth white shoulder bare,
+And all her yellow hair displaced,
+And, stooping, made my cheek lie there,
+And spread, o'er all, her yellow hair,
+Murmuring how she loved me—she
+Too weak, for all her heart's endeavour,
+To set its struggling passion free
+From pride, and vainer ties dissever,
+And give herself to me for ever.
+But passion sometimes would prevail,
+Nor could tonight's gay feast restrain
+A sudden thought of one so pale
+For love of her, and all in vain:
+So, she was come through wind and rain.
+Be sure I looked up at her eyes
+Happy and proud; at last I knew
+Porphyria worshipped me: surprise
+Made my heart swell, and still it grew
+While I debated what to do.
+That moment she was mine, mine, fair,
+Perfectly pure and good: I found
+A thing to do, and all her hair
+In one long yellow string I wound
+Three times her little throat around,
+And strangled her. No pain felt she;
+I am quite sure she felt no pain.
+As a shut bud that holds a bee,
+I warily oped her lids: again
+Laughed the blue eyes without a stain.
+And I untightened next the tress
+About her neck; her cheek once more
+Blushed bright beneath my burning kiss:
+I propped her head up as before,
+Only, this time my shoulder bore
+Her head, which droops upon it still:
+The smiling rosy little head,
+So glad it has its utmost will,
+That all it scorned at once is fled,
+And I, its love, am gained instead!
+Porphyria's love: she guessed not how
+Her darling one wish would be heard.
+And thus we sit together now,
+And all night long we have not stirred,
+And yet God has not said a word!""",
+    },
+    # Tennyson, "Ulysses" (1842) — aging hero demanding adventure
+    {
+        "title": "Ulysses",
+        "author": "Alfred Lord Tennyson",
+        "year": 1842,
+        "era": "dramatic_monologue",
+        "text": """It little profits that an idle king,
+By this still hearth, among these barren crags,
+Matched with an aged wife, I mete and dole
+Unequal laws unto a savage race,
+That hoard, and sleep, and feed, and know not me.
+I cannot rest from travel: I will drink
+Life to the lees: all times I have enjoyed
+Greatly, have suffered greatly, both with those
+That loved me, and alone; on shore, and when
+Through scudding drifts the rainy Hyades
+Vext the dim sea: I am become a name;
+For always roaming with a hungry heart
+Much have I seen and known; cities of men
+And manners, climates, councils, governments,
+Myself not least, but honoured of them all;
+And drunk delight of battle with my peers,
+Far on the ringing plains of windy Troy.
+I am a part of all that I have met;
+Yet all experience is an arch wherethrough
+Gleams that untravelled world, whose margin fades
+For ever and for ever when I move.
+How dull it is to pause, to make an end,
+To rust unburnished, not to shine in use!
+As though to breathe were life. Life piled on life
+Were all too little, and of one to me
+Little remains: but every hour is saved
+From that eternal silence, something more,
+A bringer of new things; and vile it were
+For some three suns to store and hoard myself,
+And this grey spirit yearning in desire
+To follow knowledge like a sinking star,
+Beyond the utmost bound of human thought.
+This is my son, mine own Telemachus,
+To whom I leave the sceptre and the isle—
+Well-loved of me, discerning to fulfil
+This labour, by slow prudence to make mild
+A rugged people, and through soft degrees
+Subdue them to the useful and the good.
+Most blameless is he, centred in the sphere
+Of common duties, decent not to fail
+In offices of tenderness, and pay
+Meet adoration to my household gods,
+When I am gone. He works his work, I mine.
+There lies the port; the vessel puffs her sail:
+There gloom the dark broad seas. My mariners,
+Souls that have toiled, and wrought, and thought with me—
+That ever with a frolic welcome took
+The thunder and the sunshine, and opposed
+Free hearts, free foreheads—you and I are old;
+Old age hath yet his honour and his toil;
+Death closes all: but something ere the end,
+Some work of noble note, may yet be done,
+Not unbecoming men that strove with gods.
+The lights begin to twinkle from the rocks:
+The long day wanes: the slow moon climbs: the deep
+Moans round with many voices. Come, my friends,
+'Tis not too late to seek a newer world.
+Push off, and sitting well in order smite
+The sounding furrows; for my purpose holds
+To sail beyond the sunset, and the baths
+Of all the western stars, until I die.
+It may be that the gulfs will wash us down:
+It may be we shall touch the Happy Isles,
+And see the great Achilles, whom we knew.
+Though much is taken, much abides; and though
+We are not now that strength which in old days
+Moved earth and heaven, that which we are, we are;
+One equal temper of heroic hearts,
+Made weak by time and fate, but strong in will
+To strive, to seek, to find, and not to yield.""",
+    },
+    # Browning, "Fra Lippo Lippi" opening — the artist caught out at night
+    {
+        "title": "Fra Lippo Lippi (opening)",
+        "author": "Robert Browning",
+        "year": 1855,
+        "era": "dramatic_monologue",
+        "text": """I am poor brother Lippo, by your leave!
+You need not clap your torches to my face.
+Zooks, what's to blame? you think you see a monk!
+What, 'tis past midnight, and you go the rounds,
+And here you catch me at an alley's end
+Where sportive ladies leave their doors ajar?
+The Carmine's my cloister: hunt it up,
+Do,—harry out, if you must show your zeal,
+Whatever rat, there, haps on his wrong hole,
+And nip each softling of a wee white mouse,
+Weke, weke, that's crept to keep him company!
+Aha, you know your betters! Then, you'll take
+Your hand away that's fiddling on my throat,
+And please to know me likewise. Who am I?
+Why, one, sir, who is lodging with a friend
+Three streets off—he's a certain . . . how d'ye call?
+Master—a . . . Cosimo of the Medici,
+In the house that caps the corner. Boh! you were best!
+Remember and tell me, the day you're hanged,
+How you affected such a gullet's-gripe!
+But you, sir, it concerns you that your knaves
+Pick up a manner nor discredit you:
+Zooks, are we pilchards, that they sweep the streets
+And count fair price what comes into their net?
+He's Judas to a tittle, that man is!
+Just such a face! Why, sir, you make amends.
+Lord, I'm not angry! Bid your hang-dogs go
+Drink out this quarter-florin to the health
+Of the munificent House that harbours me
+(And many more beside, lads! more beside!)
+And all's come square again. I'd like his face—
+His, elbowing on his comrade in the door
+With the pike and lantern,—for the slave that holds
+John Baptist's head a-dangle by the hair
+With one hand ("Look you, now," as who should say)
+And his weapon in the other, yet unwiped!
+It's not your chance to have a bit of chalk,
+A wood-coal or the like? or you should see!
+Yes, I'm the painter, as you're told, I hope.""",
+    },
+    # Tennyson, "The Lady of Shalott" (opening) — narrative leading to dramatic choice
+    {
+        "title": "The Lady of Shalott (Part I and II)",
+        "author": "Alfred Lord Tennyson",
+        "year": 1832,
+        "era": "dramatic_monologue",
+        "text": """On either side the river lie
+Long fields of barley and of rye,
+That clothe the wold and meet the sky;
+And through the field the road runs by
+To many-towered Camelot;
+And up and down the people go,
+Gazing where the lilies blow
+Round an island there below,
+The island of Shalott.
+
+Willows whiten, aspens quiver,
+Little breezes dusk and shiver
+Through the wave that runs for ever
+By the island in the river
+Flowing down to Camelot.
+Four grey walls, and four grey towers,
+Overlook a space of flowers,
+And the silent isle imbowers
+The Lady of Shalott.
+
+By the margin, willow-veiled,
+Slide the heavy barges trailed
+By slow horses; and unhailed
+The shallop flitteth silken-sailed
+Skimming down to Camelot:
+But who hath seen her wave her hand?
+Or at the casement seen her stand?
+Or is she known in all the land,
+The Lady of Shalott?
+
+Only reapers, reaping early
+In among the bearded barley,
+Hear a song that echoes cheerly
+From the river winding clearly,
+Down to towered Camelot:
+And by the moon the reaper weary,
+Piling sheaves in uplands airy,
+Listening, whispers "'Tis the fairy
+Lady of Shalott."
+
+There she weaves by night and day
+A magic web with colours gay.
+She has heard a whisper say,
+A curse is on her if she stay
+To look down to Camelot.
+She knows not what the curse may be,
+And so she weaveth steadily,
+And little other care hath she,
+The Lady of Shalott.
+
+And moving through a mirror clear
+That hangs before her all the year,
+Shadows of the world appear.
+There she sees the highway near
+Winding down to Camelot:
+There the river eddy whirls,
+And there the surly village-churls,
+And the red cloaks of market girls,
+Pass onward from Shalott.
+
+Sometimes a troop of damsels glad,
+An abbot on an ambling pad,
+Sometimes a curly shepherd-lad,
+Or long-haired page in crimson clad,
+Goes by to towered Camelot;
+And sometimes through the mirror blue
+The knights come riding two and two:
+She hath no loyal knight and true,
+The Lady of Shalott.""",
+    },
+    # Matthew Arnold, "Dover Beach" (1851, pub. 1867) — dramatic lyric monologue
+    {
+        "title": "Dover Beach",
+        "author": "Matthew Arnold",
+        "year": 1851,
+        "era": "dramatic_monologue",
+        "text": """The sea is calm tonight.
+The tide is full, the moon lies fair
+Upon the straits; on the French coast the light
+Gleams and is gone; the cliffs of England stand,
+Glimmering and vast, out in the tranquil bay.
+Come to the window, sweet is the night-air!
+Only, from the long line of spray
+Where the sea meets the moon-blanched land,
+Listen! you hear the grating roar
+Of pebbles which the waves draw back, and fling,
+At their return, up the high strand,
+Begin, and cease, and then again begin,
+With tremulous cadence slow, and bring
+The eternal note of sadness in.
+
+Sophocles long ago
+Heard it on the Aegean, and it brought
+Into his mind the turbid ebb and flow
+Of human misery; we
+Find also in the sound a thought,
+Hearing it by this distant northern sea.
+
+The Sea of Faith
+Was once, too, at the full, and round earth's shore
+Lay like the folds of a bright girdle furled.
+But now I only hear
+Its melancholy, long, withdrawing roar,
+Retreating, to the breath
+Of the night-wind, down the vast edges drear
+And naked shingles of the world.
+
+Ah, love, let us be true
+To one another! for the world, which seems
+To lie before us like a land of dreams,
+So various, so beautiful, so new,
+Hath really neither joy, nor love, nor light,
+Nor certitude, nor peace, nor help for pain;
+And we are here as on a darkling plain
+Swept with confused alarms of struggle and flight,
+Where ignorant armies clash by night.""",
+    },
+
     # ─── ELEGY ─────────────────────────────────────────────────────────
     {
         "title": "Elegy Written in a Country Churchyard (opening)",

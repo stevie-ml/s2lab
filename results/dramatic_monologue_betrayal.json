@@ -1,0 +1,581 @@
+{
+  "experiment": "dramatic_monologue_betrayal",
+  "poems_analyzed": 9,
+  "betrayal_tokens_total": 17,
+  "betrayal_mean_s2": 6.052064705882351,
+  "baseline_mean_s2": -0.3060043163672661,
+  "era_stats": {
+    "romantic": {
+      "n": 21,
+      "mean": 0.19234761904761905
+    },
+    "19th_century": {
+      "n": 18,
+      "mean": 0.2600777777777777
+    },
+    "modernist": {
+      "n": 28,
+      "mean": 0.7923821428571427
+    },
+    "beat": {
+      "n": 8,
+      "mean": 1.0888
+    },
+    "confessional": {
+      "n": 6,
+      "mean": 0.5034166666666667
+    },
+    "mid_century": {
+      "n": 6,
+      "mean": 1.2114166666666666
+    },
+    "new_york_school": {
+      "n": 26,
+      "mean": -0.12146153846153848
+    },
+    "language": {
+      "n": 6,
+      "mean": -0.20644999999999994
+    },
+    "contemporary": {
+      "n": 19,
+      "mean": 0.24519473684210524
+    },
+    "harlem_renaissance": {
+      "n": 7,
+      "mean": 0.5089857142857143
+    },
+    "oulipo": {
+      "n": 8,
+      "mean": 0.2797375
+    },
+    "surrealist": {
+      "n": 8,
+      "mean": 0.16147499999999998
+    },
+    "deep_image": {
+      "n": 1,
+      "mean": 0.2506
+    },
+    "control": {
+      "n": 5,
+      "mean": -1.66346
+    },
+    "german_symbolist": {
+      "n": 3,
+      "mean": 0.41883333333333334
+    },
+    "german_expressionist": {
+      "n": 6,
+      "mean": 0.44005
+    },
+    "german_modernist": {
+      "n": 2,
+      "mean": 1.1209
+    },
+    "victorian": {
+      "n": 30,
+      "mean": 0.3915966666666666
+    },
+    "haiku": {
+      "n": 14,
+      "mean": 1.6320142857142856
+    },
+    "ancient": {
+      "n": 3,
+      "mean": 0.11249999999999999
+    },
+    "prose_poetry": {
+      "n": 12,
+      "mean": -0.1799166666666667
+    },
+    "ballad": {
+      "n": 6,
+      "mean": 0.8144166666666667
+    },
+    "song_lyrics": {
+      "n": 3,
+      "mean": 0.0922
+    },
+    "nursery_rhyme": {
+      "n": 1,
+      "mean": 0.1041
+    },
+    "metaphysical": {
+      "n": 7,
+      "mean": -0.07862857142857142
+    },
+    "early_modern": {
+      "n": 11,
+      "mean": 0.057699999999999994
+    },
+    "spoken_word": {
+      "n": 3,
+      "mean": -0.17383333333333337
+    },
+    "found_poetry": {
+      "n": 9,
+      "mean": -0.0774333333333333
+    },
+    "fixed_form": {
+      "n": 8,
+      "mean": 0.5994375
+    },
+    "cliche_control": {
+      "n": 4,
+      "mean": -0.2173
+    },
+    "18th_century": {
+      "n": 8,
+      "mean": -0.17088749999999997
+    },
+    "biblical": {
+      "n": 8,
+      "mean": -0.3909125
+    },
+    "concrete": {
+      "n": 4,
+      "mean": 0.9987750000000001
+    },
+    "latin_american": {
+      "n": 4,
+      "mean": 0.08132500000000001
+    },
+    "black_arts": {
+      "n": 2,
+      "mean": 1.4985
+    },
+    "korean_modernist": {
+      "n": 1,
+      "mean": 0.7491
+    },
+    "imagist": {
+      "n": 5,
+      "mean": 0.70212
+    },
+    "parody_original": {
+      "n": 3,
+      "mean": 0.6506666666666666
+    },
+    "parody": {
+      "n": 4,
+      "mean": 0.8048250000000001
+    },
+    "classical_chinese": {
+      "n": 4,
+      "mean": -0.21810000000000002
+    },
+    "persian": {
+      "n": 2,
+      "mean": 0.8416
+    },
+    "japanese_classical": {
+      "n": 2,
+      "mean": -0.1513
+    },
+    "limerick": {
+      "n": 10,
+      "mean": -0.061910000000000034
+    },
+    "old_english": {
+      "n": 5,
+      "mean": -0.07354000000000001
+    },
+    "protest_political": {
+      "n": 2,
+      "mean": 0.35650000000000004
+    },
+    "ghazal": {
+      "n": 2,
+      "mean": 0.57535
+    },
+    "war_poetry": {
+      "n": 3,
+      "mean": 0.18899999999999997
+    },
+    "postcolonial": {
+      "n": 6,
+      "mean": 0.4916500000000001
+    },
+    "dramatic_monologue": {
+      "n": 10,
+      "mean": -0.12244000000000002
+    },
+    "elegy": {
+      "n": 8,
+      "mean": 0.2943875
+    },
+    "clerihew": {
+      "n": 10,
+      "mean": 1.55182
+    },
+    "double_dactyl": {
+      "n": 5,
+      "mean": 1.2128599999999998
+    },
+    "ekphrastic": {
+      "n": 8,
+      "mean": -0.043612499999999985
+    },
+    "villanelle": {
+      "n": 3,
+      "mean": 0.7911
+    },
+    "pantoum": {
+      "n": 1,
+      "mean": 0.0685
+    },
+    "triolet": {
+      "n": 2,
+      "mean": -0.43785
+    },
+    "rondeau": {
+      "n": 1,
+      "mean": 0.3913
+    },
+    "nonsense": {
+      "n": 2,
+      "mean": 0.6207
+    },
+    "procedural": {
+      "n": 8,
+      "mean": -0.31893750000000004
+    }
+  },
+  "poems": {
+    "My Last Duchess (complete)": {
+      "metadata": {
+        "title": "My Last Duchess (complete)",
+        "author": "Robert Browning",
+        "year": 1842,
+        "era": "dramatic_monologue",
+        "language": "en",
+        "analyzed_at": "2026-10-30T12:58:40.010241",
+        "model": "gpt2",
+        "n_tokens": 674
+      },
+      "summary": {
+        "avg_surprisal": 6.4434,
+        "avg_entropy": 6.7056,
+        "avg_s2": -0.2622,
+        "max_s2": 24.4429,
+        "min_s2": -6.7186,
+        "std_s2": 3.6816,
+        "pos_s2_ratio": 0.3769
+      },
+      "poem_mean_s2": -0.2622390207715136,
+      "poem_std_s2": 3.681575594161398,
+      "betrayal_moments": [
+        {
+          "token": "commands",
+          "description": "Murder admission: \"I gave commands\"",
+          "s2": 10.7017,
+          "z_score": 2.978056199133653
+        },
+        {
+          "token": "ranked",
+          "description": "Status obsession: \"she ranked / My gift...with anybody's gift\"",
+          "s2": 12.4154,
+          "z_score": 3.443536251401968
+        },
+        {
+          "token": "Neptune",
+          "description": "Control metaphor: Neptune \"taming\" = Duke's ideal self",
+          "s2": 13.2221,
+          "z_score": 3.6626543923629584
+        },
+        {
+          "token": "disgust",
+          "description": "Contempt revealed: \"that in you disgusts me\"",
+          "s2": 8.6575,
+          "z_score": 2.422804799911567
+        }
+      ],
+      "betrayal_mean_s2": 11.249175
+    },
+    "Soliloquy of the Spanish Cloister": {
+      "metadata": {
+        "title": "Soliloquy of the Spanish Cloister",
+        "author": "Robert Browning",
+        "year": 1842,
+        "era": "dramatic_monologue",
+        "language": "en",
+        "analyzed_at": "2026-10-30T12:58:41.006605",
+        "model": "gpt2",
+        "n_tokens": 260
+      },
+      "summary": {
+        "avg_surprisal": 6.9285,
+        "avg_entropy": 6.8266,
+        "avg_s2": 0.1019,
+        "max_s2": 23.743,
+        "min_s2": -6.7065,
+        "std_s2": 5.1391,
+        "pos_s2_ratio": 0.3462
+      },
+      "poem_mean_s2": 0.10189846153846165,
+      "poem_std_s2": 5.139133156319481,
+      "betrayal_moments": [
+        {
+          "token": "hate",
+          "description": "Hatred revealed through \"If hate killed men...\"",
+          "s2": 10.617,
+          "z_score": 2.046084664206715
+        },
+        {
+          "token": "Hell",
+          "description": "Willingness to damn himself to spite Brother Lawrence",
+          "s2": 2.4614,
+          "z_score": 0.45912442170526563
+        }
+      ],
+      "betrayal_mean_s2": 6.5392
+    },
+    "The Love Song of J. Alfred Prufrock (middle)": {
+      "metadata": {
+        "title": "The Love Song of J. Alfred Prufrock (middle)",
+        "author": "T.S. Eliot",
+        "year": 1915,
+        "era": "dramatic_monologue",
+        "language": "en",
+        "analyzed_at": "2026-10-30T12:58:47.672124",
+        "model": "gpt2",
+        "n_tokens": 275
+      },
+      "summary": {
+        "avg_surprisal": 5.7365,
+        "avg_entropy": 5.5409,
+        "avg_s2": 0.1956,
+        "max_s2": 20.7031,
+        "min_s2": -5.981,
+        "std_s2": 4.3459,
+        "pos_s2_ratio": 0.3673
+      },
+      "poem_mean_s2": 0.19556290909090898,
+      "poem_std_s2": 4.3459395905610645,
+      "betrayal_moments": [],
+      "betrayal_mean_s2": null
+    },
+    "Gerontion": {
+      "metadata": {
+        "title": "Gerontion",
+        "author": "T.S. Eliot",
+        "year": 1920,
+        "era": "dramatic_monologue",
+        "language": "en",
+        "analyzed_at": "2026-10-30T12:58:46.607113",
+        "model": "gpt2",
+        "n_tokens": 333
+      },
+      "summary": {
+        "avg_surprisal": 6.4338,
+        "avg_entropy": 6.5976,
+        "avg_s2": -0.1638,
+        "max_s2": 24.3356,
+        "min_s2": -7.1997,
+        "std_s2": 4.3498,
+        "pos_s2_ratio": 0.3514
+      },
+      "poem_mean_s2": -0.16382042042042042,
+      "poem_std_s2": 4.349809971735964,
+      "betrayal_moments": [
+        {
+          "token": "Christ",
+          "description": "Failed religious redemption: \"In the juvescence of the year / Came Christ the tiger\"",
+          "s2": 5.647,
+          "z_score": 1.3358791437276012
+        }
+      ],
+      "betrayal_mean_s2": 5.647
+    },
+    "Tithonus": {
+      "metadata": {
+        "title": "Tithonus",
+        "author": "Alfred Lord Tennyson",
+        "year": 1860,
+        "era": "dramatic_monologue",
+        "language": "en",
+        "analyzed_at": "2026-10-30T12:58:45.265783",
+        "model": "gpt2",
+        "n_tokens": 251
+      },
+      "summary": {
+        "avg_surprisal": 6.3876,
+        "avg_entropy": 6.3163,
+        "avg_s2": 0.0713,
+        "max_s2": 22.5653,
+        "min_s2": -6.1488,
+        "std_s2": 4.4541,
+        "pos_s2_ratio": 0.3745
+      },
+      "poem_mean_s2": 0.07129362549800806,
+      "poem_std_s2": 4.454072508238346,
+      "betrayal_moments": [
+        {
+          "token": "die",
+          "description": "Death-wish: central desire for death as release",
+          "s2": 4.0476,
+          "z_score": 0.8927349896409034
+        }
+      ],
+      "betrayal_mean_s2": 4.0476
+    },
+    "Andrea del Sarto": {
+      "metadata": {
+        "title": "Andrea del Sarto",
+        "author": "Robert Browning",
+        "year": 1855,
+        "era": "dramatic_monologue",
+        "language": "en",
+        "analyzed_at": "2026-10-30T12:58:44.278713",
+        "model": "gpt2",
+        "n_tokens": 456
+      },
+      "summary": {
+        "avg_surprisal": 5.7658,
+        "avg_entropy": 6.0983,
+        "avg_s2": -0.3326,
+        "max_s2": 21.8431,
+        "min_s2": -6.0494,
+        "std_s2": 3.5905,
+        "pos_s2_ratio": 0.3202
+      },
+      "poem_mean_s2": -0.33255679824561407,
+      "poem_std_s2": 3.5904916882781026,
+      "betrayal_moments": [],
+      "betrayal_mean_s2": null
+    },
+    "The Bishop Orders His Tomb at Saint Praxed's Church": {
+      "metadata": {
+        "title": "The Bishop Orders His Tomb at Saint Praxed's Church",
+        "author": "Robert Browning",
+        "year": 1845,
+        "era": "dramatic_monologue",
+        "language": "en",
+        "analyzed_at": "2026-10-30T12:58:42.486247",
+        "model": "gpt2",
+        "n_tokens": 380
+      },
+      "summary": {
+        "avg_surprisal": 6.4702,
+        "avg_entropy": 6.7229,
+        "avg_s2": -0.2527,
+        "max_s2": 20.9771,
+        "min_s2": -5.8307,
+        "std_s2": 3.8932,
+        "pos_s2_ratio": 0.3789
+      },
+      "poem_mean_s2": -0.2526915789473686,
+      "poem_std_s2": 3.893229820981766,
+      "betrayal_moments": [
+        {
+          "token": "vanity",
+          "description": "The old vanity unrelinquished: \"And then how I shall lie through centuries\"",
+          "s2": 7.9283,
+          "z_score": 2.1013379520668387
+        }
+      ],
+      "betrayal_mean_s2": 7.9283
+    },
+    "Porphyria's Lover": {
+      "metadata": {
+        "title": "Porphyria's Lover",
+        "author": "Robert Browning",
+        "year": 1836,
+        "era": "dramatic_monologue",
+        "language": "en",
+        "analyzed_at": "2026-11-16T00:56:48.086256",
+        "model": "gpt2",
+        "n_tokens": 585
+      },
+      "summary": {
+        "avg_surprisal": 5.9113,
+        "avg_entropy": 6.3339,
+        "avg_s2": -0.4226,
+        "max_s2": 16.0651,
+        "min_s2": -6.1853,
+        "std_s2": 3.4698,
+        "pos_s2_ratio": 0.3487
+      },
+      "poem_mean_s2": -0.42258547008547004,
+      "poem_std_s2": 3.4697798665627553,
+      "betrayal_moments": [
+        {
+          "token": "worshipped",
+          "description": "Narcissistic revelation: \"Porphyria worshipped me: surprise\"",
+          "s2": 13.0855,
+          "z_score": 3.893066992594805
+        },
+        {
+          "token": "Word",
+          "description": "Final narcissistic certainty: \"God has not said a word!\"",
+          "s2": -1.7482,
+          "z_score": -0.3820457149714557
+        },
+        {
+          "token": "mine",
+          "description": "Possessive climax: \"That moment she was mine, mine, fair\"",
+          "s2": -0.249,
+          "z_score": 0.05002780486400939
+        },
+        {
+          "token": "unt",
+          "description": "Post-murder eroticism: untightening the stranglehold",
+          "s2": 12.7791,
+          "z_score": 3.804761678775711
+        }
+      ],
+      "betrayal_mean_s2": 5.966849999999999
+    },
+    "Ulysses": {
+      "metadata": {
+        "title": "Ulysses",
+        "author": "Alfred Lord Tennyson",
+        "year": 1842,
+        "era": "dramatic_monologue",
+        "language": "en",
+        "analyzed_at": "2026-11-16T00:56:52.183159",
+        "model": "gpt2",
+        "n_tokens": 794
+      },
+      "summary": {
+        "avg_surprisal": 6.2929,
+        "avg_entropy": 7.0466,
+        "avg_s2": -0.7537,
+        "max_s2": 21.7921,
+        "min_s2": -7.2845,
+        "std_s2": 3.4177,
+        "pos_s2_ratio": 0.3224
+      },
+      "poem_mean_s2": -0.7537164987405544,
+      "poem_std_s2": 3.417743567600027,
+      "betrayal_moments": [
+        {
+          "token": "idle",
+          "description": "Opening contempt: \"It little profits that an idle king\"",
+          "s2": 1.978,
+          "z_score": 0.7992748562639508
+        },
+        {
+          "token": "aged",
+          "description": "Dismissal of Penelope: \"matched with an aged wife\"",
+          "s2": 0.9785,
+          "z_score": 0.5068304466027957
+        },
+        {
+          "token": "savage",
+          "description": "Contempt for his people: \"unto a savage race\"",
+          "s2": -0.9417,
+          "z_score": -0.0550022251644378
+        },
+        {
+          "token": "yield",
+          "description": "The heroic refusal as self-delusion: \"not to yield\"",
+          "s2": 1.3049,
+          "z_score": 0.602332052719255
+        }
+      ],
+      "betrayal_mean_s2": 0.829925
+    }
+  }
+}
