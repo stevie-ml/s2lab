@@ -1,0 +1,650 @@
+{
+  "global_summary": {
+    "poetry": {
+      "n": 55694,
+      "mean_t1g": 3.3969,
+      "median_t1g": 2.1668,
+      "std_t1g": 3.8165,
+      "mean_s2": -0.4585,
+      "mean_residual": 3.8554,
+      "high_t1g_ratio": 0.2916,
+      "zero_gap_ratio": 0.325
+    },
+    "prose": {
+      "n": 128,
+      "mean_t1g": 1.5433,
+      "median_t1g": 0.584,
+      "std_t1g": 2.1299,
+      "mean_s2": -1.9246,
+      "mean_residual": 3.4679,
+      "high_t1g_ratio": 0.1016,
+      "zero_gap_ratio": 0.4531
+    },
+    "all": {
+      "n": 55822,
+      "mean_t1g": 3.3926,
+      "median_t1g": 2.1624,
+      "std_t1g": 3.8145,
+      "mean_s2": -0.4619,
+      "mean_residual": 3.8545,
+      "high_t1g_ratio": 0.2912,
+      "zero_gap_ratio": 0.3253
+    }
+  },
+  "poetry_prose_gap": {
+    "mean_t1g_diff": 1.8536,
+    "t1g_s2_correlation": 0.91
+  },
+  "bucket_stats": {
+    "Zero gap (chose top-1)": {
+      "n": 18159,
+      "pct": 32.5302,
+      "mean_s2": -2.899,
+      "mean_residual": 2.9003,
+      "pct_poetry": 99.6806
+    },
+    "Tiny gap (< 1 bit)": {
+      "n": 4297,
+      "pct": 7.6977,
+      "mean_s2": -3.0987,
+      "mean_residual": 3.6502,
+      "pct_poetry": 99.6044
+    },
+    "Small gap (1-3 bits)": {
+      "n": 9227,
+      "pct": 16.5293,
+      "mean_s2": -2.0499,
+      "mean_residual": 4.0345,
+      "pct_poetry": 99.7182
+    },
+    "Medium gap (3-6 bits)": {
+      "n": 11203,
+      "pct": 20.0691,
+      "mean_s2": 0.0026,
+      "mean_residual": 4.4078,
+      "pct_poetry": 99.8304
+    },
+    "Large gap (> 6 bits)": {
+      "n": 12936,
+      "pct": 23.1737,
+      "mean_s2": 4.5655,
+      "mean_residual": 4.6544,
+      "pct_poetry": 99.9382
+    }
+  },
+  "quadrant_analysis": {
+    "counts": {
+      "Q1_high_t1g_high_s2": 14657,
+      "Q2_low_t1g_high_s2": 78,
+      "Q3_low_t1g_low_s2": 31605,
+      "Q4_high_t1g_low_s2": 9482
+    },
+    "pcts": {
+      "Q1_high_t1g_high_s2": 26.3,
+      "Q2_low_t1g_high_s2": 0.1,
+      "Q3_low_t1g_low_s2": 56.6,
+      "Q4_high_t1g_low_s2": 17.0
+    },
+    "t1g_threshold_bits": 3.0,
+    "s2_threshold_bits": 1.0
+  },
+  "era_summaries_top20": {
+    "clerihew": {
+      "n": 228,
+      "mean_t1g": 4.7153,
+      "median_t1g": 3.2405,
+      "std_t1g": 4.4697,
+      "mean_s2": 0.2559,
+      "mean_residual": 4.4594,
+      "high_t1g_ratio": 0.3991,
+      "zero_gap_ratio": 0.2018
+    },
+    "deep_image": {
+      "n": 61,
+      "mean_t1g": 4.2798,
+      "median_t1g": 3.2376,
+      "std_t1g": 4.0238,
+      "mean_s2": 0.0658,
+      "mean_residual": 4.214,
+      "high_t1g_ratio": 0.3934,
+      "zero_gap_ratio": 0.2459
+    },
+    "haiku": {
+      "n": 292,
+      "mean_t1g": 4.1511,
+      "median_t1g": 3.196,
+      "std_t1g": 4.0917,
+      "mean_s2": -0.163,
+      "mean_residual": 4.3141,
+      "high_t1g_ratio": 0.3699,
+      "zero_gap_ratio": 0.2329
+    },
+    "ancient": {
+      "n": 318,
+      "mean_t1g": 4.0856,
+      "median_t1g": 3.3843,
+      "std_t1g": 3.9492,
+      "mean_s2": -0.2026,
+      "mean_residual": 4.2883,
+      "high_t1g_ratio": 0.3648,
+      "zero_gap_ratio": 0.2704
+    },
+    "persian": {
+      "n": 382,
+      "mean_t1g": 3.9673,
+      "median_t1g": 3.0214,
+      "std_t1g": 3.9741,
+      "mean_s2": -0.2349,
+      "mean_residual": 4.2022,
+      "high_t1g_ratio": 0.3482,
+      "zero_gap_ratio": 0.2723
+    },
+    "war_poetry": {
+      "n": 638,
+      "mean_t1g": 3.8942,
+      "median_t1g": 3.125,
+      "std_t1g": 3.7513,
+      "mean_s2": -0.3754,
+      "mean_residual": 4.2697,
+      "high_t1g_ratio": 0.3527,
+      "zero_gap_ratio": 0.2508
+    },
+    "confessional": {
+      "n": 395,
+      "mean_t1g": 3.8477,
+      "median_t1g": 2.8154,
+      "std_t1g": 3.8555,
+      "mean_s2": -0.3067,
+      "mean_residual": 4.1543,
+      "high_t1g_ratio": 0.3367,
+      "zero_gap_ratio": 0.2278
+    },
+    "german_expressionist": {
+      "n": 498,
+      "mean_t1g": 3.7657,
+      "median_t1g": 2.8347,
+      "std_t1g": 3.9477,
+      "mean_s2": -0.1631,
+      "mean_residual": 3.9288,
+      "high_t1g_ratio": 0.3032,
+      "zero_gap_ratio": 0.2892
+    },
+    "elegy": {
+      "n": 1252,
+      "mean_t1g": 3.741,
+      "median_t1g": 2.7246,
+      "std_t1g": 3.8241,
+      "mean_s2": -0.4935,
+      "mean_residual": 4.2344,
+      "high_t1g_ratio": 0.3299,
+      "zero_gap_ratio": 0.2708
+    },
+    "victorian": {
+      "n": 5287,
+      "mean_t1g": 3.7367,
+      "median_t1g": 2.6566,
+      "std_t1g": 3.9263,
+      "mean_s2": -0.3233,
+      "mean_residual": 4.06,
+      "high_t1g_ratio": 0.3223,
+      "zero_gap_ratio": 0.2816
+    },
+    "ekphrastic": {
+      "n": 1900,
+      "mean_t1g": 3.7281,
+      "median_t1g": 2.979,
+      "std_t1g": 3.7054,
+      "mean_s2": -0.5174,
+      "mean_residual": 4.2455,
+      "high_t1g_ratio": 0.3232,
+      "zero_gap_ratio": 0.2516
+    },
+    "pantoum": {
+      "n": 134,
+      "mean_t1g": 3.726,
+      "median_t1g": 2.8809,
+      "std_t1g": 3.9701,
+      "mean_s2": -0.5046,
+      "mean_residual": 4.2306,
+      "high_t1g_ratio": 0.3284,
+      "zero_gap_ratio": 0.306
+    },
+    "old_english": {
+      "n": 628,
+      "mean_t1g": 3.7052,
+      "median_t1g": 2.7402,
+      "std_t1g": 3.9612,
+      "mean_s2": -0.3461,
+      "mean_residual": 4.0513,
+      "high_t1g_ratio": 0.3185,
+      "zero_gap_ratio": 0.301
+    },
+    "harlem_renaissance": {
+      "n": 815,
+      "mean_t1g": 3.6912,
+      "median_t1g": 2.7417,
+      "std_t1g": 3.8724,
+      "mean_s2": -0.3997,
+      "mean_residual": 4.0908,
+      "high_t1g_ratio": 0.3239,
+      "zero_gap_ratio": 0.2969
+    },
+    "early_modern": {
+      "n": 1800,
+      "mean_t1g": 3.6587,
+      "median_t1g": 2.6966,
+      "std_t1g": 3.7535,
+      "mean_s2": -0.3799,
+      "mean_residual": 4.0386,
+      "high_t1g_ratio": 0.3056,
+      "zero_gap_ratio": 0.2544
+    },
+    "18th_century": {
+      "n": 1431,
+      "mean_t1g": 3.6541,
+      "median_t1g": 2.5475,
+      "std_t1g": 3.9226,
+      "mean_s2": -0.3409,
+      "mean_residual": 3.9949,
+      "high_t1g_ratio": 0.3138,
+      "zero_gap_ratio": 0.3012
+    },
+    "romantic": {
+      "n": 3787,
+      "mean_t1g": 3.6345,
+      "median_t1g": 2.5705,
+      "std_t1g": 3.8507,
+      "mean_s2": -0.4584,
+      "mean_residual": 4.0929,
+      "high_t1g_ratio": 0.3158,
+      "zero_gap_ratio": 0.2968
+    },
+    "classical_chinese": {
+      "n": 238,
+      "mean_t1g": 3.6296,
+      "median_t1g": 2.7642,
+      "std_t1g": 3.8583,
+      "mean_s2": -0.558,
+      "mean_residual": 4.1877,
+      "high_t1g_ratio": 0.3235,
+      "zero_gap_ratio": 0.3193
+    },
+    "rondeau": {
+      "n": 130,
+      "mean_t1g": 3.5963,
+      "median_t1g": 2.9019,
+      "std_t1g": 3.8749,
+      "mean_s2": -0.3995,
+      "mean_residual": 3.9958,
+      "high_t1g_ratio": 0.2923,
+      "zero_gap_ratio": 0.2846
+    },
+    "modernist": {
+      "n": 2981,
+      "mean_t1g": 3.5899,
+      "median_t1g": 2.2357,
+      "std_t1g": 4.0441,
+      "mean_s2": -0.4229,
+      "mean_residual": 4.0128,
+      "high_t1g_ratio": 0.3103,
+      "zero_gap_ratio": 0.3311
+    }
+  },
+  "era_q1_rates_top20": {
+    "deep_image": 37.7,
+    "clerihew": 35.5,
+    "persian": 32.5,
+    "confessional": 32.2,
+    "ancient": 31.4,
+    "haiku": 30.1,
+    "mid_century": 30.0,
+    "imagist": 29.6,
+    "war_poetry": 29.5,
+    "german_expressionist": 29.3,
+    "old_english": 28.7,
+    "pantoum": 28.4,
+    "oulipo": 28.3,
+    "victorian": 28.3,
+    "harlem_renaissance": 28.2,
+    "elegy": 27.8,
+    "early_modern": 27.7,
+    "18th_century": 27.7,
+    "19th_century": 27.6,
+    "ekphrastic": 27.6
+  },
+  "poet_summaries_top15": {
+    "Christian B\u00f6k": {
+      "n": 214,
+      "mean_t1g": 5.1557,
+      "median_t1g": 4.2248,
+      "std_t1g": 4.9441,
+      "mean_s2": 0.7374,
+      "mean_residual": 4.4184,
+      "high_t1g_ratio": 0.4439,
+      "zero_gap_ratio": 0.243
+    },
+    "Hart Crane": {
+      "n": 169,
+      "mean_t1g": 5.1104,
+      "median_t1g": 4.5674,
+      "std_t1g": 4.4326,
+      "mean_s2": 0.9682,
+      "mean_residual": 4.1422,
+      "high_t1g_ratio": 0.4675,
+      "zero_gap_ratio": 0.1953
+    },
+    "Synthetic (clerihew test case)": {
+      "n": 162,
+      "mean_t1g": 4.9066,
+      "median_t1g": 3.4937,
+      "std_t1g": 4.3876,
+      "mean_s2": 0.4253,
+      "mean_residual": 4.4813,
+      "high_t1g_ratio": 0.4074,
+      "zero_gap_ratio": 0.1667
+    },
+    "Allen Ginsberg": {
+      "n": 148,
+      "mean_t1g": 4.8334,
+      "median_t1g": 3.1742,
+      "std_t1g": 4.8968,
+      "mean_s2": 0.6853,
+      "mean_residual": 4.1481,
+      "high_t1g_ratio": 0.4122,
+      "zero_gap_ratio": 0.2568
+    },
+    "Synthetic (OuLiPo N+7 of Dickinson)": {
+      "n": 58,
+      "mean_t1g": 4.5969,
+      "median_t1g": 3.2863,
+      "std_t1g": 4.3564,
+      "mean_s2": 0.1589,
+      "mean_residual": 4.4379,
+      "high_t1g_ratio": 0.3621,
+      "zero_gap_ratio": 0.2241
+    },
+    "Francis Thompson": {
+      "n": 149,
+      "mean_t1g": 4.4342,
+      "median_t1g": 3.5532,
+      "std_t1g": 4.4437,
+      "mean_s2": 0.6055,
+      "mean_residual": 3.8287,
+      "high_t1g_ratio": 0.3624,
+      "zero_gap_ratio": 0.255
+    },
+    "Matsuo Bash\u014d": {
+      "n": 62,
+      "mean_t1g": 4.4013,
+      "median_t1g": 3.5514,
+      "std_t1g": 3.9807,
+      "mean_s2": -0.1465,
+      "mean_residual": 4.5479,
+      "high_t1g_ratio": 0.3226,
+      "zero_gap_ratio": 0.1452
+    },
+    "Anonymous (trans. Francis B. Gummere)": {
+      "n": 138,
+      "mean_t1g": 4.3852,
+      "median_t1g": 3.4703,
+      "std_t1g": 4.3005,
+      "mean_s2": -0.2886,
+      "mean_residual": 4.6738,
+      "high_t1g_ratio": 0.3623,
+      "zero_gap_ratio": 0.2681
+    },
+    "Seamus Heaney": {
+      "n": 127,
+      "mean_t1g": 4.3503,
+      "median_t1g": 3.745,
+      "std_t1g": 3.9433,
+      "mean_s2": 0.1708,
+      "mean_residual": 4.1795,
+      "high_t1g_ratio": 0.4331,
+      "zero_gap_ratio": 0.1732
+    },
+    "Thomas Campion": {
+      "n": 125,
+      "mean_t1g": 4.3436,
+      "median_t1g": 3.6825,
+      "std_t1g": 3.9293,
+      "mean_s2": 0.144,
+      "mean_residual": 4.1996,
+      "high_t1g_ratio": 0.368,
+      "zero_gap_ratio": 0.208
+    },
+    "Gregory Corso": {
+      "n": 228,
+      "mean_t1g": 4.3322,
+      "median_t1g": 3.1789,
+      "std_t1g": 4.4199,
+      "mean_s2": 0.1271,
+      "mean_residual": 4.205,
+      "high_t1g_ratio": 0.3509,
+      "zero_gap_ratio": 0.2632
+    },
+    "Adelaide Crapsey": {
+      "n": 57,
+      "mean_t1g": 4.3113,
+      "median_t1g": 3.3487,
+      "std_t1g": 4.0264,
+      "mean_s2": -0.4535,
+      "mean_residual": 4.7648,
+      "high_t1g_ratio": 0.4211,
+      "zero_gap_ratio": 0.2632
+    },
+    "Harryette Mullen": {
+      "n": 201,
+      "mean_t1g": 4.2874,
+      "median_t1g": 2.6242,
+      "std_t1g": 4.564,
+      "mean_s2": -0.2454,
+      "mean_residual": 4.5328,
+      "high_t1g_ratio": 0.3532,
+      "zero_gap_ratio": 0.2886
+    },
+    "Homer (trans. Alexander Pope)": {
+      "n": 90,
+      "mean_t1g": 4.2828,
+      "median_t1g": 4.0793,
+      "std_t1g": 3.682,
+      "mean_s2": -0.1072,
+      "mean_residual": 4.39,
+      "high_t1g_ratio": 0.4222,
+      "zero_gap_ratio": 0.2556
+    },
+    "Robert Bly": {
+      "n": 61,
+      "mean_t1g": 4.2798,
+      "median_t1g": 3.2376,
+      "std_t1g": 4.0238,
+      "mean_s2": 0.0658,
+      "mean_residual": 4.214,
+      "high_t1g_ratio": 0.3934,
+      "zero_gap_ratio": 0.2459
+    }
+  },
+  "top_t1g_tokens": [
+    {
+      "token": "under",
+      "t1g": 19.88,
+      "s2": 19.99,
+      "residual": -0.11,
+      "era": "beat",
+      "author": "Lawrence Ferlinghetti",
+      "title": "In Goya's greatest scenes"
+    },
+    {
+      "token": "torches",
+      "t1g": 19.872,
+      "s2": 19.692,
+      "residual": 0.18,
+      "era": "ekphrastic",
+      "author": "Robert Browning",
+      "title": "Fra Lippo Lippi (opening)"
+    },
+    {
+      "token": "list",
+      "t1g": 19.816,
+      "s2": 19.477,
+      "residual": 0.339,
+      "era": "early_modern",
+      "author": "Thomas Wyatt",
+      "title": "Whoso List to Hunt"
+    },
+    {
+      "token": "ashes",
+      "t1g": 19.632,
+      "s2": 18.512,
+      "residual": 1.12,
+      "era": "ballad",
+      "author": "Traditional (Scottish ballad)",
+      "title": "The Wife of Usher's Well"
+    },
+    {
+      "token": "onward",
+      "t1g": 19.57,
+      "s2": 18.043,
+      "residual": 1.527,
+      "era": "victorian",
+      "author": "Alfred, Lord Tennyson",
+      "title": "The Charge of the Light Brigade"
+    },
+    {
+      "token": "Bon",
+      "t1g": 19.529,
+      "s2": 17.445,
+      "residual": 2.085,
+      "era": "ballad",
+      "author": "Traditional (Scottish ballad)",
+      "title": "Bonnie George Campbell"
+    },
+    {
+      "token": "at",
+      "t1g": 19.485,
+      "s2": 17.661,
+      "residual": 1.824,
+      "era": "19th_century",
+      "author": "Edgar Allan Poe",
+      "title": "The Raven (opening stanzas)"
+    },
+    {
+      "token": "stall",
+      "t1g": 19.443,
+      "s2": 17.852,
+      "residual": 1.591,
+      "era": "modernist",
+      "author": "E.E. Cummings",
+      "title": "Buffalo Bill 's"
+    },
+    {
+      "token": "red",
+      "t1g": 19.416,
+      "s2": 17.954,
+      "residual": 1.463,
+      "era": "ballad",
+      "author": "Traditional (Scottish ballad)",
+      "title": "Sir Patrick Spens"
+    },
+    {
+      "token": "fleeing",
+      "t1g": 19.315,
+      "s2": 16.721,
+      "residual": 2.593,
+      "era": "romantic",
+      "author": "Percy Bysshe Shelley",
+      "title": "Ode to the West Wind (stanza 1)"
+    },
+    {
+      "token": "Jamaica",
+      "t1g": 19.306,
+      "s2": 16.275,
+      "residual": 3.031,
+      "era": "postcolonial",
+      "author": "Kamau Brathwaite",
+      "title": "Calypso"
+    },
+    {
+      "token": "L",
+      "t1g": 19.184,
+      "s2": 17.734,
+      "residual": 1.45,
+      "era": "new_york_school",
+      "author": "John Ashbery",
+      "title": "Paradoxes and Oxymorons"
+    },
+    {
+      "token": "adjusting",
+      "t1g": 19.058,
+      "s2": 15.106,
+      "residual": 3.952,
+      "era": "modernist",
+      "author": "Marianne Moore",
+      "title": "The Fish"
+    },
+    {
+      "token": "Del",
+      "t1g": 19.013,
+      "s2": 17.448,
+      "residual": 1.565,
+      "era": "19th_century",
+      "author": "Emily Dickinson",
+      "title": "Tell all the truth but tell it slant"
+    },
+    {
+      "token": "is",
+      "t1g": 18.953,
+      "s2": 17.466,
+      "residual": 1.487,
+      "era": "ballad",
+      "author": "Traditional (Scottish ballad)",
+      "title": "Edward, Edward"
+    },
+    {
+      "token": "bou",
+      "t1g": 18.942,
+      "s2": 15.442,
+      "residual": 3.5,
+      "era": "19th_century",
+      "author": "Walt Whitman",
+      "title": "O Captain! My Captain!"
+    },
+    {
+      "token": "bou",
+      "t1g": 18.942,
+      "s2": 15.442,
+      "residual": 3.5,
+      "era": "elegy",
+      "author": "Walt Whitman",
+      "title": "O Captain! My Captain!"
+    },
+    {
+      "token": "and",
+      "t1g": 18.927,
+      "s2": 18.604,
+      "residual": 0.323,
+      "era": "modernist",
+      "author": "E.E. Cummings",
+      "title": "Buffalo Bill 's"
+    },
+    {
+      "token": "to",
+      "t1g": 18.927,
+      "s2": 19.204,
+      "residual": -0.277,
+      "era": "beat",
+      "author": "Lawrence Ferlinghetti",
+      "title": "Constantly Risking Absurdity"
+    },
+    {
+      "token": "anguish",
+      "t1g": 18.901,
+      "s2": 15.654,
+      "residual": 3.247,
+      "era": "ekphrastic",
+      "author": "Dante Gabriel Rossetti",
+      "title": "For a Venetian Pastoral by Giorgione"
+    }
+  ],
+  "q2_examples_count": 0
+}
