@@ -1,0 +1,594 @@
+{
+  "overall": {
+    "metapoetic": {
+      "n": 531,
+      "mean": -0.1911,
+      "std": 3.54,
+      "pos_ratio": 0.4087
+    },
+    "other_content": {
+      "n": 55260,
+      "mean": -0.4298,
+      "std": 3.6314,
+      "pos_ratio": 0.3353
+    },
+    "delta_mean": 0.2387
+  },
+  "era_breakdown": {
+    "18th_century": {
+      "n_meta": 11,
+      "meta_mean": -0.5803,
+      "other_mean": -0.2831,
+      "delta": -0.2972,
+      "meta_pos_ratio": 0.3636
+    },
+    "19th_century": {
+      "n_meta": 27,
+      "meta_mean": -1.2275,
+      "other_mean": -0.4629,
+      "delta": -0.7646,
+      "meta_pos_ratio": 0.2593
+    },
+    "ballad": {
+      "n_meta": 12,
+      "meta_mean": 0.2991,
+      "other_mean": -0.4306,
+      "delta": 0.7297,
+      "meta_pos_ratio": 0.4167
+    },
+    "beat": {
+      "n_meta": 6,
+      "meta_mean": 4.3,
+      "other_mean": 0.028,
+      "delta": 4.2721,
+      "meta_pos_ratio": 0.8333
+    },
+    "biblical": {
+      "n_meta": 8,
+      "meta_mean": -2.0606,
+      "other_mean": -0.4435,
+      "delta": -1.6171,
+      "meta_pos_ratio": 0.25
+    },
+    "clerihew": {
+      "n_meta": 6,
+      "meta_mean": 2.1976,
+      "other_mean": 0.4626,
+      "delta": 1.735,
+      "meta_pos_ratio": 0.8333
+    },
+    "cliche_control": {
+      "n_meta": 7,
+      "meta_mean": -1.4951,
+      "other_mean": -0.9264,
+      "delta": -0.5687,
+      "meta_pos_ratio": 0.1429
+    },
+    "concrete": {
+      "n_meta": 9,
+      "meta_mean": -3.3868,
+      "other_mean": -0.5006,
+      "delta": -2.8862,
+      "meta_pos_ratio": 0.1111
+    },
+    "contemporary": {
+      "n_meta": 30,
+      "meta_mean": 0.2107,
+      "other_mean": -0.4419,
+      "delta": 0.6527,
+      "meta_pos_ratio": 0.4333
+    },
+    "dramatic_monologue": {
+      "n_meta": 33,
+      "meta_mean": -0.7428,
+      "other_mean": -0.4559,
+      "delta": -0.2868,
+      "meta_pos_ratio": 0.3333
+    },
+    "early_modern": {
+      "n_meta": 17,
+      "meta_mean": 0.2281,
+      "other_mean": -0.3766,
+      "delta": 0.6047,
+      "meta_pos_ratio": 0.5294
+    },
+    "ekphrastic": {
+      "n_meta": 18,
+      "meta_mean": 0.1348,
+      "other_mean": -0.5146,
+      "delta": 0.6494,
+      "meta_pos_ratio": 0.6111
+    },
+    "elegy": {
+      "n_meta": 7,
+      "meta_mean": -0.1152,
+      "other_mean": -0.4568,
+      "delta": 0.3416,
+      "meta_pos_ratio": 0.4286
+    },
+    "fixed_form": {
+      "n_meta": 9,
+      "meta_mean": -1.1429,
+      "other_mean": -0.5538,
+      "delta": -0.5891,
+      "meta_pos_ratio": 0.2222
+    },
+    "haiku": {
+      "n_meta": 6,
+      "meta_mean": 4.1461,
+      "other_mean": -0.1993,
+      "delta": 4.3454,
+      "meta_pos_ratio": 0.8333
+    },
+    "language": {
+      "n_meta": 18,
+      "meta_mean": -0.1104,
+      "other_mean": -0.6825,
+      "delta": 0.5721,
+      "meta_pos_ratio": 0.3889
+    },
+    "latin_american": {
+      "n_meta": 5,
+      "meta_mean": -0.3381,
+      "other_mean": -0.4824,
+      "delta": 0.1444,
+      "meta_pos_ratio": 0.4
+    },
+    "limerick": {
+      "n_meta": 10,
+      "meta_mean": -1.3903,
+      "other_mean": -0.6437,
+      "delta": -0.7466,
+      "meta_pos_ratio": 0.2
+    },
+    "metaphysical": {
+      "n_meta": 8,
+      "meta_mean": 1.1744,
+      "other_mean": -0.6087,
+      "delta": 1.7831,
+      "meta_pos_ratio": 0.5
+    },
+    "modernist": {
+      "n_meta": 13,
+      "meta_mean": 1.6324,
+      "other_mean": -0.4048,
+      "delta": 2.0371,
+      "meta_pos_ratio": 0.6154
+    },
+    "new_york_school": {
+      "n_meta": 27,
+      "meta_mean": 0.387,
+      "other_mean": -0.5946,
+      "delta": 0.9816,
+      "meta_pos_ratio": 0.5556
+    },
+    "nonsense": {
+      "n_meta": 7,
+      "meta_mean": -0.5877,
+      "other_mean": -0.6949,
+      "delta": 0.1072,
+      "meta_pos_ratio": 0.4286
+    },
+    "old_english": {
+      "n_meta": 5,
+      "meta_mean": 0.3919,
+      "other_mean": -0.315,
+      "delta": 0.7069,
+      "meta_pos_ratio": 0.4
+    },
+    "oulipo": {
+      "n_meta": 12,
+      "meta_mean": -1.101,
+      "other_mean": -0.1737,
+      "delta": -0.9273,
+      "meta_pos_ratio": 0.25
+    },
+    "parody": {
+      "n_meta": 12,
+      "meta_mean": 0.0109,
+      "other_mean": -0.2936,
+      "delta": 0.3044,
+      "meta_pos_ratio": 0.5
+    },
+    "parody_original": {
+      "n_meta": 8,
+      "meta_mean": 0.7224,
+      "other_mean": -0.4759,
+      "delta": 1.1983,
+      "meta_pos_ratio": 0.375
+    },
+    "persian": {
+      "n_meta": 6,
+      "meta_mean": 0.547,
+      "other_mean": -0.2474,
+      "delta": 0.7944,
+      "meta_pos_ratio": 0.6667
+    },
+    "postcolonial": {
+      "n_meta": 6,
+      "meta_mean": 4.7618,
+      "other_mean": -0.5163,
+      "delta": 5.2781,
+      "meta_pos_ratio": 0.6667
+    },
+    "procedural": {
+      "n_meta": 9,
+      "meta_mean": -0.8087,
+      "other_mean": -0.4501,
+      "delta": -0.3586,
+      "meta_pos_ratio": 0.3333
+    },
+    "prose_poetry": {
+      "n_meta": 29,
+      "meta_mean": -1.338,
+      "other_mean": -0.4532,
+      "delta": -0.8848,
+      "meta_pos_ratio": 0.2759
+    },
+    "romantic": {
+      "n_meta": 31,
+      "meta_mean": -0.1128,
+      "other_mean": -0.4408,
+      "delta": 0.328,
+      "meta_pos_ratio": 0.4516
+    },
+    "song_lyrics": {
+      "n_meta": 6,
+      "meta_mean": -2.3421,
+      "other_mean": -0.6594,
+      "delta": -1.6828,
+      "meta_pos_ratio": 0.0
+    },
+    "victorian": {
+      "n_meta": 44,
+      "meta_mean": -0.1492,
+      "other_mean": -0.2905,
+      "delta": 0.1413,
+      "meta_pos_ratio": 0.4545
+    },
+    "villanelle": {
+      "n_meta": 23,
+      "meta_mean": -0.7535,
+      "other_mean": -0.4743,
+      "delta": -0.2792,
+      "meta_pos_ratio": 0.2609
+    }
+  },
+  "word_stats": {
+    "said": {
+      "n": 53,
+      "mean_s2": -1.0896,
+      "pos_ratio": 0.3208,
+      "sample_titles": [
+        "The Oxen",
+        "S+7: Genesis (N+7 variant)",
+        "My Last Duchess (complete)"
+      ]
+    },
+    "tell": {
+      "n": 25,
+      "mean_s2": -0.1848,
+      "pos_ratio": 0.44,
+      "sample_titles": [
+        "Saint Francis and the Sow",
+        "Remember",
+        "Ozymandias"
+      ]
+    },
+    "read": {
+      "n": 7,
+      "mean_s2": 3.7779,
+      "pos_ratio": 1.0,
+      "sample_titles": [
+        "Personal Poem",
+        "My Last Duchess (complete)",
+        "Ozymandias"
+      ]
+    },
+    "words": {
+      "n": 19,
+      "mean_s2": -1.015,
+      "pos_ratio": 0.2632,
+      "sample_titles": [
+        "Psalm 19:1-6 (KJV)",
+        "Self-Portrait in a Convex Mirror (opening)",
+        "The Maximum Clich\u00e9 (control)"
+      ]
+    },
+    "name": {
+      "n": 25,
+      "mean_s2": -1.7454,
+      "pos_ratio": 0.32,
+      "sample_titles": [
+        "My Last Duchess (complete)",
+        "Rubaiyat of Omar Khayyam (stanzas 11\u201314)",
+        "Ozymandias"
+      ]
+    },
+    "silence": {
+      "n": 15,
+      "mean_s2": 2.109,
+      "pos_ratio": 0.6667,
+      "sample_titles": [
+        "Ulysses",
+        "The Raven (opening stanzas)",
+        "Calypso"
+      ]
+    },
+    "write": {
+      "n": 18,
+      "mean_s2": -0.9229,
+      "pos_ratio": 0.3889,
+      "sample_titles": [
+        "Tonight I Can Write (excerpt)",
+        "Dysraphism (excerpt)",
+        "Personal Poem"
+      ]
+    },
+    "poem": {
+      "n": 8,
+      "mean_s2": -0.2768,
+      "pos_ratio": 0.5,
+      "sample_titles": [
+        "Dysraphism (excerpt)",
+        "Paradoxes and Oxymorons",
+        "Personal Poem"
+      ]
+    },
+    "language": {
+      "n": 8,
+      "mean_s2": 1.7814,
+      "pos_ratio": 0.625,
+      "sample_titles": [
+        "Psalm 19:1-6 (KJV)",
+        "How to Disappear (Synthetic procedural test case IV)",
+        "Paradoxes and Oxymorons"
+      ]
+    },
+    "say": {
+      "n": 56,
+      "mean_s2": -0.4587,
+      "pos_ratio": 0.3393,
+      "sample_titles": [
+        "Casabianca",
+        "My Last Duchess (complete)",
+        "The Lady of Shalott (opening)"
+      ]
+    },
+    "word": {
+      "n": 28,
+      "mean_s2": -1.7287,
+      "pos_ratio": 0.1429,
+      "sample_titles": [
+        "Casabianca",
+        "The Raven (opening stanzas)",
+        "Home on the Range"
+      ]
+    },
+    "voice": {
+      "n": 20,
+      "mean_s2": -1.4422,
+      "pos_ratio": 0.2,
+      "sample_titles": [
+        "Psalm 19:1-6 (KJV)",
+        "London",
+        "The Vanity of Human Wishes (opening)"
+      ]
+    },
+    "lines": {
+      "n": 6,
+      "mean_s2": 0.784,
+      "pos_ratio": 0.5,
+      "sample_titles": [
+        "Sonnet 18 (Shall I compare thee)",
+        "Black Stone Lying on a White Stone",
+        "The Collar (opening)"
+      ]
+    },
+    "sound": {
+      "n": 15,
+      "mean_s2": -0.3559,
+      "pos_ratio": 0.3333,
+      "sample_titles": [
+        "Heritage (opening)",
+        "To Autumn",
+        "The Darkling Thrush"
+      ]
+    },
+    "told": {
+      "n": 19,
+      "mean_s2": 1.288,
+      "pos_ratio": 0.5789,
+      "sample_titles": [
+        "On First Looking into Chapman's Homer",
+        "Saint Francis and the Sow",
+        "The Death of the Hired Man (opening)"
+      ]
+    },
+    "call": {
+      "n": 12,
+      "mean_s2": 0.7158,
+      "pos_ratio": 0.6667,
+      "sample_titles": [
+        "My Last Duchess (complete)",
+        "Jabberwocky",
+        "The Wild Iris (prose extract)"
+      ]
+    },
+    "silent": {
+      "n": 17,
+      "mean_s2": 2.0564,
+      "pos_ratio": 0.9412,
+      "sample_titles": [
+        "For a Venetian Pastoral by Giorgione",
+        "The Lady of Shalott (Part I)",
+        "The Lady of Shalott (Part I and II)"
+      ]
+    },
+    "speak": {
+      "n": 10,
+      "mean_s2": -1.976,
+      "pos_ratio": 0.1,
+      "sample_titles": [
+        "On First Looking into Chapman's Homer",
+        "The Maximum Clich\u00e9 (control)",
+        "The Wild Iris (prose extract)"
+      ]
+    },
+    "tongue": {
+      "n": 8,
+      "mean_s2": 0.218,
+      "pos_ratio": 0.5,
+      "sample_titles": [
+        "Break, Break, Break",
+        "Song of Myself (section 15, catalogue)",
+        "Kleine Aster (Little Aster, trans. Ward)"
+      ]
+    },
+    "cry": {
+      "n": 7,
+      "mean_s2": -2.0425,
+      "pos_ratio": 0.1429,
+      "sample_titles": [
+        "London",
+        "Barbara Allen",
+        "What lips my lips have kissed"
+      ]
+    },
+    "voices": {
+      "n": 7,
+      "mean_s2": 1.1629,
+      "pos_ratio": 0.5714,
+      "sample_titles": [
+        "Ulysses",
+        "The Harbor Dawn (from The Bridge)",
+        "The Love Song of J. Alfred Prufrock (middle)"
+      ]
+    },
+    "writing": {
+      "n": 6,
+      "mean_s2": -0.1354,
+      "pos_ratio": 0.3333,
+      "sample_titles": [
+        "The Sheds of Our Webs",
+        "Possibilities",
+        "Legal Boilerplate (Found Poem)"
+      ]
+    },
+    "song": {
+      "n": 19,
+      "mean_s2": -0.5213,
+      "pos_ratio": 0.3684,
+      "sample_titles": [
+        "Heritage (opening)",
+        "The Lady of Shalott (Part I)",
+        "The Darkling Thrush"
+      ]
+    },
+    "letter": {
+      "n": 5,
+      "mean_s2": 1.8524,
+      "pos_ratio": 0.6,
+      "sample_titles": [
+        "Dysraphism (excerpt)",
+        "Song of Myself (section 15, catalogue)",
+        "A Few Days"
+      ]
+    },
+    "line": {
+      "n": 9,
+      "mean_s2": 0.773,
+      "pos_ratio": 0.4444,
+      "sample_titles": [
+        "Psalm 19:1-6 (KJV)",
+        "Recessional (stanzas 1-3)",
+        "The Wife of Usher's Well"
+      ]
+    },
+    "says": {
+      "n": 9,
+      "mean_s2": -1.1267,
+      "pos_ratio": 0.2222,
+      "sample_titles": [
+        "Mann und Frau gehn durch die Krebsbaracke (trans. Ward)",
+        "Rubaiyat of Omar Khayyam (stanzas 11\u201314)",
+        "The Fall"
+      ]
+    },
+    "book": {
+      "n": 9,
+      "mean_s2": -2.4609,
+      "pos_ratio": 0.1111,
+      "sample_titles": [
+        "Ars Poetica (opening, trans. Howes 1849)",
+        "The Maximum Clich\u00e9 (control)",
+        "Rubaiyat of Omar Khayyam (stanzas 11\u201314)"
+      ]
+    },
+    "called": {
+      "n": 14,
+      "mean_s2": 0.9268,
+      "pos_ratio": 0.5,
+      "sample_titles": [
+        "S+7: Genesis (N+7 variant)",
+        "Casabianca",
+        "MacFlecknoe (opening)"
+      ]
+    },
+    "cried": {
+      "n": 9,
+      "mean_s2": 0.4288,
+      "pos_ratio": 0.3333,
+      "sample_titles": [
+        "The Hunting of the Snark (Fit the First, opening)",
+        "Casabianca",
+        "Invictus"
+      ]
+    },
+    "wrote": {
+      "n": 9,
+      "mean_s2": 0.8916,
+      "pos_ratio": 0.5556,
+      "sample_titles": [
+        "Charlotte Mew",
+        "Calypso",
+        "Amoretti LXXV: One Day I Wrote Her Name"
+      ]
+    }
+  },
+  "category_stats": {
+    "speech_act": {
+      "n": 232,
+      "mean": -0.3042,
+      "std": 3.1722,
+      "pos_ratio": 0.3879
+    },
+    "writing": {
+      "n": 64,
+      "mean": 0.4366,
+      "std": 3.2863,
+      "pos_ratio": 0.5312
+    },
+    "language": {
+      "n": 99,
+      "mean": -1.0783,
+      "std": 3.7674,
+      "pos_ratio": 0.2929
+    },
+    "voice_silence": {
+      "n": 80,
+      "mean": 0.6027,
+      "std": 3.921,
+      "pos_ratio": 0.5375
+    },
+    "poem_object": {
+      "n": 56,
+      "mean": -0.0056,
+      "std": 3.9838,
+      "pos_ratio": 0.375
+    }
+  },
+  "corpus_size": 419,
+  "total_meta_tokens": 531,
+  "total_other_tokens": 55260
+}
