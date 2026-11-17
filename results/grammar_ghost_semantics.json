@@ -1,0 +1,2774 @@
+{
+  "summary": {
+    "total_tokens": 56827,
+    "total_high_s2": 4984,
+    "grammar_ghost_count": 1873,
+    "pct_of_high_s2": 37.6
+  },
+  "grammar_category_breakdown": {
+    "article": 620,
+    "preposition": 326,
+    "pronoun": 321,
+    "auxiliary/copula": 277,
+    "conjunction": 227,
+    "other_function": 99,
+    "unknown": 3
+  },
+  "top_suppressed_grammar_words": [
+    [
+      "the",
+      494
+    ],
+    [
+      "of",
+      137
+    ],
+    [
+      "and",
+      133
+    ],
+    [
+      "I",
+      100
+    ],
+    [
+      "a",
+      93
+    ],
+    [
+      "is",
+      81
+    ],
+    [
+      "to",
+      78
+    ],
+    [
+      "And",
+      67
+    ],
+    [
+      "was",
+      45
+    ],
+    [
+      "in",
+      37
+    ],
+    [
+      "be",
+      33
+    ],
+    [
+      "The",
+      30
+    ],
+    [
+      "not",
+      29
+    ],
+    [
+      "are",
+      28
+    ],
+    [
+      "my",
+      28
+    ],
+    [
+      "you",
+      25
+    ],
+    [
+      "he",
+      22
+    ],
+    [
+      "it",
+      21
+    ],
+    [
+      "have",
+      20
+    ],
+    [
+      "his",
+      20
+    ],
+    [
+      "been",
+      18
+    ],
+    [
+      "that",
+      15
+    ],
+    [
+      "her",
+      15
+    ],
+    [
+      "with",
+      14
+    ],
+    [
+      "me",
+      14
+    ],
+    [
+      "by",
+      13
+    ],
+    [
+      "from",
+      12
+    ],
+    [
+      "on",
+      11
+    ],
+    [
+      "their",
+      11
+    ],
+    [
+      "she",
+      11
+    ]
+  ],
+  "grammar_category_to_content_type": {
+    "preposition": {
+      "other_content": 224,
+      "verb/participle": 71,
+      "adverb": 11,
+      "concrete_noun": 11,
+      "adjective": 7,
+      "abstract_noun": 2
+    },
+    "article": {
+      "other_content": 439,
+      "verb/participle": 118,
+      "concrete_noun": 20,
+      "adjective": 17,
+      "adverb": 16,
+      "abstract_noun": 10
+    },
+    "auxiliary/copula": {
+      "other_content": 194,
+      "verb/participle": 65,
+      "adverb": 7,
+      "concrete_noun": 5,
+      "abstract_noun": 3,
+      "adjective": 3
+    },
+    "other_function": {
+      "other_content": 68,
+      "verb/participle": 22,
+      "adjective": 3,
+      "abstract_noun": 3,
+      "adverb": 3
+    },
+    "conjunction": {
+      "other_content": 165,
+      "verb/participle": 46,
+      "adverb": 7,
+      "concrete_noun": 5,
+      "adjective": 3,
+      "abstract_noun": 1
+    },
+    "pronoun": {
+      "other_content": 239,
+      "verb/participle": 53,
+      "concrete_noun": 12,
+      "adverb": 7,
+      "abstract_noun": 6,
+      "adjective": 4
+    },
+    "unknown": {
+      "other_content": 2,
+      "verb/participle": 1
+    }
+  },
+  "top_replacement_content_by_grammar": {
+    "the": [
+      [
+        "among",
+        4
+      ],
+      [
+        "follow",
+        3
+      ],
+      [
+        "eyes",
+        3
+      ],
+      [
+        "p",
+        3
+      ],
+      [
+        "slow",
+        3
+      ],
+      [
+        "early",
+        3
+      ],
+      [
+        "love",
+        3
+      ],
+      [
+        "val",
+        2
+      ],
+      [
+        "any",
+        2
+      ],
+      [
+        "autumn",
+        2
+      ]
+    ],
+    "of": [
+      [
+        "dusk",
+        3
+      ],
+      [
+        "imb",
+        3
+      ],
+      [
+        "lies",
+        2
+      ],
+      [
+        "Chapman",
+        2
+      ],
+      [
+        "warm",
+        2
+      ],
+      [
+        "thereof",
+        2
+      ],
+      [
+        "beneath",
+        2
+      ],
+      [
+        "underneath",
+        2
+      ],
+      [
+        "spur",
+        2
+      ],
+      [
+        "number",
+        1
+      ]
+    ],
+    "a": [
+      [
+        "Death",
+        2
+      ],
+      [
+        "stout",
+        2
+      ],
+      [
+        "images",
+        1
+      ],
+      [
+        "silence",
+        1
+      ],
+      [
+        "richer",
+        1
+      ],
+      [
+        "hero",
+        1
+      ],
+      [
+        "starting",
+        1
+      ],
+      [
+        "dreamed",
+        1
+      ],
+      [
+        "tailor",
+        1
+      ],
+      [
+        "ho",
+        1
+      ]
+    ],
+    "was": [
+      [
+        "kindly",
+        3
+      ],
+      [
+        "carried",
+        2
+      ],
+      [
+        "filed",
+        2
+      ],
+      [
+        "swung",
+        2
+      ],
+      [
+        "swim",
+        2
+      ],
+      [
+        "advert",
+        1
+      ],
+      [
+        "tire",
+        1
+      ],
+      [
+        "lull",
+        1
+      ],
+      [
+        "sitting",
+        1
+      ],
+      [
+        "launch",
+        1
+      ]
+    ],
+    "as": [
+      [
+        "Our",
+        2
+      ],
+      [
+        "belongs",
+        1
+      ],
+      [
+        "art",
+        1
+      ],
+      [
+        "trash",
+        1
+      ],
+      [
+        "genius",
+        1
+      ],
+      [
+        "ere",
+        1
+      ],
+      [
+        "twin",
+        1
+      ],
+      [
+        "ly",
+        1
+      ],
+      [
+        "fly",
+        1
+      ]
+    ],
+    "do": [
+      [
+        "assume",
+        1
+      ],
+      [
+        "sa",
+        1
+      ],
+      [
+        "shut",
+        1
+      ],
+      [
+        "public",
+        1
+      ],
+      [
+        "content",
+        1
+      ]
+    ],
+    "is": [
+      [
+        "grim",
+        3
+      ],
+      [
+        "wors",
+        2
+      ],
+      [
+        "ed",
+        2
+      ],
+      [
+        "lies",
+        1
+      ],
+      [
+        "kept",
+        1
+      ],
+      [
+        "isco",
+        1
+      ],
+      [
+        "smart",
+        1
+      ],
+      [
+        "ch",
+        1
+      ],
+      [
+        "needed",
+        1
+      ],
+      [
+        "catches",
+        1
+      ]
+    ],
+    "and": [
+      [
+        "pet",
+        2
+      ],
+      [
+        "kings",
+        2
+      ],
+      [
+        "duly",
+        2
+      ],
+      [
+        "seven",
+        2
+      ],
+      [
+        "original",
+        2
+      ],
+      [
+        "stamped",
+        1
+      ],
+      [
+        "restaurants",
+        1
+      ],
+      [
+        "starving",
+        1
+      ],
+      [
+        "dreaming",
+        1
+      ],
+      [
+        "yes",
+        1
+      ]
+    ],
+    "but": [
+      [
+        "breeding",
+        1
+      ],
+      [
+        "said",
+        1
+      ],
+      [
+        "well",
+        1
+      ],
+      [
+        "called",
+        1
+      ],
+      [
+        "carrying",
+        1
+      ],
+      [
+        "Ir",
+        1
+      ],
+      [
+        "alas",
+        1
+      ],
+      [
+        "always",
+        1
+      ]
+    ],
+    "I": [
+      [
+        "pe",
+        2
+      ],
+      [
+        "pictured",
+        2
+      ],
+      [
+        "sometime",
+        2
+      ],
+      [
+        "garn",
+        2
+      ],
+      [
+        "round",
+        1
+      ],
+      [
+        "Daddy",
+        1
+      ],
+      [
+        "envy",
+        1
+      ],
+      [
+        "Mike",
+        1
+      ],
+      [
+        "Sit",
+        1
+      ],
+      [
+        "dawn",
+        1
+      ]
+    ],
+    "to": [
+      [
+        "green",
+        2
+      ],
+      [
+        "bos",
+        2
+      ],
+      [
+        "later",
+        2
+      ],
+      [
+        "hysterical",
+        1
+      ],
+      [
+        "Ach",
+        1
+      ],
+      [
+        "filled",
+        1
+      ],
+      [
+        "S",
+        1
+      ],
+      [
+        "get",
+        1
+      ],
+      [
+        "beyond",
+        1
+      ],
+      [
+        "willingly",
+        1
+      ]
+    ],
+    "have": [
+      [
+        "mete",
+        2
+      ],
+      [
+        "manage",
+        1
+      ],
+      [
+        "lose",
+        1
+      ],
+      [
+        "beat",
+        1
+      ],
+      [
+        "terr",
+        1
+      ],
+      [
+        "weave",
+        1
+      ],
+      [
+        "defy",
+        1
+      ],
+      [
+        "dece",
+        1
+      ],
+      [
+        "balanced",
+        1
+      ],
+      [
+        "sl",
+        1
+      ]
+    ],
+    "in": [
+      [
+        "bare",
+        2
+      ],
+      [
+        "cheer",
+        2
+      ],
+      [
+        "friend",
+        2
+      ],
+      [
+        "shopping",
+        1
+      ],
+      [
+        "Babylon",
+        1
+      ],
+      [
+        "goldenen",
+        1
+      ],
+      [
+        "r",
+        1
+      ],
+      [
+        "wi",
+        1
+      ],
+      [
+        "af",
+        1
+      ],
+      [
+        "ages",
+        1
+      ]
+    ],
+    "they": [
+      [
+        "speech",
+        1
+      ],
+      [
+        "few",
+        1
+      ],
+      [
+        "time",
+        1
+      ],
+      [
+        "sects",
+        1
+      ],
+      [
+        "Brother",
+        1
+      ],
+      [
+        "first",
+        1
+      ],
+      [
+        "silence",
+        1
+      ],
+      [
+        "open",
+        1
+      ]
+    ],
+    "it": [
+      [
+        "day",
+        2
+      ],
+      [
+        "merely",
+        1
+      ],
+      [
+        "cannot",
+        1
+      ],
+      [
+        "hot",
+        1
+      ],
+      [
+        "four",
+        1
+      ],
+      [
+        "God",
+        1
+      ],
+      [
+        "ch",
+        1
+      ],
+      [
+        "foot",
+        1
+      ],
+      [
+        "useful",
+        1
+      ],
+      [
+        "none",
+        1
+      ]
+    ],
+    "no": [
+      [
+        "thunder",
+        1
+      ],
+      [
+        "too",
+        1
+      ],
+      [
+        "mar",
+        1
+      ],
+      [
+        "written",
+        1
+      ],
+      [
+        "baked",
+        1
+      ],
+      [
+        "prof",
+        1
+      ],
+      [
+        "expressed",
+        1
+      ],
+      [
+        "coral",
+        1
+      ],
+      [
+        "true",
+        1
+      ]
+    ],
+    "And": [
+      [
+        "Sil",
+        2
+      ],
+      [
+        "Rest",
+        2
+      ],
+      [
+        "Fresh",
+        2
+      ],
+      [
+        "List",
+        2
+      ],
+      [
+        "sur",
+        1
+      ],
+      [
+        "Bring",
+        1
+      ],
+      [
+        "Urban",
+        1
+      ],
+      [
+        "Br",
+        1
+      ],
+      [
+        "Adjust",
+        1
+      ],
+      [
+        "Pres",
+        1
+      ]
+    ],
+    "its": [
+      [
+        "clearly",
+        2
+      ],
+      [
+        "f",
+        1
+      ],
+      [
+        "silently",
+        1
+      ],
+      [
+        "possession",
+        1
+      ],
+      [
+        "mom",
+        1
+      ]
+    ],
+    "from": [
+      [
+        "talking",
+        1
+      ],
+      [
+        "S",
+        1
+      ],
+      [
+        "filament",
+        1
+      ],
+      [
+        "one",
+        1
+      ],
+      [
+        "rolling",
+        1
+      ],
+      [
+        "garg",
+        1
+      ],
+      [
+        "Ver",
+        1
+      ],
+      [
+        "sacr",
+        1
+      ],
+      [
+        "rad",
+        1
+      ],
+      [
+        "drops",
+        1
+      ]
+    ],
+    "be": [
+      [
+        "f",
+        1
+      ],
+      [
+        "demand",
+        1
+      ],
+      [
+        "promise",
+        1
+      ],
+      [
+        "jelly",
+        1
+      ],
+      [
+        "slightly",
+        1
+      ],
+      [
+        "maintain",
+        1
+      ],
+      [
+        "expire",
+        1
+      ],
+      [
+        "exchange",
+        1
+      ],
+      [
+        "flame",
+        1
+      ],
+      [
+        "sigh",
+        1
+      ]
+    ],
+    "you": [
+      [
+        "Father",
+        2
+      ],
+      [
+        "funny",
+        1
+      ],
+      [
+        "such",
+        1
+      ],
+      [
+        "afterwards",
+        1
+      ],
+      [
+        "beyond",
+        1
+      ],
+      [
+        "Waterloo",
+        1
+      ],
+      [
+        "what",
+        1
+      ],
+      [
+        "neb",
+        1
+      ],
+      [
+        "returns",
+        1
+      ],
+      [
+        "find",
+        1
+      ]
+    ],
+    "are": [
+      [
+        "stray",
+        2
+      ],
+      [
+        "counter",
+        2
+      ],
+      [
+        "flung",
+        1
+      ],
+      [
+        "use",
+        1
+      ],
+      [
+        "immune",
+        1
+      ],
+      [
+        "plan",
+        1
+      ],
+      [
+        "diver",
+        1
+      ],
+      [
+        "flee",
+        1
+      ],
+      [
+        "range",
+        1
+      ],
+      [
+        "pile",
+        1
+      ]
+    ],
+    "which": [
+      [
+        "leaving",
+        1
+      ],
+      [
+        "well",
+        1
+      ],
+      [
+        "mur",
+        1
+      ],
+      [
+        "pole",
+        1
+      ],
+      [
+        "right",
+        1
+      ],
+      [
+        "wage",
+        1
+      ],
+      [
+        "inward",
+        1
+      ],
+      [
+        "slow",
+        1
+      ]
+    ],
+    "not": [
+      [
+        "nest",
+        2
+      ],
+      [
+        "cursed",
+        1
+      ],
+      [
+        "nob",
+        1
+      ],
+      [
+        "sto",
+        1
+      ],
+      [
+        "ba",
+        1
+      ],
+      [
+        "evening",
+        1
+      ],
+      [
+        "slave",
+        1
+      ],
+      [
+        "deserve",
+        1
+      ],
+      [
+        "nobody",
+        1
+      ],
+      [
+        "abroad",
+        1
+      ]
+    ],
+    "for": [
+      [
+        "leading",
+        1
+      ],
+      [
+        "extraordinary",
+        1
+      ],
+      [
+        "again",
+        1
+      ],
+      [
+        "sp",
+        1
+      ],
+      [
+        "hope",
+        1
+      ]
+    ],
+    "my": [
+      [
+        "greeting",
+        1
+      ],
+      [
+        "grown",
+        1
+      ],
+      [
+        "hiding",
+        1
+      ],
+      [
+        "house",
+        1
+      ],
+      [
+        "extraordinary",
+        1
+      ],
+      [
+        "wide",
+        1
+      ],
+      [
+        "grave",
+        1
+      ],
+      [
+        "day",
+        1
+      ],
+      [
+        "nearer",
+        1
+      ],
+      [
+        "fors",
+        1
+      ]
+    ],
+    "can": [
+      [
+        "let",
+        2
+      ],
+      [
+        "half",
+        1
+      ],
+      [
+        "predicted",
+        1
+      ],
+      [
+        "e",
+        1
+      ]
+    ],
+    "with": [
+      [
+        "among",
+        2
+      ],
+      [
+        "dream",
+        1
+      ],
+      [
+        "jelly",
+        1
+      ],
+      [
+        "though",
+        1
+      ],
+      [
+        "each",
+        1
+      ],
+      [
+        "br",
+        1
+      ],
+      [
+        "asserted",
+        1
+      ],
+      [
+        "asked",
+        1
+      ],
+      [
+        "G",
+        1
+      ],
+      [
+        "after",
+        1
+      ]
+    ],
+    "him": [
+      [
+        "apples",
+        2
+      ],
+      [
+        "rivers",
+        1
+      ],
+      [
+        "S",
+        1
+      ],
+      [
+        "anyone",
+        1
+      ]
+    ],
+    "he": [
+      [
+        "lese",
+        1
+      ],
+      [
+        "seize",
+        1
+      ],
+      [
+        "blinded",
+        1
+      ],
+      [
+        "thousands",
+        1
+      ],
+      [
+        "spin",
+        1
+      ],
+      [
+        "escapes",
+        1
+      ],
+      [
+        "rejo",
+        1
+      ],
+      [
+        "spreads",
+        1
+      ],
+      [
+        "Napoleon",
+        1
+      ],
+      [
+        "back",
+        1
+      ]
+    ],
+    "this": [
+      [
+        "travel",
+        2
+      ],
+      [
+        "duty",
+        2
+      ],
+      [
+        "h",
+        1
+      ],
+      [
+        "oted",
+        1
+      ]
+    ],
+    "been": [
+      [
+        "weather",
+        3
+      ],
+      [
+        "trave",
+        2
+      ],
+      [
+        "enjoy",
+        1
+      ],
+      [
+        "wr",
+        1
+      ],
+      [
+        "strength",
+        1
+      ],
+      [
+        "don",
+        1
+      ],
+      [
+        "world",
+        1
+      ],
+      [
+        "win",
+        1
+      ],
+      [
+        "nud",
+        1
+      ],
+      [
+        "sk",
+        1
+      ]
+    ],
+    "we": [
+      [
+        "gr",
+        1
+      ],
+      [
+        "deal",
+        1
+      ],
+      [
+        "lost",
+        1
+      ],
+      [
+        "moreover",
+        1
+      ],
+      [
+        "brighter",
+        1
+      ],
+      [
+        "temp",
+        1
+      ],
+      [
+        "po",
+        1
+      ],
+      [
+        "yr",
+        1
+      ],
+      [
+        "lift",
+        1
+      ],
+      [
+        "gather",
+        1
+      ]
+    ],
+    "The": [
+      [
+        "Fall",
+        3
+      ],
+      [
+        "Steel",
+        1
+      ],
+      [
+        "Aut",
+        1
+      ],
+      [
+        "Things",
+        1
+      ],
+      [
+        "Mon",
+        1
+      ],
+      [
+        "l",
+        1
+      ],
+      [
+        "Cat",
+        1
+      ],
+      [
+        "Hell",
+        1
+      ],
+      [
+        "Water",
+        1
+      ],
+      [
+        "Return",
+        1
+      ]
+    ],
+    "on": [
+      [
+        "bus",
+        2
+      ],
+      [
+        "river",
+        1
+      ],
+      [
+        "bones",
+        1
+      ],
+      [
+        "statues",
+        1
+      ],
+      [
+        "wells",
+        1
+      ],
+      [
+        "massive",
+        1
+      ],
+      [
+        "cross",
+        1
+      ],
+      [
+        "lightly",
+        1
+      ],
+      [
+        "making",
+        1
+      ],
+      [
+        "walls",
+        1
+      ]
+    ],
+    "by": [
+      [
+        "tray",
+        1
+      ],
+      [
+        "force",
+        1
+      ],
+      [
+        "ast",
+        1
+      ],
+      [
+        "cat",
+        1
+      ],
+      [
+        "restless",
+        1
+      ],
+      [
+        "Fr",
+        1
+      ],
+      [
+        "gravy",
+        1
+      ],
+      [
+        "mildly",
+        1
+      ],
+      [
+        "steadily",
+        1
+      ],
+      [
+        "spare",
+        1
+      ]
+    ],
+    "that": [
+      [
+        "slips",
+        1
+      ],
+      [
+        "equal",
+        1
+      ],
+      [
+        "edged",
+        1
+      ],
+      [
+        "involve",
+        1
+      ],
+      [
+        "changes",
+        1
+      ],
+      [
+        "fled",
+        1
+      ],
+      [
+        "Negro",
+        1
+      ],
+      [
+        "spreading",
+        1
+      ],
+      [
+        "abused",
+        1
+      ],
+      [
+        "each",
+        1
+      ]
+    ],
+    "me": [
+      [
+        "entrance",
+        1
+      ],
+      [
+        "nightmare",
+        1
+      ],
+      [
+        "diamonds",
+        1
+      ],
+      [
+        "N",
+        1
+      ],
+      [
+        "dead",
+        1
+      ],
+      [
+        "flowers",
+        1
+      ],
+      [
+        "thus",
+        1
+      ],
+      [
+        "men",
+        1
+      ],
+      [
+        "decisions",
+        1
+      ],
+      [
+        "neighbour",
+        1
+      ]
+    ],
+    "will": [
+      [
+        "pl",
+        1
+      ],
+      [
+        "saw",
+        1
+      ],
+      [
+        "gathers",
+        1
+      ],
+      [
+        "circuits",
+        1
+      ],
+      [
+        "return",
+        1
+      ],
+      [
+        "going",
+        1
+      ]
+    ],
+    "were": [
+      [
+        "pictured",
+        1
+      ],
+      [
+        "guessed",
+        1
+      ],
+      [
+        "stopped",
+        1
+      ],
+      [
+        "high",
+        1
+      ],
+      [
+        "hanged",
+        1
+      ],
+      [
+        "sell",
+        1
+      ],
+      [
+        "told",
+        1
+      ],
+      [
+        "jumped",
+        1
+      ],
+      [
+        "laughed",
+        1
+      ],
+      [
+        "asked",
+        1
+      ]
+    ],
+    "only": [
+      [
+        "hollow",
+        1
+      ],
+      [
+        "apple",
+        1
+      ],
+      [
+        "rose",
+        1
+      ],
+      [
+        "grip",
+        1
+      ],
+      [
+        "Century",
+        1
+      ]
+    ],
+    "their": [
+      [
+        "direct",
+        1
+      ],
+      [
+        "summer",
+        1
+      ],
+      [
+        "absurdity",
+        1
+      ],
+      [
+        "velvet",
+        1
+      ],
+      [
+        "tears",
+        1
+      ],
+      [
+        "patient",
+        1
+      ],
+      [
+        "too",
+        1
+      ],
+      [
+        "trem",
+        1
+      ],
+      [
+        "bri",
+        1
+      ],
+      [
+        "logs",
+        1
+      ]
+    ],
+    "her": [
+      [
+        "thoroughly",
+        1
+      ],
+      [
+        "fu",
+        1
+      ],
+      [
+        "all",
+        1
+      ],
+      [
+        "breathing",
+        1
+      ],
+      [
+        "dreams",
+        1
+      ],
+      [
+        "without",
+        1
+      ],
+      [
+        "language",
+        1
+      ],
+      [
+        "Imm",
+        1
+      ],
+      [
+        "table",
+        1
+      ],
+      [
+        "Shake",
+        1
+      ]
+    ],
+    "who": [
+      [
+        "thou",
+        2
+      ],
+      [
+        "mouse",
+        1
+      ],
+      [
+        "faint",
+        1
+      ],
+      [
+        "cried",
+        1
+      ],
+      [
+        "locks",
+        1
+      ],
+      [
+        "Laure",
+        1
+      ],
+      [
+        "engaged",
+        1
+      ]
+    ],
+    "she": [
+      [
+        "word",
+        1
+      ],
+      [
+        "snow",
+        1
+      ],
+      [
+        "music",
+        1
+      ],
+      [
+        "everybody",
+        1
+      ],
+      [
+        "Abe",
+        1
+      ],
+      [
+        "note",
+        1
+      ],
+      [
+        "sidel",
+        1
+      ],
+      [
+        "moving",
+        1
+      ],
+      [
+        "flexible",
+        1
+      ],
+      [
+        "Mu",
+        1
+      ]
+    ],
+    "his": [
+      [
+        "behind",
+        2
+      ],
+      [
+        "stretch",
+        2
+      ],
+      [
+        "post",
+        1
+      ],
+      [
+        "shares",
+        1
+      ],
+      [
+        "blow",
+        1
+      ],
+      [
+        "marked",
+        1
+      ],
+      [
+        "stagnant",
+        1
+      ],
+      [
+        "n",
+        1
+      ],
+      [
+        "prose",
+        1
+      ],
+      [
+        "vent",
+        1
+      ]
+    ],
+    "there": [
+      [
+        "heard",
+        1
+      ],
+      [
+        "broad",
+        1
+      ],
+      [
+        "pain",
+        1
+      ],
+      [
+        "berries",
+        1
+      ],
+      [
+        "two",
+        1
+      ]
+    ],
+    "so": [
+      [
+        "pressed",
+        1
+      ],
+      [
+        "unexpl",
+        1
+      ],
+      [
+        "shorter",
+        1
+      ],
+      [
+        "lesson",
+        1
+      ],
+      [
+        "thence",
+        1
+      ],
+      [
+        "steady",
+        1
+      ],
+      [
+        "last",
+        1
+      ],
+      [
+        "partly",
+        1
+      ],
+      [
+        "seen",
+        1
+      ]
+    ],
+    "our": [
+      [
+        "rise",
+        2
+      ],
+      [
+        "Host",
+        1
+      ],
+      [
+        "free",
+        1
+      ],
+      [
+        "faith",
+        1
+      ],
+      [
+        "former",
+        1
+      ]
+    ],
+    "had": [
+      [
+        "thro",
+        2
+      ],
+      [
+        "house",
+        2
+      ],
+      [
+        "x",
+        1
+      ]
+    ]
+  },
+  "era_rates": [
+    {
+      "era": "victorian",
+      "total_tokens": 5297,
+      "grammar_ghost_count": 190,
+      "rate_per_1000": 35.87
+    },
+    {
+      "era": "dramatic_monologue",
+      "total_tokens": 4418,
+      "grammar_ghost_count": 166,
+      "rate_per_1000": 37.57
+    },
+    {
+      "era": "romantic",
+      "total_tokens": 3792,
+      "grammar_ghost_count": 135,
+      "rate_per_1000": 35.6
+    },
+    {
+      "era": "19th_century",
+      "total_tokens": 3223,
+      "grammar_ghost_count": 99,
+      "rate_per_1000": 30.72
+    },
+    {
+      "era": "modernist",
+      "total_tokens": 2985,
+      "grammar_ghost_count": 97,
+      "rate_per_1000": 32.5
+    },
+    {
+      "era": "contemporary",
+      "total_tokens": 2775,
+      "grammar_ghost_count": 94,
+      "rate_per_1000": 33.87
+    },
+    {
+      "era": "new_york_school",
+      "total_tokens": 2773,
+      "grammar_ghost_count": 97,
+      "rate_per_1000": 34.98
+    },
+    {
+      "era": "ekphrastic",
+      "total_tokens": 1901,
+      "grammar_ghost_count": 57,
+      "rate_per_1000": 29.98
+    },
+    {
+      "era": "early_modern",
+      "total_tokens": 1801,
+      "grammar_ghost_count": 69,
+      "rate_per_1000": 38.31
+    },
+    {
+      "era": "18th_century",
+      "total_tokens": 1435,
+      "grammar_ghost_count": 66,
+      "rate_per_1000": 45.99
+    },
+    {
+      "era": "prose_poetry",
+      "total_tokens": 1408,
+      "grammar_ghost_count": 50,
+      "rate_per_1000": 35.51
+    },
+    {
+      "era": "biblical",
+      "total_tokens": 1331,
+      "grammar_ghost_count": 41,
+      "rate_per_1000": 30.8
+    },
+    {
+      "era": "oulipo",
+      "total_tokens": 1282,
+      "grammar_ghost_count": 54,
+      "rate_per_1000": 42.12
+    },
+    {
+      "era": "elegy",
+      "total_tokens": 1255,
+      "grammar_ghost_count": 44,
+      "rate_per_1000": 35.06
+    },
+    {
+      "era": "found_poetry",
+      "total_tokens": 1204,
+      "grammar_ghost_count": 31,
+      "rate_per_1000": 25.75
+    },
+    {
+      "era": "beat",
+      "total_tokens": 1195,
+      "grammar_ghost_count": 32,
+      "rate_per_1000": 26.78
+    },
+    {
+      "era": "surrealist",
+      "total_tokens": 1102,
+      "grammar_ghost_count": 35,
+      "rate_per_1000": 31.76
+    },
+    {
+      "era": "postcolonial",
+      "total_tokens": 989,
+      "grammar_ghost_count": 25,
+      "rate_per_1000": 25.28
+    },
+    {
+      "era": "metaphysical",
+      "total_tokens": 938,
+      "grammar_ghost_count": 34,
+      "rate_per_1000": 36.25
+    },
+    {
+      "era": "ballad",
+      "total_tokens": 915,
+      "grammar_ghost_count": 21,
+      "rate_per_1000": 22.95
+    },
+    {
+      "era": "fixed_form",
+      "total_tokens": 858,
+      "grammar_ghost_count": 25,
+      "rate_per_1000": 29.14
+    },
+    {
+      "era": "harlem_renaissance",
+      "total_tokens": 816,
+      "grammar_ghost_count": 30,
+      "rate_per_1000": 36.76
+    },
+    {
+      "era": "german_expressionist",
+      "total_tokens": 781,
+      "grammar_ghost_count": 18,
+      "rate_per_1000": 23.05
+    },
+    {
+      "era": "parody",
+      "total_tokens": 669,
+      "grammar_ghost_count": 26,
+      "rate_per_1000": 38.86
+    },
+    {
+      "era": "procedural",
+      "total_tokens": 640,
+      "grammar_ghost_count": 25,
+      "rate_per_1000": 39.06
+    },
+    {
+      "era": "war_poetry",
+      "total_tokens": 639,
+      "grammar_ghost_count": 19,
+      "rate_per_1000": 29.73
+    },
+    {
+      "era": "old_english",
+      "total_tokens": 629,
+      "grammar_ghost_count": 28,
+      "rate_per_1000": 44.52
+    },
+    {
+      "era": "mid_century",
+      "total_tokens": 583,
+      "grammar_ghost_count": 16,
+      "rate_per_1000": 27.44
+    },
+    {
+      "era": "song_lyrics",
+      "total_tokens": 541,
+      "grammar_ghost_count": 12,
+      "rate_per_1000": 22.18
+    },
+    {
+      "era": "nonsense",
+      "total_tokens": 500,
+      "grammar_ghost_count": 20,
+      "rate_per_1000": 40.0
+    },
+    {
+      "era": "language",
+      "total_tokens": 496,
+      "grammar_ghost_count": 11,
+      "rate_per_1000": 22.18
+    },
+    {
+      "era": "cliche_control",
+      "total_tokens": 489,
+      "grammar_ghost_count": 11,
+      "rate_per_1000": 22.49
+    },
+    {
+      "era": "latin_american",
+      "total_tokens": 461,
+      "grammar_ghost_count": 8,
+      "rate_per_1000": 17.35
+    },
+    {
+      "era": "parody_original",
+      "total_tokens": 443,
+      "grammar_ghost_count": 11,
+      "rate_per_1000": 24.83
+    },
+    {
+      "era": "villanelle",
+      "total_tokens": 436,
+      "grammar_ghost_count": 12,
+      "rate_per_1000": 27.52
+    },
+    {
+      "era": "limerick",
+      "total_tokens": 426,
+      "grammar_ghost_count": 13,
+      "rate_per_1000": 30.52
+    },
+    {
+      "era": "confessional",
+      "total_tokens": 397,
+      "grammar_ghost_count": 15,
+      "rate_per_1000": 37.78
+    },
+    {
+      "era": "persian",
+      "total_tokens": 382,
+      "grammar_ghost_count": 13,
+      "rate_per_1000": 34.03
+    },
+    {
+      "era": "german_symbolist",
+      "total_tokens": 356,
+      "grammar_ghost_count": 1,
+      "rate_per_1000": 2.81
+    },
+    {
+      "era": "imagist",
+      "total_tokens": 321,
+      "grammar_ghost_count": 10,
+      "rate_per_1000": 31.15
+    },
+    {
+      "era": "ancient",
+      "total_tokens": 318,
+      "grammar_ghost_count": 13,
+      "rate_per_1000": 40.88
+    },
+    {
+      "era": "concrete",
+      "total_tokens": 311,
+      "grammar_ghost_count": 7,
+      "rate_per_1000": 22.51
+    },
+    {
+      "era": "haiku",
+      "total_tokens": 293,
+      "grammar_ghost_count": 10,
+      "rate_per_1000": 34.13
+    },
+    {
+      "era": "spoken_word",
+      "total_tokens": 286,
+      "grammar_ghost_count": 8,
+      "rate_per_1000": 27.97
+    },
+    {
+      "era": "protest_political",
+      "total_tokens": 250,
+      "grammar_ghost_count": 7,
+      "rate_per_1000": 28.0
+    },
+    {
+      "era": "double_dactyl",
+      "total_tokens": 248,
+      "grammar_ghost_count": 0,
+      "rate_per_1000": 0.0
+    },
+    {
+      "era": "black_arts",
+      "total_tokens": 246,
+      "grammar_ghost_count": 3,
+      "rate_per_1000": 12.2
+    },
+    {
+      "era": "classical_chinese",
+      "total_tokens": 238,
+      "grammar_ghost_count": 14,
+      "rate_per_1000": 58.82
+    },
+    {
+      "era": "german_modernist",
+      "total_tokens": 234,
+      "grammar_ghost_count": 0,
+      "rate_per_1000": 0.0
+    },
+    {
+      "era": "clerihew",
+      "total_tokens": 232,
+      "grammar_ghost_count": 15,
+      "rate_per_1000": 64.66
+    },
+    {
+      "era": "ghazal",
+      "total_tokens": 230,
+      "grammar_ghost_count": 11,
+      "rate_per_1000": 47.83
+    },
+    {
+      "era": "nursery_rhyme",
+      "total_tokens": 222,
+      "grammar_ghost_count": 2,
+      "rate_per_1000": 9.01
+    },
+    {
+      "era": "control",
+      "total_tokens": 163,
+      "grammar_ghost_count": 0,
+      "rate_per_1000": 0.0
+    },
+    {
+      "era": "pantoum",
+      "total_tokens": 134,
+      "grammar_ghost_count": 6,
+      "rate_per_1000": 44.78
+    },
+    {
+      "era": "triolet",
+      "total_tokens": 130,
+      "grammar_ghost_count": 2,
+      "rate_per_1000": 15.38
+    },
+    {
+      "era": "rondeau",
+      "total_tokens": 130,
+      "grammar_ghost_count": 5,
+      "rate_per_1000": 38.46
+    },
+    {
+      "era": "korean_modernist",
+      "total_tokens": 102,
+      "grammar_ghost_count": 3,
+      "rate_per_1000": 29.41
+    },
+    {
+      "era": "deep_image",
+      "total_tokens": 61,
+      "grammar_ghost_count": 5,
+      "rate_per_1000": 81.97
+    },
+    {
+      "era": "japanese_classical",
+      "total_tokens": 59,
+      "grammar_ghost_count": 0,
+      "rate_per_1000": 0.0
+    },
+    {
+      "era": "social_media_poetry",
+      "total_tokens": 58,
+      "grammar_ghost_count": 1,
+      "rate_per_1000": 17.24
+    }
+  ],
+  "sample_pairs": [
+    {
+      "era": "old_english",
+      "s2": 22.73,
+      "suppressed": "may",
+      "chosen": "riot",
+      "grammar_category": "auxiliary/copula",
+      "content_type": "other_content"
+    },
+    {
+      "era": "18th_century",
+      "s2": 22.13,
+      "suppressed": "the",
+      "chosen": "prank",
+      "grammar_category": "article",
+      "content_type": "other_content"
+    },
+    {
+      "era": "victorian",
+      "s2": 22.04,
+      "suppressed": "the",
+      "chosen": "shook",
+      "grammar_category": "article",
+      "content_type": "other_content"
+    },
+    {
+      "era": "18th_century",
+      "s2": 22.02,
+      "suppressed": "the",
+      "chosen": "prank",
+      "grammar_category": "article",
+      "content_type": "other_content"
+    },
+    {
+      "era": "contemporary",
+      "s2": 19.39,
+      "suppressed": "of",
+      "chosen": "pi",
+      "grammar_category": "preposition",
+      "content_type": "other_content"
+    },
+    {
+      "era": "mid_century",
+      "s2": 18.88,
+      "suppressed": "a",
+      "chosen": "consequences",
+      "grammar_category": "article",
+      "content_type": "verb/participle"
+    },
+    {
+      "era": "clerihew",
+      "s2": 18.41,
+      "suppressed": "by",
+      "chosen": "gravy",
+      "grammar_category": "preposition",
+      "content_type": "other_content"
+    },
+    {
+      "era": "romantic",
+      "s2": 17.25,
+      "suppressed": "he",
+      "chosen": "Music",
+      "grammar_category": "pronoun",
+      "content_type": "adjective"
+    },
+    {
+      "era": "victorian",
+      "s2": 17.19,
+      "suppressed": "and",
+      "chosen": "Despair",
+      "grammar_category": "conjunction",
+      "content_type": "other_content"
+    },
+    {
+      "era": "new_york_school",
+      "s2": 16.78,
+      "suppressed": "you",
+      "chosen": "mot",
+      "grammar_category": "pronoun",
+      "content_type": "other_content"
+    },
+    {
+      "era": "contemporary",
+      "s2": 16.66,
+      "suppressed": "to",
+      "chosen": "liking",
+      "grammar_category": "preposition",
+      "content_type": "verb/participle"
+    },
+    {
+      "era": "beat",
+      "s2": 16.56,
+      "suppressed": "you",
+      "chosen": "neb",
+      "grammar_category": "pronoun",
+      "content_type": "other_content"
+    },
+    {
+      "era": "romantic",
+      "s2": 16.51,
+      "suppressed": "been",
+      "chosen": "trave",
+      "grammar_category": "auxiliary/copula",
+      "content_type": "other_content"
+    },
+    {
+      "era": "ekphrastic",
+      "s2": 16.51,
+      "suppressed": "been",
+      "chosen": "trave",
+      "grammar_category": "auxiliary/copula",
+      "content_type": "other_content"
+    },
+    {
+      "era": "prose_poetry",
+      "s2": 16.4,
+      "suppressed": "the",
+      "chosen": "indoors",
+      "grammar_category": "article",
+      "content_type": "verb/participle"
+    },
+    {
+      "era": "found_poetry",
+      "s2": 16.38,
+      "suppressed": "And",
+      "chosen": "der",
+      "grammar_category": "conjunction",
+      "content_type": "other_content"
+    },
+    {
+      "era": "romantic",
+      "s2": 16.27,
+      "suppressed": "she",
+      "chosen": "sidel",
+      "grammar_category": "pronoun",
+      "content_type": "other_content"
+    },
+    {
+      "era": "contemporary",
+      "s2": 16.18,
+      "suppressed": "or",
+      "chosen": "impressed",
+      "grammar_category": "conjunction",
+      "content_type": "verb/participle"
+    },
+    {
+      "era": "contemporary",
+      "s2": 16.15,
+      "suppressed": "and",
+      "chosen": "cliff",
+      "grammar_category": "conjunction",
+      "content_type": "other_content"
+    },
+    {
+      "era": "ballad",
+      "s2": 16.1,
+      "suppressed": "the",
+      "chosen": "Dum",
+      "grammar_category": "article",
+      "content_type": "other_content"
+    },
+    {
+      "era": "korean_modernist",
+      "s2": 16.07,
+      "suppressed": "was",
+      "chosen": "Gim",
+      "grammar_category": "auxiliary/copula",
+      "content_type": "other_content"
+    },
+    {
+      "era": "early_modern",
+      "s2": 15.82,
+      "suppressed": "should",
+      "chosen": "peaceful",
+      "grammar_category": "auxiliary/copula",
+      "content_type": "adjective"
+    },
+    {
+      "era": "prose_poetry",
+      "s2": 15.76,
+      "suppressed": "and",
+      "chosen": "rack",
+      "grammar_category": "conjunction",
+      "content_type": "other_content"
+    },
+    {
+      "era": "oulipo",
+      "s2": 15.69,
+      "suppressed": "he",
+      "chosen": "Napoleon",
+      "grammar_category": "pronoun",
+      "content_type": "other_content"
+    },
+    {
+      "era": "beat",
+      "s2": 15.61,
+      "suppressed": "to",
+      "chosen": "hysterical",
+      "grammar_category": "preposition",
+      "content_type": "adjective"
+    },
+    {
+      "era": "19th_century",
+      "s2": 15.44,
+      "suppressed": "the",
+      "chosen": "bou",
+      "grammar_category": "article",
+      "content_type": "other_content"
+    },
+    {
+      "era": "elegy",
+      "s2": 15.44,
+      "suppressed": "the",
+      "chosen": "bou",
+      "grammar_category": "article",
+      "content_type": "other_content"
+    },
+    {
+      "era": "contemporary",
+      "s2": 15.38,
+      "suppressed": "of",
+      "chosen": "spiked",
+      "grammar_category": "preposition",
+      "content_type": "verb/participle"
+    },
+    {
+      "era": "metaphysical",
+      "s2": 15.36,
+      "suppressed": "not",
+      "chosen": "abroad",
+      "grammar_category": "other_function",
+      "content_type": "other_content"
+    },
+    {
+      "era": "modernist",
+      "s2": 15.32,
+      "suppressed": "to",
+      "chosen": "midway",
+      "grammar_category": "preposition",
+      "content_type": "other_content"
+    },
+    {
+      "era": "ballad",
+      "s2": 15.27,
+      "suppressed": "the",
+      "chosen": "Us",
+      "grammar_category": "article",
+      "content_type": "other_content"
+    },
+    {
+      "era": "haiku",
+      "s2": 15.27,
+      "suppressed": "And",
+      "chosen": "spl",
+      "grammar_category": "conjunction",
+      "content_type": "other_content"
+    },
+    {
+      "era": "dramatic_monologue",
+      "s2": 15.03,
+      "suppressed": "of",
+      "chosen": "South",
+      "grammar_category": "preposition",
+      "content_type": "other_content"
+    },
+    {
+      "era": "18th_century",
+      "s2": 15.01,
+      "suppressed": "to",
+      "chosen": "strife",
+      "grammar_category": "preposition",
+      "content_type": "other_content"
+    },
+    {
+      "era": "fixed_form",
+      "s2": 14.99,
+      "suppressed": "to",
+      "chosen": "priesthood",
+      "grammar_category": "preposition",
+      "content_type": "other_content"
+    },
+    {
+      "era": "dramatic_monologue",
+      "s2": 14.98,
+      "suppressed": "it",
+      "chosen": "alike",
+      "grammar_category": "pronoun",
+      "content_type": "other_content"
+    },
+    {
+      "era": "romantic",
+      "s2": 14.93,
+      "suppressed": "not",
+      "chosen": "Kub",
+      "grammar_category": "other_function",
+      "content_type": "other_content"
+    },
+    {
+      "era": "confessional",
+      "s2": 14.92,
+      "suppressed": "and",
+      "chosen": "throat",
+      "grammar_category": "conjunction",
+      "content_type": "other_content"
+    },
+    {
+      "era": "new_york_school",
+      "s2": 14.91,
+      "suppressed": "in",
+      "chosen": "Babylon",
+      "grammar_category": "preposition",
+      "content_type": "other_content"
+    },
+    {
+      "era": "ballad",
+      "s2": 14.88,
+      "suppressed": "an",
+      "chosen": "three",
+      "grammar_category": "article",
+      "content_type": "other_content"
+    },
+    {
+      "era": "beat",
+      "s2": 14.81,
+      "suppressed": "was",
+      "chosen": "sd",
+      "grammar_category": "auxiliary/copula",
+      "content_type": "other_content"
+    },
+    {
+      "era": "oulipo",
+      "s2": 14.73,
+      "suppressed": "his",
+      "chosen": "stagnant",
+      "grammar_category": "pronoun",
+      "content_type": "other_content"
+    },
+    {
+      "era": "new_york_school",
+      "s2": 14.72,
+      "suppressed": "are",
+      "chosen": "flung",
+      "grammar_category": "auxiliary/copula",
+      "content_type": "other_content"
+    },
+    {
+      "era": "dramatic_monologue",
+      "s2": 14.71,
+      "suppressed": "the",
+      "chosen": "Por",
+      "grammar_category": "article",
+      "content_type": "other_content"
+    },
+    {
+      "era": "modernist",
+      "s2": 14.67,
+      "suppressed": "the",
+      "chosen": "frig",
+      "grammar_category": "article",
+      "content_type": "other_content"
+    },
+    {
+      "era": "contemporary",
+      "s2": 14.65,
+      "suppressed": "the",
+      "chosen": "Carm",
+      "grammar_category": "article",
+      "content_type": "other_content"
+    },
+    {
+      "era": "18th_century",
+      "s2": 14.49,
+      "suppressed": "was",
+      "chosen": "redemption",
+      "grammar_category": "auxiliary/copula",
+      "content_type": "other_content"
+    },
+    {
+      "era": "classical_chinese",
+      "s2": 14.49,
+      "suppressed": "the",
+      "chosen": "Par",
+      "grammar_category": "article",
+      "content_type": "other_content"
+    },
+    {
+      "era": "mid_century",
+      "s2": 14.47,
+      "suppressed": "the",
+      "chosen": "glow",
+      "grammar_category": "article",
+      "content_type": "other_content"
+    },
+    {
+      "era": "oulipo",
+      "s2": 14.45,
+      "suppressed": "a",
+      "chosen": "De",
+      "grammar_category": "article",
+      "content_type": "other_content"
+    }
+  ]
+}
