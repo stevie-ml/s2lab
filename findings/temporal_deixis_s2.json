@@ -1,0 +1,7 @@
+{
+  "n_poetry_temporal": 704,
+  "n_poetry_nontemporal": 55960,
+  "avg_s2_temporal_poetry": 0.6940424715909091,
+  "avg_s2_nontemporal_poetry": -0.4266765225160829,
+  "n_pure_straussian": 65
+}
