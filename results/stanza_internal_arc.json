@@ -1,454 +1,592 @@
 {
-  "entropy_median": 6.4869,
-  "n_poems_analyzed": 70,
-  "n_stanzas_analyzed": 209,
   "global": {
-    "pct_deviate_early": 53.1,
-    "mean_arc_I": -1.68,
-    "mean_arc_III": 17.56
+    "n_poems": 342,
+    "n_stanzas": 1880,
+    "mean_arc_slope": 0.13553355079491577,
+    "pct_positive_arc": 0.7631578947368421,
+    "mean_pos_slope_r": 0.05948721109556741,
+    "mean_early_late_delta": -0.026131406609944337
   },
-  "by_stanza_position": {
-    "first": {
-      "n": 67,
-      "mean_arc_I": -1.73,
-      "pct_deviate_early": 61.2
-    },
-    "middle": {
-      "n": 78,
-      "mean_arc_I": -3.0,
-      "pct_deviate_early": 48.7
-    },
-    "last": {
-      "n": 64,
-      "mean_arc_I": -0.02,
-      "pct_deviate_early": 50.0
-    }
-  },
-  "era_rows": [
+  "per_era": [
     {
-      "era": "early_modern",
+      "era": "german_expressionist",
+      "n": 6,
+      "mean_slope": 0.37001844143510815,
+      "pct_pos": 1.0,
+      "mean_delta": 0.04954240204240203
+    },
+    {
+      "era": "war_poetry",
       "n": 3,
-      "mean_arc": -13.53,
-      "neg_pct": 100.0
+      "mean_slope": 0.33321737039128346,
+      "pct_pos": 1.0,
+      "mean_delta": -0.16705585879498921
     },
     {
-      "era": "fixed_form",
-      "n": 25,
-      "mean_arc": -7.13,
-      "neg_pct": 56.0
-    },
-    {
-      "era": "metaphysical",
-      "n": 3,
-      "mean_arc": -6.63,
-      "neg_pct": 66.7
-    },
-    {
-      "era": "harlem_renaissance",
+      "era": "cliche_control",
       "n": 4,
-      "mean_arc": -5.9,
-      "neg_pct": 100.0
-    },
-    {
-      "era": "new_york_school",
-      "n": 7,
-      "mean_arc": -4.69,
-      "neg_pct": 71.4
-    },
-    {
-      "era": "19th_century",
-      "n": 20,
-      "mean_arc": -3.48,
-      "neg_pct": 65.0
-    },
-    {
-      "era": "ballad",
-      "n": 22,
-      "mean_arc": -2.65,
-      "neg_pct": 59.1
+      "mean_slope": 0.31764484126984127,
+      "pct_pos": 1.0,
+      "mean_delta": 0.16296428571428576
     },
     {
       "era": "song_lyrics",
-      "n": 13,
-      "mean_arc": -2.45,
-      "neg_pct": 53.8
+      "n": 3,
+      "mean_slope": 0.2544135802469136,
+      "pct_pos": 1.0,
+      "mean_delta": 0.3906790123456791
     },
     {
-      "era": "modernist",
-      "n": 18,
-      "mean_arc": -2.43,
-      "neg_pct": 55.6
+      "era": "ballad",
+      "n": 6,
+      "mean_slope": 0.2341853208519875,
+      "pct_pos": 1.0,
+      "mean_delta": 0.3121240333740334
+    },
+    {
+      "era": "persian",
+      "n": 2,
+      "mean_slope": 0.2311111111111111,
+      "pct_pos": 1.0,
+      "mean_delta": -0.10895238095238094
+    },
+    {
+      "era": "harlem_renaissance",
+      "n": 6,
+      "mean_slope": 0.22634558453010833,
+      "pct_pos": 0.8333333333333334,
+      "mean_delta": -0.024734177859177878
+    },
+    {
+      "era": "parody_original",
+      "n": 3,
+      "mean_slope": 0.21872053872053873,
+      "pct_pos": 1.0,
+      "mean_delta": -0.17831649831649832
+    },
+    {
+      "era": "found_poetry",
+      "n": 5,
+      "mean_slope": 0.21546016556542869,
+      "pct_pos": 0.8,
+      "mean_delta": -0.18429106858054226
+    },
+    {
+      "era": "metaphysical",
+      "n": 7,
+      "mean_slope": 0.21545321291727748,
+      "pct_pos": 0.8571428571428571,
+      "mean_delta": -0.27430757044976417
+    },
+    {
+      "era": "double_dactyl",
+      "n": 5,
+      "mean_slope": 0.2106666666666667,
+      "pct_pos": 1.0,
+      "mean_delta": -0.3786666666666667
+    },
+    {
+      "era": "elegy",
+      "n": 8,
+      "mean_slope": 0.20459329474328414,
+      "pct_pos": 0.875,
+      "mean_delta": -0.04473245759695253
+    },
+    {
+      "era": "mid_century",
+      "n": 6,
+      "mean_slope": 0.20432077893616354,
+      "pct_pos": 0.8333333333333334,
+      "mean_delta": -0.05400895400895404
+    },
+    {
+      "era": "biblical",
+      "n": 8,
+      "mean_slope": 0.19918362890874278,
+      "pct_pos": 1.0,
+      "mean_delta": -0.0777942675893229
+    },
+    {
+      "era": "protest_political",
+      "n": 2,
+      "mean_slope": 0.1971595655806182,
+      "pct_pos": 1.0,
+      "mean_delta": 0.3768657755499861
+    },
+    {
+      "era": "old_english",
+      "n": 4,
+      "mean_slope": 0.1853605630974052,
+      "pct_pos": 0.5,
+      "mean_delta": -0.3715177634125002
+    },
+    {
+      "era": "procedural",
+      "n": 5,
+      "mean_slope": 0.1780501913545392,
+      "pct_pos": 0.8,
+      "mean_delta": -0.3104300771692076
+    },
+    {
+      "era": "confessional",
+      "n": 6,
+      "mean_slope": 0.1751763668430335,
+      "pct_pos": 1.0,
+      "mean_delta": -0.146988196988197
     },
     {
       "era": "victorian",
-      "n": 34,
-      "mean_arc": -0.54,
-      "neg_pct": 52.9
+      "n": 30,
+      "mean_slope": 0.1699338830625198,
+      "pct_pos": 0.8,
+      "mean_delta": 0.13565928400474367
+    },
+    {
+      "era": "latin_american",
+      "n": 3,
+      "mean_slope": 0.1643001443001443,
+      "pct_pos": 1.0,
+      "mean_delta": -0.031233766233766225
+    },
+    {
+      "era": "ghazal",
+      "n": 2,
+      "mean_slope": 0.1525,
+      "pct_pos": 1.0,
+      "mean_delta": -0.09999999999999998
+    },
+    {
+      "era": "prose_poetry",
+      "n": 5,
+      "mean_slope": 0.1503939895230218,
+      "pct_pos": 0.8,
+      "mean_delta": -0.17332821300563234
     },
     {
       "era": "romantic",
       "n": 20,
-      "mean_arc": -0.18,
-      "neg_pct": 45.0
+      "mean_slope": 0.14697152335166347,
+      "pct_pos": 0.75,
+      "mean_delta": 0.08872518063696921
     },
     {
-      "era": "cliche_control",
-      "n": 9,
-      "mean_arc": 0.43,
-      "neg_pct": 44.4
+      "era": "language",
+      "n": 5,
+      "mean_slope": 0.14328310895816615,
+      "pct_pos": 0.6,
+      "mean_delta": -0.27512556093791785
     },
     {
-      "era": "prose_poetry",
-      "n": 9,
-      "mean_arc": 1.76,
-      "neg_pct": 33.3
-    },
-    {
-      "era": "confessional",
+      "era": "surrealist",
       "n": 8,
-      "mean_arc": 4.39,
-      "neg_pct": 37.5
+      "mean_slope": 0.14060282948213984,
+      "pct_pos": 0.875,
+      "mean_delta": -0.1716091555953625
+    },
+    {
+      "era": "nonsense",
+      "n": 2,
+      "mean_slope": 0.13626190476190475,
+      "pct_pos": 1.0,
+      "mean_delta": 0.18842857142857145
+    },
+    {
+      "era": "early_modern",
+      "n": 11,
+      "mean_slope": 0.1300183807626113,
+      "pct_pos": 0.7272727272727273,
+      "mean_delta": -0.2379644973117223
+    },
+    {
+      "era": "parody",
+      "n": 3,
+      "mean_slope": 0.1272727272727273,
+      "pct_pos": 1.0,
+      "mean_delta": 0.13652076318742987
+    },
+    {
+      "era": "dramatic_monologue",
+      "n": 10,
+      "mean_slope": 0.12341957338754424,
+      "pct_pos": 0.9,
+      "mean_delta": -0.08969289962170035
+    },
+    {
+      "era": "new_york_school",
+      "n": 22,
+      "mean_slope": 0.11680578650372837,
+      "pct_pos": 0.6363636363636364,
+      "mean_delta": -0.02691742690162506
+    },
+    {
+      "era": "19th_century",
+      "n": 15,
+      "mean_slope": 0.11673105369079771,
+      "pct_pos": 0.6666666666666666,
+      "mean_delta": -0.04277701499065282
+    },
+    {
+      "era": "german_modernist",
+      "n": 2,
+      "mean_slope": 0.11128205128205129,
+      "pct_pos": 1.0,
+      "mean_delta": 0.10089743589743591
+    },
+    {
+      "era": "18th_century",
+      "n": 8,
+      "mean_slope": 0.1111906051894442,
+      "pct_pos": 0.625,
+      "mean_delta": -0.07227731092436976
+    },
+    {
+      "era": "black_arts",
+      "n": 2,
+      "mean_slope": 0.10555555555555556,
+      "pct_pos": 1.0,
+      "mean_delta": 0.06666666666666665
+    },
+    {
+      "era": "german_symbolist",
+      "n": 3,
+      "mean_slope": 0.10079829202636219,
+      "pct_pos": 1.0,
+      "mean_delta": 0.01649958228905596
+    },
+    {
+      "era": "oulipo",
+      "n": 8,
+      "mean_slope": 0.10002601421719069,
+      "pct_pos": 0.625,
+      "mean_delta": 0.007571869704222621
+    },
+    {
+      "era": "beat",
+      "n": 7,
+      "mean_slope": 0.08959020481419817,
+      "pct_pos": 0.5714285714285714,
+      "mean_delta": -0.11469714139201184
+    },
+    {
+      "era": "fixed_form",
+      "n": 7,
+      "mean_slope": 0.08649797930868254,
+      "pct_pos": 0.7142857142857143,
+      "mean_delta": -0.0032344341245269894
+    },
+    {
+      "era": "limerick",
+      "n": 7,
+      "mean_slope": 0.07665532879818594,
+      "pct_pos": 0.5714285714285714,
+      "mean_delta": 0.10577777777777779
+    },
+    {
+      "era": "ekphrastic",
+      "n": 8,
+      "mean_slope": 0.07418726862561677,
+      "pct_pos": 0.75,
+      "mean_delta": 0.17052715342225633
+    },
+    {
+      "era": "concrete",
+      "n": 3,
+      "mean_slope": 0.07080166746833415,
+      "pct_pos": 0.3333333333333333,
+      "mean_delta": -0.6903158569825237
+    },
+    {
+      "era": "modernist",
+      "n": 22,
+      "mean_slope": 0.05797942405753713,
+      "pct_pos": 0.6363636363636364,
+      "mean_delta": 0.0616954307530538
     },
     {
       "era": "contemporary",
+      "n": 14,
+      "mean_slope": 0.009511648684676592,
+      "pct_pos": 0.6428571428571429,
+      "mean_delta": -0.039582069448260364
+    },
+    {
+      "era": "postcolonial",
+      "n": 6,
+      "mean_slope": 0.008729787188120506,
+      "pct_pos": 0.6666666666666666,
+      "mean_delta": -0.06765316473649809
+    },
+    {
+      "era": "ancient",
+      "n": 3,
+      "mean_slope": -0.00842816442816443,
+      "pct_pos": 0.3333333333333333,
+      "mean_delta": -0.040625152625152636
+    },
+    {
+      "era": "classical_chinese",
       "n": 4,
-      "mean_arc": 7.32,
-      "neg_pct": 50.0
+      "mean_slope": -0.045000000000000005,
+      "pct_pos": 0.5,
+      "mean_delta": -0.18000000000000002
+    },
+    {
+      "era": "villanelle",
+      "n": 3,
+      "mean_slope": -0.05194444444444445,
+      "pct_pos": 0.3333333333333333,
+      "mean_delta": -0.0841666666666667
     },
     {
       "era": "haiku",
-      "n": 3,
-      "mean_arc": 10.33,
-      "neg_pct": 0.0
-    },
-    {
-      "era": "nursery_rhyme",
-      "n": 5,
-      "mean_arc": 11.0,
-      "neg_pct": 0.0
+      "n": 2,
+      "mean_slope": -0.20666666666666664,
+      "pct_pos": 0.5,
+      "mean_delta": 0.9600000000000001
     }
   ],
-  "poem_level_pct_deviate_early": 64.6,
-  "stanza_arcs_sample": [
+  "top_fractal_poems": [
     {
-      "poem": "The Convergence of the Twain (excerpt)",
-      "author": "Thomas Hardy",
-      "era": "victorian",
-      "stanza_idx": 0,
+      "title": "Verkl\u00e4rter Herbst",
+      "author": "Georg Trakl",
+      "era": "german_expressionist",
+      "n_stanzas": 7,
+      "avg_arc_slope": 0.7561904761904762,
+      "pct_pos_arc": 0.8571428571428571,
+      "pos_slope_correlation": 0.5922914468639489,
+      "early_stanza_slope": 0.4666666666666666,
+      "late_stanza_slope": 0.9733333333333333,
+      "early_late_delta": 0.5066666666666666
+    },
+    {
+      "title": "The Fish",
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "n_stanzas": 21,
+      "avg_arc_slope": -0.724313725490196,
+      "pct_pos_arc": 0.058823529411764705,
+      "pos_slope_correlation": -0.42179139105183544,
+      "early_stanza_slope": -0.5923809523809523,
+      "late_stanza_slope": -0.8166666666666667,
+      "early_late_delta": -0.2242857142857143
+    },
+    {
+      "title": "The Battle of Maldon (excerpt, trans. E.V. Gordon)",
+      "author": "Anonymous (trans. E.V. Gordon)",
+      "era": "old_english",
       "n_stanzas": 3,
-      "stanza_position": "first",
-      "n": 26,
-      "first_I": 37.5,
-      "last_I": 0.0,
-      "first_III": 12.5,
-      "last_III": 33.3,
-      "arc_I": -37.5,
-      "arc_III": 20.8,
-      "arc_contrast": -0.5833
+      "avg_arc_slope": 0.6672040461514146,
+      "pct_pos_arc": 1.0,
+      "pos_slope_correlation": null,
+      "early_stanza_slope": 1.4,
+      "late_stanza_slope": 0.3008060692271219,
+      "early_late_delta": -1.099193930772878
     },
     {
-      "poem": "The House on the Hill",
-      "author": "Edwin Arlington Robinson",
-      "era": "fixed_form",
-      "stanza_idx": 3,
-      "n_stanzas": 5,
-      "stanza_position": "middle",
-      "n": 19,
-      "first_I": 33.3,
-      "last_I": 0.0,
-      "first_III": 33.3,
-      "last_III": 100.0,
-      "arc_I": -33.3,
-      "arc_III": 66.7,
-      "arc_contrast": -1.0
+      "title": "She Had Some Horses",
+      "author": "Joy Harjo",
+      "era": "postcolonial",
+      "n_stanzas": 10,
+      "avg_arc_slope": -0.6166666666666667,
+      "pct_pos_arc": 0.0,
+      "pos_slope_correlation": -0.48239954506735055,
+      "early_stanza_slope": -0.45,
+      "late_stanza_slope": -0.7833333333333333,
+      "early_late_delta": -0.3333333333333333
     },
     {
-      "poem": "Crossing (excerpt)",
-      "author": "Rae Armantrout",
-      "era": "prose_poetry",
-      "stanza_idx": 1,
-      "n_stanzas": 4,
-      "stanza_position": "middle",
-      "n": 30,
-      "first_I": 30.0,
-      "last_I": 0.0,
-      "first_III": 10.0,
-      "last_III": 60.0,
-      "arc_I": -30.0,
-      "arc_III": 50.0,
-      "arc_contrast": -0.8
-    },
-    {
-      "poem": "I heard a Fly buzz \u2014 when I died",
-      "author": "Emily Dickinson",
-      "era": "19th_century",
-      "stanza_idx": 1,
-      "n_stanzas": 4,
-      "stanza_position": "middle",
-      "n": 34,
-      "first_I": 36.4,
-      "last_I": 8.3,
-      "first_III": 27.3,
-      "last_III": 33.3,
-      "arc_I": -28.1,
-      "arc_III": 6.0,
-      "arc_contrast": -0.3409
-    },
-    {
-      "poem": "The Oxen",
-      "author": "Thomas Hardy",
-      "era": "victorian",
-      "stanza_idx": 2,
-      "n_stanzas": 4,
-      "stanza_position": "middle",
-      "n": 34,
-      "first_I": 36.4,
-      "last_I": 8.3,
-      "first_III": 18.2,
-      "last_III": 50.0,
-      "arc_I": -28.1,
-      "arc_III": 31.8,
-      "arc_contrast": -0.5985
-    },
-    {
-      "poem": "They Flee from Me",
-      "author": "Thomas Wyatt",
-      "era": "early_modern",
-      "stanza_idx": 1,
-      "n_stanzas": 3,
-      "stanza_position": "middle",
-      "n": 66,
-      "first_I": 36.4,
-      "last_I": 9.1,
-      "first_III": 13.6,
-      "last_III": 27.3,
-      "arc_I": -27.3,
-      "arc_III": 13.7,
-      "arc_contrast": -0.4091
-    },
-    {
-      "poem": "Sestina of the Tramp-Royal (opening stanzas)",
-      "author": "Rudyard Kipling",
-      "era": "fixed_form",
-      "stanza_idx": 1,
-      "n_stanzas": 2,
-      "stanza_position": "last",
-      "n": 49,
-      "first_I": 31.2,
-      "last_I": 5.9,
-      "first_III": 31.2,
-      "last_III": 47.1,
-      "arc_I": -25.3,
-      "arc_III": 15.9,
-      "arc_contrast": -0.4118
-    },
-    {
-      "poem": "Villanelle (A dainty thing's the Villanelle)",
-      "author": "William Ernest Henley",
-      "era": "fixed_form",
-      "stanza_idx": 3,
-      "n_stanzas": 4,
-      "stanza_position": "last",
-      "n": 26,
-      "first_I": 25.0,
-      "last_I": 0.0,
-      "first_III": 25.0,
-      "last_III": 100.0,
-      "arc_I": -25.0,
-      "arc_III": 75.0,
-      "arc_contrast": -1.0
-    },
-    {
-      "poem": "Because I could not stop for Death",
-      "author": "Emily Dickinson",
-      "era": "19th_century",
-      "stanza_idx": 0,
-      "n_stanzas": 2,
-      "stanza_position": "first",
-      "n": 29,
-      "first_I": 22.2,
-      "last_I": 0.0,
-      "first_III": 0.0,
-      "last_III": 30.0,
-      "arc_I": -22.2,
-      "arc_III": 30.0,
-      "arc_contrast": -0.5222
-    },
-    {
-      "poem": "My Heart Burns for You (synthetic clich\u00e9)",
-      "author": "Synthetic (research test case)",
-      "era": "cliche_control",
-      "stanza_idx": 1,
-      "n_stanzas": 3,
-      "stanza_position": "middle",
-      "n": 29,
-      "first_I": 22.2,
-      "last_I": 0.0,
-      "first_III": 66.7,
-      "last_III": 60.0,
-      "arc_I": -22.2,
-      "arc_III": -6.7,
-      "arc_contrast": -0.1556
-    },
-    {
-      "poem": "In After Days (rondeau)",
-      "author": "Austin Dobson",
-      "era": "fixed_form",
-      "stanza_idx": 0,
-      "n_stanzas": 2,
-      "stanza_position": "first",
-      "n": 43,
-      "first_I": 21.4,
-      "last_I": 0.0,
-      "first_III": 7.1,
-      "last_III": 26.7,
-      "arc_I": -21.4,
-      "arc_III": 19.6,
-      "arc_contrast": -0.4096
-    },
-    {
-      "poem": "One Art",
+      "title": "One Art",
       "author": "Elizabeth Bishop",
       "era": "mid_century",
-      "stanza_idx": 1,
-      "n_stanzas": 2,
-      "stanza_position": "last",
-      "n": 30,
-      "first_I": 20.0,
-      "last_I": 0.0,
-      "first_III": 30.0,
-      "last_III": 80.0,
-      "arc_I": -20.0,
-      "arc_III": 50.0,
-      "arc_contrast": -0.7
-    },
-    {
-      "poem": "What Is Poetry",
-      "author": "John Ashbery",
-      "era": "new_york_school",
-      "stanza_idx": 0,
-      "n_stanzas": 2,
-      "stanza_position": "first",
-      "n": 17,
-      "first_I": 20.0,
-      "last_I": 0.0,
-      "first_III": 20.0,
-      "last_III": 16.7,
-      "arc_I": -20.0,
-      "arc_III": -3.3,
-      "arc_contrast": -0.1667
-    },
-    {
-      "poem": "Villanelle (A dainty thing's the Villanelle)",
-      "author": "William Ernest Henley",
-      "era": "fixed_form",
-      "stanza_idx": 0,
       "n_stanzas": 4,
-      "stanza_position": "first",
-      "n": 30,
-      "first_I": 30.0,
-      "last_I": 10.0,
-      "first_III": 10.0,
-      "last_III": 40.0,
-      "arc_I": -20.0,
-      "arc_III": 30.0,
-      "arc_contrast": -0.5
+      "avg_arc_slope": 0.5666666666666667,
+      "pct_pos_arc": 0.75,
+      "pos_slope_correlation": 0.28341010063256783,
+      "early_stanza_slope": 0.23333333333333336,
+      "late_stanza_slope": 0.9,
+      "early_late_delta": 0.6666666666666666
     },
     {
-      "poem": "Why I Am Not a Painter",
-      "author": "Frank O'Hara",
-      "era": "new_york_school",
-      "stanza_idx": 1,
-      "n_stanzas": 2,
-      "stanza_position": "last",
-      "n": 65,
-      "first_I": 33.3,
-      "last_I": 13.6,
-      "first_III": 42.9,
-      "last_III": 63.6,
-      "arc_I": -19.7,
-      "arc_III": 20.7,
-      "arc_contrast": -0.4048
+      "title": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)",
+      "author": "Thomas Jefferson (found text)",
+      "era": "found_poetry",
+      "n_stanzas": 3,
+      "avg_arc_slope": 0.5544011544011543,
+      "pct_pos_arc": 1.0,
+      "pos_slope_correlation": null,
+      "early_stanza_slope": 0.8666666666666666,
+      "late_stanza_slope": 0.39826839826839827,
+      "early_late_delta": -0.4683982683982683
     },
     {
-      "poem": "Life Is a Journey (synthetic clich\u00e9)",
-      "author": "Synthetic (research test case)",
+      "title": "The Soldier",
+      "author": "Rupert Brooke",
+      "era": "war_poetry",
+      "n_stanzas": 6,
+      "avg_arc_slope": 0.5522366522366523,
+      "pct_pos_arc": 1.0,
+      "pos_slope_correlation": 0.4310879723931095,
+      "early_stanza_slope": 0.4822510822510822,
+      "late_stanza_slope": 0.6222222222222222,
+      "early_late_delta": 0.13997113997114002
+    },
+    {
+      "title": "The Maximum Clich\u00e9 (control)",
+      "author": "Synthetic (cliche_control test case)",
       "era": "cliche_control",
-      "stanza_idx": 0,
-      "n_stanzas": 3,
-      "stanza_position": "first",
-      "n": 34,
-      "first_I": 27.3,
-      "last_I": 8.3,
-      "first_III": 36.4,
-      "last_III": 58.3,
-      "arc_I": -19.0,
-      "arc_III": 21.9,
-      "arc_contrast": -0.4091
+      "n_stanzas": 4,
+      "avg_arc_slope": 0.5455,
+      "pct_pos_arc": 0.75,
+      "pos_slope_correlation": 0.25704345505121784,
+      "early_stanza_slope": 0.291,
+      "late_stanza_slope": 0.8,
+      "early_late_delta": 0.5090000000000001
     },
     {
-      "poem": "anyone lived in a pretty how town",
-      "author": "E.E. Cummings",
+      "title": "To a Skylark (opening stanzas)",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "n_stanzas": 7,
+      "avg_arc_slope": 0.5033333333333333,
+      "pct_pos_arc": 1.0,
+      "pos_slope_correlation": 0.31876305127989074,
+      "early_stanza_slope": 0.48333333333333334,
+      "late_stanza_slope": 0.5333333333333333,
+      "early_late_delta": 0.04999999999999999
+    },
+    {
+      "title": "Psalm",
+      "author": "George Oppen",
       "era": "modernist",
-      "stanza_idx": 1,
-      "n_stanzas": 3,
-      "stanza_position": "middle",
-      "n": 33,
-      "first_I": 18.2,
-      "last_I": 0.0,
-      "first_III": 9.1,
-      "last_III": 18.2,
-      "arc_I": -18.2,
-      "arc_III": 9.1,
-      "arc_contrast": -0.2727
+      "n_stanzas": 7,
+      "avg_arc_slope": 0.48888888888888893,
+      "pct_pos_arc": 1.0,
+      "pos_slope_correlation": null,
+      "early_stanza_slope": 0.23333333333333334,
+      "late_stanza_slope": 1.0,
+      "early_late_delta": 0.7666666666666666
+    }
+  ],
+  "top_position_corr_poems": [
+    {
+      "title": "The Vanity of Human Wishes (opening)",
+      "author": "Samuel Johnson",
+      "era": "18th_century",
+      "n_stanzas": 4,
+      "avg_arc_slope": 0.2926666666666667,
+      "pct_pos_arc": 0.75,
+      "pos_slope_correlation": 0.9069195760992916,
+      "early_stanza_slope": 0.08533333333333333,
+      "late_stanza_slope": 0.5,
+      "early_late_delta": 0.4146666666666667
     },
     {
-      "poem": "Sir Patrick Spens",
+      "title": "Edward, Edward",
       "author": "Traditional (Scottish ballad)",
       "era": "ballad",
-      "stanza_idx": 1,
+      "n_stanzas": 7,
+      "avg_arc_slope": 0.18285714285714286,
+      "pct_pos_arc": 0.5714285714285714,
+      "pos_slope_correlation": 0.8617600911414744,
+      "early_stanza_slope": -0.18666666666666668,
+      "late_stanza_slope": 0.46,
+      "early_late_delta": 0.6466666666666667
+    },
+    {
+      "title": "Since there's no help (Sonnet 61)",
+      "author": "Michael Drayton",
+      "era": "early_modern",
+      "n_stanzas": 6,
+      "avg_arc_slope": -0.06654456654456653,
+      "pct_pos_arc": 0.3333333333333333,
+      "pos_slope_correlation": 0.8423733949154584,
+      "early_stanza_slope": -0.3553113553113553,
+      "late_stanza_slope": 0.22222222222222224,
+      "early_late_delta": 0.5775335775335776
+    },
+    {
+      "title": "Gerontion",
+      "author": "T.S. Eliot",
+      "era": "dramatic_monologue",
+      "n_stanzas": 11,
+      "avg_arc_slope": 0.13617473435655253,
+      "pct_pos_arc": 0.6363636363636364,
+      "pos_slope_correlation": 0.8359051722275359,
+      "early_stanza_slope": -0.09584415584415584,
+      "late_stanza_slope": 0.3295238095238095,
+      "early_late_delta": 0.42536796536796534
+    },
+    {
+      "title": "An Essay on Criticism (opening)",
+      "author": "Alexander Pope",
+      "era": "18th_century",
       "n_stanzas": 5,
-      "stanza_position": "middle",
-      "n": 34,
-      "first_I": 18.2,
-      "last_I": 0.0,
-      "first_III": 18.2,
-      "last_III": 33.3,
-      "arc_I": -18.2,
-      "arc_III": 15.1,
-      "arc_contrast": -0.3333
+      "avg_arc_slope": 0.36228571428571427,
+      "pct_pos_arc": 0.6,
+      "pos_slope_correlation": 0.8023495932115172,
+      "early_stanza_slope": -0.05428571428571428,
+      "late_stanza_slope": 0.64,
+      "early_late_delta": 0.6942857142857143
     },
     {
-      "poem": "The Wife of Usher's Well",
-      "author": "Traditional (Scottish ballad)",
-      "era": "ballad",
-      "stanza_idx": 3,
-      "n_stanzas": 4,
-      "stanza_position": "last",
-      "n": 33,
-      "first_I": 27.3,
-      "last_I": 9.1,
-      "first_III": 18.2,
-      "last_III": 36.4,
-      "arc_I": -18.2,
-      "arc_III": 18.2,
-      "arc_contrast": -0.3636
+      "title": "The New Colossus",
+      "author": "Emma Lazarus",
+      "era": "protest_political",
+      "n_stanzas": 7,
+      "avg_arc_slope": 0.21336675020885545,
+      "pct_pos_arc": 0.5714285714285714,
+      "pos_slope_correlation": 0.7632082231409993,
+      "early_stanza_slope": -0.013255360623781682,
+      "late_stanza_slope": 0.38333333333333336,
+      "early_late_delta": 0.39658869395711505
     },
     {
-      "poem": "Tears, Idle Tears",
-      "author": "Alfred, Lord Tennyson",
-      "era": "victorian",
-      "stanza_idx": 3,
-      "n_stanzas": 4,
-      "stanza_position": "last",
-      "n": 51,
-      "first_I": 17.6,
-      "last_I": 0.0,
-      "first_III": 29.4,
-      "last_III": 52.9,
-      "arc_I": -17.6,
-      "arc_III": 23.5,
-      "arc_contrast": -0.4118
+      "title": "The Second Coming",
+      "author": "W.B. Yeats",
+      "era": "modernist",
+      "n_stanzas": 5,
+      "avg_arc_slope": -0.1711111111111111,
+      "pct_pos_arc": 0.4,
+      "pos_slope_correlation": 0.7536295629477999,
+      "early_stanza_slope": -0.37777777777777777,
+      "late_stanza_slope": -0.033333333333333326,
+      "early_late_delta": 0.34444444444444444
+    },
+    {
+      "title": "Home on the Range",
+      "author": "Brewster Higley",
+      "era": "song_lyrics",
+      "n_stanzas": 10,
+      "avg_arc_slope": 0.25297619047619047,
+      "pct_pos_arc": 0.625,
+      "pos_slope_correlation": 0.7362128541245555,
+      "early_stanza_slope": -0.07738095238095238,
+      "late_stanza_slope": 0.5833333333333334,
+      "early_late_delta": 0.6607142857142858
+    },
+    {
+      "title": "Umbra Vitae (trans. Hamburger)",
+      "author": "Georg Heym",
+      "era": "german_expressionist",
+      "n_stanzas": 5,
+      "avg_arc_slope": 0.30512820512820515,
+      "pct_pos_arc": 0.75,
+      "pos_slope_correlation": 0.7329095917639574,
+      "early_stanza_slope": 0.07692307692307693,
+      "late_stanza_slope": 0.5333333333333333,
+      "early_late_delta": 0.4564102564102564
+    },
+    {
+      "title": "Song of Myself (section 33, excerpt)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "n_stanzas": 9,
+      "avg_arc_slope": 0.3708901884340481,
+      "pct_pos_arc": 1.0,
+      "pos_slope_correlation": 0.7164764625617149,
+      "early_stanza_slope": 0.1845029239766082,
+      "late_stanza_slope": 0.52,
+      "early_late_delta": 0.33549707602339185
     }
   ]
 }

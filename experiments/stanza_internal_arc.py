@@ -1,410 +1,348 @@
 """
-Stanza-Internal Arc: Is "Deviate Early, Resolve Late" Fractal?
+Stanza-Internal Liberation Arc: Fractal Structure Hypothesis
 
-Prior work (within_poem_type_arc.py) established that whole poems show
-a strong "deviate early, resolve late" arc: Type I% (Definite Straussian Gap)
-is highest in the first third of poems and declines toward the end.
+Building on liberation_arc_within_poem.py which found:
+- Poems move from Anchoring-dominant (opening) to Liberation-dominant (close)
+- The effect is strongest in forms with refrain/repetition (villanelle, ballad)
+- 68% of poems show Liberation building toward the end
 
-This experiment asks: does the same arc hold *within individual stanzas*?
+HYPOTHESIS: The poem-level Anchoring→Liberation arc REPLICATES within each stanza.
+If poetic structure is fractal, each stanza should have its own mini-arc:
+- Stanza-opening positions dominated by Anchoring (model is uncertain)
+- Stanza-closing positions dominated by Liberation (model has learned the stanza's idiom)
 
-If each stanza also front-loads Type I and back-loads Type III, the
-pattern is *self-similar across scales* — a fractal property of poetic
-information management.
-
-If stanzas do not show the arc (or show the reverse), it would suggest the
-whole-poem arc emerges from macro-structure (the poem's argument/narrative)
-rather than from any local principle of line-group composition.
+A secondary test: Does stanza position within a poem modulate the stanza arc slope?
+(Early stanzas might show stronger Anchoring, late stanzas stronger Liberation)
 
 Method:
-  - Uses corpus_results.json (pre-computed S2/entropy/rank)
-  - Re-tokenizes each poem (tokenizer only, no model) to map positions → stanzas
-  - For each stanza with ≥15 artifact-free tokens, splits into thirds
-  - Classifies tokens (Type I/II/III/IV) using corpus-wide entropy median
-  - Aggregates stanza arcs vs. whole-poem arcs
+1. Segment tokens into stanzas using newline-heavy tokens as stanza breaks
+2. Within each stanza, classify tokens as Liberation/Anchoring by within-stanza position
+3. Test whether the within-stanza arc direction matches the within-poem arc
+4. Compare arc slopes: early stanzas vs. late stanzas
+5. Test the fractal hypothesis: does stanza_arc_slope ~ poem_arc_slope?
 """
 
 import json
+import math
 import statistics
-import sys
-import os
 from collections import defaultdict
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
-from corpus.poems import POEMS
+CORPUS_PATH = "results/corpus_results.json"
+OUTPUT_PATH = "results/stanza_internal_arc.json"
 
-RESULTS_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "results", "corpus_results.json")
-RANK_THRESHOLD = 10
-MIN_STANZA_TOKENS = 15  # minimum artifact-free tokens per stanza to analyze
+LOW_ENT_THRESHOLD = 4.0
+HIGH_ENT_THRESHOLD = 7.0
+MIN_STANZA_TOKENS = 5     # minimum tokens to count a stanza
+MIN_POEM_STANZAS = 2      # minimum stanzas to analyze a poem
+
+
+def pearson_r(xs, ys):
+    n = len(xs)
+    if n < 4:
+        return None
+    mx, my = sum(xs) / n, sum(ys) / n
+    num = sum((x - mx) * (y - my) for x, y in zip(xs, ys))
+    dx = math.sqrt(sum((x - mx) ** 2 for x in xs))
+    dy = math.sqrt(sum((y - my) ** 2 for y in ys))
+    if dx * dy == 0:
+        return None
+    return num / (dx * dy)
+
+
+def linear_slope(xs, ys):
+    n = len(xs)
+    if n < 4:
+        return None, None
+    mx, my = sum(xs) / n, sum(ys) / n
+    ssxx = sum((x - mx) ** 2 for x in xs)
+    ssxy = sum((x - mx) * (y - my) for x, y in zip(xs, ys))
+    if ssxx == 0:
+        return None, None
+    slope = ssxy / ssxx
+    return slope, my - slope * mx
 
 
 def is_artifact(tok):
-    alts = tok.get("alternatives", [])
-    if not alts:
-        return False
-    top = alts[0]
-    return top["token"] in ("\n", "\r\n", "\r") and top["prob"] >= 0.9
+    return tok.get('p_newline', 0) > 0.9
 
 
-def classify_token(tok, entropy_median):
-    if is_artifact(tok):
-        return None
-    h = tok["entropy"]
-    rank = tok.get("rank", 9999)
-    low_entropy = h < entropy_median
-    expected = rank <= RANK_THRESHOLD
-    if low_entropy and not expected:
-        return "I"
-    elif not low_entropy and not expected:
-        return "II"
-    elif low_entropy and expected:
-        return "III"
-    else:
-        return "IV"
+def is_stanza_break(tok):
+    """Tokens with very high p_newline (blank-line boundary) signal stanza breaks."""
+    return tok.get('p_newline', 0) > 0.95
 
 
-def build_position_to_stanza(poem_text, tokenizer):
-    """
-    Tokenize poem_text, map each token (1-indexed position) to its stanza index.
-    Returns dict: position (1-based) -> stanza_index (0-based), or None if not in a stanza.
-    """
-    # Parse stanzas (groups of non-empty lines separated by blank lines)
-    raw_lines = poem_text.split("\n")
-    stanza_char_ranges = []  # list of (start_char, end_char) for each stanza
-    current_stanza_start = None
-    current_stanza_end = None
-    char_pos = 0
+def classify_event(s2_t, ent_t, s2_median):
+    if s2_t <= s2_median:
+        return 'neutral'
+    if ent_t < LOW_ENT_THRESHOLD:
+        return 'liberation'
+    elif ent_t >= HIGH_ENT_THRESHOLD:
+        return 'anchoring'
+    return 'neutral'
 
-    for line in raw_lines:
-        line_start = char_pos
-        line_end = char_pos + len(line)
-        char_pos += len(line) + 1  # +1 for \n
 
-        if line.strip() == "":
-            if current_stanza_start is not None:
-                stanza_char_ranges.append((current_stanza_start, current_stanza_end))
-                current_stanza_start = None
-                current_stanza_end = None
+def segment_into_stanzas(tokens, global_s2_median):
+    """Split clean tokens into stanzas, returning list of stanza token lists."""
+    stanzas = []
+    current = []
+    for tok in tokens:
+        if is_artifact(tok):
+            if is_stanza_break(tok) and len(current) >= MIN_STANZA_TOKENS:
+                stanzas.append(current)
+                current = []
         else:
-            if current_stanza_start is None:
-                current_stanza_start = line_start
-            current_stanza_end = line_end
-
-    if current_stanza_start is not None:
-        stanza_char_ranges.append((current_stanza_start, current_stanza_end))
-
-    if len(stanza_char_ranges) < 2:
-        return None, stanza_char_ranges  # Need at least 2 stanzas
-
-    # Tokenize to get character offsets
-    ids = tokenizer.encode(poem_text)
-    tokens = [tokenizer.decode([i]) for i in ids]
-
-    # Build character offset for each token
-    char_offsets = []
-    offset = 0
-    for t in tokens:
-        char_offsets.append(offset)
-        offset += len(t)
-
-    # Map each position (1-indexed) to stanza index
-    pos_to_stanza = {}
-    for tok_idx in range(1, len(tokens)):
-        tok_char = char_offsets[tok_idx]
-        stanza_idx = None
-        for si, (s_start, s_end) in enumerate(stanza_char_ranges):
-            if s_start <= tok_char <= s_end:
-                stanza_idx = si
-                break
-        pos_to_stanza[tok_idx] = stanza_idx  # None if in blank line between stanzas
-
-    return pos_to_stanza, stanza_char_ranges
+            current.append(tok)
+    if len(current) >= MIN_STANZA_TOKENS:
+        stanzas.append(current)
+    return stanzas
 
 
-def type_stats(type_list):
-    counts = defaultdict(int)
-    for t in type_list:
-        counts[t] += 1
-    total = sum(counts.values())
-    if total == 0:
+def stanza_arc(stanza_tokens, global_s2_median):
+    """
+    For a single stanza, compute:
+    - within-stanza decile Liberation/Anchoring profiles
+    - arc slope (positive = Liberation builds toward stanza-end)
+    """
+    n = len(stanza_tokens)
+    if n < MIN_STANZA_TOKENS:
         return None
+
+    events = []
+    for i, tok in enumerate(stanza_tokens):
+        pos = i / (n - 1) if n > 1 else 0.5
+        evt = classify_event(tok['s2'], tok['entropy'], global_s2_median)
+        events.append((pos, evt))
+
+    # Quintile profile (5 bins, since stanzas are short)
+    bins = defaultdict(lambda: {'lib': 0, 'anc': 0, 'total': 0})
+    for pos, evt in events:
+        b = min(int(pos * 5), 4)
+        bins[b]['total'] += 1
+        if evt == 'liberation':
+            bins[b]['lib'] += 1
+        elif evt == 'anchoring':
+            bins[b]['anc'] += 1
+
+    lib_frac = []
+    anc_frac = []
+    net_frac = []
+    xs = []
+    for b in range(5):
+        d = bins[b]
+        if d['total'] >= 2:
+            l = d['lib'] / d['total']
+            a = d['anc'] / d['total']
+            lib_frac.append(l)
+            anc_frac.append(a)
+            net_frac.append(l - a)
+            xs.append(b / 4)
+
+    if len(xs) < 3:
+        return None
+
+    slope, _ = linear_slope(xs, net_frac)
+    r = pearson_r(xs, net_frac)
+
     return {
-        "n": total,
-        "I":   round(counts["I"] / total * 100, 1),
-        "III": round(counts["III"] / total * 100, 1),
-        "contrast": round((counts["I"] - counts["III"]) / total, 4),
+        'n_tokens': n,
+        'lib_profile': lib_frac,
+        'anc_profile': anc_frac,
+        'net_profile': net_frac,
+        'arc_slope': slope,
+        'arc_r': r,
+        'mean_lib': sum(lib_frac) / len(lib_frac),
+        'mean_anc': sum(anc_frac) / len(anc_frac),
     }
 
 
-def run():
-    # Load tokenizer (no model needed)
-    try:
-        from transformers import AutoTokenizer
-        tokenizer = AutoTokenizer.from_pretrained("gpt2")
-    except Exception as e:
-        print(f"Error loading tokenizer: {e}")
-        sys.exit(1)
+def main():
+    with open(CORPUS_PATH) as f:
+        corpus = json.load(f)
 
-    print("Tokenizer loaded.")
+    # Global S2 median
+    all_s2 = []
+    for text in corpus:
+        for tok in text.get('tokens', []):
+            if not is_artifact(tok):
+                all_s2.append(tok['s2'])
+    global_s2_median = statistics.median(all_s2)
+    print(f"Global S2 median: {global_s2_median:.3f} (n={len(all_s2):,} tokens)")
 
-    with open(RESULTS_PATH) as f:
-        corpus_data = json.load(f)
+    # Per-poem analysis
+    per_poem = []
+    era_poems = defaultdict(list)
+    total_stanzas = 0
 
-    # Build corpus entropy median
-    all_entropies = []
-    for poem in corpus_data:
-        for tok in poem["tokens"]:
-            if not is_artifact(tok) and tok["entropy"] > 0:
-                all_entropies.append(tok["entropy"])
-    entropy_median = statistics.median(all_entropies)
-    print(f"Corpus entropy median: {entropy_median:.3f} bits")
-    print(f"Total poems in corpus: {len(corpus_data)}")
+    for text in corpus:
+        meta = text.get('metadata', {})
+        era = meta.get('era', 'unknown')
+        title = meta.get('title', 'Unknown')
+        author = meta.get('author', 'Unknown')
+        tokens = text.get('tokens', [])
 
-    # Build lookup from title to poem text
-    title_to_text = {p["title"]: p["text"] for p in POEMS}
-
-    stanza_arcs = []      # per-stanza arc data
-    poem_arc_summary = [] # per-poem summary
-    n_analyzed_poems = 0
-    n_analyzed_stanzas = 0
-    n_skipped_poems = 0
-
-    for poem_data in corpus_data:
-        meta = poem_data["metadata"]
-        title = meta["title"]
-        era = meta.get("era", "unknown")
-        language = meta.get("language", "en")
-
-        if language != "en":
-            continue
-        if era == "control":
+        stanzas = segment_into_stanzas(tokens, global_s2_median)
+        if len(stanzas) < MIN_POEM_STANZAS:
             continue
 
-        poem_text = title_to_text.get(title)
-        if poem_text is None:
+        stanza_results = []
+        for stanza_toks in stanzas:
+            result = stanza_arc(stanza_toks, global_s2_median)
+            if result is not None:
+                stanza_results.append(result)
+
+        if len(stanza_results) < MIN_POEM_STANZAS:
             continue
-        if "\n\n" not in poem_text:
-            continue  # No stanza breaks
 
-        # Map positions to stanzas
-        pos_to_stanza, stanza_ranges = build_position_to_stanza(poem_text, tokenizer)
-        if pos_to_stanza is None:
-            continue  # < 2 stanzas
-        n_stanzas = len(stanza_ranges)
+        total_stanzas += len(stanza_results)
 
-        # Group tokens by stanza
-        stanza_tokens = defaultdict(list)  # stanza_idx -> [(position, type)]
-        for tok in poem_data["tokens"]:
-            pos = tok["position"]
-            stanza_idx = pos_to_stanza.get(pos)
-            if stanza_idx is None:
-                continue
-            qtype = classify_token(tok, entropy_median)
-            if qtype is None:
-                continue
-            stanza_tokens[stanza_idx].append((pos, qtype))
+        # Test fractal hypothesis: does stanza arc slope increase with stanza position?
+        # (If poem-level arc is fractal, later stanzas should have higher arc slopes)
+        stanza_positions = [i / (len(stanza_results) - 1) for i in range(len(stanza_results))]
+        stanza_slopes = [s['arc_slope'] for s in stanza_results if s['arc_slope'] is not None]
+        valid_pos = [p for p, s in zip(stanza_positions, [sr['arc_slope'] for sr in stanza_results])
+                     if s is not None]
 
-        # Analyze each stanza's internal arc
-        poem_stanza_arcs = []
-        for si in range(n_stanzas):
-            toks = stanza_tokens[si]
-            if len(toks) < MIN_STANZA_TOKENS:
-                continue
+        pos_slope_r = pearson_r(valid_pos, stanza_slopes) if len(stanza_slopes) >= 4 else None
 
-            n = len(toks)
-            t1 = [t for _, t in toks[:n // 3]]
-            t3 = [t for _, t in toks[2 * n // 3:]]
+        # Average arc slope across all stanzas
+        avg_arc_slope = sum(stanza_slopes) / len(stanza_slopes) if stanza_slopes else None
+        pos_arc_slopes = sum(1 for s in stanza_slopes if s is not None and s > 0)
+        pct_pos_arc = pos_arc_slopes / len(stanza_slopes) if stanza_slopes else None
 
-            s1 = type_stats(t1)
-            s3 = type_stats(t3)
-            if not s1 or not s3:
-                continue
+        # Early vs. late stanza arc slopes
+        n_stanzas = len(stanza_results)
+        early_stanzas = stanza_results[:n_stanzas // 2]
+        late_stanzas = stanza_results[n_stanzas // 2:]
+        early_slopes = [s['arc_slope'] for s in early_stanzas if s['arc_slope'] is not None]
+        late_slopes = [s['arc_slope'] for s in late_stanzas if s['arc_slope'] is not None]
+        early_avg = sum(early_slopes) / len(early_slopes) if early_slopes else None
+        late_avg = sum(late_slopes) / len(late_slopes) if late_slopes else None
 
-            arc_I = round(s3["I"] - s1["I"], 2)
-            arc_III = round(s3["III"] - s1["III"], 2)
+        poem_data = {
+            'title': title,
+            'author': author,
+            'era': era,
+            'n_stanzas': len(stanza_results),
+            'stanza_slopes': stanza_slopes,
+            'avg_arc_slope': avg_arc_slope,
+            'pct_pos_arc': pct_pos_arc,
+            'pos_slope_correlation': pos_slope_r,
+            'early_stanza_slope': early_avg,
+            'late_stanza_slope': late_avg,
+            'early_late_delta': (late_avg - early_avg) if early_avg is not None and late_avg is not None else None,
+        }
+        per_poem.append(poem_data)
+        era_poems[era].append(poem_data)
 
-            stanza_arcs.append({
-                "poem": title,
-                "author": meta.get("author", ""),
-                "era": era,
-                "stanza_idx": si,
-                "n_stanzas": n_stanzas,
-                "stanza_position": "first" if si == 0 else ("last" if si == n_stanzas - 1 else "middle"),
-                "n": n,
-                "first_I": s1["I"],
-                "last_I": s3["I"],
-                "first_III": s1["III"],
-                "last_III": s3["III"],
-                "arc_I": arc_I,
-                "arc_III": arc_III,
-                "arc_contrast": round((s3["contrast"] - s1["contrast"]), 4),
-            })
-            poem_stanza_arcs.append(arc_I)
-            n_analyzed_stanzas += 1
+    print(f"\nPoems analyzed: {len(per_poem):,} with {total_stanzas:,} stanzas")
 
-        if poem_stanza_arcs:
-            n_analyzed_poems += 1
-            poem_arc_summary.append({
-                "title": title,
-                "author": meta.get("author", ""),
-                "era": era,
-                "n_stanzas": n_stanzas,
-                "n_usable_stanzas": len(poem_stanza_arcs),
-                "avg_stanza_arc_I": round(statistics.mean(poem_stanza_arcs), 2),
-            })
-        else:
-            n_skipped_poems += 1
+    # === GLOBAL STANZA ARC ===
+    all_arc_slopes = [p['avg_arc_slope'] for p in per_poem if p['avg_arc_slope'] is not None]
+    pct_positive = sum(1 for s in all_arc_slopes if s > 0) / len(all_arc_slopes) if all_arc_slopes else 0
+    mean_slope = sum(all_arc_slopes) / len(all_arc_slopes) if all_arc_slopes else 0
 
-    print(f"\nAnalyzed: {n_analyzed_poems} poems, {n_analyzed_stanzas} stanzas")
-    print(f"Skipped (no usable stanzas): {n_skipped_poems}\n")
+    print(f"\n=== GLOBAL STANZA-INTERNAL ARC ===")
+    print(f"Mean within-stanza arc slope: {mean_slope:.4f}")
+    print(f"% poems with positive slope (Anchoring→Liberation): {pct_positive*100:.1f}%")
 
-    # ── FINDING 1: Global stanza arc direction ────────────────────────────────
-    all_arc_I = [s["arc_I"] for s in stanza_arcs]
-    all_arc_III = [s["arc_III"] for s in stanza_arcs]
-    n_negative_arc = sum(1 for x in all_arc_I if x < 0)
-    n_positive_arc = sum(1 for x in all_arc_I if x > 0)
-    mean_arc_I = statistics.mean(all_arc_I)
-    mean_arc_III = statistics.mean(all_arc_III)
+    # Comparison to poem-level arc from previous experiment
+    # (previous experiment found: poem-level mean slope ~+0.131, 68% positive)
+    if pct_positive > 0.5:
+        print("  → Fractal hypothesis SUPPORTED: stanzas mirror poem-level arc")
+    elif pct_positive < 0.4:
+        print("  → Fractal hypothesis REJECTED: stanzas show opposite arc to poem-level")
+    else:
+        print("  → Fractal hypothesis INCONCLUSIVE")
 
-    print("=" * 65)
-    print("FINDING 1: Global Stanza Arc Direction")
-    print("=" * 65)
-    print(f"  Stanzas where arc_I < 0 (deviate early): {n_negative_arc} / {len(all_arc_I)} = {100*n_negative_arc/len(all_arc_I):.1f}%")
-    print(f"  Stanzas where arc_I > 0 (buildup-release): {n_positive_arc} / {len(all_arc_I)} = {100*n_positive_arc/len(all_arc_I):.1f}%")
-    print(f"  Mean arc_I (across stanzas): {mean_arc_I:+.2f}")
-    print(f"  Mean arc_III (across stanzas): {mean_arc_III:+.2f}")
+    # === STANZA POSITION EFFECT ===
+    pos_slope_rs = [p['pos_slope_correlation'] for p in per_poem if p['pos_slope_correlation'] is not None]
+    pct_pos_r = sum(1 for r in pos_slope_rs if r > 0) / len(pos_slope_rs) if pos_slope_rs else 0
+    mean_r = sum(pos_slope_rs) / len(pos_slope_rs) if pos_slope_rs else 0
 
-    # ── FINDING 2: Stanza position within poem ────────────────────────────────
-    print("\n" + "=" * 65)
-    print("FINDING 2: Arc by Stanza Position in Poem")
-    print("=" * 65)
-    print(f"{'Stanza position':<16} {'N':>5} {'%deviate_early':>15} {'mean arc_I':>12} {'mean arc_III':>13}")
-    print("-" * 65)
-    for pos_label in ["first", "middle", "last"]:
-        subset = [s for s in stanza_arcs if s["stanza_position"] == pos_label]
-        if not subset:
+    print(f"\n=== STANZA POSITION EFFECT ===")
+    print(f"Mean correlation (stanza position → arc slope): r = {mean_r:.4f}")
+    print(f"% poems where later stanzas have higher arc slopes: {pct_pos_r*100:.1f}%")
+    if mean_r > 0.1:
+        print("  → Later stanzas tend to have stronger Anchoring→Liberation arcs")
+    elif mean_r < -0.1:
+        print("  → Earlier stanzas tend to have stronger arcs")
+
+    # Early vs late stanza delta
+    all_deltas = [p['early_late_delta'] for p in per_poem if p['early_late_delta'] is not None]
+    mean_delta = sum(all_deltas) / len(all_deltas) if all_deltas else 0
+    print(f"\nMean early-to-late stanza arc slope delta: {mean_delta:+.4f}")
+    if mean_delta > 0.01:
+        print("  → Arc slopes increase from early to late stanzas (fractal amplification)")
+    elif mean_delta < -0.01:
+        print("  → Arc slopes decrease from early to late stanzas (fractal attenuation)")
+
+    # === ERA BREAKDOWN ===
+    print(f"\n=== ERA-LEVEL STANZA ARC SLOPES ===")
+    era_stats = []
+    for era, poems in sorted(era_poems.items(), key=lambda kv: -len(kv[1])):
+        slopes = [p['avg_arc_slope'] for p in poems if p['avg_arc_slope'] is not None]
+        if len(slopes) < 2:
             continue
-        arcs = [s["arc_I"] for s in subset]
-        neg_pct = 100 * sum(1 for x in arcs if x < 0) / len(arcs)
-        print(f"{pos_label:<16} {len(subset):>5} {neg_pct:>14.1f}% {statistics.mean(arcs):>+12.2f} "
-              f"{statistics.mean(s['arc_III'] for s in subset):>+13.2f}")
-
-    # ── FINDING 3: Per-era stanza arc ─────────────────────────────────────────
-    print("\n" + "=" * 65)
-    print("FINDING 3: Per-Era Stanza Arc (mean arc_I, stanzas)")
-    print("=" * 65)
-    era_data = defaultdict(list)
-    for s in stanza_arcs:
-        era_data[s["era"]].append(s["arc_I"])
-    era_rows = []
-    for era, arcs in era_data.items():
-        if len(arcs) < 3:
-            continue
-        neg_pct = 100 * sum(1 for x in arcs if x < 0) / len(arcs)
-        era_rows.append({
-            "era": era,
-            "n": len(arcs),
-            "mean_arc": round(statistics.mean(arcs), 2),
-            "neg_pct": round(neg_pct, 1),
+        mean_s = sum(slopes) / len(slopes)
+        pct_p = sum(1 for s in slopes if s > 0) / len(slopes)
+        deltas = [p['early_late_delta'] for p in poems if p['early_late_delta'] is not None]
+        mean_d = sum(deltas) / len(deltas) if deltas else None
+        era_stats.append({
+            'era': era,
+            'n': len(poems),
+            'mean_slope': mean_s,
+            'pct_pos': pct_p,
+            'mean_delta': mean_d
         })
-    era_rows.sort(key=lambda r: r["mean_arc"])
-    print(f"{'Era':<22} {'N':>5} {'mean arc_I':>12} {'% deviate_early':>16}")
-    print("-" * 60)
-    for r in era_rows:
-        print(f"  {r['era']:<20} {r['n']:>5} {r['mean_arc']:>+12.2f} {r['neg_pct']:>15.1f}%")
 
-    # ── FINDING 4: First stanza vs. rest of poem ──────────────────────────────
-    print("\n" + "=" * 65)
-    print("FINDING 4: First Stanza vs. Later Stanzas (within same poem)")
-    print("=" * 65)
-    first_arcs = [s["arc_I"] for s in stanza_arcs if s["stanza_position"] == "first"]
-    later_arcs = [s["arc_I"] for s in stanza_arcs if s["stanza_position"] != "first"]
-    print(f"  First stanza avg arc_I:  {statistics.mean(first_arcs):+.2f}  (n={len(first_arcs)})")
-    print(f"  Later stanzas avg arc_I: {statistics.mean(later_arcs):+.2f}  (n={len(later_arcs)})")
+    era_stats.sort(key=lambda x: -x['mean_slope'])
+    print(f"{'Era':<30} {'n':>4} {'Avg slope':>10} {'% pos':>7} {'Early→Late Δ':>13}")
+    for e in era_stats:
+        d_str = f"{e['mean_delta']:+.4f}" if e['mean_delta'] is not None else "    —"
+        print(f"  {e['era']:<28} {e['n']:>4} {e['mean_slope']:>10.4f} {e['pct_pos']*100:>6.1f}% {d_str:>13}")
 
-    # ── FINDING 5: Compare stanza-level arc to poem-level arc ─────────────────
-    print("\n" + "=" * 65)
-    print("FINDING 5: Stanza Arc vs. Poem-Level Arc (same poems)")
-    print("=" * 65)
-    # For poems where we know the poem-level arc from within_poem_type_arc results, compare
-    # Here we compute the poem-level arc from the same data for consistency
-    poem_level_arcs = []
-    for poem_data in corpus_data:
-        meta = poem_data["metadata"]
-        if meta.get("language", "en") != "en":
-            continue
-        if meta.get("era", "") == "control":
-            continue
-        classified = []
-        for tok in poem_data["tokens"]:
-            qtype = classify_token(tok, entropy_median)
-            if qtype is not None:
-                classified.append(qtype)
-        if len(classified) < 30:
-            continue
-        n = len(classified)
-        t1 = classified[:n // 3]
-        t3 = classified[2 * n // 3:]
-        s1 = type_stats(t1)
-        s3 = type_stats(t3)
-        if s1 and s3:
-            poem_level_arcs.append(s3["I"] - s1["I"])
+    # === POEMS WITH STRONGEST FRACTAL SIGNATURE ===
+    print(f"\n=== TOP 10 POEMS: STRONGEST FRACTAL ARC (consistent slope) ===")
+    poems_with_data = [p for p in per_poem if p['avg_arc_slope'] is not None and p['n_stanzas'] >= 3]
+    top_poems = sorted(poems_with_data, key=lambda p: abs(p['avg_arc_slope']), reverse=True)[:10]
+    for p in top_poems:
+        direction = "→Liberation" if p['avg_arc_slope'] > 0 else "→Anchoring"
+        stanza_slopes_fmt = ", ".join(f"{s:+.2f}" for s in (p['stanza_slopes'] or [])[:5])
+        print(f"  {p['title'][:35]:<35} | {p['author'][:20]:<20} | slope={p['avg_arc_slope']:+.3f} {direction}")
+        print(f"    stanza slopes: [{stanza_slopes_fmt}]  n={p['n_stanzas']}")
 
-    if poem_level_arcs:
-        poem_neg = 100 * sum(1 for x in poem_level_arcs if x < 0) / len(poem_level_arcs)
-        stanza_neg = 100 * n_negative_arc / len(all_arc_I)
-        print(f"  Poem-level: {poem_neg:.1f}% show deviate-early arc (n={len(poem_level_arcs)} poems)")
-        print(f"  Stanza-level: {stanza_neg:.1f}% show deviate-early arc (n={len(all_arc_I)} stanzas)")
-
-    # ── Top examples ──────────────────────────────────────────────────────────
-    print("\n" + "=" * 65)
-    print("TOP 10 STANZAS: Strongest 'deviate early' (most negative arc_I)")
-    print("=" * 65)
-    sorted_stanzas = sorted(stanza_arcs, key=lambda s: s["arc_I"])
-    for s in sorted_stanzas[:10]:
-        print(f"  arc_I={s['arc_I']:+.1f}  stanza {s['stanza_idx']+1}/{s['n_stanzas']}  "
-              f"{s['author']}: '{s['poem'][:40]}' ({s['era']})")
-
-    print("\n" + "=" * 65)
-    print("TOP 10 STANZAS: Strongest 'buildup-release' (most positive arc_I)")
-    print("=" * 65)
-    for s in sorted(stanza_arcs, key=lambda s: -s["arc_I"])[:10]:
-        print(f"  arc_I={s['arc_I']:+.1f}  stanza {s['stanza_idx']+1}/{s['n_stanzas']}  "
-              f"{s['author']}: '{s['poem'][:40]}' ({s['era']})")
+    # === POEMS WHERE STANZA POSITION PREDICTS SLOPE ===
+    print(f"\n=== TOP 10 POEMS: STRONGEST POSITION-SLOPE CORRELATION ===")
+    poems_pos_corr = [p for p in per_poem if p['pos_slope_correlation'] is not None and p['n_stanzas'] >= 4]
+    top_pos = sorted(poems_pos_corr, key=lambda p: p['pos_slope_correlation'], reverse=True)[:10]
+    for p in top_pos:
+        print(f"  r={p['pos_slope_correlation']:+.3f} | {p['title'][:35]:<35} | {p['era']:<20} | n_stanzas={p['n_stanzas']}")
 
     # Save results
-    out = {
-        "entropy_median": entropy_median,
-        "n_poems_analyzed": n_analyzed_poems,
-        "n_stanzas_analyzed": n_analyzed_stanzas,
-        "global": {
-            "pct_deviate_early": round(100 * n_negative_arc / len(all_arc_I), 1),
-            "mean_arc_I": round(mean_arc_I, 2),
-            "mean_arc_III": round(mean_arc_III, 2),
+    output = {
+        'global': {
+            'n_poems': len(per_poem),
+            'n_stanzas': total_stanzas,
+            'mean_arc_slope': mean_slope,
+            'pct_positive_arc': pct_positive,
+            'mean_pos_slope_r': mean_r,
+            'mean_early_late_delta': mean_delta,
         },
-        "by_stanza_position": {
-            pos_label: {
-                "n": len([s for s in stanza_arcs if s["stanza_position"] == pos_label]),
-                "mean_arc_I": round(statistics.mean(
-                    [s["arc_I"] for s in stanza_arcs if s["stanza_position"] == pos_label]
-                ), 2) if any(s["stanza_position"] == pos_label for s in stanza_arcs) else None,
-                "pct_deviate_early": round(100 * sum(
-                    1 for s in stanza_arcs if s["stanza_position"] == pos_label and s["arc_I"] < 0
-                ) / max(1, len([s for s in stanza_arcs if s["stanza_position"] == pos_label])), 1)
-            }
-            for pos_label in ["first", "middle", "last"]
-        },
-        "era_rows": era_rows,
-        "poem_level_pct_deviate_early": round(poem_neg, 1) if poem_level_arcs else None,
-        "stanza_arcs_sample": sorted_stanzas[:20],
+        'per_era': era_stats,
+        'top_fractal_poems': [
+            {k: v for k, v in p.items() if k != 'stanza_slopes'}
+            for p in top_poems
+        ],
+        'top_position_corr_poems': [
+            {k: v for k, v in p.items() if k != 'stanza_slopes'}
+            for p in top_pos
+        ],
     }
 
-    out_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "results", "stanza_internal_arc.json")
-    with open(out_path, "w") as f:
-        json.dump(out, f, indent=2)
-    print(f"\nResults saved to {out_path}")
-
-    return out
+    with open(OUTPUT_PATH, 'w') as f:
+        json.dump(output, f, indent=2)
+    print(f"\nResults saved to {OUTPUT_PATH}")
 
 
-if __name__ == "__main__":
-    results = run()
+if __name__ == '__main__':
+    main()
