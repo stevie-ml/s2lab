@@ -1,0 +1,649 @@
+{
+  "total_events": 3561,
+  "category_counts": {
+    "unfulfilled": 3052,
+    "delayed": 207,
+    "quick": 223,
+    "long_arc": 79
+  },
+  "era_stats": {
+    "deep_image": {
+      "total": 4,
+      "fulfillment_rate": 0.5,
+      "quick": 2,
+      "delayed": 0,
+      "long_arc": 0,
+      "unfulfilled": 2
+    },
+    "triolet": {
+      "total": 7,
+      "fulfillment_rate": 0.42857142857142855,
+      "quick": 2,
+      "delayed": 1,
+      "long_arc": 0,
+      "unfulfilled": 4
+    },
+    "concrete": {
+      "total": 14,
+      "fulfillment_rate": 0.35714285714285715,
+      "quick": 3,
+      "delayed": 2,
+      "long_arc": 0,
+      "unfulfilled": 9
+    },
+    "german_expressionist": {
+      "total": 91,
+      "fulfillment_rate": 0.3076923076923077,
+      "quick": 14,
+      "delayed": 13,
+      "long_arc": 1,
+      "unfulfilled": 63
+    },
+    "villanelle": {
+      "total": 26,
+      "fulfillment_rate": 0.3076923076923077,
+      "quick": 1,
+      "delayed": 7,
+      "long_arc": 0,
+      "unfulfilled": 18
+    },
+    "german_modernist": {
+      "total": 41,
+      "fulfillment_rate": 0.2926829268292683,
+      "quick": 9,
+      "delayed": 3,
+      "long_arc": 0,
+      "unfulfilled": 29
+    },
+    "german_symbolist": {
+      "total": 61,
+      "fulfillment_rate": 0.26229508196721313,
+      "quick": 12,
+      "delayed": 4,
+      "long_arc": 0,
+      "unfulfilled": 45
+    },
+    "parody_original": {
+      "total": 28,
+      "fulfillment_rate": 0.25,
+      "quick": 5,
+      "delayed": 2,
+      "long_arc": 0,
+      "unfulfilled": 21
+    },
+    "ghazal": {
+      "total": 12,
+      "fulfillment_rate": 0.25,
+      "quick": 2,
+      "delayed": 1,
+      "long_arc": 0,
+      "unfulfilled": 9
+    },
+    "nursery_rhyme": {
+      "total": 13,
+      "fulfillment_rate": 0.23076923076923078,
+      "quick": 1,
+      "delayed": 2,
+      "long_arc": 0,
+      "unfulfilled": 10
+    },
+    "ekphrastic": {
+      "total": 111,
+      "fulfillment_rate": 0.21621621621621623,
+      "quick": 2,
+      "delayed": 11,
+      "long_arc": 11,
+      "unfulfilled": 87
+    },
+    "latin_american": {
+      "total": 33,
+      "fulfillment_rate": 0.21212121212121213,
+      "quick": 2,
+      "delayed": 5,
+      "long_arc": 0,
+      "unfulfilled": 26
+    },
+    "19th_century": {
+      "total": 241,
+      "fulfillment_rate": 0.1950207468879668,
+      "quick": 13,
+      "delayed": 21,
+      "long_arc": 13,
+      "unfulfilled": 194
+    },
+    "nonsense": {
+      "total": 26,
+      "fulfillment_rate": 0.19230769230769232,
+      "quick": 1,
+      "delayed": 2,
+      "long_arc": 2,
+      "unfulfilled": 21
+    },
+    "found_poetry": {
+      "total": 58,
+      "fulfillment_rate": 0.1896551724137931,
+      "quick": 7,
+      "delayed": 4,
+      "long_arc": 0,
+      "unfulfilled": 47
+    },
+    "parody": {
+      "total": 44,
+      "fulfillment_rate": 0.18181818181818182,
+      "quick": 4,
+      "delayed": 3,
+      "long_arc": 1,
+      "unfulfilled": 36
+    },
+    "postcolonial": {
+      "total": 56,
+      "fulfillment_rate": 0.17857142857142858,
+      "quick": 6,
+      "delayed": 4,
+      "long_arc": 0,
+      "unfulfilled": 46
+    },
+    "surrealist": {
+      "total": 79,
+      "fulfillment_rate": 0.17721518987341772,
+      "quick": 8,
+      "delayed": 5,
+      "long_arc": 1,
+      "unfulfilled": 65
+    },
+    "dramatic_monologue": {
+      "total": 237,
+      "fulfillment_rate": 0.16877637130801687,
+      "quick": 6,
+      "delayed": 18,
+      "long_arc": 16,
+      "unfulfilled": 197
+    },
+    "harlem_renaissance": {
+      "total": 54,
+      "fulfillment_rate": 0.16666666666666666,
+      "quick": 6,
+      "delayed": 3,
+      "long_arc": 0,
+      "unfulfilled": 45
+    },
+    "language": {
+      "total": 37,
+      "fulfillment_rate": 0.16216216216216217,
+      "quick": 6,
+      "delayed": 0,
+      "long_arc": 0,
+      "unfulfilled": 31
+    },
+    "limerick": {
+      "total": 27,
+      "fulfillment_rate": 0.14814814814814814,
+      "quick": 4,
+      "delayed": 0,
+      "long_arc": 0,
+      "unfulfilled": 23
+    },
+    "biblical": {
+      "total": 68,
+      "fulfillment_rate": 0.14705882352941177,
+      "quick": 3,
+      "delayed": 4,
+      "long_arc": 3,
+      "unfulfilled": 58
+    },
+    "ballad": {
+      "total": 42,
+      "fulfillment_rate": 0.14285714285714285,
+      "quick": 1,
+      "delayed": 5,
+      "long_arc": 0,
+      "unfulfilled": 36
+    },
+    "old_english": {
+      "total": 43,
+      "fulfillment_rate": 0.13953488372093023,
+      "quick": 3,
+      "delayed": 3,
+      "long_arc": 0,
+      "unfulfilled": 37
+    },
+    "victorian": {
+      "total": 338,
+      "fulfillment_rate": 0.1390532544378698,
+      "quick": 17,
+      "delayed": 23,
+      "long_arc": 7,
+      "unfulfilled": 291
+    },
+    "contemporary": {
+      "total": 187,
+      "fulfillment_rate": 0.13903743315508021,
+      "quick": 16,
+      "delayed": 7,
+      "long_arc": 3,
+      "unfulfilled": 161
+    },
+    "song_lyrics": {
+      "total": 29,
+      "fulfillment_rate": 0.13793103448275862,
+      "quick": 2,
+      "delayed": 2,
+      "long_arc": 0,
+      "unfulfilled": 25
+    },
+    "cliche_control": {
+      "total": 22,
+      "fulfillment_rate": 0.13636363636363635,
+      "quick": 2,
+      "delayed": 1,
+      "long_arc": 0,
+      "unfulfilled": 19
+    },
+    "fixed_form": {
+      "total": 48,
+      "fulfillment_rate": 0.125,
+      "quick": 5,
+      "delayed": 1,
+      "long_arc": 0,
+      "unfulfilled": 42
+    },
+    "metaphysical": {
+      "total": 50,
+      "fulfillment_rate": 0.12,
+      "quick": 2,
+      "delayed": 4,
+      "long_arc": 0,
+      "unfulfilled": 44
+    },
+    "romantic": {
+      "total": 228,
+      "fulfillment_rate": 0.11842105263157894,
+      "quick": 11,
+      "delayed": 9,
+      "long_arc": 7,
+      "unfulfilled": 201
+    },
+    "elegy": {
+      "total": 93,
+      "fulfillment_rate": 0.11827956989247312,
+      "quick": 5,
+      "delayed": 6,
+      "long_arc": 0,
+      "unfulfilled": 82
+    },
+    "spoken_word": {
+      "total": 18,
+      "fulfillment_rate": 0.1111111111111111,
+      "quick": 1,
+      "delayed": 1,
+      "long_arc": 0,
+      "unfulfilled": 16
+    },
+    "persian": {
+      "total": 18,
+      "fulfillment_rate": 0.1111111111111111,
+      "quick": 0,
+      "delayed": 1,
+      "long_arc": 1,
+      "unfulfilled": 16
+    },
+    "early_modern": {
+      "total": 93,
+      "fulfillment_rate": 0.0967741935483871,
+      "quick": 3,
+      "delayed": 5,
+      "long_arc": 1,
+      "unfulfilled": 84
+    },
+    "imagist": {
+      "total": 31,
+      "fulfillment_rate": 0.0967741935483871,
+      "quick": 1,
+      "delayed": 2,
+      "long_arc": 0,
+      "unfulfilled": 28
+    },
+    "18th_century": {
+      "total": 94,
+      "fulfillment_rate": 0.09574468085106383,
+      "quick": 3,
+      "delayed": 5,
+      "long_arc": 1,
+      "unfulfilled": 85
+    },
+    "prose_poetry": {
+      "total": 96,
+      "fulfillment_rate": 0.09375,
+      "quick": 5,
+      "delayed": 4,
+      "long_arc": 0,
+      "unfulfilled": 87
+    },
+    "modernist": {
+      "total": 164,
+      "fulfillment_rate": 0.09146341463414634,
+      "quick": 7,
+      "delayed": 3,
+      "long_arc": 5,
+      "unfulfilled": 149
+    },
+    "mid_century": {
+      "total": 47,
+      "fulfillment_rate": 0.0851063829787234,
+      "quick": 1,
+      "delayed": 1,
+      "long_arc": 2,
+      "unfulfilled": 43
+    },
+    "double_dactyl": {
+      "total": 12,
+      "fulfillment_rate": 0.08333333333333333,
+      "quick": 1,
+      "delayed": 0,
+      "long_arc": 0,
+      "unfulfilled": 11
+    },
+    "procedural": {
+      "total": 48,
+      "fulfillment_rate": 0.08333333333333333,
+      "quick": 3,
+      "delayed": 1,
+      "long_arc": 0,
+      "unfulfilled": 44
+    },
+    "new_york_school": {
+      "total": 172,
+      "fulfillment_rate": 0.0755813953488372,
+      "quick": 5,
+      "delayed": 6,
+      "long_arc": 2,
+      "unfulfilled": 159
+    },
+    "oulipo": {
+      "total": 83,
+      "fulfillment_rate": 0.07228915662650602,
+      "quick": 6,
+      "delayed": 0,
+      "long_arc": 0,
+      "unfulfilled": 77
+    },
+    "classical_chinese": {
+      "total": 15,
+      "fulfillment_rate": 0.06666666666666667,
+      "quick": 1,
+      "delayed": 0,
+      "long_arc": 0,
+      "unfulfilled": 14
+    },
+    "protest_political": {
+      "total": 15,
+      "fulfillment_rate": 0.06666666666666667,
+      "quick": 0,
+      "delayed": 0,
+      "long_arc": 1,
+      "unfulfilled": 14
+    },
+    "beat": {
+      "total": 50,
+      "fulfillment_rate": 0.06,
+      "quick": 2,
+      "delayed": 1,
+      "long_arc": 0,
+      "unfulfilled": 47
+    },
+    "war_poetry": {
+      "total": 35,
+      "fulfillment_rate": 0.05714285714285714,
+      "quick": 0,
+      "delayed": 1,
+      "long_arc": 1,
+      "unfulfilled": 33
+    },
+    "black_arts": {
+      "total": 18,
+      "fulfillment_rate": 0.05555555555555555,
+      "quick": 1,
+      "delayed": 0,
+      "long_arc": 0,
+      "unfulfilled": 17
+    },
+    "confessional": {
+      "total": 29,
+      "fulfillment_rate": 0.0,
+      "quick": 0,
+      "delayed": 0,
+      "long_arc": 0,
+      "unfulfilled": 29
+    },
+    "haiku": {
+      "total": 22,
+      "fulfillment_rate": 0.0,
+      "quick": 0,
+      "delayed": 0,
+      "long_arc": 0,
+      "unfulfilled": 22
+    },
+    "ancient": {
+      "total": 18,
+      "fulfillment_rate": 0.0,
+      "quick": 0,
+      "delayed": 0,
+      "long_arc": 0,
+      "unfulfilled": 18
+    },
+    "korean_modernist": {
+      "total": 5,
+      "fulfillment_rate": 0.0,
+      "quick": 0,
+      "delayed": 0,
+      "long_arc": 0,
+      "unfulfilled": 5
+    },
+    "japanese_classical": {
+      "total": 3,
+      "fulfillment_rate": 0.0,
+      "quick": 0,
+      "delayed": 0,
+      "long_arc": 0,
+      "unfulfilled": 3
+    },
+    "clerihew": {
+      "total": 15,
+      "fulfillment_rate": 0.0,
+      "quick": 0,
+      "delayed": 0,
+      "long_arc": 0,
+      "unfulfilled": 15
+    },
+    "pantoum": {
+      "total": 9,
+      "fulfillment_rate": 0.0,
+      "quick": 0,
+      "delayed": 0,
+      "long_arc": 0,
+      "unfulfilled": 9
+    }
+  },
+  "top_examples": [
+    {
+      "title": "O Captain! My Captain! (stanza 1)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "position": 6,
+      "token_chosen": " fearful",
+      "top1_suppressed": " Captain",
+      "top1_prob": 0.6560074090957642,
+      "s2": 17.3246,
+      "fulfillment_distance": 77,
+      "fulfillment_category": "delayed"
+    },
+    {
+      "title": "O Captain! My Captain!",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "position": 6,
+      "token_chosen": " fearful",
+      "top1_suppressed": " Captain",
+      "top1_prob": 0.6560074090957642,
+      "s2": 17.3246,
+      "fulfillment_distance": 77,
+      "fulfillment_category": "delayed"
+    },
+    {
+      "title": "O Captain! My Captain!",
+      "author": "Walt Whitman",
+      "era": "elegy",
+      "position": 6,
+      "token_chosen": " fearful",
+      "top1_suppressed": " Captain",
+      "top1_prob": 0.6560074090957642,
+      "s2": 17.3246,
+      "fulfillment_distance": 77,
+      "fulfillment_category": "delayed"
+    },
+    {
+      "title": "Grodek",
+      "author": "Georg Trakl",
+      "era": "german_expressionist",
+      "position": 29,
+      "token_chosen": "ro",
+      "top1_suppressed": " und",
+      "top1_prob": 0.3993174731731415,
+      "s2": 13.4109,
+      "fulfillment_distance": 80,
+      "fulfillment_category": "delayed"
+    },
+    {
+      "title": "The House on the Hill",
+      "author": "Edwin Arlington Robinson",
+      "era": "villanelle",
+      "position": 118,
+      "token_chosen": " ruin",
+      "top1_suppressed": " nothing",
+      "top1_prob": 0.6385276317596436,
+      "s2": 13.1816,
+      "fulfillment_distance": 21,
+      "fulfillment_category": "delayed"
+    },
+    {
+      "title": "Ode on a Grecian Urn",
+      "author": "John Keats",
+      "era": "ekphrastic",
+      "position": 6,
+      "token_chosen": " bride",
+      "top1_suppressed": " thy",
+      "top1_prob": 0.10422246903181076,
+      "s2": 12.9453,
+      "fulfillment_distance": 52,
+      "fulfillment_category": "delayed"
+    },
+    {
+      "title": "The Season of Phantasmal Peace",
+      "author": "Derek Walcott",
+      "era": "postcolonial",
+      "position": 18,
+      "token_chosen": " broke",
+      "top1_suppressed": " all",
+      "top1_prob": 0.6975915431976318,
+      "s2": 12.9406,
+      "fulfillment_distance": 79,
+      "fulfillment_category": "delayed"
+    },
+    {
+      "title": "Ode on a Grecian Urn",
+      "author": "John Keats",
+      "era": "ekphrastic",
+      "position": 1,
+      "token_chosen": " still",
+      "top1_suppressed": " shalt",
+      "top1_prob": 0.7355479598045349,
+      "s2": 12.5439,
+      "fulfillment_distance": 546,
+      "fulfillment_category": "long_arc"
+    },
+    {
+      "title": "La Belle Dame sans Merci",
+      "author": "John Keats",
+      "era": "romantic",
+      "position": 114,
+      "token_chosen": "here",
+      "top1_suppressed": "hered",
+      "top1_prob": 0.9751291275024414,
+      "s2": 11.7938,
+      "fulfillment_distance": 345,
+      "fulfillment_category": "long_arc"
+    },
+    {
+      "title": "Lord Randal",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "position": 23,
+      "token_chosen": " handsome",
+      "top1_suppressed": " son",
+      "top1_prob": 0.6627678275108337,
+      "s2": 11.7091,
+      "fulfillment_distance": 54,
+      "fulfillment_category": "delayed"
+    },
+    {
+      "title": "Psalm 121 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "position": 60,
+      "token_chosen": " Israel",
+      "top1_suppressed": " thee",
+      "top1_prob": 0.6166520714759827,
+      "s2": 11.6493,
+      "fulfillment_distance": 32,
+      "fulfillment_category": "delayed"
+    },
+    {
+      "title": "Andrea del Sarto",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "position": 105,
+      "token_chosen": " blue",
+      "top1_suppressed": "ness",
+      "top1_prob": 0.5683397650718689,
+      "s2": 11.5782,
+      "fulfillment_distance": 155,
+      "fulfillment_category": "long_arc"
+    },
+    {
+      "title": "A Valediction: Forbidding Mourning",
+      "author": "John Donne",
+      "era": "early_modern",
+      "position": 112,
+      "token_chosen": " meant",
+      "top1_suppressed": " what",
+      "top1_prob": 0.06937118619680405,
+      "s2": 11.0689,
+      "fulfillment_distance": 78,
+      "fulfillment_category": "delayed"
+    },
+    {
+      "title": "The Death of the Hired Man (opening)",
+      "author": "Robert Frost",
+      "era": "early_modern",
+      "position": 1,
+      "token_chosen": " mus",
+      "top1_suppressed": " down",
+      "top1_prob": 0.16053326427936554,
+      "s2": 11.0516,
+      "fulfillment_distance": 29,
+      "fulfillment_category": "delayed"
+    },
+    {
+      "title": "Grodek",
+      "author": "Georg Trakl",
+      "era": "german_expressionist",
+      "position": 26,
+      "token_chosen": "str",
+      "top1_suppressed": "nen",
+      "top1_prob": 0.44660869240760803,
+      "s2": 10.9681,
+      "fulfillment_distance": 46,
+      "fulfillment_category": "delayed"
+    }
+  ]
+}
