@@ -1,0 +1,626 @@
+{
+  "n_poems": 416,
+  "global_decile_alpha": [
+    1.1568294112695776,
+    1.2911165319518192,
+    1.3128624378300553,
+    1.3377971512685947,
+    1.3602731128427388,
+    1.3790280301248268,
+    1.398153511582269,
+    1.3939553921946226,
+    1.3855903758862098,
+    1.4508209839854662
+  ],
+  "global_slope": 0.21341071811070977,
+  "global_r": 0.8879905842606063,
+  "pct_increasing_arc": 76.4423076923077,
+  "era_summary": {
+    "romantic": {
+      "n": 21,
+      "mean_slope": 0.13944397093168565,
+      "mean_delta_alpha": 0.08438092053393209,
+      "mean_early_alpha": 1.237644074590399,
+      "mean_late_alpha": 1.322024995124331,
+      "pct_increasing": 61.904761904761905
+    },
+    "19th_century": {
+      "n": 18,
+      "mean_slope": 0.09686918585536053,
+      "mean_delta_alpha": 0.0723818390065983,
+      "mean_early_alpha": 1.2413464040281268,
+      "mean_late_alpha": 1.313728243034725,
+      "pct_increasing": 77.77777777777777
+    },
+    "modernist": {
+      "n": 27,
+      "mean_slope": 0.2382758682186257,
+      "mean_delta_alpha": 0.19000580624051377,
+      "mean_early_alpha": 1.224014390143914,
+      "mean_late_alpha": 1.4140201963844279,
+      "pct_increasing": 77.77777777777777
+    },
+    "beat": {
+      "n": 8,
+      "mean_slope": 0.4072639235078234,
+      "mean_delta_alpha": 0.3076449297777758,
+      "mean_early_alpha": 1.4865219605453297,
+      "mean_late_alpha": 1.7941668903231054,
+      "pct_increasing": 100.0
+    },
+    "confessional": {
+      "n": 6,
+      "mean_slope": 0.20190157395884614,
+      "mean_delta_alpha": 0.0901923839108039,
+      "mean_early_alpha": 1.1820961797486476,
+      "mean_late_alpha": 1.2722885636594516,
+      "pct_increasing": 83.33333333333333
+    },
+    "mid_century": {
+      "n": 6,
+      "mean_slope": 0.49201235501578805,
+      "mean_delta_alpha": 0.39742881708995265,
+      "mean_early_alpha": 1.1303195488876214,
+      "mean_late_alpha": 1.527748365977574,
+      "pct_increasing": 66.66666666666667
+    },
+    "new_york_school": {
+      "n": 26,
+      "mean_slope": 0.15658370159876359,
+      "mean_delta_alpha": 0.1288640152327274,
+      "mean_early_alpha": 1.2440949894336037,
+      "mean_late_alpha": 1.3729590046663311,
+      "pct_increasing": 73.07692307692308
+    },
+    "language": {
+      "n": 6,
+      "mean_slope": 0.126382810702152,
+      "mean_delta_alpha": 0.07617418697215812,
+      "mean_early_alpha": 1.2394492513290936,
+      "mean_late_alpha": 1.3156234383012517,
+      "pct_increasing": 83.33333333333333
+    },
+    "contemporary": {
+      "n": 19,
+      "mean_slope": 0.1433981154973379,
+      "mean_delta_alpha": 0.11068978478381795,
+      "mean_early_alpha": 1.316818318271636,
+      "mean_late_alpha": 1.427508103055454,
+      "pct_increasing": 63.1578947368421
+    },
+    "harlem_renaissance": {
+      "n": 7,
+      "mean_slope": 0.06325591534757374,
+      "mean_delta_alpha": 0.015395178096143975,
+      "mean_early_alpha": 1.260187647189467,
+      "mean_late_alpha": 1.275582825285611,
+      "pct_increasing": 71.42857142857143
+    },
+    "oulipo": {
+      "n": 13,
+      "mean_slope": 0.3214297499695144,
+      "mean_delta_alpha": 0.25828598731295993,
+      "mean_early_alpha": 1.2381963671596734,
+      "mean_late_alpha": 1.4964823544726333,
+      "pct_increasing": 84.61538461538461
+    },
+    "surrealist": {
+      "n": 8,
+      "mean_slope": 0.1536921794649818,
+      "mean_delta_alpha": 0.11258397539221734,
+      "mean_early_alpha": 1.2600374962026775,
+      "mean_late_alpha": 1.3726214715948948,
+      "pct_increasing": 87.5
+    },
+    "deep_image": {
+      "n": 1,
+      "mean_slope": -0.12274460996605395,
+      "mean_delta_alpha": -0.10457973758554728,
+      "mean_early_alpha": 1.22877698626796,
+      "mean_late_alpha": 1.1241972486824128,
+      "pct_increasing": 0.0
+    },
+    "control": {
+      "n": 5,
+      "mean_slope": 0.447930427181352,
+      "mean_delta_alpha": 0.2979739222842097,
+      "mean_early_alpha": 1.1977462528514653,
+      "mean_late_alpha": 1.495720175135675,
+      "pct_increasing": 100.0
+    },
+    "german_symbolist": {
+      "n": 3,
+      "mean_slope": 0.07944625017494733,
+      "mean_delta_alpha": 0.08717112100349274,
+      "mean_early_alpha": 1.0779742667785785,
+      "mean_late_alpha": 1.1651453877820712,
+      "pct_increasing": 100.0
+    },
+    "german_expressionist": {
+      "n": 6,
+      "mean_slope": 0.10681916701963416,
+      "mean_delta_alpha": 0.07697594510275833,
+      "mean_early_alpha": 1.2117721537190884,
+      "mean_late_alpha": 1.2887480988218467,
+      "pct_increasing": 83.33333333333333
+    },
+    "german_modernist": {
+      "n": 2,
+      "mean_slope": -0.00687995709738623,
+      "mean_delta_alpha": 0.00871584975268691,
+      "mean_early_alpha": 1.2475885406298381,
+      "mean_late_alpha": 1.256304390382525,
+      "pct_increasing": 50.0
+    },
+    "victorian": {
+      "n": 30,
+      "mean_slope": 0.1723176786604427,
+      "mean_delta_alpha": 0.11724321275956177,
+      "mean_early_alpha": 1.2191647753682013,
+      "mean_late_alpha": 1.3364079881277633,
+      "pct_increasing": 73.33333333333333
+    },
+    "haiku": {
+      "n": 3,
+      "mean_slope": 0.5296565790378601,
+      "mean_delta_alpha": 0.3890692155691467,
+      "mean_early_alpha": 1.0563723707164192,
+      "mean_late_alpha": 1.4454415862855658,
+      "pct_increasing": 100.0
+    },
+    "ancient": {
+      "n": 3,
+      "mean_slope": 0.2010587139927292,
+      "mean_delta_alpha": 0.15759141817988306,
+      "mean_early_alpha": 1.1608160434273735,
+      "mean_late_alpha": 1.3184074616072565,
+      "pct_increasing": 100.0
+    },
+    "prose_poetry": {
+      "n": 12,
+      "mean_slope": 0.29397254583740057,
+      "mean_delta_alpha": 0.22925143542825605,
+      "mean_early_alpha": 1.2283067083492036,
+      "mean_late_alpha": 1.4575581437774598,
+      "pct_increasing": 66.66666666666667
+    },
+    "ballad": {
+      "n": 6,
+      "mean_slope": 0.6410194948899001,
+      "mean_delta_alpha": 0.4486166634796861,
+      "mean_early_alpha": 1.2340571395632198,
+      "mean_late_alpha": 1.682673803042906,
+      "pct_increasing": 100.0
+    },
+    "song_lyrics": {
+      "n": 3,
+      "mean_slope": 0.7434230551436094,
+      "mean_delta_alpha": 0.5644377890801243,
+      "mean_early_alpha": 1.46036233762634,
+      "mean_late_alpha": 2.024800126706464,
+      "pct_increasing": 100.0
+    },
+    "nursery_rhyme": {
+      "n": 1,
+      "mean_slope": -0.2597121642671168,
+      "mean_delta_alpha": -0.2700142041687654,
+      "mean_early_alpha": 1.562084544702116,
+      "mean_late_alpha": 1.2920703405333507,
+      "pct_increasing": 0.0
+    },
+    "metaphysical": {
+      "n": 7,
+      "mean_slope": 0.11641996463140986,
+      "mean_delta_alpha": 0.07418542674890552,
+      "mean_early_alpha": 1.1523438510935666,
+      "mean_late_alpha": 1.2265292778424721,
+      "pct_increasing": 57.142857142857146
+    },
+    "early_modern": {
+      "n": 11,
+      "mean_slope": 0.04856826671761027,
+      "mean_delta_alpha": 0.03157687308694872,
+      "mean_early_alpha": 1.166417396495932,
+      "mean_late_alpha": 1.1979942695828807,
+      "pct_increasing": 54.54545454545455
+    },
+    "spoken_word": {
+      "n": 3,
+      "mean_slope": 0.34482992162877046,
+      "mean_delta_alpha": 0.2483491643557744,
+      "mean_early_alpha": 1.1418102354204163,
+      "mean_late_alpha": 1.3901593997761905,
+      "pct_increasing": 100.0
+    },
+    "found_poetry": {
+      "n": 9,
+      "mean_slope": -0.06610567351073933,
+      "mean_delta_alpha": -0.0706014351463488,
+      "mean_early_alpha": 1.6747235278016162,
+      "mean_late_alpha": 1.6041220926552673,
+      "pct_increasing": 55.55555555555556
+    },
+    "fixed_form": {
+      "n": 8,
+      "mean_slope": 0.48030148148464336,
+      "mean_delta_alpha": 0.3695716659375226,
+      "mean_early_alpha": 1.2314072044544753,
+      "mean_late_alpha": 1.600978870391998,
+      "pct_increasing": 100.0
+    },
+    "cliche_control": {
+      "n": 4,
+      "mean_slope": 0.1829799320518984,
+      "mean_delta_alpha": 0.13769254212521265,
+      "mean_early_alpha": 1.3643423587295513,
+      "mean_late_alpha": 1.502034900854764,
+      "pct_increasing": 75.0
+    },
+    "18th_century": {
+      "n": 8,
+      "mean_slope": 0.15155604251193286,
+      "mean_delta_alpha": 0.1334957314185177,
+      "mean_early_alpha": 1.2057125531178938,
+      "mean_late_alpha": 1.3392082845364115,
+      "pct_increasing": 87.5
+    },
+    "biblical": {
+      "n": 8,
+      "mean_slope": 0.23166045682919723,
+      "mean_delta_alpha": 0.1841268353324235,
+      "mean_early_alpha": 1.486725938221427,
+      "mean_late_alpha": 1.6708527735538505,
+      "pct_increasing": 87.5
+    },
+    "concrete": {
+      "n": 4,
+      "mean_slope": 0.787951763312939,
+      "mean_delta_alpha": 0.5725345568642888,
+      "mean_early_alpha": 1.7633109416502857,
+      "mean_late_alpha": 2.3358454985145745,
+      "pct_increasing": 100.0
+    },
+    "latin_american": {
+      "n": 4,
+      "mean_slope": 0.14325020078463208,
+      "mean_delta_alpha": 0.15119117199944904,
+      "mean_early_alpha": 1.3098084655417646,
+      "mean_late_alpha": 1.4609996375412135,
+      "pct_increasing": 75.0
+    },
+    "black_arts": {
+      "n": 2,
+      "mean_slope": 0.303586394485299,
+      "mean_delta_alpha": 0.20595254994069734,
+      "mean_early_alpha": 1.3889021374310881,
+      "mean_late_alpha": 1.5948546873717855,
+      "pct_increasing": 100.0
+    },
+    "korean_modernist": {
+      "n": 1,
+      "mean_slope": 0.09066272663740918,
+      "mean_delta_alpha": 0.027749489584548037,
+      "mean_early_alpha": 1.2896938780676652,
+      "mean_late_alpha": 1.3174433676522133,
+      "pct_increasing": 100.0
+    },
+    "imagist": {
+      "n": 5,
+      "mean_slope": 0.15223567506891442,
+      "mean_delta_alpha": 0.10816017761491462,
+      "mean_early_alpha": 1.231521673311958,
+      "mean_late_alpha": 1.3396818509268726,
+      "pct_increasing": 80.0
+    },
+    "parody_original": {
+      "n": 3,
+      "mean_slope": 0.3820760655424054,
+      "mean_delta_alpha": 0.3117798924668207,
+      "mean_early_alpha": 1.187703008382127,
+      "mean_late_alpha": 1.4994829008489476,
+      "pct_increasing": 100.0
+    },
+    "parody": {
+      "n": 4,
+      "mean_slope": 0.10098996589717349,
+      "mean_delta_alpha": 0.07142476668158937,
+      "mean_early_alpha": 1.2161698643980194,
+      "mean_late_alpha": 1.2875946310796087,
+      "pct_increasing": 75.0
+    },
+    "classical_chinese": {
+      "n": 4,
+      "mean_slope": 0.340000006896368,
+      "mean_delta_alpha": 0.3119673511696667,
+      "mean_early_alpha": 1.037292295271238,
+      "mean_late_alpha": 1.3492596464409046,
+      "pct_increasing": 100.0
+    },
+    "persian": {
+      "n": 2,
+      "mean_slope": 0.14097158994786302,
+      "mean_delta_alpha": 0.157211686581049,
+      "mean_early_alpha": 1.1631247271523535,
+      "mean_late_alpha": 1.3203364137334024,
+      "pct_increasing": 100.0
+    },
+    "japanese_classical": {
+      "n": 2,
+      "mean_slope": 0.08432472872888243,
+      "mean_delta_alpha": 0.026685629801429966,
+      "mean_early_alpha": 1.4179455438894244,
+      "mean_late_alpha": 1.4446311736908544,
+      "pct_increasing": 50.0
+    },
+    "limerick": {
+      "n": 10,
+      "mean_slope": 0.3371950152524822,
+      "mean_delta_alpha": 0.20125416150214176,
+      "mean_early_alpha": 1.1577618364868545,
+      "mean_late_alpha": 1.3590159979889962,
+      "pct_increasing": 90.0
+    },
+    "old_english": {
+      "n": 5,
+      "mean_slope": 0.05003480734174861,
+      "mean_delta_alpha": 0.059586344888661325,
+      "mean_early_alpha": 1.2605470056040213,
+      "mean_late_alpha": 1.3201333504926827,
+      "pct_increasing": 60.0
+    },
+    "protest_political": {
+      "n": 2,
+      "mean_slope": 0.3170724604918598,
+      "mean_delta_alpha": 0.22997630208553155,
+      "mean_early_alpha": 1.1836743566316836,
+      "mean_late_alpha": 1.413650658717215,
+      "pct_increasing": 100.0
+    },
+    "ghazal": {
+      "n": 2,
+      "mean_slope": 0.13357517980903963,
+      "mean_delta_alpha": 0.07883385099856999,
+      "mean_early_alpha": 1.4027565989564805,
+      "mean_late_alpha": 1.4815904499550503,
+      "pct_increasing": 50.0
+    },
+    "war_poetry": {
+      "n": 3,
+      "mean_slope": 0.05618749188896745,
+      "mean_delta_alpha": 0.05595447743131121,
+      "mean_early_alpha": 1.1754446490997221,
+      "mean_late_alpha": 1.2313991265310333,
+      "pct_increasing": 66.66666666666667
+    },
+    "postcolonial": {
+      "n": 6,
+      "mean_slope": 0.1999984137953914,
+      "mean_delta_alpha": 0.09550209471108635,
+      "mean_early_alpha": 1.4528623975456327,
+      "mean_late_alpha": 1.5483644922567192,
+      "pct_increasing": 83.33333333333333
+    },
+    "dramatic_monologue": {
+      "n": 10,
+      "mean_slope": 0.022804005962973245,
+      "mean_delta_alpha": 0.021674820164207388,
+      "mean_early_alpha": 1.1993003584725461,
+      "mean_late_alpha": 1.2209751786367535,
+      "pct_increasing": 70.0
+    },
+    "elegy": {
+      "n": 8,
+      "mean_slope": 0.03534134132297705,
+      "mean_delta_alpha": 0.03651638853244271,
+      "mean_early_alpha": 1.1853604662585653,
+      "mean_late_alpha": 1.221876854791008,
+      "pct_increasing": 37.5
+    },
+    "clerihew": {
+      "n": 9,
+      "mean_slope": 0.07026635716759624,
+      "mean_delta_alpha": 0.014219728304714692,
+      "mean_early_alpha": 1.169785620559486,
+      "mean_late_alpha": 1.1840053488642008,
+      "pct_increasing": 66.66666666666667
+    },
+    "double_dactyl": {
+      "n": 5,
+      "mean_slope": 0.16787629638890136,
+      "mean_delta_alpha": 0.13530756173473596,
+      "mean_early_alpha": 1.2480849635453106,
+      "mean_late_alpha": 1.3833925252800465,
+      "pct_increasing": 80.0
+    },
+    "ekphrastic": {
+      "n": 8,
+      "mean_slope": 0.11986476635575385,
+      "mean_delta_alpha": 0.10110001281908501,
+      "mean_early_alpha": 1.1648709738754301,
+      "mean_late_alpha": 1.265970986694515,
+      "pct_increasing": 75.0
+    },
+    "villanelle": {
+      "n": 3,
+      "mean_slope": 1.1811379657066783,
+      "mean_delta_alpha": 0.9191578232520558,
+      "mean_early_alpha": 1.2130050747722558,
+      "mean_late_alpha": 2.1321628980243115,
+      "pct_increasing": 100.0
+    },
+    "pantoum": {
+      "n": 1,
+      "mean_slope": 0.07129862356056862,
+      "mean_delta_alpha": 0.025218782685677343,
+      "mean_early_alpha": 1.1858205768960075,
+      "mean_late_alpha": 1.2110393595816848,
+      "pct_increasing": 100.0
+    },
+    "triolet": {
+      "n": 2,
+      "mean_slope": 1.0645629244346844,
+      "mean_delta_alpha": 0.7729388333284151,
+      "mean_early_alpha": 1.5829419794829929,
+      "mean_late_alpha": 2.355880812811408,
+      "pct_increasing": 100.0
+    },
+    "rondeau": {
+      "n": 1,
+      "mean_slope": 0.26564085117179753,
+      "mean_delta_alpha": 0.15052433420815414,
+      "mean_early_alpha": 1.2540967177477855,
+      "mean_late_alpha": 1.4046210519559397,
+      "pct_increasing": 100.0
+    },
+    "nonsense": {
+      "n": 2,
+      "mean_slope": 0.7319954257658665,
+      "mean_delta_alpha": 0.5620943710666629,
+      "mean_early_alpha": 1.2121765812684395,
+      "mean_late_alpha": 1.7742709523351023,
+      "pct_increasing": 50.0
+    },
+    "procedural": {
+      "n": 8,
+      "mean_slope": 0.24047189460887194,
+      "mean_delta_alpha": 0.19650241145431405,
+      "mean_early_alpha": 1.2545563763526388,
+      "mean_late_alpha": 1.451058787806953,
+      "pct_increasing": 87.5
+    },
+    "social_media_poetry": {
+      "n": 2,
+      "mean_slope": 0.47719543331072434,
+      "mean_delta_alpha": 0.19544580629929453,
+      "mean_early_alpha": 0.9758329047499548,
+      "mean_late_alpha": 1.1712787110492493,
+      "pct_increasing": 100.0
+    }
+  },
+  "strongest_decreasing_arcs": [
+    {
+      "title": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)",
+      "author": "Thomas Jefferson (found text)",
+      "era": "found_poetry",
+      "year": 1776,
+      "n_tokens": 148,
+      "slope": -1.1868821551728226,
+      "r": -0.5380128827216557,
+      "early_alpha": 3.230076249598869,
+      "late_alpha": 1.9898987593754098,
+      "delta_alpha": -1.2401774902234592
+    },
+    {
+      "title": "Calypso",
+      "author": "Kamau Brathwaite",
+      "era": "postcolonial",
+      "year": 1967,
+      "n_tokens": 215,
+      "slope": -0.7357689394398315,
+      "r": -0.4033562307673069,
+      "early_alpha": 2.0726263586052807,
+      "late_alpha": 1.2985720634749862,
+      "delta_alpha": -0.7740542951302944
+    },
+    {
+      "title": "Susie Asado",
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "year": 1913,
+      "n_tokens": 84,
+      "slope": -0.6595754169211511,
+      "r": -0.4389933549701658,
+      "early_alpha": 1.68500587310843,
+      "late_alpha": 1.1793311442125423,
+      "delta_alpha": -0.5056747288958878
+    },
+    {
+      "title": "A Route of Evanescence",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "year": 1879,
+      "n_tokens": 56,
+      "slope": -0.5094463332851316,
+      "r": -0.6454390502795386,
+      "early_alpha": 1.4258247341896069,
+      "late_alpha": 1.1201136110511818,
+      "delta_alpha": -0.3057111231384251
+    },
+    {
+      "title": "The Hound of Heaven (opening)",
+      "author": "Francis Thompson",
+      "era": "victorian",
+      "year": 1893,
+      "n_tokens": 149,
+      "slope": -0.49381275747057546,
+      "r": -0.5186718809279026,
+      "early_alpha": 1.6029243614645148,
+      "late_alpha": 1.206463283608571,
+      "delta_alpha": -0.39646107785594387
+    }
+  ],
+  "strongest_increasing_arcs": [
+    {
+      "title": "Villanelle of the Poet's Road",
+      "author": "Ernest Dowson",
+      "era": "villanelle",
+      "year": 1896,
+      "n_tokens": 120,
+      "slope": 1.4754372717396058,
+      "r": 0.8329116370997333,
+      "early_alpha": 1.0406839016732095,
+      "late_alpha": 2.1913310979321694,
+      "delta_alpha": 1.15064719625896
+    },
+    {
+      "title": "Line Palindrome (chiastic structure)",
+      "author": "Synthetic (palindromic constraint test)",
+      "era": "oulipo",
+      "year": 2024,
+      "n_tokens": 51,
+      "slope": 1.6081574431408863,
+      "r": 0.8102706750596661,
+      "early_alpha": 1.1260074562848403,
+      "late_alpha": 2.4183178355282946,
+      "delta_alpha": 1.2923103792434543
+    },
+    {
+      "title": "Jabberwocky",
+      "author": "Lewis Carroll",
+      "era": "nonsense",
+      "year": 1871,
+      "n_tokens": 288,
+      "slope": 1.6323362473907668,
+      "r": 0.7588396359038311,
+      "early_alpha": 1.0504559037264145,
+      "late_alpha": 2.25557502960835,
+      "delta_alpha": 1.2051191258819354
+    },
+    {
+      "title": "Lord Randal",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "year": 1800,
+      "n_tokens": 185,
+      "slope": 2.0064288233536365,
+      "r": 0.8816458631654467,
+      "early_alpha": 1.1914095870425527,
+      "late_alpha": 2.7233409183443014,
+      "delta_alpha": 1.5319313313017486
+    },
+    {
+      "title": "silencio",
+      "author": "Eugen Gomringer",
+      "era": "concrete",
+      "year": 1954,
+      "n_tokens": 47,
+      "slope": 2.0358587413536364,
+      "r": 0.8747552145328827,
+      "early_alpha": 2.0692591375448073,
+      "late_alpha": 3.629015119255673,
+      "delta_alpha": 1.559755981710866
+    }
+  ],
+  "alpha_liberation_correlation_r": 0.7088585845702267,
+  "n_crossref_poems": 414
+}
