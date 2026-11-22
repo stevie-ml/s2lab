@@ -1,0 +1,1363 @@
+{
+  "global_stats": {
+    "n_positions": 56118,
+    "mean_ambush": 1.5999845465743834,
+    "median_ambush": 0.0,
+    "pct_primed_ambush": 0.17060479703481948,
+    "pct_primed_ambush_strict": 0.08760112619836773
+  },
+  "ambush_vs_fog_decomposition": {
+    "total_high_s2": 11554,
+    "alpha_primed_count": 3529,
+    "alpha_fog_count": 8025,
+    "pct_ambush": 0.3054353470659512,
+    "pct_fog": 0.6945646529340488
+  },
+  "era_profiles": {
+    "clerihew": {
+      "n": 222,
+      "mean_ambush": 2.4478462487701025,
+      "mean_s2": 0.46951036036036037,
+      "mean_alpha": 1.2127556730768685,
+      "pct_primed": 0.07207207207207207,
+      "ambush_ratio": 0.6943961612541292
+    },
+    "beat": {
+      "n": 1187,
+      "mean_ambush": 2.1662052411027934,
+      "mean_s2": 0.05140042122999158,
+      "mean_alpha": 2.1910710544316547,
+      "pct_primed": 0.061499578770008424,
+      "ambush_ratio": 0.8768949992386478
+    },
+    "deep_image": {
+      "n": 60,
+      "mean_ambush": 2.1293384000200537,
+      "mean_s2": 0.09952666666666671,
+      "mean_alpha": 1.224021759970671,
+      "pct_primed": 0.08333333333333333,
+      "ambush_ratio": 0.6806738527305911
+    },
+    "concrete": {
+      "n": 306,
+      "mean_ambush": 2.067267224956757,
+      "mean_s2": -0.5748176470588235,
+      "mean_alpha": 2.0248459059116035,
+      "pct_primed": 0.11764705882352941,
+      "ambush_ratio": 0.7348633786283418
+    },
+    "haiku": {
+      "n": 279,
+      "mean_ambush": 1.987322424866908,
+      "mean_s2": -0.0653548387096774,
+      "mean_alpha": 1.241143434678454,
+      "pct_primed": 0.06810035842293907,
+      "ambush_ratio": 0.6373511051083078
+    },
+    "confessional": {
+      "n": 391,
+      "mean_ambush": 1.9619158208130563,
+      "mean_s2": -0.198493094629156,
+      "mean_alpha": 1.2479024295345056,
+      "pct_primed": 0.09207161125319693,
+      "ambush_ratio": 0.6250356153948294
+    },
+    "oulipo": {
+      "n": 1269,
+      "mean_ambush": 1.9501833988310227,
+      "mean_s2": -0.1844260047281324,
+      "mean_alpha": 1.3878106724400379,
+      "pct_primed": 0.07801418439716312,
+      "ambush_ratio": 0.646595131669187
+    },
+    "persian": {
+      "n": 380,
+      "mean_ambush": 1.9431044175433907,
+      "mean_s2": -0.21772131578947368,
+      "mean_alpha": 1.269939631391617,
+      "pct_primed": 0.07105263157894737,
+      "ambush_ratio": 0.6348195908675357
+    },
+    "latin_american": {
+      "n": 457,
+      "mean_ambush": 1.888583349334355,
+      "mean_s2": -0.45161750547045953,
+      "mean_alpha": 1.3616572112323582,
+      "pct_primed": 0.1050328227571116,
+      "ambush_ratio": 0.6486054893420193
+    },
+    "german_expressionist": {
+      "n": 494,
+      "mean_ambush": 1.8793816558932148,
+      "mean_s2": -0.16997874493927126,
+      "mean_alpha": 1.288220792272823,
+      "pct_primed": 0.06477732793522267,
+      "ambush_ratio": 0.6370927355555848
+    },
+    "modernist": {
+      "n": 3081,
+      "mean_ambush": 1.8652043745773883,
+      "mean_s2": -0.4115314183706589,
+      "mean_alpha": 1.4026463490060335,
+      "pct_primed": 0.06751054852320675,
+      "ambush_ratio": 0.6181535736701566
+    },
+    "postcolonial": {
+      "n": 983,
+      "mean_ambush": 1.8498989075273384,
+      "mean_s2": -0.4742649033570702,
+      "mean_alpha": 1.5505656684627942,
+      "pct_primed": 0.0671414038657172,
+      "ambush_ratio": 0.62696684549965
+    },
+    "ancient": {
+      "n": 315,
+      "mean_ambush": 1.7895340044607628,
+      "mean_s2": -0.18457206349206348,
+      "mean_alpha": 1.2792487365578415,
+      "pct_primed": 0.07301587301587302,
+      "ambush_ratio": 0.6162187270013989
+    },
+    "spoken_word": {
+      "n": 283,
+      "mean_ambush": 1.766178278702941,
+      "mean_s2": -0.5864162544169611,
+      "mean_alpha": 1.399264744835684,
+      "pct_primed": 0.04946996466431095,
+      "ambush_ratio": 0.5958142472711667
+    },
+    "ghazal": {
+      "n": 331,
+      "mean_ambush": 1.759298876798882,
+      "mean_s2": -0.36345891238670697,
+      "mean_alpha": 1.357325716065232,
+      "pct_primed": 0.08157099697885196,
+      "ambush_ratio": 0.5789600596573969
+    },
+    "surrealist": {
+      "n": 1094,
+      "mean_ambush": 1.7546571181544355,
+      "mean_s2": -0.48958254113345523,
+      "mean_alpha": 1.3933193365030885,
+      "pct_primed": 0.08226691042047532,
+      "ambush_ratio": 0.6131746747391174
+    },
+    "imagist": {
+      "n": 316,
+      "mean_ambush": 1.7498290953763032,
+      "mean_s2": -0.514081329113924,
+      "mean_alpha": 1.3371902081743503,
+      "pct_primed": 0.07911392405063292,
+      "ambush_ratio": 0.5679045430113772
+    },
+    "rondeau": {
+      "n": 129,
+      "mean_ambush": 1.695870923983739,
+      "mean_s2": -0.3955356589147287,
+      "mean_alpha": 1.3542893898679964,
+      "pct_primed": 0.046511627906976744,
+      "ambush_ratio": 0.5869153323230757
+    },
+    "victorian": {
+      "n": 5267,
+      "mean_ambush": 1.6773284865435452,
+      "mean_s2": -0.28671754319346876,
+      "mean_alpha": 1.296562604452825,
+      "pct_primed": 0.06227453958610214,
+      "ambush_ratio": 0.5683545021413248
+    },
+    "ballad": {
+      "n": 909,
+      "mean_ambush": 1.6751206633485543,
+      "mean_s2": -0.43538448844884486,
+      "mean_alpha": 1.508194529408099,
+      "pct_primed": 0.066006600660066,
+      "ambush_ratio": 0.5671680282016628
+    },
+    "old_english": {
+      "n": 624,
+      "mean_ambush": 1.663432181225125,
+      "mean_s2": -0.3064195512820513,
+      "mean_alpha": 1.256625172347363,
+      "pct_primed": 0.0641025641025641,
+      "ambush_ratio": 0.5583766043844193
+    },
+    "black_arts": {
+      "n": 244,
+      "mean_ambush": 1.6401329138062763,
+      "mean_s2": -0.4076631147540984,
+      "mean_alpha": 1.4753313526598788,
+      "pct_primed": 0.08196721311475409,
+      "ambush_ratio": 0.6196224148525333
+    },
+    "romantic": {
+      "n": 3771,
+      "mean_ambush": 1.6197774787603056,
+      "mean_s2": -0.44489472288517634,
+      "mean_alpha": 1.3073686878680886,
+      "pct_primed": 0.060726597719437815,
+      "ambush_ratio": 0.5627060762372955
+    },
+    "war_poetry": {
+      "n": 636,
+      "mean_ambush": 1.6137140676708315,
+      "mean_s2": -0.34147201257861637,
+      "mean_alpha": 1.226287461084788,
+      "pct_primed": 0.06446540880503145,
+      "ambush_ratio": 0.5657384891754887
+    },
+    "japanese_classical": {
+      "n": 57,
+      "mean_ambush": 1.609296625139092,
+      "mean_s2": -0.5944385964912281,
+      "mean_alpha": 1.332058341480827,
+      "pct_primed": 0.07017543859649122,
+      "ambush_ratio": 0.5577730624035662
+    },
+    "19th_century": {
+      "n": 3205,
+      "mean_ambush": 1.6044875499095916,
+      "mean_s2": -0.47349809672386894,
+      "mean_alpha": 1.3206872748317002,
+      "pct_primed": 0.07269890795631825,
+      "ambush_ratio": 0.5457336858844843
+    },
+    "18th_century": {
+      "n": 1427,
+      "mean_ambush": 1.5910183554721435,
+      "mean_s2": -0.2827466713384723,
+      "mean_alpha": 1.3227131709014126,
+      "pct_primed": 0.05956552207428171,
+      "ambush_ratio": 0.557061446059373
+    },
+    "procedural": {
+      "n": 632,
+      "mean_ambush": 1.5762505464140035,
+      "mean_s2": -0.432773417721519,
+      "mean_alpha": 1.3231998425573293,
+      "pct_primed": 0.06487341772151899,
+      "ambush_ratio": 0.5511482026173931
+    },
+    "nursery_rhyme": {
+      "n": 221,
+      "mean_ambush": 1.5689249511409857,
+      "mean_s2": -0.7977180995475113,
+      "mean_alpha": 1.4256131445836526,
+      "pct_primed": 0.06334841628959276,
+      "ambush_ratio": 0.582615573691893
+    },
+    "contemporary": {
+      "n": 3003,
+      "mean_ambush": 1.562875986528838,
+      "mean_s2": -0.45257402597402596,
+      "mean_alpha": 1.3844610535827162,
+      "pct_primed": 0.06826506826506827,
+      "ambush_ratio": 0.5492369325238138
+    },
+    "elegy": {
+      "n": 1247,
+      "mean_ambush": 1.5476088415486224,
+      "mean_s2": -0.4690638331996792,
+      "mean_alpha": 1.2205167353388855,
+      "pct_primed": 0.06415396952686447,
+      "ambush_ratio": 0.5220827191889786
+    },
+    "harlem_renaissance": {
+      "n": 809,
+      "mean_ambush": 1.5432668032866377,
+      "mean_s2": -0.3730161928306551,
+      "mean_alpha": 1.2949884146239283,
+      "pct_primed": 0.0580964153275649,
+      "ambush_ratio": 0.538434935087963
+    },
+    "mid_century": {
+      "n": 577,
+      "mean_ambush": 1.527648600206628,
+      "mean_s2": -0.26789948006932407,
+      "mean_alpha": 1.2594182971092307,
+      "pct_primed": 0.05199306759098787,
+      "ambush_ratio": 0.5236067652033557
+    },
+    "biblical": {
+      "n": 1323,
+      "mean_ambush": 1.523718478006136,
+      "mean_s2": -0.45007203325774753,
+      "mean_alpha": 1.7934998280379881,
+      "pct_primed": 0.07029478458049887,
+      "ambush_ratio": 0.6676467838125982
+    },
+    "early_modern": {
+      "n": 1790,
+      "mean_ambush": 1.519743653268925,
+      "mean_s2": -0.3813343575418994,
+      "mean_alpha": 1.2031613395149083,
+      "pct_primed": 0.044134078212290505,
+      "ambush_ratio": 0.5300060748909052
+    },
+    "fixed_form": {
+      "n": 850,
+      "mean_ambush": 1.5168962030021422,
+      "mean_s2": -0.5588796470588235,
+      "mean_alpha": 1.3835882824167924,
+      "pct_primed": 0.06352941176470588,
+      "ambush_ratio": 0.5154586294813662
+    },
+    "parody": {
+      "n": 665,
+      "mean_ambush": 1.5113078454360787,
+      "mean_s2": -0.29074210526315786,
+      "mean_alpha": 1.3027425916103816,
+      "pct_primed": 0.06315789473684211,
+      "ambush_ratio": 0.5712627923919932
+    },
+    "classical_chinese": {
+      "n": 234,
+      "mean_ambush": 1.4836960827360883,
+      "mean_s2": -0.5492589743589743,
+      "mean_alpha": 1.2389691908585074,
+      "pct_primed": 0.04700854700854701,
+      "ambush_ratio": 0.5031263933458126
+    },
+    "found_poetry": {
+      "n": 1195,
+      "mean_ambush": 1.4765264287960735,
+      "mean_s2": -0.6317594979079498,
+      "mean_alpha": 1.6252051643720358,
+      "pct_primed": 0.06527196652719665,
+      "ambush_ratio": 0.6180480140352641
+    },
+    "language": {
+      "n": 490,
+      "mean_ambush": 1.4730509723466667,
+      "mean_s2": -0.6928577551020408,
+      "mean_alpha": 1.318517487951329,
+      "pct_primed": 0.061224489795918366,
+      "ambush_ratio": 0.5088011126100492
+    },
+    "new_york_school": {
+      "n": 2747,
+      "mean_ambush": 1.4719300595184803,
+      "mean_s2": -0.5846503094284674,
+      "mean_alpha": 1.3315080073918668,
+      "pct_primed": 0.05751729159082636,
+      "ambush_ratio": 0.5231204966895446
+    },
+    "parody_original": {
+      "n": 440,
+      "mean_ambush": 1.4654238811976654,
+      "mean_s2": -0.4440227272727273,
+      "mean_alpha": 1.4675737859392646,
+      "pct_primed": 0.05909090909090909,
+      "ambush_ratio": 0.5811262221453495
+    },
+    "prose_poetry": {
+      "n": 1396,
+      "mean_ambush": 1.4632388201345194,
+      "mean_s2": -0.4511849570200573,
+      "mean_alpha": 1.381818241067378,
+      "pct_primed": 0.06948424068767908,
+      "ambush_ratio": 0.5497275861740999
+    },
+    "villanelle": {
+      "n": 433,
+      "mean_ambush": 1.461300883041798,
+      "mean_s2": -0.4772364896073903,
+      "mean_alpha": 1.7134150902666965,
+      "pct_primed": 0.07159353348729793,
+      "ambush_ratio": 0.5506130664997088
+    },
+    "ekphrastic": {
+      "n": 1893,
+      "mean_ambush": 1.4128610485560793,
+      "mean_s2": -0.50651294241944,
+      "mean_alpha": 1.2118316736029846,
+      "pct_primed": 0.04807184363444268,
+      "ambush_ratio": 0.49314290807536404
+    },
+    "dramatic_monologue": {
+      "n": 4408,
+      "mean_ambush": 1.4078027157038329,
+      "mean_s2": -0.4595662885662432,
+      "mean_alpha": 1.214058788394962,
+      "pct_primed": 0.053312159709618875,
+      "ambush_ratio": 0.5029284139577329
+    },
+    "triolet": {
+      "n": 128,
+      "mean_ambush": 1.3713290366567523,
+      "mean_s2": -0.771378125,
+      "mean_alpha": 1.9144641041846007,
+      "pct_primed": 0.0703125,
+      "ambush_ratio": 0.6597849683998968
+    },
+    "pantoum": {
+      "n": 281,
+      "mean_ambush": 1.3599392782082687,
+      "mean_s2": -0.4637523131672598,
+      "mean_alpha": 1.565932880031707,
+      "pct_primed": 0.046263345195729534,
+      "ambush_ratio": 0.5251511542222487
+    },
+    "song_lyrics": {
+      "n": 538,
+      "mean_ambush": 1.3562785531157138,
+      "mean_s2": -0.678035687732342,
+      "mean_alpha": 1.816566938115432,
+      "pct_primed": 0.07434944237918216,
+      "ambush_ratio": 0.5719487965871829
+    },
+    "protest_political": {
+      "n": 248,
+      "mean_ambush": 1.353655622653841,
+      "mean_s2": -0.7426991935483871,
+      "mean_alpha": 1.250300891023625,
+      "pct_primed": 0.04838709677419355,
+      "ambush_ratio": 0.4740677125674655
+    },
+    "korean_modernist": {
+      "n": 101,
+      "mean_ambush": 1.3358322906774394,
+      "mean_s2": -0.6784663366336634,
+      "mean_alpha": 1.2400390193024358,
+      "pct_primed": 0.06930693069306931,
+      "ambush_ratio": 0.4640190525595732
+    },
+    "metaphysical": {
+      "n": 931,
+      "mean_ambush": 1.307500810576436,
+      "mean_s2": -0.5864698174006444,
+      "mean_alpha": 1.1959214544689754,
+      "pct_primed": 0.0397422126745435,
+      "ambush_ratio": 0.4670658074374191
+    },
+    "limerick": {
+      "n": 416,
+      "mean_ambush": 1.269050033852845,
+      "mean_s2": -0.6466490384615384,
+      "mean_alpha": 1.287441747426318,
+      "pct_primed": 0.03125,
+      "ambush_ratio": 0.4674700037941156
+    },
+    "nonsense": {
+      "n": 498,
+      "mean_ambush": 1.2597579455247385,
+      "mean_s2": -0.7068821285140562,
+      "mean_alpha": 1.4495262493495475,
+      "pct_primed": 0.05622489959839357,
+      "ambush_ratio": 0.4727406820183336
+    },
+    "double_dactyl": {
+      "n": 243,
+      "mean_ambush": 1.1636228430468905,
+      "mean_s2": -1.0194370370370371,
+      "mean_alpha": 1.248366149930951,
+      "pct_primed": 0.024691358024691357,
+      "ambush_ratio": 0.3838468899432054
+    },
+    "cliche_control": {
+      "n": 485,
+      "mean_ambush": 1.147327288663504,
+      "mean_s2": -0.9474767010309278,
+      "mean_alpha": 1.4751868351731332,
+      "pct_primed": 0.061855670103092786,
+      "ambush_ratio": 0.4509193888458951
+    },
+    "social_media_poetry": {
+      "n": 55,
+      "mean_ambush": 0.7938497197322875,
+      "mean_s2": -1.05266,
+      "mean_alpha": 1.1971502815513837,
+      "pct_primed": 0.0,
+      "ambush_ratio": 0.284355868271977
+    },
+    "control": {
+      "n": 124,
+      "mean_ambush": 0.2639659182133563,
+      "mean_s2": -1.985417741935484,
+      "mean_alpha": 1.3218377867582045,
+      "pct_primed": 0.016129032258064516,
+      "ambush_ratio": 0.10699791134415888
+    }
+  },
+  "poet_profiles": {
+    "Emmett Williams": {
+      "n": 54,
+      "mean_ambush": 3.539470182308243,
+      "mean_s2": -0.0039370370370370045,
+      "mean_alpha": 2.224707287264067,
+      "pct_primed": 0.16666666666666666
+    },
+    "Marianne Moore": {
+      "n": 373,
+      "mean_ambush": 3.462231735093901,
+      "mean_s2": -0.04112975871313674,
+      "mean_alpha": 1.69466547238779,
+      "pct_primed": 0.12064343163538874
+    },
+    "Christian B\u00f6k": {
+      "n": 213,
+      "mean_ambush": 3.084220918178928,
+      "mean_s2": 0.8044103286384976,
+      "mean_alpha": 1.356993309753154,
+      "pct_primed": 0.08450704225352113
+    },
+    "Jean Lescure": {
+      "n": 132,
+      "mean_ambush": 2.934736044754699,
+      "mean_s2": -0.2158598484848485,
+      "mean_alpha": 1.5004051064707657,
+      "pct_primed": 0.09848484848484848
+    },
+    "Allen Ginsberg": {
+      "n": 146,
+      "mean_ambush": 2.874194596762241,
+      "mean_s2": 0.6698383561643836,
+      "mean_alpha": 1.2964122329678218,
+      "pct_primed": 0.1095890410958904
+    },
+    "Bruce Andrews": {
+      "n": 43,
+      "mean_ambush": 2.8228961882692833,
+      "mean_s2": 0.637746511627907,
+      "mean_alpha": 1.3565302334398954,
+      "pct_primed": 0.06976744186046512
+    },
+    "Kamau Brathwaite": {
+      "n": 214,
+      "mean_ambush": 2.7966384029802303,
+      "mean_s2": -0.3151046728971963,
+      "mean_alpha": 1.9452676214080955,
+      "pct_primed": 0.06074766355140187
+    },
+    "Hart Crane": {
+      "n": 168,
+      "mean_ambush": 2.712123399358074,
+      "mean_s2": 0.9832553571428572,
+      "mean_alpha": 1.295852028293329,
+      "pct_primed": 0.10119047619047619
+    },
+    "Thomas Jefferson (found text)": {
+      "n": 147,
+      "mean_ambush": 2.6818296820107053,
+      "mean_s2": -0.2671530612244898,
+      "mean_alpha": 2.380214197823663,
+      "pct_primed": 0.09523809523809523
+    },
+    "Synthetic (clerihew test case)": {
+      "n": 158,
+      "mean_ambush": 2.5889084605453996,
+      "mean_s2": 0.6667917721518988,
+      "mean_alpha": 1.1963606215455167,
+      "pct_primed": 0.06962025316455696
+    },
+    "Charles Bukowski": {
+      "n": 92,
+      "mean_ambush": 2.558216816590886,
+      "mean_s2": -0.35201521739130437,
+      "mean_alpha": 1.5893052166762944,
+      "pct_primed": 0.06521739130434782
+    },
+    "Francis Thompson": {
+      "n": 148,
+      "mean_ambush": 2.452103504394557,
+      "mean_s2": 0.5768925675675676,
+      "mean_alpha": 1.3324720668375176,
+      "pct_primed": 0.08108108108108109
+    },
+    "Pablo Neruda": {
+      "n": 302,
+      "mean_ambush": 2.3685158622821954,
+      "mean_s2": -0.1852516556291391,
+      "mean_alpha": 1.4681828587146166,
+      "pct_primed": 0.1357615894039735
+    },
+    "Robert Lowell": {
+      "n": 88,
+      "mean_ambush": 2.3591966794169785,
+      "mean_s2": -0.15328977272727273,
+      "mean_alpha": 1.3343628073801406,
+      "pct_primed": 0.13636363636363635
+    },
+    "Gregory Corso": {
+      "n": 228,
+      "mean_ambush": 2.3246974001806398,
+      "mean_s2": 0.2743675438596491,
+      "mean_alpha": 1.3146470473884835,
+      "pct_primed": 0.07017543859649122
+    },
+    "C\u00e9sar Vallejo": {
+      "n": 152,
+      "mean_ambush": 2.320498180902815,
+      "mean_s2": 0.2613552631578947,
+      "mean_alpha": 1.338108502274825,
+      "pct_primed": 0.09210526315789473
+    },
+    "Masaoka Shiki": {
+      "n": 33,
+      "mean_ambush": 2.2797184845444898,
+      "mean_s2": 0.3598,
+      "mean_alpha": 1.4115071698161528,
+      "pct_primed": 0.09090909090909091
+    },
+    "Robert Creeley": {
+      "n": 145,
+      "mean_ambush": 2.240403619953762,
+      "mean_s2": -0.06582896551724136,
+      "mean_alpha": 1.323697260842193,
+      "pct_primed": 0.10344827586206896
+    },
+    "Li Bai": {
+      "n": 35,
+      "mean_ambush": 2.1940429018580736,
+      "mean_s2": -0.2854885714285714,
+      "mean_alpha": 1.367944167873578,
+      "pct_primed": 0.05714285714285714
+    },
+    "Layli Long Soldier": {
+      "n": 56,
+      "mean_ambush": 2.189092495666387,
+      "mean_s2": 0.2386339285714286,
+      "mean_alpha": 1.259533827141916,
+      "pct_primed": 0.07142857142857142
+    },
+    "Yosa Buson": {
+      "n": 35,
+      "mean_ambush": 2.135844937690867,
+      "mean_s2": -0.23884285714285713,
+      "mean_alpha": 1.2943608488895968,
+      "pct_primed": 0.08571428571428572
+    },
+    "Robert Bly": {
+      "n": 60,
+      "mean_ambush": 2.1293384000200537,
+      "mean_s2": 0.09952666666666671,
+      "mean_alpha": 1.224021759970671,
+      "pct_primed": 0.08333333333333333
+    },
+    "Phillis Wheatley": {
+      "n": 90,
+      "mean_ambush": 2.1273221647486054,
+      "mean_s2": -0.02227777777777776,
+      "mean_alpha": 1.2458168606960982,
+      "pct_primed": 0.1
+    },
+    "Anne Carson": {
+      "n": 73,
+      "mean_ambush": 2.1218886711960696,
+      "mean_s2": -0.1094904109589041,
+      "mean_alpha": 1.4063984259160376,
+      "pct_primed": 0.0958904109589041
+    },
+    "C\u00e9sar Vallejo (trans. Thomas Merton)": {
+      "n": 156,
+      "mean_ambush": 2.119519665515061,
+      "mean_s2": -0.30144807692307696,
+      "mean_alpha": 1.3306078628920868,
+      "pct_primed": 0.10897435897435898
+    }
+  },
+  "position_profile": {
+    "0": {
+      "mean_ambush": 1.901941872617627,
+      "n": 5764
+    },
+    "1": {
+      "mean_ambush": 1.6732349040694336,
+      "n": 5545
+    },
+    "2": {
+      "mean_ambush": 1.7095066163745318,
+      "n": 5594
+    },
+    "3": {
+      "mean_ambush": 1.6257997893181408,
+      "n": 5551
+    },
+    "4": {
+      "mean_ambush": 1.520565405904603,
+      "n": 5502
+    },
+    "5": {
+      "mean_ambush": 1.5252385775793993,
+      "n": 5632
+    },
+    "6": {
+      "mean_ambush": 1.5121075269246749,
+      "n": 5590
+    },
+    "7": {
+      "mean_ambush": 1.5469574611044532,
+      "n": 5555
+    },
+    "8": {
+      "mean_ambush": 1.5301384132800664,
+      "n": 5584
+    },
+    "9": {
+      "mean_ambush": 1.4502052131373455,
+      "n": 5801
+    }
+  },
+  "top_ambushes": [
+    {
+      "score": 141.80490656999532,
+      "s2": 36.6583,
+      "alpha": 3.8682892160846336,
+      "token": " gro",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "title": "In Goya's greatest scenes"
+    },
+    {
+      "score": 96.19452048193651,
+      "s2": 28.2527,
+      "alpha": 3.4047903556805723,
+      "token": " climbs",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "title": "Constantly Risking Absurdity"
+    },
+    {
+      "score": 95.03680716949907,
+      "s2": 25.6338,
+      "alpha": 3.7074802475442215,
+      "token": " glass",
+      "top_pred": " ",
+      "context": "\n  ",
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "title": "The Fish"
+    },
+    {
+      "score": 91.15184963110299,
+      "s2": 22.298,
+      "alpha": 4.087893516508341,
+      "token": " p",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "title": "Constantly Risking Absurdity"
+    },
+    {
+      "score": 90.33893281119882,
+      "s2": 15.3943,
+      "alpha": 5.868336514891799,
+      "token": "\n",
+      "top_pred": ",",
+      "context": "\nLiberty",
+      "author": "Thomas Jefferson (found text)",
+      "era": "found_poetry",
+      "title": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)"
+    },
+    {
+      "score": 90.0061287888517,
+      "s2": 25.6548,
+      "alpha": 3.5083543348165525,
+      "token": " hum",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "Kamau Brathwaite",
+      "era": "postcolonial",
+      "title": "Calypso"
+    },
+    {
+      "score": 89.51189476619591,
+      "s2": 27.7338,
+      "alpha": 3.2275380498235333,
+      "token": " pour",
+      "top_pred": "'m",
+      "context": "\nbut I",
+      "author": "Charles Bukowski",
+      "era": "spoken_word",
+      "title": "Bluebird"
+    },
+    {
+      "score": 77.99898220190511,
+      "s2": 16.0014,
+      "alpha": 4.874509868005618,
+      "token": ",\u2014",
+      "top_pred": ".",
+      "context": " to-day",
+      "author": "Austin Dobson",
+      "era": "triolet",
+      "title": "A Kiss"
+    },
+    {
+      "score": 75.86766624462905,
+      "s2": 19.2039,
+      "alpha": 3.950638476800496,
+      "token": " to",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "title": "Constantly Risking Absurdity"
+    },
+    {
+      "score": 73.27249057351099,
+      "s2": 25.5956,
+      "alpha": 2.8626986893650077,
+      "token": " whenever",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "title": "Constantly Risking Absurdity"
+    },
+    {
+      "score": 72.61590553918049,
+      "s2": 18.6042,
+      "alpha": 3.9031995753206528,
+      "token": " and",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "title": "Buffalo Bill 's"
+    },
+    {
+      "score": 71.62139905408381,
+      "s2": 22.0877,
+      "alpha": 3.242591988033331,
+      "token": " Pra",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "title": "Pied Beauty"
+    },
+    {
+      "score": 69.90682205633463,
+      "s2": 18.4523,
+      "alpha": 3.7885153642816682,
+      "token": " in",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "title": "In Goya's greatest scenes"
+    },
+    {
+      "score": 68.63115376699763,
+      "s2": 16.7212,
+      "alpha": 4.104439499975936,
+      "token": " fleeing",
+      "top_pred": "'s",
+      "context": " enchanter",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "title": "Ode to the West Wind (stanza 1)"
+    },
+    {
+      "score": 67.46503272755298,
+      "s2": 21.805,
+      "alpha": 3.0940166350631957,
+      "token": " Gu",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "Kamau Brathwaite",
+      "era": "postcolonial",
+      "title": "Calypso"
+    },
+    {
+      "score": 65.11442691525515,
+      "s2": 17.3573,
+      "alpha": 3.751414500829919,
+      "token": " evidence",
+      "top_pred": " ",
+      "context": "\n  ",
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "title": "The Fish"
+    },
+    {
+      "score": 64.97744173997508,
+      "s2": 11.9618,
+      "alpha": 5.432078929590452,
+      "token": "\n",
+      "top_pred": " with",
+      "context": " by their Creator",
+      "author": "Thomas Jefferson (found text)",
+      "era": "found_poetry",
+      "title": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)"
+    },
+    {
+      "score": 63.384740522190526,
+      "s2": 19.9901,
+      "alpha": 3.1708065753643315,
+      "token": " under",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "title": "In Goya's greatest scenes"
+    },
+    {
+      "score": 62.62517049007663,
+      "s2": 20.7175,
+      "alpha": 3.0228150351189393,
+      "token": " Pra",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "title": "Pied Beauty"
+    },
+    {
+      "score": 59.709419186431056,
+      "s2": 11.6493,
+      "alpha": 5.125580007934473,
+      "token": " Israel",
+      "top_pred": " thee",
+      "context": " that keepeth",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "title": "Psalm 121 (KJV)"
+    },
+    {
+      "score": 58.463773842503834,
+      "s2": 16.1097,
+      "alpha": 3.6291038220763783,
+      "token": " marks",
+      "top_pred": " ",
+      "context": "",
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "title": "The Fish"
+    },
+    {
+      "score": 58.25990663184292,
+      "s2": 15.7328,
+      "alpha": 3.7030856956068163,
+      "token": " hat",
+      "top_pred": " ",
+      "context": "",
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "title": "The Fish"
+    },
+    {
+      "score": 57.68151723923208,
+      "s2": 13.7261,
+      "alpha": 4.202323838470656,
+      "token": " prepare",
+      "top_pred": " art",
+      "context": "\nThou",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "title": "Psalm 23 (KJV)"
+    },
+    {
+      "score": 56.86070856065691,
+      "s2": 13.0434,
+      "alpha": 4.359347145733238,
+      "token": " into",
+      "top_pred": " ",
+      "context": "",
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "title": "The Fish"
+    },
+    {
+      "score": 56.8327283071154,
+      "s2": 13.5123,
+      "alpha": 4.205999593490035,
+      "token": " of",
+      "top_pred": " ",
+      "context": "",
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "title": "The Fish"
+    },
+    {
+      "score": 55.328936672770126,
+      "s2": 20.6816,
+      "alpha": 2.6752735123380265,
+      "token": " suffering",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "title": "In Goya's greatest scenes"
+    },
+    {
+      "score": 54.79773188169287,
+      "s2": 20.9771,
+      "alpha": 2.6122644160390553,
+      "token": " env",
+      "top_pred": "o",
+      "context": "Old Gandolf",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "title": "The Bishop Orders His Tomb at Saint Praxed's Church"
+    },
+    {
+      "score": 54.043811631262784,
+      "s2": 14.9498,
+      "alpha": 3.615019039135158,
+      "token": "\n",
+      "top_pred": " Liberty",
+      "context": " are Life,",
+      "author": "Thomas Jefferson (found text)",
+      "era": "found_poetry",
+      "title": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)"
+    },
+    {
+      "score": 53.67934939447402,
+      "s2": 9.7419,
+      "alpha": 5.510151961575671,
+      "token": " coming",
+      "top_pred": "'s",
+      "context": " bridegroom",
+      "author": "Anonymous (Hebrew Bible)",
+      "era": "biblical",
+      "title": "Psalm 19:1-6 (KJV)"
+    },
+    {
+      "score": 53.424659155592984,
+      "s2": 16.3821,
+      "alpha": 3.261160605514127,
+      "token": " to",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "title": "Constantly Risking Absurdity"
+    },
+    {
+      "score": 52.92399498466433,
+      "s2": 15.7339,
+      "alpha": 3.363692090623706,
+      "token": " c",
+      "top_pred": " ",
+      "context": "",
+      "author": "Kamau Brathwaite",
+      "era": "postcolonial",
+      "title": "Calypso"
+    },
+    {
+      "score": 51.716253298089946,
+      "s2": 14.7473,
+      "alpha": 3.5068285922229796,
+      "token": " arc",
+      "top_pred": " off",
+      "context": "",
+      "author": "Kamau Brathwaite",
+      "era": "postcolonial",
+      "title": "Calypso"
+    },
+    {
+      "score": 51.27444973358962,
+      "s2": 19.0326,
+      "alpha": 2.6940328559203484,
+      "token": " Jesus",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "title": "Buffalo Bill 's"
+    },
+    {
+      "score": 51.252166757610404,
+      "s2": 15.6142,
+      "alpha": 3.2824074725320798,
+      "token": " above",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "title": "Constantly Risking Absurdity"
+    },
+    {
+      "score": 50.72799072396542,
+      "s2": 17.9539,
+      "alpha": 2.8254580188129275,
+      "token": " red",
+      "top_pred": " Sp",
+      "context": " that Sir Patrick",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "title": "Sir Patrick Spens"
+    },
+    {
+      "score": 50.491328344182314,
+      "s2": 15.0725,
+      "alpha": 3.349897385581842,
+      "token": " which",
+      "top_pred": ".",
+      "context": "ie Asado",
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "title": "Susie Asado"
+    },
+    {
+      "score": 50.45197369411347,
+      "s2": 15.7968,
+      "alpha": 3.1938097395746907,
+      "token": " awhile",
+      "top_pred": ",",
+      "context": " thee weel",
+      "author": "Robert Burns",
+      "era": "romantic",
+      "title": "A Red, Red Rose"
+    },
+    {
+      "score": 50.0249228295235,
+      "s2": 17.2452,
+      "alpha": 2.900802706232662,
+      "token": " Music",
+      "top_pred": " he",
+      "context": "",
+      "author": "John Keats",
+      "era": "romantic",
+      "title": "The Eve of St. Agnes (stanzas 1-5)"
+    },
+    {
+      "score": 49.41039436959291,
+      "s2": 12.3192,
+      "alpha": 4.010844403012607,
+      "token": " drop",
+      "top_pred": "\n",
+      "context": "",
+      "author": "Omar Khayyam (trans. FitzGerald, 1859)",
+      "era": "persian",
+      "title": "Rubaiyat of Omar Khayyam (stanzas 7\u201310)"
+    },
+    {
+      "score": 48.749198402369196,
+      "s2": 17.0902,
+      "alpha": 2.8524650619869396,
+      "token": " above",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "title": "Constantly Risking Absurdity"
+    },
+    {
+      "score": 48.40785393258305,
+      "s2": 14.8785,
+      "alpha": 3.2535439683155594,
+      "token": " three",
+      "top_pred": " an",
+      "context": "",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "title": "The Wife of Usher's Well"
+    },
+    {
+      "score": 47.65726508966339,
+      "s2": 14.2536,
+      "alpha": 3.3435248000268976,
+      "token": " desolate",
+      "top_pred": " of",
+      "context": " dim meadows",
+      "author": "Oscar Wilde",
+      "era": "fixed_form",
+      "title": "Theocritus: A Villanelle (opening quatrains)"
+    },
+    {
+      "score": 47.41397901986812,
+      "s2": 17.852,
+      "alpha": 2.6559477380611765,
+      "token": " stall",
+      "top_pred": " ",
+      "context": "   ",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "title": "Buffalo Bill 's"
+    },
+    {
+      "score": 46.0506033006187,
+      "s2": 16.6473,
+      "alpha": 2.7662505812124905,
+      "token": " entangled",
+      "top_pred": "ed",
+      "context": "-bucket",
+      "author": "Chiyo-ni",
+      "era": "haiku",
+      "title": "Morning Glory (Chiyo-ni, translated)"
+    },
+    {
+      "score": 45.381583046583735,
+      "s2": 11.0318,
+      "alpha": 4.113706108394254,
+      "token": " on",
+      "top_pred": " ",
+      "context": "",
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "title": "The Fish"
+    },
+    {
+      "score": 44.92086295981025,
+      "s2": 11.6303,
+      "alpha": 3.862399332760999,
+      "token": " step",
+      "top_pred": " want",
+      "context": " I don't",
+      "author": "C\u00e9sar Vallejo (trans. Thomas Merton)",
+      "era": "latin_american",
+      "title": "Black Stone Lying on a White Stone"
+    },
+    {
+      "score": 44.69302619286099,
+      "s2": 11.5626,
+      "alpha": 3.865309376166346,
+      "token": " Five",
+      "top_pred": ",",
+      "context": "",
+      "author": "Wilfred Owen",
+      "era": "war_poetry",
+      "title": "Dulce et Decorum Est"
+    },
+    {
+      "score": 44.0133911605184,
+      "s2": 11.6742,
+      "alpha": 3.7701419506705727,
+      "token": " step",
+      "top_pred": " want",
+      "context": " I don't",
+      "author": "C\u00e9sar Vallejo",
+      "era": "surrealist",
+      "title": "Black Stone Lying on a White Stone"
+    },
+    {
+      "score": 42.864417587821926,
+      "s2": 16.2677,
+      "alpha": 2.6349402550957985,
+      "token": " sidel",
+      "top_pred": " she",
+      "context": "",
+      "author": "John Keats",
+      "era": "romantic",
+      "title": "La Belle Dame sans Merci"
+    },
+    {
+      "score": 42.31098167168096,
+      "s2": 18.8809,
+      "alpha": 2.2409409335191097,
+      "token": " consequences",
+      "top_pred": " a",
+      "context": "ute end of",
+      "author": "William Stafford",
+      "era": "mid_century",
+      "title": "At the Bomb Testing Site"
+    },
+    {
+      "score": 41.979577912823856,
+      "s2": 12.6442,
+      "alpha": 3.3200659522013143,
+      "token": " of",
+      "top_pred": " ",
+      "context": "",
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "title": "The Fish"
+    },
+    {
+      "score": 41.755073077059095,
+      "s2": 8.5263,
+      "alpha": 4.897208997696432,
+      "token": " God",
+      "top_pred": " of",
+      "context": "",
+      "author": "Jean Lescure",
+      "era": "oulipo",
+      "title": "S+7: Genesis (N+7 variant)"
+    },
+    {
+      "score": 41.425465926275216,
+      "s2": 18.0433,
+      "alpha": 2.295891878219351,
+      "token": " onward",
+      "top_pred": ",",
+      "context": "Half a league",
+      "author": "Alfred, Lord Tennyson",
+      "era": "victorian",
+      "title": "The Charge of the Light Brigade"
+    },
+    {
+      "score": 41.29351760964465,
+      "s2": 13.4257,
+      "alpha": 3.075706861440718,
+      "token": " overw",
+      "top_pred": ",",
+      "context": "",
+      "author": "John Keats",
+      "era": "ekphrastic",
+      "title": "Ode on a Grecian Urn"
+    },
+    {
+      "score": 41.2902048767398,
+      "s2": 16.3761,
+      "alpha": 2.5213698546503625,
+      "token": "der",
+      "top_pred": "And",
+      "context": " Men,\n",
+      "author": "Thomas Jefferson (found text)",
+      "era": "found_poetry",
+      "title": "Self-Evident Truths (Found Poem from Declaration of Independence, 1776)"
+    },
+    {
+      "score": 41.12221226241565,
+      "s2": 13.0811,
+      "alpha": 3.1436356470339386,
+      "token": " move",
+      "top_pred": ",",
+      "context": "",
+      "author": "John Donne",
+      "era": "early_modern",
+      "title": "A Valediction: Forbidding Mourning"
+    },
+    {
+      "score": 40.73539003340833,
+      "s2": 12.8796,
+      "alpha": 3.162783784698929,
+      "token": " zone",
+      "top_pred": " flowers",
+      "context": "",
+      "author": "John Keats",
+      "era": "romantic",
+      "title": "La Belle Dame sans Merci"
+    },
+    {
+      "score": 40.46249049012888,
+      "s2": 12.5019,
+      "alpha": 3.236507290102215,
+      "token": "\u00e8",
+      "top_pred": "able",
+      "context": " unperturb",
+      "author": "Francis Thompson",
+      "era": "victorian",
+      "title": "The Hound of Heaven (opening)"
+    },
+    {
+      "score": 40.390630861205075,
+      "s2": 14.2039,
+      "alpha": 2.8436296271590953,
+      "token": " Broken",
+      "top_pred": " I",
+      "context": "odorant.",
+      "author": "Carolyn Forche",
+      "era": "prose_poetry",
+      "title": "The Colonel"
+    },
+    {
+      "score": 40.30978306078952,
+      "s2": 9.6448,
+      "alpha": 4.1794317208018334,
+      "token": " laugh",
+      "top_pred": " care",
+      "context": " space doesn't",
+      "author": "Anne Waldman",
+      "era": "new_york_school",
+      "title": "Makeup on Empty Space"
+    }
+  ]
+}
