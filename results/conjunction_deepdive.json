@@ -1,0 +1,279 @@
+{
+  "poetry": {
+    "coord_additive": {
+      "n": 1347,
+      "avg_s2": -2.2843,
+      "avg_surprisal": 3.7806,
+      "pos_ratio": 0.1566
+    },
+    "coord_adversative": {
+      "n": 343,
+      "avg_s2": 0.163,
+      "avg_surprisal": 7.1038,
+      "pos_ratio": 0.4752
+    },
+    "coord_disjunctive": {
+      "n": 189,
+      "avg_s2": -0.1292,
+      "avg_surprisal": 6.0538,
+      "pos_ratio": 0.4233
+    },
+    "coord_causal": {
+      "n": 520,
+      "avg_s2": -0.4002,
+      "avg_surprisal": 4.8415,
+      "pos_ratio": 0.3115
+    },
+    "sub_causal": {
+      "n": 265,
+      "avg_s2": -0.2351,
+      "avg_surprisal": 5.7106,
+      "pos_ratio": 0.3698
+    },
+    "sub_temporal": {
+      "n": 450,
+      "avg_s2": 0.2015,
+      "avg_surprisal": 6.3561,
+      "pos_ratio": 0.4489
+    },
+    "sub_concessive": {
+      "n": 80,
+      "avg_s2": 1.7759,
+      "avg_surprisal": 8.8213,
+      "pos_ratio": 0.6875
+    },
+    "sub_conditional": {
+      "n": 79,
+      "avg_s2": -0.9622,
+      "avg_surprisal": 5.5499,
+      "pos_ratio": 0.2911
+    },
+    "sub_relative": {
+      "n": 661,
+      "avg_s2": -0.2933,
+      "avg_surprisal": 5.8385,
+      "pos_ratio": 0.3722
+    }
+  },
+  "prose": {
+    "coord_additive": {
+      "n": 5,
+      "avg_s2": -1.9782,
+      "avg_surprisal": 2.6274,
+      "pos_ratio": 0.0
+    },
+    "coord_adversative": {
+      "n": 0,
+      "avg_s2": null,
+      "avg_surprisal": null
+    },
+    "coord_disjunctive": {
+      "n": 0,
+      "avg_s2": null,
+      "avg_surprisal": null
+    },
+    "coord_causal": {
+      "n": 0,
+      "avg_s2": null,
+      "avg_surprisal": null
+    },
+    "sub_causal": {
+      "n": 0,
+      "avg_s2": null,
+      "avg_surprisal": null
+    },
+    "sub_temporal": {
+      "n": 0,
+      "avg_s2": null,
+      "avg_surprisal": null
+    },
+    "sub_concessive": {
+      "n": 0,
+      "avg_s2": null,
+      "avg_surprisal": null
+    },
+    "sub_conditional": {
+      "n": 0,
+      "avg_s2": null,
+      "avg_surprisal": null
+    },
+    "sub_relative": {
+      "n": 2,
+      "avg_s2": -1.703,
+      "avg_surprisal": 0.3751,
+      "pos_ratio": 0.0
+    }
+  },
+  "top_poets_adversative": [
+    [
+      "Ernest Dowson",
+      4.651
+    ],
+    [
+      "Layli Long Soldier",
+      4.523
+    ],
+    [
+      "Felicia Hemans",
+      3.045
+    ],
+    [
+      "Alfred, Lord Tennyson",
+      2.265
+    ],
+    [
+      "Robert Frost",
+      2.25
+    ],
+    [
+      "Emily Dickinson",
+      1.79
+    ],
+    [
+      "W.B. Yeats",
+      1.482
+    ],
+    [
+      "Percy Bysshe Shelley",
+      1.478
+    ],
+    [
+      "Anonymous (Hebrew Bible)",
+      1.432
+    ],
+    [
+      "Synthetic (stanza-break \u03b1 inheritance test)",
+      1.253
+    ]
+  ],
+  "bottom_poets_adversative": [
+    [
+      "Robinson Jeffers",
+      -3.751
+    ],
+    [
+      "Kobayashi Issa",
+      -2.621
+    ],
+    [
+      "James Schuyler",
+      -2.492
+    ],
+    [
+      "Alexander Pope",
+      -1.865
+    ],
+    [
+      "Wilfred Owen",
+      -1.738
+    ],
+    [
+      "Thomas Wyatt",
+      -1.71
+    ],
+    [
+      "Thomas Hardy",
+      -1.526
+    ],
+    [
+      "William Shakespeare",
+      -1.512
+    ],
+    [
+      "Traditional (American folk)",
+      -1.45
+    ],
+    [
+      "Alfred Lord Tennyson",
+      -1.422
+    ]
+  ],
+  "era_adversative": [
+    [
+      "surrealist",
+      2.737
+    ],
+    [
+      "biblical",
+      1.426
+    ],
+    [
+      "fixed_form",
+      1.23
+    ],
+    [
+      "19th_century",
+      0.904
+    ],
+    [
+      "victorian",
+      0.814
+    ],
+    [
+      "elegy",
+      0.784
+    ],
+    [
+      "modernist",
+      0.754
+    ],
+    [
+      "contemporary",
+      0.741
+    ],
+    [
+      "harlem_renaissance",
+      0.714
+    ],
+    [
+      "procedural",
+      0.502
+    ],
+    [
+      "metaphysical",
+      0.395
+    ],
+    [
+      "oulipo",
+      0.286
+    ],
+    [
+      "romantic",
+      -0.164
+    ],
+    [
+      "found_poetry",
+      -0.575
+    ],
+    [
+      "early_modern",
+      -0.655
+    ],
+    [
+      "ekphrastic",
+      -0.801
+    ],
+    [
+      "dramatic_monologue",
+      -0.851
+    ],
+    [
+      "new_york_school",
+      -0.999
+    ],
+    [
+      "song_lyrics",
+      -1.45
+    ],
+    [
+      "18th_century",
+      -1.606
+    ],
+    [
+      "haiku",
+      -1.94
+    ]
+  ],
+  "n_poetry_texts": 431,
+  "n_prose_texts": 5
+}
