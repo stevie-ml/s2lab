@@ -1,0 +1,1539 @@
+{
+  "global_stats": {
+    "sentence_initial": {
+      "raw": {
+        "n": 1914,
+        "mean": 3.8594,
+        "median": 0.3375,
+        "std": 9.0057
+      },
+      "clean": {
+        "n": 1568,
+        "mean": 0.1299,
+        "median": -0.6726,
+        "std": 3.5726
+      },
+      "poetry_clean": {
+        "n": 1562,
+        "mean": 0.1363,
+        "median": -0.6542,
+        "std": 3.5756
+      },
+      "prose_clean": {
+        "n": 6,
+        "mean": -1.5211,
+        "median": -2.5759,
+        "std": 2.301
+      }
+    },
+    "sentence_final": {
+      "raw": {
+        "n": 2251,
+        "mean": 0.4407,
+        "median": -0.304,
+        "std": 4.1319
+      },
+      "clean": {
+        "n": 2244,
+        "mean": 0.3579,
+        "median": -0.3127,
+        "std": 3.8357
+      },
+      "poetry_clean": {
+        "n": 2234,
+        "mean": 0.3709,
+        "median": -0.3018,
+        "std": 3.8376
+      },
+      "prose_clean": {
+        "n": 10,
+        "mean": -2.5511,
+        "median": -2.3538,
+        "std": 1.7989
+      }
+    },
+    "sentence_medial": {
+      "raw": {
+        "n": 40045,
+        "mean": 0.5187,
+        "median": -0.6819,
+        "std": 5.1879
+      },
+      "clean": {
+        "n": 38849,
+        "mean": -0.0789,
+        "median": -0.7994,
+        "std": 3.81
+      },
+      "poetry_clean": {
+        "n": 38750,
+        "mean": -0.0743,
+        "median": -0.7944,
+        "std": 3.812
+      },
+      "prose_clean": {
+        "n": 99,
+        "mean": -1.903,
+        "median": -2.0986,
+        "std": 2.2517
+      }
+    },
+    "clause_initial": {
+      "raw": {
+        "n": 732,
+        "mean": 6.0758,
+        "median": 1.2068,
+        "std": 10.582
+      },
+      "clean": {
+        "n": 532,
+        "mean": 0.2153,
+        "median": -0.7264,
+        "std": 4.2053
+      },
+      "poetry_clean": {
+        "n": 532,
+        "mean": 0.2153,
+        "median": -0.7264,
+        "std": 4.2053
+      },
+      "prose_clean": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "std": null
+      }
+    },
+    "clause_final": {
+      "raw": {
+        "n": 724,
+        "mean": 0.2539,
+        "median": -0.3292,
+        "std": 3.7895
+      },
+      "clean": {
+        "n": 724,
+        "mean": 0.2539,
+        "median": -0.3292,
+        "std": 3.7895
+      },
+      "poetry_clean": {
+        "n": 724,
+        "mean": 0.2539,
+        "median": -0.3292,
+        "std": 3.7895
+      },
+      "prose_clean": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "std": null
+      }
+    }
+  },
+  "enjambment": {
+    "enjambed": {
+      "n": 460,
+      "mean": 0.8246,
+      "median": 0.0155,
+      "std": 3.9756
+    },
+    "end_stopped": {
+      "n": 1102,
+      "mean": -0.1511,
+      "median": -0.9509,
+      "std": 3.3552
+    }
+  },
+  "era_stats": {
+    "romantic": {
+      "sentence_initial": {
+        "n": 80,
+        "mean": -0.4987,
+        "median": -1.038,
+        "std": 3.1762
+      },
+      "sentence_final": {
+        "n": 118,
+        "mean": 0.3841,
+        "median": -0.3285,
+        "std": 4.0525
+      },
+      "sentence_medial": {
+        "n": 2696,
+        "mean": -0.0321,
+        "median": -0.6456,
+        "std": 3.8367
+      }
+    },
+    "19th_century": {
+      "sentence_initial": {
+        "n": 35,
+        "mean": -0.0046,
+        "median": -0.2649,
+        "std": 4.0302
+      },
+      "sentence_final": {
+        "n": 47,
+        "mean": 0.2693,
+        "median": -1.4756,
+        "std": 4.3173
+      },
+      "sentence_medial": {
+        "n": 2480,
+        "mean": -0.0832,
+        "median": -0.7999,
+        "std": 3.8151
+      }
+    },
+    "modernist": {
+      "sentence_initial": {
+        "n": 77,
+        "mean": -0.4868,
+        "median": -1.9188,
+        "std": 3.8758
+      },
+      "sentence_final": {
+        "n": 119,
+        "mean": 0.3634,
+        "median": -0.1812,
+        "std": 3.8559
+      },
+      "sentence_medial": {
+        "n": 2018,
+        "mean": 0.1379,
+        "median": -0.585,
+        "std": 4.1267
+      }
+    },
+    "beat": {
+      "sentence_initial": {
+        "n": 14,
+        "mean": 2.0329,
+        "median": 0.8132,
+        "std": 4.6591
+      },
+      "sentence_final": {
+        "n": 16,
+        "mean": -0.0802,
+        "median": -0.1091,
+        "std": 2.2915
+      },
+      "sentence_medial": {
+        "n": 513,
+        "mean": 1.4355,
+        "median": -0.1641,
+        "std": 5.6659
+      }
+    },
+    "confessional": {
+      "sentence_initial": {
+        "n": 10,
+        "mean": -0.3876,
+        "median": -1.2061,
+        "std": 3.7597
+      },
+      "sentence_final": {
+        "n": 18,
+        "mean": 2.1687,
+        "median": 2.5298,
+        "std": 4.4149
+      },
+      "sentence_medial": {
+        "n": 268,
+        "mean": 0.1499,
+        "median": -0.6257,
+        "std": 3.8865
+      }
+    },
+    "mid_century": {
+      "sentence_initial": {
+        "n": 24,
+        "mean": -1.943,
+        "median": -2.7847,
+        "std": 2.5924
+      },
+      "sentence_final": {
+        "n": 36,
+        "mean": 3.0812,
+        "median": 2.6586,
+        "std": 5.012
+      },
+      "sentence_medial": {
+        "n": 374,
+        "mean": 0.068,
+        "median": -0.5414,
+        "std": 3.7766
+      }
+    },
+    "new_york_school": {
+      "sentence_initial": {
+        "n": 92,
+        "mean": -0.3528,
+        "median": -1.1653,
+        "std": 3.4045
+      },
+      "sentence_final": {
+        "n": 131,
+        "mean": 0.0147,
+        "median": -0.7516,
+        "std": 3.4921
+      },
+      "sentence_medial": {
+        "n": 1974,
+        "mean": -0.3881,
+        "median": -1.0981,
+        "std": 3.6512
+      }
+    },
+    "language": {
+      "sentence_initial": {
+        "n": 33,
+        "mean": 1.2606,
+        "median": -1.0041,
+        "std": 4.5177
+      },
+      "sentence_final": {
+        "n": 39,
+        "mean": 0.5351,
+        "median": -1.2755,
+        "std": 4.4193
+      },
+      "sentence_medial": {
+        "n": 315,
+        "mean": -0.66,
+        "median": -1.2008,
+        "std": 3.3234
+      }
+    },
+    "contemporary": {
+      "sentence_initial": {
+        "n": 104,
+        "mean": -0.226,
+        "median": -1.056,
+        "std": 3.2912
+      },
+      "sentence_final": {
+        "n": 157,
+        "mean": 0.7137,
+        "median": -0.1806,
+        "std": 4.3472
+      },
+      "sentence_medial": {
+        "n": 2118,
+        "mean": -0.2639,
+        "median": -1.1229,
+        "std": 3.6801
+      }
+    },
+    "harlem_renaissance": {
+      "sentence_initial": {
+        "n": 19,
+        "mean": -0.6251,
+        "median": -0.402,
+        "std": 2.0446
+      },
+      "sentence_final": {
+        "n": 35,
+        "mean": -1.0039,
+        "median": -1.356,
+        "std": 2.9203
+      },
+      "sentence_medial": {
+        "n": 579,
+        "mean": 0.0523,
+        "median": -0.4857,
+        "std": 3.8534
+      }
+    },
+    "oulipo": {
+      "sentence_initial": {
+        "n": 59,
+        "mean": 0.8344,
+        "median": 0.3532,
+        "std": 3.9834
+      },
+      "sentence_final": {
+        "n": 75,
+        "mean": 0.8097,
+        "median": -0.7039,
+        "std": 4.6461
+      },
+      "sentence_medial": {
+        "n": 874,
+        "mean": 0.124,
+        "median": -0.7503,
+        "std": 4.0681
+      }
+    },
+    "surrealist": {
+      "sentence_initial": {
+        "n": 26,
+        "mean": 0.7742,
+        "median": -0.053,
+        "std": 4.2849
+      },
+      "sentence_final": {
+        "n": 40,
+        "mean": 0.3631,
+        "median": -0.7441,
+        "std": 4.2349
+      },
+      "sentence_medial": {
+        "n": 804,
+        "mean": -0.244,
+        "median": -1.0398,
+        "std": 3.7715
+      }
+    },
+    "deep_image": {
+      "sentence_initial": {
+        "n": 3,
+        "mean": 0.3415,
+        "median": 2.143,
+        "std": 4.4616
+      },
+      "sentence_final": {
+        "n": 4,
+        "mean": -0.0629,
+        "median": -0.1337,
+        "std": 1.926
+      },
+      "sentence_medial": {
+        "n": 37,
+        "mean": -0.0615,
+        "median": -0.3751,
+        "std": 3.7663
+      }
+    },
+    "control": {
+      "sentence_initial": {
+        "n": 6,
+        "mean": -1.5211,
+        "median": -2.5759,
+        "std": 2.301
+      },
+      "sentence_final": {
+        "n": 10,
+        "mean": -2.5511,
+        "median": -2.3538,
+        "std": 1.7989
+      },
+      "sentence_medial": {
+        "n": 99,
+        "mean": -1.903,
+        "median": -2.0986,
+        "std": 2.2517
+      }
+    },
+    "victorian": {
+      "sentence_initial": {
+        "n": 89,
+        "mean": 0.9943,
+        "median": 0.1701,
+        "std": 3.6155
+      },
+      "sentence_final": {
+        "n": 133,
+        "mean": -0.1621,
+        "median": -0.3484,
+        "std": 3.4583
+      },
+      "sentence_medial": {
+        "n": 3692,
+        "mean": 0.1666,
+        "median": -0.6213,
+        "std": 3.9057
+      }
+    },
+    "haiku": {
+      "sentence_initial": {
+        "n": 8,
+        "mean": 2.369,
+        "median": 1.8399,
+        "std": 4.821
+      },
+      "sentence_final": {
+        "n": 23,
+        "mean": 0.7531,
+        "median": -0.072,
+        "std": 3.0788
+      },
+      "sentence_medial": {
+        "n": 165,
+        "mean": 0.4359,
+        "median": -0.641,
+        "std": 4.431
+      }
+    },
+    "ancient": {
+      "sentence_initial": {
+        "n": 2,
+        "mean": 1.9865,
+        "median": 1.9865,
+        "std": 4.5239
+      },
+      "sentence_final": {
+        "n": 6,
+        "mean": 0.8175,
+        "median": 0.1567,
+        "std": 3.2151
+      },
+      "sentence_medial": {
+        "n": 223,
+        "mean": 0.2632,
+        "median": -0.325,
+        "std": 3.6599
+      }
+    },
+    "prose_poetry": {
+      "sentence_initial": {
+        "n": 96,
+        "mean": -0.7018,
+        "median": -2.0737,
+        "std": 3.3417
+      },
+      "sentence_final": {
+        "n": 107,
+        "mean": -0.1038,
+        "median": -0.5659,
+        "std": 3.2762
+      },
+      "sentence_medial": {
+        "n": 942,
+        "mean": -0.1926,
+        "median": -1.0647,
+        "std": 3.5145
+      }
+    },
+    "ballad": {
+      "sentence_initial": {
+        "n": 12,
+        "mean": -1.6043,
+        "median": -2.4088,
+        "std": 1.8465
+      },
+      "sentence_final": {
+        "n": 16,
+        "mean": -1.2896,
+        "median": -0.9299,
+        "std": 3.1429
+      },
+      "sentence_medial": {
+        "n": 679,
+        "mean": 0.0648,
+        "median": -0.6899,
+        "std": 4.156
+      }
+    },
+    "song_lyrics": {
+      "sentence_initial": {
+        "n": 10,
+        "mean": -1.1105,
+        "median": -2.269,
+        "std": 3.1442
+      },
+      "sentence_final": {
+        "n": 13,
+        "mean": 0.0284,
+        "median": -0.1882,
+        "std": 2.8108
+      },
+      "sentence_medial": {
+        "n": 400,
+        "mean": -0.4258,
+        "median": -0.5736,
+        "std": 3.3307
+      }
+    },
+    "nursery_rhyme": {
+      "sentence_initial": {
+        "n": 4,
+        "mean": 5.53,
+        "median": 5.6604,
+        "std": 3.5018
+      },
+      "sentence_final": {
+        "n": 9,
+        "mean": -0.7955,
+        "median": -0.911,
+        "std": 3.7232
+      },
+      "sentence_medial": {
+        "n": 166,
+        "mean": -0.7384,
+        "median": -1.2322,
+        "std": 3.1873
+      }
+    },
+    "metaphysical": {
+      "sentence_initial": {
+        "n": 20,
+        "mean": 0.2598,
+        "median": 0.8363,
+        "std": 2.3711
+      },
+      "sentence_final": {
+        "n": 36,
+        "mean": 1.353,
+        "median": 0.0204,
+        "std": 4.6579
+      },
+      "sentence_medial": {
+        "n": 627,
+        "mean": -0.2357,
+        "median": -0.7319,
+        "std": 3.5302
+      }
+    },
+    "early_modern": {
+      "sentence_initial": {
+        "n": 41,
+        "mean": 0.3696,
+        "median": 0.05,
+        "std": 2.9874
+      },
+      "sentence_final": {
+        "n": 60,
+        "mean": 0.6401,
+        "median": -0.4642,
+        "std": 3.9315
+      },
+      "sentence_medial": {
+        "n": 1291,
+        "mean": -0.003,
+        "median": -0.718,
+        "std": 3.7804
+      }
+    },
+    "spoken_word": {
+      "sentence_initial": {
+        "n": 11,
+        "mean": 0.5435,
+        "median": -0.507,
+        "std": 5.0206
+      },
+      "sentence_final": {
+        "n": 15,
+        "mean": 0.0909,
+        "median": -0.8407,
+        "std": 4.1127
+      },
+      "sentence_medial": {
+        "n": 195,
+        "mean": -0.3763,
+        "median": -1.5288,
+        "std": 4.0397
+      }
+    },
+    "found_poetry": {
+      "sentence_initial": {
+        "n": 34,
+        "mean": 0.1621,
+        "median": -0.2362,
+        "std": 3.3834
+      },
+      "sentence_final": {
+        "n": 52,
+        "mean": -0.7987,
+        "median": -1.151,
+        "std": 2.9398
+      },
+      "sentence_medial": {
+        "n": 824,
+        "mean": -0.4766,
+        "median": -1.0619,
+        "std": 3.2237
+      }
+    },
+    "fixed_form": {
+      "sentence_initial": {
+        "n": 20,
+        "mean": -0.033,
+        "median": -0.1908,
+        "std": 3.3899
+      },
+      "sentence_final": {
+        "n": 31,
+        "mean": -0.298,
+        "median": -0.5196,
+        "std": 3.3414
+      },
+      "sentence_medial": {
+        "n": 593,
+        "mean": -0.3223,
+        "median": -0.9481,
+        "std": 3.7734
+      }
+    },
+    "cliche_control": {
+      "sentence_initial": {
+        "n": 19,
+        "mean": -1.4763,
+        "median": -1.6163,
+        "std": 2.2663
+      },
+      "sentence_final": {
+        "n": 32,
+        "mean": -0.4973,
+        "median": -1.5339,
+        "std": 3.4426
+      },
+      "sentence_medial": {
+        "n": 331,
+        "mean": -0.7923,
+        "median": -1.4834,
+        "std": 3.2822
+      }
+    },
+    "18th_century": {
+      "sentence_initial": {
+        "n": 56,
+        "mean": -0.4161,
+        "median": -1.5722,
+        "std": 3.8719
+      },
+      "sentence_final": {
+        "n": 63,
+        "mean": 0.7091,
+        "median": 0.3542,
+        "std": 3.2064
+      },
+      "sentence_medial": {
+        "n": 1011,
+        "mean": 0.1343,
+        "median": -0.7385,
+        "std": 3.8625
+      }
+    },
+    "biblical": {
+      "sentence_initial": {
+        "n": 50,
+        "mean": 0.0962,
+        "median": -0.7149,
+        "std": 3.2803
+      },
+      "sentence_final": {
+        "n": 66,
+        "mean": 0.2805,
+        "median": -0.0477,
+        "std": 2.9617
+      },
+      "sentence_medial": {
+        "n": 918,
+        "mean": -0.2928,
+        "median": -0.5981,
+        "std": 3.228
+      }
+    },
+    "concrete": {
+      "sentence_initial": {
+        "n": 20,
+        "mean": 0.1907,
+        "median": -1.3378,
+        "std": 4.0703
+      },
+      "sentence_final": {
+        "n": 23,
+        "mean": 0.8497,
+        "median": -0.1323,
+        "std": 3.6067
+      },
+      "sentence_medial": {
+        "n": 179,
+        "mean": -0.1856,
+        "median": -0.5097,
+        "std": 3.9548
+      }
+    },
+    "latin_american": {
+      "sentence_initial": {
+        "n": 12,
+        "mean": 1.6507,
+        "median": 2.1916,
+        "std": 4.3245
+      },
+      "sentence_final": {
+        "n": 23,
+        "mean": 1.3534,
+        "median": -0.4291,
+        "std": 4.0882
+      },
+      "sentence_medial": {
+        "n": 312,
+        "mean": -0.166,
+        "median": -1.1791,
+        "std": 3.7924
+      }
+    },
+    "black_arts": {
+      "sentence_initial": {
+        "n": 9,
+        "mean": 0.0825,
+        "median": -2.6146,
+        "std": 4.6498
+      },
+      "sentence_final": {
+        "n": 16,
+        "mean": 1.7091,
+        "median": 0.7702,
+        "std": 3.7444
+      },
+      "sentence_medial": {
+        "n": 165,
+        "mean": -0.4754,
+        "median": -1.2274,
+        "std": 3.3633
+      }
+    },
+    "korean_modernist": {
+      "sentence_initial": {
+        "n": 3,
+        "mean": 2.9041,
+        "median": 3.4215,
+        "std": 5.5968
+      },
+      "sentence_final": {
+        "n": 9,
+        "mean": -2.1471,
+        "median": -3.1179,
+        "std": 2.3219
+      },
+      "sentence_medial": {
+        "n": 63,
+        "mean": -0.1469,
+        "median": -1.3946,
+        "std": 4.1422
+      }
+    },
+    "imagist": {
+      "sentence_initial": {
+        "n": 7,
+        "mean": 0.4762,
+        "median": 0.8505,
+        "std": 3.8144
+      },
+      "sentence_final": {
+        "n": 13,
+        "mean": -0.9542,
+        "median": -2.0865,
+        "std": 3.5496
+      },
+      "sentence_medial": {
+        "n": 220,
+        "mean": -0.1581,
+        "median": -0.6885,
+        "std": 3.789
+      }
+    },
+    "german_expressionist": {
+      "sentence_initial": {
+        "n": 27,
+        "mean": 0.0607,
+        "median": -0.3974,
+        "std": 4.3535
+      },
+      "sentence_final": {
+        "n": 43,
+        "mean": 1.1866,
+        "median": 0.4036,
+        "std": 3.7727
+      },
+      "sentence_medial": {
+        "n": 303,
+        "mean": 0.1441,
+        "median": -0.7652,
+        "std": 3.8807
+      }
+    },
+    "parody_original": {
+      "sentence_initial": {
+        "n": 10,
+        "mean": -0.9192,
+        "median": -1.187,
+        "std": 2.1815
+      },
+      "sentence_final": {
+        "n": 17,
+        "mean": -0.0157,
+        "median": 0.3659,
+        "std": 2.8556
+      },
+      "sentence_medial": {
+        "n": 319,
+        "mean": -0.216,
+        "median": -0.5214,
+        "std": 3.5103
+      }
+    },
+    "parody": {
+      "sentence_initial": {
+        "n": 14,
+        "mean": -0.5542,
+        "median": -0.7577,
+        "std": 2.1794
+      },
+      "sentence_final": {
+        "n": 22,
+        "mean": 1.4545,
+        "median": -0.2703,
+        "std": 4.2949
+      },
+      "sentence_medial": {
+        "n": 471,
+        "mean": 0.0254,
+        "median": -0.6725,
+        "std": 3.5322
+      }
+    },
+    "classical_chinese": {
+      "sentence_initial": {
+        "n": 11,
+        "mean": 0.7342,
+        "median": 0.2439,
+        "std": 3.5663
+      },
+      "sentence_final": {
+        "n": 18,
+        "mean": -0.9915,
+        "median": -0.9156,
+        "std": 3.6035
+      },
+      "sentence_medial": {
+        "n": 148,
+        "mean": -0.0363,
+        "median": -0.7761,
+        "std": 3.9421
+      }
+    },
+    "persian": {
+      "sentence_initial": {
+        "n": 9,
+        "mean": 0.2612,
+        "median": 1.0031,
+        "std": 2.0763
+      },
+      "sentence_final": {
+        "n": 10,
+        "mean": 1.4692,
+        "median": 0.5111,
+        "std": 4.7277
+      },
+      "sentence_medial": {
+        "n": 271,
+        "mean": 0.0456,
+        "median": -0.6775,
+        "std": 4.0093
+      }
+    },
+    "japanese_classical": {
+      "sentence_initial": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "std": null
+      },
+      "sentence_final": {
+        "n": 2,
+        "mean": -3.7002,
+        "median": -3.7002,
+        "std": 0.738
+      },
+      "sentence_medial": {
+        "n": 44,
+        "mean": -0.5151,
+        "median": -1.3275,
+        "std": 3.3426
+      }
+    },
+    "limerick": {
+      "sentence_initial": {
+        "n": 6,
+        "mean": -0.6777,
+        "median": -0.2915,
+        "std": 2.2283
+      },
+      "sentence_final": {
+        "n": 13,
+        "mean": 0.053,
+        "median": -1.2629,
+        "std": 5.3049
+      },
+      "sentence_medial": {
+        "n": 315,
+        "mean": -0.5753,
+        "median": -1.4291,
+        "std": 3.4755
+      }
+    },
+    "old_english": {
+      "sentence_initial": {
+        "n": 15,
+        "mean": 0.7826,
+        "median": 0.7955,
+        "std": 3.1027
+      },
+      "sentence_final": {
+        "n": 20,
+        "mean": 1.4241,
+        "median": 1.0922,
+        "std": 4.8004
+      },
+      "sentence_medial": {
+        "n": 441,
+        "mean": 0.185,
+        "median": -0.5582,
+        "std": 4.0608
+      }
+    },
+    "protest_political": {
+      "sentence_initial": {
+        "n": 6,
+        "mean": 1.0468,
+        "median": 0.9023,
+        "std": 2.6178
+      },
+      "sentence_final": {
+        "n": 9,
+        "mean": -1.0985,
+        "median": -1.8387,
+        "std": 3.356
+      },
+      "sentence_medial": {
+        "n": 169,
+        "mean": -0.3036,
+        "median": -1.0104,
+        "std": 3.458
+      }
+    },
+    "ghazal": {
+      "sentence_initial": {
+        "n": 22,
+        "mean": 1.1021,
+        "median": 0.6666,
+        "std": 3.8664
+      },
+      "sentence_final": {
+        "n": 32,
+        "mean": -0.065,
+        "median": -0.8761,
+        "std": 3.9861
+      },
+      "sentence_medial": {
+        "n": 195,
+        "mean": -0.0875,
+        "median": -1.4503,
+        "std": 3.9928
+      }
+    },
+    "war_poetry": {
+      "sentence_initial": {
+        "n": 14,
+        "mean": 1.235,
+        "median": 1.2113,
+        "std": 3.6758
+      },
+      "sentence_final": {
+        "n": 19,
+        "mean": 1.1128,
+        "median": 1.1655,
+        "std": 3.3875
+      },
+      "sentence_medial": {
+        "n": 435,
+        "mean": 0.0239,
+        "median": -0.6776,
+        "std": 3.5201
+      }
+    },
+    "postcolonial": {
+      "sentence_initial": {
+        "n": 36,
+        "mean": 1.1589,
+        "median": 0.752,
+        "std": 4.1464
+      },
+      "sentence_final": {
+        "n": 55,
+        "mean": 0.2256,
+        "median": -1.1527,
+        "std": 4.4096
+      },
+      "sentence_medial": {
+        "n": 604,
+        "mean": -0.0439,
+        "median": -0.9925,
+        "std": 4.226
+      }
+    },
+    "dramatic_monologue": {
+      "sentence_initial": {
+        "n": 107,
+        "mean": 0.2965,
+        "median": -0.134,
+        "std": 2.782
+      },
+      "sentence_final": {
+        "n": 128,
+        "mean": 0.2464,
+        "median": -0.013,
+        "std": 3.4776
+      },
+      "sentence_medial": {
+        "n": 3064,
+        "mean": -0.0554,
+        "median": -0.7187,
+        "std": 3.7415
+      }
+    },
+    "elegy": {
+      "sentence_initial": {
+        "n": 35,
+        "mean": 0.8743,
+        "median": -0.362,
+        "std": 4.2784
+      },
+      "sentence_final": {
+        "n": 46,
+        "mean": 0.2721,
+        "median": -0.0615,
+        "std": 3.7338
+      },
+      "sentence_medial": {
+        "n": 883,
+        "mean": -0.1161,
+        "median": -0.7273,
+        "std": 3.8308
+      }
+    },
+    "clerihew": {
+      "sentence_initial": {
+        "n": 7,
+        "mean": -1.2713,
+        "median": -1.2654,
+        "std": 2.206
+      },
+      "sentence_final": {
+        "n": 17,
+        "mean": 3.4598,
+        "median": 1.8659,
+        "std": 5.881
+      },
+      "sentence_medial": {
+        "n": 151,
+        "mean": 1.0626,
+        "median": -0.0103,
+        "std": 4.6251
+      }
+    },
+    "double_dactyl": {
+      "sentence_initial": {
+        "n": 5,
+        "mean": 2.1384,
+        "median": 2.5274,
+        "std": 2.2909
+      },
+      "sentence_final": {
+        "n": 10,
+        "mean": -0.3807,
+        "median": 0.0337,
+        "std": 3.125
+      },
+      "sentence_medial": {
+        "n": 154,
+        "mean": -0.0721,
+        "median": -0.8337,
+        "std": 3.3842
+      }
+    },
+    "ekphrastic": {
+      "sentence_initial": {
+        "n": 45,
+        "mean": 0.3968,
+        "median": -0.3097,
+        "std": 3.8482
+      },
+      "sentence_final": {
+        "n": 63,
+        "mean": 0.284,
+        "median": -0.0181,
+        "std": 3.6139
+      },
+      "sentence_medial": {
+        "n": 1349,
+        "mean": -0.1199,
+        "median": -0.7547,
+        "std": 3.7215
+      }
+    },
+    "villanelle": {
+      "sentence_initial": {
+        "n": 19,
+        "mean": 0.3194,
+        "median": -0.7632,
+        "std": 3.5555
+      },
+      "sentence_final": {
+        "n": 27,
+        "mean": 0.9208,
+        "median": -0.1771,
+        "std": 3.7714
+      },
+      "sentence_medial": {
+        "n": 271,
+        "mean": -0.4951,
+        "median": -0.8943,
+        "std": 3.4113
+      }
+    },
+    "pantoum": {
+      "sentence_initial": {
+        "n": 12,
+        "mean": -0.5313,
+        "median": -0.618,
+        "std": 3.1029
+      },
+      "sentence_final": {
+        "n": 18,
+        "mean": 1.1318,
+        "median": -0.1098,
+        "std": 3.3645
+      },
+      "sentence_medial": {
+        "n": 196,
+        "mean": -0.3351,
+        "median": -0.8274,
+        "std": 3.5519
+      }
+    },
+    "triolet": {
+      "sentence_initial": {
+        "n": 3,
+        "mean": 0.2908,
+        "median": 0.6378,
+        "std": 3.3581
+      },
+      "sentence_final": {
+        "n": 6,
+        "mean": -1.1721,
+        "median": -0.851,
+        "std": 1.5568
+      },
+      "sentence_medial": {
+        "n": 80,
+        "mean": -0.5037,
+        "median": -0.816,
+        "std": 3.0458
+      }
+    },
+    "rondeau": {
+      "sentence_initial": {
+        "n": 3,
+        "mean": 2.6895,
+        "median": 2.6682,
+        "std": 5.142
+      },
+      "sentence_final": {
+        "n": 5,
+        "mean": 0.6803,
+        "median": -0.8469,
+        "std": 4.4504
+      },
+      "sentence_medial": {
+        "n": 87,
+        "mean": 0.0978,
+        "median": -0.4564,
+        "std": 4.0713
+      }
+    },
+    "nonsense": {
+      "sentence_initial": {
+        "n": 14,
+        "mean": -1.1201,
+        "median": -1.2814,
+        "std": 1.84
+      },
+      "sentence_final": {
+        "n": 22,
+        "mean": -1.336,
+        "median": -1.6618,
+        "std": 2.7481
+      },
+      "sentence_medial": {
+        "n": 351,
+        "mean": -0.5384,
+        "median": -0.9904,
+        "std": 3.5061
+      }
+    },
+    "procedural": {
+      "sentence_initial": {
+        "n": 43,
+        "mean": 1.0277,
+        "median": 0.4752,
+        "std": 4.125
+      },
+      "sentence_final": {
+        "n": 51,
+        "mean": 1.1467,
+        "median": 0.4017,
+        "std": 3.4829
+      },
+      "sentence_medial": {
+        "n": 365,
+        "mean": -0.1331,
+        "median": -1.0092,
+        "std": 3.7002
+      }
+    },
+    "social_media_poetry": {
+      "sentence_initial": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "std": null
+      },
+      "sentence_final": {
+        "n": 0,
+        "mean": null,
+        "median": null,
+        "std": null
+      },
+      "sentence_medial": {
+        "n": 38,
+        "mean": -0.2395,
+        "median": -0.8687,
+        "std": 3.8951
+      }
+    }
+  },
+  "top_sentence_initial_tokens": [
+    [
+      "the",
+      149,
+      -2.45
+    ],
+    [
+      "i",
+      143,
+      -2.212
+    ],
+    [
+      "and",
+      61,
+      -1.779
+    ],
+    [
+      "for",
+      47,
+      -0.884
+    ],
+    [
+      "he",
+      43,
+      -2.305
+    ],
+    [
+      "we",
+      33,
+      -2.124
+    ],
+    [
+      "a",
+      32,
+      -1.332
+    ],
+    [
+      "my",
+      32,
+      -0.346
+    ],
+    [
+      "what",
+      28,
+      -1.229
+    ],
+    [
+      "you",
+      28,
+      -1.202
+    ],
+    [
+      "but",
+      26,
+      -1.1
+    ],
+    [
+      "in",
+      26,
+      -1.132
+    ],
+    [
+      "she",
+      24,
+      -1.563
+    ],
+    [
+      "it",
+      22,
+      -1.305
+    ],
+    [
+      "there",
+      22,
+      0.089
+    ],
+    [
+      "o",
+      20,
+      -1.745
+    ],
+    [
+      "this",
+      17,
+      -0.166
+    ],
+    [
+      "l",
+      16,
+      -3.107
+    ],
+    [
+      "to",
+      16,
+      -0.034
+    ],
+    [
+      "they",
+      16,
+      -1.39
+    ],
+    [
+      "his",
+      16,
+      0.474
+    ],
+    [
+      "when",
+      16,
+      -0.141
+    ],
+    [
+      "then",
+      12,
+      -0.519
+    ],
+    [
+      "let",
+      11,
+      0.507
+    ],
+    [
+      "all",
+      11,
+      -0.379
+    ]
+  ],
+  "high_s2_sentence_initial": [
+    [
+      "fatig",
+      19.5628,
+      "18th_century"
+    ],
+    [
+      "Broken",
+      14.2039,
+      "prose_poetry"
+    ],
+    [
+      "Up",
+      14.1638,
+      "victorian"
+    ],
+    [
+      "Engineers",
+      12.9531,
+      "ghazal"
+    ],
+    [
+      "Talk",
+      11.7418,
+      "postcolonial"
+    ],
+    [
+      "air",
+      11.0148,
+      "postcolonial"
+    ],
+    [
+      "Hear",
+      10.7876,
+      "prose_poetry"
+    ],
+    [
+      "Fe",
+      10.7861,
+      "oulipo"
+    ],
+    [
+      "they",
+      10.7856,
+      "19th_century"
+    ],
+    [
+      "Move",
+      10.6305,
+      "german_expressionist"
+    ],
+    [
+      "Now",
+      10.6249,
+      "oulipo"
+    ],
+    [
+      "Cross",
+      10.5945,
+      "procedural"
+    ],
+    [
+      "though",
+      10.5502,
+      "elegy"
+    ],
+    [
+      "Alas",
+      10.5078,
+      "modernist"
+    ],
+    [
+      "Under",
+      10.506,
+      "surrealist"
+    ],
+    [
+      "Under",
+      10.2875,
+      "latin_american"
+    ],
+    [
+      "rise",
+      10.2662,
+      "19th_century"
+    ],
+    [
+      "rise",
+      10.2662,
+      "elegy"
+    ],
+    [
+      "Cos",
+      10.2519,
+      "ekphrastic"
+    ],
+    [
+      "tender",
+      10.152,
+      "ekphrastic"
+    ]
+  ]
+}
