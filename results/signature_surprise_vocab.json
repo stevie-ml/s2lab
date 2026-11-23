@@ -1,0 +1,1242 @@
+{
+  "baseline_cross_author_jaccard": 0.0067,
+  "n_multi_poem_authors": 89,
+  "authors": {
+    "Gwendolyn Brooks": {
+      "n_poems": 2,
+      "mean_jaccard": 1.0,
+      "signature_size": 7,
+      "total_unique_surprise": 7,
+      "signature_ratio": 1.0,
+      "avg_surprise_vocab_size": 7.0,
+      "signature_words": [
+        "ur",
+        "sing",
+        "gin",
+        "june",
+        "sin",
+        "late",
+        "straight"
+      ]
+    },
+    "Edwin Arlington Robinson": {
+      "n_poems": 2,
+      "mean_jaccard": 1.0,
+      "signature_size": 19,
+      "total_unique_surprise": 19,
+      "signature_ratio": 1.0,
+      "avg_surprise_vocab_size": 19.0,
+      "signature_words": [
+        "them",
+        "still",
+        "good",
+        "stray",
+        "broken",
+        "sill",
+        "gray",
+        "fancy",
+        "away",
+        "nor",
+        "ruin",
+        "shr",
+        "bleak",
+        "then",
+        "on",
+        "sunk",
+        "skill",
+        "we",
+        "through"
+      ]
+    },
+    "Ernest Dowson": {
+      "n_poems": 2,
+      "mean_jaccard": 1.0,
+      "signature_size": 11,
+      "total_unique_surprise": 11,
+      "signature_ratio": 1.0,
+      "avg_surprise_vocab_size": 11.0,
+      "signature_words": [
+        "youth",
+        "leaves",
+        "unt",
+        "day",
+        "yet",
+        "woman",
+        "gay",
+        "garn",
+        "bay",
+        "song",
+        "while"
+      ]
+    },
+    "Heather McHugh": {
+      "n_poems": 2,
+      "mean_jaccard": 1.0,
+      "signature_size": 15,
+      "total_unique_surprise": 15,
+      "signature_ratio": 1.0,
+      "avg_surprise_vocab_size": 15.0,
+      "signature_words": [
+        "out",
+        "you",
+        "kind",
+        "am",
+        "ling",
+        "look",
+        "fair",
+        "nothing",
+        "volatile",
+        "everywhere",
+        "call",
+        "here",
+        "every",
+        "yourself",
+        "too"
+      ]
+    },
+    "Christopher Smart": {
+      "n_poems": 2,
+      "mean_jaccard": 0.8125,
+      "signature_size": 39,
+      "total_unique_surprise": 48,
+      "signature_ratio": 0.8125,
+      "avg_surprise_vocab_size": 43.5,
+      "signature_words": [
+        "living",
+        "duly",
+        "behind",
+        "prank",
+        "interrupted",
+        "sharp",
+        "wors",
+        "off",
+        "quick",
+        "mus",
+        "je",
+        "duty",
+        "leaps",
+        "as",
+        "elegant",
+        "having",
+        "kicks",
+        "cat",
+        "seven",
+        "upon"
+      ]
+    },
+    "Claudia Rankine": {
+      "n_poems": 2,
+      "mean_jaccard": 0.5,
+      "signature_size": 10,
+      "total_unique_surprise": 20,
+      "signature_ratio": 0.5,
+      "avg_surprise_vocab_size": 15.0,
+      "signature_words": [
+        "usually",
+        "linger",
+        "any",
+        "even",
+        "past",
+        "let",
+        "nest",
+        "pill",
+        "stacked",
+        "among"
+      ]
+    },
+    "William Carlos Williams": {
+      "n_poems": 4,
+      "mean_jaccard": 0.3333,
+      "signature_size": 8,
+      "total_unique_surprise": 8,
+      "signature_ratio": 1.0,
+      "avg_surprise_vocab_size": 4.0,
+      "signature_words": [
+        "wheel",
+        "bes",
+        "red",
+        "depends",
+        "which",
+        "that",
+        "for",
+        "eaten"
+      ]
+    },
+    "Langston Hughes": {
+      "n_poems": 3,
+      "mean_jaccard": 0.3333,
+      "signature_size": 5,
+      "total_unique_surprise": 25,
+      "signature_ratio": 0.2,
+      "avg_surprise_vocab_size": 10.0,
+      "signature_words": [
+        "deferred",
+        "dry",
+        "ra",
+        "and",
+        "over"
+      ]
+    },
+    "Lucille Clifton": {
+      "n_poems": 4,
+      "mean_jaccard": 0.1667,
+      "signature_size": 15,
+      "total_unique_surprise": 35,
+      "signature_ratio": 0.4286,
+      "avg_surprise_vocab_size": 12.5,
+      "signature_words": [
+        "tight",
+        "except",
+        "arsh",
+        "shaped",
+        "celebrate",
+        "tried",
+        "everyday",
+        "bridge",
+        "born",
+        "non",
+        "woman",
+        "bab",
+        "both",
+        "model",
+        "come"
+      ]
+    },
+    "Joy Harjo": {
+      "n_poems": 3,
+      "mean_jaccard": 0.1071,
+      "signature_size": 14,
+      "total_unique_surprise": 71,
+      "signature_ratio": 0.1972,
+      "avg_surprise_vocab_size": 28.7,
+      "signature_words": [
+        "who",
+        "red",
+        "too",
+        "at",
+        "bodies",
+        "sky",
+        "sand",
+        "air",
+        "of",
+        "ocean",
+        "fur",
+        "drawn",
+        "maps",
+        "horses"
+      ]
+    },
+    "Gerard Manley Hopkins": {
+      "n_poems": 6,
+      "mean_jaccard": 0.0799,
+      "signature_size": 39,
+      "total_unique_surprise": 184,
+      "signature_ratio": 0.212,
+      "avg_surprise_vocab_size": 38.0,
+      "signature_words": [
+        "forth",
+        "fresh",
+        "ind",
+        "spare",
+        "falls",
+        "morning",
+        "off",
+        "why",
+        "brown",
+        "man",
+        "trout",
+        "coal",
+        "skies",
+        "oles",
+        "ipple",
+        "whatever",
+        "tackle",
+        "couple",
+        "gear",
+        "be"
+      ]
+    },
+    "Walt Whitman": {
+      "n_poems": 9,
+      "mean_jaccard": 0.0716,
+      "signature_size": 50,
+      "total_unique_surprise": 270,
+      "signature_ratio": 0.1852,
+      "avg_surprise_vocab_size": 38.8,
+      "signature_words": [
+        "where",
+        "while",
+        "drops",
+        "at",
+        "as",
+        "fearful",
+        "done",
+        "prize",
+        "daring",
+        "grim",
+        "steady",
+        "bleeding",
+        "rack",
+        "ex",
+        "trip",
+        "fall",
+        "follow",
+        "captain",
+        "eyes",
+        "weather"
+      ]
+    },
+    "Georges Perec": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0714,
+      "signature_size": 2,
+      "total_unique_surprise": 28,
+      "signature_ratio": 0.0714,
+      "avg_surprise_vocab_size": 15.0,
+      "signature_words": [
+        "again",
+        "that"
+      ]
+    },
+    "Synthetic (double dactyl test case)": {
+      "n_poems": 5,
+      "mean_jaccard": 0.0674,
+      "signature_size": 1,
+      "total_unique_surprise": 36,
+      "signature_ratio": 0.0278,
+      "avg_surprise_vocab_size": 8.0,
+      "signature_words": [
+        "igg"
+      ]
+    },
+    "Emily Dickinson": {
+      "n_poems": 7,
+      "mean_jaccard": 0.0551,
+      "signature_size": 36,
+      "total_unique_surprise": 113,
+      "signature_ratio": 0.3186,
+      "avg_surprise_vocab_size": 21.7,
+      "signature_words": [
+        "too",
+        "but",
+        "death",
+        "car",
+        "civ",
+        "rec",
+        "drew",
+        "shorter",
+        "and",
+        "since",
+        "or",
+        "slowly",
+        "he",
+        "the",
+        "kindly",
+        "in",
+        "labor",
+        "setting",
+        "grain",
+        "toward"
+      ]
+    },
+    "Lawrence Ferlinghetti": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0513,
+      "signature_size": 2,
+      "total_unique_surprise": 39,
+      "signature_ratio": 0.0513,
+      "avg_surprise_vocab_size": 20.5,
+      "signature_words": [
+        "of",
+        "the"
+      ]
+    },
+    "Alfred, Lord Tennyson": {
+      "n_poems": 5,
+      "mean_jaccard": 0.0499,
+      "signature_size": 34,
+      "total_unique_surprise": 179,
+      "signature_ratio": 0.1899,
+      "avg_surprise_vocab_size": 43.6,
+      "signature_words": [
+        "over",
+        "below",
+        "fl",
+        "an",
+        "there",
+        "cas",
+        "in",
+        "with",
+        "we",
+        "well",
+        "where",
+        "owers",
+        "meet",
+        "camel",
+        "lady",
+        "air",
+        "lie",
+        "dusk",
+        "ows",
+        "gray"
+      ]
+    },
+    "John Keats": {
+      "n_poems": 9,
+      "mean_jaccard": 0.0454,
+      "signature_size": 68,
+      "total_unique_surprise": 380,
+      "signature_ratio": 0.1789,
+      "avg_surprise_vocab_size": 50.7,
+      "signature_words": [
+        "like",
+        "eagle",
+        "round",
+        "wat",
+        "all",
+        "more",
+        "full",
+        "let",
+        "wing",
+        "shadows",
+        "dem",
+        "look",
+        "apollo",
+        "had",
+        "as",
+        "cort",
+        "dar",
+        "chapman",
+        "ards",
+        "its"
+      ]
+    },
+    "Robert Creeley": {
+      "n_poems": 2,
+      "mean_jaccard": 0.037,
+      "signature_size": 1,
+      "total_unique_surprise": 27,
+      "signature_ratio": 0.037,
+      "avg_surprise_vocab_size": 14.0,
+      "signature_words": [
+        "where"
+      ]
+    },
+    "William Shakespeare": {
+      "n_poems": 3,
+      "mean_jaccard": 0.0359,
+      "signature_size": 5,
+      "total_unique_surprise": 67,
+      "signature_ratio": 0.0746,
+      "avg_surprise_vocab_size": 24.0,
+      "signature_words": [
+        "death",
+        "from",
+        "compare",
+        "black",
+        "well"
+      ]
+    },
+    "Wilfred Owen": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0326,
+      "signature_size": 3,
+      "total_unique_surprise": 92,
+      "signature_ratio": 0.0326,
+      "avg_surprise_vocab_size": 47.5,
+      "signature_words": [
+        "blind",
+        "sh",
+        "boys"
+      ]
+    },
+    "Robert Browning": {
+      "n_poems": 8,
+      "mean_jaccard": 0.0307,
+      "signature_size": 68,
+      "total_unique_surprise": 416,
+      "signature_ratio": 0.1635,
+      "avg_surprise_vocab_size": 62.8,
+      "signature_words": [
+        "will",
+        "by",
+        "too",
+        "once",
+        "never",
+        "that",
+        "there",
+        "men",
+        "one",
+        "god",
+        "mine",
+        "the",
+        "all",
+        "now",
+        "str",
+        "duchess",
+        "depth",
+        "read",
+        "painted",
+        "please"
+      ]
+    },
+    "Alfred Lord Tennyson": {
+      "n_poems": 5,
+      "mean_jaccard": 0.0296,
+      "signature_size": 32,
+      "total_unique_surprise": 296,
+      "signature_ratio": 0.1081,
+      "avg_surprise_vocab_size": 66.4,
+      "signature_words": [
+        "me",
+        "life",
+        "among",
+        "far",
+        "drink",
+        "little",
+        "hear",
+        "still",
+        "mete",
+        "profits",
+        "alone",
+        "hoard",
+        "all",
+        "great",
+        "both",
+        "qual",
+        "travel",
+        "have",
+        "le",
+        "laws"
+      ]
+    },
+    "Omar Khayyam (trans. FitzGerald, 1859)": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0278,
+      "signature_size": 2,
+      "total_unique_surprise": 72,
+      "signature_ratio": 0.0278,
+      "avg_surprise_vocab_size": 37.0,
+      "signature_words": [
+        "pur",
+        "this"
+      ]
+    },
+    "Frank O'Hara": {
+      "n_poems": 3,
+      "mean_jaccard": 0.0275,
+      "signature_size": 3,
+      "total_unique_surprise": 57,
+      "signature_ratio": 0.0526,
+      "avg_surprise_vocab_size": 20.0,
+      "signature_words": [
+        "go",
+        "it",
+        "straight"
+      ]
+    },
+    "Edgar Allan Poe": {
+      "n_poems": 2,
+      "mean_jaccard": 0.027,
+      "signature_size": 3,
+      "total_unique_surprise": 111,
+      "signature_ratio": 0.027,
+      "avg_surprise_vocab_size": 57.0,
+      "signature_words": [
+        "there",
+        "many",
+        "and"
+      ]
+    },
+    "Thomas Wyatt": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0256,
+      "signature_size": 2,
+      "total_unique_surprise": 78,
+      "signature_ratio": 0.0256,
+      "avg_surprise_vocab_size": 40.0,
+      "signature_words": [
+        "her",
+        "my"
+      ]
+    },
+    "Robert Burns": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0238,
+      "signature_size": 1,
+      "total_unique_surprise": 42,
+      "signature_ratio": 0.0238,
+      "avg_surprise_vocab_size": 21.5,
+      "signature_words": [
+        "wi"
+      ]
+    },
+    "Christina Rossetti": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0233,
+      "signature_size": 2,
+      "total_unique_surprise": 86,
+      "signature_ratio": 0.0233,
+      "avg_surprise_vocab_size": 44.0,
+      "signature_words": [
+        "and",
+        "or"
+      ]
+    },
+    "Allen Ginsberg": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0227,
+      "signature_size": 1,
+      "total_unique_surprise": 44,
+      "signature_ratio": 0.0227,
+      "avg_surprise_vocab_size": 22.5,
+      "signature_words": [
+        "looking"
+      ]
+    },
+    "Anonymous (Hebrew Bible)": {
+      "n_poems": 7,
+      "mean_jaccard": 0.0226,
+      "signature_size": 15,
+      "total_unique_surprise": 126,
+      "signature_ratio": 0.119,
+      "avg_surprise_vocab_size": 20.4,
+      "signature_words": [
+        "they",
+        "thereof",
+        "comfort",
+        "mine",
+        "though",
+        "for",
+        "run",
+        "where",
+        "unto",
+        "going",
+        "even",
+        "upon",
+        "sat",
+        "strength",
+        "will"
+      ]
+    },
+    "Traditional (Scottish ballad)": {
+      "n_poems": 5,
+      "mean_jaccard": 0.0225,
+      "signature_size": 6,
+      "total_unique_surprise": 104,
+      "signature_ratio": 0.0577,
+      "avg_surprise_vocab_size": 22.4,
+      "signature_words": [
+        "wi",
+        "guid",
+        "your",
+        "upon",
+        "an",
+        "sa"
+      ]
+    },
+    "George Herbert": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0222,
+      "signature_size": 1,
+      "total_unique_surprise": 45,
+      "signature_ratio": 0.0222,
+      "avg_surprise_vocab_size": 23.0,
+      "signature_words": [
+        "but"
+      ]
+    },
+    "Barbara Guest": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0208,
+      "signature_size": 1,
+      "total_unique_surprise": 48,
+      "signature_ratio": 0.0208,
+      "avg_surprise_vocab_size": 24.5,
+      "signature_words": [
+        "holding"
+      ]
+    },
+    "John Ashbery": {
+      "n_poems": 17,
+      "mean_jaccard": 0.0204,
+      "signature_size": 11,
+      "total_unique_surprise": 218,
+      "signature_ratio": 0.0505,
+      "avg_surprise_vocab_size": 14.0,
+      "signature_words": [
+        "survey",
+        "painting",
+        "living",
+        "thunder",
+        "not",
+        "on",
+        "out",
+        "cannot",
+        "but",
+        "to",
+        "that"
+      ]
+    },
+    "Gregory Corso": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0185,
+      "signature_size": 1,
+      "total_unique_surprise": 54,
+      "signature_ratio": 0.0185,
+      "avg_surprise_vocab_size": 27.5,
+      "signature_words": [
+        "the"
+      ]
+    },
+    "Agha Shahid Ali": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0185,
+      "signature_size": 1,
+      "total_unique_surprise": 54,
+      "signature_ratio": 0.0185,
+      "avg_surprise_vocab_size": 27.5,
+      "signature_words": [
+        "when"
+      ]
+    },
+    "Georg Heym": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0175,
+      "signature_size": 1,
+      "total_unique_surprise": 57,
+      "signature_ratio": 0.0175,
+      "avg_surprise_vocab_size": 29.0,
+      "signature_words": [
+        "empty"
+      ]
+    },
+    "Percy Bysshe Shelley": {
+      "n_poems": 4,
+      "mean_jaccard": 0.0168,
+      "signature_size": 6,
+      "total_unique_surprise": 124,
+      "signature_ratio": 0.0484,
+      "avg_surprise_vocab_size": 32.5,
+      "signature_words": [
+        "which",
+        "sunk",
+        "near",
+        "thou",
+        "est",
+        "spirit"
+      ]
+    },
+    "Alexander Pope": {
+      "n_poems": 4,
+      "mean_jaccard": 0.016,
+      "signature_size": 5,
+      "total_unique_surprise": 143,
+      "signature_ratio": 0.035,
+      "avg_surprise_vocab_size": 37.2,
+      "signature_words": [
+        "just",
+        "or",
+        "am",
+        "let",
+        "walks"
+      ]
+    },
+    "Dante Gabriel Rossetti": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0159,
+      "signature_size": 1,
+      "total_unique_surprise": 63,
+      "signature_ratio": 0.0159,
+      "avg_surprise_vocab_size": 32.0,
+      "signature_words": [
+        "be"
+      ]
+    },
+    "Pablo Neruda": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0156,
+      "signature_size": 1,
+      "total_unique_surprise": 64,
+      "signature_ratio": 0.0156,
+      "avg_surprise_vocab_size": 32.5,
+      "signature_words": [
+        "made"
+      ]
+    },
+    "Synthetic (scientific register test case)": {
+      "n_poems": 3,
+      "mean_jaccard": 0.0141,
+      "signature_size": 2,
+      "total_unique_surprise": 73,
+      "signature_ratio": 0.0274,
+      "avg_surprise_vocab_size": 25.0,
+      "signature_words": [
+        "this",
+        "the"
+      ]
+    },
+    "Robert Frost": {
+      "n_poems": 3,
+      "mean_jaccard": 0.014,
+      "signature_size": 3,
+      "total_unique_surprise": 95,
+      "signature_ratio": 0.0316,
+      "avg_surprise_vocab_size": 32.7,
+      "signature_words": [
+        "and",
+        "step",
+        "think"
+      ]
+    },
+    "Marianne Moore": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0137,
+      "signature_size": 1,
+      "total_unique_surprise": 73,
+      "signature_ratio": 0.0137,
+      "avg_surprise_vocab_size": 37.0,
+      "signature_words": [
+        "in"
+      ]
+    },
+    "Thomas Hardy": {
+      "n_poems": 6,
+      "mean_jaccard": 0.0114,
+      "signature_size": 10,
+      "total_unique_surprise": 204,
+      "signature_ratio": 0.049,
+      "avg_surprise_vocab_size": 35.8,
+      "signature_words": [
+        "to",
+        "from",
+        "and",
+        "an",
+        "they",
+        "on",
+        "there",
+        "gray",
+        "lost",
+        "our"
+      ]
+    },
+    "John Donne": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0112,
+      "signature_size": 1,
+      "total_unique_surprise": 89,
+      "signature_ratio": 0.0112,
+      "avg_surprise_vocab_size": 45.0,
+      "signature_words": [
+        "our"
+      ]
+    },
+    "Algernon Charles Swinburne": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0106,
+      "signature_size": 1,
+      "total_unique_surprise": 94,
+      "signature_ratio": 0.0106,
+      "avg_surprise_vocab_size": 47.5,
+      "signature_words": [
+        "winds"
+      ]
+    },
+    "Synthetic (procedural test case)": {
+      "n_poems": 5,
+      "mean_jaccard": 0.0102,
+      "signature_size": 2,
+      "total_unique_surprise": 52,
+      "signature_ratio": 0.0385,
+      "avg_surprise_vocab_size": 10.8,
+      "signature_words": [
+        "season",
+        "what"
+      ]
+    },
+    "William Blake": {
+      "n_poems": 7,
+      "mean_jaccard": 0.0087,
+      "signature_size": 6,
+      "total_unique_surprise": 130,
+      "signature_ratio": 0.0462,
+      "avg_surprise_vocab_size": 19.4,
+      "signature_words": [
+        "lamb",
+        "who",
+        "love",
+        "thy",
+        "of",
+        "he"
+      ]
+    },
+    "Gertrude Stein": {
+      "n_poems": 4,
+      "mean_jaccard": 0.007,
+      "signature_size": 2,
+      "total_unique_surprise": 85,
+      "signature_ratio": 0.0235,
+      "avg_surprise_vocab_size": 21.8,
+      "signature_words": [
+        "not",
+        "for"
+      ]
+    },
+    "W.B. Yeats": {
+      "n_poems": 3,
+      "mean_jaccard": 0.0065,
+      "signature_size": 2,
+      "total_unique_surprise": 120,
+      "signature_ratio": 0.0167,
+      "avg_surprise_vocab_size": 40.7,
+      "signature_words": [
+        "out",
+        "things"
+      ]
+    },
+    "Synthetic (clerihew test case)": {
+      "n_poems": 7,
+      "mean_jaccard": 0.0048,
+      "signature_size": 1,
+      "total_unique_surprise": 46,
+      "signature_ratio": 0.0217,
+      "avg_surprise_vocab_size": 6.7,
+      "signature_words": [
+        "wrote"
+      ]
+    },
+    "Lewis Carroll": {
+      "n_poems": 5,
+      "mean_jaccard": 0.0047,
+      "signature_size": 4,
+      "total_unique_surprise": 148,
+      "signature_ratio": 0.027,
+      "avg_surprise_vocab_size": 30.4,
+      "signature_words": [
+        "one",
+        "none",
+        "at",
+        "sn"
+      ]
+    },
+    "T.S. Eliot": {
+      "n_poems": 5,
+      "mean_jaccard": 0.0024,
+      "signature_size": 2,
+      "total_unique_surprise": 155,
+      "signature_ratio": 0.0129,
+      "avg_surprise_vocab_size": 31.4,
+      "signature_words": [
+        "dry",
+        "wind"
+      ]
+    },
+    "Matthew Arnold": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 37,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 18.5,
+      "signature_words": []
+    },
+    "Wallace Stevens": {
+      "n_poems": 3,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 46,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 15.3,
+      "signature_words": []
+    },
+    "Sylvia Plath": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 26,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 13.0,
+      "signature_words": []
+    },
+    "Paul Laurence Dunbar": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 48,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 24.0,
+      "signature_words": []
+    },
+    "Anne Sexton": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 19,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 9.5,
+      "signature_words": []
+    },
+    "E.E. Cummings": {
+      "n_poems": 3,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 37,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 12.3,
+      "signature_words": []
+    },
+    "Kobayashi Issa": {
+      "n_poems": 3,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 11,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 3.7,
+      "signature_words": []
+    },
+    "Claude McKay": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 53,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 26.5,
+      "signature_words": []
+    },
+    "Countee Cullen": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 62,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 31.0,
+      "signature_words": []
+    },
+    "Russell Edson": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 42,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 21.0,
+      "signature_words": []
+    },
+    "John Milton": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 76,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 38.0,
+      "signature_words": []
+    },
+    "Matsuo Bash\u014d": {
+      "n_poems": 4,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 12,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 3.0,
+      "signature_words": []
+    },
+    "Masaoka Shiki": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 6,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 3.0,
+      "signature_words": []
+    },
+    "Yosa Buson": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 9,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 4.5,
+      "signature_words": []
+    },
+    "Anonymous (found text)": {
+      "n_poems": 4,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 64,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 16.0,
+      "signature_words": []
+    },
+    "Ben Jonson": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 40,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 20.0,
+      "signature_words": []
+    },
+    "William Ernest Henley": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 44,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 22.0,
+      "signature_words": []
+    },
+    "Austin Dobson": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 18,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 9.0,
+      "signature_words": []
+    },
+    "Rudyard Kipling": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 46,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 23.0,
+      "signature_words": []
+    },
+    "Carl Sandburg": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 21,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 10.5,
+      "signature_words": []
+    },
+    "Amy Lowell": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 39,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 19.5,
+      "signature_words": []
+    },
+    "Gottfried Benn": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 44,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 22.0,
+      "signature_words": []
+    },
+    "Isaac Watts": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 34,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 17.0,
+      "signature_words": []
+    },
+    "Christian B\u00f6k": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 68,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 34.0,
+      "signature_words": []
+    },
+    "Charles Bernstein": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 35,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 17.5,
+      "signature_words": []
+    },
+    "Anonymous (limerick tradition)": {
+      "n_poems": 3,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 14,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 4.7,
+      "signature_words": []
+    },
+    "Anonymous": {
+      "n_poems": 3,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 20,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 6.7,
+      "signature_words": []
+    },
+    "Edward Lear": {
+      "n_poems": 3,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 19,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 6.3,
+      "signature_words": []
+    },
+    "Anonymous (trans. Hall)": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 55,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 27.5,
+      "signature_words": []
+    },
+    "Edmund Clerihew Bentley": {
+      "n_poems": 3,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 14,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 4.7,
+      "signature_words": []
+    },
+    "Adelaide Crapsey": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 16,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 8.0,
+      "signature_words": []
+    },
+    "William Stafford": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 69,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 34.5,
+      "signature_words": []
+    },
+    "Synthetic (Instagram poetry style)": {
+      "n_poems": 3,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 7,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 2.3,
+      "signature_words": []
+    },
+    "Synthetic (stanza-break \u03b1 inheritance test)": {
+      "n_poems": 2,
+      "mean_jaccard": 0.0,
+      "signature_size": 0,
+      "total_unique_surprise": 41,
+      "signature_ratio": 0.0,
+      "avg_surprise_vocab_size": 20.5,
+      "signature_words": []
+    }
+  },
+  "threshold_used": 2.0
+}

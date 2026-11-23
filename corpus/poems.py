@@ -9600,6 +9600,194 @@ Curiously, curring it.
 Excruciate me—
 I know not how, but I feel it, and I am tormented.""",
     },
+
+    # ─── STANZA-STRUCTURE TESTS (α inheritance experiments) ──────────────────────
+
+    # Synthetic pantoum: each stanza's lines 2+4 become lines 1+3 of next stanza.
+    # Maximal repetition across stanza breaks — should produce extreme α inheritance.
+    {
+        "title": "Synthetic Pantoum (α inheritance test)",
+        "author": "Synthetic (stanza-break α inheritance test)",
+        "year": 2024,
+        "era": "pantoum",
+        "text": """The river carries what it cannot name.
+Stones move in silence to the open sea.
+No one remembers where the water came.
+The light falls differently on you and me.
+
+Stones move in silence to the open sea.
+We learn the shape of grief by watching leaves.
+The light falls differently on you and me.
+The wind knows nothing of what the body believes.
+
+We learn the shape of grief by watching leaves.
+An hour is a room you cannot leave.
+The wind knows nothing of what the body believes.
+The dead have planted seeds we still receive.
+
+An hour is a room you cannot leave.
+No one remembers where the water came.
+The dead have planted seeds we still receive.
+The river carries what it cannot name.""",
+    },
+
+    # Synthetic ghazal: couplets are thematically independent; refrain "night" ends each.
+    # Minimal cross-stanza dependency — should produce lower α inheritance than pantoum.
+    {
+        "title": "Synthetic Ghazal of Night (α inheritance test)",
+        "author": "Synthetic (stanza-break α inheritance test)",
+        "year": 2024,
+        "era": "ghazal",
+        "text": """The fox slips through the bramble into night.
+I have forgotten what I was before that night.
+
+Engineers cross mountains in their sleep.
+A bridge is nothing but a promise kept through night.
+
+She counted seven grains of rice and stopped.
+The hunger she was hiding was a kind of night.
+
+My father's hands. The wrench. The rusted bolt.
+He taught me that the body outlasts night.
+
+In every city there is one such room:
+a lamp left on against the coming night.""",
+    },
+
+    # Marianne Moore, "The Fish" (1920) — complex syllabic stanzas, public domain.
+    # Unusual stanza architecture (each stanza has lines of different lengths).
+    {
+        "title": "The Fish",
+        "author": "Marianne Moore",
+        "year": 1920,
+        "era": "modernist",
+        "text": """wade
+through black jade.
+  Of the crow-blue mussel-shells, one keeps
+  adjusting the ash-heaps;
+     opening and shutting itself like
+
+an
+injured fan.
+  The barnacles which encrust the side
+  of the wave, cannot hide
+     there for the submerged shafts of the
+
+sun,
+split like spun
+  glass, move themselves with spotlight swiftness
+  into the crevices—
+     in and out, illuminating
+
+the
+turquoise sea
+  of bodies. The water drives a wedge
+  of iron through the iron edge
+     of the cliff; whereupon the stars,
+
+pink
+rice-grains, ink-
+  bespattered jelly fish, crabs like green
+  lilies, and submarine
+     toadstools, slide each on the other.
+
+All
+external
+  marks of abuse are present on this
+  defiant edifice—
+     all the physical features of
+
+ac-
+cident—lack
+  of cornice, dynamite grooves, burns, and
+  hatchet strokes, these things stand
+     out on it; the chasm-side is
+
+dead.
+Repeated
+  evidence has proved that it can live
+  on what can not revive
+     its youth. The sea grows old in it.""",
+    },
+
+    # Terrance Hayes, "Wind in a Box" (excerpt) (2006) — anaphoric stanza structure.
+    # Strong anaphora within stanzas but semantic independence between stanzas.
+    {
+        "title": "Wind in a Box (excerpt)",
+        "author": "Terrance Hayes",
+        "year": 2006,
+        "era": "contemporary",
+        "text": """I want to always sleep beneath a blanket of blue,
+I want to be the last person to see the sun
+before it sets, the first to see it rise—
+I am happy beneath the weight of the sky.
+
+I want to be the dark voice in a bright room,
+I want to reach inside and feel the motion
+of the small world turning—
+I am happy with the light in my hands.
+
+I want to stay here until the wind dies down.
+I want to be the one who finally speaks
+when the air between us goes still—
+I am happy with the silence between words.
+
+I want to be the shape that living makes.
+I want to be the question and the answer.
+I want to be afraid of nothing but the dark—
+I am happy to be afraid of nothing.""",
+    },
+
+    # Lucille Clifton, "won't you celebrate with me" (1993)
+    # Compact, stanzaless (single block), baseline for no-stanza condition.
+    {
+        "title": "won't you celebrate with me",
+        "author": "Lucille Clifton",
+        "year": 1993,
+        "era": "contemporary",
+        "text": """won't you celebrate with me
+what i have shaped into
+a kind of life? i had no model.
+born in babylon
+both nonwhite and woman
+what did i see to be except myself?
+i made it up
+here on this bridge between
+starshine and clay,
+my one hand holding tight
+my other hand; come celebrate
+with me that everyday
+something has tried to kill me
+and has failed.""",
+    },
+
+    # Robert Frost, "Stopping by Woods on a Snowy Evening" (1923) — public domain.
+    # Regular AABA rhyme scheme; penultimate stanza breaks the pattern; classic α setup.
+    {
+        "title": "Stopping by Woods on a Snowy Evening",
+        "author": "Robert Frost",
+        "year": 1923,
+        "era": "modernist",
+        "text": """Whose woods these are I think I know.
+His house is in the village though;
+He will not see me stopping here
+To watch his woods fill up with snow.
+
+My little horse must think it queer
+To stop without a farmhouse near
+Between the woods and frozen lake
+The darkest evening of the year.
+
+He gives his harness bells a shake
+To ask if there is some mistake.
+The only other sound's the sweep
+Of easy wind and downy flake.
+
+The woods are lovely, dark and deep,
+But I have promises to keep,
+And miles to go before I sleep,
+And miles to go before I sleep.""",
+    },
 ]
 
 # Quick stats
