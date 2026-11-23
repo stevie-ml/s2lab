@@ -1,6 +1,6 @@
 # S₂ Lab Research Report
-**Generated:** 2026-11-18 00:49:58
-**Corpus:** 431 texts analyzed with GPT-2
+**Generated:** 2026-11-23 12:48:42
+**Corpus:** 436 texts analyzed with GPT-2
 **Model:** gpt2 (117M parameters)
 
 ---
@@ -25,14 +25,14 @@ Do different literary movements produce systematically different information-the
 | persian | 2 | 0.84 | **-0.23** | 40% | 30.32 |
 | ballad | 6 | 0.81 | **-0.42** | 32% | 32.75 |
 | parody | 4 | 0.80 | **-0.29** | 39% | 38.37 |
-| modernist | 28 | 0.79 | **-0.40** | 39% | 39.17 |
 | villanelle | 3 | 0.79 | **-0.49** | 29% | 30.18 |
+| modernist | 29 | 0.78 | **-0.42** | 38% | 39.17 |
 | korean_modernist | 1 | 0.75 | **-0.69** | 31% | 30.95 |
 | imagist | 5 | 0.70 | **-0.52** | 42% | 28.35 |
 | parody_original | 3 | 0.65 | **-0.45** | 36% | 29.30 |
+| ghazal | 3 | 0.65 | **-0.31** | 36% | 35.04 |
 | nonsense | 2 | 0.62 | **-0.69** | 32% | 32.61 |
 | fixed_form | 8 | 0.60 | **-0.56** | 34% | 30.18 |
-| ghazal | 2 | 0.58 | **-0.46** | 34% | 35.04 |
 | harlem_renaissance | 7 | 0.51 | **-0.38** | 38% | 31.07 |
 | confessional | 6 | 0.50 | **-0.23** | 41% | 35.23 |
 | postcolonial | 6 | 0.49 | **-0.48** | 32% | 36.66 |
@@ -44,7 +44,7 @@ Do different literary movements produce systematically different information-the
 | elegy | 8 | 0.29 | **-0.45** | 36% | 34.93 |
 | 19th_century | 18 | 0.26 | **-0.47** | 38% | 35.25 |
 | deep_image | 1 | 0.25 | **0.07** | 45% | 12.62 |
-| contemporary | 19 | 0.25 | **-0.43** | 36% | 33.21 |
+| contemporary | 21 | 0.23 | **-0.46** | 36% | 33.21 |
 | romantic | 21 | 0.19 | **-0.44** | 36% | 33.80 |
 | war_poetry | 3 | 0.19 | **-0.34** | 41% | 33.05 |
 | surrealist | 8 | 0.16 | **-0.50** | 34% | 37.05 |
@@ -53,9 +53,9 @@ Do different literary movements produce systematically different information-the
 | nursery_rhyme | 1 | 0.10 | **-0.82** | 32% | 26.92 |
 | song_lyrics | 3 | 0.09 | **-0.68** | 25% | 29.34 |
 | latin_american | 4 | 0.08 | **-0.48** | 33% | 36.73 |
-| pantoum | 1 | 0.07 | **-0.50** | 37% | 20.85 |
 | early_modern | 11 | 0.06 | **-0.37** | 38% | 31.07 |
 | ekphrastic | 8 | -0.04 | **-0.51** | 38% | 33.65 |
+| pantoum | 2 | -0.05 | **-0.43** | 30% | 20.85 |
 | limerick | 10 | -0.06 | **-0.66** | 32% | 22.11 |
 | old_english | 5 | -0.07 | **-0.31** | 40% | 34.24 |
 | found_poetry | 9 | -0.08 | **-0.62** | 29% | 36.23 |
@@ -198,23 +198,23 @@ Do high-S₂ moments cluster at beginnings, endings, or enjambments?
 
 | Position in poem | Avg S₂ | Median S₂ | n tokens |
 |---|---|---|---|
-| first_10% | 0.86 | -0.64 | 5783 |
-| 10-25% | 0.14 | -1.14 | 8977 |
-| 25-50% | 0.09 | -1.05 | 14999 |
-| 50-75% | 0.10 | -1.02 | 14882 |
-| 75-90% | 0.31 | -0.92 | 8928 |
-| last_10% | 0.13 | -1.03 | 6165 |
+| first_10% | 0.86 | -0.64 | 5850 |
+| 10-25% | 0.13 | -1.14 | 9078 |
+| 25-50% | 0.09 | -1.05 | 15170 |
+| 50-75% | 0.10 | -1.02 | 15052 |
+| 75-90% | 0.31 | -0.92 | 9028 |
+| last_10% | 0.13 | -1.03 | 6237 |
 
 ### Line break analysis:
-- Avg S₂ at newline tokens: **-1.66** (n=5774)
-- Avg S₂ at tokens immediately after newline (raw): **6.38** (n=5774)
-- Avg S₂ at tokens immediately after newline (**artifact-free**): **0.10** (n=3667)
-- Avg S₂ at all other tokens: **0.41** (n=53960)
+- Avg S₂ at newline tokens: **-1.66** (n=5854)
+- Avg S₂ at tokens immediately after newline (raw): **6.38** (n=5854)
+- Avg S₂ at tokens immediately after newline (**artifact-free**): **0.09** (n=3710)
+- Avg S₂ at all other tokens: **0.41** (n=54561)
 
 > ⚠️ The raw post-newline figure is dominated by the stanza-break artifact (see `findings/stanza_break_artifact.md`). The artifact-free value is near-zero. **The enjambment finding does not survive artifact removal.**
 
 ### Finding
-Artifact-free post-newline S₂ = 0.10 vs other tokens = 0.41. Line-head tokens are at or below baseline once artifact positions are removed. The Straussian gap is distributed throughout the poem, not concentrated at line breaks.
+Artifact-free post-newline S₂ = 0.09 vs other tokens = 0.41. Line-head tokens are at or below baseline once artifact positions are removed. The Straussian gap is distributed throughout the poem, not concentrated at line breaks.
 
 ---
 
@@ -259,8 +259,8 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | Joy Harjo | 3 | 0.56 | 5.72 | 28% | 29.51 | consistently deviant |
 | Isaac Watts | 2 | 0.49 | 5.97 | 37% | 27.01 | selective spikes |
 | Thomas Wyatt | 2 | 0.48 | 4.59 | 44% | 21.84 | mild deviation |
+| Robert Frost | 3 | 0.46 | 5.33 | 36% | 26.87 | selective spikes |
 | Gerard Manley Hopkins | 6 | 0.46 | 5.47 | 39% | 26.67 | selective spikes |
-| Robert Frost | 2 | 0.45 | 4.96 | 38% | 26.00 | mild deviation |
 | Gregory Corso | 2 | 0.43 | 4.84 | 39% | 23.35 | mild deviation |
 | Edward Lear | 3 | 0.43 | 5.05 | 36% | 19.90 | selective spikes |
 | Stefan George | 3 | 0.42 | 3.77 | 45% | 17.80 | mild deviation |
@@ -268,6 +268,7 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | Robert Burns | 2 | 0.39 | 5.98 | 35% | 24.00 | selective spikes |
 | Frank O'Hara | 3 | 0.36 | 4.75 | 37% | 21.83 | mild deviation |
 | Barbara Guest | 2 | 0.32 | 5.20 | 31% | 22.30 | selective spikes |
+| Synthetic (stanza-break α inheritance test) | 2 | 0.31 | 4.29 | 32% | 18.48 | mild deviation |
 | Gottfried Benn | 2 | 0.29 | 4.95 | 35% | 25.66 | mild deviation |
 | Claude McKay | 2 | 0.28 | 4.83 | 40% | 25.57 | mild deviation |
 | Dante Gabriel Rossetti | 2 | 0.27 | 4.96 | 41% | 23.02 | mild deviation |
@@ -307,8 +308,8 @@ Does each poet have a distinctive information-theoretic fingerprint?
 | Anonymous (trans. Hall) | 2 | -0.27 | 3.98 | 37% | 15.65 | smooth/conventional |
 | Gertrude Stein | 4 | -0.29 | 3.99 | 33% | 14.94 | smooth/conventional |
 | Georges Perec | 2 | -0.31 | 3.59 | 34% | 13.39 | smooth/conventional |
+| Lucille Clifton | 4 | -0.34 | 4.04 | 33% | 20.85 | smooth/conventional |
 | Christopher Smart | 2 | -0.35 | 3.37 | 30% | 22.07 | smooth/conventional |
-| Lucille Clifton | 3 | -0.36 | 3.91 | 31% | 20.07 | smooth/conventional |
 | Ben Jonson | 2 | -0.37 | 3.84 | 36% | 18.29 | smooth/conventional |
 | Russell Edson | 2 | -0.39 | 3.20 | 30% | 12.25 | smooth/conventional |
 | Anonymous (Hebrew Bible) | 7 | -0.42 | 3.60 | 32% | 16.15 | smooth/conventional |
@@ -328,13 +329,13 @@ Do 'great' poems have distinctive S₂ profiles?
 
 > ⚠️ **Stanza-break artifact:** Raw S₂ numbers are inflated by layout positions. See `findings/stanza_break_artifact.md` for details.
 
-- Poetry avg S₂ (raw): **0.36** (σ=0.90, n=426)
+- Poetry avg S₂ (raw): **0.36** (σ=0.90, n=431)
 - Control prose avg S₂ (raw): **-1.66** (σ=0.67, n=5)
 - Gap (raw): **2.02**
 
-- Poetry avg S₂ (artifact-free): **-0.413**
+- Poetry avg S₂ (artifact-free): **-0.414**
 - Control prose avg S₂ (artifact-free): **-1.721**
-- Gap (artifact-free): **1.308** (65% of raw gap survives)
+- Gap (artifact-free): **1.306** (65% of raw gap survives)
 
 - Poetry: 36% of tokens have positive S₂ (raw)
 - Control prose: 20% of tokens have positive S₂ (raw)
