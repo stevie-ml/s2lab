@@ -1,0 +1,430 @@
+{
+  "n_pairs": 56118,
+  "s2_threshold": 2.0,
+  "bucket_summary": {
+    "very_neg (<-3)": {
+      "n": 13252,
+      "mean_alpha_next": 1.197,
+      "std": 0.631,
+      "pct_hyper_next": 3.7,
+      "pct_sub_next": 29.4
+    },
+    "neg (-3\u20130)": {
+      "n": 23973,
+      "mean_alpha_next": 1.496,
+      "std": 0.803,
+      "pct_hyper_next": 11.2,
+      "pct_sub_next": 17.3
+    },
+    "low_pos (0\u20132)": {
+      "n": 7248,
+      "mean_alpha_next": 1.313,
+      "std": 0.609,
+      "pct_hyper_next": 4.0,
+      "pct_sub_next": 18.3
+    },
+    "high_pos (2\u20135)": {
+      "n": 6727,
+      "mean_alpha_next": 1.344,
+      "std": 0.608,
+      "pct_hyper_next": 4.5,
+      "pct_sub_next": 16.7
+    },
+    "extreme (\u22655)": {
+      "n": 4918,
+      "mean_alpha_next": 1.401,
+      "std": 0.644,
+      "pct_hyper_next": 5.9,
+      "pct_sub_next": 14.3
+    }
+  },
+  "transition_matrix": {
+    "hyper_zipf": {
+      "hyper_zipf": 39.5,
+      "super_zipf": 26.6,
+      "near_zipf": 25.9,
+      "sub_zipf": 8.0,
+      "anti_zipf": 0.1
+    },
+    "super_zipf": {
+      "hyper_zipf": 7.3,
+      "super_zipf": 31.4,
+      "near_zipf": 42.2,
+      "sub_zipf": 18.6,
+      "anti_zipf": 0.5
+    },
+    "near_zipf": {
+      "hyper_zipf": 3.7,
+      "super_zipf": 25.2,
+      "near_zipf": 49.6,
+      "sub_zipf": 20.8,
+      "anti_zipf": 0.6
+    },
+    "sub_zipf": {
+      "hyper_zipf": 3.7,
+      "super_zipf": 24.2,
+      "near_zipf": 50.2,
+      "sub_zipf": 21.3,
+      "anti_zipf": 0.5
+    },
+    "anti_zipf": {
+      "hyper_zipf": 4.2,
+      "super_zipf": 29.8,
+      "near_zipf": 48.5,
+      "sub_zipf": 17.5,
+      "anti_zipf": 0.0
+    }
+  },
+  "delta_summary": {
+    "very_neg (<-3)": {
+      "n": 13252,
+      "mean_delta": 0.005,
+      "pct_concentrate": 22.0,
+      "pct_diffuse": 24.4
+    },
+    "neg (-3\u20130)": {
+      "n": 23973,
+      "mean_delta": -0.101,
+      "pct_concentrate": 23.8,
+      "pct_diffuse": 29.3
+    },
+    "low_pos (0\u20132)": {
+      "n": 7248,
+      "mean_delta": 0.192,
+      "pct_concentrate": 30.6,
+      "pct_diffuse": 15.7
+    },
+    "high_pos (2\u20135)": {
+      "n": 6727,
+      "mean_delta": 0.18,
+      "pct_concentrate": 30.0,
+      "pct_diffuse": 16.3
+    },
+    "extreme (\u22655)": {
+      "n": 4918,
+      "mean_delta": 0.034,
+      "pct_concentrate": 24.2,
+      "pct_diffuse": 23.2
+    }
+  },
+  "era_summary": {
+    "romantic": {
+      "n": 785,
+      "mean_delta_alpha": 0.159,
+      "pct_anchoring": 30.1,
+      "pct_liberating": 17.2
+    },
+    "19th_century": {
+      "n": 701,
+      "mean_delta_alpha": 0.142,
+      "pct_anchoring": 29.2,
+      "pct_liberating": 19.7
+    },
+    "modernist": {
+      "n": 664,
+      "mean_delta_alpha": 0.026,
+      "pct_anchoring": 22.3,
+      "pct_liberating": 22.6
+    },
+    "beat": {
+      "n": 189,
+      "mean_delta_alpha": -0.026,
+      "pct_anchoring": 30.7,
+      "pct_liberating": 25.4
+    },
+    "confessional": {
+      "n": 101,
+      "mean_delta_alpha": 0.146,
+      "pct_anchoring": 31.7,
+      "pct_liberating": 19.8
+    },
+    "mid_century": {
+      "n": 127,
+      "mean_delta_alpha": 0.107,
+      "pct_anchoring": 23.6,
+      "pct_liberating": 16.5
+    },
+    "new_york_school": {
+      "n": 538,
+      "mean_delta_alpha": 0.095,
+      "pct_anchoring": 26.8,
+      "pct_liberating": 19.3
+    },
+    "language": {
+      "n": 91,
+      "mean_delta_alpha": 0.082,
+      "pct_anchoring": 26.4,
+      "pct_liberating": 19.8
+    },
+    "contemporary": {
+      "n": 627,
+      "mean_delta_alpha": 0.146,
+      "pct_anchoring": 29.7,
+      "pct_liberating": 20.9
+    },
+    "harlem_renaissance": {
+      "n": 169,
+      "mean_delta_alpha": 0.153,
+      "pct_anchoring": 31.4,
+      "pct_liberating": 15.4
+    },
+    "oulipo": {
+      "n": 302,
+      "mean_delta_alpha": -0.012,
+      "pct_anchoring": 24.2,
+      "pct_liberating": 22.2
+    },
+    "surrealist": {
+      "n": 223,
+      "mean_delta_alpha": 0.154,
+      "pct_anchoring": 26.0,
+      "pct_liberating": 20.6
+    },
+    "victorian": {
+      "n": 1210,
+      "mean_delta_alpha": 0.127,
+      "pct_anchoring": 28.6,
+      "pct_liberating": 19.7
+    },
+    "haiku": {
+      "n": 73,
+      "mean_delta_alpha": -0.086,
+      "pct_anchoring": 16.4,
+      "pct_liberating": 26.0
+    },
+    "ancient": {
+      "n": 79,
+      "mean_delta_alpha": 0.085,
+      "pct_anchoring": 24.1,
+      "pct_liberating": 19.0
+    },
+    "prose_poetry": {
+      "n": 272,
+      "mean_delta_alpha": 0.07,
+      "pct_anchoring": 26.1,
+      "pct_liberating": 20.6
+    },
+    "ballad": {
+      "n": 179,
+      "mean_delta_alpha": -0.115,
+      "pct_anchoring": 14.0,
+      "pct_liberating": 21.8
+    },
+    "song_lyrics": {
+      "n": 78,
+      "mean_delta_alpha": 0.032,
+      "pct_anchoring": 23.1,
+      "pct_liberating": 24.4
+    },
+    "nursery_rhyme": {
+      "n": 39,
+      "mean_delta_alpha": 0.41,
+      "pct_anchoring": 35.9,
+      "pct_liberating": 15.4
+    },
+    "metaphysical": {
+      "n": 185,
+      "mean_delta_alpha": 0.14,
+      "pct_anchoring": 25.9,
+      "pct_liberating": 17.8
+    },
+    "early_modern": {
+      "n": 377,
+      "mean_delta_alpha": 0.117,
+      "pct_anchoring": 27.1,
+      "pct_liberating": 16.4
+    },
+    "spoken_word": {
+      "n": 54,
+      "mean_delta_alpha": 0.059,
+      "pct_anchoring": 27.8,
+      "pct_liberating": 25.9
+    },
+    "found_poetry": {
+      "n": 184,
+      "mean_delta_alpha": 0.165,
+      "pct_anchoring": 31.0,
+      "pct_liberating": 24.5
+    },
+    "fixed_form": {
+      "n": 169,
+      "mean_delta_alpha": 0.103,
+      "pct_anchoring": 26.0,
+      "pct_liberating": 23.7
+    },
+    "cliche_control": {
+      "n": 72,
+      "mean_delta_alpha": 0.211,
+      "pct_anchoring": 33.3,
+      "pct_liberating": 13.9
+    },
+    "18th_century": {
+      "n": 315,
+      "mean_delta_alpha": 0.146,
+      "pct_anchoring": 25.4,
+      "pct_liberating": 17.1
+    },
+    "biblical": {
+      "n": 218,
+      "mean_delta_alpha": 0.147,
+      "pct_anchoring": 31.2,
+      "pct_liberating": 21.1
+    },
+    "concrete": {
+      "n": 52,
+      "mean_delta_alpha": -0.126,
+      "pct_anchoring": 17.3,
+      "pct_liberating": 26.9
+    },
+    "latin_american": {
+      "n": 104,
+      "mean_delta_alpha": 0.13,
+      "pct_anchoring": 22.1,
+      "pct_liberating": 17.3
+    },
+    "black_arts": {
+      "n": 50,
+      "mean_delta_alpha": 0.176,
+      "pct_anchoring": 26.0,
+      "pct_liberating": 20.0
+    },
+    "korean_modernist": {
+      "n": 20,
+      "mean_delta_alpha": 0.105,
+      "pct_anchoring": 30.0,
+      "pct_liberating": 25.0
+    },
+    "imagist": {
+      "n": 73,
+      "mean_delta_alpha": 0.18,
+      "pct_anchoring": 35.6,
+      "pct_liberating": 16.4
+    },
+    "german_expressionist": {
+      "n": 118,
+      "mean_delta_alpha": 0.214,
+      "pct_anchoring": 39.0,
+      "pct_liberating": 22.0
+    },
+    "parody_original": {
+      "n": 82,
+      "mean_delta_alpha": 0.031,
+      "pct_anchoring": 24.4,
+      "pct_liberating": 25.6
+    },
+    "parody": {
+      "n": 135,
+      "mean_delta_alpha": 0.235,
+      "pct_anchoring": 28.9,
+      "pct_liberating": 12.6
+    },
+    "classical_chinese": {
+      "n": 47,
+      "mean_delta_alpha": 0.286,
+      "pct_anchoring": 29.8,
+      "pct_liberating": 12.8
+    },
+    "persian": {
+      "n": 91,
+      "mean_delta_alpha": 0.017,
+      "pct_anchoring": 26.4,
+      "pct_liberating": 20.9
+    },
+    "limerick": {
+      "n": 71,
+      "mean_delta_alpha": 0.094,
+      "pct_anchoring": 29.6,
+      "pct_liberating": 18.3
+    },
+    "old_english": {
+      "n": 142,
+      "mean_delta_alpha": 0.095,
+      "pct_anchoring": 27.5,
+      "pct_liberating": 21.1
+    },
+    "protest_political": {
+      "n": 48,
+      "mean_delta_alpha": 0.252,
+      "pct_anchoring": 33.3,
+      "pct_liberating": 12.5
+    },
+    "ghazal": {
+      "n": 77,
+      "mean_delta_alpha": 0.185,
+      "pct_anchoring": 28.6,
+      "pct_liberating": 15.6
+    },
+    "war_poetry": {
+      "n": 143,
+      "mean_delta_alpha": 0.21,
+      "pct_anchoring": 30.1,
+      "pct_liberating": 14.0
+    },
+    "postcolonial": {
+      "n": 192,
+      "mean_delta_alpha": 0.06,
+      "pct_anchoring": 28.6,
+      "pct_liberating": 27.1
+    },
+    "dramatic_monologue": {
+      "n": 923,
+      "mean_delta_alpha": 0.167,
+      "pct_anchoring": 28.1,
+      "pct_liberating": 15.4
+    },
+    "elegy": {
+      "n": 287,
+      "mean_delta_alpha": 0.162,
+      "pct_anchoring": 27.2,
+      "pct_liberating": 15.3
+    },
+    "clerihew": {
+      "n": 70,
+      "mean_delta_alpha": 0.13,
+      "pct_anchoring": 25.7,
+      "pct_liberating": 15.7
+    },
+    "double_dactyl": {
+      "n": 46,
+      "mean_delta_alpha": 0.113,
+      "pct_anchoring": 21.7,
+      "pct_liberating": 15.2
+    },
+    "ekphrastic": {
+      "n": 403,
+      "mean_delta_alpha": 0.115,
+      "pct_anchoring": 26.1,
+      "pct_liberating": 17.1
+    },
+    "villanelle": {
+      "n": 81,
+      "mean_delta_alpha": 0.085,
+      "pct_anchoring": 25.9,
+      "pct_liberating": 19.8
+    },
+    "pantoum": {
+      "n": 50,
+      "mean_delta_alpha": 0.064,
+      "pct_anchoring": 22.0,
+      "pct_liberating": 14.0
+    },
+    "rondeau": {
+      "n": 24,
+      "mean_delta_alpha": 0.25,
+      "pct_anchoring": 45.8,
+      "pct_liberating": 25.0
+    },
+    "nonsense": {
+      "n": 91,
+      "mean_delta_alpha": 0.106,
+      "pct_anchoring": 29.7,
+      "pct_liberating": 16.5
+    },
+    "procedural": {
+      "n": 138,
+      "mean_delta_alpha": 0.24,
+      "pct_anchoring": 34.1,
+      "pct_liberating": 17.4
+    }
+  }
+}
