@@ -9788,6 +9788,261 @@ But I have promises to keep,
 And miles to go before I sleep,
 And miles to go before I sleep.""",
     },
+
+    # ─── OBJECTIVIST POETRY (1930s–1960s) ──────────────────────────────
+    # Hypothesis: Does objectivist precision correlate with lower or higher S2 than imagism?
+    # Objectivism prizes exact naming of things (sincerity, the poem as an object).
+    # Imagism prizes the pure image; objectivism adds philosophical attention to form itself.
+
+    # George Oppen, "Psalm" (1965) — from "Of Being Numerous". Short classic.
+    # Oppen writes to discover, not to decorate; word choice is precise, constrained.
+    {
+        "title": "Psalm (Oppen)",
+        "author": "George Oppen",
+        "year": 1965,
+        "era": "objectivist",
+        "text": """Veritas sequitur . . .
+
+In the small beauty of the forest
+The wild deer bedding down—
+That they are there!
+
+                    Their eyes
+Effortless, the soft lips
+Nuzzle and the alien small teeth
+Tear at the grass
+
+The roots of it
+Dangle from their mouths
+Scattering earth in the strange woods.
+They who are there.
+
+                    Their paths
+Nibbled thru the fields, the leaves that shade them
+Hang in the distances
+Of sun
+
+The small nouns
+Crying faith
+In this in which the wild deer
+Startle, and stare out.""",
+    },
+    # George Oppen, "Of Being Numerous" (opening) (1968).
+    # Major long poem about urban existence, ontology, and the collective.
+    {
+        "title": "Of Being Numerous (opening)",
+        "author": "George Oppen",
+        "year": 1968,
+        "era": "objectivist",
+        "text": """There are things
+We live among        'and to see them
+Is to know ourselves'.
+
+Occurrence, a part
+Of an infinite series,
+
+The sad marvels;
+
+Of this was told
+A tale of our wickedness.
+It is not our wickedness.
+
+'You remember that old town we went to, and we sat in the
+                                    park
+and we tried to think of the name of the place we had seen it
+                                        before—'
+
+A World, if you will—
+        the in-itself—
+
+Which is to say optics:
+
+Look at it—, we are not numb,
+we are not given over.""",
+    },
+    # Lorine Niedecker, "My Life by Water" (1970) — public domain.
+    # Extreme compression: Niedecker distills experience to minimum words.
+    # Hypothesis: her compression should produce VERY high S2 at every word.
+    {
+        "title": "My Life by Water",
+        "author": "Lorine Niedecker",
+        "year": 1970,
+        "era": "objectivist",
+        "text": """My life
+by water—
+     Hear
+
+spring's
+first frog
+or board
+     out on the cold
+
+ground
+giving
+     Muskrats
+gnaw
+
+rushes—
+      hallelujah
+      summer
+
+No matter
+what life
+     heard
+
+the flood-tides
+     write
+me, I
+     lived on buckwheat
+
+and birdnotes.
+I poured
+them back
+      on the lake
+
+There
+Wisconsin
+      gleamed
+the thaw—
+
+This is
+all the
+      I
+hold""",
+    },
+    # Charles Reznikoff, "Testimony" excerpt (1934/1965).
+    # Reznikoff transcribed court records into poetry. Pure found-documentary style.
+    # Hypothesis: documentary objectivism should produce LOW S2 — close to prose baseline.
+    {
+        "title": "Testimony: Railroad (Reznikoff)",
+        "author": "Charles Reznikoff",
+        "year": 1934,
+        "era": "objectivist",
+        "text": """The company had advertised for men to unload a steamer
+and my father and I went down to the dock.
+The foreman picked out men as they came—
+walked up to each and looked him over,
+picked out men quickly—
+just at a glance.
+
+He looked at us and walked away without a word
+and I followed and he said:
+I don't want you.
+
+I went back and my father—
+he had been talking to someone—
+asked if I had been hired.
+I did not want to tell him
+but he said, Go ahead, don't be afraid—
+
+they won't take me here.
+He walked up to the foreman.
+The foreman asked: Do you speak English?
+My father nodded.
+The foreman said, I don't want you.
+
+My father walked back slowly
+and I went after him.
+We went through street after street
+without speaking.
+The tears were running down his face.""",
+    },
+    # Lorine Niedecker, "Paean to Place" (excerpt, 1968).
+    # Niedecker's longest meditation on her Wisconsin origins; objectivist compression
+    # applied to autobiography.
+    {
+        "title": "Paean to Place (excerpt)",
+        "author": "Lorine Niedecker",
+        "year": 1968,
+        "era": "objectivist",
+        "text": """And the place
+was water
+
+Fish
+fowl
+flood
+
+Water lily mud
+My life
+
+in the leaves and on water
+My mother and I
+born
+in swale and swamp and sworn
+to water
+
+My father
+thru marsh fog
+sculled down
+
+from high ground
+saw her face
+
+He netted loneliness
+of shore-girl
+
+I
+was the solitary plover
+a pencil
+for a wing-bone
+From the secret notes
+I must tilt
+
+upon the pressure
+execute and adjust
+In us sea-air rhythm
+"We live by the urgent wave
+of the fact"
+beside lake, within pond
+in the marsh mud""",
+    },
+    # Louis Zukofsky, "A"-1 (opening excerpt, 1927/1978) — first movement of his 40-year poem.
+    # Zukofsky's "A" is structured like a fugue; opening references Bach's St. Matthew Passion.
+    # Hypothesis: Musical/mathematical structure should produce unique arc pattern.
+    {
+        "title": "\"A\"-1 (opening)",
+        "author": "Louis Zukofsky",
+        "year": 1927,
+        "era": "objectivist",
+        "text": """A
+Round of fiddles playing Bach.
+        Before the concert the seats
+
+were offered, and
+I sat in the second row
+of the second section, the left,
+        behind the conductor,
+
+listening.
+
+The tune begins with the viol.
+The viol begins with the tune,
+        the tune rises
+
+The viol reaches,
+rises. Bach, the tune
+        begins—
+
+Round of fiddles playing Bach.
+
+Upper Manhattan with the lights:
+Brueghel or Zhou to Renaissance
+Lovers and clowns in colors
+        of an old tapestry—
+
+Itself a fiddle
+        in the town.
+
+If horses could but sing Bach, mother,—
+Remember how I wished it once—
+Now I wish you could have seen him
+Riding, the sticks of his legs
+        prodding the horse's flank
+                propped,
+                        accustomed,
+to the baroque of the sea
+        and the horse's movement.""",
+    },
 ]
 
 # Quick stats
