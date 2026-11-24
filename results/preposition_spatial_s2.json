@@ -1,0 +1,960 @@
+{
+  "global": {
+    "n_common": 3717,
+    "avg_common_s2": -1.2804586763518997,
+    "n_spatial": 613,
+    "avg_spatial_s2": 1.8900807504078307,
+    "gap_bits": 3.1705394267597304,
+    "n_of_tokens": 927,
+    "avg_of_s2": -2.1304470334412082
+  },
+  "of_override_count": 30,
+  "of_overrides_top": [
+    {
+      "actual": "behind",
+      "s2": 13.4226,
+      "rank": 65,
+      "entropy": 0.5915,
+      "context": "\nThe throb",
+      "era": "concrete",
+      "author": "Synthetic (shadow-divergence test case)",
+      "title": "Decreasing Divergence: The Coined Word Ladder"
+    },
+    {
+      "actual": "around",
+      "s2": 9.9363,
+      "rank": 285,
+      "entropy": 3.3686,
+      "context": "",
+      "era": "19th_century",
+      "author": "Emily Dickinson",
+      "title": "I heard a Fly buzz \u2014 when I died"
+    },
+    {
+      "actual": "beneath",
+      "s2": 8.522,
+      "rank": 1444,
+      "entropy": 6.8362,
+      "context": "\nThis arm",
+      "era": "elegy",
+      "author": "Walt Whitman",
+      "title": "O Captain! My Captain!"
+    },
+    {
+      "actual": "among",
+      "s2": 7.88,
+      "rank": 919,
+      "entropy": 6.4502,
+      "context": " the lily",
+      "era": "biblical",
+      "author": "Anonymous (Hebrew Bible)",
+      "title": "Song of Solomon 2:1-7 (KJV)"
+    },
+    {
+      "actual": "below",
+      "s2": 7.4542,
+      "rank": 100,
+      "entropy": 4.4002,
+      "context": "",
+      "era": "rondeau",
+      "author": "John McCrae",
+      "title": "In Flanders Fields"
+    },
+    {
+      "actual": "since",
+      "s2": 6.8651,
+      "rank": 404,
+      "entropy": 6.0352,
+      "context": "",
+      "era": "dramatic_monologue",
+      "author": "Robert Browning",
+      "title": "The Bishop Orders His Tomb at Saint Praxed's "
+    },
+    {
+      "actual": "beneath",
+      "s2": 5.7625,
+      "rank": 514,
+      "entropy": 7.1573,
+      "context": "",
+      "era": "19th_century",
+      "author": "Walt Whitman",
+      "title": "O Captain! My Captain!"
+    },
+    {
+      "actual": "until",
+      "s2": 5.1431,
+      "rank": 41,
+      "entropy": 4.5928,
+      "context": "",
+      "era": "surrealist",
+      "author": "Pablo Neruda",
+      "title": "Walking Around"
+    },
+    {
+      "actual": "below",
+      "s2": 4.7216,
+      "rank": 128,
+      "entropy": 6.3758,
+      "context": "",
+      "era": "dramatic_monologue",
+      "author": "Robert Browning",
+      "title": "My Last Duchess (complete)"
+    },
+    {
+      "actual": "without",
+      "s2": 4.4624,
+      "rank": 11,
+      "entropy": 3.4696,
+      "context": "",
+      "era": "18th_century",
+      "author": "Samuel Johnson",
+      "title": "The Vanity of Human Wishes (opening)"
+    },
+    {
+      "actual": "through",
+      "s2": 4.4546,
+      "rank": 104,
+      "entropy": 6.0406,
+      "context": "",
+      "era": "new_york_school",
+      "author": "John Ashbery",
+      "title": "Self-Portrait in a Convex Mirror (closing)"
+    },
+    {
+      "actual": "beside",
+      "s2": 4.3272,
+      "rank": 542,
+      "entropy": 7.9646,
+      "context": "",
+      "era": "oulipo",
+      "author": "Synthetic (OuLiPo N+7 test case)",
+      "title": "N+7: Wandered Lonely (OuLiPo variant)"
+    },
+    {
+      "actual": "around",
+      "s2": 4.3056,
+      "rank": 66,
+      "entropy": 5.509,
+      "context": "With the shade",
+      "era": "latin_american",
+      "author": "Federico Garc\u00eda Lorca (trans. Stephen Spender & J.L. Gili)",
+      "title": "Somnambulistic Ballad (excerpt)"
+    },
+    {
+      "actual": "through",
+      "s2": 3.8799,
+      "rank": 20,
+      "entropy": 3.9032,
+      "context": "",
+      "era": "biblical",
+      "author": "Anonymous (Hebrew Bible)",
+      "title": "Psalm 19:1-6 (KJV)"
+    },
+    {
+      "actual": "above",
+      "s2": 3.6838,
+      "rank": 614,
+      "entropy": 9.0617,
+      "context": " kept\nFreedom",
+      "era": "double_dactyl",
+      "author": "Synthetic (double dactyl test case)",
+      "title": "Lawrence Ferlinghetti (Double Dactyl)"
+    },
+    {
+      "actual": "upon",
+      "s2": 3.6377,
+      "rank": 58,
+      "entropy": 6.176,
+      "context": "",
+      "era": "modernist",
+      "author": "W.B. Yeats",
+      "title": "A Dialogue of Self and Soul (Part I)"
+    },
+    {
+      "actual": "before",
+      "s2": 3.5956,
+      "rank": 16,
+      "entropy": 4.0092,
+      "context": "",
+      "era": "concrete",
+      "author": "Synthetic (shadow-divergence test case)",
+      "title": "Decreasing Divergence: The Coined Word Ladder"
+    },
+    {
+      "actual": "under",
+      "s2": 3.3123,
+      "rank": 42,
+      "entropy": 5.3856,
+      "context": "",
+      "era": "beat",
+      "author": "Allen Ginsberg",
+      "title": "A Supermarket in California"
+    },
+    {
+      "actual": "toward",
+      "s2": 3.1519,
+      "rank": 13,
+      "entropy": 3.7556,
+      "context": " boat moved out",
+      "era": "oulipo",
+      "author": "Synthetic (palindromic constraint test)",
+      "title": "Line Palindrome (chiastic structure)"
+    },
+    {
+      "actual": "near",
+      "s2": 2.1718,
+      "rank": 78,
+      "entropy": 7.4924,
+      "context": "",
+      "era": "dramatic_monologue",
+      "author": "Alfred Lord Tennyson",
+      "title": "The Lady of Shalott (Part I and II)"
+    },
+    {
+      "actual": "through",
+      "s2": 1.7569,
+      "rank": 11,
+      "entropy": 4.5237,
+      "context": "",
+      "era": "contemporary",
+      "author": "Jack Gilbert",
+      "title": "Refusing Heaven"
+    },
+    {
+      "actual": "into",
+      "s2": 1.6759,
+      "rank": 19,
+      "entropy": 5.6194,
+      "context": "",
+      "era": "new_york_school",
+      "author": "John Ashbery",
+      "title": "And Ut Pictura Poesis Is Her Name"
+    },
+    {
+      "actual": "through",
+      "s2": 1.5278,
+      "rank": 13,
+      "entropy": 4.9471,
+      "context": "",
+      "era": "victorian",
+      "author": "Alfred, Lord Tennyson",
+      "title": "The Charge of the Light Brigade"
+    },
+    {
+      "actual": "into",
+      "s2": 1.42,
+      "rank": 7,
+      "entropy": 3.67,
+      "context": "",
+      "era": "mid_century",
+      "author": "William Stafford",
+      "title": "Traveling Through the Dark"
+    },
+    {
+      "actual": "over",
+      "s2": 1.3709,
+      "rank": 24,
+      "entropy": 6.785,
+      "context": "",
+      "era": "harlem_renaissance",
+      "author": "Claude McKay",
+      "title": "The Tropics in New York"
+    }
+  ],
+  "of_override_by_prep": {
+    "through": 4,
+    "into": 3,
+    "around": 2,
+    "beneath": 2,
+    "below": 2,
+    "without": 2,
+    "above": 2,
+    "upon": 2,
+    "behind": 1,
+    "among": 1,
+    "since": 1,
+    "until": 1,
+    "beside": 1,
+    "before": 1,
+    "under": 1,
+    "toward": 1,
+    "near": 1,
+    "over": 1,
+    "between": 1
+  },
+  "prep_swap_count": 172,
+  "prep_swaps_top": [
+    {
+      "predicted": "of",
+      "actual": "behind",
+      "s2": 13.4226,
+      "context": "\nThe throb",
+      "era": "concrete",
+      "author": "Synthetic (shadow-divergence test case)",
+      "title": "Decreasing Divergence: The Coined Word Ladder"
+    },
+    {
+      "predicted": "of",
+      "actual": "around",
+      "s2": 9.9363,
+      "context": "",
+      "era": "19th_century",
+      "author": "Emily Dickinson",
+      "title": "I heard a Fly buzz \u2014 when I died"
+    },
+    {
+      "predicted": "in",
+      "actual": "among",
+      "s2": 9.6593,
+      "context": "",
+      "era": "objectivist",
+      "author": "George Oppen",
+      "title": "Of Being Numerous (opening)"
+    },
+    {
+      "predicted": "in",
+      "actual": "beneath",
+      "s2": 8.5706,
+      "context": "",
+      "era": "contemporary",
+      "author": "Terrance Hayes",
+      "title": "Wind in a Box (excerpt)"
+    },
+    {
+      "predicted": "of",
+      "actual": "beneath",
+      "s2": 8.522,
+      "context": "\nThis arm",
+      "era": "elegy",
+      "author": "Walt Whitman",
+      "title": "O Captain! My Captain!"
+    },
+    {
+      "predicted": "to",
+      "actual": "after",
+      "s2": 8.4823,
+      "context": "\nRain likely",
+      "era": "found_poetry",
+      "author": "Anonymous (found text)",
+      "title": "Weather Observations (Found Poem from meteoro"
+    },
+    {
+      "predicted": "with",
+      "actual": "among",
+      "s2": 8.018,
+      "context": " a past stacked",
+      "era": "contemporary",
+      "author": "Claudia Rankine",
+      "title": "Citizen (excerpt)"
+    },
+    {
+      "predicted": "with",
+      "actual": "among",
+      "s2": 8.018,
+      "context": " a past stacked",
+      "era": "prose_poetry",
+      "author": "Claudia Rankine",
+      "title": "Citizen (excerpt, section I)"
+    },
+    {
+      "predicted": "of",
+      "actual": "among",
+      "s2": 7.88,
+      "context": " the lily",
+      "era": "biblical",
+      "author": "Anonymous (Hebrew Bible)",
+      "title": "Song of Solomon 2:1-7 (KJV)"
+    },
+    {
+      "predicted": "of",
+      "actual": "below",
+      "s2": 7.4542,
+      "context": "",
+      "era": "rondeau",
+      "author": "John McCrae",
+      "title": "In Flanders Fields"
+    },
+    {
+      "predicted": "of",
+      "actual": "since",
+      "s2": 6.8651,
+      "context": "",
+      "era": "dramatic_monologue",
+      "author": "Robert Browning",
+      "title": "The Bishop Orders His Tomb at Saint Praxed's "
+    },
+    {
+      "predicted": "by",
+      "actual": "upon",
+      "s2": 6.6314,
+      "context": "",
+      "era": "18th_century",
+      "author": "Christopher Smart",
+      "title": "For I will consider my Cat Jeoffry (excerpt)"
+    },
+    {
+      "predicted": "by",
+      "actual": "upon",
+      "s2": 6.5624,
+      "context": "",
+      "era": "18th_century",
+      "author": "Christopher Smart",
+      "title": "For I Will Consider My Cat Jeoffry (excerpt)"
+    },
+    {
+      "predicted": "to",
+      "actual": "beneath",
+      "s2": 6.3726,
+      "context": "",
+      "era": "contemporary",
+      "author": "Terrance Hayes",
+      "title": "Wind in a Box (excerpt)"
+    },
+    {
+      "predicted": "to",
+      "actual": "beyond",
+      "s2": 6.2936,
+      "context": " that are important",
+      "era": "modernist",
+      "author": "Marianne Moore",
+      "title": "Poetry (opening)"
+    },
+    {
+      "predicted": "to",
+      "actual": "beside",
+      "s2": 5.7826,
+      "context": "",
+      "era": "biblical",
+      "author": "Anonymous (Hebrew Bible)",
+      "title": "Psalm 23 (KJV)"
+    },
+    {
+      "predicted": "of",
+      "actual": "beneath",
+      "s2": 5.7625,
+      "context": "",
+      "era": "19th_century",
+      "author": "Walt Whitman",
+      "title": "O Captain! My Captain!"
+    },
+    {
+      "predicted": "to",
+      "actual": "upon",
+      "s2": 5.5453,
+      "context": "",
+      "era": "cliche_control",
+      "author": "Synthetic (research test case)",
+      "title": "Autumn Comes (synthetic clich\u00e9)"
+    },
+    {
+      "predicted": "on",
+      "actual": "upon",
+      "s2": 5.4142,
+      "context": " wrote her name",
+      "era": "early_modern",
+      "author": "Edmund Spenser",
+      "title": "Amoretti LXXV: One Day I Wrote Her Name"
+    },
+    {
+      "predicted": "at",
+      "actual": "above",
+      "s2": 5.2814,
+      "context": "",
+      "era": "german_expressionist",
+      "author": "Georg Heym",
+      "title": "Umbra Vitae (trans. Hamburger)"
+    },
+    {
+      "predicted": "in",
+      "actual": "through",
+      "s2": 5.255,
+      "context": "ress still lives",
+      "era": "confessional",
+      "author": "Robert Lowell",
+      "title": "Skunk Hour (opening)"
+    },
+    {
+      "predicted": "with",
+      "actual": "after",
+      "s2": 5.2081,
+      "context": "",
+      "era": "ekphrastic",
+      "author": "Robert Browning",
+      "title": "Andrea del Sarto (opening)"
+    },
+    {
+      "predicted": "of",
+      "actual": "until",
+      "s2": 5.1431,
+      "context": "",
+      "era": "surrealist",
+      "author": "Pablo Neruda",
+      "title": "Walking Around"
+    },
+    {
+      "predicted": "in",
+      "actual": "above",
+      "s2": 5.0662,
+      "context": " still graze",
+      "era": "confessional",
+      "author": "Robert Lowell",
+      "title": "Skunk Hour (opening)"
+    },
+    {
+      "predicted": "to",
+      "actual": "upon",
+      "s2": 5.0377,
+      "context": "",
+      "era": "romantic",
+      "author": "William Blake",
+      "title": "The Chimney Sweeper (Experience)"
+    }
+  ],
+  "swap_patterns": [
+    {
+      "predicted": "to",
+      "actual": "through",
+      "count": 8
+    },
+    {
+      "predicted": "in",
+      "actual": "upon",
+      "count": 7
+    },
+    {
+      "predicted": "in",
+      "actual": "into",
+      "count": 6
+    },
+    {
+      "predicted": "to",
+      "actual": "upon",
+      "count": 5
+    },
+    {
+      "predicted": "in",
+      "actual": "under",
+      "count": 5
+    },
+    {
+      "predicted": "to",
+      "actual": "into",
+      "count": 5
+    },
+    {
+      "predicted": "in",
+      "actual": "over",
+      "count": 5
+    },
+    {
+      "predicted": "on",
+      "actual": "upon",
+      "count": 4
+    },
+    {
+      "predicted": "of",
+      "actual": "through",
+      "count": 4
+    },
+    {
+      "predicted": "at",
+      "actual": "into",
+      "count": 4
+    },
+    {
+      "predicted": "in",
+      "actual": "before",
+      "count": 4
+    },
+    {
+      "predicted": "by",
+      "actual": "upon",
+      "count": 3
+    },
+    {
+      "predicted": "in",
+      "actual": "through",
+      "count": 3
+    },
+    {
+      "predicted": "with",
+      "actual": "upon",
+      "count": 3
+    },
+    {
+      "predicted": "in",
+      "actual": "past",
+      "count": 3
+    },
+    {
+      "predicted": "of",
+      "actual": "into",
+      "count": 3
+    },
+    {
+      "predicted": "at",
+      "actual": "upon",
+      "count": 3
+    },
+    {
+      "predicted": "into",
+      "actual": "through",
+      "count": 3
+    },
+    {
+      "predicted": "of",
+      "actual": "around",
+      "count": 2
+    },
+    {
+      "predicted": "of",
+      "actual": "beneath",
+      "count": 2
+    }
+  ],
+  "era_stats": {
+    "romantic": {
+      "n_common": 234,
+      "avg_common_s2": -1.5793777777777769,
+      "n_spatial": 31,
+      "avg_spatial_s2": 2.4840774193548385,
+      "gap": 4.063455197132615
+    },
+    "19th_century": {
+      "n_common": 190,
+      "avg_common_s2": -1.13115947368421,
+      "n_spatial": 32,
+      "avg_spatial_s2": 1.00100625,
+      "gap": 2.13216572368421
+    },
+    "modernist": {
+      "n_common": 174,
+      "avg_common_s2": -1.0225068965517243,
+      "n_spatial": 40,
+      "avg_spatial_s2": 1.8598325000000007,
+      "gap": 2.8823393965517248
+    },
+    "beat": {
+      "n_common": 59,
+      "avg_common_s2": -0.4181762711864403,
+      "n_spatial": 10,
+      "avg_spatial_s2": 5.56177,
+      "gap": 5.97994627118644
+    },
+    "confessional": {
+      "n_common": 21,
+      "avg_common_s2": -0.6929619047619049,
+      "n_spatial": 4,
+      "avg_spatial_s2": 2.8756500000000003,
+      "gap": 3.568611904761905
+    },
+    "mid_century": {
+      "n_common": 43,
+      "avg_common_s2": -0.7656023255813954,
+      "n_spatial": 9,
+      "avg_spatial_s2": 1.1272555555555555,
+      "gap": 1.8928578811369507
+    },
+    "new_york_school": {
+      "n_common": 209,
+      "avg_common_s2": -1.4399267942583722,
+      "n_spatial": 28,
+      "avg_spatial_s2": 1.0141321428571426,
+      "gap": 2.454058937115515
+    },
+    "language": {
+      "n_common": 38,
+      "avg_common_s2": -1.581507894736842,
+      "n_spatial": 8,
+      "avg_spatial_s2": 0.9588,
+      "gap": 2.540307894736842
+    },
+    "contemporary": {
+      "n_common": 220,
+      "avg_common_s2": -1.3066436363636367,
+      "n_spatial": 42,
+      "avg_spatial_s2": 1.3168095238095239,
+      "gap": 2.6234531601731605
+    },
+    "harlem_renaissance": {
+      "n_common": 41,
+      "avg_common_s2": -1.8441560975609759,
+      "n_spatial": 9,
+      "avg_spatial_s2": 2.1972666666666663,
+      "gap": 4.041422764227642
+    },
+    "surrealist": {
+      "n_common": 92,
+      "avg_common_s2": -1.3730402173913046,
+      "n_spatial": 9,
+      "avg_spatial_s2": 2.428944444444445,
+      "gap": 3.8019846618357493
+    },
+    "german_expressionist": {
+      "n_common": 33,
+      "avg_common_s2": -1.0969393939393939,
+      "n_spatial": 11,
+      "avg_spatial_s2": 2.825854545454545,
+      "gap": 3.922793939393939
+    },
+    "victorian": {
+      "n_common": 347,
+      "avg_common_s2": -1.2467417867435162,
+      "n_spatial": 46,
+      "avg_spatial_s2": 2.2224,
+      "gap": 3.469141786743516
+    },
+    "haiku": {
+      "n_common": 20,
+      "avg_common_s2": -1.41889,
+      "n_spatial": 2,
+      "avg_spatial_s2": -0.7412000000000001,
+      "gap": 0.6776899999999999
+    },
+    "ancient": {
+      "n_common": 23,
+      "avg_common_s2": -0.8957739130434782,
+      "n_spatial": 7,
+      "avg_spatial_s2": 2.171757142857143,
+      "gap": 3.0675310559006213
+    },
+    "prose_poetry": {
+      "n_common": 90,
+      "avg_common_s2": -1.2699177777777775,
+      "n_spatial": 17,
+      "avg_spatial_s2": 2.4059470588235294,
+      "gap": 3.675864836601307
+    },
+    "ballad": {
+      "n_common": 36,
+      "avg_common_s2": -1.0750583333333334,
+      "n_spatial": 4,
+      "avg_spatial_s2": 2.8777,
+      "gap": 3.9527583333333336
+    },
+    "song_lyrics": {
+      "n_common": 22,
+      "avg_common_s2": -0.3383863636363638,
+      "n_spatial": 3,
+      "avg_spatial_s2": -0.7348333333333333,
+      "gap": -0.3964469696969695
+    },
+    "metaphysical": {
+      "n_common": 43,
+      "avg_common_s2": -1.1221744186046512,
+      "n_spatial": 7,
+      "avg_spatial_s2": 3.296214285714286,
+      "gap": 4.418388704318938
+    },
+    "early_modern": {
+      "n_common": 123,
+      "avg_common_s2": -1.2951520325203245,
+      "n_spatial": 13,
+      "avg_spatial_s2": 3.1150769230769226,
+      "gap": 4.410228955597248
+    },
+    "spoken_word": {
+      "n_common": 23,
+      "avg_common_s2": -2.0086913043478263,
+      "n_spatial": 4,
+      "avg_spatial_s2": -1.599825,
+      "gap": 0.4088663043478262
+    },
+    "found_poetry": {
+      "n_common": 112,
+      "avg_common_s2": -1.2708410714285707,
+      "n_spatial": 20,
+      "avg_spatial_s2": 0.4340400000000001,
+      "gap": 1.704881071428571
+    },
+    "fixed_form": {
+      "n_common": 42,
+      "avg_common_s2": -1.3456119047619048,
+      "n_spatial": 6,
+      "avg_spatial_s2": 0.8523666666666666,
+      "gap": 2.1979785714285716
+    },
+    "cliche_control": {
+      "n_common": 24,
+      "avg_common_s2": -0.7531499999999999,
+      "n_spatial": 8,
+      "avg_spatial_s2": 1.1438000000000001,
+      "gap": 1.89695
+    },
+    "18th_century": {
+      "n_common": 146,
+      "avg_common_s2": -1.2984472602739723,
+      "n_spatial": 23,
+      "avg_spatial_s2": 1.993208695652174,
+      "gap": 3.2916559559261462
+    },
+    "biblical": {
+      "n_common": 153,
+      "avg_common_s2": -0.758847712418301,
+      "n_spatial": 22,
+      "avg_spatial_s2": 1.8469909090909091,
+      "gap": 2.60583862150921
+    },
+    "concrete": {
+      "n_common": 21,
+      "avg_common_s2": 0.3873761904761907,
+      "n_spatial": 5,
+      "avg_spatial_s2": 4.0405,
+      "gap": 3.653123809523809
+    },
+    "latin_american": {
+      "n_common": 29,
+      "avg_common_s2": -1.2786655172413794,
+      "n_spatial": 7,
+      "avg_spatial_s2": 3.7453714285714286,
+      "gap": 5.024036945812808
+    },
+    "black_arts": {
+      "n_common": 11,
+      "avg_common_s2": -0.9917272727272727,
+      "n_spatial": 4,
+      "avg_spatial_s2": -0.864925,
+      "gap": 0.12680227272727262
+    },
+    "imagist": {
+      "n_common": 16,
+      "avg_common_s2": -1.56395,
+      "n_spatial": 5,
+      "avg_spatial_s2": 1.4269199999999997,
+      "gap": 2.9908699999999997
+    },
+    "parody_original": {
+      "n_common": 24,
+      "avg_common_s2": -0.44179166666666675,
+      "n_spatial": 4,
+      "avg_spatial_s2": 1.5880999999999998,
+      "gap": 2.0298916666666664
+    },
+    "parody": {
+      "n_common": 36,
+      "avg_common_s2": -0.963561111111111,
+      "n_spatial": 3,
+      "avg_spatial_s2": 1.2447333333333335,
+      "gap": 2.2082944444444443
+    },
+    "oulipo": {
+      "n_common": 38,
+      "avg_common_s2": -1.1179421052631582,
+      "n_spatial": 12,
+      "avg_spatial_s2": 1.0276083333333332,
+      "gap": 2.1455504385964916
+    },
+    "classical_chinese": {
+      "n_common": 15,
+      "avg_common_s2": -0.7403733333333332,
+      "n_spatial": 1,
+      "avg_spatial_s2": 3.1672,
+      "gap": 3.907573333333333
+    },
+    "persian": {
+      "n_common": 33,
+      "avg_common_s2": -2.296054545454545,
+      "n_spatial": 1,
+      "avg_spatial_s2": 2.6008,
+      "gap": 4.896854545454545
+    },
+    "limerick": {
+      "n_common": 42,
+      "avg_common_s2": -0.958485714285714,
+      "n_spatial": 1,
+      "avg_spatial_s2": 2.9227,
+      "gap": 3.881185714285714
+    },
+    "old_english": {
+      "n_common": 41,
+      "avg_common_s2": -1.2474243902439026,
+      "n_spatial": 9,
+      "avg_spatial_s2": 1.2751555555555558,
+      "gap": 2.5225799457994587
+    },
+    "protest_political": {
+      "n_common": 15,
+      "avg_common_s2": -1.9945933333333334,
+      "n_spatial": 1,
+      "avg_spatial_s2": 1.2668,
+      "gap": 3.2613933333333334
+    },
+    "ghazal": {
+      "n_common": 22,
+      "avg_common_s2": -0.10236363636363635,
+      "n_spatial": 5,
+      "avg_spatial_s2": 3.4710800000000006,
+      "gap": 3.573443636363637
+    },
+    "war_poetry": {
+      "n_common": 49,
+      "avg_common_s2": -1.375912244897959,
+      "n_spatial": 8,
+      "avg_spatial_s2": 2.089425,
+      "gap": 3.4653372448979587
+    },
+    "postcolonial": {
+      "n_common": 49,
+      "avg_common_s2": -0.8858816326530611,
+      "n_spatial": 11,
+      "avg_spatial_s2": 0.9029000000000003,
+      "gap": 1.7887816326530612
+    },
+    "dramatic_monologue": {
+      "n_common": 292,
+      "avg_common_s2": -1.620673287671233,
+      "n_spatial": 40,
+      "avg_spatial_s2": 2.473115,
+      "gap": 4.093788287671233
+    },
+    "elegy": {
+      "n_common": 73,
+      "avg_common_s2": -1.7136958904109587,
+      "n_spatial": 11,
+      "avg_spatial_s2": 1.8344363636363636,
+      "gap": 3.5481322540473226
+    },
+    "ekphrastic": {
+      "n_common": 117,
+      "avg_common_s2": -1.8216606837606837,
+      "n_spatial": 20,
+      "avg_spatial_s2": 2.273175,
+      "gap": 4.094835683760683
+    },
+    "villanelle": {
+      "n_common": 15,
+      "avg_common_s2": -1.42786,
+      "n_spatial": 9,
+      "avg_spatial_s2": 0.3748444444444443,
+      "gap": 1.8027044444444442
+    },
+    "pantoum": {
+      "n_common": 22,
+      "avg_common_s2": -0.30940454545454554,
+      "n_spatial": 5,
+      "avg_spatial_s2": -0.31832000000000005,
+      "gap": -0.008915454545454504
+    },
+    "nonsense": {
+      "n_common": 31,
+      "avg_common_s2": -1.7650387096774194,
+      "n_spatial": 3,
+      "avg_spatial_s2": -0.23940000000000006,
+      "gap": 1.5256387096774193
+    },
+    "procedural": {
+      "n_common": 40,
+      "avg_common_s2": -1.2955500000000002,
+      "n_spatial": 5,
+      "avg_spatial_s2": 3.0842199999999997,
+      "gap": 4.37977
+    },
+    "objectivist": {
+      "n_common": 49,
+      "avg_common_s2": -1.895797959183673,
+      "n_spatial": 14,
+      "avg_spatial_s2": 4.0424428571428574,
+      "gap": 5.93824081632653
+    }
+  }
+}
