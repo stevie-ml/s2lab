@@ -1,0 +1,1902 @@
+{
+  "summary": {
+    "n_poems": 443,
+    "n_transitions": 54134,
+    "mean_jaccard_overall": 0.0874,
+    "pct_zero_overlap": 0.4604,
+    "pct_full_overlap": 0.0002,
+    "token_level_r_jaccard_vs_s2": -0.0001,
+    "poem_level_r_jaccard_vs_s2": 0.214
+  },
+  "s2_bin_stats": [
+    {
+      "band": "Very low (<-3)",
+      "n": 12162,
+      "mean_jaccard": 0.0949,
+      "median_jaccard": 0.0526
+    },
+    {
+      "band": "Low (-3 to -1)",
+      "n": 15159,
+      "mean_jaccard": 0.0873,
+      "median_jaccard": 0.0526
+    },
+    {
+      "band": "Neutral (-1 to 1)",
+      "n": 11424,
+      "mean_jaccard": 0.076,
+      "median_jaccard": 0.0
+    },
+    {
+      "band": "High (1 to 3)",
+      "n": 6245,
+      "mean_jaccard": 0.0869,
+      "median_jaccard": 0.0526
+    },
+    {
+      "band": "Very high (3-5)",
+      "n": 4013,
+      "mean_jaccard": 0.0879,
+      "median_jaccard": 0.0526
+    },
+    {
+      "band": "Extreme (5+)",
+      "n": 5131,
+      "mean_jaccard": 0.0956,
+      "median_jaccard": 0.0526
+    }
+  ],
+  "era_stats": {
+    "romantic": {
+      "n": 3921,
+      "mean_jaccard": 0.0908,
+      "mean_s2": -0.3289,
+      "pct_stable": 0.0829,
+      "pct_volatile": 0.4527
+    },
+    "19th_century": {
+      "n": 2988,
+      "mean_jaccard": 0.0879,
+      "mean_s2": -0.3303,
+      "pct_stable": 0.083,
+      "pct_volatile": 0.4859
+    },
+    "modernist": {
+      "n": 2781,
+      "mean_jaccard": 0.0951,
+      "mean_s2": -0.0235,
+      "pct_stable": 0.0863,
+      "pct_volatile": 0.4168
+    },
+    "beat": {
+      "n": 584,
+      "mean_jaccard": 0.0876,
+      "mean_s2": 1.1809,
+      "pct_stable": 0.0685,
+      "pct_volatile": 0.4726
+    },
+    "confessional": {
+      "n": 345,
+      "mean_jaccard": 0.0865,
+      "mean_s2": -0.0306,
+      "pct_stable": 0.0638,
+      "pct_volatile": 0.4377
+    },
+    "mid_century": {
+      "n": 516,
+      "mean_jaccard": 0.0914,
+      "mean_s2": -0.0535,
+      "pct_stable": 0.0775,
+      "pct_volatile": 0.4574
+    },
+    "new_york_school": {
+      "n": 2497,
+      "mean_jaccard": 0.0802,
+      "mean_s2": -0.5089,
+      "pct_stable": 0.0657,
+      "pct_volatile": 0.4694
+    },
+    "language": {
+      "n": 448,
+      "mean_jaccard": 0.0805,
+      "mean_s2": -0.6625,
+      "pct_stable": 0.0536,
+      "pct_volatile": 0.4107
+    },
+    "contemporary": {
+      "n": 2741,
+      "mean_jaccard": 0.0867,
+      "mean_s2": -0.3389,
+      "pct_stable": 0.0792,
+      "pct_volatile": 0.4721
+    },
+    "harlem_renaissance": {
+      "n": 724,
+      "mean_jaccard": 0.0799,
+      "mean_s2": -0.2015,
+      "pct_stable": 0.0608,
+      "pct_volatile": 0.4641
+    },
+    "oulipo": {
+      "n": 1188,
+      "mean_jaccard": 0.0941,
+      "mean_s2": -0.0245,
+      "pct_stable": 0.0732,
+      "pct_volatile": 0.4411
+    },
+    "surrealist": {
+      "n": 995,
+      "mean_jaccard": 0.0786,
+      "mean_s2": -0.4022,
+      "pct_stable": 0.0714,
+      "pct_volatile": 0.5156
+    },
+    "deep_image": {
+      "n": 55,
+      "mean_jaccard": 0.0606,
+      "mean_s2": 0.2721,
+      "pct_stable": 0.0182,
+      "pct_volatile": 0.4
+    },
+    "control": {
+      "n": 158,
+      "mean_jaccard": 0.0683,
+      "mean_s2": -1.7794,
+      "pct_stable": 0.0823,
+      "pct_volatile": 0.6013
+    },
+    "german_symbolist": {
+      "n": 322,
+      "mean_jaccard": 0.0889,
+      "mean_s2": 0.4892,
+      "pct_stable": 0.087,
+      "pct_volatile": 0.4969
+    },
+    "german_expressionist": {
+      "n": 707,
+      "mean_jaccard": 0.0795,
+      "mean_s2": 0.2478,
+      "pct_stable": 0.0693,
+      "pct_volatile": 0.5021
+    },
+    "german_modernist": {
+      "n": 210,
+      "mean_jaccard": 0.099,
+      "mean_s2": 0.7192,
+      "pct_stable": 0.081,
+      "pct_volatile": 0.4238
+    },
+    "victorian": {
+      "n": 5384,
+      "mean_jaccard": 0.0909,
+      "mean_s2": -0.0941,
+      "pct_stable": 0.0825,
+      "pct_volatile": 0.4526
+    },
+    "haiku": {
+      "n": 180,
+      "mean_jaccard": 0.0948,
+      "mean_s2": 0.2073,
+      "pct_stable": 0.1,
+      "pct_volatile": 0.4833
+    },
+    "ancient": {
+      "n": 286,
+      "mean_jaccard": 0.1086,
+      "mean_s2": -0.0536,
+      "pct_stable": 0.1084,
+      "pct_volatile": 0.3986
+    },
+    "prose_poetry": {
+      "n": 1325,
+      "mean_jaccard": 0.0685,
+      "mean_s2": -0.387,
+      "pct_stable": 0.0604,
+      "pct_volatile": 0.5464
+    },
+    "ballad": {
+      "n": 846,
+      "mean_jaccard": 0.0805,
+      "mean_s2": -0.3668,
+      "pct_stable": 0.0839,
+      "pct_volatile": 0.4953
+    },
+    "song_lyrics": {
+      "n": 504,
+      "mean_jaccard": 0.0737,
+      "mean_s2": -0.5943,
+      "pct_stable": 0.0556,
+      "pct_volatile": 0.496
+    },
+    "nursery_rhyme": {
+      "n": 210,
+      "mean_jaccard": 0.0666,
+      "mean_s2": -0.7718,
+      "pct_stable": 0.0667,
+      "pct_volatile": 0.5714
+    },
+    "metaphysical": {
+      "n": 849,
+      "mean_jaccard": 0.0989,
+      "mean_s2": -0.4683,
+      "pct_stable": 0.0742,
+      "pct_volatile": 0.3698
+    },
+    "early_modern": {
+      "n": 1666,
+      "mean_jaccard": 0.1016,
+      "mean_s2": -0.2719,
+      "pct_stable": 0.099,
+      "pct_volatile": 0.4214
+    },
+    "spoken_word": {
+      "n": 241,
+      "mean_jaccard": 0.0764,
+      "mean_s2": -0.3833,
+      "pct_stable": 0.0539,
+      "pct_volatile": 0.4066
+    },
+    "found_poetry": {
+      "n": 1027,
+      "mean_jaccard": 0.0796,
+      "mean_s2": -0.5922,
+      "pct_stable": 0.0555,
+      "pct_volatile": 0.4206
+    },
+    "fixed_form": {
+      "n": 768,
+      "mean_jaccard": 0.0864,
+      "mean_s2": -0.4238,
+      "pct_stable": 0.069,
+      "pct_volatile": 0.4232
+    },
+    "cliche_control": {
+      "n": 446,
+      "mean_jaccard": 0.0679,
+      "mean_s2": -0.923,
+      "pct_stable": 0.065,
+      "pct_volatile": 0.574
+    },
+    "18th_century": {
+      "n": 1359,
+      "mean_jaccard": 0.1072,
+      "mean_s2": -0.1839,
+      "pct_stable": 0.1082,
+      "pct_volatile": 0.3878
+    },
+    "biblical": {
+      "n": 1284,
+      "mean_jaccard": 0.0739,
+      "mean_s2": -0.3913,
+      "pct_stable": 0.0639,
+      "pct_volatile": 0.5234
+    },
+    "concrete": {
+      "n": 254,
+      "mean_jaccard": 0.062,
+      "mean_s2": -0.3778,
+      "pct_stable": 0.0433,
+      "pct_volatile": 0.5315
+    },
+    "latin_american": {
+      "n": 409,
+      "mean_jaccard": 0.099,
+      "mean_s2": -0.2698,
+      "pct_stable": 0.1174,
+      "pct_volatile": 0.4132
+    },
+    "black_arts": {
+      "n": 214,
+      "mean_jaccard": 0.0807,
+      "mean_s2": -0.2632,
+      "pct_stable": 0.0748,
+      "pct_volatile": 0.4626
+    },
+    "korean_modernist": {
+      "n": 86,
+      "mean_jaccard": 0.0774,
+      "mean_s2": -0.4548,
+      "pct_stable": 0.0698,
+      "pct_volatile": 0.5
+    },
+    "imagist": {
+      "n": 274,
+      "mean_jaccard": 0.078,
+      "mean_s2": -0.3301,
+      "pct_stable": 0.0401,
+      "pct_volatile": 0.4854
+    },
+    "parody_original": {
+      "n": 416,
+      "mean_jaccard": 0.0857,
+      "mean_s2": -0.388,
+      "pct_stable": 0.0769,
+      "pct_volatile": 0.4736
+    },
+    "parody": {
+      "n": 621,
+      "mean_jaccard": 0.0734,
+      "mean_s2": -0.1944,
+      "pct_stable": 0.058,
+      "pct_volatile": 0.4895
+    },
+    "classical_chinese": {
+      "n": 214,
+      "mean_jaccard": 0.0796,
+      "mean_s2": -0.3634,
+      "pct_stable": 0.0701,
+      "pct_volatile": 0.4626
+    },
+    "persian": {
+      "n": 339,
+      "mean_jaccard": 0.0798,
+      "mean_s2": -0.1173,
+      "pct_stable": 0.0678,
+      "pct_volatile": 0.5044
+    },
+    "japanese_classical": {
+      "n": 49,
+      "mean_jaccard": 0.0644,
+      "mean_s2": -0.5461,
+      "pct_stable": 0.0816,
+      "pct_volatile": 0.5918
+    },
+    "limerick": {
+      "n": 376,
+      "mean_jaccard": 0.0668,
+      "mean_s2": -0.6369,
+      "pct_stable": 0.0479,
+      "pct_volatile": 0.5665
+    },
+    "old_english": {
+      "n": 574,
+      "mean_jaccard": 0.0909,
+      "mean_s2": -0.1293,
+      "pct_stable": 0.0697,
+      "pct_volatile": 0.4721
+    },
+    "protest_political": {
+      "n": 223,
+      "mean_jaccard": 0.0911,
+      "mean_s2": -0.6567,
+      "pct_stable": 0.0807,
+      "pct_volatile": 0.4036
+    },
+    "ghazal": {
+      "n": 301,
+      "mean_jaccard": 0.07,
+      "mean_s2": -0.1871,
+      "pct_stable": 0.0465,
+      "pct_volatile": 0.4884
+    },
+    "war_poetry": {
+      "n": 588,
+      "mean_jaccard": 0.0927,
+      "mean_s2": -0.2062,
+      "pct_stable": 0.1003,
+      "pct_volatile": 0.449
+    },
+    "postcolonial": {
+      "n": 816,
+      "mean_jaccard": 0.0712,
+      "mean_s2": -0.1916,
+      "pct_stable": 0.0527,
+      "pct_volatile": 0.527
+    },
+    "dramatic_monologue": {
+      "n": 4880,
+      "mean_jaccard": 0.0951,
+      "mean_s2": -0.3183,
+      "pct_stable": 0.0873,
+      "pct_volatile": 0.4377
+    },
+    "elegy": {
+      "n": 1157,
+      "mean_jaccard": 0.0972,
+      "mean_s2": -0.3587,
+      "pct_stable": 0.0856,
+      "pct_volatile": 0.4304
+    },
+    "clerihew": {
+      "n": 192,
+      "mean_jaccard": 0.0716,
+      "mean_s2": 0.8411,
+      "pct_stable": 0.0573,
+      "pct_volatile": 0.526
+    },
+    "double_dactyl": {
+      "n": 203,
+      "mean_jaccard": 0.0864,
+      "mean_s2": -0.551,
+      "pct_stable": 0.0887,
+      "pct_volatile": 0.4581
+    },
+    "ekphrastic": {
+      "n": 1750,
+      "mean_jaccard": 0.0918,
+      "mean_s2": -0.3313,
+      "pct_stable": 0.0777,
+      "pct_volatile": 0.4303
+    },
+    "villanelle": {
+      "n": 399,
+      "mean_jaccard": 0.0774,
+      "mean_s2": -0.3081,
+      "pct_stable": 0.0777,
+      "pct_volatile": 0.5088
+    },
+    "pantoum": {
+      "n": 258,
+      "mean_jaccard": 0.0675,
+      "mean_s2": -0.3666,
+      "pct_stable": 0.0465,
+      "pct_volatile": 0.5194
+    },
+    "triolet": {
+      "n": 117,
+      "mean_jaccard": 0.057,
+      "mean_s2": -0.6241,
+      "pct_stable": 0.0085,
+      "pct_volatile": 0.5214
+    },
+    "rondeau": {
+      "n": 116,
+      "mean_jaccard": 0.1245,
+      "mean_s2": -0.1508,
+      "pct_stable": 0.1379,
+      "pct_volatile": 0.4052
+    },
+    "nonsense": {
+      "n": 466,
+      "mean_jaccard": 0.0769,
+      "mean_s2": -0.6273,
+      "pct_stable": 0.0665,
+      "pct_volatile": 0.4871
+    },
+    "procedural": {
+      "n": 574,
+      "mean_jaccard": 0.0772,
+      "mean_s2": -0.2224,
+      "pct_stable": 0.061,
+      "pct_volatile": 0.4895
+    },
+    "social_media_poetry": {
+      "n": 29,
+      "mean_jaccard": 0.0526,
+      "mean_s2": -0.8823,
+      "pct_stable": 0.0345,
+      "pct_volatile": 0.6207
+    },
+    "objectivist": {
+      "n": 684,
+      "mean_jaccard": 0.0863,
+      "mean_s2": 0.0763,
+      "pct_stable": 0.0673,
+      "pct_volatile": 0.4474
+    }
+  },
+  "positional_profile": [
+    {
+      "decile": 0,
+      "n": 5210,
+      "mean_jaccard": 0.0812,
+      "mean_s2": 0.2027
+    },
+    {
+      "decile": 1,
+      "n": 5442,
+      "mean_jaccard": 0.0834,
+      "mean_s2": -0.2047
+    },
+    {
+      "decile": 2,
+      "n": 5469,
+      "mean_jaccard": 0.089,
+      "mean_s2": -0.1391
+    },
+    {
+      "decile": 3,
+      "n": 5456,
+      "mean_jaccard": 0.089,
+      "mean_s2": -0.2972
+    },
+    {
+      "decile": 4,
+      "n": 5383,
+      "mean_jaccard": 0.087,
+      "mean_s2": -0.3242
+    },
+    {
+      "decile": 5,
+      "n": 5515,
+      "mean_jaccard": 0.0877,
+      "mean_s2": -0.3388
+    },
+    {
+      "decile": 6,
+      "n": 5499,
+      "mean_jaccard": 0.0865,
+      "mean_s2": -0.3935
+    },
+    {
+      "decile": 7,
+      "n": 5426,
+      "mean_jaccard": 0.0877,
+      "mean_s2": -0.3087
+    },
+    {
+      "decile": 8,
+      "n": 5485,
+      "mean_jaccard": 0.0912,
+      "mean_s2": -0.3195
+    },
+    {
+      "decile": 9,
+      "n": 5249,
+      "mean_jaccard": 0.0911,
+      "mean_s2": -0.4805
+    }
+  ],
+  "poet_stats": {
+    "William Wordsworth": {
+      "n": 210,
+      "mean_jaccard": 0.0841,
+      "mean_s2": -0.2649,
+      "pct_stable": 0.0524
+    },
+    "John Keats": {
+      "n": 2400,
+      "mean_jaccard": 0.0934,
+      "mean_s2": -0.365,
+      "pct_stable": 0.0887
+    },
+    "Emily Dickinson": {
+      "n": 535,
+      "mean_jaccard": 0.0869,
+      "mean_s2": 0.2659,
+      "pct_stable": 0.0953
+    },
+    "Walt Whitman": {
+      "n": 1936,
+      "mean_jaccard": 0.0926,
+      "mean_s2": -0.4,
+      "pct_stable": 0.0826
+    },
+    "Matthew Arnold": {
+      "n": 535,
+      "mean_jaccard": 0.0861,
+      "mean_s2": -0.4567,
+      "pct_stable": 0.071
+    },
+    "Percy Bysshe Shelley": {
+      "n": 589,
+      "mean_jaccard": 0.0949,
+      "mean_s2": -0.2423,
+      "pct_stable": 0.0815
+    },
+    "T.S. Eliot": {
+      "n": 745,
+      "mean_jaccard": 0.0912,
+      "mean_s2": -0.1977,
+      "pct_stable": 0.0819
+    },
+    "William Carlos Williams": {
+      "n": 76,
+      "mean_jaccard": 0.073,
+      "mean_s2": -0.3935,
+      "pct_stable": 0.0263
+    },
+    "Wallace Stevens": {
+      "n": 211,
+      "mean_jaccard": 0.0872,
+      "mean_s2": -0.4544,
+      "pct_stable": 0.0664
+    },
+    "Allen Ginsberg": {
+      "n": 142,
+      "mean_jaccard": 0.0861,
+      "mean_s2": 0.776,
+      "pct_stable": 0.0915
+    },
+    "Sylvia Plath": {
+      "n": 117,
+      "mean_jaccard": 0.0726,
+      "mean_s2": -0.0599,
+      "pct_stable": 0.0342
+    },
+    "Elizabeth Bishop": {
+      "n": 53,
+      "mean_jaccard": 0.0501,
+      "mean_s2": 0.3522,
+      "pct_stable": 0.0189
+    },
+    "John Ashbery": {
+      "n": 1303,
+      "mean_jaccard": 0.0872,
+      "mean_s2": -0.5228,
+      "pct_stable": 0.0683
+    },
+    "Frank O'Hara": {
+      "n": 336,
+      "mean_jaccard": 0.0681,
+      "mean_s2": -0.3698,
+      "pct_stable": 0.0446
+    },
+    "Claudia Rankine": {
+      "n": 137,
+      "mean_jaccard": 0.0628,
+      "mean_s2": 0.0769,
+      "pct_stable": 0.0438
+    },
+    "Layli Long Soldier": {
+      "n": 51,
+      "mean_jaccard": 0.1113,
+      "mean_s2": 0.3312,
+      "pct_stable": 0.0784
+    },
+    "Lucille Clifton": {
+      "n": 288,
+      "mean_jaccard": 0.0885,
+      "mean_s2": -0.3849,
+      "pct_stable": 0.0521
+    },
+    "Langston Hughes": {
+      "n": 212,
+      "mean_jaccard": 0.066,
+      "mean_s2": -0.5041,
+      "pct_stable": 0.033
+    },
+    "Gwendolyn Brooks": {
+      "n": 60,
+      "mean_jaccard": 0.0831,
+      "mean_s2": -0.303,
+      "pct_stable": 0.0333
+    },
+    "Georges Perec": {
+      "n": 151,
+      "mean_jaccard": 0.0774,
+      "mean_s2": -0.3923,
+      "pct_stable": 0.053
+    },
+    "Andr\u00e9 Breton": {
+      "n": 52,
+      "mean_jaccard": 0.0299,
+      "mean_s2": -0.4999,
+      "pct_stable": 0.0
+    },
+    "Robert Desnos": {
+      "n": 144,
+      "mean_jaccard": 0.1013,
+      "mean_s2": -0.3878,
+      "pct_stable": 0.1111
+    },
+    "Federico Garc\u00eda Lorca": {
+      "n": 159,
+      "mean_jaccard": 0.1084,
+      "mean_s2": -0.4735,
+      "pct_stable": 0.1006
+    },
+    "C\u00e9sar Vallejo": {
+      "n": 137,
+      "mean_jaccard": 0.0862,
+      "mean_s2": 0.3007,
+      "pct_stable": 0.0876
+    },
+    "Paul \u00c9luard": {
+      "n": 119,
+      "mean_jaccard": 0.0544,
+      "mean_s2": -0.7085,
+      "pct_stable": 0.042
+    },
+    "Pablo Neruda": {
+      "n": 272,
+      "mean_jaccard": 0.0626,
+      "mean_s2": -0.0938,
+      "pct_stable": 0.0588
+    },
+    "Arthur Rimbaud": {
+      "n": 157,
+      "mean_jaccard": 0.0894,
+      "mean_s2": -0.665,
+      "pct_stable": 0.0764
+    },
+    "Robert Bly": {
+      "n": 55,
+      "mean_jaccard": 0.0606,
+      "mean_s2": 0.2721,
+      "pct_stable": 0.0182
+    },
+    "Control": {
+      "n": 158,
+      "mean_jaccard": 0.0683,
+      "mean_s2": -1.7794,
+      "pct_stable": 0.0823
+    },
+    "Stefan George": {
+      "n": 322,
+      "mean_jaccard": 0.0889,
+      "mean_s2": 0.4892,
+      "pct_stable": 0.087
+    },
+    "Georg Trakl": {
+      "n": 262,
+      "mean_jaccard": 0.0793,
+      "mean_s2": 0.7005,
+      "pct_stable": 0.0725
+    },
+    "Rainer Maria Rilke": {
+      "n": 210,
+      "mean_jaccard": 0.099,
+      "mean_s2": 0.7192,
+      "pct_stable": 0.081
+    },
+    "Gerard Manley Hopkins": {
+      "n": 905,
+      "mean_jaccard": 0.1047,
+      "mean_s2": 0.2472,
+      "pct_stable": 0.0994
+    },
+    "Alfred Lord Tennyson": {
+      "n": 1615,
+      "mean_jaccard": 0.105,
+      "mean_s2": -0.4744,
+      "pct_stable": 0.1015
+    },
+    "Paul Laurence Dunbar": {
+      "n": 295,
+      "mean_jaccard": 0.066,
+      "mean_s2": -0.4644,
+      "pct_stable": 0.0508
+    },
+    "Thomas Hardy": {
+      "n": 838,
+      "mean_jaccard": 0.087,
+      "mean_s2": 0.169,
+      "pct_stable": 0.0835
+    },
+    "Robert Browning": {
+      "n": 3110,
+      "mean_jaccard": 0.0911,
+      "mean_s2": -0.1848,
+      "pct_stable": 0.0797
+    },
+    "Anne Sexton": {
+      "n": 78,
+      "mean_jaccard": 0.0698,
+      "mean_s2": -0.6371,
+      "pct_stable": 0.0385
+    },
+    "Marianne Moore": {
+      "n": 471,
+      "mean_jaccard": 0.1189,
+      "mean_s2": 0.7792,
+      "pct_stable": 0.104
+    },
+    "Gertrude Stein": {
+      "n": 499,
+      "mean_jaccard": 0.1284,
+      "mean_s2": -0.1989,
+      "pct_stable": 0.1403
+    },
+    "E.E. Cummings": {
+      "n": 136,
+      "mean_jaccard": 0.1152,
+      "mean_s2": 0.9854,
+      "pct_stable": 0.1029
+    },
+    "Kobayashi Issa": {
+      "n": 50,
+      "mean_jaccard": 0.1222,
+      "mean_s2": -0.7929,
+      "pct_stable": 0.16
+    },
+    "Vachel Lindsay": {
+      "n": 84,
+      "mean_jaccard": 0.0947,
+      "mean_s2": -1.1745,
+      "pct_stable": 0.0833
+    },
+    "Sappho": {
+      "n": 76,
+      "mean_jaccard": 0.1097,
+      "mean_s2": -0.1941,
+      "pct_stable": 0.1053
+    },
+    "Charles Baudelaire": {
+      "n": 135,
+      "mean_jaccard": 0.092,
+      "mean_s2": -0.3102,
+      "pct_stable": 0.0889
+    },
+    "William Blake": {
+      "n": 898,
+      "mean_jaccard": 0.075,
+      "mean_s2": -0.7005,
+      "pct_stable": 0.0646
+    },
+    "Edgar Allan Poe": {
+      "n": 726,
+      "mean_jaccard": 0.0882,
+      "mean_s2": -0.6716,
+      "pct_stable": 0.0799
+    },
+    "Christina Rossetti": {
+      "n": 708,
+      "mean_jaccard": 0.0704,
+      "mean_s2": -0.1057,
+      "pct_stable": 0.0593
+    },
+    "Walter de la Mare": {
+      "n": 111,
+      "mean_jaccard": 0.0792,
+      "mean_s2": -0.2719,
+      "pct_stable": 0.0811
+    },
+    "Claude McKay": {
+      "n": 261,
+      "mean_jaccard": 0.0878,
+      "mean_s2": -0.1843,
+      "pct_stable": 0.0766
+    },
+    "Countee Cullen": {
+      "n": 251,
+      "mean_jaccard": 0.0834,
+      "mean_s2": 0.0362,
+      "pct_stable": 0.0677
+    },
+    "Robert Burns": {
+      "n": 245,
+      "mean_jaccard": 0.0953,
+      "mean_s2": -0.4734,
+      "pct_stable": 0.0694
+    },
+    "Philip Larkin": {
+      "n": 95,
+      "mean_jaccard": 0.1044,
+      "mean_s2": 0.0866,
+      "pct_stable": 0.1158
+    },
+    "Seamus Heaney": {
+      "n": 113,
+      "mean_jaccard": 0.1012,
+      "mean_s2": 0.4085,
+      "pct_stable": 0.1416
+    },
+    "Wislawa Szymborska": {
+      "n": 111,
+      "mean_jaccard": 0.0714,
+      "mean_s2": -0.4138,
+      "pct_stable": 0.045
+    },
+    "Mary Oliver": {
+      "n": 177,
+      "mean_jaccard": 0.0727,
+      "mean_s2": -0.6645,
+      "pct_stable": 0.0621
+    },
+    "W.B. Yeats": {
+      "n": 595,
+      "mean_jaccard": 0.0826,
+      "mean_s2": -0.2079,
+      "pct_stable": 0.0756
+    },
+    "Robert Frost": {
+      "n": 564,
+      "mean_jaccard": 0.0918,
+      "mean_s2": -0.3645,
+      "pct_stable": 0.0869
+    },
+    "Traditional (Scottish ballad)": {
+      "n": 717,
+      "mean_jaccard": 0.0759,
+      "mean_s2": -0.4,
+      "pct_stable": 0.0739
+    },
+    "Traditional (English/Scottish ballad)": {
+      "n": 129,
+      "mean_jaccard": 0.1062,
+      "mean_s2": -0.1819,
+      "pct_stable": 0.1395
+    },
+    "Carolyn Forch\u00e9": {
+      "n": 63,
+      "mean_jaccard": 0.0316,
+      "mean_s2": -0.2333,
+      "pct_stable": 0.0
+    },
+    "Russell Edson": {
+      "n": 233,
+      "mean_jaccard": 0.0662,
+      "mean_s2": -0.3331,
+      "pct_stable": 0.0815
+    },
+    "W.S. Merwin": {
+      "n": 59,
+      "mean_jaccard": 0.0781,
+      "mean_s2": -1.0069,
+      "pct_stable": 0.0847
+    },
+    "William Shakespeare": {
+      "n": 455,
+      "mean_jaccard": 0.0957,
+      "mean_s2": -0.6736,
+      "pct_stable": 0.0769
+    },
+    "John Milton": {
+      "n": 301,
+      "mean_jaccard": 0.1003,
+      "mean_s2": 0.0771,
+      "pct_stable": 0.0997
+    },
+    "Edna St. Vincent Millay": {
+      "n": 134,
+      "mean_jaccard": 0.1103,
+      "mean_s2": -0.7962,
+      "pct_stable": 0.0672
+    },
+    "Traditional (American folk)": {
+      "n": 210,
+      "mean_jaccard": 0.0794,
+      "mean_s2": -0.9137,
+      "pct_stable": 0.0619
+    },
+    "Traditional (American sea chanty)": {
+      "n": 157,
+      "mean_jaccard": 0.072,
+      "mean_s2": -0.2696,
+      "pct_stable": 0.0446
+    },
+    "Brewster Higley": {
+      "n": 137,
+      "mean_jaccard": 0.0671,
+      "mean_s2": -0.4766,
+      "pct_stable": 0.0584
+    },
+    "Traditional (English)": {
+      "n": 210,
+      "mean_jaccard": 0.0666,
+      "mean_s2": -0.7718,
+      "pct_stable": 0.0667
+    },
+    "Killarney Clary": {
+      "n": 161,
+      "mean_jaccard": 0.0743,
+      "mean_s2": -0.9164,
+      "pct_stable": 0.0559
+    },
+    "Rae Armantrout": {
+      "n": 113,
+      "mean_jaccard": 0.049,
+      "mean_s2": -0.6697,
+      "pct_stable": 0.0265
+    },
+    "David Antin": {
+      "n": 88,
+      "mean_jaccard": 0.0905,
+      "mean_s2": -1.1434,
+      "pct_stable": 0.1023
+    },
+    "John Donne": {
+      "n": 484,
+      "mean_jaccard": 0.1041,
+      "mean_s2": -0.6414,
+      "pct_stable": 0.0764
+    },
+    "George Herbert": {
+      "n": 236,
+      "mean_jaccard": 0.0913,
+      "mean_s2": -0.3986,
+      "pct_stable": 0.0636
+    },
+    "Thomas Wyatt": {
+      "n": 338,
+      "mean_jaccard": 0.1162,
+      "mean_s2": 0.1372,
+      "pct_stable": 0.1154
+    },
+    "Charles Darwin (found text)": {
+      "n": 117,
+      "mean_jaccard": 0.0838,
+      "mean_s2": -0.707,
+      "pct_stable": 0.0598
+    },
+    "Anonymous (KJV, found text)": {
+      "n": 131,
+      "mean_jaccard": 0.0977,
+      "mean_s2": -0.7588,
+      "pct_stable": 0.0916
+    },
+    "Thomas Jefferson (found text)": {
+      "n": 127,
+      "mean_jaccard": 0.0686,
+      "mean_s2": -0.6803,
+      "pct_stable": 0.0394
+    },
+    "Anonymous (found text)": {
+      "n": 449,
+      "mean_jaccard": 0.0779,
+      "mean_s2": -0.5395,
+      "pct_stable": 0.0579
+    },
+    "Isaac Newton (found text)": {
+      "n": 109,
+      "mean_jaccard": 0.0841,
+      "mean_s2": -0.3384,
+      "pct_stable": 0.0459
+    },
+    "John Berryman": {
+      "n": 74,
+      "mean_jaccard": 0.0907,
+      "mean_s2": 0.6305,
+      "pct_stable": 0.0946
+    },
+    "Robert Lowell": {
+      "n": 76,
+      "mean_jaccard": 0.1209,
+      "mean_s2": -0.0068,
+      "pct_stable": 0.1053
+    },
+    "Andrew Marvell": {
+      "n": 88,
+      "mean_jaccard": 0.091,
+      "mean_s2": -0.7014,
+      "pct_stable": 0.0682
+    },
+    "Ben Jonson": {
+      "n": 201,
+      "mean_jaccard": 0.1068,
+      "mean_s2": -0.2536,
+      "pct_stable": 0.0995
+    },
+    "Edmund Spenser": {
+      "n": 78,
+      "mean_jaccard": 0.1159,
+      "mean_s2": -0.2052,
+      "pct_stable": 0.141
+    },
+    "Oscar Wilde": {
+      "n": 81,
+      "mean_jaccard": 0.0545,
+      "mean_s2": 0.2306,
+      "pct_stable": 0.0247
+    },
+    "Edwin Arlington Robinson": {
+      "n": 194,
+      "mean_jaccard": 0.1046,
+      "mean_s2": 0.0284,
+      "pct_stable": 0.1495
+    },
+    "Ernest Dowson": {
+      "n": 180,
+      "mean_jaccard": 0.057,
+      "mean_s2": -1.0576,
+      "pct_stable": 0.0333
+    },
+    "William Ernest Henley": {
+      "n": 221,
+      "mean_jaccard": 0.0703,
+      "mean_s2": -0.4242,
+      "pct_stable": 0.0633
+    },
+    "Dante Gabriel Rossetti": {
+      "n": 290,
+      "mean_jaccard": 0.0939,
+      "mean_s2": -0.0551,
+      "pct_stable": 0.0793
+    },
+    "Austin Dobson": {
+      "n": 118,
+      "mean_jaccard": 0.0916,
+      "mean_s2": -0.6045,
+      "pct_stable": 0.0254
+    },
+    "Rudyard Kipling": {
+      "n": 266,
+      "mean_jaccard": 0.0946,
+      "mean_s2": -0.4673,
+      "pct_stable": 0.0677
+    },
+    "Alfred, Lord Tennyson": {
+      "n": 1100,
+      "mean_jaccard": 0.0905,
+      "mean_s2": -0.4073,
+      "pct_stable": 0.0855
+    },
+    "Synthetic (research test case)": {
+      "n": 302,
+      "mean_jaccard": 0.0789,
+      "mean_s2": -0.8439,
+      "pct_stable": 0.0795
+    },
+    "Christopher Smart": {
+      "n": 519,
+      "mean_jaccard": 0.1169,
+      "mean_s2": -0.2788,
+      "pct_stable": 0.1291
+    },
+    "Samuel Taylor Coleridge": {
+      "n": 227,
+      "mean_jaccard": 0.0952,
+      "mean_s2": 0.1993,
+      "pct_stable": 0.0793
+    },
+    "Felicia Hemans": {
+      "n": 170,
+      "mean_jaccard": 0.0932,
+      "mean_s2": -0.2901,
+      "pct_stable": 0.0882
+    },
+    "Carl Sandburg": {
+      "n": 100,
+      "mean_jaccard": 0.0821,
+      "mean_s2": -0.137,
+      "pct_stable": 0.08
+    },
+    "Hart Crane": {
+      "n": 154,
+      "mean_jaccard": 0.0813,
+      "mean_s2": 1.2749,
+      "pct_stable": 0.0844
+    },
+    "Anonymous (Hebrew Bible)": {
+      "n": 843,
+      "mean_jaccard": 0.0821,
+      "mean_s2": -0.4828,
+      "pct_stable": 0.0842
+    },
+    "Pablo Neruda (trans. W.S. Merwin)": {
+      "n": 99,
+      "mean_jaccard": 0.0951,
+      "mean_s2": -0.5226,
+      "pct_stable": 0.1313
+    },
+    "Federico Garc\u00eda Lorca (trans. Stephen Spender & J.L. Gili)": {
+      "n": 74,
+      "mean_jaccard": 0.1208,
+      "mean_s2": -0.495,
+      "pct_stable": 0.1351
+    },
+    "C\u00e9sar Vallejo (trans. Thomas Merton)": {
+      "n": 142,
+      "mean_jaccard": 0.1015,
+      "mean_s2": -0.1655,
+      "pct_stable": 0.1268
+    },
+    "Amiri Baraka (LeRoi Jones)": {
+      "n": 129,
+      "mean_jaccard": 0.088,
+      "mean_s2": -0.4876,
+      "pct_stable": 0.0853
+    },
+    "Ko Un (trans. Brother Anthony of Taiz\u00e9)": {
+      "n": 86,
+      "mean_jaccard": 0.0774,
+      "mean_s2": -0.4548,
+      "pct_stable": 0.0698
+    },
+    "Amy Lowell": {
+      "n": 208,
+      "mean_jaccard": 0.0781,
+      "mean_s2": -0.5471,
+      "pct_stable": 0.0481
+    },
+    "Homer (trans. Alexander Pope)": {
+      "n": 82,
+      "mean_jaccard": 0.1017,
+      "mean_s2": 0.102,
+      "pct_stable": 0.1098
+    },
+    "Anonymous (trans. Francis B. Gummere)": {
+      "n": 128,
+      "mean_jaccard": 0.1123,
+      "mean_s2": -0.07,
+      "pct_stable": 0.1094
+    },
+    "Phillis Wheatley": {
+      "n": 83,
+      "mean_jaccard": 0.0694,
+      "mean_s2": 0.1834,
+      "pct_stable": 0.0361
+    },
+    "Gregory Corso": {
+      "n": 213,
+      "mean_jaccard": 0.0566,
+      "mean_s2": 0.5639,
+      "pct_stable": 0.0376
+    },
+    "Lawrence Ferlinghetti": {
+      "n": 120,
+      "mean_jaccard": 0.0803,
+      "mean_s2": 2.9647,
+      "pct_stable": 0.0583
+    },
+    "Gottfried Benn": {
+      "n": 215,
+      "mean_jaccard": 0.0734,
+      "mean_s2": -0.0902,
+      "pct_stable": 0.0605
+    },
+    "Georg Heym": {
+      "n": 230,
+      "mean_jaccard": 0.0855,
+      "mean_s2": 0.0481,
+      "pct_stable": 0.0739
+    },
+    "Isaac Watts": {
+      "n": 199,
+      "mean_jaccard": 0.0871,
+      "mean_s2": -0.663,
+      "pct_stable": 0.0854
+    },
+    "Lewis Carroll": {
+      "n": 926,
+      "mean_jaccard": 0.0719,
+      "mean_s2": -0.5216,
+      "pct_stable": 0.0637
+    },
+    "Robert Southey": {
+      "n": 217,
+      "mean_jaccard": 0.0844,
+      "mean_s2": -0.1358,
+      "pct_stable": 0.0691
+    },
+    "Alexander Pope": {
+      "n": 629,
+      "mean_jaccard": 0.1041,
+      "mean_s2": -0.0331,
+      "pct_stable": 0.0938
+    },
+    "Louise Gluck": {
+      "n": 130,
+      "mean_jaccard": 0.1061,
+      "mean_s2": 0.4593,
+      "pct_stable": 0.1077
+    },
+    "Carolyn Forche": {
+      "n": 217,
+      "mean_jaccard": 0.0399,
+      "mean_s2": -0.2827,
+      "pct_stable": 0.0138
+    },
+    "Christian B\u00f6k": {
+      "n": 207,
+      "mean_jaccard": 0.083,
+      "mean_s2": 0.9558,
+      "pct_stable": 0.0483
+    },
+    "Raymond Queneau": {
+      "n": 122,
+      "mean_jaccard": 0.0535,
+      "mean_s2": -0.6532,
+      "pct_stable": 0.041
+    },
+    "Jean Lescure": {
+      "n": 127,
+      "mean_jaccard": 0.0964,
+      "mean_s2": -0.1454,
+      "pct_stable": 0.0787
+    },
+    "Charles Bernstein": {
+      "n": 214,
+      "mean_jaccard": 0.0752,
+      "mean_s2": -0.6775,
+      "pct_stable": 0.0514
+    },
+    "Lorine Niedecker": {
+      "n": 165,
+      "mean_jaccard": 0.0898,
+      "mean_s2": 1.3236,
+      "pct_stable": 0.0667
+    },
+    "Du Fu": {
+      "n": 76,
+      "mean_jaccard": 0.0652,
+      "mean_s2": -0.3148,
+      "pct_stable": 0.0526
+    },
+    "Cui Hao": {
+      "n": 78,
+      "mean_jaccard": 0.0964,
+      "mean_s2": -0.3145,
+      "pct_stable": 0.0769
+    },
+    "Omar Khayyam (trans. FitzGerald, 1859)": {
+      "n": 339,
+      "mean_jaccard": 0.0798,
+      "mean_s2": -0.1173,
+      "pct_stable": 0.0678
+    },
+    "Anonymous (limerick tradition)": {
+      "n": 104,
+      "mean_jaccard": 0.0623,
+      "mean_s2": -1.186,
+      "pct_stable": 0.0481
+    },
+    "Caedmon (trans. anon.)": {
+      "n": 68,
+      "mean_jaccard": 0.0826,
+      "mean_s2": 0.203,
+      "pct_stable": 0.0441
+    },
+    "Anonymous (Old English, trans. anon.)": {
+      "n": 72,
+      "mean_jaccard": 0.0799,
+      "mean_s2": -0.1635,
+      "pct_stable": 0.0417
+    },
+    "Emma Lazarus": {
+      "n": 140,
+      "mean_jaccard": 0.084,
+      "mean_s2": -0.7974,
+      "pct_stable": 0.05
+    },
+    "Maya Angelou": {
+      "n": 83,
+      "mean_jaccard": 0.1031,
+      "mean_s2": -0.4194,
+      "pct_stable": 0.1325
+    },
+    "Charles Bukowski": {
+      "n": 77,
+      "mean_jaccard": 0.0363,
+      "mean_s2": -0.2823,
+      "pct_stable": 0.013
+    },
+    "Heather McHugh": {
+      "n": 208,
+      "mean_jaccard": 0.0795,
+      "mean_s2": -0.3615,
+      "pct_stable": 0.0577
+    },
+    "Anonymous": {
+      "n": 124,
+      "mean_jaccard": 0.0706,
+      "mean_s2": -0.5655,
+      "pct_stable": 0.0403
+    },
+    "Edward Lear": {
+      "n": 107,
+      "mean_jaccard": 0.0654,
+      "mean_s2": -0.2303,
+      "pct_stable": 0.0654
+    },
+    "Wilfred Owen": {
+      "n": 445,
+      "mean_jaccard": 0.0825,
+      "mean_s2": -0.3316,
+      "pct_stable": 0.0831
+    },
+    "Rupert Brooke": {
+      "n": 143,
+      "mean_jaccard": 0.1245,
+      "mean_s2": 0.1841,
+      "pct_stable": 0.1538
+    },
+    "Anonymous (trans. Hall)": {
+      "n": 242,
+      "mean_jaccard": 0.0911,
+      "mean_s2": -0.1759,
+      "pct_stable": 0.0868
+    },
+    "John Dryden": {
+      "n": 141,
+      "mean_jaccard": 0.0978,
+      "mean_s2": -0.0814,
+      "pct_stable": 0.078
+    },
+    "Samuel Johnson": {
+      "n": 148,
+      "mean_jaccard": 0.1003,
+      "mean_s2": -0.1229,
+      "pct_stable": 0.1014
+    },
+    "Joy Harjo": {
+      "n": 542,
+      "mean_jaccard": 0.051,
+      "mean_s2": -0.4899,
+      "pct_stable": 0.0369
+    },
+    "Derek Walcott": {
+      "n": 151,
+      "mean_jaccard": 0.0877,
+      "mean_s2": -0.7527,
+      "pct_stable": 0.0728
+    },
+    "Agha Shahid Ali": {
+      "n": 294,
+      "mean_jaccard": 0.0754,
+      "mean_s2": -0.2433,
+      "pct_stable": 0.0578
+    },
+    "Kamau Brathwaite": {
+      "n": 105,
+      "mean_jaccard": 0.0639,
+      "mean_s2": 1.2791,
+      "pct_stable": 0.0476
+    },
+    "Thomas Gray": {
+      "n": 168,
+      "mean_jaccard": 0.0928,
+      "mean_s2": -0.5376,
+      "pct_stable": 0.1131
+    },
+    "A.E. Housman": {
+      "n": 93,
+      "mean_jaccard": 0.1237,
+      "mean_s2": 0.165,
+      "pct_stable": 0.129
+    },
+    "Edmund Clerihew Bentley": {
+      "n": 55,
+      "mean_jaccard": 0.0741,
+      "mean_s2": 0.2834,
+      "pct_stable": 0.0909
+    },
+    "Synthetic (clerihew test case)": {
+      "n": 137,
+      "mean_jaccard": 0.0707,
+      "mean_s2": 1.065,
+      "pct_stable": 0.0438
+    },
+    "Synthetic (double dactyl test case)": {
+      "n": 203,
+      "mean_jaccard": 0.0864,
+      "mean_s2": -0.551,
+      "pct_stable": 0.0887
+    },
+    "Robinson Jeffers": {
+      "n": 155,
+      "mean_jaccard": 0.0903,
+      "mean_s2": -0.3891,
+      "pct_stable": 0.1032
+    },
+    "Anne Carson": {
+      "n": 62,
+      "mean_jaccard": 0.0803,
+      "mean_s2": -0.0156,
+      "pct_stable": 0.0323
+    },
+    "Algernon Charles Swinburne": {
+      "n": 660,
+      "mean_jaccard": 0.0965,
+      "mean_s2": -0.2876,
+      "pct_stable": 0.0788
+    },
+    "Anonymous (trans. E.V. Gordon)": {
+      "n": 192,
+      "mean_jaccard": 0.0977,
+      "mean_s2": -0.1756,
+      "pct_stable": 0.0677
+    },
+    "Arthur Symons": {
+      "n": 64,
+      "mean_jaccard": 0.0441,
+      "mean_s2": -0.7823,
+      "pct_stable": 0.0
+    },
+    "John McCrae": {
+      "n": 116,
+      "mean_jaccard": 0.1245,
+      "mean_s2": -0.1508,
+      "pct_stable": 0.1379
+    },
+    "Anonymous (KJV translation)": {
+      "n": 441,
+      "mean_jaccard": 0.0581,
+      "mean_s2": -0.2162,
+      "pct_stable": 0.0249
+    },
+    "Kenneth Koch": {
+      "n": 160,
+      "mean_jaccard": 0.0738,
+      "mean_s2": -0.3555,
+      "pct_stable": 0.1062
+    },
+    "Harryette Mullen": {
+      "n": 189,
+      "mean_jaccard": 0.1006,
+      "mean_s2": -0.0423,
+      "pct_stable": 0.1164
+    },
+    "Barrett Watten": {
+      "n": 106,
+      "mean_jaccard": 0.0843,
+      "mean_s2": -1.0323,
+      "pct_stable": 0.0283
+    },
+    "Wis\u0142awa Szymborska": {
+      "n": 294,
+      "mean_jaccard": 0.141,
+      "mean_s2": -0.6165,
+      "pct_stable": 0.1429
+    },
+    "Synthetic (scientific register test case)": {
+      "n": 308,
+      "mean_jaccard": 0.0906,
+      "mean_s2": -0.0252,
+      "pct_stable": 0.0779
+    },
+    "Sonia Sanchez": {
+      "n": 85,
+      "mean_jaccard": 0.0696,
+      "mean_s2": 0.0774,
+      "pct_stable": 0.0588
+    },
+    "Synthetic (OuLiPo N+7 test case)": {
+      "n": 145,
+      "mean_jaccard": 0.0856,
+      "mean_s2": -0.1766,
+      "pct_stable": 0.0552
+    },
+    "Synthetic (cliche_control test case)": {
+      "n": 144,
+      "mean_jaccard": 0.0448,
+      "mean_s2": -1.0887,
+      "pct_stable": 0.0347
+    },
+    "Synthetic (shadow-divergence test case)": {
+      "n": 158,
+      "mean_jaccard": 0.0456,
+      "mean_s2": -0.6249,
+      "pct_stable": 0.0316
+    },
+    "Found (legal boilerplate, public domain)": {
+      "n": 94,
+      "mean_jaccard": 0.0664,
+      "mean_s2": -0.6436,
+      "pct_stable": 0.0213
+    },
+    "Synthetic (shadow-poem meta-poem)": {
+      "n": 183,
+      "mean_jaccard": 0.0783,
+      "mean_s2": 0.0231,
+      "pct_stable": 0.071
+    },
+    "Barbara Guest": {
+      "n": 218,
+      "mean_jaccard": 0.0738,
+      "mean_s2": -0.3401,
+      "pct_stable": 0.055
+    },
+    "Ted Berrigan": {
+      "n": 232,
+      "mean_jaccard": 0.0805,
+      "mean_s2": -0.8349,
+      "pct_stable": 0.0733
+    },
+    "James Schuyler": {
+      "n": 117,
+      "mean_jaccard": 0.0907,
+      "mean_s2": -0.6798,
+      "pct_stable": 0.0769
+    },
+    "Anne Waldman": {
+      "n": 131,
+      "mean_jaccard": 0.0504,
+      "mean_s2": -0.4659,
+      "pct_stable": 0.0382
+    },
+    "Robert Creeley": {
+      "n": 109,
+      "mean_jaccard": 0.1583,
+      "mean_s2": 0.9501,
+      "pct_stable": 0.1101
+    },
+    "William Stafford": {
+      "n": 269,
+      "mean_jaccard": 0.0919,
+      "mean_s2": 0.2922,
+      "pct_stable": 0.1041
+    },
+    "C.K. Williams": {
+      "n": 295,
+      "mean_jaccard": 0.0766,
+      "mean_s2": -0.7047,
+      "pct_stable": 0.0508
+    },
+    "George Oppen": {
+      "n": 323,
+      "mean_jaccard": 0.095,
+      "mean_s2": -0.5799,
+      "pct_stable": 0.0867
+    },
+    "Galway Kinnell": {
+      "n": 202,
+      "mean_jaccard": 0.106,
+      "mean_s2": -0.0557,
+      "pct_stable": 0.0941
+    },
+    "Jack Gilbert": {
+      "n": 116,
+      "mean_jaccard": 0.083,
+      "mean_s2": -0.4143,
+      "pct_stable": 0.0603
+    },
+    "Henry Vaughan": {
+      "n": 131,
+      "mean_jaccard": 0.1075,
+      "mean_s2": -0.214,
+      "pct_stable": 0.0687
+    },
+    "Thomas Traherne": {
+      "n": 114,
+      "mean_jaccard": 0.1023,
+      "mean_s2": -0.2506,
+      "pct_stable": 0.0702
+    },
+    "Richard Crashaw": {
+      "n": 121,
+      "mean_jaccard": 0.086,
+      "mean_s2": -0.7411,
+      "pct_stable": 0.0909
+    },
+    "Francis Thompson": {
+      "n": 273,
+      "mean_jaccard": 0.1238,
+      "mean_s2": 0.8178,
+      "pct_stable": 0.1392
+    },
+    "Michael Drayton": {
+      "n": 147,
+      "mean_jaccard": 0.1236,
+      "mean_s2": -0.3663,
+      "pct_stable": 0.1701
+    },
+    "Anne Bradstreet": {
+      "n": 125,
+      "mean_jaccard": 0.1035,
+      "mean_s2": -0.1219,
+      "pct_stable": 0.104
+    },
+    "Thomas Campion": {
+      "n": 118,
+      "mean_jaccard": 0.101,
+      "mean_s2": 0.408,
+      "pct_stable": 0.0847
+    },
+    "Samuel Daniel": {
+      "n": 144,
+      "mean_jaccard": 0.0844,
+      "mean_s2": -0.5961,
+      "pct_stable": 0.0694
+    },
+    "Synthetic (procedural test case)": {
+      "n": 248,
+      "mean_jaccard": 0.0589,
+      "mean_s2": -0.3181,
+      "pct_stable": 0.0242
+    },
+    "Hesiod (trans. Mair, 1908)": {
+      "n": 115,
+      "mean_jaccard": 0.0863,
+      "mean_s2": -0.0643,
+      "pct_stable": 0.113
+    },
+    "Benjamin Franklin": {
+      "n": 73,
+      "mean_jaccard": 0.0899,
+      "mean_s2": -0.1001,
+      "pct_stable": 0.0548
+    },
+    "Horace (trans. Howes, 1849)": {
+      "n": 138,
+      "mean_jaccard": 0.0958,
+      "mean_s2": -0.2469,
+      "pct_stable": 0.087
+    },
+    "Synthetic (acrostic constraint test)": {
+      "n": 69,
+      "mean_jaccard": 0.067,
+      "mean_s2": -0.7035,
+      "pct_stable": 0.0145
+    },
+    "Synthetic (stanza-break \u03b1 inheritance test)": {
+      "n": 233,
+      "mean_jaccard": 0.0468,
+      "mean_s2": -0.1089,
+      "pct_stable": 0.0215
+    },
+    "Terrance Hayes": {
+      "n": 145,
+      "mean_jaccard": 0.0397,
+      "mean_s2": -0.7852,
+      "pct_stable": 0.0414
+    },
+    "Charles Reznikoff": {
+      "n": 172,
+      "mean_jaccard": 0.0632,
+      "mean_s2": -0.4458,
+      "pct_stable": 0.0465
+    },
+    "Louis Zukofsky": {
+      "n": 156,
+      "mean_jaccard": 0.0864,
+      "mean_s2": 0.0061,
+      "pct_stable": 0.0641
+    }
+  },
+  "most_volatile_poems": [
+    {
+      "title": "In a Station of the Metro",
+      "author": "Ezra Pound",
+      "era": "modernist",
+      "n_tokens": 18,
+      "avg_jaccard": 0.0065,
+      "std_jaccard": 0.0269,
+      "avg_s2": -1.1379
+    },
+    {
+      "title": "silencio",
+      "author": "Eugen Gomringer",
+      "era": "concrete",
+      "n_tokens": 43,
+      "avg_jaccard": 0.0185,
+      "std_jaccard": 0.0297,
+      "avg_s2": -0.6307
+    },
+    {
+      "title": "She Had Some Horses",
+      "author": "Joy Harjo",
+      "era": "postcolonial",
+      "n_tokens": 113,
+      "avg_jaccard": 0.0232,
+      "std_jaccard": 0.069,
+      "avg_s2": -0.5424
+    },
+    {
+      "title": "James Joyce",
+      "author": "Synthetic (clerihew test case)",
+      "era": "clerihew",
+      "n_tokens": 20,
+      "avg_jaccard": 0.0262,
+      "std_jaccard": 0.0466,
+      "avg_s2": 0.6862
+    },
+    {
+      "title": "Free Union (excerpt)",
+      "author": "Andr\u00e9 Breton",
+      "era": "surrealist",
+      "n_tokens": 53,
+      "avg_jaccard": 0.0299,
+      "std_jaccard": 0.0598,
+      "avg_s2": -0.5148
+    },
+    {
+      "title": "Instagram Poem 3 (love/loss)",
+      "author": "Synthetic (Instagram poetry style)",
+      "era": "social_media_poetry",
+      "n_tokens": 16,
+      "avg_jaccard": 0.0313,
+      "std_jaccard": 0.0639,
+      "avg_s2": -0.9162
+    },
+    {
+      "title": "The Colonel (excerpt)",
+      "author": "Carolyn Forch\u00e9",
+      "era": "prose_poetry",
+      "n_tokens": 64,
+      "avg_jaccard": 0.0316,
+      "std_jaccard": 0.0591,
+      "avg_s2": -0.297
+    },
+    {
+      "title": "Winter Forest (Shiki, translated)",
+      "author": "Masaoka Shiki",
+      "era": "haiku",
+      "n_tokens": 16,
+      "avg_jaccard": 0.0322,
+      "std_jaccard": 0.0588,
+      "avg_s2": 0.4909
+    },
+    {
+      "title": "Simple narrative prose",
+      "author": "Control",
+      "era": "control",
+      "n_tokens": 36,
+      "avg_jaccard": 0.0359,
+      "std_jaccard": 0.0794,
+      "avg_s2": -2.0885
+    },
+    {
+      "title": "Bluebird",
+      "author": "Charles Bukowski",
+      "era": "spoken_word",
+      "n_tokens": 78,
+      "avg_jaccard": 0.0363,
+      "std_jaccard": 0.0693,
+      "avg_s2": -0.3439
+    }
+  ],
+  "most_stable_poems": [
+    {
+      "title": "Before the Mirror (stanzas 1-3)",
+      "author": "Algernon Charles Swinburne",
+      "era": "ekphrastic",
+      "n_tokens": 136,
+      "avg_jaccard": 0.1321,
+      "std_jaccard": 0.1374,
+      "avg_s2": 0.1238
+    },
+    {
+      "title": "I heard a Fly buzz \u2014 when I died",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "n_tokens": 116,
+      "avg_jaccard": 0.1346,
+      "std_jaccard": 0.1572,
+      "avg_s2": 0.5662
+    },
+    {
+      "title": "Pi (Szymborska)",
+      "author": "Wis\u0142awa Szymborska",
+      "era": "contemporary",
+      "n_tokens": 295,
+      "avg_jaccard": 0.141,
+      "std_jaccard": 0.1944,
+      "avg_s2": -0.5967
+    },
+    {
+      "title": "For Spacious Skies",
+      "author": "Emmett Williams",
+      "era": "concrete",
+      "n_tokens": 41,
+      "avg_jaccard": 0.1416,
+      "std_jaccard": 0.1474,
+      "avg_s2": 0.4351
+    },
+    {
+      "title": "Fog",
+      "author": "Carl Sandburg",
+      "era": "modernist",
+      "n_tokens": 19,
+      "avg_jaccard": 0.149,
+      "std_jaccard": 0.1311,
+      "avg_s2": 1.5326
+    },
+    {
+      "title": "Diamond Concrete Poem (shape poem)",
+      "author": "Synthetic (concrete poetry test)",
+      "era": "concrete",
+      "n_tokens": 15,
+      "avg_jaccard": 0.1511,
+      "std_jaccard": 0.1329,
+      "avg_s2": 1.9013
+    },
+    {
+      "title": "I Know a Man",
+      "author": "Robert Creeley",
+      "era": "beat",
+      "n_tokens": 62,
+      "avg_jaccard": 0.154,
+      "std_jaccard": 0.1551,
+      "avg_s2": 0.6849
+    },
+    {
+      "title": "Susie Asado",
+      "author": "Gertrude Stein",
+      "era": "modernist",
+      "n_tokens": 77,
+      "avg_jaccard": 0.1612,
+      "std_jaccard": 0.2159,
+      "avg_s2": -0.6081
+    },
+    {
+      "title": "The Language",
+      "author": "Robert Creeley",
+      "era": "beat",
+      "n_tokens": 49,
+      "avg_jaccard": 0.1636,
+      "std_jaccard": 0.1493,
+      "avg_s2": 1.2367
+    },
+    {
+      "title": "If I Told Him: A Completed Portrait of Picasso (excerpt)",
+      "author": "Gertrude Stein",
+      "era": "oulipo",
+      "n_tokens": 189,
+      "avg_jaccard": 0.1802,
+      "std_jaccard": 0.1722,
+      "avg_s2": 0.2184
+    }
+  ]
+}
