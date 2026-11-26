@@ -10199,6 +10199,124 @@ In the cooling weather,
 With clasping arms and cautioning lips,
 With tingling cheeks and finger tips.""",
     },
+
+    # ─── NEW 2026-11-26: ENTROPY VARIANCE HYPOTHESIS TEST POEMS ────────────────
+    # Added to test whether high-repetition, formulaic, or maximally uncertain
+    # poems show different within-poem entropy variance profiles.
+
+    {
+        "title": "The Bells (stanza 1)",
+        "author": "Edgar Allan Poe",
+        "year": 1849,
+        "era": "19th_century",
+        "text": """Hear the sledges with the bells—
+Silver bells!
+What a world of merriment their melody foretells!
+How they tinkle, tinkle, tinkle,
+   In the icy air of night!
+While the stars that oversprinkle
+All the heavens, seem to twinkle
+   With a crystalline delight;
+Keeping time, time, time,
+In a sort of Runic rhyme,
+To the tintinnabulation that so musically wells
+   From the bells, bells, bells, bells,
+      Bells, bells, bells—
+From the jingling and the tinkling of the bells.""",
+    },
+    {
+        "title": "Up-Hill",
+        "author": "Christina Rossetti",
+        "year": 1861,
+        "era": "victorian",
+        "text": """Does the road wind up-hill all the way?
+   Yes, to the very end.
+Will the day's journey take the whole long day?
+   From morn to night, my friend.
+
+But is there for the night a resting-place?
+   A roof for when the slow dark hours begin.
+May not the darkness hide it from my face?
+   You cannot miss that inn.
+
+Shall I meet other wayfarers at night?
+   Those who have gone before.
+Then must I knock, or call when just in sight?
+   They will not keep you standing at that door.
+
+Shall I find comfort, travel-sore and weak?
+   Of labour you shall find the sum.
+Will there be beds for me and all who seek?
+   Yea, beds for all who come.""",
+    },
+    {
+        "title": "The Creation (excerpt)",
+        "author": "James Weldon Johnson",
+        "year": 1920,
+        "era": "harlem_renaissance",
+        "text": """And God stepped out on space,
+And he looked around and said:
+I'm lonely—
+I'll make me a world.
+
+And far as the eye of God could see
+Darkness covered everything,
+Blacker than a hundred midnights
+Down in a cypress swamp.
+
+Then God smiled,
+And the light broke,
+And the darkness rolled up on one side,
+And the light stood shining on the other,
+And God said: That's good!
+
+Then God reached out and took a handful of light
+And rolled it up in a great ball,
+And flung it out into space—
+And that was the sun.
+And God said: That's good!""",
+    },
+    {
+        "title": "Fragment 31 (Wharton translation, 1885)",
+        "author": "Sappho",
+        "year": -600,
+        "era": "ancient",
+        "text": """Peer of the gods seems to me that man
+Who sits close by thee and sweetly hears
+Thee talking and laughing softly,
+Which rouses the heart in my breast to flutter.
+
+For when I look upon thee a moment,
+Then there is no longer any voice in my mouth,
+But my tongue is broken, and straightway
+A subtle fire has crept under my skin,
+
+My eyes see nothing, my ears hum with noise,
+A cold sweat breaks over me, trembling seizes me,
+I am paler than grass;
+I seem to lack but little of death.""",
+    },
+    {
+        "title": "The Hound of Heaven (opening)",
+        "author": "Francis Thompson",
+        "year": 1890,
+        "era": "victorian",
+        "text": """I fled Him, down the nights and down the days;
+   I fled Him, down the arches of the years;
+I fled Him, down the labyrinthine ways
+   Of my own mind; and in the mist of tears
+I hid from Him, and under running laughter.
+      Up vistaed hopes I sped;
+      And shot, precipitated,
+Adown Titanic glooms of chasmèd fears,
+   From those strong Feet that followed, followed after.
+      But with unhurrying chase,
+      And unperturbèd pace,
+Deliberate speed, majestic instancy,
+   They beat—and a Voice beat
+   More instant than the Feet—
+"All things betray thee, who betrayest Me." """,
+    },
 ]
 
 # Quick stats

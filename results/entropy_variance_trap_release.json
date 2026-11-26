@@ -1,0 +1,1016 @@
+{
+  "correlations": {
+    "r_stdH_s2": -0.07014470021911762,
+    "r_meanH_s2": 0.10317411749527458,
+    "r_cv_s2": -0.08663365759768098
+  },
+  "corpus_medians": {
+    "s2": -0.415,
+    "std_H": 2.547,
+    "mean_H": 6.4559999999999995
+  },
+  "quadrant_counts": {
+    "Erratic Conformist (low S\u2082, variable H)": 117,
+    "Consistent Ambush (high S\u2082, stable H)": 118,
+    "Metronomic (low S\u2082, stable H)": 106,
+    "Trap-Release (high S\u2082, variable H)": 105
+  },
+  "era_stats": {
+    "romantic": {
+      "n": 23,
+      "mean_s2": -0.48569565217391303,
+      "mean_stdH": 2.7127391304347825,
+      "mean_coeff_var": 0.41304347826086957,
+      "trap_ratio": 0.49243478260869566
+    },
+    "19th_century": {
+      "n": 19,
+      "mean_s2": -0.2719473684210526,
+      "mean_stdH": 2.5786315789473684,
+      "mean_coeff_var": 0.39410526315789474,
+      "trap_ratio": 0.5053157894736843
+    },
+    "modernist": {
+      "n": 30,
+      "mean_s2": -0.4629666666666667,
+      "mean_stdH": 2.6633,
+      "mean_coeff_var": 0.41173333333333334,
+      "trap_ratio": 0.4637
+    },
+    "beat": {
+      "n": 8,
+      "mean_s2": 0.19187500000000002,
+      "mean_stdH": 2.60525,
+      "mean_coeff_var": 0.63325,
+      "trap_ratio": 0.44025
+    },
+    "confessional": {
+      "n": 6,
+      "mean_s2": -0.30033333333333334,
+      "mean_stdH": 2.5101666666666667,
+      "mean_coeff_var": 0.36966666666666664,
+      "trap_ratio": 0.5118333333333334
+    },
+    "mid_century": {
+      "n": 6,
+      "mean_s2": -0.2853333333333333,
+      "mean_stdH": 2.5591666666666666,
+      "mean_coeff_var": 0.4103333333333333,
+      "trap_ratio": 0.436
+    },
+    "new_york_school": {
+      "n": 26,
+      "mean_s2": -0.5965384615384616,
+      "mean_stdH": 2.431423076923077,
+      "mean_coeff_var": 0.38869230769230767,
+      "trap_ratio": 0.4798076923076923
+    },
+    "language": {
+      "n": 6,
+      "mean_s2": -0.5181666666666667,
+      "mean_stdH": 2.447166666666667,
+      "mean_coeff_var": 0.39166666666666666,
+      "trap_ratio": 0.4926666666666667
+    },
+    "contemporary": {
+      "n": 21,
+      "mean_s2": -0.392,
+      "mean_stdH": 2.536,
+      "mean_coeff_var": 0.4391904761904762,
+      "trap_ratio": 0.4489047619047619
+    },
+    "harlem_renaissance": {
+      "n": 8,
+      "mean_s2": -0.495,
+      "mean_stdH": 2.697375,
+      "mean_coeff_var": 0.42525,
+      "trap_ratio": 0.437
+    },
+    "oulipo": {
+      "n": 13,
+      "mean_s2": -0.2521538461538462,
+      "mean_stdH": 2.595076923076923,
+      "mean_coeff_var": 0.4256923076923077,
+      "trap_ratio": 0.48323076923076924
+    },
+    "surrealist": {
+      "n": 8,
+      "mean_s2": -0.609375,
+      "mean_stdH": 2.599875,
+      "mean_coeff_var": 0.430875,
+      "trap_ratio": 0.424375
+    },
+    "german_symbolist": {
+      "n": 3,
+      "mean_s2": 0.39466666666666667,
+      "mean_stdH": 2.195,
+      "mean_coeff_var": 0.3303333333333333,
+      "trap_ratio": 0.48966666666666664
+    },
+    "german_expressionist": {
+      "n": 6,
+      "mean_s2": 0.09933333333333332,
+      "mean_stdH": 2.4691666666666667,
+      "mean_coeff_var": 0.384,
+      "trap_ratio": 0.5275
+    },
+    "german_modernist": {
+      "n": 2,
+      "mean_s2": 0.7735,
+      "mean_stdH": 2.356,
+      "mean_coeff_var": 0.387,
+      "trap_ratio": 0.35
+    },
+    "victorian": {
+      "n": 34,
+      "mean_s2": -0.25979411764705884,
+      "mean_stdH": 2.621058823529412,
+      "mean_coeff_var": 0.4017941176470588,
+      "trap_ratio": 0.47561764705882353
+    },
+    "haiku": {
+      "n": 12,
+      "mean_s2": -0.11683333333333334,
+      "mean_stdH": 2.82475,
+      "mean_coeff_var": 0.4031666666666667,
+      "trap_ratio": 0.5194166666666666
+    },
+    "ancient": {
+      "n": 4,
+      "mean_s2": -0.31075,
+      "mean_stdH": 2.4547499999999998,
+      "mean_coeff_var": 0.372,
+      "trap_ratio": 0.46675
+    },
+    "prose_poetry": {
+      "n": 12,
+      "mean_s2": -0.46958333333333335,
+      "mean_stdH": 2.31075,
+      "mean_coeff_var": 0.41841666666666666,
+      "trap_ratio": 0.49975
+    },
+    "ballad": {
+      "n": 6,
+      "mean_s2": -0.38766666666666666,
+      "mean_stdH": 2.798166666666667,
+      "mean_coeff_var": 0.5058333333333334,
+      "trap_ratio": 0.435
+    },
+    "song_lyrics": {
+      "n": 3,
+      "mean_s2": -0.644,
+      "mean_stdH": 2.919,
+      "mean_coeff_var": 0.6993333333333333,
+      "trap_ratio": 0.3686666666666667
+    },
+    "metaphysical": {
+      "n": 7,
+      "mean_s2": -0.5428571428571428,
+      "mean_stdH": 2.3098571428571426,
+      "mean_coeff_var": 0.341,
+      "trap_ratio": 0.5027142857142857
+    },
+    "early_modern": {
+      "n": 11,
+      "mean_s2": -0.367,
+      "mean_stdH": 2.234909090909091,
+      "mean_coeff_var": 0.3337272727272727,
+      "trap_ratio": 0.504
+    },
+    "spoken_word": {
+      "n": 3,
+      "mean_s2": -0.5843333333333334,
+      "mean_stdH": 2.3120000000000003,
+      "mean_coeff_var": 0.417,
+      "trap_ratio": 0.3903333333333333
+    },
+    "found_poetry": {
+      "n": 9,
+      "mean_s2": -0.6146666666666667,
+      "mean_stdH": 2.404333333333333,
+      "mean_coeff_var": 0.5264444444444445,
+      "trap_ratio": 0.44044444444444447
+    },
+    "fixed_form": {
+      "n": 8,
+      "mean_s2": -0.576,
+      "mean_stdH": 2.877,
+      "mean_coeff_var": 0.46950000000000003,
+      "trap_ratio": 0.4905
+    },
+    "cliche_control": {
+      "n": 4,
+      "mean_s2": -0.93025,
+      "mean_stdH": 2.53775,
+      "mean_coeff_var": 0.468,
+      "trap_ratio": 0.5155000000000001
+    },
+    "18th_century": {
+      "n": 8,
+      "mean_s2": -0.25475,
+      "mean_stdH": 2.6106249999999998,
+      "mean_coeff_var": 0.40375,
+      "trap_ratio": 0.509875
+    },
+    "biblical": {
+      "n": 8,
+      "mean_s2": -0.508125,
+      "mean_stdH": 2.4145,
+      "mean_coeff_var": 0.521875,
+      "trap_ratio": 0.438
+    },
+    "concrete": {
+      "n": 5,
+      "mean_s2": -0.6518,
+      "mean_stdH": 2.6814,
+      "mean_coeff_var": 0.6934,
+      "trap_ratio": 0.4096
+    },
+    "latin_american": {
+      "n": 4,
+      "mean_s2": -0.5155,
+      "mean_stdH": 2.4295,
+      "mean_coeff_var": 0.412,
+      "trap_ratio": 0.522
+    },
+    "black_arts": {
+      "n": 2,
+      "mean_s2": -0.39849999999999997,
+      "mean_stdH": 2.3225,
+      "mean_coeff_var": 0.451,
+      "trap_ratio": 0.5325
+    },
+    "imagist": {
+      "n": 5,
+      "mean_s2": -0.4458,
+      "mean_stdH": 2.4068,
+      "mean_coeff_var": 0.3558,
+      "trap_ratio": 0.4434
+    },
+    "parody_original": {
+      "n": 3,
+      "mean_s2": -0.5476666666666666,
+      "mean_stdH": 2.5726666666666667,
+      "mean_coeff_var": 0.45066666666666666,
+      "trap_ratio": 0.42100000000000004
+    },
+    "parody": {
+      "n": 4,
+      "mean_s2": -0.39625,
+      "mean_stdH": 2.53025,
+      "mean_coeff_var": 0.3845,
+      "trap_ratio": 0.51675
+    },
+    "classical_chinese": {
+      "n": 4,
+      "mean_s2": -0.5935,
+      "mean_stdH": 2.362,
+      "mean_coeff_var": 0.359,
+      "trap_ratio": 0.62475
+    },
+    "persian": {
+      "n": 2,
+      "mean_s2": -0.2355,
+      "mean_stdH": 2.7295,
+      "mean_coeff_var": 0.401,
+      "trap_ratio": 0.48450000000000004
+    },
+    "japanese_classical": {
+      "n": 2,
+      "mean_s2": -0.705,
+      "mean_stdH": 2.3405,
+      "mean_coeff_var": 0.386,
+      "trap_ratio": 0.4165
+    },
+    "limerick": {
+      "n": 10,
+      "mean_s2": -0.6928,
+      "mean_stdH": 2.3533999999999997,
+      "mean_coeff_var": 0.38380000000000003,
+      "trap_ratio": 0.3958
+    },
+    "old_english": {
+      "n": 5,
+      "mean_s2": -0.2882,
+      "mean_stdH": 2.4182,
+      "mean_coeff_var": 0.372,
+      "trap_ratio": 0.4618
+    },
+    "protest_political": {
+      "n": 2,
+      "mean_s2": -0.73,
+      "mean_stdH": 2.476,
+      "mean_coeff_var": 0.373,
+      "trap_ratio": 0.5585
+    },
+    "ghazal": {
+      "n": 3,
+      "mean_s2": -0.30333333333333334,
+      "mean_stdH": 2.4543333333333335,
+      "mean_coeff_var": 0.4136666666666667,
+      "trap_ratio": 0.44566666666666666
+    },
+    "war_poetry": {
+      "n": 3,
+      "mean_s2": -0.309,
+      "mean_stdH": 2.5313333333333334,
+      "mean_coeff_var": 0.3656666666666667,
+      "trap_ratio": 0.5553333333333333
+    },
+    "postcolonial": {
+      "n": 6,
+      "mean_s2": -0.4946666666666667,
+      "mean_stdH": 2.773833333333333,
+      "mean_coeff_var": 0.5241666666666667,
+      "trap_ratio": 0.39666666666666667
+    },
+    "dramatic_monologue": {
+      "n": 12,
+      "mean_s2": -0.44208333333333333,
+      "mean_stdH": 2.4495,
+      "mean_coeff_var": 0.37275,
+      "trap_ratio": 0.5219166666666667
+    },
+    "elegy": {
+      "n": 8,
+      "mean_s2": -0.42825,
+      "mean_stdH": 2.566,
+      "mean_coeff_var": 0.372375,
+      "trap_ratio": 0.55825
+    },
+    "clerihew": {
+      "n": 10,
+      "mean_s2": 0.5522,
+      "mean_stdH": 2.592,
+      "mean_coeff_var": 0.3627,
+      "trap_ratio": 0.6106
+    },
+    "double_dactyl": {
+      "n": 5,
+      "mean_s2": -0.9496,
+      "mean_stdH": 2.7292,
+      "mean_coeff_var": 0.3836,
+      "trap_ratio": 0.3216
+    },
+    "ekphrastic": {
+      "n": 8,
+      "mean_s2": -0.392125,
+      "mean_stdH": 2.419,
+      "mean_coeff_var": 0.3505,
+      "trap_ratio": 0.50275
+    },
+    "villanelle": {
+      "n": 3,
+      "mean_s2": -0.5683333333333334,
+      "mean_stdH": 3.328666666666667,
+      "mean_coeff_var": 0.644,
+      "trap_ratio": 0.363
+    },
+    "pantoum": {
+      "n": 2,
+      "mean_s2": -0.4375,
+      "mean_stdH": 2.696,
+      "mean_coeff_var": 0.543,
+      "trap_ratio": 0.4165
+    },
+    "triolet": {
+      "n": 2,
+      "mean_s2": -0.7404999999999999,
+      "mean_stdH": 2.9725,
+      "mean_coeff_var": 0.752,
+      "trap_ratio": 0.299
+    },
+    "nonsense": {
+      "n": 2,
+      "mean_s2": -0.6815,
+      "mean_stdH": 3.132,
+      "mean_coeff_var": 0.512,
+      "trap_ratio": 0.435
+    },
+    "procedural": {
+      "n": 8,
+      "mean_s2": -0.5425,
+      "mean_stdH": 2.699,
+      "mean_coeff_var": 0.46325,
+      "trap_ratio": 0.48275
+    },
+    "social_media_poetry": {
+      "n": 2,
+      "mean_s2": -1.0745,
+      "mean_stdH": 2.9924999999999997,
+      "mean_coeff_var": 0.4435,
+      "trap_ratio": 0.25
+    },
+    "objectivist": {
+      "n": 6,
+      "mean_s2": -0.5866666666666667,
+      "mean_stdH": 2.932166666666667,
+      "mean_coeff_var": 0.5471666666666667,
+      "trap_ratio": 0.4171666666666667
+    }
+  },
+  "top_trap_poems": [
+    {
+      "title": "Deer Park (literal trans.)",
+      "author": "Wang Wei",
+      "era": "classical_chinese",
+      "n_tokens": 32,
+      "mean_H": 7.301,
+      "std_H": 2.539,
+      "coeff_var_H": 0.348,
+      "mean_s2": -0.986,
+      "median_H": 7.644,
+      "n_high_s2": 7,
+      "trap_ratio": 1.0,
+      "trap_count": 6,
+      "fog_count": 0
+    },
+    {
+      "title": "In After Days (rondeau)",
+      "author": "Austin Dobson",
+      "era": "fixed_form",
+      "n_tokens": 74,
+      "mean_H": 7.316,
+      "std_H": 2.548,
+      "coeff_var_H": 0.348,
+      "mean_s2": -0.7,
+      "median_H": 7.689,
+      "n_high_s2": 15,
+      "trap_ratio": 0.8,
+      "trap_count": 12,
+      "fog_count": 3
+    },
+    {
+      "title": "Ode to the West Wind (stanza 1)",
+      "author": "Percy Bysshe Shelley",
+      "era": "romantic",
+      "n_tokens": 167,
+      "mean_H": 7.031,
+      "std_H": 2.8,
+      "coeff_var_H": 0.398,
+      "mean_s2": -0.373,
+      "median_H": 7.488,
+      "n_high_s2": 37,
+      "trap_ratio": 0.75,
+      "trap_count": 27,
+      "fog_count": 9
+    },
+    {
+      "title": "Nikola Tesla",
+      "author": "Synthetic (clerihew test case)",
+      "era": "clerihew",
+      "n_tokens": 22,
+      "mean_H": 7.146,
+      "std_H": 2.869,
+      "coeff_var_H": 0.402,
+      "mean_s2": 1.891,
+      "median_H": 7.341,
+      "n_high_s2": 8,
+      "trap_ratio": 0.75,
+      "trap_count": 6,
+      "fog_count": 2
+    },
+    {
+      "title": "Oscar Wilde",
+      "author": "Edmund Clerihew Bentley",
+      "era": "clerihew",
+      "n_tokens": 20,
+      "mean_H": 7.704,
+      "std_H": 2.564,
+      "coeff_var_H": 0.333,
+      "mean_s2": 0.57,
+      "median_H": 8.078,
+      "n_high_s2": 8,
+      "trap_ratio": 0.714,
+      "trap_count": 5,
+      "fog_count": 2
+    },
+    {
+      "title": "Isaac Newton",
+      "author": "Synthetic (clerihew test case)",
+      "era": "clerihew",
+      "n_tokens": 18,
+      "mean_H": 7.764,
+      "std_H": 2.692,
+      "coeff_var_H": 0.347,
+      "mean_s2": 1.114,
+      "median_H": 7.987,
+      "n_high_s2": 7,
+      "trap_ratio": 0.714,
+      "trap_count": 5,
+      "fog_count": 2
+    },
+    {
+      "title": "Howl (opening)",
+      "author": "Allen Ginsberg",
+      "era": "beat",
+      "n_tokens": 53,
+      "mean_H": 6.939,
+      "std_H": 2.455,
+      "coeff_var_H": 0.354,
+      "mean_s2": 0.953,
+      "median_H": 6.991,
+      "n_high_s2": 17,
+      "trap_ratio": 0.706,
+      "trap_count": 12,
+      "fog_count": 5
+    },
+    {
+      "title": "Self-Portrait in a Convex Mirror (middle passage)",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "n_tokens": 81,
+      "mean_H": 6.992,
+      "std_H": 2.548,
+      "coeff_var_H": 0.364,
+      "mean_s2": -0.458,
+      "median_H": 7.003,
+      "n_high_s2": 16,
+      "trap_ratio": 0.688,
+      "trap_count": 11,
+      "fog_count": 5
+    },
+    {
+      "title": "Parachutes, My Love, Could Carry Us Higher",
+      "author": "Barbara Guest",
+      "era": "new_york_school",
+      "n_tokens": 152,
+      "mean_H": 6.053,
+      "std_H": 2.331,
+      "coeff_var_H": 0.385,
+      "mean_s2": -0.463,
+      "median_H": 6.363,
+      "n_high_s2": 31,
+      "trap_ratio": 0.677,
+      "trap_count": 21,
+      "fog_count": 10
+    },
+    {
+      "title": "The Waste Land (opening)",
+      "author": "T.S. Eliot",
+      "era": "modernist",
+      "n_tokens": 57,
+      "mean_H": 7.027,
+      "std_H": 2.797,
+      "coeff_var_H": 0.398,
+      "mean_s2": -0.262,
+      "median_H": 7.757,
+      "n_high_s2": 12,
+      "trap_ratio": 0.667,
+      "trap_count": 8,
+      "fog_count": 4
+    },
+    {
+      "title": "Yesterday (prose poem)",
+      "author": "W.S. Merwin",
+      "era": "prose_poetry",
+      "n_tokens": 60,
+      "mean_H": 5.461,
+      "std_H": 1.901,
+      "coeff_var_H": 0.348,
+      "mean_s2": -1.026,
+      "median_H": 5.305,
+      "n_high_s2": 9,
+      "trap_ratio": 0.667,
+      "trap_count": 6,
+      "fog_count": 3
+    },
+    {
+      "title": "There Was an Old Man of Nantucket",
+      "author": "Anonymous (limerick tradition)",
+      "era": "limerick",
+      "n_tokens": 45,
+      "mean_H": 6.314,
+      "std_H": 2.296,
+      "coeff_var_H": 0.364,
+      "mean_s2": -1.218,
+      "median_H": 6.498,
+      "n_high_s2": 6,
+      "trap_ratio": 0.667,
+      "trap_count": 4,
+      "fog_count": 2
+    },
+    {
+      "title": "James Joyce",
+      "author": "Synthetic (clerihew test case)",
+      "era": "clerihew",
+      "n_tokens": 23,
+      "mean_H": 7.026,
+      "std_H": 2.852,
+      "coeff_var_H": 0.406,
+      "mean_s2": 0.1,
+      "median_H": 7.461,
+      "n_high_s2": 7,
+      "trap_ratio": 0.667,
+      "trap_count": 4,
+      "fog_count": 2
+    },
+    {
+      "title": "To an Athlete Dying Young",
+      "author": "A.E. Housman",
+      "era": "elegy",
+      "n_tokens": 102,
+      "mean_H": 6.766,
+      "std_H": 2.478,
+      "coeff_var_H": 0.366,
+      "mean_s2": 0.058,
+      "median_H": 7.129,
+      "n_high_s2": 29,
+      "trap_ratio": 0.655,
+      "trap_count": 19,
+      "fog_count": 10
+    },
+    {
+      "title": "The Lipogram: A Sentence Without the Letter E",
+      "author": "Georges Perec",
+      "era": "oulipo",
+      "n_tokens": 114,
+      "mean_H": 5.764,
+      "std_H": 2.307,
+      "coeff_var_H": 0.4,
+      "mean_s2": -0.597,
+      "median_H": 5.923,
+      "n_high_s2": 24,
+      "trap_ratio": 0.652,
+      "trap_count": 15,
+      "fog_count": 8
+    },
+    {
+      "title": "I heard a Fly buzz \u2014 when I died",
+      "author": "Emily Dickinson",
+      "era": "19th_century",
+      "n_tokens": 133,
+      "mean_H": 6.765,
+      "std_H": 2.241,
+      "coeff_var_H": 0.331,
+      "mean_s2": 0.137,
+      "median_H": 6.841,
+      "n_high_s2": 37,
+      "trap_ratio": 0.649,
+      "trap_count": 24,
+      "fog_count": 13
+    },
+    {
+      "title": "Walking Around",
+      "author": "Pablo Neruda",
+      "era": "surrealist",
+      "n_tokens": 195,
+      "mean_H": 5.353,
+      "std_H": 2.784,
+      "coeff_var_H": 0.52,
+      "mean_s2": -0.132,
+      "median_H": 5.142,
+      "n_high_s2": 48,
+      "trap_ratio": 0.646,
+      "trap_count": 31,
+      "fog_count": 17
+    },
+    {
+      "title": "A Blessing in Disguise",
+      "author": "John Ashbery",
+      "era": "new_york_school",
+      "n_tokens": 75,
+      "mean_H": 7.106,
+      "std_H": 2.498,
+      "coeff_var_H": 0.352,
+      "mean_s2": -1.263,
+      "median_H": 7.312,
+      "n_high_s2": 14,
+      "trap_ratio": 0.643,
+      "trap_count": 9,
+      "fog_count": 5
+    },
+    {
+      "title": "N+7: Wandered Lonely (OuLiPo variant)",
+      "author": "Synthetic (OuLiPo N+7 test case)",
+      "era": "oulipo",
+      "n_tokens": 156,
+      "mean_H": 6.734,
+      "std_H": 2.504,
+      "coeff_var_H": 0.372,
+      "mean_s2": -0.2,
+      "median_H": 6.708,
+      "n_high_s2": 40,
+      "trap_ratio": 0.641,
+      "trap_count": 25,
+      "fog_count": 14
+    },
+    {
+      "title": "Cooking Instructions (Found Poem from generic recipe prose)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "n_tokens": 131,
+      "mean_H": 3.99,
+      "std_H": 2.121,
+      "coeff_var_H": 0.532,
+      "mean_s2": -0.782,
+      "median_H": 3.651,
+      "n_high_s2": 12,
+      "trap_ratio": 0.636,
+      "trap_count": 7,
+      "fog_count": 4
+    }
+  ],
+  "top_fog_poems": [
+    {
+      "title": "Departure",
+      "author": "Pierre Reverdy",
+      "era": "surrealist",
+      "n_tokens": 61,
+      "mean_H": 6.782,
+      "std_H": 2.287,
+      "coeff_var_H": 0.337,
+      "mean_s2": -1.581,
+      "median_H": 6.693,
+      "n_high_s2": 6,
+      "trap_ratio": 0.0,
+      "trap_count": 0,
+      "fog_count": 6
+    },
+    {
+      "title": "Emily Dickinson (Double Dactyl)",
+      "author": "Synthetic (double dactyl test case)",
+      "era": "double_dactyl",
+      "n_tokens": 51,
+      "mean_H": 6.902,
+      "std_H": 2.517,
+      "coeff_var_H": 0.365,
+      "mean_s2": -1.174,
+      "median_H": 6.726,
+      "n_high_s2": 9,
+      "trap_ratio": 0.125,
+      "trap_count": 1,
+      "fog_count": 7
+    },
+    {
+      "title": "A Kiss",
+      "author": "Austin Dobson",
+      "era": "triolet",
+      "n_tokens": 61,
+      "mean_H": 4.266,
+      "std_H": 2.922,
+      "coeff_var_H": 0.685,
+      "mean_s2": -0.628,
+      "median_H": 3.719,
+      "n_high_s2": 8,
+      "trap_ratio": 0.143,
+      "trap_count": 1,
+      "fog_count": 6
+    },
+    {
+      "title": "In Goya's greatest scenes",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "n_tokens": 318,
+      "mean_H": 2.466,
+      "std_H": 3.133,
+      "coeff_var_H": 1.271,
+      "mean_s2": -0.141,
+      "median_H": 0.761,
+      "n_high_s2": 29,
+      "trap_ratio": 0.172,
+      "trap_count": 5,
+      "fog_count": 24
+    },
+    {
+      "title": "Nobody (Wright)",
+      "author": "Richard Wright",
+      "era": "haiku",
+      "n_tokens": 15,
+      "mean_H": 7.162,
+      "std_H": 2.307,
+      "coeff_var_H": 0.322,
+      "mean_s2": 1.327,
+      "median_H": 7.306,
+      "n_high_s2": 5,
+      "trap_ratio": 0.2,
+      "trap_count": 1,
+      "fog_count": 4
+    },
+    {
+      "title": "There Was a Young Man of Japan",
+      "author": "Anonymous",
+      "era": "limerick",
+      "n_tokens": 51,
+      "mean_H": 5.355,
+      "std_H": 1.896,
+      "coeff_var_H": 0.354,
+      "mean_s2": 0.154,
+      "median_H": 5.457,
+      "n_high_s2": 10,
+      "trap_ratio": 0.2,
+      "trap_count": 2,
+      "fog_count": 8
+    },
+    {
+      "title": "Three Haiku (Basho, translated)",
+      "author": "Matsuo Basho",
+      "era": "haiku",
+      "n_tokens": 50,
+      "mean_H": 6.764,
+      "std_H": 2.477,
+      "coeff_var_H": 0.366,
+      "mean_s2": -0.313,
+      "median_H": 7.077,
+      "n_high_s2": 14,
+      "trap_ratio": 0.214,
+      "trap_count": 3,
+      "fog_count": 11
+    },
+    {
+      "title": "Oh Shenandoah",
+      "author": "Traditional (American sea chanty)",
+      "era": "song_lyrics",
+      "n_tokens": 168,
+      "mean_H": 3.009,
+      "std_H": 2.895,
+      "coeff_var_H": 0.962,
+      "mean_s2": -0.338,
+      "median_H": 2.189,
+      "n_high_s2": 24,
+      "trap_ratio": 0.217,
+      "trap_count": 5,
+      "fog_count": 18
+    },
+    {
+      "title": "Psalm 136 (KJV)",
+      "author": "Anonymous (KJV translation)",
+      "era": "biblical",
+      "n_tokens": 448,
+      "mean_H": 2.834,
+      "std_H": 2.904,
+      "coeff_var_H": 1.024,
+      "mean_s2": -0.235,
+      "median_H": 1.786,
+      "n_high_s2": 54,
+      "trap_ratio": 0.226,
+      "trap_count": 12,
+      "fog_count": 41
+    },
+    {
+      "title": "Possibilities",
+      "author": "Wislawa Szymborska",
+      "era": "contemporary",
+      "n_tokens": 122,
+      "mean_H": 5.463,
+      "std_H": 3.206,
+      "coeff_var_H": 0.587,
+      "mean_s2": -0.372,
+      "median_H": 5.128,
+      "n_high_s2": 27,
+      "trap_ratio": 0.231,
+      "trap_count": 6,
+      "fog_count": 20
+    },
+    {
+      "title": "Weather Observations (Found Poem from meteorological prose)",
+      "author": "Anonymous (found text)",
+      "era": "found_poetry",
+      "n_tokens": 128,
+      "mean_H": 5.333,
+      "std_H": 2.442,
+      "coeff_var_H": 0.458,
+      "mean_s2": -0.743,
+      "median_H": 5.315,
+      "n_high_s2": 17,
+      "trap_ratio": 0.235,
+      "trap_count": 4,
+      "fog_count": 13
+    },
+    {
+      "title": "Die erste Elegie (Er\u00f6ffnung)",
+      "author": "Rainer Maria Rilke",
+      "era": "german_modernist",
+      "n_tokens": 81,
+      "mean_H": 6.031,
+      "std_H": 2.182,
+      "coeff_var_H": 0.362,
+      "mean_s2": 1.253,
+      "median_H": 6.284,
+      "n_high_s2": 28,
+      "trap_ratio": 0.25,
+      "trap_count": 7,
+      "fog_count": 21
+    },
+    {
+      "title": "Constantly Risking Absurdity",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "n_tokens": 352,
+      "mean_H": 1.871,
+      "std_H": 2.905,
+      "coeff_var_H": 1.553,
+      "mean_s2": -0.13,
+      "median_H": 0.358,
+      "n_high_s2": 20,
+      "trap_ratio": 0.25,
+      "trap_count": 5,
+      "fog_count": 15
+    },
+    {
+      "title": "Calypso",
+      "author": "Kamau Brathwaite",
+      "era": "postcolonial",
+      "n_tokens": 215,
+      "mean_H": 4.768,
+      "std_H": 3.348,
+      "coeff_var_H": 0.702,
+      "mean_s2": -0.307,
+      "median_H": 4.51,
+      "n_high_s2": 39,
+      "trap_ratio": 0.256,
+      "trap_count": 10,
+      "fog_count": 29
+    },
+    {
+      "title": "Lord Randal",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad",
+      "n_tokens": 185,
+      "mean_H": 3.97,
+      "std_H": 3.216,
+      "coeff_var_H": 0.81,
+      "mean_s2": -0.712,
+      "median_H": 3.785,
+      "n_high_s2": 23,
+      "trap_ratio": 0.261,
+      "trap_count": 6,
+      "fog_count": 17
+    },
+    {
+      "title": "Postcard from Kashmir",
+      "author": "Agha Shahid Ali",
+      "era": "postcolonial",
+      "n_tokens": 115,
+      "mean_H": 5.837,
+      "std_H": 2.765,
+      "coeff_var_H": 0.474,
+      "mean_s2": -0.384,
+      "median_H": 5.724,
+      "n_high_s2": 23,
+      "trap_ratio": 0.261,
+      "trap_count": 6,
+      "fog_count": 17
+    },
+    {
+      "title": "Of Being Numerous (opening)",
+      "author": "George Oppen",
+      "era": "objectivist",
+      "n_tokens": 214,
+      "mean_H": 4.683,
+      "std_H": 2.956,
+      "coeff_var_H": 0.631,
+      "mean_s2": -0.735,
+      "median_H": 4.361,
+      "n_high_s2": 26,
+      "trap_ratio": 0.269,
+      "trap_count": 7,
+      "fog_count": 19
+    },
+    {
+      "title": "Buffalo Bill 's",
+      "author": "E.E. Cummings",
+      "era": "modernist",
+      "n_tokens": 182,
+      "mean_H": 4.328,
+      "std_H": 3.766,
+      "coeff_var_H": 0.87,
+      "mean_s2": -0.87,
+      "median_H": 3.327,
+      "n_high_s2": 18,
+      "trap_ratio": 0.278,
+      "trap_count": 5,
+      "fog_count": 13
+    },
+    {
+      "title": "'Tis the Voice of the Sluggard",
+      "author": "Isaac Watts",
+      "era": "parody_original",
+      "n_tokens": 107,
+      "mean_H": 6.427,
+      "std_H": 2.227,
+      "coeff_var_H": 0.347,
+      "mean_s2": -1.09,
+      "median_H": 6.446,
+      "n_high_s2": 18,
+      "trap_ratio": 0.278,
+      "trap_count": 5,
+      "fog_count": 13
+    },
+    {
+      "title": "Old Pond (Bash\u014d, translated)",
+      "author": "Matsuo Bash\u014d",
+      "era": "haiku",
+      "n_tokens": 18,
+      "mean_H": 6.984,
+      "std_H": 2.746,
+      "coeff_var_H": 0.393,
+      "mean_s2": 1.184,
+      "median_H": 6.856,
+      "n_high_s2": 7,
+      "trap_ratio": 0.286,
+      "trap_count": 2,
+      "fog_count": 5
+    }
+  ]
+}
