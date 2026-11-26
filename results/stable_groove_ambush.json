@@ -1,0 +1,683 @@
+{
+  "summary": {
+    "n_poems": 425,
+    "n_tokens_analyzed": 50031,
+    "n_ambush": 8183,
+    "n_control": 10676,
+    "n_conformist": 25442,
+    "ambush_threshold": 3.0,
+    "window_sizes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      10
+    ]
+  },
+  "group_comparison_by_window": [
+    {
+      "window": 1,
+      "ambush_mean_jacc": 0.09444,
+      "control_mean_jacc": 0.0766,
+      "conformist_mean_jacc": 0.09111,
+      "n_ambush": 8183,
+      "n_control": 10676,
+      "n_conformist": 25442
+    },
+    {
+      "window": 2,
+      "ambush_mean_jacc": 0.09374,
+      "control_mean_jacc": 0.07927,
+      "conformist_mean_jacc": 0.08957,
+      "n_ambush": 8183,
+      "n_control": 10676,
+      "n_conformist": 25442
+    },
+    {
+      "window": 3,
+      "ambush_mean_jacc": 0.09261,
+      "control_mean_jacc": 0.08156,
+      "conformist_mean_jacc": 0.08906,
+      "n_ambush": 8183,
+      "n_control": 10676,
+      "n_conformist": 25442
+    },
+    {
+      "window": 4,
+      "ambush_mean_jacc": 0.09158,
+      "control_mean_jacc": 0.08291,
+      "conformist_mean_jacc": 0.08848,
+      "n_ambush": 8183,
+      "n_control": 10676,
+      "n_conformist": 25442
+    },
+    {
+      "window": 5,
+      "ambush_mean_jacc": 0.09082,
+      "control_mean_jacc": 0.084,
+      "conformist_mean_jacc": 0.08817,
+      "n_ambush": 8183,
+      "n_control": 10676,
+      "n_conformist": 25442
+    },
+    {
+      "window": 8,
+      "ambush_mean_jacc": 0.08982,
+      "control_mean_jacc": 0.08481,
+      "conformist_mean_jacc": 0.08783,
+      "n_ambush": 8183,
+      "n_control": 10676,
+      "n_conformist": 25442
+    },
+    {
+      "window": 10,
+      "ambush_mean_jacc": 0.08996,
+      "control_mean_jacc": 0.08491,
+      "conformist_mean_jacc": 0.08755,
+      "n_ambush": 8183,
+      "n_control": 10676,
+      "n_conformist": 25442
+    }
+  ],
+  "within_ambush_jacc_vs_s2_r": {
+    "1": 0.023,
+    "2": 0.008,
+    "3": 0.0061,
+    "4": 0.006,
+    "5": -0.0001,
+    "8": -0.0025,
+    "10": -0.0057
+  },
+  "conformist_run_vs_s2_r_in_ambush": -0.0386,
+  "run_length_bin_stats": [
+    {
+      "run_length": "0\u20130",
+      "n": 4063,
+      "mean_s2": 6.255,
+      "max_s2": 36.658,
+      "mean_pre_jacc_w3": 0.09212
+    },
+    {
+      "run_length": "1\u20131",
+      "n": 2120,
+      "mean_s2": 6.025,
+      "max_s2": 22.044,
+      "mean_pre_jacc_w3": 0.09631
+    },
+    {
+      "run_length": "2\u20133",
+      "n": 1493,
+      "mean_s2": 5.963,
+      "max_s2": 25.476,
+      "mean_pre_jacc_w3": 0.09436
+    },
+    {
+      "run_length": "4\u20137",
+      "n": 481,
+      "mean_s2": 5.853,
+      "max_s2": 18.85,
+      "mean_pre_jacc_w3": 0.07715
+    },
+    {
+      "run_length": "8\u2013100",
+      "n": 26,
+      "mean_s2": 6.189,
+      "max_s2": 12.299,
+      "mean_pre_jacc_w3": 0.05435
+    }
+  ],
+  "stable_run_comparison": {
+    "ambush_mean": 0.776,
+    "control_mean": 0.586,
+    "ambush_pct_zero": 0.6126,
+    "control_pct_zero": 0.694,
+    "ambush_pct_3plus": 0.0937,
+    "control_pct_3plus": 0.0639
+  },
+  "s2_band_analysis": [
+    {
+      "band": "Conformist (<-3)",
+      "n": 11244,
+      "mean_pre_jacc_w3": 0.09174,
+      "mean_pre_jacc_w5": 0.08999,
+      "mean_conformist_run": 1.04
+    },
+    {
+      "band": "Low (-3 to -1)",
+      "n": 14198,
+      "mean_pre_jacc_w3": 0.08695,
+      "mean_pre_jacc_w5": 0.08673,
+      "mean_conformist_run": 1.006
+    },
+    {
+      "band": "Neutral (-1 to 1)",
+      "n": 10675,
+      "mean_pre_jacc_w3": 0.08156,
+      "mean_pre_jacc_w5": 0.08401,
+      "mean_conformist_run": 1.034
+    },
+    {
+      "band": "High (1 to 3)",
+      "n": 5733,
+      "mean_pre_jacc_w3": 0.08925,
+      "mean_pre_jacc_w5": 0.08976,
+      "mean_conformist_run": 1.068
+    },
+    {
+      "band": "Very High (3-5)",
+      "n": 3635,
+      "mean_pre_jacc_w3": 0.09199,
+      "mean_pre_jacc_w5": 0.09133,
+      "mean_conformist_run": 1.042
+    },
+    {
+      "band": "Extreme (5+)",
+      "n": 4546,
+      "mean_pre_jacc_w3": 0.09311,
+      "mean_pre_jacc_w5": 0.09041,
+      "mean_conformist_run": 0.952
+    }
+  ],
+  "era_setup_stats": {
+    "romantic": {
+      "n_ambush_tokens": 596,
+      "mean_s2": 6.03,
+      "mean_pre_jacc_w3": 0.09712,
+      "mean_conformist_run": 0.95
+    },
+    "19th_century": {
+      "n_ambush_tokens": 473,
+      "mean_s2": 5.81,
+      "mean_pre_jacc_w3": 0.08968,
+      "mean_conformist_run": 1.06
+    },
+    "modernist": {
+      "n_ambush_tokens": 476,
+      "mean_s2": 6.52,
+      "mean_pre_jacc_w3": 0.10668,
+      "mean_conformist_run": 0.88
+    },
+    "beat": {
+      "n_ambush_tokens": 137,
+      "mean_s2": 8.38,
+      "mean_pre_jacc_w3": 0.0947,
+      "mean_conformist_run": 0.74
+    },
+    "confessional": {
+      "n_ambush_tokens": 61,
+      "mean_s2": 6.407,
+      "mean_pre_jacc_w3": 0.08434,
+      "mean_conformist_run": 1.13
+    },
+    "mid_century": {
+      "n_ambush_tokens": 84,
+      "mean_s2": 6.412,
+      "mean_pre_jacc_w3": 0.07491,
+      "mean_conformist_run": 0.77
+    },
+    "new_york_school": {
+      "n_ambush_tokens": 320,
+      "mean_s2": 5.968,
+      "mean_pre_jacc_w3": 0.08631,
+      "mean_conformist_run": 1.17
+    },
+    "language": {
+      "n_ambush_tokens": 59,
+      "mean_s2": 6.022,
+      "mean_pre_jacc_w3": 0.08286,
+      "mean_conformist_run": 1.02
+    },
+    "contemporary": {
+      "n_ambush_tokens": 411,
+      "mean_s2": 6.045,
+      "mean_pre_jacc_w3": 0.09144,
+      "mean_conformist_run": 0.99
+    },
+    "harlem_renaissance": {
+      "n_ambush_tokens": 101,
+      "mean_s2": 6.233,
+      "mean_pre_jacc_w3": 0.08323,
+      "mean_conformist_run": 0.96
+    },
+    "oulipo": {
+      "n_ambush_tokens": 202,
+      "mean_s2": 6.27,
+      "mean_pre_jacc_w3": 0.09581,
+      "mean_conformist_run": 0.93
+    },
+    "surrealist": {
+      "n_ambush_tokens": 140,
+      "mean_s2": 6.232,
+      "mean_pre_jacc_w3": 0.08115,
+      "mean_conformist_run": 1.1
+    },
+    "german_symbolist": {
+      "n_ambush_tokens": 54,
+      "mean_s2": 6.127,
+      "mean_pre_jacc_w3": 0.08295,
+      "mean_conformist_run": 0.65
+    },
+    "german_expressionist": {
+      "n_ambush_tokens": 137,
+      "mean_s2": 6.038,
+      "mean_pre_jacc_w3": 0.08218,
+      "mean_conformist_run": 0.85
+    },
+    "german_modernist": {
+      "n_ambush_tokens": 43,
+      "mean_s2": 6.204,
+      "mean_pre_jacc_w3": 0.09362,
+      "mean_conformist_run": 0.7
+    },
+    "victorian": {
+      "n_ambush_tokens": 945,
+      "mean_s2": 6.175,
+      "mean_pre_jacc_w3": 0.10144,
+      "mean_conformist_run": 0.9
+    },
+    "haiku": {
+      "n_ambush_tokens": 17,
+      "mean_s2": 5.219,
+      "mean_pre_jacc_w3": 0.0541,
+      "mean_conformist_run": 1
+    },
+    "ancient": {
+      "n_ambush_tokens": 47,
+      "mean_s2": 5.759,
+      "mean_pre_jacc_w3": 0.11616,
+      "mean_conformist_run": 0.85
+    },
+    "prose_poetry": {
+      "n_ambush_tokens": 176,
+      "mean_s2": 6.028,
+      "mean_pre_jacc_w3": 0.07179,
+      "mean_conformist_run": 1.18
+    },
+    "ballad": {
+      "n_ambush_tokens": 114,
+      "mean_s2": 6.786,
+      "mean_pre_jacc_w3": 0.08205,
+      "mean_conformist_run": 1.02
+    },
+    "song_lyrics": {
+      "n_ambush_tokens": 59,
+      "mean_s2": 5.948,
+      "mean_pre_jacc_w3": 0.08505,
+      "mean_conformist_run": 1.2
+    },
+    "nursery_rhyme": {
+      "n_ambush_tokens": 29,
+      "mean_s2": 5.212,
+      "mean_pre_jacc_w3": 0.07595,
+      "mean_conformist_run": 1.17
+    },
+    "metaphysical": {
+      "n_ambush_tokens": 120,
+      "mean_s2": 5.572,
+      "mean_pre_jacc_w3": 0.11511,
+      "mean_conformist_run": 0.93
+    },
+    "early_modern": {
+      "n_ambush_tokens": 248,
+      "mean_s2": 6.144,
+      "mean_pre_jacc_w3": 0.10146,
+      "mean_conformist_run": 1.08
+    },
+    "spoken_word": {
+      "n_ambush_tokens": 34,
+      "mean_s2": 6.784,
+      "mean_pre_jacc_w3": 0.07358,
+      "mean_conformist_run": 1.29
+    },
+    "found_poetry": {
+      "n_ambush_tokens": 99,
+      "mean_s2": 6.334,
+      "mean_pre_jacc_w3": 0.08189,
+      "mean_conformist_run": 1.08
+    },
+    "fixed_form": {
+      "n_ambush_tokens": 114,
+      "mean_s2": 5.92,
+      "mean_pre_jacc_w3": 0.08547,
+      "mean_conformist_run": 1.08
+    },
+    "cliche_control": {
+      "n_ambush_tokens": 43,
+      "mean_s2": 5.779,
+      "mean_pre_jacc_w3": 0.07569,
+      "mean_conformist_run": 1.09
+    },
+    "18th_century": {
+      "n_ambush_tokens": 206,
+      "mean_s2": 6.101,
+      "mean_pre_jacc_w3": 0.11588,
+      "mean_conformist_run": 1.0
+    },
+    "biblical": {
+      "n_ambush_tokens": 153,
+      "mean_s2": 5.766,
+      "mean_pre_jacc_w3": 0.08478,
+      "mean_conformist_run": 1.11
+    },
+    "concrete": {
+      "n_ambush_tokens": 24,
+      "mean_s2": 7.072,
+      "mean_pre_jacc_w3": 0.07219,
+      "mean_conformist_run": 1.04
+    },
+    "latin_american": {
+      "n_ambush_tokens": 62,
+      "mean_s2": 6.215,
+      "mean_pre_jacc_w3": 0.09664,
+      "mean_conformist_run": 1.15
+    },
+    "black_arts": {
+      "n_ambush_tokens": 29,
+      "mean_s2": 6.103,
+      "mean_pre_jacc_w3": 0.06304,
+      "mean_conformist_run": 0.83
+    },
+    "korean_modernist": {
+      "n_ambush_tokens": 12,
+      "mean_s2": 5.432,
+      "mean_pre_jacc_w3": 0.05519,
+      "mean_conformist_run": 0.92
+    },
+    "imagist": {
+      "n_ambush_tokens": 42,
+      "mean_s2": 5.5,
+      "mean_pre_jacc_w3": 0.06891,
+      "mean_conformist_run": 1.36
+    },
+    "parody_original": {
+      "n_ambush_tokens": 57,
+      "mean_s2": 5.441,
+      "mean_pre_jacc_w3": 0.08587,
+      "mean_conformist_run": 0.74
+    },
+    "parody": {
+      "n_ambush_tokens": 90,
+      "mean_s2": 6.015,
+      "mean_pre_jacc_w3": 0.07693,
+      "mean_conformist_run": 0.92
+    },
+    "classical_chinese": {
+      "n_ambush_tokens": 25,
+      "mean_s2": 6.518,
+      "mean_pre_jacc_w3": 0.0812,
+      "mean_conformist_run": 1.2
+    },
+    "persian": {
+      "n_ambush_tokens": 63,
+      "mean_s2": 5.826,
+      "mean_pre_jacc_w3": 0.08087,
+      "mean_conformist_run": 0.75
+    },
+    "limerick": {
+      "n_ambush_tokens": 35,
+      "mean_s2": 6.269,
+      "mean_pre_jacc_w3": 0.08172,
+      "mean_conformist_run": 1.2
+    },
+    "old_english": {
+      "n_ambush_tokens": 91,
+      "mean_s2": 6.234,
+      "mean_pre_jacc_w3": 0.08896,
+      "mean_conformist_run": 1.13
+    },
+    "protest_political": {
+      "n_ambush_tokens": 32,
+      "mean_s2": 5.351,
+      "mean_pre_jacc_w3": 0.08515,
+      "mean_conformist_run": 1.62
+    },
+    "ghazal": {
+      "n_ambush_tokens": 49,
+      "mean_s2": 6.369,
+      "mean_pre_jacc_w3": 0.08318,
+      "mean_conformist_run": 1.16
+    },
+    "war_poetry": {
+      "n_ambush_tokens": 90,
+      "mean_s2": 5.888,
+      "mean_pre_jacc_w3": 0.09337,
+      "mean_conformist_run": 0.93
+    },
+    "postcolonial": {
+      "n_ambush_tokens": 132,
+      "mean_s2": 6.734,
+      "mean_pre_jacc_w3": 0.07528,
+      "mean_conformist_run": 1.25
+    },
+    "dramatic_monologue": {
+      "n_ambush_tokens": 756,
+      "mean_s2": 5.93,
+      "mean_pre_jacc_w3": 0.09485,
+      "mean_conformist_run": 1.0
+    },
+    "elegy": {
+      "n_ambush_tokens": 175,
+      "mean_s2": 6.063,
+      "mean_pre_jacc_w3": 0.09019,
+      "mean_conformist_run": 0.91
+    },
+    "clerihew": {
+      "n_ambush_tokens": 20,
+      "mean_s2": 6.22,
+      "mean_pre_jacc_w3": 0.0704,
+      "mean_conformist_run": 0.7
+    },
+    "double_dactyl": {
+      "n_ambush_tokens": 29,
+      "mean_s2": 5.774,
+      "mean_pre_jacc_w3": 0.11428,
+      "mean_conformist_run": 1.28
+    },
+    "ekphrastic": {
+      "n_ambush_tokens": 282,
+      "mean_s2": 5.658,
+      "mean_pre_jacc_w3": 0.09408,
+      "mean_conformist_run": 0.89
+    },
+    "villanelle": {
+      "n_ambush_tokens": 57,
+      "mean_s2": 5.816,
+      "mean_pre_jacc_w3": 0.10099,
+      "mean_conformist_run": 0.98
+    },
+    "pantoum": {
+      "n_ambush_tokens": 32,
+      "mean_s2": 6.274,
+      "mean_pre_jacc_w3": 0.07804,
+      "mean_conformist_run": 1.03
+    },
+    "rondeau": {
+      "n_ambush_tokens": 15,
+      "mean_s2": 7.156,
+      "mean_pre_jacc_w3": 0.13134,
+      "mean_conformist_run": 0.53
+    },
+    "nonsense": {
+      "n_ambush_tokens": 60,
+      "mean_s2": 5.993,
+      "mean_pre_jacc_w3": 0.09673,
+      "mean_conformist_run": 1.17
+    },
+    "procedural": {
+      "n_ambush_tokens": 93,
+      "mean_s2": 5.799,
+      "mean_pre_jacc_w3": 0.0862,
+      "mean_conformist_run": 1.31
+    },
+    "objectivist": {
+      "n_ambush_tokens": 105,
+      "mean_s2": 7.069,
+      "mean_pre_jacc_w3": 0.09165,
+      "mean_conformist_run": 0.89
+    }
+  },
+  "perfect_ambush_examples": [
+    {
+      "token": " spotlight",
+      "s2": 15.68,
+      "pre_jacc_w5": 0.3023,
+      "conformist_run": 0,
+      "era": "modernist",
+      "author": "Marianne Moore"
+    },
+    {
+      "token": " into",
+      "s2": 13.04,
+      "pre_jacc_w5": 0.3517,
+      "conformist_run": 1,
+      "era": "modernist",
+      "author": "Marianne Moore"
+    },
+    {
+      "token": " imagination",
+      "s2": 15.39,
+      "pre_jacc_w5": 0.2962,
+      "conformist_run": 0,
+      "era": "contemporary",
+      "author": "Wis\u0142awa Szymborska"
+    },
+    {
+      "token": " spotlight",
+      "s2": 15.42,
+      "pre_jacc_w5": 0.2892,
+      "conformist_run": 0,
+      "era": "modernist",
+      "author": "Marianne Moore"
+    },
+    {
+      "token": " shook",
+      "s2": 22.04,
+      "pre_jacc_w5": 0.2007,
+      "conformist_run": 1,
+      "era": "victorian",
+      "author": "Gerard Manley Hopkins"
+    },
+    {
+      "token": " printer",
+      "s2": 20.64,
+      "pre_jacc_w5": 0.2081,
+      "conformist_run": 0,
+      "era": "19th_century",
+      "author": "Walt Whitman"
+    },
+    {
+      "token": ",\u2014",
+      "s2": 13.7,
+      "pre_jacc_w5": 0.3097,
+      "conformist_run": 0,
+      "era": "dramatic_monologue",
+      "author": "Robert Browning"
+    },
+    {
+      "token": ",\u2014",
+      "s2": 13.7,
+      "pre_jacc_w5": 0.3097,
+      "conformist_run": 0,
+      "era": "ekphrastic",
+      "author": "Robert Browning"
+    },
+    {
+      "token": " c",
+      "s2": 11.75,
+      "pre_jacc_w5": 0.3595,
+      "conformist_run": 1,
+      "era": "surrealist",
+      "author": "Arthur Rimbaud"
+    },
+    {
+      "token": " Cent",
+      "s2": 9.65,
+      "pre_jacc_w5": 0.4229,
+      "conformist_run": 1,
+      "era": "19th_century",
+      "author": "Emily Dickinson"
+    },
+    {
+      "token": " anything",
+      "s2": 8.17,
+      "pre_jacc_w5": 0.4827,
+      "conformist_run": 0,
+      "era": "contemporary",
+      "author": "Wis\u0142awa Szymborska"
+    },
+    {
+      "token": " sidel",
+      "s2": 16.27,
+      "pre_jacc_w5": 0.2424,
+      "conformist_run": 0,
+      "era": "romantic",
+      "author": "John Keats"
+    },
+    {
+      "token": " facing",
+      "s2": 10.49,
+      "pre_jacc_w5": 0.364,
+      "conformist_run": 0,
+      "era": "confessional",
+      "author": "Robert Lowell"
+    },
+    {
+      "token": " his",
+      "s2": 18.24,
+      "pre_jacc_w5": 0.1962,
+      "conformist_run": 0,
+      "era": "victorian",
+      "author": "Gerard Manley Hopkins"
+    },
+    {
+      "token": " swing",
+      "s2": 7.0,
+      "pre_jacc_w5": 0.4999,
+      "conformist_run": 0,
+      "era": "victorian",
+      "author": "Gerard Manley Hopkins"
+    },
+    {
+      "token": " mother",
+      "s2": 10.71,
+      "pre_jacc_w5": 0.3241,
+      "conformist_run": 1,
+      "era": "objectivist",
+      "author": "Louis Zukofsky"
+    },
+    {
+      "token": " air",
+      "s2": 9.9,
+      "pre_jacc_w5": 0.3478,
+      "conformist_run": 0,
+      "era": "dramatic_monologue",
+      "author": "Alfred Lord Tennyson"
+    },
+    {
+      "token": " Hue",
+      "s2": 10.44,
+      "pre_jacc_w5": 0.3266,
+      "conformist_run": 0,
+      "era": "contemporary",
+      "author": "Harryette Mullen"
+    },
+    {
+      "token": " measures",
+      "s2": 14.26,
+      "pre_jacc_w5": 0.2383,
+      "conformist_run": 3,
+      "era": "19th_century",
+      "author": "Walt Whitman"
+    },
+    {
+      "token": " running",
+      "s2": 13.06,
+      "pre_jacc_w5": 0.2551,
+      "conformist_run": 0,
+      "era": "victorian",
+      "author": "Francis Thompson"
+    }
+  ]
+}
