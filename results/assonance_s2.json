@@ -1,0 +1,556 @@
+{
+  "corpus_summary": {
+    "poems_processed": 446,
+    "total_assonant_tokens": 12348,
+    "total_non_assonant_tokens": 14184,
+    "assonance_rate": 46.54,
+    "median_entropy": 7.6341,
+    "median_s2": 0.1494
+  },
+  "corpus_level": {
+    "assonant": {
+      "n": 12348,
+      "mean": 0.8663,
+      "std": 4.0468,
+      "pos_pct": 48.8
+    },
+    "non_assonant": {
+      "n": 14184,
+      "mean": 1.2035,
+      "std": 4.0711,
+      "pos_pct": 53.7
+    },
+    "diff_assonant_minus_non": -0.3372,
+    "class_assonant": {
+      "n": 16025,
+      "mean": 0.8947,
+      "std": 4.039,
+      "pos_pct": 49.6
+    },
+    "class_non_assonant": {
+      "n": 10507,
+      "mean": 1.2782,
+      "std": 4.0892,
+      "pos_pct": 54.2
+    }
+  },
+  "entropy_stratified": {
+    "high_entropy": {
+      "assonant": {
+        "n": 5804,
+        "mean": 0.3704,
+        "std": 3.5735,
+        "pos_pct": 51.7
+      },
+      "non_assonant": {
+        "n": 7462,
+        "mean": 0.7167,
+        "std": 3.4928,
+        "pos_pct": 55.2
+      },
+      "diff": -0.3463
+    },
+    "low_entropy": {
+      "assonant": {
+        "n": 6544,
+        "mean": 1.3061,
+        "std": 4.3778,
+        "pos_pct": 46.2
+      },
+      "non_assonant": {
+        "n": 6722,
+        "mean": 1.744,
+        "std": 4.5691,
+        "pos_pct": 52.0
+      },
+      "diff": -0.4379
+    }
+  },
+  "era_breakdown": [
+    {
+      "era": "haiku",
+      "assonant_mean": -0.5362,
+      "non_assonant_mean": 1.7541,
+      "diff": -2.2903,
+      "n_assonant": 39,
+      "n_non_assonant": 84
+    },
+    {
+      "era": "concrete",
+      "assonant_mean": -0.4217,
+      "non_assonant_mean": 1.7132,
+      "diff": -2.1349,
+      "n_assonant": 108,
+      "n_non_assonant": 44
+    },
+    {
+      "era": "ballad",
+      "assonant_mean": 0.1256,
+      "non_assonant_mean": 1.381,
+      "diff": -1.2554,
+      "n_assonant": 203,
+      "n_non_assonant": 220
+    },
+    {
+      "era": "ghazal",
+      "assonant_mean": 0.6583,
+      "non_assonant_mean": 1.9105,
+      "diff": -1.2523,
+      "n_assonant": 56,
+      "n_non_assonant": 83
+    },
+    {
+      "era": "double_dactyl",
+      "assonant_mean": -0.1571,
+      "non_assonant_mean": 1.0705,
+      "diff": -1.2276,
+      "n_assonant": 57,
+      "n_non_assonant": 49
+    },
+    {
+      "era": "language",
+      "assonant_mean": 0.3024,
+      "non_assonant_mean": 1.5234,
+      "diff": -1.221,
+      "n_assonant": 96,
+      "n_non_assonant": 106
+    },
+    {
+      "era": "fixed_form",
+      "assonant_mean": 0.0878,
+      "non_assonant_mean": 1.1831,
+      "diff": -1.0953,
+      "n_assonant": 160,
+      "n_non_assonant": 201
+    },
+    {
+      "era": "limerick",
+      "assonant_mean": -0.0162,
+      "non_assonant_mean": 1.04,
+      "diff": -1.0562,
+      "n_assonant": 68,
+      "n_non_assonant": 89
+    },
+    {
+      "era": "war_poetry",
+      "assonant_mean": 0.6082,
+      "non_assonant_mean": 1.6087,
+      "diff": -1.0005,
+      "n_assonant": 131,
+      "n_non_assonant": 155
+    },
+    {
+      "era": "rondeau",
+      "assonant_mean": 0.8717,
+      "non_assonant_mean": 1.8536,
+      "diff": -0.9819,
+      "n_assonant": 26,
+      "n_non_assonant": 31
+    },
+    {
+      "era": "villanelle",
+      "assonant_mean": 0.3613,
+      "non_assonant_mean": 1.3256,
+      "diff": -0.9643,
+      "n_assonant": 91,
+      "n_non_assonant": 96
+    },
+    {
+      "era": "latin_american",
+      "assonant_mean": 0.6508,
+      "non_assonant_mean": 1.5519,
+      "diff": -0.9011,
+      "n_assonant": 95,
+      "n_non_assonant": 95
+    },
+    {
+      "era": "persian",
+      "assonant_mean": 0.7982,
+      "non_assonant_mean": 1.6943,
+      "diff": -0.8961,
+      "n_assonant": 73,
+      "n_non_assonant": 81
+    },
+    {
+      "era": "cliche_control",
+      "assonant_mean": -0.4411,
+      "non_assonant_mean": 0.4363,
+      "diff": -0.8774,
+      "n_assonant": 111,
+      "n_non_assonant": 115
+    },
+    {
+      "era": "19th_century",
+      "assonant_mean": 0.4805,
+      "non_assonant_mean": 1.2787,
+      "diff": -0.7982,
+      "n_assonant": 673,
+      "n_non_assonant": 819
+    },
+    {
+      "era": "imagist",
+      "assonant_mean": 0.7395,
+      "non_assonant_mean": 1.4709,
+      "diff": -0.7314,
+      "n_assonant": 69,
+      "n_non_assonant": 74
+    },
+    {
+      "era": "black_arts",
+      "assonant_mean": 0.3936,
+      "non_assonant_mean": 1.0802,
+      "diff": -0.6865,
+      "n_assonant": 40,
+      "n_non_assonant": 54
+    },
+    {
+      "era": "contemporary",
+      "assonant_mean": 0.6265,
+      "non_assonant_mean": 1.2273,
+      "diff": -0.6009,
+      "n_assonant": 630,
+      "n_non_assonant": 700
+    },
+    {
+      "era": "new_york_school",
+      "assonant_mean": 0.4901,
+      "non_assonant_mean": 1.0819,
+      "diff": -0.5918,
+      "n_assonant": 517,
+      "n_non_assonant": 622
+    },
+    {
+      "era": "mid_century",
+      "assonant_mean": 1.2623,
+      "non_assonant_mean": 1.819,
+      "diff": -0.5568,
+      "n_assonant": 98,
+      "n_non_assonant": 151
+    },
+    {
+      "era": "old_english",
+      "assonant_mean": 0.9446,
+      "non_assonant_mean": 1.4915,
+      "diff": -0.5469,
+      "n_assonant": 128,
+      "n_non_assonant": 158
+    },
+    {
+      "era": "pantoum",
+      "assonant_mean": 0.1585,
+      "non_assonant_mean": 0.6825,
+      "diff": -0.5239,
+      "n_assonant": 57,
+      "n_non_assonant": 75
+    },
+    {
+      "era": "elegy",
+      "assonant_mean": 0.8638,
+      "non_assonant_mean": 1.3748,
+      "diff": -0.511,
+      "n_assonant": 274,
+      "n_non_assonant": 302
+    },
+    {
+      "era": "found_poetry",
+      "assonant_mean": 0.0482,
+      "non_assonant_mean": 0.5428,
+      "diff": -0.4947,
+      "n_assonant": 281,
+      "n_non_assonant": 246
+    },
+    {
+      "era": "parody_original",
+      "assonant_mean": 0.2104,
+      "non_assonant_mean": 0.7006,
+      "diff": -0.4902,
+      "n_assonant": 80,
+      "n_non_assonant": 122
+    },
+    {
+      "era": "objectivist",
+      "assonant_mean": 1.0528,
+      "non_assonant_mean": 1.5288,
+      "diff": -0.476,
+      "n_assonant": 153,
+      "n_non_assonant": 184
+    },
+    {
+      "era": "procedural",
+      "assonant_mean": 0.9273,
+      "non_assonant_mean": 1.3543,
+      "diff": -0.4271,
+      "n_assonant": 136,
+      "n_non_assonant": 143
+    },
+    {
+      "era": "spoken_word",
+      "assonant_mean": 1.067,
+      "non_assonant_mean": 1.4769,
+      "diff": -0.4098,
+      "n_assonant": 52,
+      "n_non_assonant": 59
+    },
+    {
+      "era": "parody",
+      "assonant_mean": 1.0171,
+      "non_assonant_mean": 1.3457,
+      "diff": -0.3286,
+      "n_assonant": 130,
+      "n_non_assonant": 157
+    },
+    {
+      "era": "prose_poetry",
+      "assonant_mean": 0.689,
+      "non_assonant_mean": 0.9942,
+      "diff": -0.3052,
+      "n_assonant": 278,
+      "n_non_assonant": 310
+    },
+    {
+      "era": "nonsense",
+      "assonant_mean": 0.2732,
+      "non_assonant_mean": 0.5722,
+      "diff": -0.2991,
+      "n_assonant": 104,
+      "n_non_assonant": 101
+    },
+    {
+      "era": "biblical",
+      "assonant_mean": 0.3989,
+      "non_assonant_mean": 0.6844,
+      "diff": -0.2856,
+      "n_assonant": 272,
+      "n_non_assonant": 282
+    },
+    {
+      "era": "early_modern",
+      "assonant_mean": 1.1304,
+      "non_assonant_mean": 1.4139,
+      "diff": -0.2835,
+      "n_assonant": 358,
+      "n_non_assonant": 421
+    },
+    {
+      "era": "confessional",
+      "assonant_mean": 1.4648,
+      "non_assonant_mean": 1.7474,
+      "diff": -0.2826,
+      "n_assonant": 76,
+      "n_non_assonant": 88
+    },
+    {
+      "era": "modernist",
+      "assonant_mean": 1.2104,
+      "non_assonant_mean": 1.483,
+      "diff": -0.2726,
+      "n_assonant": 694,
+      "n_non_assonant": 745
+    },
+    {
+      "era": "ekphrastic",
+      "assonant_mean": 0.7928,
+      "non_assonant_mean": 1.0222,
+      "diff": -0.2294,
+      "n_assonant": 378,
+      "n_non_assonant": 491
+    },
+    {
+      "era": "victorian",
+      "assonant_mean": 1.1545,
+      "non_assonant_mean": 1.3753,
+      "diff": -0.2208,
+      "n_assonant": 1246,
+      "n_non_assonant": 1494
+    },
+    {
+      "era": "18th_century",
+      "assonant_mean": 1.4106,
+      "non_assonant_mean": 1.6216,
+      "diff": -0.211,
+      "n_assonant": 273,
+      "n_non_assonant": 355
+    },
+    {
+      "era": "harlem_renaissance",
+      "assonant_mean": 0.6897,
+      "non_assonant_mean": 0.8948,
+      "diff": -0.2051,
+      "n_assonant": 197,
+      "n_non_assonant": 248
+    },
+    {
+      "era": "romantic",
+      "assonant_mean": 0.9871,
+      "non_assonant_mean": 1.1124,
+      "diff": -0.1253,
+      "n_assonant": 881,
+      "n_non_assonant": 1084
+    },
+    {
+      "era": "dramatic_monologue",
+      "assonant_mean": 1.1199,
+      "non_assonant_mean": 1.2188,
+      "diff": -0.0989,
+      "n_assonant": 1013,
+      "n_non_assonant": 1201
+    },
+    {
+      "era": "ancient",
+      "assonant_mean": 0.8694,
+      "non_assonant_mean": 0.9624,
+      "diff": -0.093,
+      "n_assonant": 84,
+      "n_non_assonant": 123
+    },
+    {
+      "era": "postcolonial",
+      "assonant_mean": 1.098,
+      "non_assonant_mean": 1.1219,
+      "diff": -0.0239,
+      "n_assonant": 154,
+      "n_non_assonant": 210
+    },
+    {
+      "era": "oulipo",
+      "assonant_mean": 1.187,
+      "non_assonant_mean": 1.1596,
+      "diff": 0.0275,
+      "n_assonant": 387,
+      "n_non_assonant": 224
+    },
+    {
+      "era": "surrealist",
+      "assonant_mean": 0.9567,
+      "non_assonant_mean": 0.9049,
+      "diff": 0.0518,
+      "n_assonant": 218,
+      "n_non_assonant": 243
+    },
+    {
+      "era": "protest_political",
+      "assonant_mean": 0.8793,
+      "non_assonant_mean": 0.7665,
+      "diff": 0.1128,
+      "n_assonant": 55,
+      "n_non_assonant": 63
+    },
+    {
+      "era": "german_modernist",
+      "assonant_mean": 1.1977,
+      "non_assonant_mean": 0.8799,
+      "diff": 0.3178,
+      "n_assonant": 90,
+      "n_non_assonant": 71
+    },
+    {
+      "era": "song_lyrics",
+      "assonant_mean": 0.326,
+      "non_assonant_mean": -0.0083,
+      "diff": 0.3342,
+      "n_assonant": 110,
+      "n_non_assonant": 112
+    },
+    {
+      "era": "beat",
+      "assonant_mean": 3.0141,
+      "non_assonant_mean": 2.6652,
+      "diff": 0.3489,
+      "n_assonant": 143,
+      "n_non_assonant": 161
+    },
+    {
+      "era": "german_expressionist",
+      "assonant_mean": 1.4553,
+      "non_assonant_mean": 1.0866,
+      "diff": 0.3688,
+      "n_assonant": 205,
+      "n_non_assonant": 212
+    },
+    {
+      "era": "metaphysical",
+      "assonant_mean": 1.3035,
+      "non_assonant_mean": 0.6032,
+      "diff": 0.7003,
+      "n_assonant": 167,
+      "n_non_assonant": 221
+    },
+    {
+      "era": "german_symbolist",
+      "assonant_mean": 1.1145,
+      "non_assonant_mean": 0.2676,
+      "diff": 0.8469,
+      "n_assonant": 110,
+      "n_non_assonant": 135
+    },
+    {
+      "era": "korean_modernist",
+      "assonant_mean": 0.6363,
+      "non_assonant_mean": -0.2723,
+      "diff": 0.9086,
+      "n_assonant": 20,
+      "n_non_assonant": 27
+    },
+    {
+      "era": "clerihew",
+      "assonant_mean": 3.0438,
+      "non_assonant_mean": 2.0855,
+      "diff": 0.9583,
+      "n_assonant": 56,
+      "n_non_assonant": 60
+    },
+    {
+      "era": "classical_chinese",
+      "assonant_mean": 1.4316,
+      "non_assonant_mean": 0.3435,
+      "diff": 1.0881,
+      "n_assonant": 50,
+      "n_non_assonant": 73
+    },
+    {
+      "era": "nursery_rhyme",
+      "assonant_mean": 0.9053,
+      "non_assonant_mean": -0.8836,
+      "diff": 1.7889,
+      "n_assonant": 50,
+      "n_non_assonant": 47
+    }
+  ],
+  "vowel_class_breakdown": [
+    {
+      "vowel_class": "back",
+      "assonant_mean": 0.6562,
+      "non_assonant_mean": 1.202,
+      "diff": -0.5458,
+      "n_assonant": 2852
+    },
+    {
+      "vowel_class": "front",
+      "assonant_mean": 0.8053,
+      "non_assonant_mean": 1.1969,
+      "diff": -0.3917,
+      "n_assonant": 3054
+    },
+    {
+      "vowel_class": "high_back",
+      "assonant_mean": 1.4085,
+      "non_assonant_mean": 1.6375,
+      "diff": -0.2289,
+      "n_assonant": 602
+    },
+    {
+      "vowel_class": "front_high",
+      "assonant_mean": 0.7012,
+      "non_assonant_mean": 0.9064,
+      "diff": -0.2052,
+      "n_assonant": 2366
+    },
+    {
+      "vowel_class": "low",
+      "assonant_mean": 1.111,
+      "non_assonant_mean": 1.2445,
+      "diff": -0.1335,
+      "n_assonant": 3474
+    }
+  ]
+}
