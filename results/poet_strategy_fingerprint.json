@@ -1,0 +1,989 @@
+{
+  "global_medians": {
+    "s2": -0.42412701863354035,
+    "std_h": 2.5480653556965986
+  },
+  "n_poems_analyzed": 439,
+  "n_multi_poem_poets": 46,
+  "poet_profiles": [
+    {
+      "author": "Alfred, Lord Tennyson",
+      "n_poems": 5,
+      "era": "victorian",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.8,
+      "mean_s2": -0.582,
+      "mean_std_h": 2.785,
+      "mean_trap_ratio": 0.493,
+      "s2_range": 0.643
+    },
+    {
+      "author": "Synthetic (procedural test case)",
+      "n_poems": 5,
+      "era": "procedural",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.8,
+      "mean_s2": -0.702,
+      "mean_std_h": 2.79,
+      "mean_trap_ratio": 0.496,
+      "s2_range": 0.795
+    },
+    {
+      "author": "Percy Bysshe Shelley",
+      "n_poems": 4,
+      "era": "romantic",
+      "dominant_quadrant": "Trap_Release",
+      "consistency": 0.75,
+      "mean_s2": -0.363,
+      "mean_std_h": 2.746,
+      "mean_trap_ratio": 0.584,
+      "s2_range": 0.248
+    },
+    {
+      "author": "Lucille Clifton",
+      "n_poems": 4,
+      "era": "contemporary",
+      "dominant_quadrant": "Metronomic",
+      "consistency": 0.75,
+      "mean_s2": -0.595,
+      "mean_std_h": 2.298,
+      "mean_trap_ratio": 0.381,
+      "s2_range": 0.321
+    },
+    {
+      "author": "Anonymous (found text)",
+      "n_poems": 4,
+      "era": "found_poetry",
+      "dominant_quadrant": "Metronomic",
+      "consistency": 0.75,
+      "mean_s2": -0.577,
+      "mean_std_h": 2.307,
+      "mean_trap_ratio": 0.433,
+      "s2_range": 0.663
+    },
+    {
+      "author": "Robert Browning",
+      "n_poems": 9,
+      "era": "victorian",
+      "dominant_quadrant": "Consistent_Ambush",
+      "consistency": 0.667,
+      "mean_s2": -0.289,
+      "mean_std_h": 2.294,
+      "mean_trap_ratio": 0.497,
+      "s2_range": 0.863
+    },
+    {
+      "author": "Matthew Arnold",
+      "n_poems": 3,
+      "era": "19th_century",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.667,
+      "mean_s2": -0.452,
+      "mean_std_h": 2.57,
+      "mean_trap_ratio": 0.584,
+      "s2_range": 0.405
+    },
+    {
+      "author": "Wallace Stevens",
+      "n_poems": 3,
+      "era": "modernist",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.667,
+      "mean_s2": -0.539,
+      "mean_std_h": 2.806,
+      "mean_trap_ratio": 0.389,
+      "s2_range": 1.013
+    },
+    {
+      "author": "Frank O'Hara",
+      "n_poems": 3,
+      "era": "new_york_school",
+      "dominant_quadrant": "Consistent_Ambush",
+      "consistency": 0.667,
+      "mean_s2": -0.214,
+      "mean_std_h": 2.426,
+      "mean_trap_ratio": 0.432,
+      "s2_range": 0.827
+    },
+    {
+      "author": "Langston Hughes",
+      "n_poems": 3,
+      "era": "harlem_renaissance",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.667,
+      "mean_s2": -0.704,
+      "mean_std_h": 2.845,
+      "mean_trap_ratio": 0.404,
+      "s2_range": 0.535
+    },
+    {
+      "author": "Marianne Moore",
+      "n_poems": 3,
+      "era": "modernist",
+      "dominant_quadrant": "Trap_Release",
+      "consistency": 0.667,
+      "mean_s2": -0.268,
+      "mean_std_h": 2.723,
+      "mean_trap_ratio": 0.495,
+      "s2_range": 0.644
+    },
+    {
+      "author": "Edgar Allan Poe",
+      "n_poems": 3,
+      "era": "19th_century",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.667,
+      "mean_s2": -1.013,
+      "mean_std_h": 2.658,
+      "mean_trap_ratio": 0.426,
+      "s2_range": 0.527
+    },
+    {
+      "author": "Robert Frost",
+      "n_poems": 3,
+      "era": "modernist",
+      "dominant_quadrant": "Consistent_Ambush",
+      "consistency": 0.667,
+      "mean_s2": -0.494,
+      "mean_std_h": 2.181,
+      "mean_trap_ratio": 0.501,
+      "s2_range": 0.662
+    },
+    {
+      "author": "William Shakespeare",
+      "n_poems": 3,
+      "era": "victorian",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.667,
+      "mean_s2": -0.739,
+      "mean_std_h": 2.385,
+      "mean_trap_ratio": 0.438,
+      "s2_range": 0.28
+    },
+    {
+      "author": "Synthetic (research test case)",
+      "n_poems": 3,
+      "era": "cliche_control",
+      "dominant_quadrant": "Metronomic",
+      "consistency": 0.667,
+      "mean_s2": -0.884,
+      "mean_std_h": 2.423,
+      "mean_trap_ratio": 0.506,
+      "s2_range": 0.372
+    },
+    {
+      "author": "Lorine Niedecker",
+      "n_poems": 3,
+      "era": "imagist",
+      "dominant_quadrant": "Consistent_Ambush",
+      "consistency": 0.667,
+      "mean_s2": -0.147,
+      "mean_std_h": 2.792,
+      "mean_trap_ratio": 0.466,
+      "s2_range": 0.501
+    },
+    {
+      "author": "Anonymous (limerick tradition)",
+      "n_poems": 3,
+      "era": "limerick",
+      "dominant_quadrant": "Metronomic",
+      "consistency": 0.667,
+      "mean_s2": -1.123,
+      "mean_std_h": 2.38,
+      "mean_trap_ratio": 0.496,
+      "s2_range": 0.246
+    },
+    {
+      "author": "Edward Lear",
+      "n_poems": 3,
+      "era": "limerick",
+      "dominant_quadrant": "Consistent_Ambush",
+      "consistency": 0.667,
+      "mean_s2": -0.375,
+      "mean_std_h": 2.503,
+      "mean_trap_ratio": 0.425,
+      "s2_range": 1.099
+    },
+    {
+      "author": "Joy Harjo",
+      "n_poems": 3,
+      "era": "postcolonial",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.667,
+      "mean_s2": -0.537,
+      "mean_std_h": 2.902,
+      "mean_trap_ratio": 0.414,
+      "s2_range": 0.127
+    },
+    {
+      "author": "George Oppen",
+      "n_poems": 3,
+      "era": "modernist",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.667,
+      "mean_s2": -0.966,
+      "mean_std_h": 2.853,
+      "mean_trap_ratio": 0.351,
+      "s2_range": 0.563
+    },
+    {
+      "author": "Alfred Lord Tennyson",
+      "n_poems": 5,
+      "era": "victorian",
+      "dominant_quadrant": "Metronomic",
+      "consistency": 0.6,
+      "mean_s2": -0.576,
+      "mean_std_h": 2.457,
+      "mean_trap_ratio": 0.556,
+      "s2_range": 0.457
+    },
+    {
+      "author": "Synthetic (double dactyl test case)",
+      "n_poems": 5,
+      "era": "double_dactyl",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.6,
+      "mean_s2": -0.95,
+      "mean_std_h": 2.729,
+      "mean_trap_ratio": 0.322,
+      "s2_range": 1.084
+    },
+    {
+      "author": "Emily Dickinson",
+      "n_poems": 7,
+      "era": "19th_century",
+      "dominant_quadrant": "Consistent_Ambush",
+      "consistency": 0.571,
+      "mean_s2": 0.002,
+      "mean_std_h": 2.503,
+      "mean_trap_ratio": 0.537,
+      "s2_range": 1.495
+    },
+    {
+      "author": "William Blake",
+      "n_poems": 7,
+      "era": "romantic",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.571,
+      "mean_s2": -0.782,
+      "mean_std_h": 2.757,
+      "mean_trap_ratio": 0.48,
+      "s2_range": 0.887
+    },
+    {
+      "author": "Anonymous (Hebrew Bible)",
+      "n_poems": 7,
+      "era": "biblical",
+      "dominant_quadrant": "Metronomic",
+      "consistency": 0.571,
+      "mean_s2": -0.547,
+      "mean_std_h": 2.345,
+      "mean_trap_ratio": 0.468,
+      "s2_range": 0.453
+    },
+    {
+      "author": "Synthetic (clerihew test case)",
+      "n_poems": 7,
+      "era": "clerihew",
+      "dominant_quadrant": "Trap_Release",
+      "consistency": 0.571,
+      "mean_s2": 0.696,
+      "mean_std_h": 2.558,
+      "mean_trap_ratio": 0.542,
+      "s2_range": 2.48
+    },
+    {
+      "author": "John Keats",
+      "n_poems": 9,
+      "era": "romantic",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.556,
+      "mean_s2": -0.441,
+      "mean_std_h": 2.674,
+      "mean_trap_ratio": 0.464,
+      "s2_range": 0.757
+    },
+    {
+      "author": "Gerard Manley Hopkins",
+      "n_poems": 6,
+      "era": "victorian",
+      "dominant_quadrant": "Trap_Release",
+      "consistency": 0.5,
+      "mean_s2": -0.134,
+      "mean_std_h": 2.706,
+      "mean_trap_ratio": 0.458,
+      "s2_range": 0.971
+    },
+    {
+      "author": "Thomas Hardy",
+      "n_poems": 6,
+      "era": "victorian",
+      "dominant_quadrant": "Trap_Release",
+      "consistency": 0.5,
+      "mean_s2": 0.037,
+      "mean_std_h": 2.562,
+      "mean_trap_ratio": 0.503,
+      "s2_range": 0.98
+    },
+    {
+      "author": "William Carlos Williams",
+      "n_poems": 4,
+      "era": "modernist",
+      "dominant_quadrant": "Metronomic",
+      "consistency": 0.5,
+      "mean_s2": -0.757,
+      "mean_std_h": 2.431,
+      "mean_trap_ratio": 0.5,
+      "s2_range": 1.225
+    },
+    {
+      "author": "Gertrude Stein",
+      "n_poems": 4,
+      "era": "modernist",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.5,
+      "mean_s2": -0.393,
+      "mean_std_h": 2.573,
+      "mean_trap_ratio": 0.502,
+      "s2_range": 1.066
+    },
+    {
+      "author": "Christina Rossetti",
+      "n_poems": 4,
+      "era": "victorian",
+      "dominant_quadrant": "Trap_Release",
+      "consistency": 0.5,
+      "mean_s2": -0.308,
+      "mean_std_h": 2.591,
+      "mean_trap_ratio": 0.436,
+      "s2_range": 0.417
+    },
+    {
+      "author": "Alexander Pope",
+      "n_poems": 4,
+      "era": "parody",
+      "dominant_quadrant": "Consistent_Ambush",
+      "consistency": 0.5,
+      "mean_s2": -0.175,
+      "mean_std_h": 2.452,
+      "mean_trap_ratio": 0.484,
+      "s2_range": 0.784
+    },
+    {
+      "author": "T.S. Eliot",
+      "n_poems": 5,
+      "era": "modernist",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.4,
+      "mean_s2": -0.31,
+      "mean_std_h": 2.598,
+      "mean_trap_ratio": 0.542,
+      "s2_range": 0.388
+    },
+    {
+      "author": "Traditional (Scottish ballad)",
+      "n_poems": 5,
+      "era": "ballad",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.4,
+      "mean_s2": -0.422,
+      "mean_std_h": 2.864,
+      "mean_trap_ratio": 0.436,
+      "s2_range": 0.545
+    },
+    {
+      "author": "Lewis Carroll",
+      "n_poems": 5,
+      "era": "parody",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.4,
+      "mean_s2": -0.644,
+      "mean_std_h": 2.751,
+      "mean_trap_ratio": 0.49,
+      "s2_range": 0.952
+    },
+    {
+      "author": "John Ashbery",
+      "n_poems": 17,
+      "era": "new_york_school",
+      "dominant_quadrant": "Metronomic",
+      "consistency": 0.353,
+      "mean_s2": -0.641,
+      "mean_std_h": 2.373,
+      "mean_trap_ratio": 0.473,
+      "s2_range": 1.561
+    },
+    {
+      "author": "E.E. Cummings",
+      "n_poems": 3,
+      "era": "modernist",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.333,
+      "mean_s2": -0.798,
+      "mean_std_h": 2.641,
+      "mean_trap_ratio": 0.464,
+      "s2_range": 1.491
+    },
+    {
+      "author": "Kobayashi Issa",
+      "n_poems": 3,
+      "era": "haiku",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.333,
+      "mean_s2": -0.907,
+      "mean_std_h": 2.557,
+      "mean_trap_ratio": 0.733,
+      "s2_range": 2.42
+    },
+    {
+      "author": "W.B. Yeats",
+      "n_poems": 3,
+      "era": "modernist",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.333,
+      "mean_s2": -0.443,
+      "mean_std_h": 2.668,
+      "mean_trap_ratio": 0.485,
+      "s2_range": 0.221
+    },
+    {
+      "author": "Matsuo Bash\u014d",
+      "n_poems": 3,
+      "era": "haiku",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.333,
+      "mean_s2": 0.115,
+      "mean_std_h": 2.964,
+      "mean_trap_ratio": 0.512,
+      "s2_range": 2.131
+    },
+    {
+      "author": "Anonymous",
+      "n_poems": 3,
+      "era": "limerick",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.333,
+      "mean_s2": -0.69,
+      "mean_std_h": 2.154,
+      "mean_trap_ratio": 0.273,
+      "s2_range": 1.338
+    },
+    {
+      "author": "Edmund Clerihew Bentley",
+      "n_poems": 3,
+      "era": "clerihew",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.333,
+      "mean_s2": 0.216,
+      "mean_std_h": 2.672,
+      "mean_trap_ratio": 0.771,
+      "s2_range": 2.147
+    },
+    {
+      "author": "Algernon Charles Swinburne",
+      "n_poems": 3,
+      "era": "ekphrastic",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.333,
+      "mean_s2": -0.412,
+      "mean_std_h": 2.395,
+      "mean_trap_ratio": 0.548,
+      "s2_range": 0.224
+    },
+    {
+      "author": "Synthetic (scientific register test case)",
+      "n_poems": 3,
+      "era": "contemporary",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.333,
+      "mean_s2": -0.175,
+      "mean_std_h": 2.647,
+      "mean_trap_ratio": 0.426,
+      "s2_range": 0.818
+    },
+    {
+      "author": "Walt Whitman",
+      "n_poems": 10,
+      "era": "19th_century",
+      "dominant_quadrant": "Erratic_Conformist",
+      "consistency": 0.3,
+      "mean_s2": -0.347,
+      "mean_std_h": 2.585,
+      "mean_trap_ratio": 0.485,
+      "s2_range": 1.588
+    }
+  ],
+  "era_dominance": {
+    "victorian": {
+      "n": 34,
+      "dominant": "Trap_Release",
+      "pct": 0.353,
+      "counts": {
+        "Erratic_Conformist": 9,
+        "Metronomic": 5,
+        "Trap_Release": 12,
+        "Consistent_Ambush": 8
+      }
+    },
+    "modernist": {
+      "n": 30,
+      "dominant": "Erratic_Conformist",
+      "pct": 0.367,
+      "counts": {
+        "Erratic_Conformist": 11,
+        "Metronomic": 5,
+        "Trap_Release": 9,
+        "Consistent_Ambush": 5
+      }
+    },
+    "new_york_school": {
+      "n": 26,
+      "dominant": "Metronomic",
+      "pct": 0.346,
+      "counts": {
+        "Erratic_Conformist": 7,
+        "Metronomic": 9,
+        "Trap_Release": 3,
+        "Consistent_Ambush": 7
+      }
+    },
+    "romantic": {
+      "n": 23,
+      "dominant": "Erratic_Conformist",
+      "pct": 0.478,
+      "counts": {
+        "Erratic_Conformist": 11,
+        "Metronomic": 2,
+        "Trap_Release": 8,
+        "Consistent_Ambush": 2
+      }
+    },
+    "contemporary": {
+      "n": 21,
+      "dominant": "Metronomic",
+      "pct": 0.333,
+      "counts": {
+        "Erratic_Conformist": 3,
+        "Metronomic": 7,
+        "Trap_Release": 4,
+        "Consistent_Ambush": 7
+      }
+    },
+    "19th_century": {
+      "n": 19,
+      "dominant": "Consistent_Ambush",
+      "pct": 0.368,
+      "counts": {
+        "Erratic_Conformist": 6,
+        "Metronomic": 3,
+        "Trap_Release": 3,
+        "Consistent_Ambush": 7
+      }
+    },
+    "oulipo": {
+      "n": 13,
+      "dominant": "Consistent_Ambush",
+      "pct": 0.308,
+      "counts": {
+        "Erratic_Conformist": 3,
+        "Metronomic": 3,
+        "Trap_Release": 3,
+        "Consistent_Ambush": 4
+      }
+    },
+    "haiku": {
+      "n": 12,
+      "dominant": "Trap_Release",
+      "pct": 0.333,
+      "counts": {
+        "Erratic_Conformist": 3,
+        "Metronomic": 1,
+        "Trap_Release": 4,
+        "Consistent_Ambush": 4
+      }
+    },
+    "prose_poetry": {
+      "n": 12,
+      "dominant": "Metronomic",
+      "pct": 0.417,
+      "counts": {
+        "Erratic_Conformist": 1,
+        "Metronomic": 5,
+        "Trap_Release": 1,
+        "Consistent_Ambush": 5
+      }
+    },
+    "dramatic_monologue": {
+      "n": 12,
+      "dominant": "Metronomic",
+      "pct": 0.333,
+      "counts": {
+        "Erratic_Conformist": 2,
+        "Metronomic": 4,
+        "Trap_Release": 2,
+        "Consistent_Ambush": 4
+      }
+    },
+    "early_modern": {
+      "n": 11,
+      "dominant": "Consistent_Ambush",
+      "pct": 0.545,
+      "counts": {
+        "Erratic_Conformist": 1,
+        "Metronomic": 4,
+        "Consistent_Ambush": 6
+      }
+    },
+    "limerick": {
+      "n": 10,
+      "dominant": "Consistent_Ambush",
+      "pct": 0.4,
+      "counts": {
+        "Erratic_Conformist": 3,
+        "Metronomic": 3,
+        "Consistent_Ambush": 4
+      }
+    },
+    "clerihew": {
+      "n": 10,
+      "dominant": "Trap_Release",
+      "pct": 0.5,
+      "counts": {
+        "Erratic_Conformist": 1,
+        "Metronomic": 1,
+        "Trap_Release": 5,
+        "Consistent_Ambush": 3
+      }
+    },
+    "found_poetry": {
+      "n": 9,
+      "dominant": "Metronomic",
+      "pct": 0.556,
+      "counts": {
+        "Erratic_Conformist": 2,
+        "Metronomic": 5,
+        "Consistent_Ambush": 2
+      }
+    },
+    "beat": {
+      "n": 8,
+      "dominant": "Trap_Release",
+      "pct": 0.625,
+      "counts": {
+        "Trap_Release": 5,
+        "Consistent_Ambush": 3
+      }
+    },
+    "harlem_renaissance": {
+      "n": 8,
+      "dominant": "Trap_Release",
+      "pct": 0.5,
+      "counts": {
+        "Erratic_Conformist": 2,
+        "Metronomic": 1,
+        "Trap_Release": 4,
+        "Consistent_Ambush": 1
+      }
+    },
+    "surrealist": {
+      "n": 8,
+      "dominant": "Erratic_Conformist",
+      "pct": 0.375,
+      "counts": {
+        "Erratic_Conformist": 3,
+        "Metronomic": 3,
+        "Trap_Release": 1,
+        "Consistent_Ambush": 1
+      }
+    },
+    "fixed_form": {
+      "n": 8,
+      "dominant": "Trap_Release",
+      "pct": 0.5,
+      "counts": {
+        "Erratic_Conformist": 3,
+        "Metronomic": 1,
+        "Trap_Release": 4
+      }
+    },
+    "18th_century": {
+      "n": 8,
+      "dominant": "Trap_Release",
+      "pct": 0.5,
+      "counts": {
+        "Metronomic": 1,
+        "Trap_Release": 4,
+        "Consistent_Ambush": 3
+      }
+    },
+    "biblical": {
+      "n": 8,
+      "dominant": "Metronomic",
+      "pct": 0.5,
+      "counts": {
+        "Erratic_Conformist": 2,
+        "Metronomic": 4,
+        "Trap_Release": 1,
+        "Consistent_Ambush": 1
+      }
+    },
+    "elegy": {
+      "n": 8,
+      "dominant": "Metronomic",
+      "pct": 0.375,
+      "counts": {
+        "Erratic_Conformist": 2,
+        "Metronomic": 3,
+        "Trap_Release": 1,
+        "Consistent_Ambush": 2
+      }
+    },
+    "ekphrastic": {
+      "n": 8,
+      "dominant": "Consistent_Ambush",
+      "pct": 0.625,
+      "counts": {
+        "Erratic_Conformist": 2,
+        "Trap_Release": 1,
+        "Consistent_Ambush": 5
+      }
+    },
+    "procedural": {
+      "n": 8,
+      "dominant": "Erratic_Conformist",
+      "pct": 0.5,
+      "counts": {
+        "Erratic_Conformist": 4,
+        "Trap_Release": 2,
+        "Consistent_Ambush": 2
+      }
+    },
+    "metaphysical": {
+      "n": 7,
+      "dominant": "Metronomic",
+      "pct": 0.429,
+      "counts": {
+        "Erratic_Conformist": 1,
+        "Metronomic": 3,
+        "Consistent_Ambush": 3
+      }
+    },
+    "confessional": {
+      "n": 6,
+      "dominant": "Trap_Release",
+      "pct": 0.333,
+      "counts": {
+        "Erratic_Conformist": 1,
+        "Metronomic": 1,
+        "Trap_Release": 2,
+        "Consistent_Ambush": 2
+      }
+    },
+    "mid_century": {
+      "n": 6,
+      "dominant": "Erratic_Conformist",
+      "pct": 0.333,
+      "counts": {
+        "Erratic_Conformist": 2,
+        "Metronomic": 1,
+        "Trap_Release": 1,
+        "Consistent_Ambush": 2
+      }
+    },
+    "language": {
+      "n": 6,
+      "dominant": "Metronomic",
+      "pct": 0.667,
+      "counts": {
+        "Erratic_Conformist": 1,
+        "Metronomic": 4,
+        "Trap_Release": 1
+      }
+    },
+    "ballad": {
+      "n": 6,
+      "dominant": "Consistent_Ambush",
+      "pct": 0.5,
+      "counts": {
+        "Erratic_Conformist": 2,
+        "Trap_Release": 1,
+        "Consistent_Ambush": 3
+      }
+    },
+    "postcolonial": {
+      "n": 6,
+      "dominant": "Erratic_Conformist",
+      "pct": 0.333,
+      "counts": {
+        "Erratic_Conformist": 2,
+        "Metronomic": 2,
+        "Trap_Release": 2
+      }
+    },
+    "objectivist": {
+      "n": 6,
+      "dominant": "Erratic_Conformist",
+      "pct": 0.5,
+      "counts": {
+        "Erratic_Conformist": 3,
+        "Metronomic": 1,
+        "Trap_Release": 1,
+        "Consistent_Ambush": 1
+      }
+    },
+    "concrete": {
+      "n": 5,
+      "dominant": "Erratic_Conformist",
+      "pct": 0.4,
+      "counts": {
+        "Erratic_Conformist": 2,
+        "Metronomic": 1,
+        "Trap_Release": 2
+      }
+    },
+    "imagist": {
+      "n": 5,
+      "dominant": "Metronomic",
+      "pct": 0.4,
+      "counts": {
+        "Metronomic": 2,
+        "Trap_Release": 1,
+        "Consistent_Ambush": 2
+      }
+    },
+    "old_english": {
+      "n": 5,
+      "dominant": "Consistent_Ambush",
+      "pct": 0.8,
+      "counts": {
+        "Erratic_Conformist": 1,
+        "Consistent_Ambush": 4
+      }
+    },
+    "double_dactyl": {
+      "n": 5,
+      "dominant": "Erratic_Conformist",
+      "pct": 0.6,
+      "counts": {
+        "Erratic_Conformist": 3,
+        "Metronomic": 1,
+        "Trap_Release": 1
+      }
+    },
+    "ancient": {
+      "n": 4,
+      "dominant": "Consistent_Ambush",
+      "pct": 0.5,
+      "counts": {
+        "Metronomic": 1,
+        "Trap_Release": 1,
+        "Consistent_Ambush": 2
+      }
+    },
+    "cliche_control": {
+      "n": 4,
+      "dominant": "Erratic_Conformist",
+      "pct": 0.5,
+      "counts": {
+        "Erratic_Conformist": 2,
+        "Metronomic": 2
+      }
+    },
+    "latin_american": {
+      "n": 4,
+      "dominant": "Erratic_Conformist",
+      "pct": 0.25,
+      "counts": {
+        "Erratic_Conformist": 1,
+        "Metronomic": 1,
+        "Trap_Release": 1,
+        "Consistent_Ambush": 1
+      }
+    },
+    "german_expressionist": {
+      "n": 4,
+      "dominant": "Trap_Release",
+      "pct": 0.5,
+      "counts": {
+        "Metronomic": 1,
+        "Trap_Release": 2,
+        "Consistent_Ambush": 1
+      }
+    },
+    "parody": {
+      "n": 4,
+      "dominant": "Trap_Release",
+      "pct": 0.5,
+      "counts": {
+        "Metronomic": 1,
+        "Trap_Release": 2,
+        "Consistent_Ambush": 1
+      }
+    },
+    "classical_chinese": {
+      "n": 4,
+      "dominant": "Metronomic",
+      "pct": 0.75,
+      "counts": {
+        "Metronomic": 3,
+        "Consistent_Ambush": 1
+      }
+    },
+    "song_lyrics": {
+      "n": 3,
+      "dominant": "Erratic_Conformist",
+      "pct": 0.667,
+      "counts": {
+        "Erratic_Conformist": 2,
+        "Trap_Release": 1
+      }
+    },
+    "spoken_word": {
+      "n": 3,
+      "dominant": "Metronomic",
+      "pct": 0.667,
+      "counts": {
+        "Metronomic": 2,
+        "Trap_Release": 1
+      }
+    },
+    "parody_original": {
+      "n": 3,
+      "dominant": "Metronomic",
+      "pct": 0.333,
+      "counts": {
+        "Metronomic": 1,
+        "Trap_Release": 1,
+        "Consistent_Ambush": 1
+      }
+    },
+    "ghazal": {
+      "n": 3,
+      "dominant": "Metronomic",
+      "pct": 0.333,
+      "counts": {
+        "Metronomic": 1,
+        "Trap_Release": 1,
+        "Consistent_Ambush": 1
+      }
+    },
+    "war_poetry": {
+      "n": 3,
+      "dominant": "Consistent_Ambush",
+      "pct": 0.667,
+      "counts": {
+        "Erratic_Conformist": 1,
+        "Consistent_Ambush": 2
+      }
+    },
+    "villanelle": {
+      "n": 3,
+      "dominant": "Trap_Release",
+      "pct": 0.667,
+      "counts": {
+        "Erratic_Conformist": 1,
+        "Trap_Release": 2
+      }
+    }
+  }
+}
