@@ -1,0 +1,1053 @@
+{
+  "n_poems_matched": 366,
+  "n_poems_total": 449,
+  "arc_peak_quarters": {
+    "DECLINE": "Q1",
+    "ASCENT": "Q4",
+    "ARCH": "Q2",
+    "U_SHAPE": "Q4",
+    "FLAT": null
+  },
+  "arc_peak_vocab": {
+    "DECLINE": [
+      {
+        "token": "a",
+        "count": 7,
+        "mean_s2": 4.51,
+        "max_s2": 8.931
+      },
+      {
+        "token": "upon",
+        "count": 5,
+        "mean_s2": 5.869,
+        "max_s2": 10.37
+      },
+      {
+        "token": "\u2014",
+        "count": 5,
+        "mean_s2": 3.618,
+        "max_s2": 4.568
+      },
+      {
+        "token": "my",
+        "count": 4,
+        "mean_s2": 2.955,
+        "max_s2": 4.22
+      },
+      {
+        "token": "d",
+        "count": 4,
+        "mean_s2": 5.566,
+        "max_s2": 8.264
+      },
+      {
+        "token": "in",
+        "count": 3,
+        "mean_s2": 5.655,
+        "max_s2": 10.155
+      },
+      {
+        "token": "survey",
+        "count": 3,
+        "mean_s2": 4.326,
+        "max_s2": 6.129
+      },
+      {
+        "token": "of",
+        "count": 3,
+        "mean_s2": 5.529,
+        "max_s2": 10.454
+      },
+      {
+        "token": "to",
+        "count": 3,
+        "mean_s2": 2.725,
+        "max_s2": 3.913
+      },
+      {
+        "token": "her",
+        "count": 3,
+        "mean_s2": 7.903,
+        "max_s2": 10.322
+      },
+      {
+        "token": "o",
+        "count": 3,
+        "mean_s2": 2.636,
+        "max_s2": 3.124
+      },
+      {
+        "token": "sits",
+        "count": 3,
+        "mean_s2": 3.818,
+        "max_s2": 4.345
+      },
+      {
+        "token": "round",
+        "count": 3,
+        "mean_s2": 6.386,
+        "max_s2": 7.485
+      },
+      {
+        "token": "b",
+        "count": 3,
+        "mean_s2": 5.485,
+        "max_s2": 10.445
+      },
+      {
+        "token": "hold",
+        "count": 3,
+        "mean_s2": 5.485,
+        "max_s2": 6.39
+      },
+      {
+        "token": "app",
+        "count": 3,
+        "mean_s2": 7.67,
+        "max_s2": 7.89
+      },
+      {
+        "token": "he",
+        "count": 2,
+        "mean_s2": 3.533,
+        "max_s2": 4.98
+      },
+      {
+        "token": "m",
+        "count": 2,
+        "mean_s2": 8.63,
+        "max_s2": 14.1
+      },
+      {
+        "token": "tonight",
+        "count": 2,
+        "mean_s2": 6.495,
+        "max_s2": 6.495
+      },
+      {
+        "token": "full",
+        "count": 2,
+        "mean_s2": 2.561,
+        "max_s2": 2.561
+      },
+      {
+        "token": "lies",
+        "count": 2,
+        "mean_s2": 7.994,
+        "max_s2": 7.994
+      },
+      {
+        "token": "fair",
+        "count": 2,
+        "mean_s2": 5.087,
+        "max_s2": 5.087
+      },
+      {
+        "token": "late",
+        "count": 2,
+        "mean_s2": 3.725,
+        "max_s2": 4.415
+      },
+      {
+        "token": "day",
+        "count": 2,
+        "mean_s2": 4.427,
+        "max_s2": 5.842
+      },
+      {
+        "token": "deferred",
+        "count": 2,
+        "mean_s2": 5.954,
+        "max_s2": 5.954
+      },
+      {
+        "token": "dry",
+        "count": 2,
+        "mean_s2": 5.326,
+        "max_s2": 5.326
+      },
+      {
+        "token": "ra",
+        "count": 2,
+        "mean_s2": 2.082,
+        "max_s2": 2.082
+      },
+      {
+        "token": "rivers",
+        "count": 2,
+        "mean_s2": 9.753,
+        "max_s2": 10.909
+      },
+      {
+        "token": "as",
+        "count": 2,
+        "mean_s2": 4.011,
+        "max_s2": 5.92
+      },
+      {
+        "token": "i",
+        "count": 2,
+        "mean_s2": 3.602,
+        "max_s2": 3.884
+      }
+    ],
+    "ASCENT": [
+      {
+        "token": "and",
+        "count": 5,
+        "mean_s2": 3.28,
+        "max_s2": 5.227
+      },
+      {
+        "token": "god",
+        "count": 3,
+        "mean_s2": 3.686,
+        "max_s2": 5.516
+      },
+      {
+        "token": "o",
+        "count": 3,
+        "mean_s2": 4.454,
+        "max_s2": 5.889
+      },
+      {
+        "token": "\u2014",
+        "count": 3,
+        "mean_s2": 4.452,
+        "max_s2": 5.39
+      },
+      {
+        "token": "fr",
+        "count": 2,
+        "mean_s2": 4.567,
+        "max_s2": 5.131
+      },
+      {
+        "token": "after",
+        "count": 2,
+        "mean_s2": 6.077,
+        "max_s2": 9.373
+      },
+      {
+        "token": "in",
+        "count": 2,
+        "mean_s2": 3.56,
+        "max_s2": 3.582
+      },
+      {
+        "token": "who",
+        "count": 2,
+        "mean_s2": 2.771,
+        "max_s2": 3.517
+      },
+      {
+        "token": "plain",
+        "count": 2,
+        "mean_s2": 7.468,
+        "max_s2": 9.79
+      },
+      {
+        "token": "where",
+        "count": 2,
+        "mean_s2": 3.512,
+        "max_s2": 4.831
+      },
+      {
+        "token": "this",
+        "count": 2,
+        "mean_s2": 3.849,
+        "max_s2": 4.368
+      },
+      {
+        "token": "air",
+        "count": 2,
+        "mean_s2": 6.492,
+        "max_s2": 9.515
+      },
+      {
+        "token": "oh",
+        "count": 2,
+        "mean_s2": 2.184,
+        "max_s2": 2.328
+      },
+      {
+        "token": "love",
+        "count": 2,
+        "mean_s2": 3.429,
+        "max_s2": 4.408
+      },
+      {
+        "token": "thy",
+        "count": 2,
+        "mean_s2": 5.03,
+        "max_s2": 7.971
+      },
+      {
+        "token": "only",
+        "count": 2,
+        "mean_s2": 2.679,
+        "max_s2": 2.683
+      },
+      {
+        "token": "ly",
+        "count": 2,
+        "mean_s2": 6.114,
+        "max_s2": 6.452
+      },
+      {
+        "token": "under",
+        "count": 2,
+        "mean_s2": 14.036,
+        "max_s2": 19.99
+      },
+      {
+        "token": "have",
+        "count": 2,
+        "mean_s2": 3.556,
+        "max_s2": 4.015
+      },
+      {
+        "token": "cheerful",
+        "count": 2,
+        "mean_s2": 5.103,
+        "max_s2": 6.516
+      },
+      {
+        "token": "returns",
+        "count": 2,
+        "mean_s2": 5.191,
+        "max_s2": 6.418
+      },
+      {
+        "token": "again",
+        "count": 2,
+        "mean_s2": 6.281,
+        "max_s2": 9.789
+      },
+      {
+        "token": "but",
+        "count": 2,
+        "mean_s2": 2.221,
+        "max_s2": 2.258
+      },
+      {
+        "token": "first",
+        "count": 2,
+        "mean_s2": 8.288,
+        "max_s2": 10.511
+      },
+      {
+        "token": "iness",
+        "count": 2,
+        "mean_s2": 2.937,
+        "max_s2": 3.367
+      },
+      {
+        "token": "statue",
+        "count": 1,
+        "mean_s2": 6.796,
+        "max_s2": 6.796
+      },
+      {
+        "token": "gray",
+        "count": 1,
+        "mean_s2": 5.665,
+        "max_s2": 5.665
+      },
+      {
+        "token": "big",
+        "count": 1,
+        "mean_s2": 13.248,
+        "max_s2": 13.248
+      },
+      {
+        "token": "isco",
+        "count": 1,
+        "mean_s2": 5.027,
+        "max_s2": 5.027
+      },
+      {
+        "token": "which",
+        "count": 1,
+        "mean_s2": 6.143,
+        "max_s2": 6.143
+      }
+    ],
+    "ARCH": [
+      {
+        "token": "\u2014",
+        "count": 4,
+        "mean_s2": 5.411,
+        "max_s2": 9.698
+      },
+      {
+        "token": "when",
+        "count": 3,
+        "mean_s2": 5.272,
+        "max_s2": 6.123
+      },
+      {
+        "token": "heard",
+        "count": 3,
+        "mean_s2": 5.087,
+        "max_s2": 7.223
+      },
+      {
+        "token": "my",
+        "count": 3,
+        "mean_s2": 4.714,
+        "max_s2": 7.177
+      },
+      {
+        "token": "too",
+        "count": 3,
+        "mean_s2": 3.74,
+        "max_s2": 5.147
+      },
+      {
+        "token": "ing",
+        "count": 3,
+        "mean_s2": 4.84,
+        "max_s2": 5.765
+      },
+      {
+        "token": "not",
+        "count": 3,
+        "mean_s2": 3.268,
+        "max_s2": 4.163
+      },
+      {
+        "token": "it",
+        "count": 2,
+        "mean_s2": 2.401,
+        "max_s2": 2.528
+      },
+      {
+        "token": "though",
+        "count": 2,
+        "mean_s2": 3.069,
+        "max_s2": 3.829
+      },
+      {
+        "token": "survey",
+        "count": 2,
+        "mean_s2": 6.139,
+        "max_s2": 7.846
+      },
+      {
+        "token": "to",
+        "count": 2,
+        "mean_s2": 4.633,
+        "max_s2": 7.214
+      },
+      {
+        "token": "well",
+        "count": 2,
+        "mean_s2": 3.711,
+        "max_s2": 4.511
+      },
+      {
+        "token": "four",
+        "count": 2,
+        "mean_s2": 6.022,
+        "max_s2": 6.24
+      },
+      {
+        "token": "from",
+        "count": 2,
+        "mean_s2": 2.935,
+        "max_s2": 3.491
+      },
+      {
+        "token": "and",
+        "count": 2,
+        "mean_s2": 6.843,
+        "max_s2": 8.828
+      },
+      {
+        "token": "which",
+        "count": 2,
+        "mean_s2": 11.614,
+        "max_s2": 15.072
+      },
+      {
+        "token": "sweet",
+        "count": 2,
+        "mean_s2": 6.098,
+        "max_s2": 9.489
+      },
+      {
+        "token": "only",
+        "count": 2,
+        "mean_s2": 4.253,
+        "max_s2": 6.033
+      },
+      {
+        "token": "understand",
+        "count": 2,
+        "mean_s2": 2.419,
+        "max_s2": 2.464
+      },
+      {
+        "token": "around",
+        "count": 2,
+        "mean_s2": 6.447,
+        "max_s2": 9.936
+      },
+      {
+        "token": "more",
+        "count": 2,
+        "mean_s2": 4.519,
+        "max_s2": 6.41
+      },
+      {
+        "token": "reply",
+        "count": 2,
+        "mean_s2": 5.538,
+        "max_s2": 5.872
+      },
+      {
+        "token": "year",
+        "count": 2,
+        "mean_s2": 5.84,
+        "max_s2": 8.876
+      },
+      {
+        "token": "fresh",
+        "count": 2,
+        "mean_s2": 5.131,
+        "max_s2": 6.626
+      },
+      {
+        "token": "full",
+        "count": 2,
+        "mean_s2": 2.819,
+        "max_s2": 3.105
+      },
+      {
+        "token": "here",
+        "count": 2,
+        "mean_s2": 9.15,
+        "max_s2": 11.794
+      },
+      {
+        "token": "his",
+        "count": 2,
+        "mean_s2": 6.247,
+        "max_s2": 7.646
+      },
+      {
+        "token": "won",
+        "count": 2,
+        "mean_s2": 6.017,
+        "max_s2": 6.017
+      },
+      {
+        "token": "scy",
+        "count": 2,
+        "mean_s2": 9.603,
+        "max_s2": 9.603
+      },
+      {
+        "token": "ld",
+        "count": 2,
+        "mean_s2": 5.682,
+        "max_s2": 5.682
+      }
+    ],
+    "U_SHAPE": [
+      {
+        "token": "and",
+        "count": 9,
+        "mean_s2": 3.217,
+        "max_s2": 4.455
+      },
+      {
+        "token": "\u2014",
+        "count": 9,
+        "mean_s2": 7.204,
+        "max_s2": 15.26
+      },
+      {
+        "token": "the",
+        "count": 5,
+        "mean_s2": 4.029,
+        "max_s2": 5.399
+      },
+      {
+        "token": "beneath",
+        "count": 4,
+        "mean_s2": 6.229,
+        "max_s2": 8.522
+      },
+      {
+        "token": "upon",
+        "count": 4,
+        "mean_s2": 3.916,
+        "max_s2": 5.545
+      },
+      {
+        "token": "l",
+        "count": 4,
+        "mean_s2": 9.338,
+        "max_s2": 17.734
+      },
+      {
+        "token": "they",
+        "count": 4,
+        "mean_s2": 3.467,
+        "max_s2": 5.143
+      },
+      {
+        "token": "in",
+        "count": 4,
+        "mean_s2": 2.875,
+        "max_s2": 3.684
+      },
+      {
+        "token": "fl",
+        "count": 3,
+        "mean_s2": 5.066,
+        "max_s2": 8.828
+      },
+      {
+        "token": "at",
+        "count": 3,
+        "mean_s2": 3.734,
+        "max_s2": 4.919
+      },
+      {
+        "token": "nothing",
+        "count": 3,
+        "mean_s2": 3.876,
+        "max_s2": 4.638
+      },
+      {
+        "token": "beside",
+        "count": 3,
+        "mean_s2": 4.216,
+        "max_s2": 5.625
+      },
+      {
+        "token": "cold",
+        "count": 3,
+        "mean_s2": 3.584,
+        "max_s2": 4.582
+      },
+      {
+        "token": "out",
+        "count": 3,
+        "mean_s2": 3.405,
+        "max_s2": 3.494
+      },
+      {
+        "token": "just",
+        "count": 3,
+        "mean_s2": 2.799,
+        "max_s2": 3.927
+      },
+      {
+        "token": "i",
+        "count": 3,
+        "mean_s2": 6.005,
+        "max_s2": 7.157
+      },
+      {
+        "token": "on",
+        "count": 3,
+        "mean_s2": 4.045,
+        "max_s2": 5.685
+      },
+      {
+        "token": "their",
+        "count": 3,
+        "mean_s2": 3.306,
+        "max_s2": 5.482
+      },
+      {
+        "token": "turning",
+        "count": 3,
+        "mean_s2": 4.861,
+        "max_s2": 5.686
+      },
+      {
+        "token": "by",
+        "count": 3,
+        "mean_s2": 4.371,
+        "max_s2": 5.727
+      },
+      {
+        "token": "who",
+        "count": 3,
+        "mean_s2": 6.118,
+        "max_s2": 8.763
+      },
+      {
+        "token": "put",
+        "count": 2,
+        "mean_s2": 2.917,
+        "max_s2": 3.647
+      },
+      {
+        "token": "my",
+        "count": 2,
+        "mean_s2": 4.659,
+        "max_s2": 7.044
+      },
+      {
+        "token": "for",
+        "count": 2,
+        "mean_s2": 2.425,
+        "max_s2": 2.613
+      },
+      {
+        "token": "a",
+        "count": 2,
+        "mean_s2": 2.574,
+        "max_s2": 2.856
+      },
+      {
+        "token": "decay",
+        "count": 2,
+        "mean_s2": 4.102,
+        "max_s2": 4.125
+      },
+      {
+        "token": "survey",
+        "count": 2,
+        "mean_s2": 5.0,
+        "max_s2": 7.901
+      },
+      {
+        "token": "here",
+        "count": 2,
+        "mean_s2": 5.975,
+        "max_s2": 9.734
+      },
+      {
+        "token": "if",
+        "count": 2,
+        "mean_s2": 3.391,
+        "max_s2": 4.727
+      },
+      {
+        "token": "not",
+        "count": 2,
+        "mean_s2": 2.178,
+        "max_s2": 2.252
+      }
+    ]
+  },
+  "arc_q_means": {
+    "DECLINE": {
+      "Q1": 0.563,
+      "Q2": -0.167,
+      "Q3": -0.687,
+      "Q4": -0.644
+    },
+    "ASCENT": {
+      "Q1": -0.654,
+      "Q2": -0.588,
+      "Q3": -0.236,
+      "Q4": 0.583
+    },
+    "ARCH": {
+      "Q1": -0.537,
+      "Q2": 0.365,
+      "Q3": 0.104,
+      "Q4": -0.855
+    },
+    "U_SHAPE": {
+      "Q1": 0.213,
+      "Q2": -0.568,
+      "Q3": -0.511,
+      "Q4": -0.271
+    },
+    "FLAT": {
+      "Q1": -0.209,
+      "Q2": -0.228,
+      "Q3": -0.35,
+      "Q4": -0.311
+    }
+  },
+  "ascent_exclusive_tokens": [
+    {
+      "token": "thy",
+      "ascent_pct": 66.7,
+      "ascent_n": 2,
+      "total_n": 3
+    },
+    {
+      "token": "under",
+      "ascent_pct": 66.7,
+      "ascent_n": 2,
+      "total_n": 3
+    },
+    {
+      "token": "this",
+      "ascent_pct": 66.7,
+      "ascent_n": 2,
+      "total_n": 3
+    },
+    {
+      "token": "god",
+      "ascent_pct": 60.0,
+      "ascent_n": 3,
+      "total_n": 5
+    },
+    {
+      "token": "after",
+      "ascent_pct": 50.0,
+      "ascent_n": 2,
+      "total_n": 4
+    },
+    {
+      "token": "again",
+      "ascent_pct": 50.0,
+      "ascent_n": 2,
+      "total_n": 4
+    },
+    {
+      "token": "air",
+      "ascent_pct": 40.0,
+      "ascent_n": 2,
+      "total_n": 5
+    },
+    {
+      "token": "who",
+      "ascent_pct": 40.0,
+      "ascent_n": 2,
+      "total_n": 5
+    },
+    {
+      "token": "o",
+      "ascent_pct": 37.5,
+      "ascent_n": 3,
+      "total_n": 8
+    },
+    {
+      "token": "but",
+      "ascent_pct": 33.3,
+      "ascent_n": 2,
+      "total_n": 6
+    },
+    {
+      "token": "love",
+      "ascent_pct": 33.3,
+      "ascent_n": 2,
+      "total_n": 6
+    },
+    {
+      "token": "only",
+      "ascent_pct": 33.3,
+      "ascent_n": 2,
+      "total_n": 6
+    },
+    {
+      "token": "where",
+      "ascent_pct": 28.6,
+      "ascent_n": 2,
+      "total_n": 7
+    },
+    {
+      "token": "and",
+      "ascent_pct": 27.8,
+      "ascent_n": 5,
+      "total_n": 18
+    },
+    {
+      "token": "in",
+      "ascent_pct": 20.0,
+      "ascent_n": 2,
+      "total_n": 10
+    },
+    {
+      "token": "\u2014",
+      "ascent_pct": 14.3,
+      "ascent_n": 3,
+      "total_n": 21
+    }
+  ],
+  "decline_exclusive_tokens": [
+    {
+      "token": "her",
+      "decline_pct": 100.0,
+      "decline_n": 3,
+      "total_n": 3
+    },
+    {
+      "token": "sits",
+      "decline_pct": 100.0,
+      "decline_n": 3,
+      "total_n": 3
+    },
+    {
+      "token": "hold",
+      "decline_pct": 100.0,
+      "decline_n": 3,
+      "total_n": 3
+    },
+    {
+      "token": "app",
+      "decline_pct": 100.0,
+      "decline_n": 3,
+      "total_n": 3
+    },
+    {
+      "token": "d",
+      "decline_pct": 80.0,
+      "decline_n": 4,
+      "total_n": 5
+    },
+    {
+      "token": "round",
+      "decline_pct": 75.0,
+      "decline_n": 3,
+      "total_n": 4
+    },
+    {
+      "token": "b",
+      "decline_pct": 75.0,
+      "decline_n": 3,
+      "total_n": 4
+    },
+    {
+      "token": "a",
+      "decline_pct": 70.0,
+      "decline_n": 7,
+      "total_n": 10
+    },
+    {
+      "token": "tonight",
+      "decline_pct": 66.7,
+      "decline_n": 2,
+      "total_n": 3
+    },
+    {
+      "token": "late",
+      "decline_pct": 66.7,
+      "decline_n": 2,
+      "total_n": 3
+    },
+    {
+      "token": "dry",
+      "decline_pct": 66.7,
+      "decline_n": 2,
+      "total_n": 3
+    },
+    {
+      "token": "how",
+      "decline_pct": 66.7,
+      "decline_n": 2,
+      "total_n": 3
+    },
+    {
+      "token": "up",
+      "decline_pct": 66.7,
+      "decline_n": 2,
+      "total_n": 3
+    },
+    {
+      "token": "found",
+      "decline_pct": 66.7,
+      "decline_n": 2,
+      "total_n": 3
+    },
+    {
+      "token": "seen",
+      "decline_pct": 66.7,
+      "decline_n": 2,
+      "total_n": 3
+    },
+    {
+      "token": "fe",
+      "decline_pct": 66.7,
+      "decline_n": 2,
+      "total_n": 3
+    },
+    {
+      "token": "sigh",
+      "decline_pct": 66.7,
+      "decline_n": 2,
+      "total_n": 3
+    },
+    {
+      "token": "skies",
+      "decline_pct": 66.7,
+      "decline_n": 2,
+      "total_n": 3
+    },
+    {
+      "token": "an",
+      "decline_pct": 66.7,
+      "decline_n": 2,
+      "total_n": 3
+    },
+    {
+      "token": "of",
+      "decline_pct": 60.0,
+      "decline_n": 3,
+      "total_n": 5
+    },
+    {
+      "token": "m",
+      "decline_pct": 50.0,
+      "decline_n": 2,
+      "total_n": 4
+    },
+    {
+      "token": "full",
+      "decline_pct": 50.0,
+      "decline_n": 2,
+      "total_n": 4
+    },
+    {
+      "token": "fair",
+      "decline_pct": 50.0,
+      "decline_n": 2,
+      "total_n": 4
+    },
+    {
+      "token": "upon",
+      "decline_pct": 50.0,
+      "decline_n": 5,
+      "total_n": 10
+    },
+    {
+      "token": "day",
+      "decline_pct": 50.0,
+      "decline_n": 2,
+      "total_n": 4
+    },
+    {
+      "token": ",\u2014",
+      "decline_pct": 50.0,
+      "decline_n": 2,
+      "total_n": 4
+    },
+    {
+      "token": "down",
+      "decline_pct": 50.0,
+      "decline_n": 2,
+      "total_n": 4
+    },
+    {
+      "token": "four",
+      "decline_pct": 50.0,
+      "decline_n": 2,
+      "total_n": 4
+    },
+    {
+      "token": "ind",
+      "decline_pct": 50.0,
+      "decline_n": 2,
+      "total_n": 4
+    },
+    {
+      "token": "survey",
+      "decline_pct": 42.9,
+      "decline_n": 3,
+      "total_n": 7
+    }
+  ]
+}
