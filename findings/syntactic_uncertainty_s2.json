@@ -1,0 +1,1261 @@
+{
+  "total_tokens_analyzed": 61414,
+  "n_pos_jumps": 35261,
+  "n_double_surprises": 9028,
+  "jump_rate_overall": 0.574,
+  "double_surprise_rate": 0.147,
+  "mean_s2_with_jump": 0.039,
+  "mean_s2_no_jump": -1.046,
+  "mean_pos_coherence_with_jump": 0.438,
+  "mean_pos_coherence_no_jump": 0.514,
+  "pos_coherence_by_s2_band": {
+    "below_zero(-1,0)": {
+      "n": 8482,
+      "mean_coherence": 0.503
+    },
+    "extreme(>5)": {
+      "n": 5383,
+      "mean_coherence": 0.469
+    },
+    "high(2,5)": {
+      "n": 7316,
+      "mean_coherence": 0.479
+    },
+    "low_s2(<-1)": {
+      "n": 32289,
+      "mean_coherence": 0.458
+    },
+    "modest(0,2)": {
+      "n": 7944,
+      "mean_coherence": 0.48
+    }
+  },
+  "transition_counts": {
+    "PUNCT": {
+      "VERB": 157,
+      "NOUN": 1542,
+      "PRON": 113,
+      "PREP": 543,
+      "ADJ": 186,
+      "ADV": 170,
+      "DET": 142,
+      "CONJ": 212,
+      "NUM": 27
+    },
+    "PREP": {
+      "ADV": 625,
+      "NOUN": 1732,
+      "CONJ": 699,
+      "PUNCT": 1901,
+      "DET": 610,
+      "VERB": 392,
+      "NUM": 33,
+      "ADJ": 492,
+      "PRON": 424
+    },
+    "PRON": {
+      "DET": 1237,
+      "ADJ": 537,
+      "NOUN": 1504,
+      "CONJ": 208,
+      "VERB": 506,
+      "PREP": 663,
+      "ADV": 350,
+      "PUNCT": 317,
+      "NUM": 32
+    },
+    "VERB": {
+      "NOUN": 2509,
+      "PUNCT": 269,
+      "ADJ": 341,
+      "ADV": 396,
+      "PREP": 271,
+      "DET": 170,
+      "PRON": 244,
+      "CONJ": 74,
+      "NUM": 7
+    },
+    "CONJ": {
+      "ADJ": 266,
+      "PREP": 84,
+      "PRON": 78,
+      "NOUN": 253,
+      "PUNCT": 22,
+      "DET": 74,
+      "VERB": 27,
+      "ADV": 61,
+      "NUM": 6
+    },
+    "DET": {
+      "PREP": 420,
+      "ADJ": 262,
+      "NOUN": 904,
+      "PRON": 606,
+      "PUNCT": 83,
+      "CONJ": 92,
+      "VERB": 554,
+      "ADV": 246,
+      "NUM": 47
+    },
+    "NOUN": {
+      "ADV": 611,
+      "ADJ": 4906,
+      "VERB": 1135,
+      "CONJ": 246,
+      "PUNCT": 582,
+      "DET": 652,
+      "PREP": 618,
+      "NUM": 65,
+      "PRON": 286
+    },
+    "ADJ": {
+      "NOUN": 649,
+      "ADV": 196,
+      "PUNCT": 32,
+      "CONJ": 6,
+      "VERB": 203,
+      "PREP": 69,
+      "NUM": 10,
+      "DET": 35,
+      "PRON": 24
+    },
+    "OTHER": {
+      "PUNCT": 57,
+      "NOUN": 191,
+      "CONJ": 16,
+      "VERB": 126,
+      "PREP": 43,
+      "DET": 25,
+      "PRON": 27,
+      "ADV": 36,
+      "ADJ": 42,
+      "NUM": 4
+    },
+    "ADV": {
+      "VERB": 91,
+      "PUNCT": 25,
+      "PREP": 74,
+      "ADJ": 98,
+      "NOUN": 132,
+      "DET": 78,
+      "CONJ": 22,
+      "PRON": 29,
+      "NUM": 2
+    },
+    "NUM": {
+      "ADV": 11,
+      "NOUN": 30,
+      "PREP": 10,
+      "ADJ": 8,
+      "VERB": 11,
+      "DET": 10,
+      "CONJ": 6,
+      "PUNCT": 5,
+      "PRON": 7
+    }
+  },
+  "poet_jump_rates": [
+    {
+      "poet": "Lawrence Ferlinghetti",
+      "n": 670,
+      "jump_rate": 0.919,
+      "double_rate": 0.049,
+      "avg_s2": -0.135
+    },
+    {
+      "poet": "William Carlos Williams",
+      "n": 118,
+      "jump_rate": 0.78,
+      "double_rate": 0.153,
+      "avg_s2": -0.871
+    },
+    {
+      "poet": "E.E. Cummings",
+      "n": 293,
+      "jump_rate": 0.747,
+      "double_rate": 0.102,
+      "avg_s2": -0.623
+    },
+    {
+      "poet": "Louis Zukofsky",
+      "n": 272,
+      "jump_rate": 0.746,
+      "double_rate": 0.121,
+      "avg_s2": -0.828
+    },
+    {
+      "poet": "Adelaide Crapsey",
+      "n": 57,
+      "jump_rate": 0.737,
+      "double_rate": 0.263,
+      "avg_s2": -0.453
+    },
+    {
+      "poet": "Lorine Niedecker",
+      "n": 280,
+      "jump_rate": 0.729,
+      "double_rate": 0.161,
+      "avg_s2": -0.235
+    },
+    {
+      "poet": "George Oppen",
+      "n": 507,
+      "jump_rate": 0.728,
+      "double_rate": 0.095,
+      "avg_s2": -0.927
+    },
+    {
+      "poet": "Kamau Brathwaite",
+      "n": 215,
+      "jump_rate": 0.716,
+      "double_rate": 0.098,
+      "avg_s2": -0.307
+    },
+    {
+      "poet": "Robert Creeley",
+      "n": 147,
+      "jump_rate": 0.707,
+      "double_rate": 0.204,
+      "avg_s2": -0.068
+    },
+    {
+      "poet": "Francis Thompson",
+      "n": 322,
+      "jump_rate": 0.702,
+      "double_rate": 0.193,
+      "avg_s2": 0.473
+    },
+    {
+      "poet": "Lyn Hejinian",
+      "n": 50,
+      "jump_rate": 0.7,
+      "double_rate": 0.16,
+      "avg_s2": -0.901
+    },
+    {
+      "poet": "Horace (trans. Howes, 1849)",
+      "n": 151,
+      "jump_rate": 0.689,
+      "double_rate": 0.205,
+      "avg_s2": -0.37
+    },
+    {
+      "poet": "Christian B\u00f6k",
+      "n": 215,
+      "jump_rate": 0.684,
+      "double_rate": 0.284,
+      "avg_s2": 0.802
+    },
+    {
+      "poet": "Anonymous (trans. Francis B. Gummere)",
+      "n": 138,
+      "jump_rate": 0.681,
+      "double_rate": 0.203,
+      "avg_s2": -0.289
+    },
+    {
+      "poet": "Matsuo Basho",
+      "n": 50,
+      "jump_rate": 0.68,
+      "double_rate": 0.2,
+      "avg_s2": -0.313
+    },
+    {
+      "poet": "Marianne Moore",
+      "n": 658,
+      "jump_rate": 0.678,
+      "double_rate": 0.173,
+      "avg_s2": -0.117
+    },
+    {
+      "poet": "Ben Jonson",
+      "n": 220,
+      "jump_rate": 0.668,
+      "double_rate": 0.173,
+      "avg_s2": -0.428
+    },
+    {
+      "poet": "Thomas Gray",
+      "n": 176,
+      "jump_rate": 0.665,
+      "double_rate": 0.159,
+      "avg_s2": -0.517
+    },
+    {
+      "poet": "Wislawa Szymborska",
+      "n": 122,
+      "jump_rate": 0.664,
+      "double_rate": 0.172,
+      "avg_s2": -0.372
+    },
+    {
+      "poet": "Thomas Wyatt",
+      "n": 367,
+      "jump_rate": 0.659,
+      "double_rate": 0.21,
+      "avg_s2": 0.018
+    }
+  ],
+  "era_jump_rates": [
+    {
+      "era": "beat",
+      "n": 1195,
+      "jump_rate": 0.787,
+      "double_rate": 0.114,
+      "avg_s2": 0.049
+    },
+    {
+      "era": "objectivist",
+      "n": 1089,
+      "jump_rate": 0.717,
+      "double_rate": 0.118,
+      "avg_s2": -0.639
+    },
+    {
+      "era": "ancient",
+      "n": 434,
+      "jump_rate": 0.654,
+      "double_rate": 0.191,
+      "avg_s2": -0.33
+    },
+    {
+      "era": "double_dactyl",
+      "n": 248,
+      "jump_rate": 0.649,
+      "double_rate": 0.145,
+      "avg_s2": -0.955
+    },
+    {
+      "era": "protest_political",
+      "n": 250,
+      "jump_rate": 0.644,
+      "double_rate": 0.172,
+      "avg_s2": -0.754
+    },
+    {
+      "era": "clerihew",
+      "n": 232,
+      "jump_rate": 0.629,
+      "double_rate": 0.233,
+      "avg_s2": 0.507
+    },
+    {
+      "era": "haiku",
+      "n": 293,
+      "jump_rate": 0.625,
+      "double_rate": 0.191,
+      "avg_s2": -0.11
+    },
+    {
+      "era": "modernist",
+      "n": 3393,
+      "jump_rate": 0.624,
+      "double_rate": 0.154,
+      "avg_s2": -0.397
+    },
+    {
+      "era": "metaphysical",
+      "n": 938,
+      "jump_rate": 0.619,
+      "double_rate": 0.15,
+      "avg_s2": -0.593
+    },
+    {
+      "era": "classical_chinese",
+      "n": 238,
+      "jump_rate": 0.618,
+      "double_rate": 0.155,
+      "avg_s2": -0.558
+    },
+    {
+      "era": "early_modern",
+      "n": 1801,
+      "jump_rate": 0.616,
+      "double_rate": 0.163,
+      "avg_s2": -0.371
+    },
+    {
+      "era": "old_english",
+      "n": 629,
+      "jump_rate": 0.609,
+      "double_rate": 0.157,
+      "avg_s2": -0.309
+    },
+    {
+      "era": "elegy",
+      "n": 1255,
+      "jump_rate": 0.606,
+      "double_rate": 0.175,
+      "avg_s2": -0.455
+    },
+    {
+      "era": "persian",
+      "n": 382,
+      "jump_rate": 0.602,
+      "double_rate": 0.175,
+      "avg_s2": -0.235
+    },
+    {
+      "era": "18th_century",
+      "n": 1435,
+      "jump_rate": 0.595,
+      "double_rate": 0.168,
+      "avg_s2": -0.285
+    },
+    {
+      "era": "ekphrastic",
+      "n": 1901,
+      "jump_rate": 0.595,
+      "double_rate": 0.151,
+      "avg_s2": -0.508
+    },
+    {
+      "era": "procedural",
+      "n": 640,
+      "jump_rate": 0.595,
+      "double_rate": 0.147,
+      "avg_s2": -0.455
+    },
+    {
+      "era": "victorian",
+      "n": 6179,
+      "jump_rate": 0.593,
+      "double_rate": 0.16,
+      "avg_s2": -0.287
+    },
+    {
+      "era": "imagist",
+      "n": 321,
+      "jump_rate": 0.592,
+      "double_rate": 0.168,
+      "avg_s2": -0.518
+    },
+    {
+      "era": "oulipo",
+      "n": 1282,
+      "jump_rate": 0.59,
+      "double_rate": 0.172,
+      "avg_s2": -0.182
+    },
+    {
+      "era": "korean_modernist",
+      "n": 102,
+      "jump_rate": 0.588,
+      "double_rate": 0.157,
+      "avg_s2": -0.692
+    },
+    {
+      "era": "19th_century",
+      "n": 3366,
+      "jump_rate": 0.586,
+      "double_rate": 0.148,
+      "avg_s2": -0.493
+    },
+    {
+      "era": "dramatic_monologue",
+      "n": 5305,
+      "jump_rate": 0.584,
+      "double_rate": 0.156,
+      "avg_s2": -0.468
+    },
+    {
+      "era": "harlem_renaissance",
+      "n": 948,
+      "jump_rate": 0.577,
+      "double_rate": 0.143,
+      "avg_s2": -0.432
+    },
+    {
+      "era": "war_poetry",
+      "n": 639,
+      "jump_rate": 0.577,
+      "double_rate": 0.163,
+      "avg_s2": -0.34
+    },
+    {
+      "era": "language",
+      "n": 496,
+      "jump_rate": 0.569,
+      "double_rate": 0.119,
+      "avg_s2": -0.662
+    },
+    {
+      "era": "mid_century",
+      "n": 583,
+      "jump_rate": 0.568,
+      "double_rate": 0.16,
+      "avg_s2": -0.25
+    },
+    {
+      "era": "spoken_word",
+      "n": 286,
+      "jump_rate": 0.566,
+      "double_rate": 0.15,
+      "avg_s2": -0.593
+    },
+    {
+      "era": "romantic",
+      "n": 4220,
+      "jump_rate": 0.564,
+      "double_rate": 0.152,
+      "avg_s2": -0.433
+    },
+    {
+      "era": "contemporary",
+      "n": 3024,
+      "jump_rate": 0.563,
+      "double_rate": 0.155,
+      "avg_s2": -0.461
+    },
+    {
+      "era": "pantoum",
+      "n": 283,
+      "jump_rate": 0.562,
+      "double_rate": 0.131,
+      "avg_s2": -0.433
+    },
+    {
+      "era": "fixed_form",
+      "n": 858,
+      "jump_rate": 0.561,
+      "double_rate": 0.147,
+      "avg_s2": -0.56
+    },
+    {
+      "era": "confessional",
+      "n": 397,
+      "jump_rate": 0.557,
+      "double_rate": 0.156,
+      "avg_s2": -0.234
+    },
+    {
+      "era": "new_york_school",
+      "n": 2773,
+      "jump_rate": 0.555,
+      "double_rate": 0.133,
+      "avg_s2": -0.585
+    },
+    {
+      "era": "ghazal",
+      "n": 334,
+      "jump_rate": 0.554,
+      "double_rate": 0.174,
+      "avg_s2": -0.312
+    },
+    {
+      "era": "parody_original",
+      "n": 443,
+      "jump_rate": 0.549,
+      "double_rate": 0.138,
+      "avg_s2": -0.454
+    },
+    {
+      "era": "parody",
+      "n": 669,
+      "jump_rate": 0.549,
+      "double_rate": 0.141,
+      "avg_s2": -0.288
+    },
+    {
+      "era": "rondeau",
+      "n": 130,
+      "jump_rate": 0.546,
+      "double_rate": 0.146,
+      "avg_s2": -0.4
+    },
+    {
+      "era": "postcolonial",
+      "n": 989,
+      "jump_rate": 0.541,
+      "double_rate": 0.125,
+      "avg_s2": -0.484
+    },
+    {
+      "era": "found_poetry",
+      "n": 1204,
+      "jump_rate": 0.537,
+      "double_rate": 0.109,
+      "avg_s2": -0.615
+    },
+    {
+      "era": "surrealist",
+      "n": 1102,
+      "jump_rate": 0.531,
+      "double_rate": 0.137,
+      "avg_s2": -0.505
+    },
+    {
+      "era": "cliche_control",
+      "n": 489,
+      "jump_rate": 0.53,
+      "double_rate": 0.119,
+      "avg_s2": -0.935
+    },
+    {
+      "era": "latin_american",
+      "n": 461,
+      "jump_rate": 0.529,
+      "double_rate": 0.154,
+      "avg_s2": -0.481
+    },
+    {
+      "era": "prose_poetry",
+      "n": 1408,
+      "jump_rate": 0.524,
+      "double_rate": 0.138,
+      "avg_s2": -0.471
+    },
+    {
+      "era": "nursery_rhyme",
+      "n": 222,
+      "jump_rate": 0.518,
+      "double_rate": 0.135,
+      "avg_s2": -0.818
+    },
+    {
+      "era": "black_arts",
+      "n": 246,
+      "jump_rate": 0.508,
+      "double_rate": 0.13,
+      "avg_s2": -0.416
+    },
+    {
+      "era": "limerick",
+      "n": 426,
+      "jump_rate": 0.507,
+      "double_rate": 0.117,
+      "avg_s2": -0.661
+    },
+    {
+      "era": "concrete",
+      "n": 311,
+      "jump_rate": 0.498,
+      "double_rate": 0.087,
+      "avg_s2": -0.584
+    },
+    {
+      "era": "villanelle",
+      "n": 436,
+      "jump_rate": 0.493,
+      "double_rate": 0.119,
+      "avg_s2": -0.489
+    },
+    {
+      "era": "ballad",
+      "n": 915,
+      "jump_rate": 0.49,
+      "double_rate": 0.143,
+      "avg_s2": -0.421
+    },
+    {
+      "era": "nonsense",
+      "n": 500,
+      "jump_rate": 0.482,
+      "double_rate": 0.114,
+      "avg_s2": -0.693
+    },
+    {
+      "era": "german_expressionist",
+      "n": 781,
+      "jump_rate": 0.476,
+      "double_rate": 0.124,
+      "avg_s2": 0.1
+    },
+    {
+      "era": "control",
+      "n": 163,
+      "jump_rate": 0.442,
+      "double_rate": 0.043,
+      "avg_s2": -1.721
+    },
+    {
+      "era": "biblical",
+      "n": 1331,
+      "jump_rate": 0.441,
+      "double_rate": 0.119,
+      "avg_s2": -0.453
+    },
+    {
+      "era": "song_lyrics",
+      "n": 541,
+      "jump_rate": 0.421,
+      "double_rate": 0.094,
+      "avg_s2": -0.678
+    },
+    {
+      "era": "triolet",
+      "n": 130,
+      "jump_rate": 0.377,
+      "double_rate": 0.085,
+      "avg_s2": -0.747
+    },
+    {
+      "era": "german_modernist",
+      "n": 234,
+      "jump_rate": 0.329,
+      "double_rate": 0.064,
+      "avg_s2": 0.626
+    },
+    {
+      "era": "german_symbolist",
+      "n": 356,
+      "jump_rate": 0.32,
+      "double_rate": 0.093,
+      "avg_s2": 0.452
+    }
+  ],
+  "top_double_surprise_examples": [
+    {
+      "token": " Fun",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "ADJ",
+      "alt_tokens": [
+        " little",
+        " bit",
+        " sense",
+        " lot",
+        " great"
+      ],
+      "s2": 18.9,
+      "entropy": 6.87,
+      "poet": "Emily Dickinson",
+      "era": "19th_century"
+    },
+    {
+      "token": " Death",
+      "chosen_pos": "VERB",
+      "dominant_alt_pos": "DET",
+      "alt_tokens": [
+        " a",
+        " long",
+        " any",
+        " the",
+        " more"
+      ],
+      "s2": 12.86,
+      "entropy": 5.19,
+      "poet": "Emily Dickinson",
+      "era": "19th_century"
+    },
+    {
+      "token": " Let",
+      "chosen_pos": "VERB",
+      "dominant_alt_pos": "DET",
+      "alt_tokens": [
+        " the",
+        " I",
+        " then",
+        " a",
+        " another"
+      ],
+      "s2": 11.43,
+      "entropy": 6.71,
+      "poet": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "token": " lonely",
+      "chosen_pos": "ADV",
+      "dominant_alt_pos": "PREP",
+      "alt_tokens": [
+        " into",
+        " around",
+        " in",
+        " through",
+        " out"
+      ],
+      "s2": 11.37,
+      "entropy": 5.09,
+      "poet": "William Wordsworth",
+      "era": "romantic"
+    },
+    {
+      "token": " val",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "PRON",
+      "alt_tokens": [
+        " the",
+        " my",
+        " a",
+        " heaven",
+        " this"
+      ],
+      "s2": 10.7,
+      "entropy": 6.19,
+      "poet": "William Wordsworth",
+      "era": "romantic"
+    },
+    {
+      "token": " Our",
+      "chosen_pos": "PRON",
+      "dominant_alt_pos": "PREP",
+      "alt_tokens": [
+        " as",
+        " a",
+        " barely",
+        " the",
+        " stopped"
+      ],
+      "s2": 10.2,
+      "entropy": 8.03,
+      "poet": "Emily Dickinson",
+      "era": "19th_century"
+    },
+    {
+      "token": " Sense",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "PRON",
+      "alt_tokens": [
+        " the",
+        " they",
+        " I",
+        " there",
+        " all"
+      ],
+      "s2": 8.95,
+      "entropy": 7.35,
+      "poet": "Emily Dickinson",
+      "era": "19th_century"
+    },
+    {
+      "token": " kindly",
+      "chosen_pos": "ADV",
+      "dominant_alt_pos": "VERB",
+      "alt_tokens": [
+        " was",
+        " had",
+        " said",
+        " is",
+        " looked"
+      ],
+      "s2": 7.58,
+      "entropy": 8.12,
+      "poet": "Emily Dickinson",
+      "era": "19th_century"
+    },
+    {
+      "token": ",",
+      "chosen_pos": "PUNCT",
+      "dominant_alt_pos": "VERB",
+      "alt_tokens": [
+        " of",
+        " is",
+        " that",
+        " has",
+        " in"
+      ],
+      "s2": 7.15,
+      "entropy": 1.72,
+      "poet": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "token": "My",
+      "chosen_pos": "PRON",
+      "dominant_alt_pos": "DET",
+      "alt_tokens": [
+        "\n",
+        "The",
+        "And",
+        "I",
+        "A"
+      ],
+      "s2": 7.04,
+      "entropy": 1.24,
+      "poet": "Emily Dickinson",
+      "era": "19th_century"
+    },
+    {
+      "token": " number",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "PREP",
+      "alt_tokens": [
+        " of",
+        ",",
+        " in",
+        " and",
+        " like"
+      ],
+      "s2": 7.0,
+      "entropy": 8.07,
+      "poet": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "token": " \u2013",
+      "chosen_pos": "VERB",
+      "dominant_alt_pos": "PREP",
+      "alt_tokens": [
+        " the",
+        " on",
+        ",",
+        " upon",
+        " in"
+      ],
+      "s2": 6.7,
+      "entropy": 6.87,
+      "poet": "Emily Dickinson",
+      "era": "19th_century"
+    },
+    {
+      "token": " wandered",
+      "chosen_pos": "VERB",
+      "dominant_alt_pos": "PUNCT",
+      "alt_tokens": [
+        ".",
+        ",",
+        "\n",
+        " have",
+        " was"
+      ],
+      "s2": 6.11,
+      "entropy": 11.12,
+      "poet": "William Wordsworth",
+      "era": "romantic"
+    },
+    {
+      "token": " too",
+      "chosen_pos": "ADV",
+      "dominant_alt_pos": "PUNCT",
+      "alt_tokens": [
+        " \u2013",
+        "\n",
+        ".",
+        ",",
+        " and"
+      ],
+      "s2": 5.67,
+      "entropy": 4.19,
+      "poet": "Emily Dickinson",
+      "era": "19th_century"
+    },
+    {
+      "token": " Dry",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "PREP",
+      "alt_tokens": [
+        ",",
+        " and",
+        " as",
+        " man",
+        " maiden"
+      ],
+      "s2": 5.63,
+      "entropy": 9.96,
+      "poet": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "token": ",\u2014",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "PUNCT",
+      "alt_tokens": [
+        ",",
+        "\n",
+        " to",
+        " that",
+        "."
+      ],
+      "s2": 5.32,
+      "entropy": 4.56,
+      "poet": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "token": " belonging",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "PREP",
+      "alt_tokens": [
+        " of",
+        " I",
+        " that",
+        " in",
+        " is"
+      ],
+      "s2": 5.3,
+      "entropy": 5.96,
+      "poet": "Walt Whitman",
+      "era": "19th_century"
+    },
+    {
+      "token": " o",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "PREP",
+      "alt_tokens": [
+        ",",
+        " above",
+        " and",
+        ".",
+        "\n"
+      ],
+      "s2": 4.98,
+      "entropy": 6.17,
+      "poet": "William Wordsworth",
+      "era": "romantic"
+    },
+    {
+      "token": " he",
+      "chosen_pos": "PRON",
+      "dominant_alt_pos": "DET",
+      "alt_tokens": [
+        " a",
+        " some",
+        " the",
+        " an",
+        " no"
+      ],
+      "s2": 4.98,
+      "entropy": 8.9,
+      "poet": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "token": "Sing",
+      "chosen_pos": "VERB",
+      "dominant_alt_pos": "NOUN",
+      "alt_tokens": [
+        "And",
+        "That",
+        "In",
+        "Th",
+        "The"
+      ],
+      "s2": 4.83,
+      "entropy": 7.39,
+      "poet": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "token": " Imm",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "PRON",
+      "alt_tokens": [
+        " I",
+        " the",
+        " we",
+        " then",
+        " We"
+      ],
+      "s2": 4.83,
+      "entropy": 8.8,
+      "poet": "Emily Dickinson",
+      "era": "19th_century"
+    },
+    {
+      "token": " sing",
+      "chosen_pos": "VERB",
+      "dominant_alt_pos": "PRON",
+      "alt_tokens": [
+        " I",
+        " my",
+        " the",
+        " that",
+        " it"
+      ],
+      "s2": 4.76,
+      "entropy": 6.57,
+      "poet": "Walt Whitman",
+      "era": "19th_century"
+    },
+    {
+      "token": " He",
+      "chosen_pos": "PRON",
+      "dominant_alt_pos": "CONJ",
+      "alt_tokens": [
+        "\n",
+        " and",
+        " We",
+        " And",
+        " but"
+      ],
+      "s2": 4.67,
+      "entropy": 4.4,
+      "poet": "Emily Dickinson",
+      "era": "19th_century"
+    },
+    {
+      "token": " light",
+      "chosen_pos": "ADJ",
+      "dominant_alt_pos": "PRON",
+      "alt_tokens": [
+        " my",
+        " who",
+        " the",
+        " O",
+        " and"
+      ],
+      "s2": 4.53,
+      "entropy": 8.79,
+      "poet": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "token": " being",
+      "chosen_pos": "VERB",
+      "dominant_alt_pos": "PREP",
+      "alt_tokens": [
+        " through",
+        " a",
+        " it",
+        " to",
+        " I"
+      ],
+      "s2": 4.48,
+      "entropy": 7.01,
+      "poet": "John Keats",
+      "era": "romantic"
+    }
+  ],
+  "high_s2_no_jump_examples": [
+    {
+      "token": " cloud",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "NOUN",
+      "alt_tokens": [
+        " child",
+        " kid",
+        " boy",
+        " young",
+        " teenager"
+      ],
+      "s2": 8.1,
+      "poet": "William Wordsworth",
+      "era": "romantic"
+    },
+    {
+      "token": " pains",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "NOUN",
+      "alt_tokens": [
+        " creeps",
+        " in",
+        " fills",
+        " runs",
+        " of"
+      ],
+      "s2": 5.02,
+      "poet": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "token": " sense",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "NOUN",
+      "alt_tokens": [
+        " heart",
+        " body",
+        " mind",
+        " eyes",
+        " head"
+      ],
+      "s2": 2.08,
+      "poet": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "token": " op",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "NOUN",
+      "alt_tokens": [
+        ",",
+        " bottle",
+        " and",
+        "ed",
+        " cup"
+      ],
+      "s2": 2.13,
+      "poet": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "token": " drains",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "NOUN",
+      "alt_tokens": [
+        " head",
+        " heart",
+        "\n",
+        " brain",
+        " point"
+      ],
+      "s2": 3.94,
+      "poet": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "token": "wards",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "NOUN",
+      "alt_tokens": [
+        "d",
+        "\n",
+        "t",
+        "like",
+        "s"
+      ],
+      "s2": 3.7,
+      "poet": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "token": " happiness",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "NOUN",
+      "alt_tokens": [
+        " own",
+        " eyes",
+        " heart",
+        ",",
+        " eye"
+      ],
+      "s2": 4.27,
+      "poet": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "token": "wing",
+      "chosen_pos": "VERB",
+      "dominant_alt_pos": "VERB",
+      "alt_tokens": [
+        "hearted",
+        "footed",
+        "eyed",
+        "headed",
+        "minded"
+      ],
+      "s2": 2.78,
+      "poet": "John Keats",
+      "era": "romantic"
+    },
+    {
+      "token": " \u2013",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "NOUN",
+      "alt_tokens": [
+        ",",
+        " and",
+        " to",
+        "'s",
+        "ly"
+      ],
+      "s2": 3.1,
+      "poet": "Emily Dickinson",
+      "era": "19th_century"
+    },
+    {
+      "token": " Car",
+      "chosen_pos": "NOUN",
+      "dominant_alt_pos": "NOUN",
+      "alt_tokens": [
+        " man",
+        " only",
+        " last",
+        " Death",
+        " door"
+      ],
+      "s2": 3.16,
+      "poet": "Emily Dickinson",
+      "era": "19th_century"
+    }
+  ]
+}
