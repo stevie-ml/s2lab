@@ -10401,6 +10401,213 @@ Sustained in tears the cities are endowed
 And justified conclamant with ripe fields
 Revolving through their harvests in sweet torment.""",
     },
+    # ─── ANIMAL IMAGERY / CREATURE POEMS ───────────────────────────────
+    # Added for animal vocabulary S2 hypothesis testing
+    {
+        "title": "The Hawk in the Rain",
+        "author": "Ted Hughes",
+        "year": 1957,
+        "era": "contemporary",
+        "text": """I drown in the drumming ploughland, I drag up
+Heel after heel from the swallowing of the earth's mouth,
+From clay that clutches my each step to the ankle
+With the habit of the dogged grave, but the hawk
+
+Effortlessly at height hangs his still eye.
+His wings hold all creation in a weightless quiet,
+Steady as a hallucination in the streaming air.
+While banging wind kills these stubborn hedges,
+
+Thumbs my eyes, throws my breath, tackles my heart,
+And rain hacks my head to the bone, the hawk hangs,
+The diamond point of will that polestars
+The sea drowner's endurance: and I,
+
+Bloodily grabbed dazed last-moment-counting
+Mortal in the earth's mouth, strain towards the master-
+Fulcrum of violence where the hawk hangs still.
+That maybe in his own time meets the weather
+
+Coming the wrong way, suffers the air, hurled upside down,
+Fall from his eye, the ponderous shires crash on him,
+The horizon trap him; the round angelic eye
+Smashed, mix his heart's blood with the mire of the land.""",
+    },
+    {
+        "title": "Pike",
+        "author": "Ted Hughes",
+        "year": 1960,
+        "era": "contemporary",
+        "text": """Pike, three inches long, perfect
+Pike in all parts, green tigering the gold.
+Killers from the egg: the malevolent aged grin.
+They dance on the surface among the flies.
+
+Or move, stunned by their own grandeur,
+Over a bed of emerald, silhouette
+Of submarine delicacy and horror.
+A hundred feet long in their world.
+
+In ponds, under the heat-struck lily pads—
+Gloom of their stillness:
+Logged on last year's black leaves, watching upwards.
+Or hung in an amber cavern of weeds""",
+    },
+    {
+        "title": "Snake",
+        "author": "D.H. Lawrence",
+        "year": 1923,
+        "era": "modernist",
+        "text": """A snake came to my water-trough
+On a hot, hot day, and I in pyjamas for the heat,
+To drink there.
+
+In the deep, strange-scented shade of the great dark carob tree
+I came down the steps with my pitcher
+And must wait, must stand and wait, for there he was at the trough before me.
+
+He reached down from a fissure in the earth-wall in the gloom
+And trailed his yellow-brown slackness soft-bellied down, over the edge of the stone trough
+And rested his throat upon the stone bottom,
+And where the water had dripped from the tap, in a small clearness,
+He sipped with his straight mouth,
+Softly drank through his straight gums, into his slack long body,
+Silently.""",
+    },
+    {
+        "title": "The Fish",
+        "author": "Marianne Moore",
+        "year": 1921,
+        "era": "modernist",
+        "text": """wade
+through black jade.
+  Of the crow-blue mussel-shells, one keeps
+    adjusting the ash-heaps;
+      opening and shutting itself like
+
+an
+injured fan.
+  The barnacles which encrust the side
+    of the wave, cannot hide
+      there for the submerged shafts of the
+
+sun,
+split like spun
+  glass, move themselves with spotlight swiftness
+    into the crevices—
+      in and out, illuminating
+
+the
+turquoise sea
+  of bodies. The water drives a wedge
+    of iron through the iron edge
+      of the cliff; whereupon the stars,""",
+    },
+    {
+        "title": "Wild Geese",
+        "author": "Mary Oliver",
+        "year": 1986,
+        "era": "contemporary",
+        "text": """You do not have to be good.
+You do not have to walk on your knees
+for a hundred miles through the desert repenting.
+You only have to let the soft animal of your body
+love what it loves.
+
+Tell me about despair, yours, and I will tell you mine.
+Meanwhile the world goes on.
+Meanwhile the sun and the clear pebbles of the rain
+are moving across the landscapes,
+over the prairies and the deep trees,
+the mountains and the rivers.
+Meanwhile the wild geese, high in the clean blue air,
+are heading home again.
+Whoever you are, no matter how lonely,
+the world offers itself to your imagination,
+calls to you like the wild geese, harsh and exciting—
+over and over announcing your place
+in the family of things.""",
+    },
+    {
+        "title": "The Windhover",
+        "author": "Gerard Manley Hopkins",
+        "year": 1877,
+        "era": "victorian",
+        "text": """I caught this morning morning's minion, king-
+  dom of daylight's dauphin, dapple-dawn-drawn Falcon, in his riding
+  Of the rolling level underneath him steady air, and striding
+High there, how he rung upon the rein of a wimpling wing
+In his ecstasy! then off, off forth on swing,
+  As a skate's heel sweeps smooth on a bow-bend: the hurl and gliding
+  Rebuffed the big wind. My heart in hiding
+Stirred for a bird,—the achieve of; the mastery of the thing!
+
+Brute beauty and valour and act, oh, air, pride, plume, here
+  Buckle! AND the fire that breaks from thee then, a billion
+Times told lovelier, more dangerous, O my chevalier!
+
+  No wonder of it: shéer plód makes plough down sillion
+Shine, and blue-bleak embers, ah my dear,
+  Fall, gall themselves, and gash gold-vermilion.""",
+    },
+    {
+        "title": "Stings (Bee Sequence, excerpt)",
+        "author": "Sylvia Plath",
+        "year": 1962,
+        "era": "confessional",
+        "text": """Bare-handed, I hand the combs.
+The man in white smiles, bare-handed,
+Our cheesecloth gauntlets neat and sweet,
+The throats of our wrists brave lilies.
+He and I
+
+Have a thousand clean cells between us,
+Eight combs of yellow cups,
+And the hive itself a teacup,
+White with pink flowers on it,
+With excessive love I enameled it
+
+Thinking "Sweetness, sweetness."
+Brood cells gray as the fossils of shells
+Terrify me, they seem so old.
+What am I buying, in the wind,
+Among the red and yellow flowers?""",
+    },
+    {
+        "title": "The Tyger (complete)",
+        "author": "William Blake",
+        "year": 1794,
+        "era": "romantic",
+        "text": """Tyger Tyger, burning bright,
+In the forests of the night;
+What immortal hand or eye,
+Could frame thy fearful symmetry?
+
+In what distant deeps or skies,
+Burnt the fire of thine eyes?
+On what wings dare he aspire?
+What the hand, dare seize the fire?
+
+And what shoulder, & what art,
+Could twist the sinews of thy heart?
+And when thy heart began to beat,
+What dread hand? & what dread feet?
+
+What the hammer? what the chain,
+In what furnace was thy brain?
+What the anvil? what dread grasp,
+Dare its deadly terrors clasp!
+
+When the stars threw down their spears
+And water'd heaven with their tears:
+Did he smile his work to see?
+Did he who made the Lamb make thee?
+
+Tyger Tyger burning bright,
+In the forests of the night:
+What immortal hand or eye,
+Dare frame thy fearful symmetry?""",
+    },
 ]
 
 # Quick stats

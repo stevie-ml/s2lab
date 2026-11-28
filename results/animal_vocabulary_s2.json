@@ -1,0 +1,265 @@
+{
+  "baselines": {
+    "poetry_avg_s2": 0.22752477715898817,
+    "prose_avg_s2": -1.6363884146341465,
+    "n_poetry_tokens": 65181,
+    "n_prose_tokens": 164
+  },
+  "animal_counts": {
+    "poetry": 199,
+    "prose": 2
+  },
+  "by_category": [
+    {
+      "category": "mythological",
+      "n": 1,
+      "avg_s2": 5.9443,
+      "pct_positive": 100.0,
+      "max_s2": 5.9443
+    },
+    {
+      "category": "aquatic",
+      "n": 18,
+      "avg_s2": 4.0132722222222235,
+      "pct_positive": 94.44444444444444,
+      "max_s2": 13.9973
+    },
+    {
+      "category": "reptiles_amphibians",
+      "n": 6,
+      "avg_s2": 3.8159500000000004,
+      "pct_positive": 83.33333333333334,
+      "max_s2": 7.6178
+    },
+    {
+      "category": "birds_wild",
+      "n": 24,
+      "avg_s2": 2.4600875,
+      "pct_positive": 66.66666666666666,
+      "max_s2": 15.8286
+    },
+    {
+      "category": "mammals_predatory",
+      "n": 17,
+      "avg_s2": 2.113323529411765,
+      "pct_positive": 64.70588235294117,
+      "max_s2": 6.3558
+    },
+    {
+      "category": "insects_arachnids",
+      "n": 41,
+      "avg_s2": 1.8897390243902445,
+      "pct_positive": 60.97560975609756,
+      "max_s2": 11.8092
+    },
+    {
+      "category": "birds_domestic",
+      "n": 18,
+      "avg_s2": 1.4989888888888891,
+      "pct_positive": 66.66666666666666,
+      "max_s2": 7.027
+    },
+    {
+      "category": "mammals_prey",
+      "n": 33,
+      "avg_s2": 1.4179000000000004,
+      "pct_positive": 45.45454545454545,
+      "max_s2": 13.2101
+    },
+    {
+      "category": "mammals_domestic",
+      "n": 41,
+      "avg_s2": 1.280258536585366,
+      "pct_positive": 58.536585365853654,
+      "max_s2": 9.5038
+    }
+  ],
+  "all_animal_avg_s2": 2.0089944723618083,
+  "animal_premium": 1.7814696952028202,
+  "predator_avg_s2": 2.5077510638297866,
+  "prey_avg_s2": 1.6440413043478261,
+  "wild_avg_s2": 2.2879821428571425,
+  "domestic_avg_s2": 1.3469898305084744,
+  "top_moments": [
+    {
+      "token": " raven",
+      "s2": 15.8286,
+      "category": "birds_wild",
+      "top_pred": "le",
+      "poem": "Edgar Allan Poe",
+      "author": "Synthetic (clerihew test case)",
+      "era": "clerihew"
+    },
+    {
+      "token": " whale",
+      "s2": 13.9973,
+      "category": "aquatic",
+      "top_pred": " a",
+      "poem": "Patterns",
+      "author": "Amy Lowell",
+      "era": "imagist"
+    },
+    {
+      "token": " buck",
+      "s2": 13.2101,
+      "category": "mammals_prey",
+      "top_pred": "\n",
+      "poem": "My Life by Water",
+      "author": "Lorine Niedecker",
+      "era": "objectivist"
+    },
+    {
+      "token": " Fly",
+      "s2": 11.8092,
+      "category": "insects_arachnids",
+      "top_pred": " lot",
+      "poem": "I heard a Fly buzz \u2014 when I died",
+      "author": "Emily Dickinson",
+      "era": "19th_century"
+    },
+    {
+      "token": "ant",
+      "s2": 10.2365,
+      "category": "insects_arachnids",
+      "top_pred": "ations",
+      "poem": "The Bridge of Heraclitus",
+      "author": "Hart Crane",
+      "era": "modernist"
+    },
+    {
+      "token": "buck",
+      "s2": 10.0486,
+      "category": "mammals_prey",
+      "top_pred": "known",
+      "poem": "Morning Glory (Chiyo-ni, translated)",
+      "author": "Chiyo-ni",
+      "era": "haiku"
+    },
+    {
+      "token": " worm",
+      "s2": 9.9132,
+      "category": "insects_arachnids",
+      "top_pred": "thro",
+      "poem": "Proverbs of Hell (excerpt from Marriage of Heaven and Hell)",
+      "author": "William Blake",
+      "era": "romantic"
+    },
+    {
+      "token": " spider",
+      "s2": 9.6016,
+      "category": "insects_arachnids",
+      "top_pred": ",",
+      "poem": "A Noiseless Patient Spider",
+      "author": "Walt Whitman",
+      "era": "19th_century"
+    },
+    {
+      "token": "Ass",
+      "s2": 9.5038,
+      "category": "mammals_domestic",
+      "top_pred": "\n",
+      "poem": "I heard a Fly buzz \u2014 when I died",
+      "author": "Emily Dickinson",
+      "era": "19th_century"
+    },
+    {
+      "token": " swift",
+      "s2": 8.8872,
+      "category": "birds_wild",
+      "top_pred": "\n",
+      "poem": "The Fish",
+      "author": "Marianne Moore",
+      "era": "modernist"
+    },
+    {
+      "token": " Eagle",
+      "s2": 8.6516,
+      "category": "birds_wild",
+      "top_pred": " man",
+      "poem": "On Seeing the Elgin Marbles",
+      "author": "John Keats",
+      "era": "ekphrastic"
+    },
+    {
+      "token": " horse",
+      "s2": 8.5715,
+      "category": "mammals_domestic",
+      "top_pred": ",",
+      "poem": "Bonnie George Campbell",
+      "author": "Traditional (Scottish ballad)",
+      "era": "ballad"
+    },
+    {
+      "token": " swift",
+      "s2": 8.3793,
+      "category": "birds_wild",
+      "top_pred": "\n",
+      "poem": "The Fish",
+      "author": "Marianne Moore",
+      "era": "modernist"
+    },
+    {
+      "token": " rat",
+      "s2": 8.0908,
+      "category": "mammals_prey",
+      "top_pred": " you",
+      "poem": "Fra Lippo Lippi (opening)",
+      "author": "Robert Browning",
+      "era": "ekphrastic"
+    },
+    {
+      "token": " rat",
+      "s2": 8.0907,
+      "category": "mammals_prey",
+      "top_pred": " you",
+      "poem": "Fra Lippo Lippi (opening)",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue"
+    },
+    {
+      "token": " Frog",
+      "s2": 7.6178,
+      "category": "reptiles_amphibians",
+      "top_pred": " \u2013",
+      "poem": "I'm Nobody! Who are you?",
+      "author": "Emily Dickinson",
+      "era": "19th_century"
+    },
+    {
+      "token": " Falcon",
+      "s2": 7.5142,
+      "category": "birds_wild",
+      "top_pred": "-",
+      "poem": "The Windhover",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian"
+    },
+    {
+      "token": "Fish",
+      "s2": 7.4297,
+      "category": "aquatic",
+      "top_pred": "and",
+      "poem": "Paean to Place (excerpt)",
+      "author": "Lorine Niedecker",
+      "era": "objectivist"
+    },
+    {
+      "token": " bull",
+      "s2": 7.3948,
+      "category": "mammals_domestic",
+      "top_pred": "-",
+      "poem": "Goblin Market (opening stanzas)",
+      "author": "Christina Rossetti",
+      "era": "victorian"
+    },
+    {
+      "token": " bull",
+      "s2": 7.3669,
+      "category": "mammals_domestic",
+      "top_pred": "-",
+      "poem": "Goblin Market (excerpt)",
+      "author": "Christina Rossetti",
+      "era": "victorian"
+    }
+  ]
+}
