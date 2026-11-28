@@ -10317,6 +10317,90 @@ Deliberate speed, majestic instancy,
    More instant than the Feet—
 "All things betray thee, who betrayest Me." """,
     },
+
+    # ─── PRECISION-SHOT / SCATTER TESTS ──────────────────────────────────
+    # Poems selected to probe precision-shot vs scatter-deviation taxonomy
+    {
+        "title": "Stags",
+        "author": "Sharon Olds",
+        "year": 2002,
+        "era": "confessional",
+        "text": """That fall, the year my parents
+were doing their dark work,
+the stags in the valley below our house
+did theirs. Twice a day
+we would see them, in the early morning
+and dusk, their huge necks
+bowed as they grazed, and then
+one of them would lift his head, and sniff,
+and they would all begin
+to move, toward the woods, in that lope
+I had not seen before,
+their backs low, their racks
+tilted back like speedboats at full throttle,
+their velvet all torn off.
+I had never seen killing close up
+but I had seen my parents,
+and I knew something was happening.
+Nights, before sleep, I would see
+the stags' breath coming in white puffs
+out of their nostrils. It seemed they knew
+they lived in a world where you could
+trust no one and nothing, and so
+they slept with one eye open,
+and so they knew to run.""",
+    },
+    {
+        "title": "Bright Dead Things",
+        "author": "Ada Limón",
+        "year": 2015,
+        "era": "contemporary",
+        "text": """Say we're walking and I trip
+on a root, say the sky shakes
+with a thunder that sounds
+like the mountains collapsing
+into themselves, say I am afraid.
+
+I am afraid.
+
+Here is the thing about being afraid:
+I don't want to be strong.
+I want to be afraid
+the way water is afraid—
+not of the rocks, not of the dark,
+but of the edge.
+
+Say that I fall.
+Say everything falls.
+I want to fall
+like I fall in dreams—
+all the way down.
+No landing.
+Just the going.""",
+    },
+    {
+        "title": "The Bridge of Heraclitus",
+        "author": "Hart Crane",
+        "year": 1930,
+        "era": "modernist",
+        "text": """O Thou steeled Cognizance whose leap commits
+The agile precincts of the lark's return;
+Within whose lariat sweep encinctured sing
+In single chrysalis the many twain,—
+Of stars Thou art the stitch and stallion glow
+And like an organ, Thou, with sound of doom—
+Sight, sound and flesh Thou leadest from time's realm
+As love strikes clear direction for the helm.
+
+Swift peal of secular light, intrinsic Myth
+Whose fell unshadow is death's utter wound,—
+O River-throated—iridescently upborne
+Through the bright drench and fabric of our veins;
+With white escarpments swinging into light,
+Sustained in tears the cities are endowed
+And justified conclamant with ripe fields
+Revolving through their harvests in sweet torment.""",
+    },
 ]
 
 # Quick stats

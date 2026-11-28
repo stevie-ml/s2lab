@@ -1,0 +1,2694 @@
+{
+  "meta": {
+    "corpus_size": 457,
+    "analysis": "top10_concentration_s2"
+  },
+  "tier_summary": {
+    "high": {
+      "n": 17860,
+      "avg_s2": -0.217,
+      "median_s2": -1.1378,
+      "std_s2": 3.3365,
+      "pos_s2_ratio": 0.2255,
+      "avg_top10h": 1.4348
+    },
+    "medium": {
+      "n": 21822,
+      "avg_s2": -0.565,
+      "median_s2": -1.7311,
+      "std_s2": 3.9283,
+      "pos_s2_ratio": 0.3482,
+      "avg_top10h": 2.5187
+    },
+    "low": {
+      "n": 22225,
+      "avg_s2": -0.4497,
+      "median_s2": -0.8285,
+      "std_s2": 3.5464,
+      "pos_s2_ratio": 0.4134,
+      "avg_top10h": 2.9412
+    }
+  },
+  "crosstab": {
+    "low_cov__very_high_s2": {
+      "n": 1731,
+      "avg_s2": 6.981
+    },
+    "medium_cov__very_high_s2": {
+      "n": 2303,
+      "avg_s2": 7.893
+    },
+    "medium_cov__neutral_s2": {
+      "n": 4436,
+      "avg_s2": 0.355
+    },
+    "medium_cov__low_s2": {
+      "n": 12445,
+      "avg_s2": -3.286
+    },
+    "medium_cov__high_s2": {
+      "n": 2638,
+      "avg_s2": 3.339
+    },
+    "low_cov__high_s2": {
+      "n": 3534,
+      "avg_s2": 3.287
+    },
+    "low_cov__low_s2": {
+      "n": 10669,
+      "avg_s2": -3.389
+    },
+    "high_cov__low_s2": {
+      "n": 9446,
+      "avg_s2": -2.132
+    },
+    "low_cov__neutral_s2": {
+      "n": 6291,
+      "avg_s2": 0.392
+    },
+    "high_cov__neutral_s2": {
+      "n": 5810,
+      "avg_s2": -0.081
+    },
+    "high_cov__very_high_s2": {
+      "n": 1392,
+      "avg_s2": 9.142
+    },
+    "high_cov__high_s2": {
+      "n": 1212,
+      "avg_s2": 3.305
+    }
+  },
+  "era_summary": {
+    "romantic": {
+      "high_pct": 24.5,
+      "high_avg_s2": -0.123,
+      "medium_pct": 34.1,
+      "medium_avg_s2": -0.499,
+      "low_pct": 41.4,
+      "low_avg_s2": -0.563,
+      "avg_s2": -0.433,
+      "n": 4220
+    },
+    "19th_century": {
+      "high_pct": 26.5,
+      "high_avg_s2": -0.304,
+      "medium_pct": 36.9,
+      "medium_avg_s2": -0.72,
+      "low_pct": 36.6,
+      "low_avg_s2": -0.401,
+      "avg_s2": -0.493,
+      "n": 3366
+    },
+    "modernist": {
+      "high_pct": 26.8,
+      "high_avg_s2": 0.113,
+      "medium_pct": 35.0,
+      "medium_avg_s2": -0.655,
+      "low_pct": 38.2,
+      "low_avg_s2": -0.427,
+      "avg_s2": -0.362,
+      "n": 3564
+    },
+    "beat": {
+      "high_pct": 56.1,
+      "high_avg_s2": 0.145,
+      "medium_pct": 21.5,
+      "medium_avg_s2": -0.446,
+      "low_pct": 22.4,
+      "low_avg_s2": 0.284,
+      "avg_s2": 0.049,
+      "n": 1195
+    },
+    "confessional": {
+      "high_pct": 23.7,
+      "high_avg_s2": 0.072,
+      "medium_pct": 38.1,
+      "medium_avg_s2": -0.61,
+      "low_pct": 38.2,
+      "low_avg_s2": -0.658,
+      "avg_s2": -0.467,
+      "n": 604
+    },
+    "mid_century": {
+      "high_pct": 26.4,
+      "high_avg_s2": 0.051,
+      "medium_pct": 37.6,
+      "medium_avg_s2": -0.635,
+      "low_pct": 36.0,
+      "low_avg_s2": -0.068,
+      "avg_s2": -0.25,
+      "n": 583
+    },
+    "new_york_school": {
+      "high_pct": 28.2,
+      "high_avg_s2": -0.312,
+      "medium_pct": 39.1,
+      "medium_avg_s2": -0.674,
+      "low_pct": 32.7,
+      "low_avg_s2": -0.715,
+      "avg_s2": -0.585,
+      "n": 2773
+    },
+    "language": {
+      "high_pct": 30.0,
+      "high_avg_s2": -0.387,
+      "medium_pct": 43.3,
+      "medium_avg_s2": -0.704,
+      "low_pct": 26.6,
+      "low_avg_s2": -0.903,
+      "avg_s2": -0.662,
+      "n": 496
+    },
+    "contemporary": {
+      "high_pct": 32.9,
+      "high_avg_s2": -0.276,
+      "medium_pct": 36.9,
+      "medium_avg_s2": -0.555,
+      "low_pct": 30.2,
+      "low_avg_s2": -0.601,
+      "avg_s2": -0.477,
+      "n": 3139
+    },
+    "harlem_renaissance": {
+      "high_pct": 27.1,
+      "high_avg_s2": -0.445,
+      "medium_pct": 33.5,
+      "medium_avg_s2": -0.662,
+      "low_pct": 39.3,
+      "low_avg_s2": -0.226,
+      "avg_s2": -0.432,
+      "n": 948
+    },
+    "oulipo": {
+      "high_pct": 30.7,
+      "high_avg_s2": 0.002,
+      "medium_pct": 35.1,
+      "medium_avg_s2": -0.278,
+      "low_pct": 34.2,
+      "low_avg_s2": -0.249,
+      "avg_s2": -0.182,
+      "n": 1282
+    },
+    "surrealist": {
+      "high_pct": 31.6,
+      "high_avg_s2": -0.213,
+      "medium_pct": 38.2,
+      "medium_avg_s2": -0.618,
+      "low_pct": 30.2,
+      "low_avg_s2": -0.666,
+      "avg_s2": -0.505,
+      "n": 1102
+    },
+    "deep_image": {
+      "high_pct": 21.3,
+      "high_avg_s2": -1.088,
+      "medium_pct": 42.6,
+      "medium_avg_s2": 0.611,
+      "low_pct": 36.1,
+      "low_avg_s2": 0.103,
+      "avg_s2": 0.066,
+      "n": 61
+    },
+    "control": {
+      "high_pct": 38.0,
+      "high_avg_s2": -1.123,
+      "medium_pct": 36.2,
+      "medium_avg_s2": -1.997,
+      "low_pct": 25.8,
+      "low_avg_s2": -2.216,
+      "avg_s2": -1.721,
+      "n": 163
+    },
+    "german_symbolist": {
+      "high_pct": 17.1,
+      "high_avg_s2": 1.241,
+      "medium_pct": 34.6,
+      "medium_avg_s2": 0.127,
+      "low_pct": 48.3,
+      "low_avg_s2": 0.405,
+      "avg_s2": 0.452,
+      "n": 356
+    },
+    "german_expressionist": {
+      "high_pct": 25.7,
+      "high_avg_s2": -0.173,
+      "medium_pct": 34.2,
+      "medium_avg_s2": 0.162,
+      "low_pct": 40.1,
+      "low_avg_s2": 0.221,
+      "avg_s2": 0.1,
+      "n": 781
+    },
+    "german_modernist": {
+      "high_pct": 28.6,
+      "high_avg_s2": 0.225,
+      "medium_pct": 30.8,
+      "medium_avg_s2": 1.203,
+      "low_pct": 40.6,
+      "low_avg_s2": 0.471,
+      "avg_s2": 0.626,
+      "n": 234
+    },
+    "victorian": {
+      "high_pct": 24.8,
+      "high_avg_s2": -0.066,
+      "medium_pct": 33.5,
+      "medium_avg_s2": -0.41,
+      "low_pct": 41.7,
+      "low_avg_s2": -0.32,
+      "avg_s2": -0.287,
+      "n": 6179
+    },
+    "haiku": {
+      "high_pct": 19.1,
+      "high_avg_s2": 0.784,
+      "medium_pct": 36.2,
+      "medium_avg_s2": -0.247,
+      "low_pct": 44.7,
+      "low_avg_s2": -0.382,
+      "avg_s2": -0.11,
+      "n": 293
+    },
+    "ancient": {
+      "high_pct": 22.1,
+      "high_avg_s2": -0.613,
+      "medium_pct": 38.9,
+      "medium_avg_s2": -0.137,
+      "low_pct": 38.9,
+      "low_avg_s2": -0.363,
+      "avg_s2": -0.33,
+      "n": 434
+    },
+    "prose_poetry": {
+      "high_pct": 37.8,
+      "high_avg_s2": -0.343,
+      "medium_pct": 39.3,
+      "medium_avg_s2": -0.448,
+      "low_pct": 22.9,
+      "low_avg_s2": -0.723,
+      "avg_s2": -0.471,
+      "n": 1408
+    },
+    "ballad": {
+      "high_pct": 32.8,
+      "high_avg_s2": -0.016,
+      "medium_pct": 32.5,
+      "medium_avg_s2": -0.464,
+      "low_pct": 34.8,
+      "low_avg_s2": -0.762,
+      "avg_s2": -0.421,
+      "n": 915
+    },
+    "song_lyrics": {
+      "high_pct": 51.4,
+      "high_avg_s2": -0.338,
+      "medium_pct": 27.9,
+      "medium_avg_s2": -1.179,
+      "low_pct": 20.7,
+      "low_avg_s2": -0.846,
+      "avg_s2": -0.678,
+      "n": 541
+    },
+    "nursery_rhyme": {
+      "high_pct": 32.4,
+      "high_avg_s2": -0.155,
+      "medium_pct": 38.3,
+      "medium_avg_s2": -0.924,
+      "low_pct": 29.3,
+      "low_avg_s2": -1.415,
+      "avg_s2": -0.818,
+      "n": 222
+    },
+    "metaphysical": {
+      "high_pct": 19.1,
+      "high_avg_s2": -0.634,
+      "medium_pct": 36.8,
+      "medium_avg_s2": -0.683,
+      "low_pct": 44.1,
+      "low_avg_s2": -0.501,
+      "avg_s2": -0.593,
+      "n": 938
+    },
+    "early_modern": {
+      "high_pct": 19.9,
+      "high_avg_s2": -0.244,
+      "medium_pct": 41.0,
+      "medium_avg_s2": -0.377,
+      "low_pct": 39.0,
+      "low_avg_s2": -0.429,
+      "avg_s2": -0.371,
+      "n": 1801
+    },
+    "spoken_word": {
+      "high_pct": 28.3,
+      "high_avg_s2": 0.048,
+      "medium_pct": 49.7,
+      "medium_avg_s2": -1.208,
+      "low_pct": 22.0,
+      "low_avg_s2": -0.032,
+      "avg_s2": -0.593,
+      "n": 286
+    },
+    "found_poetry": {
+      "high_pct": 49.7,
+      "high_avg_s2": -0.441,
+      "medium_pct": 32.2,
+      "medium_avg_s2": -0.792,
+      "low_pct": 18.1,
+      "low_avg_s2": -0.777,
+      "avg_s2": -0.615,
+      "n": 1204
+    },
+    "fixed_form": {
+      "high_pct": 29.6,
+      "high_avg_s2": -0.084,
+      "medium_pct": 32.1,
+      "medium_avg_s2": -0.822,
+      "low_pct": 38.3,
+      "low_avg_s2": -0.708,
+      "avg_s2": -0.56,
+      "n": 858
+    },
+    "cliche_control": {
+      "high_pct": 40.1,
+      "high_avg_s2": -0.723,
+      "medium_pct": 32.3,
+      "medium_avg_s2": -1.016,
+      "low_pct": 27.6,
+      "low_avg_s2": -1.145,
+      "avg_s2": -0.935,
+      "n": 489
+    },
+    "18th_century": {
+      "high_pct": 28.0,
+      "high_avg_s2": -0.425,
+      "medium_pct": 32.5,
+      "medium_avg_s2": -0.584,
+      "low_pct": 39.5,
+      "low_avg_s2": 0.059,
+      "avg_s2": -0.285,
+      "n": 1435
+    },
+    "biblical": {
+      "high_pct": 50.6,
+      "high_avg_s2": -0.317,
+      "medium_pct": 33.6,
+      "medium_avg_s2": -0.56,
+      "low_pct": 15.9,
+      "low_avg_s2": -0.662,
+      "avg_s2": -0.453,
+      "n": 1331
+    },
+    "concrete": {
+      "high_pct": 53.7,
+      "high_avg_s2": 0.161,
+      "medium_pct": 29.3,
+      "medium_avg_s2": -1.296,
+      "low_pct": 17.0,
+      "low_avg_s2": -1.709,
+      "avg_s2": -0.584,
+      "n": 311
+    },
+    "latin_american": {
+      "high_pct": 34.7,
+      "high_avg_s2": -0.534,
+      "medium_pct": 37.5,
+      "medium_avg_s2": -0.512,
+      "low_pct": 27.8,
+      "low_avg_s2": -0.372,
+      "avg_s2": -0.481,
+      "n": 461
+    },
+    "black_arts": {
+      "high_pct": 41.9,
+      "high_avg_s2": -0.605,
+      "medium_pct": 39.4,
+      "medium_avg_s2": -0.221,
+      "low_pct": 18.7,
+      "low_avg_s2": -0.403,
+      "avg_s2": -0.416,
+      "n": 246
+    },
+    "korean_modernist": {
+      "high_pct": 30.4,
+      "high_avg_s2": -1.041,
+      "medium_pct": 32.4,
+      "medium_avg_s2": -0.156,
+      "low_pct": 37.3,
+      "low_avg_s2": -0.873,
+      "avg_s2": -0.692,
+      "n": 102
+    },
+    "imagist": {
+      "high_pct": 24.6,
+      "high_avg_s2": 0.218,
+      "medium_pct": 37.4,
+      "medium_avg_s2": -1.12,
+      "low_pct": 38.0,
+      "low_avg_s2": -0.403,
+      "avg_s2": -0.518,
+      "n": 321
+    },
+    "parody_original": {
+      "high_pct": 33.4,
+      "high_avg_s2": -0.097,
+      "medium_pct": 36.6,
+      "medium_avg_s2": -0.643,
+      "low_pct": 30.0,
+      "low_avg_s2": -0.623,
+      "avg_s2": -0.454,
+      "n": 443
+    },
+    "parody": {
+      "high_pct": 31.1,
+      "high_avg_s2": -0.439,
+      "medium_pct": 32.9,
+      "medium_avg_s2": -0.642,
+      "low_pct": 36.0,
+      "low_avg_s2": 0.165,
+      "avg_s2": -0.288,
+      "n": 669
+    },
+    "classical_chinese": {
+      "high_pct": 22.7,
+      "high_avg_s2": -0.796,
+      "medium_pct": 35.7,
+      "medium_avg_s2": -0.331,
+      "low_pct": 41.6,
+      "low_avg_s2": -0.624,
+      "avg_s2": -0.558,
+      "n": 238
+    },
+    "persian": {
+      "high_pct": 22.3,
+      "high_avg_s2": -0.025,
+      "medium_pct": 33.5,
+      "medium_avg_s2": -0.141,
+      "low_pct": 44.2,
+      "low_avg_s2": -0.411,
+      "avg_s2": -0.235,
+      "n": 382
+    },
+    "japanese_classical": {
+      "high_pct": 23.7,
+      "high_avg_s2": -0.759,
+      "medium_pct": 55.9,
+      "medium_avg_s2": -0.788,
+      "low_pct": 20.3,
+      "low_avg_s2": -0.417,
+      "avg_s2": -0.706,
+      "n": 59
+    },
+    "limerick": {
+      "high_pct": 28.4,
+      "high_avg_s2": -0.863,
+      "medium_pct": 40.4,
+      "medium_avg_s2": -0.744,
+      "low_pct": 31.2,
+      "low_avg_s2": -0.371,
+      "avg_s2": -0.661,
+      "n": 426
+    },
+    "old_english": {
+      "high_pct": 23.2,
+      "high_avg_s2": -0.307,
+      "medium_pct": 38.6,
+      "medium_avg_s2": -0.293,
+      "low_pct": 38.2,
+      "low_avg_s2": -0.328,
+      "avg_s2": -0.309,
+      "n": 629
+    },
+    "protest_political": {
+      "high_pct": 24.0,
+      "high_avg_s2": -0.785,
+      "medium_pct": 35.6,
+      "medium_avg_s2": -0.779,
+      "low_pct": 40.4,
+      "low_avg_s2": -0.715,
+      "avg_s2": -0.754,
+      "n": 250
+    },
+    "ghazal": {
+      "high_pct": 31.1,
+      "high_avg_s2": -0.129,
+      "medium_pct": 41.6,
+      "medium_avg_s2": -0.289,
+      "low_pct": 27.2,
+      "low_avg_s2": -0.557,
+      "avg_s2": -0.312,
+      "n": 334
+    },
+    "war_poetry": {
+      "high_pct": 20.8,
+      "high_avg_s2": -0.279,
+      "medium_pct": 35.8,
+      "medium_avg_s2": -0.447,
+      "low_pct": 43.3,
+      "low_avg_s2": -0.281,
+      "avg_s2": -0.34,
+      "n": 639
+    },
+    "postcolonial": {
+      "high_pct": 38.2,
+      "high_avg_s2": -0.256,
+      "medium_pct": 34.1,
+      "medium_avg_s2": -0.671,
+      "low_pct": 27.7,
+      "low_avg_s2": -0.57,
+      "avg_s2": -0.484,
+      "n": 989
+    },
+    "dramatic_monologue": {
+      "high_pct": 20.8,
+      "high_avg_s2": -0.282,
+      "medium_pct": 37.0,
+      "medium_avg_s2": -0.583,
+      "low_pct": 42.1,
+      "low_avg_s2": -0.459,
+      "avg_s2": -0.468,
+      "n": 5305
+    },
+    "elegy": {
+      "high_pct": 19.8,
+      "high_avg_s2": -0.242,
+      "medium_pct": 36.1,
+      "medium_avg_s2": -0.67,
+      "low_pct": 44.1,
+      "low_avg_s2": -0.374,
+      "avg_s2": -0.455,
+      "n": 1255
+    },
+    "clerihew": {
+      "high_pct": 17.7,
+      "high_avg_s2": 0.542,
+      "medium_pct": 37.1,
+      "medium_avg_s2": 0.923,
+      "low_pct": 45.3,
+      "low_avg_s2": 0.154,
+      "avg_s2": 0.507,
+      "n": 232
+    },
+    "double_dactyl": {
+      "high_pct": 21.4,
+      "high_avg_s2": -0.134,
+      "medium_pct": 29.4,
+      "medium_avg_s2": -0.917,
+      "low_pct": 49.2,
+      "low_avg_s2": -1.334,
+      "avg_s2": -0.955,
+      "n": 248
+    },
+    "ekphrastic": {
+      "high_pct": 19.1,
+      "high_avg_s2": -0.296,
+      "medium_pct": 34.4,
+      "medium_avg_s2": -0.649,
+      "low_pct": 46.4,
+      "low_avg_s2": -0.492,
+      "avg_s2": -0.508,
+      "n": 1901
+    },
+    "villanelle": {
+      "high_pct": 44.3,
+      "high_avg_s2": -0.211,
+      "medium_pct": 27.3,
+      "medium_avg_s2": -1.152,
+      "low_pct": 28.4,
+      "low_avg_s2": -0.286,
+      "avg_s2": -0.489,
+      "n": 436
+    },
+    "pantoum": {
+      "high_pct": 35.7,
+      "high_avg_s2": -0.262,
+      "medium_pct": 37.1,
+      "medium_avg_s2": -0.603,
+      "low_pct": 27.2,
+      "low_avg_s2": -0.428,
+      "avg_s2": -0.433,
+      "n": 283
+    },
+    "triolet": {
+      "high_pct": 60.0,
+      "high_avg_s2": -0.489,
+      "medium_pct": 23.1,
+      "medium_avg_s2": -1.509,
+      "low_pct": 16.9,
+      "low_avg_s2": -0.625,
+      "avg_s2": -0.747,
+      "n": 130
+    },
+    "rondeau": {
+      "high_pct": 26.2,
+      "high_avg_s2": 0.264,
+      "medium_pct": 37.7,
+      "medium_avg_s2": -0.094,
+      "low_pct": 36.2,
+      "low_avg_s2": -1.198,
+      "avg_s2": -0.4,
+      "n": 130
+    },
+    "nonsense": {
+      "high_pct": 31.6,
+      "high_avg_s2": -0.623,
+      "medium_pct": 31.4,
+      "medium_avg_s2": -0.587,
+      "low_pct": 37.0,
+      "low_avg_s2": -0.843,
+      "avg_s2": -0.693,
+      "n": 500
+    },
+    "procedural": {
+      "high_pct": 30.0,
+      "high_avg_s2": -0.611,
+      "medium_pct": 33.6,
+      "medium_avg_s2": -0.294,
+      "low_pct": 36.4,
+      "low_avg_s2": -0.476,
+      "avg_s2": -0.455,
+      "n": 640
+    },
+    "social_media_poetry": {
+      "high_pct": 27.6,
+      "high_avg_s2": -0.07,
+      "medium_pct": 27.6,
+      "medium_avg_s2": -1.527,
+      "low_pct": 44.8,
+      "low_avg_s2": -1.18,
+      "avg_s2": -0.97,
+      "n": 58
+    },
+    "objectivist": {
+      "high_pct": 42.6,
+      "high_avg_s2": -0.137,
+      "medium_pct": 30.3,
+      "medium_avg_s2": -1.128,
+      "low_pct": 27.1,
+      "low_avg_s2": -0.883,
+      "avg_s2": -0.639,
+      "n": 1089
+    }
+  },
+  "author_summary": {
+    "William Wordsworth": {
+      "n": 228,
+      "avg_coverage": 0.5355,
+      "avg_s2": -0.3973,
+      "precision_shot_rate": 2.19,
+      "scatter_dev_rate": 1.75,
+      "ps_to_sd_ratio": 1.0
+    },
+    "John Keats": {
+      "n": 2553,
+      "avg_coverage": 0.5029,
+      "avg_s2": -0.4791,
+      "precision_shot_rate": 1.92,
+      "scatter_dev_rate": 2.82,
+      "ps_to_sd_ratio": 0.67
+    },
+    "Emily Dickinson": {
+      "n": 616,
+      "avg_coverage": 0.5104,
+      "avg_s2": -0.0966,
+      "precision_shot_rate": 2.6,
+      "scatter_dev_rate": 4.87,
+      "ps_to_sd_ratio": 0.52
+    },
+    "Walt Whitman": {
+      "n": 2062,
+      "avg_coverage": 0.5418,
+      "avg_s2": -0.4952,
+      "precision_shot_rate": 1.89,
+      "scatter_dev_rate": 2.91,
+      "ps_to_sd_ratio": 0.64
+    },
+    "Matthew Arnold": {
+      "n": 586,
+      "avg_coverage": 0.5464,
+      "avg_s2": -0.5014,
+      "precision_shot_rate": 2.9,
+      "scatter_dev_rate": 2.9,
+      "ps_to_sd_ratio": 0.94
+    },
+    "Percy Bysshe Shelley": {
+      "n": 646,
+      "avg_coverage": 0.5037,
+      "avg_s2": -0.3737,
+      "precision_shot_rate": 2.48,
+      "scatter_dev_rate": 3.41,
+      "ps_to_sd_ratio": 0.7
+    },
+    "T.S. Eliot": {
+      "n": 830,
+      "avg_coverage": 0.5497,
+      "avg_s2": -0.3305,
+      "precision_shot_rate": 1.93,
+      "scatter_dev_rate": 3.73,
+      "ps_to_sd_ratio": 0.5
+    },
+    "William Carlos Williams": {
+      "n": 118,
+      "avg_coverage": 0.5133,
+      "avg_s2": -0.8715,
+      "precision_shot_rate": 1.69,
+      "scatter_dev_rate": 1.69,
+      "ps_to_sd_ratio": 0.67
+    },
+    "Wallace Stevens": {
+      "n": 236,
+      "avg_coverage": 0.5115,
+      "avg_s2": -0.6056,
+      "precision_shot_rate": 2.54,
+      "scatter_dev_rate": 2.97,
+      "ps_to_sd_ratio": 0.75
+    },
+    "Allen Ginsberg": {
+      "n": 148,
+      "avg_coverage": 0.5562,
+      "avg_s2": 0.6853,
+      "precision_shot_rate": 4.73,
+      "scatter_dev_rate": 8.78,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Sylvia Plath": {
+      "n": 139,
+      "avg_coverage": 0.5087,
+      "avg_s2": -0.4352,
+      "precision_shot_rate": 2.88,
+      "scatter_dev_rate": 5.04,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Elizabeth Bishop": {
+      "n": 60,
+      "avg_coverage": 0.6052,
+      "avg_s2": 0.1748,
+      "precision_shot_rate": 5.0,
+      "scatter_dev_rate": 1.67,
+      "ps_to_sd_ratio": 1.5
+    },
+    "John Ashbery": {
+      "n": 1444,
+      "avg_coverage": 0.5394,
+      "avg_s2": -0.5732,
+      "precision_shot_rate": 1.39,
+      "scatter_dev_rate": 2.63,
+      "ps_to_sd_ratio": 0.51
+    },
+    "Frank O'Hara": {
+      "n": 370,
+      "avg_coverage": 0.6191,
+      "avg_s2": -0.3782,
+      "precision_shot_rate": 4.05,
+      "scatter_dev_rate": 2.16,
+      "ps_to_sd_ratio": 1.67
+    },
+    "Lyn Hejinian": {
+      "n": 50,
+      "avg_coverage": 0.5718,
+      "avg_s2": -0.9011,
+      "precision_shot_rate": 6.0,
+      "scatter_dev_rate": 4.0,
+      "ps_to_sd_ratio": 1.0
+    },
+    "Ron Silliman": {
+      "n": 50,
+      "avg_coverage": 0.4591,
+      "avg_s2": -0.4382,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 4.0,
+      "ps_to_sd_ratio": 0.0
+    },
+    "Claudia Rankine": {
+      "n": 139,
+      "avg_coverage": 0.5825,
+      "avg_s2": 0.0051,
+      "precision_shot_rate": 7.91,
+      "scatter_dev_rate": 2.16,
+      "ps_to_sd_ratio": 2.75
+    },
+    "Ross Gay": {
+      "n": 55,
+      "avg_coverage": 0.5952,
+      "avg_s2": -0.9604,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 1.82,
+      "ps_to_sd_ratio": 0.0
+    },
+    "Layli Long Soldier": {
+      "n": 57,
+      "avg_coverage": 0.525,
+      "avg_s2": 0.1588,
+      "precision_shot_rate": 1.75,
+      "scatter_dev_rate": 1.75,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Lucille Clifton": {
+      "n": 339,
+      "avg_coverage": 0.5869,
+      "avg_s2": -0.6136,
+      "precision_shot_rate": 1.77,
+      "scatter_dev_rate": 1.47,
+      "ps_to_sd_ratio": 1.0
+    },
+    "Langston Hughes": {
+      "n": 251,
+      "avg_coverage": 0.5755,
+      "avg_s2": -0.6287,
+      "precision_shot_rate": 1.2,
+      "scatter_dev_rate": 2.39,
+      "ps_to_sd_ratio": 0.43
+    },
+    "Gwendolyn Brooks": {
+      "n": 78,
+      "avg_coverage": 0.5342,
+      "avg_s2": -0.6578,
+      "precision_shot_rate": 2.56,
+      "scatter_dev_rate": 5.13,
+      "ps_to_sd_ratio": 0.4
+    },
+    "Georges Perec": {
+      "n": 164,
+      "avg_coverage": 0.592,
+      "avg_s2": -0.5505,
+      "precision_shot_rate": 1.83,
+      "scatter_dev_rate": 1.83,
+      "ps_to_sd_ratio": 0.75
+    },
+    "Andr\u00e9 Breton": {
+      "n": 57,
+      "avg_coverage": 0.5505,
+      "avg_s2": -0.6798,
+      "precision_shot_rate": 3.51,
+      "scatter_dev_rate": 0.0,
+      "ps_to_sd_ratio": 2.0
+    },
+    "Robert Desnos": {
+      "n": 154,
+      "avg_coverage": 0.6185,
+      "avg_s2": -0.4297,
+      "precision_shot_rate": 1.95,
+      "scatter_dev_rate": 3.25,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Federico Garc\u00eda Lorca": {
+      "n": 180,
+      "avg_coverage": 0.5949,
+      "avg_s2": -0.6654,
+      "precision_shot_rate": 2.22,
+      "scatter_dev_rate": 0.56,
+      "ps_to_sd_ratio": 2.0
+    },
+    "C\u00e9sar Vallejo": {
+      "n": 153,
+      "avg_coverage": 0.6342,
+      "avg_s2": 0.2338,
+      "precision_shot_rate": 2.61,
+      "scatter_dev_rate": 3.92,
+      "ps_to_sd_ratio": 0.57
+    },
+    "Paul \u00c9luard": {
+      "n": 132,
+      "avg_coverage": 0.5454,
+      "avg_s2": -0.807,
+      "precision_shot_rate": 1.52,
+      "scatter_dev_rate": 1.52,
+      "ps_to_sd_ratio": 0.67
+    },
+    "Pablo Neruda": {
+      "n": 304,
+      "avg_coverage": 0.6096,
+      "avg_s2": -0.1931,
+      "precision_shot_rate": 4.61,
+      "scatter_dev_rate": 2.63,
+      "ps_to_sd_ratio": 1.56
+    },
+    "Pierre Reverdy": {
+      "n": 61,
+      "avg_coverage": 0.5062,
+      "avg_s2": -1.5813,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 0.0,
+      "ps_to_sd_ratio": 0.0
+    },
+    "Arthur Rimbaud": {
+      "n": 170,
+      "avg_coverage": 0.5306,
+      "avg_s2": -0.8144,
+      "precision_shot_rate": 1.76,
+      "scatter_dev_rate": 2.94,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Robert Bly": {
+      "n": 61,
+      "avg_coverage": 0.5375,
+      "avg_s2": 0.0658,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 3.28,
+      "ps_to_sd_ratio": 0.0
+    },
+    "Control": {
+      "n": 163,
+      "avg_coverage": 0.6365,
+      "avg_s2": -1.7207,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 0.61,
+      "ps_to_sd_ratio": 0.0
+    },
+    "Stefan George": {
+      "n": 356,
+      "avg_coverage": 0.4891,
+      "avg_s2": 0.452,
+      "precision_shot_rate": 2.25,
+      "scatter_dev_rate": 4.49,
+      "ps_to_sd_ratio": 0.47
+    },
+    "Georg Trakl": {
+      "n": 283,
+      "avg_coverage": 0.5206,
+      "avg_s2": 0.5618,
+      "precision_shot_rate": 2.47,
+      "scatter_dev_rate": 6.36,
+      "ps_to_sd_ratio": 0.37
+    },
+    "Rainer Maria Rilke": {
+      "n": 234,
+      "avg_coverage": 0.5609,
+      "avg_s2": 0.6259,
+      "precision_shot_rate": 2.56,
+      "scatter_dev_rate": 5.56,
+      "ps_to_sd_ratio": 0.43
+    },
+    "Gerard Manley Hopkins": {
+      "n": 1068,
+      "avg_coverage": 0.4886,
+      "avg_s2": -0.1383,
+      "precision_shot_rate": 2.81,
+      "scatter_dev_rate": 5.52,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Alfred Lord Tennyson": {
+      "n": 1760,
+      "avg_coverage": 0.5094,
+      "avg_s2": -0.6171,
+      "precision_shot_rate": 0.74,
+      "scatter_dev_rate": 3.35,
+      "ps_to_sd_ratio": 0.22
+    },
+    "Paul Laurence Dunbar": {
+      "n": 317,
+      "avg_coverage": 0.5885,
+      "avg_s2": -0.5355,
+      "precision_shot_rate": 2.21,
+      "scatter_dev_rate": 1.58,
+      "ps_to_sd_ratio": 1.17
+    },
+    "Thomas Hardy": {
+      "n": 933,
+      "avg_coverage": 0.5103,
+      "avg_s2": -0.0061,
+      "precision_shot_rate": 2.47,
+      "scatter_dev_rate": 4.72,
+      "ps_to_sd_ratio": 0.51
+    },
+    "Robert Browning": {
+      "n": 3373,
+      "avg_coverage": 0.5232,
+      "avg_s2": -0.3616,
+      "precision_shot_rate": 1.36,
+      "scatter_dev_rate": 2.76,
+      "ps_to_sd_ratio": 0.49
+    },
+    "Anne Sexton": {
+      "n": 86,
+      "avg_coverage": 0.5112,
+      "avg_s2": -0.6438,
+      "precision_shot_rate": 3.49,
+      "scatter_dev_rate": 1.16,
+      "ps_to_sd_ratio": 1.5
+    },
+    "Marianne Moore": {
+      "n": 658,
+      "avg_coverage": 0.6079,
+      "avg_s2": -0.1172,
+      "precision_shot_rate": 5.93,
+      "scatter_dev_rate": 2.74,
+      "ps_to_sd_ratio": 2.05
+    },
+    "Gertrude Stein": {
+      "n": 533,
+      "avg_coverage": 0.6434,
+      "avg_s2": -0.3468,
+      "precision_shot_rate": 3.38,
+      "scatter_dev_rate": 2.63,
+      "ps_to_sd_ratio": 1.2
+    },
+    "E.E. Cummings": {
+      "n": 293,
+      "avg_coverage": 0.6175,
+      "avg_s2": -0.6231,
+      "precision_shot_rate": 3.41,
+      "scatter_dev_rate": 3.75,
+      "ps_to_sd_ratio": 0.83
+    },
+    "Matsuo Basho": {
+      "n": 50,
+      "avg_coverage": 0.5307,
+      "avg_s2": -0.3127,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 4.0,
+      "ps_to_sd_ratio": 0.0
+    },
+    "Kobayashi Issa": {
+      "n": 79,
+      "avg_coverage": 0.5351,
+      "avg_s2": -0.9019,
+      "precision_shot_rate": 2.53,
+      "scatter_dev_rate": 3.8,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Vachel Lindsay": {
+      "n": 91,
+      "avg_coverage": 0.5213,
+      "avg_s2": -1.3063,
+      "precision_shot_rate": 2.2,
+      "scatter_dev_rate": 0.0,
+      "ps_to_sd_ratio": 2.0
+    },
+    "Sappho": {
+      "n": 206,
+      "avg_coverage": 0.5926,
+      "avg_s2": -0.4561,
+      "precision_shot_rate": 2.43,
+      "scatter_dev_rate": 0.49,
+      "ps_to_sd_ratio": 2.5
+    },
+    "Charles Baudelaire": {
+      "n": 146,
+      "avg_coverage": 0.6951,
+      "avg_s2": -0.4571,
+      "precision_shot_rate": 3.42,
+      "scatter_dev_rate": 2.74,
+      "ps_to_sd_ratio": 1.0
+    },
+    "William Blake": {
+      "n": 967,
+      "avg_coverage": 0.551,
+      "avg_s2": -0.7669,
+      "precision_shot_rate": 1.34,
+      "scatter_dev_rate": 2.07,
+      "ps_to_sd_ratio": 0.62
+    },
+    "Edgar Allan Poe": {
+      "n": 929,
+      "avg_coverage": 0.5787,
+      "avg_s2": -0.8487,
+      "precision_shot_rate": 2.15,
+      "scatter_dev_rate": 2.26,
+      "ps_to_sd_ratio": 0.91
+    },
+    "Christina Rossetti": {
+      "n": 951,
+      "avg_coverage": 0.5855,
+      "avg_s2": -0.3349,
+      "precision_shot_rate": 2.52,
+      "scatter_dev_rate": 2.73,
+      "ps_to_sd_ratio": 0.89
+    },
+    "Walter de la Mare": {
+      "n": 120,
+      "avg_coverage": 0.6274,
+      "avg_s2": -0.3204,
+      "precision_shot_rate": 4.17,
+      "scatter_dev_rate": 0.83,
+      "ps_to_sd_ratio": 2.5
+    },
+    "Claude McKay": {
+      "n": 281,
+      "avg_coverage": 0.5401,
+      "avg_s2": -0.2854,
+      "precision_shot_rate": 1.78,
+      "scatter_dev_rate": 1.42,
+      "ps_to_sd_ratio": 1.0
+    },
+    "Countee Cullen": {
+      "n": 284,
+      "avg_coverage": 0.4718,
+      "avg_s2": -0.2534,
+      "precision_shot_rate": 1.76,
+      "scatter_dev_rate": 4.93,
+      "ps_to_sd_ratio": 0.33
+    },
+    "Robert Burns": {
+      "n": 266,
+      "avg_coverage": 0.5182,
+      "avg_s2": -0.5516,
+      "precision_shot_rate": 2.26,
+      "scatter_dev_rate": 3.01,
+      "ps_to_sd_ratio": 0.67
+    },
+    "Philip Larkin": {
+      "n": 105,
+      "avg_coverage": 0.5222,
+      "avg_s2": -0.2492,
+      "precision_shot_rate": 1.9,
+      "scatter_dev_rate": 1.9,
+      "ps_to_sd_ratio": 0.67
+    },
+    "Seamus Heaney": {
+      "n": 127,
+      "avg_coverage": 0.5103,
+      "avg_s2": 0.1708,
+      "precision_shot_rate": 0.79,
+      "scatter_dev_rate": 2.36,
+      "ps_to_sd_ratio": 0.25
+    },
+    "Wislawa Szymborska": {
+      "n": 122,
+      "avg_coverage": 0.6367,
+      "avg_s2": -0.3721,
+      "precision_shot_rate": 2.46,
+      "scatter_dev_rate": 3.28,
+      "ps_to_sd_ratio": 0.6
+    },
+    "Mary Oliver": {
+      "n": 193,
+      "avg_coverage": 0.6521,
+      "avg_s2": -0.7377,
+      "precision_shot_rate": 1.04,
+      "scatter_dev_rate": 1.55,
+      "ps_to_sd_ratio": 0.5
+    },
+    "W.B. Yeats": {
+      "n": 657,
+      "avg_coverage": 0.5303,
+      "avg_s2": -0.402,
+      "precision_shot_rate": 2.13,
+      "scatter_dev_rate": 3.65,
+      "ps_to_sd_ratio": 0.56
+    },
+    "Robert Frost": {
+      "n": 622,
+      "avg_coverage": 0.5906,
+      "avg_s2": -0.4421,
+      "precision_shot_rate": 1.77,
+      "scatter_dev_rate": 2.09,
+      "ps_to_sd_ratio": 0.79
+    },
+    "Traditional (Scottish ballad)": {
+      "n": 775,
+      "avg_coverage": 0.5975,
+      "avg_s2": -0.4577,
+      "precision_shot_rate": 3.35,
+      "scatter_dev_rate": 2.32,
+      "ps_to_sd_ratio": 1.37
+    },
+    "Traditional (English/Scottish ballad)": {
+      "n": 140,
+      "avg_coverage": 0.5593,
+      "avg_s2": -0.2181,
+      "precision_shot_rate": 2.14,
+      "scatter_dev_rate": 2.86,
+      "ps_to_sd_ratio": 0.6
+    },
+    "Carolyn Forch\u00e9": {
+      "n": 64,
+      "avg_coverage": 0.5964,
+      "avg_s2": -0.297,
+      "precision_shot_rate": 1.56,
+      "scatter_dev_rate": 1.56,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Russell Edson": {
+      "n": 241,
+      "avg_coverage": 0.7031,
+      "avg_s2": -0.4015,
+      "precision_shot_rate": 3.73,
+      "scatter_dev_rate": 0.41,
+      "ps_to_sd_ratio": 4.5
+    },
+    "W.S. Merwin": {
+      "n": 60,
+      "avg_coverage": 0.6422,
+      "avg_s2": -1.0256,
+      "precision_shot_rate": 1.67,
+      "scatter_dev_rate": 0.0,
+      "ps_to_sd_ratio": 1.0
+    },
+    "James Wright": {
+      "n": 53,
+      "avg_coverage": 0.5965,
+      "avg_s2": -0.351,
+      "precision_shot_rate": 3.77,
+      "scatter_dev_rate": 1.89,
+      "ps_to_sd_ratio": 1.0
+    },
+    "William Shakespeare": {
+      "n": 482,
+      "avg_coverage": 0.5128,
+      "avg_s2": -0.7413,
+      "precision_shot_rate": 1.45,
+      "scatter_dev_rate": 1.66,
+      "ps_to_sd_ratio": 0.78
+    },
+    "John Milton": {
+      "n": 324,
+      "avg_coverage": 0.4896,
+      "avg_s2": -0.094,
+      "precision_shot_rate": 1.85,
+      "scatter_dev_rate": 5.86,
+      "ps_to_sd_ratio": 0.3
+    },
+    "Edna St. Vincent Millay": {
+      "n": 147,
+      "avg_coverage": 0.5145,
+      "avg_s2": -0.8917,
+      "precision_shot_rate": 0.68,
+      "scatter_dev_rate": 2.04,
+      "ps_to_sd_ratio": 0.25
+    },
+    "Traditional (American folk)": {
+      "n": 224,
+      "avg_coverage": 0.6617,
+      "avg_s2": -0.9662,
+      "precision_shot_rate": 1.79,
+      "scatter_dev_rate": 1.34,
+      "ps_to_sd_ratio": 1.0
+    },
+    "Traditional (American sea chanty)": {
+      "n": 168,
+      "avg_coverage": 0.8155,
+      "avg_s2": -0.3381,
+      "precision_shot_rate": 5.36,
+      "scatter_dev_rate": 1.79,
+      "ps_to_sd_ratio": 2.25
+    },
+    "Brewster Higley": {
+      "n": 149,
+      "avg_coverage": 0.6378,
+      "avg_s2": -0.6282,
+      "precision_shot_rate": 3.36,
+      "scatter_dev_rate": 2.01,
+      "ps_to_sd_ratio": 1.25
+    },
+    "Traditional (English)": {
+      "n": 222,
+      "avg_coverage": 0.6114,
+      "avg_s2": -0.8185,
+      "precision_shot_rate": 2.7,
+      "scatter_dev_rate": 0.0,
+      "ps_to_sd_ratio": 6.0
+    },
+    "Killarney Clary": {
+      "n": 171,
+      "avg_coverage": 0.627,
+      "avg_s2": -0.9487,
+      "precision_shot_rate": 0.58,
+      "scatter_dev_rate": 0.58,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Rae Armantrout": {
+      "n": 130,
+      "avg_coverage": 0.6385,
+      "avg_s2": -0.6452,
+      "precision_shot_rate": 2.31,
+      "scatter_dev_rate": 0.0,
+      "ps_to_sd_ratio": 3.0
+    },
+    "David Antin": {
+      "n": 113,
+      "avg_coverage": 0.6221,
+      "avg_s2": -1.2798,
+      "precision_shot_rate": 2.65,
+      "scatter_dev_rate": 0.88,
+      "ps_to_sd_ratio": 1.5
+    },
+    "John Donne": {
+      "n": 522,
+      "avg_coverage": 0.4856,
+      "avg_s2": -0.7312,
+      "precision_shot_rate": 1.15,
+      "scatter_dev_rate": 4.21,
+      "ps_to_sd_ratio": 0.26
+    },
+    "George Herbert": {
+      "n": 263,
+      "avg_coverage": 0.5279,
+      "avg_s2": -0.5484,
+      "precision_shot_rate": 0.76,
+      "scatter_dev_rate": 2.66,
+      "ps_to_sd_ratio": 0.25
+    },
+    "Thomas Wyatt": {
+      "n": 367,
+      "avg_coverage": 0.5071,
+      "avg_s2": 0.0185,
+      "precision_shot_rate": 1.36,
+      "scatter_dev_rate": 3.54,
+      "ps_to_sd_ratio": 0.36
+    },
+    "Matsuo Bash\u014d": {
+      "n": 63,
+      "avg_coverage": 0.4654,
+      "avg_s2": 0.0983,
+      "precision_shot_rate": 1.59,
+      "scatter_dev_rate": 4.76,
+      "ps_to_sd_ratio": 0.25
+    },
+    "Charles Darwin (found text)": {
+      "n": 137,
+      "avg_coverage": 0.6262,
+      "avg_s2": -0.9086,
+      "precision_shot_rate": 1.46,
+      "scatter_dev_rate": 1.46,
+      "ps_to_sd_ratio": 0.67
+    },
+    "Anonymous (KJV, found text)": {
+      "n": 147,
+      "avg_coverage": 0.6095,
+      "avg_s2": -0.8593,
+      "precision_shot_rate": 3.4,
+      "scatter_dev_rate": 1.36,
+      "ps_to_sd_ratio": 1.67
+    },
+    "Thomas Jefferson (found text)": {
+      "n": 148,
+      "avg_coverage": 0.8601,
+      "avg_s2": -0.2612,
+      "precision_shot_rate": 4.73,
+      "scatter_dev_rate": 0.0,
+      "ps_to_sd_ratio": 7.0
+    },
+    "Anonymous (found text)": {
+      "n": 532,
+      "avg_coverage": 0.703,
+      "avg_s2": -0.5766,
+      "precision_shot_rate": 3.2,
+      "scatter_dev_rate": 0.19,
+      "ps_to_sd_ratio": 8.5
+    },
+    "Isaac Newton (found text)": {
+      "n": 129,
+      "avg_coverage": 0.5803,
+      "avg_s2": -0.6321,
+      "precision_shot_rate": 0.78,
+      "scatter_dev_rate": 3.1,
+      "ps_to_sd_ratio": 0.2
+    },
+    "John Berryman": {
+      "n": 83,
+      "avg_coverage": 0.5613,
+      "avg_s2": 0.4177,
+      "precision_shot_rate": 4.82,
+      "scatter_dev_rate": 7.23,
+      "ps_to_sd_ratio": 0.57
+    },
+    "Robert Lowell": {
+      "n": 89,
+      "avg_coverage": 0.5384,
+      "avg_s2": -0.1334,
+      "precision_shot_rate": 2.25,
+      "scatter_dev_rate": 3.37,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Andrew Marvell": {
+      "n": 98,
+      "avg_coverage": 0.4718,
+      "avg_s2": -0.7356,
+      "precision_shot_rate": 1.02,
+      "scatter_dev_rate": 5.1,
+      "ps_to_sd_ratio": 0.17
+    },
+    "Ben Jonson": {
+      "n": 220,
+      "avg_coverage": 0.4999,
+      "avg_s2": -0.4277,
+      "precision_shot_rate": 0.91,
+      "scatter_dev_rate": 2.73,
+      "ps_to_sd_ratio": 0.29
+    },
+    "Edmund Spenser": {
+      "n": 83,
+      "avg_coverage": 0.5317,
+      "avg_s2": -0.256,
+      "precision_shot_rate": 3.61,
+      "scatter_dev_rate": 1.2,
+      "ps_to_sd_ratio": 1.5
+    },
+    "Oscar Wilde": {
+      "n": 92,
+      "avg_coverage": 0.566,
+      "avg_s2": 0.0567,
+      "precision_shot_rate": 3.26,
+      "scatter_dev_rate": 3.26,
+      "ps_to_sd_ratio": 0.75
+    },
+    "Edwin Arlington Robinson": {
+      "n": 219,
+      "avg_coverage": 0.6658,
+      "avg_s2": -0.2129,
+      "precision_shot_rate": 4.11,
+      "scatter_dev_rate": 1.83,
+      "ps_to_sd_ratio": 1.8
+    },
+    "Ernest Dowson": {
+      "n": 201,
+      "avg_coverage": 0.5931,
+      "avg_s2": -1.2776,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 1.99,
+      "ps_to_sd_ratio": 0.0
+    },
+    "William Ernest Henley": {
+      "n": 240,
+      "avg_coverage": 0.5637,
+      "avg_s2": -0.5747,
+      "precision_shot_rate": 2.5,
+      "scatter_dev_rate": 3.33,
+      "ps_to_sd_ratio": 0.67
+    },
+    "Dante Gabriel Rossetti": {
+      "n": 321,
+      "avg_coverage": 0.4989,
+      "avg_s2": -0.2872,
+      "precision_shot_rate": 1.87,
+      "scatter_dev_rate": 4.36,
+      "ps_to_sd_ratio": 0.4
+    },
+    "Austin Dobson": {
+      "n": 135,
+      "avg_coverage": 0.5852,
+      "avg_s2": -0.6675,
+      "precision_shot_rate": 3.7,
+      "scatter_dev_rate": 2.22,
+      "ps_to_sd_ratio": 1.25
+    },
+    "Rudyard Kipling": {
+      "n": 293,
+      "avg_coverage": 0.5816,
+      "avg_s2": -0.6052,
+      "precision_shot_rate": 2.73,
+      "scatter_dev_rate": 1.71,
+      "ps_to_sd_ratio": 1.33
+    },
+    "Alfred, Lord Tennyson": {
+      "n": 1208,
+      "avg_coverage": 0.5659,
+      "avg_s2": -0.5432,
+      "precision_shot_rate": 2.32,
+      "scatter_dev_rate": 2.32,
+      "ps_to_sd_ratio": 0.97
+    },
+    "Synthetic (research test case)": {
+      "n": 333,
+      "avg_coverage": 0.6287,
+      "avg_s2": -0.8714,
+      "precision_shot_rate": 2.4,
+      "scatter_dev_rate": 0.6,
+      "ps_to_sd_ratio": 2.67
+    },
+    "Christopher Smart": {
+      "n": 532,
+      "avg_coverage": 0.6412,
+      "avg_s2": -0.3331,
+      "precision_shot_rate": 3.76,
+      "scatter_dev_rate": 1.88,
+      "ps_to_sd_ratio": 1.82
+    },
+    "Samuel Taylor Coleridge": {
+      "n": 243,
+      "avg_coverage": 0.4992,
+      "avg_s2": 0.0909,
+      "precision_shot_rate": 1.23,
+      "scatter_dev_rate": 2.88,
+      "ps_to_sd_ratio": 0.38
+    },
+    "Felicia Hemans": {
+      "n": 189,
+      "avg_coverage": 0.5533,
+      "avg_s2": -0.3892,
+      "precision_shot_rate": 2.12,
+      "scatter_dev_rate": 1.59,
+      "ps_to_sd_ratio": 1.0
+    },
+    "Carl Sandburg": {
+      "n": 118,
+      "avg_coverage": 0.6125,
+      "avg_s2": -0.3021,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 2.54,
+      "ps_to_sd_ratio": 0.0
+    },
+    "Hart Crane": {
+      "n": 340,
+      "avg_coverage": 0.4794,
+      "avg_s2": 0.6439,
+      "precision_shot_rate": 2.65,
+      "scatter_dev_rate": 5.88,
+      "ps_to_sd_ratio": 0.43
+    },
+    "Anonymous (Hebrew Bible)": {
+      "n": 883,
+      "avg_coverage": 0.6624,
+      "avg_s2": -0.564,
+      "precision_shot_rate": 2.49,
+      "scatter_dev_rate": 0.79,
+      "ps_to_sd_ratio": 2.75
+    },
+    "Emmett Williams": {
+      "n": 55,
+      "avg_coverage": 0.7474,
+      "avg_s2": 0.0101,
+      "precision_shot_rate": 10.91,
+      "scatter_dev_rate": 3.64,
+      "ps_to_sd_ratio": 2.0
+    },
+    "Pablo Neruda (trans. W.S. Merwin)": {
+      "n": 109,
+      "avg_coverage": 0.6749,
+      "avg_s2": -0.6222,
+      "precision_shot_rate": 3.67,
+      "scatter_dev_rate": 1.83,
+      "ps_to_sd_ratio": 1.33
+    },
+    "Federico Garc\u00eda Lorca (trans. Stephen Spender & J.L. Gili)": {
+      "n": 86,
+      "avg_coverage": 0.5665,
+      "avg_s2": -0.8131,
+      "precision_shot_rate": 2.33,
+      "scatter_dev_rate": 1.16,
+      "ps_to_sd_ratio": 1.0
+    },
+    "C\u00e9sar Vallejo (trans. Thomas Merton)": {
+      "n": 157,
+      "avg_coverage": 0.6221,
+      "avg_s2": -0.3247,
+      "precision_shot_rate": 1.27,
+      "scatter_dev_rate": 2.55,
+      "ps_to_sd_ratio": 0.4
+    },
+    "Amiri Baraka (LeRoi Jones)": {
+      "n": 144,
+      "avg_coverage": 0.6355,
+      "avg_s2": -0.5016,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 2.08,
+      "ps_to_sd_ratio": 0.0
+    },
+    "Ko Un (trans. Brother Anthony of Taiz\u00e9)": {
+      "n": 102,
+      "avg_coverage": 0.5709,
+      "avg_s2": -0.6922,
+      "precision_shot_rate": 0.98,
+      "scatter_dev_rate": 2.94,
+      "ps_to_sd_ratio": 0.25
+    },
+    "Amy Lowell": {
+      "n": 235,
+      "avg_coverage": 0.5654,
+      "avg_s2": -0.6084,
+      "precision_shot_rate": 3.4,
+      "scatter_dev_rate": 2.55,
+      "ps_to_sd_ratio": 1.14
+    },
+    "Homer (trans. Alexander Pope)": {
+      "n": 90,
+      "avg_coverage": 0.5081,
+      "avg_s2": -0.1072,
+      "precision_shot_rate": 1.11,
+      "scatter_dev_rate": 1.11,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Anonymous (trans. Francis B. Gummere)": {
+      "n": 138,
+      "avg_coverage": 0.4581,
+      "avg_s2": -0.2886,
+      "precision_shot_rate": 1.45,
+      "scatter_dev_rate": 7.25,
+      "ps_to_sd_ratio": 0.18
+    },
+    "Phillis Wheatley": {
+      "n": 91,
+      "avg_coverage": 0.5397,
+      "avg_s2": 0.0191,
+      "precision_shot_rate": 1.1,
+      "scatter_dev_rate": 4.4,
+      "ps_to_sd_ratio": 0.2
+    },
+    "Gregory Corso": {
+      "n": 230,
+      "avg_coverage": 0.523,
+      "avg_s2": 0.2526,
+      "precision_shot_rate": 5.22,
+      "scatter_dev_rate": 7.39,
+      "ps_to_sd_ratio": 0.67
+    },
+    "Lawrence Ferlinghetti": {
+      "n": 670,
+      "avg_coverage": 0.8649,
+      "avg_s2": -0.135,
+      "precision_shot_rate": 2.84,
+      "scatter_dev_rate": 1.19,
+      "ps_to_sd_ratio": 2.11
+    },
+    "Gottfried Benn": {
+      "n": 242,
+      "avg_coverage": 0.5818,
+      "avg_s2": -0.299,
+      "precision_shot_rate": 1.65,
+      "scatter_dev_rate": 4.55,
+      "ps_to_sd_ratio": 0.33
+    },
+    "Georg Heym": {
+      "n": 256,
+      "avg_coverage": 0.5334,
+      "avg_s2": -0.0347,
+      "precision_shot_rate": 2.73,
+      "scatter_dev_rate": 2.73,
+      "ps_to_sd_ratio": 0.88
+    },
+    "Isaac Watts": {
+      "n": 217,
+      "avg_coverage": 0.5296,
+      "avg_s2": -0.7143,
+      "precision_shot_rate": 0.92,
+      "scatter_dev_rate": 0.92,
+      "ps_to_sd_ratio": 0.67
+    },
+    "Lewis Carroll": {
+      "n": 994,
+      "avg_coverage": 0.5895,
+      "avg_s2": -0.591,
+      "precision_shot_rate": 1.81,
+      "scatter_dev_rate": 2.72,
+      "ps_to_sd_ratio": 0.64
+    },
+    "Robert Southey": {
+      "n": 226,
+      "avg_coverage": 0.6853,
+      "avg_s2": -0.2045,
+      "precision_shot_rate": 3.54,
+      "scatter_dev_rate": 2.21,
+      "ps_to_sd_ratio": 1.33
+    },
+    "Alexander Pope": {
+      "n": 674,
+      "avg_coverage": 0.4722,
+      "avg_s2": -0.177,
+      "precision_shot_rate": 1.34,
+      "scatter_dev_rate": 6.08,
+      "ps_to_sd_ratio": 0.21
+    },
+    "Louise Gluck": {
+      "n": 131,
+      "avg_coverage": 0.5818,
+      "avg_s2": 0.397,
+      "precision_shot_rate": 1.53,
+      "scatter_dev_rate": 2.29,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Carolyn Forche": {
+      "n": 218,
+      "avg_coverage": 0.6076,
+      "avg_s2": -0.3012,
+      "precision_shot_rate": 1.83,
+      "scatter_dev_rate": 3.67,
+      "ps_to_sd_ratio": 0.44
+    },
+    "Christian B\u00f6k": {
+      "n": 215,
+      "avg_coverage": 0.5179,
+      "avg_s2": 0.8024,
+      "precision_shot_rate": 5.58,
+      "scatter_dev_rate": 6.05,
+      "ps_to_sd_ratio": 0.86
+    },
+    "Raymond Queneau": {
+      "n": 131,
+      "avg_coverage": 0.4835,
+      "avg_s2": -0.7494,
+      "precision_shot_rate": 0.76,
+      "scatter_dev_rate": 8.4,
+      "ps_to_sd_ratio": 0.08
+    },
+    "Jean Lescure": {
+      "n": 133,
+      "avg_coverage": 0.6378,
+      "avg_s2": -0.2717,
+      "precision_shot_rate": 1.5,
+      "scatter_dev_rate": 2.26,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Charles Bernstein": {
+      "n": 236,
+      "avg_coverage": 0.6231,
+      "avg_s2": -0.7586,
+      "precision_shot_rate": 3.39,
+      "scatter_dev_rate": 0.85,
+      "ps_to_sd_ratio": 2.67
+    },
+    "Lorine Niedecker": {
+      "n": 280,
+      "avg_coverage": 0.5746,
+      "avg_s2": -0.2346,
+      "precision_shot_rate": 4.29,
+      "scatter_dev_rate": 5.36,
+      "ps_to_sd_ratio": 0.75
+    },
+    "Du Fu": {
+      "n": 84,
+      "avg_coverage": 0.5407,
+      "avg_s2": -0.5344,
+      "precision_shot_rate": 1.19,
+      "scatter_dev_rate": 3.57,
+      "ps_to_sd_ratio": 0.25
+    },
+    "Cui Hao": {
+      "n": 86,
+      "avg_coverage": 0.51,
+      "avg_s2": -0.5121,
+      "precision_shot_rate": 1.16,
+      "scatter_dev_rate": 1.16,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Omar Khayyam (trans. FitzGerald, 1859)": {
+      "n": 382,
+      "avg_coverage": 0.5165,
+      "avg_s2": -0.2349,
+      "precision_shot_rate": 1.83,
+      "scatter_dev_rate": 2.62,
+      "ps_to_sd_ratio": 0.64
+    },
+    "Anonymous (limerick tradition)": {
+      "n": 119,
+      "avg_coverage": 0.5867,
+      "avg_s2": -1.1293,
+      "precision_shot_rate": 0.84,
+      "scatter_dev_rate": 3.36,
+      "ps_to_sd_ratio": 0.2
+    },
+    "Caedmon (trans. anon.)": {
+      "n": 76,
+      "avg_coverage": 0.607,
+      "avg_s2": -0.0259,
+      "precision_shot_rate": 2.63,
+      "scatter_dev_rate": 0.0,
+      "ps_to_sd_ratio": 2.0
+    },
+    "Anonymous (Old English, trans. anon.)": {
+      "n": 79,
+      "avg_coverage": 0.529,
+      "avg_s2": -0.3563,
+      "precision_shot_rate": 1.27,
+      "scatter_dev_rate": 3.8,
+      "ps_to_sd_ratio": 0.25
+    },
+    "Emma Lazarus": {
+      "n": 155,
+      "avg_coverage": 0.4759,
+      "avg_s2": -0.8307,
+      "precision_shot_rate": 0.65,
+      "scatter_dev_rate": 2.58,
+      "ps_to_sd_ratio": 0.2
+    },
+    "Maya Angelou": {
+      "n": 95,
+      "avg_coverage": 0.5901,
+      "avg_s2": -0.6295,
+      "precision_shot_rate": 2.11,
+      "scatter_dev_rate": 1.05,
+      "ps_to_sd_ratio": 1.0
+    },
+    "Charles Bukowski": {
+      "n": 93,
+      "avg_coverage": 0.6768,
+      "avg_s2": -0.403,
+      "precision_shot_rate": 3.23,
+      "scatter_dev_rate": 1.08,
+      "ps_to_sd_ratio": 1.5
+    },
+    "Heather McHugh": {
+      "n": 230,
+      "avg_coverage": 0.6148,
+      "avg_s2": -0.4628,
+      "precision_shot_rate": 4.35,
+      "scatter_dev_rate": 1.74,
+      "ps_to_sd_ratio": 2.0
+    },
+    "Anonymous": {
+      "n": 139,
+      "avg_coverage": 0.6189,
+      "avg_s2": -0.6544,
+      "precision_shot_rate": 2.16,
+      "scatter_dev_rate": 4.32,
+      "ps_to_sd_ratio": 0.43
+    },
+    "Edward Lear": {
+      "n": 122,
+      "avg_coverage": 0.555,
+      "avg_s2": -0.3239,
+      "precision_shot_rate": 1.64,
+      "scatter_dev_rate": 5.74,
+      "ps_to_sd_ratio": 0.25
+    },
+    "Wilfred Owen": {
+      "n": 483,
+      "avg_coverage": 0.5071,
+      "avg_s2": -0.4352,
+      "precision_shot_rate": 1.66,
+      "scatter_dev_rate": 3.52,
+      "ps_to_sd_ratio": 0.44
+    },
+    "Rupert Brooke": {
+      "n": 156,
+      "avg_coverage": 0.5264,
+      "avg_s2": -0.0461,
+      "precision_shot_rate": 3.21,
+      "scatter_dev_rate": 3.21,
+      "ps_to_sd_ratio": 0.83
+    },
+    "Anonymous (trans. Hall)": {
+      "n": 263,
+      "avg_coverage": 0.5099,
+      "avg_s2": -0.3586,
+      "precision_shot_rate": 1.14,
+      "scatter_dev_rate": 4.18,
+      "ps_to_sd_ratio": 0.25
+    },
+    "John Dryden": {
+      "n": 153,
+      "avg_coverage": 0.5474,
+      "avg_s2": -0.1658,
+      "precision_shot_rate": 0.65,
+      "scatter_dev_rate": 5.23,
+      "ps_to_sd_ratio": 0.11
+    },
+    "Samuel Johnson": {
+      "n": 160,
+      "avg_coverage": 0.4835,
+      "avg_s2": -0.2593,
+      "precision_shot_rate": 3.12,
+      "scatter_dev_rate": 5.62,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Joy Harjo": {
+      "n": 574,
+      "avg_coverage": 0.6936,
+      "avg_s2": -0.5417,
+      "precision_shot_rate": 2.96,
+      "scatter_dev_rate": 1.57,
+      "ps_to_sd_ratio": 1.7
+    },
+    "Derek Walcott": {
+      "n": 166,
+      "avg_coverage": 0.6135,
+      "avg_s2": -0.8024,
+      "precision_shot_rate": 2.41,
+      "scatter_dev_rate": 1.2,
+      "ps_to_sd_ratio": 1.33
+    },
+    "Agha Shahid Ali": {
+      "n": 324,
+      "avg_coverage": 0.5561,
+      "avg_s2": -0.4223,
+      "precision_shot_rate": 0.62,
+      "scatter_dev_rate": 3.7,
+      "ps_to_sd_ratio": 0.15
+    },
+    "Kamau Brathwaite": {
+      "n": 215,
+      "avg_coverage": 0.6752,
+      "avg_s2": -0.307,
+      "precision_shot_rate": 4.19,
+      "scatter_dev_rate": 1.86,
+      "ps_to_sd_ratio": 1.8
+    },
+    "Thomas Gray": {
+      "n": 176,
+      "avg_coverage": 0.462,
+      "avg_s2": -0.5167,
+      "precision_shot_rate": 2.27,
+      "scatter_dev_rate": 2.84,
+      "ps_to_sd_ratio": 0.67
+    },
+    "A.E. Housman": {
+      "n": 102,
+      "avg_coverage": 0.5213,
+      "avg_s2": 0.0582,
+      "precision_shot_rate": 2.94,
+      "scatter_dev_rate": 2.94,
+      "ps_to_sd_ratio": 0.75
+    },
+    "Edmund Clerihew Bentley": {
+      "n": 67,
+      "avg_coverage": 0.5129,
+      "avg_s2": 0.1173,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 2.99,
+      "ps_to_sd_ratio": 0.0
+    },
+    "Synthetic (clerihew test case)": {
+      "n": 165,
+      "avg_coverage": 0.4949,
+      "avg_s2": 0.6659,
+      "precision_shot_rate": 2.42,
+      "scatter_dev_rate": 5.45,
+      "ps_to_sd_ratio": 0.4
+    },
+    "Synthetic (double dactyl test case)": {
+      "n": 248,
+      "avg_coverage": 0.5003,
+      "avg_s2": -0.9549,
+      "precision_shot_rate": 2.42,
+      "scatter_dev_rate": 1.61,
+      "ps_to_sd_ratio": 1.2
+    },
+    "Robinson Jeffers": {
+      "n": 170,
+      "avg_coverage": 0.5679,
+      "avg_s2": -0.491,
+      "precision_shot_rate": 2.35,
+      "scatter_dev_rate": 1.18,
+      "ps_to_sd_ratio": 1.33
+    },
+    "Anne Carson": {
+      "n": 74,
+      "avg_coverage": 0.6147,
+      "avg_s2": -0.1613,
+      "precision_shot_rate": 4.05,
+      "scatter_dev_rate": 2.7,
+      "ps_to_sd_ratio": 1.0
+    },
+    "Algernon Charles Swinburne": {
+      "n": 736,
+      "avg_coverage": 0.4873,
+      "avg_s2": -0.4399,
+      "precision_shot_rate": 1.49,
+      "scatter_dev_rate": 3.53,
+      "ps_to_sd_ratio": 0.41
+    },
+    "Anonymous (trans. E.V. Gordon)": {
+      "n": 211,
+      "avg_coverage": 0.5623,
+      "avg_s2": -0.3326,
+      "precision_shot_rate": 2.37,
+      "scatter_dev_rate": 2.37,
+      "ps_to_sd_ratio": 0.83
+    },
+    "Arthur Symons": {
+      "n": 69,
+      "avg_coverage": 0.753,
+      "avg_s2": -0.8528,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 1.45,
+      "ps_to_sd_ratio": 0.0
+    },
+    "John McCrae": {
+      "n": 130,
+      "avg_coverage": 0.5465,
+      "avg_s2": -0.3995,
+      "precision_shot_rate": 3.85,
+      "scatter_dev_rate": 0.0,
+      "ps_to_sd_ratio": 5.0
+    },
+    "Adelaide Crapsey": {
+      "n": 57,
+      "avg_coverage": 0.4771,
+      "avg_s2": -0.4535,
+      "precision_shot_rate": 1.75,
+      "scatter_dev_rate": 3.51,
+      "ps_to_sd_ratio": 0.33
+    },
+    "Anonymous (KJV translation)": {
+      "n": 448,
+      "avg_coverage": 0.824,
+      "avg_s2": -0.235,
+      "precision_shot_rate": 2.23,
+      "scatter_dev_rate": 0.67,
+      "ps_to_sd_ratio": 2.5
+    },
+    "Kenneth Koch": {
+      "n": 170,
+      "avg_coverage": 0.6405,
+      "avg_s2": -0.4079,
+      "precision_shot_rate": 1.76,
+      "scatter_dev_rate": 1.18,
+      "ps_to_sd_ratio": 1.0
+    },
+    "Harryette Mullen": {
+      "n": 201,
+      "avg_coverage": 0.5038,
+      "avg_s2": -0.2454,
+      "precision_shot_rate": 1.99,
+      "scatter_dev_rate": 3.98,
+      "ps_to_sd_ratio": 0.44
+    },
+    "Barrett Watten": {
+      "n": 116,
+      "avg_coverage": 0.601,
+      "avg_s2": -0.9877,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 0.86,
+      "ps_to_sd_ratio": 0.0
+    },
+    "Wis\u0142awa Szymborska": {
+      "n": 326,
+      "avg_coverage": 0.5495,
+      "avg_s2": -0.7639,
+      "precision_shot_rate": 1.84,
+      "scatter_dev_rate": 2.15,
+      "ps_to_sd_ratio": 0.75
+    },
+    "Synthetic (scientific register test case)": {
+      "n": 354,
+      "avg_coverage": 0.5925,
+      "avg_s2": -0.184,
+      "precision_shot_rate": 3.67,
+      "scatter_dev_rate": 2.54,
+      "ps_to_sd_ratio": 1.3
+    },
+    "Sonia Sanchez": {
+      "n": 102,
+      "avg_coverage": 0.7023,
+      "avg_s2": -0.2949,
+      "precision_shot_rate": 2.94,
+      "scatter_dev_rate": 0.0,
+      "ps_to_sd_ratio": 3.0
+    },
+    "Synthetic (OuLiPo N+7 test case)": {
+      "n": 156,
+      "avg_coverage": 0.5194,
+      "avg_s2": -0.2,
+      "precision_shot_rate": 1.28,
+      "scatter_dev_rate": 3.85,
+      "ps_to_sd_ratio": 0.29
+    },
+    "Synthetic (cliche_control test case)": {
+      "n": 156,
+      "avg_coverage": 0.6417,
+      "avg_s2": -1.0693,
+      "precision_shot_rate": 1.92,
+      "scatter_dev_rate": 1.92,
+      "ps_to_sd_ratio": 0.75
+    },
+    "Synthetic (shadow-divergence test case)": {
+      "n": 169,
+      "avg_coverage": 0.6988,
+      "avg_s2": -0.6848,
+      "precision_shot_rate": 4.73,
+      "scatter_dev_rate": 0.59,
+      "ps_to_sd_ratio": 4.0
+    },
+    "Found (legal boilerplate, public domain)": {
+      "n": 111,
+      "avg_coverage": 0.7821,
+      "avg_s2": -0.5653,
+      "precision_shot_rate": 4.5,
+      "scatter_dev_rate": 0.0,
+      "ps_to_sd_ratio": 5.0
+    },
+    "Synthetic (shadow-poem meta-poem)": {
+      "n": 195,
+      "avg_coverage": 0.6523,
+      "avg_s2": -0.1102,
+      "precision_shot_rate": 3.59,
+      "scatter_dev_rate": 4.1,
+      "ps_to_sd_ratio": 0.78
+    },
+    "Barbara Guest": {
+      "n": 251,
+      "avg_coverage": 0.5862,
+      "avg_s2": -0.5366,
+      "precision_shot_rate": 2.39,
+      "scatter_dev_rate": 3.98,
+      "ps_to_sd_ratio": 0.55
+    },
+    "Ted Berrigan": {
+      "n": 251,
+      "avg_coverage": 0.6363,
+      "avg_s2": -0.9254,
+      "precision_shot_rate": 1.59,
+      "scatter_dev_rate": 1.2,
+      "ps_to_sd_ratio": 1.0
+    },
+    "James Schuyler": {
+      "n": 143,
+      "avg_coverage": 0.6008,
+      "avg_s2": -0.9285,
+      "precision_shot_rate": 2.1,
+      "scatter_dev_rate": 2.8,
+      "ps_to_sd_ratio": 0.6
+    },
+    "Anne Waldman": {
+      "n": 144,
+      "avg_coverage": 0.6806,
+      "avg_s2": -0.5943,
+      "precision_shot_rate": 2.08,
+      "scatter_dev_rate": 0.69,
+      "ps_to_sd_ratio": 1.5
+    },
+    "Robert Creeley": {
+      "n": 147,
+      "avg_coverage": 0.5606,
+      "avg_s2": -0.0683,
+      "precision_shot_rate": 2.72,
+      "scatter_dev_rate": 2.72,
+      "ps_to_sd_ratio": 0.8
+    },
+    "William Stafford": {
+      "n": 298,
+      "avg_coverage": 0.5745,
+      "avg_s2": 0.0887,
+      "precision_shot_rate": 3.02,
+      "scatter_dev_rate": 3.69,
+      "ps_to_sd_ratio": 0.75
+    },
+    "C.K. Williams": {
+      "n": 317,
+      "avg_coverage": 0.5811,
+      "avg_s2": -0.888,
+      "precision_shot_rate": 1.26,
+      "scatter_dev_rate": 1.58,
+      "ps_to_sd_ratio": 0.67
+    },
+    "George Oppen": {
+      "n": 507,
+      "avg_coverage": 0.5901,
+      "avg_s2": -0.9271,
+      "precision_shot_rate": 2.76,
+      "scatter_dev_rate": 1.78,
+      "ps_to_sd_ratio": 1.4
+    },
+    "Galway Kinnell": {
+      "n": 225,
+      "avg_coverage": 0.598,
+      "avg_s2": -0.1556,
+      "precision_shot_rate": 4.44,
+      "scatter_dev_rate": 2.22,
+      "ps_to_sd_ratio": 1.67
+    },
+    "Jack Gilbert": {
+      "n": 133,
+      "avg_coverage": 0.5763,
+      "avg_s2": -0.3563,
+      "precision_shot_rate": 1.5,
+      "scatter_dev_rate": 2.26,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Henry Vaughan": {
+      "n": 143,
+      "avg_coverage": 0.4836,
+      "avg_s2": -0.3386,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 2.1,
+      "ps_to_sd_ratio": 0.0
+    },
+    "Thomas Traherne": {
+      "n": 127,
+      "avg_coverage": 0.5423,
+      "avg_s2": -0.4071,
+      "precision_shot_rate": 0.79,
+      "scatter_dev_rate": 0.79,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Richard Crashaw": {
+      "n": 135,
+      "avg_coverage": 0.5245,
+      "avg_s2": -0.823,
+      "precision_shot_rate": 0.74,
+      "scatter_dev_rate": 1.48,
+      "ps_to_sd_ratio": 0.33
+    },
+    "Francis Thompson": {
+      "n": 322,
+      "avg_coverage": 0.5762,
+      "avg_s2": 0.4726,
+      "precision_shot_rate": 5.59,
+      "scatter_dev_rate": 4.66,
+      "ps_to_sd_ratio": 1.12
+    },
+    "Michael Drayton": {
+      "n": 156,
+      "avg_coverage": 0.5293,
+      "avg_s2": -0.4994,
+      "precision_shot_rate": 2.56,
+      "scatter_dev_rate": 3.21,
+      "ps_to_sd_ratio": 0.67
+    },
+    "Anne Bradstreet": {
+      "n": 134,
+      "avg_coverage": 0.5878,
+      "avg_s2": -0.1813,
+      "precision_shot_rate": 4.48,
+      "scatter_dev_rate": 1.49,
+      "ps_to_sd_ratio": 2.0
+    },
+    "Thomas Campion": {
+      "n": 126,
+      "avg_coverage": 0.5062,
+      "avg_s2": 0.2684,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 2.38,
+      "ps_to_sd_ratio": 0.0
+    },
+    "Samuel Daniel": {
+      "n": 155,
+      "avg_coverage": 0.4845,
+      "avg_s2": -0.753,
+      "precision_shot_rate": 1.29,
+      "scatter_dev_rate": 4.52,
+      "ps_to_sd_ratio": 0.25
+    },
+    "Synthetic (procedural test case)": {
+      "n": 284,
+      "avg_coverage": 0.6313,
+      "avg_s2": -0.6701,
+      "precision_shot_rate": 2.11,
+      "scatter_dev_rate": 1.41,
+      "ps_to_sd_ratio": 1.2
+    },
+    "Hesiod (trans. Mair, 1908)": {
+      "n": 124,
+      "avg_coverage": 0.5209,
+      "avg_s2": -0.1867,
+      "precision_shot_rate": 1.61,
+      "scatter_dev_rate": 5.65,
+      "ps_to_sd_ratio": 0.25
+    },
+    "Benjamin Franklin": {
+      "n": 81,
+      "avg_coverage": 0.5487,
+      "avg_s2": -0.2713,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 6.17,
+      "ps_to_sd_ratio": 0.0
+    },
+    "Horace (trans. Howes, 1849)": {
+      "n": 151,
+      "avg_coverage": 0.476,
+      "avg_s2": -0.37,
+      "precision_shot_rate": 3.31,
+      "scatter_dev_rate": 2.65,
+      "ps_to_sd_ratio": 1.0
+    },
+    "Synthetic (OuLiPo lipogram test)": {
+      "n": 55,
+      "avg_coverage": 0.5783,
+      "avg_s2": -0.2309,
+      "precision_shot_rate": 3.64,
+      "scatter_dev_rate": 0.0,
+      "ps_to_sd_ratio": 2.0
+    },
+    "Synthetic (OuLiPo N+7 of Dickinson)": {
+      "n": 58,
+      "avg_coverage": 0.4499,
+      "avg_s2": 0.1589,
+      "precision_shot_rate": 1.72,
+      "scatter_dev_rate": 8.62,
+      "ps_to_sd_ratio": 0.17
+    },
+    "Synthetic (Instagram poetry style)": {
+      "n": 58,
+      "avg_coverage": 0.5463,
+      "avg_s2": -0.9696,
+      "precision_shot_rate": 5.17,
+      "scatter_dev_rate": 1.72,
+      "ps_to_sd_ratio": 1.5
+    },
+    "Synthetic (acrostic constraint test)": {
+      "n": 76,
+      "avg_coverage": 0.5295,
+      "avg_s2": -0.7712,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 3.95,
+      "ps_to_sd_ratio": 0.0
+    },
+    "Synthetic (palindromic constraint test)": {
+      "n": 51,
+      "avg_coverage": 0.6486,
+      "avg_s2": -1.5155,
+      "precision_shot_rate": 1.96,
+      "scatter_dev_rate": 0.0,
+      "ps_to_sd_ratio": 1.0
+    },
+    "Synthetic (stanza-break \u03b1 inheritance test)": {
+      "n": 253,
+      "avg_coverage": 0.6651,
+      "avg_s2": -0.2091,
+      "precision_shot_rate": 3.16,
+      "scatter_dev_rate": 1.19,
+      "ps_to_sd_ratio": 2.0
+    },
+    "Terrance Hayes": {
+      "n": 159,
+      "avg_coverage": 0.6757,
+      "avg_s2": -0.8767,
+      "precision_shot_rate": 2.52,
+      "scatter_dev_rate": 0.63,
+      "ps_to_sd_ratio": 2.0
+    },
+    "Charles Reznikoff": {
+      "n": 196,
+      "avg_coverage": 0.7119,
+      "avg_s2": -0.5639,
+      "precision_shot_rate": 3.57,
+      "scatter_dev_rate": 0.51,
+      "ps_to_sd_ratio": 3.5
+    },
+    "Louis Zukofsky": {
+      "n": 272,
+      "avg_coverage": 0.6567,
+      "avg_s2": -0.8281,
+      "precision_shot_rate": 3.31,
+      "scatter_dev_rate": 2.21,
+      "ps_to_sd_ratio": 1.29
+    },
+    "James Weldon Johnson": {
+      "n": 132,
+      "avg_coverage": 0.6699,
+      "avg_s2": -0.7515,
+      "precision_shot_rate": 0.76,
+      "scatter_dev_rate": 0.76,
+      "ps_to_sd_ratio": 0.5
+    },
+    "Sharon Olds": {
+      "n": 207,
+      "avg_coverage": 0.567,
+      "avg_s2": -0.9131,
+      "precision_shot_rate": 0.0,
+      "scatter_dev_rate": 1.45,
+      "ps_to_sd_ratio": 0.0
+    },
+    "Ada Lim\u00f3n": {
+      "n": 115,
+      "avg_coverage": 0.6392,
+      "avg_s2": -0.9,
+      "precision_shot_rate": 1.74,
+      "scatter_dev_rate": 0.87,
+      "ps_to_sd_ratio": 1.0
+    }
+  },
+  "precision_shots_top30": [
+    {
+      "title": "In Goya's greatest scenes",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "token": " gro",
+      "s2": 36.66,
+      "coverage": 0.999,
+      "top_expected": " ",
+      "top_expected_prob": 0.997
+    },
+    {
+      "title": "Constantly Risking Absurdity",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "token": " climbs",
+      "s2": 28.25,
+      "coverage": 0.989,
+      "top_expected": " ",
+      "top_expected_prob": 0.98
+    },
+    {
+      "title": "Bluebird",
+      "author": "Charles Bukowski",
+      "era": "spoken_word",
+      "token": " pour",
+      "s2": 27.73,
+      "coverage": 0.999,
+      "top_expected": "'m",
+      "top_expected_prob": 0.997
+    },
+    {
+      "title": "Calypso",
+      "author": "Kamau Brathwaite",
+      "era": "postcolonial",
+      "token": " hum",
+      "s2": 25.65,
+      "coverage": 0.995,
+      "top_expected": " ",
+      "top_expected_prob": 0.985
+    },
+    {
+      "title": "The Fish",
+      "author": "Marianne Moore",
+      "era": "modernist",
+      "token": " glass",
+      "s2": 25.63,
+      "coverage": 0.998,
+      "top_expected": " ",
+      "top_expected_prob": 0.993
+    },
+    {
+      "title": "Constantly Risking Absurdity",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "token": " whenever",
+      "s2": 25.6,
+      "coverage": 0.989,
+      "top_expected": " ",
+      "top_expected_prob": 0.979
+    },
+    {
+      "title": "Pied Beauty",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "token": "Fresh",
+      "s2": 25.48,
+      "coverage": 0.985,
+      "top_expected": "\n",
+      "top_expected_prob": 0.869
+    },
+    {
+      "title": "My Life by Water",
+      "author": "Lorine Niedecker",
+      "era": "objectivist",
+      "token": " write",
+      "s2": 23.69,
+      "coverage": 0.998,
+      "top_expected": " ",
+      "top_expected_prob": 0.994
+    },
+    {
+      "title": "Komm in den totgesagten park und schau",
+      "author": "Stefan George",
+      "era": "german_symbolist",
+      "token": " ferner",
+      "s2": 23.4,
+      "coverage": 0.966,
+      "top_expected": "t",
+      "top_expected_prob": 0.822
+    },
+    {
+      "title": "S+7: Genesis (N+7 variant)",
+      "author": "Jean Lescure",
+      "era": "oulipo",
+      "token": "jar",
+      "s2": 22.97,
+      "coverage": 0.956,
+      "top_expected": "time",
+      "top_expected_prob": 0.784
+    },
+    {
+      "title": "The Battle of Maldon (excerpt, trans. E.V. Gordon)",
+      "author": "Anonymous (trans. E.V. Gordon)",
+      "era": "old_english",
+      "token": "riot",
+      "s2": 22.73,
+      "coverage": 0.803,
+      "top_expected": " may",
+      "top_expected_prob": 0.393
+    },
+    {
+      "title": "Constantly Risking Absurdity",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "token": " p",
+      "s2": 22.3,
+      "coverage": 1.0,
+      "top_expected": " ",
+      "top_expected_prob": 0.998
+    },
+    {
+      "title": "Dulce et Decorum Est",
+      "author": "Wilfred Owen",
+      "era": "war_poetry",
+      "token": "'",
+      "s2": 22.13,
+      "coverage": 1.0,
+      "top_expected": "ering",
+      "top_expected_prob": 0.978
+    },
+    {
+      "title": "For I will consider my Cat Jeoffry (excerpt)",
+      "author": "Christopher Smart",
+      "era": "18th_century",
+      "token": " prank",
+      "s2": 22.13,
+      "coverage": 0.916,
+      "top_expected": " the",
+      "top_expected_prob": 0.455
+    },
+    {
+      "title": "Pied Beauty",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "token": " Pra",
+      "s2": 22.09,
+      "coverage": 0.988,
+      "top_expected": " ",
+      "top_expected_prob": 0.873
+    },
+    {
+      "title": "God's Grandeur",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "token": " shook",
+      "s2": 22.04,
+      "coverage": 0.851,
+      "top_expected": " the",
+      "top_expected_prob": 0.387
+    },
+    {
+      "title": "For I Will Consider My Cat Jeoffry (excerpt)",
+      "author": "Christopher Smart",
+      "era": "18th_century",
+      "token": " prank",
+      "s2": 22.02,
+      "coverage": 0.914,
+      "top_expected": " the",
+      "top_expected_prob": 0.45
+    },
+    {
+      "title": "Calypso",
+      "author": "Kamau Brathwaite",
+      "era": "postcolonial",
+      "token": " Gu",
+      "s2": 21.8,
+      "coverage": 0.994,
+      "top_expected": " ",
+      "top_expected_prob": 0.983
+    },
+    {
+      "title": "Pied Beauty",
+      "author": "Gerard Manley Hopkins",
+      "era": "victorian",
+      "token": " Pra",
+      "s2": 20.72,
+      "coverage": 0.981,
+      "top_expected": " ",
+      "top_expected_prob": 0.857
+    },
+    {
+      "title": "In Goya's greatest scenes",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "token": " suffering",
+      "s2": 20.68,
+      "coverage": 0.918,
+      "top_expected": " ",
+      "top_expected_prob": 0.844
+    },
+    {
+      "title": "Song of Myself (section 15, catalogue)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "token": " printer",
+      "s2": 20.64,
+      "coverage": 0.961,
+      "top_expected": "ne",
+      "top_expected_prob": 0.875
+    },
+    {
+      "title": "One Art",
+      "author": "Elizabeth Bishop",
+      "era": "mid_century",
+      "token": " badly",
+      "s2": 20.59,
+      "coverage": 0.937,
+      "top_expected": "glass",
+      "top_expected_prob": 0.836
+    },
+    {
+      "title": "Song of Myself (section 1)",
+      "author": "Walt Whitman",
+      "era": "19th_century",
+      "token": " observing",
+      "s2": 20.4,
+      "coverage": 0.953,
+      "top_expected": ",",
+      "top_expected_prob": 0.55
+    },
+    {
+      "title": "Of Being Numerous (opening)",
+      "author": "George Oppen",
+      "era": "objectivist",
+      "token": " optics",
+      "s2": 20.09,
+      "coverage": 0.81,
+      "top_expected": ",",
+      "top_expected_prob": 0.473
+    },
+    {
+      "title": "In Goya's greatest scenes",
+      "author": "Lawrence Ferlinghetti",
+      "era": "beat",
+      "token": " under",
+      "s2": 19.99,
+      "coverage": 0.977,
+      "top_expected": " ",
+      "top_expected_prob": 0.965
+    },
+    {
+      "title": "Bluebird",
+      "author": "Charles Bukowski",
+      "era": "spoken_word",
+      "token": "cigarette",
+      "s2": 19.78,
+      "coverage": 0.939,
+      "top_expected": "\n",
+      "top_expected_prob": 0.848
+    },
+    {
+      "title": "Fra Lippo Lippi (opening)",
+      "author": "Robert Browning",
+      "era": "dramatic_monologue",
+      "token": " torches",
+      "s2": 19.69,
+      "coverage": 0.99,
+      "top_expected": " hands",
+      "top_expected_prob": 0.96
+    },
+    {
+      "title": "Fra Lippo Lippi (opening)",
+      "author": "Robert Browning",
+      "era": "ekphrastic",
+      "token": " torches",
+      "s2": 19.69,
+      "coverage": 0.99,
+      "top_expected": " hands",
+      "top_expected_prob": 0.96
+    },
+    {
+      "title": "Whoso List to Hunt",
+      "author": "Thomas Wyatt",
+      "era": "early_modern",
+      "token": " list",
+      "s2": 19.48,
+      "coverage": 0.937,
+      "top_expected": "ever",
+      "top_expected_prob": 0.923
+    },
+    {
+      "title": "Pi (Szymborska)",
+      "author": "Wis\u0142awa Szymborska",
+      "era": "contemporary",
+      "token": " pi",
+      "s2": 19.39,
+      "coverage": 0.915,
+      "top_expected": " of",
+      "top_expected_prob": 0.862
+    }
+  ]
+}
